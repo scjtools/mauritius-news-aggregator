@@ -1,7 +1,6 @@
 # Mauritius public holidays
-# Source: publicholidays.mu (via officeholidays.com scraper)
-# This file is updated automatically on the 1st of each month by the
-# update-public-holidays GitHub Actions workflow.
+# Source: officeholidays.com/countries/mauritius
+# Updated automatically on the 1st of each month.
 # To update manually: Actions → Update public holidays → Run workflow
 # Last updated: 2026-03-19
 
@@ -11,13 +10,13 @@ holidays:
     name: "New Year's Day"
   - date: "2026-01-02"
     name: "New Year's Holiday"
-  - date: "2026-01-29"
-    name: "Thaipoosam Cavadee"
-  - date: "2026-02-18"
+  - date: "2026-02-01"
     name: "Abolition of Slavery"
-  - date: "2026-02-26"
+  - date: "2026-02-01"
+    name: "Thaipoosam Cavadee"
+  - date: "2026-02-15"
     name: "Maha Shivaratree"
-  - date: "2026-03-01"
+  - date: "2026-02-17"
     name: "Chinese Spring Festival"
   - date: "2026-03-12"
     name: "Independence and Republic Day"
@@ -28,8 +27,8 @@ holidays:
   - date: "2026-05-01"
     name: "Labour Day"
   - date: "2026-08-15"
-    name: "Assumption of the Blessed Virgin Mary"
-  - date: "2026-08-22"
+    name: "Assumption Day"
+  - date: "2026-09-16"
     name: "Ganesh Chaturthi"
   - date: "2026-11-02"
     name: "Arrival of Indentured Labourers"
