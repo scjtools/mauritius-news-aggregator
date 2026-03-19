@@ -4,24 +4,54 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Thu, 19 Mar 2026 17:08:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 18:56:39 +0000</lastBuildDate>
+    <item>
+      <title>CEB power outage – Saint Hubert, Grandport on 24 March 2026</title>
+      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
+      <description>Saint Hubert (Grandport): 09:00 to 16:00. Areas affected: Saint Hubert Village et Mare Chicose</description>
+      <pubDate>2026-03-24T05:00:00+00:00</pubDate>
+      <guid>831083687f6d92ea54570478c6f2193b</guid>
+      <source>CEB Power Outages</source>
+      <category>utilities</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>CEB power outage – Saint Pierre, Moka on 22 March 2026</title>
+      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
+      <description>Saint Pierre (Moka): 08:30 to 15:00. Areas affected: Zone Industrielle, Plastinax, Panache et Associated Textile</description>
+      <pubDate>2026-03-22T04:30:00+00:00</pubDate>
+      <guid>8a70115cb759e5d50b457fe645b4ae60</guid>
+      <source>CEB Power Outages</source>
+      <category>utilities</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>CEB power outage – Villenoire, Grandport on 20 March 2026</title>
+      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
+      <description>Villenoire (Grandport): 09:00 to 15:00. Areas affected: Ville Noire habitant dans le périmètre et les rues suivantes: VRS Ville Noire, NHDC Ville Noire et Morcellement Blue Print Ville Noire</description>
+      <pubDate>2026-03-20T05:00:00+00:00</pubDate>
+      <guid>0f132138d52e54896e16fa13909f53cc</guid>
+      <source>CEB Power Outages</source>
+      <category>utilities</category>
+      <language>en</language>
+    </item>
     <item>
       <title>Bitcoin price – 19 March 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 69,382.74</description>
-      <pubDate>2026-03-19T17:08:26.478345+00:00</pubDate>
+      <description>Bitcoin (BTC): USD 69,638.48</description>
+      <pubDate>2026-03-19T18:56:39.438858+00:00</pubDate>
       <guid>4876bf829f6da1637f1744462579ca62</guid>
-      <source>Bitcoin price (BTC)</source>
+      <source>Bitcoin Price</source>
       <category>finance</category>
       <language>en</language>
     </item>
     <item>
       <title>Gold price – 19 March 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,589.80</description>
-      <pubDate>2026-03-19T17:08:26.179735+00:00</pubDate>
+      <description>Gold (XAU): USD 4,607.80</description>
+      <pubDate>2026-03-19T18:56:39.112923+00:00</pubDate>
       <guid>a7556bdecccda34ec1eef495306b395d</guid>
-      <source>Gold price (XAU)</source>
+      <source>Gold Price</source>
       <category>finance</category>
       <language>en</language>
     </item>
@@ -29,19 +59,9 @@
       <title>MUR exchange rates – 19 March 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
       <description>1 MUR = 0.02149936 USD USD | 1 MUR = 0.01872845 EUR EUR</description>
-      <pubDate>2026-03-19T17:08:25.692394+00:00</pubDate>
+      <pubDate>2026-03-19T18:56:38.593432+00:00</pubDate>
       <guid>2ab27c397c3c4006ae914556a2503758</guid>
-      <source>FloatRates MUR</source>
-      <category>finance</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Petroleum retail prices – March 2026</title>
-      <link>https://www.stcmu.com/ppm/press-release</link>
-      <description>Mogas: Rs 58.45/litre | Gas Oil: Rs 58.45/litre</description>
-      <pubDate>2026-03-19T17:08:25.281784+00:00</pubDate>
-      <guid>a8faf6b087a76790d49c69651b6b2ee6</guid>
-      <source>MOGAS price</source>
+      <source>MUR Exchange Rates</source>
       <category>finance</category>
       <language>en</language>
     </item>
@@ -49,9 +69,9 @@
       <title>SEMDEX – 19 March 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2229.07</description>
-      <pubDate>2026-03-19T17:08:24.655740+00:00</pubDate>
+      <pubDate>2026-03-19T18:56:36.067148+00:00</pubDate>
       <guid>b659216c45e6e310d6ec94eab64268d0</guid>
-      <source>SEMDEX</source>
+      <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
       <language>en</language>
     </item>
@@ -59,418 +79,888 @@
       <title>Mauritius weather bulletin – 19 March 2026</title>
       <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
       <description>Welcome to Mauritius Meteorological Services Weather news for Mauritius issued at 16h30 on Thursday 19 March 2026.General situation:Few clouds coming from the eastern sector will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy during the night and tomorrow morning becoming cloudy at times to the East and over the Central Plateau with few showers.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degree</description>
-      <pubDate>2026-03-19T17:08:22.272615+00:00</pubDate>
+      <pubDate>2026-03-19T18:56:31.597161+00:00</pubDate>
       <guid>40f41d36063164099490d41988ccdf0f</guid>
-      <source>Mauritius Meteorological Services</source>
+      <source>Mauritius Met Services</source>
       <category>weather</category>
       <language>en</language>
     </item>
     <item>
-      <title>Certificat d’investissement révoqué : Global Equestrian Ltd ne pourra pas contester la décision de l’EDB</title>
-      <link>https://defimedia.infocertificat-dinvestissement-revoque-global-equestrian-ltd-ne-pourra-pas-contester-la-decision-de</link>
+      <title>Contribution, fiscalité et attractivité : les défis du secteur bancaire</title>
+      <link>https://defimedia.info/economiecontribution-fiscalite-et-attractivite-les-defis-du-secteur-bancaire</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.049092+00:00</pubDate>
-      <guid>cd447a10f9d5d7c15cbd87ed275f5db3</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.087915+00:00</pubDate>
+      <guid>afa0a363a6fca97ee30afca38913e4d6</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>La Malaisie devient le premier pays à annuler un accord tarifaire avec les États-Unis</title>
-      <link>https://defimedia.infola-malaisie-devient-le-premier-pays-annuler-un-accord-tarifaire-avec-les-etats-unis</link>
+      <title>Finance durable : La BoM alerte sur des risques désormais financiers</title>
+      <link>https://defimedia.info/economiefinance-durable-la-bom-alerte-sur-des-risques-desormais-financiers</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.048591+00:00</pubDate>
-      <guid>deb4aa0c95c6658e0b33a5413feabb81</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.087631+00:00</pubDate>
+      <guid>8be3c07733ee521b9ee169bd639d3994</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Ramgoolam : « Budget pa pou fasil… li pou enn budget dir ankor, mo bien sagrin »</title>
-      <link>https://defimedia.inforamgoolam-budget-pa-pou-fasil-li-pou-enn-budget-dir-ankor-mo-bien-sagrin</link>
+      <title>Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois</title>
+      <link>https://defimedia.info/economieinvestissements-etrangers-maurice-capte-rs-4039-md-en-9-mois</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.048068+00:00</pubDate>
-      <guid>2a3423d52ef95fda104a55f0b3a51d01</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.087360+00:00</pubDate>
+      <guid>9ed78bee09cfd57fa47cf1d609dea14f</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Exclu de l’ordre professionnel en 2025 : la Cour suprême rejette la demande d’injonction d’un dentiste</title>
-      <link>https://defimedia.infoexclu-de-lordre-professionnel-en-2025-la-cour-supreme-rejette-la-demande-dinjonction-dun-dentiste</link>
+      <title>La dette des corps parapublics descend à Rs 61,73 milliards</title>
+      <link>https://defimedia.info/economiela-dette-des-corps-parapublics-descend-rs-6173-milliards</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.047569+00:00</pubDate>
-      <guid>f27025c2d8336f5675de74d4c6aa7f06</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.087107+00:00</pubDate>
+      <guid>b9feea54148f16e2a311d479021849db</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Un ministre israélien qualifie la guerre de « bénédiction immense pour Israël »</title>
-      <link>https://defimedia.infoun-ministre-israelien-qualifie-la-guerre-de-benediction-immense-pour-israel</link>
+      <title>Hausse des prix continue - Fruits : l’addition est salée pour les consommateurs</title>
+      <link>https://defimedia.info/economiehausse-des-prix-continue-fruits-laddition-est-salee-pour-les-consommateurs</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.047021+00:00</pubDate>
-      <guid>6664549323c381dd163525816c54fcd6</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.086850+00:00</pubDate>
+      <guid>542626b2e68f7e3784b06133e6ef9a63</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Le chancelier allemand Merz salue le « signal » de Trump en faveur d’une fin des combats</title>
-      <link>https://defimedia.infole-chancelier-allemand-merz-salue-le-signal-de-trump-en-faveur-dune-fin-des-combats</link>
+      <title>Investissements douteux : la BoM et la FSC appellent à la vigilance du public</title>
+      <link>https://defimedia.info/economieinvestissements-douteux-la-bom-et-la-fsc-appellent-la-vigilance-du-public</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.046505+00:00</pubDate>
-      <guid>4aeed6d1b30dbaa03e8381241cabeea3</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.086585+00:00</pubDate>
+      <guid>9845b5073dc970ff5095950858d9c8dd</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Jayen Chellum, secrétaire général de l’ACIM : « La STC doit jouer son rôle de chien de garde sur le marché »</title>
-      <link>https://defimedia.infojayen-chellum-secretaire-general-de-lacim-la-stc-doit-jouer-son-role-de-chien-de-garde-sur-le</link>
+      <title>Secteur financier - Affaire Epstein et finance offshore : où se situe Maurice ?</title>
+      <link>https://defimedia.info/economiesecteur-financier-affaire-epstein-et-finance-offshore-ou-se-situe-maurice</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.045953+00:00</pubDate>
-      <guid>f446ce9909eda19a23eb2fd6fc9a92be</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.086267+00:00</pubDate>
+      <guid>f8cc84fc9d509f457e9cbcd963d429f0</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Réhabilitation du parking du stade Anjalay : « Un lieu provisoire pour les rallyes automobiles », annonce Osman Mahomed</title>
-      <link>https://defimedia.inforehabilitation-du-parking-du-stade-anjalay-un-lieu-provisoire-pour-les-rallyes-automobiles-annonce</link>
+      <title>Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS</title>
+      <link>https://defimedia.info/economiepotentiel-inexploite-rs-21-md-portee-de-main-dans-le-non-hotelier-selon-axys</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.045416+00:00</pubDate>
-      <guid>aac390b5b4309104ddc5a909296e7e04</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.086009+00:00</pubDate>
+      <guid>780f6619421131ee595423afedc5ad3b</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Accident à Belle-Étoile : un motocycliste de 75 ans perd la vie</title>
-      <link>https://defimedia.infoaccident-belle-etoile-un-motocycliste-de-75-ans-perd-la-vie</link>
+      <title>La Banque mondiale en mission à Maurice jusqu’au 13 février</title>
+      <link>https://defimedia.info/economiela-banque-mondiale-en-mission-maurice-jusquau-13-fevrier</link>
       <description/>
-      <pubDate>2026-03-19T17:08:21.044597+00:00</pubDate>
-      <guid>12db464997f295b7bbed791663237ad7</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.085750+00:00</pubDate>
+      <guid>638afebc3a7bc2346007aebfce50648b</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»</title>
-      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-yoshinee-parasuraman-une-organisation-bien-gouvernee</link>
+      <title>Entre décembre et janvier : gros pois, pilchards, poulet en baisse, bœuf et mouton en hausse</title>
+      <link>https://defimedia.info/economieentre-decembre-et-janvier-gros-pois-pilchards-poulet-en-baisse-boeuf-et-mouton-en-hausse</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.987287+00:00</pubDate>
-      <guid>b7b2c2dbc78efc7c25da9fdb7d73130e</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.085473+00:00</pubDate>
+      <guid>5672688fc5de71f133a7fcea2acbbbdb</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Nouvelle cargaison de gaz ménager : « Il n’y a pas lieu de paniquer », rassure Michael Sik Yuen</title>
-      <link>https://defimedia.infonouvelle-cargaison-de-gaz-menager-il-ny-pas-lieu-de-paniquer-rassure-michael-sik-yuen</link>
+      <title>Governance with Grit : une formation pour repenser le rôle des professionnels de la gouvernance</title>
+      <link>https://defimedia.info/economiegovernance-grit-une-formation-pour-repenser-le-role-des-professionnels-de-la-gouvernance</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.986755+00:00</pubDate>
-      <guid>49b7de8fea1f7aaceb2e4d35c7bc1bf3</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.085217+00:00</pubDate>
+      <guid>efa8463cd701defe59505e7c4952f5a0</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»</title>
-      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-novan-maharahaje-la-gouvernance-est-le-socle-de-la</link>
+      <title>Étude de cas - Tourisme : pourquoi le Sri Lanka devance Maurice sur tous les fronts</title>
+      <link>https://defimedia.info/economieetude-de-cas-tourisme-pourquoi-le-sri-lanka-devance-maurice-sur-tous-les-fronts</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.986195+00:00</pubDate>
-      <guid>bc99e4fa269e59dfc72dbb9e8e82fd99</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.084959+00:00</pubDate>
+      <guid>7effe0d30bdd158f2d36f2d0554a8c8d</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Eid-ul-Fitr célébrée ce samedi 21 mars à Maurice</title>
-      <link>https://defimedia.infoeid-ul-fitr-celebree-ce-samedi-21-mars-maurice</link>
+      <title>De la viande aux pâtes : la facture s’alourdit pour les ménages mauriciens en ce mois de février</title>
+      <link>https://defimedia.info/economiede-la-viande-aux-pates-la-facture-salourdit-pour-les-menages-mauriciens-en-ce-mois-de-fevrier</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.985375+00:00</pubDate>
-      <guid>37b0e4161750d7c83c3de9b51664fa6d</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.084703+00:00</pubDate>
+      <guid>01e896fbfbf34804b7f31f76791f7e21</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Nouvelle semaine de repli pour les indices mauriciens</title>
+      <link>https://defimedia.info/economienouvelle-semaine-de-repli-pour-les-indices-mauriciens</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:28.084430+00:00</pubDate>
+      <guid>8b1aa5c520f099beaefc1f8aa2616c05</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Billets, visas, packages…ce qu’il faut savoir pour assister aux matchs du Mondial 2026</title>
+      <link>https://defimedia.info/economiebillets-visas-packagesce-quil-faut-savoir-pour-assister-aux-matchs-du-mondial-2026</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:28.084172+00:00</pubDate>
+      <guid>90fb056346fce441ee69cc670580aebc</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Budget de l’État : Rs 91,36 milliards consacrées aux dépenses sociales</title>
+      <link>https://defimedia.info/economiebudget-de-letat-rs-9136-milliards-consacrees-aux-depenses-sociales</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:28.083915+00:00</pubDate>
+      <guid>5538440cea9f37a80b73b0e040037fb0</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Budget 2026/27 : croissance, inclusion et résilience</title>
+      <link>https://defimedia.info/economiebudget-202627-croissance-inclusion-et-resilience</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:28.083648+00:00</pubDate>
+      <guid>25d8644a4f492518312b4351a129c22b</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Transition économique : les femmes, le nouveau moteur de la croissance</title>
+      <link>https://defimedia.info/economietransition-economique-les-femmes-le-nouveau-moteur-de-la-croissance</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:28.083369+00:00</pubDate>
+      <guid>a3f678d084ce0dd45e6e7b2480b32d42</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Construction : du gaspillage à l’économie circulaire</title>
+      <link>https://defimedia.info/economieconstruction-du-gaspillage-leconomie-circulaire</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:28.083106+00:00</pubDate>
+      <guid>c0299f65ceb9ae9b0aed40bf225d8523</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
       <title>Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»</title>
-      <link>https://defimedia.infoshaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un</link>
+      <link>https://defimedia.info/economieshaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.874673+00:00</pubDate>
-      <guid>2d184e7d0cfacab630031f14cb1915a7</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:28.082712+00:00</pubDate>
+      <guid>8523918fd9c3757fe9ccf6eb45d896ad</guid>
+      <source>Defimedia Économie</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>[Info Soirée] : « ZOT BIZIN DECIDE, ME MO LAPEL SE LINITE »</title>
-      <link>https://defimedia.infoinfo-soiree-zot-bizin-decide-me-mo-lapel-se-linite</link>
+      <title>Importation de cannabis depuis l’Afrique du Sud : trois suspects arrêtés lors d’une &quot;Controlled Delivery&quot;</title>
+      <link>https://defimedia.info/faits-diversimportation-de-cannabis-depuis-lafrique-du-sud-trois-suspects-arretes-lors-dune-controlled-delivery</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.873816+00:00</pubDate>
-      <guid>d3e9a0c8aab7ba9606c088426f318fb0</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:25.541105+00:00</pubDate>
+      <guid>9daa607aaa1bf1bafedefcfcf26a77c2</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises</title>
-      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-au-dela-de-la-conformite-la-gouvernance-au-service</link>
+      <title>Saisie de Rs 75 millions d’héroïne à Plaisance : une &quot;Controlled Delivery&quot; aux Seychelles mène à quatre arrestations</title>
+      <link>https://defimedia.info/faits-diverssaisie-de-rs-75-millions-dheroine-plaisance-une-controlled-delivery-aux-seychelles-mene-quatre</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.780454+00:00</pubDate>
-      <guid>b971d24b1278c37042cb26221bbb0756</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:25.540849+00:00</pubDate>
+      <guid>8e2c6ee414496c3494a2ac4c1181ec73</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Ramgoolam : « Bhagwan et Gunness sont des bulldozers… Nous avons une équipe solide »</title>
-      <link>https://defimedia.inforamgoolam-bhagwan-et-gunness-sont-des-bulldozers-nous-avons-une-equipe-solide</link>
+      <title>Meurtre de Beedwantee Beeharry tuée par son fils : l'héritage familial à l'origine des tensions</title>
+      <link>https://defimedia.info/faits-diversmeurtre-de-beedwantee-beeharry-tuee-par-son-fils-lheritage-familial-lorigine-des-tensions</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.779866+00:00</pubDate>
-      <guid>8d0bae33db8e88cfae8b7e0eabe8265f</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:25.540593+00:00</pubDate>
+      <guid>ae7a4100eb684b3c92f2b03c328dadd3</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre de Rebecca Larétif dans une maison de retraite : la famille de la victime dénonce le silence du centre</title>
+      <link>https://defimedia.info/faits-diversmeurtre-de-rebecca-laretif-dans-une-maison-de-retraite-la-famille-de-la-victime-denonce-le-silence</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.540320+00:00</pubDate>
+      <guid>35be34345c59c3af7681841c1dc5caf8</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Enquête policière : le compagnon de Yogeshwaree Bhunjun désormais suspecté d’être le commanditaire du meurtre, trois autres arrestations</title>
+      <link>https://defimedia.info/faits-diversenquete-policiere-le-compagnon-de-yogeshwaree-bhunjun-desormais-suspecte-detre-le-commanditaire-du</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.540055+00:00</pubDate>
+      <guid>af54f6492efbdec837d5e092caaec70d</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre de Yogeshwaree Bhunjun : trois suspects, accusés de complicité, reconduits en cellule policière</title>
+      <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-trois-suspects-accuses-de-complicite-reconduits-en-cellule-policiere</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.539785+00:00</pubDate>
+      <guid>27b44dc943a68245f4c99fc8c956d490</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre de Yogeshwaree Bhunjun : deux des trois suspects conduisent les enquêteurs à La Case Noyale</title>
+      <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-deux-des-trois-suspects-conduisent-les-enqueteurs-la-case-noyale</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.539465+00:00</pubDate>
+      <guid>2b69d7b4eea51d0e3150f61fc7c96c12</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Importation de cannabis depuis l’Afrique du Sud : trois suspects, dont l’ancien directeur de la Cargo Handling Corporation, arrêtés lors d’une «Controlled Delivery»</title>
+      <link>https://defimedia.info/faits-diversimportation-de-cannabis-depuis-lafrique-du-sud-trois-suspects-dont-lancien-directeur-de-la-cargo</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.539175+00:00</pubDate>
+      <guid>7401f84741377f12ad73513560d53e18</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre de Yogeshwaree Bhunjun : deux suspects incriminent Arvind Ramchurn, le compagnon de la mère de famille</title>
+      <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-deux-suspects-incriminent-arvind-ramchurn-le-compagnon-de-la-mere-de</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.538926+00:00</pubDate>
+      <guid>84dab5d27dc9085ffd669d92b442586c</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre de Yogeshwaree Bhunjun : le propriétaire d’un bateau entendu par la MCIT</title>
+      <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-le-proprietaire-dun-bateau-entendu-par-la-mcit</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.538670+00:00</pubDate>
+      <guid>17ece0effb5179bce63092c8d6f428ab</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre de Yogeshwaree Bhunjun : les trois suspects en Cour de Pamplemousses</title>
+      <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-les-trois-suspects-en-cour-de-pamplemousses</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.538385+00:00</pubDate>
+      <guid>0c340703deff7185343701d0ced17cb4</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Goodlands : un homme mortellement agressé au sabre</title>
+      <link>https://defimedia.info/faits-diversgoodlands-un-homme-mortellement-agresse-au-sabre</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.538106+00:00</pubDate>
+      <guid>865bfe07b209ba6674e81abec1585d96</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Agression mortelle à Goodlands : fin tragique pour Olivier Pierre Louis</title>
+      <link>https://defimedia.info/faits-diversagression-mortelle-goodlands-fin-tragique-pour-olivier-pierre-louis</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.537840+00:00</pubDate>
+      <guid>6eb9e2be7dcae4dc46e3fb08da9b1175</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre à Cité Ste-Claire : la compagne de la victime réclame justice</title>
+      <link>https://defimedia.info/faits-diversmeurtre-cite-ste-claire-la-compagne-de-la-victime-reclame-justice</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.537562+00:00</pubDate>
+      <guid>723261f9de946392626cbec5bb7417d2</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Agression mortelle d’Olivier Pierre Louis à Goodlands : le présumé meurtrier arrêté à bord d’une voiture</title>
+      <link>https://defimedia.info/faits-diversagression-mortelle-dolivier-pierre-louis-goodlands-le-presume-meurtrier-arrete-bord-dune-voiture</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.537250+00:00</pubDate>
+      <guid>cc50fdc4a018b9a3266dca69f04850de</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Collision à Goodlands : un motocycliste succombe à ses blessures</title>
+      <link>https://defimedia.info/faits-diverscollision-goodlands-un-motocycliste-succombe-ses-blessures</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.536995+00:00</pubDate>
+      <guid>583ba990af019542bf66b52667908798</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»</title>
+      <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-37-ans-imteaze-peeroo-dokter-inn-ed-nou-pou-met-lekor-dan-loto</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.536740+00:00</pubDate>
+      <guid>fc42818ebb24c72541f50c2b1cf930e5</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain</title>
+      <link>https://defimedia.info/faits-diversagression-mortelle-goodlands-jean-guillano-bundhoo-reconduit-en-cellule-policiere-jusqua-mardi</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.536460+00:00</pubDate>
+      <guid>512adbf0bf6862f63e08a30b4454c32c</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Meurtre à Goodlands : l’agresseur d’Olivier Pierre Louis plaide la légitime défense</title>
+      <link>https://defimedia.info/faits-diversmeurtre-goodlands-lagresseur-dolivier-pierre-louis-plaide-la-legitime-defense</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.536197+00:00</pubDate>
+      <guid>008398657838915f8f1937e71f72d8e6</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Drame à la prison de Melrose : un détenu reconnaît avoir frappé Andy Selmour</title>
+      <link>https://defimedia.info/faits-diversdrame-la-prison-de-melrose-un-detenu-reconnait-avoir-frappe-andy-selmour</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:25.535812+00:00</pubDate>
+      <guid>33f4e09b9017542d90df926b5351ffb3</guid>
+      <source>Defimedia Faits Divers</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Alliance gouvernementale : le ministère des Finances au centre d’une proposition mauve</title>
+      <link>https://defimedia.info/politiquealliance-gouvernementale-le-ministere-des-finances-au-centre-dune-proposition-mauve</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.441623+00:00</pubDate>
+      <guid>9bbcb387a2e2f5d97a0da77a6deb6b8c</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Proposition de Bérenger à Ramgoolam : les prochaines 24 heures cruciales pour le leader des mauves</title>
+      <link>https://defimedia.info/politiqueproposition-de-berenger-ramgoolam-les-prochaines-24-heures-cruciales-pour-le-leader-des-mauves</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.441345+00:00</pubDate>
+      <guid>877472175681b9202bf7f8ab8954886d</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Partira-partira pas - Navin Ramgoolam et Paul Bérenger : un lundi décisif</title>
+      <link>https://defimedia.info/politiquepartira-partira-pas-navin-ramgoolam-et-paul-berenger-un-lundi-decisif</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.441089+00:00</pubDate>
+      <guid>73e1a5e94f8d91aaec26f9491f183ba8</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »</title>
+      <link>https://defimedia.info/politiqueproposition-de-berenger-ramgoolam-richard-duval-nou-atan-nou-gete</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.440820+00:00</pubDate>
+      <guid>34fc071bd1759c496dcfd288e07f8d7c</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Politique : Rencontre entre Ramgoolam et Bérenger ce lundi</title>
+      <link>https://defimedia.info/politiquepolitique-rencontre-entre-ramgoolam-et-berenger-ce-lundi</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.440541+00:00</pubDate>
+      <guid>f4e95deb404bff019889de52c7945ca2</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition</title>
+      <link>https://defimedia.info/politiquerencontre-au-pmo-pas-daccord-entre-ramgoolam-et-berenger-le-leader-du-mmm-ne-devrait-toutefois-pas</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.440229+00:00</pubDate>
+      <guid>5c05e6a21d4585a602c7a23d064279e5</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »</title>
+      <link>https://defimedia.info/politiqueberenger-ena-enn-gang-autour-de-li-ramgoolam-pas-tou-dimoune-ki-fer-nou-boukou-boukou-ditor</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.439967+00:00</pubDate>
+      <guid>fccfa8624383579c786b50e1cc815c91</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense</title>
+      <link>https://defimedia.info/politiquesituation-politique-ramgoolam-conserve-les-finances-berenger-garde-le-suspense</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.439677+00:00</pubDate>
+      <guid>ef7646992312dd0ba17f2f291de68378</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Iran : la répression s'accentue, Trump menace les partenaires de Téhéran de sanctions</title>
+      <link>https://defimedia.info/politiqueiran-la-repression-saccentue-trump-menace-les-partenaires-de-teheran-de-sanctions</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.439382+00:00</pubDate>
+      <guid>63f23786bb2f661012567047cd65d174</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»</title>
+      <link>https://defimedia.info/politiquepaul-berenger-li-pa-bon-pou-pei-ki-pena-enn-minis-finans-full-fledged</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.439124+00:00</pubDate>
+      <guid>a7c52d227e288c93cf15c76d3b5e5df2</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Politique : quitter le gouvernement pas à l’ordre du jour du MMM</title>
+      <link>https://defimedia.info/politiquepolitique-quitter-le-gouvernement-pas-lordre-du-jour-du-mmm</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.438863+00:00</pubDate>
+      <guid>ad0450c4dc4442652b7e86c93e7eb2ce</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres</title>
+      <link>https://defimedia.info/politiquesituation-politique-paul-berenger-sera-present-vendredi-au-conseil-des-ministres</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.438603+00:00</pubDate>
+      <guid>168d6a654353931a6fddbe877635f0d1</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme</title>
+      <link>https://defimedia.info/politiquecomite-central-du-mmm-ce-samedi-paul-berenger-devrait-plaider-pour-un-retour-au-calme</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.438324+00:00</pubDate>
+      <guid>19258baba5dee4683ba0fc76ef39c29c</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»</title>
+      <link>https://defimedia.info/politiquepaul-berenger-jai-recommande-au-comite-central-que-nous-restions-au-gouvernement</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.438057+00:00</pubDate>
+      <guid>f502d15b18f7c9fe8f2856c825650843</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Tensions politiques : le monde des affaires en attente d’un apaisement et d’un vrai redémarrage</title>
+      <link>https://defimedia.info/politiquetensions-politiques-le-monde-des-affaires-en-attente-dun-apaisement-et-dun-vrai-redemarrage</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.437781+00:00</pubDate>
+      <guid>79d34de177ec8111d841591c380d1551</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Réforme électorale : le MSM déplore le manque de propositions concrètes du gouvernement</title>
+      <link>https://defimedia.info/politiquereforme-electorale-le-msm-deplore-le-manque-de-propositions-concretes-du-gouvernement</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.437515+00:00</pubDate>
+      <guid>a52a32eb2e13cbc197484687dc3d27be</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Bérenger : «Apre le 12 mars mo pou ena boukou kitsoz pou dir ki mo pa pe kapav dir akoz mo dan gouvernman»</title>
+      <link>https://defimedia.info/politiqueberenger-apre-le-12-mars-mo-pou-ena-boukou-kitsoz-pou-dir-ki-mo-pa-pe-kapav-dir-akoz-mo-dan</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.437223+00:00</pubDate>
+      <guid>90304cd7bb5f56710b67ba0d6dbb971a</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement</title>
+      <link>https://defimedia.info/politiquekeep-trying-paul-berenger-reste-evasif-sur-son-eventuel-depart-du-gouvernement</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.436914+00:00</pubDate>
+      <guid>f9d31e8b329453b170a0a010e00a7ff1</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »</title>
+      <link>https://defimedia.info/politiqueberenger-mo-pou-gete-sipa-mo-pou-demisyone-dime-mem-antan-ki-vpm</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.436606+00:00</pubDate>
+      <guid>dded1f59c4633119c125c735aa09e661</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Comité central du MMM : suivez notre fil rouge</title>
+      <link>https://defimedia.info/politiquecomite-central-du-mmm-suivez-notre-fil-rouge</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:23.436148+00:00</pubDate>
+      <guid>81358e914f17e25fffec6750a35ce993</guid>
+      <source>Defimedia Politique</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>MMM : Radiographie des instances du parti</title>
+      <link>https://defimedia.info/actualitesmmm-radiographie-des-instances-du-parti</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.348557+00:00</pubDate>
+      <guid>be2d0eb10446bc6cb2693793dd819e7b</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Israël : 177 personnes hospitalisées au cours des dernières 24 heures</title>
+      <link>https://defimedia.info/actualitesisrael-177-personnes-hospitalisees-au-cours-des-dernieres-24-heures</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.348276+00:00</pubDate>
+      <guid>608faa81f2bdc7bbf77201b50702d5d9</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Les attaques israéliennes ont fait 912 morts au Liban depuis le début de la guerre, dont 45 en deux jours</title>
+      <link>https://defimedia.info/actualitesles-attaques-israeliennes-ont-fait-912-morts-au-liban-depuis-le-debut-de-la-guerre-dont-45-en-deux</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.348018+00:00</pubDate>
+      <guid>4c40549ab8da7e9c238f19c8cf7d48fa</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>L’appel à la fin du psychodrame politique</title>
+      <link>https://defimedia.info/actualiteslappel-la-fin-du-psychodrame-politique</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.347753+00:00</pubDate>
+      <guid>480053488890f5451b19db4655373bcb</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Gouvernance : la direction du MACOSS dément toute crise structurelle</title>
+      <link>https://defimedia.info/actualitesgouvernance-la-direction-du-macoss-dement-toute-crise-structurelle</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.347476+00:00</pubDate>
+      <guid>0f5d9c2d9c16d327931c0671d55d50ff</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Mort d’Andy Selmour à la prison de Melrose : un infirmier dénonce un manque de personnel et de sécurité</title>
+      <link>https://defimedia.info/actualitesmort-dandy-selmour-la-prison-de-melrose-un-infirmier-denonce-un-manque-de-personnel-et-de-securite</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.347211+00:00</pubDate>
+      <guid>20ec50af411be0ff4709db494c45e2be</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Après 11 mois de service - Dev Jokhoo : un départ précipité à la tête des prisons</title>
+      <link>https://defimedia.info/actualitesapres-11-mois-de-service-dev-jokhoo-un-depart-precipite-la-tete-des-prisons</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.346956+00:00</pubDate>
+      <guid>a53e5fbf6b46bb5d515e9750b81b01e7</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Ramadan : le croissant lunaire pourra-t-il être observé ce jeudi soir ?</title>
+      <link>https://defimedia.info/actualitesramadan-le-croissant-lunaire-pourra-t-il-etre-observe-ce-jeudi-soir</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.346682+00:00</pubDate>
+      <guid>10239d20d5ea8c1c48255e2e0a3e110c</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>« Les États-Unis ont perdu le contrôle de leur propre politique étrangère », selon le ministre des Affaires étrangères d'Oman</title>
+      <link>https://defimedia.info/actualitesles-etats-unis-ont-perdu-le-controle-de-leur-propre-politique-etrangere-selon-le-ministre-des</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.346379+00:00</pubDate>
+      <guid>1f653fcef42c4154433c16e7f72bc58e</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Certificat d’investissement révoqué : Global Equestrian Ltd ne pourra pas contester la décision de l’EDB</title>
+      <link>https://defimedia.info/actualitescertificat-dinvestissement-revoque-global-equestrian-ltd-ne-pourra-pas-contester-la-decision-de</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.346091+00:00</pubDate>
+      <guid>4b11385cc6f23afdd1ac82775bc4f070</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Ramgoolam : « Budget pa pou fasil… li pou enn budget dir ankor, mo bien sagrin »</title>
+      <link>https://defimedia.info/actualitesramgoolam-budget-pa-pou-fasil-li-pou-enn-budget-dir-ankor-mo-bien-sagrin</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.345748+00:00</pubDate>
+      <guid>78550a114b825a6dfed7cb1e6e08e8b3</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Exclu de l’ordre professionnel en 2025 : la Cour suprême rejette la demande d’injonction d’un dentiste</title>
+      <link>https://defimedia.info/actualitesexclu-de-lordre-professionnel-en-2025-la-cour-supreme-rejette-la-demande-dinjonction-dun-dentiste</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.345398+00:00</pubDate>
+      <guid>e01a9834c0c43268c79dcee24424851c</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
       <title>Ramgoolam : « Je ne m’ingérerai pas dans les affaires du MMM. Mon message : l’unité »</title>
-      <link>https://defimedia.inforamgoolam-je-ne-mingererai-pas-dans-les-affaires-du-mmm-mon-message-lunite</link>
+      <link>https://defimedia.info/actualitesramgoolam-je-ne-mingererai-pas-dans-les-affaires-du-mmm-mon-message-lunite</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.779219+00:00</pubDate>
-      <guid>b8dbe55ca22437bceff24eec3aac39a7</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:21.345122+00:00</pubDate>
+      <guid>9555773c57ee9155a914d51cbbc0811c</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Whatsapp Us +230 52 59 82 00</title>
-      <link>https://wa.me/23052598200</link>
+      <title>Jayen Chellum, secrétaire général de l’ACIM : « La STC doit jouer son rôle de chien de garde sur le marché »</title>
+      <link>https://defimedia.info/actualitesjayen-chellum-secretaire-general-de-lacim-la-stc-doit-jouer-son-role-de-chien-de-garde-sur-le</link>
       <description/>
-      <pubDate>2026-03-19T17:08:20.777393+00:00</pubDate>
-      <guid>febc5bc419387717456232cc3cade2c1</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:21.344834+00:00</pubDate>
+      <guid>bc1518f3f604bf8238bff5f4a75e656e</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Skip to main content</title>
-      <link>https://defimedia.info/#main-content</link>
-      <description>LE DEFI MEDIA GROUP› Cnr Antonio &amp; Labourdonnais Street, Port Louis, Republic of Mauritius • Tel: +230 203 4800</description>
-      <pubDate>2026-03-19T17:08:20.183162+00:00</pubDate>
-      <guid>917a1b3c329c12397d78d0aaccbf6f4b</guid>
-      <source>Defimedia</source>
-      <category>general</category>
+      <title>Réhabilitation du parking du stade Anjalay : « Un lieu provisoire pour les rallyes automobiles », annonce Osman Mahomed</title>
+      <link>https://defimedia.info/actualitesrehabilitation-du-parking-du-stade-anjalay-un-lieu-provisoire-pour-les-rallyes-automobiles-annonce</link>
+      <description/>
+      <pubDate>2026-03-19T18:56:21.344555+00:00</pubDate>
+      <guid>b864640c3410a203b86cd2849c4839de</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>19 mars 2026 18:48 Ile de la Réunion Piton de la Fournaise : Dix personnes secourues, la sécurité renforcée face aux comportements à risque</title>
-      <link>https://lexpress.mus/piton-de-la-fournaise-dix-personnes-secourues-la-securite-face-aux-comportements-a-risque-555637</link>
+      <title>Accident à Belle-Étoile : un motocycliste de 75 ans perd la vie</title>
+      <link>https://defimedia.info/actualitesaccident-belle-etoile-un-motocycliste-de-75-ans-perd-la-vie</link>
       <description/>
-      <pubDate>2026-03-19T17:08:19.691300+00:00</pubDate>
-      <guid>b8b86c2dfe9ae5d2b64a886f0771e3a8</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:21.344250+00:00</pubDate>
+      <guid>99dd92b57453a3568090a7906663f0b1</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>19 mars 2026 21:00 Compétences en leadership 140 jeunes réunis pour la deuxième édition du «FABSA Youth Empowerment Program»</title>
-      <link>https://lexpress.mus/140-jeunes-reunis-pour-la-deuxieme-edition-du-fabsa-youth-empowerment-program-555642</link>
+      <title>Nouvelle cargaison de gaz ménager : « Il n’y a pas lieu de paniquer », rassure Michael Sik Yuen</title>
+      <link>https://defimedia.info/actualitesnouvelle-cargaison-de-gaz-menager-il-ny-pas-lieu-de-paniquer-rassure-michael-sik-yuen</link>
       <description/>
-      <pubDate>2026-03-19T17:08:19.685014+00:00</pubDate>
-      <guid>e530b015135451df3081c9a20dcd93e0</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:21.343973+00:00</pubDate>
+      <guid>bb7b9c0461be32d11228af9b44dad91c</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Le jardin du Bon Dieu</title>
-      <link>https://lexpress.mus/le-jardin-du-bon-dieu</link>
+      <title>Eid-ul-Fitr célébrée ce samedi 21 mars à Maurice</title>
+      <link>https://defimedia.info/actualiteseid-ul-fitr-celebree-ce-samedi-21-mars-maurice</link>
       <description/>
-      <pubDate>2026-03-19T17:08:19.672303+00:00</pubDate>
-      <guid>866f3e0acb63761ba878399d78a4aa58</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:21.343677+00:00</pubDate>
+      <guid>320789b20f08248c2288fdd7365bae4f</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Problem dilo Pour qu'il en reste un peu plus demain !</title>
-      <link>https://lexpress.mus/video/417034/problem-dilo-pour-quil-en-reste-un-peu-plus-demain</link>
+      <title>[Info Soirée] : « ZOT BIZIN DECIDE, ME MO LAPEL SE LINITE »</title>
+      <link>https://defimedia.info/actualitesinfo-soiree-zot-bizin-decide-me-mo-lapel-se-linite</link>
       <description/>
-      <pubDate>2026-03-19T17:08:19.658893+00:00</pubDate>
-      <guid>8674f336906b984c5011a1bbc171df3c</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:21.343364+00:00</pubDate>
+      <guid>0c538cbf3fcff9de03390f01325efbc7</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Fléau social Nous n’avons qu’une vie, pourquoi la laisser gâcher par la drogue ?</title>
-      <link>https://lexpress.mus/nous-navons-quune-vie-pourquoi-la-laisser-gacher-par-la-drogue-545896</link>
+      <title>Ramgoolam : « Bhagwan et Gunness sont des bulldozers… Nous avons une équipe solide »</title>
+      <link>https://defimedia.info/actualitesramgoolam-bhagwan-et-gunness-sont-des-bulldozers-nous-avons-une-equipe-solide</link>
       <description/>
-      <pubDate>2026-03-19T17:08:19.653831+00:00</pubDate>
-      <guid>6a5dcccbc8b5bf238063a7ce7878b1d4</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
+      <pubDate>2026-03-19T18:56:21.342904+00:00</pubDate>
+      <guid>e8c3ee06de1406e744d96a191931e106</guid>
+      <source>Defimedia Actualités</source>
+      <category>local</category>
       <language>fr</language>
     </item>
     <item>
-      <title>BLACK-OUT Gérer l'énergie au quotidien</title>
-      <link>https://lexpress.mus/gerer-lenergie-au-quotidien-549538</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.648362+00:00</pubDate>
-      <guid>f826a68f283c19d9a309b3e699dd5bfb</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
+      <title>Middle East crisis live: Israeli officials push back on US claim that Trump knew nothing about gasfield attack</title>
+      <link>https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news</link>
+      <description>Three Israeli officials tell Reuters that the US actually helped coordinate Israel’s attack on Iran’s South Pars gasfieldA visual guide to the oil and gas site attacks in the Middle EastTurning to Australia now, a petrol tsar will manage “unprecedented” supply issues caused by the Middle East conflict as the finishing touches are put on measures to address dire shortages in many regional areas.Prime minister Anthony Albanese convened a snap virtual meeting of the national cabinet on Thursday to</description>
+      <pubDate>2026-03-19T18:45:11+00:00</pubDate>
+      <guid>814fde5cafe061a141c519c03fcbbd1f</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
     </item>
     <item>
-      <title>Partira, partira pas ? Paul Bérenger : «Mo pa pe al Parlman demin mwa. Seki anvi ale kapav ale zot»</title>
-      <link>https://lexpress.mus/paul-berenger-mo-pa-pe-al-parlman-demin-mwa-seki-anvi-ale-kapav-ale-zot-555501</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.641990+00:00</pubDate>
-      <guid>abc3e1348f990e59015a2cfbb03eeba2</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
+      <title>Iran says it will show ‘zero restraint’ if energy infrastructure is targeted again</title>
+      <link>https://www.theguardian.com/world/2026/mar/19/iran-says-it-will-show-zero-restraint-if-energy-infrastructure-is-targeted-again</link>
+      <description>Foreign minister issues warning after Israeli attack on South Pars gasfield, as Qatar reels from retaliatory strike‘Doomsday scenario’: a visual guide to the oil and gas site attacks in the Middle EastMiddle East crisis – live updatesIran said on Thursday it would show “zero restraint” if its energy infrastructure was targeted again, as Qatar revealed that almost one-fifth of its liquefied natural gas export capacity had been knocked out in an Iranian strike, in an attack likely to have a years-</description>
+      <pubDate>2026-03-19T18:31:09+00:00</pubDate>
+      <guid>b3eb2593091f16f6a4f4174e1186e876</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
     </item>
     <item>
-      <title>Ajay Gunness «La loyauté va au pays, pas à Paul Bérenger»</title>
-      <link>https://lexpress.mus/la-loyaute-va-au-pays-pas-a-paul-berenger-555577</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.636049+00:00</pubDate>
-      <guid>f153c74af0ded37d737ddd6cbc747a79</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Option Form et rapport PRB Des syndicats saisissent la Cour suprême</title>
-      <link>https://lexpress.mus/des-syndicats-saisissent-la-cour-supreme-555579</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.582542+00:00</pubDate>
-      <guid>e9ee6625e2d4a476bff704c0ec274ee8</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Nou Lar Nou Lamizik Davy Sicard : entre racines créoles et modernité avec Kafé Griyé</title>
-      <link>https://lexpress.mus/davy-sicard-entre-racines-creoles-et-modernite-avec-kafe-griye-555583</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.577786+00:00</pubDate>
-      <guid>8e079f94614e5c490519385fb38591ab</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Agression préméditée à Résidence Briquetterie Trois suspects passent aux aveux</title>
-      <link>https://lexpress.mus/trois-suspects-passent-aux-aveux-555632</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.535234+00:00</pubDate>
-      <guid>965437ad094923594116fdc41272975e</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>«World Happiness Report 2026» Maurice classée 73ᵉ  mondiale</title>
-      <link>https://lexpress.mus/maurice-classee-73-mondiale-555627</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.522032+00:00</pubDate>
-      <guid>8297e1b2afa2cce6ed57dc775aed7616</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Ugadi 2026 Le Premier ministre, Navin Ramgoolam, rappelle l'importance de l'unité</title>
-      <link>https://lexpress.mus/le-premier-ministre-navin-ramgoolam-rappelle-limportance-de-lunite-555634</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.507310+00:00</pubDate>
-      <guid>a67451af38fa0fa59bf2c5c85faa2831</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Sondage Afrobarometer 94 % des Mauriciens disent oui à l’éducation sexuelle à l’école</title>
-      <link>https://lexpress.mus/94-des-mauriciens-disent-oui-a-leducation-sexuelle-a-lecole-555615</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.442273+00:00</pubDate>
-      <guid>037acebe3206201148ecfebb98cb1f33</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Ugadi 2026 La jeunesse fait vibrer ses racines culturelles</title>
-      <link>https://lexpress.mus/la-jeunesse-fait-vibrer-ses-racines-culturelles-555635</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.436776+00:00</pubDate>
-      <guid>a152949e0e88c229cd32c9c1c85f1033</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Opérations de «clearing»  en dollars américains La MauBank primée par J.P. Morgan Payments</title>
-      <link>https://lexpress.mus/la-maubank-primee-par-jp-morgan-payments-555614</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.219029+00:00</pubDate>
-      <guid>9f786084d2bc6ae9fdc031fc8e85077f</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Transport aérien Les prix des billets d’avion pourraient grimper de 30% à 50 %</title>
-      <link>https://lexpress.mus/les-prix-des-billets-davion-pourraient-grimper-de-30-a-50-555638</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.215444+00:00</pubDate>
-      <guid>74bb86a6912f5c8507b04b6e8f4ae3fd</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>À New-Grove «Tagore», le sourire fidèle des journaux d’antan</title>
-      <link>https://lexpress.mus/tagore-le-sourire-fidele-des-journaux-dantan-555639</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.204608+00:00</pubDate>
-      <guid>fd385132bce174f04be89266d7d674ef</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>[Nature en danger] Les cachalots vivent un enfer dans nos eaux</title>
-      <link>https://lexpress.mus/les-cachalots-vivent-un-enfer-dans-nos-eaux-555640</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:19.109555+00:00</pubDate>
-      <guid>4b56a9492c8337de7c3d337c7b698154</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Initiative contre les violences Women of Purpose, une nouvelle ONG au service des femmes</title>
-      <link>https://lexpress.mus/women-of-purpose-une-nouvelle-ong-au-service-des-femmes-555641</link>
-      <description/>
-      <pubDate>2026-03-19T17:08:18.894734+00:00</pubDate>
-      <guid>e44ae782d51599fc8322f4f5dc1de861</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
+      <title>French tycoon Bolloré to face corruption trial over elections in Togo and Guinea</title>
+      <link>https://www.france24.com/en/france/20260319-french-tycoon-bollor%C3%A9-to-face-corruption-trial-over-elections-in-togo-and-guinea</link>
+      <description>French billionaire Vincent Bolloré is set to face trial on corruption and embezzlement charges linked to election campaigns in Togo and Guinea between 2009 and 2011, prosecutors said on Thursday. Bolloré, the former head of his family’s eponymous multinational group, is accused of undercharging for services provided to presidential candidates in both countries in exchange for port contracts.</description>
+      <pubDate>2026-03-19T18:27:33+00:00</pubDate>
+      <guid>5c99f2fcf1ef7ed3aa3cf8afa0454f0f</guid>
+      <source>France 24</source>
+      <category>international</category>
+      <language>en</language>
     </item>
     <item>
       <title>Trump confirms he will ask Congress for $200bn to fund war on Iran, calling it ‘a small price to pay’ – US politics live</title>
       <link>https://www.theguardian.com/us-news/live/2026/mar/19/donald-trump-iran-bondi-epstein-mullin-japan-takaichi-save-voter-id-latest-news-updates</link>
       <description>President says there are a ‘lot of reasons’ for extra funding without going into details about those reasonsSign up for the Breaking US News US emailAnswering a reporter’s question on Iran’s missile capabilities, considering the country has managed to strike numerous states in the Gulf, Gen Dan Caine, the chair of the joint chiefs of staff, said Tehran retains “some capability” to attack American assets.“They came into this fight with a lot of weapons.,” he said, adding that the US continues to</description>
-      <pubDate>2026-03-19T16:55:07+00:00</pubDate>
+      <pubDate>2026-03-19T18:09:18+00:00</pubDate>
       <guid>44f92005dce8b60d0c26216f55cf76b8</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>UK agrees deal to ease migrant returns to Nigeria</title>
+      <link>https://www.bbc.com/news/articles/crm1w24p8p7o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>It comes during the Nigerian president's state visit to the UK - the first by a west African leader in 37 years.</description>
+      <pubDate>2026-03-19T18:02:01+00:00</pubDate>
+      <guid>88f7708984c46320114bbc66421829f9</guid>
+      <source>BBC Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Peers vote to back clause pardoning women convicted over illegal abortions</title>
+      <link>https://www.theguardian.com/politics/2026/mar/19/peers-vote-to-back-clause-pardoning-women-convicted-over-abortions</link>
+      <description>House of Lords decision welcomed as ‘landmark moment’ after attempt to strike out amendment is defeatedUK politics live – latest updatesWomen who have been convicted, and in some cases jailed, over illegal abortions are set to be pardoned after a historic vote in the House of Lords.Last June, the House of Commons voted to end the criminalisation of women who terminate their pregnancies outside of the legal framework, while keeping the existing framework in place. Doctors and others who act outsi</description>
+      <pubDate>2026-03-19T18:01:02+00:00</pubDate>
+      <guid>d633ba3fc0e532aca05608a2c44ed5c3</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Archaeological site in Chile upends theory of how humans populated the Americas … again</title>
+      <link>https://www.theguardian.com/science/2026/mar/19/archaeological-site-in-chile-upends-theory-of-how-humans-populated-the-americas-again</link>
+      <description>Discovery at Monte Verde puts north-to-south expansion theory back at centre of heated debate on continent’s human historyA groundbreaking new study may have once again upended our understanding of human prehistory in the Americas.For years, the predominant theory of how humans arrived in the western hemisphere centred around the Clovis culture, which crossed the Beringia land bridge from Asia between 13,400 and 12,800 years ago, and spread south. Continue reading...</description>
+      <pubDate>2026-03-19T18:00:23+00:00</pubDate>
+      <guid>b9d84016c6f68531ba7b775c8146a111</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category 5 storm, bringing 315km/h wind gusts</title>
+      <link>https://www.theguardian.com/australia-news/2026/mar/19/tropical-cyclone-narelle-qld-storm-tracker-path-tracking-map-bom</link>
+      <description>Massive storm tracking a path to Queensland coast, which intensified offshore Thursday morning to category 5, fuelled by warm waters in Coral SeaCyclone Narelle path tracker mapGet our breaking news email, free app or daily news podcastSevere Tropical Cyclone Narelle is expected to make landfall in far north Queensland on Friday morning as a monster category 5 storm, bringing destructive wind gusts of 250km/h, according to the Bureau of Meteorology.The severe cyclone rapidly intensified over the</description>
+      <pubDate>2026-03-19T17:50:47+00:00</pubDate>
+      <guid>ab0adc0a268d7e916f8b9296bf96fabc</guid>
       <source>The Guardian World</source>
       <category>international</category>
       <language>en</language>
@@ -479,20 +969,140 @@
       <title>Farage backs Tory attack on Muslim iftar event, saying public prayer ‘was a shock’ – UK politics live</title>
       <link>https://www.theguardian.com/politics/live/2026/mar/19/labour-eu-iran-covid-local-elections-meningitis-latest-news-updates</link>
       <description>Nigel Farage echoed Nick Timothy’s comments after he said public prayer for Ramadan was an ‘act of domination’Starmer claims Tories have ‘problem with Muslims’ after Timothy tweetCleverly is trying to show a video, but it is not working. So he just invites Kemi Badenoch to start her speech.The Conservatives are launching their local elections campaign. There is a live feed here. Continue reading...</description>
-      <pubDate>2026-03-19T16:51:04+00:00</pubDate>
+      <pubDate>2026-03-19T17:40:08+00:00</pubDate>
       <guid>2c4bf358a5ffd0b1ed45c09dd9de1d0d</guid>
       <source>The Guardian World</source>
       <category>international</category>
       <language>en</language>
     </item>
     <item>
-      <title>Historic March heatwave pushes south-west US toward triple digits</title>
-      <link>https://www.theguardian.com/us-news/2026/mar/19/march-heatwave-weather-us</link>
-      <description>California, Nevada and Arizona face record highs, with heat alerts and park trail closures as temperatures spikeStates across the US south-west recorded blistering temperatures at the tail end of winter, with forecasts indicating hotter days are still to come.California, Nevada and Arizona were all under heat warnings on Thursday amid record-breaking temperatures. Continue reading...</description>
-      <pubDate>2026-03-19T16:49:18+00:00</pubDate>
-      <guid>eba9cf4c887144557f332080531a6449</guid>
+      <title>Joseph Duggar, former reality TV star, arrested on child molestation charges</title>
+      <link>https://www.theguardian.com/us-news/2026/mar/19/joseph-duggar-arrested-child-molestation-charges</link>
+      <description>Duggar, 31, was taken into custody in Arkansas and was awaiting extradition to Florida, where he faces chargesSign up for the Breaking News US email to get newsletter alerts in your inboxFormer reality TV star Joseph Duggar is facing a child molestation charge in Florida, almost five years after his brother Josh, who also starred in the TLC show 19 Kids and Counting, was convicted of downloading child sexual abuse images.Joseph Duggar, 31, was arrested in Arkansas, where he lives, and was awaiti</description>
+      <pubDate>2026-03-19T17:39:36+00:00</pubDate>
+      <guid>3986026328e388cd7988e022eaa69314</guid>
       <source>The Guardian World</source>
       <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>California moves to rename Cesar Chavez Day after recent sexual abuse allegations</title>
+      <link>https://www.theguardian.com/us-news/2026/mar/19/california-rename-cesar-chavez-day</link>
+      <description>Legislators propose designating 31 March as Farmworkers Day in light of allegations against late labor leaderSign up for the Breaking News US email to get newsletter alerts in your inboxCalifornia legislative leaders are moving to rename Cesar Chavez Day as Farmworkers Day in light of sexual abuse allegations against the late labor leader.California was the first state to designate Chavez’s birthday, 31 March, as a day to honor the civil rights leader nearly 30 years ago. In 2000, the state legi</description>
+      <pubDate>2026-03-19T17:39:27+00:00</pubDate>
+      <guid>958019712bd6e3fc0a0ca6d1d23e3130</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>US moves to soften capital rules: ‘Big banks can declare mission accomplished’</title>
+      <link>https://www.theguardian.com/business/2026/mar/19/federal-reserve-bank-capital-requirements</link>
+      <description>Fed officials expected to lower capital requirements for banks such as Goldman Sachs and JPMorgan Chase by 4.8%Sign up for the Breaking News US email to get newsletter alerts in your inboxUS federal regulators are trying to soften bank requirements, loosening the amount of capital US banks must have, in what would be some of the biggest changes to bank restrictions since the 2008 financial crisis and a huge win for financial institutions.On Thursday, US Federal Reserve officials are expected to</description>
+      <pubDate>2026-03-19T17:38:52+00:00</pubDate>
+      <guid>fd86d8ec580798870463bd8ca92e3b53</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Indian film board blocks release of Oscar-nominated Gaza drama The Voice of Hind Rajab</title>
+      <link>https://www.theguardian.com/film/2026/mar/19/indian-film-board-blocks-release-of-oscar-nominated-gaza-drama-the-voice-of-hind-rajab</link>
+      <description>Distributor says authorities warned screening Tunisian film-maker Kaouther Ben Hania’s docudrama could harm India–Israel relationsThe Indian release of The Voice of Hind Rajab, the Oscar-nominated Tunisian film about the death of a five-year-old girl during the Israel-Gaza war, has been blocked by the country’s ratings body, according to the film’s Indian distributor.In a report by Variety, Manoj Nandwana of Mumbai-based Jai Viratra Entertainment said that he was told that if the film was releas</description>
+      <pubDate>2026-03-19T17:24:36+00:00</pubDate>
+      <guid>ae1b91f4705dd46ebefaf0acd7d0b079</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Senegal stripped of AFCON title: Reactions in Dakar</title>
+      <link>https://www.france24.com/en/video/20260319-senegal-stripped-of-afcon-title-reactions-in-dakar</link>
+      <description>In a shock, historic decision, the Confederation of African Football (CAF) announced that it is withdrawing the Africa Cup of Nations trophy from Senegal, awarding it instead to Morocco. The decision follows complaints from the host nation Moroccan, after a highly contested final. The news has left many Senegalese in shock, torn between confusion and anger, as FRANCE 24’s team in Dakar reports.</description>
+      <pubDate>2026-03-19T17:15:25+00:00</pubDate>
+      <guid>ed8c37e66df3dcd45996109cc101e450</guid>
+      <source>France 24</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>'Idea that Trump can be led around by Israel is foolishness,' ex-envoy to Iran says</title>
+      <link>https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260319-idea-that-trump-can-be-led-around-by-israel-is-foolishness-ex-envoy-to-iran-says</link>
+      <description>In an interview with FRANCE 24, Elliott Abrams, a former special envoy of US President Donald Trump to Iran, dismissed as &quot;foolishness&quot; the idea that Israel led Trump into war with Tehran. Abrams, who served during Trump's first term in office, said he backed the ongoing war, saying that &quot;five presidents in a row&quot; had vowed to prevent a nuclear Iran but Trump &quot;is the first person who's really acting on that&quot;.</description>
+      <pubDate>2026-03-19T17:14:13+00:00</pubDate>
+      <guid>01b6cbd71ad63409a5db1369829151de</guid>
+      <source>France 24</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Denounce 'abject' Afcon decision - senior Caf member</title>
+      <link>https://www.bbc.com/sport/football/articles/ckg1gg5pgl7o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Caf executive committee member Augustin Senghor says the decision to strip Senegal of the 2025 Afcon title is &quot;unacceptable, abject and we have to denounce it&quot;.</description>
+      <pubDate>2026-03-19T17:12:12+00:00</pubDate>
+      <guid>74887d80d31d59f70fa2149fca91648b</guid>
+      <source>BBC Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>So what does eating processed food (more than 1 ingredient food) do to a man's body? It causes inflammation, increases cardiovascular diseases, fat, strokes, blood pressure. So you'll die sooner than expected. It also increases stress and reduce testosterone</title>
+      <link>https://www.reddit.com/r/mauritius/comments/1ry6ayr/so_what_does_eating_processed_food_more_than_1/</link>
+      <description>..................................................     submitted by    /u/Pleasant-Witness6627   [link] [comments]</description>
+      <pubDate>2026-03-19T17:11:24+00:00</pubDate>
+      <guid>64e398ed3a6dec9838b7a856a03b87fd</guid>
+      <source>Reddit r/mauritius</source>
+      <category>community</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Viktor Orbán refuses to agree to €90bn loan for Ukraine as EU leaders accuse him of betrayal</title>
+      <link>https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe</link>
+      <description>Hungarian PM is continuing to block the funding, which the EU says is urgently needed for military aid and support for UkraineEU leaders have failed to convince Viktor Orbán, Hungary’s prime minister, to drop his opposition to a vital €90bn (£78bn) loan for Ukraine. They have accused him of betrayal and acting in bad faith but have not persuaded him to budge.In an unusual sign of public anger on Thursday, several leaders made plain their irritation with Orbán, who refused to sign off on the loan</description>
+      <pubDate>2026-03-19T17:05:54+00:00</pubDate>
+      <guid>35c943e70a7c967682887cd46209c05d</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Concerns raised over ex-Putin interpreter’s key role in monitoring Hungary vote</title>
+      <link>https://www.theguardian.com/world/2026/mar/19/concerns-over-role-ex-putin-interpreter-hungary-daria-boyarskaya</link>
+      <description>Daria Boyarskaya coordinating OSCE mission overseeing vote in which pro-Moscow Viktor Orbán could lose powerHungarian rights groups have raised concerns over the appointment of Vladimir Putin’s former interpreter to a key role in an international election monitoring mission, amid fears of Russian interference ahead of Hungary’s crucial vote next month.Daria Boyarskaya, who worked for many years for Russia’s foreign ministry and interpreted in numerous high-level meetings including one between Pu</description>
+      <pubDate>2026-03-19T17:05:12+00:00</pubDate>
+      <guid>b16f0101c8b281b4b391b0f52f2a8ed9</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Bola Tinubu's state visit to UK: major steel deal agreed with British PM</title>
+      <link>http://www.africanews.com/2026/03/19/bola-tinubus-state-visit-to-uk-major-steel-deal-agreed-with-british-pm/</link>
+      <description>British Prime Minister Keir Starmer welcomed Nigerian President Bola Tinubu at 10 Downing Street in London during the first state visit by the leader of Africa's most populous nation in nearly four decades.</description>
+      <pubDate>2026-03-19T17:03:59+00:00</pubDate>
+      <guid>c5b1783029a5d81c5190c2ba2aa2656a</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>PEN America announce 2026 World Voices festival with Judith Butler and Bill McKibben</title>
+      <link>https://www.theguardian.com/books/2026/mar/19/pen-america-world-voices-festival-judith-butler-israel-gaza</link>
+      <description>The 2024 festival was cancelled after multiple authors pulled out over the non-profit’s stance on the Israel-Gaza warThe literary free speech organization PEN America has announced plans for their 2026 World Voices festival. The four day event will take place in New York and Los Angeles from 29 April to 2 May and feature writers from over 140 countries, with in person appearances from authors including Judith Butler, Bill McKibben, Cory Doctorow, Megha Majumdar and Katie Kitamura.In a press rele</description>
+      <pubDate>2026-03-19T17:00:54+00:00</pubDate>
+      <guid>74fc04832d2176c332ca2c197f318911</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Crowds flock to Antananarivo as Madagascar restores Its pre‑colonial new year</title>
+      <link>http://www.africanews.com/2026/03/19/crowds-flock-to-antananarivo-as-madagascar-restores-its-precolonial-new-year/</link>
+      <description>Madagascar's traditional New Year, Alahamady Be, a pre-colonial custom abandoned for decades, has now been revived with rituals honouring ancestors, sacred fire and purification ceremonies.</description>
+      <pubDate>2026-03-19T16:52:34+00:00</pubDate>
+      <guid>3a35e300b33d5aff5996f4d6ad0b74b7</guid>
+      <source>Africanews</source>
+      <category>africa</category>
       <language>en</language>
     </item>
     <item>
@@ -502,6 +1112,16 @@
       <pubDate>2026-03-19T16:46:48+00:00</pubDate>
       <guid>65c1af77ca8df1b491196d579212171d</guid>
       <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Mumbai celebrates local new year</title>
+      <link>https://www.france24.com/en/video/20260319-mumbai-celebrates-local-new-year</link>
+      <description>#Mumbai rang with drums as it celebrated the #GudiPadwa festival, which marks the start of the new year in #Marathi culture and the arrival of spring. &quot;Gudi&quot; references the flag of Lord Brahma, creator of the universe according to Hindus, and &quot;Padwa&quot; means the first day of the lunar phase.</description>
+      <pubDate>2026-03-19T16:45:08+00:00</pubDate>
+      <guid>9bf6ec95846213fb7b21085d6b9ab515</guid>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -516,12 +1136,12 @@
       <language>en</language>
     </item>
     <item>
-      <title>Middle East crisis live: Israeli officials push back on US claim that Trump knew nothing about gasfield attack</title>
-      <link>https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news</link>
-      <description>Three Israeli officials tell Reuters that the US actually helped coordinate Israel’s attack on Iran’s South Pars gasfieldA visual guide to the oil and gas site attacks in the Middle EastTurning to Australia now, a petrol tsar will manage “unprecedented” supply issues caused by the Middle East conflict as the finishing touches are put on measures to address dire shortages in many regional areas.Prime minister Anthony Albanese convened a snap virtual meeting of the national cabinet on Thursday to</description>
-      <pubDate>2026-03-19T16:42:41+00:00</pubDate>
-      <guid>814fde5cafe061a141c519c03fcbbd1f</guid>
-      <source>The Guardian World</source>
+      <title>Settler violence surges in the West Bank</title>
+      <link>https://www.france24.com/en/tv-shows/middle-east-matters/20260319-settler-violence-surges-in-the-west-bank</link>
+      <description>As the Iran-Israel-US-Lebanon war makes headlines around the world, what is happening in the occupied West Bank? Expropriation of Palestinian land, settler attacks and killings have long been the story of the West Bank, but human rights campaigners and experts say that amid the fog of regional war, attacks are on the rise and Israeli settlers are emboldened. We take a closer look in this special edition of Middle East Matters.</description>
+      <pubDate>2026-03-19T16:44:09+00:00</pubDate>
+      <guid>386659d441818cda705db55e131db274</guid>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -531,7 +1151,7 @@
       <description>[Nile Post] South African political party the Economic Freedom Fighters (EFF) has condemned the Confederation of African Football (Caf) for stripping Senegal of the 2025 Africa Cup of Nations 2025 title and awarding it to Morocco.</description>
       <pubDate>2026-03-19T16:41:44+00:00</pubDate>
       <guid>e80dce5d438b45e52c9d70e180549ffc</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -543,26 +1163,6 @@
       <guid>12ea44dcc428f142b458a93737215372</guid>
       <source>The Guardian World</source>
       <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>New bill would bar ICE raids near World Cup matches in US host cities</title>
-      <link>https://www.theguardian.com/football/2026/mar/19/bill-ban-world-cup-ice-raids-us</link>
-      <description>Nellie Pou’s bill follows refusal of ICE chief Todd Lyons to rule out enforcement near stadiums and fan festivalsA New Jersey congresswoman introduced legislation on Thursday to block immigration enforcement from conducting raids within a mile of a Fifa World Cup soccer match or fan festival in the US this summer.The Save the World Cup bill, introduced by Nellie Pou, a Democrat, is meant to assure visitors that they will not be detained and to remove the chilling effect of Immigration and Custom</description>
-      <pubDate>2026-03-19T16:26:35+00:00</pubDate>
-      <guid>65e33375bd0a815a6f609707c1fd33e5</guid>
-      <source>The Guardian World</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Bola Tinubu's state visit to UK: major steel deal agreed with British PM</title>
-      <link>http://www.africanews.com/2026/03/19/bola-tinubus-state-visit-to-uk-major-steel-deal-agreed-with-british-pm/</link>
-      <description>British Prime Minister Keir Starmer welcomed Nigerian President Bola Tinubu at 10 Downing Street in London during the first state visit by the leader of Africa's most populous nation in nearly four decades.</description>
-      <pubDate>2026-03-19T16:19:39+00:00</pubDate>
-      <guid>c5b1783029a5d81c5190c2ba2aa2656a</guid>
-      <source>Africanews</source>
-      <category>africa</category>
       <language>en</language>
     </item>
     <item>
@@ -586,16 +1186,6 @@
       <language>en</language>
     </item>
     <item>
-      <title>King opens world’s longest managed coastal walk – but much of it is still closed off</title>
-      <link>https://www.theguardian.com/lifeandstyle/2026/mar/19/worlds-longest-managed-coastal-walk-much-still-closed</link>
-      <description>Landowner disputes, coastal erosion and disused ferry hindering completion of King Charles III England coast pathThe longest managed coastal walking route in the world has been opened by the king at the Seven Sisters cliff walk.However, large parts of the King Charles III England coast path are still closed to the public after objections from landowners, fears about coastal erosion and a disused ferry. Continue reading...</description>
-      <pubDate>2026-03-19T16:09:52+00:00</pubDate>
-      <guid>3c45c2b33d53bdcb28efb1a677fe0743</guid>
-      <source>The Guardian World</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
       <title>“We are living in fear”: Gay people in Senegal amid crackdown</title>
       <link>http://www.africanews.com/2026/03/19/we-are-living-in-fear-gay-people-in-senegal-amid-crackdown/</link>
       <description>Senegal is among more than half of African countries where same-sex relations are illegal. But it is now moving toward stricter enforcement.</description>
@@ -606,22 +1196,12 @@
       <language>en</language>
     </item>
     <item>
-      <title>Viktor Orbán refuses to agree to €90bn loan for Ukraine as EU leaders accuse him of betrayal</title>
-      <link>https://www.theguardian.com/world/2026/mar/19/hungary-orban-ukraine-loan-veto-eu-summit-europe</link>
-      <description>Hungarian PM is continuing to block the funding, which the EU says is urgently needed for military aid and support for UkraineEU leaders have failed to convince Viktor Orbán, Hungary’s prime minister, to drop his opposition to a vital €90bn (£78bn) loan for Ukraine. They have accused him of betrayal and acting in bad faith but have not persuaded him to budge.In an unusual sign of public anger on Thursday, several leaders made plain their irritation with Orbán, who refused to sign off on the loan</description>
-      <pubDate>2026-03-19T16:06:33+00:00</pubDate>
-      <guid>35c943e70a7c967682887cd46209c05d</guid>
-      <source>The Guardian World</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
       <title>'Disaster: Attacks on gas infrastructure, in Iran and Qatar, may set us back several years'</title>
       <link>https://www.france24.com/en/disaster-attacks-on-gas-infrastructure-in-iran-and-qatar-may-set-us-back-several-years</link>
       <description>Nadia Massih is pleased to welcome Dr. Adi Imsirovic, Author, Director at Surrey Clean Energy and Lecturer on Energy Systems at Oxford University. According to Dr.Imsirovic, we are witnessing a structural rupture in the norms that have quietly governed conflict in energy-producing regions for decades. Critical energy infrastructure was largely kept off the battlefield, until now. This boundary has now been breached and the consequences will affect the global supply chains for years to come.</description>
       <pubDate>2026-03-19T16:06:11+00:00</pubDate>
       <guid>2ca39003e629b32ff9afe2092883dbf5</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -631,7 +1211,7 @@
       <description>Six Western allies, including Britain, France, Germany and Japan, said in a joint statement Thursday they were ready &quot;to contribute to appropriate efforts to ensure safe passage through the Strait of Hormuz&quot;. The statement came as around 20,000 seafarers remained stuck on approximately 3,200 vessels west of the Strait of Hormuz, according to the International Maritime Organization, due to an effective Iranian blockade of the crucial maritime chokepoint. FRANCE 24's International Affairs Editor K</description>
       <pubDate>2026-03-19T16:05:57+00:00</pubDate>
       <guid>0a987531931cebbfd3a8b0c8d4683ecc</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -641,7 +1221,7 @@
       <description>The blast struck without warning in the Palestinian town of Beit Awa, sending a hail of missile fragments through a beauty salon and killing four women inside. In the Israeli-occupied West Bank, the first Palestinian deaths in the Middle East war have sharpened a sense of helplessness as they find themselves ensnared in the crossfire of yet another conflict.</description>
       <pubDate>2026-03-19T16:04:06+00:00</pubDate>
       <guid>9b47218feb53d29312acba9a326eb79d</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -661,7 +1241,7 @@
       <description>The Paris mayoral race narrowed on Monday as a former minister hoping to wrest control of the French capital from the left sealed a deal to join forces with a fellow right-winger for the second-round run-off. Her main rival is Socialist former deputy mayor Emmanuel Gregoire, who came out well ahead of her in the first round of voting on Sunday. FRANCE 24's French Politics Editor Marc Perelman tells us more.</description>
       <pubDate>2026-03-19T16:02:36+00:00</pubDate>
       <guid>aa51b1c41d1cd918b35d1937048a1441</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -691,7 +1271,7 @@
       <description>The second round of French municipal elections are taking place this coming weekend, but the vast majority of mayors – particularly in small towns – have already been elected. In this edition of Entre Nous, we take a look at what the job entails, why so many mayors say they are exhausted, why so many of them have quit in the past term... and how to properly wear a mayoral sash.</description>
       <pubDate>2026-03-19T15:45:40+00:00</pubDate>
       <guid>6b9cca34d95136e88cf15503c1b27952</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -701,7 +1281,7 @@
       <description>#Israel hit Iranian's part of the South Pars #gas field, the world's largest offshore reservoir #Tehran shares with #Doha, on March 18. In retaliation for the strikes, #Iran ramped up its attacks on Gulf countries' energy infrastructures, sending #oil prices soaring. Israel also reported strikes on its refineries on March 19.</description>
       <pubDate>2026-03-19T15:34:31+00:00</pubDate>
       <guid>c296e043d8bafd45251a0901d8e2afd0</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -711,7 +1291,7 @@
       <description>Genie Godula is pleased to welcome Steven Everts, Director of European Union Institute for Security Studies (EUISS). According to Mr. Everts, the current conflict is an unnecessary war defined by cycles of retaliation that risk expanding beyond their original scope, with serious implications for regional stability and global energy markets. Europe is already feeling the economic fallout, but the deeper concern lies in the possibility of further destabilisation. He sees this war as strategically</description>
       <pubDate>2026-03-19T15:20:18+00:00</pubDate>
       <guid>b8521d043ae5d2f7a9e6ed8e400b2909</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -722,7 +1302,7 @@
       <pubDate>2026-03-19T15:20:05+00:00</pubDate>
       <guid>baa5ca036f5e01bc37e8bb195c8842e3</guid>
       <source>BBC Africa</source>
-      <category>international</category>
+      <category>africa</category>
       <language>en</language>
     </item>
     <item>
@@ -747,22 +1327,12 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <language>en</language>
     </item>
     <item>
-      <title>No timeframe for ending US war against Iran, says Pete Hegseth</title>
-      <link>https://www.theguardian.com/us-news/2026/mar/19/pete-hegseth-iran-war</link>
-      <description>US defense secretary suggests Thursday will be ‘largest strike package yet … death and destruction from above’ Sign up for the Breaking News US email to get newsletter alerts in your inboxThe US defense secretary, Pete Hegseth, said on Thursday there is no “timeframe” for ending the US war against Iran and did not deny reports that the Pentagon could seek an extra $200bn in taxpayer funding.The military US-Israeli offensive began three weeks ago and continues to widen. Donald Trump threatened on</description>
-      <pubDate>2026-03-19T15:02:07+00:00</pubDate>
-      <guid>39713beea7aa1ead5bd01ea491d920e7</guid>
-      <source>The Guardian World</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
       <title>Celebrating the diversity of 'la langue française'</title>
       <link>https://www.france24.com/en/tv-shows/arts24/20260319-celebrating-the-diversity-of-la-langue-fran%C3%A7aise</link>
       <description>You’ll hear its unmistakable sound in tiny islands of the South Pacific, bustling capitals in West Africa and chilly ports in the northeast of the Americas. The French language is spoken by more than 390 million people all over the world, and that linguistic community is celebrated by the International Organisation of Francophonie. French content is also increasingly popular on social media, with lifestyle, culture and education influencers sharing linguistic tips online.</description>
       <pubDate>2026-03-19T15:00:46+00:00</pubDate>
       <guid>8061126ddc0f1f3c61167d6de292079d</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -773,7 +1343,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <pubDate>2026-03-19T14:57:22+00:00</pubDate>
       <guid>967a3bd9b41c02e8b461fa49414977c2</guid>
       <source>BBC Africa</source>
-      <category>international</category>
+      <category>africa</category>
       <language>en</language>
     </item>
     <item>
@@ -782,7 +1352,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>A man who lost his wife after she was shot dead in her car in the Philippines a decade ago with their children in the back seat has spoken to FRANCE 24 of the trauma of such an event, and how his family has got through what happened. Stuart J. Green lost not only his wife, but also his job and the country he'd been living in for 25 years, leaving him with three traumatised children to look after. He found little help in the world of literature, so he decided to write his own book to try to help</description>
       <pubDate>2026-03-19T14:43:23+00:00</pubDate>
       <guid>51df8ae1619ef7a144d06c10f680dd28</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -792,17 +1362,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>Senegal's football federation said Thursday that it would appeal the Confederation of African Football (CAF) decision to strip the country's team of its Africa Cup of Nations and award the title to Morocco. Senegal beat Morocco in Rabat on January 18, a victory that was short-lived after CAF reversed Senegal's win two months later.</description>
       <pubDate>2026-03-19T14:41:12+00:00</pubDate>
       <guid>9bd133c676555a32700d69ad924568ed</guid>
-      <source>France 24 - International</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category 5 storm, bringing 315km/h wind gusts</title>
-      <link>https://www.theguardian.com/australia-news/2026/mar/19/tropical-cyclone-narelle-qld-storm-tracker-path-tracking-map-bom</link>
-      <description>Massive storm tracking a path to Queensland coast, which intensified offshore Thursday morning to category 5, fuelled by warm waters in Coral SeaCyclone Narelle path tracker mapGet our breaking news email, free app or daily news podcastSevere Tropical Cyclone Narelle is expected to make landfall in far north Queensland on Friday morning as a monster category 5 storm, bringing destructive wind gusts of 315km/h, according to the Bureau of Meteorology.The severe cyclone rapidly intensified over the</description>
-      <pubDate>2026-03-19T14:37:35+00:00</pubDate>
-      <guid>ab0adc0a268d7e916f8b9296bf96fabc</guid>
-      <source>The Guardian World</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -832,18 +1392,8 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[Daily Maverick] The National Treasury wants metro municipalities, the engines of the economy and home to the majority of South Africans, to become more 'business-like' in raising revenue and improving service delivery. But there are questions over corruption and political will.</description>
       <pubDate>2026-03-19T14:29:46+00:00</pubDate>
       <guid>c2db73df9e2c792099e28219974c6a85</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Senate committee advances Markwayne Mullin’s nomination to lead homeland security</title>
-      <link>https://www.theguardian.com/us-news/2026/mar/19/senate-committee-advances-markwayne-mullin-homeland-security</link>
-      <description>Republican senator’s nomination will now be considered by full Senate, where the GOP appears poised to confirm himSign up for the Breaking News US email to get newsletter alerts in your inboxA key Senate committee on Thursday advanced Markwayne Mullin’s nomination to lead the Department of Homeland Security (DHS) on a near party line vote, a day after the Republican senator faced questions at his confirmation hearing about his approach to Donald Trump’s immigration enforcement agenda and accusat</description>
-      <pubDate>2026-03-19T14:27:44+00:00</pubDate>
-      <guid>07ad1e743232f446423bde84c3fc0a91</guid>
-      <source>The Guardian World</source>
-      <category>international</category>
       <language>en</language>
     </item>
     <item>
@@ -852,7 +1402,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[GroundUp] Dozens of households have had to be relocated</description>
       <pubDate>2026-03-19T14:24:54+00:00</pubDate>
       <guid>5d85de2e5612f3c54ce73852c78f33a8</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -872,7 +1422,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[GroundUp] Build us new homes, demand occupiers of land meant for housing that was never built</description>
       <pubDate>2026-03-19T14:24:09+00:00</pubDate>
       <guid>ee0356f7f82c7b2b2edfc5df1d4b2660</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -882,7 +1432,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>US Defense Secretary Pete Hegseth said Thursday there is no &quot;time frame&quot; for ending the US-Israeli war against Iran, which was launched three weeks ago. &quot;We wouldn't want to set a definitive time frame,&quot; Hegseth told a news conference, adding that &quot;we're very much on track&quot; and that President Donald Trump will be the one to decide when to stop. Hegseth also addressed a report that the Pentagon has requested more than $200 billion in additional funding from Congress to pay for the conflict.</description>
       <pubDate>2026-03-19T14:06:39+00:00</pubDate>
       <guid>10459538844243a949c5f6a9d7e11ca6</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -892,7 +1442,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>Oil and gas prices soared Thursday after Iran hit the world's largest liquefied natural gas (LNG) facility in Qatar and threatened to destroy the region's energy infrastructure. Donald Trump, whose country started the war alongside Israel with their attack on Iran on February 28, warned of a furious US response if such attacks continued. International benchmark Brent surged 10 percent before falling back while European gas rose 35 percent after Iran attacked Qatar's huge Ras Laffan LNG facility</description>
       <pubDate>2026-03-19T14:05:48+00:00</pubDate>
       <guid>dda2bf5d92c16c25d9feac6e3841f9e3</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -912,7 +1462,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>President Emmanuel Macron on Wednesday announced that France's next nuclear-powered aircraft carrier will be called &quot;France Libre&quot; (Free France), as the country looks to reinforce its status as a major maritime power. Once completed, the warship, which is set to replace the country's sole aircraft carrier – the Charles de Gaulle – and due to enter service in 2038, will be the largest warship ever built in Europe.</description>
       <pubDate>2026-03-19T14:04:36+00:00</pubDate>
       <guid>bd721fd91c61e821ff9825e82c8ba66b</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -937,22 +1487,12 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <language>en</language>
     </item>
     <item>
-      <title>Starmer meets Nigerian president as record steel deal agreed</title>
-      <link>https://www.bbc.com/news/articles/crm1w24p8p7o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The deal came as part of the president's state visit to the UK - the first by a west African leader in 37 years.</description>
-      <pubDate>2026-03-19T13:59:09+00:00</pubDate>
-      <guid>d7e6010d0fe3adc8ce999922fc196cc5</guid>
-      <source>BBC Africa</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
       <title>Iran war exposes Gulf economies' food, water vulnerability</title>
       <link>https://www.france24.com/en/tv-shows/people-profit/20260319-iran-war-exposes-gulf-economies-food-water-vulnerability</link>
       <description>The spiralling conflict in Iran has highlighted the potential vulnerability of Gulf states when it comes to food and water security. Countries like Bahrain and Qatar depend heavily on desalinated water, and strikes on desalination plants have sparked concern about water supplies. Meanwhile, the usual flow of food imports through the Strait of Hormuz has been disrupted by the fighting.</description>
       <pubDate>2026-03-19T13:41:32+00:00</pubDate>
       <guid>e93df782958e25d22ba5cdf690b5815b</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -964,16 +1504,6 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <guid>68f8a2515b483b5dbe952c427ee51baf</guid>
       <source>Africanews</source>
       <category>africa</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>British schoolgirl stranded in Denmark after return flight blocked over UK border rules</title>
-      <link>https://www.theguardian.com/uk-news/2026/mar/19/uk-schoolgirl-stranded-denmark-dual-national-rules</link>
-      <description>Exclusive: Hanne, 16, from Sussex, was denied board on flight to London after weekend in CopenhagenA 16-year-old British schoolgirl has been left stranded in Denmark after she was refused board on a flight to London because of new UK border rules introduced on British dual nationals.Hanne*, from Sussex, was stopped from boarding a flight home on 8 March after a weekend seeing her British father, who is an academic on a short work stint at a university in Copenhagen.Has your child been refused bo</description>
-      <pubDate>2026-03-19T13:31:29+00:00</pubDate>
-      <guid>de4abf1831275e66b49def4c4f0dcb87</guid>
-      <source>The Guardian World</source>
-      <category>international</category>
       <language>en</language>
     </item>
     <item>
@@ -1002,7 +1532,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>Since 2015 and the outbreak of war between the Houthis, who control the north of Yemen, and the internationally recognised government in the south, the country's education system has been steadily collapsing. According to UNICEF, nearly 4 million Yemeni children are currently out of school, amounting to 40 percent of the under-18 population.</description>
       <pubDate>2026-03-19T13:10:19+00:00</pubDate>
       <guid>19a60752ced2d523af1dfb3e8d6cdf58</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -1012,7 +1542,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>submitted by    /u/naks26   [link] [comments]</description>
       <pubDate>2026-03-19T13:01:05+00:00</pubDate>
       <guid>dbc8ed13de503460369370b791f02398</guid>
-      <source>Reddit - r/mauritius</source>
+      <source>Reddit r/mauritius</source>
       <category>community</category>
       <language>en</language>
     </item>
@@ -1022,7 +1552,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[Scrolla] The Chief Justice earns the most on the new list, taking home more than R3.3-million a year from April 2025.   The Public Protector earns just over R2.7-million a year, matching what Constitutional Court and Supreme Court of Appeal judges earn.</description>
       <pubDate>2026-03-19T12:57:06+00:00</pubDate>
       <guid>77e0c929e3fe5b3303f7300e1537903d</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1042,7 +1572,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[Parliament of South Africa] South Africa's reputation globally is a key priority for the Department of Science, Technology and Innovation. This will be maintained and safeguarded, the Portfolio Committee on Science and Technology heard when it received a briefing from the department on the progress in implementing the 2022-2032 STI Decadal Plan and the outcomes of all the Inter-Ministerial Committee (IMC) meetings on science, technology and innovation (STI) to date and the 2024 STI Presidential</description>
       <pubDate>2026-03-19T12:39:44+00:00</pubDate>
       <guid>04d8a0f7ffde00f334932eb50ed29976</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1052,7 +1582,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[Parliament of South Africa] Participants participating in the Standing Committee on Appropriations' public hearings asserted that a national budget must work for ordinary people, not just look good on paper. This was the clear message from Durban residents who packed a public hearing in Westville, demanding that the national budget address their daily crises of housing, electricity, and scholar transport.</description>
       <pubDate>2026-03-19T12:36:10+00:00</pubDate>
       <guid>9e0015ad4863206934752c137016ef17</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1062,7 +1592,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[Parliament of South Africa] The Portfolio Committee on Trade, Industry and Competition has spent the past two days looking at whether the Eastern Cape province's industrial zones are contributing to industrial growth and job creation.</description>
       <pubDate>2026-03-19T12:35:45+00:00</pubDate>
       <guid>64868abc4054413500cf5c83844e199f</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1072,7 +1602,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[Scrolla] Producer Black Tears posted a public message saying he is concerned after losing contact with Emtee following an emotional Instagram Live.   Emtee used the Instagram Live to say he had not received royalties from his 2021 album Logan and spoke about losing access to his home and his children.</description>
       <pubDate>2026-03-19T12:30:09+00:00</pubDate>
       <guid>617d5fa4583ef8b7e37b6f06a32d6521</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1112,7 +1642,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[GroundUp] Construction is yet to start on Western Cape government's inner-city projects</description>
       <pubDate>2026-03-19T11:49:38+00:00</pubDate>
       <guid>67bb6282900651be38dfd764ee1f7641</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1122,7 +1652,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[SAnews.gov.za] Bringing essential government services and opportunities directly to young people will be at the core of Deputy Minister in the Presidency Nonceba Mhlauli's visit to Kuruman in Northern Cape.</description>
       <pubDate>2026-03-19T11:49:13+00:00</pubDate>
       <guid>d2ae1779e41020e3e5f75336dd05a165</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1132,7 +1662,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[SAnews.gov.za] Water and Sanitation Deputy Minister David Mahlobo has underscored the critical role of academic institutions in shaping solutions to South Africa's water challenges.</description>
       <pubDate>2026-03-19T11:49:00+00:00</pubDate>
       <guid>ccbaf1dabc81ed55d4dc2a25b798021b</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1142,7 +1672,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[SAnews.gov.za] The Department of Trade, Industry and Competition's (dtic) Furniture Master Plan's objectives of strengthening local manufacturing capability and expanding opportunities for small enterprises and emerging entrepreneurs will come to the fore at the annual Furniture Design Competition Awards.</description>
       <pubDate>2026-03-19T11:48:41+00:00</pubDate>
       <guid>d72efc7ebe457849b9a47562626fbbb4</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1152,7 +1682,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[SAnews.gov.za] Government has extended its heartfelt condolences to the families, friends, colleagues, and the media fraternity on the passing of Nompumelelo Magagula and Jonisayi Maromo, two esteemed journalists who made remarkable contributions to the media landscape.</description>
       <pubDate>2026-03-19T11:48:26+00:00</pubDate>
       <guid>6724c4732afa2bb84986ea3bd621cdb6</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1162,7 +1692,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[SAnews.gov.za] Three suspects were fatally wounded in a high-speed chase and shootout out with the Hawks Tactical Operations Management Team in Crystal Park in Gauteng, said the Hawks.</description>
       <pubDate>2026-03-19T11:47:54+00:00</pubDate>
       <guid>433b1e33df4fc0d781931da061dfd1fa</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1172,7 +1702,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[SAnews.gov.za] South Africans can be assured that fuel supply in the country remains stable in the immediate term.</description>
       <pubDate>2026-03-19T11:47:44+00:00</pubDate>
       <guid>a112fad4bac7a0090ab74688e3b327b8</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1182,7 +1712,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[SAnews.gov.za] The Department of Home Affairs has delivered another important reform to advance equality and fairness for the Muslim faith community by ensuring that Muslim marriage officers are recognised on the same basis as other religious marriage officers under the Marriage Act 25 of 1961.</description>
       <pubDate>2026-03-19T11:47:08+00:00</pubDate>
       <guid>0a2b51bfb297246e118d269c70dcfb76</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1192,7 +1722,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[IFP] The Inkatha Freedom Party (IFP) has emerged victorious in three of the five wards contested in the by-elections held on 18 March 2026, delivering a strong showing that underscores the Party's growing electoral momentum and continued voter confidence.</description>
       <pubDate>2026-03-19T11:39:58+00:00</pubDate>
       <guid>143109df37d03bfc236a710867734e5e</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1202,7 +1732,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[Nile Post] Weeks after President Museveni was declared winner of the 2026 general elections with 71 percent of the vote, National Resistance Movement (NRM) members in the diaspora have organized a victory celebration alongside the launch of a Ugandan Diaspora SACCO.</description>
       <pubDate>2026-03-19T11:33:35+00:00</pubDate>
       <guid>16e4bec5d3237543b03c1df43ee35fcc</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1212,7 +1742,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>[Scrolla] Celani Sikhakhane brings you KwaZulu-Natal's latest news.</description>
       <pubDate>2026-03-19T11:32:30+00:00</pubDate>
       <guid>2f7d877df457a5f1f9d5f02524918bf4</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1252,7 +1782,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>Saudi Arabia warned that it had 'reserved the right to take 'military actions' over #Iran's repeated attacks on the kingdom, as fresh trikes hit Riyadh during a summit of regional foreign ministers. The comment marks a turn in the #Gulf's reaction to Iran's strikes on its neighbours since the start of the #war.</description>
       <pubDate>2026-03-19T11:18:18+00:00</pubDate>
       <guid>01cc4346a0d21c622418bc5e95cc8349</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -1263,7 +1793,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <pubDate>2026-03-19T11:14:02+00:00</pubDate>
       <guid>e4a90fb5720897b7319451d3bdfc0e48</guid>
       <source>BBC Africa</source>
-      <category>international</category>
+      <category>africa</category>
       <language>en</language>
     </item>
     <item>
@@ -1272,7 +1802,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>The Iranian women's football team, whose plight has become embroiled in the Middle East war, returned back to Iran on Wednesday where they were promised a welcome ceremony in Tehran. Seven members of the delegation had sought asylum in Australia last week after their decision not to sing the national anthem before their opening game at the Women's Asian Cup.</description>
       <pubDate>2026-03-19T11:01:32+00:00</pubDate>
       <guid>c29b8e24d5d6c4a18de8696ab63fcdf9</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -1282,7 +1812,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>Eid-al-Fitr, the holiday marking the end of the Muslim Holy Month of Ramadan will take place at the end of this week. People around the globe will gather to mark the occasion with shared meals, sweet pastries, and celebration. For those in Gaza, the holiday highlights everything that has been lost following more than two years of an Israeli onslaught that has left much of the enclave in ruins and killed over 72 000 Palestinians.</description>
       <pubDate>2026-03-19T11:00:23+00:00</pubDate>
       <guid>abf9ee2e845a382581767acf7e0c8dec</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -1302,27 +1832,7 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <description>Strikes on the natural gas production facilities of Iran and Qatar have sent energy prices soaring, with central bankers around the world struggling to set monetary policy amid a highly uncertain inflationary outlook. We take a closer look. Also in this edition: the French shipbuilding industry welcomes the start of construction of the country's next nuclear-powered aircraft carrier.</description>
       <pubDate>2026-03-19T10:45:59+00:00</pubDate>
       <guid>4ed17f658c79d6f631a25d02d2e2ec66</guid>
-      <source>France 24 - International</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>EU leaders pile pressure on Hungary's Orban to lift block on Ukraine loan</title>
-      <link>https://www.france24.com/en/video/20260319-eu-leaders-pile-pressure-on-hungary-s-orban-to-lift-block-on-ukraine-loan</link>
-      <description>European Union leaders piled pressure on Hungarian Prime Minister Viktor Orban on Thursday to lift his blockade on a vital 90-billion-euro ($103 billion) EU loan to ​Ukraine to keep ‌up its fight against Russia's invasion. EU leaders agreed to the loan in December but Orban,  who has ⁠cordial ties with Russia and has clashed with Ukrainian President Volodymyr Zelenskiy, blocked its implementation last month, citing a dispute over a war-damaged pipeline. FRANCE 24's Emmanuelle Chaze reports from</description>
-      <pubDate>2026-03-19T10:35:47+00:00</pubDate>
-      <guid>b4ae70e30afd64e0a0f0bc2b372a2a34</guid>
-      <source>France 24 - International</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Trump threatens to strike world's largest gas field if Iran attacks Qatar again</title>
-      <link>https://www.france24.com/en/video/20260319-trump-threatens-to-strike-world-s-largest-gas-field-if-iran-attacks-qatar-again</link>
-      <description>US President Donald Trump pledged the US would “massively blow up the entirety” of the world’s largest gas field if Iran attacks Qatar again. Trump made his threat on social media Wednesday night against Iran’s South Pars natural gas field after Iranian missiles hit Qatar. The Iranian attack was in retaliation for an Israeli attack on the South Pars field earlier Wednesday. Hoda Abel-Hamid reports from Doha, Qatar.</description>
-      <pubDate>2026-03-19T10:34:19+00:00</pubDate>
-      <guid>d070e938559944ee9a766ac32ebb5be5</guid>
-      <source>France 24 - International</source>
+      <source>France 24</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -1334,36 +1844,6 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <guid>f11882043b4f0e0a1fcb4f3ae1d10e82</guid>
       <source>Africanews</source>
       <category>africa</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Who is running Iran? Top leadership decimated by US-Israeli strikes</title>
-      <link>https://www.france24.com/en/video/20260319-who-is-running-iran-top-leadership-decimated-by-us-israeli-strikes</link>
-      <description>Iran suffered a fresh blow Wednesday with the killing of its intelligence minister as the new supreme leader, yet to be seen since replacing his slain father, vowed to avenge the death of the country's security chief. Israel has killed one senior Iranian leader after another in airstrikes as it seeks to topple the Islamic Republic.</description>
-      <pubDate>2026-03-19T10:32:58+00:00</pubDate>
-      <guid>7867eb08a0cffee3c65f77e7d615a661</guid>
-      <source>France 24 - International</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Iraq caught in crossfire of Middle East war</title>
-      <link>https://www.france24.com/en/video/20260319-iraq-caught-in-crossfire-of-middle-east-war</link>
-      <description>Iraq has been drawn into the Middle East war triggered by the US-Israel attack on its neighbour Iran on February 28. Strikes have targeted Iran-backed groups, which in turn have claimed near daily attacks on US interests in Iraq and across the region.</description>
-      <pubDate>2026-03-19T10:32:21+00:00</pubDate>
-      <guid>8f518ad1e2d1fddb3dcbea9ec013c9f7</guid>
-      <source>France 24 - International</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Dozens arrested in Dubai for allegedly filming the war</title>
-      <link>https://www.france24.com/en/video/20260319-dozens-arrested-in-dubai-for-allegedly-filming-the-war</link>
-      <description>According to France Televisions sources, at least three French nationals are among dozens of people to have been arrested in Dubai for allegedly filming the war. The charges are part of the United Arab Emirate's cyber crimes laws the country says are to enforce public security.</description>
-      <pubDate>2026-03-19T10:31:09+00:00</pubDate>
-      <guid>d9d41b1252a2fe192c5483f52a75a280</guid>
-      <source>France 24 - International</source>
-      <category>international</category>
       <language>en</language>
     </item>
     <item>
@@ -1387,22 +1867,12 @@ The precious metal is seen as a safe investment to hold wealth.</description>
       <language>en</language>
     </item>
     <item>
-      <title>Denounce 'abject' Afcon decision - senior Caf member</title>
-      <link>https://www.bbc.com/sport/football/articles/ckg1gg5pgl7o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Caf executive committee member Augustin Senghor says the decision to strip Senegal of the 2025 Afcon title is &quot;unacceptable, abject and we have to denounce it&quot;.</description>
-      <pubDate>2026-03-19T09:54:33+00:00</pubDate>
-      <guid>74887d80d31d59f70fa2149fca91648b</guid>
-      <source>BBC Africa</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
       <title>South Africa's Just Transition Must Also Be a Health Transition</title>
       <link>https://allafrica.com/stories/202603190193.html</link>
       <description>[Daily Maverick] Cleaner air, healthier communities and new economic opportunities are not secondary benefits of climate policy. They are central outcomes of a transition designed to protect people and the economy.</description>
       <pubDate>2026-03-19T09:50:07+00:00</pubDate>
       <guid>436f79d2b3e0d6752c664acf60b23f66</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1415,7 +1885,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <pubDate>2026-03-19T09:48:16+00:00</pubDate>
       <guid>9cff7d85c752e694a373c33fe77d100a</guid>
       <source>News Moris</source>
-      <category>general</category>
+      <category>local</category>
       <language>en</language>
     </item>
     <item>
@@ -1424,7 +1894,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>[Scrolla] National Debt Advisors (NDA) studied more than 70,000 people under debt review and found average monthly income sits at just R9,536.   NDA head Sebastien Alexanderson says debt is now a survival strategy for many households as incomes fail to keep up.</description>
       <pubDate>2026-03-19T09:19:00+00:00</pubDate>
       <guid>7f5c379ec7bf9230ec45d1cc682d534b</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1444,7 +1914,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>I work remotely and my budget is 2000usd per month, where can I find affortable housing with fast internet?  I would also like to make friends after work and engage in activities or sports, but I wouldn’t wanna live in an expensive area for that.  Any recommendations? :)    submitted by    /u/CasamiraChronicles   [link] [comments]</description>
       <pubDate>2026-03-19T08:46:55+00:00</pubDate>
       <guid>de309fdfe91605e65d7db040eccf7cee</guid>
-      <source>Reddit - r/mauritius</source>
+      <source>Reddit r/mauritius</source>
       <category>community</category>
       <language>en</language>
     </item>
@@ -1504,7 +1974,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>[New Zimbabwe] Grammy Award-winning South African composer Lebo &quot;Lebo M&quot; Morake has filed a $20 million lawsuit against Zimbabwean comedian Learnmore Jonasi.</description>
       <pubDate>2026-03-19T06:31:10+00:00</pubDate>
       <guid>8287a353c868b572cff5c77d0cfc7f6f</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1514,7 +1984,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>[GroundUp] Government offices are often closed due to lack of water in Centane</description>
       <pubDate>2026-03-19T06:28:54+00:00</pubDate>
       <guid>c61c23dd7846398aa07cc3f62cf8372a</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1524,17 +1994,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>[GroundUp] Elunyaweni Primary in Ugie in the Eastern Cape has five full pit latrines for 160 learners; nearby ET Thabane Primary has broken classrooms</description>
       <pubDate>2026-03-19T06:27:30+00:00</pubDate>
       <guid>4ef8c54a1e28dbfb17b4203867c92df2</guid>
-      <source>AllAfrica - South Africa</source>
-      <category>africa</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>#UniteBehind Opposes Judge Makhubele's Bid to Stop Impeachment Vote</title>
-      <link>https://allafrica.com/stories/202603190028.html</link>
-      <description>[GroundUp] Activist group says she has already earned about R10-million since her suspension and her review application may take another four years</description>
-      <pubDate>2026-03-19T06:27:29+00:00</pubDate>
-      <guid>3a41935384137f415ede2145d6fe371c</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1544,7 +2004,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>[GroundUp] Companies like FoodForward SA and Ladles of Love are rescuing produce and redistributing it in vulnerable communities</description>
       <pubDate>2026-03-19T06:18:57+00:00</pubDate>
       <guid>fe83f46d35408251ea4c4cce2f41d22f</guid>
-      <source>AllAfrica - South Africa</source>
+      <source>AllAfrica South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1564,7 +2024,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>[Afrobarometer] Most citizens say police and courts need to do more to protect women and girls against discrimination and harassment.</description>
       <pubDate>2026-03-19T06:01:52+00:00</pubDate>
       <guid>a85482ad99df6fe148707defdaa9b67f</guid>
-      <source>AllAfrica - Comoros</source>
+      <source>AllAfrica Comoros</source>
       <category>regional</category>
       <language>en</language>
     </item>
@@ -1575,16 +2035,6 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <pubDate>2026-03-19T06:01:49+00:00</pubDate>
       <guid>c30fd7e587db1baa69db5f92e093ef80</guid>
       <source>BBC Africa</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Mining Companies and Land Rights in South Africa - How Environmentalists Have Used the Law to Defend Communities</title>
-      <link>https://allafrica.com/stories/202603190003.html</link>
-      <description>[The Conversation Africa] Environmental activists in South Africa have been waging legal battles against the state and mining companies for years. This is often on the grounds that communities haven't been consulted before mines were given permission to start digging and blasting on their land. Environmental justice researcher Mzingaye Brilliant Xaba has tracked the legal cases against mines since 2015. He analysed court rulings, research and media coverage. His research has found that environme</description>
-      <pubDate>2026-03-19T06:00:33+00:00</pubDate>
-      <guid>5ed75c1564d926d9e6c6cd063e56adf1</guid>
-      <source>AllAfrica - South Africa</source>
       <category>africa</category>
       <language>en</language>
     </item>
@@ -1614,7 +2064,7 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>Hey folks! I’m from India and I’ll be visiting my partner’s family in Mauritius after almost a decade. We will be visiting her extended family while we’re there and we’re taking small gifts and presents for the ones we’re visiting. I’m kind of at a dead end when it comes to this boy who is 13/14 years. When we last saw him he was 3 and that can’t really think of what to get him. We don’t want to get him some random thing. Any suggestions would be helpful. My budget is about 1500 - 2000 Mur.  Mer</description>
       <pubDate>2026-03-19T04:52:19+00:00</pubDate>
       <guid>6c445ae60386cd1497f70a3961a4e60f</guid>
-      <source>Reddit - r/mauritius</source>
+      <source>Reddit r/mauritius</source>
       <category>community</category>
       <language>en</language>
     </item>
@@ -1626,6 +2076,16 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <guid>a4d798cbe2e589452c2ef6225836a789</guid>
       <source>The Guardian World</source>
       <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Homepage - ionnews</title>
+      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxOTEdsazRLd3J6WmNCQ3lFcy1yVmZaaXRwbVB6TjhyVGJnTEdGb21UUWtfdFNTc1lfZkdsY0hiVTNtV09iRFdaZFVDMldsYi1nVHVBZ2VxVlpOQmFvZHJpSWVETzJLNmRUS3FPU1M3MXlCOWZmckwwWWs5QkJUaXFmZE1FazhUWTV4NG5lWG9FTl84TkE?oc=5</link>
+      <description>Homepage  ionnews</description>
+      <pubDate>2026-03-19T03:32:51+00:00</pubDate>
+      <guid>d96c912e5d5b4cb10c39732171d7f94a</guid>
+      <source>ION News</source>
+      <category>local</category>
       <language>en</language>
     </item>
     <item>
@@ -1664,8 +2124,8 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>Homepage  ionnews</description>
       <pubDate>2026-03-18T21:47:01+00:00</pubDate>
       <guid>15d8cf97336b2b30dc42dd6ba90e18c9</guid>
-      <source>ION News (via Google News)</source>
-      <category>general</category>
+      <source>ION News</source>
+      <category>local</category>
       <language>en</language>
     </item>
     <item>
@@ -1684,78 +2144,8 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <description>Homepage  ionnews</description>
       <pubDate>2026-03-18T19:26:19+00:00</pubDate>
       <guid>1c6e122047394b3e92a95c3ce34c70d1</guid>
-      <source>ION News (via Google News)</source>
-      <category>general</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Israel strikes Iran’s South Pars gasfield hours after forces kill intelligence minister</title>
-      <link>https://www.theguardian.com/world/2026/mar/18/iran-intelligence-minister-esmail-khatib-killed-israel-claims</link>
-      <description>Death confirmed of Esmail Khatib, the third senior Iranian figure killed in 24 hours, as Israel also launches intense airstrikes on LebanonMiddle East crisis – live updatesExplainer: why attacks on gasfields are a major escalationIsrael struck Iran’s giant South Pars gasfield on Wednesday, marking a major escalation of the war, hours after Israeli forces killed the regime’s intelligence minister and launched some of the most intense airstrikes in Beirut for decades.The attack on the Pars site in</description>
-      <pubDate>2026-03-18T19:25:39+00:00</pubDate>
-      <guid>1e423084500370d678f206fe456fcc54</guid>
-      <source>The Guardian World</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Senegal government alleges corruption over Afcon</title>
-      <link>https://www.bbc.com/sport/football/articles/cwygyq495j8o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The Senegalese government calls for an &quot;independent international investigation&quot; at the Confederation of African Football after it stripped Senegal of the Africa Cup of Nations title.</description>
-      <pubDate>2026-03-18T18:50:11+00:00</pubDate>
-      <guid>86bc4fdbceafe4faf92990748266bad8</guid>
-      <source>BBC Africa</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Canada in push for joint G7 and Middle East effort to de-escalate Iran war</title>
-      <link>https://www.theguardian.com/world/2026/mar/18/canada-in-push-for-joint-g7-and-middle-east-effort-to-de-escalating-iran-war</link>
-      <description>Foreign minister Anita Anand says she has drafted principles to reduce risk of regional spillover and wider shocksMiddle East crisis – live updatesCanada is pushing for a collective G7 and Middle East approach to de-escalating the Iran war, including off ramps that could bring an end to the conflict, the Canadian foreign minister, Anita Anand, has said.In London to meet the UK foreign secretary, Yvette Cooper, after talks with the her Turkish counterpart, Hakan Fidan, Anand told the Guardian she</description>
-      <pubDate>2026-03-18T18:38:09+00:00</pubDate>
-      <guid>6b4d525b54bde8de98a10f1b9862de13</guid>
-      <source>The Guardian World</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Visa requirements and immigration registration requirements</title>
-      <link>https://www.reddit.com/r/mauritius/comments/1rxakjs/visa_requirements_and_immigration_registration/</link>
-      <description>So me and my fiancée are planning to visit Mauritius for 2 weeks this year and would like to know if we need visas and also is it required to register for online immigration QR code or something similar ? I’m a holder of United Arab Emirates passport She is a holder of Russian passport Thank you.    submitted by    /u/shhh_dalick   [link] [comments]</description>
-      <pubDate>2026-03-18T17:38:39+00:00</pubDate>
-      <guid>ed0a87ece1188b3c961eca58e7884b38</guid>
-      <source>Reddit - r/mauritius</source>
-      <category>community</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Forty years after the last one was poached, rhinos are back in the wild in Uganda</title>
-      <link>https://www.bbc.com/news/articles/cn4g41n9j4lo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The return of southern white rhinos to the country comes after Ugandan poachers once wiped them out.</description>
-      <pubDate>2026-03-18T17:36:05+00:00</pubDate>
-      <guid>6d73226587edfb25f0fa6d7bd8f70a8d</guid>
-      <source>BBC Africa</source>
-      <category>international</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>UN mission patrols South Sudan refugee camp after deadly attack</title>
-      <link>http://www.africanews.com/2026/03/18/un-mission-patrols-south-sudan-refugee-camp-after-deadly-attack/</link>
-      <description>Responding to a recent deadly attack in which a Sudanese refugee lost his life, the United Nations Mission in South Sudan (UNMISS) conducted a patrol at Makpandu refugee camp in Yambio, Western Equatoria, to assess security in the area and work with local authorities, security forces, and refugee co</description>
-      <pubDate>2026-03-18T17:35:55+00:00</pubDate>
-      <guid>7fb100cf0596c5503934bdd86f4431eb</guid>
-      <source>Africanews</source>
-      <category>africa</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>AFCON 2025 final scandal: Senegal accuses CAF of corruption</title>
-      <link>http://www.africanews.com/2026/03/18/afcon-2025-final-scandal-senegal-accuses-caf-of-corruption/</link>
-      <description>After the Confederation of African Football stripped Senegal of its title in the Africa Cup of Nations 2025 final on Tuesday, Dakar has taken its protest a step further: it accused the CAF of corruption and called for an international investigation on Wednesday.</description>
-      <pubDate>2026-03-18T17:21:31+00:00</pubDate>
-      <guid>4b7ffa9a10c232f464d7db50292ef0a3</guid>
-      <source>Africanews</source>
-      <category>africa</category>
+      <source>ION News</source>
+      <category>local</category>
       <language>en</language>
     </item>
   </channel>
