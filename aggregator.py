@@ -5,9 +5,12 @@ import json
 import hashlib
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
+import warnings
+
+warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
@@ -54,13 +57,13 @@ def fetch_rss(source):
                 getattr(entry, "summary", "") or "", "html.parser"
             ).get_text()[:MAX_SUMMARY_CHARS]
             items.append({
-                "id":       item_id(entry.get("title", ""), entry.get("link", "")),
-                "title":    entry.get("title", "").strip(),
-                "url":      entry.get("link", ""),
-                "summary":  summary.strip(),
-                "source":   source["name"],
-                "language": source["language"],
-                "category": source["category"],
+                "id":        item_id(entry.get("title", ""), entry.get("link", "")),
+                "title":     entry.get("title", "").strip(),
+                "url":       entry.get("link", ""),
+                "summary":   summary.strip(),
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
                 "published": dt.isoformat() if dt else datetime.now(timezone.utc).isoformat(),
             })
     except Exception as e:
@@ -260,7 +263,7 @@ def main():
         items = fetch_exchange_rates(source)
         print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
-    
+
     all_items = deduplicate(all_items)
     print(f"\nTotal unique items: {len(all_items)}")
 
