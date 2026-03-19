@@ -21,11 +21,6 @@ rss_feeds:
     url: "https://www.reddit.com/r/mauritius/.rss"
     language: "en"
     category: "community"
-  
-  - name: "Reddit - r/MauriceMauritius"
-    url: "https://www.reddit.com/r/MauriceMauritius/.rss"
-    language: "en"
-    category: "community"
 
   # ── Indian Ocean region ──────────────────────────────────────────────────────
 
@@ -75,16 +70,6 @@ rss_feeds:
     url: "https://allafrica.com/tools/headlines/rdf/southafrica/headlines.rdf"
     language: "en"
     category: "africa"
-
-  - name: "AllAfrica - Southern Africa"
-    url: "https://allafrica.com/tools/headlines/rdf/southernafrica/headlines.rdf"
-    language: "en"
-    category: "africa"
-
-  - name: "AllAfrica - Business"
-    url: "https://allafrica.com/tools/headlines/rdf/business/headlines.rdf"
-    language: "en"
-    category: "finance"
 
   # ── International ────────────────────────────────────────────────────────────
 
