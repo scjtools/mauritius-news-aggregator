@@ -1,94 +1,94 @@
+# ─────────────────────────────────────────────────────────────
+# Mauritius News Aggregator — Source Definitions
+# ─────────────────────────────────────────────────────────────
+
 rss_feeds:
 
-  # ── Mauritius local ──────────────────────────────────────────────────────────
-
+  # ── Local news ──────────────────────────────────────────────
   - name: "News Moris"
     url: "https://newsmoris.com/feed/"
     language: "en"
-    category: "general"
+    category: "local"
 
   - name: "Mauritius Times"
     url: "https://mauritiustimes.com/mt/feed/"
     language: "en"
-    category: "general"
+    category: "local"
 
-  - name: "ION News (via Google News)"
+  - name: "ION News"
     url: "https://news.google.com/rss/search?q=site:ionnews.mu&hl=en-MU&gl=MU&ceid=MU:en"
     language: "en"
-    category: "general"
+    category: "local"
 
-  - name: "GovMU (via Google News)"
+  - name: "GovMU"
     url: "https://news.google.com/rss/search?q=site:govmu.org&hl=en-MU&gl=MU&ceid=MU:en"
     language: "en"
-    category: "general"
+    category: "government"
 
-  - name: "Reddit - r/mauritius"
+  - name: "Reddit r/mauritius"
     url: "https://www.reddit.com/r/mauritius/.rss"
     language: "en"
     category: "community"
 
-  # ── Indian Ocean region ──────────────────────────────────────────────────────
-
-  - name: "AllAfrica - Mauritius"
+  # ── Regional ────────────────────────────────────────────────
+  - name: "AllAfrica Mauritius"
     url: "https://allafrica.com/tools/headlines/rdf/mauritius/headlines.rdf"
     language: "en"
     category: "regional"
 
-  - name: "AllAfrica - Seychelles"
+  - name: "AllAfrica Seychelles"
     url: "https://allafrica.com/tools/headlines/rdf/seychelles/headlines.rdf"
     language: "en"
     category: "regional"
 
-  - name: "AllAfrica - Comoros"
+  - name: "AllAfrica Comoros"
     url: "https://allafrica.com/tools/headlines/rdf/comoros/headlines.rdf"
     language: "en"
     category: "regional"
 
-  - name: "AllAfrica - Madagascar"
+  - name: "AllAfrica Madagascar"
     url: "https://allafrica.com/tools/headlines/rdf/madagascar/headlines.rdf"
     language: "en"
     category: "regional"
 
-  - name: "AllAfrica - Mozambique"
+  - name: "AllAfrica Mozambique"
     url: "https://allafrica.com/tools/headlines/rdf/mozambique/headlines.rdf"
     language: "en"
     category: "regional"
 
-  - name: "Google News - Rodrigues"
+  - name: "Google News Rodrigues"
     url: "https://news.google.com/rss/search?q=Rodrigues+island+Mauritius&hl=en&gl=MU&ceid=MU:en"
     language: "en"
     category: "regional"
 
-  - name: "Google News - Reunion"
+  - name: "Google News Reunion"
     url: "https://news.google.com/rss/search?q=Reunion+island+news&hl=fr&gl=MU&ceid=MU:fr"
     language: "fr"
     category: "regional"
 
-  # ── Sub-Saharan Africa ───────────────────────────────────────────────────────
-
+  # ── Africa ──────────────────────────────────────────────────
   - name: "Africanews"
     url: "https://www.africanews.com/feed/rss"
     language: "en"
     category: "africa"
 
-  - name: "AllAfrica - South Africa"
+  - name: "AllAfrica South Africa"
     url: "https://allafrica.com/tools/headlines/rdf/southafrica/headlines.rdf"
     language: "en"
     category: "africa"
 
-  # ── International ────────────────────────────────────────────────────────────
-
   - name: "BBC Africa"
     url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
     language: "en"
-    category: "international"
+    category: "africa"
 
+  # ── International ────────────────────────────────────────────
   - name: "The Guardian World"
     url: "https://www.theguardian.com/world/rss"
     language: "en"
     category: "international"
 
-  - name: "France 24 - International"
+  - name: "France 24"
     url: "https://www.france24.com/en/rss"
     language: "en"
     category: "international"
@@ -96,131 +96,121 @@ rss_feeds:
 
 scrapers:
 
-  # ── L'Express Maurice (all main sections + homepage) ─────────────────────────
-
-  - name: "L'Express - Homepage"
-    url: "https://lexpress.mu/"
+  # ── L'Express sections ───────────────────────────────────────
+  - name: "L'Express"
+    url: "https://lexpress.mu"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  - name: "L'Express - Politique"
+  - name: "L'Express Politique"
     url: "https://lexpress.mu/politique"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  - name: "L'Express - Société"
+  - name: "L'Express Société"
     url: "https://lexpress.mu/societe"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  - name: "L'Express - Économie"
+  - name: "L'Express Économie"
     url: "https://lexpress.mu/economie"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  - name: "L'Express - Régions"
+  - name: "L'Express Régions"
     url: "https://lexpress.mu/regions"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  - name: "L'Express - Sport"
+  - name: "L'Express Sport"
     url: "https://lexpress.mu/sport"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "sport"
 
-  - name: "L'Express - International"
+  - name: "L'Express International"
     url: "https://lexpress.mu/international"
     language: "fr"
     category: "international"
-    type: "homepage"
 
-  - name: "L'Express - Loisirs"
+  - name: "L'Express Loisirs"
     url: "https://lexpress.mu/loisirs"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "culture"
 
-  - name: "L'Express - Multimédia"
+  - name: "L'Express Multimédia"
     url: "https://lexpress.mu/multimedia"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  # ── Defimedia (key sections) ─────────────────────────────────────────────────
-
-  - name: "Defimedia - Actualités"
+  # ── Defimedia sections ───────────────────────────────────────
+  - name: "Defimedia Actualités"
     url: "https://defimedia.info/actualites"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  - name: "Defimedia - Politique"
+  - name: "Defimedia Politique"
     url: "https://defimedia.info/politique"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  - name: "Defimedia - Faits Divers"
+  - name: "Defimedia Faits Divers"
     url: "https://defimedia.info/faits-divers"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  - name: "Defimedia - Économie"
+  - name: "Defimedia Économie"
     url: "https://defimedia.info/economie"
     language: "fr"
-    category: "general"
-    type: "homepage"
+    category: "local"
 
-  # ── Weather ──────────────────────────────────────────────────────────────────
-
-  - name: "Mauritius Meteorological Services"
+  # ── Utilities & data ─────────────────────────────────────────
+  - name: "Mauritius Met Services"
     url: "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
     language: "en"
     category: "weather"
-    type: "bulletin"
+    type: bulletin
 
-  # ── Financial data ───────────────────────────────────────────────────────────
-
-  - name: "SEMDEX"
+  - name: "Stock Exchange of Mauritius"
     url: "https://www.stockexchangeofmauritius.com/products-market-data/indices"
     language: "en"
     category: "finance"
-    type: "semdex"
+    type: semdex
+
+  - name: "CEB Power Outages"
+    url: "https://raw.githubusercontent.com/MrSunshyne/mauritius-dataset-electricity/main/data/power-outages.latest.json"
+    language: "en"
+    category: "utilities"
+    type: power_outages
+
+  - name: "Mauritius Public Holidays"
+    url: "data/public_holidays.yaml"
+    language: "en"
+    category: "government"
+    type: public_holidays
 
 
 exchange_rates:
 
-  # ── MUR pairs ────────────────────────────────────────────────────────────────
-
-  - name: "FloatRates MUR"
+  - name: "MUR Exchange Rates"
     url: "https://www.floatrates.com/daily/mur.xml"
-    currencies: ["USD", "EUR"]
     language: "en"
     category: "finance"
+    currencies: [USD, EUR]
 
-  # ── Commodities and crypto ───────────────────────────────────────────────────
-
-  - name: "Gold price (XAU)"
+  - name: "Gold Price"
     url: "https://api.gold-api.com/price/XAU"
-    type: "gold_api"
     language: "en"
     category: "finance"
+    type: gold_api
 
-  - name: "Bitcoin price (BTC)"
+  - name: "Bitcoin Price"
     url: "https://api.gold-api.com/price/BTC"
-    type: "gold_api"
     language: "en"
     category: "finance"
+    type: gold_api
 
-  - name: "Oil price (WTI)"
+  - name: "WTI Crude Oil"
     url: "https://api.gold-api.com/price/USOIL"
-    type: "gold_api"
     language: "en"
     category: "finance"
+    type: gold_api
