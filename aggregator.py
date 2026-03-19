@@ -302,6 +302,110 @@ def scrape_lexpress(source):
     return items
 
 
+# ── mega.mu scraper (L'Express aggregator with full summaries) ────────────────
+
+def scrape_megamu(source):
+    """
+    Scrapes live.mega.mu which republishes L'Express articles with full summaries.
+    Paginates through pages 1..max_pages, stopping early if articles go beyond 24h.
+    Each item links back to the original lexpress.mu article via the redirect.
+    """
+    items = []
+    max_pages = source.get("max_pages", 5)
+    seen = set()
+
+    # Date pattern: "19 Mar 2026" or "18 mars 2026" — mega.mu uses English short month
+    EN_MONTHS = {
+        "jan": 1, "feb": 2, "mar": 3, "apr": 4, "may": 5, "jun": 6,
+        "jul": 7, "aug": 8, "sep": 9, "oct": 10, "nov": 11, "dec": 12
+    }
+
+    def parse_megamu_date(text):
+        # Format: "19 Mar 2026, Lexpress.mu"
+        m = re.match(r"(\d{1,2})\s+(\w{3})\s+(\d{4})", text.strip())
+        if m:
+            day, mon, year = int(m.group(1)), m.group(2).lower()[:3], int(m.group(3))
+            month = EN_MONTHS.get(mon)
+            if month:
+                mu_tz = timezone(timedelta(hours=4))
+                return datetime(year, month, day, 12, 0, tzinfo=mu_tz).astimezone(timezone.utc)
+        return None
+
+    try:
+        for page in range(1, max_pages + 1):
+            url = source["url"] if page == 1 else f"{source['url']}?page={page}"
+            r = requests.get(url, headers=HEADERS, timeout=15)
+            r.raise_for_status()
+            soup = BeautifulSoup(r.text, "html.parser")
+
+            # Each article is an <h3> inside the main content, with date text nearby
+            articles = soup.find_all("h3")
+            found_on_page = 0
+            page_went_stale = False
+
+            for h3 in articles:
+                a_tag = h3.find("a", href=True)
+                if not a_tag:
+                    continue
+
+                title = h3.get_text(" ", strip=True)
+                if len(title) < 15:
+                    continue
+
+                redirect_url = a_tag["href"]
+                if not redirect_url.startswith("http"):
+                    redirect_url = "https://live.mega.mu" + redirect_url
+
+                if redirect_url in seen:
+                    continue
+                seen.add(redirect_url)
+
+                # Summary is in the next sibling paragraph
+                summary = ""
+                parent = h3.find_parent()
+                if parent:
+                    p = parent.find("p")
+                    if p:
+                        summary = p.get_text(" ", strip=True)[:MAX_SUMMARY_CHARS]
+
+                # Date text appears after the summary, format "19 Mar 2026, Lexpress.mu"
+                dt = None
+                if parent:
+                    for text_node in parent.find_all(string=re.compile(r"\d{1,2}\s+\w{3}\s+\d{4}")):
+                        dt = parse_megamu_date(text_node)
+                        if dt:
+                            break
+
+                if dt and not is_recent(dt):
+                    page_went_stale = True
+                    continue
+
+                published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
+
+                items.append({
+                    "id":        item_id(title, redirect_url),
+                    "title":     title,
+                    "url":       redirect_url,
+                    "summary":   summary,
+                    "source":    source["name"],
+                    "language":  source["language"],
+                    "category":  source["category"],
+                    "published": published,
+                })
+                found_on_page += 1
+
+            time.sleep(SCRAPE_SLEEP_SECONDS)
+
+            # If entire page was stale, no need to go deeper
+            if page_went_stale and found_on_page == 0:
+                break
+
+    except Exception as e:
+        print(f"[MEGAMU ERROR] {source['name']}: {e}")
+
+    return items
+
+
 # ── Met Service bulletin scraper ─────────────────────────────────────────────
 
 def scrape_bulletin(source):
@@ -659,6 +763,8 @@ def main():
             items = fetch_public_holidays(source)
         elif scrape_type == "lexpress":
             items = scrape_lexpress(source)
+        elif scrape_type == "megamu":
+            items = scrape_megamu(source)
         else:
             items = scrape_homepage(source)
         print(f"  {source['name']}: {len(items)} items")
