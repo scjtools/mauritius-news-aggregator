@@ -1,11 +1,11 @@
 import feedparser
 import requests
 import yaml
-import json
 import hashlib
 import re
+import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timezone, timedelta, date
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
@@ -18,6 +18,7 @@ HEADERS = {
 }
 MAX_AGE_HOURS = 24
 MAX_SUMMARY_CHARS = 500
+SCRAPE_SLEEP_SECONDS = 2
 
 
 def load_sources(path="sources/sources.yaml"):
@@ -27,7 +28,7 @@ def load_sources(path="sources/sources.yaml"):
 
 def is_recent(dt):
     if dt is None:
-        return True  # include if we can't determine age
+        return True
     cutoff = datetime.now(timezone.utc) - timedelta(hours=MAX_AGE_HOURS)
     return dt >= cutoff
 
@@ -42,6 +43,29 @@ def parse_date(entry):
 
 def item_id(title, url):
     return hashlib.md5(f"{title}{url}".encode()).hexdigest()
+
+
+def try_parse_date_from_html(tag):
+    """Best-effort date extraction from an article card element."""
+    time_el = tag.find("time", attrs={"datetime": True})
+    if time_el:
+        try:
+            dt_str = time_el["datetime"][:19]
+            for fmt in ("%Y-%m-%dT%H:%M:%S", "%Y-%m-%d %H:%M:%S", "%Y-%m-%d"):
+                try:
+                    dt = datetime.strptime(dt_str[:len(fmt)], fmt)
+                    return dt.replace(tzinfo=timezone.utc)
+                except ValueError:
+                    continue
+        except Exception:
+            pass
+    for el in tag.find_all(attrs={"data-date": True}):
+        try:
+            dt = datetime.fromisoformat(el["data-date"])
+            return dt.replace(tzinfo=timezone.utc) if dt.tzinfo is None else dt
+        except Exception:
+            pass
+    return None
 
 
 # ── RSS sources ──────────────────────────────────────────────────────────────
@@ -72,9 +96,16 @@ def fetch_rss(source):
     return items
 
 
-# ── Generic homepage scraper ─────────────────────────────────────────────────
+# ── Homepage scraper (no article fetching, polite sleep) ─────────────────────
 
 def scrape_homepage(source):
+    """
+    Fetches a single listing page and extracts article links with whatever
+    context is visible on the listing itself (title, teaser, date).
+    Does NOT fetch individual article pages to avoid block risk.
+    Dates are best-effort; if unavailable, published = now() and Stage 2
+    should re-verify article age before including in the newsletter.
+    """
     items = []
     try:
         r = requests.get(source["url"], headers=HEADERS, timeout=15)
@@ -82,9 +113,31 @@ def scrape_homepage(source):
         soup = BeautifulSoup(r.text, "html.parser")
 
         seen = set()
-        for tag in soup.find_all("a", href=True):
-            title = tag.get_text(" ", strip=True)
-            url = tag["href"]
+
+        # Try semantic article/card containers first
+        candidates = soup.find_all(
+            ["article", "div"],
+            class_=re.compile(r"(article|post|news|item|card|story|entry)", re.I)
+        )
+        use_link_fallback = not candidates
+        if use_link_fallback:
+            candidates = soup.find_all("a", href=True)
+
+        for tag in candidates:
+            if use_link_fallback:
+                title = tag.get_text(" ", strip=True)
+                url = tag.get("href", "")
+            else:
+                link_tag = tag.find("a", href=True)
+                if not link_tag:
+                    continue
+                title = link_tag.get_text(" ", strip=True)
+                for h in tag.find_all(["h1", "h2", "h3"]):
+                    ht = h.get_text(" ", strip=True)
+                    if len(ht) >= 20:
+                        title = ht
+                        break
+                url = link_tag.get("href", "")
 
             if len(title) < 20 or len(title) > 200:
                 continue
@@ -95,20 +148,26 @@ def scrape_homepage(source):
                 continue
             seen.add(url)
 
+            # Extract teaser text from the card itself
             summary = ""
-            try:
-                ar = requests.get(url, headers=HEADERS, timeout=10)
-                ar.raise_for_status()
-                asoup = BeautifulSoup(ar.text, "html.parser")
-                for p in asoup.find_all("p"):
-                    text = p.get_text(strip=True)
-                    if len(text) > 80:
-                        summary = text[:MAX_SUMMARY_CHARS]
+            if not use_link_fallback:
+                for p in tag.find_all("p"):
+                    pt = p.get_text(" ", strip=True)
+                    if len(pt) > 40:
+                        summary = pt[:MAX_SUMMARY_CHARS]
                         break
-            except Exception:
-                pass
+                if not summary:
+                    for teaser_el in tag.find_all(
+                        class_=re.compile(r"(teaser|excerpt|description|summary|intro|lead)", re.I)
+                    ):
+                        tt = teaser_el.get_text(" ", strip=True)
+                        if len(tt) > 40:
+                            summary = tt[:MAX_SUMMARY_CHARS]
+                            break
 
-            now = datetime.now(timezone.utc)
+            dt = try_parse_date_from_html(tag) if not use_link_fallback else None
+            published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
+
             items.append({
                 "id":        item_id(title, url),
                 "title":     title,
@@ -117,11 +176,13 @@ def scrape_homepage(source):
                 "source":    source["name"],
                 "language":  source["language"],
                 "category":  source["category"],
-                "published": now.isoformat(),
+                "published": published,
             })
 
             if len(items) >= 20:
                 break
+
+        time.sleep(SCRAPE_SLEEP_SECONDS)
 
     except Exception as e:
         print(f"[SCRAPE ERROR] {source['name']}: {e}")
@@ -156,6 +217,7 @@ def scrape_bulletin(source):
                 "category":  source["category"],
                 "published": now.isoformat(),
             })
+        time.sleep(SCRAPE_SLEEP_SECONDS)
     except Exception as e:
         print(f"[BULLETIN ERROR] {source['name']}: {e}")
     return items
@@ -188,52 +250,123 @@ def scrape_semdex(source):
             })
         else:
             print(f"[SEMDEX WARNING] Could not extract index value from page")
+        time.sleep(SCRAPE_SLEEP_SECONDS)
     except Exception as e:
         print(f"[SEMDEX ERROR] {source['name']}: {e}")
     return items
 
 
-# ── MOGAS scraper ─────────────────────────────────────────────────────────────
+# ── CEB Power Outages ─────────────────────────────────────────────────────────
 
-def scrape_mogas(source):
+def fetch_power_outages(source):
+    """
+    Fetches MrSunshyne's CEB power outage dataset from GitHub.
+    JSON structure: {"today": [...], "future": [...]}
+    Each outage has: locality, streets, district, from (ISO UTC), to (ISO UTC), date (French string)
+    We emit one feed item per outage, for both today and future entries.
+    """
     items = []
     try:
         r = requests.get(source["url"], headers=HEADERS, timeout=15)
         r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
+        data = r.json()
 
-        text = soup.get_text(" ", strip=True)
+        now = datetime.now(timezone.utc)
+        all_outages = data.get("today", []) + data.get("future", [])
 
-        mogas_match = re.search(r"[Mm]ogas[^\d]*Rs\.?\s*(\d+\.?\d*)\s*per\s*litre", text)
-        if not mogas_match:
-            mogas_match = re.search(r"[Mm]ogas.*?(\d{2,3}\.\d{2})\s*per\s*litre", text)
+        for outage in all_outages:
+            locality = outage.get("locality", "").title()
+            streets = outage.get("streets", "")
+            district = outage.get("district", "").title()
+            from_str = outage.get("from", "")
+            to_str = outage.get("to", "")
+            outage_id = outage.get("id", "")
 
-        gasoil_match = re.search(r"[Gg]as\s*[Oo]il[^\d]*Rs\.?\s*(\d+\.?\d*)\s*per\s*litre", text)
-        if not gasoil_match:
-            gasoil_match = re.search(r"[Gg]as\s*[Oo]il.*?(\d{2,3}\.\d{2})\s*per\s*litre", text)
+            # Parse ISO timestamps
+            try:
+                from_dt = datetime.fromisoformat(from_str.replace("Z", "+00:00"))
+                to_dt = datetime.fromisoformat(to_str.replace("Z", "+00:00"))
+            except (ValueError, AttributeError):
+                continue
 
-        parts = []
-        if mogas_match:
-            parts.append(f"Mogas: Rs {mogas_match.group(1)}/litre")
-        if gasoil_match:
-            parts.append(f"Gas Oil: Rs {gasoil_match.group(1)}/litre")
+            # Convert UTC times to Mauritius time (UTC+4) for display
+            mu_offset = timedelta(hours=4)
+            from_mu = from_dt + mu_offset
+            to_mu = to_dt + mu_offset
 
-        if parts:
-            now = datetime.now(timezone.utc)
+            date_display = from_mu.strftime("%d %B %Y")
+            time_display = f"{from_mu.strftime('%H:%M')} to {to_mu.strftime('%H:%M')}"
+
+            title = f"CEB power outage – {locality}, {district} on {date_display}"
+            summary = f"{locality} ({district}): {time_display}."
+            if streets:
+                summary += f" Areas affected: {streets[:300]}"
+
             items.append({
-                "id":        item_id("MOGAS price", now.strftime("%Y-%m")),
-                "title":     f"Petroleum retail prices – {now.strftime('%B %Y')}",
-                "url":       source["url"],
+                "id":        item_id("CEB outage", outage_id or f"{locality}{from_str}"),
+                "title":     title,
+                "url":       "https://github.com/MrSunshyne/mauritius-dataset-electricity",
+                "summary":   summary[:MAX_SUMMARY_CHARS],
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
+                "published": from_dt.isoformat(),
+            })
+
+    except Exception as e:
+        print(f"[POWER OUTAGES ERROR] {source['name']}: {e}")
+    return items
+
+
+# ── Public holidays ───────────────────────────────────────────────────────────
+
+def fetch_public_holidays(source):
+    """
+    Reads data/public_holidays.yaml and emits an item when a holiday
+    is today or within the next 3 days.
+    """
+    items = []
+    try:
+        with open(source["url"]) as f:
+            data = yaml.safe_load(f)
+
+        today = date.today()
+        lookahead_days = 3
+        upcoming = []
+
+        for holiday in data.get("holidays", []):
+            try:
+                hdate = date.fromisoformat(holiday["date"])
+            except (ValueError, KeyError):
+                continue
+            days_away = (hdate - today).days
+            if 0 <= days_away <= lookahead_days:
+                upcoming.append((days_away, holiday["name"], holiday["date"]))
+
+        if upcoming:
+            now = datetime.now(timezone.utc)
+            parts = []
+            for days_away, name, hdate in sorted(upcoming):
+                if days_away == 0:
+                    parts.append(f"Today is {name}")
+                elif days_away == 1:
+                    parts.append(f"Tomorrow: {name}")
+                else:
+                    parts.append(f"In {days_away} days ({hdate}): {name}")
+
+            items.append({
+                "id":        item_id("public holiday", today.isoformat()),
+                "title":     f"Upcoming public holiday – {upcoming[0][1]}",
+                "url":       "https://govmu.org",
                 "summary":   " | ".join(parts),
                 "source":    source["name"],
                 "language":  source["language"],
                 "category":  source["category"],
                 "published": now.isoformat(),
             })
-        else:
-            print(f"[MOGAS WARNING] Could not extract price from page")
+
     except Exception as e:
-        print(f"[MOGAS ERROR] {source['name']}: {e}")
+        print(f"[PUBLIC HOLIDAYS ERROR] {source['name']}: {e}")
     return items
 
 
@@ -309,7 +442,7 @@ def fetch_exchange_rates(source):
     return items
 
 
-# ── Gold API (gold and bitcoin) ───────────────────────────────────────────────
+# ── Gold API (gold, bitcoin, oil) ─────────────────────────────────────────────
 
 def fetch_gold_api(source):
     items = []
@@ -324,7 +457,7 @@ def fetch_gold_api(source):
 
         if price is not None:
             now = datetime.now(timezone.utc)
-            label = {"XAU": "Gold", "BTC": "Bitcoin"}.get(symbol, symbol)
+            label = {"XAU": "Gold", "BTC": "Bitcoin", "USOIL": "WTI Crude Oil"}.get(symbol, symbol)
             items.append({
                 "id":        item_id(f"{symbol} price", now.strftime("%Y-%m-%d")),
                 "title":     f"{label} price – {now.strftime('%d %B %Y')}",
@@ -352,15 +485,17 @@ def main():
         print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
-    print("Scraping homepages...")
+    print("Scraping pages...")
     for source in sources.get("scrapers", []):
         scrape_type = source.get("type")
         if scrape_type == "bulletin":
             items = scrape_bulletin(source)
         elif scrape_type == "semdex":
             items = scrape_semdex(source)
-        elif scrape_type == "mogas":
-            items = scrape_mogas(source)
+        elif scrape_type == "power_outages":
+            items = fetch_power_outages(source)
+        elif scrape_type == "public_holidays":
+            items = fetch_public_holidays(source)
         else:
             items = scrape_homepage(source)
         print(f"  {source['name']}: {len(items)} items")
