@@ -9,16 +9,6 @@ rss_feeds:
     language: "en"
     category: "general"
 
-  - name: "Bank of Mauritius - Latest News"
-    url: "https://www.bom.mu/latest-news.xml"
-    language: "en"
-    category: "finance"
-
-  - name: "Bank of Mauritius - Exchange Rates"
-    url: "https://www.bom.mu/excahnge-rates.xml"
-    language: "en"
-    category: "finance"
-
   - name: "BBC Africa"
     url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
     language: "en"
@@ -48,3 +38,10 @@ scrapers:
     language: "en"
     category: "weather"
     type: "bulletin"
+
+exchange_rates:
+  - name: "FloatRates MUR"
+    url: "https://www.floatrates.com/daily/mur.xml"
+    currencies: ["USD", "EUR"]
+    language: "en"
+    category: "finance"
