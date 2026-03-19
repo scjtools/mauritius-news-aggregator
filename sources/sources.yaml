@@ -17,6 +17,11 @@ rss_feeds:
     language: "en"
     category: "general"
 
+  - name: "Reddit - r/mauritius"
+    url: "https://www.reddit.com/r/mauritius/.rss"
+    language: "en"
+    category: "community"
+
   # ── Indian Ocean region ──────────────────────────────────────────────────────
 
   - name: "AllAfrica - Mauritius"
