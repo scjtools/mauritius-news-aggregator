@@ -189,6 +189,119 @@ def scrape_homepage(source):
     return items
 
 
+# ── L'Express scraper ────────────────────────────────────────────────────────
+
+# French month names for parsing L'Express date strings like "19 mars 2026"
+FR_MONTHS = {
+    "janvier": 1, "février": 2, "mars": 3, "avril": 4,
+    "mai": 5, "juin": 6, "juillet": 7, "août": 8,
+    "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12
+}
+
+def parse_lexpress_date(date_text, time_text):
+    """Parse L'Express date like '19 mars 2026' + time like '14:32' into UTC datetime."""
+    try:
+        parts = date_text.strip().split()
+        if len(parts) == 3:
+            day = int(parts[0])
+            month = FR_MONTHS.get(parts[1].lower(), 0)
+            year = int(parts[2])
+            if month:
+                h, m = (int(x) for x in time_text.strip().split(":")) if ":" in time_text else (0, 0)
+                # L'Express times are in MUT (UTC+4)
+                mu_tz = timezone(timedelta(hours=4))
+                dt = datetime(year, month, day, h, m, tzinfo=mu_tz)
+                return dt.astimezone(timezone.utc)
+    except Exception:
+        pass
+    return None
+
+
+def scrape_lexpress(source):
+    """
+    Dedicated scraper for lexpress.mu section pages.
+    Articles are server-rendered in <a href="/s/..."> tags.
+    Extracts title from h2/h3, date from adjacent span elements.
+    """
+    items = []
+    try:
+        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        seen = set()
+        base_url = "https://lexpress.mu"
+
+        # All article links have href starting with /s/
+        for a_tag in soup.find_all("a", href=re.compile(r"^/s/")):
+            href = a_tag.get("href", "")
+            url = base_url + href
+            if url in seen:
+                continue
+
+            # Get title from h2 or h3 inside the link
+            title = ""
+            for h in a_tag.find_all(["h2", "h3", "h4"]):
+                t = h.get_text(" ", strip=True)
+                if len(t) >= 15:
+                    title = t
+                    break
+            if not title:
+                title = a_tag.get_text(" ", strip=True)[:200]
+            if len(title) < 15:
+                continue
+
+            seen.add(url)
+
+            # Extract date and time from span elements within the link
+            spans = [s.get_text(strip=True) for s in a_tag.find_all("span")]
+            date_text = ""
+            time_text = ""
+            for span in spans:
+                # Date spans look like "19 mars 2026"
+                if re.match(r"^\d{1,2}\s+\w+\s+\d{4}$", span):
+                    date_text = span
+                # Time spans look like "14:32"
+                elif re.match(r"^\d{1,2}:\d{2}$", span):
+                    time_text = span
+
+            dt = parse_lexpress_date(date_text, time_text) if date_text else None
+
+            # Age filter — skip if older than 24h
+            if dt and not is_recent(dt):
+                continue
+
+            published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
+
+            # Teaser: grab any <p> tag inside the link
+            summary = ""
+            for p in a_tag.find_all("p"):
+                pt = p.get_text(" ", strip=True)
+                if len(pt) > 40:
+                    summary = pt[:MAX_SUMMARY_CHARS]
+                    break
+
+            items.append({
+                "id":        item_id(title, url),
+                "title":     title,
+                "url":       url,
+                "summary":   summary,
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
+                "published": published,
+            })
+
+            if len(items) >= 20:
+                break
+
+        time.sleep(SCRAPE_SLEEP_SECONDS)
+
+    except Exception as e:
+        print(f"[LEXPRESS ERROR] {source['name']}: {e}")
+    return items
+
+
 # ── Met Service bulletin scraper ─────────────────────────────────────────────
 
 def scrape_bulletin(source):
@@ -324,17 +437,29 @@ def fetch_public_holidays(source):
     """
     Reads data/public_holidays.yaml and emits an item when a holiday
     is today or within the next 3 days.
+    Uses Mauritius time (UTC+4) to determine today's date.
+    YAML structure: list of year blocks, each with a 'holidays' list.
     """
     items = []
     try:
         with open(source["url"]) as f:
-            data = yaml.safe_load(f)
+            # safe_load_all handles multiple YAML documents (separated by ---)
+            # but our file uses repeated top-level keys, so we load all docs
+            raw = f.read()
 
-        today = date.today()
+        # Parse all YAML documents in the file (each year block separated by ---)
+        all_holidays = []
+        for doc in yaml.safe_load_all(raw):
+            if doc and "holidays" in doc:
+                all_holidays.extend(doc["holidays"])
+
+        # Use Mauritius time (UTC+4) to determine today's date
+        mu_tz = timezone(timedelta(hours=4))
+        today = datetime.now(mu_tz).date()
         lookahead_days = 3
         upcoming = []
 
-        for holiday in data.get("holidays", []):
+        for holiday in all_holidays:
             try:
                 hdate = date.fromisoformat(holiday["date"])
             except (ValueError, KeyError):
@@ -473,6 +598,42 @@ def fetch_gold_api(source):
     return items
 
 
+# ── Yahoo Finance commodity price ────────────────────────────────────────────
+
+def fetch_yahoo_finance(source):
+    """
+    Fetches a commodity price from Yahoo Finance's unofficial chart API.
+    Used for WTI crude oil (CL=F) and others with no free dedicated API.
+    """
+    items = []
+    try:
+        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        result = data.get("chart", {}).get("result", [{}])[0]
+        meta = result.get("meta", {})
+        price = meta.get("regularMarketPrice")
+        currency = meta.get("currency", "USD")
+        symbol = meta.get("symbol", "")
+        label = source.get("label", symbol)
+
+        if price is not None:
+            now = datetime.now(timezone.utc)
+            items.append({
+                "id":        item_id(f"{symbol} price", now.strftime("%Y-%m-%d")),
+                "title":     f"{label} price – {now.strftime('%d %B %Y')}",
+                "url":       source["url"],
+                "summary":   f"{label} ({symbol}): {currency} {price:,.2f} per barrel",
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
+                "published": now.isoformat(),
+            })
+    except Exception as e:
+        print(f"[YAHOO FINANCE ERROR] {source['name']}: {e}")
+    return items
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -496,6 +657,8 @@ def main():
             items = fetch_power_outages(source)
         elif scrape_type == "public_holidays":
             items = fetch_public_holidays(source)
+        elif scrape_type == "lexpress":
+            items = scrape_lexpress(source)
         else:
             items = scrape_homepage(source)
         print(f"  {source['name']}: {len(items)} items")
@@ -506,6 +669,8 @@ def main():
         rate_type = source.get("type")
         if rate_type == "gold_api":
             items = fetch_gold_api(source)
+        elif rate_type == "yahoo_finance":
+            items = fetch_yahoo_finance(source)
         else:
             items = fetch_exchange_rates(source)
         print(f"  {source['name']}: {len(items)} items")
