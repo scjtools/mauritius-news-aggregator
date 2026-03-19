@@ -1,0 +1,33 @@
+name: Aggregate news feed
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # every hour
+  workflow_dispatch:        # allows manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install feedparser requests pyyaml beautifulsoup4 lxml
+
+      - name: Run aggregator
+        run: python aggregator.py
+
+      - name: Commit and push feed.xml
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add feed.xml
+          git diff --staged --quiet || git commit -m "Update feed $(date -u '+%Y-%m-%d %H:%M')"
+          git push
