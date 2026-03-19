@@ -1,4 +1,7 @@
 rss_feeds:
+
+  # ── Mauritius local ──────────────────────────────────────────────────────────
+
   - name: "News Moris"
     url: "https://newsmoris.com/feed/"
     language: "en"
@@ -9,17 +12,92 @@ rss_feeds:
     language: "en"
     category: "general"
 
-  - name: "BBC Africa"
-    url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
-    language: "en"
-    category: "international"
-
   - name: "ION News (via Google News)"
     url: "https://news.google.com/rss/search?q=site:ionnews.mu&hl=en-MU&gl=MU&ceid=MU:en"
     language: "en"
     category: "general"
 
+  # ── Indian Ocean region ──────────────────────────────────────────────────────
+
+  - name: "AllAfrica - Mauritius"
+    url: "https://allafrica.com/tools/headlines/rdf/mauritius/headlines.rdf"
+    language: "en"
+    category: "regional"
+
+  - name: "AllAfrica - Seychelles"
+    url: "https://allafrica.com/tools/headlines/rdf/seychelles/headlines.rdf"
+    language: "en"
+    category: "regional"
+
+  - name: "AllAfrica - Comoros"
+    url: "https://allafrica.com/tools/headlines/rdf/comoros/headlines.rdf"
+    language: "en"
+    category: "regional"
+
+  - name: "AllAfrica - Madagascar"
+    url: "https://allafrica.com/tools/headlines/rdf/madagascar/headlines.rdf"
+    language: "en"
+    category: "regional"
+
+  - name: "AllAfrica - Mozambique"
+    url: "https://allafrica.com/tools/headlines/rdf/mozambique/headlines.rdf"
+    language: "en"
+    category: "regional"
+
+  - name: "Google News - Rodrigues"
+    url: "https://news.google.com/rss/search?q=Rodrigues+island+Mauritius&hl=en&gl=MU&ceid=MU:en"
+    language: "en"
+    category: "regional"
+
+  - name: "Google News - Reunion"
+    url: "https://news.google.com/rss/search?q=Reunion+island+news&hl=fr&gl=MU&ceid=MU:fr"
+    language: "fr"
+    category: "regional"
+
+  # ── Sub-Saharan Africa ───────────────────────────────────────────────────────
+
+  - name: "Africanews"
+    url: "https://www.africanews.com/feed/rss"
+    language: "en"
+    category: "africa"
+
+  - name: "AllAfrica - South Africa"
+    url: "https://allafrica.com/tools/headlines/rdf/southafrica/headlines.rdf"
+    language: "en"
+    category: "africa"
+
+  - name: "AllAfrica - Southern Africa"
+    url: "https://allafrica.com/tools/headlines/rdf/southernafrica/headlines.rdf"
+    language: "en"
+    category: "africa"
+
+  - name: "AllAfrica - Business"
+    url: "https://allafrica.com/tools/headlines/rdf/business/headlines.rdf"
+    language: "en"
+    category: "finance"
+
+  # ── International ────────────────────────────────────────────────────────────
+
+  - name: "BBC Africa"
+    url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
+    language: "en"
+    category: "international"
+
+  - name: "The Guardian World"
+    url: "https://www.theguardian.com/world/rss"
+    language: "en"
+    category: "international"
+
+  - name: "France 24 - International"
+    url: "https://www.france24.com/en/rss"
+    language: "en"
+    category: "international"
+
+
 scrapers:
+
+  # ── Mauritius local ──────────────────────────────────────────────────────────
+
   - name: "L'Express Maurice"
     url: "https://lexpress.mu/"
     language: "fr"
@@ -32,15 +110,49 @@ scrapers:
     category: "general"
     type: "homepage"
 
+  # ── Weather ──────────────────────────────────────────────────────────────────
+
   - name: "Mauritius Meteorological Services"
     url: "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
     language: "en"
     category: "weather"
     type: "bulletin"
 
+  # ── Financial data ───────────────────────────────────────────────────────────
+
+  - name: "SEMDEX"
+    url: "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+    language: "en"
+    category: "finance"
+    type: "semdex"
+
+  - name: "MOGAS price"
+    url: "https://www.stcmu.com/ppm/press-release"
+    language: "en"
+    category: "finance"
+    type: "mogas"
+
+
 exchange_rates:
+
+  # ── MUR pairs ────────────────────────────────────────────────────────────────
+
   - name: "FloatRates MUR"
     url: "https://www.floatrates.com/daily/mur.xml"
     currencies: ["USD", "EUR"]
+    language: "en"
+    category: "finance"
+
+  # ── Commodities and crypto ───────────────────────────────────────────────────
+
+  - name: "Gold price (XAU)"
+    url: "https://api.gold-api.com/price/XAU"
+    type: "gold_api"
+    language: "en"
+    category: "finance"
+
+  - name: "Bitcoin price (BTC)"
+    url: "https://api.gold-api.com/price/BTC"
+    type: "gold_api"
     language: "en"
     category: "finance"
