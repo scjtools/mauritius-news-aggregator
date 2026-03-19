@@ -27,7 +27,7 @@ scrapers:
     category: "general"
     type: "homepage"
 
-- name: "ION News (via Google News)"
+  - name: "ION News (via Google News)"
     url: "https://news.google.com/rss/search?q=site:ionnews.mu&hl=en-MU&gl=MU&ceid=MU:en"
     language: "en"
     category: "general"
