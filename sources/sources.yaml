@@ -72,14 +72,14 @@ rss_feeds:
     language: "en"
     category: "africa"
 
-  # ── International — Google News top stories (all genres, editorial picks) ───
-  - name: "Google News Top Stories (Global)"
-    url: "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en"
+  # ── International — top stories across all genres ───────────
+  - name: "BBC News"
+    url: "https://feeds.bbci.co.uk/news/rss.xml"
     language: "en"
     category: "international"
 
-  - name: "Google News Top Stories (UK)"
-    url: "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en"
+  - name: "Al Jazeera"
+    url: "https://www.aljazeera.com/xml/rss/all.xml"
     language: "en"
     category: "international"
 
@@ -161,9 +161,8 @@ exchange_rates:
     category: "finance"
     type: gold_api
 
-  - name: "WTI Crude Oil"
-    url: "https://query1.finance.yahoo.com/v8/finance/chart/CL=F"
+  - name: "Brent Crude Oil"
+    url: "https://api.oilpriceapi.com/v1/demo/prices"
     language: "en"
     category: "finance"
-    type: yahoo_finance
-    label: "WTI Crude Oil"
+    type: oilprice_demo
