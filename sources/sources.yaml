@@ -21,6 +21,11 @@ rss_feeds:
     url: "https://www.reddit.com/r/mauritius/.rss"
     language: "en"
     category: "community"
+  
+  - name: "Reddit - r/MauriceMauritius"
+    url: "https://www.reddit.com/r/MauriceMauritius/.rss"
+    language: "en"
+    category: "community"
 
   # ── Indian Ocean region ──────────────────────────────────────────────────────
 
