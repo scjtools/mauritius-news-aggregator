@@ -3,6 +3,7 @@ import requests
 import yaml
 import json
 import hashlib
+import re
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
@@ -80,13 +81,11 @@ def scrape_homepage(source):
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
 
-        # Collect all article links with meaningful text
         seen = set()
         for tag in soup.find_all("a", href=True):
             title = tag.get_text(" ", strip=True)
             url = tag["href"]
 
-            # Basic quality filters
             if len(title) < 20 or len(title) > 200:
                 continue
             if not url.startswith("http"):
@@ -96,7 +95,6 @@ def scrape_homepage(source):
                 continue
             seen.add(url)
 
-            # Try to grab first paragraph from article page
             summary = ""
             try:
                 ar = requests.get(url, headers=HEADERS, timeout=10)
@@ -122,7 +120,7 @@ def scrape_homepage(source):
                 "published": now.isoformat(),
             })
 
-            if len(items) >= 20:  # cap per source
+            if len(items) >= 20:
                 break
 
     except Exception as e:
@@ -139,7 +137,6 @@ def scrape_bulletin(source):
         r.raise_for_status()
         soup = BeautifulSoup(r.text, "html.parser")
 
-        # Extract visible text blocks, skip navigation/headers
         paragraphs = []
         for p in soup.find_all("p"):
             text = p.get_text(strip=True)
@@ -161,6 +158,82 @@ def scrape_bulletin(source):
             })
     except Exception as e:
         print(f"[BULLETIN ERROR] {source['name']}: {e}")
+    return items
+
+
+# ── SEMDEX scraper ───────────────────────────────────────────────────────────
+
+def scrape_semdex(source):
+    items = []
+    try:
+        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        text = soup.get_text(" ", strip=True)
+        match = re.search(r"SEMDEX[^\d]*(\d[\d,]+\.?\d*)", text)
+        semdex_value = match.group(1).replace(",", "") if match else None
+
+        if semdex_value:
+            now = datetime.now(timezone.utc)
+            items.append({
+                "id":        item_id("SEMDEX", now.strftime("%Y-%m-%d")),
+                "title":     f"SEMDEX – {now.strftime('%d %B %Y')}",
+                "url":       source["url"],
+                "summary":   f"SEMDEX closed at {semdex_value}",
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
+                "published": now.isoformat(),
+            })
+        else:
+            print(f"[SEMDEX WARNING] Could not extract index value from page")
+    except Exception as e:
+        print(f"[SEMDEX ERROR] {source['name']}: {e}")
+    return items
+
+
+# ── MOGAS scraper ─────────────────────────────────────────────────────────────
+
+def scrape_mogas(source):
+    items = []
+    try:
+        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        text = soup.get_text(" ", strip=True)
+
+        mogas_match = re.search(r"[Mm]ogas[^\d]*Rs\.?\s*(\d+\.?\d*)\s*per\s*litre", text)
+        if not mogas_match:
+            mogas_match = re.search(r"[Mm]ogas.*?(\d{2,3}\.\d{2})\s*per\s*litre", text)
+
+        gasoil_match = re.search(r"[Gg]as\s*[Oo]il[^\d]*Rs\.?\s*(\d+\.?\d*)\s*per\s*litre", text)
+        if not gasoil_match:
+            gasoil_match = re.search(r"[Gg]as\s*[Oo]il.*?(\d{2,3}\.\d{2})\s*per\s*litre", text)
+
+        parts = []
+        if mogas_match:
+            parts.append(f"Mogas: Rs {mogas_match.group(1)}/litre")
+        if gasoil_match:
+            parts.append(f"Gas Oil: Rs {gasoil_match.group(1)}/litre")
+
+        if parts:
+            now = datetime.now(timezone.utc)
+            items.append({
+                "id":        item_id("MOGAS price", now.strftime("%Y-%m")),
+                "title":     f"Petroleum retail prices – {now.strftime('%B %Y')}",
+                "url":       source["url"],
+                "summary":   " | ".join(parts),
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
+                "published": now.isoformat(),
+            })
+        else:
+            print(f"[MOGAS WARNING] Could not extract price from page")
+    except Exception as e:
+        print(f"[MOGAS ERROR] {source['name']}: {e}")
     return items
 
 
@@ -195,14 +268,13 @@ def build_rss(items):
         SubElement(entry, "guid").text = item["id"]
         SubElement(entry, "source").text = item["source"]
         SubElement(entry, "category").text = item["category"]
-        # Custom fields for the LLM filter stage
         SubElement(entry, "language").text = item["language"]
 
     raw = tostring(rss, encoding="unicode")
     return minidom.parseString(raw).toprettyxml(indent="  ")
 
 
-# ── Exchange rates ────────────────────────────────────────────────────────────
+# ── Exchange rates (FloatRates MUR) ──────────────────────────────────────────
 
 def fetch_exchange_rates(source):
     items = []
@@ -237,6 +309,37 @@ def fetch_exchange_rates(source):
     return items
 
 
+# ── Gold API (gold and bitcoin) ───────────────────────────────────────────────
+
+def fetch_gold_api(source):
+    items = []
+    try:
+        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+
+        price = data.get("price")
+        symbol = data.get("symbol", "")
+        currency = data.get("currency", "USD")
+
+        if price is not None:
+            now = datetime.now(timezone.utc)
+            label = {"XAU": "Gold", "BTC": "Bitcoin"}.get(symbol, symbol)
+            items.append({
+                "id":        item_id(f"{symbol} price", now.strftime("%Y-%m-%d")),
+                "title":     f"{label} price – {now.strftime('%d %B %Y')}",
+                "url":       source["url"],
+                "summary":   f"{label} ({symbol}): {currency} {price:,.2f}",
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
+                "published": now.isoformat(),
+            })
+    except Exception as e:
+        print(f"[GOLD API ERROR] {source['name']}: {e}")
+    return items
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -251,8 +354,13 @@ def main():
 
     print("Scraping homepages...")
     for source in sources.get("scrapers", []):
-        if source.get("type") == "bulletin":
+        scrape_type = source.get("type")
+        if scrape_type == "bulletin":
             items = scrape_bulletin(source)
+        elif scrape_type == "semdex":
+            items = scrape_semdex(source)
+        elif scrape_type == "mogas":
+            items = scrape_mogas(source)
         else:
             items = scrape_homepage(source)
         print(f"  {source['name']}: {len(items)} items")
@@ -260,7 +368,11 @@ def main():
 
     print("Fetching exchange rates...")
     for source in sources.get("exchange_rates", []):
-        items = fetch_exchange_rates(source)
+        rate_type = source.get("type")
+        if rate_type == "gold_api":
+            items = fetch_gold_api(source)
+        else:
+            items = fetch_exchange_rates(source)
         print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
