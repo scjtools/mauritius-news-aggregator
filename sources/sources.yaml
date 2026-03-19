@@ -72,14 +72,14 @@ rss_feeds:
     language: "en"
     category: "africa"
 
-  # ── International ────────────────────────────────────────────
-  - name: "The Guardian World"
-    url: "https://www.theguardian.com/world/rss"
+  # ── International — Google News top stories (all genres, editorial picks) ───
+  - name: "Google News Top Stories (Global)"
+    url: "https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en"
     language: "en"
     category: "international"
 
-  - name: "France 24"
-    url: "https://www.france24.com/en/rss"
+  - name: "Google News Top Stories (UK)"
+    url: "https://news.google.com/rss?hl=en-GB&gl=GB&ceid=GB:en"
     language: "en"
     category: "international"
 
