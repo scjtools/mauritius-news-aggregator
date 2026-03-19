@@ -14,13 +14,13 @@ rss_feeds:
     language: "en"
     category: "general"
 
-  - name: "Bank of Mauritius - News"
-    url: "https://www.bom.mu/rss/news"
+  - name: "Bank of Mauritius - Latest News"
+    url: "https://www.bom.mu/latest-news.xml"
     language: "en"
     category: "finance"
 
   - name: "Bank of Mauritius - Exchange Rates"
-    url: "https://www.bom.mu/rss/exchange-rate"
+    url: "https://www.bom.mu/excahnge-rates.xml"
     language: "en"
     category: "finance"
 
