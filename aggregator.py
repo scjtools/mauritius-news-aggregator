@@ -3,6 +3,7 @@ import requests
 import yaml
 import json
 import hashlib
+import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup
 from xml.etree.ElementTree import Element, SubElement, tostring
@@ -198,6 +199,41 @@ def build_rss(items):
     return minidom.parseString(raw).toprettyxml(indent="  ")
 
 
+# ── Exchange rates ────────────────────────────────────────────────────────────
+
+def fetch_exchange_rates(source):
+    items = []
+    try:
+        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        root = ET.fromstring(r.content)
+        target_currencies = source.get("currencies", [])
+        rates = {}
+        for item in root.findall("item"):
+            title = item.findtext("title", "")
+            for currency in target_currencies:
+                if title.endswith(currency):
+                    parts = title.split("=")
+                    if len(parts) == 2:
+                        rates[currency] = parts[1].strip()
+        if rates:
+            now = datetime.now(timezone.utc)
+            summary = " | ".join(f"1 MUR = {rates[c]} {c}" for c in target_currencies if c in rates)
+            items.append({
+                "id":        item_id("MUR rates", now.strftime("%Y-%m-%d")),
+                "title":     f"MUR exchange rates – {now.strftime('%d %B %Y')}",
+                "url":       source["url"],
+                "summary":   summary,
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
+                "published": now.isoformat(),
+            })
+    except Exception as e:
+        print(f"[RATES ERROR] {source['name']}: {e}")
+    return items
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -219,6 +255,12 @@ def main():
         print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
+    print("Fetching exchange rates...")
+    for source in sources.get("exchange_rates", []):
+        items = fetch_exchange_rates(source)
+        print(f"  {source['name']}: {len(items)} items")
+        all_items.extend(items)
+    
     all_items = deduplicate(all_items)
     print(f"\nTotal unique items: {len(all_items)}")
 
