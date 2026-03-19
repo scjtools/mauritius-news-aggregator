@@ -738,6 +738,42 @@ def fetch_yahoo_finance(source):
     return items
 
 
+# ── OilPriceAPI demo (Brent crude, no key, 20 req/hr) ────────────────────────
+
+def fetch_oilprice_demo(source):
+    """
+    Fetches Brent crude price from oilpriceapi.com's no-auth demo endpoint.
+    Returns latest available price. 20 requests/hour limit — well within our 2/day.
+    Response: {"data": {"price": 97.66, "formatted": "$97.66", "currency": "USD",
+               "code": "BRENT_CRUDE_USD", ...}}
+    """
+    items = []
+    try:
+        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        data = r.json()
+        price_data = data.get("data", {})
+        price = price_data.get("price")
+        formatted = price_data.get("formatted", "")
+        currency = price_data.get("currency", "USD")
+
+        if price is not None:
+            now = datetime.now(timezone.utc)
+            items.append({
+                "id":        item_id("Brent crude", now.strftime("%Y-%m-%d")),
+                "title":     f"Brent Crude Oil price – {now.strftime('%d %B %Y')}",
+                "url":       "https://www.oilpriceapi.com",
+                "summary":   f"Brent Crude Oil: {formatted if formatted else f'{currency} {price:,.2f}'} per barrel",
+                "source":    source["name"],
+                "language":  source["language"],
+                "category":  source["category"],
+                "published": now.isoformat(),
+            })
+    except Exception as e:
+        print(f"[OILPRICE ERROR] {source['name']}: {e}")
+    return items
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
@@ -777,6 +813,8 @@ def main():
             items = fetch_gold_api(source)
         elif rate_type == "yahoo_finance":
             items = fetch_yahoo_finance(source)
+        elif rate_type == "oilprice_demo":
+            items = fetch_oilprice_demo(source)
         else:
             items = fetch_exchange_rates(source)
         print(f"  {source['name']}: {len(items)} items")
