@@ -27,11 +27,10 @@ scrapers:
     category: "general"
     type: "homepage"
 
-  - name: "ION News"
-    url: "https://ionnews.mu/"
+- name: "ION News (via Google News)"
+    url: "https://news.google.com/rss/search?q=site:ionnews.mu&hl=en-MU&gl=MU&ceid=MU:en"
     language: "en"
     category: "general"
-    type: "homepage"
 
   - name: "Mauritius Meteorological Services"
     url: "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
