@@ -99,46 +99,55 @@ scrapers:
   # ── L'Express sections ───────────────────────────────────────
   - name: "L'Express"
     url: "https://lexpress.mu"
+    type: lexpress
     language: "fr"
     category: "local"
 
   - name: "L'Express Politique"
     url: "https://lexpress.mu/politique"
+    type: lexpress
     language: "fr"
     category: "local"
 
   - name: "L'Express Société"
     url: "https://lexpress.mu/societe"
+    type: lexpress
     language: "fr"
     category: "local"
 
   - name: "L'Express Économie"
     url: "https://lexpress.mu/economie"
+    type: lexpress
     language: "fr"
     category: "local"
 
   - name: "L'Express Régions"
     url: "https://lexpress.mu/regions"
+    type: lexpress
     language: "fr"
     category: "local"
 
   - name: "L'Express Sport"
     url: "https://lexpress.mu/sport"
+    type: lexpress
     language: "fr"
     category: "sport"
 
   - name: "L'Express International"
     url: "https://lexpress.mu/international"
+    type: lexpress
     language: "fr"
     category: "international"
 
   - name: "L'Express Loisirs"
     url: "https://lexpress.mu/loisirs"
+    type: lexpress
     language: "fr"
     category: "culture"
 
   - name: "L'Express Multimédia"
     url: "https://lexpress.mu/multimedia"
+    type: lexpress
     language: "fr"
     category: "local"
 
@@ -210,7 +219,8 @@ exchange_rates:
     type: gold_api
 
   - name: "WTI Crude Oil"
-    url: "https://api.gold-api.com/price/USOIL"
+    url: "https://query1.finance.yahoo.com/v8/finance/chart/CL=F"
     language: "en"
     category: "finance"
-    type: gold_api
+    type: yahoo_finance
+    label: "WTI Crude Oil"
