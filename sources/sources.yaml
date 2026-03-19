@@ -1,0 +1,55 @@
+rss_feeds:
+  - name: "Mauritius Now"
+    url: "https://mauritiusnow.com/feed/"
+    language: "en"
+    category: "general"
+
+  - name: "News Moris"
+    url: "https://newsmoris.com/feed/"
+    language: "en"
+    category: "general"
+
+  - name: "Mauritius Times"
+    url: "https://mauritiustimes.com/mt/feed/"
+    language: "en"
+    category: "general"
+
+  - name: "Bank of Mauritius - News"
+    url: "https://www.bom.mu/rss/news"
+    language: "en"
+    category: "finance"
+
+  - name: "Bank of Mauritius - Exchange Rates"
+    url: "https://www.bom.mu/rss/exchange-rate"
+    language: "en"
+    category: "finance"
+
+  - name: "BBC Africa"
+    url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
+    language: "en"
+    category: "international"
+
+scrapers:
+  - name: "L'Express Maurice"
+    url: "https://lexpress.mu/"
+    language: "fr"
+    category: "general"
+    type: "homepage"
+
+  - name: "Defimedia"
+    url: "https://defimedia.info/"
+    language: "fr"
+    category: "general"
+    type: "homepage"
+
+  - name: "ION News"
+    url: "https://ionnews.mu/"
+    language: "en"
+    category: "general"
+    type: "homepage"
+
+  - name: "Mauritius Meteorological Services"
+    url: "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+    language: "en"
+    category: "weather"
+    type: "bulletin"
