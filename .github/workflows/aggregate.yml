@@ -2,7 +2,8 @@ name: Aggregate news feed
 
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour
+    - cron: "0 2 * * *"   # 06:00 Mauritius time (UTC+4)
+    - cron: "0 14 * * *"  # 18:00 Mauritius time (UTC+4)
   workflow_dispatch:        # allows manual trigger from GitHub UI
 
 permissions:
@@ -12,9 +13,9 @@ jobs:
   aggregate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
