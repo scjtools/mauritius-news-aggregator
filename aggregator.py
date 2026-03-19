@@ -9,7 +9,7 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
 
 HEADERS = {
-    "User-Agent": "mauritius-news-aggregator/1.0 (newsletter pipeline; contact via GitHub)"
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 }
 MAX_AGE_HOURS = 24
 MAX_SUMMARY_CHARS = 500
