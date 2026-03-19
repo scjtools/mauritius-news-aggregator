@@ -4,14 +4,54 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Thu, 19 Mar 2026 14:33:59 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Mar 2026 15:09:18 +0000</lastBuildDate>
+    <item>
+      <title>Bitcoin price – 19 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 69,761.22</description>
+      <pubDate>2026-03-19T15:09:18.609090+00:00</pubDate>
+      <guid>4876bf829f6da1637f1744462579ca62</guid>
+      <source>Bitcoin price (BTC)</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Gold price – 19 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,617.20</description>
+      <pubDate>2026-03-19T15:09:18.251187+00:00</pubDate>
+      <guid>a7556bdecccda34ec1eef495306b395d</guid>
+      <source>Gold price (XAU)</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
     <item>
       <title>MUR exchange rates – 19 March 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>1 MUR = 0.02147606 USD USD | 1 MUR = 0.01871614 EUR EUR</description>
-      <pubDate>2026-03-19T14:33:59.177706+00:00</pubDate>
+      <description>1 MUR = 0.02147606 USD USD | 1 MUR = 0.01871604 EUR EUR</description>
+      <pubDate>2026-03-19T15:09:18.002600+00:00</pubDate>
       <guid>2ab27c397c3c4006ae914556a2503758</guid>
       <source>FloatRates MUR</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Petroleum retail prices – March 2026</title>
+      <link>https://www.stcmu.com/ppm/press-release</link>
+      <description>Mogas: Rs 58.45/litre | Gas Oil: Rs 58.45/litre</description>
+      <pubDate>2026-03-19T15:09:17.581347+00:00</pubDate>
+      <guid>a8faf6b087a76790d49c69651b6b2ee6</guid>
+      <source>MOGAS price</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>SEMDEX – 19 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2229.07</description>
+      <pubDate>2026-03-19T15:09:16.676586+00:00</pubDate>
+      <guid>b659216c45e6e310d6ec94eab64268d0</guid>
+      <source>SEMDEX</source>
       <category>finance</category>
       <language>en</language>
     </item>
@@ -19,37 +59,17 @@
       <title>Mauritius weather bulletin – 19 March 2026</title>
       <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
       <description>Welcome to Mauritius Meteorological Services Weather news for Mauritius issued at 16h30 on Thursday 19 March 2026.General situation:Few clouds coming from the eastern sector will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy during the night and tomorrow morning becoming cloudy at times to the East and over the Central Plateau with few showers.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degree</description>
-      <pubDate>2026-03-19T14:33:58.850036+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:14.214885+00:00</pubDate>
       <guid>40f41d36063164099490d41988ccdf0f</guid>
       <source>Mauritius Meteorological Services</source>
       <category>weather</category>
       <language>en</language>
     </item>
     <item>
-      <title>L’appel à la fin du psychodrame politique</title>
-      <link>https://defimedia.infolappel-la-fin-du-psychodrame-politique</link>
-      <description/>
-      <pubDate>2026-03-19T14:33:57.483362+00:00</pubDate>
-      <guid>33d67c9ff5690b5d38e71bebef171dc2</guid>
-      <source>Defimedia</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Gouvernance : la direction du MACOSS dément toute crise structurelle</title>
-      <link>https://defimedia.infogouvernance-la-direction-du-macoss-dement-toute-crise-structurelle</link>
-      <description/>
-      <pubDate>2026-03-19T14:33:57.440104+00:00</pubDate>
-      <guid>0407919daad04df9960964a3295d14e8</guid>
-      <source>Defimedia</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
       <title>Mort d’Andy Selmour à la prison de Melrose : un infirmier dénonce un manque de personnel et de sécurité</title>
       <link>https://defimedia.infomort-dandy-selmour-la-prison-de-melrose-un-infirmier-denonce-un-manque-de-personnel-et-de-securite</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.439651+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.731026+00:00</pubDate>
       <guid>5202eb7493da4996562a0ceb182bcc67</guid>
       <source>Defimedia</source>
       <category>general</category>
@@ -59,7 +79,7 @@
       <title>Après 11 mois de service - Dev Jokhoo : un départ précipité à la tête des prisons</title>
       <link>https://defimedia.infoapres-11-mois-de-service-dev-jokhoo-un-depart-precipite-la-tete-des-prisons</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.439222+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.730548+00:00</pubDate>
       <guid>2c387926a6fcfca2e67d6a8f84092782</guid>
       <source>Defimedia</source>
       <category>general</category>
@@ -69,7 +89,7 @@
       <title>Ramadan : le croissant lunaire pourra-t-il être observé ce jeudi soir ?</title>
       <link>https://defimedia.inforamadan-le-croissant-lunaire-pourra-t-il-etre-observe-ce-jeudi-soir</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.438798+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.730036+00:00</pubDate>
       <guid>f6631aba4eb35359e21695f3cafcbf74</guid>
       <source>Defimedia</source>
       <category>general</category>
@@ -79,7 +99,7 @@
       <title>« Les États-Unis ont perdu le contrôle de leur propre politique étrangère », selon le ministre des Affaires étrangères d'Oman</title>
       <link>https://defimedia.infoles-etats-unis-ont-perdu-le-controle-de-leur-propre-politique-etrangere-selon-le-ministre-des</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.438348+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.729550+00:00</pubDate>
       <guid>f4ef996f87319175126ed3720384b8ad</guid>
       <source>Defimedia</source>
       <category>general</category>
@@ -89,7 +109,7 @@
       <title>Certificat d’investissement révoqué : Global Equestrian Ltd ne pourra pas contester la décision de l’EDB</title>
       <link>https://defimedia.infocertificat-dinvestissement-revoque-global-equestrian-ltd-ne-pourra-pas-contester-la-decision-de</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.437910+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.729031+00:00</pubDate>
       <guid>cd447a10f9d5d7c15cbd87ed275f5db3</guid>
       <source>Defimedia</source>
       <category>general</category>
@@ -99,7 +119,7 @@
       <title>La Malaisie devient le premier pays à annuler un accord tarifaire avec les États-Unis</title>
       <link>https://defimedia.infola-malaisie-devient-le-premier-pays-annuler-un-accord-tarifaire-avec-les-etats-unis</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.437439+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.728549+00:00</pubDate>
       <guid>deb4aa0c95c6658e0b33a5413feabb81</guid>
       <source>Defimedia</source>
       <category>general</category>
@@ -109,18 +129,8 @@
       <title>Ramgoolam : « Budget pa pou fasil… li pou enn budget dir ankor, mo bien sagrin »</title>
       <link>https://defimedia.inforamgoolam-budget-pa-pou-fasil-li-pou-enn-budget-dir-ankor-mo-bien-sagrin</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.436999+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.728036+00:00</pubDate>
       <guid>2a3423d52ef95fda104a55f0b3a51d01</guid>
-      <source>Defimedia</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»</title>
-      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-yoshinee-parasuraman-une-organisation-bien-gouvernee</link>
-      <description/>
-      <pubDate>2026-03-19T14:33:57.436528+00:00</pubDate>
-      <guid>b7b2c2dbc78efc7c25da9fdb7d73130e</guid>
       <source>Defimedia</source>
       <category>general</category>
       <language>fr</language>
@@ -129,18 +139,8 @@
       <title>Exclu de l’ordre professionnel en 2025 : la Cour suprême rejette la demande d’injonction d’un dentiste</title>
       <link>https://defimedia.infoexclu-de-lordre-professionnel-en-2025-la-cour-supreme-rejette-la-demande-dinjonction-dun-dentiste</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.436083+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.727538+00:00</pubDate>
       <guid>f27025c2d8336f5675de74d4c6aa7f06</guid>
-      <source>Defimedia</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»</title>
-      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-novan-maharahaje-la-gouvernance-est-le-socle-de-la</link>
-      <description/>
-      <pubDate>2026-03-19T14:33:57.435615+00:00</pubDate>
-      <guid>bc99e4fa269e59dfc72dbb9e8e82fd99</guid>
       <source>Defimedia</source>
       <category>general</category>
       <language>fr</language>
@@ -149,18 +149,18 @@
       <title>Un ministre israélien qualifie la guerre de « bénédiction immense pour Israël »</title>
       <link>https://defimedia.infoun-ministre-israelien-qualifie-la-guerre-de-benediction-immense-pour-israel</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.435166+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.727006+00:00</pubDate>
       <guid>6664549323c381dd163525816c54fcd6</guid>
       <source>Defimedia</source>
       <category>general</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»</title>
-      <link>https://defimedia.infoshaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un</link>
+      <title>Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»</title>
+      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-yoshinee-parasuraman-une-organisation-bien-gouvernee</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.434715+00:00</pubDate>
-      <guid>2d184e7d0cfacab630031f14cb1915a7</guid>
+      <pubDate>2026-03-19T15:09:12.726462+00:00</pubDate>
+      <guid>b7b2c2dbc78efc7c25da9fdb7d73130e</guid>
       <source>Defimedia</source>
       <category>general</category>
       <language>fr</language>
@@ -169,18 +169,18 @@
       <title>Le chancelier allemand Merz salue le « signal » de Trump en faveur d’une fin des combats</title>
       <link>https://defimedia.infole-chancelier-allemand-merz-salue-le-signal-de-trump-en-faveur-dune-fin-des-combats</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.434245+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.725938+00:00</pubDate>
       <guid>4aeed6d1b30dbaa03e8381241cabeea3</guid>
       <source>Defimedia</source>
       <category>general</category>
       <language>fr</language>
     </item>
     <item>
-      <title>Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises</title>
-      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-au-dela-de-la-conformite-la-gouvernance-au-service</link>
+      <title>Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»</title>
+      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-novan-maharahaje-la-gouvernance-est-le-socle-de-la</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.433767+00:00</pubDate>
-      <guid>b971d24b1278c37042cb26221bbb0756</guid>
+      <pubDate>2026-03-19T15:09:12.725448+00:00</pubDate>
+      <guid>bc99e4fa269e59dfc72dbb9e8e82fd99</guid>
       <source>Defimedia</source>
       <category>general</category>
       <language>fr</language>
@@ -189,8 +189,48 @@
       <title>Jayen Chellum, secrétaire général de l’ACIM : « La STC doit jouer son rôle de chien de garde sur le marché »</title>
       <link>https://defimedia.infojayen-chellum-secretaire-general-de-lacim-la-stc-doit-jouer-son-role-de-chien-de-garde-sur-le</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.433267+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.724922+00:00</pubDate>
       <guid>f446ce9909eda19a23eb2fd6fc9a92be</guid>
+      <source>Defimedia</source>
+      <category>general</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»</title>
+      <link>https://defimedia.infoshaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un</link>
+      <description/>
+      <pubDate>2026-03-19T15:09:12.724417+00:00</pubDate>
+      <guid>2d184e7d0cfacab630031f14cb1915a7</guid>
+      <source>Defimedia</source>
+      <category>general</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Réhabilitation du parking du stade Anjalay : « Un lieu provisoire pour les rallyes automobiles », annonce Osman Mahomed</title>
+      <link>https://defimedia.inforehabilitation-du-parking-du-stade-anjalay-un-lieu-provisoire-pour-les-rallyes-automobiles-annonce</link>
+      <description/>
+      <pubDate>2026-03-19T15:09:12.723869+00:00</pubDate>
+      <guid>aac390b5b4309104ddc5a909296e7e04</guid>
+      <source>Defimedia</source>
+      <category>general</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises</title>
+      <link>https://defimedia.infoconference-sur-la-gouvernance-et-le-leadership-au-dela-de-la-conformite-la-gouvernance-au-service</link>
+      <description/>
+      <pubDate>2026-03-19T15:09:12.723350+00:00</pubDate>
+      <guid>b971d24b1278c37042cb26221bbb0756</guid>
+      <source>Defimedia</source>
+      <category>general</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Accident à Belle-Étoile : un motocycliste de 75 ans perd la vie</title>
+      <link>https://defimedia.infoaccident-belle-etoile-un-motocycliste-de-75-ans-perd-la-vie</link>
+      <description/>
+      <pubDate>2026-03-19T15:09:12.722747+00:00</pubDate>
+      <guid>12db464997f295b7bbed791663237ad7</guid>
       <source>Defimedia</source>
       <category>general</category>
       <language>fr</language>
@@ -199,7 +239,7 @@
       <title>Ramgoolam : « Je ne m’ingérerai pas dans les affaires du MMM. Mon message : l’unité »</title>
       <link>https://defimedia.inforamgoolam-je-ne-mingererai-pas-dans-les-affaires-du-mmm-mon-message-lunite</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.432749+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.679384+00:00</pubDate>
       <guid>b8dbe55ca22437bceff24eec3aac39a7</guid>
       <source>Defimedia</source>
       <category>general</category>
@@ -209,7 +249,7 @@
       <title>Whatsapp Us +230 52 59 82 00</title>
       <link>https://wa.me/23052598200</link>
       <description/>
-      <pubDate>2026-03-19T14:33:57.431886+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.678600+00:00</pubDate>
       <guid>febc5bc419387717456232cc3cade2c1</guid>
       <source>Defimedia</source>
       <category>general</category>
@@ -219,28 +259,28 @@
       <title>Skip to main content</title>
       <link>https://defimedia.info/#main-content</link>
       <description>LE DEFI MEDIA GROUP› Cnr Antonio &amp; Labourdonnais Street, Port Louis, Republic of Mauritius • Tel: +230 203 4800</description>
-      <pubDate>2026-03-19T14:33:57.051852+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:12.130936+00:00</pubDate>
       <guid>917a1b3c329c12397d78d0aaccbf6f4b</guid>
       <source>Defimedia</source>
       <category>general</category>
       <language>fr</language>
     </item>
     <item>
-      <title>19 mars 2026 17:30 [Échecs] «Republic Cup» finale 14 mars Masters, les huit premiers qualifiés connus</title>
-      <link>https://lexpress.mus/masters-les-huit-premiers-qualifies-connus-555633</link>
+      <title>19 mars 2026 18:48 Ile de la Réunion Piton de la Fournaise : Dix personnes secourues, la sécurité renforcée face aux comportements à risque</title>
+      <link>https://lexpress.mus/piton-de-la-fournaise-dix-personnes-secourues-la-securite-face-aux-comportements-a-risque-555637</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.582679+00:00</pubDate>
-      <guid>29eb975f46ab1f3eeaf24d66f3b370eb</guid>
+      <pubDate>2026-03-19T15:09:11.066218+00:00</pubDate>
+      <guid>b8b86c2dfe9ae5d2b64a886f0771e3a8</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
       <language>fr</language>
     </item>
     <item>
-      <title>19 mars 2026 18:30 Opérations de «clearing»  en dollars américains La MauBank primée par J.P. Morgan Payments</title>
-      <link>https://lexpress.mus/la-maubank-primee-par-jp-morgan-payments-555614</link>
+      <title>19 mars 2026 19:00 Transport aérien Les prix des billets d’avion pourraient grimper de 30% à 50 %</title>
+      <link>https://lexpress.mus/les-prix-des-billets-davion-pourraient-grimper-de-30-a-50-555638</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.569495+00:00</pubDate>
-      <guid>63d6531b51a94ed45dfbc7332e5b8c72</guid>
+      <pubDate>2026-03-19T15:09:11.047953+00:00</pubDate>
+      <guid>4d6bde6caee6897269718a302281acfe</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
       <language>fr</language>
@@ -249,7 +289,7 @@
       <title>Le jardin du Bon Dieu</title>
       <link>https://lexpress.mus/le-jardin-du-bon-dieu</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.565745+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:11.014958+00:00</pubDate>
       <guid>866f3e0acb63761ba878399d78a4aa58</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -259,7 +299,7 @@
       <title>Problem dilo Pour qu'il en reste un peu plus demain !</title>
       <link>https://lexpress.mus/video/417034/problem-dilo-pour-quil-en-reste-un-peu-plus-demain</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.560408+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:11.009912+00:00</pubDate>
       <guid>8674f336906b984c5011a1bbc171df3c</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -269,7 +309,7 @@
       <title>Fléau social Nous n’avons qu’une vie, pourquoi la laisser gâcher par la drogue ?</title>
       <link>https://lexpress.mus/nous-navons-quune-vie-pourquoi-la-laisser-gacher-par-la-drogue-545896</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.546127+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:11.005397+00:00</pubDate>
       <guid>6a5dcccbc8b5bf238063a7ce7878b1d4</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -279,7 +319,7 @@
       <title>BLACK-OUT Gérer l'énergie au quotidien</title>
       <link>https://lexpress.mus/gerer-lenergie-au-quotidien-549538</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.536133+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.890717+00:00</pubDate>
       <guid>f826a68f283c19d9a309b3e699dd5bfb</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -289,7 +329,7 @@
       <title>Partira, partira pas ? Paul Bérenger : «Mo pa pe al Parlman demin mwa. Seki anvi ale kapav ale zot»</title>
       <link>https://lexpress.mus/paul-berenger-mo-pa-pe-al-parlman-demin-mwa-seki-anvi-ale-kapav-ale-zot-555501</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.531370+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.871665+00:00</pubDate>
       <guid>abc3e1348f990e59015a2cfbb03eeba2</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -299,7 +339,7 @@
       <title>Ajay Gunness «La loyauté va au pays, pas à Paul Bérenger»</title>
       <link>https://lexpress.mus/la-loyaute-va-au-pays-pas-a-paul-berenger-555577</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.526851+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.855950+00:00</pubDate>
       <guid>f153c74af0ded37d737ddd6cbc747a79</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -309,7 +349,7 @@
       <title>Option Form et rapport PRB Des syndicats saisissent la Cour suprême</title>
       <link>https://lexpress.mus/des-syndicats-saisissent-la-cour-supreme-555579</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.310735+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.852364+00:00</pubDate>
       <guid>e9ee6625e2d4a476bff704c0ec274ee8</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -319,18 +359,8 @@
       <title>Nou Lar Nou Lamizik Davy Sicard : entre racines créoles et modernité avec Kafé Griyé</title>
       <link>https://lexpress.mus/davy-sicard-entre-racines-creoles-et-modernite-avec-kafe-griye-555583</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.213524+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.835678+00:00</pubDate>
       <guid>8e079f94614e5c490519385fb38591ab</guid>
-      <source>L'Express Maurice</source>
-      <category>general</category>
-      <language>fr</language>
-    </item>
-    <item>
-      <title>Obituaire Dr Claude Ricaud (1935 - 2026) : Un grand chercheur s’en est allé</title>
-      <link>https://lexpress.mus/dr-claude-ricaud-1935-2026-un-grand-chercheur-sen-est-alle-555610</link>
-      <description/>
-      <pubDate>2026-03-19T14:33:56.206821+00:00</pubDate>
-      <guid>c0848ef05a4d88cbdde8daac01baaac2</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
       <language>fr</language>
@@ -339,7 +369,7 @@
       <title>Célébration de Gudi Padwa chez la famille Mahadoo Un rendez-vous traditionnel et familial</title>
       <link>https://lexpress.mus/un-rendez-vous-traditionnel-et-familial-555628</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.195071+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.785640+00:00</pubDate>
       <guid>6c95d4b28bc3762cb2ee5968076e4fdc</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -349,7 +379,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun Les suspects ont livré des versions contradictoires</title>
       <link>https://lexpress.mus/les-suspects-ont-livre-des-versions-contradictoires-555611</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.101722+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.748966+00:00</pubDate>
       <guid>7741e10513e5de118485d39dc19c9354</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -359,7 +389,7 @@
       <title>Musique Le Réunionnais Davy Sicard en concert ce vendredi 20 mars à Njoy</title>
       <link>https://lexpress.mus/le-reunionnais-davy-sicard-en-concert-ce-vendredi-20-mars-a-njoy-555617</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.090685+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.725191+00:00</pubDate>
       <guid>0e910ea89476c55c53ccb3d4144428c4</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -369,7 +399,7 @@
       <title>Fonction publique et PRB La fronde des  syndicats s’intensifie</title>
       <link>https://lexpress.mus/la-fronde-des-syndicats-sintensifie-555612</link>
       <description/>
-      <pubDate>2026-03-19T14:33:56.074653+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.698916+00:00</pubDate>
       <guid>d3b11fa4929242bfd3e33abc726c2670</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -379,7 +409,7 @@
       <title>Agression préméditée à Résidence Briquetterie Trois suspects passent aux aveux</title>
       <link>https://lexpress.mus/trois-suspects-passent-aux-aveux-555632</link>
       <description/>
-      <pubDate>2026-03-19T14:33:55.861227+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.694264+00:00</pubDate>
       <guid>965437ad094923594116fdc41272975e</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -389,7 +419,7 @@
       <title>«World Happiness Report 2026» Maurice classée 73ᵉ  mondiale</title>
       <link>https://lexpress.mus/maurice-classee-73-mondiale-555627</link>
       <description/>
-      <pubDate>2026-03-19T14:33:55.840922+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.665983+00:00</pubDate>
       <guid>8297e1b2afa2cce6ed57dc775aed7616</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -399,7 +429,7 @@
       <title>Ugadi 2026 Le Premier ministre, Navin Ramgoolam, rappelle l'importance de l'unité</title>
       <link>https://lexpress.mus/le-premier-ministre-navin-ramgoolam-rappelle-limportance-de-lunite-555634</link>
       <description/>
-      <pubDate>2026-03-19T14:33:55.835817+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.646912+00:00</pubDate>
       <guid>a67451af38fa0fa59bf2c5c85faa2831</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -409,7 +439,7 @@
       <title>Sondage Afrobarometer 94 % des Mauriciens disent oui à l’éducation sexuelle à l’école</title>
       <link>https://lexpress.mus/94-des-mauriciens-disent-oui-a-leducation-sexuelle-a-lecole-555615</link>
       <description/>
-      <pubDate>2026-03-19T14:33:55.802343+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.627463+00:00</pubDate>
       <guid>037acebe3206201148ecfebb98cb1f33</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
@@ -419,11 +449,301 @@
       <title>Ugadi 2026 La jeunesse fait vibrer ses racines culturelles</title>
       <link>https://lexpress.mus/la-jeunesse-fait-vibrer-ses-racines-culturelles-555635</link>
       <description/>
-      <pubDate>2026-03-19T14:33:55.766325+00:00</pubDate>
+      <pubDate>2026-03-19T15:09:10.505580+00:00</pubDate>
       <guid>a152949e0e88c229cd32c9c1c85f1033</guid>
       <source>L'Express Maurice</source>
       <category>general</category>
       <language>fr</language>
+    </item>
+    <item>
+      <title>Opérations de «clearing»  en dollars américains La MauBank primée par J.P. Morgan Payments</title>
+      <link>https://lexpress.mus/la-maubank-primee-par-jp-morgan-payments-555614</link>
+      <description/>
+      <pubDate>2026-03-19T15:09:10.484411+00:00</pubDate>
+      <guid>9f786084d2bc6ae9fdc031fc8e85077f</guid>
+      <source>L'Express Maurice</source>
+      <category>general</category>
+      <language>fr</language>
+    </item>
+    <item>
+      <title>Africa: Experts Warn Overreliance On Ai Could Weaken Students' Thinking Abilities</title>
+      <link>https://allafrica.com/stories/202603190469.html</link>
+      <description>[Leadership] The increasing integration of artificial intelligence (AI) into workplaces and studies around the world is raising fresh concerns among education experts, who warn that students may gradually lose vital cognitive abilities if they become overly dependent on technology.</description>
+      <pubDate>2026-03-19T15:01:55+00:00</pubDate>
+      <guid>90d6bd6307a35c3d5c424f0f33e7b7fe</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Nigel Farage stops using Cameo after revelations about his use of platform</title>
+      <link>https://www.theguardian.com/uk-news/2026/mar/19/nigel-farage-stops-using-cameo</link>
+      <description>Reform leader ‘unavailable’ on service after Guardian investigation unearths clips of him repeating extremist slogansNigel Farage has stopped using the personalised video platform Cameo revealations the Reform UK leader has filmed a string of highly questionable paid-for clips.On Thursday morning, Farage’s page on the website said he was “unavailable”, with a sources saying he had ended his use of the platform over security concerns. Continue reading...</description>
+      <pubDate>2026-03-19T15:00:21+00:00</pubDate>
+      <guid>8298d203ccfc8cb217fbb29c904bc889</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Chad warns Sudan it will retaliate after drone strike on mourners kills 17</title>
+      <link>https://www.bbc.com/news/articles/c0mjn0g708ro?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>President Idris Mahamat Déby orders the military to be on high alert and a &quot;total closure&quot; of the border.</description>
+      <pubDate>2026-03-19T14:57:22+00:00</pubDate>
+      <guid>967a3bd9b41c02e8b461fa49414977c2</guid>
+      <source>BBC Africa</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Badenoch offers new explanation for Tory attack on Muslim event, saying party objecting to gender segregation – UK politics live</title>
+      <link>https://www.theguardian.com/politics/live/2026/mar/19/labour-eu-iran-covid-local-elections-meningitis-latest-news-updates</link>
+      <description>Tory leader continues to back Nick Timothy after he said public prayer for Ramadan was an ‘act of domination’Starmer claims Tories have ‘problem with Muslims’ after Timothy tweetCleverly is trying to show a video, but it is not working. So he just invites Kemi Badenoch to start her speech.The Conservatives are launching their local elections campaign. There is a live feed here. Continue reading...</description>
+      <pubDate>2026-03-19T14:56:29+00:00</pubDate>
+      <guid>d242e0c2849bee0ad9c22d205445e70b</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Senate committee approves Trump nominee Markwayne Mullin to lead DHS, heads for full vote – live</title>
+      <link>https://www.theguardian.com/us-news/live/2026/mar/19/donald-trump-iran-bondi-epstein-mullin-japan-takaichi-save-voter-id-latest-news-updates</link>
+      <description>Republican senator Rand Paul voted against advancing Mullin but Democratic senator John Fetterman supported the nominationSign up for the Breaking US News US emailAnswering a reporter’s question on Iran’s missile capabilities, considering the country has managed to strike numerous states in the Gulf, Gen Dan Caine, the chair of the joint chiefs of staff, said Tehran retains “some capability” to attack American assets.“They came into this fight with a lot of weapons.,” he said, adding that the US</description>
+      <pubDate>2026-03-19T14:54:27+00:00</pubDate>
+      <guid>567265cb56e7ae2fd4b87608d4ac28d4</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>No breakthrough on Hungary’s veto of EU’s €90bn loan to Ukraine – Europe live</title>
+      <link>https://www.theguardian.com/world/live/2026/mar/19/europe-ukraine-russian-eu-loan-orban-hungary-tariffs-iran-nato-latest-news-updates</link>
+      <description>EU leaders fail to convince Viktor Orbán, shortly facing Hungarian elections, to drop his opposition to aid Germany’s chancellor Friedrich Merz also called for de-escalation in the Middle East, welcoming what he said were signals by US president Donald Trump that combat action in Iran could come to an end, which could allow Europe to contribute to securing peace in the region.“I am expressly grateful that the US president sent a signal in this regard last night that he is prepared to bring the f</description>
+      <pubDate>2026-03-19T14:53:09+00:00</pubDate>
+      <guid>1e24588fb347304fe11a19939ae7a746</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Bank of England expected to raise UK interest rates twice this year to fight inflation shock from Middle East crisis – business live</title>
+      <link>https://www.theguardian.com/business/live/2026/mar/19/bank-of-england-interest-rates-decision-hold-inflation-oil-gas-iran-wage-growth-slows-latest-news-updates</link>
+      <description>UK central bank has left rates on hold, and warned that CPI inflation will be higher in the near term as a result of the ‘new shock to the economy’ from Middle East crisisBank of England holds interest rates at 3.75% and signals rise is possible within monthsWhy are mortgage rates going up when the Bank of England base rate hasn’t changed?Middle East crisis live: Trump threatens to ‘blow up’ entire South Pars gasfield if Iran strikes QatarEuropean stock markets have dropped sharply at the start</description>
+      <pubDate>2026-03-19T14:47:17+00:00</pubDate>
+      <guid>d6e20f5112985a97fccb640f45cb2fea</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Middle East crisis live: Israeli officials push back on US claim that Trump knew nothing about gasfield attack</title>
+      <link>https://www.theguardian.com/world/live/2026/mar/19/iran-war-live-updates-oil-prices-gas-field-strikes-pentagon-more-funds-trump-news</link>
+      <description>Three Israeli officials tell Reuters that the US actually helped coordinate Israel’s attack on Iran’s South Pars gasfieldThe war cost the US $12.7bn by day six. Here’s how it’s been spent – in chartsTurning to Australia now, a petrol tsar will manage “unprecedented” supply issues caused by the Middle East conflict as the finishing touches are put on measures to address dire shortages in many regional areas.Prime minister Anthony Albanese convened a snap virtual meeting of the national cabinet on</description>
+      <pubDate>2026-03-19T14:46:33+00:00</pubDate>
+      <guid>814fde5cafe061a141c519c03fcbbd1f</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>'My children became my purpose': Author Stuart J. Green on rebuilding after trauma</title>
+      <link>https://www.france24.com/en/tv-shows/perspective/20260319-my-children-became-my-purpose-author-stuart-j-green-on-rebuilding-after-trauma</link>
+      <description>A man who lost his wife after she was shot dead in her car in the Philippines a decade ago with their children in the back seat has spoken to FRANCE 24 of the trauma of such an event, and how his family has got through what happened. Stuart J. Green lost not only his wife, but also his job and the country he'd been living in for 25 years, leaving him with three traumatised children to look after. He found little help in the world of literature, so he decided to write his own book to try to help</description>
+      <pubDate>2026-03-19T14:43:23+00:00</pubDate>
+      <guid>51df8ae1619ef7a144d06c10f680dd28</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Tropical Cyclone Narelle to make landfall in far north Qld on Friday as category 5 storm, bringing 315km/h wind gusts</title>
+      <link>https://www.theguardian.com/australia-news/2026/mar/19/tropical-cyclone-narelle-qld-storm-tracker-path-tracking-map-bom</link>
+      <description>Massive storm tracking a path to Queensland coast, which intensified offshore Thursday morning to category 5, fuelled by warm waters in Coral SeaCyclone Narelle path tracker mapGet our breaking news email, free app or daily news podcastSevere Tropical Cyclone Narelle is expected to make landfall in far north Queensland on Friday morning as a monster category 5 storm, bringing destructive wind gusts of 315km/h, according to the Bureau of Meteorology.The severe cyclone rapidly intensified over the</description>
+      <pubDate>2026-03-19T14:37:35+00:00</pubDate>
+      <guid>ab0adc0a268d7e916f8b9296bf96fabc</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Some of the world’s poorest countries to lose UK aid due to 56% budget cut</title>
+      <link>https://www.theguardian.com/global-development/2026/mar/19/poorest-countries-lose-uk-aid-56-per-cent-budget-cut</link>
+      <description>UK’s bilateral aid to Africa, which funds areas such as schools and clinics, to be cut by almost £900m by 2028-29Some of the world’s poorest countries will lose out on UK aid that funds programmes such as schools and clinics, due to budget cuts set out by the foreign secretary.The UK’s bilateral aid to Africa will be reduced by almost £900m by 2028-29 – a 56% cut – part of more than £6bn in cuts which are funding an increase in defence spending. Continue reading...</description>
+      <pubDate>2026-03-19T14:35:12+00:00</pubDate>
+      <guid>0d4657606e8076926b99985718f935c3</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Middle East war boosts traffic through Kenyan port of Lamu</title>
+      <link>http://www.africanews.com/2026/03/19/middle-east-war-boosts-traffic-through-kenyan-port-of-lamu/</link>
+      <description>Thousands of high-end cars being shipped from Japan and destined for Dubai have been dropped off on the Kenyan island of Lamu, port authorities said, as the Mideast war provides a boost to African shipping hubs.</description>
+      <pubDate>2026-03-19T14:31:05+00:00</pubDate>
+      <guid>6b2fb3a67ce4a9c5bf8851d9ede2a486</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Treasury Dangles R54bn Carrot to Help Metros Become More 'Business-Like'</title>
+      <link>https://allafrica.com/stories/202603190443.html</link>
+      <description>[Daily Maverick] The National Treasury wants metro municipalities, the engines of the economy and home to the majority of South Africans, to become more 'business-like' in raising revenue and improving service delivery. But there are questions over corruption and political will.</description>
+      <pubDate>2026-03-19T14:29:46+00:00</pubDate>
+      <guid>c2db73df9e2c792099e28219974c6a85</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Treasury Dangles R54bn Carrot to Help Metros Become More 'Business-Like'</title>
+      <link>https://allafrica.com/stories/202603190443.html</link>
+      <description>[Daily Maverick] The National Treasury wants metro municipalities, the engines of the economy and home to the majority of South Africans, to become more 'business-like' in raising revenue and improving service delivery. But there are questions over corruption and political will.</description>
+      <pubDate>2026-03-19T14:29:46+00:00</pubDate>
+      <guid>a2a90de346c08e9b6498f12bcf0b3443</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Tanzania: Tanzania Envisions the 2026/27 Budget to Address Taxpayers' Challenges</title>
+      <link>https://allafrica.com/stories/202603190441.html</link>
+      <description>[Daily News] Dar es Salaam -- THE Tanzanian government has pledged to address the tax challenges in this year's budget to address the challenges tabled by traders and industrialists as a strategy to continue attracting local and foreign investment.</description>
+      <pubDate>2026-03-19T14:28:00+00:00</pubDate>
+      <guid>948e6243d61e279b95e9da8c7813ab04</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Senate committee advances Markwayne Mullin’s nomination to lead homeland security</title>
+      <link>https://www.theguardian.com/us-news/2026/mar/19/senate-committee-advances-markwayne-mullin-homeland-security</link>
+      <description>Republican senator’s nomination will now be considered by full Senate, where the GOP appears poised to confirm himSign up for the Breaking News US email to get newsletter alerts in your inboxA key Senate committee on Thursday advanced Markwayne Mullin’s nomination to lead the Department of Homeland Security (DHS) on a near party line vote, a day after the Republican senator faced questions at his confirmation hearing about his approach to Donald Trump’s immigration enforcement agenda and accusat</description>
+      <pubDate>2026-03-19T14:27:44+00:00</pubDate>
+      <guid>07ad1e743232f446423bde84c3fc0a91</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Progress At Last On Khayelitsha Sewer Line Repairs</title>
+      <link>https://allafrica.com/stories/202603190438.html</link>
+      <description>[GroundUp] Dozens of households have had to be relocated</description>
+      <pubDate>2026-03-19T14:24:54+00:00</pubDate>
+      <guid>5d85de2e5612f3c54ce73852c78f33a8</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Progress At Last On Khayelitsha Sewer Line Repairs</title>
+      <link>https://allafrica.com/stories/202603190438.html</link>
+      <description>[GroundUp] Dozens of households have had to be relocated</description>
+      <pubDate>2026-03-19T14:24:54+00:00</pubDate>
+      <guid>73ac6eabb0d8b18ea2fab4386bdf38f3</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Joburg Metro Cops Destroy Shacks in Ennerdale</title>
+      <link>https://allafrica.com/stories/202603190437.html</link>
+      <description>[GroundUp] Build us new homes, demand occupiers of land meant for housing that was never built</description>
+      <pubDate>2026-03-19T14:24:09+00:00</pubDate>
+      <guid>ee0356f7f82c7b2b2edfc5df1d4b2660</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Joburg Metro Cops Destroy Shacks in Ennerdale</title>
+      <link>https://allafrica.com/stories/202603190437.html</link>
+      <description>[GroundUp] Build us new homes, demand occupiers of land meant for housing that was never built</description>
+      <pubDate>2026-03-19T14:24:09+00:00</pubDate>
+      <guid>34a87b9e3cbeeef896c152457d1efdb3</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Oil and gas prices jump after Iran and Israel attack gasfields</title>
+      <link>https://www.theguardian.com/business/2026/mar/19/oil-prices-gas-prices-rise-iran-israel-donald-trump</link>
+      <description>State-run QatarEnergy says Iranian attack on its facilities has wiped out 17% of its LNG capacity for up to five yearsMiddle East crisis – live updatesBusiness live – latest updatesGas prices jumped to four-year highs and oil prices rose again after an escalation of attacks by Israel and Iran on gasfields heightened fears of prolonged disruption to international energy supplies.On Thursday, QatarEnergy told Reuters Iran had damaged facilities that produced 17% of the state-owned company’s liquef</description>
+      <pubDate>2026-03-19T14:21:54+00:00</pubDate>
+      <guid>2a09bbe251e2fe32ee9e9632201c9c10</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>REPLAY: Pentagon press conference on war in Middle East</title>
+      <link>https://www.france24.com/en/video/20260319-replay-pentagon-press-conference-on-war-in-middle-east</link>
+      <description>US Defense Secretary Pete Hegseth said Thursday there is no &quot;time frame&quot; for ending the US-Israeli war against Iran, which was launched three weeks ago. &quot;We wouldn't want to set a definitive time frame,&quot; Hegseth told a news conference, adding that &quot;we're very much on track&quot; and that President Donald Trump will be the one to decide when to stop. Hegseth also addressed a report that the Pentagon has requested more than $200 billion in additional funding from Congress to pay for the conflict.</description>
+      <pubDate>2026-03-19T14:06:39+00:00</pubDate>
+      <guid>10459538844243a949c5f6a9d7e11ca6</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Energy prices soar, Iran and US trade threats after Qatar gas hit</title>
+      <link>https://www.france24.com/en/video/20260319-energy-prices-soar-iran-and-us-trade-threats-after-qatar-gas-hit</link>
+      <description>Oil and gas prices soared Thursday after Iran hit the world's largest liquefied natural gas (LNG) facility in Qatar and threatened to destroy the region's energy infrastructure. Donald Trump, whose country started the war alongside Israel with their attack on Iran on February 28, warned of a furious US response if such attacks continued. International benchmark Brent surged 10 percent before falling back while European gas rose 35 percent after Iran attacked Qatar's huge Ras Laffan LNG facility</description>
+      <pubDate>2026-03-19T14:05:48+00:00</pubDate>
+      <guid>dda2bf5d92c16c25d9feac6e3841f9e3</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Afghanistan, Sierra Leone, and Malawi among the unhappiest countries</title>
+      <link>http://www.africanews.com/2026/03/19/afghanistan-sierra-leone-and-malawi-among-the-unhappiest-countries/</link>
+      <description>Finland has been named the world's happiest country for the ninth consecutive year, according to the World Happiness Report 2026 published Thursday, which also highlights the stark decline in well-being among young people linked to heavy social media use.</description>
+      <pubDate>2026-03-19T14:05:03+00:00</pubDate>
+      <guid>28adef161ee69588b5e2d7690fedbdcb</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>'Free France': Macron reveals name of Europe's largest warship</title>
+      <link>https://www.france24.com/en/video/20260319-free-france-macron-reveals-name-of-europe-s-largest-warship</link>
+      <description>President Emmanuel Macron on Wednesday announced that France's next nuclear-powered aircraft carrier will be called &quot;France Libre&quot; (Free France), as the country looks to reinforce its status as a major maritime power. Once completed, the warship, which is set to replace the country's sole aircraft carrier – the Charles de Gaulle – and due to enter service in 2038, will be the largest warship ever built in Europe.</description>
+      <pubDate>2026-03-19T14:04:36+00:00</pubDate>
+      <guid>bd721fd91c61e821ff9825e82c8ba66b</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Bernardi vows to pay for flights taken with Hanson on Rinehart’s plane amid confusion about SA’s donations ban</title>
+      <link>https://www.theguardian.com/australia-news/2026/mar/19/cory-bernardi-pay-flights-pauline-hanson-gina-rineharts-plane-sa-donations-ban-ntwnfb</link>
+      <description>World-leading laws to be tested ahead of South Australian state election, complicated by Hanson and Bernardi’s political statusGet our breaking news email, free app or daily news podcastCory Bernardi says he will pay for multiple flights with Pauline Hanson in a plane registered to Gina Rinehart’s company amid confusion about whether the trips may contravene South Australia’s new laws banning political donations.Saturday’s SA election is the first since the new laws came into effect. There are a</description>
+      <pubDate>2026-03-19T14:00:53+00:00</pubDate>
+      <guid>89d967d3f84d22cd2c928afaac5d1f25</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>‘One in, one out’ asylum seekers sent to France return to UK in lorries</title>
+      <link>https://www.theguardian.com/uk-news/2026/mar/19/one-in-one-out-asylum-seekers-france-uk-lorries</link>
+      <description>Exclusive: At least four people have travelled back to the UK by lorry in the last two weeksAsylum seekers who arrived in the UK in small boats and were forcibly returned to France under the controversial “one in, one out” deal have returned to the UK in lorries, the Guardian has learned.When asked about the recent returnees, the Home Office said that people who came back to the UK after removal to France were detained and returned to France at the earliest opportunity. Amnesty International UK</description>
+      <pubDate>2026-03-19T14:00:53+00:00</pubDate>
+      <guid>3a594d189550e2ae778932f60b0b5981</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Prolonged high oil prices could ‘crimp’ AI boom, WTO warns</title>
+      <link>https://www.theguardian.com/business/2026/mar/19/oil-prices-ai-boom-wto-iran-war-energy-global-economy</link>
+      <description>Iran war and its impact on energy and fertiliser costs is the main risk to the global economy, report saysBusiness live – latest updatesAn extended period of high oil prices as a result of war in the Middle East could “crimp” the AI boom, the World Trade Organization’s chief economist has warned.The war and its impact on energy and fertiliser costs is the main risk to the global economy identified in the WTO’s latest Global Trade Outlook. Continue reading...</description>
+      <pubDate>2026-03-19T14:00:51+00:00</pubDate>
+      <guid>4589941c51e4890ce5a3a0a33db5e7fa</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
     </item>
     <item>
       <title>Starmer meets Nigerian president as record steel deal agreed</title>
@@ -436,12 +756,632 @@
       <language>en</language>
     </item>
     <item>
-      <title>Chad warns Sudan it will retaliate after drone strike on mourners kills 17</title>
-      <link>https://www.bbc.com/news/articles/c0mjn0g708ro?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>President Idris Mahamat Déby orders the military to be on high alert and a &quot;total closure&quot; of the border.</description>
-      <pubDate>2026-03-19T13:30:01+00:00</pubDate>
-      <guid>967a3bd9b41c02e8b461fa49414977c2</guid>
-      <source>BBC Africa</source>
+      <title>Iran war exposes Gulf economies' food, water vulnerability</title>
+      <link>https://www.france24.com/en/tv-shows/people-profit/20260319-iran-war-exposes-gulf-economies-food-water-vulnerability</link>
+      <description>The spiralling conflict in Iran has highlighted the potential vulnerability of Gulf states when it comes to food and water security. Countries like Bahrain and Qatar depend heavily on desalinated water, and strikes on desalination plants have sparked concern about water supplies. Meanwhile, the usual flow of food imports through the Strait of Hormuz has been disrupted by the fighting.</description>
+      <pubDate>2026-03-19T13:41:32+00:00</pubDate>
+      <guid>e93df782958e25d22ba5cdf690b5815b</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Sahel accounts for nearly half of all terror-related deaths: report</title>
+      <link>http://www.africanews.com/2026/03/19/sahel-accounts-for-nearly-half-of-all-terror-related-deaths-report/</link>
+      <description>The Sahel region of Africa, which has become the &quot;global epicentre of terrorism,&quot; accounted for nearly half of all terrorism-related deaths for the third consecutive year in 2025, the Global Terrorism Report said Thursday.</description>
+      <pubDate>2026-03-19T13:39:37+00:00</pubDate>
+      <guid>68f8a2515b483b5dbe952c427ee51baf</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Rwanda, DRC agree to &quot;ease tensions&quot; after talks in Washington</title>
+      <link>http://www.africanews.com/2026/03/19/rwanda-drc-agree-to-ease-tensions-after-talks-in-washington/</link>
+      <description>The Democratic Republic of Congo and Rwanda agreed during talks in Washington to take &quot;concrete steps&quot; to ease tensions and advance a peace accord struck last year, a joint statement said.</description>
+      <pubDate>2026-03-19T13:33:14+00:00</pubDate>
+      <guid>d5dce40ba021c3f0c9a78dcac442de3b</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>British schoolgirl stranded in Denmark after return flight blocked over UK border rules</title>
+      <link>https://www.theguardian.com/uk-news/2026/mar/19/uk-schoolgirl-stranded-denmark-dual-national-rules</link>
+      <description>Exclusive: Hanne, 16, from Sussex, was denied board on flight to London after weekend in CopenhagenA 16-year-old British schoolgirl has been left stranded in Denmark after she was refused board on a flight to London because of new UK border rules introduced on British dual nationals.Hanne*, from Sussex, was stopped from boarding a flight home on 8 March after a weekend seeing her British father, who is an academic on a short work stint at a university in Copenhagen.Has your child been refused bo</description>
+      <pubDate>2026-03-19T13:31:29+00:00</pubDate>
+      <guid>de4abf1831275e66b49def4c4f0dcb87</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Fuel hikes squeeze Moroccans as Middle East tensions rise</title>
+      <link>http://www.africanews.com/2026/03/19/fuel-hikes-squeeze-moroccans-as-middle-east-tensions-rise/</link>
+      <description>The rising cost of fuel is beginning to be felt in Morocco due to the ongoing fighting in the Middle East that has led to the closure of the Strait of Hormuz.</description>
+      <pubDate>2026-03-19T13:24:30+00:00</pubDate>
+      <guid>3a9832bd57ccd85daa3cf30524b5d5b4</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>West Africa: Nigeria Targets $20bn Yearly From Space Sector</title>
+      <link>https://allafrica.com/stories/202603190419.html</link>
+      <description>[Daily Trust] Nigeria is pushing to carve out a share of the rapidly expanding global space economy projected to exceed $1 trillion by 2040, with officials saying the country could generate over $20 billion annually from its satellite and space technology sector.</description>
+      <pubDate>2026-03-19T13:24:14+00:00</pubDate>
+      <guid>9be5898acca87c6683b1723aec388f92</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>West Africa: Nigeria, Sweden Deepen Trade Cooperation</title>
+      <link>https://allafrica.com/stories/202603190409.html</link>
+      <description>[Daily Trust] Nigeria and Sweden have reaffirmed their commitment to strengthening bilateral relations and expanding cooperation in key sectors.</description>
+      <pubDate>2026-03-19T13:24:09+00:00</pubDate>
+      <guid>1afd0de3abefb7abd27dcd423315b26b</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Gulf crisis draws attention to African oil [Business Africa]</title>
+      <link>http://www.africanews.com/2026/03/19/gulf-crisis-draws-attention-to-african-oil-business-africa/</link>
+      <description>Unlike crude from the middle east, a lot of African oil does not have to transit vulnerable corridors such as the Strait of Hormuz, where events like war can put a stop to shipping. But years of constrained investment meant African producers cannot pump more and fast enough to cover supply gaps</description>
+      <pubDate>2026-03-19T13:16:13+00:00</pubDate>
+      <guid>aa70841928f773d943d9053609ee4bee</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Iran: Mass funeral in Tehran for Larijani and other officials killed in strikes</title>
+      <link>http://www.africanews.com/2026/03/19/iran-mass-funeral-in-tehran-for-larijani-and-other-officials-killed-in-strikes/</link>
+      <description>Thousands gathered at Enghelab Square in Tehran on 18 March for the funeral procession of national security chief Ali Larijani, Basij commander Gholamreza Soleimani and dozens of sailors killed in recent strikes.</description>
+      <pubDate>2026-03-19T13:10:45+00:00</pubDate>
+      <guid>9d161fa0e6192caee4d5bc6c6b1157d9</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Millions of children out of school: Yemen's education system on its knees</title>
+      <link>https://www.france24.com/en/tv-shows/focus/20260319-millions-of-children-out-of-school-yemen-s-education-system-on-its-knees</link>
+      <description>Since 2015 and the outbreak of war between the Houthis, who control the north of Yemen, and the internationally recognised government in the south, the country's education system has been steadily collapsing. According to UNICEF, nearly 4 million Yemeni children are currently out of school, amounting to 40 percent of the under-18 population.</description>
+      <pubDate>2026-03-19T13:10:19+00:00</pubDate>
+      <guid>19a60752ced2d523af1dfb3e8d6cdf58</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Europe’s biggest airlines say fuel price spike caused by Iran war will drive up fares</title>
+      <link>https://www.theguardian.com/business/2026/mar/19/europe-biggest-airlines-say-fuel-price-spike-caused-by-iran-war-will-drive-up-fares</link>
+      <description>Carriers warn they cannot hold off passing on costs for long, while some airlines plan to increase flights via AsiaBusiness live – latest updatesEurope’s biggest airlines have said the spike in fuel prices caused by the war in the Middle East will drive up fares and are advising passengers to book early.While carriers have partly hedged the price of jet fuel, bosses said they could not keep avoiding passing on additional costs to passengers for long. Continue reading...</description>
+      <pubDate>2026-03-19T13:04:21+00:00</pubDate>
+      <guid>05037f71989d1444f5290ec896140714</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>La Tourism Authority ouvre une hotline WhatsApp dédié aux réclamations, demandes et signalements du grand public</title>
+      <link>https://www.reddit.com/r/mauritius/comments/1rxzs6q/la_tourism_authority_ouvre_une_hotline_whatsapp/</link>
+      <description>submitted by    /u/naks26   [link] [comments]</description>
+      <pubDate>2026-03-19T13:01:05+00:00</pubDate>
+      <guid>dbc8ed13de503460369370b791f02398</guid>
+      <source>Reddit - r/mauritius</source>
+      <category>community</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Chief Justice Tops New Pay List At R3.3-Million a Year</title>
+      <link>https://allafrica.com/stories/202603190400.html</link>
+      <description>[Scrolla] The Chief Justice earns the most on the new list, taking home more than R3.3-million a year from April 2025.   The Public Protector earns just over R2.7-million a year, matching what Constitutional Court and Supreme Court of Appeal judges earn.</description>
+      <pubDate>2026-03-19T12:57:06+00:00</pubDate>
+      <guid>77e0c929e3fe5b3303f7300e1537903d</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Chief Justice Tops New Pay List At R3.3-Million a Year</title>
+      <link>https://allafrica.com/stories/202603190400.html</link>
+      <description>[Scrolla] The Chief Justice earns the most on the new list, taking home more than R3.3-million a year from April 2025.   The Public Protector earns just over R2.7-million a year, matching what Constitutional Court and Supreme Court of Appeal judges earn.</description>
+      <pubDate>2026-03-19T12:57:06+00:00</pubDate>
+      <guid>e9cde4d6c89328f88ab4ad157dc1d44e</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Pix of the Day, 19 March 2026</title>
+      <link>http://www.africanews.com/2026/03/19/pix-of-the-day-19-march-2026/</link>
+      <description>Pix of the Day, 19 March 2026</description>
+      <pubDate>2026-03-19T12:45:49+00:00</pubDate>
+      <guid>7f38d41ecd80e75d189faebb795f47cc</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa Seeks to Safeguard Global Reputation Through Science and Innovation Strategy</title>
+      <link>https://allafrica.com/stories/202603190385.html</link>
+      <description>[Parliament of South Africa] South Africa's reputation globally is a key priority for the Department of Science, Technology and Innovation. This will be maintained and safeguarded, the Portfolio Committee on Science and Technology heard when it received a briefing from the department on the progress in implementing the 2022-2032 STI Decadal Plan and the outcomes of all the Inter-Ministerial Committee (IMC) meetings on science, technology and innovation (STI) to date and the 2024 STI Presidential</description>
+      <pubDate>2026-03-19T12:39:44+00:00</pubDate>
+      <guid>04d8a0f7ffde00f334932eb50ed29976</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: South Africa Seeks to Safeguard Global Reputation Through Science and Innovation Strategy</title>
+      <link>https://allafrica.com/stories/202603190385.html</link>
+      <description>[Parliament of South Africa] South Africa's reputation globally is a key priority for the Department of Science, Technology and Innovation. This will be maintained and safeguarded, the Portfolio Committee on Science and Technology heard when it received a briefing from the department on the progress in implementing the 2022-2032 STI Decadal Plan and the outcomes of all the Inter-Ministerial Committee (IMC) meetings on science, technology and innovation (STI) to date and the 2024 STI Presidential</description>
+      <pubDate>2026-03-19T12:39:44+00:00</pubDate>
+      <guid>302a0fb70259d7f057614ff8daf2a9b4</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>'Don't Just Tick a Box, Listen to Us,' Say Westville Residents At Appropriation Bills Public Hearings</title>
+      <link>https://allafrica.com/stories/202603190384.html</link>
+      <description>[Parliament of South Africa] Participants participating in the Standing Committee on Appropriations' public hearings asserted that a national budget must work for ordinary people, not just look good on paper. This was the clear message from Durban residents who packed a public hearing in Westville, demanding that the national budget address their daily crises of housing, electricity, and scholar transport.</description>
+      <pubDate>2026-03-19T12:36:10+00:00</pubDate>
+      <guid>9e0015ad4863206934752c137016ef17</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: 'Don't Just Tick a Box, Listen to Us,' Say Westville Residents At Appropriation Bills Public Hearings</title>
+      <link>https://allafrica.com/stories/202603190384.html</link>
+      <description>[Parliament of South Africa] Participants participating in the Standing Committee on Appropriations' public hearings asserted that a national budget must work for ordinary people, not just look good on paper. This was the clear message from Durban residents who packed a public hearing in Westville, demanding that the national budget address their daily crises of housing, electricity, and scholar transport.</description>
+      <pubDate>2026-03-19T12:36:10+00:00</pubDate>
+      <guid>6be209d51b07d44c29ed56d6e1477653</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Media Statement - Committee On Trade Puts Focus On Eastern Cape's Special Economic Zones and Auto Sector</title>
+      <link>https://allafrica.com/stories/202603190383.html</link>
+      <description>[Parliament of South Africa] The Portfolio Committee on Trade, Industry and Competition has spent the past two days looking at whether the Eastern Cape province's industrial zones are contributing to industrial growth and job creation.</description>
+      <pubDate>2026-03-19T12:35:45+00:00</pubDate>
+      <guid>64868abc4054413500cf5c83844e199f</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: KMPDU Says Majority of County Doctors Still Owed Salary Adjustments Amid Overpayment Dispute</title>
+      <link>https://allafrica.com/stories/202603190374.html</link>
+      <description>[Capital FM] Nairobi -- The Kenya Medical Practitioners, Pharmacists and Dentists Union (KMPDU) has stated that most doctors employed by county governments are still owed basic salary adjustments, dismissing claims that some members were overpaid following a government verification exercise.</description>
+      <pubDate>2026-03-19T12:31:04+00:00</pubDate>
+      <guid>4adb7df728c573d4fb009d0b422661cd</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Emtee's Producer Says He Cannot Reach Rapper After Emotional Instagram Live</title>
+      <link>https://allafrica.com/stories/202603190371.html</link>
+      <description>[Scrolla] Producer Black Tears posted a public message saying he is concerned after losing contact with Emtee following an emotional Instagram Live.   Emtee used the Instagram Live to say he had not received royalties from his 2021 album Logan and spoke about losing access to his home and his children.</description>
+      <pubDate>2026-03-19T12:30:09+00:00</pubDate>
+      <guid>617d5fa4583ef8b7e37b6f06a32d6521</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Emtee's Producer Says He Cannot Reach Rapper After Emotional Instagram Live</title>
+      <link>https://allafrica.com/stories/202603190371.html</link>
+      <description>[Scrolla] Producer Black Tears posted a public message saying he is concerned after losing contact with Emtee following an emotional Instagram Live.   Emtee used the Instagram Live to say he had not received royalties from his 2021 album Logan and spoke about losing access to his home and his children.</description>
+      <pubDate>2026-03-19T12:30:09+00:00</pubDate>
+      <guid>695838c9c177f4adc18f48112208a13d</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>St Patrick’s Day float referencing Epstein files draws condemnation in Ireland</title>
+      <link>https://www.theguardian.com/world/2026/mar/19/st-patricks-day-float-mimicked-sexual-assault-epstein-andrew-condemned</link>
+      <description>Charities call display, which mimicked a sexual assault, ‘an act of public grooming’ that normalises sexual violenceRape crisis charities in Ireland have condemned a St Patrick’s Day float that mimicked a sexual assault and featured signs saying “Epstein files”.Rape Crisis Ireland called the display “an act of public grooming” that normalised sexual violence, while politicians labelled it a disgrace. Continue reading...</description>
+      <pubDate>2026-03-19T12:26:51+00:00</pubDate>
+      <guid>b159a81148f811e055c3d0e9f5f379c4</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>PwC partners who fail to embrace AI have no future at firm, US CEO warns</title>
+      <link>https://www.theguardian.com/business/2026/mar/19/pwc-pricewaterhousecoopers-partners-ai-artificial-intelligence-paul-griggs</link>
+      <description>Paul Griggs says senior staff at consulting firm who are not ‘paranoid about being AI-first’ are likely to be replacedBusiness live – latest updatesThe US boss of PricewaterhouseCoopers has warned that partners who do not get to grips with AI have no future at the consulting firm.Paul Griggs said senior staff who were not “paranoid about being AI-first” would probably be replaced by others who were ready to embrace the technology. “I don’t think anyone gets a free pass here. Anyone,” Griggs told</description>
+      <pubDate>2026-03-19T12:04:06+00:00</pubDate>
+      <guid>1d881e3a3ec79564bf0df3baaf3ca51f</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Buzz kill: US breweries shutter as fanfare over craft beers appears to fade</title>
+      <link>https://www.theguardian.com/food/2026/mar/19/us-beer-breweries-closing</link>
+      <description>Covid-related downturns and reductions in alcohol consumption have taken a toll on a once booming industryIn the early 2000s, Chris Bell, then a student at University of Colorado Boulder, followed a common path among people interested in brewing beer. He started doing so at home, then spent years working at established craft beer makers Long Trail Brewing in Vermont and Avery Brewing in Colorado before opening Call to Arms Brewing Company in 2015 in Denver.In a crowded market, the business was s</description>
+      <pubDate>2026-03-19T12:00:07+00:00</pubDate>
+      <guid>530abe1fa9b38c239fbd417b6bff3968</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Hungary: Wellness day for endangered tortoises at Nyíregyháza Zoo</title>
+      <link>http://www.africanews.com/2026/03/19/hungary-wellness-day-for-endangered-tortoises-at-nyiregyhaza-zoo/</link>
+      <description>Staff at Nyíregyháza Zoo carried out a wellness programme for resident tortoises on Wednesday 18 March, providing cleaning, grooming and veterinary checks.</description>
+      <pubDate>2026-03-19T11:58:22+00:00</pubDate>
+      <guid>32efaec44780cf8b231928b7a8baf0d4</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>UN mine action chiefs for Ethiopia and Sudan call for more funding</title>
+      <link>http://www.africanews.com/2026/03/19/un-mine-action-chiefs-for-ethiopia-and-sudan-call-for-more-funding/</link>
+      <description>They say mines kill and maim a disproportionate number of children and that people cannot return to safety without addressing explosive hazards.</description>
+      <pubDate>2026-03-19T11:58:05+00:00</pubDate>
+      <guid>a4f9580a1095e7172d637ca9a728c486</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Nigeria: US/Israel-Iran War (Day 20) - War Threatens Global Gas Supply</title>
+      <link>https://allafrica.com/stories/202603190349.html</link>
+      <description>[Premium Times] The Brent crude oil benchmark rose to $112 a barrel in early Thursday trade.</description>
+      <pubDate>2026-03-19T11:53:47+00:00</pubDate>
+      <guid>4922ce6cdd6d114203cace28ce45bd05</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Rafah crossing partially reopens after weeks of closure</title>
+      <link>http://www.africanews.com/2026/03/19/rafah-crossing-partially-reopens-after-weeks-of-closure/</link>
+      <description>Gaza's Rafah border crossing with Egypt partially reopened Thursday for the first time since Israel and the United States launched strikes on Iran, allowing a small number of Palestinian patients to leave the devastated enclave and stranded travelers to return.</description>
+      <pubDate>2026-03-19T11:53:29+00:00</pubDate>
+      <guid>1dd8b79b0484b69c78a7643f163643d3</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>West Africa: Nigeria, UK Bilateral Trades Hit &amp;#xa3;8.1bn Annually</title>
+      <link>https://allafrica.com/stories/202603190337.html</link>
+      <description>[Daily Trust] Hundreds of new jobs are set to be created across the United Kingdom and Nigeria following a wave of investment agreements concluded ahead of the state visit of President Bola Ahmed Tinubu to the UK commencing today (Wednesday).</description>
+      <pubDate>2026-03-19T11:52:41+00:00</pubDate>
+      <guid>e7500e7e58021b3bf2f04e027c7c9697</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Namibia: AR Sounds Alarm On Hepatitis B Infections in Young People</title>
+      <link>https://allafrica.com/stories/202603190325.html</link>
+      <description>[Namibian] Affirmative Repositioning parliamentarian Esther Haikola-Sakaria has raised concerns about young people testing positive for hepatitis B.</description>
+      <pubDate>2026-03-19T11:51:42+00:00</pubDate>
+      <guid>727b3c606ce6cf9f0bba0aed5a2ee9be</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>East Africa: East Africa Leads Hotel Construction, Boosting Regional Economies</title>
+      <link>https://allafrica.com/stories/202603190324.html</link>
+      <description>[Independent (Kampala)] East Africa is emerging as the engine of Africa's hotel development, with Kenya, Ethiopia, and Tanzania showing some of the highest construction ratios on the continent, according to the 2026 W Hospitality Group Hotel Chain Development Pipelines report.</description>
+      <pubDate>2026-03-19T11:51:16+00:00</pubDate>
+      <guid>4ba70ec4ff4de367ab17cd927538a955</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Cape Town Affordable Housing Projects Inch Forward</title>
+      <link>https://allafrica.com/stories/202603190320.html</link>
+      <description>[GroundUp] Construction is yet to start on Western Cape government's inner-city projects</description>
+      <pubDate>2026-03-19T11:49:38+00:00</pubDate>
+      <guid>67bb6282900651be38dfd764ee1f7641</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Cape Town Affordable Housing Projects Inch Forward</title>
+      <link>https://allafrica.com/stories/202603190320.html</link>
+      <description>[GroundUp] Construction is yet to start on Western Cape government's inner-city projects</description>
+      <pubDate>2026-03-19T11:49:38+00:00</pubDate>
+      <guid>066f2d3dda9a594623a91392a2c251a7</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Mhlauli to Host Youth Services Expo in Kuruman</title>
+      <link>https://allafrica.com/stories/202603190318.html</link>
+      <description>[SAnews.gov.za] Bringing essential government services and opportunities directly to young people will be at the core of Deputy Minister in the Presidency Nonceba Mhlauli's visit to Kuruman in Northern Cape.</description>
+      <pubDate>2026-03-19T11:49:13+00:00</pubDate>
+      <guid>d2ae1779e41020e3e5f75336dd05a165</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Mhlauli to Host Youth Services Expo in Kuruman</title>
+      <link>https://allafrica.com/stories/202603190318.html</link>
+      <description>[SAnews.gov.za] Bringing essential government services and opportunities directly to young people will be at the core of Deputy Minister in the Presidency Nonceba Mhlauli's visit to Kuruman in Northern Cape.</description>
+      <pubDate>2026-03-19T11:49:13+00:00</pubDate>
+      <guid>875e1811c21143ff1047a363b759f58b</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Mahlobo Calls for Science-Driven Action to Tackle Water Crisis</title>
+      <link>https://allafrica.com/stories/202603190317.html</link>
+      <description>[SAnews.gov.za] Water and Sanitation Deputy Minister David Mahlobo has underscored the critical role of academic institutions in shaping solutions to South Africa's water challenges.</description>
+      <pubDate>2026-03-19T11:49:00+00:00</pubDate>
+      <guid>ccbaf1dabc81ed55d4dc2a25b798021b</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Mahlobo Calls for Science-Driven Action to Tackle Water Crisis</title>
+      <link>https://allafrica.com/stories/202603190317.html</link>
+      <description>[SAnews.gov.za] Water and Sanitation Deputy Minister David Mahlobo has underscored the critical role of academic institutions in shaping solutions to South Africa's water challenges.</description>
+      <pubDate>2026-03-19T11:49:00+00:00</pubDate>
+      <guid>7be40b4d98606b50bf5f54c507a77531</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Furniture Design Capabilities to Come to the Fore</title>
+      <link>https://allafrica.com/stories/202603190316.html</link>
+      <description>[SAnews.gov.za] The Department of Trade, Industry and Competition's (dtic) Furniture Master Plan's objectives of strengthening local manufacturing capability and expanding opportunities for small enterprises and emerging entrepreneurs will come to the fore at the annual Furniture Design Competition Awards.</description>
+      <pubDate>2026-03-19T11:48:41+00:00</pubDate>
+      <guid>d72efc7ebe457849b9a47562626fbbb4</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Government Conveys Condolences Following the Passing of Two Journalists</title>
+      <link>https://allafrica.com/stories/202603190315.html</link>
+      <description>[SAnews.gov.za] Government has extended its heartfelt condolences to the families, friends, colleagues, and the media fraternity on the passing of Nompumelelo Magagula and Jonisayi Maromo, two esteemed journalists who made remarkable contributions to the media landscape.</description>
+      <pubDate>2026-03-19T11:48:26+00:00</pubDate>
+      <guid>6724c4732afa2bb84986ea3bd621cdb6</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Three Suspects Killed in Shootout With Hawks</title>
+      <link>https://allafrica.com/stories/202603190312.html</link>
+      <description>[SAnews.gov.za] Three suspects were fatally wounded in a high-speed chase and shootout out with the Hawks Tactical Operations Management Team in Crystal Park in Gauteng, said the Hawks.</description>
+      <pubDate>2026-03-19T11:47:54+00:00</pubDate>
+      <guid>433b1e33df4fc0d781931da061dfd1fa</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Fuel Supply Stable in the Immediate Term, Says DMPR</title>
+      <link>https://allafrica.com/stories/202603190311.html</link>
+      <description>[SAnews.gov.za] South Africans can be assured that fuel supply in the country remains stable in the immediate term.</description>
+      <pubDate>2026-03-19T11:47:44+00:00</pubDate>
+      <guid>a112fad4bac7a0090ab74688e3b327b8</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Fuel Supply Stable in the Immediate Term, Says DMPR</title>
+      <link>https://allafrica.com/stories/202603190311.html</link>
+      <description>[SAnews.gov.za] South Africans can be assured that fuel supply in the country remains stable in the immediate term.</description>
+      <pubDate>2026-03-19T11:47:44+00:00</pubDate>
+      <guid>67e9c95bc13fe33dc080bdbe688871d6</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Home Affairs Reform Sees Recognition of Muslim Marriage Officers</title>
+      <link>https://allafrica.com/stories/202603190306.html</link>
+      <description>[SAnews.gov.za] The Department of Home Affairs has delivered another important reform to advance equality and fairness for the Muslim faith community by ensuring that Muslim marriage officers are recognised on the same basis as other religious marriage officers under the Marriage Act 25 of 1961.</description>
+      <pubDate>2026-03-19T11:47:08+00:00</pubDate>
+      <guid>0a2b51bfb297246e118d269c70dcfb76</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Home Affairs Reform Sees Recognition of Muslim Marriage Officers</title>
+      <link>https://allafrica.com/stories/202603190306.html</link>
+      <description>[SAnews.gov.za] The Department of Home Affairs has delivered another important reform to advance equality and fairness for the Muslim faith community by ensuring that Muslim marriage officers are recognised on the same basis as other religious marriage officers under the Marriage Act 25 of 1961.</description>
+      <pubDate>2026-03-19T11:47:08+00:00</pubDate>
+      <guid>a624d8a40a61bc4e4025df5063a4894f</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Nigeria: Akwa Ibom Denies Plan to Sell Its Power Plant</title>
+      <link>https://allafrica.com/stories/202603190305.html</link>
+      <description>[Premium Times] The government says it is, instead, repaying a $9 million loan and implementing reforms to revive the state-owned electricity company.</description>
+      <pubDate>2026-03-19T11:46:55+00:00</pubDate>
+      <guid>ef3bfdf73ecf5174ae07b083661e24a9</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Namibia: Lukato Dismayed By Unfulfilled Promise to Pensioners</title>
+      <link>https://allafrica.com/stories/202603190303.html</link>
+      <description>[Namibian] National Democratic Party leader Martin Lukato says despite positive financial reports, the N$104 billion budget for the 2026/2027 financial year tabled in the National Assembly last month, defaulted on a promise to increase senior citizens' pensions.</description>
+      <pubDate>2026-03-19T11:46:36+00:00</pubDate>
+      <guid>f88ec3f9fea3928d6e954a55c4af8b1e</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Namibia: Opposition Accuses Swapo of 'Treasonous' Social Protection Budget</title>
+      <link>https://allafrica.com/stories/202603190301.html</link>
+      <description>[Namibian] Opposition parties have criticised the 2026/27 national budget, demanding significant increases to social grants and pensions to protect Namibia's most vulnerable citizens from inflation.</description>
+      <pubDate>2026-03-19T11:46:15+00:00</pubDate>
+      <guid>8d04bf3acff8d78da5beeabad0ba9ed5</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: Ruto Launches Construction of Naivasha-Kisumu-Malaba SGR Extension</title>
+      <link>https://allafrica.com/stories/202603190300.html</link>
+      <description>[Capital FM] Nairobi -- President William Ruto has launched the construction of the Naivasha-Kisumu-Malaba Standard Gauge Railway (SGR) after breaking ground in Suswa, Narok County.</description>
+      <pubDate>2026-03-19T11:46:05+00:00</pubDate>
+      <guid>db83cfa05278834e16c784ac88899918</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Zimbabwe: Defence Minister Denies Zanu-PF Bias in Army Recruitment, Tells Complainants to Bring Evidence</title>
+      <link>https://allafrica.com/stories/202603190296.html</link>
+      <description>[New Zimbabwe] Discover moreBusiness news analysisRisk Compliance ServicesDaily news digestDEFENCE minister Oppah Muchinguri-Kashiri has dismissed allegations that the Zimbabwe Defence Forces (ZDF) is conducting partisan recruitment, insisting the force remains open to all eligible citizens.</description>
+      <pubDate>2026-03-19T11:44:13+00:00</pubDate>
+      <guid>9abf50c7bdbd404a7d33d9803432967b</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>IFP Wins Key By-Elections, Reclaims Nongoma Majority in Blow to Nfp</title>
+      <link>https://allafrica.com/stories/202603190284.html</link>
+      <description>[IFP] The Inkatha Freedom Party (IFP) has emerged victorious in three of the five wards contested in the by-elections held on 18 March 2026, delivering a strong showing that underscores the Party's growing electoral momentum and continued voter confidence.</description>
+      <pubDate>2026-03-19T11:39:58+00:00</pubDate>
+      <guid>143109df37d03bfc236a710867734e5e</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: IFP Wins Key By-Elections, Reclaims Nongoma Majority in Blow to Nfp</title>
+      <link>https://allafrica.com/stories/202603190284.html</link>
+      <description>[IFP] The Inkatha Freedom Party (IFP) has emerged victorious in three of the five wards contested in the by-elections held on 18 March 2026, delivering a strong showing that underscores the Party's growing electoral momentum and continued voter confidence.</description>
+      <pubDate>2026-03-19T11:39:58+00:00</pubDate>
+      <guid>3a74869d6fd45adf2d830aa2413745f2</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Ugandan Diaspora Sacco to Be Launched At Museveni Victory Event in Cape Town</title>
+      <link>https://allafrica.com/stories/202603190271.html</link>
+      <description>[Nile Post] Weeks after President Museveni was declared winner of the 2026 general elections with 71 percent of the vote, National Resistance Movement (NRM) members in the diaspora have organized a victory celebration alongside the launch of a Ugandan Diaspora SACCO.</description>
+      <pubDate>2026-03-19T11:33:35+00:00</pubDate>
+      <guid>16e4bec5d3237543b03c1df43ee35fcc</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Uganda: Ugandan Diaspora Sacco to Be Launched At Museveni Victory Event in Cape Town</title>
+      <link>https://allafrica.com/stories/202603190271.html</link>
+      <description>[Nile Post] Weeks after President Museveni was declared winner of the 2026 general elections with 71 percent of the vote, National Resistance Movement (NRM) members in the diaspora have organized a victory celebration alongside the launch of a Ugandan Diaspora SACCO.</description>
+      <pubDate>2026-03-19T11:33:35+00:00</pubDate>
+      <guid>f76b9d444e44328cde2ae2c3a2860c6d</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>KZN News Bites - Minister Dissolves Ingonyama Trust Board After King's Complaints</title>
+      <link>https://allafrica.com/stories/202603190268.html</link>
+      <description>[Scrolla] Celani Sikhakhane brings you KwaZulu-Natal's latest news.</description>
+      <pubDate>2026-03-19T11:32:30+00:00</pubDate>
+      <guid>2f7d877df457a5f1f9d5f02524918bf4</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: KZN News Bites - Minister Dissolves Ingonyama Trust Board After King's Complaints</title>
+      <link>https://allafrica.com/stories/202603190268.html</link>
+      <description>[Scrolla] Celani Sikhakhane brings you KwaZulu-Natal's latest news.</description>
+      <pubDate>2026-03-19T11:32:30+00:00</pubDate>
+      <guid>bd2a0c9a2d0018611584d56d64716db4</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Ethiopia: Ethiopia Intensifies Sustainable Energy Drive to Meet National Needs</title>
+      <link>https://allafrica.com/stories/202603190267.html</link>
+      <description>[ENA] Addis Ababa -- Ethiopia is ramping up efforts to meet its growing energy demands through sustainable and renewable sources, Minister of Water and Energy Habtamu Iteffa said.</description>
+      <pubDate>2026-03-19T11:31:49+00:00</pubDate>
+      <guid>e4057fb0a67a2f5d3c70b6d7bd75f7d4</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Prince and Princess of Wales meet Nigerian President at Windsor</title>
+      <link>http://www.africanews.com/2026/03/18/prince-and-princess-of-wales-meet-nigerian-president-at-windsor/</link>
+      <description>The Prince and Princess of Wales met with President of Nigeria Bola Ahmed Tinubu and First Lady Oluremi Tinubu at Windsor on Wednesday morning.</description>
+      <pubDate>2026-03-19T11:28:44+00:00</pubDate>
+      <guid>41049524ef8c6c0b1a26ce0eb9b2dd7c</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>First Thing: Trump threatens to ‘blow up’ all of Iran’s South Pars gasfield if Tehran strikes Qatar</title>
+      <link>https://www.theguardian.com/us-news/2026/mar/19/first-thing-trump-threatens-to-blow-up-all-of-irans-south-pars-gasfield-if-tehran-strikes-qatar</link>
+      <description>The move would be a major escalation in the US-Israel war against Iran. Plus, FBI director admits to buying data tracking Americans’ locationsGood morning.Donald Trump threatened to “massively blow up” the world’s largest gasfield after Israeli strikes on Iran’s South Pars field led Tehran to take revenge on energy facilities across the Middle East.What’s happening to oil and gas prices? Brent crude rose by 8% to $116 a barrel. European gas prices jumped, with the Dutch wholesale gas price up 24</description>
+      <pubDate>2026-03-19T11:23:27+00:00</pubDate>
+      <guid>887aca3d0b75c801a1f3626c556b10fa</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Colombia: Baby grey titi monkey gets cuddly ‘mum’ ahead of return to wild</title>
+      <link>http://www.africanews.com/2026/03/19/colombia-baby-grey-titi-monkey-gets-cuddly-mum-ahead-of-return-to-wild/</link>
+      <description>An orphaned grey titi monkey was released back into the wild after rehabilitation at a wildlife centre in Antioquia, authorities said on 18 March.</description>
+      <pubDate>2026-03-19T11:19:56+00:00</pubDate>
+      <guid>18749165fe652d226e4f33101f0d8e21</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Rwanda says UK owes £100 million after asylum deal scrapped</title>
+      <link>http://www.africanews.com/2026/03/18/rwanda-says-uk-owes-100-million-after-asylum-deal-scrapped/</link>
+      <description>The dispute between Rwanda and Britain over a scrapped refugee resettlement programme on Wednesday reached the Permanent Court of Arbitration in The Hague. Kigali told a panel of international judges that London is $115 million dollars in arrears, saying London torpedoed the deal with any notice.</description>
+      <pubDate>2026-03-19T11:19:38+00:00</pubDate>
+      <guid>5df39fd1857697821669c9a161d07e51</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Iran: Saudi Arabia warns of 'military action' over repeated attacks</title>
+      <link>https://www.france24.com/en/video/20260319-iran-saudi-arabia-warns-of-military-action-over-repeated-attacks</link>
+      <description>Saudi Arabia warned that it had 'reserved the right to take 'military actions' over #Iran's repeated attacks on the kingdom, as fresh trikes hit Riyadh during a summit of regional foreign ministers. The comment marks a turn in the #Gulf's reaction to Iran's strikes on its neighbours since the start of the #war.</description>
+      <pubDate>2026-03-19T11:18:18+00:00</pubDate>
+      <guid>01cc4346a0d21c622418bc5e95cc8349</guid>
+      <source>France 24 - International</source>
       <category>international</category>
       <language>en</language>
     </item>
@@ -456,6 +1396,186 @@
       <language>en</language>
     </item>
     <item>
+      <title>Iran women's football team return after asylum tussle</title>
+      <link>https://www.france24.com/en/video/20260319-iran-women-s-football-team-return-after-asylum-tussle</link>
+      <description>The Iranian women's football team, whose plight has become embroiled in the Middle East war, returned back to Iran on Wednesday where they were promised a welcome ceremony in Tehran. Seven members of the delegation had sought asylum in Australia last week after their decision not to sing the national anthem before their opening game at the Women's Asian Cup.</description>
+      <pubDate>2026-03-19T11:01:32+00:00</pubDate>
+      <guid>c29b8e24d5d6c4a18de8696ab63fcdf9</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Gaza's Eid celebrations highlighted by losses amid ongoing conflict</title>
+      <link>https://www.france24.com/en/video/20260319-gaza-s-eid-celebrations-highlighted-by-losses-amid-ongoing-conflict</link>
+      <description>Eid-al-Fitr, the holiday marking the end of the Muslim Holy Month of Ramadan will take place at the end of this week. People around the globe will gather to mark the occasion with shared meals, sweet pastries, and celebration. For those in Gaza, the holiday highlights everything that has been lost following more than two years of an Israeli onslaught that has left much of the enclave in ruins and killed over 72 000 Palestinians.</description>
+      <pubDate>2026-03-19T11:00:23+00:00</pubDate>
+      <guid>abf9ee2e845a382581767acf7e0c8dec</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Analysis from West Point warns that strait of Hormuz blockade will strangle US defense industry</title>
+      <link>https://www.theguardian.com/world/2026/mar/19/west-point-analysis-iran-war-costs</link>
+      <description>Report shows how minerals critical to defense readiness have seen a ‘near total’ disruption in seaborne tradeSign up for the Breaking News US email to get newsletter alerts in your inboxThe closure of the strait of Hormuz is causing a “paralyzing, real-time problem” for any prospective manufacturing surge in the US defense industrial base, and even for the repair of defense equipment damaged by Iranian attacks, according to analysis published by West Point’s Modern War Institute.In particular su</description>
+      <pubDate>2026-03-19T11:00:07+00:00</pubDate>
+      <guid>d2db340e5153f5c1408c8de1c080f105</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Central banks confront spectre of inflation as Iran war escalates</title>
+      <link>https://www.france24.com/en/tv-shows/business/20260319-central-banks-confront-spectre-of-inflation-as-iran-war-escalates</link>
+      <description>Strikes on the natural gas production facilities of Iran and Qatar have sent energy prices soaring, with central bankers around the world struggling to set monetary policy amid a highly uncertain inflationary outlook. We take a closer look. Also in this edition: the French shipbuilding industry welcomes the start of construction of the country's next nuclear-powered aircraft carrier.</description>
+      <pubDate>2026-03-19T10:45:59+00:00</pubDate>
+      <guid>4ed17f658c79d6f631a25d02d2e2ec66</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>EU leaders pile pressure on Hungary's Orban to lift block on Ukraine loan</title>
+      <link>https://www.france24.com/en/video/20260319-eu-leaders-pile-pressure-on-hungary-s-orban-to-lift-block-on-ukraine-loan</link>
+      <description>European Union leaders piled pressure on Hungarian Prime Minister Viktor Orban on Thursday to lift his blockade on a vital 90-billion-euro ($103 billion) EU loan to ​Ukraine to keep ‌up its fight against Russia's invasion. EU leaders agreed to the loan in December but Orban,  who has ⁠cordial ties with Russia and has clashed with Ukrainian President Volodymyr Zelenskiy, blocked its implementation last month, citing a dispute over a war-damaged pipeline. FRANCE 24's Emmanuelle Chaze reports from</description>
+      <pubDate>2026-03-19T10:35:47+00:00</pubDate>
+      <guid>b4ae70e30afd64e0a0f0bc2b372a2a34</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Trump threatens to strike world's largest gas field if Iran attacks Qatar again</title>
+      <link>https://www.france24.com/en/video/20260319-trump-threatens-to-strike-world-s-largest-gas-field-if-iran-attacks-qatar-again</link>
+      <description>US President Donald Trump pledged the US would “massively blow up the entirety” of the world’s largest gas field if Iran attacks Qatar again. Trump made his threat on social media Wednesday night against Iran’s South Pars natural gas field after Iranian missiles hit Qatar. The Iranian attack was in retaliation for an Israeli attack on the South Pars field earlier Wednesday. Hoda Abel-Hamid reports from Doha, Qatar.</description>
+      <pubDate>2026-03-19T10:34:19+00:00</pubDate>
+      <guid>d070e938559944ee9a766ac32ebb5be5</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Nigerian VP vows 'full peace' after deadly Maiduguri bombing kills 23</title>
+      <link>http://www.africanews.com/2026/03/19/nigerian-vp-vows-full-peace-after-deadly-maiduguri-bombing-kills-23/</link>
+      <description>Nigeria's Vice President Kashim Shettima flew to Maiduguri on Wednesday, pledging to restore &quot;full peace&quot; after a triple suicide bombing killed 23 people in one of the deadliest attacks on the Borno state capital in years.</description>
+      <pubDate>2026-03-19T10:33:58+00:00</pubDate>
+      <guid>f11882043b4f0e0a1fcb4f3ae1d10e82</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Who is running Iran? Top leadership decimated by US-Israeli strikes</title>
+      <link>https://www.france24.com/en/video/20260319-who-is-running-iran-top-leadership-decimated-by-us-israeli-strikes</link>
+      <description>Iran suffered a fresh blow Wednesday with the killing of its intelligence minister as the new supreme leader, yet to be seen since replacing his slain father, vowed to avenge the death of the country's security chief. Israel has killed one senior Iranian leader after another in airstrikes as it seeks to topple the Islamic Republic.</description>
+      <pubDate>2026-03-19T10:32:58+00:00</pubDate>
+      <guid>7867eb08a0cffee3c65f77e7d615a661</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Iraq caught in crossfire of Middle East war</title>
+      <link>https://www.france24.com/en/video/20260319-iraq-caught-in-crossfire-of-middle-east-war</link>
+      <description>Iraq has been drawn into the Middle East war triggered by the US-Israel attack on its neighbour Iran on February 28. Strikes have targeted Iran-backed groups, which in turn have claimed near daily attacks on US interests in Iraq and across the region.</description>
+      <pubDate>2026-03-19T10:32:21+00:00</pubDate>
+      <guid>8f518ad1e2d1fddb3dcbea9ec013c9f7</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Dozens arrested in Dubai for allegedly filming the war</title>
+      <link>https://www.france24.com/en/video/20260319-dozens-arrested-in-dubai-for-allegedly-filming-the-war</link>
+      <description>According to France Televisions sources, at least three French nationals are among dozens of people to have been arrested in Dubai for allegedly filming the war. The charges are part of the United Arab Emirate's cyber crimes laws the country says are to enforce public security.</description>
+      <pubDate>2026-03-19T10:31:09+00:00</pubDate>
+      <guid>d9d41b1252a2fe192c5483f52a75a280</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>French top diplomat to visit Beirut: Paris vows solidarity with Lebanon</title>
+      <link>https://www.france24.com/en/video/20260319-french-top-diplomat-to-visit-beirut-paris-vows-solidarity-with-lebanon</link>
+      <description>France's foreign minister will visit Lebanon on Thursday after the EU called on Israel to stop its military strikes on the country. The visit by Jean-Noel Barrot &quot;underlines France's support and solidarity with the Lebanese people, dragged into a war they didn't choose,&quot; the foreign ministry said. FRANCE 24's International Affairs Editor Philip Turle tells us more.</description>
+      <pubDate>2026-03-19T10:29:50+00:00</pubDate>
+      <guid>65169945cfeb7dc7278c24dbe76bd5d7</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>EU summit to focus on wars in the Middle East and Ukraine</title>
+      <link>https://www.france24.com/en/video/20260319-eu-summit-to-focus-on-wars-in-the-middle-east-and-ukraine</link>
+      <description>European Union leaders are holding a summit in Brussels on Thursday for talks on the Iran war, energy prices, migration and an enormous loan for war-ravaged Ukraine being held up by Hungary. Many of those leaders have deflected entreaties by US President Donald Trump to send military assets to secure the Strait of Hormuz, a key waterway for the global flow of oil, gas and fertilizer. FRANCE 24's Dave Keating reports from Brussels.</description>
+      <pubDate>2026-03-19T10:28:39+00:00</pubDate>
+      <guid>6d0d8943c94641d52b618bd24f6f7a1d</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>War in Ukraine: Kharkiv opera defies Russian bombardment</title>
+      <link>https://www.france24.com/en/video/20260319-war-in-ukraine-kharkiv-opera-defies-russian-bombardment</link>
+      <description>Ukraine’s second-largest city, Kharkiv, is just 30 kilometres from Russia and suffers almost daily bombardment from across the border. But as the years of war have gone by, the city’s cultural institutions have adapted in order to keep working despite the dangers. The huge national opera and ballet theatre in the city centre stages regular performances. Most recently, to coincide with the four-year anniversary of the invasion, it revived a production last performed on the 23rd of February 2022.</description>
+      <pubDate>2026-03-19T10:27:27+00:00</pubDate>
+      <guid>df3917b76367e164d6119cc64ca8bc2c</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Iran causes 'extensive' damage to Qatar gas hub, sparks Trump warning</title>
+      <link>https://www.france24.com/en/video/20260319-iran-causes-extensive-damage-to-qatar-gas-hub-sparks-trump-warning</link>
+      <description>Qatar reported &quot;extensive&quot; damage on Thursday to the site of the world's largest liquefied natural gas (LNG) facility following Iranian strikes, sparking fears for global energy supplies and fresh threats from Donald Trump against Iran. Tehran carried out attacks on Qatar's huge Ras Laffan LNG facility in retaliation for an Israeli strike Wednesday on Iran's South Pars gas field, part of the world's largest natural gas reservoir.</description>
+      <pubDate>2026-03-19T10:26:45+00:00</pubDate>
+      <guid>a0405160fa89ee2f6a926062f32fc9c8</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Inside Lebanon's emergency response as displacement crisis strains resources</title>
+      <link>https://www.france24.com/en/video/20260319-inside-lebaon-s-emergency-response-as-displacement-crisis-strains-resources</link>
+      <description>Inside Lebanon’s government headquarters in Beirut, a crisis unit is working around the clock to manage one of the country’s largest displacement waves in years. With shelters filling up and resources under strain, authorities are racing to coordinate aid and keep track of a rapidly evolving situation, as FRANCE 24’s Renée Davis reports.</description>
+      <pubDate>2026-03-19T10:25:42+00:00</pubDate>
+      <guid>cce04b9658edb35200dcefbdceaec14c</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>African football body president defends decision to strip Senegal of AFCON title</title>
+      <link>http://www.africanews.com/2026/03/19/african-football-body-president-defends-decision-to-strip-senegal-of-afcon-title/</link>
+      <description>Patrice Motsepe said the different conclusions reached by CAF’s internal bodies reflects the independence of its judicial processes.</description>
+      <pubDate>2026-03-19T10:12:54+00:00</pubDate>
+      <guid>210795d3c52c32c048f84cee527f7239</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Paris appeals court rejects French govenment bid to suspend Shein</title>
+      <link>https://www.france24.com/en/france/20260319-paris-appeals-court-rejects-french-govenment-bid-to-suspend-shein</link>
+      <description>A Paris appeals court on Thursday rejected a bid by the French government to suspend Chinese e-commerce platform Shein after a consumer watchdog found items listed for sale on the site including sex dolls resembling children and banned weapons. The government request went to appeal after being denied by another Paris court in December.</description>
+      <pubDate>2026-03-19T10:08:23+00:00</pubDate>
+      <guid>e074b6f7e579c6cdb8ef591ae96801b0</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Woman has sentence quashed by Tanzania court after over a decade on death row</title>
+      <link>https://www.theguardian.com/global-development/2026/mar/19/tanzania-lemi-limbu-freed-woman-learning-disabilities-death-row</link>
+      <description>Lemi Limbu, who has severe intellectual disabilities, remains in prison and will now face retrial for the murder of her daughterA woman with severe intellectual disabilities in Tanzania has had her conviction and death sentence quashed after spending more than a decade in prison awaiting execution.Lemi Limbu, now in her early 30s, was convicted of the murder of her daughter in 2015. On 4 March, a court in Shinyanga, northern Tanzania, declared she can appeal. She will face a retrial, but a date</description>
+      <pubDate>2026-03-19T10:00:05+00:00</pubDate>
+      <guid>64e8318c42a2aa9b7871c893cf0a8d62</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
       <title>Denounce 'abject' Afcon decision - senior Caf member</title>
       <link>https://www.bbc.com/sport/football/articles/ckg1gg5pgl7o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Caf executive committee member Augustin Senghor says the decision to strip Senegal of the 2025 Afcon title is &quot;unacceptable, abject and we have to denounce it&quot;.</description>
@@ -463,6 +1583,36 @@
       <guid>74887d80d31d59f70fa2149fca91648b</guid>
       <source>BBC Africa</source>
       <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Will the Jalisco cartel's new US-born leader complicate Trump's war on drugs?</title>
+      <link>https://www.france24.com/en/tv-shows/press-review/20260319-will-the-jalisco-cartel-s-new-us-born-leader-complicate-trump-s-war-on-drugs</link>
+      <description>PRESS REVIEW – Thursday, March 19: We look at why Russian oil is the big winner from the US and Israel's war in Iran. Also, the New York Times reveals sexual assault and rape allegations against the late US civil rights leader Cesar Chavez. In Mexico, the new leader of the Jalisco New Generation Cartel is a US-born citizen, which will complicate efforts to eradicate him. Plus: researchers reveal the science behind bad jokes in the workplace.</description>
+      <pubDate>2026-03-19T09:51:15+00:00</pubDate>
+      <guid>f697deba5e14011bf70f9fd9204c9407</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa's Just Transition Must Also Be a Health Transition</title>
+      <link>https://allafrica.com/stories/202603190193.html</link>
+      <description>[Daily Maverick] Cleaner air, healthier communities and new economic opportunities are not secondary benefits of climate policy. They are central outcomes of a transition designed to protect people and the economy.</description>
+      <pubDate>2026-03-19T09:50:07+00:00</pubDate>
+      <guid>436f79d2b3e0d6752c664acf60b23f66</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Africa: South Africa's Just Transition Must Also Be a Health Transition</title>
+      <link>https://allafrica.com/stories/202603190193.html</link>
+      <description>[Daily Maverick] Cleaner air, healthier communities and new economic opportunities are not secondary benefits of climate policy. They are central outcomes of a transition designed to protect people and the economy.</description>
+      <pubDate>2026-03-19T09:50:07+00:00</pubDate>
+      <guid>2beb9ee90519119643cc90699a89b1c6</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
       <language>en</language>
     </item>
     <item>
@@ -478,13 +1628,403 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <language>en</language>
     </item>
     <item>
-      <title>Homepage - ionnews</title>
-      <link>https://news.google.com/rss/articles/CBMihwFBVV95cUxONWRkSjhwQjVEMzJOcVUtVDBndXg0YU1GaXN5bXlTV3dDR2VRT1RPeHg2UklpMmhVbWlvVXVyU21aTEdacXd5YXZ6cHhza3prNDhBS3hMaUQtWjlKOVlTTDR5TDZSdzJZOGtpNUo4U3ZaUFVnRDVIT0tVNUFBcllwV2ZPd2lGbmM?oc=5</link>
-      <description>Homepage  ionnews</description>
-      <pubDate>2026-03-19T07:52:14+00:00</pubDate>
-      <guid>6199e2940df1ce4cbb5b4c725cc3672f</guid>
-      <source>ION News (via Google News)</source>
-      <category>general</category>
+      <title>Liberia: Senate Passes Bill to Reform Petroleum Sector</title>
+      <link>https://allafrica.com/stories/202603190173.html</link>
+      <description>[Liberian Observer] The Liberian Senate has passed a landmark bill aimed at reshaping the country's petroleum sector.</description>
+      <pubDate>2026-03-19T09:43:14+00:00</pubDate>
+      <guid>5de5935b3ce8e6b86f00d63810a9ef7a</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Namibia: PDM's Inna Hengari Elected to Committee of Global Young MPs</title>
+      <link>https://allafrica.com/stories/202603190171.html</link>
+      <description>[Namibian] Popular Democratic Movement (PDM) parliamentarian Inna Hengari has been elected to the World Bank's steering committee of global young members of parliament, to represent the eastern and southern African region from 2026 to 2028.</description>
+      <pubDate>2026-03-19T09:42:21+00:00</pubDate>
+      <guid>ebae2814405c7d8c02349defafeb6562</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: Government Inject 3.5 Billion Shillings to Revamp Tea Sector</title>
+      <link>https://allafrica.com/stories/202603190168.html</link>
+      <description>[Capital FM] Nairobi -- Tea farmers have a reason to smile after the government inject 3.5 billion Shillings to refurbish tea industries to meet the international standard and also enable them do value addition on tea for better prices at the tea auction center Mombasa.</description>
+      <pubDate>2026-03-19T09:41:26+00:00</pubDate>
+      <guid>1a720dcc49986783ee4aae7b9717f309</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Nigeria: EFCC Returns N3.9bn Stolen Funds to NNPC</title>
+      <link>https://allafrica.com/stories/202603190151.html</link>
+      <description>[Premium Times] Receiving the funds on behalf of NNPC Ltd, Executive Vice President, Downstream, Mumuni Dagazau, praised the EFCC for its role in the recovery.</description>
+      <pubDate>2026-03-19T09:35:02+00:00</pubDate>
+      <guid>a53a7f628db94aa4ca2196e0e2e433ae</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Greek animal airlift evacuates pets and owners from Middle East war</title>
+      <link>https://www.france24.com/en/europe/20260319-greek-animal-airlift-evacuates-pets-and-owners-from-middle-east-war</link>
+      <description>A flight carrying dozens of cats, dogs and their owners landed in Athens on Wednesday as part of a successful government effort to evacuate pets from the war in the Middle East. Greece's interior and foreign ministry worked together for days to coordinate the operation to repatriate Greek nationals without forcing them to leave their pets behind.</description>
+      <pubDate>2026-03-19T09:32:16+00:00</pubDate>
+      <guid>e41a6d868666baa4d8815b3d7f1776ad</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africans Owe As Much As 28 Times Their Monthly Salary</title>
+      <link>https://allafrica.com/stories/202603190116.html</link>
+      <description>[Scrolla] National Debt Advisors (NDA) studied more than 70,000 people under debt review and found average monthly income sits at just R9,536.   NDA head Sebastien Alexanderson says debt is now a survival strategy for many households as incomes fail to keep up.</description>
+      <pubDate>2026-03-19T09:19:00+00:00</pubDate>
+      <guid>7f5c379ec7bf9230ec45d1cc682d534b</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: South Africans Owe As Much As 28 Times Their Monthly Salary</title>
+      <link>https://allafrica.com/stories/202603190116.html</link>
+      <description>[Scrolla] National Debt Advisors (NDA) studied more than 70,000 people under debt review and found average monthly income sits at just R9,536.   NDA head Sebastien Alexanderson says debt is now a survival strategy for many households as incomes fail to keep up.</description>
+      <pubDate>2026-03-19T09:19:00+00:00</pubDate>
+      <guid>500a2c81403e13fb3485ec70c98797b5</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Pakistan: Karachi thunderstorm kills at least 16 as powerful winds wreak havoc</title>
+      <link>http://www.africanews.com/2026/03/19/pakistan-karachi-thunderstorm-kills-at-least-16-as-powerful-winds-wreak-havoc/</link>
+      <description>A thunderstorm with strong winds hit Karachi overnight on Wednesday, killing at least 16 people, according to local rescue services.</description>
+      <pubDate>2026-03-19T08:50:33+00:00</pubDate>
+      <guid>fdc826c96ec343833ebe948686392985</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Planning to shorty move to Mauritius (3-6 months), welcome to suggestions</title>
+      <link>https://www.reddit.com/r/mauritius/comments/1rxv3a0/planning_to_shorty_move_to_mauritius_36_months/</link>
+      <description>I work remotely and my budget is 2000usd per month, where can I find affortable housing with fast internet?  I would also like to make friends after work and engage in activities or sports, but I wouldn’t wanna live in an expensive area for that.  Any recommendations? :)    submitted by    /u/CasamiraChronicles   [link] [comments]</description>
+      <pubDate>2026-03-19T08:46:55+00:00</pubDate>
+      <guid>de309fdfe91605e65d7db040eccf7cee</guid>
+      <source>Reddit - r/mauritius</source>
+      <category>community</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Iran missile strike hits Tel Aviv area as deaths mount across region</title>
+      <link>http://www.africanews.com/2026/03/19/iran-missile-strike-hits-tel-aviv-area-as-deaths-mount-across-region/</link>
+      <description>Iranian missile fire damaged a Tel Aviv residential block and hit multiple sites nearby, as soaring violence across the region has killed over 2,000 people.</description>
+      <pubDate>2026-03-19T08:39:46+00:00</pubDate>
+      <guid>2d629824df62ace31399375d19b48a6d</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Nigeria's army chief visits Maiduguri following deadly suicide bombings</title>
+      <link>http://www.africanews.com/2026/03/19/nigerias-army-chief-visits-maiduguri-following-deadly-suicide-bombings/</link>
+      <description>The military has blamed militant group Boko Haram for the attacks in which at least 23 people died and 108 were injured.</description>
+      <pubDate>2026-03-19T08:35:23+00:00</pubDate>
+      <guid>c2d2df10f92c8b98ad9e612137ff17ca</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: President Ruto Meets Chinese Contractor Ahead of Key SGR Extension Launches</title>
+      <link>https://allafrica.com/stories/202603190068.html</link>
+      <description>[Capital FM] Nairobi -- President William Ruto on Wednesday held high-level talks with Song Hailiang at State House, Nairobi, ahead of the highly anticipated launch of new sections of the Standard Gauge Railway (SGR).</description>
+      <pubDate>2026-03-19T08:22:35+00:00</pubDate>
+      <guid>6e037ccd949acf666387a5ecc0f3960b</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Senegal stripped of AFCON title: CAF ruling sets a 'very dangerous' precedent</title>
+      <link>https://www.france24.com/en/tv-shows/spotlight/20260319-senegal-stripped-of-afcon-title-caf-ruling-sets-a-very-dangerous-precedent</link>
+      <description>Following the unprecedented decision to strip Senegal of the Africa Cup of Nations title and hand it to Morocco, Mark Owen is pleased to welcome Eurosport's Ruben Slagter. Not only is our guest troubled by the decision itself, but also the opacity of its timing and communication: the delayed ruling, coupled with its quiet release during a major European fixture, the Champions League, raises questions about institutional transparency and intent.</description>
+      <pubDate>2026-03-19T07:22:18+00:00</pubDate>
+      <guid>2a5655c830437622e8b6b254552f0dd1</guid>
+      <source>France 24 - International</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>‘Eerily silent’: Cape York residents batten down the hatches ahead of Tropical Cyclone Narelle’s arrival</title>
+      <link>https://www.theguardian.com/australia-news/2026/mar/19/cape-york-residents-severe-tropical-cyclone-narelle-queensland</link>
+      <description>Residents of Coen and surrounding towns in far north Queensland spent Thursday sandbagging, stockpiling food and preparing for power outages ahead of possible category 5 stormCyclone Narelle path tracker mapGet our breaking news email, free app or daily news podcastIn some ways, it seemed a pleasant, wet season morning in the remote Aboriginal community of Coen in tropical far north Queensland on Thursday – and Sara Watkins was preparing for a sausage sizzle.“It’s a day that you’d spend going fi</description>
+      <pubDate>2026-03-19T07:16:15+00:00</pubDate>
+      <guid>ba0d7a257983768efc805c6648cceb80</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Madagascar's interim leadership strengthens cooperation with Russia</title>
+      <link>http://www.africanews.com/2026/03/19/madagascars-interim-leadership-strengthens-cooperation-with-russia/</link>
+      <description>Security cooperation with Moscow has already begun and other targeted sectors include agriculture and mining.</description>
+      <pubDate>2026-03-19T07:10:58+00:00</pubDate>
+      <guid>2918c254896db6450580c13a0f0b7828</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Malinauskas steps up One Nation attack ahead of SA election – as it happened</title>
+      <link>https://www.theguardian.com/australia-news/live/2026/mar/19/australia-news-live-jim-chalmers-tax-inflation-budget-cost-of-living-war-fuel-crisis-shortage-inflation-cyclone-narelle-queensland-ntwnfb</link>
+      <description>This blog is now closedTropical Cyclone Narelle tracker map: where and when will it hit the Queensland coast?Get our breaking news email, free app or daily news podcastAgriculture minister says government monitoring any price gouging of fertiliserJulie Collins, the federal minister for agriculture, said the government is monitoring any price gouging for fertiliser amid the turmoil in the Middle East.I think our government has been very clear that this should not be seen as a commercial opportuni</description>
+      <pubDate>2026-03-19T06:36:05+00:00</pubDate>
+      <guid>93b889871732909da5b7f2431ddf2cf5</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Lebo M Sues Comedian Learnmore Jonasi for U.S.$20 Million Over Viral 'Lion King' Joke</title>
+      <link>https://allafrica.com/stories/202603190041.html</link>
+      <description>[New Zimbabwe] Grammy Award-winning South African composer Lebo &quot;Lebo M&quot; Morake has filed a $20 million lawsuit against Zimbabwean comedian Learnmore Jonasi.</description>
+      <pubDate>2026-03-19T06:31:10+00:00</pubDate>
+      <guid>8287a353c868b572cff5c77d0cfc7f6f</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Zimbabwe: Lebo M Sues Comedian Learnmore Jonasi for U.S.$20 Million Over Viral 'Lion King' Joke</title>
+      <link>https://allafrica.com/stories/202603190041.html</link>
+      <description>[New Zimbabwe] Grammy Award-winning South African composer Lebo &quot;Lebo M&quot; Morake has filed a $20 million lawsuit against Zimbabwean comedian Learnmore Jonasi.</description>
+      <pubDate>2026-03-19T06:31:10+00:00</pubDate>
+      <guid>f37ef720e00fff972677fb0575631ce6</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Ethiopia: Ethiopia Nears Debt Deal Milestone As Finance Minister Meets Chinese Delegation</title>
+      <link>https://allafrica.com/stories/202603190039.html</link>
+      <description>[ENA] Addis Ababa -- Finance Minister, Ahmed Shide held a meeting with Chinese Ambassador to Ethiopia, Chen Hai, and a delegation from the Export-Import Bank of China (China Exim Bank) to discuss matters of mutual economic interest.</description>
+      <pubDate>2026-03-19T06:31:09+00:00</pubDate>
+      <guid>8d7b5b6c30a053364229e9f2d085ef77</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: One Person Confirmed Dead in Kericho Building Collapse, Rescue Efforts Continue</title>
+      <link>https://allafrica.com/stories/202603190040.html</link>
+      <description>[Capital FM] Nairobi -- Interior Ministry on Wednesday confirmed that one person has died following the collapse of a building under construction in the Kaptebeswet Bypass area of Kericho, as search and rescue operations continued.</description>
+      <pubDate>2026-03-19T06:31:09+00:00</pubDate>
+      <guid>9fd353802be010ada6816b6635a1fd94</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>We Have No Water and No Toilets, Families Tell Human Rights Commission</title>
+      <link>https://allafrica.com/stories/202603190037.html</link>
+      <description>[GroundUp] Government offices are often closed due to lack of water in Centane</description>
+      <pubDate>2026-03-19T06:28:54+00:00</pubDate>
+      <guid>c61c23dd7846398aa07cc3f62cf8372a</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: We Have No Water and No Toilets, Families Tell Human Rights Commission</title>
+      <link>https://allafrica.com/stories/202603190037.html</link>
+      <description>[GroundUp] Government offices are often closed due to lack of water in Centane</description>
+      <pubDate>2026-03-19T06:28:54+00:00</pubDate>
+      <guid>990374a25e054259312b15c6c61e6a10</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Zimbabwe: Govt Hikes Fuel Prices As Middle East Conflict Drives Costs</title>
+      <link>https://allafrica.com/stories/202603190036.html</link>
+      <description>[New Zimbabwe] The Zimbabwe Energy Regulatory Authority (ZERA) has once again hiked fuel prices for March, citing rising costs linked to the ongoing conflict in the Middle East.</description>
+      <pubDate>2026-03-19T06:28:54+00:00</pubDate>
+      <guid>fc8f4d05ddb9a4e27d6f9cf42fa6988e</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Tanzania: Tanzania Urged Fast-Track Construction of ICT Backbone Linking It With DR Congo</title>
+      <link>https://allafrica.com/stories/202603190034.html</link>
+      <description>[Daily News] Dar es Salaam -- THE Parliamentary Committee on Infrastructure has urged the government to fast-track construction of the National ICT Backbone linking Tanzania and the Democratic Republic of the Congo to strengthen connectivity and boost revenues for Tanzania Telecommunications Corporation.</description>
+      <pubDate>2026-03-19T06:28:53+00:00</pubDate>
+      <guid>b8c0ab304c4c8a80ea0bef8b048a9db2</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: 22 Rescued After Kericho Building Collapse, 4 in Critical Condition</title>
+      <link>https://allafrica.com/stories/202603190032.html</link>
+      <description>[Capital FM] Nairobi -- Twenty-two people have been rescued after a building collapsed in Kericho County on Wednesday, with four of the survivors in critical condition, the Kenya Red Cross said in an update on Wednesday.</description>
+      <pubDate>2026-03-19T06:27:32+00:00</pubDate>
+      <guid>1e2149e17b4ca04056319e6fb4c61564</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Zimbabwe: Hulengende, Malloti Accused of Promoting Drug and Substance Abuse As MP Calls for Regulation of Social Media</title>
+      <link>https://allafrica.com/stories/202603190030.html</link>
+      <description>[New Zimbabwe] ZVIMBA South MP Taurai Dexter Malinganiso has slammed local artists Hulengende and Malloti for allegedly using inappropriate language and promoting drug and substance abuse during performances.</description>
+      <pubDate>2026-03-19T06:27:31+00:00</pubDate>
+      <guid>09597e0ed5f276904dabbb380028a0d8</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Use the Field, Parents Tell Their Children - the Pit Toilets At This School Are Dangerous</title>
+      <link>https://allafrica.com/stories/202603190029.html</link>
+      <description>[GroundUp] Elunyaweni Primary in Ugie in the Eastern Cape has five full pit latrines for 160 learners; nearby ET Thabane Primary has broken classrooms</description>
+      <pubDate>2026-03-19T06:27:30+00:00</pubDate>
+      <guid>4ef8c54a1e28dbfb17b4203867c92df2</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Use the Field, Parents Tell Their Children - the Pit Toilets At This School Are Dangerous</title>
+      <link>https://allafrica.com/stories/202603190029.html</link>
+      <description>[GroundUp] Elunyaweni Primary in Ugie in the Eastern Cape has five full pit latrines for 160 learners; nearby ET Thabane Primary has broken classrooms</description>
+      <pubDate>2026-03-19T06:27:30+00:00</pubDate>
+      <guid>af23cef9b22cf10ab1be677bd47a725b</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>#UniteBehind Opposes Judge Makhubele's Bid to Stop Impeachment Vote</title>
+      <link>https://allafrica.com/stories/202603190028.html</link>
+      <description>[GroundUp] Activist group says she has already earned about R10-million since her suspension and her review application may take another four years</description>
+      <pubDate>2026-03-19T06:27:29+00:00</pubDate>
+      <guid>3a41935384137f415ede2145d6fe371c</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: #UniteBehind Opposes Judge Makhubele's Bid to Stop Impeachment Vote</title>
+      <link>https://allafrica.com/stories/202603190028.html</link>
+      <description>[GroundUp] Activist group says she has already earned about R10-million since her suspension and her review application may take another four years</description>
+      <pubDate>2026-03-19T06:27:29+00:00</pubDate>
+      <guid>853b67fbece447bbd076af067b67952f</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Zimbabwe: Fuel Prices Rise, but Supplies Safe As Govt Reassures Nation</title>
+      <link>https://allafrica.com/stories/202603190025.html</link>
+      <description>[263Chat] The Zimbabwe Energy Regulatory Authority (ZERA) has announced new fuel prices for March, with authorities warning of rising cost pressures while assuring the public that supplies remain stable.</description>
+      <pubDate>2026-03-19T06:26:06+00:00</pubDate>
+      <guid>ba799f5c5e92990c121eaa0cdb926fab</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Turning Food Waste Into Millions of Healthy Meals</title>
+      <link>https://allafrica.com/stories/202603190023.html</link>
+      <description>[GroundUp] Companies like FoodForward SA and Ladles of Love are rescuing produce and redistributing it in vulnerable communities</description>
+      <pubDate>2026-03-19T06:18:57+00:00</pubDate>
+      <guid>fe83f46d35408251ea4c4cce2f41d22f</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>South Africa: Turning Food Waste Into Millions of Healthy Meals</title>
+      <link>https://allafrica.com/stories/202603190023.html</link>
+      <description>[GroundUp] Companies like FoodForward SA and Ladles of Love are rescuing produce and redistributing it in vulnerable communities</description>
+      <pubDate>2026-03-19T06:18:57+00:00</pubDate>
+      <guid>9bc7c824e2e217df116896ae5d17ed97</guid>
+      <source>AllAfrica - Southern Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Rwanda: Nearly 300 Transformers Planned to Ease Power Shortages</title>
+      <link>https://allafrica.com/stories/202603190016.html</link>
+      <description>[New Times] The government plans to install about 290 new transformers and upgrade electricity distribution networks nationwide to ease persistent power shortages, the Ministry of Infrastructure has announced.</description>
+      <pubDate>2026-03-19T06:11:39+00:00</pubDate>
+      <guid>6de60f47f5fb575d2412e54f683c472e</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: One in Five Kenyans Report 20% Rise in Living Costs, Tala</title>
+      <link>https://allafrica.com/stories/202603190015.html</link>
+      <description>[Capital FM] Nairobi -- One in five Kenyans say their cost of living has risen by more than 20 percent in the past six months, a new report by Tala shows.</description>
+      <pubDate>2026-03-19T06:11:38+00:00</pubDate>
+      <guid>af81c6ff916299c61205b4a13e5d4c08</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: Aviation Workers Give KCAA Seven-Day Strike Ultimatum</title>
+      <link>https://allafrica.com/stories/202603190013.html</link>
+      <description>[Capital FM] Nairobi -- The Kenya Aviation Workers Union (KAWU) has issued a seven-day strike notice to the Kenya Civil Aviation Authority (KCAA), setting the stage for potential disruption of air transport operations beginning Wednesday, March 25, 2026.</description>
+      <pubDate>2026-03-19T06:11:37+00:00</pubDate>
+      <guid>8669973edd3606ca009f3560da6ce006</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Kenya: Workers Trapped As 22-Storey Building Partially Collapses in Westlands</title>
+      <link>https://allafrica.com/stories/202603190014.html</link>
+      <description>[Capital FM] Nairobi -- Emergency teams are racing against time to rescue workers trapped after a 22-storey building under construction partially collapsed in Westlands on Wednesday, the Kenya Red Cross said.</description>
+      <pubDate>2026-03-19T06:11:37+00:00</pubDate>
+      <guid>58e690caa46486e69dfe92d151a1d913</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Power prices expected to fall by up to 10% from July, bringing ‘welcome relief’ to Australia’s east coast</title>
+      <link>https://www.theguardian.com/australia-news/2026/mar/19/power-bills-on-australias-east-coast-expected-to-fall-by-up-to-10-from-july-bringing-welcome-relief</link>
+      <description>Increased wind and solar generation, along with falling electricity contract prices, are expected to deliver lower energy billsFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastPower prices on Australia’s east coast are predicted to fall from July because of increased output from wind generation and batteries, and falling electricity contract prices, with potential savings up to $1,320 for some small businesses.In a draft decision on</description>
+      <pubDate>2026-03-19T06:06:12+00:00</pubDate>
+      <guid>4d0765c1335f58c68c20ac946d09f87a</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Africa: Africa's Minerals Boon, Cautious Optimism Amid Geopolitical Disruptions</title>
+      <link>https://allafrica.com/stories/202603190006.html</link>
+      <description>[IPS] Bulawayo, Zimbabwe -- Africa's eye on minerals as the be-all-and-cure-all for the continent's development agenda is being tested by geopolitical gamesmanship as global superpowers jostle to carve new spheres of influence.</description>
+      <pubDate>2026-03-19T06:01:53+00:00</pubDate>
+      <guid>38140bb6e1d0cd511f668e3febdc021a</guid>
+      <source>AllAfrica - Business</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Comorian Women Face Barriers to Equality in Education, Employment, and Politics</title>
+      <link>https://allafrica.com/stories/202603190005.html</link>
+      <description>[Afrobarometer] Most citizens say police and courts need to do more to protect women and girls against discrimination and harassment.</description>
+      <pubDate>2026-03-19T06:01:52+00:00</pubDate>
+      <guid>a85482ad99df6fe148707defdaa9b67f</guid>
+      <source>AllAfrica - Comoros</source>
+      <category>regional</category>
       <language>en</language>
     </item>
     <item>
@@ -498,43 +2038,113 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <language>en</language>
     </item>
     <item>
-      <title>Homepage - ionnews</title>
-      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxPTVNNVUNYMVhPX1FLeUhwOWZ0SzVVUVBnOFNmVzhPT2NCSlRzaW8zVzVWQ21vQlJTNTN2V2x2T1V3SkU0enpPZ3VtVFZueVJkWnpqWll5eFlIcGotbXdWWW9KbkxoRElRd1VEOEtEcXFfVS1iZ3NSaDI4Z2JSYVNwWng4YzJDZW1YSGlTdW9Vcmh2b28?oc=5</link>
-      <description>Homepage  ionnews</description>
-      <pubDate>2026-03-19T04:16:24+00:00</pubDate>
-      <guid>8648125af8850f7da208da54aba4afed</guid>
-      <source>ION News (via Google News)</source>
-      <category>general</category>
+      <title>Mining Companies and Land Rights in South Africa - How Environmentalists Have Used the Law to Defend Communities</title>
+      <link>https://allafrica.com/stories/202603190003.html</link>
+      <description>[The Conversation Africa] Environmental activists in South Africa have been waging legal battles against the state and mining companies for years. This is often on the grounds that communities haven't been consulted before mines were given permission to start digging and blasting on their land. Environmental justice researcher Mzingaye Brilliant Xaba has tracked the legal cases against mines since 2015. He analysed court rulings, research and media coverage. His research has found that environme</description>
+      <pubDate>2026-03-19T06:00:33+00:00</pubDate>
+      <guid>5ed75c1564d926d9e6c6cd063e56adf1</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
       <language>en</language>
     </item>
     <item>
-      <title>Homepage - ionnews</title>
-      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxPVXVpclFvVjJ2UzRzYWpvbGhYeks4WWRVRjlMcUpFbC1Tc28yZ0p0S1hFVnExbkczRG5lZGlWWTd1eXN6WWxha2lLc2hHbXk1cE9lbTJQOER0WElQUWdESXl5ZnZPMVBkRmNMNnNUbVFYZ29CLVJFOUROR3VicUtGUnhEVTZlRGhPWEdOUDdhSGFheFU?oc=5</link>
-      <description>Homepage  ionnews</description>
-      <pubDate>2026-03-19T01:18:29+00:00</pubDate>
-      <guid>57ef17d24e92b562aab0139e18c58d80</guid>
-      <source>ION News (via Google News)</source>
-      <category>general</category>
+      <title>‘Waiting for days’: India feels impact of gas supply chain disruption amid Iran conflict</title>
+      <link>https://www.theguardian.com/world/2026/mar/19/india-liquefied-petroleum-gas-lpg-supply-chain-disruption-iran-conflict</link>
+      <description>People struggle to cook and businesses bear brunt as closure of strait of Hormuz slows imports of liquefied petroleum gasFor four days, Maya Rani, 36, has been arriving each morning at a gas distributor’s office in Delhi, her six-month-old daughter in her lap, waiting for hours. And each day she returns home empty-handed, told that a cooking gas cylinder may not be available for at least another week. Around her, the queue keeps growing, people clutching forms and documents, hoping to secure a c</description>
+      <pubDate>2026-03-19T06:00:01+00:00</pubDate>
+      <guid>cafed245cb20dcb1f0c908170c3ef952</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
       <language>en</language>
     </item>
     <item>
-      <title>Homepage - ionnews</title>
-      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxQVVkyZVlUZkV6RGNac19NN1U4WThxQ0tTdFRvNjFHQk1SVlNWM0pOcnVRb1pQblhGQkRGSnZQM3kwMnltZHRVb3pSbWNGT1ViR2RDbkJzNzVTSVdDeEY0elBPd3lQbW43cGhfSEF4SkdOdUpOdWdTVTdlOEhYY2d6MjdNb1B2YzJuZ2RGWi11bWctb0E?oc=5</link>
-      <description>Homepage  ionnews</description>
-      <pubDate>2026-03-18T21:47:01+00:00</pubDate>
-      <guid>15d8cf97336b2b30dc42dd6ba90e18c9</guid>
-      <source>ION News (via Google News)</source>
-      <category>general</category>
+      <title>Jihadist violence in Nigeria and DRC rose sharply last year even as global deaths from terror fell</title>
+      <link>https://www.theguardian.com/world/2026/mar/19/jihadist-violence-nigeria-drc-terrorism-index</link>
+      <description>Nigeria had largest increase in terrorism-related deaths, ranking fourth in global index behind Pakistan, Burkina Faso and NigerJihadist violence rose sharply in Nigeria and Democratic Republic of Congo last year, even as global deaths from terrorism dropped to their lowest level in a decade, according to a new report.Nigeria recorded the largest increase in terrorism deaths globally in 2025, with fatalities rising by 46% from 513 in 2024 to 750, placing it fourth in the Global Terrorism Index,</description>
+      <pubDate>2026-03-19T05:01:00+00:00</pubDate>
+      <guid>6a195b0fff8ba62f1e7b21a310c81de0</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
       <language>en</language>
     </item>
     <item>
-      <title>Homepage - ionnews</title>
-      <link>https://news.google.com/rss/articles/CBMikwFBVV95cUxOenFpbTBwMUYyX1pOdjB4YUNJUHlaZkdlVXM5V3ltaWs5ODlfV2FVOGhMNXlfdXNZWF9rbEFGcllHclJBWnQ0dEtFeGpMTlRHN29hZHBfQWNMSWtkSzJFbk5Mczl2WDRvNFoyTk9xd3E2dC1mbGZFY01GUGRJMl9rendmU0pNVlNTVHBpNzBZUW1TSUU?oc=5</link>
-      <description>Homepage  ionnews</description>
-      <pubDate>2026-03-18T20:32:34+00:00</pubDate>
-      <guid>cedf3a8dc64a87ec1f0937b99a730579</guid>
-      <source>ION News (via Google News)</source>
-      <category>general</category>
+      <title>Need help with gifting ideas for a 13/14 year old relative</title>
+      <link>https://www.reddit.com/r/mauritius/comments/1rxr85i/need_help_with_gifting_ideas_for_a_1314_year_old/</link>
+      <description>Hey folks! I’m from India and I’ll be visiting my partner’s family in Mauritius after almost a decade. We will be visiting her extended family while we’re there and we’re taking small gifts and presents for the ones we’re visiting. I’m kind of at a dead end when it comes to this boy who is 13/14 years. When we last saw him he was 3 and that can’t really think of what to get him. We don’t want to get him some random thing. Any suggestions would be helpful. My budget is about 1500 - 2000 Mur.  Mer</description>
+      <pubDate>2026-03-19T04:52:19+00:00</pubDate>
+      <guid>6c445ae60386cd1497f70a3961a4e60f</guid>
+      <source>Reddit - r/mauritius</source>
+      <category>community</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Cathay Pacific suspends flights to and from Dubai until end of April – as it happened</title>
+      <link>https://www.theguardian.com/world/live/2026/mar/18/iran-war-live-updates-oil-prices-hormuz-trump-larijani-key-leader-killed-israel-strikes</link>
+      <description>This liveblog is closed – follow our new liveblog here.Iran is still exporting millions of barrels of oil, with about 90 ships, including oil tankers, having crossed the strait of Hormuz since the beginning of the war with Iran, according to maritime and trade data platforms reports.This is despite Iran saying it had closed the vital waterway to vessels from the US and its allies. Continue reading...</description>
+      <pubDate>2026-03-19T03:43:15+00:00</pubDate>
+      <guid>a4d798cbe2e589452c2ef6225836a789</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Hong Kong apartment fires: hearings to begin into Wang Fuk blaze that killed 168 people</title>
+      <link>https://www.theguardian.com/news/2026/mar/19/hong-kong-apartment-fires-hearings-to-begin-into-wang-fuk-blaze-that-killed-168-people</link>
+      <description>Independent committee to investigate safety standards and whether building practices contributed to worst residential fires in decadesHow the Hong Kong fire unfolded – visual guidePublic hearings in Hong Kong begin on Thursday into a devastating fire that ripped through a housing complex last year, killing 168 people.A judge-led independent committee will investigate whether fire safety standards were inadequate, if construction practices contributed to the fire, and if there were failures on th</description>
+      <pubDate>2026-03-19T01:50:07+00:00</pubDate>
+      <guid>2b2b5ec4cf4544ec60c5f177bef00f54</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Seoul raises terror alert as it prepares to host BTS comeback concert</title>
+      <link>https://www.theguardian.com/music/2026/mar/19/bts-comeback-concert-seoul-terror-alert-level</link>
+      <description>Thousands of police prepare to deploy to South Korea’s capital ahead of K-pop’s most anticipated comebackSeoul has stepped up security ahead of BTS’s huge comeback concert on Saturday, which more than a quarter of a million fans are expected to attend, with authorities raising the terror alert in the area and preparing to deploy thousands of police to the capital.South Korean president Lee Jae Myung warned at a cabinet meeting this week that “the issue is safety” and urged heightened vigilance b</description>
+      <pubDate>2026-03-18T23:59:57+00:00</pubDate>
+      <guid>df3cb4affe2ee28749ad586f5c653a8a</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Senegalese fans in disbelief after AFCON victory overturned</title>
+      <link>http://www.africanews.com/2026/03/18/senegalese-fans-in-disbelief-after-afcon-victory-overturned/</link>
+      <description>Two months after the Africa Cup of Nations final, the Confederation of African Football has annulled Senegal’s victory. The appeals committee of African football’s governing body has declared Morocco the winner by default. And the decision has outraged the Senegalese.</description>
+      <pubDate>2026-03-18T21:56:20+00:00</pubDate>
+      <guid>b929bf37879f916772de0e39374b3d98</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Trump tariffs hurting US manufacturers, data suggests</title>
+      <link>http://www.africanews.com/2026/03/18/trump-tariffs-hurting-us-manufacturers-data-suggests/</link>
+      <description>US factories have been struggling since President Trump imposed tariffs on a wide range of goods. Data shows that the country has lost more than 100,000 manufacturing jobs in the last year.</description>
+      <pubDate>2026-03-18T20:40:57+00:00</pubDate>
+      <guid>cb60d19dab2357f2a641760640106926</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Israel strikes Iran’s South Pars gasfield hours after forces kill intelligence minister</title>
+      <link>https://www.theguardian.com/world/2026/mar/18/iran-intelligence-minister-esmail-khatib-killed-israel-claims</link>
+      <description>Death confirmed of Esmail Khatib, the third senior Iranian figure killed in 24 hours, as Israel also launches intense airstrikes on LebanonMiddle East crisis – live updatesExplainer: why attacks on gasfields are a major escalationIsrael struck Iran’s giant South Pars gasfield on Wednesday, marking a major escalation of the war, hours after Israeli forces killed the regime’s intelligence minister and launched some of the most intense airstrikes in Beirut for decades.The attack on the Pars site in</description>
+      <pubDate>2026-03-18T19:25:39+00:00</pubDate>
+      <guid>1e423084500370d678f206fe456fcc54</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>UK says it remains in talks over escorting ships through strait of Hormuz</title>
+      <link>https://www.theguardian.com/world/2026/mar/18/uk-says-it-remains-in-talks-over-escorting-ships-through-strait-of-hormuz</link>
+      <description>Officials say military planners liaising with US Central Command but situation remains too dangerous for anything to happen soonMiddle East crisis – live updatesBritain has said it remains involved in discussions with the US and European allies over escorting merchant shipping through the strait of Hormuz but the situation remains too dangerous for it to happen soon.Iran is still considered to pose a threat and to have a wide range of weapons available – from cruise missiles to sea drones – desp</description>
+      <pubDate>2026-03-18T18:52:33+00:00</pubDate>
+      <guid>c96667ff337f5956a7c21420927f250e</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
       <language>en</language>
     </item>
     <item>
@@ -548,6 +2158,26 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <language>en</language>
     </item>
     <item>
+      <title>Canada in push for joint G7 and Middle East effort to de-escalate Iran war</title>
+      <link>https://www.theguardian.com/world/2026/mar/18/canada-in-push-for-joint-g7-and-middle-east-effort-to-de-escalating-iran-war</link>
+      <description>Foreign minister Anita Anand says she has drafted principles to reduce risk of regional spillover and wider shocksMiddle East crisis – live updatesCanada is pushing for a collective G7 and Middle East approach to de-escalating the Iran war, including off ramps that could bring an end to the conflict, the Canadian foreign minister, Anita Anand, has said.In London to meet the UK foreign secretary, Yvette Cooper, after talks with the her Turkish counterpart, Hakan Fidan, Anand told the Guardian she</description>
+      <pubDate>2026-03-18T18:38:09+00:00</pubDate>
+      <guid>6b4d525b54bde8de98a10f1b9862de13</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Visa requirements and immigration registration requirements</title>
+      <link>https://www.reddit.com/r/mauritius/comments/1rxakjs/visa_requirements_and_immigration_registration/</link>
+      <description>So me and my fiancée are planning to visit Mauritius for 2 weeks this year and would like to know if we need visas and also is it required to register for online immigration QR code or something similar ? I’m a holder of United Arab Emirates passport She is a holder of Russian passport Thank you.    submitted by    /u/shhh_dalick   [link] [comments]</description>
+      <pubDate>2026-03-18T17:38:39+00:00</pubDate>
+      <guid>ed0a87ece1188b3c961eca58e7884b38</guid>
+      <source>Reddit - r/mauritius</source>
+      <category>community</category>
+      <language>en</language>
+    </item>
+    <item>
       <title>Forty years after the last one was poached, rhinos are back in the wild in Uganda</title>
       <link>https://www.bbc.com/news/articles/cn4g41n9j4lo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The return of southern white rhinos to the country comes after Ugandan poachers once wiped them out.</description>
@@ -555,6 +2185,76 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <guid>6d73226587edfb25f0fa6d7bd8f70a8d</guid>
       <source>BBC Africa</source>
       <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>UN mission patrols South Sudan refugee camp after deadly attack</title>
+      <link>http://www.africanews.com/2026/03/18/un-mission-patrols-south-sudan-refugee-camp-after-deadly-attack/</link>
+      <description>Responding to a recent deadly attack in which a Sudanese refugee lost his life, the United Nations Mission in South Sudan (UNMISS) conducted a patrol at Makpandu refugee camp in Yambio, Western Equatoria, to assess security in the area and work with local authorities, security forces, and refugee co</description>
+      <pubDate>2026-03-18T17:35:55+00:00</pubDate>
+      <guid>7fb100cf0596c5503934bdd86f4431eb</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>AFCON 2025 final scandal: Senegal accuses CAF of corruption</title>
+      <link>http://www.africanews.com/2026/03/18/afcon-2025-final-scandal-senegal-accuses-caf-of-corruption/</link>
+      <description>After the Confederation of African Football stripped Senegal of its title in the Africa Cup of Nations 2025 final on Tuesday, Dakar has taken its protest a step further: it accused the CAF of corruption and called for an international investigation on Wednesday.</description>
+      <pubDate>2026-03-18T17:21:31+00:00</pubDate>
+      <guid>4b7ffa9a10c232f464d7db50292ef0a3</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Application Status Uom, stressing and idkwtddddddd</title>
+      <link>https://www.reddit.com/r/mauritius/comments/1rx9lt3/application_status_uom_stressing_and_idkwtddddddd/</link>
+      <description>So if the application process is done and ive got 3 crosses does that change later?    submitted by    /u/Substantial_Yam4710   [link] [comments]</description>
+      <pubDate>2026-03-18T17:04:25+00:00</pubDate>
+      <guid>ce05de77c5ea264655a67ce6c10dfdc4</guid>
+      <source>Reddit - r/mauritius</source>
+      <category>community</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Pakistan to pause Afghan strikes for Eid, two days after deadly Kabul attack</title>
+      <link>https://www.theguardian.com/world/2026/mar/18/afghans-search-for-loved-ones-kabul-rehab-centre-pakistan-airstrike</link>
+      <description>Five-day cessation announced as mass funeral held for some of hundreds of victims of airstrike on rehab centrePakistan has announced a five-day pause in strikes against neighbouring Afghanistan, as a mass funeral was held for some of the hundreds of victims killed in Monday’s attack on a drug rehabilitation centre in Kabul.The Afghan Taliban government has said more than 400 people were killed and 265 others wounded in that attack, which took place as people at the centre were praying days befor</description>
+      <pubDate>2026-03-18T16:40:30+00:00</pubDate>
+      <guid>3dd095c44c52f7a269d38db34b5f97d6</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Nigeria's President Tinubu welcomed by Britain's King Charles at start of state visit</title>
+      <link>http://www.africanews.com/2026/03/18/nigerias-president-tinubu-welcomed-by-britains-king-charles-at-start-of-state-visit/</link>
+      <description>Britain's King Charles and Queen Camilla welcomed President Bola Tinubu and his wife to Windsor Castle on Wednesday during the first state visit by a Nigerian leader in nearly 40 years.</description>
+      <pubDate>2026-03-18T16:33:11+00:00</pubDate>
+      <guid>5940491878c007ec4a892face8956aeb</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Farage called for release of Sean ‘Diddy’ Combs and praised effort to free drug trafficker</title>
+      <link>https://www.theguardian.com/uk-news/ng-interactive/2026/mar/18/farage-called-release-sean-diddy-combs-praised-effort-free-drug-trafficker</link>
+      <description>Reform UK leader was paid to make remarks about imprisoned rapper and ex-Honduran president in Cameo videosNewly unearthed Nigel Farage videos reveal support for rioter, neo-Nazi event and far-right slogansNigel Farage called for the release of the imprisoned rapper Sean “Diddy” Combs and commended the efforts to free a former Honduran president jailed in the US for drug trafficking.The Reform UK leader was paid to make the remarks on the personalised video platform Cameo, which allows users to</description>
+      <pubDate>2026-03-18T16:00:43+00:00</pubDate>
+      <guid>065a5574656d340a84301b604f59c5ce</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Container Homes in Mauritius- Options and how reliable are they?</title>
+      <link>https://www.reddit.com/r/mauritius/comments/1rx7k9i/container_homes_in_mauritius_options_and_how/</link>
+      <description>Hello. Can anyone with experience around container homes in Mauritius please shed some light on the local options and what to expect in terms of hidden cost? I've seen Velogic and Modulsquare are the main players, with Velogic apparently providing higher end containers (correct me if I am wrong). Is there also a BLP required for such homes?     submitted by    /u/Sufficient-Ad3638   [link] [comments]</description>
+      <pubDate>2026-03-18T15:49:41+00:00</pubDate>
+      <guid>5ad066ff1e6613485dfe7a3269781c77</guid>
+      <source>Reddit - r/mauritius</source>
+      <category>community</category>
       <language>en</language>
     </item>
     <item>
@@ -568,6 +2268,16 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <language>en</language>
     </item>
     <item>
+      <title>China: Beijing AI and robotics expo highlights healthcare-focused smart robots</title>
+      <link>http://www.africanews.com/2026/03/18/china-beijing-ai-and-robotics-expo-highlights-healthcare-focused-smart-robots/</link>
+      <description>Beijing’s International AI Application and Robotics Innovation Exhibition opened on 18 March at the China International Exhibition Center, bringing together companies, researchers and investors.</description>
+      <pubDate>2026-03-18T15:48:24+00:00</pubDate>
+      <guid>8aa343f931a23f0f2caf1dd53eaeb00e</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
       <title>'The longest VAR check in history' - the fallout from shock Afcon decision</title>
       <link>https://www.bbc.com/sport/football/articles/c89k911qkp5o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>BBC Sport journalists and pundits look at what happened at the chaotic Afcon final, and what comes next.</description>
@@ -575,6 +2285,76 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <guid>f6af4a686e17fd5ba67c0ea73ce6b365</guid>
       <source>BBC Africa</source>
       <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Thousands of mourners at funeral of Larijani and other top Iranian security officials</title>
+      <link>http://www.africanews.com/2026/03/18/thousands-of-mourners-at-funeral-of-larijani-and-other-top-iranian-security-officials/</link>
+      <description>Thousands of Iranian mourners attended the funeral of Ali Larijani and other top Iranian security officials, in the capital Tehran, on Wednesday.</description>
+      <pubDate>2026-03-18T15:33:56+00:00</pubDate>
+      <guid>c8cef362324adffbeebf907e19c5076d</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Sudan: RSF reportedly take over town near Chadian border</title>
+      <link>http://www.africanews.com/2026/03/18/sudan-rsf-reportedly-take-over-town-near-chadian-border/</link>
+      <description>Images posted on social media showed fighters from Sudan's paramilitary Rapid Support Forces firing in the air as they celebrated after reportedly seizing the border town of Al-Tina in North Darfur State near Chad, as fighting intensifies across the country's west.</description>
+      <pubDate>2026-03-18T15:33:36+00:00</pubDate>
+      <guid>2ccc64fa495d8d4e1e9c3aa760bab26e</guid>
+      <source>Africanews</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Looking for leverage: China keeps close eye on US politics after summit delay</title>
+      <link>https://www.theguardian.com/us-news/2026/mar/18/looking-for-leverage-china-keeps-close-eye-on-us-politics-after-summit-delay</link>
+      <description>Beijing seeks to decipher effect of Iran war on US midterms and best way to apply pressure when Trump meets XiThe White House said on Wednesday that China had agreed to postpone Donald Trump’s visit to Beijing, as war in the Middle East rages on, complicating the US president’s position at home and abroad.China has not yet commented on the delay to the highly anticipated trip, in which Trump and the Chinese president, Xi Jinping, will meet in person for the first time since October. Trump previo</description>
+      <pubDate>2026-03-18T15:25:18+00:00</pubDate>
+      <guid>031a7cb3ebd602fd223a7af87644f30a</guid>
+      <source>The Guardian World</source>
+      <category>international</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Mozambique Building 'Sustainable Energy Sector'</title>
+      <link>https://allafrica.com/stories/202603180453.html</link>
+      <description>[AIM] Maputo -- Mozambique intends to build &quot;a modern, sustainable and competitive energy sector, capable of driving the economic transformation of our country and contributing to the energy security of the region and the world', declared President Daniel Chapo in Brussels on Tuesday.</description>
+      <pubDate>2026-03-18T15:20:19+00:00</pubDate>
+      <guid>f309356d8306ee993b5830a8d60447b0</guid>
+      <source>AllAfrica - Mozambique</source>
+      <category>regional</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Bienvenu Shelter Provides a Safe Haven for Asylum Seekers</title>
+      <link>https://allafrica.com/stories/202603180428.html</link>
+      <description>[GroundUp] Scalabrinian Missionary Sisters shelter accommodates up to 60 women at a time, providing housing, meals and skills training</description>
+      <pubDate>2026-03-18T15:11:39+00:00</pubDate>
+      <guid>80fa4723c055d629f3dbf858c6c3f506</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Parents Stop Classes At Broken-Down Kwazulu-Natal School</title>
+      <link>https://allafrica.com/stories/202603180427.html</link>
+      <description>[GroundUp] Babanango Primary School has been closed since Monday due to protests by parents</description>
+      <pubDate>2026-03-18T15:11:20+00:00</pubDate>
+      <guid>c43d0a6294b8b1c46d877b8407139af6</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
+      <language>en</language>
+    </item>
+    <item>
+      <title>Dozens Evicted From Informal Settlement Opposite Cape Town Stadium</title>
+      <link>https://allafrica.com/stories/202603180426.html</link>
+      <description>[GroundUp] DA Ward Councillor Nicola Jowell says the eviction follows a long process of engagement with the group</description>
+      <pubDate>2026-03-18T15:11:07+00:00</pubDate>
+      <guid>0ebd0ed056412ee30c56f704f70678d4</guid>
+      <source>AllAfrica - South Africa</source>
+      <category>africa</category>
       <language>en</language>
     </item>
   </channel>
