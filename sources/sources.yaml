@@ -32,7 +32,7 @@ rss_feeds:
   - name: "AllAfrica"
     url: "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf"
     language: "en"
-    category: "africa"
+    category: "regional"
 
   # TechCabal — pan-African tech, business and finance publication.
   # Covers the same ground as Business Insider Africa (startups, fintech,
@@ -40,7 +40,7 @@ rss_feeds:
   - name: "TechCabal"
     url: "https://techcabal.com/feed/"
     language: "en"
-    category: "africa"
+    category: "regional"
 
 
 
@@ -52,17 +52,18 @@ rss_feeds:
   - name: "Africanews"
     url: "https://www.africanews.com/feed/rss"
     language: "en"
-    category: "africa"
+    category: "regional"
 
   - name: "BBC Africa"
     url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
     language: "en"
-    category: "africa"
+    category: "regional"
 
   # ── India ────────────────────────────────────────────────
-  # National: India domestic politics, economy, society
-  - name: "The Hindu (National)"
-    url: "https://www.thehindu.com/news/national/?service=rss"
+  # Scroll.in — curated independent Indian news, ~15-20 items/day,
+  # politics, economy, society. Much lighter than The Hindu national feed.
+  - name: "Scroll.in"
+    url: "https://feeds.feedburner.com/ScrollinArticles.rss"
     language: "en"
     category: "regional"
 
@@ -83,13 +84,6 @@ rss_feeds:
   # sport, culture and business; French perspective relevant to Mauritian readers
   - name: "France 24"
     url: "https://www.france24.com/en/rss"
-    language: "en"
-    category: "international"
-
-  # The Hindu International — world news from an Indian editorial lens;
-  # distinct perspective on Asia-Pacific, Middle East and South Asia geopolitics
-  - name: "The Hindu (International)"
-    url: "https://www.thehindu.com/news/international/?service=rss"
     language: "en"
     category: "international"
 
@@ -132,22 +126,9 @@ scrapers:
   - name: "Business Insider Africa"
     url: "https://africa.businessinsider.com/"
     language: "en"
-    category: "africa"
+    category: "regional"
 
   # ── Regional neighbour scrapers ──────────────────────────
-  # linfo.re — Réunion's #1 news site (Antenne Réunion TV web portal)
-  # Returns 402 to headless fetchers without browser UA — aggregator.py
-  # User-Agent header should pass. Two sections: island news + Indian Ocean.
-  - name: "Linfo.re Réunion"
-    url: "https://www.linfo.re/la-reunion"
-    language: "fr"
-    category: "regional"
-
-  - name: "Linfo.re Océan Indien"
-    url: "https://www.linfo.re/ocean-indien"
-    language: "fr"
-    category: "regional"
-
 
   # ── Utilities & data ─────────────────────────────────────────
   - name: "Mauritius Met Services"
