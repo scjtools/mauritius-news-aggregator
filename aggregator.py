@@ -860,6 +860,150 @@ def fetch_oilprice_demo(source):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+def _fetch_article_meta(url: str) -> dict:
+    """
+    Fetch a single article page and extract:
+    - article:published_time (or og:article:published_time / datePublished)
+    - og:description or meta description (for summary enrichment)
+
+    Returns dict with keys: published (ISO str or None), summary (str or None)
+    Implements exponential backoff on 429/503.
+    """
+    import time as _time
+
+    delays = [2, 10, 30]  # seconds between retries
+    for attempt, delay in enumerate([0] + delays):
+        if delay:
+            _time.sleep(delay)
+        try:
+            r = requests.get(url, headers=HEADERS, timeout=20)
+            if r.status_code in (429, 503):
+                continue  # retry with next delay
+            if r.status_code != 200:
+                return {"published": None, "summary": None}
+
+            soup = BeautifulSoup(r.text, "html.parser")
+
+            # ── Published date ────────────────────────────────────────────────
+            published = None
+            for attr, name in [
+                ("property", "article:published_time"),
+                ("property", "og:article:published_time"),
+                ("name",     "article:published_time"),
+                ("name",     "datePublished"),
+                ("itemprop", "datePublished"),
+            ]:
+                tag = soup.find("meta", attrs={attr: name})
+                if tag and tag.get("content"):
+                    published = tag["content"].strip()
+                    break
+
+            # Fallback: JSON-LD
+            if not published:
+                import json as _json
+                for script in soup.find_all("script", type="application/ld+json"):
+                    try:
+                        data = _json.loads(script.string or "")
+                        if isinstance(data, dict):
+                            published = data.get("datePublished") or data.get("dateCreated")
+                        elif isinstance(data, list):
+                            for d in data:
+                                if isinstance(d, dict):
+                                    published = d.get("datePublished") or d.get("dateCreated")
+                                    if published:
+                                        break
+                        if published:
+                            break
+                    except Exception:
+                        pass
+
+            # ── Summary ───────────────────────────────────────────────────────
+            summary = None
+            for attr, name in [
+                ("property", "og:description"),
+                ("name",     "description"),
+                ("name",     "twitter:description"),
+            ]:
+                tag = soup.find("meta", attrs={attr: name})
+                if tag and tag.get("content") and len(tag["content"].strip()) > 40:
+                    summary = tag["content"].strip()[:MAX_SUMMARY_CHARS]
+                    break
+
+            return {"published": published, "summary": summary}
+
+        except Exception:
+            continue
+
+    return {"published": None, "summary": None}
+
+
+def enrich_articles(items: list) -> list:
+    """
+    For items where date_verified=False and category='local' (Defimedia, BI Africa):
+    - Fetch the article page
+    - Extract real publication date and summary
+    - If real date is older than 24h: drop the item (stale)
+    - If real date is within 24h: update published + date_verified=True
+    - If fetch fails: keep item as-is (Stage 2 handles conservatively)
+
+    Rate-limited to avoid hammering sources.
+    Capped at MAX_ENRICH_ITEMS fetches per run to keep pipeline fast.
+    """
+    MAX_ENRICH_ITEMS = 40  # max article pages to fetch per run
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=24)
+
+    targets = [
+        i for i, item in enumerate(items)
+        if not item.get("date_verified", True)
+        and item.get("category") == "local"
+        and item.get("url", "").startswith("http")
+    ]
+
+    print(f"  Enriching {min(len(targets), MAX_ENRICH_ITEMS)} / {len(targets)} unverified local items...")
+
+    enriched = 0
+    dropped = 0
+    failed = 0
+    indices_to_drop = []
+
+    for idx in targets[:MAX_ENRICH_ITEMS]:
+        item = items[idx]
+        meta = _fetch_article_meta(item["url"])
+        time.sleep(SCRAPE_SLEEP_SECONDS)
+
+        if meta["published"]:
+            try:
+                # Parse the date — handle both offset-aware and naive
+                from dateutil import parser as _dp
+                pub_dt = _dp.parse(meta["published"])
+                if pub_dt.tzinfo is None:
+                    from datetime import timezone as _tz
+                    pub_dt = pub_dt.replace(tzinfo=_tz.utc)
+
+                if pub_dt < cutoff:
+                    # Genuinely stale — drop it
+                    indices_to_drop.append(idx)
+                    dropped += 1
+                else:
+                    # Fresh — update with real date and summary
+                    items[idx]["published"] = pub_dt.isoformat()
+                    items[idx]["date_verified"] = True
+                    if meta["summary"] and not items[idx].get("summary"):
+                        items[idx]["summary"] = meta["summary"]
+                    enriched += 1
+            except Exception:
+                failed += 1
+        else:
+            failed += 1
+
+    # Drop stale items (in reverse order to preserve indices)
+    for idx in sorted(indices_to_drop, reverse=True):
+        items.pop(idx)
+
+    print(f"    enriched={enriched}, stale_dropped={dropped}, fetch_failed={failed}")
+    return items
+
 def main():
     sources = load_sources()
     all_items = []
@@ -906,6 +1050,10 @@ def main():
 
     all_items = deduplicate(all_items)
     print(f"\nTotal unique items: {len(all_items)}")
+
+    print("Enriching unverified local articles...")
+    all_items = enrich_articles(all_items)
+    print(f"  Total after enrichment: {len(all_items)}")
 
     rss_output = build_rss(all_items)
     with open("feed.xml", "w", encoding="utf-8") as f:
