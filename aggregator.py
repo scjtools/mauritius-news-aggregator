@@ -167,8 +167,15 @@ def scrape_homepage(source):
             if len(title) < 20 or len(title) > 200:
                 continue
             if not url.startswith("http"):
-                base = source["url"].rstrip("/")
-                url = base + ("" if url.startswith("/") else "/") + url.lstrip("/")
+                if url.startswith("/"):
+                    # Absolute path — use scheme+domain only, not the full page URL
+                    from urllib.parse import urlparse
+                    parsed = urlparse(source["url"])
+                    base = f"{parsed.scheme}://{parsed.netloc}"
+                else:
+                    # Relative path — use full page URL as base
+                    base = source["url"].rstrip("/")
+                url = base + "/" + url.lstrip("/")
             if url in seen:
                 continue
             seen.add(url)
