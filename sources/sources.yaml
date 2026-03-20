@@ -51,21 +51,6 @@ rss_feeds:
     category: "regional"
 
   # ── India ────────────────────────────────────────────────
-  # Scroll.in — curated independent Indian news, ~15-20 items/day,
-  # politics, economy, society. Much lighter than The Hindu national feed.
-  # exclude_url_patterns filters out /reel/ (film/TV reviews) and
-  # title-prefixed cultural content (Fiction:, For children:, Review:)
-  - name: "Scroll.in"
-    url: "https://feeds.feedburner.com/ScrollinArticles.rss"
-    language: "en"
-    category: "regional"
-    exclude_url_patterns:
-      - "/reel/"
-    exclude_title_prefixes:
-      - "Fiction:"
-      - "For children:"
-      - "Review:"
-
   # ── International — top stories across all genres ───────────
   # BBC World feed (with sport) via bbc-feeds.danq.dev — strips iPlayer/app
   # promotion noise from BBC's own feed, keeps world news + sport
