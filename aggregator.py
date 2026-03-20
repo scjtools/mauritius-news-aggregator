@@ -84,8 +84,6 @@ def fetch_rss(source):
     try:
         feed = feedparser.parse(source["url"])
         for entry in feed.entries:
-            if max_items and len(items) >= max_items:
-                break
             dt = parse_date(entry)
             if not is_recent(dt):
                 continue
@@ -105,6 +103,10 @@ def fetch_rss(source):
                 "published":    dt.isoformat() if dt else datetime.now(timezone.utc).isoformat(),
                 "date_verified": dt is not None,
             })
+        # Cap AFTER recency filter so max_items means "top N of the last 24h"
+        # Feed order is newest-first, so head-truncation gives the most recent items
+        if max_items:
+            items = items[:max_items]
     except Exception as e:
         print(f"[RSS ERROR] {source['name']}: {e}")
     return items
@@ -457,9 +459,8 @@ def scrape_bulletin(source):
                 paragraphs.append(text)
 
         if paragraphs:
-            # Use up to 800 chars for bulletin (more than standard 500)
-            # to capture full forecast including temperatures
-            bulletin_text = " ".join(paragraphs[:6])[:800]
+            # No character limit — capture the full bulletin
+            bulletin_text = " ".join(paragraphs)
             # Strip the boilerplate intro if present
             bulletin_text = re.sub(
                 r"^Welcome to Mauritius Meteorological Services\s*", "", bulletin_text
