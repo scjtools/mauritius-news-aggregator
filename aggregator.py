@@ -952,6 +952,17 @@ _DATA_CATS = {"weather", "finance", "utilities", "government"}
 _REGIONAL_CAP = 15
 _INTL_CAP     = 15
 
+# Source tier weights for corroboration scoring.
+# Tier-2 editorial outlets that make independent coverage decisions but
+# rarely share stories with other sources get a bonus score so they
+# are not unfairly penalised versus wire aggregators in the cap ranking.
+# Score = distinct_sources + max(tier_bonus across all sources in cluster).
+_SOURCE_TIER_BONUS = {
+    "Business Insider Africa": 1,
+    "TechCabal":               1,
+    "BBC Africa":              1,
+}
+
 # Common words that appear capitalised but are NOT proper nouns.
 # Covers EN titles, FR titles, and common creole/abbreviation patterns.
 _CAP_STOPWORDS = {
@@ -1297,17 +1308,22 @@ def _build_data_digest(data_items: list) -> dict:
 
 def _corroboration_score(item: dict) -> int:
     """
-    Count the number of distinct sources that covered this story.
-    Includes the cluster representative plus any items in its 'related' array.
-    A story covered by 3 sources scores 3; a single-source story scores 1.
-    This is the primary ranking signal for the regional/international pre-filter:
-    multi-source stories are objectively more significant than single-source briefs.
+    Score a cluster by editorial significance.
+    Base score = number of distinct sources that covered the story.
+    Tier bonus = added for editorial outlets that make independent coverage
+    decisions but rarely share stories with other sources (e.g. BI Africa,
+    TechCabal). Without the bonus these would be unfairly ranked below
+    single-source AllAfrica wire briefs that happen to share a topic.
     """
     sources = {item.get("source", "")}
     for rel in item.get("related", []):
         sources.add(rel.get("source", ""))
     sources.discard("")
-    return len(sources)
+    tier_bonus = max(
+        (_SOURCE_TIER_BONUS.get(s, 0) for s in sources),
+        default=0,
+    )
+    return len(sources) + tier_bonus
 
 
 def build_candidates(all_items: list, output_path: str = "candidates.json") -> None:
