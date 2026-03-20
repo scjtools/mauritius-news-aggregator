@@ -1,23 +1,25 @@
 {
   "meta": {
-    "generated_at": "2026-03-20T19:08:00.448238+00:00",
-    "feed_build_date": "Fri, 20 Mar 2026 19:08:00 +0000",
+    "generated_at": "2026-03-20T19:46:30.273819+00:00",
+    "feed_build_date": "Fri, 20 Mar 2026 19:46:30 +0000",
     "item_counts": {
-      "feed_total": 329,
-      "editorial_raw": 321,
-      "after_clustering": 302,
-      "clusters_merged": 19,
+      "feed_total": 297,
+      "editorial_raw": 289,
+      "after_clustering": 271,
+      "clusters_merged": 18,
       "data_items": 8,
       "local": 123,
-      "regional": 108,
-      "international": 66
+      "regional": 15,
+      "regional_dropped": 66,
+      "international": 15,
+      "international_dropped": 52
     },
     "slot_targets": {
       "local": "10–12",
       "regional": "up to 4",
       "international": "up to 4"
     },
-    "notes": "Items are reverse-chronological within each section. Clustering: Pass 1 merges near-identical same-language titles (Jaccard≥0.75); Pass 2 merges cross-language titles sharing ≥2 proper nouns (Jaccard≥0.60). Merged items appear as 'related' arrays. Items sharing ≥2 proper nouns but not merged carry a 'similar_to' hint."
+    "notes": "Local: all items kept. Regional and international: pre-filtered to top 15 / 15 clusters ranked by cross-source corroboration (distinct sources per cluster). Clustering: Pass 1 merges near-identical same-language titles (Jaccard≥0.75); Pass 2 merges cross-language titles sharing ≥2 proper nouns (Jaccard≥0.60). Merged items appear as 'related' arrays. Items sharing ≥2 proper nouns but not merged carry a 'similar_to' hint."
   },
   "editorial": {
     "local": [
@@ -25,38 +27,42 @@
         "id": "afa0a363a6fca97ee30afca38913e4d6",
         "title": "Contribution, fiscalité et attractivité : les défis du secteur bancaire",
         "url": "https://defimedia.info/economiecontribution-fiscalite-et-attractivite-les-defis-du-secteur-bancaire",
-        "summary": "Contribution, fiscalité et attractivité : les défis du secteur bancaire",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.387857+00:00",
+        "published": "2026-03-20T19:46:14.838458+00:00",
         "date_verified": false
       },
       {
         "id": "8be3c07733ee521b9ee169bd639d3994",
         "title": "Finance durable : La BoM alerte sur des risques désormais financiers",
         "url": "https://defimedia.info/economiefinance-durable-la-bom-alerte-sur-des-risques-desormais-financiers",
-        "summary": "Finance durable : La BoM alerte sur des risques désormais financiers",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.387582+00:00",
+        "published": "2026-03-20T19:46:14.838212+00:00",
         "date_verified": false
       },
       {
         "id": "9ed78bee09cfd57fa47cf1d609dea14f",
         "title": "Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois",
         "url": "https://defimedia.info/economieinvestissements-etrangers-maurice-capte-rs-4039-md-en-9-mois",
-        "summary": "Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.387309+00:00",
+        "published": "2026-03-20T19:46:14.837992+00:00",
         "date_verified": false,
         "similar_to": [
           {
             "title": "Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS",
             "source": "Defimedia Économie"
+          },
+          {
+            "title": "Infrastructures, santé, transport : Maurice obtient une ligne de crédit de Rs 21 milliards de l’Inde",
+            "source": "Defimedia Actualités"
           }
         ]
       },
@@ -64,44 +70,44 @@
         "id": "b9feea54148f16e2a311d479021849db",
         "title": "La dette des corps parapublics descend à Rs 61,73 milliards",
         "url": "https://defimedia.info/economiela-dette-des-corps-parapublics-descend-rs-6173-milliards",
-        "summary": "La dette des corps parapublics descend à Rs 61,73 milliards",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.387057+00:00",
+        "published": "2026-03-20T19:46:14.837775+00:00",
         "date_verified": false
       },
       {
         "id": "542626b2e68f7e3784b06133e6ef9a63",
         "title": "Hausse des prix continue - Fruits : l’addition est salée pour les consommateurs",
         "url": "https://defimedia.info/economiehausse-des-prix-continue-fruits-laddition-est-salee-pour-les-consommateurs",
-        "summary": "Hausse des prix continue - Fruits : l’addition est salée pour les consommateurs",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.386806+00:00",
+        "published": "2026-03-20T19:46:14.837551+00:00",
         "date_verified": false
       },
       {
         "id": "9845b5073dc970ff5095950858d9c8dd",
         "title": "Investissements douteux : la BoM et la FSC appellent à la vigilance du public",
         "url": "https://defimedia.info/economieinvestissements-douteux-la-bom-et-la-fsc-appellent-la-vigilance-du-public",
-        "summary": "Investissements douteux : la BoM et la FSC appellent à la vigilance du public",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.386554+00:00",
+        "published": "2026-03-20T19:46:14.837326+00:00",
         "date_verified": false
       },
       {
         "id": "f8cc84fc9d509f457e9cbcd963d429f0",
         "title": "Secteur financier - Affaire Epstein et finance offshore : où se situe Maurice ?",
         "url": "https://defimedia.info/economiesecteur-financier-affaire-epstein-et-finance-offshore-ou-se-situe-maurice",
-        "summary": "Secteur financier - Affaire Epstein et finance offshore : où se situe Maurice ?",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.386286+00:00",
+        "published": "2026-03-20T19:46:14.837108+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -114,16 +120,20 @@
         "id": "780f6619421131ee595423afedc5ad3b",
         "title": "Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS",
         "url": "https://defimedia.info/economiepotentiel-inexploite-rs-21-md-portee-de-main-dans-le-non-hotelier-selon-axys",
-        "summary": "Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.386035+00:00",
+        "published": "2026-03-20T19:46:14.836888+00:00",
         "date_verified": false,
         "similar_to": [
           {
             "title": "Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois",
             "source": "Defimedia Économie"
+          },
+          {
+            "title": "Infrastructures, santé, transport : Maurice obtient une ligne de crédit de Rs 21 milliards de l’Inde",
+            "source": "Defimedia Actualités"
           }
         ]
       },
@@ -131,165 +141,165 @@
         "id": "638afebc3a7bc2346007aebfce50648b",
         "title": "La Banque mondiale en mission à Maurice jusqu’au 13 février",
         "url": "https://defimedia.info/economiela-banque-mondiale-en-mission-maurice-jusquau-13-fevrier",
-        "summary": "La Banque mondiale en mission à Maurice jusqu’au 13 février",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.385781+00:00",
+        "published": "2026-03-20T19:46:14.836667+00:00",
         "date_verified": false
       },
       {
         "id": "5672688fc5de71f133a7fcea2acbbbdb",
         "title": "Entre décembre et janvier : gros pois, pilchards, poulet en baisse, bœuf et mouton en hausse",
         "url": "https://defimedia.info/economieentre-decembre-et-janvier-gros-pois-pilchards-poulet-en-baisse-boeuf-et-mouton-en-hausse",
-        "summary": "Entre décembre et janvier : gros pois, pilchards, poulet en baisse, bœuf et mouton en hausse",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.385523+00:00",
+        "published": "2026-03-20T19:46:14.836446+00:00",
         "date_verified": false
       },
       {
         "id": "efa8463cd701defe59505e7c4952f5a0",
         "title": "Governance with Grit : une formation pour repenser le rôle des professionnels de la gouvernance",
         "url": "https://defimedia.info/economiegovernance-grit-une-formation-pour-repenser-le-role-des-professionnels-de-la-gouvernance",
-        "summary": "Governance with Grit : une formation pour repenser le rôle des professionnels de la gouvernance",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.385221+00:00",
+        "published": "2026-03-20T19:46:14.836213+00:00",
         "date_verified": false
       },
       {
         "id": "7effe0d30bdd158f2d36f2d0554a8c8d",
         "title": "Étude de cas - Tourisme : pourquoi le Sri Lanka devance Maurice sur tous les fronts",
         "url": "https://defimedia.info/economieetude-de-cas-tourisme-pourquoi-le-sri-lanka-devance-maurice-sur-tous-les-fronts",
-        "summary": "Étude de cas - Tourisme : pourquoi le Sri Lanka devance Maurice sur tous les fronts",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.384897+00:00",
+        "published": "2026-03-20T19:46:14.835983+00:00",
         "date_verified": false
       },
       {
         "id": "01e896fbfbf34804b7f31f76791f7e21",
         "title": "De la viande aux pâtes : la facture s’alourdit pour les ménages mauriciens en ce mois de février",
         "url": "https://defimedia.info/economiede-la-viande-aux-pates-la-facture-salourdit-pour-les-menages-mauriciens-en-ce-mois-de-fevrier",
-        "summary": "De la viande aux pâtes : la facture s’alourdit pour les ménages mauriciens en ce mois de février",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.384643+00:00",
+        "published": "2026-03-20T19:46:14.835762+00:00",
         "date_verified": false
       },
       {
         "id": "8b1aa5c520f099beaefc1f8aa2616c05",
         "title": "Nouvelle semaine de repli pour les indices mauriciens",
         "url": "https://defimedia.info/economienouvelle-semaine-de-repli-pour-les-indices-mauriciens",
-        "summary": "Nouvelle semaine de repli pour les indices mauriciens",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.384382+00:00",
+        "published": "2026-03-20T19:46:14.835542+00:00",
         "date_verified": false
       },
       {
         "id": "90fb056346fce441ee69cc670580aebc",
         "title": "Billets, visas, packages…ce qu’il faut savoir pour assister aux matchs du Mondial 2026",
         "url": "https://defimedia.info/economiebillets-visas-packagesce-quil-faut-savoir-pour-assister-aux-matchs-du-mondial-2026",
-        "summary": "Billets, visas, packages…ce qu’il faut savoir pour assister aux matchs du Mondial 2026",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.384099+00:00",
+        "published": "2026-03-20T19:46:14.835306+00:00",
         "date_verified": false
       },
       {
         "id": "5538440cea9f37a80b73b0e040037fb0",
         "title": "Budget de l’État : Rs 91,36 milliards consacrées aux dépenses sociales",
         "url": "https://defimedia.info/economiebudget-de-letat-rs-9136-milliards-consacrees-aux-depenses-sociales",
-        "summary": "Budget de l’État : Rs 91,36 milliards consacrées aux dépenses sociales",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.383802+00:00",
+        "published": "2026-03-20T19:46:14.835085+00:00",
         "date_verified": false
       },
       {
         "id": "25d8644a4f492518312b4351a129c22b",
         "title": "Budget 2026/27 : croissance, inclusion et résilience",
         "url": "https://defimedia.info/economiebudget-202627-croissance-inclusion-et-resilience",
-        "summary": "Budget 2026/27 : croissance, inclusion et résilience",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.383540+00:00",
+        "published": "2026-03-20T19:46:14.834858+00:00",
         "date_verified": false
       },
       {
         "id": "a3f678d084ce0dd45e6e7b2480b32d42",
         "title": "Transition économique : les femmes, le nouveau moteur de la croissance",
         "url": "https://defimedia.info/economietransition-economique-les-femmes-le-nouveau-moteur-de-la-croissance",
-        "summary": "Transition économique : les femmes, le nouveau moteur de la croissance",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.383264+00:00",
+        "published": "2026-03-20T19:46:14.834637+00:00",
         "date_verified": false
       },
       {
         "id": "c0299f65ceb9ae9b0aed40bf225d8523",
         "title": "Construction : du gaspillage à l’économie circulaire",
         "url": "https://defimedia.info/economieconstruction-du-gaspillage-leconomie-circulaire",
-        "summary": "Construction : du gaspillage à l’économie circulaire",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.383003+00:00",
+        "published": "2026-03-20T19:46:14.834408+00:00",
         "date_verified": false
       },
       {
         "id": "8523918fd9c3757fe9ccf6eb45d896ad",
         "title": "Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»",
         "url": "https://defimedia.info/economieshaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un",
-        "summary": "Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»",
+        "summary": "",
         "source": "Defimedia Économie",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:46.382626+00:00",
+        "published": "2026-03-20T19:46:14.834073+00:00",
         "date_verified": false
       },
       {
         "id": "af54f6492efbdec837d5e092caaec70d",
         "title": "Enquête policière : le compagnon de Yogeshwaree Bhunjun désormais suspecté d’être le commanditaire du meurtre, trois autres arrestations",
         "url": "https://defimedia.info/faits-diversenquete-policiere-le-compagnon-de-yogeshwaree-bhunjun-desormais-suspecte-detre-le-commanditaire-du",
-        "summary": "Enquête policière : le compagnon de Yogeshwaree Bhunjun désormais suspecté d’être le commanditaire du meurtre, trois autres arrestations",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.914136+00:00",
+        "published": "2026-03-20T19:46:12.358000+00:00",
         "date_verified": false,
         "related": [
           {
             "title": "Meurtre de Yogeshwaree Bhunjun : trois suspects, accusés de complicité, reconduits en cellule policière",
             "source": "Defimedia Faits Divers",
             "url": "https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-trois-suspects-accuses-de-complicite-reconduits-en-cellule-policiere",
-            "published": "2026-03-20T19:07:43.913865+00:00",
-            "summary": "Meurtre de Yogeshwaree Bhunjun : trois suspects, accusés de complicité, reconduits en cellule policière"
+            "published": "2026-03-20T19:46:12.357770+00:00",
+            "summary": ""
           },
           {
             "title": "Meurtre de Yogeshwaree Bhunjun : deux des trois suspects conduisent les enquêteurs à La Case Noyale",
             "source": "Defimedia Faits Divers",
             "url": "https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-deux-des-trois-suspects-conduisent-les-enqueteurs-la-case-noyale",
-            "published": "2026-03-20T19:07:43.913558+00:00",
-            "summary": "Meurtre de Yogeshwaree Bhunjun : deux des trois suspects conduisent les enquêteurs à La Case Noyale"
+            "published": "2026-03-20T19:46:12.357515+00:00",
+            "summary": ""
           },
           {
             "title": "Meurtre de Yogeshwaree Bhunjun : le propriétaire d’un bateau entendu par la MCIT",
             "source": "Defimedia Faits Divers",
             "url": "https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-le-proprietaire-dun-bateau-entendu-par-la-mcit",
-            "published": "2026-03-20T19:07:43.912728+00:00",
-            "summary": "Meurtre de Yogeshwaree Bhunjun : le propriétaire d’un bateau entendu par la MCIT"
+            "published": "2026-03-20T19:46:12.356823+00:00",
+            "summary": ""
           }
         ],
         "similar_to": [
@@ -311,22 +321,22 @@
         "id": "7401f84741377f12ad73513560d53e18",
         "title": "Importation de cannabis depuis l’Afrique du Sud : trois suspects, dont l’ancien directeur de la Cargo Handling Corporation, arrêtés lors d’une «Controlled Delivery»",
         "url": "https://defimedia.info/faits-diversimportation-de-cannabis-depuis-lafrique-du-sud-trois-suspects-dont-lancien-directeur-de-la-cargo",
-        "summary": "Importation de cannabis depuis l’Afrique du Sud : trois suspects, dont l’ancien directeur de la Cargo Handling Corporation, arrêtés lors d’une «Controlled Delivery»",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.913252+00:00",
+        "published": "2026-03-20T19:46:12.357263+00:00",
         "date_verified": false
       },
       {
         "id": "84dab5d27dc9085ffd669d92b442586c",
         "title": "Meurtre de Yogeshwaree Bhunjun : deux suspects incriminent Arvind Ramchurn, le compagnon de la mère de famille",
         "url": "https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-deux-suspects-incriminent-arvind-ramchurn-le-compagnon-de-la-mere-de",
-        "summary": "Meurtre de Yogeshwaree Bhunjun : deux suspects incriminent Arvind Ramchurn, le compagnon de la mère de famille",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.912991+00:00",
+        "published": "2026-03-20T19:46:12.357043+00:00",
         "date_verified": false,
         "related": [
           {
@@ -356,11 +366,11 @@
         "id": "0c340703deff7185343701d0ced17cb4",
         "title": "Meurtre de Yogeshwaree Bhunjun : les trois suspects en Cour de Pamplemousses",
         "url": "https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-les-trois-suspects-en-cour-de-pamplemousses",
-        "summary": "Meurtre de Yogeshwaree Bhunjun : les trois suspects en Cour de Pamplemousses",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.912453+00:00",
+        "published": "2026-03-20T19:46:12.356589+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -381,22 +391,22 @@
         "id": "865bfe07b209ba6674e81abec1585d96",
         "title": "Goodlands : un homme mortellement agressé au sabre",
         "url": "https://defimedia.info/faits-diversgoodlands-un-homme-mortellement-agresse-au-sabre",
-        "summary": "Goodlands : un homme mortellement agressé au sabre",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.912154+00:00",
+        "published": "2026-03-20T19:46:12.356341+00:00",
         "date_verified": false
       },
       {
         "id": "6eb9e2be7dcae4dc46e3fb08da9b1175",
         "title": "Agression mortelle à Goodlands : fin tragique pour Olivier Pierre Louis",
         "url": "https://defimedia.info/faits-diversagression-mortelle-goodlands-fin-tragique-pour-olivier-pierre-louis",
-        "summary": "Agression mortelle à Goodlands : fin tragique pour Olivier Pierre Louis",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.911898+00:00",
+        "published": "2026-03-20T19:46:12.356122+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -413,30 +423,30 @@
         "id": "723261f9de946392626cbec5bb7417d2",
         "title": "Meurtre à Cité Ste-Claire : la compagne de la victime réclame justice",
         "url": "https://defimedia.info/faits-diversmeurtre-cite-ste-claire-la-compagne-de-la-victime-reclame-justice",
-        "summary": "Meurtre à Cité Ste-Claire : la compagne de la victime réclame justice",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.911626+00:00",
+        "published": "2026-03-20T19:46:12.355890+00:00",
         "date_verified": false
       },
       {
         "id": "cc50fdc4a018b9a3266dca69f04850de",
         "title": "Agression mortelle d’Olivier Pierre Louis à Goodlands : le présumé meurtrier arrêté à bord d’une voiture",
         "url": "https://defimedia.info/faits-diversagression-mortelle-dolivier-pierre-louis-goodlands-le-presume-meurtrier-arrete-bord-dune-voiture",
-        "summary": "Agression mortelle d’Olivier Pierre Louis à Goodlands : le présumé meurtrier arrêté à bord d’une voiture",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.911317+00:00",
+        "published": "2026-03-20T19:46:12.355650+00:00",
         "date_verified": false,
         "related": [
           {
             "title": "Meurtre à Goodlands : l’agresseur d’Olivier Pierre Louis plaide la légitime défense",
             "source": "Defimedia Faits Divers",
             "url": "https://defimedia.info/faits-diversmeurtre-goodlands-lagresseur-dolivier-pierre-louis-plaide-la-legitime-defense",
-            "published": "2026-03-20T19:07:43.910255+00:00",
-            "summary": "Meurtre à Goodlands : l’agresseur d’Olivier Pierre Louis plaide la légitime défense"
+            "published": "2026-03-20T19:46:12.354753+00:00",
+            "summary": ""
           }
         ],
         "similar_to": [
@@ -454,22 +464,22 @@
         "id": "583ba990af019542bf66b52667908798",
         "title": "Collision à Goodlands : un motocycliste succombe à ses blessures",
         "url": "https://defimedia.info/faits-diverscollision-goodlands-un-motocycliste-succombe-ses-blessures",
-        "summary": "Collision à Goodlands : un motocycliste succombe à ses blessures",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.911056+00:00",
+        "published": "2026-03-20T19:46:12.355428+00:00",
         "date_verified": false
       },
       {
         "id": "fc42818ebb24c72541f50c2b1cf930e5",
         "title": "Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»",
         "url": "https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-37-ans-imteaze-peeroo-dokter-inn-ed-nou-pou-met-lekor-dan-loto",
-        "summary": "Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.910800+00:00",
+        "published": "2026-03-20T19:46:12.355200+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -490,11 +500,11 @@
         "id": "512adbf0bf6862f63e08a30b4454c32c",
         "title": "Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain",
         "url": "https://defimedia.info/faits-diversagression-mortelle-goodlands-jean-guillano-bundhoo-reconduit-en-cellule-policiere-jusqua-mardi",
-        "summary": "Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.910532+00:00",
+        "published": "2026-03-20T19:46:12.354975+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -511,63 +521,63 @@
         "id": "33f4e09b9017542d90df926b5351ffb3",
         "title": "Drame à la prison de Melrose : un détenu reconnaît avoir frappé Andy Selmour",
         "url": "https://defimedia.info/faits-diversdrame-la-prison-de-melrose-un-detenu-reconnait-avoir-frappe-andy-selmour",
-        "summary": "Drame à la prison de Melrose : un détenu reconnaît avoir frappé Andy Selmour",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.909995+00:00",
+        "published": "2026-03-20T19:46:12.354530+00:00",
         "date_verified": false
       },
       {
         "id": "6587f5488e1857e7db8b924c70a46fb0",
         "title": "Accident mortel à Belle-Étoile, Trou-d’Eau-Douce : Allaghen Tamby, 75 ans, fauché par une voiture en revenant de la prière",
         "url": "https://defimedia.info/faits-diversaccident-mortel-belle-etoile-trou-deau-douce-allaghen-tamby-75-ans-fauche-par-une-voiture-en",
-        "summary": "Accident mortel à Belle-Étoile, Trou-d’Eau-Douce : Allaghen Tamby, 75 ans, fauché par une voiture en revenant de la prière",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.909732+00:00",
+        "published": "2026-03-20T19:46:12.354294+00:00",
         "date_verified": false
       },
       {
         "id": "a8ad45daa458ebf2279df11e8a5ac040",
         "title": "Violence domestique : trois femmes agressées",
         "url": "https://defimedia.info/faits-diversviolence-domestique-trois-femmes-agressees",
-        "summary": "Violence domestique : trois femmes agressées",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.909466+00:00",
+        "published": "2026-03-20T19:46:12.354070+00:00",
         "date_verified": false
       },
       {
         "id": "a2e0a73b9ac529846192e426d36481c3",
         "title": "Goodlands - Résidences Sainte-Claire : un dealer soulève la foule contre l’Adsu",
         "url": "https://defimedia.info/faits-diversgoodlands-residences-sainte-claire-un-dealer-souleve-la-foule-contre-ladsu",
-        "summary": "Goodlands - Résidences Sainte-Claire : un dealer soulève la foule contre l’Adsu",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.909178+00:00",
+        "published": "2026-03-20T19:46:12.353842+00:00",
         "date_verified": false
       },
       {
         "id": "2612e7231416e84e63f01d8fdcb3c95c",
         "title": "Soupçons d’enrichissement illicite : un Curepipien arrêté par la FCC",
         "url": "https://defimedia.info/faits-diverssoupcons-denrichissement-illicite-un-curepipien-arrete-par-la-fcc",
-        "summary": "Soupçons d’enrichissement illicite : un Curepipien arrêté par la FCC",
+        "summary": "",
         "source": "Defimedia Faits Divers",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:43.908796+00:00",
+        "published": "2026-03-20T19:46:12.353514+00:00",
         "date_verified": false,
         "related": [
           {
             "title": "Soupçons d’enrichissement illicite : un Curepipien arrêté par la FCC",
             "source": "Defimedia Actualités",
             "url": "https://defimedia.info/actualitessoupcons-denrichissement-illicite-un-curepipien-arrete-par-la-fcc",
-            "published": "2026-03-20T19:07:38.933966+00:00",
-            "summary": "Soupçons d’enrichissement illicite : un Curepipien arrêté par la FCC"
+            "published": "2026-03-20T19:46:07.357144+00:00",
+            "summary": ""
           }
         ]
       },
@@ -575,11 +585,11 @@
         "id": "73e1a5e94f8d91aaec26f9491f183ba8",
         "title": "Partira-partira pas - Navin Ramgoolam et Paul Bérenger : un lundi décisif",
         "url": "https://defimedia.info/politiquepartira-partira-pas-navin-ramgoolam-et-paul-berenger-un-lundi-decisif",
-        "summary": "Partira-partira pas - Navin Ramgoolam et Paul Bérenger : un lundi décisif",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.422002+00:00",
+        "published": "2026-03-20T19:46:09.853343+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -656,11 +666,11 @@
         "id": "34fc071bd1759c496dcfd288e07f8d7c",
         "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
         "url": "https://defimedia.info/politiqueproposition-de-berenger-ramgoolam-richard-duval-nou-atan-nou-gete",
-        "summary": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.421747+00:00",
+        "published": "2026-03-20T19:46:09.853123+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -697,11 +707,11 @@
         "id": "f4e95deb404bff019889de52c7945ca2",
         "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
         "url": "https://defimedia.info/politiquepolitique-rencontre-entre-ramgoolam-et-berenger-ce-lundi",
-        "summary": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.421473+00:00",
+        "published": "2026-03-20T19:46:09.852891+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -750,11 +760,11 @@
         "id": "5c05e6a21d4585a602c7a23d064279e5",
         "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
         "url": "https://defimedia.info/politiquerencontre-au-pmo-pas-daccord-entre-ramgoolam-et-berenger-le-leader-du-mmm-ne-devrait-toutefois-pas",
-        "summary": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.421176+00:00",
+        "published": "2026-03-20T19:46:09.852648+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -803,11 +813,11 @@
         "id": "fccfa8624383579c786b50e1cc815c91",
         "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
         "url": "https://defimedia.info/politiqueberenger-ena-enn-gang-autour-de-li-ramgoolam-pas-tou-dimoune-ki-fer-nou-boukou-boukou-ditor",
-        "summary": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.420917+00:00",
+        "published": "2026-03-20T19:46:09.852401+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -844,11 +854,11 @@
         "id": "ef7646992312dd0ba17f2f291de68378",
         "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
         "url": "https://defimedia.info/politiquesituation-politique-ramgoolam-conserve-les-finances-berenger-garde-le-suspense",
-        "summary": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.420637+00:00",
+        "published": "2026-03-20T19:46:09.852160+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -889,22 +899,22 @@
         "id": "63f23786bb2f661012567047cd65d174",
         "title": "Iran : la répression s'accentue, Trump menace les partenaires de Téhéran de sanctions",
         "url": "https://defimedia.info/politiqueiran-la-repression-saccentue-trump-menace-les-partenaires-de-teheran-de-sanctions",
-        "summary": "Iran : la répression s'accentue, Trump menace les partenaires de Téhéran de sanctions",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.420306+00:00",
+        "published": "2026-03-20T19:46:09.851923+00:00",
         "date_verified": false
       },
       {
         "id": "a7c52d227e288c93cf15c76d3b5e5df2",
         "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
         "url": "https://defimedia.info/politiquepaul-berenger-li-pa-bon-pou-pei-ki-pena-enn-minis-finans-full-fledged",
-        "summary": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.420050+00:00",
+        "published": "2026-03-20T19:46:09.851702+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -945,11 +955,11 @@
         "id": "ad0450c4dc4442652b7e86c93e7eb2ce",
         "title": "Politique : quitter le gouvernement pas à l’ordre du jour du MMM",
         "url": "https://defimedia.info/politiquepolitique-quitter-le-gouvernement-pas-lordre-du-jour-du-mmm",
-        "summary": "Politique : quitter le gouvernement pas à l’ordre du jour du MMM",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.419793+00:00",
+        "published": "2026-03-20T19:46:09.851482+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -966,19 +976,19 @@
         "id": "168d6a654353931a6fddbe877635f0d1",
         "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
         "url": "https://defimedia.info/politiquesituation-politique-paul-berenger-sera-present-vendredi-au-conseil-des-ministres",
-        "summary": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.419535+00:00",
+        "published": "2026-03-20T19:46:09.851252+00:00",
         "date_verified": false,
         "related": [
           {
             "title": "Paul Bérenger annonce sa démission : ce qu’il faut retenir",
             "source": "Defimedia Actualités",
             "url": "https://defimedia.info/actualitespaul-berenger-annonce-sa-demission-ce-quil-faut-retenir",
-            "published": "2026-03-20T19:07:38.937871+00:00",
-            "summary": "Paul Bérenger annonce sa démission : ce qu’il faut retenir"
+            "published": "2026-03-20T19:46:07.360410+00:00",
+            "summary": ""
           },
           {
             "title": "Paul Bérenger quitte le gouvernement",
@@ -1031,11 +1041,11 @@
         "id": "19258baba5dee4683ba0fc76ef39c29c",
         "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
         "url": "https://defimedia.info/politiquecomite-central-du-mmm-ce-samedi-paul-berenger-devrait-plaider-pour-un-retour-au-calme",
-        "summary": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.419260+00:00",
+        "published": "2026-03-20T19:46:09.851032+00:00",
         "date_verified": false,
         "related": [
           {
@@ -1097,11 +1107,11 @@
         "id": "f502d15b18f7c9fe8f2856c825650843",
         "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
         "url": "https://defimedia.info/politiquepaul-berenger-jai-recommande-au-comite-central-que-nous-restions-au-gouvernement",
-        "summary": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.418996+00:00",
+        "published": "2026-03-20T19:46:09.850806+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -1142,44 +1152,44 @@
         "id": "79d34de177ec8111d841591c380d1551",
         "title": "Tensions politiques : le monde des affaires en attente d’un apaisement et d’un vrai redémarrage",
         "url": "https://defimedia.info/politiquetensions-politiques-le-monde-des-affaires-en-attente-dun-apaisement-et-dun-vrai-redemarrage",
-        "summary": "Tensions politiques : le monde des affaires en attente d’un apaisement et d’un vrai redémarrage",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.418727+00:00",
+        "published": "2026-03-20T19:46:09.850582+00:00",
         "date_verified": false
       },
       {
         "id": "a52a32eb2e13cbc197484687dc3d27be",
         "title": "Réforme électorale : le MSM déplore le manque de propositions concrètes du gouvernement",
         "url": "https://defimedia.info/politiquereforme-electorale-le-msm-deplore-le-manque-de-propositions-concretes-du-gouvernement",
-        "summary": "Réforme électorale : le MSM déplore le manque de propositions concrètes du gouvernement",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.418466+00:00",
+        "published": "2026-03-20T19:46:09.850348+00:00",
         "date_verified": false
       },
       {
         "id": "90304cd7bb5f56710b67ba0d6dbb971a",
         "title": "Bérenger : «Apre le 12 mars mo pou ena boukou kitsoz pou dir ki mo pa pe kapav dir akoz mo dan gouvernman»",
         "url": "https://defimedia.info/politiqueberenger-apre-le-12-mars-mo-pou-ena-boukou-kitsoz-pou-dir-ki-mo-pa-pe-kapav-dir-akoz-mo-dan",
-        "summary": "Bérenger : «Apre le 12 mars mo pou ena boukou kitsoz pou dir ki mo pa pe kapav dir akoz mo dan gouvernman»",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.418177+00:00",
+        "published": "2026-03-20T19:46:09.850113+00:00",
         "date_verified": false
       },
       {
         "id": "f9d31e8b329453b170a0a010e00a7ff1",
         "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
         "url": "https://defimedia.info/politiquekeep-trying-paul-berenger-reste-evasif-sur-son-eventuel-depart-du-gouvernement",
-        "summary": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.417873+00:00",
+        "published": "2026-03-20T19:46:09.849856+00:00",
         "date_verified": false,
         "related": [
           {
@@ -1229,19 +1239,19 @@
         "id": "dded1f59c4633119c125c735aa09e661",
         "title": "Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »",
         "url": "https://defimedia.info/politiqueberenger-mo-pou-gete-sipa-mo-pou-demisyone-dime-mem-antan-ki-vpm",
-        "summary": "Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.417574+00:00",
+        "published": "2026-03-20T19:46:09.849598+00:00",
         "date_verified": false,
         "related": [
           {
             "title": "Subron sur la démission de Bérenger : « Mo triste zordi, li enn dey less mo fer dey la »",
             "source": "Defimedia Actualités",
             "url": "https://defimedia.info/actualitessubron-sur-la-demission-de-berenger-mo-triste-zordi-li-enn-dey-less-mo-fer-dey-la",
-            "published": "2026-03-20T19:07:38.937573+00:00",
-            "summary": "Subron sur la démission de Bérenger : « Mo triste zordi, li enn dey less mo fer dey la »"
+            "published": "2026-03-20T19:46:07.360145+00:00",
+            "summary": ""
           }
         ],
         "similar_to": [
@@ -1255,11 +1265,11 @@
         "id": "81358e914f17e25fffec6750a35ce993",
         "title": "Comité central du MMM : suivez notre fil rouge",
         "url": "https://defimedia.info/politiquecomite-central-du-mmm-suivez-notre-fil-rouge",
-        "summary": "Comité central du MMM : suivez notre fil rouge",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.417255+00:00",
+        "published": "2026-03-20T19:46:09.849325+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -1272,19 +1282,19 @@
         "id": "e15f849ad769ca21d4b02a68cf919ffe",
         "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
         "url": "https://defimedia.info/politiquepolitique-16-des-18-elus-du-mmm-restent-au-sein-du-gouvernement-la-decision-de-joanna-berenger",
-        "summary": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.416946+00:00",
+        "published": "2026-03-20T19:46:09.849064+00:00",
         "date_verified": false,
         "related": [
           {
             "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
             "source": "Defimedia Actualités",
             "url": "https://defimedia.info/actualitespolitique-16-des-18-elus-du-mmm-restent-au-sein-du-gouvernement-la-decision-de-joanna-berenger",
-            "published": "2026-03-20T19:07:38.933692+00:00",
-            "summary": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue"
+            "published": "2026-03-20T19:46:07.356910+00:00",
+            "summary": ""
           }
         ],
         "similar_to": [
@@ -1318,19 +1328,19 @@
         "id": "bcbc5fa365b4041f2bc1e384e7d13f33",
         "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
         "url": "https://defimedia.info/politiquepolitique-paul-berenger-annonce-quil-demissionnera-du-mmm-dans-les-jours-venir",
-        "summary": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
+        "summary": "",
         "source": "Defimedia Politique",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:41.416526+00:00",
+        "published": "2026-03-20T19:46:09.848692+00:00",
         "date_verified": false,
         "related": [
           {
             "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
             "source": "Defimedia Actualités",
             "url": "https://defimedia.info/actualitespolitique-paul-berenger-annonce-quil-demissionnera-du-mmm-dans-les-jours-venir",
-            "published": "2026-03-20T19:07:38.932620+00:00",
-            "summary": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir"
+            "published": "2026-03-20T19:46:07.356104+00:00",
+            "summary": ""
           }
         ],
         "similar_to": [
@@ -1389,47 +1399,36 @@
         ]
       },
       {
-        "id": "44527f8cccc7c552af55cb8eb4d28cad",
-        "title": "La FCD maintient le procès contre Rohit Aukle",
-        "url": "https://defimedia.info/actualitesla-fcd-maintient-le-proces-contre-rohit-aukle",
-        "summary": "La FCD maintient le procès contre Rohit Aukle",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T19:07:38.938141+00:00",
-        "date_verified": false
-      },
-      {
         "id": "3cf79591f35e6a52fd1c8119640e3074",
         "title": "Bhadain sur la démission de Bérenger : « L’Histoire retiendra qu’il a fait preuve d’un courage que d’autres n’ont pas eu »",
         "url": "https://defimedia.info/actualitesbhadain-sur-la-demission-de-berenger-lhistoire-retiendra-quil-fait-preuve-dun-courage-que-dautres",
-        "summary": "Bhadain sur la démission de Bérenger : « L’Histoire retiendra qu’il a fait preuve d’un courage que d’autres n’ont pas eu »",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.937271+00:00",
+        "published": "2026-03-20T19:46:07.359894+00:00",
         "date_verified": false
       },
       {
         "id": "44f497e2d376deef899272d839306416",
         "title": "Bhagwan après la démission de Bérenger : « Se koltar kinn fer mwa, se militan kinn fer mwa »",
         "url": "https://defimedia.info/actualitesbhagwan-apres-la-demission-de-berenger-se-koltar-kinn-fer-mwa-se-militan-kinn-fer-mwa",
-        "summary": "Bhagwan après la démission de Bérenger : « Se koltar kinn fer mwa, se militan kinn fer mwa »",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.937000+00:00",
+        "published": "2026-03-20T19:46:07.359663+00:00",
         "date_verified": false
       },
       {
         "id": "f36fdc45de7a9f4100f46e66df11cf8d",
         "title": "Cinq problèmes que la guerre avec l’Iran pourrait résoudre pour Benjamin Netanyahu",
         "url": "https://defimedia.info/actualitescinq-problemes-que-la-guerre-avec-liran-pourrait-resoudre-pour-benjamin-netanyahu",
-        "summary": "Cinq problèmes que la guerre avec l’Iran pourrait résoudre pour Benjamin Netanyahu",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.936709+00:00",
+        "published": "2026-03-20T19:46:07.359422+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -1442,55 +1441,55 @@
         "id": "188fd93df49a1158fdc672387cfcfc10",
         "title": "Production locale : le thé plonge, le sucre recule, le lait sauve la mise",
         "url": "https://defimedia.info/actualitesproduction-locale-le-plonge-le-sucre-recule-le-lait-sauve-la-mise",
-        "summary": "Production locale : le thé plonge, le sucre recule, le lait sauve la mise",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.936405+00:00",
+        "published": "2026-03-20T19:46:07.359194+00:00",
         "date_verified": false
       },
       {
         "id": "697f3d77ab50960334b76629f86d73ea",
         "title": "Plus de 12 000 bébés à Maurice en un an",
         "url": "https://defimedia.info/actualitesplus-de-12-000-bebes-maurice-en-un",
-        "summary": "Plus de 12 000 bébés à Maurice en un an",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.936109+00:00",
+        "published": "2026-03-20T19:46:07.358973+00:00",
         "date_verified": false
       },
       {
         "id": "d4dadd860f4cb815c44568d84a8819e8",
         "title": "Au Cœur de l’Info - Crise politique : les retombées de la démission de Bérenger",
         "url": "https://defimedia.info/actualitesau-coeur-de-linfo-crise-politique-les-retombees-de-la-demission-de-berenger",
-        "summary": "Au Cœur de l’Info - Crise politique : les retombées de la démission de Bérenger",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.935850+00:00",
+        "published": "2026-03-20T19:46:07.358754+00:00",
         "date_verified": false
       },
       {
         "id": "ff35bf00b92a8f6a2f4424fab80681d2",
         "title": "La guerre coûte 320 millions de dollars par jour à Israël",
         "url": "https://defimedia.info/actualitesla-guerre-coute-320-millions-de-dollars-par-jour-israel",
-        "summary": "La guerre coûte 320 millions de dollars par jour à Israël",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.935582+00:00",
+        "published": "2026-03-20T19:46:07.358531+00:00",
         "date_verified": false
       },
       {
         "id": "f9ead8d468eb95f88dfef48b5ec5cc3c",
         "title": "Démission de Paul Bérenger- Kushal Lobine : « Tout départ n’est pas souhaitable »",
         "url": "https://defimedia.info/actualitesdemission-de-paul-berenger-kushal-lobine-tout-depart-nest-pas-souhaitable",
-        "summary": "Démission de Paul Bérenger- Kushal Lobine : « Tout départ n’est pas souhaitable »",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.935287+00:00",
+        "published": "2026-03-20T19:46:07.358301+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -1531,22 +1530,22 @@
         "id": "550509942e8d1f6e0fda25e586a655ee",
         "title": "Rapport de l'Audit 2024-2025 : plus de Rs 57 millions versées au titre du ‘Reward Money’",
         "url": "https://defimedia.info/actualitesrapport-de-laudit-2024-2025-plus-de-rs-57-millions-versees-au-titre-du-reward-money",
-        "summary": "Rapport de l'Audit 2024-2025 : plus de Rs 57 millions versées au titre du ‘Reward Money’",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.935026+00:00",
+        "published": "2026-03-20T19:46:07.358081+00:00",
         "date_verified": false
       },
       {
         "id": "ecd6c05c08fe80d267da11c1a48020b9",
         "title": "Secteur bancaire : Absa Maurice introduit une carte virtuelle multidevise",
         "url": "https://defimedia.info/actualitessecteur-bancaire-absa-maurice-introduit-une-carte-virtuelle-multidevise",
-        "summary": "Secteur bancaire : Absa Maurice introduit une carte virtuelle multidevise",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.934764+00:00",
+        "published": "2026-03-20T19:46:07.357853+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -1559,33 +1558,33 @@
         "id": "895541a28d8f76ae8e7548c14a738cbb",
         "title": "Amisha : l’art du Mehendi au bout des doigts",
         "url": "https://defimedia.info/actualitesamisha-lart-du-mehendi-au-bout-des-doigts",
-        "summary": "Amisha : l’art du Mehendi au bout des doigts",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.934501+00:00",
+        "published": "2026-03-20T19:46:07.357627+00:00",
         "date_verified": false
       },
       {
         "id": "3cad0fe63bffcdd954aaafa2bada24a4",
         "title": "Suspension de trois filiales de PwC par la Banque mondiale",
         "url": "https://defimedia.info/actualitessuspension-de-trois-filiales-de-pwc-par-la-banque-mondiale",
-        "summary": "Suspension de trois filiales de PwC par la Banque mondiale",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.934227+00:00",
+        "published": "2026-03-20T19:46:07.357401+00:00",
         "date_verified": false
       },
       {
         "id": "e8fb64118b365ce0e7c12d060df17a54",
         "title": "[Info Soirée] : « Navin Ramgoolam inn byen fer dominer ar nu »",
         "url": "https://defimedia.info/actualitesinfo-soiree-navin-ramgoolam-inn-byen-fer-dominer-ar-nu",
-        "summary": "[Info Soirée] : « Navin Ramgoolam inn byen fer dominer ar nu »",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.933382+00:00",
+        "published": "2026-03-20T19:46:07.356651+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -1602,11 +1601,11 @@
         "id": "a64fd63946b883f286318593fc089a41",
         "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
         "url": "https://defimedia.info/actualitesramgoolam-sur-la-demission-de-berenger-cest-triste-que-nous-en-soyons-arrives-la-mais-lalliance-du",
-        "summary": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
+        "summary": "",
         "source": "Defimedia Actualités",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T19:07:38.933041+00:00",
+        "published": "2026-03-20T19:46:07.356381+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -1636,6 +1635,27 @@
           {
             "title": "Bérenger Resigns as Deputy Prime Minister Following Call with Ramgoolam",
             "source": "News Moris"
+          }
+        ]
+      },
+      {
+        "id": "476e58d260e70efb5a78fc4c7159edee",
+        "title": "Infrastructures, santé, transport : Maurice obtient une ligne de crédit de Rs 21 milliards de l’Inde",
+        "url": "https://defimedia.info/actualitesinfrastructures-sante-transport-maurice-obtient-une-ligne-de-credit-de-rs-21-milliards-de-linde",
+        "summary": "",
+        "source": "Defimedia Actualités",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-20T19:46:07.355746+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois",
+            "source": "Defimedia Économie"
+          },
+          {
+            "title": "Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS",
+            "source": "Defimedia Économie"
           }
         ]
       },
@@ -2353,63 +2373,87 @@
     ],
     "regional": [
       {
-        "id": "4d110a6d081a7212cfed3f7d0abe130b",
-        "title": "Power dispute forces shutdown of Africa’s second-largest aluminium smelter",
-        "url": "https://africa.businessinsider.com/local/markets/power-dispute-forces-shutdown-of-africas-second-largest-aluminum-smelter/ke63vme",
-        "summary": "Power dispute forces shutdown of Africa’s second-largest aluminium smelter",
+        "id": "78f7f025bd5b4021fea228add6c1107b",
+        "title": "French billionaire Bolloré to stand trial on corruption charges regarding African port deals",
+        "url": "https://africa.businessinsider.com/local/leaders/french-billionaire-bollore-to-stand-trial-on-corruption-charges-regarding-african/990jbns",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.683312+00:00",
+        "published": "2026-03-20T19:46:17.237444+00:00",
+        "date_verified": false,
+        "related": [
+          {
+            "title": "French tycoon Vincent Bolloré to stand trial in ‘African ports’ corruption case",
+            "source": "Africanews",
+            "url": "http://www.africanews.com/2026/03/20/french-tycoon-vincent-bollore-to-stand-trial-in-african-ports-corruption-case/",
+            "published": "2026-03-20T11:10:52+00:00",
+            "summary": "French industrialist Vincent Bolloré will stand trial in December before the Paris criminal court in the so‑called “African ports” case."
+          }
+        ]
+      },
+      {
+        "id": "4d110a6d081a7212cfed3f7d0abe130b",
+        "title": "Power dispute forces shutdown of Africa’s second-largest aluminium smelter",
+        "url": "https://africa.businessinsider.com/local/markets/power-dispute-forces-shutdown-of-africas-second-largest-aluminum-smelter/ke63vme",
+        "summary": "",
+        "source": "Business Insider Africa",
+        "language": "en",
+        "category": "regional",
+        "published": "2026-03-20T19:46:17.240530+00:00",
         "date_verified": false
       },
       {
         "id": "62ad14d1bf35e0149fb2b15b99142a4d",
         "title": "Africa’s top diamond producer Botswana shuts down U.S. base rumors at key air base",
         "url": "https://africa.businessinsider.com/local/lifestyle/africas-top-diamond-producer-botswana-shuts-down-us-base-rumors-at-key-air-base/gmslcxr",
-        "summary": "Africa’s top diamond producer Botswana shuts down U.S. base rumors at key air base",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.683140+00:00",
+        "published": "2026-03-20T19:46:17.240344+00:00",
         "date_verified": false
       },
       {
         "id": "8a9befc53ab547a28954a5a75311421a",
         "title": "Ibrahim Traore's govt begins computer recycling to boost digital inclusion in Burkina Faso",
         "url": "https://africa.businessinsider.com/local/markets/ibrahim-traores-govt-begins-computer-recycling-to-boost-digital-inclusion-in-burkina/nt8wnwm",
-        "summary": "Ibrahim Traore's govt begins computer recycling to boost digital inclusion in Burkina Faso",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.682969+00:00",
+        "published": "2026-03-20T19:46:17.240196+00:00",
         "date_verified": false
       },
       {
         "id": "403a7c31fc8a6e0d4a5ed8df08ea8069",
         "title": "Africa’s biggest airline opens $50m terminal as it moves to handle travel surge",
         "url": "https://africa.businessinsider.com/local/markets/ethiopian-airlines-opens-dollar50m-terminal-to-handle-travel-surge/6wh7y50",
-        "summary": "Africa’s biggest airline opens $50m terminal as it moves to handle travel surge",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.682731+00:00",
+        "published": "2026-03-20T19:46:17.239993+00:00",
         "date_verified": false
       },
       {
         "id": "371da6e233e03dbd13be50bb49434673",
         "title": "Counder Conference 2026 brings African legends, OpenAI and 500 global leaders to Cape Town",
         "url": "https://africa.businessinsider.com/local/careers/counder-conference-2026-brings-african-legends-openai-and-500-global-leaders-to-cape/qkbrk6d",
-        "summary": "Counder Conference 2026 brings African legends, OpenAI and 500 global leaders to Cape Town",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.681992+00:00",
+        "published": "2026-03-20T19:46:17.239364+00:00",
         "date_verified": false,
         "similar_to": [
           {
             "title": "Is the US a realistic career option for African professionals in 2026?",
             "source": "Business Insider Africa"
+          },
+          {
+            "title": "South Africa: What Cape Town Is Spending On Homes, Roads and the N2 Wall",
+            "source": "AllAfrica"
           }
         ]
       },
@@ -2417,11 +2461,11 @@
         "id": "6a7678a3b5d8c0a0305d591008cfd479",
         "title": "Is the US a realistic career option for African professionals in 2026?",
         "url": "https://africa.businessinsider.com/local/careers/is-the-us-a-realistic-career-option-for-african-professionals-in-2026/t5czf4v",
-        "summary": "Is the US a realistic career option for African professionals in 2026?",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.681814+00:00",
+        "published": "2026-03-20T19:46:17.239205+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -2438,97 +2482,77 @@
         "id": "e71c3eff92972518725f8db31c1f2fce",
         "title": "5 Tech leaders reveal biggest opportunities for women in Africa’s tech sector",
         "url": "https://africa.businessinsider.com/local/careers/5-tech-leaders-reveal-biggest-opportunities-for-women-in-africas-tech-sector/wm99mgj",
-        "summary": "5 Tech leaders reveal biggest opportunities for women in Africa’s tech sector",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.681565+00:00",
+        "published": "2026-03-20T19:46:17.238995+00:00",
         "date_verified": false
       },
       {
         "id": "9131cd41637fd7e54a35160e5eac0900",
         "title": "How this product leader scaled one of the fastest-growing grocery platforms",
         "url": "https://africa.businessinsider.com/local/leaders/how-this-product-leader-scaled-one-of-the-fastest-growing-grocery-platforms/y1h01db",
-        "summary": "How this product leader scaled one of the fastest-growing grocery platforms",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.681139+00:00",
+        "published": "2026-03-20T19:46:17.238649+00:00",
         "date_verified": false
       },
       {
         "id": "f924d54f78f8b3a2a0b867ae719be534",
         "title": "Inside the lavish lifestyle of ex-Gambian president as probe links $362 million in public funds to jets, luxury cars and properties",
         "url": "https://africa.businessinsider.com/local/leaders/inside-the-lavish-lifestyle-of-ex-gambian-president-as-probe-links-dollar362-million/elc4bvw",
-        "summary": "Inside the lavish lifestyle of ex-Gambian president as probe links $362 million in public funds to jets, luxury cars and properties",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.680961+00:00",
+        "published": "2026-03-20T19:46:17.238496+00:00",
         "date_verified": false
       },
       {
         "id": "40f76488e10d29afdd2d0e6c95d909eb",
         "title": "How African-owned businesses are building influence in global energy and trade",
         "url": "https://africa.businessinsider.com/local/markets/how-african-owned-businesses-are-building-influence-in-global-energy-and-trade/1k2zkl7",
-        "summary": "How African-owned businesses are building influence in global energy and trade",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.680275+00:00",
+        "published": "2026-03-20T19:46:17.237900+00:00",
         "date_verified": false
       },
       {
         "id": "3f76d623ec2f503247952042f64cb720",
         "title": "How Helabet builds trust among the African bettors",
         "url": "https://africa.businessinsider.com/local/lifestyle/how-helabet-builds-trust-among-the-african-bettors/c6pd0m1",
-        "summary": "How Helabet builds trust among the African bettors",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.680098+00:00",
+        "published": "2026-03-20T19:46:17.237749+00:00",
         "date_verified": false
       },
       {
         "id": "0b461f405a0cbca36ca9b47400ea94d0",
         "title": "The rise of ETH gambling sites and Africa’s expanding digital economy",
         "url": "https://africa.businessinsider.com/local/lifestyle/the-rise-of-eth-gambling-sites-and-africas-expanding-digital-economy/l056ctt",
-        "summary": "The rise of ETH gambling sites and Africa’s expanding digital economy",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.679917+00:00",
+        "published": "2026-03-20T19:46:17.237598+00:00",
         "date_verified": false
-      },
-      {
-        "id": "78f7f025bd5b4021fea228add6c1107b",
-        "title": "French billionaire Bolloré to stand trial on corruption charges regarding African port deals",
-        "url": "https://africa.businessinsider.com/local/leaders/french-billionaire-bollore-to-stand-trial-on-corruption-charges-regarding-african/990jbns",
-        "summary": "French billionaire Bolloré to stand trial on corruption charges regarding African port deals",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T19:07:48.679733+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "French tycoon Vincent Bolloré to stand trial in ‘African ports’ corruption case",
-            "source": "Africanews",
-            "url": "http://www.africanews.com/2026/03/20/french-tycoon-vincent-bollore-to-stand-trial-in-african-ports-corruption-case/",
-            "published": "2026-03-20T11:10:52+00:00",
-            "summary": "French industrialist Vincent Bolloré will stand trial in December before the Paris criminal court in the so‑called “African ports” case."
-          }
-        ]
       },
       {
         "id": "7449f6da9ad8d882f8e6ece13484a5f2",
         "title": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
         "url": "https://africa.businessinsider.com/local/markets/south-africa-fights-back-against-cheap-steel-imports-from-china-and-thailand-with-up/72lzm59",
-        "summary": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.679479+00:00",
+        "published": "2026-03-20T19:46:17.237219+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -2548,7 +2572,7 @@
             "source": "AllAfrica"
           },
           {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
+            "title": "South Africa: What Cape Town Is Spending On Homes, Roads and the N2 Wall",
             "source": "AllAfrica"
           }
         ]
@@ -2557,1338 +2581,111 @@
         "id": "75d238e7243d369946608e4281dca46d",
         "title": "A $3.7 billion loss is pushing Botswana to look beyond diamonds",
         "url": "https://africa.businessinsider.com/local/markets/a-dollar37-billion-loss-is-pushing-botswana-to-look-beyond-diamonds/7jt58bs",
-        "summary": "A $3.7 billion loss is pushing Botswana to look beyond diamonds",
+        "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-20T19:07:48.678772+00:00",
+        "published": "2026-03-20T19:46:17.236616+00:00",
         "date_verified": false
-      },
-      {
-        "id": "a592cdc3e4ed7cfbf0ccff767348a8e6",
-        "title": "Top 10 happiest countries in Africa in 2026, according to latest ranking",
-        "url": "https://africa.businessinsider.com/local/lifestyle/top-10-happiest-countries-in-africa-in-2026-according-to-latest-ranking/gx4lj60",
-        "summary": "Top 10 happiest countries in Africa in 2026, according to latest ranking",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T19:07:48.678588+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "397a9751137eed77e0aaacf2f5ae5418",
-        "title": "Energy leaders from Nigeria, 4 other African countries head to the US to address power sector challenges",
-        "url": "https://africa.businessinsider.com/local/lifestyle/energy-leaders-from-nigeria-4-other-african-countries-head-to-the-us-to-address-power/exg108n",
-        "summary": "Energy leaders from Nigeria, 4 other African countries head to the US to address power sector challenges",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T19:07:48.678386+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Is the US a realistic career option for African professionals in 2026?",
-            "source": "Business Insider Africa"
-          },
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "056c5018187449be724855830ad5f7c2",
-        "title": "African governments turn to Dangote refinery as war disrupts fuel markets and supplies run low",
-        "url": "https://africa.businessinsider.com/local/markets/african-governments-turn-to-dangote-refinery-as-war-disrupts-fuel-markets-and/259fjpf",
-        "summary": "African governments turn to Dangote refinery as war disrupts fuel markets and supplies run low",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T19:07:48.678015+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "85b3d14c789fcb9a31fa46b468eefb85",
-        "title": "Liverpool condemns 'dehumanising, cowardly' racist abuse of Ibrahima Konate",
-        "url": "http://www.africanews.com/2026/03/20/liverpool-condemns-dehumanising-cowardly-racist-abuse-of-ibrahima-konate/",
-        "summary": "Liverpool defender Ibrahima Konate was the target of “vile and abhorrent” racist abuse online, the Premier League club said Friday.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T17:41:29+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "73e975c3b33e94aac56f5a6636d9950e",
-        "title": "Rescued cheetahs find refuge in Somaliland amid trafficking crisis",
-        "url": "http://www.africanews.com/2026/03/20/rescued-cheetahs-find-refuge-in-somaliland-amid-trafficking-crisis/",
-        "summary": "Inside a guarded sanctuary on the savannah, 127 rescued cheetahs pace, stretch and play — survivors of a brutal illegal trade that is pushing the species toward the brink.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T17:14:09+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "b8472e3523f51551b46330f5846292bf",
-        "title": "Alliance of Sahel states outraged at EU demand to free Niger's president",
-        "url": "http://www.africanews.com/2026/03/20/alliance-of-sahel-states-outraged-at-eu-demand-to-free-nigers-president/",
-        "summary": "The European parliament voted last week to pass a resolution demanding the \"immediate\" release of Niger's former president Mohamed Bazoum, who was ousted in a coup in 2023 and has been detained ever since. The Alliance of Sahel states reacted with indignation.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T16:39:09+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "3f9aeac9759b0aca4024db565c59d26c",
-        "title": "Africa: How Morocco Is Redrawing Africa's Avocado Trade Map",
-        "url": "https://allafrica.com/stories/202603200455.html",
-        "summary": "[Independent (Kampala)] Africa exported roughly 430,000 tonnes of avocados in 2025, but the balance of power moved north. Preliminary 2025 data show a decisive shift in volumes, logistics strategy, and market access, signalling how infrastructure and route stability now matter as much as farm output.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T16:36:16+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Africa: African Football Boss Defends Ruling That Gave Cup of Nations Title to Morocco",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "cd4e6c63cff4bc35e97274871affee4f",
-        "title": "Zimbabwe: Senator Challenges Impact of Global Wars On Zimbabwe Fuel Costs",
-        "url": "https://allafrica.com/stories/202603200454.html",
-        "summary": "[263Chat] Zanu PF's Uzumba Maramba Pfungwe (UMP) Senator Jerry Gotora has questioned why fuel prices remain high in the country, arguing that existing local production and infrastructure should be helping to keep costs down.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T16:33:12+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Zimbabwe: Zimbabwe Fuel Costs Among Highest in the Region - MPs Demand Clarity From Energy Minister",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "72f02d9692583afbc3254292b7fc8fd1",
-        "title": "Nigeria: Ex-Rep Member Dumps PDP for ADC in Cross River",
-        "url": "https://allafrica.com/stories/202603200451.html",
-        "summary": "[Premium Times] The News Agency of Nigeria reports that multiple defections to the ADC are gradually reshaping Cross River's political landscape ahead of the 2027 general elections.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T16:32:15+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "213754aafcbc17c76728d9933f958ecd",
-        "title": "Iran threatens to target recreational and tourist sites worldwide",
-        "url": "http://www.africanews.com/2026/03/20/iran-threatens-to-target-recreational-and-tourist-sites-worldwide/",
-        "summary": "Iran threatened to target recreational and tourist sites worldwide and insisted it was still building missiles",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T16:32:02+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c51321e392c5f4b186152e46e7329511",
-        "title": "Price of premium petrol rises by Rs 2 per litre amid conflict in West Asia",
-        "url": "https://scroll.in/latest/1091521/price-of-premium-petrol-rises-to-rs-2-per-litre-amid-conflict-in-west-asia?utm_source=rss&utm_medium=public",
-        "summary": "However, the prices of regular petrol and diesel did not change.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T16:08:23+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Rush Hour: Sixth Indian dies in West Asia, HC refuses to quash FIR against ‘Mohammad’ Deepak  & more",
-            "source": "Scroll.in"
-          },
-          {
-            "title": "Indian dies in Saudi Arabia, sixth to be killed in West Asia conflict so far",
-            "source": "Scroll.in"
-          }
-        ]
-      },
-      {
-        "id": "21cec003dd70f8de3a715e87702d7f70",
-        "title": "Sudanese artists rebuild cultural life in wartime shelter",
-        "url": "http://www.africanews.com/2026/03/20/sudanese-artists-rebuild-cultural-life-in-wartime-shelter/",
-        "summary": "In a school-turned-shelter on the Red Sea coast, music rises above the hardships of war as displaced Sudanese artists recreate a sense of community and purpose.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T15:37:36+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "0a94ee43d3a0938bf9aa0fb6312a73ef",
-        "title": "New WTO report: high oil, gas prices serious challenge for trade growth",
-        "url": "http://www.africanews.com/2026/03/20/new-wto-report-high-oil-gas-prices-serious-challenge-for-trade-growth/",
-        "summary": "The World Trade Organization warned Thursday that prolonged high oil and gas prices in 2026 would \"shave off\" growth from an already grim trade forecast.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T15:13:11+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "138707936db2a8c89aee33bd574f0877",
-        "title": "Nigerian Muslims mark End of Ramadan with Eid al-Fitr prayers",
-        "url": "http://www.africanews.com/2026/03/20/nigerian-muslims-mark-end-of-ramadan-with-eid-al-fitr-prayers/",
-        "summary": "Muslims in Nigeria and around the world marked the end of the fasting month of Ramadan and ushered in the holiday of Eid al-Fitr on Friday with prayers.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T15:05:58+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "1616e0b844b968a38b1b361d680cff16",
-        "title": "New law brings gig workers under Centre’s ESI social security scheme. But there are challenges",
-        "url": "https://scroll.in/article/1091112/new-law-brings-gig-workers-under-centres-esi-social-security-scheme-but-there-are-challenges?utm_source=rss&utm_medium=public",
-        "summary": "Inclusion in the work-linked health insurance programme will have to account for volatile incomes, an increase in working hours with no fixed timings.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T14:46:56+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "cdbf82637ac32838e30a1212aab24149",
-        "title": "Burkina Faso’s tomato export ban raises concerns over regional supply",
-        "url": "http://www.africanews.com/2026/03/20/burkina-fasos-tomato-export-ban-raises-concerns-over-regional-supply/",
-        "summary": "Burkina Faso’s decision to ban the export of fresh tomatoes is drawing attention across West Africa, with traders and consumers watching closely for possible effects on supply and prices.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T14:31:06+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "bf23adb21a412326dc4e284aa5bef55c",
-        "title": "Ladakh’s tourist economy tumbles after string of disruptions",
-        "url": "https://scroll.in/article/1091200/ladakhs-tourist-economy-tumbles-after-string-of-disruptions?utm_source=rss&utm_medium=public",
-        "summary": "From the Pahalgam terror attack to floods and statehood protests, the Union Territory has had fewer visitors during its main tourist season.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T14:00:02+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "132a2830ba86e94f3c2d18e37fdcfa80",
-        "title": "‘Hooked’ by Asako Yuzuki: A biting tale of female loneliness and obsession",
-        "url": "https://scroll.in/article/1091464/hooked-by-asako-yuzuki-a-biting-tale-of-female-loneliness-and-obsession?utm_source=rss&utm_medium=public",
-        "summary": "Yuzuki’s intense and obsessive novel explores the tensions of female solidarity through women seeking the hope and possibility of connection.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T14:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "569c4b162269535724326afea29341dd",
-        "title": "Nowruz in Tehran: Crowded markets dispte ongoing airstrikes",
-        "url": "http://www.africanews.com/2026/03/20/nowruz-in-tehran-crowded-markets-dispte-ongoing-airstrikes/",
-        "summary": "Iran’s capital Tehran showed signs of cautious activity on 19 March 2026 as residents prepared for Nowruz, despite ongoing US-Israeli strikes that have disrupted daily life since 28 February.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T13:36:37+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "aa3dab5c9955f2eda8fcb38614f2009f",
-        "title": "Cameroon delays parliamentary elections, lawmakers to stay until end 2026",
-        "url": "http://www.africanews.com/2026/03/20/cameroon-delays-parliamentary-elections-lawmakers-to-stay-until-end-2026/",
-        "summary": "Cameroonian lawmakers yet again voted on Thursday to extend their mandate, according to official media.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T13:35:25+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f4721be85e417b0c480906740bc9942e",
-        "title": "Nowruz in London: Iranian diaspora marks spring amid grief over war in Iran",
-        "url": "http://www.africanews.com/2026/03/20/nowruz-in-london-iranian-diaspora-marks-spring-amid-grief-over-war-in-iran/",
-        "summary": "Members of the Iranian diaspora in north London gathered on 20 March to mark Nowruz, the Persian New Year, despite concern over the ongoing war in Iran.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T13:28:17+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "97d2665843293514167c478119fcdb1f",
-        "title": "Rush Hour: Sixth Indian dies in West Asia, HC refuses to quash FIR against ‘Mohammad’ Deepak  & more",
-        "url": "https://scroll.in/latest/1091520/rush-hour-sixth-indian-dies-in-west-asia-hc-refuses-to-quash-fir-against-mohammad-deepak-more?utm_source=rss&utm_medium=public",
-        "summary": "Become a Scroll member to get Rush Hour – a wrap of the day’s important stories delivered straight to your inbox every evening.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T13:27:50+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Price of premium petrol rises by Rs 2 per litre amid conflict in West Asia",
-            "source": "Scroll.in"
-          },
-          {
-            "title": "HC declines to quash case against ‘Mohammad’ Deepak, restrains him from posting on social media",
-            "source": "Scroll.in"
-          },
-          {
-            "title": "Indian dies in Saudi Arabia, sixth to be killed in West Asia conflict so far",
-            "source": "Scroll.in"
-          }
-        ]
-      },
-      {
-        "id": "4bda7e94bc60d08968e1f2d9f1c1405d",
-        "title": "HC declines to quash case against ‘Mohammad’ Deepak, restrains him from posting on social media",
-        "url": "https://scroll.in/latest/1091516/hc-declines-to-quash-case-against-mohammad-deepak-restrains-him-from-posting-on-social-media?utm_source=rss&utm_medium=public",
-        "summary": "The gym owner could affect the investigation if he makes statements or posts videos about it on social media, the Uttarakhand High Court said.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T13:25:27+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Rush Hour: Sixth Indian dies in West Asia, HC refuses to quash FIR against ‘Mohammad’ Deepak  & more",
-            "source": "Scroll.in"
-          }
-        ]
-      },
-      {
-        "id": "22618616d0a31a4c72b16dd1a8c39c3c",
-        "title": "Leading anti‑racism activist in Tunisia jailed for eight years",
-        "url": "https://www.bbc.com/news/articles/clyjg1x7r43o?at_medium=RSS&at_campaign=rss",
-        "summary": "Saadia Mosbah campaigned for migrants, particularly after President Kais Saied said they posed a demographic threat to the country.",
-        "source": "BBC Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T13:17:56+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "2e22286e2df2ec2039fcf9d1d2731390",
-        "title": "Madagascar’s president orders polygraph for aspiring ministers",
-        "url": "http://www.africanews.com/2026/03/20/madagascars-president-orders-polygraph-for-aspiring-ministers/",
-        "summary": "Madagascar's military leader, President Michael Randrianirina, announced Thursday that anyone applying to become a minister in the new government will undergo lie detector tests to screen for corruption—a rare and unprecedented vetting measure.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T13:09:25+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "16a642d0bfc0659107b750bd460a7bcb",
-        "title": "Can you survive on Rs 66 per day? Inside Chhattisgarh’s midday meal workers’ protest",
-        "url": "https://scroll.in/video/1091517/can-you-survive-on-rs-66-per-day-inside-chhattisgarhs-midday-meal-workers-protest?utm_source=rss&utm_medium=public",
-        "summary": "Thousands of midday meal workers from across the state went on a strike demanding better wages.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T13:00:01+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "11d3d91a2401823104dcb56959c9dcec",
-        "title": "Top updates: Refineries in Israel, Kuwait struck, Iran warns of ‘zero restraint’ if energy sites hit",
-        "url": "https://scroll.in/latest/1091504/top-updates-israel-says-haifa-refinery-struck-iran-warns-of-zero-restraint-if-energy-sites-hit?utm_source=rss&utm_medium=public",
-        "summary": "Qatar has said that the attacks on its energy installations would reduce its export capacity of liquefied natural gas by 17%.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:57:33+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "7e2409a074602058227277a43f187c00",
-        "title": "Kenya: Kenya's Finance Minister Defends Infrastructure Fund but Includes Misleading Claims",
-        "url": "https://allafrica.com/stories/202603200242.html",
-        "summary": "[Africa Check] Kenya's finance minister defends infrastructure fund but includes misleading claims",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:52:46+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Kenya: Kenya On Alert As Us-Iran-Israel Tensions Heighten Global Risks - CS Tuya",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "394c4c2b661df1bc961b906f2f3d8db6",
-        "title": "Africa: Haysom's Life 'Marked by an Unwavering Commitment to Justice, Peace, and Constitutionalism'",
-        "url": "https://allafrica.com/stories/202603200228.html",
-        "summary": "[allAfrica] Geneva -- The UN Commission on Human Rights in South Sudan has expressed its profound sorrow at the passing of Nicholas ''Fink'' Haysom, Special Representative of the Secretary-General and Head of the United Nations Mission in South Sudan (UNMISS).",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:45:12+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "b31f00a6161307f1d4272419e38adfeb",
-        "title": "Egyptians attend prayers at a mosque to mark Eid celebrations",
-        "url": "http://www.africanews.com/2026/03/20/egyptians-attend-prayers-at-a-mosque-to-mark-eid-celebrations/",
-        "summary": "Egyptians attended prayers at a mosque in Cairo on Friday to mark the holiday of Eid al-Fitr, and bid farewell to the to the Islamic holy month of Ramadan.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:42:17+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c7a53704e5ec7588c7fece0c703994cb",
-        "title": "Indian dies in Saudi Arabia, sixth to be killed in West Asia conflict so far",
-        "url": "https://scroll.in/latest/1091519/indian-dies-in-saudi-arabia-sixth-to-be-killed-in-west-asia-conflict-so-far?utm_source=rss&utm_medium=public",
-        "summary": "The cause of the Indian citizen’s death in Riyadh on Wednesday was unclear.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:30:57+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Price of premium petrol rises by Rs 2 per litre amid conflict in West Asia",
-            "source": "Scroll.in"
-          },
-          {
-            "title": "Rush Hour: Sixth Indian dies in West Asia, HC refuses to quash FIR against ‘Mohammad’ Deepak  & more",
-            "source": "Scroll.in"
-          }
-        ]
-      },
-      {
-        "id": "bd88795779193200cf3e7c6a7893c38d",
-        "title": "Ghana: Shea Industry Key to 24-Hour Economy",
-        "url": "https://allafrica.com/stories/202603200201.html",
-        "summary": "[Ghanaian Times] THE Northern Regional Minister, Mr Ali Adolf John Mburidiba, yesterday launched the Shea 2026 Conference to collaborate with Ghana's 24-Hour Economy initiative, part of the national strategy designed to boost productivity, create jobs, and drive industry growth to encourage businesses and services to operate round the clock.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:28:20+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "cbf63a3561e516e945c39b6c33aae62c",
-        "title": "Nigeria: Shettima Present As Borno Witnesses Peaceful Eid Prayers Amid Tight Security",
-        "url": "https://allafrica.com/stories/202603200198.html",
-        "summary": "[Vanguard] The 2026 Eid el-Fitr sallah festival was observed peacefully across Maiduguri, the Borno State capital, despite the fear over the renewed bomb explosions and attacks on residents and military formations across the state.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:27:36+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Nigeria: Borno Governor Warns of Possible Suicide Attacks in Maiduguri During Eid",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "7dc7b2994aa9812bedeabfd2e290c1b0",
-        "title": "South Africa: High Court Urged to Permit Damages Claims Against Agrochemicals Giant Upl",
-        "url": "https://allafrica.com/stories/202603200179.html",
-        "summary": "[Daily Maverick] A group of Durban residents has urged the KwaZulu-Natal Division of the High Court to authorise a class action lawsuit against the Indian agrochemicals giant UPL for health injuries and financial damage they allegedly suffered after a toxic pesticide inferno.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:19:40+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
-            "source": "Business Insider Africa"
-          },
-          {
-            "title": "South Africa's traditional circumcision claims dozens of young lives",
-            "source": "Africanews"
-          },
-          {
-            "title": "South Africa: Fuel Runs Dry in Nelson Mandela Bay",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "South Africa: Cederberg Municipality Battles to Keep Up With Sprawling Informal Settlements",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "aa70841928f773d943d9053609ee4bee",
-        "title": "Gulf crisis draws attention to African oil [Business Africa]",
-        "url": "http://www.africanews.com/2026/03/19/gulf-crisis-draws-attention-to-african-oil-business-africa/",
-        "summary": "Unlike crude from the middle east, a lot of African oil does not have to transit vulnerable corridors such as the Strait of Hormuz, where events like war can put a stop to shipping. But years of constrained investment meant African producers cannot pump more and fast enough to cover supply gaps",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:09:48+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: African Football Boss Defends Ruling That Gave Cup of Nations Title to Morocco",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "bd8d6ca56d48b9723710d4ecb7de2d58",
-        "title": "Fiction: When Allauddin Khilji conquers Madurai, the city’s goddess Meenakshi flees to Kumari",
-        "url": "https://scroll.in/article/1090763/fiction-when-allauddin-khilji-conquers-madurai-the-citys-goddess-meenakshi-flees-to-kumari?utm_source=rss&utm_medium=public",
-        "summary": "An excerpt from ‘The Daughter of Kumari’, by Jeyamohan, translated from the Tamil by Suchitra.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T12:00:01+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "689ad099b39df58ac206ff62301864c8",
-        "title": "Delhi HC quashes CBI lookout circulars against NDTV ex-promoters Prannoy, Radhika Roy",
-        "url": "https://scroll.in/latest/1091518/delhi-hc-quashes-cbi-lookout-circulars-against-ndtv-ex-promoters-prannoy-radhika-roy?utm_source=rss&utm_medium=public",
-        "summary": "The notices had been issued against the couple by the Central Bureau of Investigation in connection with first information reports filed in 2017 and 2019.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T11:51:50+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Delhi HC orders ‘Newslaundry’ to take down ‘disparaging’ content about TV Today Group",
-            "source": "Scroll.in"
-          }
-        ]
-      },
-      {
-        "id": "549eb1ed8b852a96a07d5262b818a9da",
-        "title": "UK and Nigeria agree deal to speed up deportations",
-        "url": "http://www.africanews.com/2026/03/20/uk-and-nigeria-agree-deal-to-speed-up-deportations/",
-        "summary": "Nigeria and the United Kingdom have signed a new agreement aimed at accelerating the return of Nigerians without legal status in Britain, including failed asylum seekers, visa overstayers and convicted offenders.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T11:48:03+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Nigeria: Nigeria Signs Deal With UK to Deport Visa Overstayers, Failed Asylum Seekers, Criminals",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "82de2aa1f9a48bc3174f30c0a7b67c3e",
-        "title": "Tunisian anti-racism activist sentenced to eight years in prison",
-        "url": "http://www.africanews.com/2026/03/20/tunisian-anti-racism-activist-sentenced-to-eight-years-in-prison/",
-        "summary": "A Tunisian court on Thursday sentenced anti-racism activist Saadia Mosbah to eight years in prison on financial misconduct charges, a ruling her lawyer condemned as \"shocking\" and politically motivated, marking the latest crackdown on civil society in the North African country.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T11:41:55+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "44819626540d6e0b0ff5288b1f9714fd",
-        "title": "Tanzania: Tanzania Network Pushes to Raise Legal Marriage Age for Girls to 18",
-        "url": "https://allafrica.com/stories/202603200079.html",
-        "summary": "[Daily News] Dar es Salaam -- THE Tanzania Ending Child Marriage Network has pledged to continue advocating for policy reforms to ensure the legal age of marriage for girls is raised to 18 years.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T11:23:51+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c11f040756d0833c1f5da2ff71557747",
-        "title": "Nigeria: Borno Governor Warns of Possible Suicide Attacks in Maiduguri During Eid",
-        "url": "https://allafrica.com/stories/202603200072.html",
-        "summary": "[Premium Times] Governor Babagana Zulum disclosed this in an interview with the BBC Hausa Service, monitored in Damaturu, on Friday",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T11:19:48+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Nigeria: Shettima Present As Borno Witnesses Peaceful Eid Prayers Amid Tight Security",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "b6504a1f3867886bd9ddfd7f8916c164",
-        "title": "Africa: Afreximbank Urges Acceleration of Implementation of the Single Continental Market With AfCFTA Adjustment Fund",
-        "url": "https://allafrica.com/stories/202603200071.html",
-        "summary": "[Afreximbank] On 10 March, the AfCFTA Adjustment Fund Corporation organised a stakeholders' engagement event in Lagos to introduce the AfCFTA Adjustment Fund to Nigerian institutional investors as a catalytic instrument supporting the implementation of the African Continental Free Trade Area (AfCFTA).",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T11:16:42+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "e29818c59bb331bfcdbb278998db0010",
-        "title": "NGOs in DR Congo offer street children skills and hope of a better future",
-        "url": "http://www.africanews.com/2026/03/20/ngos-in-dr-congo-offer-street-children-skills-and-hope-of-a-better-future/",
-        "summary": "Several thousand children are estimated to live on the streets in the Congolese capital, Kinshasa.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T11:11:30+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "585ae1db5992ec65112cd29782aa0d3c",
-        "title": "M-PESA to stop sharing full phone numbers with merchants, banks by year-end",
-        "url": "https://techcabal.com/2026/03/20/m-pesa-to-stop-sharing-full-phone-numbers-with-merchants-banks-by-end-of-2026/",
-        "summary": "Safaricom, Kenya’s largest telecoms operator, plans to extend data minimisation across its mobile money service M-PESA by late 2026, expanding controls that limit the exposure of customer phone numbers in mobile money transactions.",
-        "source": "TechCabal",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T10:44:03+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "cd93234ec22b302618bd59a963963e08",
-        "title": "South Africa's traditional circumcision claims dozens of young lives",
-        "url": "http://www.africanews.com/2026/03/20/south-africas-traditional-circumcision-claims-dozens-of-young-lives/",
-        "summary": "At least 48 boys and young men died during recent initiation ceremonies in South Africa, among them 22-year-old Lamkelo Mtyho, who had no known health issues when he entered a registered school—but never returned.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T10:28:08+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
-            "source": "Business Insider Africa"
-          },
-          {
-            "title": "South Africa: High Court Urged to Permit Damages Claims Against Agrochemicals Giant Upl",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "South Africa: Fuel Runs Dry in Nelson Mandela Bay",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "South Africa: Cederberg Municipality Battles to Keep Up With Sprawling Informal Settlements",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "b5a5b18c3edcdc97517169f4dbc4c703",
-        "title": "Detained at home, not allowed to offer prayers at Jamia Masjid, says Kashmir’s chief cleric",
-        "url": "https://scroll.in/latest/1091512/detained-at-home-not-allowed-to-offer-prayers-at-jamia-masjid-says-kashmirs-chief-cleric?utm_source=rss&utm_medium=public",
-        "summary": "Mirwaiz Umar Farooq alleged that he had been put under ‘arbitrary house arrest’ for the third consecutive Friday during Ramzan.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T10:13:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "32cad3de59475c1742102232cc2c4819",
-        "title": "NCERT textbook row: Centre forms panel to review ‘judicial corruption’ chapter",
-        "url": "https://scroll.in/latest/1091515/ncert-textbook-row-centre-forms-panel-to-review-judicial-corruption-chapter?utm_source=rss&utm_medium=public",
-        "summary": "The committee will include former Supreme Court judges Indu Malhotra and Aniruddha Bose and ex-Attorney General KK Venugopal, the government said.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T10:05:21+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "818e0a1fef52140e8fd2be2b4216506c",
-        "title": "South Africa: Fuel Runs Dry in Nelson Mandela Bay",
-        "url": "https://allafrica.com/stories/202603200045.html",
-        "summary": "[Scrolla] Petroleum companies have started limiting fuel in Nelson Mandela Bay, blaming the Gulf war for putting local supplies at risk.   Oil companies are now charging surcharges on normal prices, from 5c per litre for petrol to around R10 per litre for paraffin.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T10:01:25+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
-            "source": "Business Insider Africa"
-          },
-          {
-            "title": "South Africa: High Court Urged to Permit Damages Claims Against Agrochemicals Giant Upl",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "South Africa's traditional circumcision claims dozens of young lives",
-            "source": "Africanews"
-          },
-          {
-            "title": "South Africa: Cederberg Municipality Battles to Keep Up With Sprawling Informal Settlements",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "d75d783699cf0c1d1d9b24e3bf84a5d7",
-        "title": "Kenya: Nyongo Rallies Kisumu Residents Ahead of Ruto-Museveni SGR Launch",
-        "url": "https://allafrica.com/stories/202603200038.html",
-        "summary": "[Capital FM] Kisumu -- Kisumu Governor Prof. Anyang' Nyong'o has called on residents to turn-out in large numbers for the forthcoming visit by President William Ruto to launch the extension of the Standard Gauge Railway (SGR) from Naivasha to Kisumu.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:56:13+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "918dc8dabfbd193ea887f398a5c4e156",
-        "title": "Tributes pour in from across the world for South African peace advocate",
-        "url": "http://www.africanews.com/2026/03/20/tributes-pour-in-from-across-the-world-for-south-african-peace-advocate/",
-        "summary": "Anti-apartheid activist, human rights campaigner, and constitutional lawyer, Nicholas “Fink” Haysom, died on Wednesday aged 73.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:49:25+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "7d37e1955847634e7be8e4858574af21",
-        "title": "Tunisia: Tunisian Independence - Between Political Negotiations and Armed Resistance",
-        "url": "https://allafrica.com/stories/202603200037.html",
-        "summary": "[Tunis Afrique Presse] Tunis -- March 20, 1956 was not an ordinary date, but a decisive milestone in Tunisia's contemporary history. On that day, after 75 years of French colonial domination, Tunisia broke with a past of subjugation, following the signing in Paris of the independence protocol.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:46:25+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "af0565c27670db4c9bf65ba34ca2269d",
-        "title": "Liberia: Boakai, Senators Tight-Lipped On Conference Amid Insecurity At Liberia-Guinea Border",
-        "url": "https://allafrica.com/stories/202603200035.html",
-        "summary": "[FrontPageAfrica] Monrovia -- President Joseph Boakai and members of the Liberian Senate are maintaining silence over the outcome of a crucial closed door meeting held at the Capitol Building in Monrovia, as unease continues to grow over mounting tensions along the border between Liberia and Guinea.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:44:46+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "0fe2b2e242fd70accef7b1d828321727",
-        "title": "Africa: After Centuries, TB Is Still the Bridesmaid, Never the Bride",
-        "url": "https://allafrica.com/stories/202603200034.html",
-        "summary": "[spotlight] The wins are there but the underlying reality remains, writes Professor Kogie Naidoo as she likens TB to a bridesmaid awaiting its turn to garner attention. The analogy is relevant given the overwhelming number of new TB infections and deaths each year globally for a disease persistently sitting in the shadow of other communicable and non-communicable diseases.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:43:29+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "237192c1a7076706742d055fcdf4c0e8",
-        "title": "Morocco/Senegal: CAF Faces Pressure As Guinea Contests Morocco's 1976 Afcon Win",
-        "url": "https://allafrica.com/stories/202603200033.html",
-        "summary": "[Vanguard] The Guinea Football Federation has urged the Confederation of African Football (CAF) to review the 1976 AFCON outcome, citing Morocco's walkout and a recent ruling against Senegal.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:42:12+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "23c65ac8b9ae105ae970ba4bf278a4ef",
-        "title": "Kenya: Kenya On Alert As Us-Iran-Israel Tensions Heighten Global Risks - CS Tuya",
-        "url": "https://allafrica.com/stories/202603200030.html",
-        "summary": "[Capital FM] Nairobi -- Defence Cabinet Secretary Soipan Tuya has assured Kenyans that the country remains vigilant in the face of evolving global security threats, including developments linked to US- Iran - Israel conflict and wider Middle East instability.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:40:15+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Kenya: Kenya's Finance Minister Defends Infrastructure Fund but Includes Misleading Claims",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: Kenya's Chance to Redefine Africa's Role in Global Ocean Diplomacy",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "61a07b5af2752db92abdcd33fb3c04b7",
-        "title": "Prime Video 2026 slate: ‘Welcome to Khoya Mahal’, ‘Storm’, ‘Matka King’, ‘Mirzapur’ film on the list",
-        "url": "https://scroll.in/reel/1091485/prime-video-2026-slate-welcome-to-khoya-mahal-storm-matka-king-mirzapur-film-on-the-list?utm_source=rss&utm_medium=public",
-        "summary": "Also: new seasons for ‘Farzi’, ‘Dahaad’, ‘Call Me Bae’, ‘Panchayat’, ‘Dupahiya’, ‘Vadhandhi’ and ‘Inspector Rishi’.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:27:54+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "5d60381c2ef6f371c25c592e2697f562",
-        "title": "Rwanda: Rwanda Expands Surgical Access with New Kibungo Teaching Hospital Spoke",
-        "url": "https://allafrica.com/stories/202603200028.html",
-        "summary": "[allAfrica] Rwanda is improving its surgical care with the opening of a newly renovated surgical department at Kibungo Level Two Teaching Hospital, previously known as Kibungo Provincial Referral Hospital - a milestone that brings critical services closer to the community.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:23:36+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "e6eeb334a125a46d3adb8663ae0d2571",
-        "title": "No clandestine activities right now linked to Indian government: Canadian police chief",
-        "url": "https://scroll.in/latest/1091508/no-clandestine-activities-right-now-linked-to-indian-government-canadian-police-chief?utm_source=rss&utm_medium=public",
-        "summary": "The comment came amid a thaw in diplomatic relations between New Delhi and Ottawa following allegations of transnational repression.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:13:18+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "881878fc29dd2982180e97a5e7e72b4a",
-        "title": "Chhattisgarh passes stricter anti-conversion bill with penalties of life term, Rs 25 lakh fine",
-        "url": "https://scroll.in/latest/1091507/chhattisgarh-passes-anti-conversion-bill-with-stricter-punishments?utm_source=rss&utm_medium=public",
-        "summary": "Chief Minister Vishnu Deo Sai said that the current anti-conversion law, which dates back to 1968, had become inadequate in controlling ‘fraudulent practices’.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T09:04:30+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "10b2df1d9cff54be9a45b1ddbc5b2561",
-        "title": "Delhi HC orders ‘Newslaundry’ to take down ‘disparaging’ content about TV Today Group",
-        "url": "https://scroll.in/latest/1091510/delhi-hc-orders-newslaundry-to-take-down-disparaging-content-about-tv-today-group?utm_source=rss&utm_medium=public",
-        "summary": "If the statements are not removed, they will cause serious and irreparable harm to the media conglomerate, the bench held.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T08:54:43+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Delhi HC quashes CBI lookout circulars against NDTV ex-promoters Prannoy, Radhika Roy",
-            "source": "Scroll.in"
-          }
-        ]
-      },
-      {
-        "id": "67d6893c8b6d7508fb2e68610622761a",
-        "title": "Colombia: Torrential rain triggers severe flooding in Facatativá, over 1,000 affected",
-        "url": "http://www.africanews.com/2026/03/20/colombia-torrential-rain-triggers-severe-flooding-in-facatativa-over-1000-affected/",
-        "summary": "Torrential rain that began on 18 March triggered severe flooding in Facatativá, a town 40 km west of Bogotá, affecting more than 1,000 families, according to local authorities.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T08:52:55+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "e3b84426c5d8aae22ddd37306848a6c9",
-        "title": "Tear gas and tension in Jerusalem as Eid prayers held outside al Aqsa",
-        "url": "http://www.africanews.com/2026/03/20/tear-gas-and-tension-in-jerusalem-as-eid-prayers-held-outside-al-aqsa/",
-        "summary": "For the first time in decades, Al Aqsa is closed during Eid al Fitr, forcing Jerusalem worshippers to pray outside amid security tensions and tear gas.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T08:41:08+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "bab43920e5ca256a0da74adcc8b505a6",
-        "title": "Watch: Trump’s Pearl Harbor joke tests US-Japan alliance amid Iran tensions",
-        "url": "http://www.africanews.com/2026/03/20/watch-trumps-pearl-harbor-joke-tests-us-japan-alliance-amid-iran-tensions/",
-        "summary": "Donald Trump joked about Pearl Harbor while urging Sanae Takaichi to expand Japan’s role in securing the Strait of Hormuz, drawing a muted response.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T08:32:14+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "9c44f92fbe53b8ccfcb43b18111ea00a",
-        "title": "African startups are ‘over-mentored, over-trained.’ Rwanda wants to fix that.",
-        "url": "https://techcabal.com/2026/03/20/innovate-rwanda/",
-        "summary": "Rwanda's Ministry of ICT and Innovation launched Innovate Rwanda, a digital platform designed to connect startups, investors, and talent in the country.",
-        "source": "TechCabal",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T08:18:18+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "5d28abd821a9b4d4400e422517c34d82",
-        "title": "For children: A break-in at Mumbai’s Asiatic Society Library may help uncover a rare blue sapphire",
-        "url": "https://scroll.in/article/1091250/for-children-a-break-in-at-mumbais-asiatic-society-library-may-help-uncover-a-rare-blue-sapphire?utm_source=rss&utm_medium=public",
-        "summary": "An excerpt from ‘The Secret of the Star Sapphire: A Daring Treasure Hunting Adventure’, by Monika Bhatkhande.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "802f3e88ebe3f42345f957c010a0acad",
-        "title": "At least 18 African migrants drown off coast of Comoros",
-        "url": "http://www.africanews.com/2026/03/20/at-least-18-african-migrants-drown-off-coast-of-comoros/",
-        "summary": "They were part of a group of about 50 people dropped off by smugglers in the sea, with many unable to swim.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:50:47+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "7d79123ef8317c8b78c05757c5e54a0a",
-        "title": "South Africa: Cederberg Municipality Battles to Keep Up With Sprawling Informal Settlements",
-        "url": "https://allafrica.com/stories/202603200027.html",
-        "summary": "[GroundUp] Almost one in five residents of Clanwilliam and Citrusdal live in informal settlements with limited access to water, sanitation, and refuse removal",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:42:52+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
-            "source": "Business Insider Africa"
-          },
-          {
-            "title": "South Africa: High Court Urged to Permit Damages Claims Against Agrochemicals Giant Upl",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "South Africa's traditional circumcision claims dozens of young lives",
-            "source": "Africanews"
-          },
-          {
-            "title": "South Africa: Fuel Runs Dry in Nelson Mandela Bay",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "348aee0ffcc1eb8cdc5402057929e033",
-        "title": "Chad: Chad Shuts Sudan Border After Drone Strike Kills Civilians in El Tina",
-        "url": "https://allafrica.com/stories/202603200024.html",
-        "summary": "[Dabanga] El Tina / N'djamena / Mabrouka -- Chadian President Mahamat Idriss Déby has ordered the immediate closure of Chad's 1,300-kilometre border with Sudan and placed the military on maximum alert following a deadly drone strike on a border town, yesterday.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:38:33+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "4dec69c2bd781fa406faf79fda4dcd4a",
-        "title": "Sudan: The UK's 'Emergency Brake' On Sudanese Students Is a Cynical Act of Collective Punishment",
-        "url": "https://allafrica.com/stories/202603200023.html",
-        "summary": "[African Arguments] The UK Home Secretary Shabana Mahmood recently announced an \"emergency brake\" on sponsored study visas for nationals from Sudan, Afghanistan, Cameroon and Myanmar. Presented as a crackdown on \"visa abuse\", the policy is framed as a technical adjustment within a broader effort to tighten immigration controls. In reality, it reveals something far more troubling. Sudanese students have become convenient collateral in Britain's domestic immigration politics.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:37:58+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "70034b770d383d50e026f6cbc7bdff6c",
-        "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-        "url": "https://allafrica.com/stories/202603200018.html",
-        "summary": "[The Conversation Africa] The attacks by the US and Israel on Iran, which started on 28 February 2026, upended key supply chains, driving oil prices above US$100 a barrel. The spike followed Iran's closure of the Strait of Hormuz in response to the US and Israeli action. About 20% of the world's oil supplies are transported through the strait.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:34:52+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
-            "source": "Business Insider Africa"
-          },
-          {
-            "title": "Energy leaders from Nigeria, 4 other African countries head to the US to address power sector challenges",
-            "source": "Business Insider Africa"
-          },
-          {
-            "title": "South Africa: High Court Urged to Permit Damages Claims Against Agrochemicals Giant Upl",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Gulf crisis draws attention to African oil [Business Africa]",
-            "source": "Africanews"
-          },
-          {
-            "title": "South Africa's traditional circumcision claims dozens of young lives",
-            "source": "Africanews"
-          },
-          {
-            "title": "South Africa: Fuel Runs Dry in Nelson Mandela Bay",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Tributes pour in from across the world for South African peace advocate",
-            "source": "Africanews"
-          },
-          {
-            "title": "South Africa: Cederberg Municipality Battles to Keep Up With Sprawling Informal Settlements",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: African Football Boss Defends Ruling That Gave Cup of Nations Title to Morocco",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: Kenya's Chance to Redefine Africa's Role in Global Ocean Diplomacy",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "faf06d59096df1ebd60dc73540ceab4a",
-        "title": "Rwanda: Rwanda Takes UK to Court Seeking &#xa3;100m Over Failed Migrant Deal",
-        "url": "https://allafrica.com/stories/202603200016.html",
-        "summary": "[RFI] Rwanda is seeking more than £100 million it says the United Kingdom still owes from a scrapped 2022 deal to deport migrants, in a case that opened on Wednesday at the Permanent Court of Arbitration in The Hague.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:33:45+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Nigeria: Nigeria Signs Deal With UK to Deport Visa Overstayers, Failed Asylum Seekers, Criminals",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "a67f31710629309ef838cb491b3a7ed1",
-        "title": "Africa: African Football Boss Defends Ruling That Gave Cup of Nations Title to Morocco",
-        "url": "https://allafrica.com/stories/202603200014.html",
-        "summary": "[RFI] Africa's top football body on Thursday defended a decision to strip Senegal of the 2025 Africa Cup of Nations title and award it to Morocco after disciplinary rulings over the final. Patrice Motsepe, president of the Confederation of African Football (Caf), said the organisation's disciplinary and appeals panels had acted independently after the final in Rabat on 18 January.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:32:57+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Africa: How Morocco Is Redrawing Africa's Avocado Trade Map",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Gulf crisis draws attention to African oil [Business Africa]",
-            "source": "Africanews"
-          },
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "646bbec167450971944192de0a9ec745",
-        "title": "Africa: 80 Percent of Rural Households Without Direct Water Access - World Water Report",
-        "url": "https://allafrica.com/stories/202603200013.html",
-        "summary": "[IPS] A new United Nations report has warned that global water inequality remains one of the most pressing development challenges of the decade, with billions still lacking safe drinking water and sanitation - while women and girls continue to bear the heaviest burden of water insecurity.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:32:21+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "d42748aaf78dd665782f4390539e90c6",
-        "title": "Africa: Kenya's Chance to Redefine Africa's Role in Global Ocean Diplomacy",
-        "url": "https://allafrica.com/stories/202603200012.html",
-        "summary": "[ISS] As host of the first Our Ocean Conference in Africa, Kenya could pursue a three-pronged strategy to achieve decisive ocean action.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:31:33+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Kenya: Kenya On Alert As Us-Iran-Israel Tensions Heighten Global Risks - CS Tuya",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "Africa: Oil Price Surge Is Hurting African Economies - Scholars in Ethiopia, Kenya, Nigeria, Senegal and South Africa Take Stock",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "8aa9c2c735c29479388d073a528e3f76",
-        "title": "Rupee slumps to record low, breaches 93-mark against US dollar",
-        "url": "https://scroll.in/latest/1091506/rupee-slumps-to-record-low-breaches-93-mark-against-us-dollar?utm_source=rss&utm_medium=public",
-        "summary": "The Indian currency fell 19 paise to an intra-day low of 93.08 in early trade.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:31:23+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "a322710cd457141d9811b41b0edd64ea",
-        "title": "Uganda: Residents Demand Ban On Children in Quarry After Deadly Collapse in Mityana",
-        "url": "https://allafrica.com/stories/202603200010.html",
-        "summary": "[Nile Post] Residents of Minana Village in Mityana District are calling for strict regulations to stop children below the age of 18 from entering stone quarries after a tragic collapse claimed the lives of two young children.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:26:25+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "43a24f37e78db9f0db26dd4ad313bb22",
-        "title": "Zimbabwe: Bishops Warn Constitutional Amendment Bill No. 3 Threatens Zimbabwe's Democracy",
-        "url": "https://allafrica.com/stories/202603200008.html",
-        "summary": "[New Zimbabwe] Zimbabwe's Catholic bishops have raised concerns over the proposed Constitutional Amendment Bill Number 3, saying it may have far-reaching implications on the country's democratic processes.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:22:20+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "9628f4d5da87dd3603d75d9275b402ca",
-        "title": "Zimbabwe: Zimbabwe Fuel Costs Among Highest in the Region - MPs Demand Clarity From Energy Minister",
-        "url": "https://allafrica.com/stories/202603200004.html",
-        "summary": "[New Zimbabwe] PARLIAMENT has demanded that the Minister of Energy and Power Development, July Moyo deliver a ministerial statement following a spike in fuel prices.",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:03:31+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Zimbabwe: Senator Challenges Impact of Global Wars On Zimbabwe Fuel Costs",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "d461ff1eecb7c11ddcde1d62df01f68e",
-        "title": "Nigeria: Nigeria Signs Deal With UK to Deport Visa Overstayers, Failed Asylum Seekers, Criminals",
-        "url": "https://allafrica.com/stories/202603200001.html",
-        "summary": "[Premium Times] PREMIUM TIMES reports that the agreement was signed during President Bola Tinubu's state visit to the UK",
-        "source": "AllAfrica",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T07:00:50+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "UK and Nigeria agree deal to speed up deportations",
-            "source": "Africanews"
-          },
-          {
-            "title": "Rwanda: Rwanda Takes UK to Court Seeking &#xa3;100m Over Failed Migrant Deal",
-            "source": "AllAfrica"
-          }
-        ]
-      },
-      {
-        "id": "40ab1d3ba222c751ed59368b5bbc95fb",
-        "title": "Zimbabwe opposition groups fight against proposed constitutional change",
-        "url": "http://www.africanews.com/2026/03/20/zimbabwe-opposition-groups-fight-against-proposed-constitutional-change/",
-        "summary": "The proposed amendments would extend the presidential term from five to seven years and replace direct presidential elections with a vote by lawmakers.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T06:21:35+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "b4b8906fc76b0f11ffc5553ef16a2d23",
-        "title": "Quick Fire 🔥 with Ibukun Adedeji",
-        "url": "https://techcabal.com/2026/03/20/ibukun-adedeji-quick-fire/",
-        "summary": "Over the past several years, Ibukun has worked across lending, payments, commerce, and investments business areas, building and scaling digital products in complex, high-volume environments. Before Moniepoint, he held product leadership roles at companies including Flutterwave, Sabi, and Lupiya in Zambia, where he worked on credit, payments, and investment products serving emerging markets.",
-        "source": "TechCabal",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T06:20:18+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "4619c58d2daa921f212b9a8d0cdb5f12",
-        "title": "👨🏿‍🚀TechCabal Daily – A Wise move to Nigeria",
-        "url": "https://techcabal.com/2026/03/20/techcabal-daily-a-wise-move-to-nigeria/",
-        "summary": "In today's edition: Quick Fire 🔥 with Ibukun Adedeji || Wise secures regulatory approval from Nigeria || Luno launches prediction markets || Who secured the bag? 💰",
-        "source": "TechCabal",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T06:10:14+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "9930f959a222679d227bbb6fea698e75",
-        "title": "Indian writer Keshava Guha’s novel ‘The Tiger’s Share’ shortlisted for 2026 Climate Fiction Prize",
-        "url": "https://scroll.in/article/1091487/indian-writer-keshava-guhas-novel-the-tigers-share-shortlisted-for-2026-climate-fiction-prize?utm_source=rss&utm_medium=public",
-        "summary": "The winning author will receive a cash prize of £10,000.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T04:38:09+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "5c28ea9b183c523891b2bfb3810489b4",
-        "title": "Why public spaces in India are a minefield for children with intellectual disabilities",
-        "url": "https://scroll.in/article/1091298/why-public-spaces-in-india-are-a-minefield-for-children-with-intellectual-disabilities?utm_source=rss&utm_medium=public",
-        "summary": "In parks, supermarkets, public transport vehicles, and elsewhere, families have to navigate a range of obstacles, from poor design to hostile behaviour.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T04:30:32+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "962214a903e8f5e0c03b7b4cb2c0871b",
-        "title": "Supreme Court dismisses PIL alleging wildlife trade violations by Vantara",
-        "url": "https://scroll.in/latest/1091501/supreme-court-dismisses-pil-alleging-wildlife-trade-violations-by-vantara?utm_source=rss&utm_medium=public",
-        "summary": "The bench noted that similar concerns had already been examined and rejected in September after a court-appointed inquiry.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T03:38:39+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "18f7406b67ee4d2804fa3f40a2ad8593",
-        "title": "After over seven years in jail, court acquits two men of UAPA charges",
-        "url": "https://scroll.in/latest/1091502/after-over-seven-years-in-jail-court-acquits-two-men-of-uapa-charges?utm_source=rss&utm_medium=public",
-        "summary": "The prosecution had failed to prove its case and there was a ‘great deal of doubt’ about the recovery of arms from the accused, said the bench.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T03:36:36+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c630af288a1e9585874459faf7f5ef9a",
-        "title": "Review: ‘Chiraiya’ bluntly confronts marital rape",
-        "url": "https://scroll.in/reel/1091500/review-chiraiya-bluntly-confronts-marital-rape?utm_source=rss&utm_medium=public",
-        "summary": "The six-episode Hindi series is out on JioHotstar.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T03:35:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "11887773cfe55120634a43f3744c93c1",
-        "title": "Empathising with Iran must recognise the internal struggle against religious despotism",
-        "url": "https://scroll.in/article/1091472/empathising-with-iran-must-recognise-the-internal-struggle-against-religious-despotism?utm_source=rss&utm_medium=public",
-        "summary": "The progressive foreign response has often privileged geopolitics and anti-American imperialism at the cost of the struggle for democracy in Iran.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T03:30:01+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c3d371822f6964fccad16beab557a6c6",
-        "title": "Mahad Satyagraha Day: A new book examines what connects Nietzsche, Ambedkar, and the Manusmriti",
-        "url": "https://scroll.in/article/1091478/mahad-satyagraha-day-a-new-book-examines-what-connects-nietzsche-ambedkar-and-the-manusmriti?utm_source=rss&utm_medium=public",
-        "summary": "An excerpt from ‘The Ambedkar–Nietzsche Provocations: The Genius of the Chandala and the Gospel of the Superman’, by Ankit Kawade.",
-        "source": "Scroll.in",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T03:00:01+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "8954e67282484fca4e5b80d2734f0210",
-        "title": "Desperate for food, drought-stricken Kenyans turn to the gingerbread tree",
-        "url": "https://www.bbc.com/news/articles/cvg521yj9lvo?at_medium=RSS&at_campaign=rss",
-        "summary": "Some 26 million people are \"facing extreme hunger\" in Kenya, Ethiopia and Somalia, warns humanitarian organisation Oxfam.",
-        "source": "BBC Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-20T00:06:24+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "017e8c102836036c2b22f899f942777d",
-        "title": "Iranian TV shows man rescued from South Khorasan rubble",
-        "url": "http://www.africanews.com/2026/03/19/iranian-tv-shows-man-rescued-from-south-khorasan-rubble/",
-        "summary": "Red Crescent teams rescue survivors in South Khorasan after reported US-Israeli strikes, as Iran counts rising civilian toll and mounting destruction.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-19T21:52:29+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "37fb065ef582b612d50005d5f401e4fa",
-        "title": "AFCON 2025 title \"cannot be taken away\" from Senegal, says FSF",
-        "url": "http://www.africanews.com/2026/03/19/afcon-2025-title-cannot-be-taken-away-from-senegal-says-fsf/",
-        "summary": "The Senegalese Football Federation (FSF) said Thursday that the Africa Cup title cannot be taken away from Senegal, following a decision by the Confederation of African Football (CAF) to strip the country of its title earlier this week.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-19T20:59:31+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "9bea677296bd5c00191ec6f4bf930b0f",
-        "title": "Congolese citizens welcome Belgian court trial in Lumumba case",
-        "url": "http://www.africanews.com/2026/03/19/congolese-citizens-welcome-belgian-court-trial-in-lumumba-case/",
-        "summary": "Several Congolese citizens welcomed a Belgian court's decision to put 93-year-old former diplomat Etienne Davignon on trial over the killing of independence hero Patrice Lumumba in 1961. Africanews correspondent Chris Ocamringa reports from Kinshasa.",
-        "source": "Africanews",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-19T19:49:58+00:00",
-        "date_verified": true
       }
     ],
     "international": [
+      {
+        "id": "177c12bed615893670642b64736aba9a",
+        "title": "Iran’s Khamenei says enemy ‘defeated’ in written Nowruz message",
+        "url": "https://www.aljazeera.com/news/2026/3/20/irans-khamenei-says-enemy-defeated-in-written-nowruz-message?traffic_source=rss",
+        "summary": "Iran’s supreme leader, president send conciliatory message to countries in the region as they mark the new year.",
+        "source": "Al Jazeera",
+        "language": "en",
+        "category": "international",
+        "published": "2026-03-20T16:38:53+00:00",
+        "date_verified": true,
+        "related": [
+          {
+            "title": "Iran's Khamenei says enemy 'defeated' in Nowruz message",
+            "source": "France 24",
+            "url": "https://www.france24.com/en/video/20260320-iran-s-khamenei-says-enemy-defeated-in-nowruz-message",
+            "published": "2026-03-20T16:31:32+00:00",
+            "summary": "Iran's supreme leader Mojtaba Khamenei on Friday said the enemies of the Islamic republic were being defeated in the war against the US and Israel in a written message for the Persian New Year, Nowruz. The message was read out on Iranian television, with Khamenei yet to appear publicly since the beginning of the war."
+          }
+        ]
+      },
+      {
+        "id": "acaeaeebebc4e32747711bc1589664c5",
+        "title": "Israel says struck Syrian army camps after Druze 'attacked'",
+        "url": "https://www.france24.com/en/video/20260320-israel-says-struck-syrian-army-camps-after-druze-attacked",
+        "summary": "Israel's military said Friday it had struck Syrian army camps in response to what it called attacks against the Druze community in the southern Sweida province, with the Syrian foreign ministry calling it \"an outrageous assault\".",
+        "source": "France 24",
+        "language": "en",
+        "category": "international",
+        "published": "2026-03-20T16:35:29+00:00",
+        "date_verified": true,
+        "related": [
+          {
+            "title": "Israel says it hit Syrian army camps in the south after Druze ‘attacked’",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/3/20/israel-says-it-hit-syrian-army-camps-in-the-south-after-druze-attacked?traffic_source=rss",
+            "published": "2026-03-20T11:46:30+00:00",
+            "summary": "Israeli air strikes target army camps in response to alleged attacks on the Druze community in Suwayda on Thursday."
+          }
+        ],
+        "similar_to": [
+          {
+            "title": "Israel strikes Syria after Druze clashes",
+            "source": "BBC News"
+          }
+        ]
+      },
+      {
+        "id": "c53511044972687a2d48aef87d81d0a4",
+        "title": "QatarEnergy CEO says warned US, industry officials against attack on energy",
+        "url": "https://www.aljazeera.com/news/2026/3/20/qatarenergy-ceo-says-warned-us-industry-officials-against-attack-on-energy?traffic_source=rss",
+        "summary": "QatarEnergy CEO Saad al-Kaabi says he warned US of 'consequences' of attacking Iranian energy infrastructure.",
+        "source": "Al Jazeera",
+        "language": "en",
+        "category": "international",
+        "published": "2026-03-20T19:34:34+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "a4a381006756ede1fb58f28a69e1b4a1",
+        "title": "Trump: No Iranian leaders left to talk to, says war going ‘extremely well’",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/20/trump-no-iranian-leaders-left-to-talk-to-says-war-going-extremely?traffic_source=rss",
+        "summary": "US President Donald Trump said that Iranian leaders are “all gone” and that the White House has “nobody left to talk to.",
+        "source": "Al Jazeera",
+        "language": "en",
+        "category": "international",
+        "published": "2026-03-20T19:22:41+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "f2e01c0d186402d85f9627e5ea5ca72a",
+        "title": "Sri Lanka says it denied US request to land two aircraft at Mattala airport",
+        "url": "https://www.aljazeera.com/news/2026/3/20/sri-lanka-says-it-denied-us-request-to-land-two-aircraft-at-mattala-airport?traffic_source=rss",
+        "summary": "President Anura Kumara Dissanayake says request made on February 26, two days before US and Israel launched war on Iran.",
+        "source": "Al Jazeera",
+        "language": "en",
+        "category": "international",
+        "published": "2026-03-20T19:21:09+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "4ad79eb47c6b148e22fb746ac4c9ec57",
+        "title": "Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86",
+        "url": "https://www.aljazeera.com/news/2026/3/20/walker-texas-ranger-star-and-martial-arts-icon-chuck-norris-dies-at-86?traffic_source=rss",
+        "summary": "A six-time karate champion and action film star, Norris was hospitalised in Hawaii on Thursday for unknown causes.",
+        "source": "Al Jazeera",
+        "language": "en",
+        "category": "international",
+        "published": "2026-03-20T18:58:52+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Action film star Chuck Norris dies, aged 86",
+            "source": "France 24"
+          }
+        ]
+      },
       {
         "id": "ea68755a6a3c96da0aad6e474ee21e8b",
         "title": "Iranians celebrate Persian New Year in first wartime Nowruz in decades",
@@ -3924,8 +2721,8 @@
         ]
       },
       {
-        "id": "e6303c00e0454513cf4437adae7d95b1",
-        "title": "Trump administration seeks billions from Harvard over anti-Semitism claims",
+        "id": "5c319b34dc9257fa9e2356736fded9df",
+        "title": "Trump administration seeks billions from Harvard in anti-Semitism lawsuit",
         "url": "https://www.aljazeera.com/news/2026/3/20/trump-administration-seeks-billions-from-harvard-over-anti-semitism-claims?traffic_source=rss",
         "summary": "Harvard University has rejected the complaint as 'another pretextual and retaliatory action' from the Trump White House.",
         "source": "Al Jazeera",
@@ -3996,6 +2793,12 @@
             "published": "2026-03-20T14:30:05+00:00",
             "summary": "From one studio to another, Chuck Norris turned discipline into legend – a martial arts champion who became the iron-jawed face of \"Walker, Texas Ranger\" and a larger-than-life cultural myth. He died Thursday at 86."
           }
+        ],
+        "similar_to": [
+          {
+            "title": "Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86",
+            "source": "Al Jazeera"
+          }
         ]
       },
       {
@@ -4008,794 +2811,6 @@
         "category": "international",
         "published": "2026-03-20T17:14:39+00:00",
         "date_verified": true
-      },
-      {
-        "id": "177c12bed615893670642b64736aba9a",
-        "title": "Iran’s Khamenei says enemy ‘defeated’ in written Nowruz message",
-        "url": "https://www.aljazeera.com/news/2026/3/20/irans-khamenei-says-enemy-defeated-in-written-nowruz-message?traffic_source=rss",
-        "summary": "Mojtaba Khamenei has not been seen in public since he replaced his slain father as Iran's supreme leader.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:38:53+00:00",
-        "date_verified": true,
-        "related": [
-          {
-            "title": "Iran's Khamenei says enemy 'defeated' in Nowruz message",
-            "source": "France 24",
-            "url": "https://www.france24.com/en/video/20260320-iran-s-khamenei-says-enemy-defeated-in-nowruz-message",
-            "published": "2026-03-20T16:31:32+00:00",
-            "summary": "Iran's supreme leader Mojtaba Khamenei on Friday said the enemies of the Islamic republic were being defeated in the war against the US and Israel in a written message for the Persian New Year, Nowruz. The message was read out on Iranian television, with Khamenei yet to appear publicly since the beginning of the war."
-          }
-        ]
-      },
-      {
-        "id": "9292c1e949eefcb268d8f5c268eab253",
-        "title": "Myth of liberation: As war rages, trapped Iranians 'curse' the regime, the Americans & the Israelis",
-        "url": "https://www.france24.com/en/myth-of-liberation-as-war-rages-trapped-iranians-curse-the-regime-the-americans-the-israelis",
-        "summary": "Haxie Meyers-Belkin is pleased to welcome Borzou Daragahi, award-winning international correspondent and investigative reporter. As Iran marks Nowruz, the Persian New Year, war intrudes into civilian spaces. The psychological terrain is marked less by overt anger than by fatigue, resignation, and a deepening sense of entrapment. A media blackout and communication breakdowns intensify this isolation, eroding social cohesion and amplifying uncertainty. External narratives of “liberation” fail to r",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:37:34+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "acaeaeebebc4e32747711bc1589664c5",
-        "title": "Israel says struck Syrian army camps after Druze 'attacked'",
-        "url": "https://www.france24.com/en/video/20260320-israel-says-struck-syrian-army-camps-after-druze-attacked",
-        "summary": "Israel's military said Friday it had struck Syrian army camps in response to what it called attacks against the Druze community in the southern Sweida province, with the Syrian foreign ministry calling it \"an outrageous assault\".",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:35:29+00:00",
-        "date_verified": true,
-        "related": [
-          {
-            "title": "Israel says it hit Syrian army camps in the south after Druze ‘attacked’",
-            "source": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/3/20/israel-says-it-hit-syrian-army-camps-in-the-south-after-druze-attacked?traffic_source=rss",
-            "published": "2026-03-20T11:46:30+00:00",
-            "summary": "Israeli air strikes target army camps in response to alleged attacks on the Druze community in Suwayda on Thursday."
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Israel strikes Syria after Druze clashes",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "f4a3a4c16b832098d4e9998d28b6e59c",
-        "title": "'No obvious short-term way out' of war, French top diplomat tells Israel",
-        "url": "https://www.france24.com/en/video/20260320-no-obvious-short-term-way-out-of-war-french-top-diplomat-tells-israel",
-        "summary": "Foreign Minister Jean-Noel Barrot said on Friday he did not see an obvious end to ​the conflict in the Middle East in the short-term, but that France and its allies would continue to work towards trying to find a lasting solution. \"There is no obvious short-term ​way out ‌of the ongoing regional escalation, which has in some ways been ⁠unfolding since October 7, 2023. But this must in no way serve as a pretext for inaction,\" Barrot told reporters ‌after meeting with Israeli counterpart Gideon Sa",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:33:51+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c1a39bd2437afc818a778dfe500db50f",
-        "title": "Nasa's Artemis Moon rocket rolls back to pad for possible April launch",
-        "url": "https://www.bbc.com/news/articles/ckgrw045pg7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Nasa is preparing a mission to send astronauts around the Moon for the first time in more than 50 years.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:32:43+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f95c85b16805190cf52bd9675bbb826e",
-        "title": "'Trump could be ready to stop the war at almost any moment,' ex-adviser John Bolton says",
-        "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260320-trump-could-be-ready-to-stop-the-war-at-almost-any-moment-ex-adviser-john-bolton-says",
-        "summary": "In an interview with FRANCE 24, former US national security adviser John Bolton said US President Donald Trump \"could be ready to stop the war at almost any moment\". Bolton also said he remains mystified by Trump's reversal on regime change in Iran and warned that the Iranian opposition is not receiving enough support.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:27:16+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "754ebbbcbd46e3183a3b4c6f22e62e9a",
-        "title": "Could Iran war trigger the next global food shock?",
-        "url": "https://www.aljazeera.com/video/counting-the-cost/2026/3/20/could-iran-war-trigger-the-next-global-food-shock?traffic_source=rss",
-        "summary": "From factories to supermarket shelves, the Iran war is disrupting global supply chains.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:20:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "56fc30a6f8d702210a3a577482eba3d0",
-        "title": "Air raid sirens blare during Eid call to prayer in Kuwait",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/20/air-raid-sirens-blare-during-eid-call-to-prayer-in-kuwait?traffic_source=rss",
-        "summary": "Air raid sirens sounded across Kuwait City as Iran targeted US assets with missiles and drones.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:05:39+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "62c34df78b437aeace48057e099815db",
-        "title": "Israel strikes Syria after Druze clashes",
-        "url": "https://www.bbc.com/news/articles/c248pgn158go?at_medium=RSS&at_campaign=rss",
-        "summary": "Syria condemned the strikes on weapons sites and government infrastructure as an \"outrageous\" assault on Syria's sovereignty.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:02:50+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Israel says struck Syrian army camps after Druze 'attacked'",
-            "source": "France 24"
-          }
-        ]
-      },
-      {
-        "id": "0d3ac473627ec7d861b568baeb9551a8",
-        "title": "New BTS album drops as Seoul gets ready for comeback mega-gig",
-        "url": "https://www.france24.com/en/video/20260320-new-bts-album-drops-as-seoul-gets-ready-for-comeback-mega-gig",
-        "summary": "K-pop megastars BTS released a new album Friday ahead of their open-air comeback concert in Seoul, which is expected to draw around 260,000 people. It will be BTS's first concert after a hiatus of almost four years while all seven members served compulsory military service.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T16:01:35+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "74be64a9bde75b6633e1a8ffe625ca72",
-        "title": "'Harm at a population level': World Happiness Report flags social media's negative impact",
-        "url": "https://www.france24.com/en/technology/20260320-world-happiness-report-highlights-negative-impact-social-media-youth",
-        "summary": "Young people have a “much lower” level of wellbeing than 15 years ago due to the effects of social media use, according to the 2026 edition of the World Happiness Report, which sees Finland maintain its position as the world’s happiest country for the ninth consecutive year.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:51:22+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "d5616ad9f41529f194bdee1e1158e719",
-        "title": "‘Cowards’: Trump slams NATO over lack of support in US–Israel war on Iran",
-        "url": "https://www.aljazeera.com/news/2026/3/20/cowards-trump-slams-nato-over-lack-of-support-in-us-israel-war-on?traffic_source=rss",
-        "summary": "Trump is calling for US allies to help guarantee shipping through the Strait of Hormuz as NATO relocates Iraq personnel.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:49:05+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Are US and Israel aligned on Iran war? Deciphering Trump's post after gas field attacks",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "2d5309b501a153bb3cd7c5c4b47220b9",
-        "title": "Finland is world's happiest country ninth year in a row, UN happiness report finds",
-        "url": "https://www.france24.com/en/video/20260320-finland-is-world-s-happiest-country-ninth-year-in-a-row-un-happiness-report-finds",
-        "summary": "Finland maintains its top position as the world's happiest country for the ninth year running, as it scores 7.764 on a 10-point scale, according to an annual UN-sponsored report. Known for its nature, sauna culture and extensive welfare system, the country's 5.6 million inhabitants generally report a high level of trust in authorities and low levels of inequality.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:48:33+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "9cec03c47a6432306672927dceabeb24",
-        "title": "Dana Lixenberg's personal, political and pared-down portraits",
-        "url": "https://www.france24.com/en/tv-shows/arts24/20260320-dana-lixenberg-s-personal-political-and-pared-down-portraits",
-        "summary": "Her photographs of celebrated personalities, from Toni Morrison to Tupac Shakur, have become iconic images. Dana Lixenberg tells us about three decades of providing her unique perspective on the United States and the evolution of a society she first started documenting in the 1990s. As her major, monographic exhibition \"American Images\" opens at the Maison Européenne de la Photo in Paris, the Dutch photographer tells us about being surprised by the enduring success of her beautiful black-and-whi",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:47:10+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f89368852d4d8757d1a8edd762bb5db6",
-        "title": "Guardiola sidesteps Arsenal League Cup final rivalry as ‘world collapses’",
-        "url": "https://www.aljazeera.com/sports/2026/3/20/guardiola-sidesteps-arsenal-rivalry-while-world-is-going-to-collapse?traffic_source=rss",
-        "summary": "Manchester City boss Pep Guardiola refuses to talk rivalry with Arsenal at a time when 'the world is going to collapse'.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:47:05+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "4c97453e9a03338523fc92882e87b1f1",
-        "title": "What US-Israeli targets reveal about Iran war goals three weeks in",
-        "url": "https://www.aljazeera.com/news/2026/3/20/what-us-israeli-targets-reveal-about-iran-war-goals-three-weeks-in?traffic_source=rss",
-        "summary": "From degradation of military to efforts to foment unrest, targets show array of objectives but no single endgame.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:35:06+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "e2cac3d9b28741281b54208241363dd7",
-        "title": "🔴 Live: Iran's Mojtaba Khamenei issues defiant statement on Persian New Year as blasts rock Tehran",
-        "url": "https://www.france24.com/en/middle-east/20260320-middle-east-war-live-israel-strikes-tehran-persian-new-year-energy-markets",
-        "summary": "",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:34:27+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Iran: From Khamenei to Khamenei",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "'You can't smell Nowruz in the air': Iran marks Persian new year under threat of strikes",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "f353070289a66f7545f605090528c905",
-        "title": "Hungary's Orbán accused of disloyalty and blackmail over Ukraine loan veto",
-        "url": "https://www.bbc.com/news/articles/cq6jrvgqeejo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Hungarian leader says a pipeline carrying Russian oil through Ukraine to Hungary must be repaired before any funds can be released.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:34:19+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f2374fac4e4382b649ecc14362f25656",
-        "title": "Despite decapitation, Iran’s regime endures: Does Hormuz blockade give Tehran the upper hand?",
-        "url": "https://www.france24.com/en/despite-decapitation-iran-s-regime-endures-does-hormuz-blockade-give-tehran-the-upper-hand",
-        "summary": "William Hilderbrandt is pleased to welcome Paul Taylor, Senior Visiting Fellow in the Europe in the World Programme and a member of the Defence/Security EUrope project. He is also a freelance columnist for The Guardian. Amid the Strait of Hormuz blockade, Mr. Taylor argues that even overwhelming force cannot guarantee safety when asymmetric tools, such as drones and decentralised command structures, remain effective. At its core, he contends that reopening the Strait is not a technical or logist",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:33:12+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c16bd4f0d13e6cef9645d164cda20c02",
-        "title": "Publisher cancels horror novel's release over AI claims",
-        "url": "https://www.bbc.com/news/articles/c5y9d44jj24o?at_medium=RSS&at_campaign=rss",
-        "summary": "Author Mia Ballard denies having used AI herself when writing the horror story Shy Girl.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:30:58+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "b5293a646a78c99207590e990d73da41",
-        "title": "Norway's crown princess breaks silence, claiming she was 'manipulated and deceived' by Epstein",
-        "url": "https://www.bbc.com/news/articles/cde5y63y3n7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Crown Princess Mette Marit tells Norwegian TV she wishes she had never met the late sex offender.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:30:28+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "093e4ad075662bbce7e37f8e12da1c5f",
-        "title": "Switzerland halts US arms exports amid Iran war, citing neutrality",
-        "url": "https://www.aljazeera.com/news/2026/3/20/switzerland-announces-halt-to-weapons-exports-to-us-amid-iran-war?traffic_source=rss",
-        "summary": "Move comes as Swiss government also closed its airspace to US military flights directly linked to the Iran war.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:29:24+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Iran video said to show US F-35 being hit",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "Russia, China and the US – the global winners and losers of the Iran war",
-            "source": "BBC News"
-          },
-          {
-            "title": "Are US and Israel aligned on Iran war? Deciphering Trump's post after gas field attacks",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "d622f0e55ba78051f551cfacd179d3c6",
-        "title": "Japan's PM walks tightrope in high-stakes Washington visit",
-        "url": "https://www.france24.com/en/tv-shows/access-asia/20260320-japan-s-pm-walks-tightrope-in-high-stakes-washington-visit",
-        "summary": "Japanese Prime Minister Sanae Takaichi travelled to Washington hoping to strengthen ties with the United States. The visit turned into a delicate balancing act amid US President Donald Trump's growing pressure on allies to help the US in the Iran war. Yuka Royer discusses the visit with James Schoff, Senior Director at the Sasakawa Peace Foundation USA.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:27:05+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Trump makes Pearl Harbor remark in meeting with Japan's PM",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "a718312786ee070d81cc6ff6051f04bd",
-        "title": "'Not our war': Palestinians caught in the crossfire of Middle East war",
-        "url": "https://www.france24.com/en/video/20260320-not-our-war-palestinians-caught-in-the-crossfire-of-middle-east-war",
-        "summary": "Four women were killed in the occupied #WestBank following missile fire from #Iran - the first Palestinian victims of the Middle East #war since it started on February 28. For Palestinians, it is yet another conflict they find themselves caught up in, with little protection.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:20:26+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "What is France hoping to achieve with FM's Middle East visit?",
-            "source": "France 24"
-          }
-        ]
-      },
-      {
-        "id": "fbe03659fdcfb4d64eb93212b28c9c45",
-        "title": "US easing ban on Iranian oil would signal ‘beginning of the end of war’",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/20/us-easing-ban-on-iranian-oil-would-signal-beginning-of-the-end-of?traffic_source=rss",
-        "summary": "The US says it is considering removing sanctions on Iranian oil stranded on tankers at sea.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T15:12:02+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "7b42fb6fb9e1b8b9e12271611c8f8e0d",
-        "title": "Europe's housing crisis: Is the EU plan up to the job?",
-        "url": "https://www.france24.com/en/tv-shows/talking-europe/20260320-europe-s-housing-crisis-is-the-eu-plan-up-to-the-job",
-        "summary": "MEPs recently approved a key report on housing, with the stated aim of securing decent, sustainable and affordable housing. They are responding to an EU-wide crisis in which property prices jumped by 15.5 percent between 2021 and 2024, according to Eurostat. That has frozen out millions of people looking to get onto the property ladder. Rental prices have continued to go up as well. Housing is a competence of member states, but there has been a push to do more at the EU level. We debate just how",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T14:50:36+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "ec5e395f69f46bcc7d27600cebd7a2cd",
-        "title": "Will Russian oil be the biggest winner in the US-Israel war on Iran?",
-        "url": "https://www.aljazeera.com/features/2026/3/20/will-russian-oil-be-the-biggest-winner-in-the-us-israel-war-on-iran?traffic_source=rss",
-        "summary": "The price of Russian Urals has soared in recent weeks. How Russia - and other energy producing nations - could profit.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T14:48:43+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "3fdfd1cfa025e664f6b878ba9871988c",
-        "title": "French jihadist sentenced to life in jail over IS group genocide of Iraq's Yazidis",
-        "url": "https://www.france24.com/en/middle-east/20260320-french-jihadist-sentenced-to-life-in-jail-over-is-group-genocide-of-iraq-s-yazidis",
-        "summary": "A court in France has sentenced jihadist Sabri Essid for his part in \"the genocide perpetrated by the Islamic State group\" against Iraq's Yazidi minority, in the first French trial of its kind. Essid is presumed to have been killed in 2018, but without proof of his death he was tried and convicted in absentia.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T14:39:14+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "9e64f77a56b3db97629ee697ad7c82c5",
-        "title": "Zelenskyy says Ukraine wants timeline for next round of Russia talks",
-        "url": "https://www.aljazeera.com/news/2026/3/20/zelenskyy-says-ukraine-wants-timeline-for-next-round-of-russia-talks?traffic_source=rss",
-        "summary": "Volodymyr Zelenskyy says 'clear dates' needed as Ukrainian negotiators prepare for discussions in US.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T14:30:45+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "8b567e938cc2a00731d19bc59ab9a560",
-        "title": "A cultural stroll through Paris with singer Yael Naim and comedian Philippine Delaire",
-        "url": "https://www.france24.com/en/tv-shows/paris-des-arts/20260320-a-cultural-stroll-through-paris-with-singer-yael-naim-and-comedian-philippine-delaire",
-        "summary": "This week Valérie Fayolle sits down with Yael Naim, who takes us round the Gaîté Lyrique, at the beating heart of the Paris cultural scene. She tells us about her seventh album, \"Solaire\", an ode to freedom, imperfection and femininity. Next up is vivacious Philippine Delaire, treading the boards of the Comédie de Paris. The actress and comedian is the star of \"Daddy's Girl\".",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T14:30:09+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f11a912df3dc4596e45c2851785db99d",
-        "title": "Eid al-Fitr celebrations begin under shadow of war",
-        "url": "https://www.france24.com/en/video/20260320-eid-al-fitr-celebrations-begin-under-shadow-of-war",
-        "summary": "Eid al-Fitr, which marks the end of the holy Muslim month of Ramadan, began this Friday in countries across the globe. But in many parts of the world, the celebrations are being overshadowed by war.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T14:18:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "b7081dc2cf64591469979490fd3e045d",
-        "title": "What is France hoping to achieve with FM's Middle East visit?",
-        "url": "https://www.france24.com/en/video/20260320-what-is-france-hoping-to-achieve-with-fm-s-middle-east-visit",
-        "summary": "French Foreign Minister Jean-Noel Barrot visited Israel Friday after a trip to Lebanon's Beirut the day before. It is part of a push by France for Israel to hold direct talks with the Lebanese government in what would be an historic first. But what is France hoping to achieve with the talks? France 24's James Andre takes a look.",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T14:13:01+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "'Not our war': Palestinians caught in the crossfire of Middle East war",
-            "source": "France 24"
-          }
-        ]
-      },
-      {
-        "id": "95a69408ac1f90ac5d89c970b2bc5039",
-        "title": "Ready-to-wear autumn-winter 2026/27 collections: Is fashion still subversive?",
-        "url": "https://www.france24.com/en/tv-shows/fashion/20260320-ready-to-wear-autumn-winter-2026-27-collections-is-fashion-still-subversive",
-        "summary": "Is fashion still subversive? The answer is yes, with the extraordinarily named Matières Fécales label. At Yohji Yamamoto, it's yes, but more delicately. Satoshi Kondo for Issey Miyake, meanwhile, advocates for movement without constraints. Historian-performer Olivier Saillard elevates everyday clothing with his Living Fashion Museum. Lilia Litkovska, from Ukraine, draws inspiration from her war-torn country. And Ludovic Winterstan, for La Fabrique Nomade, believes it's high time we accepted each",
-        "source": "France 24",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T14:11:18+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "34f7b3d4d3b0c8882162216d5531edbb",
-        "title": "Who are the Gulf’s military allies, and how are they helping in Iran war?",
-        "url": "https://www.aljazeera.com/news/2026/3/20/who-are-the-gulfs-military-allies-and-how-are-they-helping-in-iran-war?traffic_source=rss",
-        "summary": "Experts say while Gulf states need support in face of Iranian attacks, it is less clear what their allies can provide.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T13:45:18+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c5d8d084ca2633cf3d0ea2d7282608a3",
-        "title": "Iran video said to show US F-35 being hit",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/20/iran-video-said-to-show-us-f-35-being-hit?traffic_source=rss",
-        "summary": "Iran’s semi-official Tasnim news agency has released military video said to show air defence systems hitting a US F-35.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T13:44:06+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Switzerland halts US arms exports amid Iran war, citing neutrality",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "Russia, China and the US – the global winners and losers of the Iran war",
-            "source": "BBC News"
-          },
-          {
-            "title": "Are US and Israel aligned on Iran war? Deciphering Trump's post after gas field attacks",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "ae4487c4c185fe0bff795e952feb3a55",
-        "title": "Iran’s IRGC says spokesman Ali Mohammad Naini killed in US-Israeli strike",
-        "url": "https://www.aljazeera.com/news/2026/3/20/irans-irgc-says-spokesman-ali-mohammad-naini-killed-in-us-israeli-attack?traffic_source=rss",
-        "summary": "Israeli and US air attacks pound Iran as assassination campaign of country's leadership continues.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T12:44:16+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "63bb093808025049fcef9caaaf86d932",
-        "title": "FIFA World Cup 2026: Security concerns grow in US as funding stalls",
-        "url": "https://www.aljazeera.com/sports/2026/3/20/fifa-world-cup-2026-security-concerns-grow-in-us-as-funding-stalls?traffic_source=rss",
-        "summary": "US preparations fall behind for FIFA World Cup 2026, leading to growing concerns about security risks at events.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T12:37:18+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "abc5ae2416d733c4af6d70af6ea35d44",
-        "title": "Slovenia heads to polls with diverging views on Israel in focus",
-        "url": "https://www.aljazeera.com/news/2026/3/20/slovenia-heads-to-polls-with-diverging-views-on-israel-in-focus?traffic_source=rss",
-        "summary": "Slovenia's election sees the centre-left coalition take on the populist right amid claims of foreign meddling.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T11:51:23+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "00982ebbc93337c65ddb93f15ba61a2d",
-        "title": "Refugee Council questions Australia’s Iran strategy at Women’s Asian Cup",
-        "url": "https://www.aljazeera.com/sports/2026/3/20/refugee-council-questions-australias-iran-strategy-at-womens-asian-cup?traffic_source=rss",
-        "summary": "Women's Asian Cup hosts Australia face criticism for the political tug of war over the Iranian women's football team.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T11:21:01+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "9e77f1cfd5d284f4c475e52ef103695e",
-        "title": "Iran today, Africa tomorrow",
-        "url": "https://www.aljazeera.com/opinions/2026/3/20/iran-today-africa-tomorrow?traffic_source=rss",
-        "summary": "What is being done to Iran today could be done to Africa tomorrow. Africa must reject this illegal war.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T11:08:08+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "8e689881c2bb8c41f3e5bf133a0eff5b",
-        "title": "Iran does not need to close the Strait of Hormuz to disrupt it",
-        "url": "https://www.aljazeera.com/opinions/2026/3/20/iran-does-not-need-to-close-the-strait-of-hormuz-to-disrupt-it?traffic_source=rss",
-        "summary": "The real risk lies not in closure, but in disruption in the strait’s approaches.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T11:05:25+00:00",
-        "date_verified": true,
-        "related": [
-          {
-            "title": "Iran developing a ‘vetting system’ for Strait of Hormuz transit: Report",
-            "source": "Al Jazeera",
-            "url": "https://www.aljazeera.com/news/2026/3/20/iran-developing-a-vetting-system-for-strait-of-hormuz-transit-report?traffic_source=rss",
-            "published": "2026-03-20T10:13:07+00:00",
-            "summary": "Lloyd's List reports that ships could be allowed to pass through 'safe corridor' once they are approved by IRGC."
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Nearly 100 ships pass the Hormuz Strait - who is getting through?",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "29890c42514be8e31385bdf3c78c4c57",
-        "title": "Mexican teen dies while being held in US immigration custody",
-        "url": "https://www.bbc.com/news/articles/cp84n0kn902o?at_medium=RSS&at_campaign=rss",
-        "summary": "Royer Perez-Jimenez died amid a surge of migrant deaths under Donald Trump's immigration crackdown.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T10:57:38+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "d5db49fafddbd2339c0a8a72781a5488",
-        "title": "Trump makes Pearl Harbor remark in meeting with Japan's PM",
-        "url": "https://www.bbc.com/news/articles/c8dlpr074q3o?at_medium=RSS&at_campaign=rss",
-        "summary": "President Trump compared US strikes on Iran to the deadly 1941 Japanese attack and declaration of war as part of World War Two.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T09:55:19+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Japan's PM walks tightrope in high-stakes Washington visit",
-            "source": "France 24"
-          }
-        ]
-      },
-      {
-        "id": "559255e81fab38f1e463034d3fbdd01e",
-        "title": "BTS return from military service - but does their album live up to the hype?",
-        "url": "https://www.bbc.com/news/articles/c070eg32dryo?at_medium=RSS&at_campaign=rss",
-        "summary": "The band's 10th album sees them return to the rebellious, rap-heavy sound of their early days.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T04:04:50+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "5a4e050de651cb4e8f0e487ffabd6a1d",
-        "title": "Australia PM heckled at Sydney mosque Ramadan event",
-        "url": "https://www.bbc.com/news/articles/cz90wy2190go?at_medium=RSS&at_campaign=rss",
-        "summary": "The government's response to the Israel-Gaza war and rising Islamophobia has angered many Muslim Australians.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T02:54:21+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "7e3b0d26d9b08bb3b85bcbb578ef9fbf",
-        "title": "Bachelorette's new season pulled after Taylor Frankie Paul abuse allegations",
-        "url": "https://www.bbc.com/news/articles/cp9vryml4d1o?at_medium=RSS&at_campaign=rss",
-        "summary": "The decision comes after footage emerged appearing to show the reality star in an altercation with her ex-partner.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T01:41:58+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "217012971b30c37291c46afa6f3f1327",
-        "title": "Several injured as turbulence hits Delta flight into Sydney",
-        "url": "https://www.bbc.com/news/articles/c78l572p4n7o?at_medium=RSS&at_campaign=rss",
-        "summary": "Three flight attendants were taken to hospital after the Airbus A350 experienced turbulence during its descent into Sydney Airport.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T01:26:01+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f423d341f21c025be84fc08973fae845",
-        "title": "Gas shortage caused by Iran war may push India back to dirtier fuels",
-        "url": "https://www.bbc.com/news/articles/c1d6vyy9v61o?at_medium=RSS&at_campaign=rss",
-        "summary": "Reports from across India point to rising sales of biomass fuels like firewood and cow dung cakes.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T00:59:29+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "4f95a55affac6267df4995bbef3edec6",
-        "title": "Russia, China and the US – the global winners and losers of the Iran war",
-        "url": "https://www.bbc.com/news/articles/c3wlwnn05zqo?at_medium=RSS&at_campaign=rss",
-        "summary": "As the conflict triggers economic disruption some risk being hit hard, while others stand to benefit.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T00:08:53+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Switzerland halts US arms exports amid Iran war, citing neutrality",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "Iran video said to show US F-35 being hit",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "Are US and Israel aligned on Iran war? Deciphering Trump's post after gas field attacks",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "804f0b575e8d34b88f542a81ea65576a",
-        "title": "Nearly 100 ships pass the Hormuz Strait - who is getting through?",
-        "url": "https://www.bbc.com/news/articles/c4geg0eeyjeo?at_medium=RSS&at_campaign=rss",
-        "summary": "Just under 100 ships have passed thorough the Strait of Hormuz since the start of March, according to data analysed by BBC Verify.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T00:04:57+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Iran does not need to close the Strait of Hormuz to disrupt it",
-            "source": "Al Jazeera"
-          }
-        ]
-      },
-      {
-        "id": "e9e99631fb5c7757d50125397fdca36f",
-        "title": "'You can't smell Nowruz in the air': Iran marks Persian new year under threat of strikes",
-        "url": "https://www.bbc.com/news/articles/cvgkg8p7zlko?at_medium=RSS&at_campaign=rss",
-        "summary": "Iranians speak to the BBC about preparing for the Nowruz new year festival during the war.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T00:04:34+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Iranians celebrate Persian New Year in first wartime Nowruz in decades",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "🔴 Live: Iran's Mojtaba Khamenei issues defiant statement on Persian New Year as blasts rock Tehran",
-            "source": "France 24"
-          }
-        ]
-      },
-      {
-        "id": "b22fbdaca4f402b3f27ea820fed7cabf",
-        "title": "Why the UK Labour party's Brexit focus has shifted from Leavers to Remainers",
-        "url": "https://www.bbc.com/news/articles/c4gjn1d74jlo?at_medium=RSS&at_campaign=rss",
-        "summary": "Will the pursuit of a closer relationship with the EU risk courting electoral disaster by alienating Brexit-backing voters?",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-20T00:01:51+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "69ea98557ac8d9f63e046f2ed3554345",
-        "title": "Are US and Israel aligned on Iran war? Deciphering Trump's post after gas field attacks",
-        "url": "https://www.bbc.com/news/articles/c8x7leknlywo?at_medium=RSS&at_campaign=rss",
-        "summary": "What does Trump's Truth Social post after gas field attacks tell us about US-Israeli alignment?",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-19T23:19:00+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "‘Cowards’: Trump slams NATO over lack of support in US–Israel war on Iran",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "Switzerland halts US arms exports amid Iran war, citing neutrality",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "Iran video said to show US F-35 being hit",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "Russia, China and the US – the global winners and losers of the Iran war",
-            "source": "BBC News"
-          }
-        ]
-      },
-      {
-        "id": "97abc9c7a6d80628241808c9c8f63f75",
-        "title": "BTS is back: Anti-drone systems and 260,000 fans as world's biggest band returns",
-        "url": "https://www.bbc.com/news/articles/cge0dyjwezgo?at_medium=RSS&at_campaign=rss",
-        "summary": "RM, Jin, Suga, J-Hope, Jimin, V and Jung Kook will perform together for the first time since October 2022.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-19T23:03:53+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "7ad7b1411f9af70c4008f8d968ecb993",
-        "title": "Netanyahu says Israel 'acted alone' in attack on Iranian gas field",
-        "url": "https://www.bbc.com/news/articles/c2k3jgy9vq3o?at_medium=RSS&at_campaign=rss",
-        "summary": "Speaking at a news conference, the Israeli leader said Trump had requested that there be no further such attacks.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-19T22:41:40+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "5c5788fee7c8627bf9cf498d9c030955",
-        "title": "Teenager among first to be executed over Iran's anti-government protests",
-        "url": "https://www.bbc.com/news/articles/ce9mzn7k722o?at_medium=RSS&at_campaign=rss",
-        "summary": "Saleh Mohammadi, a member of Iran's national wrestling team, was found guilty of killing police officers alongside two other men, state media say.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-19T22:07:17+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "e1d76ce9b394308fa20f31ece35a2f04",
-        "title": "Denmark planned to blow up Greenland runways if US invaded, reports say",
-        "url": "https://www.bbc.com/news/articles/c33ln4mp1p2o?at_medium=RSS&at_campaign=rss",
-        "summary": "Denmark's public broadcaster reports that the US operation to seize Venezuela's leader sparked fears it would act against Greenland.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-19T21:52:36+00:00",
-        "date_verified": true
       }
     ]
   },
@@ -4807,9 +2822,9 @@
       "MUR/EUR": "53.72"
     },
     "commodities": {
-      "Gold (XAU)": "USD 4,489.20",
-      "BTC (Bitcoin)": "USD 69,862.53",
-      "Brent Crude": "USD 112.79/bbl"
+      "Gold (XAU)": "USD 4,510.50",
+      "BTC (Bitcoin)": "USD 69,846.90",
+      "Brent Crude": "USD 112.31/bbl"
     },
     "ceb_outages": [
       {
