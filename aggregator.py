@@ -946,6 +946,12 @@ def main():
 # Categories routed to data digest (never editorial)
 _DATA_CATS = {"weather", "finance", "utilities", "government"}
 
+# Cross-source corroboration caps for regional and international buckets.
+# After clustering, only the top N clusters ranked by distinct-source count
+# are passed to Stage 2. Local is never capped — all local news is kept.
+_REGIONAL_CAP = 15
+_INTL_CAP     = 15
+
 # Common words that appear capitalised but are NOT proper nouns.
 # Covers EN titles, FR titles, and common creole/abbreviation patterns.
 _CAP_STOPWORDS = {
@@ -1289,6 +1295,21 @@ def _build_data_digest(data_items: list) -> dict:
     return digest
 
 
+def _corroboration_score(item: dict) -> int:
+    """
+    Count the number of distinct sources that covered this story.
+    Includes the cluster representative plus any items in its 'related' array.
+    A story covered by 3 sources scores 3; a single-source story scores 1.
+    This is the primary ranking signal for the regional/international pre-filter:
+    multi-source stories are objectively more significant than single-source briefs.
+    """
+    sources = {item.get("source", "")}
+    for rel in item.get("related", []):
+        sources.add(rel.get("source", ""))
+    sources.discard("")
+    return len(sources)
+
+
 def build_candidates(all_items: list, output_path: str = "candidates.json") -> None:
     """
     Produces candidates.json for Stage 2b (human + Claude editorial selection).
@@ -1335,17 +1356,29 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
     for item in editorial_clustered:
         by_cat[item["category"]].append(item)
 
-    # regional = Indian Ocean + Africa (all non-local, non-international editorial)
-    regional = sorted(
+    # regional and international: rank by cross-source corroboration score
+    # (distinct sources per cluster), then cap. This sheds single-source
+    # wire briefs while keeping stories that multiple outlets covered.
+    # Local is never capped — all Mauritius news passes through.
+    regional_all = sorted(
         by_cat.get("regional", []),
-        key=lambda x: _parse_published(x.get("published", "")),
+        key=_corroboration_score,
         reverse=True,
     )
+    intl_all = sorted(
+        by_cat.get("international", []),
+        key=_corroboration_score,
+        reverse=True,
+    )
+    regional      = regional_all[:_REGIONAL_CAP]
+    international = intl_all[:_INTL_CAP]
+    n_regional_dropped = len(regional_all) - len(regional)
+    n_intl_dropped     = len(intl_all) - len(international)
 
     editorial = {
-        "local":       by_cat.get("local", []),
-        "regional":    regional,
-        "international": by_cat.get("international", []),
+        "local":         by_cat.get("local", []),
+        "regional":      regional,
+        "international": international,
     }
 
     data_digest = _build_data_digest(data_items)
@@ -1355,14 +1388,16 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
             "generated_at":    now.isoformat(),
             "feed_build_date": now.strftime("%a, %d %b %Y %H:%M:%S +0000"),
             "item_counts": {
-                "feed_total":       len(all_items),
-                "editorial_raw":    len(editorial_raw),
-                "after_clustering": len(editorial_clustered),
-                "clusters_merged":  n_merged,
-                "data_items":       len(data_items),
-                "local":            len(editorial["local"]),
-                "regional":         len(editorial["regional"]),
-                "international":    len(editorial["international"]),
+                "feed_total":            len(all_items),
+                "editorial_raw":         len(editorial_raw),
+                "after_clustering":      len(editorial_clustered),
+                "clusters_merged":       n_merged,
+                "data_items":            len(data_items),
+                "local":                 len(editorial["local"]),
+                "regional":              len(editorial["regional"]),
+                "regional_dropped":      n_regional_dropped,
+                "international":         len(editorial["international"]),
+                "international_dropped": n_intl_dropped,
             },
             "slot_targets": {
                 "local":           "10–12",
@@ -1370,7 +1405,9 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
                 "international":   "up to 4",
             },
             "notes": (
-                "Items are reverse-chronological within each section. "
+                "Local: all items kept. Regional and international: pre-filtered to top "
+                f"{_REGIONAL_CAP} / {_INTL_CAP} clusters ranked by cross-source corroboration "
+                "(distinct sources per cluster). "
                 "Clustering: Pass 1 merges near-identical same-language titles (Jaccard≥0.75); "
                 "Pass 2 merges cross-language titles sharing ≥2 proper nouns (Jaccard≥0.60). "
                 "Merged items appear as 'related' arrays. "
@@ -1386,8 +1423,10 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
 
     print(f"Written to {output_path}")
     print(f"  local:          {len(editorial['local'])} candidates")
-    print(f"  regional:       {len(editorial['regional'])} candidates")
-    print(f"  international:  {len(editorial['international'])} candidates")
+    print(f"  regional:       {len(editorial['regional'])} candidates "
+          f"({n_regional_dropped} dropped by corroboration filter)")
+    print(f"  international:  {len(editorial['international'])} candidates "
+          f"({n_intl_dropped} dropped by corroboration filter)")
     print(f"  clusters merged:{n_merged} (from {len(editorial_raw)} raw editorial items)")
     print(f"  data digest:    weather={'yes' if data_digest['weather'] else 'no'}, "
           f"semdex={data_digest['semdex']}, "
