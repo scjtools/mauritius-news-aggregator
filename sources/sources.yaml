@@ -10,6 +10,11 @@ rss_feeds:
     language: "en"
     category: "local"
 
+  - name: "ION News"
+    url: "https://ionnews.mu/feed/"
+    language: "en"
+    category: "local"
+
   - name: "Mauritius Times"
     url: "https://mauritiustimes.com/mt/feed/"
     language: "en"
