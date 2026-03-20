@@ -82,6 +82,8 @@ def clean_title(title, source_name):
 def fetch_rss(source):
     items = []
     max_items = source.get("max_items", None)  # None = no cap
+    exclude_url_patterns   = source.get("exclude_url_patterns", [])
+    exclude_title_prefixes = source.get("exclude_title_prefixes", [])
     try:
         feed = feedparser.parse(source["url"])
         for entry in feed.entries:
@@ -89,6 +91,12 @@ def fetch_rss(source):
             if not is_recent(dt):
                 continue
             raw_title = entry.get("title", "").strip()
+            url = entry.get("link", "")
+            # Optional per-source content filters
+            if any(pat in url for pat in exclude_url_patterns):
+                continue
+            if any(raw_title.startswith(pfx) for pfx in exclude_title_prefixes):
+                continue
             title = clean_title(raw_title, source["name"])
             summary = BeautifulSoup(
                 getattr(entry, "summary", "") or "", "html.parser"
@@ -96,7 +104,7 @@ def fetch_rss(source):
             items.append({
                 "id":           item_id(title, entry.get("link", "")),
                 "title":        title,
-                "url":          entry.get("link", ""),
+                "url":          url,
                 "summary":      summary.strip(),
                 "source":       source["name"],
                 "language":     source["language"],
@@ -189,9 +197,7 @@ def scrape_homepage(source):
                 "id":           item_id(title, url),
                 "title":        title,
                 "url":          url,
-                # Fall back to title when no teaser text is available (e.g. JS-rendered
-                # sites like Business Insider Africa) — same approach as Defimedia.
-                "summary":      summary or title,
+                "summary":      summary,
                 "source":       source["name"],
                 "language":     source["language"],
                 "category":     source["category"],
@@ -940,10 +946,6 @@ def main():
 # Categories routed to data digest (never editorial)
 _DATA_CATS = {"weather", "finance", "utilities", "government"}
 
-# Reddit/community posts: keep only if post body is substantive.
-# Upvote count not available from RSS — body length is the only signal.
-_COMMUNITY_MIN_CHARS = 100
-
 # Common words that appear capitalised but are NOT proper nouns.
 # Covers EN titles, FR titles, and common creole/abbreviation patterns.
 _CAP_STOPWORDS = {
@@ -1195,13 +1197,15 @@ def _clean_weather(text: str) -> str:
     if not text:
         return text
 
-    # The bulletin often contains itself twice — keep only the first occurrence
-    # by finding the repeated header phrase
+    # The bulletin often contains itself twice — deduplicate by splitting on
+    # the header marker and keeping only the first occurrence.
     marker = "Weather news for Mauritius issued"
-    first  = text.find(marker)
-    second = text.find(marker, first + 1)
-    if second != -1:
-        text = text[:second].strip()
+    parts = text.split(marker)
+    if len(parts) > 2:      # marker appears 3+ times — keep just the first block
+        text = (marker + parts[1]).strip()
+    elif len(parts) == 2:   # marker appears twice — normal duplicate case
+        text = (marker + parts[1]).strip()
+    # len(parts) == 1 means marker not found at all — leave text unchanged
 
     # Strip navigation/footer boilerplate
     for pattern in [
@@ -1317,12 +1321,6 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
 
         if cat in _DATA_CATS:
             data_items.append(item)
-
-        elif cat == "community":
-            # Keep Reddit posts with substantive body text; drop noise
-            if len(item.get("summary", "")) >= _COMMUNITY_MIN_CHARS:
-                editorial_raw.append(item)
-            # else: one-liner / link-only post — silently dropped
 
         else:
             editorial_raw.append(item)
