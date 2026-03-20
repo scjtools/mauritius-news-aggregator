@@ -453,10 +453,12 @@ def scrape_bulletin(source):
         soup = BeautifulSoup(r.text, "html.parser")
 
         paragraphs = []
+        seen_para = set()
         for p in soup.find_all("p"):
             text = p.get_text(strip=True)
-            if len(text) > 40:
+            if len(text) > 40 and text not in seen_para:
                 paragraphs.append(text)
+                seen_para.add(text)
 
         if paragraphs:
             # No character limit — capture the full bulletin
