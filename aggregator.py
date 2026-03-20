@@ -744,31 +744,42 @@ def fetch_oilprice_demo(source):
     """
     Fetches Brent crude price from oilpriceapi.com's no-auth demo endpoint.
     Returns latest available price. 20 requests/hour limit — well within our 2/day.
-    Response: {"data": {"price": 97.66, "formatted": "$97.66", "currency": "USD",
-               "code": "BRENT_CRUDE_USD", ...}}
+    Response: {"data": [{"price": 97.66, "formatted": "$97.66", "currency": "USD",
+               "code": "BRENT_CRUDE_USD", ...}, ...]}
     """
     items = []
     try:
-        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        headers = {**HEADERS, "Content-Type": "application/json"}
+        r = requests.get(source["url"], headers=headers, timeout=15)
         r.raise_for_status()
         data = r.json()
-        price_data = data.get("data", {})
+
+        # Demo endpoint returns a list under "data"
+        price_list = data.get("data", [])
+        if isinstance(price_list, dict):
+            price_list = [price_list]  # single object fallback
+
+        price_data = price_list[0] if price_list else {}
         price = price_data.get("price")
         formatted = price_data.get("formatted", "")
         currency = price_data.get("currency", "USD")
+        code = price_data.get("code", "BRENT_CRUDE_USD")
+        label = "Brent Crude Oil" if "BRENT" in code else "WTI Crude Oil"
 
         if price is not None:
             now = datetime.now(timezone.utc)
             items.append({
                 "id":        item_id("Brent crude", now.strftime("%Y-%m-%d")),
-                "title":     f"Brent Crude Oil price – {now.strftime('%d %B %Y')}",
+                "title":     f"{label} price – {now.strftime('%d %B %Y')}",
                 "url":       "https://www.oilpriceapi.com",
-                "summary":   f"Brent Crude Oil: {formatted if formatted else f'{currency} {price:,.2f}'} per barrel",
+                "summary":   f"{label}: {formatted if formatted else f'{currency} {price:,.2f}'} per barrel",
                 "source":    source["name"],
                 "language":  source["language"],
                 "category":  source["category"],
                 "published": now.isoformat(),
             })
+        else:
+            print(f"[OILPRICE WARNING] No price found in response: {data}")
     except Exception as e:
         print(f"[OILPRICE ERROR] {source['name']}: {e}")
     return items
