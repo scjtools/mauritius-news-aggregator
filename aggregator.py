@@ -189,7 +189,9 @@ def scrape_homepage(source):
                 "id":           item_id(title, url),
                 "title":        title,
                 "url":          url,
-                "summary":      summary,
+                # Fall back to title when no teaser text is available (e.g. JS-rendered
+                # sites like Business Insider Africa) — same approach as Defimedia.
+                "summary":      summary or title,
                 "source":       source["name"],
                 "language":     source["language"],
                 "category":     source["category"],
@@ -1292,7 +1294,7 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
         "meta":        { run info, item counts },
         "editorial":   {
           "local":          [ items... ],   // reverse-chronological
-          "regional_africa": [ items... ],  // regional + africa combined
+          "regional":        [ items... ],  // Indian Ocean + Africa combined
           "international":  [ items... ]
         },
         "data_digest": { weather, semdex, exchange, commodities, ceb_outages, holidays }
@@ -1335,17 +1337,17 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
     for item in editorial_clustered:
         by_cat[item["category"]].append(item)
 
-    # regional + africa combined into one pool, still reverse-chronological
-    reg_africa = sorted(
-        by_cat.get("regional", []) + by_cat.get("africa", []),
+    # regional = Indian Ocean + Africa (all non-local, non-international editorial)
+    regional = sorted(
+        by_cat.get("regional", []),
         key=lambda x: _parse_published(x.get("published", "")),
         reverse=True,
     )
 
     editorial = {
-        "local":           by_cat.get("local", []),
-        "regional_africa": reg_africa,
-        "international":   by_cat.get("international", []),
+        "local":       by_cat.get("local", []),
+        "regional":    regional,
+        "international": by_cat.get("international", []),
     }
 
     data_digest = _build_data_digest(data_items)
@@ -1361,12 +1363,12 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
                 "clusters_merged":  n_merged,
                 "data_items":       len(data_items),
                 "local":            len(editorial["local"]),
-                "regional_africa":  len(editorial["regional_africa"]),
+                "regional":         len(editorial["regional"]),
                 "international":    len(editorial["international"]),
             },
             "slot_targets": {
                 "local":           "10–12",
-                "regional_africa": "up to 4 combined",
+                "regional":        "up to 4",
                 "international":   "up to 4",
             },
             "notes": (
@@ -1386,7 +1388,7 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
 
     print(f"Written to {output_path}")
     print(f"  local:          {len(editorial['local'])} candidates")
-    print(f"  regional+africa:{len(editorial['regional_africa'])} candidates")
+    print(f"  regional:       {len(editorial['regional'])} candidates")
     print(f"  international:  {len(editorial['international'])} candidates")
     print(f"  clusters merged:{n_merged} (from {len(editorial_raw)} raw editorial items)")
     print(f"  data digest:    weather={'yes' if data_digest['weather'] else 'no'}, "
