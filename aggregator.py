@@ -1,6 +1,7 @@
 import feedparser
 import requests
 import yaml
+import json
 import hashlib
 import re
 import time
@@ -896,6 +897,504 @@ def main():
         f.write(rss_output)
     print("Written to feed.xml")
 
+    build_candidates(all_items)
 
+
+
+# ═════════════════════════════════════════════════════════════════════════════
+# Stage 2 — candidates.json generation
+# Runs in the same process immediately after feed.xml is written.
+# No network calls. No LLM. Pure Python.
+#
+# Clustering strategy (two passes):
+#
+#   Pass 1 — Full-title Jaccard ≥ 0.75 (same-language near-duplicates)
+#     Catches the same article republished verbatim across sources.
+#     Strict threshold — only merges when titles are almost identical.
+#     Language-agnostic: works on whatever language both titles share.
+#
+#   Pass 2 — Proper-noun Jaccard ≥ 0.60 (cross-language same-story)
+#     Catches "Bérenger resigns as DPM" vs "Bérenger démissionne comme VPM".
+#     Proper nouns (capitalised tokens in the original title) are language-
+#     invariant — "Bérenger", "Ramgoolam", "Goodlands", "SEMDEX" appear the
+#     same in EN, FR, and creole. Multi-word proper nouns like "La Case Noyale"
+#     are extracted as a unit to avoid treating "La" alone as a named entity.
+#     Requires ≥ 2 shared proper nouns to merge (prevents false positives on
+#     stories that merely mention the same person in passing).
+#
+#   Option C hint — similar_to
+#     Items that share ≥ 2 proper nouns but scored below the Pass 2 merge
+#     threshold (i.e. likely the same event, different angle or timepoint)
+#     get a lightweight "similar_to" hint: [{"title": "...", "source": "..."}].
+#     This saves Claude from independently reasoning about obvious pairs and
+#     costs ~10 tokens per hint vs potentially much more in Claude's thinking.
+#
+# In all cases:
+#   - Cluster representative = most recent item
+#   - Older items travel as "related" array with full metadata for Stage 3
+#   - No scoring, no source ranking — Claude decides what's newsworthy
+# ═════════════════════════════════════════════════════════════════════════════
+
+# Categories routed to data digest (never editorial)
+_DATA_CATS = {"weather", "finance", "utilities", "government"}
+
+# Reddit/community posts: keep only if post body is substantive.
+# Upvote count not available from RSS — body length is the only signal.
+_COMMUNITY_MIN_CHARS = 100
+
+# Common words that appear capitalised but are NOT proper nouns.
+# Covers EN titles, FR titles, and common creole/abbreviation patterns.
+_CAP_STOPWORDS = {
+    # English articles / prepositions / conjunctions
+    "The", "A", "An", "In", "Of", "To", "And", "For", "Is", "On", "At",
+    "With", "By", "As", "It", "Its", "From", "This", "That", "Are", "Was",
+    "Were", "Has", "Have", "Been", "Be", "Will", "Would", "Could", "After",
+    "But", "Not", "No", "New", "How", "Why", "Who", "What", "When", "Where",
+    # French articles / prepositions / conjunctions
+    "Le", "La", "Les", "Du", "Des", "Un", "Une", "En", "Et", "Au", "Aux",
+    "Sur", "Par", "Ou", "Que", "Qui", "Se", "Sa", "Son", "Ses", "Dans",
+    "Est", "Pas", "Plus", "Lui", "Ils", "Elles", "Nous", "Vous", "Mon",
+    "Ton", "Leur", "Leurs", "Ce", "Ces", "Cet", "Cette", "Si", "Même",
+    "Après", "Avant", "Lors", "Sans", "Sous", "Entre", "Vers", "Chez",
+    "Avec", "Pour", "Dont", "Mais", "Car", "Donc", "Puis",
+    # Generic title-case words that are not unique identifiers
+    "Watch", "Report", "Update", "Live", "Breaking", "News", "Day",
+    "Year", "Week", "Today", "First", "Last", "More", "Less",
+    # Political / professional roles — generic, appear across many stories
+    "Prime", "Deputy", "Minister", "President", "Director", "General",
+    "Chief", "Officer", "Secretary", "Leader", "Head", "Vice", "Senior",
+    "Former", "Ex", "Acting", "Interim", "National", "Federal", "State",
+    "Premier", "Ministre", "Directeur", "Président", "Secrétaire",
+    # Common news verbs / nouns that get title-cased mid-headline
+    "Call", "Calls", "Says", "Said", "Told", "Warns", "Urges",
+    "Resigns", "Resign", "Quits", "Quit", "Joins", "Leaves", "Returns",
+    "Murder", "Meurtre", "Affaire", "Case", "Inquiry", "Trial", "Court",
+    "Following", "Amid", "Over", "Against", "Between",
+    # Titles used in bylines / attributions
+    "Dr", "Mr", "Mrs", "Ms", "Prof",
+}
+
+
+def _parse_published(s: str) -> datetime:
+    """Parse ISO 8601 pubdate string into UTC-aware datetime."""
+    s = s.strip()
+    for fmt in ("%Y-%m-%dT%H:%M:%S.%f%z", "%Y-%m-%dT%H:%M:%S%z"):
+        try:
+            return datetime.strptime(s, fmt)
+        except ValueError:
+            pass
+    try:
+        from email.utils import parsedate_to_datetime
+        return parsedate_to_datetime(s)
+    except Exception:
+        pass
+    return datetime.now(timezone.utc)
+
+
+def _title_words(title: str) -> frozenset:
+    """
+    Stopword-stripped lowercase word-set for Pass 1 (same-language) matching.
+    Bilingual stopwords — EN + FR.
+    """
+    stop = {
+        "the","a","an","in","of","to","and","for","is","on","at","with",
+        "by","as","it","its","from","this","that","are","was","were","has",
+        "have","been","be","will","would","could","de","la","le","les","du",
+        "des","un","une","en","et","au","aux","sur","par","ou","que","qui",
+        "se","sa","son","ses","dans","est","pas","plus","lui","ils","also",
+        "after","mais","car","donc","puis","lors","sans","sous","entre",
+        "vers","chez","avec","pour","dont","ces","cet","cette","même",
+    }
+    tokens = re.sub(r"[^\w\s]", " ", title.lower()).split()
+    return frozenset(t for t in tokens if t not in stop and len(t) > 2)
+
+
+def _proper_nouns(title: str) -> frozenset:
+    """
+    Extract proper nouns from a title for Pass 2 (cross-language) matching.
+
+    Strategy: scan the *original* (cased) title for runs of capitalised tokens.
+    A capitalised token is one whose first character is uppercase.
+    Consecutive capitalised tokens are joined as a single named entity
+    (handles "La Case Noyale", "Deputy Prime Minister", "Bank of Mauritius").
+    Tokens in _CAP_STOPWORDS are treated as connecting words, not entities,
+    so "Bérenger au PMO" yields {"Bérenger", "PMO"} not {"Bérenger", "Au", "PMO"}.
+
+    Numbers and all-caps abbreviations (SEMDEX, MMM, CEB) are always included.
+    Minimum length 2 characters.
+    """
+    # Tokenise preserving original case; strip punctuation per token
+    raw_tokens = re.sub(r"[«»""''`]", " ", title).split()
+    tokens = [re.sub(r"^[^\w]+|[^\w]+$", "", t) for t in raw_tokens]
+    tokens = [t for t in tokens if t]
+
+    entities: set = set()
+    run: list = []
+
+    def flush_run():
+        if run:
+            entity = " ".join(run)
+            if len(entity) >= 2:
+                entities.add(entity)
+            run.clear()
+
+    for tok in tokens:
+        clean = re.sub(r"[^\w\-']", "", tok)
+        if not clean:
+            flush_run()
+            continue
+
+        is_cap   = clean[0].isupper()
+        is_abbr  = clean.isupper() and len(clean) >= 2   # CEB, MMM, DPM
+        is_num   = bool(re.match(r"^\d", clean))          # Rs 75, 2026
+        is_stop  = clean in _CAP_STOPWORDS
+
+        if is_abbr or is_num:
+            # Always a standalone entity — flush any open run first
+            flush_run()
+            entities.add(clean)
+        elif is_cap and not is_stop:
+            run.append(clean)
+        else:
+            flush_run()
+
+    flush_run()
+
+    # Normalise multi-word proper nouns: also register each component word
+    # individually so "Paul Bérenger" and "Bérenger" both yield "Bérenger".
+    # This handles the very common pattern where French titles use full names
+    # and English titles use surnames only.
+    extras: set = set()
+    for entity in entities:
+        parts = entity.split()
+        if len(parts) > 1:
+            for part in parts:
+                if len(part) >= 2 and part not in _CAP_STOPWORDS:
+                    extras.add(part)
+    entities.update(extras)
+
+    return frozenset(entities)
+
+
+def _jaccard(a: frozenset, b: frozenset) -> float:
+    if not a and not b:
+        return 1.0
+    inter = len(a & b)
+    union = len(a | b)
+    return inter / union if union else 0.0
+
+
+def _shared_proper_nouns(a: frozenset, b: frozenset) -> int:
+    """Count shared proper nouns between two title fingerprints."""
+    return len(a & b)
+
+
+def _cluster_editorial(items: list) -> list:
+    """
+    Two-pass multilingual clustering of editorial items.
+
+    Pass 1: Full-title Jaccard ≥ 0.75 — same-language near-duplicates.
+    Pass 2: Proper-noun Jaccard ≥ 0.60, requiring ≥ 2 shared names —
+            cross-language same-story detection.
+
+    After both passes, surviving items are checked for shared proper nouns
+    (≥ 2) with other survivors. Those pairs get a lightweight "similar_to"
+    hint to guide Claude without the cost of Claude reasoning it out itself.
+
+    Cluster representative = most recent item.
+    Older cluster members travel as "related" with full metadata.
+    """
+    # Sort newest-first — first item encountered becomes the representative
+    items = sorted(
+        items,
+        key=lambda x: _parse_published(x.get("published", "")),
+        reverse=True,
+    )
+
+    # ── Pass 1: same-language, full-title Jaccard ≥ 0.75 ─────────────────────
+    kept_p1: list  = []
+    fps_p1:  list  = []   # word-set fingerprints
+
+    for item in items:
+        fp     = _title_words(item["title"])
+        merged = False
+        for i, efp in enumerate(fps_p1):
+            if _jaccard(fp, efp) >= 0.75:
+                kept_p1[i].setdefault("related", [])
+                kept_p1[i]["related"].append({
+                    "title":     item["title"],
+                    "source":    item["source"],
+                    "url":       item["url"],
+                    "published": item.get("published", ""),
+                    "summary":   item.get("summary", ""),
+                })
+                merged = True
+                break
+        if not merged:
+            kept_p1.append(item)
+            fps_p1.append(fp)
+
+    # ── Pass 2: cross-language, proper-noun Jaccard ≥ 0.60, ≥ 2 shared ───────
+    kept_p2: list  = []
+    pns_p2:  list  = []   # proper-noun fingerprints
+
+    for item in kept_p1:
+        pn     = _proper_nouns(item["title"])
+        merged = False
+        for i, epn in enumerate(pns_p2):
+            shared = _shared_proper_nouns(pn, epn)
+            if shared >= 2 and _jaccard(pn, epn) >= 0.60:
+                kept_p2[i].setdefault("related", [])
+                kept_p2[i]["related"].append({
+                    "title":     item["title"],
+                    "source":    item["source"],
+                    "url":       item["url"],
+                    "published": item.get("published", ""),
+                    "summary":   item.get("summary", ""),
+                })
+                merged = True
+                break
+        if not merged:
+            kept_p2.append(item)
+            pns_p2.append(pn)
+
+    # ── Option C: similar_to hints for near-miss pairs ────────────────────────
+    # Items that share ≥ 2 proper nouns but didn't merge (different angle /
+    # different timepoint) get a lightweight hint so Claude can relate them
+    # without spending tokens re-deriving the connection.
+    # Only applied within the same category to avoid cross-category noise.
+    n = len(kept_p2)
+    for i in range(n):
+        for j in range(i + 1, n):
+            if kept_p2[i].get("category") != kept_p2[j].get("category"):
+                continue
+            pn_i = _proper_nouns(kept_p2[i]["title"])
+            pn_j = _proper_nouns(kept_p2[j]["title"])
+            if _shared_proper_nouns(pn_i, pn_j) >= 2:
+                # Mutual hints — minimal payload to keep token cost low
+                hint_i = {"title": kept_p2[j]["title"], "source": kept_p2[j]["source"]}
+                hint_j = {"title": kept_p2[i]["title"], "source": kept_p2[i]["source"]}
+                kept_p2[i].setdefault("similar_to", [])
+                kept_p2[j].setdefault("similar_to", [])
+                if hint_i not in kept_p2[i]["similar_to"]:
+                    kept_p2[i]["similar_to"].append(hint_i)
+                if hint_j not in kept_p2[j]["similar_to"]:
+                    kept_p2[j]["similar_to"].append(hint_j)
+
+    return kept_p2
+
+
+def _clean_weather(text: str) -> str:
+    """
+    Remove boilerplate and exact duplications from the Met Services bulletin.
+    Keeps ALL factual content — temperatures, wind, sea state, tides, sunrise/sunset.
+    Stage 3 writes the actual summary sentence; we just clean the raw input.
+    """
+    if not text:
+        return text
+
+    # The bulletin often contains itself twice — keep only the first occurrence
+    # by finding the repeated header phrase
+    marker = "Weather news for Mauritius issued"
+    first  = text.find(marker)
+    second = text.find(marker, first + 1)
+    if second != -1:
+        text = text[:second].strip()
+
+    # Strip navigation/footer boilerplate
+    for pattern in [
+        r"About Us\s*\|.*?©.*?Mauritius Meteorological Services\.?",
+        r"© Copyright.*?$",
+    ]:
+        text = re.sub(pattern, "", text, flags=re.DOTALL | re.IGNORECASE).strip()
+
+    # Collapse multiple whitespace/newlines
+    text = re.sub(r"\s{2,}", " ", text).strip()
+
+    return text
+
+
+def _build_data_digest(data_items: list) -> dict:
+    """
+    Structures all data-category items into a clean digest dict for Stage 3.
+    All parsing is regex-based; no LLM involved.
+    """
+    digest = {
+        "weather":     None,   # cleaned bulletin text — full, all facts preserved
+        "semdex":      None,   # string value e.g. "2226.88"
+        "exchange":    {},     # {"MUR/USD": "46.51", "MUR/EUR": "53.76", ...}
+        "commodities": {},     # {"Gold (XAU)": "USD 4,707.90", "BTC": ..., "Brent Crude": ...}
+        "ceb_outages": [],     # list of {title, detail, url}
+        "holidays":    [],     # list of {title, detail, url}
+    }
+
+    for item in data_items:
+        cat     = item.get("category", "")
+        source  = item.get("source", "")
+        title   = item.get("title", "")
+        summary = item.get("summary", "")
+        url     = item.get("url", "")
+
+        if cat == "weather":
+            digest["weather"] = _clean_weather(summary)
+
+        elif cat == "finance":
+            if "SEMDEX" in title:
+                m = re.search(r"([\d,]+\.?\d+)", summary)
+                if m:
+                    digest["semdex"] = m.group(1).replace(",", "")
+
+            elif "exchange" in title.lower() or "MUR" in title:
+                # "MUR/USD 46.51 | MUR/EUR 53.76"
+                for pair, val in re.findall(r"([\w/]+)\s+([\d.]+)", summary):
+                    if "/" in pair:
+                        digest["exchange"][pair] = val
+
+            elif "Bitcoin" in title or "BTC" in title:
+                m = re.search(r"USD\s*([\d,]+\.?\d*)", summary)
+                if m:
+                    digest["commodities"]["BTC (Bitcoin)"] = f"USD {m.group(1)}"
+
+            elif "Gold" in title:
+                m = re.search(r"USD\s*([\d,]+\.?\d*)", summary)
+                if m:
+                    digest["commodities"]["Gold (XAU)"] = f"USD {m.group(1)}"
+
+            elif "Brent" in title or "Oil" in title or "WTI" in title:
+                m = re.search(r"USD\s*([\d,]+\.?\d*)", summary)
+                if m:
+                    label = "Brent Crude" if "Brent" in title else "WTI Crude"
+                    digest["commodities"][label] = f"USD {m.group(1)}/bbl"
+
+        elif cat == "utilities":
+            digest["ceb_outages"].append({
+                "title":  title,
+                "detail": summary,
+                "url":    url,
+            })
+
+        elif cat == "government":
+            digest["holidays"].append({
+                "title":  title,
+                "detail": summary,
+                "url":    url,
+            })
+
+    return digest
+
+
+def build_candidates(all_items: list, output_path: str = "candidates.json") -> None:
+    """
+    Produces candidates.json for Stage 2b (human + Claude editorial selection).
+
+    Output structure:
+      {
+        "meta":        { run info, item counts },
+        "editorial":   {
+          "local":          [ items... ],   // reverse-chronological
+          "regional_africa": [ items... ],  // regional + africa combined
+          "international":  [ items... ]
+        },
+        "data_digest": { weather, semdex, exchange, commodities, ceb_outages, holidays }
+      }
+
+    Items within each section are in reverse-chronological order (newest first).
+    No scoring or ranking is applied — that's Claude's job in Stage 2b.
+    Each item may have a "related" array containing older near-duplicate items
+    that were clustered under it; these carry context for the Stage 3 writer.
+    """
+    from collections import defaultdict
+
+    now = datetime.now(timezone.utc)
+
+    editorial_raw = []
+    data_items    = []
+
+    for item in all_items:
+        cat = item.get("category", "")
+
+        if cat in _DATA_CATS:
+            data_items.append(item)
+
+        elif cat == "community":
+            # Keep Reddit posts with substantive body text; drop noise
+            if len(item.get("summary", "")) >= _COMMUNITY_MIN_CHARS:
+                editorial_raw.append(item)
+            # else: one-liner / link-only post — silently dropped
+
+        else:
+            editorial_raw.append(item)
+
+    # Two-pass multilingual clustering (Pass 1: same-language, Pass 2: cross-language)
+    # Plus similar_to hints for related-but-distinct items
+    editorial_clustered = _cluster_editorial(editorial_raw)
+    n_merged = len(editorial_raw) - len(editorial_clustered)
+
+    # Bucket by category, preserve reverse-chronological order within each
+    by_cat: dict = defaultdict(list)
+    for item in editorial_clustered:
+        by_cat[item["category"]].append(item)
+
+    # regional + africa combined into one pool, still reverse-chronological
+    reg_africa = sorted(
+        by_cat.get("regional", []) + by_cat.get("africa", []),
+        key=lambda x: _parse_published(x.get("published", "")),
+        reverse=True,
+    )
+
+    editorial = {
+        "local":           by_cat.get("local", []),
+        "regional_africa": reg_africa,
+        "international":   by_cat.get("international", []),
+    }
+
+    data_digest = _build_data_digest(data_items)
+
+    output = {
+        "meta": {
+            "generated_at":    now.isoformat(),
+            "feed_build_date": now.strftime("%a, %d %b %Y %H:%M:%S +0000"),
+            "item_counts": {
+                "feed_total":       len(all_items),
+                "editorial_raw":    len(editorial_raw),
+                "after_clustering": len(editorial_clustered),
+                "clusters_merged":  n_merged,
+                "data_items":       len(data_items),
+                "local":            len(editorial["local"]),
+                "regional_africa":  len(editorial["regional_africa"]),
+                "international":    len(editorial["international"]),
+            },
+            "slot_targets": {
+                "local":           "10–12",
+                "regional_africa": "up to 4 combined",
+                "international":   "up to 4",
+            },
+            "notes": (
+                "Items are reverse-chronological within each section. "
+                "Clustering: Pass 1 merges near-identical same-language titles (Jaccard≥0.75); "
+                "Pass 2 merges cross-language titles sharing ≥2 proper nouns (Jaccard≥0.60). "
+                "Merged items appear as 'related' arrays. "
+                "Items sharing ≥2 proper nouns but not merged carry a 'similar_to' hint."
+            ),
+        },
+        "editorial":   editorial,
+        "data_digest": data_digest,
+    }
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        json.dump(output, f, ensure_ascii=False, indent=2)
+
+    print(f"Written to {output_path}")
+    print(f"  local:          {len(editorial['local'])} candidates")
+    print(f"  regional+africa:{len(editorial['regional_africa'])} candidates")
+    print(f"  international:  {len(editorial['international'])} candidates")
+    print(f"  clusters merged:{n_merged} (from {len(editorial_raw)} raw editorial items)")
+    print(f"  data digest:    weather={'yes' if data_digest['weather'] else 'no'}, "
+          f"semdex={data_digest['semdex']}, "
+          f"ceb={len(data_digest['ceb_outages'])} outage(s), "
+          f"holidays={len(data_digest['holidays'])}")
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
 if __name__ == "__main__":
     main()
