@@ -4,7 +4,7 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Fri, 20 Mar 2026 04:51:49 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Mar 2026 04:56:04 +0000</lastBuildDate>
     <item>
       <title>CEB power outage – Saint Hubert, Grandport on 24 March 2026</title>
       <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
@@ -36,10 +36,20 @@
       <language>en</language>
     </item>
     <item>
+      <title>Brent Crude Oil price – 20 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 106.95 per barrel</description>
+      <pubDate>2026-03-20T04:56:04.564907+00:00</pubDate>
+      <guid>72d9f732b9cc189668a83cb914031d94</guid>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <language>en</language>
+    </item>
+    <item>
       <title>Bitcoin price – 20 March 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 70,594.13</description>
-      <pubDate>2026-03-20T04:51:49.733938+00:00</pubDate>
+      <description>Bitcoin (BTC): USD 70,720.80</description>
+      <pubDate>2026-03-20T04:56:04.294456+00:00</pubDate>
       <guid>1a18f9e01c7bb85998bd201be797e0cb</guid>
       <source>Bitcoin Price</source>
       <category>finance</category>
@@ -48,8 +58,8 @@
     <item>
       <title>Gold price – 20 March 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,720.60</description>
-      <pubDate>2026-03-20T04:51:49.652423+00:00</pubDate>
+      <description>Gold (XAU): USD 4,723.60</description>
+      <pubDate>2026-03-20T04:56:03.632332+00:00</pubDate>
       <guid>2a12146e9d01f28b4d73db020f57129d</guid>
       <source>Gold Price</source>
       <category>finance</category>
@@ -59,7 +69,7 @@
       <title>MUR exchange rates – 20 March 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
       <description>1 MUR = 0.02149936 USD USD | 1 MUR = 0.01871026 EUR EUR</description>
-      <pubDate>2026-03-20T04:51:49.387272+00:00</pubDate>
+      <pubDate>2026-03-20T04:56:03.045189+00:00</pubDate>
       <guid>f6372eb62589678e67c356c85fff5516</guid>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
@@ -69,7 +79,7 @@
       <title>Upcoming public holiday – Eid-Ul-Fitr</title>
       <link>https://govmu.org</link>
       <description>Tomorrow: Eid-Ul-Fitr</description>
-      <pubDate>2026-03-20T04:51:49.035135+00:00</pubDate>
+      <pubDate>2026-03-20T04:56:02.701813+00:00</pubDate>
       <guid>9bf3533106f6ce2f2e5905358c0bfec2</guid>
       <source>Mauritius Public Holidays</source>
       <category>government</category>
@@ -79,7 +89,7 @@
       <title>SEMDEX – 20 March 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2229.07</description>
-      <pubDate>2026-03-20T04:51:46.736792+00:00</pubDate>
+      <pubDate>2026-03-20T04:56:00.660414+00:00</pubDate>
       <guid>ca21367b0f82387c2eeb8474491f39fe</guid>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
@@ -89,7 +99,7 @@
       <title>Mauritius weather bulletin – 20 March 2026</title>
       <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
       <description>Welcome to Mauritius Meteorological Services Weather news for Mauritius issued at 04h30 on Friday 20 March 2026.General situation:A light to moderate airstream is flowing over our region.Else, clouds coming from the eastern sector will influence the local weather at times.Forecast for the next 24 hours:Mainly fair this morning.Partly cloudy in the afternoon becoming cloudy at times over the Eastern part of the island and over the highgrounds with few showers.The maximum temperature will be above</description>
-      <pubDate>2026-03-20T04:51:42.147941+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:55.428650+00:00</pubDate>
       <guid>0558b4c480407b80ba0a970a2d3f8a0e</guid>
       <source>Mauritius Met Services</source>
       <category>weather</category>
@@ -99,7 +109,7 @@
       <title>Contribution, fiscalité et attractivité : les défis du secteur bancaire</title>
       <link>https://defimedia.info/economiecontribution-fiscalite-et-attractivite-les-defis-du-secteur-bancaire</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.451830+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.771811+00:00</pubDate>
       <guid>afa0a363a6fca97ee30afca38913e4d6</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -109,7 +119,7 @@
       <title>Finance durable : La BoM alerte sur des risques désormais financiers</title>
       <link>https://defimedia.info/economiefinance-durable-la-bom-alerte-sur-des-risques-desormais-financiers</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.451479+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.771523+00:00</pubDate>
       <guid>8be3c07733ee521b9ee169bd639d3994</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -119,7 +129,7 @@
       <title>Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois</title>
       <link>https://defimedia.info/economieinvestissements-etrangers-maurice-capte-rs-4039-md-en-9-mois</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.451221+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.771270+00:00</pubDate>
       <guid>9ed78bee09cfd57fa47cf1d609dea14f</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -129,7 +139,7 @@
       <title>La dette des corps parapublics descend à Rs 61,73 milliards</title>
       <link>https://defimedia.info/economiela-dette-des-corps-parapublics-descend-rs-6173-milliards</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.450961+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.771018+00:00</pubDate>
       <guid>b9feea54148f16e2a311d479021849db</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -139,7 +149,7 @@
       <title>Hausse des prix continue - Fruits : l’addition est salée pour les consommateurs</title>
       <link>https://defimedia.info/economiehausse-des-prix-continue-fruits-laddition-est-salee-pour-les-consommateurs</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.450679+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.770761+00:00</pubDate>
       <guid>542626b2e68f7e3784b06133e6ef9a63</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -149,7 +159,7 @@
       <title>Investissements douteux : la BoM et la FSC appellent à la vigilance du public</title>
       <link>https://defimedia.info/economieinvestissements-douteux-la-bom-et-la-fsc-appellent-la-vigilance-du-public</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.450415+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.770488+00:00</pubDate>
       <guid>9845b5073dc970ff5095950858d9c8dd</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -159,7 +169,7 @@
       <title>Secteur financier - Affaire Epstein et finance offshore : où se situe Maurice ?</title>
       <link>https://defimedia.info/economiesecteur-financier-affaire-epstein-et-finance-offshore-ou-se-situe-maurice</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.450162+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.770232+00:00</pubDate>
       <guid>f8cc84fc9d509f457e9cbcd963d429f0</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -169,7 +179,7 @@
       <title>Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS</title>
       <link>https://defimedia.info/economiepotentiel-inexploite-rs-21-md-portee-de-main-dans-le-non-hotelier-selon-axys</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.449900+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.769979+00:00</pubDate>
       <guid>780f6619421131ee595423afedc5ad3b</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -179,7 +189,7 @@
       <title>La Banque mondiale en mission à Maurice jusqu’au 13 février</title>
       <link>https://defimedia.info/economiela-banque-mondiale-en-mission-maurice-jusquau-13-fevrier</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.449619+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.769715+00:00</pubDate>
       <guid>638afebc3a7bc2346007aebfce50648b</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -189,7 +199,7 @@
       <title>Entre décembre et janvier : gros pois, pilchards, poulet en baisse, bœuf et mouton en hausse</title>
       <link>https://defimedia.info/economieentre-decembre-et-janvier-gros-pois-pilchards-poulet-en-baisse-boeuf-et-mouton-en-hausse</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.449366+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.769448+00:00</pubDate>
       <guid>5672688fc5de71f133a7fcea2acbbbdb</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -199,7 +209,7 @@
       <title>Governance with Grit : une formation pour repenser le rôle des professionnels de la gouvernance</title>
       <link>https://defimedia.info/economiegovernance-grit-une-formation-pour-repenser-le-role-des-professionnels-de-la-gouvernance</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.449108+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.769198+00:00</pubDate>
       <guid>efa8463cd701defe59505e7c4952f5a0</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -209,7 +219,7 @@
       <title>Étude de cas - Tourisme : pourquoi le Sri Lanka devance Maurice sur tous les fronts</title>
       <link>https://defimedia.info/economieetude-de-cas-tourisme-pourquoi-le-sri-lanka-devance-maurice-sur-tous-les-fronts</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.448846+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.768944+00:00</pubDate>
       <guid>7effe0d30bdd158f2d36f2d0554a8c8d</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -219,7 +229,7 @@
       <title>De la viande aux pâtes : la facture s’alourdit pour les ménages mauriciens en ce mois de février</title>
       <link>https://defimedia.info/economiede-la-viande-aux-pates-la-facture-salourdit-pour-les-menages-mauriciens-en-ce-mois-de-fevrier</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.448571+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.768687+00:00</pubDate>
       <guid>01e896fbfbf34804b7f31f76791f7e21</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -229,7 +239,7 @@
       <title>Nouvelle semaine de repli pour les indices mauriciens</title>
       <link>https://defimedia.info/economienouvelle-semaine-de-repli-pour-les-indices-mauriciens</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.448309+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.768414+00:00</pubDate>
       <guid>8b1aa5c520f099beaefc1f8aa2616c05</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -239,7 +249,7 @@
       <title>Billets, visas, packages…ce qu’il faut savoir pour assister aux matchs du Mondial 2026</title>
       <link>https://defimedia.info/economiebillets-visas-packagesce-quil-faut-savoir-pour-assister-aux-matchs-du-mondial-2026</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.448048+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.768157+00:00</pubDate>
       <guid>90fb056346fce441ee69cc670580aebc</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -249,7 +259,7 @@
       <title>Budget de l’État : Rs 91,36 milliards consacrées aux dépenses sociales</title>
       <link>https://defimedia.info/economiebudget-de-letat-rs-9136-milliards-consacrees-aux-depenses-sociales</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.447773+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.767886+00:00</pubDate>
       <guid>5538440cea9f37a80b73b0e040037fb0</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -259,7 +269,7 @@
       <title>Budget 2026/27 : croissance, inclusion et résilience</title>
       <link>https://defimedia.info/economiebudget-202627-croissance-inclusion-et-resilience</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.447495+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.767603+00:00</pubDate>
       <guid>25d8644a4f492518312b4351a129c22b</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -269,7 +279,7 @@
       <title>Transition économique : les femmes, le nouveau moteur de la croissance</title>
       <link>https://defimedia.info/economietransition-economique-les-femmes-le-nouveau-moteur-de-la-croissance</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.447230+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.767345+00:00</pubDate>
       <guid>a3f678d084ce0dd45e6e7b2480b32d42</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -279,7 +289,7 @@
       <title>Construction : du gaspillage à l’économie circulaire</title>
       <link>https://defimedia.info/economieconstruction-du-gaspillage-leconomie-circulaire</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.446960+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.767082+00:00</pubDate>
       <guid>c0299f65ceb9ae9b0aed40bf225d8523</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -289,7 +299,7 @@
       <title>Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»</title>
       <link>https://defimedia.info/economieshaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un</link>
       <description/>
-      <pubDate>2026-03-20T04:51:38.446536+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:51.766707+00:00</pubDate>
       <guid>8523918fd9c3757fe9ccf6eb45d896ad</guid>
       <source>Defimedia Économie</source>
       <category>local</category>
@@ -299,7 +309,7 @@
       <title>Importation de cannabis depuis l’Afrique du Sud : trois suspects arrêtés lors d’une &quot;Controlled Delivery&quot;</title>
       <link>https://defimedia.info/faits-diversimportation-de-cannabis-depuis-lafrique-du-sud-trois-suspects-arretes-lors-dune-controlled-delivery</link>
       <description/>
-      <pubDate>2026-03-20T04:51:36.001154+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.686198+00:00</pubDate>
       <guid>9daa607aaa1bf1bafedefcfcf26a77c2</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -309,7 +319,7 @@
       <title>Saisie de Rs 75 millions d’héroïne à Plaisance : une &quot;Controlled Delivery&quot; aux Seychelles mène à quatre arrestations</title>
       <link>https://defimedia.info/faits-diverssaisie-de-rs-75-millions-dheroine-plaisance-une-controlled-delivery-aux-seychelles-mene-quatre</link>
       <description/>
-      <pubDate>2026-03-20T04:51:36.000884+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.685946+00:00</pubDate>
       <guid>8e2c6ee414496c3494a2ac4c1181ec73</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -319,7 +329,7 @@
       <title>Meurtre de Beedwantee Beeharry tuée par son fils : l'héritage familial à l'origine des tensions</title>
       <link>https://defimedia.info/faits-diversmeurtre-de-beedwantee-beeharry-tuee-par-son-fils-lheritage-familial-lorigine-des-tensions</link>
       <description/>
-      <pubDate>2026-03-20T04:51:36.000605+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.685677+00:00</pubDate>
       <guid>ae7a4100eb684b3c92f2b03c328dadd3</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -329,7 +339,7 @@
       <title>Meurtre de Rebecca Larétif dans une maison de retraite : la famille de la victime dénonce le silence du centre</title>
       <link>https://defimedia.info/faits-diversmeurtre-de-rebecca-laretif-dans-une-maison-de-retraite-la-famille-de-la-victime-denonce-le-silence</link>
       <description/>
-      <pubDate>2026-03-20T04:51:36.000344+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.685379+00:00</pubDate>
       <guid>35be34345c59c3af7681841c1dc5caf8</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -339,7 +349,7 @@
       <title>Enquête policière : le compagnon de Yogeshwaree Bhunjun désormais suspecté d’être le commanditaire du meurtre, trois autres arrestations</title>
       <link>https://defimedia.info/faits-diversenquete-policiere-le-compagnon-de-yogeshwaree-bhunjun-desormais-suspecte-detre-le-commanditaire-du</link>
       <description/>
-      <pubDate>2026-03-20T04:51:36.000077+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.685125+00:00</pubDate>
       <guid>af54f6492efbdec837d5e092caaec70d</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -349,7 +359,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun : trois suspects, accusés de complicité, reconduits en cellule policière</title>
       <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-trois-suspects-accuses-de-complicite-reconduits-en-cellule-policiere</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.999786+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.684851+00:00</pubDate>
       <guid>27b44dc943a68245f4c99fc8c956d490</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -359,7 +369,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun : deux des trois suspects conduisent les enquêteurs à La Case Noyale</title>
       <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-deux-des-trois-suspects-conduisent-les-enqueteurs-la-case-noyale</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.999466+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.684537+00:00</pubDate>
       <guid>2b69d7b4eea51d0e3150f61fc7c96c12</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -369,7 +379,7 @@
       <title>Importation de cannabis depuis l’Afrique du Sud : trois suspects, dont l’ancien directeur de la Cargo Handling Corporation, arrêtés lors d’une «Controlled Delivery»</title>
       <link>https://defimedia.info/faits-diversimportation-de-cannabis-depuis-lafrique-du-sud-trois-suspects-dont-lancien-directeur-de-la-cargo</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.999172+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.684256+00:00</pubDate>
       <guid>7401f84741377f12ad73513560d53e18</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -379,7 +389,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun : deux suspects incriminent Arvind Ramchurn, le compagnon de la mère de famille</title>
       <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-deux-suspects-incriminent-arvind-ramchurn-le-compagnon-de-la-mere-de</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.998907+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.684001+00:00</pubDate>
       <guid>84dab5d27dc9085ffd669d92b442586c</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -389,7 +399,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun : le propriétaire d’un bateau entendu par la MCIT</title>
       <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-le-proprietaire-dun-bateau-entendu-par-la-mcit</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.998618+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.683731+00:00</pubDate>
       <guid>17ece0effb5179bce63092c8d6f428ab</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -399,7 +409,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun : les trois suspects en Cour de Pamplemousses</title>
       <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-les-trois-suspects-en-cour-de-pamplemousses</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.998340+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.683424+00:00</pubDate>
       <guid>0c340703deff7185343701d0ced17cb4</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -409,7 +419,7 @@
       <title>Goodlands : un homme mortellement agressé au sabre</title>
       <link>https://defimedia.info/faits-diversgoodlands-un-homme-mortellement-agresse-au-sabre</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.998044+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.683139+00:00</pubDate>
       <guid>865bfe07b209ba6674e81abec1585d96</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -419,7 +429,7 @@
       <title>Agression mortelle à Goodlands : fin tragique pour Olivier Pierre Louis</title>
       <link>https://defimedia.info/faits-diversagression-mortelle-goodlands-fin-tragique-pour-olivier-pierre-louis</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.997728+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.682870+00:00</pubDate>
       <guid>6eb9e2be7dcae4dc46e3fb08da9b1175</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -429,7 +439,7 @@
       <title>Meurtre à Cité Ste-Claire : la compagne de la victime réclame justice</title>
       <link>https://defimedia.info/faits-diversmeurtre-cite-ste-claire-la-compagne-de-la-victime-reclame-justice</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.997426+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.682579+00:00</pubDate>
       <guid>723261f9de946392626cbec5bb7417d2</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -439,7 +449,7 @@
       <title>Agression mortelle d’Olivier Pierre Louis à Goodlands : le présumé meurtrier arrêté à bord d’une voiture</title>
       <link>https://defimedia.info/faits-diversagression-mortelle-dolivier-pierre-louis-goodlands-le-presume-meurtrier-arrete-bord-dune-voiture</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.997076+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.682295+00:00</pubDate>
       <guid>cc50fdc4a018b9a3266dca69f04850de</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -449,7 +459,7 @@
       <title>Collision à Goodlands : un motocycliste succombe à ses blessures</title>
       <link>https://defimedia.info/faits-diverscollision-goodlands-un-motocycliste-succombe-ses-blessures</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.996778+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.682035+00:00</pubDate>
       <guid>583ba990af019542bf66b52667908798</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -459,7 +469,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»</title>
       <link>https://defimedia.info/faits-diversmeurtre-de-yogeshwaree-bhunjun-37-ans-imteaze-peeroo-dokter-inn-ed-nou-pou-met-lekor-dan-loto</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.996498+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.681774+00:00</pubDate>
       <guid>fc42818ebb24c72541f50c2b1cf930e5</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -469,7 +479,7 @@
       <title>Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain</title>
       <link>https://defimedia.info/faits-diversagression-mortelle-goodlands-jean-guillano-bundhoo-reconduit-en-cellule-policiere-jusqua-mardi</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.996227+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.681483+00:00</pubDate>
       <guid>512adbf0bf6862f63e08a30b4454c32c</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -479,7 +489,7 @@
       <title>Meurtre à Goodlands : l’agresseur d’Olivier Pierre Louis plaide la légitime défense</title>
       <link>https://defimedia.info/faits-diversmeurtre-goodlands-lagresseur-dolivier-pierre-louis-plaide-la-legitime-defense</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.995954+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.681215+00:00</pubDate>
       <guid>008398657838915f8f1937e71f72d8e6</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -489,7 +499,7 @@
       <title>Drame à la prison de Melrose : un détenu reconnaît avoir frappé Andy Selmour</title>
       <link>https://defimedia.info/faits-diversdrame-la-prison-de-melrose-un-detenu-reconnait-avoir-frappe-andy-selmour</link>
       <description/>
-      <pubDate>2026-03-20T04:51:35.995533+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:49.680835+00:00</pubDate>
       <guid>33f4e09b9017542d90df926b5351ffb3</guid>
       <source>Defimedia Faits Divers</source>
       <category>local</category>
@@ -499,7 +509,7 @@
       <title>Alliance gouvernementale : le ministère des Finances au centre d’une proposition mauve</title>
       <link>https://defimedia.info/politiquealliance-gouvernementale-le-ministere-des-finances-au-centre-dune-proposition-mauve</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.542198+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.588714+00:00</pubDate>
       <guid>9bbcb387a2e2f5d97a0da77a6deb6b8c</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -509,7 +519,7 @@
       <title>Proposition de Bérenger à Ramgoolam : les prochaines 24 heures cruciales pour le leader des mauves</title>
       <link>https://defimedia.info/politiqueproposition-de-berenger-ramgoolam-les-prochaines-24-heures-cruciales-pour-le-leader-des-mauves</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.541935+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.588441+00:00</pubDate>
       <guid>877472175681b9202bf7f8ab8954886d</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -519,7 +529,7 @@
       <title>Partira-partira pas - Navin Ramgoolam et Paul Bérenger : un lundi décisif</title>
       <link>https://defimedia.info/politiquepartira-partira-pas-navin-ramgoolam-et-paul-berenger-un-lundi-decisif</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.541653+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.588187+00:00</pubDate>
       <guid>73e1a5e94f8d91aaec26f9491f183ba8</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -529,7 +539,7 @@
       <title>Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »</title>
       <link>https://defimedia.info/politiqueproposition-de-berenger-ramgoolam-richard-duval-nou-atan-nou-gete</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.541390+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.587930+00:00</pubDate>
       <guid>34fc071bd1759c496dcfd288e07f8d7c</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -539,7 +549,7 @@
       <title>Politique : Rencontre entre Ramgoolam et Bérenger ce lundi</title>
       <link>https://defimedia.info/politiquepolitique-rencontre-entre-ramgoolam-et-berenger-ce-lundi</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.541112+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.587652+00:00</pubDate>
       <guid>f4e95deb404bff019889de52c7945ca2</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -549,7 +559,7 @@
       <title>Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition</title>
       <link>https://defimedia.info/politiquerencontre-au-pmo-pas-daccord-entre-ramgoolam-et-berenger-le-leader-du-mmm-ne-devrait-toutefois-pas</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.540822+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.587354+00:00</pubDate>
       <guid>5c05e6a21d4585a602c7a23d064279e5</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -559,7 +569,7 @@
       <title>Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »</title>
       <link>https://defimedia.info/politiqueberenger-ena-enn-gang-autour-de-li-ramgoolam-pas-tou-dimoune-ki-fer-nou-boukou-boukou-ditor</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.540541+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.587103+00:00</pubDate>
       <guid>fccfa8624383579c786b50e1cc815c91</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -569,7 +579,7 @@
       <title>Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense</title>
       <link>https://defimedia.info/politiquesituation-politique-ramgoolam-conserve-les-finances-berenger-garde-le-suspense</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.540266+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.586830+00:00</pubDate>
       <guid>ef7646992312dd0ba17f2f291de68378</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -579,7 +589,7 @@
       <title>Iran : la répression s'accentue, Trump menace les partenaires de Téhéran de sanctions</title>
       <link>https://defimedia.info/politiqueiran-la-repression-saccentue-trump-menace-les-partenaires-de-teheran-de-sanctions</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.539981+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.586529+00:00</pubDate>
       <guid>63f23786bb2f661012567047cd65d174</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -589,7 +599,7 @@
       <title>Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»</title>
       <link>https://defimedia.info/politiquepaul-berenger-li-pa-bon-pou-pei-ki-pena-enn-minis-finans-full-fledged</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.539702+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.586275+00:00</pubDate>
       <guid>a7c52d227e288c93cf15c76d3b5e5df2</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -599,7 +609,7 @@
       <title>Politique : quitter le gouvernement pas à l’ordre du jour du MMM</title>
       <link>https://defimedia.info/politiquepolitique-quitter-le-gouvernement-pas-lordre-du-jour-du-mmm</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.539442+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.586018+00:00</pubDate>
       <guid>ad0450c4dc4442652b7e86c93e7eb2ce</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -609,7 +619,7 @@
       <title>Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres</title>
       <link>https://defimedia.info/politiquesituation-politique-paul-berenger-sera-present-vendredi-au-conseil-des-ministres</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.539185+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.585759+00:00</pubDate>
       <guid>168d6a654353931a6fddbe877635f0d1</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -619,7 +629,7 @@
       <title>Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme</title>
       <link>https://defimedia.info/politiquecomite-central-du-mmm-ce-samedi-paul-berenger-devrait-plaider-pour-un-retour-au-calme</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.538919+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.585488+00:00</pubDate>
       <guid>19258baba5dee4683ba0fc76ef39c29c</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -629,7 +639,7 @@
       <title>Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»</title>
       <link>https://defimedia.info/politiquepaul-berenger-jai-recommande-au-comite-central-que-nous-restions-au-gouvernement</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.538638+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.585230+00:00</pubDate>
       <guid>f502d15b18f7c9fe8f2856c825650843</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -639,7 +649,7 @@
       <title>Tensions politiques : le monde des affaires en attente d’un apaisement et d’un vrai redémarrage</title>
       <link>https://defimedia.info/politiquetensions-politiques-le-monde-des-affaires-en-attente-dun-apaisement-et-dun-vrai-redemarrage</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.538373+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.584972+00:00</pubDate>
       <guid>79d34de177ec8111d841591c380d1551</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -649,7 +659,7 @@
       <title>Réforme électorale : le MSM déplore le manque de propositions concrètes du gouvernement</title>
       <link>https://defimedia.info/politiquereforme-electorale-le-msm-deplore-le-manque-de-propositions-concretes-du-gouvernement</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.538110+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.584709+00:00</pubDate>
       <guid>a52a32eb2e13cbc197484687dc3d27be</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -659,7 +669,7 @@
       <title>Bérenger : «Apre le 12 mars mo pou ena boukou kitsoz pou dir ki mo pa pe kapav dir akoz mo dan gouvernman»</title>
       <link>https://defimedia.info/politiqueberenger-apre-le-12-mars-mo-pou-ena-boukou-kitsoz-pou-dir-ki-mo-pa-pe-kapav-dir-akoz-mo-dan</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.537830+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.584416+00:00</pubDate>
       <guid>90304cd7bb5f56710b67ba0d6dbb971a</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -669,7 +679,7 @@
       <title>« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement</title>
       <link>https://defimedia.info/politiquekeep-trying-paul-berenger-reste-evasif-sur-son-eventuel-depart-du-gouvernement</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.537506+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.584112+00:00</pubDate>
       <guid>f9d31e8b329453b170a0a010e00a7ff1</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -679,7 +689,7 @@
       <title>Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »</title>
       <link>https://defimedia.info/politiqueberenger-mo-pou-gete-sipa-mo-pou-demisyone-dime-mem-antan-ki-vpm</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.537195+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.583801+00:00</pubDate>
       <guid>dded1f59c4633119c125c735aa09e661</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -689,7 +699,7 @@
       <title>Comité central du MMM : suivez notre fil rouge</title>
       <link>https://defimedia.info/politiquecomite-central-du-mmm-suivez-notre-fil-rouge</link>
       <description/>
-      <pubDate>2026-03-20T04:51:33.536768+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:47.583361+00:00</pubDate>
       <guid>81358e914f17e25fffec6750a35ce993</guid>
       <source>Defimedia Politique</source>
       <category>local</category>
@@ -699,7 +709,7 @@
       <title>L’appel à la fin du psychodrame politique</title>
       <link>https://defimedia.info/actualiteslappel-la-fin-du-psychodrame-politique</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.059419+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.502245+00:00</pubDate>
       <guid>480053488890f5451b19db4655373bcb</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -709,7 +719,7 @@
       <title>Gouvernance : la direction du MACOSS dément toute crise structurelle</title>
       <link>https://defimedia.info/actualitesgouvernance-la-direction-du-macoss-dement-toute-crise-structurelle</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.059161+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.501990+00:00</pubDate>
       <guid>0f5d9c2d9c16d327931c0671d55d50ff</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -719,7 +729,7 @@
       <title>Mort d’Andy Selmour à la prison de Melrose : un infirmier dénonce un manque de personnel et de sécurité</title>
       <link>https://defimedia.info/actualitesmort-dandy-selmour-la-prison-de-melrose-un-infirmier-denonce-un-manque-de-personnel-et-de-securite</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.058892+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.501730+00:00</pubDate>
       <guid>20ec50af411be0ff4709db494c45e2be</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -729,7 +739,7 @@
       <title>Après 11 mois de service - Dev Jokhoo : un départ précipité à la tête des prisons</title>
       <link>https://defimedia.info/actualitesapres-11-mois-de-service-dev-jokhoo-un-depart-precipite-la-tete-des-prisons</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.058601+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.501461+00:00</pubDate>
       <guid>a53e5fbf6b46bb5d515e9750b81b01e7</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -739,7 +749,7 @@
       <title>Ramadan : le croissant lunaire pourra-t-il être observé ce jeudi soir ?</title>
       <link>https://defimedia.info/actualitesramadan-le-croissant-lunaire-pourra-t-il-etre-observe-ce-jeudi-soir</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.058315+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.501193+00:00</pubDate>
       <guid>10239d20d5ea8c1c48255e2e0a3e110c</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -749,7 +759,7 @@
       <title>« Les États-Unis ont perdu le contrôle de leur propre politique étrangère », selon le ministre des Affaires étrangères d'Oman</title>
       <link>https://defimedia.info/actualitesles-etats-unis-ont-perdu-le-controle-de-leur-propre-politique-etrangere-selon-le-ministre-des</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.058021+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.500909+00:00</pubDate>
       <guid>1f653fcef42c4154433c16e7f72bc58e</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -759,7 +769,7 @@
       <title>Certificat d’investissement révoqué : Global Equestrian Ltd ne pourra pas contester la décision de l’EDB</title>
       <link>https://defimedia.info/actualitescertificat-dinvestissement-revoque-global-equestrian-ltd-ne-pourra-pas-contester-la-decision-de</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.057696+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.500645+00:00</pubDate>
       <guid>4b11385cc6f23afdd1ac82775bc4f070</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -769,7 +779,7 @@
       <title>Ramgoolam : « Budget pa pou fasil… li pou enn budget dir ankor, mo bien sagrin »</title>
       <link>https://defimedia.info/actualitesramgoolam-budget-pa-pou-fasil-li-pou-enn-budget-dir-ankor-mo-bien-sagrin</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.057389+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.500354+00:00</pubDate>
       <guid>78550a114b825a6dfed7cb1e6e08e8b3</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -779,7 +789,7 @@
       <title>Exclu de l’ordre professionnel en 2025 : la Cour suprême rejette la demande d’injonction d’un dentiste</title>
       <link>https://defimedia.info/actualitesexclu-de-lordre-professionnel-en-2025-la-cour-supreme-rejette-la-demande-dinjonction-dun-dentiste</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.057100+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.500065+00:00</pubDate>
       <guid>e01a9834c0c43268c79dcee24424851c</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -789,7 +799,7 @@
       <title>Ramgoolam : « Je ne m’ingérerai pas dans les affaires du MMM. Mon message : l’unité »</title>
       <link>https://defimedia.info/actualitesramgoolam-je-ne-mingererai-pas-dans-les-affaires-du-mmm-mon-message-lunite</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.056799+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.499787+00:00</pubDate>
       <guid>9555773c57ee9155a914d51cbbc0811c</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -799,7 +809,7 @@
       <title>Jayen Chellum, secrétaire général de l’ACIM : « La STC doit jouer son rôle de chien de garde sur le marché »</title>
       <link>https://defimedia.info/actualitesjayen-chellum-secretaire-general-de-lacim-la-stc-doit-jouer-son-role-de-chien-de-garde-sur-le</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.056442+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.499484+00:00</pubDate>
       <guid>bc1518f3f604bf8238bff5f4a75e656e</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -809,7 +819,7 @@
       <title>Réhabilitation du parking du stade Anjalay : « Un lieu provisoire pour les rallyes automobiles », annonce Osman Mahomed</title>
       <link>https://defimedia.info/actualitesrehabilitation-du-parking-du-stade-anjalay-un-lieu-provisoire-pour-les-rallyes-automobiles-annonce</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.056163+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.499211+00:00</pubDate>
       <guid>b864640c3410a203b86cd2849c4839de</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -819,7 +829,7 @@
       <title>Accident à Belle-Étoile : un motocycliste de 75 ans perd la vie</title>
       <link>https://defimedia.info/actualitesaccident-belle-etoile-un-motocycliste-de-75-ans-perd-la-vie</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.055868+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.498922+00:00</pubDate>
       <guid>99dd92b57453a3568090a7906663f0b1</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -829,7 +839,7 @@
       <title>Nouvelle cargaison de gaz ménager : « Il n’y a pas lieu de paniquer », rassure Michael Sik Yuen</title>
       <link>https://defimedia.info/actualitesnouvelle-cargaison-de-gaz-menager-il-ny-pas-lieu-de-paniquer-rassure-michael-sik-yuen</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.055570+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.498645+00:00</pubDate>
       <guid>bb7b9c0461be32d11228af9b44dad91c</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -839,7 +849,7 @@
       <title>Eid-ul-Fitr célébrée ce samedi 21 mars à Maurice</title>
       <link>https://defimedia.info/actualiteseid-ul-fitr-celebree-ce-samedi-21-mars-maurice</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.055275+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.498341+00:00</pubDate>
       <guid>320789b20f08248c2288fdd7365bae4f</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -849,7 +859,7 @@
       <title>[Info Soirée] : « ZOT BIZIN DECIDE, ME MO LAPEL SE LINITE »</title>
       <link>https://defimedia.info/actualitesinfo-soiree-zot-bizin-decide-me-mo-lapel-se-linite</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.054991+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.498039+00:00</pubDate>
       <guid>0c538cbf3fcff9de03390f01325efbc7</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -859,7 +869,7 @@
       <title>Ramgoolam : « Bhagwan et Gunness sont des bulldozers… Nous avons une équipe solide »</title>
       <link>https://defimedia.info/actualitesramgoolam-bhagwan-et-gunness-sont-des-bulldozers-nous-avons-une-equipe-solide</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.054664+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.497633+00:00</pubDate>
       <guid>e8c3ee06de1406e744d96a191931e106</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -869,7 +879,7 @@
       <title>Guerre au Moyen-Orient : voici les derniers développements</title>
       <link>https://defimedia.info/actualitesguerre-au-moyen-orient-voici-les-derniers-developpements</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.054374+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.497336+00:00</pubDate>
       <guid>e59b238e339f9ad79d3ce9324d02776b</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -879,7 +889,7 @@
       <title>Météo : Prévisions pour ce vendredi 20 mars</title>
       <link>https://defimedia.info/actualitesmeteo-previsions-pour-ce-vendredi-20-mars</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.054104+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.497072+00:00</pubDate>
       <guid>1044bcd8e79bcd919cc81818ec584b44</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
@@ -889,11 +899,23 @@
       <title>Partira, partira pas ? Paul Bérenger convoque la presse ce vendredi à 11 h</title>
       <link>https://defimedia.info/actualitespartira-partira-pas-paul-berenger-convoque-la-presse-ce-vendredi-11-h</link>
       <description/>
-      <pubDate>2026-03-20T04:51:31.053674+00:00</pubDate>
+      <pubDate>2026-03-20T04:55:45.496671+00:00</pubDate>
       <guid>a39319266438da7cec2e418642345fa5</guid>
       <source>Defimedia Actualités</source>
       <category>local</category>
       <language>fr</language>
+    </item>
+    <item>
+      <title>Mauritius: Aviation Crisis Hits Rs 8 Billion Industry as French Bookings Drop Half</title>
+      <link>https://newsmoris.com/mauritius-aviation-crisis-hits-rs-8-billion-industry-as-french-bookings-drop-half/</link>
+      <description>The Mauritian holiday rental sector is facing a sharp downturn in bookings as the escalating conflict in the Middle East causes widespread disruption to global flight paths.
+According to the latest “Industry Pulse” survey released on 16 March by the …
+The post Mauritius: Aviation Crisis Hits Rs 8 Billion Industry as French Bookings Drop Half appeared first on News Moris.</description>
+      <pubDate>2026-03-20T04:54:36+00:00</pubDate>
+      <guid>9407ec4036a76c2fb5629d038b765a26</guid>
+      <source>News Moris</source>
+      <category>local</category>
+      <language>en</language>
     </item>
     <item>
       <title>Mauritius Secures 50 Days of Gas Supply as Australian Cargo Arrives Safely</title>
@@ -2518,16 +2540,6 @@ The post STC Intensifies Import Strategy to Secure Essential Goods appeared firs
       <guid>c30fd7e587db1baa69db5f92e093ef80</guid>
       <source>BBC Africa</source>
       <category>africa</category>
-      <language>en</language>
-    </item>
-    <item>
-      <title>Need help with gifting ideas for a 13/14 year old relative</title>
-      <link>https://www.reddit.com/r/mauritius/comments/1rxr85i/need_help_with_gifting_ideas_for_a_1314_year_old/</link>
-      <description>Hey folks! I’m from India and I’ll be visiting my partner’s family in Mauritius after almost a decade. We will be visiting her extended family while we’re there and we’re taking small gifts and presents for the ones we’re visiting. I’m kind of at a dead end when it comes to this boy who is 13/14 years. When we last saw him he was 3 and that can’t really think of what to get him. We don’t want to get him some random thing. Any suggestions would be helpful. My budget is about 1500 - 2000 Mur.  Mer</description>
-      <pubDate>2026-03-19T04:52:19+00:00</pubDate>
-      <guid>6c445ae60386cd1497f70a3961a4e60f</guid>
-      <source>Reddit r/mauritius</source>
-      <category>community</category>
       <language>en</language>
     </item>
   </channel>
