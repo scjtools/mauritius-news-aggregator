@@ -319,22 +319,6 @@ def scrape_lexpress(source):
     return items
 
 
-def resolve_megamu_redirect(redirect_url, timeout=8):
-    """
-    Follow the live.mega.mu/redirect/NNNN/ URL to get the actual lexpress.mu article URL.
-    Returns the final URL, or the redirect_url if resolution fails.
-    """
-    try:
-        r = requests.head(redirect_url, headers=HEADERS, timeout=timeout, allow_redirects=True)
-        final = r.url
-        # Only use if it looks like a real lexpress.mu article URL
-        if "lexpress.mu" in final and final != redirect_url:
-            return final
-    except Exception:
-        pass
-    return redirect_url
-
-
 # ── mega.mu scraper (L'Express aggregator with full summaries) ────────────────
 
 def scrape_megamu(source):
@@ -393,9 +377,6 @@ def scrape_megamu(source):
                     continue
                 seen.add(redirect_url)
 
-                # Resolve the redirect to get the actual lexpress.mu URL
-                actual_url = resolve_megamu_redirect(redirect_url)
-
                 # Summary is in the next sibling paragraph
                 summary = ""
                 parent = h3.find_parent()
@@ -419,9 +400,9 @@ def scrape_megamu(source):
                 published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
 
                 items.append({
-                    "id":           item_id(title, actual_url),
+                    "id":           item_id(title, redirect_url),
                     "title":        title,
-                    "url":          actual_url,
+                    "url":          redirect_url,
                     "summary":      summary,
                     "source":       source["name"],
                     "language":     source["language"],
