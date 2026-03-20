@@ -754,12 +754,9 @@ def fetch_oilprice_demo(source):
         r.raise_for_status()
         data = r.json()
 
-        # Demo endpoint returns a list under "data"
-        price_list = data.get("data", [])
-        if isinstance(price_list, dict):
-            price_list = [price_list]  # single object fallback
-
-        price_data = price_list[0] if price_list else {}
+        # Demo endpoint: {"data": {"prices": [...], "meta": {...}}}
+        price_list = data.get("data", {}).get("prices", [])
+        price_data = next((p for p in price_list if "BRENT" in p.get("code", "")), price_list[0] if price_list else {})
         price = price_data.get("price")
         formatted = price_data.get("formatted", "")
         currency = price_data.get("currency", "USD")
