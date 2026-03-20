@@ -20,10 +20,6 @@ rss_feeds:
     language: "en"
     category: "local"
 
-  - name: "GovMU"
-    url: "https://news.google.com/rss/search?q=site:govmu.org&hl=en-MU&gl=MU&ceid=MU:en"
-    language: "en"
-    category: "government"
 
   - name: "Reddit r/mauritius"
     url: "https://www.reddit.com/r/mauritius/.rss"
@@ -31,40 +27,26 @@ rss_feeds:
     category: "community"
 
   # ── Regional ────────────────────────────────────────────────
-  - name: "AllAfrica Mauritius"
-    url: "https://allafrica.com/tools/headlines/rdf/mauritius/headlines.rdf"
+  # AllAfrica /latest/ — pan-African aggregator, 400+ stories/day from 120+
+  # African news organisations. Active feed replacing broken country-specific feeds.
+  - name: "AllAfrica"
+    url: "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf"
     language: "en"
-    category: "regional"
+    category: "africa"
 
-  - name: "AllAfrica Seychelles"
-    url: "https://allafrica.com/tools/headlines/rdf/seychelles/headlines.rdf"
+  # TechCabal — pan-African tech, business and finance publication.
+  # Covers the same ground as Business Insider Africa (startups, fintech,
+  # regulation, governance) with a confirmed working RSS feed.
+  - name: "TechCabal"
+    url: "https://techcabal.com/feed/"
     language: "en"
-    category: "regional"
+    category: "africa"
 
-  - name: "AllAfrica Comoros"
-    url: "https://allafrica.com/tools/headlines/rdf/comoros/headlines.rdf"
-    language: "en"
-    category: "regional"
 
-  - name: "AllAfrica Madagascar"
-    url: "https://allafrica.com/tools/headlines/rdf/madagascar/headlines.rdf"
-    language: "en"
-    category: "regional"
 
-  - name: "AllAfrica Mozambique"
-    url: "https://allafrica.com/tools/headlines/rdf/mozambique/headlines.rdf"
-    language: "en"
-    category: "regional"
 
-  - name: "Google News Rodrigues"
-    url: "https://news.google.com/rss/search?q=Rodrigues+island+Mauritius&hl=en&gl=MU&ceid=MU:en"
-    language: "en"
-    category: "regional"
 
-  - name: "Google News Reunion"
-    url: "https://news.google.com/rss/search?q=Reunion+island+news&hl=fr&gl=MU&ceid=MU:fr"
-    language: "fr"
-    category: "regional"
+
 
   # ── Africa ──────────────────────────────────────────────────
   - name: "Africanews"
@@ -77,14 +59,37 @@ rss_feeds:
     language: "en"
     category: "africa"
 
+  # ── India ────────────────────────────────────────────────
+  # National: India domestic politics, economy, society
+  - name: "The Hindu (National)"
+    url: "https://www.thehindu.com/news/national/?service=rss"
+    language: "en"
+    category: "regional"
+
   # ── International — top stories across all genres ───────────
+  # BBC World feed (with sport) via bbc-feeds.danq.dev — strips iPlayer/app
+  # promotion noise from BBC's own feed, keeps world news + sport
   - name: "BBC News"
-    url: "https://feeds.bbci.co.uk/news/rss.xml"
+    url: "https://bbc-feeds.danq.dev/world-sports.xml"
     language: "en"
     category: "international"
 
   - name: "Al Jazeera"
     url: "https://www.aljazeera.com/xml/rss/all.xml"
+    language: "en"
+    category: "international"
+
+  # France 24 English — international broadcaster, strong on global affairs,
+  # sport, culture and business; French perspective relevant to Mauritian readers
+  - name: "France 24"
+    url: "https://www.france24.com/en/rss"
+    language: "en"
+    category: "international"
+
+  # The Hindu International — world news from an Indian editorial lens;
+  # distinct perspective on Asia-Pacific, Middle East and South Asia geopolitics
+  - name: "The Hindu (International)"
+    url: "https://www.thehindu.com/news/international/?service=rss"
     language: "en"
     category: "international"
 
@@ -119,6 +124,30 @@ scrapers:
     url: "https://defimedia.info/economie"
     language: "fr"
     category: "local"
+
+  # ── African business scraper ─────────────────────────────
+  # Business Insider Africa — pan-African business, finance, tech news.
+  # No RSS feed available. Site has bot detection; may need User-Agent tuning
+  # if it returns 0 items on first run.
+  - name: "Business Insider Africa"
+    url: "https://africa.businessinsider.com/"
+    language: "en"
+    category: "africa"
+
+  # ── Regional neighbour scrapers ──────────────────────────
+  # linfo.re — Réunion's #1 news site (Antenne Réunion TV web portal)
+  # Returns 402 to headless fetchers without browser UA — aggregator.py
+  # User-Agent header should pass. Two sections: island news + Indian Ocean.
+  - name: "Linfo.re Réunion"
+    url: "https://www.linfo.re/la-reunion"
+    language: "fr"
+    category: "regional"
+
+  - name: "Linfo.re Océan Indien"
+    url: "https://www.linfo.re/ocean-indien"
+    language: "fr"
+    category: "regional"
+
 
   # ── Utilities & data ─────────────────────────────────────────
   - name: "Mauritius Met Services"
