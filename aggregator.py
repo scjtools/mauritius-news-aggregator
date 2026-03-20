@@ -68,28 +68,42 @@ def try_parse_date_from_html(tag):
     return None
 
 
+def clean_title(title, source_name):
+    """Strip trailing source attribution suffixes added by Google News aggregation."""
+    if "Google News" in source_name:
+        # Titles come as "Real title - Source Name" — strip the last " - Source" part
+        title = re.sub(r'\s*[-–]\s*[^-–]{3,50}$', '', title).strip()
+    return title
+
+
 # ── RSS sources ──────────────────────────────────────────────────────────────
 
 def fetch_rss(source):
     items = []
+    max_items = source.get("max_items", None)  # None = no cap
     try:
         feed = feedparser.parse(source["url"])
         for entry in feed.entries:
+            if max_items and len(items) >= max_items:
+                break
             dt = parse_date(entry)
             if not is_recent(dt):
                 continue
+            raw_title = entry.get("title", "").strip()
+            title = clean_title(raw_title, source["name"])
             summary = BeautifulSoup(
                 getattr(entry, "summary", "") or "", "html.parser"
             ).get_text()[:MAX_SUMMARY_CHARS]
             items.append({
-                "id":        item_id(entry.get("title", ""), entry.get("link", "")),
-                "title":     entry.get("title", "").strip(),
-                "url":       entry.get("link", ""),
-                "summary":   summary.strip(),
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": dt.isoformat() if dt else datetime.now(timezone.utc).isoformat(),
+                "id":           item_id(title, entry.get("link", "")),
+                "title":        title,
+                "url":          entry.get("link", ""),
+                "summary":      summary.strip(),
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    dt.isoformat() if dt else datetime.now(timezone.utc).isoformat(),
+                "date_verified": dt is not None,
             })
     except Exception as e:
         print(f"[RSS ERROR] {source['name']}: {e}")
@@ -169,17 +183,18 @@ def scrape_homepage(source):
             published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
 
             items.append({
-                "id":        item_id(title, url),
-                "title":     title,
-                "url":       url,
-                "summary":   summary,
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": published,
+                "id":           item_id(title, url),
+                "title":        title,
+                "url":          url,
+                "summary":      summary,
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    published,
+                "date_verified": dt is not None,  # False = scrape time used, age unconfirmed
             })
 
-            if len(items) >= 20:
+            if len(items) >= source.get("max_items", 20):
                 break
 
         time.sleep(SCRAPE_SLEEP_SECONDS)
@@ -302,6 +317,22 @@ def scrape_lexpress(source):
     return items
 
 
+def resolve_megamu_redirect(redirect_url, timeout=8):
+    """
+    Follow the live.mega.mu/redirect/NNNN/ URL to get the actual lexpress.mu article URL.
+    Returns the final URL, or the redirect_url if resolution fails.
+    """
+    try:
+        r = requests.head(redirect_url, headers=HEADERS, timeout=timeout, allow_redirects=True)
+        final = r.url
+        # Only use if it looks like a real lexpress.mu article URL
+        if "lexpress.mu" in final and final != redirect_url:
+            return final
+    except Exception:
+        pass
+    return redirect_url
+
+
 # ── mega.mu scraper (L'Express aggregator with full summaries) ────────────────
 
 def scrape_megamu(source):
@@ -360,6 +391,9 @@ def scrape_megamu(source):
                     continue
                 seen.add(redirect_url)
 
+                # Resolve the redirect to get the actual lexpress.mu URL
+                actual_url = resolve_megamu_redirect(redirect_url)
+
                 # Summary is in the next sibling paragraph
                 summary = ""
                 parent = h3.find_parent()
@@ -383,14 +417,15 @@ def scrape_megamu(source):
                 published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
 
                 items.append({
-                    "id":        item_id(title, redirect_url),
-                    "title":     title,
-                    "url":       redirect_url,
-                    "summary":   summary,
-                    "source":    source["name"],
-                    "language":  source["language"],
-                    "category":  source["category"],
-                    "published": published,
+                    "id":           item_id(title, actual_url),
+                    "title":        title,
+                    "url":          actual_url,
+                    "summary":      summary,
+                    "source":       source["name"],
+                    "language":     source["language"],
+                    "category":     source["category"],
+                    "published":    published,
+                    "date_verified": dt is not None,
                 })
                 found_on_page += 1
 
@@ -422,17 +457,24 @@ def scrape_bulletin(source):
                 paragraphs.append(text)
 
         if paragraphs:
-            bulletin_text = " ".join(paragraphs[:4])[:MAX_SUMMARY_CHARS]
+            # Use up to 800 chars for bulletin (more than standard 500)
+            # to capture full forecast including temperatures
+            bulletin_text = " ".join(paragraphs[:6])[:800]
+            # Strip the boilerplate intro if present
+            bulletin_text = re.sub(
+                r"^Welcome to Mauritius Meteorological Services\s*", "", bulletin_text
+            ).strip()
             now = datetime.now(timezone.utc)
             items.append({
-                "id":        item_id("Met bulletin", now.strftime("%Y-%m-%d")),
-                "title":     f"Mauritius weather bulletin – {now.strftime('%d %B %Y')}",
-                "url":       source["url"],
-                "summary":   bulletin_text,
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": now.isoformat(),
+                "id":           item_id("Met bulletin", now.strftime("%Y-%m-%d")),
+                "title":        f"Mauritius weather bulletin – {now.strftime('%d %B %Y')}",
+                "url":          source["url"],
+                "summary":      bulletin_text,
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    now.isoformat(),
+                "date_verified": True,
             })
         time.sleep(SCRAPE_SLEEP_SECONDS)
     except Exception as e:
@@ -456,14 +498,15 @@ def scrape_semdex(source):
         if semdex_value:
             now = datetime.now(timezone.utc)
             items.append({
-                "id":        item_id("SEMDEX", now.strftime("%Y-%m-%d")),
-                "title":     f"SEMDEX – {now.strftime('%d %B %Y')}",
-                "url":       source["url"],
-                "summary":   f"SEMDEX closed at {semdex_value}",
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": now.isoformat(),
+                "id":           item_id("SEMDEX", now.strftime("%Y-%m-%d")),
+                "title":        f"SEMDEX – {now.strftime('%d %B %Y')}",
+                "url":          source["url"],
+                "summary":      f"SEMDEX closed at {semdex_value}",
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    now.isoformat(),
+                "date_verified": True,
             })
         else:
             print(f"[SEMDEX WARNING] Could not extract index value from page")
@@ -520,14 +563,15 @@ def fetch_power_outages(source):
                 summary += f" Areas affected: {streets[:300]}"
 
             items.append({
-                "id":        item_id("CEB outage", outage_id or f"{locality}{from_str}"),
-                "title":     title,
-                "url":       "https://github.com/MrSunshyne/mauritius-dataset-electricity",
-                "summary":   summary[:MAX_SUMMARY_CHARS],
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": from_dt.isoformat(),
+                "id":           item_id("CEB outage", outage_id or f"{locality}{from_str}"),
+                "title":        title,
+                "url":          "https://github.com/MrSunshyne/mauritius-dataset-electricity",
+                "summary":      summary[:MAX_SUMMARY_CHARS],
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    from_dt.isoformat(),
+                "date_verified": True,
             })
 
     except Exception as e:
@@ -584,14 +628,15 @@ def fetch_public_holidays(source):
                     parts.append(f"In {days_away} days ({hdate}): {name}")
 
             items.append({
-                "id":        item_id("public holiday", today.isoformat()),
-                "title":     f"Upcoming public holiday – {upcoming[0][1]}",
-                "url":       "https://govmu.org",
-                "summary":   " | ".join(parts),
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": now.isoformat(),
+                "id":           item_id("public holiday", today.isoformat()),
+                "title":        f"Upcoming public holiday – {upcoming[0][1]}",
+                "url":          "https://govmu.org",
+                "summary":      " | ".join(parts),
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    now.isoformat(),
+                "date_verified": True,
             })
 
     except Exception as e:
@@ -602,11 +647,24 @@ def fetch_public_holidays(source):
 # ── Deduplicate ───────────────────────────────────────────────────────────────
 
 def deduplicate(items):
-    seen = {}
+    """
+    Two-pass deduplication:
+    1. By URL — catches same article with different titles (e.g. BBC updating headline)
+    2. By ID (title+url hash) — catches same title at different URLs
+    URL-based pass runs first and wins.
+    """
+    seen_urls = {}
     for item in items:
-        if item["id"] not in seen:
-            seen[item["id"]] = item
-    return list(seen.values())
+        url = item.get("url", "")
+        if url and url not in seen_urls:
+            seen_urls[url] = item
+
+    seen_ids = {}
+    for item in seen_urls.values():
+        if item["id"] not in seen_ids:
+            seen_ids[item["id"]] = item
+
+    return list(seen_ids.values())
 
 
 # ── Build RSS output ──────────────────────────────────────────────────────────
@@ -631,6 +689,9 @@ def build_rss(items):
         SubElement(entry, "source").text = item["source"]
         SubElement(entry, "category").text = item["category"]
         SubElement(entry, "language").text = item["language"]
+        # date_verified=false means pubDate is scrape time, not article publish time
+        # Stage 2 should treat these items' ages as unconfirmed
+        SubElement(entry, "date_verified").text = str(item.get("date_verified", True)).lower()
 
     raw = tostring(rss, encoding="unicode")
     return minidom.parseString(raw).toprettyxml(indent="  ")
@@ -652,19 +713,32 @@ def fetch_exchange_rates(source):
                 if title.endswith(currency):
                     parts = title.split("=")
                     if len(parts) == 2:
-                        rates[currency] = parts[1].strip()
+                        # parts[1] is e.g. "0.02150 USD" — strip the currency suffix
+                        rate_value = parts[1].strip()
+                        if rate_value.endswith(currency):
+                            rate_value = rate_value[:-len(currency)].strip()
+                        try:
+                            # FloatRates gives 1 MUR = X foreign; invert to get 1 foreign = Y MUR
+                            rates[currency] = 1.0 / float(rate_value)
+                        except (ValueError, ZeroDivisionError):
+                            pass
         if rates:
             now = datetime.now(timezone.utc)
-            summary = " | ".join(f"1 MUR = {rates[c]} {c}" for c in target_currencies if c in rates)
+            # Format: "MUR/USD 46.51 | MUR/EUR 53.44"
+            summary = " | ".join(
+                f"MUR/{c} {rates[c]:.2f}"
+                for c in target_currencies if c in rates
+            )
             items.append({
-                "id":        item_id("MUR rates", now.strftime("%Y-%m-%d")),
-                "title":     f"MUR exchange rates – {now.strftime('%d %B %Y')}",
-                "url":       source["url"],
-                "summary":   summary,
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": now.isoformat(),
+                "id":           item_id("MUR rates", now.strftime("%Y-%m-%d")),
+                "title":        f"MUR exchange rates – {now.strftime('%d %B %Y')}",
+                "url":          source["url"],
+                "summary":      summary,
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    now.isoformat(),
+                "date_verified": True,
             })
     except Exception as e:
         print(f"[RATES ERROR] {source['name']}: {e}")
@@ -688,14 +762,15 @@ def fetch_gold_api(source):
             now = datetime.now(timezone.utc)
             label = {"XAU": "Gold", "BTC": "Bitcoin", "USOIL": "WTI Crude Oil"}.get(symbol, symbol)
             items.append({
-                "id":        item_id(f"{symbol} price", now.strftime("%Y-%m-%d")),
-                "title":     f"{label} price – {now.strftime('%d %B %Y')}",
-                "url":       source["url"],
-                "summary":   f"{label} ({symbol}): {currency} {price:,.2f}",
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": now.isoformat(),
+                "id":           item_id(f"{symbol} price", now.strftime("%Y-%m-%d")),
+                "title":        f"{label} price – {now.strftime('%d %B %Y')}",
+                "url":          source["url"],
+                "summary":      f"{label} ({symbol}): {currency} {price:,.2f}",
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    now.isoformat(),
+                "date_verified": True,
             })
     except Exception as e:
         print(f"[GOLD API ERROR] {source['name']}: {e}")
@@ -766,14 +841,15 @@ def fetch_oilprice_demo(source):
         if price is not None:
             now = datetime.now(timezone.utc)
             items.append({
-                "id":        item_id("Brent crude", now.strftime("%Y-%m-%d")),
-                "title":     f"{label} price – {now.strftime('%d %B %Y')}",
-                "url":       "https://www.oilpriceapi.com",
-                "summary":   f"{label}: {formatted if formatted else f'{currency} {price:,.2f}'} per barrel",
-                "source":    source["name"],
-                "language":  source["language"],
-                "category":  source["category"],
-                "published": now.isoformat(),
+                "id":           item_id("Brent crude", now.strftime("%Y-%m-%d")),
+                "title":        f"{label} price – {now.strftime('%d %B %Y')}",
+                "url":          "https://www.oilpriceapi.com",
+                "summary":      f"{label}: {formatted if formatted else f'{currency} {price:,.2f}'} per barrel",
+                "source":       source["name"],
+                "language":     source["language"],
+                "category":     source["category"],
+                "published":    now.isoformat(),
+                "date_verified": True,
             })
         else:
             print(f"[OILPRICE WARNING] No price found in response: {data}")
