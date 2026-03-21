@@ -919,6 +919,10 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session: requests.
             if r.status_code != 200:
                 return {"published": None, "summary": None}
 
+            # Force UTF-8 for sources known to serve UTF-8 with wrong content-type headers
+            if "lemauricien.com" in url:
+                r.encoding = "utf-8"
+
             soup = BeautifulSoup(r.text, "html.parser")
 
             # ── Published date ────────────────────────────────────────────────
