@@ -1,10 +1,6 @@
-# ─────────────────────────────────────────────────────────────
-# Mauritius News Aggregator — Source Definitions
-# ─────────────────────────────────────────────────────────────
-
 rss_feeds:
 
-  # ── Local news ──────────────────────────────────────────────
+  # ── Local ───────────────────────────────────────────────────
   - name: "News Moris"
     url: "https://newsmoris.com/feed/"
     language: "en"
@@ -15,31 +11,17 @@ rss_feeds:
     language: "en"
     category: "local"
 
-
-
   # ── Regional ────────────────────────────────────────────────
-  # AllAfrica /latest/ — pan-African aggregator, 400+ stories/day from 120+
-  # African news organisations. Active feed replacing broken country-specific feeds.
   - name: "AllAfrica"
     url: "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf"
     language: "en"
     category: "regional"
 
-  # TechCabal — pan-African tech, business and finance publication.
-  # Covers the same ground as Business Insider Africa (startups, fintech,
-  # regulation, governance) with a confirmed working RSS feed.
   - name: "TechCabal"
     url: "https://techcabal.com/feed/"
     language: "en"
     category: "regional"
 
-
-
-
-
-
-
-  # ── Africa ──────────────────────────────────────────────────
   - name: "Africanews"
     url: "https://www.africanews.com/feed/rss"
     language: "en"
@@ -50,31 +32,26 @@ rss_feeds:
     language: "en"
     category: "regional"
 
-  # ── India ────────────────────────────────────────────────
-  # ── International — top stories across all genres ───────────
-  # BBC World feed (with sport) via bbc-feeds.danq.dev — strips iPlayer/app
-  # promotion noise from BBC's own feed, keeps world news + sport
+  # ── Global ───────────────────────────────────────────────────
   - name: "BBC News"
     url: "https://bbc-feeds.danq.dev/world-sports.xml"
     language: "en"
-    category: "international"
+    category: "global"
 
   - name: "Al Jazeera"
     url: "https://www.aljazeera.com/xml/rss/all.xml"
     language: "en"
-    category: "international"
+    category: "global"
 
-  # France 24 English — international broadcaster, strong on global affairs,
-  # sport, culture and business; French perspective relevant to Mauritian readers
   - name: "France 24"
     url: "https://www.france24.com/en/rss"
     language: "en"
-    category: "international"
+    category: "global"
 
 
 scrapers:
 
-  # ── L'Express via mega.mu (full summaries, paginated) ────────
+  # ── Local ───────────────────────────────────────────────────
   - name: "L'Express (via mega.mu)"
     url: "https://live.mega.mu/"
     language: "fr"
@@ -82,7 +59,6 @@ scrapers:
     type: megamu
     max_pages: 5
 
-  # ── Defimedia sections ───────────────────────────────────────
   - name: "Defimedia Actualités"
     url: "https://defimedia.info/actualites"
     language: "fr"
@@ -103,16 +79,11 @@ scrapers:
     language: "fr"
     category: "local"
 
-  # ── African business scraper ─────────────────────────────
-  # Business Insider Africa — pan-African business, finance, tech news.
-  # No RSS feed available. Site has bot detection; may need User-Agent tuning
-  # if it returns 0 items on first run.
+  # ── Regional ────────────────────────────────────────────────
   - name: "Business Insider Africa"
     url: "https://africa.businessinsider.com/"
     language: "en"
     category: "regional"
-
-  # ── Regional neighbour scrapers ──────────────────────────
 
   # ── Utilities & data ─────────────────────────────────────────
   - name: "Mauritius Met Services"
