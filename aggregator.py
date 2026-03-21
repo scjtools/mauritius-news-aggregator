@@ -464,6 +464,143 @@ def scrape_megamu(source):
     return items
 
 
+# ── Le Mauricien scraper ─────────────────────────────────────────────────────
+
+# Le Mauricien date strings appear as "21 Mar 2026 12h00" next to each headline
+_LM_MONTHS = {
+    "jan": 1, "fév": 2, "mar": 3, "avr": 4, "mai": 5, "jun": 6,
+    "juil": 7, "aoû": 8, "sep": 9, "oct": 10, "nov": 11, "déc": 12,
+    # fallbacks for ASCII variants
+    "fev": 2, "aou": 8,
+}
+
+def _parse_lm_date(text: str):
+    """Parse Le Mauricien date strings like '21 Mar 2026 12h00' into UTC datetime."""
+    m = re.search(
+        r"(\d{1,2})\s+(\w+)\s+(\d{4})\s+(\d{1,2})h(\d{2})",
+        text, re.IGNORECASE
+    )
+    if m:
+        day, mon, year = int(m.group(1)), m.group(2).lower()[:3], int(m.group(3))
+        hour, minute = int(m.group(4)), int(m.group(5))
+        month = _LM_MONTHS.get(mon)
+        if month:
+            mu_tz = timezone(timedelta(hours=4))  # MUT = UTC+4
+            return datetime(year, month, day, hour, minute, tzinfo=mu_tz).astimezone(timezone.utc)
+    # Fallback: date only, no time
+    m2 = re.search(r"(\d{1,2})\s+(\w+)\s+(\d{4})", text, re.IGNORECASE)
+    if m2:
+        day, mon, year = int(m2.group(1)), m2.group(2).lower()[:3], int(m2.group(3))
+        month = _LM_MONTHS.get(mon)
+        if month:
+            mu_tz = timezone(timedelta(hours=4))
+            return datetime(year, month, day, 12, 0, tzinfo=mu_tz).astimezone(timezone.utc)
+    return None
+
+
+def scrape_lemauricien(source):
+    """
+    Dedicated scraper for lemauricien.com.
+    - Extracts article links, titles, teasers, and dates from the homepage.
+    - Dates are parsed from inline text (e.g. '21 Mar 2026 12h00'), giving
+      date_verified=True without needing to fetch individual article pages.
+    - Articles without a teaser are marked date_verified per date result but
+      summary is left empty for enrichment to fill in.
+    - Only keeps articles whose URL matches url_path_allowlist (set in sources.yaml).
+    """
+    items = []
+    try:
+        r = requests.get(source["url"], headers=HEADERS, timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        url_path_allowlist = source.get("url_path_allowlist", [])
+        source_host = source["url"].rstrip("/").split("//")[-1]
+
+        seen = set()
+
+        # All article links on lemauricien.com are <a href="..."> wrapping a title
+        for a_tag in soup.find_all("a", href=True):
+            href = a_tag.get("href", "")
+
+            # Resolve URL
+            if href.startswith("http"):
+                url = href
+            elif href.startswith("/"):
+                url = f"https://www.lemauricien.com{href}"
+            else:
+                continue
+
+            # Domain check
+            if source_host not in url:
+                continue
+
+            # Path allowlist
+            if url_path_allowlist and not any(seg in url for seg in url_path_allowlist):
+                continue
+
+            if url in seen:
+                continue
+
+            # Title: prefer h2/h3/h4 inside the link, fall back to link text
+            title = ""
+            for h in a_tag.find_all(["h1", "h2", "h3", "h4"]):
+                t = h.get_text(" ", strip=True)
+                if len(t) >= 20:
+                    title = t
+                    break
+            if not title:
+                title = a_tag.get_text(" ", strip=True)
+            if len(title) < 20 or len(title) > 200:
+                continue
+
+            seen.add(url)
+
+            # Teaser: look for a <p> sibling or parent container paragraph
+            summary = ""
+            parent = a_tag.find_parent()
+            if parent:
+                for p in parent.find_all("p"):
+                    pt = p.get_text(" ", strip=True)
+                    if len(pt) > 40:
+                        summary = pt[:MAX_SUMMARY_CHARS]
+                        break
+
+            # Date: scan the parent container for a date string
+            dt = None
+            if parent:
+                parent_text = parent.get_text(" ", strip=True)
+                dt = _parse_lm_date(parent_text)
+                # Also check grandparent in case date sits outside the direct parent
+                if not dt:
+                    gp = parent.find_parent()
+                    if gp:
+                        dt = _parse_lm_date(gp.get_text(" ", strip=True))
+
+            if dt and not is_recent(dt):
+                continue
+
+            published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
+
+            items.append({
+                "id":            item_id(title, url),
+                "title":         title,
+                "url":           url,
+                "summary":       summary,
+                "source":        source["name"],
+                "language":      source["language"],
+                "category":      source["category"],
+                "published":     published,
+                "date_verified": dt is not None,
+            })
+
+        time.sleep(SCRAPE_SLEEP_SECONDS)
+
+    except Exception as e:
+        print(f"[LEMAURICIEN ERROR] {source['name']}: {e}")
+    return items
+
+
 # ── Met Service bulletin scraper ─────────────────────────────────────────────
 
 def scrape_bulletin(source):
@@ -884,7 +1021,7 @@ def fetch_oilprice_demo(source):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-def _fetch_article_meta(url: str) -> dict:
+def _fetch_article_meta(url: str, extra_headers: dict = None) -> dict:
     """
     Fetch a single article page and extract:
     - article:published_time (or og:article:published_time / datePublished)
@@ -892,15 +1029,17 @@ def _fetch_article_meta(url: str) -> dict:
 
     Returns dict with keys: published (ISO str or None), summary (str or None)
     Implements exponential backoff on 429/503.
+    extra_headers: merged on top of HEADERS (e.g. Referer for Defimedia).
     """
     import time as _time
 
+    headers = {**HEADERS, **(extra_headers or {})}
     delays = [2, 10, 30]  # seconds between retries
     for attempt, delay in enumerate([0] + delays):
         if delay:
             _time.sleep(delay)
         try:
-            r = requests.get(url, headers=HEADERS, timeout=20)
+            r = requests.get(url, headers=headers, timeout=20)
             if r.status_code in (429, 503):
                 continue  # retry with next delay
             if r.status_code != 200:
@@ -961,71 +1100,111 @@ def _fetch_article_meta(url: str) -> dict:
     return {"published": None, "summary": None}
 
 
+# Per-source extra headers for enrichment fetches
+_ENRICH_EXTRA_HEADERS = {
+    "Defimedia": {"Referer": "https://defimedia.info"},
+    "Le Mauricien": {"Referer": "https://www.lemauricien.com"},
+}
+
+
 def enrich_articles(items: list) -> list:
     """
-    For items where date_verified=False and category='local' (Defimedia, BI Africa):
-    - Fetch the article page
-    - Extract real publication date and summary
-    - If real date is older than 24h: drop the item (stale)
-    - If real date is within 24h: update published + date_verified=True
-    - If fetch fails: keep item as-is (Stage 2 handles conservatively)
+    Enrichment pass for local articles:
 
-    Rate-limited to avoid hammering sources.
-    Capped at MAX_ENRICH_ITEMS fetches per run to keep pipeline fast.
+    Two modes per item:
+    A) date_verified=False — fetch article page to get real date + summary.
+       If real date is older than 24h: drop. If fresh: update date + summary.
+       If fetch fails: keep as-is (Stage 2 handles conservatively).
+    B) date_verified=True but summary is empty — fetch article page for
+       summary only. Date is not touched.
+
+    No cap on number of items enriched.
+    Per-source stats logged for diagnostics.
+    Source-specific Referer headers applied to reduce block rate.
     """
-    MAX_ENRICH_ITEMS = 40  # max article pages to fetch per run
+    from collections import defaultdict
+    from dateutil import parser as _dp
+
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=24)
 
-    targets = [
+    # Mode A: unverified date
+    date_targets = [
         i for i, item in enumerate(items)
         if not item.get("date_verified", True)
         and item.get("category") == "local"
         and item.get("url", "").startswith("http")
     ]
 
-    print(f"  Enriching {min(len(targets), MAX_ENRICH_ITEMS)} / {len(targets)} unverified local items...")
+    # Mode B: verified date but no summary
+    summary_targets = [
+        i for i, item in enumerate(items)
+        if item.get("date_verified", True)
+        and not item.get("summary", "").strip()
+        and item.get("category") == "local"
+        and item.get("url", "").startswith("http")
+        and i not in set(date_targets)
+    ]
 
-    enriched = 0
-    dropped = 0
-    failed = 0
+    print(f"  Enriching: {len(date_targets)} need date+summary, "
+          f"{len(summary_targets)} need summary only")
+
+    # Per-source counters
+    stats = defaultdict(lambda: {"enriched": 0, "dropped": 0, "failed": 0, "summary_only": 0})
     indices_to_drop = []
 
-    for idx in targets[:MAX_ENRICH_ITEMS]:
+    # ── Mode A: date + summary ────────────────────────────────────────────────
+    for idx in date_targets:
         item = items[idx]
-        meta = _fetch_article_meta(item["url"])
+        source_name = item.get("source", "")
+        extra_headers = _ENRICH_EXTRA_HEADERS.get(source_name, {})
+        meta = _fetch_article_meta(item["url"], extra_headers)
         time.sleep(SCRAPE_SLEEP_SECONDS)
 
         if meta["published"]:
             try:
-                # Parse the date — handle both offset-aware and naive
-                from dateutil import parser as _dp
                 pub_dt = _dp.parse(meta["published"])
                 if pub_dt.tzinfo is None:
-                    from datetime import timezone as _tz
-                    pub_dt = pub_dt.replace(tzinfo=_tz.utc)
-
+                    pub_dt = pub_dt.replace(tzinfo=timezone.utc)
                 if pub_dt < cutoff:
-                    # Genuinely stale — drop it
                     indices_to_drop.append(idx)
-                    dropped += 1
+                    stats[source_name]["dropped"] += 1
                 else:
-                    # Fresh — update with real date and summary
                     items[idx]["published"] = pub_dt.isoformat()
                     items[idx]["date_verified"] = True
                     if meta["summary"] and not items[idx].get("summary"):
                         items[idx]["summary"] = meta["summary"]
-                    enriched += 1
+                    stats[source_name]["enriched"] += 1
             except Exception:
-                failed += 1
+                stats[source_name]["failed"] += 1
         else:
-            failed += 1
+            stats[source_name]["failed"] += 1
+
+    # ── Mode B: summary only ──────────────────────────────────────────────────
+    for idx in summary_targets:
+        item = items[idx]
+        source_name = item.get("source", "")
+        extra_headers = _ENRICH_EXTRA_HEADERS.get(source_name, {})
+        meta = _fetch_article_meta(item["url"], extra_headers)
+        time.sleep(SCRAPE_SLEEP_SECONDS)
+
+        if meta["summary"]:
+            items[idx]["summary"] = meta["summary"]
+            stats[source_name]["summary_only"] += 1
+        else:
+            stats[source_name]["failed"] += 1
 
     # Drop stale items (in reverse order to preserve indices)
     for idx in sorted(indices_to_drop, reverse=True):
         items.pop(idx)
 
-    print(f"    enriched={enriched}, stale_dropped={dropped}, fetch_failed={failed}")
+    # Per-source summary
+    for src, s in sorted(stats.items()):
+        print(f"    [{src}] enriched={s['enriched']}, dropped={s['dropped']}, "
+              f"summary_only={s['summary_only']}, failed={s['failed']}")
+
+    total_dropped = sum(s["dropped"] for s in stats.values())
+    print(f"  Total stale dropped: {total_dropped}")
     return items
 
 def main():
@@ -1053,6 +1232,8 @@ def main():
             items = scrape_lexpress(source)
         elif scrape_type == "megamu":
             items = scrape_megamu(source)
+        elif scrape_type == "lemauricien":
+            items = scrape_lemauricien(source)
         else:
             items = scrape_homepage(source)
         print(f"  {source['name']}: {len(items)} items")
