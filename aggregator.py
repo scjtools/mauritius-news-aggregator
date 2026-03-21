@@ -1491,7 +1491,7 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
         "editorial":   {
           "local":          [ items... ],   // reverse-chronological
           "regional":        [ items... ],  // Indian Ocean + Africa combined
-          "international":  [ items... ]
+          "global":         [ items... ]
         },
         "data_digest": { weather, semdex, exchange, commodities, ceb_outages, holidays }
       }
@@ -1537,7 +1537,7 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
         reverse=True,
     )
     intl_all = sorted(
-        by_cat.get("international", []),
+        by_cat.get("global", []),
         key=_corroboration_score,
         reverse=True,
     )
@@ -1549,7 +1549,7 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
     editorial = {
         "local":         by_cat.get("local", []),
         "regional":      regional,
-        "international": international,
+        "global":        international,
     }
 
     data_digest = _build_data_digest(data_items)
@@ -1567,13 +1567,13 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
                 "local":                 len(editorial["local"]),
                 "regional":              len(editorial["regional"]),
                 "regional_dropped":      n_regional_dropped,
-                "international":         len(editorial["international"]),
-                "international_dropped": n_intl_dropped,
+                "global":              len(editorial["global"]),
+                "global_dropped":      n_intl_dropped,
             },
             "slot_targets": {
                 "local":           "10–12",
                 "regional":        "up to 4",
-                "international":   "up to 4",
+                "global":          "up to 4",
             },
             "notes": (
                 "Local: all items kept. Regional and international: pre-filtered to top "
@@ -1596,7 +1596,7 @@ def build_candidates(all_items: list, output_path: str = "candidates.json") -> N
     print(f"  local:          {len(editorial['local'])} candidates")
     print(f"  regional:       {len(editorial['regional'])} candidates "
           f"({n_regional_dropped} dropped by corroboration filter)")
-    print(f"  international:  {len(editorial['international'])} candidates "
+    print(f"  international:  {len(editorial['global'])} candidates "
           f"({n_intl_dropped} dropped by corroboration filter)")
     print(f"  clusters merged:{n_merged} (from {len(editorial_raw)} raw editorial items)")
     print(f"  data digest:    weather={'yes' if data_digest['weather'] else 'no'}, "
