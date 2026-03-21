@@ -84,7 +84,13 @@ def fetch_rss(source):
     exclude_url_patterns   = source.get("exclude_url_patterns", [])
     exclude_title_prefixes = source.get("exclude_title_prefixes", [])
     try:
-        feed = feedparser.parse(source["url"])
+        # Force UTF-8 for sources known to serve RSS with wrong encoding headers
+        if "lemauricien.com" in source["url"]:
+            _rss_raw = requests.get(source["url"], headers=HEADERS, timeout=15)
+            _rss_raw.encoding = "utf-8"
+            feed = feedparser.parse(_rss_raw.text)
+        else:
+            feed = feedparser.parse(source["url"])
         for entry in feed.entries:
             dt = parse_date(entry)
             if not is_recent(dt):
@@ -533,6 +539,12 @@ def scrape_bulletin(source):
             bulletin_text = re.sub(
                 r"^Welcome to Mauritius Meteorological Services\s*", "", bulletin_text
             ).strip()
+            # Deduplicate: the page sometimes renders the bulletin twice; keep first half
+            half = len(bulletin_text) // 2
+            if bulletin_text[:half].strip() == bulletin_text[half:].strip():
+                bulletin_text = bulletin_text[:half].strip()
+            elif bulletin_text[half:half+80].strip() and bulletin_text[:80].strip() == bulletin_text[half:half+80].strip():
+                bulletin_text = bulletin_text[:half].strip()
             now = datetime.now(timezone.utc)
             items.append({
                 "id":           item_id("Met bulletin", now.strftime("%Y-%m-%d")),
@@ -1020,6 +1032,16 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
                 if tag and tag.get("content") and len(tag["content"].strip()) > 40:
                     summary = tag["content"].strip()[:MAX_SUMMARY_CHARS]
                     break
+
+            # Fallback: extract from article body paragraphs (e.g. Business Insider Africa)
+            if not summary and "businessinsider.com" in url:
+                for div in soup.find_all("div", class_="ringCommonDetail"):
+                    p = div.find("p")
+                    if p:
+                        text = p.get_text(strip=True)
+                        if len(text) > 40:
+                            summary = text[:MAX_SUMMARY_CHARS]
+                            break
 
             return {"published": published, "summary": summary}
 
