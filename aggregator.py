@@ -922,7 +922,7 @@ def _parse_defimedia_date(soup) -> str | None:
         year = int(m.group(3))
         hour = int(m.group(4)) if m.group(4) else 12
         minute = int(m.group(5)) if m.group(5) else 0
-        month = _DEFI_MONTHS.get(mon[:4]) or _DEFI_MONTHS.get(mon[:3])
+        month = _DEFI_MONTHS.get(mon) or _DEFI_MONTHS.get(mon[:4]) or _DEFI_MONTHS.get(mon[:3])
         if month:
             mu_tz = timezone(timedelta(hours=4))  # MUT = UTC+4
             dt = datetime(year, month, day, hour, minute, tzinfo=mu_tz)
