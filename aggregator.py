@@ -209,6 +209,42 @@ def scrape_homepage(source):
                             break
 
             dt = try_parse_date_from_html(tag) if not use_link_fallback else None
+
+            # Fallback: scan HTML comments in the card for JSON-LD datePublished
+            # (used by Business Insider Africa which embeds dates in commented-out scripts)
+            if not dt and not use_link_fallback:
+                import json as _json
+                from bs4 import Comment
+                for comment in tag.find_all(string=lambda t: isinstance(t, Comment)):
+                    try:
+                        comment_soup = BeautifulSoup(comment, "html.parser")
+                        for script in comment_soup.find_all("script", type="application/ld+json"):
+                            data = _json.loads(script.string or "")
+                            raw_date = None
+                            if isinstance(data, dict):
+                                raw_date = data.get("datePublished") or data.get("dateCreated")
+                            elif isinstance(data, list):
+                                for d in data:
+                                    if isinstance(d, dict):
+                                        raw_date = d.get("datePublished") or d.get("dateCreated")
+                                        if raw_date:
+                                            break
+                            if raw_date:
+                                from dateutil import parser as _dp
+                                pub_dt = _dp.parse(raw_date)
+                                if pub_dt.tzinfo is None:
+                                    pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+                                dt = pub_dt
+                                break
+                    except Exception:
+                        pass
+                    if dt:
+                        break
+
+            if dt and not is_recent(dt):
+                seen.discard(url)
+                continue
+
             published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
 
             items.append({
@@ -383,6 +419,7 @@ def scrape_lemauricien(source):
     try:
         r = requests.get(source["url"], headers=HEADERS, timeout=15)
         r.raise_for_status()
+        r.encoding = "utf-8"
         soup = BeautifulSoup(r.text, "html.parser")
 
         url_path_allowlist = source.get("url_path_allowlist", [])
@@ -856,7 +893,7 @@ def fetch_oilprice_demo(source):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-def _fetch_article_meta(url: str, extra_headers: dict = None) -> dict:
+def _fetch_article_meta(url: str, extra_headers: dict = None, session: requests.Session = None) -> dict:
     """
     Fetch a single article page and extract:
     - article:published_time (or og:article:published_time / datePublished)
@@ -865,16 +902,18 @@ def _fetch_article_meta(url: str, extra_headers: dict = None) -> dict:
     Returns dict with keys: published (ISO str or None), summary (str or None)
     Implements exponential backoff on 429/503.
     extra_headers: merged on top of HEADERS (e.g. Referer for Defimedia).
+    session: if provided, used instead of requests.get (for cookie-carrying sessions).
     """
     import time as _time
 
     headers = {**HEADERS, **(extra_headers or {})}
+    requester = session or requests
     delays = [2, 10, 30]  # seconds between retries
     for attempt, delay in enumerate([0] + delays):
         if delay:
             _time.sleep(delay)
         try:
-            r = requests.get(url, headers=headers, timeout=20)
+            r = requester.get(url, headers=headers if not session else None, timeout=20)
             if r.status_code in (429, 503):
                 continue  # retry with next delay
             if r.status_code != 200:
@@ -935,12 +974,39 @@ def _fetch_article_meta(url: str, extra_headers: dict = None) -> dict:
     return {"published": None, "summary": None}
 
 
+# Sources that need session-based enrichment (homepage visit first to establish cookies)
+_ENRICH_SESSION_SOURCES = {"Defimedia"}
+
 # Per-source extra headers for enrichment fetches
 _ENRICH_EXTRA_HEADERS = {
     "Defimedia": {"Referer": "https://defimedia.info"},
     "Le Mauricien": {"Referer": "https://www.lemauricien.com"},
     "Business Insider Africa": {"Referer": "https://africa.businessinsider.com"},
 }
+
+# One session per blocking source, initialised lazily during enrichment
+_ENRICH_SESSIONS: dict = {}
+
+
+def _get_enrich_session(source_name: str, homepage_url: str) -> requests.Session:
+    """
+    Return a requests.Session for a blocking source, creating it on first call.
+    The session GETs the homepage first to pick up cookies and establish a
+    referral chain that mirrors real browser navigation.
+    """
+    if source_name not in _ENRICH_SESSIONS:
+        session = requests.Session()
+        session.headers.update({
+            **HEADERS,
+            **_ENRICH_EXTRA_HEADERS.get(source_name, {}),
+        })
+        try:
+            session.get(homepage_url, timeout=15)
+            time.sleep(SCRAPE_SLEEP_SECONDS)
+        except Exception:
+            pass
+        _ENRICH_SESSIONS[source_name] = session
+    return _ENRICH_SESSIONS[source_name]
 
 
 def enrich_articles(items: list) -> list:
@@ -964,20 +1030,20 @@ def enrich_articles(items: list) -> list:
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=24)
 
-    # Mode A: unverified date
+    # Mode A: unverified date — local and regional sources
     date_targets = [
         i for i, item in enumerate(items)
         if not item.get("date_verified", True)
-        and item.get("category") == "local"
+        and item.get("category") in ("local", "regional")
         and item.get("url", "").startswith("http")
     ]
 
-    # Mode B: verified date but no summary
+    # Mode B: verified date but no summary — local and regional sources
     summary_targets = [
         i for i, item in enumerate(items)
         if item.get("date_verified", True)
         and not item.get("summary", "").strip()
-        and item.get("category") == "local"
+        and item.get("category") in ("local", "regional")
         and item.get("url", "").startswith("http")
         and i not in set(date_targets)
     ]
@@ -994,7 +1060,10 @@ def enrich_articles(items: list) -> list:
         item = items[idx]
         source_name = item.get("source", "")
         extra_headers = _ENRICH_EXTRA_HEADERS.get(source_name, {})
-        meta = _fetch_article_meta(item["url"], extra_headers)
+        session = None
+        if source_name in _ENRICH_SESSION_SOURCES:
+            session = _get_enrich_session(source_name, item["url"].split("/")[0] + "//" + item["url"].split("/")[2])
+        meta = _fetch_article_meta(item["url"], extra_headers, session)
         time.sleep(SCRAPE_SLEEP_SECONDS)
 
         if meta["published"]:
@@ -1021,7 +1090,10 @@ def enrich_articles(items: list) -> list:
         item = items[idx]
         source_name = item.get("source", "")
         extra_headers = _ENRICH_EXTRA_HEADERS.get(source_name, {})
-        meta = _fetch_article_meta(item["url"], extra_headers)
+        session = None
+        if source_name in _ENRICH_SESSION_SOURCES:
+            session = _get_enrich_session(source_name, item["url"].split("/")[0] + "//" + item["url"].split("/")[2])
+        meta = _fetch_article_meta(item["url"], extra_headers, session)
         time.sleep(SCRAPE_SLEEP_SECONDS)
 
         if meta["summary"]:
