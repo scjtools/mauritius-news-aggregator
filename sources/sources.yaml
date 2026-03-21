@@ -52,6 +52,7 @@ rss_feeds:
     url: "https://www.france24.com/en/rss"
     language: "en"
     category: "global"
+    summary_fallback_title: true
 
 
 scrapers:
