@@ -11,6 +11,11 @@ rss_feeds:
     language: "en"
     category: "local"
 
+  - name: "Le Mauricien"
+    url: "https://www.lemauricien.com/feed/"
+    language: "fr"
+    category: "local"
+
   # ── Regional ────────────────────────────────────────────────
   - name: "AllAfrica"
     url: "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf"
@@ -59,23 +64,13 @@ scrapers:
     type: megamu
     max_pages: 5
 
-  - name: "Defimedia Actualités"
-    url: "https://defimedia.info/actualites"
+  - name: "Defimedia"
+    url: "https://defimedia.info"
     language: "fr"
     category: "local"
 
-  - name: "Defimedia Politique"
-    url: "https://defimedia.info/politique"
-    language: "fr"
-    category: "local"
-
-  - name: "Defimedia Faits Divers"
-    url: "https://defimedia.info/faits-divers"
-    language: "fr"
-    category: "local"
-
-  - name: "Defimedia Économie"
-    url: "https://defimedia.info/economie"
+  - name: "Le Mauricien"
+    url: "https://www.lemauricien.com"
     language: "fr"
     category: "local"
 
