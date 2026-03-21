@@ -106,6 +106,9 @@ def fetch_rss(source):
             summary = BeautifulSoup(
                 getattr(entry, "summary", "") or "", "html.parser"
             ).get_text()[:MAX_SUMMARY_CHARS]
+            # Fallback: use title as summary for sources that omit descriptions (e.g. France 24 live blogs)
+            if not summary.strip() and source.get("summary_fallback_title"):
+                summary = title
             items.append({
                 "id":           item_id(title, entry.get("link", "")),
                 "title":        title,
@@ -539,12 +542,7 @@ def scrape_bulletin(source):
             bulletin_text = re.sub(
                 r"^Welcome to Mauritius Meteorological Services\s*", "", bulletin_text
             ).strip()
-            # Deduplicate: the page sometimes renders the bulletin twice; keep first half
-            half = len(bulletin_text) // 2
-            if bulletin_text[:half].strip() == bulletin_text[half:].strip():
-                bulletin_text = bulletin_text[:half].strip()
-            elif bulletin_text[half:half+80].strip() and bulletin_text[:80].strip() == bulletin_text[half:half+80].strip():
-                bulletin_text = bulletin_text[:half].strip()
+
             now = datetime.now(timezone.utc)
             items.append({
                 "id":           item_id("Met bulletin", now.strftime("%Y-%m-%d")),
@@ -1251,6 +1249,75 @@ def main():
             items = fetch_exchange_rates(source)
         print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
+
+    # ── Market data cache: compute deltas and persist current values ─────────
+    _CACHE_PATH = "market_cache.json"
+    try:
+        with open(_CACHE_PATH) as _f:
+            _prev_cache = json.load(_f)
+    except Exception:
+        _prev_cache = {}
+
+    _new_cache = {}
+    for item in all_items:
+        if item.get("category") != "finance":
+            continue
+        src = item.get("source", "")
+        summary = item.get("summary", "")
+
+        # Extract numeric value and cache key from known market items
+        cache_key = None
+        current_val = None
+
+        if src == "Stock Exchange of Mauritius":
+            m = re.search(r"SEMDEX closed at ([\d,.]+)", summary)
+            if m:
+                cache_key = "SEMDEX"
+                current_val = float(m.group(1).replace(",", ""))
+
+        elif src == "MUR Exchange Rates":
+            for pair in summary.split(" | "):
+                m = re.match(r"(MUR/[A-Z]+) ([\d.]+)", pair.strip())
+                if m:
+                    k, v = m.group(1), float(m.group(2))
+                    _new_cache[k] = v
+                    if k in _prev_cache:
+                        delta = v - _prev_cache[k]
+                        arrow = "▲" if delta > 0 else "▼" if delta < 0 else "→"
+                        item["summary"] += f" ({arrow} {abs(delta):.2f} from last)"
+
+        elif src in ("Gold Price", "Bitcoin Price", "Brent Crude Oil"):
+            m = re.search(r"[A-Z]+ [\d,]+\.?\d*", summary)
+            if m:
+                val_str = m.group(0).split()[-1].replace(",", "")
+                try:
+                    current_val = float(val_str)
+                    cache_key = {"Gold Price": "XAU", "Bitcoin Price": "BTC", "Brent Crude Oil": "BRENT"}[src]
+                except ValueError:
+                    pass
+
+        if cache_key and current_val is not None:
+            _new_cache[cache_key] = current_val
+            if cache_key in _prev_cache:
+                prev = _prev_cache[cache_key]
+                delta = current_val - prev
+                pct = (delta / prev * 100) if prev else 0
+                arrow = "▲" if delta > 0 else "▼" if delta < 0 else "→"
+                if cache_key == "SEMDEX":
+                    item["summary"] += f" ({arrow} {abs(delta):.2f} pts, {'+' if delta>=0 else ''}{pct:.2f}% from last close {prev:,.2f})"
+                else:
+                    item["summary"] += f" ({arrow} {'+' if delta>=0 else ''}{pct:.2f}% from last)"
+
+    # Merge: keep old keys not seen this run (e.g. market closed)
+    for k, v in _prev_cache.items():
+        if k not in _new_cache:
+            _new_cache[k] = v
+    try:
+        with open(_CACHE_PATH, "w") as _f:
+            json.dump(_new_cache, _f, indent=2)
+    except Exception as e:
+        print(f"[CACHE WRITE ERROR] {e}")
+    # ── End market cache ───────────────────────────────────────────────────────
 
     all_items = deduplicate(all_items)
     print(f"\nTotal unique items: {len(all_items)}")
