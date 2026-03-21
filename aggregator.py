@@ -178,6 +178,29 @@ def scrape_homepage(source):
                 url = base + "/" + url.lstrip("/")
             if url in seen:
                 continue
+
+            # Subdomain exclusion: skip URLs that don't belong to the source's own domain
+            from urllib.parse import urlparse as _urlparse
+            source_host = _urlparse(source["url"]).netloc
+            url_host = _urlparse(url).netloc
+            if url_host and source_host and not (url_host == source_host or url_host.endswith("." + source_host)):
+                continue
+
+            # Category allowlist (Defimedia-style: checks .article-status.article-category label)
+            category_allowlist = source.get("category_allowlist")
+            if category_allowlist and not use_link_fallback:
+                cat_el = tag.find(
+                    class_=lambda c: c and "article-category" in c
+                )
+                if cat_el is None or cat_el.get_text(strip=True) not in category_allowlist:
+                    continue
+
+            # URL path allowlist (Le Mauricien-style: checks URL path substrings)
+            url_path_allowlist = source.get("url_path_allowlist")
+            if url_path_allowlist:
+                if not any(seg in url for seg in url_path_allowlist):
+                    continue
+
             seen.add(url)
 
             # Extract teaser text from the card itself
@@ -697,7 +720,7 @@ def build_rss(items):
     return minidom.parseString(raw).toprettyxml(indent="  ")
 
 
-# ── Exchange rates (FloatRates MUR) ──────────────────────────────────────────
+# ── Market data (exchange rates, commodities, crypto) ────────────────────────
 
 def fetch_exchange_rates(source):
     items = []
@@ -1034,8 +1057,8 @@ def main():
         print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
-    print("Fetching exchange rates...")
-    for source in sources.get("exchange_rates", []):
+    print("Fetching market data...")
+    for source in sources.get("market_data", []):
         rate_type = source.get("type")
         if rate_type == "gold_api":
             items = fetch_gold_api(source)
