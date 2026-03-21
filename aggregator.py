@@ -956,8 +956,7 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
             else:
                 r = requests.get(url, headers=headers, timeout=20)
 
-            if is_defimedia:
-                print(f"      [Defimedia fetch] status={r.status_code} url={url[:80]}")
+
 
             if r.status_code in (429, 503):
                 continue  # retry with next delay
