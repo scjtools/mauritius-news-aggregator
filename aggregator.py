@@ -893,6 +893,43 @@ def fetch_oilprice_demo(source):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
+def _parse_defimedia_date(soup) -> str | None:
+    """
+    Extract publication date from Defimedia article pages.
+    Date appears as: <div class="published-date"><span>Publié le: </span>21 mars 2026 à 10:31</div>
+    Returns an ISO datetime string or None.
+    """
+    _DEFI_MONTHS = {
+        "janvier": 1, "février": 2, "mars": 3, "avril": 4,
+        "mai": 5, "juin": 6, "juillet": 7, "août": 8,
+        "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12,
+        "fev": 2, "fév": 2, "aou": 8, "aoû": 8,
+    }
+    date_div = soup.find("div", class_="published-date")
+    if not date_div:
+        return None
+    text = date_div.get_text(" ", strip=True)
+    # Remove "Publié le:" prefix
+    text = re.sub(r"Publi[ée]\s+le\s*:\s*", "", text, flags=re.IGNORECASE).strip()
+    # Match "21 mars 2026 à 10:31" or "21 mars 2026"
+    m = re.search(
+        r"(\d{1,2})\s+(\w+)\s+(\d{4})(?:\s+[àa]\s+(\d{1,2}):(\d{2}))?",
+        text, re.IGNORECASE
+    )
+    if m:
+        day = int(m.group(1))
+        mon = m.group(2).lower()
+        year = int(m.group(3))
+        hour = int(m.group(4)) if m.group(4) else 12
+        minute = int(m.group(5)) if m.group(5) else 0
+        month = _DEFI_MONTHS.get(mon[:4]) or _DEFI_MONTHS.get(mon[:3])
+        if month:
+            mu_tz = timezone(timedelta(hours=4))  # MUT = UTC+4
+            dt = datetime(year, month, day, hour, minute, tzinfo=mu_tz)
+            return dt.astimezone(timezone.utc).isoformat()
+    return None
+
+
 def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> dict:
     """
     Fetch a single article page and extract:
@@ -907,8 +944,8 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
     """
     import time as _time
 
+    is_defimedia = "defimedia.info" in url
     headers = {**HEADERS, **(extra_headers or {})}
-    requester = session or requests
     delays = [2, 10, 30]  # seconds between retries
     for attempt, delay in enumerate([0] + delays):
         if delay:
@@ -918,30 +955,41 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
                 r = session.get(url, timeout=20)
             else:
                 r = requests.get(url, headers=headers, timeout=20)
+
+            if is_defimedia:
+                print(f"      [Defimedia fetch] status={r.status_code} url={url[:80]}")
+
             if r.status_code in (429, 503):
                 continue  # retry with next delay
             if r.status_code != 200:
                 return {"published": None, "summary": None}
 
             # Force UTF-8 for sources known to serve UTF-8 with wrong content-type headers
-            if "lemauricien.com" in url:
+            if "lemauricien.com" in url or is_defimedia:
                 r.encoding = "utf-8"
 
             soup = BeautifulSoup(r.text, "html.parser")
 
             # ── Published date ────────────────────────────────────────────────
             published = None
-            for attr, name in [
-                ("property", "article:published_time"),
-                ("property", "og:article:published_time"),
-                ("name",     "article:published_time"),
-                ("name",     "datePublished"),
-                ("itemprop", "datePublished"),
-            ]:
-                tag = soup.find("meta", attrs={attr: name})
-                if tag and tag.get("content"):
-                    published = tag["content"].strip()
-                    break
+
+            # Defimedia-specific: date in <div class="published-date">
+            if is_defimedia:
+                published = _parse_defimedia_date(soup)
+
+            # Standard meta tags
+            if not published:
+                for attr, name in [
+                    ("property", "article:published_time"),
+                    ("property", "og:article:published_time"),
+                    ("name",     "article:published_time"),
+                    ("name",     "datePublished"),
+                    ("itemprop", "datePublished"),
+                ]:
+                    tag = soup.find("meta", attrs={attr: name})
+                    if tag and tag.get("content"):
+                        published = tag["content"].strip()
+                        break
 
             # Fallback: JSON-LD
             if not published:
@@ -976,7 +1024,9 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
 
             return {"published": published, "summary": summary}
 
-        except Exception:
+        except Exception as e:
+            if is_defimedia:
+                print(f"      [Defimedia fetch error] attempt={attempt} url={url[:80]} err={e}")
             continue
 
     return {"published": None, "summary": None}
