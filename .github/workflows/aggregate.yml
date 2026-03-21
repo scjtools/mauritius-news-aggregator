@@ -20,7 +20,7 @@ jobs:
           python-version: "3.12"
 
       - name: Install dependencies
-        run: pip install feedparser requests pyyaml beautifulsoup4 lxml python-dateutil
+        run: pip install feedparser requests pyyaml beautifulsoup4 lxml python-dateutil curl_cffi
 
       - name: Run aggregator
         run: python aggregator.py
