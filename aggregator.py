@@ -893,7 +893,7 @@ def fetch_oilprice_demo(source):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
-def _fetch_article_meta(url: str, extra_headers: dict = None, session: requests.Session = None) -> dict:
+def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> dict:
     """
     Fetch a single article page and extract:
     - article:published_time (or og:article:published_time / datePublished)
@@ -902,7 +902,8 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session: requests.
     Returns dict with keys: published (ISO str or None), summary (str or None)
     Implements exponential backoff on 429/503.
     extra_headers: merged on top of HEADERS (e.g. Referer for Defimedia).
-    session: if provided, used instead of requests.get (for cookie-carrying sessions).
+    session: if provided, used instead of requests.get. May be a curl_cffi session
+             (for TLS fingerprint impersonation) or a requests.Session (cookies).
     """
     import time as _time
 
@@ -913,7 +914,10 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session: requests.
         if delay:
             _time.sleep(delay)
         try:
-            r = requester.get(url, headers=headers if not session else None, timeout=20)
+            if session is not None:
+                r = session.get(url, timeout=20)
+            else:
+                r = requests.get(url, headers=headers, timeout=20)
             if r.status_code in (429, 503):
                 continue  # retry with next delay
             if r.status_code != 200:
@@ -978,7 +982,7 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session: requests.
     return {"published": None, "summary": None}
 
 
-# Sources that need session-based enrichment (homepage visit first to establish cookies)
+# Sources that use curl_cffi browser TLS impersonation for enrichment
 _ENRICH_SESSION_SOURCES = {"Defimedia"}
 
 # Per-source extra headers for enrichment fetches
@@ -992,23 +996,39 @@ _ENRICH_EXTRA_HEADERS = {
 _ENRICH_SESSIONS: dict = {}
 
 
-def _get_enrich_session(source_name: str, homepage_url: str) -> requests.Session:
+def _get_enrich_session(source_name: str, homepage_url: str):
     """
-    Return a requests.Session for a blocking source, creating it on first call.
-    The session GETs the homepage first to pick up cookies and establish a
-    referral chain that mirrors real browser navigation.
+    Return a session for a blocking source, creating it on first call.
+    For Defimedia: uses curl_cffi with Chrome TLS impersonation to bypass
+    bot detection that rejects standard Python requests TLS fingerprints.
+    The session GETs the homepage first to establish cookies.
     """
     if source_name not in _ENRICH_SESSIONS:
-        session = requests.Session()
-        session.headers.update({
-            **HEADERS,
-            **_ENRICH_EXTRA_HEADERS.get(source_name, {}),
-        })
         try:
-            session.get(homepage_url, timeout=15)
-            time.sleep(SCRAPE_SLEEP_SECONDS)
-        except Exception:
-            pass
+            from curl_cffi.requests import Session as CurlSession
+            session = CurlSession(impersonate="chrome")
+            session.headers.update({
+                **HEADERS,
+                **_ENRICH_EXTRA_HEADERS.get(source_name, {}),
+            })
+            try:
+                session.get(homepage_url, timeout=15)
+                time.sleep(SCRAPE_SLEEP_SECONDS)
+            except Exception:
+                pass
+        except ImportError:
+            # curl_cffi not available — fall back to plain requests.Session
+            print(f"[WARN] curl_cffi not installed, falling back to requests.Session for {source_name}")
+            session = requests.Session()
+            session.headers.update({
+                **HEADERS,
+                **_ENRICH_EXTRA_HEADERS.get(source_name, {}),
+            })
+            try:
+                session.get(homepage_url, timeout=15)
+                time.sleep(SCRAPE_SLEEP_SECONDS)
+            except Exception:
+                pass
         _ENRICH_SESSIONS[source_name] = session
     return _ENRICH_SESSIONS[source_name]
 
