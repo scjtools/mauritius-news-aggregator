@@ -78,6 +78,7 @@ scrapers:
     url: "https://www.lemauricien.com"
     language: "fr"
     category: "local"
+    type: lemauricien
     url_path_allowlist:
       - "/actualites/politique/"
       - "/actualites/faits-divers/"
