@@ -68,11 +68,21 @@ scrapers:
     url: "https://defimedia.info"
     language: "fr"
     category: "local"
+    category_allowlist:
+      - "Actualités"
+      - "Politique"
+      - "Faits Divers"
+      - "Economie"
 
   - name: "Le Mauricien"
     url: "https://www.lemauricien.com"
     language: "fr"
     category: "local"
+    url_path_allowlist:
+      - "/actualites/politique/"
+      - "/actualites/faits-divers/"
+      - "/actualites/societe/"
+      - "/actualites/economie/"
 
   # ── Regional ────────────────────────────────────────────────
   - name: "Business Insider Africa"
@@ -106,7 +116,7 @@ scrapers:
     type: public_holidays
 
 
-exchange_rates:
+market_data:
 
   - name: "MUR Exchange Rates"
     url: "https://www.floatrates.com/daily/mur.xml"
