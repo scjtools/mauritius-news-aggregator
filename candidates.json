@@ -1,28 +1,335 @@
 {
   "meta": {
-    "generated_at": "2026-03-21T07:54:09.373121+00:00",
-    "feed_build_date": "Sat, 21 Mar 2026 07:54:09 +0000",
+    "generated_at": "2026-03-21T09:12:04.963405+00:00",
+    "feed_build_date": "Sat, 21 Mar 2026 09:12:04 +0000",
     "item_counts": {
-      "feed_total": 296,
-      "editorial_raw": 288,
-      "after_clustering": 266,
-      "clusters_merged": 22,
-      "data_items": 8,
-      "local": 131,
+      "feed_total": 194,
+      "editorial_raw": 187,
+      "after_clustering": 177,
+      "clusters_merged": 10,
+      "data_items": 7,
+      "local": 45,
       "regional": 15,
-      "regional_dropped": 61,
-      "international": 15,
-      "international_dropped": 44
+      "regional_dropped": 57,
+      "global": 15,
+      "global_dropped": 45
     },
     "slot_targets": {
       "local": "10–12",
       "regional": "up to 4",
-      "international": "up to 4"
+      "global": "up to 4"
     },
     "notes": "Local: all items kept. Regional and international: pre-filtered to top 15 / 15 clusters ranked by cross-source corroboration (distinct sources per cluster). Clustering: Pass 1 merges near-identical same-language titles (Jaccard≥0.75); Pass 2 merges cross-language titles sharing ≥2 proper nouns (Jaccard≥0.60). Merged items appear as 'related' arrays. Items sharing ≥2 proper nouns but not merged carry a 'similar_to' hint."
   },
   "editorial": {
     "local": [
+      {
+        "id": "fb75a71c3c2e76699cc4988495080fe8",
+        "title": "Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire",
+        "url": "https://defimedia.info/index.php/guerre-au-moyen-orient-maurice-face-au-choc-de-sa-dependance-alimentaire",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.434477+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Guerre au Moyen-Orient : pourquoi Donald Trump et Benjamin Netanyahu divergent sur l’Iran",
+            "source": "ION News"
+          }
+        ]
+      },
+      {
+        "id": "5aad7c3cebf1d319705b2b681217b4b2",
+        "title": "Lutte contre le trafic de drogue et le blanchiment d’argent : Rs 9,9 milliards de biens sous le coup des saisies en 2025",
+        "url": "https://defimedia.info/index.php/lutte-contre-le-trafic-de-drogue-et-le-blanchiment-dargent-rs-99-milliards-de-biens-sous-le-coup",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.434065+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "f521dfeba5aaab75dda55f97f2a909fa",
+        "title": "Air Mauritius : deux vols directs supplémentaires vers Paris-CDG",
+        "url": "https://defimedia.info/index.php/air-mauritius-deux-vols-directs-supplementaires-vers-paris-cdg",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.433670+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "64e61882ff05178db11fc060454b26db",
+        "title": "Notation souveraine : Maurice met fin à son contrat avec S&P Global Ratings",
+        "url": "https://defimedia.info/index.php/notation-souveraine-maurice-met-fin-son-contrat-avec-sp-global-ratings",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.433262+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "28a4d688d308a75d0d1a3393e621c18d",
+        "title": "Eid-ul-Fitr : entre rituels sacrés et joie partagée",
+        "url": "https://defimedia.info/index.php/eid-ul-fitr-entre-rituels-sacres-et-joie-partagee",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.432873+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "1eedf32cf3f90b03b54c295c18191033",
+        "title": "Rajesh Bhagwan : «Ce sont les militants qui légitimisent notre présence au GM»",
+        "url": "https://defimedia.info/rajesh-bhagwan-ce-sont-les-militants-qui-legitimisent-notre-presence-au-gm",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.432479+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "81e9081d3261ed2f03161c7c6084c350",
+        "title": "Vers un mini-remaniement",
+        "url": "https://defimedia.info/index.php/vers-un-mini-remaniement",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.432010+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "9f9eb09581aa335fb234ec2d957ad1e9",
+        "title": "Bérenger quitte le gouvernement : rupture stratégique ou fracture politique?",
+        "url": "https://defimedia.info/index.php/berenger-quitte-le-gouvernement-rupture-strategique-ou-fracture-politique",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.429620+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "70dd23b4fbfb80d6d5c4f055c419dc31",
+        "title": "Construction des logements sociaux Rs 515,2 M parties en fumée dans des contrats résiliés",
+        "url": "https://defimedia.info/index.php/construction-des-logements-sociaux-rs-5152-m-parties-en-fumee-dans-des-contrats-resilies",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.429275+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "4671cce63ca1a5b66d81ab27bfa3a3a8",
+        "title": "Amédée Darga : «Le plus triste, c’est la dégringolade du MMM au fil des années»",
+        "url": "https://defimedia.info/index.php/amedee-darga-le-plus-triste-cest-la-degringolade-du-mmm-au-fil-des-annees",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.428933+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "9a4bee0e65464d01d6e68c1c126fb629",
+        "title": "À Rose-Hill : «Nu blese, me san Paul pena MMM, pena MMM si san Paul», confie un militant de longue date",
+        "url": "https://defimedia.info/index.php/rose-hill-nu-blese-me-san-paul-pena-mmm-pena-mmm-si-san-paul-confie-un-militant-de-longue-date",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.428585+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "804bafeecebcea51dc5d5bd811aa2744",
+        "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
+        "url": "https://defimedia.info/index.php/conference-sur-la-gouvernance-et-le-leadership-yoshinee-parasuraman-une-organisation-bien-gouvernee",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.428172+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "23937c78b7c9a5a367499f6fe23d443e",
+        "title": "Ce que Paul Bérenger reproche au gouvernement",
+        "url": "https://defimedia.info/index.php/ce-que-paul-berenger-reproche-au-gouvernement",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.427838+00:00",
+        "date_verified": false,
+        "related": [
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
+            "source": "L'Express (via mega.mu)",
+            "url": "https://live.mega.mu/redirect/252296/",
+            "published": "2026-03-21T08:00:00+00:00",
+            "summary": "Rajesh Bhagwan, secrétaire général s’adressant à la presse, au nom de la direction du Mouvement militant mauricien (MMM), depuis le QG du parti à Port-Louis, a exprimé toute sa déception : *«Nou pe zwenn a enn moman bien bien tris du parti.»* Revenant sur le Comité central de mercredi dernier, il a rappelé les moments difficiles du MMM : *«Militan pandan 20 an inn sakrifie : 20 an mizer, 20 an soufrans !»* Rajesh Bhagwan s’est expliqué sur la raison pour laquelle il n’a p ..."
+          }
+        ],
+        "similar_to": [
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "1f29dc09818267168e27b4ea0a4a0b54",
+        "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
+        "url": "https://defimedia.info/index.php/conference-sur-la-gouvernance-et-le-leadership-novan-maharahaje-la-gouvernance-est-le-socle-de-la",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.427486+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "eef0749cb893f695a0e6ab569ec880bb",
+        "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
+        "url": "https://defimedia.info/index.php/ramgoolam-pas-presse-de-nommer-le-remplacant-de-berenger",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.427122+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "4faa1e7563d8a87e121d9139e93d1b54",
+        "title": "Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»",
+        "url": "https://defimedia.info/index.php/shaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.426756+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "38029ecb91c85a93da16cfb410326b3c",
+        "title": "Shakeel Mohamed : «Je suis sûr que, dans l’intérêt du pays, Bérenger se montrera constructif. Je lui souhaite bonne continuation»",
+        "url": "https://defimedia.info/index.php/shakeel-mohamed-je-suis-sur-que-dans-linteret-du-pays-berenger-se-montrera-constructif-je-lui",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.426371+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "b37a784ff22f49a0b2dd6d16ba765837",
+        "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
+        "url": "https://defimedia.info/index.php/conference-sur-la-gouvernance-et-le-leadership-au-dela-de-la-conformite-la-gouvernance-au-service",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.426064+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "81cc24a8774f4312cc327c843b464550",
+        "title": "Après un accident de la route en septembre 2025 : la victime, Bhovinash Ropon, 35 ans, lance un appel de solidarité",
+        "url": "https://defimedia.info/apres-un-accident-de-la-route-en-septembre-2025-la-victime-bhovinash-ropon-35-ans-lance-un-appel-de",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.425621+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "7accfc338a47a2470b31ff75f1b969f3",
+        "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
+        "url": "https://defimedia.info/index.php/liran-cible-la-base-de-diego-garcia-avec-des-missiles-balistiques",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T09:07:26.423397+00:00",
+        "date_verified": false,
+        "related": [
+          {
+            "title": "L’Iran lance des missiles en direction de Diego Garcia",
+            "source": "ION News",
+            "url": "https://ionnews.mu/liran-lance-des-missiles-en-direction-de-diego-garcia/",
+            "published": "2026-03-21T06:31:22+00:00",
+            "summary": "L’Iran a lancé deux missiles balistiques en direction d’une base militaire conjointe américano britannique dans l’océan Indien vendredi, selon un rapport du Wall Street Journal. Les frappes n’ont pas atteint la base située à Diego Garcia, une petite île de l’archipel des Chagos, ont déclaré des responsables au journal. Un missile a échoué en vol et un navire de guerre américain aurait tiré un intercepteur SM 3 contre le second. On ne sait pas si cet intercepteur est responsable de l’échec du deu"
+          }
+        ],
+        "similar_to": [
+          {
+            "title": "Tensions militaires : Deux missiles iraniens tirés vers Diego Garcia",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Iran Fires 2 Ballistic Missiles at Diego Garcia in First Long-Range Strike",
+            "source": "News Moris"
+          }
+        ]
+      },
+      {
+        "id": "19e57494a26f7a0b89d26506502de4d9",
+        "title": "Ãducation – Initiative de lâUPSEE : Un projet de recherche sur le bien-Ãªtre du personnel Ã©ducatif",
+        "url": "https://www.lemauricien.com/actualites/societe/education-initiative-de-lupsee-un-projet-de-recherche-sur-le-bien-etre-du-personnel-educatif/702218/",
+        "summary": "LâUnion of Private Secondary Education Employees (UPSEE), en collaboration avec le ministÃ¨re de lâÃducation et la Swedish International Development Capacity Academy a lancÃ© un projet ...",
+        "source": "Le Mauricien",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T12:00:29+04:00",
+        "date_verified": true
+      },
       {
         "id": "ddb413d486fc8ba1203b5052aed35c72",
         "title": "Eid-ul-Fitr : Célébrations à la Sunni Razvi Society en présence de plusieurs personnalités",
@@ -46,86 +353,6 @@
         "date_verified": true
       },
       {
-        "id": "15be7f9d296d1f783a4306139d80b323",
-        "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-        "url": "https://live.mega.mu/redirect/252296/",
-        "summary": "Rajesh Bhagwan, secrétaire général s’adressant à la presse, au nom de la direction du Mouvement militant mauricien (MMM), depuis le QG du parti à Port-Louis, a exprimé toute sa déception : *«Nou pe zwenn a enn moman bien bien tris du parti.»* Revenant sur le Comité central de mercredi dernier, il a rappelé les moments difficiles du MMM : *«Militan pandan 20 an inn sakrifie : 20 an mizer, 20 an soufrans !»* Rajesh Bhagwan s’est expliqué sur la raison pour laquelle il n’a p ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T08:00:00+00:00",
-        "date_verified": true,
-        "related": [
-          {
-            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
-            "source": "Defimedia Politique",
-            "url": "https://defimedia.info/comite-central-du-mmm-ce-samedi-paul-berenger-devrait-plaider-pour-un-retour-au-calme",
-            "published": "2026-03-21T07:52:11.579525+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Ce que Paul Bérenger reproche au gouvernement",
-            "source": "Defimedia Actualités",
-            "url": "https://defimedia.info/ce-que-paul-berenger-reproche-au-gouvernement",
-            "published": "2026-03-21T07:52:08.970622+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Le MMM réagit à la démission de son leader : «Li tris parski Paul Bérenger pe abandonne le MMM, li pe abandonne ban militan»",
-            "source": "L'Express (via mega.mu)",
-            "url": "https://live.mega.mu/redirect/252260/",
-            "published": "2026-03-20T08:00:00+00:00",
-            "summary": "Le groupe parlementaire du MMM a convoqué la presse ce vendredi après-midi au quartier général du MMM, à la rue La Poudrière, à Port-Louis. Voici l’essentiel de ce qui y a été dit. Rajesh Bhagwan, secrétaire général du MMM, Reza Uteem, président de la formation, les leaders adjoints, Ajay Gunness, Ariane Navarre-Marie, Aadil Ameer Meea, et Deven Nagalingum ont pris la parole pour sensiblement dire les mêmes choses : leur tristesse devant le fait accompli de Paul Bérenger, leu ..."
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "À Rose-Hill : «Nu blese, me san Paul pena MMM, pena MMM si san Paul», confie un militant de longue date",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
         "id": "bfccac9e56c372ccc62c8fb760293848",
         "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
         "url": "https://live.mega.mu/redirect/252269/",
@@ -135,79 +362,14 @@
         "category": "local",
         "published": "2026-03-21T08:00:00+00:00",
         "date_verified": true,
-        "related": [
-          {
-            "title": "Partira-partira pas - Navin Ramgoolam et Paul Bérenger : un lundi décisif",
-            "source": "Defimedia Politique",
-            "url": "https://defimedia.info/partira-partira-pas-navin-ramgoolam-et-paul-berenger-un-lundi-decisif",
-            "published": "2026-03-21T07:52:11.582465+00:00",
-            "summary": ""
-          }
-        ],
         "similar_to": [
           {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
+            "title": "Ce que Paul Bérenger reproche au gouvernement",
+            "source": "Defimedia"
           },
           {
             "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Répercussions du conflit au Moyen-Orient : Navin Ramgoolam prévient : «Li pou enn bidzet dir, mo bien sagrin»",
-            "source": "L'Express (via mega.mu)"
+            "source": "Defimedia"
           }
         ]
       },
@@ -224,7 +386,7 @@
         "similar_to": [
           {
             "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
-            "source": "Defimedia Actualités"
+            "source": "Defimedia"
           },
           {
             "title": "Iran Fires 2 Ballistic Missiles at Diego Garcia in First Long-Range Strike",
@@ -241,1538 +403,7 @@
         "language": "fr",
         "category": "local",
         "published": "2026-03-21T08:00:00+00:00",
-        "date_verified": true,
-        "related": [
-          {
-            "title": "En couverture : 🔔 Les grands titres de l'express de ce vendredi 20 mars 2026 📰",
-            "source": "L'Express (via mega.mu)",
-            "url": "https://live.mega.mu/redirect/252162/",
-            "published": "2026-03-20T08:00:00+00:00",
-            "summary": "En une de *l'express*: *«Democracy Report 2026»* : Maurice respire enfin… un peu ; Autre titre : Politique l Ram Etwareea, député du MMM : *«Je ne serais pas surpris que le leader annonce son départ ce vendredi»* l Conflit au Moyen-Orient : Le tourisme local en zone de turbulences, la période avril-juin identifiée comme critique l Disparition de Yogeshwaree Bhunjun : *«Souffrant»*, le Dr Arvind Ramchurn exempté d’interrogatoire pour l’instant. **«Democracy Report 2026» : M ..."
-          }
-        ]
-      },
-      {
-        "id": "8fe62f403dba76d92dbf41be8e1210d7",
-        "title": "Contribution, fiscalité et attractivité : les défis du secteur bancaire",
-        "url": "https://defimedia.info/contribution-fiscalite-et-attractivite-les-defis-du-secteur-bancaire",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.275874+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "3cc7651f7403d033c4a031d8e0596508",
-        "title": "Finance durable : La BoM alerte sur des risques désormais financiers",
-        "url": "https://defimedia.info/finance-durable-la-bom-alerte-sur-des-risques-desormais-financiers",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.275566+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "4f1d776b4a2441c45775385f6941f6f9",
-        "title": "Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois",
-        "url": "https://defimedia.info/investissements-etrangers-maurice-capte-rs-4039-md-en-9-mois",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.275301+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS",
-            "source": "Defimedia Économie"
-          },
-          {
-            "title": "Infrastructures, santé, transport : Maurice obtient une ligne de crédit de Rs 21 milliards de l’Inde",
-            "source": "Defimedia Actualités"
-          }
-        ]
-      },
-      {
-        "id": "f0e6bf64ff3bb345bfa5d257b5a03d26",
-        "title": "La dette des corps parapublics descend à Rs 61,73 milliards",
-        "url": "https://defimedia.info/la-dette-des-corps-parapublics-descend-rs-6173-milliards",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.275043+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "3db4d5304817f5ee0185201bf8962572",
-        "title": "Hausse des prix continue - Fruits : l’addition est salée pour les consommateurs",
-        "url": "https://defimedia.info/hausse-des-prix-continue-fruits-laddition-est-salee-pour-les-consommateurs",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.274775+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "5cdab2ffd58019ccb8832b759ee0eab6",
-        "title": "Investissements douteux : la BoM et la FSC appellent à la vigilance du public",
-        "url": "https://defimedia.info/investissements-douteux-la-bom-et-la-fsc-appellent-la-vigilance-du-public",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.274494+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "16838dddb802722396fe3bc6a59ff197",
-        "title": "Secteur financier - Affaire Epstein et finance offshore : où se situe Maurice ?",
-        "url": "https://defimedia.info/secteur-financier-affaire-epstein-et-finance-offshore-ou-se-situe-maurice",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.274228+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "6b15db627488e27095cb2ddb67aed386",
-        "title": "Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS",
-        "url": "https://defimedia.info/potentiel-inexploite-rs-21-md-portee-de-main-dans-le-non-hotelier-selon-axys",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.273966+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois",
-            "source": "Defimedia Économie"
-          },
-          {
-            "title": "Infrastructures, santé, transport : Maurice obtient une ligne de crédit de Rs 21 milliards de l’Inde",
-            "source": "Defimedia Actualités"
-          }
-        ]
-      },
-      {
-        "id": "99868331506f5b2e20a0d65a91b0cdc0",
-        "title": "La Banque mondiale en mission à Maurice jusqu’au 13 février",
-        "url": "https://defimedia.info/la-banque-mondiale-en-mission-maurice-jusquau-13-fevrier",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.273699+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "20a8a49d24ecbbb9fd2692cb64047308",
-        "title": "Entre décembre et janvier : gros pois, pilchards, poulet en baisse, bœuf et mouton en hausse",
-        "url": "https://defimedia.info/entre-decembre-et-janvier-gros-pois-pilchards-poulet-en-baisse-boeuf-et-mouton-en-hausse",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.273422+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "762b496d56687b136b607c52b5c9fd98",
-        "title": "Governance with Grit : une formation pour repenser le rôle des professionnels de la gouvernance",
-        "url": "https://defimedia.info/governance-grit-une-formation-pour-repenser-le-role-des-professionnels-de-la-gouvernance",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.273159+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "62270eb73353afff8b29bbe4e5388aa5",
-        "title": "Étude de cas - Tourisme : pourquoi le Sri Lanka devance Maurice sur tous les fronts",
-        "url": "https://defimedia.info/etude-de-cas-tourisme-pourquoi-le-sri-lanka-devance-maurice-sur-tous-les-fronts",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.272894+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "3ca00075441a6ad4043d466a1c7b1c8a",
-        "title": "De la viande aux pâtes : la facture s’alourdit pour les ménages mauriciens en ce mois de février",
-        "url": "https://defimedia.info/de-la-viande-aux-pates-la-facture-salourdit-pour-les-menages-mauriciens-en-ce-mois-de-fevrier",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.272624+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "49dab4fecfdb3c8c05d7f885617d3997",
-        "title": "Nouvelle semaine de repli pour les indices mauriciens",
-        "url": "https://defimedia.info/nouvelle-semaine-de-repli-pour-les-indices-mauriciens",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.272341+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "3278832bc6f0c547ccb44e03056b0edf",
-        "title": "Billets, visas, packages…ce qu’il faut savoir pour assister aux matchs du Mondial 2026",
-        "url": "https://defimedia.info/billets-visas-packagesce-quil-faut-savoir-pour-assister-aux-matchs-du-mondial-2026",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.272071+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "516d4c43a362bb8f9dba9868092e961f",
-        "title": "Budget de l’État : Rs 91,36 milliards consacrées aux dépenses sociales",
-        "url": "https://defimedia.info/budget-de-letat-rs-9136-milliards-consacrees-aux-depenses-sociales",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.271799+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "40de7560f1a0a7110d1f308fee356859",
-        "title": "Budget 2026/27 : croissance, inclusion et résilience",
-        "url": "https://defimedia.info/budget-202627-croissance-inclusion-et-resilience",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.271503+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "d1e53e5347f7c56872679ea0ab746f35",
-        "title": "Transition économique : les femmes, le nouveau moteur de la croissance",
-        "url": "https://defimedia.info/transition-economique-les-femmes-le-nouveau-moteur-de-la-croissance",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.271229+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "f4dba5cb9e697f572897ef9dd30cdbe4",
-        "title": "Construction : du gaspillage à l’économie circulaire",
-        "url": "https://defimedia.info/construction-du-gaspillage-leconomie-circulaire",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.270953+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "3db177a7da98c1cb25f86567350e5e1a",
-        "title": "Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»",
-        "url": "https://defimedia.info/shaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un",
-        "summary": "",
-        "source": "Defimedia Économie",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:16.270552+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "0d01507e16af4041a2727bbcbd049ded",
-        "title": "Enquête policière : le compagnon de Yogeshwaree Bhunjun désormais suspecté d’être le commanditaire du meurtre, trois autres arrestations",
-        "url": "https://defimedia.info/enquete-policiere-le-compagnon-de-yogeshwaree-bhunjun-desormais-suspecte-detre-le-commanditaire-du",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.178368+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : trois suspects, accusés de complicité, reconduits en cellule policière",
-            "source": "Defimedia Faits Divers",
-            "url": "https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-trois-suspects-accuses-de-complicite-reconduits-en-cellule-policiere",
-            "published": "2026-03-21T07:52:14.178096+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : deux des trois suspects conduisent les enquêteurs à La Case Noyale",
-            "source": "Defimedia Faits Divers",
-            "url": "https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-deux-des-trois-suspects-conduisent-les-enqueteurs-la-case-noyale",
-            "published": "2026-03-21T07:52:14.177781+00:00",
-            "summary": ""
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : le propriétaire d’un bateau entendu par la MCIT",
-            "source": "Defimedia Faits Divers",
-            "url": "https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-le-proprietaire-dun-bateau-entendu-par-la-mcit",
-            "published": "2026-03-21T07:52:14.176931+00:00",
-            "summary": ""
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : deux suspects incriminent Arvind Ramchurn, le compagnon de la mère de famille",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : les trois suspects en Cour de Pamplemousses",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»",
-            "source": "Defimedia Faits Divers"
-          }
-        ]
-      },
-      {
-        "id": "a046b9d62e5c1c325a04e0f88f671cce",
-        "title": "Importation de cannabis depuis l’Afrique du Sud : trois suspects, dont l’ancien directeur de la Cargo Handling Corporation, arrêtés lors d’une «Controlled Delivery»",
-        "url": "https://defimedia.info/importation-de-cannabis-depuis-lafrique-du-sud-trois-suspects-dont-lancien-directeur-de-la-cargo",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.177462+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "b6a491b8d4fad69445b5af7f2ed4125c",
-        "title": "Meurtre de Yogeshwaree Bhunjun : deux suspects incriminent Arvind Ramchurn, le compagnon de la mère de famille",
-        "url": "https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-deux-suspects-incriminent-arvind-ramchurn-le-compagnon-de-la-mere-de",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.177200+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "Affaire Yogeshwaree Bhunjun : L’interrogatoire du Dr Arvind Ramchurn renvoyé",
-            "source": "L'Express (via mega.mu)",
-            "url": "https://live.mega.mu/redirect/252191/",
-            "published": "2026-03-20T08:00:00+00:00",
-            "summary": "Nouvau rebondissement dans l’enquête sur la disparition jugée inquiétante de Yogeshwaree Bhunjun. L’interrogatoire du Dr Arvind Ramchurn, considéré comme un maillon clé dans cette affaire, n’a finalement pas eu lieu comme prévu. Selon son homme de loi, Mᵉ Rama Valayden, cette audition a été renvoyée à une date ultérieure en raison de l’état de santé du médecin, retardant ainsi une étape jugée cruciale par les enquêteurs. En attendant, le principal concerné continu ..."
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Enquête policière : le compagnon de Yogeshwaree Bhunjun désormais suspecté d’être le commanditaire du meurtre, trois autres arrestations",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : les trois suspects en Cour de Pamplemousses",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»",
-            "source": "Defimedia Faits Divers"
-          }
-        ]
-      },
-      {
-        "id": "8bc4278226800b6bba8b51a96bde3848",
-        "title": "Meurtre de Yogeshwaree Bhunjun : les trois suspects en Cour de Pamplemousses",
-        "url": "https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-les-trois-suspects-en-cour-de-pamplemousses",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.176629+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Enquête policière : le compagnon de Yogeshwaree Bhunjun désormais suspecté d’être le commanditaire du meurtre, trois autres arrestations",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : deux suspects incriminent Arvind Ramchurn, le compagnon de la mère de famille",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»",
-            "source": "Defimedia Faits Divers"
-          }
-        ]
-      },
-      {
-        "id": "2ebedfc86059633b264489c542537db8",
-        "title": "Goodlands : un homme mortellement agressé au sabre",
-        "url": "https://defimedia.info/goodlands-un-homme-mortellement-agresse-au-sabre",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.176311+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "3953f612b3fe2284a271850d76f53139",
-        "title": "Agression mortelle à Goodlands : fin tragique pour Olivier Pierre Louis",
-        "url": "https://defimedia.info/agression-mortelle-goodlands-fin-tragique-pour-olivier-pierre-louis",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.176047+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Agression mortelle d’Olivier Pierre Louis à Goodlands : le présumé meurtrier arrêté à bord d’une voiture",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain",
-            "source": "Defimedia Faits Divers"
-          }
-        ]
-      },
-      {
-        "id": "fcd97c6aa0bc1d734ebdc03086b1c2b1",
-        "title": "Meurtre à Cité Ste-Claire : la compagne de la victime réclame justice",
-        "url": "https://defimedia.info/meurtre-cite-ste-claire-la-compagne-de-la-victime-reclame-justice",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.175766+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "014be007d814695f507ccb6a2453c2e1",
-        "title": "Agression mortelle d’Olivier Pierre Louis à Goodlands : le présumé meurtrier arrêté à bord d’une voiture",
-        "url": "https://defimedia.info/agression-mortelle-dolivier-pierre-louis-goodlands-le-presume-meurtrier-arrete-bord-dune-voiture",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.175454+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "Meurtre à Goodlands : l’agresseur d’Olivier Pierre Louis plaide la légitime défense",
-            "source": "Defimedia Faits Divers",
-            "url": "https://defimedia.info/meurtre-goodlands-lagresseur-dolivier-pierre-louis-plaide-la-legitime-defense",
-            "published": "2026-03-21T07:52:14.174379+00:00",
-            "summary": ""
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Agression mortelle à Goodlands : fin tragique pour Olivier Pierre Louis",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain",
-            "source": "Defimedia Faits Divers"
-          }
-        ]
-      },
-      {
-        "id": "d31275cdc03c376e265f486308491327",
-        "title": "Collision à Goodlands : un motocycliste succombe à ses blessures",
-        "url": "https://defimedia.info/collision-goodlands-un-motocycliste-succombe-ses-blessures",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.175188+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "51aba6648f11ac5f952e6d26ee4eb6cb",
-        "title": "Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»",
-        "url": "https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-37-ans-imteaze-peeroo-dokter-inn-ed-nou-pou-met-lekor-dan-loto",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.174923+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Enquête policière : le compagnon de Yogeshwaree Bhunjun désormais suspecté d’être le commanditaire du meurtre, trois autres arrestations",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : deux suspects incriminent Arvind Ramchurn, le compagnon de la mère de famille",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Meurtre de Yogeshwaree Bhunjun : les trois suspects en Cour de Pamplemousses",
-            "source": "Defimedia Faits Divers"
-          }
-        ]
-      },
-      {
-        "id": "1751ddbf2210ebf35bfd7bb277863419",
-        "title": "Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain",
-        "url": "https://defimedia.info/agression-mortelle-goodlands-jean-guillano-bundhoo-reconduit-en-cellule-policiere-jusqua-mardi",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.174656+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Agression mortelle à Goodlands : fin tragique pour Olivier Pierre Louis",
-            "source": "Defimedia Faits Divers"
-          },
-          {
-            "title": "Agression mortelle d’Olivier Pierre Louis à Goodlands : le présumé meurtrier arrêté à bord d’une voiture",
-            "source": "Defimedia Faits Divers"
-          }
-        ]
-      },
-      {
-        "id": "bbbbd72f7c9a856774090ee2604e5c2a",
-        "title": "Drame à la prison de Melrose : un détenu reconnaît avoir frappé Andy Selmour",
-        "url": "https://defimedia.info/drame-la-prison-de-melrose-un-detenu-reconnait-avoir-frappe-andy-selmour",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.174113+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "514adb7c32e853033432e3589622616b",
-        "title": "Accident mortel à Belle-Étoile, Trou-d’Eau-Douce : Allaghen Tamby, 75 ans, fauché par une voiture en revenant de la prière",
-        "url": "https://defimedia.info/accident-mortel-belle-etoile-trou-deau-douce-allaghen-tamby-75-ans-fauche-par-une-voiture-en",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.173225+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "30b81777fb512dcc245e636e13026328",
-        "title": "Violence domestique : trois femmes agressées",
-        "url": "https://defimedia.info/violence-domestique-trois-femmes-agressees",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.172955+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "2b5ad41280b91ca351b62282e03b5057",
-        "title": "Goodlands - Résidences Sainte-Claire : un dealer soulève la foule contre l’Adsu",
-        "url": "https://defimedia.info/goodlands-residences-sainte-claire-un-dealer-souleve-la-foule-contre-ladsu",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.172684+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "31ad64d6268a2ed090009db61ae8fa00",
-        "title": "Soupçons d’enrichissement illicite : un Curepipien arrêté par la FCC",
-        "url": "https://defimedia.info/soupcons-denrichissement-illicite-un-curepipien-arrete-par-la-fcc",
-        "summary": "",
-        "source": "Defimedia Faits Divers",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:14.172271+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "aa272ff72c05e7c97c9a81b5570ca797",
-        "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-        "url": "https://defimedia.info/proposition-de-berenger-ramgoolam-richard-duval-nou-atan-nou-gete",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.582190+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "054ede857c196930621ac7b6d66c39b6",
-        "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-        "url": "https://defimedia.info/politique-rencontre-entre-ramgoolam-et-berenger-ce-lundi",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.581887+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Politique : Probable démission de Bérenger comme DPM ce vendredi",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "91132970656ae8ae5363efd723408a5a",
-        "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-        "url": "https://defimedia.info/rencontre-au-pmo-pas-daccord-entre-ramgoolam-et-berenger-le-leader-du-mmm-ne-devrait-toutefois-pas",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.581579+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "b9c41983c2ac321255c9032757e1fe03",
-        "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-        "url": "https://defimedia.info/berenger-ena-enn-gang-autour-de-li-ramgoolam-pas-tou-dimoune-ki-fer-nou-boukou-boukou-ditor",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.581308+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "b13cb5e735344475ebc1ce3f2fa0c853",
-        "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-        "url": "https://defimedia.info/situation-politique-ramgoolam-conserve-les-finances-berenger-garde-le-suspense",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.581031+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "98f502042e46d399f12e70bcf117651f",
-        "title": "Iran : la répression s'accentue, Trump menace les partenaires de Téhéran de sanctions",
-        "url": "https://defimedia.info/iran-la-repression-saccentue-trump-menace-les-partenaires-de-teheran-de-sanctions",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.580738+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "6a9d78bd42ac4c82328982a78098194a",
-        "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-        "url": "https://defimedia.info/paul-berenger-li-pa-bon-pou-pei-ki-pena-enn-minis-finans-full-fledged",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.580397+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "f8f57fbeec3fa99c14bd7f2a86df780f",
-        "title": "Politique : quitter le gouvernement pas à l’ordre du jour du MMM",
-        "url": "https://defimedia.info/politique-quitter-le-gouvernement-pas-lordre-du-jour-du-mmm",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.580078+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          }
-        ]
-      },
-      {
-        "id": "71aba0f789d0cdd4f81b67a7ad2f7092",
-        "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-        "url": "https://defimedia.info/situation-politique-paul-berenger-sera-present-vendredi-au-conseil-des-ministres",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.579807+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "a8652f9bc1729282f351cf48478a9a88",
-        "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-        "url": "https://defimedia.info/paul-berenger-jai-recommande-au-comite-central-que-nous-restions-au-gouvernement",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.579262+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "ca019a608e974c18b2137b71cb0f5092",
-        "title": "Tensions politiques : le monde des affaires en attente d’un apaisement et d’un vrai redémarrage",
-        "url": "https://defimedia.info/tensions-politiques-le-monde-des-affaires-en-attente-dun-apaisement-et-dun-vrai-redemarrage",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.579002+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "20728d6c798139bf411791a9154f1488",
-        "title": "Réforme électorale : le MSM déplore le manque de propositions concrètes du gouvernement",
-        "url": "https://defimedia.info/reforme-electorale-le-msm-deplore-le-manque-de-propositions-concretes-du-gouvernement",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.578737+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "18b10560ac8047ff19c43f40958c7649",
-        "title": "Bérenger : «Apre le 12 mars mo pou ena boukou kitsoz pou dir ki mo pa pe kapav dir akoz mo dan gouvernman»",
-        "url": "https://defimedia.info/berenger-apre-le-12-mars-mo-pou-ena-boukou-kitsoz-pou-dir-ki-mo-pa-pe-kapav-dir-akoz-mo-dan",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.578442+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "9379b03e9b0cdef623fd03db1b41d2fe",
-        "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-        "url": "https://defimedia.info/keep-trying-paul-berenger-reste-evasif-sur-son-eventuel-depart-du-gouvernement",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.578137+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "Politique : La maladresse de Paul Bérenger",
-            "source": "L'Express (via mega.mu)",
-            "url": "https://live.mega.mu/redirect/252158/",
-            "published": "2026-03-20T08:00:00+00:00",
-            "summary": "*«Pena Konsey de minis vandredi, pena parski ti ena vizit deta prezidan, pena Cabinet Papers e Kabine sa vandredi-la.»* Lors de sa conférence de presse tenue le mercredi 18 mars, à l’issue du Comité central du MMM, Paul Bérenger, Deputy Prime Minister (DPM), a affirmé qu’il n’y aurait ni Conseil des ministres ni *Cabinet Papers* ce vendredi. Il répondait alors à une question portant sur sa présence éventuelle à la réunion du Conseil des ministres. Or, cette déclaration s’es ..."
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "2f3a14f067bd4eecf77af51950327aa6",
-        "title": "Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »",
-        "url": "https://defimedia.info/berenger-mo-pou-gete-sipa-mo-pou-demisyone-dime-mem-antan-ki-vpm",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.577825+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "6a1674aa6d560f28be068c995dc70215",
-        "title": "Comité central du MMM : suivez notre fil rouge",
-        "url": "https://defimedia.info/comite-central-du-mmm-suivez-notre-fil-rouge",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.577499+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "63eb24ef14f29c354e82033b07796784",
-        "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
-        "url": "https://defimedia.info/politique-16-des-18-elus-du-mmm-restent-au-sein-du-gouvernement-la-decision-de-joanna-berenger",
-        "summary": "",
-        "source": "Defimedia Politique",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:11.577180+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : quitter le gouvernement pas à l’ordre du jour du MMM",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Politique : Probable démission de Bérenger comme DPM ce vendredi",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "45713920d5cf4f56a8edf0927e38e8bb",
-        "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-        "url": "https://defimedia.info/ramgoolam-sur-la-demission-de-berenger-cest-triste-que-nous-en-soyons-arrives-la-mais-lalliance-du",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.975019+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "02be5d987a1c1afb7081baea63295884",
-        "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-        "url": "https://defimedia.info/politique-paul-berenger-annonce-quil-demissionnera-du-mmm-dans-les-jours-venir",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.974714+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : quitter le gouvernement pas à l’ordre du jour du MMM",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "À Rose-Hill : «Nu blese, me san Paul pena MMM, pena MMM si san Paul», confie un militant de longue date",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Politique : Probable démission de Bérenger comme DPM ce vendredi",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "b2c872dd43debfaeb86d7e21a8c79180",
-        "title": "Infrastructures, santé, transport : Maurice obtient une ligne de crédit de Rs 21 milliards de l’Inde",
-        "url": "https://defimedia.info/infrastructures-sante-transport-maurice-obtient-une-ligne-de-credit-de-rs-21-milliards-de-linde",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.974413+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Investissements étrangers : Maurice capte Rs 40,39 Md en 9 mois",
-            "source": "Defimedia Économie"
-          },
-          {
-            "title": "Potentiel inexploité : Rs 2,1 Md à portée de main dans le non-hôtelier, selon AXYS",
-            "source": "Defimedia Économie"
-          }
-        ]
-      },
-      {
-        "id": "cc09c58e3bda07a82c98522d4e6e3c94",
-        "title": "Guerre au Moyen-Orient : les derniers développements",
-        "url": "https://defimedia.info/guerre-au-moyen-orient-les-derniers-developpements-16",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.974154+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Guerre au Moyen-Orient : pourquoi Donald Trump et Benjamin Netanyahu divergent sur l’Iran",
-            "source": "ION News"
-          }
-        ]
-      },
-      {
-        "id": "78f221f9889d248cedc00e7f8109aaeb",
-        "title": "Météo : les prévisions pour ce samedi",
-        "url": "https://defimedia.info/meteo-les-previsions-pour-ce-samedi-85",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.973892+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "baa9856697ad89462a963ce871d10f0f",
-        "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
-        "url": "https://defimedia.info/liran-cible-la-base-de-diego-garcia-avec-des-missiles-balistiques",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.973624+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "L’Iran lance des missiles en direction de Diego Garcia",
-            "source": "ION News",
-            "url": "https://ionnews.mu/liran-lance-des-missiles-en-direction-de-diego-garcia/",
-            "published": "2026-03-21T06:31:22+00:00",
-            "summary": "L’Iran a lancé deux missiles balistiques en direction d’une base militaire conjointe américano britannique dans l’océan Indien vendredi, selon un rapport du Wall Street Journal. Les frappes n’ont pas atteint la base située à Diego Garcia, une petite île de l’archipel des Chagos, ont déclaré des responsables au journal. Un missile a échoué en vol et un navire de guerre américain aurait tiré un intercepteur SM 3 contre le second. On ne sait pas si cet intercepteur est responsable de l’échec du deu"
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Tensions militaires : Deux missiles iraniens tirés vers Diego Garcia",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Iran Fires 2 Ballistic Missiles at Diego Garcia in First Long-Range Strike",
-            "source": "News Moris"
-          }
-        ]
-      },
-      {
-        "id": "77903d75aae417cad2a0ac2383945e07",
-        "title": "Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire",
-        "url": "https://defimedia.info/guerre-au-moyen-orient-maurice-face-au-choc-de-sa-dependance-alimentaire",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.973341+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Guerre au Moyen-Orient : les derniers développements",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Guerre au Moyen-Orient : pourquoi Donald Trump et Benjamin Netanyahu divergent sur l’Iran",
-            "source": "ION News"
-          }
-        ]
-      },
-      {
-        "id": "dd1a1239808f72888eeca7bfee871729",
-        "title": "Lutte contre le trafic de drogue et le blanchiment d’argent : Rs 9,9 milliards de biens sous le coup des saisies en 2025",
-        "url": "https://defimedia.info/lutte-contre-le-trafic-de-drogue-et-le-blanchiment-dargent-rs-99-milliards-de-biens-sous-le-coup",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.973078+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "f77c3839dfa7d0c8cca8ae37960f29a0",
-        "title": "Air Mauritius : deux vols directs supplémentaires vers Paris-CDG",
-        "url": "https://defimedia.info/air-mauritius-deux-vols-directs-supplementaires-vers-paris-cdg",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.972812+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "3d2fc8826e63deb51c898ce1e22a7b4a",
-        "title": "Bérenger quitte le gouvernement : rupture stratégique ou fracture politique?",
-        "url": "https://defimedia.info/berenger-quitte-le-gouvernement-rupture-strategique-ou-fracture-politique",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.972523+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "1eedf32cf3f90b03b54c295c18191033",
-        "title": "Rajesh Bhagwan : «Ce sont les militants qui légitimisent notre présence au GM»",
-        "url": "https://defimedia.info/rajesh-bhagwan-ce-sont-les-militants-qui-legitimisent-notre-presence-au-gm",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.972260+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "76b17fbdf9a71f1bce117a2f2e4b5264",
-        "title": "Eid-ul-Fitr : entre rituels sacrés et joie partagée",
-        "url": "https://defimedia.info/eid-ul-fitr-entre-rituels-sacres-et-joie-partagee",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.971997+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "8a755d81e2f08a86cbb65ef27b05d168",
-        "title": "Vers un mini-remaniement",
-        "url": "https://defimedia.info/vers-un-mini-remaniement",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.971728+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "43346ea8a7f77ce8f3fd397dc70fd0fe",
-        "title": "Notation souveraine : Maurice met fin à son contrat avec S&P Global Ratings",
-        "url": "https://defimedia.info/notation-souveraine-maurice-met-fin-son-contrat-avec-sp-global-ratings",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.971439+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "Économie : Maurice demande le retrait de sa notation souveraine auprès de S&P Global Ratings",
-            "source": "L'Express (via mega.mu)",
-            "url": "https://live.mega.mu/redirect/252287/",
-            "published": "2026-03-20T08:00:00+00:00",
-            "summary": "L’agence de notation S&P Global Ratings a annoncé, le mercredi 18 mars 2026, le retrait des notes souveraines de Maurice à la demande des autorités du pays. Les notations concernées étaient « BBB- » à long terme – soit le seuil le plus bas de la catégorie investissement – et « A-3 » à court terme. La perspective associée était stable au moment de cette décision. Dans son communiqué, S&P précise que ce retrait constitue une dérogation à son calendrier de publication de ..."
-          }
-        ]
-      },
-      {
-        "id": "ca9d352157481551ed930354ddbfcb2e",
-        "title": "Construction des logements sociaux Rs 515,2 M parties en fumée dans des contrats résiliés",
-        "url": "https://defimedia.info/construction-des-logements-sociaux-rs-5152-m-parties-en-fumee-dans-des-contrats-resilies",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.971173+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "0f6948f3a051d6bc6335e541aa01da48",
-        "title": "Amédée Darga : «Le plus triste, c’est la dégringolade du MMM au fil des années»",
-        "url": "https://defimedia.info/amedee-darga-le-plus-triste-cest-la-degringolade-du-mmm-au-fil-des-annees",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.970904+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "17f79f0f6675fc3a4291068c0f194cda",
-        "title": "À Rose-Hill : «Nu blese, me san Paul pena MMM, pena MMM si san Paul», confie un militant de longue date",
-        "url": "https://defimedia.info/rose-hill-nu-blese-me-san-paul-pena-mmm-pena-mmm-si-san-paul-confie-un-militant-de-longue-date",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.970337+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          }
-        ]
-      },
-      {
-        "id": "0e36bfe7c3242a85c6239de56939331e",
-        "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-        "url": "https://defimedia.info/ramgoolam-pas-presse-de-nommer-le-remplacant-de-berenger",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.970050+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "ca7a02c8563d19ad5b919ffe9bcb2d68",
-        "title": "Shakeel Mohamed : «Je suis sûr que, dans l’intérêt du pays, Bérenger se montrera constructif. Je lui souhaite bonne continuation»",
-        "url": "https://defimedia.info/shakeel-mohamed-je-suis-sur-que-dans-linteret-du-pays-berenger-se-montrera-constructif-je-lui",
-        "summary": "",
-        "source": "Defimedia Actualités",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T07:52:08.969601+00:00",
-        "date_verified": false
+        "date_verified": true
       },
       {
         "id": "c57ec7c8624a773a029e78250f527fea",
@@ -1819,12 +450,8 @@
         "date_verified": true,
         "similar_to": [
           {
-            "title": "Guerre au Moyen-Orient : les derniers développements",
-            "source": "Defimedia Actualités"
-          },
-          {
             "title": "Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire",
-            "source": "Defimedia Actualités"
+            "source": "Defimedia"
           }
         ]
       },
@@ -1917,12 +544,12 @@
         "date_verified": true,
         "similar_to": [
           {
-            "title": "Tensions militaires : Deux missiles iraniens tirés vers Diego Garcia",
-            "source": "L'Express (via mega.mu)"
+            "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
+            "source": "Defimedia"
           },
           {
-            "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
-            "source": "Defimedia Actualités"
+            "title": "Tensions militaires : Deux missiles iraniens tirés vers Diego Garcia",
+            "source": "L'Express (via mega.mu)"
           }
         ]
       },
@@ -1949,6 +576,17 @@
         "date_verified": true
       },
       {
+        "id": "e0028b2d8bad5fabeed6f0feeca95e9e",
+        "title": "Rapport de l’Audit 2024-25 : Â«Â Seulement 41 % des recommandations de l’annÃ©e prÃ©cÃ©dente appliquÃ©esÂ Â»",
+        "url": "https://www.lemauricien.com/actualites/politique/rapport-de-laudit-2024-25-seulement-41-des-recommandations-de-lannee-precedente-appliquees/702248/",
+        "summary": "Plus de 720 recommandations, soit presque le double des 363 recommandations de l'exercice prÃ©cÃ©dent. Câest par ce chiffre sans prÃ©cÃ©dent que le Directeur de l'Audit, le Dr D. Paligadu, marque la publication du rapport annuel du National Audit Office...",
+        "source": "Le Mauricien",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-20T17:59:54+04:00",
+        "date_verified": true
+      },
+      {
         "id": "2a3702524dca1f53597b134fd1babbb1",
         "title": "Gold Prices Plunge 17% as Global Market Shifts Impact Local Trade",
         "url": "https://newsmoris.com/gold-prices-plunge-17-as-global-market-shifts-impact-local-trade/",
@@ -1971,555 +609,25 @@
         "date_verified": true
       },
       {
-        "id": "6679aecc34c8caab9a490f98982a528d",
-        "title": "“A Heavy Silence”: Al-Aqsa’s Courtyards Fall Quiet for First Eid in 59 Years",
-        "url": "https://newsmoris.com/a-heavy-silence-al-aqsas-courtyards-fall-quiet-for-first-eid-in-59-years/",
-        "summary": "The historic sound of the Takbeer was absent from the Al-Aqsa Mosque on Thursday, 19 March, as worshippers were banned from the grounds for Eid Al-Fitr, marking the first time in nearly six decades that the holy site has been …\nThe post “A Heavy Silence”: Al-Aqsa’s Courtyards Fall Quiet for First Eid in 59 Years appeared first on News Moris.",
-        "source": "News Moris",
-        "language": "en",
+        "id": "e5034180a89239869db6f7c4fa69fb04",
+        "title": "ConsÃ©cration -Communications et relations publiques : Coup double consÃ©cration pour Blast Burson avec Diamond et African SABRE...",
+        "url": "https://www.lemauricien.com/actualites/societe/consecration-communications-et-relations-publiques-coup-double-consecration-pour-blast-burson-avec-diamond-et-african-sabre-awards/702170/",
+        "summary": "Blast Burson franchit une Ã©tape historique. Lâagence mauricienne a dÃ©crochÃ© son tout premier Diamond SABRE Award, ainsi quâun 12e African SABRE Award, prix prestigieux dans lâuniver...",
+        "source": "Le Mauricien",
+        "language": "fr",
         "category": "local",
-        "published": "2026-03-20T08:41:58+00:00",
+        "published": "2026-03-20T15:00:16+04:00",
         "date_verified": true
       },
       {
-        "id": "d8ddb96b0bbd65063a1f7c43dbe84369",
-        "title": "«Africa’s Green Economy Summit» : Une feuille de route pour accélérer l’économie verte en Afrique",
-        "url": "https://live.mega.mu/redirect/252278/",
-        "summary": "Les conclusions de l’*Africa’s Green Economy Summit 2026*, qui s’est tenu du 24 au 27 février à Cape Town, en Afrique du Sud, continuent de guider la réflexion sur la transition écologique afin de mobiliser des financements en faveur de l’action climatique, et l’accélération de la transition vers une croissance résiliente, faible en carbone et favorable à la biodiversité. Plus de 600 participants venus de 42 pays – investisseurs, décideurs publics, développeurs de projets ...",
-        "source": "L'Express (via mega.mu)",
+        "id": "ce2695d7a5c742c30f973b3f812ef682",
+        "title": "Alpinisme – Mauricien Ã  lâÃ©preuve : Jaysen Arumugum vise les Seven Summits",
+        "url": "https://www.lemauricien.com/actualites/societe/alpinisme-mauricien-a-lepreuve-jaysen-arumugum-vise-les-seven-summits/702151/",
+        "summary": "Originaire de Moka, Jaysen Arumugum sâapprÃªte Ã  relever lâun des dÃ©fis les plus extrÃªmes et isolÃ©s de la planÃ¨te : lâascension du Mont Vinson, le plus haut sommet de lâAntarcti...",
+        "source": "Le Mauricien",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "df994c8748e2574b6514494af1ecadac",
-        "title": "Conseil des ministres du 20 mars : Les principales décisions du Cabinet",
-        "url": "https://live.mega.mu/redirect/252281/",
-        "summary": "Voici en résumé, les décisions prises au Conseil des ministres de ce vendredi 20 mars. Les principaux points abordés lors de la réunion du cabinet incluaient des projets de lois, accords internationaux et mesures pour le développement socio-économique. **Réformes législatives et réglementaires** ⚫ Adoption de projets de loi pour simplifier l’accès à l’emploi et renforcer la lutte contre le blanchiment d'argent, le financement du terrorisme et la prolifération d’armes. ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "576c17c526cecb339439eba62e1eb9e0",
-        "title": "Manière de voir : Les faits rien que les faits : Siavosh Ghazi, correspondant de guerre XXL en direct de Téhéran",
-        "url": "https://live.mega.mu/redirect/252284/",
-        "summary": "Nous sommes le 28 février. Siavosh Ghazi, le correspondant de *Radio France Internationale* (RFI) et de *France 24*, se dirige en voiture vers le centre de la capitale, Téhéran. Soudain, il entend un bruit assourdissant d’un bombardement. Immédiatement, ce journaliste franco-iranien entre en communication avec les deux médias précités pour lesquels il travaille depuis 1998. En direct sur ces antennes francophones, il annonce que la guerre entre l’Iran et les États-Unis/Israël a comm ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "b9209ee0df864ebf503d68ccc6430875",
-        "title": "Finance : Le secteur de l’assurance confronté aux incertitudes géopolitiques",
-        "url": "https://live.mega.mu/redirect/252290/",
-        "summary": "À l’occasion de la 53ᵉ assemblée générale de l’Insurers Association of Mauritius (IAM), tenue le mercredi 18 mars au *Hennessy Park Hotel*, à Ébène, la ministre des Services financiers et de la planification économique, Jyoti Jeetun, a abordé les enjeux actuels du secteur de l’assurance dans un contexte international incertain. Elle s’exprimait en présence du président de l’IAM, Naresh Gokulsing, du secrétaire général, Vashish Ramkhalawon, et de plusieurs autres acteurs ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "40fd9e418e7384e4b1d862241e6d2e90",
-        "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-        "url": "https://live.mega.mu/redirect/252293/",
-        "summary": "Peu après la conférence de presse des parlementaires du MMM au quartier général du parti à Port-Louis, c’est le Premier ministre (PM) qui a réagi à la démission de son vice-Premier ministre sur la Mauritius Broadcasting Corporation. *«Li bien tris ki nounn ariv ziska-la. Mo pa ti envi ki sa arivé»*, alors que c’est une situation tendu qui dure depuis le mois de novembre dernier. *«Mo finn bien pasian»* malgré les points de désaccord qu’ils avaient. Le PM a tenu à rassurer l ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Proposition de Bérenger à Ramgoolam – Richard Duval : « Nou atan, nou gete »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Rencontre au PMO : pas d’accord entre Ramgoolam et Bérenger, le leader du MMM ne devrait toutefois pas s’asseoir dans l’opposition",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Ena enn gang autour de li [Ramgoolam], pas tou dimoune, ki fer nou boukou boukou ditor »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Ramgoolam conserve les Finances, Bérenger garde le suspense",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Ramgoolam sur la démission de Bérenger : « C’est triste que nous en soyons arrivés là. Mais l’Alliance du Changement reste intacte… »",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Répercussions du conflit au Moyen-Orient : Navin Ramgoolam prévient : «Li pou enn bidzet dir, mo bien sagrin»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "eee89d95f1e268a2b60e873f914bd483",
-        "title": "Au SAJ Hospital : Un pas de plus vers des soins modernisés",
-        "url": "https://live.mega.mu/redirect/252257/",
-        "summary": "Au Sir Anerood Jugnauth Hospital, une nouvelle page s’écrit pour les services de santé publique. L’unité de traumatologie et d’urgences, inaugurée le 18 mars, entrera officiellement en opération le 23 mars, marquant une avancée significative dans la prise en charge des situations critiques à Maurice. La cérémonie s’est déroulée en présence du ministre de la Santé et du bien-être, Anil Bachoo, ainsi que des députés Raviraj Beechook et Avinash Ramkalawon, du directeur r ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f5f01aee1f3dc0e278d7b61197729bdc",
-        "title": "Rethinking the sports economy with “Fan Lifetime Value”",
-        "url": "https://live.mega.mu/redirect/252263/",
-        "summary": "As Mauritius prepares its Budget 2026 consultations, much attention is being given to traditional pillars of the economy: tourism, finance, energy, and digital innovation. Yet one emerging sector deserves a far greater strategic attention: the sports economy. The Government has already recognised this potential. Through the national sports economy strategy, Mauritius aims to position itself as a regional hub for sports events, sports-tech innovation and sports tourism, with the ambition of raisi",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "b2f2d549c783abb8f53ceacb9c22b68e",
-        "title": "Bridging the Chagos gap",
-        "url": "https://live.mega.mu/redirect/252266/",
-        "summary": "The 2025-26 Budget made provision for a revenue receipt of Rs 10 Billion which was supposed to be forthcoming from the Chagos deal which, however, has not materialized. *“Do not count your chicken before they are hatched”* is an old adage. The immediate consequences are well-known. It blows up the already yawning budget deficit and is bound to worsen the debt burden, both crucial indicators for Moody’s rating. It leaves the government in dire straits having to scramble to find alternative ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "88c81b5458d58401ad40b0bbe43054d1",
-        "title": "Questions à… : Aslam Hossenally : «Le réseau d’égouts colonial complique certaines opérations d’assainissement»",
-        "url": "https://live.mega.mu/redirect/252248/",
-        "summary": "Avec la hausse des cas de leptospirose, le marché central de Port-Louis suscite de vives inquiétudes sanitaires. Aslam Hossenally, lord-maire, détaille les mesures mises en place pour lutter contre la prolifération des rats et protéger commerçants et visiteurs. Après une fermeture temporaire pour un nettoyage en profondeur, le marché bénéficie désormais d’un protocole d’hygiène renforcé, de dératisations régulières et d’inspections strictes. La dernière opération de cette ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "acda01b00ee3634c100d345bc56b403f",
-        "title": "Lancement de «Moris-Mada Business Connect» : Nouvelle ère de coopération économique avec la Grande île",
-        "url": "https://live.mega.mu/redirect/252251/",
-        "summary": "À l’occasion de la fête de l’Indépendance, le 12 mars, la plateforme *Moris-Mada Business Connect* a été officiellement lancée à la Chambre de Commerce et d’Industrie d’Antananarivo, à Madagascar. Cet événement d’envergure a été organisé par la Chambre de Commerce et d’Industrie Maurice-Madagascar (CCIMM), en collaboration avec l’ambassade de Maurice à Madagascar et la diaspora malgache à Maurice. Le lancement a été conduit par Rojo Claudino Andrianasolo, présiden ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "3ba6c903dae72f2a6e348210981e7ccd",
-        "title": "Star du cinéma d’action : Mort de l'acteur américain Chuck Norris à l'âge de 86 ans",
-        "url": "https://live.mega.mu/redirect/252254/",
-        "summary": "On le croyait presque invincible. L’acteur américain et champion d’arts martiaux Chuck Norris est décédé à l’âge de 86 ans, a annoncé sa famille sur son compte Facebook officiel ce vendredi 20 mars. Il avait été hospitalisé la veille après un malaise. *«C’est avec le cœur lourd que notre famille annonce le décès soudain de notre bien-aimé Chuck Norris hier matin. Bien que nous préférions garder les circonstances privées, sachez qu’il était entouré de sa famille ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "2b126867d0e9a07d1e22bbd10217e54d",
-        "title": "25 ans au service des valeurs humaines : Saint Mary’s West, une «lakaz mama»",
-        "url": "https://live.mega.mu/redirect/252242/",
-        "summary": "Né dans l’enceinte d’une église avec des moyens modestes, le collège Saint Mary’s West s’est imposé en 25 ans comme un modèle d’inclusion et de solidarité dans le paysage éducatif. Une messe d’action de grâce a marqué, le mardi 17 mars, ce quart de siècle d’existence placé sous le signe de la transmission de valeurs humaines fortes. La cérémonie, présidée par le cardinal Maurice Piat, s’est tenue en présence de Mgr Jean Michaël Durhône et du père Jérôme d ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "8be78eb9e2b2426f15dc0c3608a7d665",
-        "title": "Interview : Anaistah Dabee : «Les congés menstruels pourraient réellement aider beaucoup de femmes»",
-        "url": "https://live.mega.mu/redirect/252245/",
-        "summary": "Les douleurs sont parfois si intenses qu’il devient impossible de travailler. Longtemps, Anaistah Dabee a pourtant essayé de s’adapter au rythme du salariat, malgré l’endométriose qui bouleversait son quotidien. Jusqu’au jour où elle a compris qu’il lui faudrait repenser son rapport au travail. Aujourd’hui âgée de 28 ans, cette directrice créative a choisi de créer son propre espace professionnel en fondant Reklam – The Creative Agency Ltd, une agence de branding et de comm ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "82e9bd03258064ac59391a57cf331d01",
-        "title": "Éducation : Ingérences alléguées et plaintes au Bureau du travail : un collège sous tension",
-        "url": "https://live.mega.mu/redirect/252236/",
-        "summary": "Le courant semble de plus en plus difficile à passer entre certains membres du corps enseignant d’un collège de Rose-Hill et la *Private Secondary Education Authority* (PSEA). En cause : les méthodes d’intervention attribuées à un officier de cette instance, qui suscitent incompréhension et malaise au sein de l’établissement. Cette situation interpelle également l’*Union of Private Secondary Education Employees* (UPSEE), qui évoque une ingérence de plus en plus marquée dans la ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "fbfb65e817c6c3ab8f651d736927a555",
-        "title": "Bharat Electricity Summit 2026 : Maurice et l’Inde renforcent leur coopération énergétique",
-        "url": "https://live.mega.mu/redirect/252239/",
-        "summary": "Lors du Bharat Electricity Summit 2026 à New Delhi, la délégation mauricienne conduite par le ministre de l’Énergie, Patrick Assirvaden, a eu une réunion bilatérale avec son homologue indien, Shri Manohar Lal aujourd’hui, vendredi 20 mars. Cette rencontre s’inscrit dans le cadre du protocole d’accord signé l’an dernier en Inde entre les deux pays, lors de la visite du Premier ministre Navin Ramgoolam. Les échanges ont porté sur la coopération énergétique en cours et futu ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "5ace444459764fd85a5e521e1e9ff0a5",
-        "title": "Zethical remporte plusieurs SABRE Awards Africa 2026",
-        "url": "https://live.mega.mu/redirect/252224/",
-        "summary": "Zethical Ltd, agence mauricienne de relations publiques basée à Port-Louis, forte de 11 années d’activité dans la gestion de crise, la communication corporate, le marketing digital et le design graphique, confirme son ascension sur la scène africaine en remportant plusieurs distinctions lors des SABRE Awards Africa 2026. Une performance qui souligne, selon l’agence, l’excellence de son approche créative et stratégique. La remise des prix a mis en lumière les succès suivants pou ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "31ea71f2bcc49c459453acf09fe1f013",
-        "title": "Camp-Carol : Crise de l’eau : à sec et à bout de patience",
-        "url": "https://live.mega.mu/redirect/252227/",
-        "summary": "À Camp-Carol, dans la région de Grand-Baie, la pénurie d’eau qui perdure depuis deux semaines plonge les habitants dans une situation de plus en plus difficile. Privés d’un accès régulier à l’eau potable, ils expriment leur frustration face à un quotidien bouleversé. Les tâches ménagères les plus élémentaires deviennent un véritable défi, affectant directement leur qualité de vie. Selon plusieurs résidents, le problème serait lié à des obstructions dans les canalis ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "3cb43eed1a7d40b02595135e9536fb30",
-        "title": "Journée internationale de la francophonie : D'ici 2050, 9 francophones sur 10 seront africains",
-        "url": "https://live.mega.mu/redirect/252230/",
-        "summary": "La date la Journée internationale de la francophonie a été choisie en référence au 20 mars 1970, date de la signature de la convention de Niamey, qui marque la création de l'Agence de coopération culturelle et technique (ACCT), devenue l’Organisation internationale de la Francophonie (OIF). Le thème retenu cette année est *«Génération paix ? La contribution de la jeunesse à un monde plus apaisé»*. Le français est la quatrième langue la plus parlée au monde, après l'angla ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f43ab3f790937e3a44dd1f3a54c643ce",
-        "title": "Cours mondiaux : 17% : Dégringolade du prix de l’or",
-        "url": "https://live.mega.mu/redirect/252233/",
-        "summary": "–17%. C’est la baisse enregistrée depuis mi-février à Maurice du prix de l’or. *«Le mouvement était déjà enclenché, mais là, on le ressent vraiment»*, explique un importateur, qui évoque une chute d’environ 5% à 6% ces deux derniers jours. Selon une analyse publiée par *«Forbes»*, plusieurs facteurs expliquent ce recul. La hausse des prix de l’énergie, dans un contexte de tensions géopolitiques, alimente les craintes d’inflation et pousse les banques centrales à ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "66ce88eb487e586bcd30bed143812d5d",
-        "title": "Saison 2026 : Hippisme : 60 chevaux retirés, au moins 150 nouveaux coursiers attendus",
-        "url": "https://live.mega.mu/redirect/252221/",
-        "summary": "Alors que le coup d’envoi de la saison hippique 2026 – prévu le samedi 25 avril prochain – approche à grands pas, la *Horse Racing Integrity Division* (HRID) a récemment publié une liste de chevaux qui ont été mis à la retraite à l’issue de la saison 2025. Il est important de préciser que cette liste n’inclut pas quatre chevaux qui sont récemment décédés, à savoir Walking On Wings (A. Nagadoo), Bestday Of Mylife (C. Daby), Willie John (S. Gujadhur) et Sylvan Warrior ( ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "2e883c23a4f2e862a794ae21132babb5",
-        "title": "Questions à… : Ali Jookhun : «Le véritable obstacle n’est pas la trisomie, mais les barrières que crée la société»",
-        "url": "https://live.mega.mu/redirect/252212/",
-        "summary": "Dans le sillage de la Journée mondiale de la trisomie, célébrée le 21 mars, la question de l’inclusion et du soutien aux familles est plus que jamais au cœur des préoccupations. Dans ce contexte, Ali Jookhun, président du Conseil exécutif de l’African Down Syndrome Network, revient sur les défis à relever et les actions nécessaires pour bâtir des sociétés plus inclusives à travers le continent africain. 🔵 **Cette année, le thème met l’accent sur la solitude. Comment ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "23742eeea459b8879df9ea284225dadd",
-        "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-        "url": "https://live.mega.mu/redirect/252215/",
-        "summary": "Dans la prolongation jouée par la presse, nous avons interrogé Paul Bérenger à propos de ses sous-entendus sur le *«gang des cinq»*, l’un des sujets de dissension entre le PM Navin Ramgoolam et lui. L’animal politique a fait dans le sarcasme : *«Ki ou le mo dir ou ? Kan mo koz li koripsion, li dir ou li pena prev. Kom si kan dimounn fer koripsion li pou dir ‘kit enn resi’ !»* Dans *«les jours à venir», comme il l’a maintes fois répété, il reviendra sur ce «dossier» ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true,
-        "related": [
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)",
-            "url": "https://live.mega.mu/redirect/252203/",
-            "published": "2026-03-20T08:00:00+00:00",
-            "summary": "En deux minutes de prise de parole dans son bureau de Deputy Prime Minister à Port-Louis, Paul Bérenger a annoncé la nouvelle : *«Aujourd'hui vendredi je démissionne comme vice-Premier ministre.»* *«Dans la journée d'hier, un ami commun à Navin et à moi m'a fait savoir que Navin Ramgoolam est embarrassé à continuer dans la manière que les choses partent. Tout de suite, naturellement, je l'ai appelé et j'ai demandé s'il souhaite que je me retire comme Premier ministre adjoint, i ..."
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Paul Bérenger : «Li pa bon pou pei ki pena enn minis Finans ‘full-fledged’»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Situation politique : Paul Bérenger sera présent vendredi au Conseil des ministres",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Politique : Probable démission de Bérenger comme DPM ce vendredi",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "008e14a2340b65c83095ccafa5199a53",
-        "title": "Répercussions du conflit au Moyen-Orient : Navin Ramgoolam prévient : «Li pou enn bidzet dir, mo bien sagrin»",
-        "url": "https://live.mega.mu/redirect/252218/",
-        "summary": "Interrogé par la presse après la cérémonie de la communauté télougoue pour Ugadi, jeudi, au Mahatma Gandhi Institute, le chef du gouvernement a, entre autres abordé le contexte international tendu, marqué par le conflit au Moyen-Orient. «Ena bato pe fer letour. Savedir lesans pou monte. Nou pena swa parski nou pa prodir petrol.» Il a également prévenu, fataliste, que ce conflit aura des répercussions sur le coût pour les Mauriciens : «Li pou enn bidzet dir, mo bien sagrin.» ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
-            "source": "L'Express (via mega.mu)"
-          },
-          {
-            "title": "Démission de Paul Bérenger : Navin Ramgoolam : «Li bien tris ki nounn ariv ziska-la»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "320289870af99882b76e0f0ba6f5bd2b",
-        "title": "Leptospirose : Curepipe contre-attaque face à l’invasion de rats",
-        "url": "https://live.mega.mu/redirect/252206/",
-        "summary": "Cité comme l’une des villes les plus touchées par la prolifération de rats, au même titre que Port-Louis, Curepipe a décidé de passer à l’offensive. Face à la recrudescence des cas de leptospirose à travers le pays, la municipalité déploie un plan d’action d’envergure mêlant dératisation massive, opérations de nettoyage et responsabilisation citoyenne. Julien Permal, conseiller municipal, souligne que cette mobilisation s’inscrit dans une stratégie globale visant à r ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "64f67c53b08583466a9e31a2e4b8273d",
-        "title": "Alerte sanitaire : Laits infantiles : l’ACIM appelle à la vigilance",
-        "url": "https://live.mega.mu/redirect/252209/",
-        "summary": "L’association des consommateurs de l’île Maurice (ACIM) a tenu une conférence de presse mercredi afin d’alerter le public sur une situation jugée préoccupante concernant des laits infantiles. L’association a annoncé le rappel de certains lots de laits pour nourrissons des marques Aptamil et Nursie, à la suite d’une alerte sanitaire internationale relayée par les autorités compétentes. Selon les informations disponibles, ces produits pourraient contenir une toxine appelée *«c ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "f23eecf3d5d6fca3f50cad50ffe062aa",
-        "title": "«Democracy Report 2026» : Le pays sort de la zone de recul démocratique",
-        "url": "https://live.mega.mu/redirect/252197/",
-        "summary": "Dans un monde où la démocratie connaît un recul historique, Maurice apparaît comme une exception relative. C’est ce qui ressort du *Democracy Report 2026* publié par V-Dem Institute, une référence mondiale en évaluation de systèmes politiques. Ce constat intervient alors que le pays enregistre également une avancée notable sur le plan de la transparence économique : le Premier ministre, Navin Ramgoolam, avait annoncé mardi à l’Assemblée nationale que Maurice adhère désormais ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "ebb2a3340f527550cd700b98cbcce9a1",
-        "title": "Rodrigues : Des pépinières de coraux pour restaurer l’avenir marin",
-        "url": "https://live.mega.mu/redirect/252200/",
-        "summary": "Face aux effets du changement climatique, la restauration des récifs coralliens demeure une priorité à Rodrigues. Dans le cadre de la mission de suivi du portefeuille du Fonds d’adaptation, l’équipe s’est rendue sur l’île pour évaluer les progrès du projet *Restoring Marine Ecosystem Services by Rehabilitating Coral Reefs to Meet a Changing Climate Future*, piloté par le Programme des Nations unies pour le développement en partenariat avec les autorités locales, des organisatio ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "204573b83cec50971953ea9730d1ec91",
-        "title": "Des Mauriciens à Anfield : «Après les Turkish Delight, revanche contre Paris !»",
-        "url": "https://live.mega.mu/redirect/252188/",
-        "summary": "Xavier-Luc Duval et Ruben Pavaday étaient aux premières loges pour voir Liverpool démonter Galatasaray, 4-0, mercredi à Anfield, en 8es de finale de la Ligue des champions, et manifester leur joie. Les deux Mauriciens ne savaient pas trop à quoi s’attendre avant cette manche retour, dans le sillage de la défaite en Turquie, 1-0, la semaine dernière, et de la contre-performance face aux Spurs dimanche dernier (1-1). *«On avait un peu peur avant ce match»*, avoue Ruben Pavaday, *«Li ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "7cbb97f5f7d00d6836c133ec57832b5b",
-        "title": "Parc automobile : La nouvelle BMW iX3 100 % électrique lancée à Maurice",
-        "url": "https://live.mega.mu/redirect/252194/",
-        "summary": "La transition locale vers la mobilité électrique a une nouvelle incarnation automobile. Le concessionnaire Leal Group a officiellement lancé, le 10 mars, la nouvelle BMW iX3, un *«Sport Activity Vehicle»* (SAV) entièrement électrique, qui incarne la nouvelle génération technologique du constructeur allemand. Cette iX3 marque l’entrée dans une nouvelle ère pour la marque avec l’introduction de la plateforme *«Neue Klasse» (littéralement, «nouvelle classe»)*, symbole d� ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "6a180a1d36a519e8c5bf379988cb43d4",
-        "title": "Interview : Ram Etwareea : «Je ne serais pas surpris que le leader annonce son départ ce vendredi»",
-        "url": "https://live.mega.mu/redirect/252180/",
-        "summary": "🔵 **Quelle est votre réaction sur la situation où encore une fois depuis les élec- tions, Paul Bérenger, leader du MMM, semble incertain quant à son avenir au gouvernement et quel est l’état d’esprit des autres membres du parti ?** On ne va pas se le cacher : le Mouvement militant mauricien (MMM) traverse une nouvelle crise ou un nouveau chapitre dans la même crise. Dès le départ, les pommes de la discorde sont les mêmes. Paul Bérenger reproche une certaine lenteur dans la p ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "3380fb977ecdc48510ff7d480d1ba08f",
-        "title": "Durcissement des conditions d’entrée : Visa US : jusqu’à 15 000 dollars de caution pour les Mauriciens",
-        "url": "https://live.mega.mu/redirect/252182/",
-        "summary": "Le département d’État américain a annoncé l’extension de son programme de caution pour les visas, qui s’appliquera désormais à un total de 50 pays à compter du 2 avril. Dans ce cadre, les ressortissants de ces pays devront verser une caution comprise entre 5 000 et 15 000 dollars avant d’obtenir un visa de type B1 ou B2, destiné aux voyages d’affaires ou de tourisme aux États-Unis. Cette caution sera remboursée aux bénéficiaires qui respectent les conditions de leur visa ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "1b4db4ba08e1ee13166f4c2ae9726822",
-        "title": "30ᵉ Championnat des clubs de la zone 7 : Volley-ball : Des motifs de satisfaction malgré les obstacles rencontrés",
-        "url": "https://live.mega.mu/redirect/252184/",
-        "summary": "Malgré des conditions loin d’être idéales, les équipes mauriciennes ont su faire preuve de caractère lors du 30ᵉ Championnat des clubs de la zone 7 disputé aux Seychelles. Les dames du Quatre-Bornes VBC ont signé la meilleure performance en décrochant une médaille de bronze après une montée en puissance au fil du tournoi, tandis que les hommes du QBVC et le Port-Louis Fire Star ont eux aussi tiré des enseignements précieux d’une compétition relevée sur la scène régionale. ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "c5dd87233c3b24c7713c6b4b564773d6",
-        "title": "En Inde : Le petit cœur d’Ezekiel progresse en attendant sa chirurgie",
-        "url": "https://live.mega.mu/redirect/252152/",
-        "summary": "Ezekiel Aaron Cleo, âgé de quatre mois, continue de montrer des signes positifs après son transfert en Inde pour une chirurgie cardiaque vitale. Selon les dernières informations communiquées par le Dr Naveen Chaudhri, de l’équipe Overseas Medical Care Assistance (OMCA) India, le nourrisson est actuellement stable et tous ses paramètres vitaux sont normaux. Depuis son arrivée au BLK Max Hospital, à New Delhi, le 12 mars, Ezekiel a connu une nette amélioration de son insuffisance ca ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "32a572de658ac710c9a8931bc09ff0a1",
-        "title": "Politique : Probable démission de Bérenger comme DPM ce vendredi",
-        "url": "https://live.mega.mu/redirect/252154/",
-        "summary": "L’incertitude plane autour de l’avenir politique de Paul Bérenger. Le Deputy Prime Minister a convoqué la presse ce vendredi 20 mars à 11 heures, dans son bureau à Port-Louis, pour une annonce décisive. Cette prise de parole intervient dans un contexte tendu au sein du Mouvement militant mauricien (MMM). Lors du comité central réuni le mercredi 18 mars, Paul Bérenger s’est retrouvé en minorité face à une majorité de ministres, de députés et de militants favorables au maint ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true,
-        "similar_to": [
-          {
-            "title": "Politique : Rencontre entre Ramgoolam et Bérenger ce lundi",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : 16 des 18 élus du MMM restent au sein du gouvernement, la décision de Joanna Bérenger attendue",
-            "source": "Defimedia Politique"
-          },
-          {
-            "title": "Politique : Paul Bérenger annonce qu’il démissionnera du MMM dans les jours à venir",
-            "source": "Defimedia Actualités"
-          },
-          {
-            "title": "Paul Bérenger démissionne de son poste de DPM : «Mo leker kase»",
-            "source": "L'Express (via mega.mu)"
-          }
-        ]
-      },
-      {
-        "id": "5b29737e4711e429cf4c8d4c21a6802f",
-        "title": "Conflit au Moyen-Orient : Les perturbations aériennes  font chuter les réservations des locations de vacances",
-        "url": "https://live.mega.mu/redirect/252160/",
-        "summary": "L’association des activités de location saisonnières à l’île Maurice (AALSIM), qui regroupe depuis 2018 les opérateurs du secteur de la location de vacances – représentant environ 11 000 emplois et plus de Rs 8 milliards de recettes annuelles – tire la sonnette d’alarme. À travers une enquête pulse menée le 16 mars, elle met en évidence les premières répercussions du conflit au Moyen-Orient sur l’industrie touristique mauricienne, via de graves perturbations du transport ...",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "0c7851338e7e0d439785b98234a80ad1",
-        "title": "Audit report 2024/2025: Discover the full document",
-        "url": "https://live.mega.mu/redirect/252178/",
-        "summary": "Audit report 2024/2025: Discover the full document submitted to parliament on Tuesday, March 17",
-        "source": "L'Express (via mega.mu)",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T08:00:00+00:00",
+        "published": "2026-03-20T14:00:06+04:00",
         "date_verified": true
       }
     ],
@@ -2532,7 +640,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.544865+00:00",
+        "published": "2026-03-21T09:07:38.479453+00:00",
         "date_verified": false,
         "related": [
           {
@@ -2559,7 +667,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.546601+00:00",
+        "published": "2026-03-21T09:07:38.480885+00:00",
         "date_verified": false,
         "related": [
           {
@@ -2579,7 +687,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.550209+00:00",
+        "published": "2026-03-21T09:07:38.484777+00:00",
         "date_verified": false
       },
       {
@@ -2590,7 +698,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.550031+00:00",
+        "published": "2026-03-21T09:07:38.484575+00:00",
         "date_verified": false
       },
       {
@@ -2601,7 +709,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.549862+00:00",
+        "published": "2026-03-21T09:07:38.484353+00:00",
         "date_verified": false
       },
       {
@@ -2612,7 +720,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.549626+00:00",
+        "published": "2026-03-21T09:07:38.484093+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -2633,7 +741,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.549161+00:00",
+        "published": "2026-03-21T09:07:38.483606+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -2643,6 +751,28 @@
         ]
       },
       {
+        "id": "3f76d623ec2f503247952042f64cb720",
+        "title": "How Helabet builds trust among the African bettors",
+        "url": "https://africa.businessinsider.com/local/lifestyle/how-helabet-builds-trust-among-the-african-bettors/c6pd0m1",
+        "summary": "",
+        "source": "Business Insider Africa",
+        "language": "en",
+        "category": "regional",
+        "published": "2026-03-21T09:07:38.483383+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "0b461f405a0cbca36ca9b47400ea94d0",
+        "title": "The rise of ETH gambling sites and Africa’s expanding digital economy",
+        "url": "https://africa.businessinsider.com/local/lifestyle/the-rise-of-eth-gambling-sites-and-africas-expanding-digital-economy/l056ctt",
+        "summary": "",
+        "source": "Business Insider Africa",
+        "language": "en",
+        "category": "regional",
+        "published": "2026-03-21T09:07:38.483103+00:00",
+        "date_verified": false
+      },
+      {
         "id": "371da6e233e03dbd13be50bb49434673",
         "title": "Counder Conference 2026 brings African legends, OpenAI and 500 global leaders to Cape Town",
         "url": "https://africa.businessinsider.com/local/careers/counder-conference-2026-brings-african-legends-openai-and-500-global-leaders-to-cape/qkbrk6d",
@@ -2650,7 +780,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.548771+00:00",
+        "published": "2026-03-21T09:07:38.482684+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -2667,7 +797,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.548573+00:00",
+        "published": "2026-03-21T09:07:38.482470+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -2688,7 +818,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.548336+00:00",
+        "published": "2026-03-21T09:07:38.482181+00:00",
         "date_verified": false
       },
       {
@@ -2699,7 +829,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.547943+00:00",
+        "published": "2026-03-21T09:07:38.481765+00:00",
         "date_verified": false
       },
       {
@@ -2710,44 +840,36 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.547767+00:00",
+        "published": "2026-03-21T09:07:38.481556+00:00",
         "date_verified": false
       },
       {
-        "id": "40f76488e10d29afdd2d0e6c95d909eb",
-        "title": "How African-owned businesses are building influence in global energy and trade",
-        "url": "https://africa.businessinsider.com/local/markets/how-african-owned-businesses-are-building-influence-in-global-energy-and-trade/1k2zkl7",
+        "id": "7449f6da9ad8d882f8e6ece13484a5f2",
+        "title": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
+        "url": "https://africa.businessinsider.com/local/markets/south-africa-fights-back-against-cheap-steel-imports-from-china-and-thailand-with-up/72lzm59",
         "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T07:52:18.547141+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "3f76d623ec2f503247952042f64cb720",
-        "title": "How Helabet builds trust among the African bettors",
-        "url": "https://africa.businessinsider.com/local/lifestyle/how-helabet-builds-trust-among-the-african-bettors/c6pd0m1",
-        "summary": "",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-21T07:52:18.546966+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "0b461f405a0cbca36ca9b47400ea94d0",
-        "title": "The rise of ETH gambling sites and Africa’s expanding digital economy",
-        "url": "https://africa.businessinsider.com/local/lifestyle/the-rise-of-eth-gambling-sites-and-africas-expanding-digital-economy/l056ctt",
-        "summary": "",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-21T07:52:18.546788+00:00",
-        "date_verified": false
+        "published": "2026-03-21T09:07:38.480671+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "South Africa: Decline in Road Crash Stats",
+            "source": "AllAfrica"
+          },
+          {
+            "title": "South Africa: High Court Urged to Permit Damages Claims Against Agrochemicals Giant Upl",
+            "source": "AllAfrica"
+          },
+          {
+            "title": "South Africa: Fuel Runs Dry in Nelson Mandela Bay",
+            "source": "AllAfrica"
+          }
+        ]
       }
     ],
-    "international": [
+    "global": [
       {
         "id": "cfd3542b85fad15a4d7e6b7913b87a4d",
         "title": "BTS comeback concert: Seoul gets ready to host 260,000 fans",
@@ -2755,7 +877,7 @@
         "summary": "RM, Jin, Suga, J-Hope, Jimin, V and Jung Kook will perform together for the first time since October 2022.",
         "source": "BBC News",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T06:59:23+00:00",
         "date_verified": true,
         "related": [
@@ -2769,39 +891,13 @@
         ]
       },
       {
-        "id": "31d692fcc75b02fb90b95e4160e48970",
-        "title": "Chuck Norris memes were undefeated for a generation of young fans",
-        "url": "https://www.bbc.com/news/articles/c62541e29z9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Chuck Norris became an inadvertent source of humour for a viral online celebration of his movie tough guy persona.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-21T01:03:01+00:00",
-        "date_verified": true,
-        "related": [
-          {
-            "title": "Action film star Chuck Norris dies, aged 86",
-            "source": "France 24",
-            "url": "https://www.france24.com/en/video/20260320-action-film-star-chuck-norris-dies-aged-86",
-            "published": "2026-03-20T17:16:29+00:00",
-            "summary": "He was the star, taciturn lawman of the show \"Walker, Texas Ranger\": Chuck #Norris passed away aged 86 on March 19. The martials arts grandmaster turned actor had become the iconic, tough guy over the years."
-          }
-        ],
-        "similar_to": [
-          {
-            "title": "Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86",
-            "source": "Al Jazeera"
-          }
-        ]
-      },
-      {
         "id": "4babc15921c25431ed9ae800e24240cc",
         "title": "Iran strikes gulf oil, gas sites as war jolts energy markets, what cost for South Africa ?",
         "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260320-iran-strikes-gulf-oil-gas-sites-as-war-jolts-energy-markets-what-cost-for-south-africa",
         "summary": "As tensions continue in the Middle East, the economic fallout is being felt far beyond the region. In South Africa, officials are warning that the ongoing conflict between the United States, Israel and Iran could come at a steep cost. Our South African correspondent speaks to political analyst Sanusha Naidu about the economic effect the war has on South Africa and the greater continent.",
         "source": "France 24",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-20T22:07:53+00:00",
         "date_verified": true,
         "related": [
@@ -2815,13 +911,49 @@
         ]
       },
       {
+        "id": "e624ac05bb20a966480f2fd52b6c1ba1",
+        "title": "Iran says it will allow Japanese ships to transit the Strait of Hormuz",
+        "url": "https://www.aljazeera.com/news/2026/3/21/iran-says-it-will-allow-japanese-ships-to-transit-the-strait-of-hormuz?traffic_source=rss",
+        "summary": "Japan sources 90 percent of its crude from Middle East and is heavily dependent on exports transiting the key waterway.",
+        "source": "Al Jazeera",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T08:21:20+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "156300738f3a773f80fa0da526bde1a8",
+        "title": "Trump hints at ‘winding down’ Iran war as US deploys more troops to region",
+        "url": "https://www.aljazeera.com/news/2026/3/21/trump-hints-at-winding-down-iran-war-as-us-deploys-more-troops-to-region?traffic_source=rss",
+        "summary": "Trump says he is not looking for a ceasefire with Iran as mixed messages from US president come amid an escalating war.",
+        "source": "Al Jazeera",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T08:01:15+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Middle East war live: Trump mulls 'winding down' Iran war as US sends thousands more marines",
+            "source": "France 24"
+          },
+          {
+            "title": "Iran war live: Trump says no ceasefire as Khamenei issues defiant message",
+            "source": "Al Jazeera"
+          },
+          {
+            "title": "Military movements indicate Trump is considering Iran ground operation",
+            "source": "Al Jazeera"
+          }
+        ]
+      },
+      {
         "id": "131a29f49c5e1cb28e8a41cc2ece2488",
         "title": "'A bit of a mixed verdict': Musk misled Twitter shareholders, jury finds",
         "url": "https://www.france24.com/en/a-bit-of-a-mixed-verdict-musk-misled-twitter-shareholders-jury-finds",
         "summary": "Tech multi-billionaire Elon Musk could be forced to pay billions of dollars in damages after a federal jury found that the world's richest man had misled Twitter shareholders while purchasing the social media platform. Musk was found to have posted false statements to drive down the company's share price. FRANCE 24 correspondent Wassim Cornet reports from Los Angeles.",
         "source": "France 24",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T07:20:20+00:00",
         "date_verified": true
       },
@@ -2832,7 +964,7 @@
         "summary": "The band's 10th album sees them return to the rebellious, rap-heavy sound of their early days.",
         "source": "BBC News",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T07:04:51+00:00",
         "date_verified": true
       },
@@ -2843,7 +975,7 @@
         "summary": "The US-Israeli war with Iran has put AI use in defence systems in the spotlight like never before. AI's exact role in the military, its accuracy and possible repercussions are slowly beginning to emerge – but the extent of its use and role in the war so far still largely remain a mystery.",
         "source": "France 24",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T06:10:19+00:00",
         "date_verified": true
       },
@@ -2854,10 +986,14 @@
         "summary": "US President Donald Trump suggested Friday he was considering “winding down” military operations against Iran even as US media reported Washington was sending three more amphibious assault ships and roughly 2,500 additional marines to the region. Israel continued to hit Tehran and Beirut with air strikes overnight as the US-Israeli war against Iran stretched into its fourth week. Follow our liveblog for the latest updates.",
         "source": "France 24",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T06:09:17+00:00",
         "date_verified": true,
         "similar_to": [
+          {
+            "title": "Trump hints at ‘winding down’ Iran war as US deploys more troops to region",
+            "source": "Al Jazeera"
+          },
           {
             "title": "Iran war live: Trump says no ceasefire as Khamenei issues defiant message",
             "source": "Al Jazeera"
@@ -2875,7 +1011,7 @@
         "summary": "Follow our live build-up, with team news, before our text commentary stream of the Women's Asian Cup final.",
         "source": "Al Jazeera",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T06:01:04+00:00",
         "date_verified": true
       },
@@ -2886,7 +1022,7 @@
         "summary": "Brendon died of \"natural cases\", his family said in a statement, remembering him as \"passionate\" and \"sensitive\".",
         "source": "BBC News",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T04:42:46+00:00",
         "date_verified": true
       },
@@ -2897,7 +1033,7 @@
         "summary": "Millions of people have rung in the ancient Persian New Year, Nowruz, as war grips the Middle East.",
         "source": "Al Jazeera",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T03:58:08+00:00",
         "date_verified": true
       },
@@ -2908,7 +1044,7 @@
         "summary": "An aid flotilla from Mexico is sailing for Cuba as the country suffers under a tightening US fuel blockade.",
         "source": "Al Jazeera",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T03:31:10+00:00",
         "date_verified": true
       },
@@ -2919,7 +1055,7 @@
         "summary": "The messages are clear: the full-scale invasion is a defensive war and patriotism means unquestionable loyalty.",
         "source": "BBC News",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T01:05:03+00:00",
         "date_verified": true
       },
@@ -2930,31 +1066,30 @@
         "summary": "Emmanuel Grégoire is facing a challenge from Rachida Dati on the right who is behind in the opinion polls.",
         "source": "BBC News",
         "language": "en",
-        "category": "international",
+        "category": "global",
         "published": "2026-03-21T01:03:36+00:00",
         "date_verified": true
       },
       {
-        "id": "641e2c09cf4bcb0e0fca2fc3f526858a",
-        "title": "Al Jazeera reporter’s journey from Jordan to Iraq",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/21/al-jazeera-reporters-journey-from-jordan-to-iraq?traffic_source=rss",
-        "summary": "Al Jazeera’s Nicolas Haque recorded his journey on the long road from Amman to Baghdad.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "international",
-        "published": "2026-03-21T01:02:53+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "d4d39f0c981c470c8a3099a4ace184f6",
-        "title": "The fight to control the narrative in the Afghan-Pakistan conflict",
-        "url": "https://www.bbc.com/news/articles/c5yxkj8gnr2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The battle between the neighbouring countries is taking place as much online as it is on the ground.",
+        "id": "80cdac62ee4023e2da56887bdb35a6f5",
+        "title": "Remember Chuck Norris memes but never watched his films? You're not alone",
+        "url": "https://www.bbc.com/news/articles/c62541e29z9o?at_medium=RSS&at_campaign=rss",
+        "summary": "Chuck Norris became an inadvertent source of humour for a viral online celebration of his movie tough-guy persona.",
         "source": "BBC News",
         "language": "en",
-        "category": "international",
-        "published": "2026-03-21T00:25:07+00:00",
-        "date_verified": true
+        "category": "global",
+        "published": "2026-03-21T01:03:01+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86",
+            "source": "Al Jazeera"
+          },
+          {
+            "title": "Action film star Chuck Norris dies, aged 86",
+            "source": "France 24"
+          }
+        ]
       }
     ]
   },
@@ -2966,8 +1101,7 @@
       "MUR/EUR": "53.72"
     },
     "commodities": {
-      "Gold (XAU)": "USD 4,492.20",
-      "BTC (Bitcoin)": "USD 70,705.00",
+      "BTC (Bitcoin)": "USD 70,624.81",
       "Brent Crude": "USD 112.19/bbl"
     },
     "ceb_outages": [
