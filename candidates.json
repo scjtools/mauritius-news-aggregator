@@ -1,18 +1,18 @@
 {
   "meta": {
-    "generated_at": "2026-03-21T09:12:04.963405+00:00",
-    "feed_build_date": "Sat, 21 Mar 2026 09:12:04 +0000",
+    "generated_at": "2026-03-21T15:00:27.319681+00:00",
+    "feed_build_date": "Sat, 21 Mar 2026 15:00:27 +0000",
     "item_counts": {
-      "feed_total": 194,
-      "editorial_raw": 187,
-      "after_clustering": 177,
-      "clusters_merged": 10,
-      "data_items": 7,
-      "local": 45,
+      "feed_total": 241,
+      "editorial_raw": 233,
+      "after_clustering": 222,
+      "clusters_merged": 11,
+      "data_items": 8,
+      "local": 102,
       "regional": 15,
-      "regional_dropped": 57,
+      "regional_dropped": 46,
       "global": 15,
-      "global_dropped": 45
+      "global_dropped": 44
     },
     "slot_targets": {
       "local": "10–12",
@@ -24,16 +24,40 @@
   "editorial": {
     "local": [
       {
-        "id": "fb75a71c3c2e76699cc4988495080fe8",
-        "title": "Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire",
-        "url": "https://defimedia.info/index.php/guerre-au-moyen-orient-maurice-face-au-choc-de-sa-dependance-alimentaire",
+        "id": "f4dba5cb9e697f572897ef9dd30cdbe4",
+        "title": "Construction : du gaspillage à l’économie circulaire",
+        "url": "https://defimedia.info/construction-du-gaspillage-leconomie-circulaire",
         "summary": "",
         "source": "Defimedia",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T09:07:26.434477+00:00",
+        "published": "2026-03-21T14:57:08.990272+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "e0e349759f479753282316a80ddf4cd5",
+        "title": "Guerre au Moyen-Orient : voici les derniers développements",
+        "url": "https://defimedia.info/guerre-au-moyen-orient-voici-les-derniers-developpements",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.988480+00:00",
         "date_verified": false,
+        "related": [
+          {
+            "title": "Guerre au Moyen-Orient : les derniers développements",
+            "source": "Defimedia",
+            "url": "https://defimedia.info/guerre-au-moyen-orient-les-derniers-developpements-16",
+            "published": "2026-03-21T14:57:08.970590+00:00",
+            "summary": ""
+          }
+        ],
         "similar_to": [
+          {
+            "title": "Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire",
+            "source": "Defimedia"
+          },
           {
             "title": "Guerre au Moyen-Orient : pourquoi Donald Trump et Benjamin Netanyahu divergent sur l’Iran",
             "source": "ION News"
@@ -41,147 +65,54 @@
         ]
       },
       {
-        "id": "5aad7c3cebf1d319705b2b681217b4b2",
-        "title": "Lutte contre le trafic de drogue et le blanchiment d’argent : Rs 9,9 milliards de biens sous le coup des saisies en 2025",
-        "url": "https://defimedia.info/index.php/lutte-contre-le-trafic-de-drogue-et-le-blanchiment-dargent-rs-99-milliards-de-biens-sous-le-coup",
+        "id": "5844a980a5fff13d086118bfe9894ebc",
+        "title": "Rallye : un circuit automobile provisoire bientôt créé dans le parking du stade Anjalay Coopen",
+        "url": "https://defimedia.info/rallye-un-circuit-automobile-provisoire-bientot-cree-dans-le-parking-du-stade-anjalay-coopen",
         "summary": "",
         "source": "Defimedia",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T09:07:26.434065+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "f521dfeba5aaab75dda55f97f2a909fa",
-        "title": "Air Mauritius : deux vols directs supplémentaires vers Paris-CDG",
-        "url": "https://defimedia.info/index.php/air-mauritius-deux-vols-directs-supplementaires-vers-paris-cdg",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.433670+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "64e61882ff05178db11fc060454b26db",
-        "title": "Notation souveraine : Maurice met fin à son contrat avec S&P Global Ratings",
-        "url": "https://defimedia.info/index.php/notation-souveraine-maurice-met-fin-son-contrat-avec-sp-global-ratings",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.433262+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "28a4d688d308a75d0d1a3393e621c18d",
-        "title": "Eid-ul-Fitr : entre rituels sacrés et joie partagée",
-        "url": "https://defimedia.info/index.php/eid-ul-fitr-entre-rituels-sacres-et-joie-partagee",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.432873+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "1eedf32cf3f90b03b54c295c18191033",
-        "title": "Rajesh Bhagwan : «Ce sont les militants qui légitimisent notre présence au GM»",
-        "url": "https://defimedia.info/rajesh-bhagwan-ce-sont-les-militants-qui-legitimisent-notre-presence-au-gm",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.432479+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "81e9081d3261ed2f03161c7c6084c350",
-        "title": "Vers un mini-remaniement",
-        "url": "https://defimedia.info/index.php/vers-un-mini-remaniement",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.432010+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "9f9eb09581aa335fb234ec2d957ad1e9",
-        "title": "Bérenger quitte le gouvernement : rupture stratégique ou fracture politique?",
-        "url": "https://defimedia.info/index.php/berenger-quitte-le-gouvernement-rupture-strategique-ou-fracture-politique",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.429620+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "70dd23b4fbfb80d6d5c4f055c419dc31",
-        "title": "Construction des logements sociaux Rs 515,2 M parties en fumée dans des contrats résiliés",
-        "url": "https://defimedia.info/index.php/construction-des-logements-sociaux-rs-5152-m-parties-en-fumee-dans-des-contrats-resilies",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.429275+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "4671cce63ca1a5b66d81ab27bfa3a3a8",
-        "title": "Amédée Darga : «Le plus triste, c’est la dégringolade du MMM au fil des années»",
-        "url": "https://defimedia.info/index.php/amedee-darga-le-plus-triste-cest-la-degringolade-du-mmm-au-fil-des-annees",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.428933+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "9a4bee0e65464d01d6e68c1c126fb629",
-        "title": "À Rose-Hill : «Nu blese, me san Paul pena MMM, pena MMM si san Paul», confie un militant de longue date",
-        "url": "https://defimedia.info/index.php/rose-hill-nu-blese-me-san-paul-pena-mmm-pena-mmm-si-san-paul-confie-un-militant-de-longue-date",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.428585+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "804bafeecebcea51dc5d5bd811aa2744",
-        "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
-        "url": "https://defimedia.info/index.php/conference-sur-la-gouvernance-et-le-leadership-yoshinee-parasuraman-une-organisation-bien-gouvernee",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.428172+00:00",
+        "published": "2026-03-21T14:57:08.987104+00:00",
         "date_verified": false,
-        "similar_to": [
+        "related": [
           {
-            "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
-            "source": "Defimedia"
-          },
-          {
-            "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
-            "source": "Defimedia"
+            "title": "Des courses automobiles envisagées au stade Anjalay Coopen",
+            "source": "ION News",
+            "url": "https://ionnews.mu/des-courses-automobiles-envisagees-au-stade-anjalay-coopen/",
+            "published": "2026-03-21T06:09:50+00:00",
+            "summary": "Le gouvernement envisage d’organiser des événements de sport automobile sur le parking du stade Anjalay Coopen, à la suite d’une visite effectuée sur le site par le ministre de la jeunesse et des sports, Deven Nagalingum, et le ministre du transport terrestre, Osman Mahomed. Cette visite avait pour objectif d’évaluer les travaux de réaménagement nécessaires afin de permettre la tenue de compétitions dans des conditions sécurisées. Les autorités souhaitent offrir aux passionnés de vitesse un espa"
           }
         ]
       },
       {
-        "id": "23937c78b7c9a5a367499f6fe23d443e",
-        "title": "Ce que Paul Bérenger reproche au gouvernement",
-        "url": "https://defimedia.info/index.php/ce-que-paul-berenger-reproche-au-gouvernement",
+        "id": "b2c872dd43debfaeb86d7e21a8c79180",
+        "title": "Infrastructures, santé, transport : Maurice obtient une ligne de crédit de Rs 21 milliards de l’Inde",
+        "url": "https://defimedia.info/infrastructures-sante-transport-maurice-obtient-une-ligne-de-credit-de-rs-21-milliards-de-linde",
         "summary": "",
         "source": "Defimedia",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T09:07:26.427838+00:00",
+        "published": "2026-03-21T14:57:08.982349+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "0ac27451d382cbf0a62e6ded6cf74f87",
+        "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+        "url": "https://defimedia.info/comite-central-du-mmm-ce-samedi-paul-berenger-devrait-plaider-pour-un-retour-au-calme",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.981926+00:00",
         "date_verified": false,
         "related": [
+          {
+            "title": "Ce que Paul Bérenger reproche au gouvernement",
+            "source": "Defimedia",
+            "url": "https://defimedia.info/ce-que-paul-berenger-reproche-au-gouvernement",
+            "published": "2026-03-21T14:57:08.966650+00:00",
+            "summary": ""
+          },
           {
             "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Une rupture qui se confirme au MMM",
             "source": "L'Express (via mega.mu)",
@@ -192,41 +123,489 @@
         ],
         "similar_to": [
           {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Comité central du MMM : suivez notre fil rouge",
+            "source": "Defimedia"
+          },
+          {
+            "title": "À Rose-Hill : «Nu blese, me san Paul pena MMM, pena MMM si san Paul», confie un militant de longue date",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "MMM : Bhagwan accuse Bérenger d’avoir « abandonné » ses militants",
+            "source": "ION News"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
             "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
             "source": "L'Express (via mega.mu)"
           }
         ]
       },
       {
-        "id": "1f29dc09818267168e27b4ea0a4a0b54",
-        "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
-        "url": "https://defimedia.info/index.php/conference-sur-la-gouvernance-et-le-leadership-novan-maharahaje-la-gouvernance-est-le-socle-de-la",
+        "id": "a8652f9bc1729282f351cf48478a9a88",
+        "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+        "url": "https://defimedia.info/paul-berenger-jai-recommande-au-comite-central-que-nous-restions-au-gouvernement",
         "summary": "",
         "source": "Defimedia",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T09:07:26.427486+00:00",
+        "published": "2026-03-21T14:57:08.981534+00:00",
         "date_verified": false,
         "similar_to": [
           {
-            "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
             "source": "Defimedia"
           },
           {
-            "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "ca019a608e974c18b2137b71cb0f5092",
+        "title": "Tensions politiques : le monde des affaires en attente d’un apaisement et d’un vrai redémarrage",
+        "url": "https://defimedia.info/tensions-politiques-le-monde-des-affaires-en-attente-dun-apaisement-et-dun-vrai-redemarrage",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.981105+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "20728d6c798139bf411791a9154f1488",
+        "title": "Réforme électorale : le MSM déplore le manque de propositions concrètes du gouvernement",
+        "url": "https://defimedia.info/reforme-electorale-le-msm-deplore-le-manque-de-propositions-concretes-du-gouvernement",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.980694+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "18b10560ac8047ff19c43f40958c7649",
+        "title": "Bérenger : «Apre le 12 mars mo pou ena boukou kitsoz pou dir ki mo pa pe kapav dir akoz mo dan gouvernman»",
+        "url": "https://defimedia.info/berenger-apre-le-12-mars-mo-pou-ena-boukou-kitsoz-pou-dir-ki-mo-pa-pe-kapav-dir-akoz-mo-dan",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.980281+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "9379b03e9b0cdef623fd03db1b41d2fe",
+        "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+        "url": "https://defimedia.info/keep-trying-paul-berenger-reste-evasif-sur-son-eventuel-depart-du-gouvernement",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.979852+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "2f3a14f067bd4eecf77af51950327aa6",
+        "title": "Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »",
+        "url": "https://defimedia.info/berenger-mo-pou-gete-sipa-mo-pou-demisyone-dime-mem-antan-ki-vpm",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.979405+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "6a1674aa6d560f28be068c995dc70215",
+        "title": "Comité central du MMM : suivez notre fil rouge",
+        "url": "https://defimedia.info/comite-central-du-mmm-suivez-notre-fil-rouge",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.978910+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
             "source": "Defimedia"
           }
         ]
       },
       {
-        "id": "eef0749cb893f695a0e6ab569ec880bb",
+        "id": "51aba6648f11ac5f952e6d26ee4eb6cb",
+        "title": "Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»",
+        "url": "https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-37-ans-imteaze-peeroo-dokter-inn-ed-nou-pou-met-lekor-dan-loto",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.976300+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Meurtre de Yogeshwaree Bhunjun : une silhouette à l’arrière de la voiture du pharmacien Fadhil Dulloo trahit les suspects",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "1751ddbf2210ebf35bfd7bb277863419",
+        "title": "Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain",
+        "url": "https://defimedia.info/agression-mortelle-goodlands-jean-guillano-bundhoo-reconduit-en-cellule-policiere-jusqua-mardi",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.975905+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "8db46deee45e123c680d30dc435d2b8f",
+        "title": "Meurtre à Goodlands : l’agresseur d’Olivier Pierre Louis plaide la légitime défense",
+        "url": "https://defimedia.info/meurtre-goodlands-lagresseur-dolivier-pierre-louis-plaide-la-legitime-defense",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.975475+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Olivier Pierre Louis, victime d’un règlement de compte mortel -Helena Valentin, sa compagne : «Li ti extra kontan pou gagn sa zanfan-la»",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "bbbbd72f7c9a856774090ee2604e5c2a",
+        "title": "Drame à la prison de Melrose : un détenu reconnaît avoir frappé Andy Selmour",
+        "url": "https://defimedia.info/drame-la-prison-de-melrose-un-detenu-reconnait-avoir-frappe-andy-selmour",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.975039+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "514adb7c32e853033432e3589622616b",
+        "title": "Accident mortel à Belle-Étoile, Trou-d’Eau-Douce : Allaghen Tamby, 75 ans, fauché par une voiture en revenant de la prière",
+        "url": "https://defimedia.info/accident-mortel-belle-etoile-trou-deau-douce-allaghen-tamby-75-ans-fauche-par-une-voiture-en",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.974660+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "30b81777fb512dcc245e636e13026328",
+        "title": "Violence domestique : trois femmes agressées",
+        "url": "https://defimedia.info/violence-domestique-trois-femmes-agressees",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.974260+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "2b5ad41280b91ca351b62282e03b5057",
+        "title": "Goodlands - Résidences Sainte-Claire : un dealer soulève la foule contre l’Adsu",
+        "url": "https://defimedia.info/goodlands-residences-sainte-claire-un-dealer-souleve-la-foule-contre-ladsu",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.973880+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "31ad64d6268a2ed090009db61ae8fa00",
+        "title": "Soupçons d’enrichissement illicite : un Curepipien arrêté par la FCC",
+        "url": "https://defimedia.info/soupcons-denrichissement-illicite-un-curepipien-arrete-par-la-fcc",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.973421+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "78f221f9889d248cedc00e7f8109aaeb",
+        "title": "Météo : les prévisions pour ce samedi",
+        "url": "https://defimedia.info/meteo-les-previsions-pour-ce-samedi-85",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.970187+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "77903d75aae417cad2a0ac2383945e07",
+        "title": "Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire",
+        "url": "https://defimedia.info/guerre-au-moyen-orient-maurice-face-au-choc-de-sa-dependance-alimentaire",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.969803+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Guerre au Moyen-Orient : voici les derniers développements",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Guerre au Moyen-Orient : pourquoi Donald Trump et Benjamin Netanyahu divergent sur l’Iran",
+            "source": "ION News"
+          }
+        ]
+      },
+      {
+        "id": "dd1a1239808f72888eeca7bfee871729",
+        "title": "Lutte contre le trafic de drogue et le blanchiment d’argent : Rs 9,9 milliards de biens sous le coup des saisies en 2025",
+        "url": "https://defimedia.info/lutte-contre-le-trafic-de-drogue-et-le-blanchiment-dargent-rs-99-milliards-de-biens-sous-le-coup",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.969395+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "f77c3839dfa7d0c8cca8ae37960f29a0",
+        "title": "Air Mauritius : deux vols directs supplémentaires vers Paris-CDG",
+        "url": "https://defimedia.info/air-mauritius-deux-vols-directs-supplementaires-vers-paris-cdg",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.969006+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "1eedf32cf3f90b03b54c295c18191033",
+        "title": "Rajesh Bhagwan : «Ce sont les militants qui légitimisent notre présence au GM»",
+        "url": "https://defimedia.info/rajesh-bhagwan-ce-sont-les-militants-qui-legitimisent-notre-presence-au-gm",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.968613+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "43346ea8a7f77ce8f3fd397dc70fd0fe",
+        "title": "Notation souveraine : Maurice met fin à son contrat avec S&P Global Ratings",
+        "url": "https://defimedia.info/notation-souveraine-maurice-met-fin-son-contrat-avec-sp-global-ratings",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.968209+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "76b17fbdf9a71f1bce117a2f2e4b5264",
+        "title": "Eid-ul-Fitr : entre rituels sacrés et joie partagée",
+        "url": "https://defimedia.info/eid-ul-fitr-entre-rituels-sacres-et-joie-partagee",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.967820+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "8a755d81e2f08a86cbb65ef27b05d168",
+        "title": "Vers un mini-remaniement",
+        "url": "https://defimedia.info/vers-un-mini-remaniement",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.967424+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "3d2fc8826e63deb51c898ce1e22a7b4a",
+        "title": "Bérenger quitte le gouvernement : rupture stratégique ou fracture politique?",
+        "url": "https://defimedia.info/berenger-quitte-le-gouvernement-rupture-strategique-ou-fracture-politique",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.967037+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "0f6948f3a051d6bc6335e541aa01da48",
+        "title": "Amédée Darga : «Le plus triste, c’est la dégringolade du MMM au fil des années»",
+        "url": "https://defimedia.info/amedee-darga-le-plus-triste-cest-la-degringolade-du-mmm-au-fil-des-annees",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.966153+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "17f79f0f6675fc3a4291068c0f194cda",
+        "title": "À Rose-Hill : «Nu blese, me san Paul pena MMM, pena MMM si san Paul», confie un militant de longue date",
+        "url": "https://defimedia.info/rose-hill-nu-blese-me-san-paul-pena-mmm-pena-mmm-si-san-paul-confie-un-militant-de-longue-date",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.963837+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "ca9d352157481551ed930354ddbfcb2e",
+        "title": "Construction des logements sociaux Rs 515,2 M parties en fumée dans des contrats résiliés",
+        "url": "https://defimedia.info/construction-des-logements-sociaux-rs-5152-m-parties-en-fumee-dans-des-contrats-resilies",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.963418+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "0e36bfe7c3242a85c6239de56939331e",
         "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
-        "url": "https://defimedia.info/index.php/ramgoolam-pas-presse-de-nommer-le-remplacant-de-berenger",
+        "url": "https://defimedia.info/ramgoolam-pas-presse-de-nommer-le-remplacant-de-berenger",
         "summary": "",
         "source": "Defimedia",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T09:07:26.427122+00:00",
+        "published": "2026-03-21T14:57:08.963013+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -236,45 +615,19 @@
         ]
       },
       {
-        "id": "4faa1e7563d8a87e121d9139e93d1b54",
-        "title": "Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»",
-        "url": "https://defimedia.info/index.php/shaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.426756+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "38029ecb91c85a93da16cfb410326b3c",
+        "id": "ca7a02c8563d19ad5b919ffe9bcb2d68",
         "title": "Shakeel Mohamed : «Je suis sûr que, dans l’intérêt du pays, Bérenger se montrera constructif. Je lui souhaite bonne continuation»",
-        "url": "https://defimedia.info/index.php/shakeel-mohamed-je-suis-sur-que-dans-linteret-du-pays-berenger-se-montrera-constructif-je-lui",
+        "url": "https://defimedia.info/shakeel-mohamed-je-suis-sur-que-dans-linteret-du-pays-berenger-se-montrera-constructif-je-lui",
         "summary": "",
         "source": "Defimedia",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T09:07:26.426371+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "b37a784ff22f49a0b2dd6d16ba765837",
-        "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
-        "url": "https://defimedia.info/index.php/conference-sur-la-gouvernance-et-le-leadership-au-dela-de-la-conformite-la-gouvernance-au-service",
-        "summary": "",
-        "source": "Defimedia",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-21T09:07:26.426064+00:00",
+        "published": "2026-03-21T14:57:08.962566+00:00",
         "date_verified": false,
         "similar_to": [
           {
-            "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
-            "source": "Defimedia"
-          },
-          {
-            "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
-            "source": "Defimedia"
+            "title": "Politique : Shakeel Mohamed sur Bérenger : «Adversaires, mais pas ennemis»",
+            "source": "L'Express (via mega.mu)"
           }
         ]
       },
@@ -286,18 +639,344 @@
         "source": "Defimedia",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T09:07:26.425621+00:00",
+        "published": "2026-03-21T14:57:08.962192+00:00",
         "date_verified": false
       },
       {
-        "id": "7accfc338a47a2470b31ff75f1b969f3",
-        "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
-        "url": "https://defimedia.info/index.php/liran-cible-la-base-de-diego-garcia-avec-des-missiles-balistiques",
+        "id": "2d973b36c152817bded532461677984a",
+        "title": "Hajj : inscription en ligne dès l’an prochain pour les Mauriciens",
+        "url": "https://defimedia.info/hajj-inscription-en-ligne-des-lan-prochain-pour-les-mauriciens",
         "summary": "",
         "source": "Defimedia",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T09:07:26.423397+00:00",
+        "published": "2026-03-21T14:57:08.961804+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "62aff33ae90ab6fe181823434fae0177",
+        "title": "Le directeur de l’audit : «La bonne gouvernance est un pilier de la confiance du public»",
+        "url": "https://defimedia.info/le-directeur-de-laudit-la-bonne-gouvernance-est-un-pilier-de-la-confiance-du-public",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.961364+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "2e936332c4c5ada2bb068e7d6b019907",
+        "title": "Judiciaire : projets au ralenti et engorgement des dossiers",
+        "url": "https://defimedia.info/judiciaire-projets-au-ralenti-et-engorgement-des-dossiers",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.960981+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "5879592fb4b1edae4cb4f2f825567f0e",
+        "title": "Budget 2024-2025 : Rs 2 milliards de fonds publics restées inutilisées",
+        "url": "https://defimedia.info/budget-2024-2025-rs-2-milliards-de-fonds-publics-restees-inutilisees",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.960600+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "67ffd6ce0959362a2b808421c6a3dad6",
+        "title": "Déchets solides et entretien des plages : Rs 711 M investis et une efficacité absente",
+        "url": "https://defimedia.info/dechets-solides-et-entretien-des-plages-rs-711-m-investis-et-une-efficacite-absente",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.959994+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "25463b8a118f7eb0e4c78c2894513f1e",
+        "title": "Institutions pénitentiaires - Prisonniers On Remand : Rs 444 millions par an",
+        "url": "https://defimedia.info/institutions-penitentiaires-prisonniers-remand-rs-444-millions-par",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.959538+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "116890c7be5625ee409703c2e3e48411",
+        "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+        "url": "https://defimedia.info/demission-de-paul-berenger-comme-premier-ministre-adjoint-avinaash-munohur-la-situation-actuelle",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.957184+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "73d18d044787e04456d8e1b9aa62701c",
+        "title": "Moody’s et la liste grise : le double danger que redoute Bérenger",
+        "url": "https://defimedia.info/moodys-et-la-liste-grise-le-double-danger-que-redoute-berenger",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.956847+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "87787d29fa56a72b63ea112b71b38f42",
+        "title": "Shafick Osman, géopoliticien et observateur politique : «Un signe de la fin d'un cycle au MMM»",
+        "url": "https://defimedia.info/shafick-osman-geopoliticien-et-observateur-politique-un-signe-de-la-fin-dun-cycle-au-mmm",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.956486+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "57c3d58a9ac47f533cc820d05f8b3633",
+        "title": "Olivier Pierre Louis, victime d’un règlement de compte mortel -Helena Valentin, sa compagne : «Li ti extra kontan pou gagn sa zanfan-la»",
+        "url": "https://defimedia.info/olivier-pierre-louis-victime-dun-reglement-de-compte-mortel-helena-valentin-sa-compagne-li-ti-extra",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.956154+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Meurtre à Goodlands : l’agresseur d’Olivier Pierre Louis plaide la légitime défense",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "81c1acf50f2239851382f16de979f971",
+        "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
+        "url": "https://defimedia.info/conference-sur-la-gouvernance-et-le-leadership-yoshinee-parasuraman-une-organisation-bien-gouvernee",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.955830+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "45d18234f96a6763d2177f4957e2855f",
+        "title": "Le patron de la FCC ciblé : des balles attachées à la lettre de menaces",
+        "url": "https://defimedia.info/le-patron-de-la-fcc-cible-des-balles-attachees-la-lettre-de-menaces",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.955471+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "06ff4ae4d923c18a69cee0414336901a",
+        "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
+        "url": "https://defimedia.info/conference-sur-la-gouvernance-et-le-leadership-novan-maharahaje-la-gouvernance-est-le-socle-de-la",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.955137+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "3cd149d2defe207b8fb3cc2e0a9bd42c",
+        "title": "Iran : Diego Garcia visée, une capacité de frappe bien au-delà des estimations",
+        "url": "https://defimedia.info/iran-diego-garcia-visee-une-capacite-de-frappe-bien-au-dela-des-estimations",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.954811+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Iran launched unsuccesful attack on Diego Garcia, BBC understands",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Tensions militaires : Deux missiles iraniens tirés vers Diego Garcia",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Iran Fires 2 Ballistic Missiles at Diego Garcia in First Long-Range Strike",
+            "source": "News Moris"
+          }
+        ]
+      },
+      {
+        "id": "3db177a7da98c1cb25f86567350e5e1a",
+        "title": "Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»",
+        "url": "https://defimedia.info/shaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.954452+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "229f1d2942f250468968293a475e41f0",
+        "title": "Meurtre de Yogeshwaree Bhunjun : une silhouette à l’arrière de la voiture du pharmacien Fadhil Dulloo trahit les suspects",
+        "url": "https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-une-silhouette-larriere-de-la-voiture-du-pharmacien-fadhil-dulloo",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.954109+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "f8e2fb24ea413fa0220e97397f53eb20",
+        "title": "Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises",
+        "url": "https://defimedia.info/conference-sur-la-gouvernance-et-le-leadership-au-dela-de-la-conformite-la-gouvernance-au-service",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.953771+00:00",
+        "date_verified": false,
+        "similar_to": [
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "c92bb4ec1291549833149cc4b35c8c4b",
+        "title": "Jossica et Jean Donuito Gai : l’amour plus fort que l’âge",
+        "url": "https://defimedia.info/jossica-et-jean-donuito-gai-lamour-plus-fort-que-lage",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.953305+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "baa9856697ad89462a963ce871d10f0f",
+        "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
+        "url": "https://defimedia.info/liran-cible-la-base-de-diego-garcia-avec-des-missiles-balistiques",
+        "summary": "",
+        "source": "Defimedia",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T14:57:08.951096+00:00",
         "date_verified": false,
         "related": [
           {
@@ -310,6 +989,14 @@
         ],
         "similar_to": [
           {
+            "title": "Iran : Diego Garcia visée, une capacité de frappe bien au-delà des estimations",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Iran launched unsuccesful attack on Diego Garcia, BBC understands",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
             "title": "Tensions militaires : Deux missiles iraniens tirés vers Diego Garcia",
             "source": "L'Express (via mega.mu)"
           },
@@ -320,15 +1007,1286 @@
         ]
       },
       {
-        "id": "19e57494a26f7a0b89d26506502de4d9",
-        "title": "Ãducation – Initiative de lâUPSEE : Un projet de recherche sur le bien-Ãªtre du personnel Ã©ducatif",
-        "url": "https://www.lemauricien.com/actualites/societe/education-initiative-de-lupsee-un-projet-de-recherche-sur-le-bien-etre-du-personnel-educatif/702218/",
-        "summary": "LâUnion of Private Secondary Education Employees (UPSEE), en collaboration avec le ministÃ¨re de lâÃducation et la Swedish International Development Capacity Academy a lancÃ© un projet ...",
+        "id": "d30f607e7da37b2e331705c0ff51210c",
+        "title": "ACIM Issues Warning for 2 Baby Milk Brands following International Health Alert",
+        "url": "https://newsmoris.com/acim-issues-warning-for-2-baby-milk-brands-following-international-health-alert/",
+        "summary": "A major health alert has been issued for parents in Mauritius following an international recall of specific batches of Aptamil and Nursie infant formulas due to potential contamination with a dangerous toxin.\nThe Association des Consommateurs de l’île Maurice …\nThe post ACIM Issues Warning for 2 Baby Milk Brands following International Health Alert appeared first on News Moris.",
+        "source": "News Moris",
+        "language": "en",
+        "category": "local",
+        "published": "2026-03-21T13:22:12+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "de759f8d06f1ad156fbc47bacd70f15e",
+        "title": "India Backs 500 MW Mauritius Gas Plant to Replace Aging Power Stations",
+        "url": "https://newsmoris.com/india-backs-500-mw-mauritius-gas-plant-to-replace-aging-power-stations/",
+        "summary": "Mauritius and India have moved to significantly deepen their energy partnership following high-level bilateral talks at the Bharat Electricity Summit 2026. The discussions, held on Friday 20 March, centered on a massive liquefied natural gas (LNG) proposal and the acceleration …\nThe post India Backs 500 MW Mauritius Gas Plant to Replace Aging Power Stations appeared first on News Moris.",
+        "source": "News Moris",
+        "language": "en",
+        "category": "local",
+        "published": "2026-03-21T13:09:04+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "e6dcfc2c7ae17334843a77261522e01b",
+        "title": "Vol MK059 : déroutement à Alger après un incident médical",
+        "url": "https://ionnews.mu/vol-mk059-deroutement-a-alger-apres-un-incident-medical/",
+        "summary": "The post Vol MK059 : déroutement à Alger après un incident médical appeared first on IONNEWS.",
+        "source": "ION News",
+        "language": "en",
+        "category": "local",
+        "published": "2026-03-21T12:23:38+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "beb9389ccb97ee66791c04cf83eb20f5",
+        "title": "LOGEMENT â Chantier Ã  lâabandon â NSLD de Rose-Belle : urgence face Ã  lâinsÃ©curitÃ© patente",
+        "url": "https://www.lemauricien.com/actualites/societe/logement-chantier-a-labandon-nsld-de-rose-belle-urgence-face-a-linsecurite-patente/702318/",
+        "summary": "Le MauricienÂ a Ã©voquÃ© rÃ©cemment lâÃ©tat dâabandon du chantier de laÂ New Social Living DevelopmentÂ (NSLD)Ltd Ã  Balisson, Rose-Belle. Des habitants du quartier rÃ©agissent Ã  lâargument que...",
         "source": "Le Mauricien",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-21T12:00:29+04:00",
+        "published": "2026-03-21T12:00:00+00:00",
         "date_verified": true
+      },
+      {
+        "id": "514d739ae41df3ac5423f98bc2b8d893",
+        "title": "MMM : Bhagwan accuse Bérenger d’avoir « abandonné » ses militants",
+        "url": "https://ionnews.mu/mmm-bhagwan-accuse-berenger-davoir-abandonne-ses-militants/",
+        "summary": "Rajesh Bhagwan a fait part de sa « tristesse » et de sa « honte » après le départ de Paul Bérenger, qu’il accuse d’avoir « abandonné » ses militants. S’exprimant au quartier général de la rue Poudrière, il a dénoncé une rupture majeure au sein du MMM et critiqué vivement la décision du leader. Il a indiqué que les membres restés au gouvernement disent être guidés par leur programme plutôt que par des intérêts personnels. Cette situation laisse Paul Bérenger et sa fille Joanna à l’écart du reste",
+        "source": "ION News",
+        "language": "en",
+        "category": "local",
+        "published": "2026-03-21T11:56:01+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          }
+        ]
+      },
+      {
+        "id": "de2663320c71709c6ba0d3209d71764a",
+        "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+        "url": "https://live.mega.mu/redirect/252368/",
+        "summary": "Le secteur de l’agro-industrie fait face à des défis structurels majeurs, entre baisse de production locale, gestion inefficace des ressources et retards dans la mise en œuvre des réformes. Les constats dressés dans le rapport d’audit 2024-2025 mettent en évidence des failles qui fragilisent la sécurité alimentaire du pays. L’un des éléments les plus préoccupants concerne la dépendance aux importations de semences. Sur les trois dernières années financières se terminant en j ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "87835183b9a03acee08e911b43560f4e",
+        "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+        "url": "https://live.mega.mu/redirect/252371/",
+        "summary": "La gestion environnementale est marquée par des retards dans la mise en œuvre des réformes et des lacunes dans le suivi de projets clés, selon les constats de l’audit 2024-2025. Plusieurs initiatives, bien que lancées, peinent à produire des résultats concrets. Parmi les dossiers majeurs figure la gestion des plastiques. Une étude sur les granulés plastiques, financée à hauteur de USD 27 750 (environ Rs 1,3 million), a révélé que 63 types de granulés plastiques sont importés à ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "4c38a4390d916548f6cc6ab8a31d33f4",
+        "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+        "url": "https://live.mega.mu/redirect/252359/",
+        "summary": "Pour la construction de 8 000 logements sociaux, un financement total estimé à Rs 29,54 milliards a été identifié. Le coût initial de construction, fixé à Rs 2,74 millions par unité, atteint finalement Rs 3,69 millions par unité, une fois les coûts additionnels inclus – travaux hors site, acquisition de terrains et frais de consultants. Dans le détail, les travaux de construction représentent Rs 21,9 milliards, auxquels s’ajoutent Rs 5,524 milliards pour les infrastructures (eau ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Budget 2024-2025 : Rs 2 milliards de fonds publics restées inutilisées",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "60e78278835c33510cd21cb35f31902c",
+        "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+        "url": "https://live.mega.mu/redirect/252362/",
+        "summary": "La gestion des actifs et des stocks apparaît particulièrement défaillante. L’audit révèle que le Government Asset Register n’a pas été mis à jour depuis juin 2022, avec des actifs évalués à Rs 489,5 millions, sans aucune inscription pour les acquisitions des trois dernières années. Plus inquiétant encore, des équipements endommagés n’ont pas été comptabilisés, ce qui empêche toute évaluation fiable du patrimoine de l’État dans le secteur de la santé. Du côté ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Budget 2024-2025 : Rs 2 milliards de fonds publics restées inutilisées",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "ebbf178c0405c85eeac862ebdb148e3d",
+        "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+        "url": "https://live.mega.mu/redirect/252350/",
+        "summary": "Le dernier rapport de l’audit ne se contente pas d’aligner des irrégularités administratives. Il dresse un constat bien plus préoccupant : à Maurice, le gaspillage des fonds publics n’est plus accidentel, il tend à devenir structurel. Derrière les chiffres, c’est un mode de gestion qui interroge – celui d’un État qui dépense beaucoup, mais dont une part significative des ressources se dissipe dans des inefficiences, des erreurs et des abus répétés. Pris isolément, certain ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "e115766826c71c7a5f9acd1af61e1b11",
+        "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+        "url": "https://live.mega.mu/redirect/252353/",
+        "summary": "*La démission de Paul Bérenger de son poste de Deputy Prime Minister continue de susciter des réactions au sein de la sphère politique et diplomatique. Parmi, celle de Vijay Makhan, diplomate de carrière, Senior Advisor au bureau du désormais ex-Deputy Prime Minister, qui n’a pas caché son émotion face à ce départ. Intervenant peu après l’annonce, Vijay Makhan a trouvé que c’était «dommage pour le pays». Il a tenu à saluer Paul Bérenger, qu’il décrit comme «un bosseur� ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "43bfe53b8ca5cfec4dc1315ea5ffe8e2",
+        "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+        "url": "https://live.mega.mu/redirect/252356/",
+        "summary": "*Pour Jean Claude de l’Estrac, ancien ministre et ancien membre du MMM, «cette démission, malheureusement, n’étonne personne. En tout cas, pas moi, puisque j’avais déjà publiquement prédit, y compris dans votre journal, que ça n’allait pas durer longtemps, que la seule question qui se posait, c’était quand cela devait intervenir. Pour une bonne et simple raison : les mêmes causes produisent les mêmes effets».* *La cause, selon Jean Claude de l’Estrac, réside dans le co ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "eb41ad591a7d5ebf1784e37a108710aa",
+        "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+        "url": "https://live.mega.mu/redirect/252323/",
+        "summary": "*Suite à la décision de Paul Bérenger de soumettre sa démission comme «Deputy Prime Minister» du gouvernement, les réactions ne se sont pas fait attendre. Pour Lindsay Rivière, ancien journaliste et observateur politique, «c’est un suicide politique. Je crois que Paul Bérenger ne se relèvera pas de cette situation. Cela fait quand même 60 ans qu’il a créé et qu’il dirige le Mouvement militant mauricien (MMM). Et il est dommage qu’à la fin de sa carrière, il s’en aille d ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "160d0217b87c94d30e5b35bcb9b064d7",
+        "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+        "url": "https://live.mega.mu/redirect/252326/",
+        "summary": "L’un des constats majeurs concerne la non-soumission des états financiers de plusieurs organismes culturels. Pas moins de 18 entités sous la tutelle du ministère n’avaient pas soumis leurs comptes à décembre 2025. Certaines accusent des retards importants, notamment le *Professor Basdeo Bissoondoyal Trust Fund*, avec 18 états financiers en attente depuis 2007-2008, ou encore la *Mauritius Film Development Corporation* et le *Mauritius Museums Council*, chacun avec six années de compte ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "fe6563cb1b91e24474e1c3d4319cd519",
+        "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+        "url": "https://live.mega.mu/redirect/252329/",
+        "summary": "Un montant de Rs 20,5 millions a été alloué à la réparation et la maintenance de 16 incinérateurs. Cependant, malgré la réhabilitation de plusieurs unités, six incinérateurs réparés n’étaient toujours pas opérationnels, faute de certificats incendie, tandis que d’autres restaient inutilisables en raison de pannes ou du manque de pièces. Certains équipements sont ainsi restés inutilisés pendant plus de 18 mois. L’audit relève également l’immobilisation prolongée d ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "b0fbd25fd80291560b759a7391f9671e",
+        "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+        "url": "https://live.mega.mu/redirect/252332/",
+        "summary": "C’est en 21 minutes que Paul Bérenger a officialisé sa démission en tant que Premier ministre adjoint lors d’une conférence de presse tenue à son bureau à la Government House, hier. Un geste fort, qui intervient dans un climat politique marqué par des tensions avec le Premier ministre Navin Ramgoolam. À l’arrivée des journalistes, le leader du Mouvement militant mauricien (MMM) était à son bureau, occupé à signer ce qui semblait être ses derniers documents officiels. Il a ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "f6e309bb9f1830d5a3817eddbf1c48f5",
+        "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+        "url": "https://live.mega.mu/redirect/252335/",
+        "summary": "L’un des constats les plus marquants concerne le coût élevé des fonctionnaires suspendus (*interdicted officers*). Entre janvier 2020 et juin 2025, un montant de Rs 409,4 millions a été versé en salaires à ces agents, malgré leur mise à l’écart. Le nombre de fonctionnaires concernés a fortement augmenté, passant de 154 en 2020 à 285 en juin 2025, impliqués dans un total de 430 infractions. L’audit souligne que ces procédures disciplinaires sont longues et inefficaces, en ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Budget 2024-2025 : Rs 2 milliards de fonds publics restées inutilisées",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "386407afc0329194b9757add975f7c05",
+        "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+        "url": "https://live.mega.mu/redirect/252338/",
+        "summary": "L’audit souligne des retards significatifs dans plusieurs initiatives structurantes. Sur un ensemble de projets liés à la cybersécurité, un seul projet avait été complété, tandis que 15 étaient en cours et quatre n’avaient pas encore démarré à octobre 2025. Certains projets essentiels, comme la mise en place d’un laboratoire de cybercriminalité, restaient encore au stade de préparation, sans appel d’offres lancé. Ces retards s’expliquent notamment par un manque de re ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "9add0be7b71e1627190bf70b50f2577b",
+        "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+        "url": "https://live.mega.mu/redirect/252341/",
+        "summary": "Pour l’exercice 2024-2025, un budget de Rs 176 millions était prévu pour les programmes d’autonomisation des femmes, dont Rs 131,1 millions ont été effectivement dépensées. Toutefois, l’audit souligne que ces fonds ont été largement absorbés par des coûts administratifs, limitant leur impact sur les programmes destinés aux bénéficiaires. Au niveau du National Women’s Council, les subventions ont atteint Rs 115,4 millions, mais une part importante a été consacrée aux s ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Budget 2024-2025 : Rs 2 milliards de fonds publics restées inutilisées",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "72b1167ea07a5abcd87f7b93fd251a0f",
+        "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+        "url": "https://live.mega.mu/redirect/252344/",
+        "summary": "Sur les cinq dernières années, environ Rs 17,4 milliards ont été investies dans l’éducation pré-primaire, primaire et secondaire. Malgré cet engagement financier considérable, les performances scolaires restent en deçà des attentes, avec des failles structurelles persistantes dans le système. L’un des constats les plus marquants concerne la progression des élèves. Sur une cohorte de 16 967 élèves inscrits en Grade 1 en 2012, seuls 5 857 élèves, soit 34,5 %, ont complét� ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Budget 2024-2025 : Rs 2 milliards de fonds publics restées inutilisées",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "42962638318344053afa625eb4a9f1da",
+        "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+        "url": "https://live.mega.mu/redirect/252347/",
+        "summary": "Sur le plan économique, les performances du secteur industriel restent en deçà des attentes. Alors qu’une croissance de 10 % des exportations domestiques était ciblée pour 2023-24, une baisse de 3,8 % a été enregistrée. Pour 2024-25, l’objectif de plus de 2 % n’a abouti qu’à une croissance de 1 %. L’audit pointe un manque de méthodologie claire et de suivi dans la planification sectorielle. Les dispositifs d’aide aux entreprises apparaissent également peu efficaces. Da ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Budget 2024-2025 : Rs 2 milliards de fonds publics restées inutilisées",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "a0f65ab675f7bf89d7776c2494024833",
+        "title": "Rapport de l’Audit 2024-2025 : Judiciaire : Plus de 66 000 cas en attente",
+        "url": "https://live.mega.mu/redirect/252314/",
+        "summary": "Le rapport de l’Audit 2024-2025 met en lumière une pression persistante sur le système judiciaire, malgré une légère amélioration. À fin décembre 2024, 66 919 cas étaient en instance, dont 80 % (53 239 cas) devant les cours de district ; 11 % (7 415 cas) en Cour suprême ; 4 % (2 981 cas) en cour intermédiaire ; et 5 % (3 284 cas) dans les autres juridictions inférieures. Sur l’année, 88 586 nouvelles affaires ont été enregistrées, contre 93 521 cas traités, permettant une r� ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Agro-industrie : dépendance aux importations, gaspillage de semences",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Environnement : pollution plastique, retards et suivi insuffisant des projets",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Logement et terres : habitat social à Rs 29,5 Mds sous pression",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Santé publique : Rs 723 millions de stocks mal contrôlés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Au-delà des chiffres : Des milliards évaporés dans les failles du système",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Arts et culture : chaos dans la gestion des organismes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Collectivités locales : millions investis, équipements inutilisés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Fonction publique : Rs 409 millions versées à des fonctionnaires suspendus",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Technologies : +79 % de Cybercrimes",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Genre et famille : Rs 131 millions depensées, mais programmes sous-financés",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Éducation : Rs 17,4 milliards investies, mais performances en recul",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Rapport de l’Audit 2024-2025 : Industrie et PME : croissance de 1 % au lieu de 2 %",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "05cf41ad14e9a207c5b53663182ca3b1",
+        "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+        "url": "https://live.mega.mu/redirect/252317/",
+        "summary": "La démission de Paul Bérenger de son poste de «Deputy Prime Minister» (DPM) n’a pas manqué de susciter des réactions dans la classe politique : entre tristesse, questions sur les raisons de son départ et appels à la continuité… **Patrick Belcourt (En Avant Moris)** Le leader d’En Avant Moris, Patrick Belcourt, s’est dit attristé pour les militants : *«Je suis triste pour les militants de la première heure et, plus encore, pour Paul Bérenger. Comment ne pas l’être ? ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "80085707b7283401cf43420581672af9",
+        "title": "Goodlands : Un jour sacré pour la communauté musulmane célébrant l’Eid-ul-Fitr",
+        "url": "https://live.mega.mu/redirect/252320/",
+        "summary": "Ce samedi 21 mars 2026, la communauté musulmane célèbre l’Eid-ul-Fitr, marquant la fin du mois sacré du Ramadan. À la mosquée Al Madinah à Goodlands, l’imam Zaheer Perbux a rappelé l’importance de cette journée, bénie par Allah. C’est un jour où personne ne garde l'enemité avec personne. Il invite la communauté à se rassembler dans l’unité, à penser à ceux qui sont malades et à prier pour leur guérison. L’imam a souhaité à tous un Eid Mubarak. ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "4a2e439f3548a462c80cf41adb6ecdca",
+        "title": "Iran launched unsuccesful attack on Diego Garcia, BBC understands",
+        "url": "https://live.mega.mu/redirect/252365/",
+        "summary": "Iran launched an unsuccessful attack on Diego Garcia, the joint US-UK military base in the Chagos Islands, the BBC understands.",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Iran : Diego Garcia visée, une capacité de frappe bien au-delà des estimations",
+            "source": "Defimedia"
+          },
+          {
+            "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Tensions militaires : Deux missiles iraniens tirés vers Diego Garcia",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Iran Fires 2 Ballistic Missiles at Diego Garcia in First Long-Range Strike",
+            "source": "News Moris"
+          }
+        ]
+      },
+      {
+        "id": "cd8580a70e701dc407f0f433d07de615",
+        "title": "Politique : Shakeel Mohamed sur Bérenger : «Adversaires, mais pas ennemis»",
+        "url": "https://live.mega.mu/redirect/252305/",
+        "summary": "Le ministre Shakeel Mohamed s’est dit attristé par le départ de Paul Bérenger du gouvernement. Il a évoqué les liens noués au fil du temps, malgré leurs divergences politiques. *«J’ai passé de très bons moments avec lui et j’ai appris à mieux le connaître, malgré nos différences. C’est quelqu’un qui a marqué l’histoire et qui a beaucoup contribué. Même s’il a démissionné, si j’ai une question à lui poser ou un conseil à lui demander, je le ferai, car c’ ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Shakeel Mohamed : «Je suis sûr que, dans l’intérêt du pays, Bérenger se montrera constructif. Je lui souhaite bonne continuation»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "6711d5d72cbd8fcbb2c2ba9cb0325faa",
+        "title": "Politique : Navin Ramgoolam : «Pas pressé de nommer un nouveau Deputy Prime Minister»",
+        "url": "https://live.mega.mu/redirect/252308/",
+        "summary": "Le Premier ministre, Navin Ramgoolam, s’est dit *«peiné»* par la démission de Paul Bérenger de son poste de Deputy Prime Minister. *«Malgré le fait que nous avons été adversaires et alliés, nous avons une longue amitié. L’amitié reste l’amitié. Je suis peiné, car sa démission aurait pu être évitée»*, a-t-il déclaré. Le chef du gouvernement a par ailleurs indiqué qu’il n’est pas pressé de nommer un successeur à Paul Bérenger, qui a démissionné le vendre ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
+      },
+      {
+        "id": "eea4080d51bf51d494416b44f20b53ac",
+        "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+        "url": "https://live.mega.mu/redirect/252311/",
+        "summary": "Paul Bérenger, leader des Mauves, a réagi après la conférence de presse des membres du MMM. Il s’est dit attristé. Il a d'emblée annoncé qu’il sera absent du bureau politique du MMM ce lundi. «Monn trouve ki ena enn koler ek enn degou anver banla ek ena osi enn dezir vinn avek enn politik prop», a-t-il déclaré. ...",
+        "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Shakeel Mohamed sur Bérenger : «Adversaires, mais pas ennemis»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Le Premier ministre Navin Ramgoolam : «Les désaccords n’étaient pas majeurs»",
+            "source": "L'Express (via mega.mu)"
+          }
+        ]
       },
       {
         "id": "ddb413d486fc8ba1203b5052aed35c72",
@@ -364,12 +2322,52 @@
         "date_verified": true,
         "similar_to": [
           {
-            "title": "Ce que Paul Bérenger reproche au gouvernement",
+            "title": "Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement",
             "source": "Defimedia"
           },
           {
             "title": "Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger",
             "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»",
+            "source": "Defimedia"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Vijay Makhan : «Dommage pour le pays»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Jean Claude de l’Estrac : «Dans peu de temps, il deviendra ce qu’il n’a jamais cessé d’être en réalité, un opposant»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : Lindsay Rivière : «C’est un suicide politique»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger comme Premier ministre adjoint : «Mo leker kase»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Démission de Paul Bérenger : Réactions de la classe politique : Entre tristesse et questionnement",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Navin Ramgoolam : «Pas pressé de nommer un nouveau Deputy Prime Minister»",
+            "source": "L'Express (via mega.mu)"
+          },
+          {
+            "title": "Politique : Paul Bérenger : «Monn trouve ki ena enn koler ek enn degou anver banla»",
+            "source": "L'Express (via mega.mu)"
           }
         ]
       },
@@ -385,8 +2383,16 @@
         "date_verified": true,
         "similar_to": [
           {
+            "title": "Iran : Diego Garcia visée, une capacité de frappe bien au-delà des estimations",
+            "source": "Defimedia"
+          },
+          {
             "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
             "source": "Defimedia"
+          },
+          {
+            "title": "Iran launched unsuccesful attack on Diego Garcia, BBC understands",
+            "source": "L'Express (via mega.mu)"
           },
           {
             "title": "Iran Fires 2 Ballistic Missiles at Diego Garcia in First Long-Range Strike",
@@ -400,6 +2406,17 @@
         "url": "https://live.mega.mu/redirect/252275/",
         "summary": "En une de *l'express*: Démission comme DPM : Paul Bérenger retourn lor koltar ; Autre titre : Navin Ramgoolam : «Même lorsqu’il critiquait le gouvernement, je suis resté patient» l Rajesh Bhagwan : «Il a abandonné le MMM» l Ajay Gunness : «Li pa ti ena gang dan so biro li ?» l Premier League : Trois grands noms au bord de la relégation… l Éditorial : Zone de turbulences. **Démission comme DPM : Paul Bérenger retourn lor koltar** • Navin Ramgoolam : «Même lorsqu’il ...",
         "source": "L'Express (via mega.mu)",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T08:00:00+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "19e57494a26f7a0b89d26506502de4d9",
+        "title": "Ãducation – Initiative de lâUPSEE : Un projet de recherche sur le bien-Ãªtre du personnel Ã©ducatif",
+        "url": "https://www.lemauricien.com/actualites/societe/education-initiative-de-lupsee-un-projet-de-recherche-sur-le-bien-etre-du-personnel-educatif/702218/",
+        "summary": "LâUnion of Private Secondary Education Employees (UPSEE), en collaboration avec le ministÃ¨re de lâÃducation et la Swedish International Development Capacity Academy a lancÃ© un projet ...",
+        "source": "Le Mauricien",
         "language": "fr",
         "category": "local",
         "published": "2026-03-21T08:00:00+00:00",
@@ -428,6 +2445,17 @@
         "date_verified": true
       },
       {
+        "id": "63090cd26fc51af9c8a6d6e7b6b2c1cd",
+        "title": "16 Human IncineratorsÂ hors service",
+        "url": "https://www.lemauricien.com/actualites/societe/16-human-incinerators-hors-service/702316/",
+        "summary": "Les incinÃ©rateurs ont Ã©tÃ© achetÃ©s auprÃ¨s dâun fournisseur indienÂ dans le cadre dâune ligne de crÃ©dit du gouvernement indienÂ pour un coÃ»t de 2,3 millions USD (Rs 102 millions). Le projet a...",
+        "source": "Le Mauricien",
+        "language": "fr",
+        "category": "local",
+        "published": "2026-03-21T07:00:00+00:00",
+        "date_verified": true
+      },
+      {
         "id": "beef91073c959083e13bbc03fb2764e2",
         "title": "Trump déclare que les États Unis envisagent de mettre progressivement fin à la guerre",
         "url": "https://ionnews.mu/trump-declare-que-les-etats-unis-envisagent-de-mettre-progressivement-fin-a-la-guerre/",
@@ -449,6 +2477,10 @@
         "published": "2026-03-21T06:25:42+00:00",
         "date_verified": true,
         "similar_to": [
+          {
+            "title": "Guerre au Moyen-Orient : voici les derniers développements",
+            "source": "Defimedia"
+          },
           {
             "title": "Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire",
             "source": "Defimedia"
@@ -475,17 +2507,6 @@
         "language": "en",
         "category": "local",
         "published": "2026-03-21T06:22:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "2848227d60b66f19705906ee525d7bac",
-        "title": "Des courses automobiles envisagées au stade Anjalay Coopen",
-        "url": "https://ionnews.mu/des-courses-automobiles-envisagees-au-stade-anjalay-coopen/",
-        "summary": "Le gouvernement envisage d’organiser des événements de sport automobile sur le parking du stade Anjalay Coopen, à la suite d’une visite effectuée sur le site par le ministre de la jeunesse et des sports, Deven Nagalingum, et le ministre du transport terrestre, Osman Mahomed. Cette visite avait pour objectif d’évaluer les travaux de réaménagement nécessaires afin de permettre la tenue de compétitions dans des conditions sécurisées. Les autorités souhaitent offrir aux passionnés de vitesse un espa",
-        "source": "ION News",
-        "language": "en",
-        "category": "local",
-        "published": "2026-03-21T06:09:50+00:00",
         "date_verified": true
       },
       {
@@ -522,17 +2543,6 @@
         "date_verified": true
       },
       {
-        "id": "b3183674f5d8af71412ca232c62c24cd",
-        "title": "Vol avec violence à Port-Louis : Deux suspects arrêtés",
-        "url": "https://ionnews.mu/vol-avec-violence-a-port-louis-deux-suspects-arretes/",
-        "summary": "Un homme a été victime d’un vol avec violence aux environs de Line Barracks, à Port-Louis. Il a été agressé par trois individus. Selon les premiers éléments de l’enquête, les suspects lui ont demandé une cigarette avant de s’en prendre à lui devant son refus. Ils lui ont dérobé son téléphone portable ainsi que Rs 2 000 avant de prendre la fuite. Blessée lors de l’agression, la victime a reçu des soins. Deux suspects ont été interpellés. L’enquête se poursuit.\nThe post Vol avec violence à Port-Lo",
-        "source": "ION News",
-        "language": "en",
-        "category": "local",
-        "published": "2026-03-21T04:55:06+00:00",
-        "date_verified": true
-      },
-      {
         "id": "4d953b026ffdaf6f6134dd32a06192d5",
         "title": "Iran Fires 2 Ballistic Missiles at Diego Garcia in First Long-Range Strike",
         "url": "https://newsmoris.com/iran-fires-2-ballistic-missiles-at-diego-garcia-in-first-long-range-strike/",
@@ -544,8 +2554,16 @@
         "date_verified": true,
         "similar_to": [
           {
+            "title": "Iran : Diego Garcia visée, une capacité de frappe bien au-delà des estimations",
+            "source": "Defimedia"
+          },
+          {
             "title": "L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques",
             "source": "Defimedia"
+          },
+          {
+            "title": "Iran launched unsuccesful attack on Diego Garcia, BBC understands",
+            "source": "L'Express (via mega.mu)"
           },
           {
             "title": "Tensions militaires : Deux missiles iraniens tirés vers Diego Garcia",
@@ -565,120 +2583,29 @@
         "date_verified": true
       },
       {
-        "id": "a3ccd2c385af6d893aebac72c59f916c",
-        "title": "Rose-Hill : De la drogue découverte après un accident de la route",
-        "url": "https://ionnews.mu/rose-hill-de-la-drogue-decouverte-apres-un-accident-de-la-route/",
-        "summary": "Un accident de la route survenu à Rose-Hill a conduit à la découverte d’une substance suspectée d’être de la drogue. L’accident, impliquant une voiture et un scooter, a fait deux blessés, le conducteur du deux-roues et son passager. Ils ont été transportés à l’hôpital. Selon les premiers éléments de l’enquête, le conducteur de la voiture présentait des signes laissant penser qu’il était sous l’influence de substances illicites. Une fouille du véhicule a permis la saisie de cinq feuilles d’alumin",
-        "source": "ION News",
-        "language": "en",
-        "category": "local",
-        "published": "2026-03-20T16:08:00+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "e0028b2d8bad5fabeed6f0feeca95e9e",
-        "title": "Rapport de l’Audit 2024-25 : Â«Â Seulement 41 % des recommandations de l’annÃ©e prÃ©cÃ©dente appliquÃ©esÂ Â»",
-        "url": "https://www.lemauricien.com/actualites/politique/rapport-de-laudit-2024-25-seulement-41-des-recommandations-de-lannee-precedente-appliquees/702248/",
-        "summary": "Plus de 720 recommandations, soit presque le double des 363 recommandations de l'exercice prÃ©cÃ©dent. Câest par ce chiffre sans prÃ©cÃ©dent que le Directeur de l'Audit, le Dr D. Paligadu, marque la publication du rapport annuel du National Audit Office...",
+        "id": "f6d507875cd134d87b251103305c39dd",
+        "title": "Commission Lam Shang Leen | DÃ©cÃ¨s Ã  la prison de Melrose :Â  Un des dÃ©tenus ayant agressÃ©Â ...",
+        "url": "https://www.lemauricien.com/actualites/societe/commission-lam-shang-leen-deces-a-la-prison-de-melrose-un-des-detenus-ayant-agresse-andy-selmour-auditionne/702210/",
+        "summary": "Un dÃ©tenu â qui avait Ã©tÃ© identifiÃ© comme Ã©tant parmi les agresseurs dâAndy Selmour le 9 dÃ©cembre dernier â a Ã©tÃ© auditionnÃ© par la Commission Lam Shang Leen mercredi 18 mars. InterrogÃ...",
         "source": "Le Mauricien",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T17:59:54+04:00",
+        "published": "2026-03-21T08:00:58+04:00",
         "date_verified": true
       },
       {
-        "id": "2a3702524dca1f53597b134fd1babbb1",
-        "title": "Gold Prices Plunge 17% as Global Market Shifts Impact Local Trade",
-        "url": "https://newsmoris.com/gold-prices-plunge-17-as-global-market-shifts-impact-local-trade/",
-        "summary": "The price of gold in Mauritius has plummeted by 17% since mid-February, marking a significant correction in the precious metals market.\nLocal importers report that while the downward trend has been developing for weeks, the momentum has accelerated sharply, with …\nThe post Gold Prices Plunge 17% as Global Market Shifts Impact Local Trade appeared first on News Moris.",
-        "source": "News Moris",
-        "language": "en",
-        "category": "local",
-        "published": "2026-03-20T12:23:10+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "2be8bef3508198560dd4343240a2e712",
-        "title": "Curepipe Targets 500 Abandoned Plots of Land to Halt Rising Rat Infestation",
-        "url": "https://newsmoris.com/curepipe-targets-500-abandoned-plots-of-land-to-halt-rising-rat-infestation/",
-        "summary": "Authorities in Curepipe have launched a major offensive against a growing rat infestation as the town emerges alongside Port Louis as one of the areas most affected by the pests. The escalation comes in response to a rise in leptospirosis …\nThe post Curepipe Targets 500 Abandoned Plots of Land to Halt Rising Rat Infestation appeared first on News Moris.",
-        "source": "News Moris",
-        "language": "en",
-        "category": "local",
-        "published": "2026-03-20T11:47:34+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "e5034180a89239869db6f7c4fa69fb04",
-        "title": "ConsÃ©cration -Communications et relations publiques : Coup double consÃ©cration pour Blast Burson avec Diamond et African SABRE...",
-        "url": "https://www.lemauricien.com/actualites/societe/consecration-communications-et-relations-publiques-coup-double-consecration-pour-blast-burson-avec-diamond-et-african-sabre-awards/702170/",
-        "summary": "Blast Burson franchit une Ã©tape historique. Lâagence mauricienne a dÃ©crochÃ© son tout premier Diamond SABRE Award, ainsi quâun 12e African SABRE Award, prix prestigieux dans lâuniver...",
+        "id": "5c2b97dcfa88741f52c6b78b53b75fac",
+        "title": "La mÃ©tÃ©o de ce samedi 21 Mars",
+        "url": "https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-samedi-21-mars/702221/",
+        "summary": "Ciel parfois nuageux ce matin avec des averses principalement sur la partie est de l'Ã®le et sur le plateau central.\r\n\r\nLa tempÃ©rature minimale sera entre 20 et 22 degrÃ©s Celsius sur le plateau cent...",
         "source": "Le Mauricien",
         "language": "fr",
         "category": "local",
-        "published": "2026-03-20T15:00:16+04:00",
-        "date_verified": true
-      },
-      {
-        "id": "ce2695d7a5c742c30f973b3f812ef682",
-        "title": "Alpinisme – Mauricien Ã  lâÃ©preuve : Jaysen Arumugum vise les Seven Summits",
-        "url": "https://www.lemauricien.com/actualites/societe/alpinisme-mauricien-a-lepreuve-jaysen-arumugum-vise-les-seven-summits/702151/",
-        "summary": "Originaire de Moka, Jaysen Arumugum sâapprÃªte Ã  relever lâun des dÃ©fis les plus extrÃªmes et isolÃ©s de la planÃ¨te : lâascension du Mont Vinson, le plus haut sommet de lâAntarcti...",
-        "source": "Le Mauricien",
-        "language": "fr",
-        "category": "local",
-        "published": "2026-03-20T14:00:06+04:00",
+        "published": "2026-03-21T01:30:00+00:00",
         "date_verified": true
       }
     ],
     "regional": [
-      {
-        "id": "9d3d28a406cf6221ab28a42dcf4dc1b5",
-        "title": "Elon Musk misled Twitter investors in an effort to try to lower its purchase price, a jury finds",
-        "url": "https://africa.businessinsider.com/news/elon-musk-misled-twitter-investors-in-an-effort-to-try-to-lower-its-purchase-price-a/kd1jwnw",
-        "summary": "",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-21T09:07:38.479453+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "Elon Musk misled shareholders during Twitter purchase, US jury finds",
-            "source": "France 24",
-            "url": "https://www.france24.com/en/americas/20260321-us-jury-finds-elon-musk-misled-shareholders-during-twitter-purchase",
-            "published": "2026-03-21T00:13:12+00:00",
-            "summary": "Tech multi-billionaire Elon Musk could be forced to pay billions of dollars in damages after a federal jury found that the world's richest man had misled Twitter shareholders while purchasing the social media platform by posting false statements to drive down the company's share price. The tycoon's lawyers said that Musk would appeal the decision."
-          },
-          {
-            "title": "Elon Musk misled Twitter investors, jury finds",
-            "source": "BBC News",
-            "url": "https://www.bbc.com/news/articles/c62j3yl842eo?at_medium=RSS&at_campaign=rss",
-            "published": "2026-03-20T23:44:09+00:00",
-            "summary": "A San Francisco jury concludes Musk’s claims in 2022 were damaging to a group of Twitter investors."
-          }
-        ]
-      },
-      {
-        "id": "78f7f025bd5b4021fea228add6c1107b",
-        "title": "French billionaire Bolloré to stand trial on corruption charges regarding African port deals",
-        "url": "https://africa.businessinsider.com/local/leaders/french-billionaire-bollore-to-stand-trial-on-corruption-charges-regarding-african/990jbns",
-        "summary": "",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-21T09:07:38.480885+00:00",
-        "date_verified": false,
-        "related": [
-          {
-            "title": "French tycoon Vincent Bolloré to stand trial in ‘African ports’ corruption case",
-            "source": "Africanews",
-            "url": "http://www.africanews.com/2026/03/20/french-tycoon-vincent-bollore-to-stand-trial-in-african-ports-corruption-case/",
-            "published": "2026-03-20T11:10:52+00:00",
-            "summary": "French industrialist Vincent Bolloré will stand trial in December before the Paris criminal court in the so‑called “African ports” case."
-          }
-        ]
-      },
       {
         "id": "62ad14d1bf35e0149fb2b15b99142a4d",
         "title": "Africa’s top diamond producer Botswana shuts down U.S. base rumors at key air base",
@@ -687,7 +2614,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.484777+00:00",
+        "published": "2026-03-21T14:57:14.764387+00:00",
         "date_verified": false
       },
       {
@@ -698,7 +2625,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.484575+00:00",
+        "published": "2026-03-21T14:57:14.764176+00:00",
         "date_verified": false
       },
       {
@@ -709,7 +2636,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.484353+00:00",
+        "published": "2026-03-21T14:57:14.763975+00:00",
         "date_verified": false
       },
       {
@@ -720,46 +2647,14 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.484093+00:00",
+        "published": "2026-03-21T14:57:14.763701+00:00",
         "date_verified": false,
         "similar_to": [
-          {
-            "title": "Top 10 African countries the United States made the most money last year",
-            "source": "Business Insider Africa"
-          },
           {
             "title": "Africa: How the World's Muslims Celebrate Eid 2026?",
             "source": "AllAfrica"
           }
         ]
-      },
-      {
-        "id": "397a9751137eed77e0aaacf2f5ae5418",
-        "title": "Energy leaders from Nigeria, 4 other African countries head to the US to address power sector challenges",
-        "url": "https://africa.businessinsider.com/local/lifestyle/energy-leaders-from-nigeria-4-other-african-countries-head-to-the-us-to-address-power/exg108n",
-        "summary": "",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-21T09:07:38.483606+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "Is the US a realistic career option for African professionals in 2026?",
-            "source": "Business Insider Africa"
-          }
-        ]
-      },
-      {
-        "id": "3f76d623ec2f503247952042f64cb720",
-        "title": "How Helabet builds trust among the African bettors",
-        "url": "https://africa.businessinsider.com/local/lifestyle/how-helabet-builds-trust-among-the-african-bettors/c6pd0m1",
-        "summary": "",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-21T09:07:38.483383+00:00",
-        "date_verified": false
       },
       {
         "id": "0b461f405a0cbca36ca9b47400ea94d0",
@@ -769,7 +2664,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.483103+00:00",
+        "published": "2026-03-21T14:57:14.763202+00:00",
         "date_verified": false
       },
       {
@@ -780,7 +2675,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.482684+00:00",
+        "published": "2026-03-21T14:57:14.762771+00:00",
         "date_verified": false,
         "similar_to": [
           {
@@ -797,13 +2692,9 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.482470+00:00",
+        "published": "2026-03-21T14:57:14.762560+00:00",
         "date_verified": false,
         "similar_to": [
-          {
-            "title": "Energy leaders from Nigeria, 4 other African countries head to the US to address power sector challenges",
-            "source": "Business Insider Africa"
-          },
           {
             "title": "Counder Conference 2026 brings African legends, OpenAI and 500 global leaders to Cape Town",
             "source": "Business Insider Africa"
@@ -818,18 +2709,7 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.482181+00:00",
-        "date_verified": false
-      },
-      {
-        "id": "9131cd41637fd7e54a35160e5eac0900",
-        "title": "How this product leader scaled one of the fastest-growing grocery platforms",
-        "url": "https://africa.businessinsider.com/local/leaders/how-this-product-leader-scaled-one-of-the-fastest-growing-grocery-platforms/y1h01db",
-        "summary": "",
-        "source": "Business Insider Africa",
-        "language": "en",
-        "category": "regional",
-        "published": "2026-03-21T09:07:38.481765+00:00",
+        "published": "2026-03-21T14:57:14.762271+00:00",
         "date_verified": false
       },
       {
@@ -840,154 +2720,130 @@
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.481556+00:00",
+        "published": "2026-03-21T14:57:14.761850+00:00",
         "date_verified": false
       },
       {
-        "id": "7449f6da9ad8d882f8e6ece13484a5f2",
-        "title": "South Africa fights back against cheap steel imports from China and Thailand with up to 75% tariffs",
-        "url": "https://africa.businessinsider.com/local/markets/south-africa-fights-back-against-cheap-steel-imports-from-china-and-thailand-with-up/72lzm59",
+        "id": "78f7f025bd5b4021fea228add6c1107b",
+        "title": "French billionaire Bolloré to stand trial on corruption charges regarding African port deals",
+        "url": "https://africa.businessinsider.com/local/leaders/french-billionaire-bollore-to-stand-trial-on-corruption-charges-regarding-african/990jbns",
         "summary": "",
         "source": "Business Insider Africa",
         "language": "en",
         "category": "regional",
-        "published": "2026-03-21T09:07:38.480671+00:00",
-        "date_verified": false,
-        "similar_to": [
-          {
-            "title": "South Africa: Decline in Road Crash Stats",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "South Africa: High Court Urged to Permit Damages Claims Against Agrochemicals Giant Upl",
-            "source": "AllAfrica"
-          },
-          {
-            "title": "South Africa: Fuel Runs Dry in Nelson Mandela Bay",
-            "source": "AllAfrica"
-          }
-        ]
+        "published": "2026-03-21T14:57:14.761649+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "205854f043c2ade31173d38fad62e8f9",
+        "title": "Africa’s largest university becomes first on the continent to own an Airport",
+        "url": "https://africa.businessinsider.com/local/markets/africas-largest-university-becomes-first-on-the-continent-to-own-an-airport/lwkyxjz",
+        "summary": "",
+        "source": "Business Insider Africa",
+        "language": "en",
+        "category": "regional",
+        "published": "2026-03-21T14:57:14.761005+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "5dfc07247f09d23c6f6fed04d6bacc2f",
+        "title": "Africa’s longest monorail line begins operations as Egypt opens 56.5km Cairo route",
+        "url": "https://africa.businessinsider.com/local/lifestyle/africas-longest-monorail-line-begins-operations-as-egypt-opens-565km-cairo-route/n64xvkw",
+        "summary": "",
+        "source": "Business Insider Africa",
+        "language": "en",
+        "category": "regional",
+        "published": "2026-03-21T14:57:14.760740+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "9d91b8133bda28ef600bbf73bde56930",
+        "title": "Concerns raised about The Trans-Kalahari Railway’s future after Trump ‘Visa Bond’ decision",
+        "url": "https://africa.businessinsider.com/local/markets/concerns-raised-about-the-trans-kalahari-railways-future-after-trump-visa-bond/z4810e7",
+        "summary": "",
+        "source": "Business Insider Africa",
+        "language": "en",
+        "category": "regional",
+        "published": "2026-03-21T14:57:14.760526+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "793c987e287df3bde1e9e6062dc56042",
+        "title": "After years of delays, Ghana enters global lithium race to help replace China in U.S. supply chains",
+        "url": "https://africa.businessinsider.com/local/markets/after-years-of-delays-ghana-enters-global-lithium-race-to-help-replace-china-in-us/84x9h6v",
+        "summary": "",
+        "source": "Business Insider Africa",
+        "language": "en",
+        "category": "regional",
+        "published": "2026-03-21T14:57:14.760042+00:00",
+        "date_verified": false
+      },
+      {
+        "id": "af95a1b7a4f68a248990d7e7bae3894d",
+        "title": "US-Africa secret $40 million deportation deal turns scandalous as migrants are stranded in Equatorial Guinea",
+        "url": "https://africa.businessinsider.com/local/markets/us-africa-secret-dollar40-million-deportation-deal-turns-scandalous-as-migrants-are/x5jpk4q",
+        "summary": "",
+        "source": "Business Insider Africa",
+        "language": "en",
+        "category": "regional",
+        "published": "2026-03-21T14:57:14.759808+00:00",
+        "date_verified": false
       }
     ],
     "global": [
       {
-        "id": "cfd3542b85fad15a4d7e6b7913b87a4d",
-        "title": "BTS comeback concert: Seoul gets ready to host 260,000 fans",
-        "url": "https://www.bbc.com/news/articles/cge0dyjwezgo?at_medium=RSS&at_campaign=rss",
-        "summary": "RM, Jin, Suga, J-Hope, Jimin, V and Jung Kook will perform together for the first time since October 2022.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T06:59:23+00:00",
-        "date_verified": true,
-        "related": [
-          {
-            "title": "New BTS album drops as Seoul gets ready for comeback mega-gig",
-            "source": "France 24",
-            "url": "https://www.france24.com/en/video/20260320-new-bts-album-drops-as-seoul-gets-ready-for-comeback-mega-gig",
-            "published": "2026-03-20T16:01:35+00:00",
-            "summary": "K-pop megastars BTS released a new album Friday ahead of their open-air comeback concert in Seoul, which is expected to draw around 260,000 people. It will be BTS's first concert after a hiatus of almost four years while all seven members served compulsory military service."
-          }
-        ]
-      },
-      {
-        "id": "4babc15921c25431ed9ae800e24240cc",
-        "title": "Iran strikes gulf oil, gas sites as war jolts energy markets, what cost for South Africa ?",
-        "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20260320-iran-strikes-gulf-oil-gas-sites-as-war-jolts-energy-markets-what-cost-for-south-africa",
-        "summary": "As tensions continue in the Middle East, the economic fallout is being felt far beyond the region. In South Africa, officials are warning that the ongoing conflict between the United States, Israel and Iran could come at a steep cost. Our South African correspondent speaks to political analyst Sanusha Naidu about the economic effect the war has on South Africa and the greater continent.",
+        "id": "32d15d0f2ae7ef9af6cabe7cd73f6f8b",
+        "title": "US jury finds tech tycoon Elon Musk misled Twitter shareholders",
+        "url": "https://www.france24.com/en/us-jury-finds-tech-tycoon-elon-musk-misled-twitter-shareholders",
+        "summary": "A federal jury in California found Friday that tech tycoon Elon Musk misled Twitter shareholders, driving down the company's share price as he was poised to buy it in a $44 billion deal.",
         "source": "France 24",
         "language": "en",
         "category": "global",
-        "published": "2026-03-20T22:07:53+00:00",
+        "published": "2026-03-21T13:37:20+00:00",
         "date_verified": true,
         "related": [
           {
-            "title": "South Africa's traditional circumcision claims dozens of young lives",
+            "title": "US jury finds Elon Musk misled investors during Twitter purchase",
+            "source": "Al Jazeera",
+            "url": "https://www.aljazeera.com/news/2026/3/21/us-jury-finds-elon-musk-misled-investors-during-twitter-purchase?traffic_source=rss",
+            "published": "2026-03-21T11:18:31+00:00",
+            "summary": "Jury finds that two tweets posted in May 2022 by Musk contained false statements."
+          },
+          {
+            "title": "Elon Musk misled shareholders in effort to drive down Twitter stock price, jury finds",
             "source": "Africanews",
-            "url": "http://www.africanews.com/2026/03/20/south-africas-traditional-circumcision-claims-dozens-of-young-lives/",
-            "published": "2026-03-20T10:28:08+00:00",
-            "summary": "At least 48 boys and young men died during recent initiation ceremonies in South Africa, among them 22-year-old Lamkelo Mtyho, who had no known health issues when he entered a registered school—but never returned."
+            "url": "http://www.africanews.com/2026/03/21/elon-musk-misled-shareholders-in-effort-to-drive-down-twitter-stock-price-jury-finds/",
+            "published": "2026-03-21T10:56:21+00:00",
+            "summary": "A federal jury in California found Friday that tech titan Elon Musk misled Twitter shareholders in an effort to drive down the company's share price as he was poised to buy it in a $44 billion deal."
           }
-        ]
-      },
-      {
-        "id": "e624ac05bb20a966480f2fd52b6c1ba1",
-        "title": "Iran says it will allow Japanese ships to transit the Strait of Hormuz",
-        "url": "https://www.aljazeera.com/news/2026/3/21/iran-says-it-will-allow-japanese-ships-to-transit-the-strait-of-hormuz?traffic_source=rss",
-        "summary": "Japan sources 90 percent of its crude from Middle East and is heavily dependent on exports transiting the key waterway.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T08:21:20+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "156300738f3a773f80fa0da526bde1a8",
-        "title": "Trump hints at ‘winding down’ Iran war as US deploys more troops to region",
-        "url": "https://www.aljazeera.com/news/2026/3/21/trump-hints-at-winding-down-iran-war-as-us-deploys-more-troops-to-region?traffic_source=rss",
-        "summary": "Trump says he is not looking for a ceasefire with Iran as mixed messages from US president come amid an escalating war.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T08:01:15+00:00",
-        "date_verified": true,
+        ],
         "similar_to": [
           {
-            "title": "Middle East war live: Trump mulls 'winding down' Iran war as US sends thousands more marines",
+            "title": "'A bit of a mixed verdict': Musk misled Twitter shareholders, jury finds",
             "source": "France 24"
-          },
-          {
-            "title": "Iran war live: Trump says no ceasefire as Khamenei issues defiant message",
-            "source": "Al Jazeera"
-          },
-          {
-            "title": "Military movements indicate Trump is considering Iran ground operation",
-            "source": "Al Jazeera"
           }
         ]
       },
       {
-        "id": "131a29f49c5e1cb28e8a41cc2ece2488",
-        "title": "'A bit of a mixed verdict': Musk misled Twitter shareholders, jury finds",
-        "url": "https://www.france24.com/en/a-bit-of-a-mixed-verdict-musk-misled-twitter-shareholders-jury-finds",
-        "summary": "Tech multi-billionaire Elon Musk could be forced to pay billions of dollars in damages after a federal jury found that the world's richest man had misled Twitter shareholders while purchasing the social media platform. Musk was found to have posted false statements to drive down the company's share price. FRANCE 24 correspondent Wassim Cornet reports from Los Angeles.",
-        "source": "France 24",
+        "id": "40d659e49b7530e56d8f991acc2a36b5",
+        "title": "Iranian woman’s video of US-Israel attack ends as bomb hits",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/21/iranian-womans-video-of-us-israel-attack-ends-as-bomb-hits?traffic_source=rss",
+        "summary": "The fate is an Iranian woman caught in a US-Israeli bomb attack is unknown, after video emerged of her filming it.",
+        "source": "Al Jazeera",
         "language": "en",
         "category": "global",
-        "published": "2026-03-21T07:20:20+00:00",
+        "published": "2026-03-21T14:40:33+00:00",
         "date_verified": true
       },
       {
-        "id": "559255e81fab38f1e463034d3fbdd01e",
-        "title": "BTS return from military service - but does their album live up to the hype?",
-        "url": "https://www.bbc.com/news/articles/c070eg32dryo?at_medium=RSS&at_campaign=rss",
-        "summary": "The band's 10th album sees them return to the rebellious, rap-heavy sound of their early days.",
-        "source": "BBC News",
+        "id": "ac98a2255b22d187d2e3e547641a8ae0",
+        "title": "Unease in Japan after Trump cites Pearl Harbor to defend Iran war",
+        "url": "https://www.aljazeera.com/news/2026/3/21/unease-in-japan-after-trump-uses-pearl-harbor-to-defend-iran-war?traffic_source=rss",
+        "summary": "US president's reference to Japan's 1941 attack has shaken Japanese as PM Takaichi's silence gets mixed reaction.",
+        "source": "Al Jazeera",
         "language": "en",
         "category": "global",
-        "published": "2026-03-21T07:04:51+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "800c0ffd1611bd9d3ab9382f46c36215",
-        "title": "Streamlining the kill chain: how AI is changing modern warfare",
-        "url": "https://www.france24.com/en/middle-east/20260321-streamlining-the-kill-chain-how-ai-is-changing-modern-warfare-iran",
-        "summary": "The US-Israeli war with Iran has put AI use in defence systems in the spotlight like never before. AI's exact role in the military, its accuracy and possible repercussions are slowly beginning to emerge – but the extent of its use and role in the war so far still largely remain a mystery.",
-        "source": "France 24",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T06:10:19+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "669227692ed1b9660e064e20bef6150d",
-        "title": "Middle East war live: Trump mulls 'winding down' Iran war as US sends thousands more marines",
-        "url": "https://www.france24.com/en/middle-east/20260321-middle-east-war-live-trump-mulls-winding-down-iran-war-as-us-sends-thousands-more-marines",
-        "summary": "US President Donald Trump suggested Friday he was considering “winding down” military operations against Iran even as US media reported Washington was sending three more amphibious assault ships and roughly 2,500 additional marines to the region. Israel continued to hit Tehran and Beirut with air strikes overnight as the US-Israeli war against Iran stretched into its fourth week. Follow our liveblog for the latest updates.",
-        "source": "France 24",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T06:09:17+00:00",
+        "published": "2026-03-21T14:34:12+00:00",
         "date_verified": true,
         "similar_to": [
           {
@@ -995,98 +2851,305 @@
             "source": "Al Jazeera"
           },
           {
-            "title": "Iran war live: Trump says no ceasefire as Khamenei issues defiant message",
-            "source": "Al Jazeera"
-          },
-          {
             "title": "Military movements indicate Trump is considering Iran ground operation",
             "source": "Al Jazeera"
           }
         ]
       },
       {
-        "id": "b88791ebe0a979ceac576f9af47e80fc",
-        "title": "LIVE: Japan vs Australia – Women’s Asian Cup 2026 final",
-        "url": "https://www.aljazeera.com/sports/liveblog/2026/3/21/live-japan-vs-australia-womens-asian-cup-2026-final?traffic_source=rss",
-        "summary": "Follow our live build-up, with team news, before our text commentary stream of the Women's Asian Cup final.",
+        "id": "48508be603444bb4eb0378c2503905b5",
+        "title": "Washington sends conflicting signals as war rages on in the Middle East",
+        "url": "https://www.france24.com/en/washington-sends-conflictings-signales-as-war-rages-on-in-the-middle-east",
+        "summary": "As the Iran conflict enters its fourth week, strikes on nuclear sites and a reported attack on a US-UK base signal further escalation. With no clear exit in sight, fears are mounting of wider instability and humanitarian fallout. “The attack on Diego Garcia is an escalation… it’s a joint US-UK base, not just US territory – that in and of itself is definitely an escalation,” said Ali Vaez, Director of the Iran Project and senior adviser at the International Crisis Group.",
+        "source": "France 24",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T13:47:25+00:00",
+        "date_verified": true,
+        "related": [
+          {
+            "title": "€5 billion aimed at offsetting the economic impact of the Middle East conflict",
+            "source": "France 24",
+            "url": "https://www.france24.com/en/video/20260321-%E2%82%AC5-billion-aimed-at-offsetting-the-economic-impact-of-the-middle-east-conflict",
+            "published": "2026-03-21T10:50:49+00:00",
+            "summary": "Spanish Prime Minister Pedro Sanchez announced a five billion euro ($5.8 billion) package aimed at offsetting the economic impact of the Middle East conflict, including a \"drastic reduction\" in energy taxes."
+          }
+        ],
+        "similar_to": [
+          {
+            "title": "War in the Middle East: Jerusalem Old City targeted by Iranian projectile",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Lebanon's mental health crisis deepens",
+            "source": "France 24"
+          },
+          {
+            "title": "US to send more Marines to Middle East as Trump hints at wind-down",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Syria's government vows to avoid regional escalation",
+            "source": "France 24"
+          },
+          {
+            "title": "Middle East war live: Iran targets UK-US military base Diego Garcia, US and Israel strike Natanz nuclear site",
+            "source": "France 24"
+          }
+        ]
+      },
+      {
+        "id": "1014c8180155d1e49ca86f94b0294a10",
+        "title": "War in the Middle East: Jerusalem Old City targeted by Iranian projectile",
+        "url": "https://www.france24.com/en/war-in-the-middle-east-jerusalem-old-city-targeted-by-iranian-projectile",
+        "summary": "Israeli Defence Minister Israel Katz warned that the United States and Israel would intensify their strikes on Iran in the coming week starting Sunday.",
+        "source": "France 24",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T13:45:11+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Washington sends conflicting signals as war rages on in the Middle East",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Lebanon's mental health crisis deepens",
+            "source": "France 24"
+          },
+          {
+            "title": "US to send more Marines to Middle East as Trump hints at wind-down",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Syria's government vows to avoid regional escalation",
+            "source": "France 24"
+          },
+          {
+            "title": "Middle East war live: Iran targets UK-US military base Diego Garcia, US and Israel strike Natanz nuclear site",
+            "source": "France 24"
+          }
+        ]
+      },
+      {
+        "id": "9882a17c3cdeb0dfa0a0e5096e3fc30f",
+        "title": "Syrian Kurds return home to celebrate Nowruz for the first time since exile",
+        "url": "https://www.france24.com/en/syrian-kurds-return-home-to-celebrate-nowruz-for-the-first-time-since-exile",
+        "summary": "Nowruz, the Farsi-language word for “new year,” is an ancient Persian festival that is also celebrate by Kurds in Syria, Turkey and Iraq as well as Iran. It is characterized by colorful street festivals and torch-bearing processions winding their way into the mountains.",
+        "source": "France 24",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T13:42:21+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "7da0a9128e317bdb4023f3856b804e6c",
+        "title": "US judge strikes down Pentagon press limits as unconstitutional",
+        "url": "https://www.france24.com/en/americas/20260321-us-judge-strikes-down-pentagon-press-limits-as-unconstitutional",
+        "summary": "A US judge on Friday ruled that the Pentagon’s controversial media access policy violated constitutional protections, restoring journalists’ credentials after major outlets refused to comply. The decision marks a significant victory for press freedom, underscoring the public’s right to diverse reporting during wartime.",
+        "source": "France 24",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T13:41:26+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "US judge sides with New York Times against Pentagon journalism policies",
+            "source": "Al Jazeera"
+          }
+        ]
+      },
+      {
+        "id": "a44c82242e76a0090e2623440571ce62",
+        "title": "Why isn't there more international coverage of Israeli strikes in Lebanon?",
+        "url": "https://www.france24.com/en/tv-shows/scoop/20260321-why-isn-t-there-more-international-coverage-of-israeli-strikes-in-lebanon",
+        "summary": "Lebanon is the second front of the war in the Middle East. While there has been excellent reporting by domestic and foreign press, France 24's media show Scoop asks why hasn't there been more international coverage. Israeli strikes have killed more than one thousand people; displaced well over a million; and there is a growing list of potential violations of international humanitarian law. Our guest this week is Rania Khalek, a Lebanese-American journalist with BreakThrough News.",
+        "source": "France 24",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T13:35:59+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "aa36aa06d58c77464bb12a120e7a70e4",
+        "title": "War in the Middle East: Lebanon's mental health crisis deepens",
+        "url": "https://www.france24.com/en/war-in-the-middle-east-lebanon-s-mental-health-crisis-deepens",
+        "summary": "Lebanon has been mired in conflicts and crises for decades, the worst of which was the 15 year civil war that erupted in 1975 and which divided the country into warring sectarian fiefdoms.",
+        "source": "France 24",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T13:32:44+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Washington sends conflicting signals as war rages on in the Middle East",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Jerusalem Old City targeted by Iranian projectile",
+            "source": "France 24"
+          },
+          {
+            "title": "US to send more Marines to Middle East as Trump hints at wind-down",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Syria's government vows to avoid regional escalation",
+            "source": "France 24"
+          },
+          {
+            "title": "Middle East war live: Iran targets UK-US military base Diego Garcia, US and Israel strike Natanz nuclear site",
+            "source": "France 24"
+          }
+        ]
+      },
+      {
+        "id": "821ff25183c13a1ff96f52e2213238cb",
+        "title": "First photos as BTS make live return in front of huge crowd",
+        "url": "https://www.bbc.com/news/articles/cge0dyjwezgo?at_medium=RSS&at_campaign=rss",
+        "summary": "RM, Jin, Suga, J-Hope, Jimin, V and Jung Kook perform together for the first time since October 2022.",
+        "source": "BBC News",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T13:24:34+00:00",
+        "date_verified": true
+      },
+      {
+        "id": "86dfb1a609608ddd9b403f10f06009d8",
+        "title": "Japan beat Australia to lift Women’s Asian Cup title",
+        "url": "https://www.aljazeera.com/sports/2026/3/21/japan-beat-australia-to-lift-womens-asian-cup-title?traffic_source=rss",
+        "summary": "Japan edges tournament hosts Australia 1-0 in ⁠the Women's ⁠Asian Cup final to claim third title in four editions.",
         "source": "Al Jazeera",
         "language": "en",
         "category": "global",
-        "published": "2026-03-21T06:01:04+00:00",
-        "date_verified": true
+        "published": "2026-03-21T11:57:41+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "Japan 1-0 Australia: Women’s Asian Cup 2026 final – as it happened",
+            "source": "Al Jazeera"
+          }
+        ]
+      },
+      {
+        "id": "4f7577e0fc66ccdc1ef4d4271b8a8508",
+        "title": "Iran says US and Israel attacked Natanz nuclear facility",
+        "url": "https://www.aljazeera.com/news/2026/3/21/iran-says-us-and-israel-attacked-natanz-nuclear-facility?traffic_source=rss",
+        "summary": "No leakage of radioactive materials reported in the area in central Iran, Tehran's atomic energy organisation says.",
+        "source": "Al Jazeera",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T11:32:54+00:00",
+        "date_verified": true,
+        "similar_to": [
+          {
+            "title": "How Iran's Revolutionary Guards helped Hezbollah prepare for its latest war with Israel",
+            "source": "France 24"
+          },
+          {
+            "title": "Trump hints at ‘winding down’ Iran war as US deploys more troops to region",
+            "source": "Al Jazeera"
+          },
+          {
+            "title": "Middle East war live: Iran targets UK-US military base Diego Garcia, US and Israel strike Natanz nuclear site",
+            "source": "France 24"
+          },
+          {
+            "title": "Iran war live: US-Israel attack Natanz nuclear site; Diego Garcia targeted",
+            "source": "Al Jazeera"
+          }
+        ]
       },
       {
         "id": "bd2643b881fbf57c08426e30e31b06a8",
         "title": "Buffy the Vampire Slayer actor Nicholas Brendon dies aged 54",
         "url": "https://www.bbc.com/news/articles/ckg9wgj9y5no?at_medium=RSS&at_campaign=rss",
-        "summary": "Brendon died of \"natural cases\", his family said in a statement, remembering him as \"passionate\" and \"sensitive\".",
+        "summary": "Brendon died of \"natural causes\", his family said in a statement, remembering him as \"passionate\" and \"sensitive\".",
         "source": "BBC News",
         "language": "en",
         "category": "global",
-        "published": "2026-03-21T04:42:46+00:00",
+        "published": "2026-03-21T11:26:16+00:00",
         "date_verified": true
       },
       {
-        "id": "e69438ecd4d3db77bc96d9cce6e3c77f",
-        "title": "300 million people celebrate Nowruz under a cloud of war",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/21/300-million-people-celebrate-nowruz-under-a-cloud-of-war?traffic_source=rss",
-        "summary": "Millions of people have rung in the ancient Persian New Year, Nowruz, as war grips the Middle East.",
-        "source": "Al Jazeera",
+        "id": "94f3e5536bce3e1c2d4c2fa3066ffe4c",
+        "title": "US to send more Marines to Middle East as Trump hints at wind-down",
+        "url": "https://www.france24.com/en/us-to-send-more-marines-to-middle-east-as-trump-hints-at-wind-down",
+        "summary": "Three weeks into an escalating war in the Middle East, Iran threatened to expand its retaliatory attacks to include recreational and tourist sites worldwide, as the U.S. announced it was sending more warships and Marines to the region.",
+        "source": "France 24",
         "language": "en",
         "category": "global",
-        "published": "2026-03-21T03:58:08+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "36d49ceb81dac358b67ef482e09723d7",
-        "title": "Aid flotilla for Cuba sets sail from Mexico",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/21/aid-flotilla-for-cuba-sets-sail-from-mexico?traffic_source=rss",
-        "summary": "An aid flotilla from Mexico is sailing for Cuba as the country suffers under a tightening US fuel blockade.",
-        "source": "Al Jazeera",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T03:31:10+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "90cd230a67836a7d322f5e0a87f44bb5",
-        "title": "Russia's school propaganda was  highlighted by Oscar-winning film - but does it work?",
-        "url": "https://www.bbc.com/news/articles/c7vq5g64y98o?at_medium=RSS&at_campaign=rss",
-        "summary": "The messages are clear: the full-scale invasion is a defensive war and patriotism means unquestionable loyalty.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T01:05:03+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "1085c83ea8487df72b8029d6629b3b97",
-        "title": "Socialists battle to hold Paris in key mayoral elections across France",
-        "url": "https://www.bbc.com/news/articles/c87wgw27201o?at_medium=RSS&at_campaign=rss",
-        "summary": "Emmanuel Grégoire is facing a challenge from Rachida Dati on the right who is behind in the opinion polls.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T01:03:36+00:00",
-        "date_verified": true
-      },
-      {
-        "id": "80cdac62ee4023e2da56887bdb35a6f5",
-        "title": "Remember Chuck Norris memes but never watched his films? You're not alone",
-        "url": "https://www.bbc.com/news/articles/c62541e29z9o?at_medium=RSS&at_campaign=rss",
-        "summary": "Chuck Norris became an inadvertent source of humour for a viral online celebration of his movie tough-guy persona.",
-        "source": "BBC News",
-        "language": "en",
-        "category": "global",
-        "published": "2026-03-21T01:03:01+00:00",
+        "published": "2026-03-21T11:03:44+00:00",
         "date_verified": true,
         "similar_to": [
           {
-            "title": "Walker, Texas Ranger star and martial arts icon Chuck Norris dies at 86",
+            "title": "Washington sends conflicting signals as war rages on in the Middle East",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Jerusalem Old City targeted by Iranian projectile",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Lebanon's mental health crisis deepens",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Syria's government vows to avoid regional escalation",
+            "source": "France 24"
+          },
+          {
+            "title": "US deploys more troops to Mideast as Trump considers ‘winding down’ operations",
+            "source": "France 24"
+          },
+          {
+            "title": "Trump hints at ‘winding down’ Iran war as US deploys more troops to region",
             "source": "Al Jazeera"
           },
           {
-            "title": "Action film star Chuck Norris dies, aged 86",
+            "title": "Middle East war live: Iran targets UK-US military base Diego Garcia, US and Israel strike Natanz nuclear site",
+            "source": "France 24"
+          }
+        ]
+      },
+      {
+        "id": "36410233af875cce6193111de86ee9a4",
+        "title": "War in the Middle East: Syria's government vows to avoid regional escalation",
+        "url": "https://www.france24.com/en/war-in-the-middle-east-syria-s-governement-vows-to-avoid-regional-escalation",
+        "summary": "Syrian President Ahmed al- Sharaa said Friday he is working to keep his country away from conflict, against the backdrop of the Middle East war, stressing that his government is on good terms with all regional countries.",
+        "source": "France 24",
+        "language": "en",
+        "category": "global",
+        "published": "2026-03-21T10:59:29+00:00",
+        "date_verified": true,
+        "related": [
+          {
+            "title": "Middle East: Syria's governement vows to keep the country out of the war",
+            "source": "France 24",
+            "url": "https://www.france24.com/en/middle-east-syria-s-governement-vows-to-keep-the-country-out-of-the-war",
+            "published": "2026-03-21T10:54:46+00:00",
+            "summary": "Dana Alboz, our correspondent in Damacus, has more."
+          }
+        ],
+        "similar_to": [
+          {
+            "title": "Washington sends conflicting signals as war rages on in the Middle East",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Jerusalem Old City targeted by Iranian projectile",
+            "source": "France 24"
+          },
+          {
+            "title": "War in the Middle East: Lebanon's mental health crisis deepens",
+            "source": "France 24"
+          },
+          {
+            "title": "US to send more Marines to Middle East as Trump hints at wind-down",
+            "source": "France 24"
+          },
+          {
+            "title": "Middle East war live: Iran targets UK-US military base Diego Garcia, US and Israel strike Natanz nuclear site",
             "source": "France 24"
           }
         ]
@@ -1094,14 +3157,15 @@
     ]
   },
   "data_digest": {
-    "weather": "Weather news for Mauritius issued at 11h30 on Saturday 21 March 2026.General situation:Few clouds coming from the Eastern sector will influence the local weather at times.Forecast for the next 24 hours:Cloudy at times to the East and over the central plateau this afternoon with showers. Fair weather elsewhere.The maximum temperature will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 33 degrees Celsius over the coastal regions.Partly cloudy tonight and tomorrow morning with occasional showers over the central plateau.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Wind will blow from the Eastern sector at 15 km/h.Sea moderate beyond the reefs with waves of the order of 2 metres.High tides :14h31 and tomorrow 02h25.Low tides :20h42 and tomorrow 09h01.Sunset :18h20.Sunrise (tomorrow) :06h14.",
+    "weather": "Weather news for Mauritius issued at 16h30 on Saturday 21 March 2026.General situation:A light to moderate airstream is flowing over the region.Forecast for the next 24 hours:Fair weather tonight.After a few morning showers early in the morning over the highgrounds, the weather will be fair.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.The maximum temperature will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 33 degrees Celsius over the coastal regions.Wind will blow from East-southeast at about 15 km/h.Sea moderate beyond the reefs with waves of the order of 2 metres.High tides:Tomorrow 02h25 and 15h14.Low tides:20h42 and tomorrow 09h01.Sunset:18h20.Sunrise (tomorrow):06h14.Atmospheric pressure at 16h00:1014 hectopascals.",
     "semdex": "2226.88",
     "exchange": {
       "MUR/USD": "46.49",
       "MUR/EUR": "53.72"
     },
     "commodities": {
-      "BTC (Bitcoin)": "USD 70,624.81",
+      "Gold (XAU)": "USD 4,492.20",
+      "BTC (Bitcoin)": "USD 70,642.80",
       "Brent Crude": "USD 112.19/bbl"
     },
     "ceb_outages": [
