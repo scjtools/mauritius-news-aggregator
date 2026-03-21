@@ -19,7 +19,7 @@ HEADERS = {
 }
 MAX_AGE_HOURS = 24
 MAX_SUMMARY_CHARS = 500
-SCRAPE_SLEEP_SECONDS = 5
+SCRAPE_SLEEP_SECONDS = 2
 
 
 def load_sources(path="sources/sources.yaml"):
@@ -235,7 +235,8 @@ def scrape_homepage(source):
                 "date_verified": dt is not None,  # False = scrape time used, age unconfirmed
             })
 
-            if len(items) >= source.get("max_items", 20):
+            max_items = source.get("max_items")
+            if max_items and len(items) >= max_items:
                 break
 
         time.sleep(SCRAPE_SLEEP_SECONDS)
