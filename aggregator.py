@@ -19,7 +19,7 @@ HEADERS = {
 }
 MAX_AGE_HOURS = 24
 MAX_SUMMARY_CHARS = 500
-SCRAPE_SLEEP_SECONDS = 2
+SCRAPE_SLEEP_SECONDS = 5
 
 
 def load_sources(path="sources/sources.yaml"):
