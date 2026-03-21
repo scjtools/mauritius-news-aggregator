@@ -4,23 +4,12 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Sat, 21 Mar 2026 17:00:00 +0000</lastBuildDate>
-    <item>
-      <title>CEB power outage – Saint Hubert, Grandport on 24 March 2026</title>
-      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
-      <description>Saint Hubert (Grandport): 09:00 to 16:00. Areas affected: Saint Hubert Village et Mare Chicose</description>
-      <pubDate>2026-03-24T05:00:00+00:00</pubDate>
-      <guid>831083687f6d92ea54570478c6f2193b</guid>
-      <source>CEB Power Outages</source>
-      <category>utilities</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-    </item>
+    <lastBuildDate>Sat, 21 Mar 2026 17:32:24 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 21 March 2026</title>
       <link>https://www.oilpriceapi.com</link>
       <description>Brent Crude Oil: USD 112.19 per barrel</description>
-      <pubDate>2026-03-21T16:57:03.323184+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:40.043619+00:00</pubDate>
       <guid>4a8a521e6b90b410f40d7b54855f33da</guid>
       <source>Brent Crude Oil</source>
       <category>finance</category>
@@ -30,10 +19,21 @@
     <item>
       <title>Bitcoin price – 21 March 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 70,393.55</description>
-      <pubDate>2026-03-21T16:57:03.084081+00:00</pubDate>
+      <description>Bitcoin (BTC): USD 70,324.59</description>
+      <pubDate>2026-03-21T17:28:39.918867+00:00</pubDate>
       <guid>d222786b87244f674dee3331d0edf499</guid>
       <source>Bitcoin Price</source>
+      <category>finance</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
+      <title>Gold price – 21 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,492.20</description>
+      <pubDate>2026-03-21T17:28:39.522798+00:00</pubDate>
+      <guid>2543346d3cc901576d12d57c74fe1fb4</guid>
+      <source>Gold Price</source>
       <category>finance</category>
       <language>en</language>
       <date_verified>true</date_verified>
@@ -42,7 +42,7 @@
       <title>MUR exchange rates – 21 March 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
       <description>MUR/USD 46.49 | MUR/EUR 53.72</description>
-      <pubDate>2026-03-21T16:57:02.414211+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:39.074500+00:00</pubDate>
       <guid>c73b9f0364f917f1b64fbf34e58db76d</guid>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
@@ -53,7 +53,7 @@
       <title>Upcoming public holiday – Eid-Ul-Fitr</title>
       <link>https://govmu.org</link>
       <description>Today is Eid-Ul-Fitr</description>
-      <pubDate>2026-03-21T16:57:02.109474+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:38.770229+00:00</pubDate>
       <guid>75fc84183607b8f995ec34ceea9c768d</guid>
       <source>Mauritius Public Holidays</source>
       <category>government</category>
@@ -64,7 +64,7 @@
       <title>SEMDEX – 21 March 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2226.88</description>
-      <pubDate>2026-03-21T16:56:59.869323+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:36.672316+00:00</pubDate>
       <guid>e65714749ab5de2812f216ac71f8bf7d</guid>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
@@ -75,7 +75,7 @@
       <title>Mauritius weather bulletin – 21 March 2026</title>
       <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
       <description>Weather news for Mauritius issued at 16h30 on Saturday 21 March 2026.General situation:A light to moderate airstream is flowing over the region.Forecast for the next 24 hours:Fair weather tonight.After a few morning showers early in the morning over the highgrounds, the weather will be fair.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.The maximum temperature will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 33 degrees Celsius over the coastal regions.Wind will blow from East-southeast at about 15 km/h.Sea moderate beyond the reefs with waves of the order of 2 metres.High tides:Tomorrow 02h25 and 15h14.Low tides:20h42 and tomorrow 09h01.Sunset:18h20.Sunrise (tomorrow):06h14.Atmospheric pressure at 16h00:1014 hectopascals. Weather news for Mauritius issued at 16h30 on Saturday 21 March 2026.General situation:A light to moderate airstream is flowing over the region.Forecast for the next 24 hours:Fair weather tonight.After a few morning showers early in the morning over the highgrounds, the weather will be fair.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.The maximum temperature will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 33 degrees Celsius over the coastal regions.Wind will blow from East-southeast at about 15 km/h.Sea moderate beyond the reefs with waves of the order of 2 metres. High tides:Tomorrow 02h25 and 15h14.Low tides:20h42 and tomorrow 09h01. Atmospheric pressure at 16h00:1014 hectopascals. About Us|Publications|Procurement|Survey Links|FAQ|Feedback|Contact Us|Useful Links © CopyrightMauritius Meteorological Services.</description>
-      <pubDate>2026-03-21T16:56:55.211685+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:31.625325+00:00</pubDate>
       <guid>0e27f6a236af6d17fb6ce99163a4a058</guid>
       <source>Mauritius Met Services</source>
       <category>weather</category>
@@ -83,197 +83,10 @@
       <date_verified>true</date_verified>
     </item>
     <item>
-      <title>Africa’s top diamond producer Botswana shuts down U.S. base rumors at key air base</title>
-      <link>https://africa.businessinsider.com/local/lifestyle/africas-top-diamond-producer-botswana-shuts-down-us-base-rumors-at-key-air-base/gmslcxr</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.763183+00:00</pubDate>
-      <guid>62ad14d1bf35e0149fb2b15b99142a4d</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Africa’s biggest airline opens $50m terminal as it moves to handle travel surge</title>
-      <link>https://africa.businessinsider.com/local/markets/ethiopian-airlines-opens-dollar50m-terminal-to-handle-travel-surge/6wh7y50</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.762987+00:00</pubDate>
-      <guid>403a7c31fc8a6e0d4a5ed8df08ea8069</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Ibrahim Traore's govt begins computer recycling to boost digital inclusion in Burkina Faso</title>
-      <link>https://africa.businessinsider.com/local/markets/ibrahim-traores-govt-begins-computer-recycling-to-boost-digital-inclusion-in-burkina/nt8wnwm</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.762780+00:00</pubDate>
-      <guid>8a9befc53ab547a28954a5a75311421a</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Top 10 best airports in Africa for  2026 according to latest ranking</title>
-      <link>https://africa.businessinsider.com/local/markets/top-10-best-airports-in-africa-for-2026-according-to-latest-ranking/hs9vrw3</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.762451+00:00</pubDate>
-      <guid>c66658fb4065e939cc6916426454fa73</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>The rise of ETH gambling sites and Africa’s expanding digital economy</title>
-      <link>https://africa.businessinsider.com/local/lifestyle/the-rise-of-eth-gambling-sites-and-africas-expanding-digital-economy/l056ctt</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.761964+00:00</pubDate>
-      <guid>0b461f405a0cbca36ca9b47400ea94d0</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Counder Conference 2026 brings African legends, OpenAI and 500 global leaders to Cape Town</title>
-      <link>https://africa.businessinsider.com/local/careers/counder-conference-2026-brings-african-legends-openai-and-500-global-leaders-to-cape/qkbrk6d</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.761547+00:00</pubDate>
-      <guid>371da6e233e03dbd13be50bb49434673</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Is the US a realistic career option for African professionals in 2026?</title>
-      <link>https://africa.businessinsider.com/local/careers/is-the-us-a-realistic-career-option-for-african-professionals-in-2026/t5czf4v</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.761348+00:00</pubDate>
-      <guid>6a7678a3b5d8c0a0305d591008cfd479</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>5 Tech leaders reveal biggest opportunities for women in Africa’s tech sector</title>
-      <link>https://africa.businessinsider.com/local/careers/5-tech-leaders-reveal-biggest-opportunities-for-women-in-africas-tech-sector/wm99mgj</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.761064+00:00</pubDate>
-      <guid>e71c3eff92972518725f8db31c1f2fce</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Inside the lavish lifestyle of ex-Gambian president as probe links $362 million in public funds to jets, luxury cars and properties</title>
-      <link>https://africa.businessinsider.com/local/leaders/inside-the-lavish-lifestyle-of-ex-gambian-president-as-probe-links-dollar362-million/elc4bvw</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.760650+00:00</pubDate>
-      <guid>f924d54f78f8b3a2a0b867ae719be534</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>French billionaire Bolloré to stand trial on corruption charges regarding African port deals</title>
-      <link>https://africa.businessinsider.com/local/leaders/french-billionaire-bollore-to-stand-trial-on-corruption-charges-regarding-african/990jbns</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.760449+00:00</pubDate>
-      <guid>78f7f025bd5b4021fea228add6c1107b</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Africa’s largest university becomes first on the continent to own an Airport</title>
-      <link>https://africa.businessinsider.com/local/markets/africas-largest-university-becomes-first-on-the-continent-to-own-an-airport/lwkyxjz</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.759789+00:00</pubDate>
-      <guid>205854f043c2ade31173d38fad62e8f9</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Africa’s longest monorail line begins operations as Egypt opens 56.5km Cairo route</title>
-      <link>https://africa.businessinsider.com/local/lifestyle/africas-longest-monorail-line-begins-operations-as-egypt-opens-565km-cairo-route/n64xvkw</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.759473+00:00</pubDate>
-      <guid>5dfc07247f09d23c6f6fed04d6bacc2f</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Concerns raised about The Trans-Kalahari Railway’s future after Trump ‘Visa Bond’ decision</title>
-      <link>https://africa.businessinsider.com/local/markets/concerns-raised-about-the-trans-kalahari-railways-future-after-trump-visa-bond/z4810e7</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.759210+00:00</pubDate>
-      <guid>9d91b8133bda28ef600bbf73bde56930</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>After years of delays, Ghana enters global lithium race to help replace China in U.S. supply chains</title>
-      <link>https://africa.businessinsider.com/local/markets/after-years-of-delays-ghana-enters-global-lithium-race-to-help-replace-china-in-us/84x9h6v</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.758698+00:00</pubDate>
-      <guid>793c987e287df3bde1e9e6062dc56042</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>US-Africa secret $40 million deportation deal turns scandalous as migrants are stranded in Equatorial Guinea</title>
-      <link>https://africa.businessinsider.com/local/markets/us-africa-secret-dollar40-million-deportation-deal-turns-scandalous-as-migrants-are/x5jpk4q</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.758479+00:00</pubDate>
-      <guid>af95a1b7a4f68a248990d7e7bae3894d</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>U.S. MQ-9 Reaper drones now active in Nigeria as 200 troops provide military support</title>
-      <link>https://africa.businessinsider.com/local/lifestyle/us-mq-9-reaper-drones-now-active-in-nigeria-as-200-troops-provide-military-support/ntz1hks</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.758186+00:00</pubDate>
-      <guid>9d84983474b34d9984490fe8b5d34440</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
-      <title>Meet the founders who raised over $10 million from palm processing and the waste it leaves behind</title>
-      <link>https://africa.businessinsider.com/local/leaders/meet-the-founders-who-raised-over-dollar10-million-from-palm-processing-and-the-waste/415xvlr</link>
-      <description/>
-      <pubDate>2026-03-21T16:56:51.757747+00:00</pubDate>
-      <guid>4235084f6bbf838ac392b17e505ec80d</guid>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>false</date_verified>
-    </item>
-    <item>
       <title>Construction : du gaspillage à l’économie circulaire</title>
       <link>https://defimedia.info/construction-du-gaspillage-leconomie-circulaire</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.031487+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.661670+00:00</pubDate>
       <guid>f4dba5cb9e697f572897ef9dd30cdbe4</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -284,7 +97,7 @@
       <title>Guerre au Moyen-Orient : voici les derniers développements</title>
       <link>https://defimedia.info/guerre-au-moyen-orient-voici-les-derniers-developpements</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.029725+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.659875+00:00</pubDate>
       <guid>e0e349759f479753282316a80ddf4cd5</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -295,7 +108,7 @@
       <title>Rallye : un circuit automobile provisoire bientôt créé dans le parking du stade Anjalay Coopen</title>
       <link>https://defimedia.info/rallye-un-circuit-automobile-provisoire-bientot-cree-dans-le-parking-du-stade-anjalay-coopen</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.028320+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.658419+00:00</pubDate>
       <guid>5844a980a5fff13d086118bfe9894ebc</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -306,7 +119,7 @@
       <title>Guerre au Moyen-Orient : Maurice face au choc de sa dépendance alimentaire</title>
       <link>https://defimedia.info/guerre-au-moyen-orient-maurice-face-au-choc-de-sa-dependance-alimentaire</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.023602+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.653690+00:00</pubDate>
       <guid>77903d75aae417cad2a0ac2383945e07</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -317,7 +130,7 @@
       <title>Comité central du MMM ce samedi : Paul Bérenger devrait plaider pour un retour au calme</title>
       <link>https://defimedia.info/comite-central-du-mmm-ce-samedi-paul-berenger-devrait-plaider-pour-un-retour-au-calme</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.023159+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.653216+00:00</pubDate>
       <guid>0ac27451d382cbf0a62e6ded6cf74f87</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -328,7 +141,7 @@
       <title>Paul Bérenger : «J’ai recommandé au Comité central que nous restions au gouvernement»</title>
       <link>https://defimedia.info/paul-berenger-jai-recommande-au-comite-central-que-nous-restions-au-gouvernement</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.022776+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.652796+00:00</pubDate>
       <guid>a8652f9bc1729282f351cf48478a9a88</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -339,7 +152,7 @@
       <title>Tensions politiques : le monde des affaires en attente d’un apaisement et d’un vrai redémarrage</title>
       <link>https://defimedia.info/tensions-politiques-le-monde-des-affaires-en-attente-dun-apaisement-et-dun-vrai-redemarrage</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.022375+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.652366+00:00</pubDate>
       <guid>ca019a608e974c18b2137b71cb0f5092</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -350,7 +163,7 @@
       <title>Réforme électorale : le MSM déplore le manque de propositions concrètes du gouvernement</title>
       <link>https://defimedia.info/reforme-electorale-le-msm-deplore-le-manque-de-propositions-concretes-du-gouvernement</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.021952+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.651951+00:00</pubDate>
       <guid>20728d6c798139bf411791a9154f1488</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -361,7 +174,7 @@
       <title>Bérenger : «Apre le 12 mars mo pou ena boukou kitsoz pou dir ki mo pa pe kapav dir akoz mo dan gouvernman»</title>
       <link>https://defimedia.info/berenger-apre-le-12-mars-mo-pou-ena-boukou-kitsoz-pou-dir-ki-mo-pa-pe-kapav-dir-akoz-mo-dan</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.021553+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.651505+00:00</pubDate>
       <guid>18b10560ac8047ff19c43f40958c7649</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -372,7 +185,7 @@
       <title>« Keep trying » : Paul Bérenger reste évasif sur son éventuel départ du gouvernement</title>
       <link>https://defimedia.info/keep-trying-paul-berenger-reste-evasif-sur-son-eventuel-depart-du-gouvernement</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.021102+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.651039+00:00</pubDate>
       <guid>9379b03e9b0cdef623fd03db1b41d2fe</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -383,7 +196,7 @@
       <title>Bérenger : « Mo pou gete sipa mo pou demisyone dime mem antan ki VPM »</title>
       <link>https://defimedia.info/berenger-mo-pou-gete-sipa-mo-pou-demisyone-dime-mem-antan-ki-vpm</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.020671+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.650540+00:00</pubDate>
       <guid>2f3a14f067bd4eecf77af51950327aa6</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -394,7 +207,7 @@
       <title>Comité central du MMM : suivez notre fil rouge</title>
       <link>https://defimedia.info/comite-central-du-mmm-suivez-notre-fil-rouge</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.020146+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.650013+00:00</pubDate>
       <guid>6a1674aa6d560f28be068c995dc70215</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -405,7 +218,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun, 37 ans : Imteaze Peeroo : «Dokter inn ed nou pou met lekor dan loto»</title>
       <link>https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-37-ans-imteaze-peeroo-dokter-inn-ed-nou-pou-met-lekor-dan-loto</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.017578+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.647291+00:00</pubDate>
       <guid>51aba6648f11ac5f952e6d26ee4eb6cb</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -416,7 +229,7 @@
       <title>Agression mortelle à Goodlands : Jean Guillano Bundhoo reconduit en cellule policière jusqu’à mardi prochain</title>
       <link>https://defimedia.info/agression-mortelle-goodlands-jean-guillano-bundhoo-reconduit-en-cellule-policiere-jusqua-mardi</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.017179+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.646867+00:00</pubDate>
       <guid>1751ddbf2210ebf35bfd7bb277863419</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -427,7 +240,7 @@
       <title>Meurtre à Goodlands : l’agresseur d’Olivier Pierre Louis plaide la légitime défense</title>
       <link>https://defimedia.info/meurtre-goodlands-lagresseur-dolivier-pierre-louis-plaide-la-legitime-defense</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.016801+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.646436+00:00</pubDate>
       <guid>8db46deee45e123c680d30dc435d2b8f</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -438,7 +251,7 @@
       <title>Drame à la prison de Melrose : un détenu reconnaît avoir frappé Andy Selmour</title>
       <link>https://defimedia.info/drame-la-prison-de-melrose-un-detenu-reconnait-avoir-frappe-andy-selmour</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.016417+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.646019+00:00</pubDate>
       <guid>bbbbd72f7c9a856774090ee2604e5c2a</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -449,7 +262,7 @@
       <title>Accident mortel à Belle-Étoile, Trou-d’Eau-Douce : Allaghen Tamby, 75 ans, fauché par une voiture en revenant de la prière</title>
       <link>https://defimedia.info/accident-mortel-belle-etoile-trou-deau-douce-allaghen-tamby-75-ans-fauche-par-une-voiture-en</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.016024+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.645579+00:00</pubDate>
       <guid>514adb7c32e853033432e3589622616b</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -460,7 +273,7 @@
       <title>Violence domestique : trois femmes agressées</title>
       <link>https://defimedia.info/violence-domestique-trois-femmes-agressees</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.015645+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.645163+00:00</pubDate>
       <guid>30b81777fb512dcc245e636e13026328</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -471,7 +284,7 @@
       <title>Goodlands - Résidences Sainte-Claire : un dealer soulève la foule contre l’Adsu</title>
       <link>https://defimedia.info/goodlands-residences-sainte-claire-un-dealer-souleve-la-foule-contre-ladsu</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.015246+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.644745+00:00</pubDate>
       <guid>2b5ad41280b91ca351b62282e03b5057</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -482,7 +295,7 @@
       <title>Soupçons d’enrichissement illicite : un Curepipien arrêté par la FCC</title>
       <link>https://defimedia.info/soupcons-denrichissement-illicite-un-curepipien-arrete-par-la-fcc</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.014809+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.644241+00:00</pubDate>
       <guid>31ad64d6268a2ed090009db61ae8fa00</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -493,7 +306,7 @@
       <title>Lutte contre le trafic de drogue et le blanchiment d’argent : Rs 9,9 milliards de biens sous le coup des saisies en 2025</title>
       <link>https://defimedia.info/lutte-contre-le-trafic-de-drogue-et-le-blanchiment-dargent-rs-99-milliards-de-biens-sous-le-coup</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.011966+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.641226+00:00</pubDate>
       <guid>dd1a1239808f72888eeca7bfee871729</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -504,7 +317,7 @@
       <title>Air Mauritius : deux vols directs supplémentaires vers Paris-CDG</title>
       <link>https://defimedia.info/air-mauritius-deux-vols-directs-supplementaires-vers-paris-cdg</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.011584+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.640803+00:00</pubDate>
       <guid>f77c3839dfa7d0c8cca8ae37960f29a0</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -515,7 +328,7 @@
       <title>Rajesh Bhagwan : «Ce sont les militants qui légitimisent notre présence au GM»</title>
       <link>https://defimedia.info/rajesh-bhagwan-ce-sont-les-militants-qui-legitimisent-notre-presence-au-gm</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.011185+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.640371+00:00</pubDate>
       <guid>1eedf32cf3f90b03b54c295c18191033</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -526,7 +339,7 @@
       <title>Notation souveraine : Maurice met fin à son contrat avec S&amp;P Global Ratings</title>
       <link>https://defimedia.info/notation-souveraine-maurice-met-fin-son-contrat-avec-sp-global-ratings</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.010802+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.639956+00:00</pubDate>
       <guid>43346ea8a7f77ce8f3fd397dc70fd0fe</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -537,7 +350,7 @@
       <title>Eid-ul-Fitr : entre rituels sacrés et joie partagée</title>
       <link>https://defimedia.info/eid-ul-fitr-entre-rituels-sacres-et-joie-partagee</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.010414+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.639522+00:00</pubDate>
       <guid>76b17fbdf9a71f1bce117a2f2e4b5264</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -548,7 +361,7 @@
       <title>Vers un mini-remaniement</title>
       <link>https://defimedia.info/vers-un-mini-remaniement</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.010020+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.639112+00:00</pubDate>
       <guid>8a755d81e2f08a86cbb65ef27b05d168</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -559,7 +372,7 @@
       <title>Bérenger quitte le gouvernement : rupture stratégique ou fracture politique?</title>
       <link>https://defimedia.info/berenger-quitte-le-gouvernement-rupture-strategique-ou-fracture-politique</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.009641+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.638696+00:00</pubDate>
       <guid>3d2fc8826e63deb51c898ce1e22a7b4a</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -570,7 +383,7 @@
       <title>Amédée Darga : «Le plus triste, c’est la dégringolade du MMM au fil des années»</title>
       <link>https://defimedia.info/amedee-darga-le-plus-triste-cest-la-degringolade-du-mmm-au-fil-des-annees</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.009237+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.638266+00:00</pubDate>
       <guid>0f6948f3a051d6bc6335e541aa01da48</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -581,7 +394,7 @@
       <title>Ce que Paul Bérenger reproche au gouvernement</title>
       <link>https://defimedia.info/ce-que-paul-berenger-reproche-au-gouvernement</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.008857+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.637843+00:00</pubDate>
       <guid>952b2a3be7ccdb143c95c7651e580e23</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -592,7 +405,7 @@
       <title>À Rose-Hill : «Nu blese, me san Paul pena MMM, pena MMM si san Paul», confie un militant de longue date</title>
       <link>https://defimedia.info/rose-hill-nu-blese-me-san-paul-pena-mmm-pena-mmm-si-san-paul-confie-un-militant-de-longue-date</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.008471+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.637407+00:00</pubDate>
       <guid>17f79f0f6675fc3a4291068c0f194cda</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -603,7 +416,7 @@
       <title>Construction des logements sociaux Rs 515,2 M parties en fumée dans des contrats résiliés</title>
       <link>https://defimedia.info/construction-des-logements-sociaux-rs-5152-m-parties-en-fumee-dans-des-contrats-resilies</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.008071+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.636989+00:00</pubDate>
       <guid>ca9d352157481551ed930354ddbfcb2e</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -614,7 +427,7 @@
       <title>Ramgoolam « pas pressé » de nommer le remplaçant de Bérenger</title>
       <link>https://defimedia.info/ramgoolam-pas-presse-de-nommer-le-remplacant-de-berenger</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.007577+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.636441+00:00</pubDate>
       <guid>0e36bfe7c3242a85c6239de56939331e</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -625,7 +438,7 @@
       <title>Shakeel Mohamed : «Je suis sûr que, dans l’intérêt du pays, Bérenger se montrera constructif. Je lui souhaite bonne continuation»</title>
       <link>https://defimedia.info/shakeel-mohamed-je-suis-sur-que-dans-linteret-du-pays-berenger-se-montrera-constructif-je-lui</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.005215+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.633825+00:00</pubDate>
       <guid>ca7a02c8563d19ad5b919ffe9bcb2d68</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -636,7 +449,7 @@
       <title>Après un accident de la route en septembre 2025 : la victime, Bhovinash Ropon, 35 ans, lance un appel de solidarité</title>
       <link>https://defimedia.info/apres-un-accident-de-la-route-en-septembre-2025-la-victime-bhovinash-ropon-35-ans-lance-un-appel-de</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.004857+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.633417+00:00</pubDate>
       <guid>81cc24a8774f4312cc327c843b464550</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -647,7 +460,7 @@
       <title>Hajj : inscription en ligne dès l’an prochain pour les Mauriciens</title>
       <link>https://defimedia.info/hajj-inscription-en-ligne-des-lan-prochain-pour-les-mauriciens</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.004479+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.633001+00:00</pubDate>
       <guid>2d973b36c152817bded532461677984a</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -658,7 +471,7 @@
       <title>Le directeur de l’audit : «La bonne gouvernance est un pilier de la confiance du public»</title>
       <link>https://defimedia.info/le-directeur-de-laudit-la-bonne-gouvernance-est-un-pilier-de-la-confiance-du-public</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.004077+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.632562+00:00</pubDate>
       <guid>62aff33ae90ab6fe181823434fae0177</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -669,7 +482,7 @@
       <title>Judiciaire : projets au ralenti et engorgement des dossiers</title>
       <link>https://defimedia.info/judiciaire-projets-au-ralenti-et-engorgement-des-dossiers</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.003699+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.632145+00:00</pubDate>
       <guid>2e936332c4c5ada2bb068e7d6b019907</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -680,7 +493,7 @@
       <title>Budget 2024-2025 : Rs 2 milliards de fonds publics restées inutilisées</title>
       <link>https://defimedia.info/budget-2024-2025-rs-2-milliards-de-fonds-publics-restees-inutilisees</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.003301+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.631724+00:00</pubDate>
       <guid>5879592fb4b1edae4cb4f2f825567f0e</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -691,7 +504,7 @@
       <title>Déchets solides et entretien des plages : Rs 711 M investis et une efficacité absente</title>
       <link>https://defimedia.info/dechets-solides-et-entretien-des-plages-rs-711-m-investis-et-une-efficacite-absente</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.002715+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.631088+00:00</pubDate>
       <guid>67ffd6ce0959362a2b808421c6a3dad6</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -702,7 +515,7 @@
       <title>Institutions pénitentiaires - Prisonniers On Remand : Rs 444 millions par an</title>
       <link>https://defimedia.info/institutions-penitentiaires-prisonniers-remand-rs-444-millions-par</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.002318+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.630585+00:00</pubDate>
       <guid>25463b8a118f7eb0e4c78c2894513f1e</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -713,7 +526,7 @@
       <title>Démission de Paul Bérenger comme Premier ministre adjoint - Avinaash Munohur : «La situation actuelle ressemble beaucoup à celle de 1993»</title>
       <link>https://defimedia.info/demission-de-paul-berenger-comme-premier-ministre-adjoint-avinaash-munohur-la-situation-actuelle</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.001912+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.630164+00:00</pubDate>
       <guid>116890c7be5625ee409703c2e3e48411</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -724,7 +537,7 @@
       <title>Moody’s et la liste grise : le double danger que redoute Bérenger</title>
       <link>https://defimedia.info/moodys-et-la-liste-grise-le-double-danger-que-redoute-berenger</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.001518+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.629720+00:00</pubDate>
       <guid>73d18d044787e04456d8e1b9aa62701c</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -735,7 +548,7 @@
       <title>Shafick Osman, géopoliticien et observateur politique : «Un signe de la fin d'un cycle au MMM»</title>
       <link>https://defimedia.info/shafick-osman-geopoliticien-et-observateur-politique-un-signe-de-la-fin-dun-cycle-au-mmm</link>
       <description/>
-      <pubDate>2026-03-21T16:56:46.001050+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.629217+00:00</pubDate>
       <guid>87787d29fa56a72b63ea112b71b38f42</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -746,7 +559,7 @@
       <title>Olivier Pierre Louis, victime d’un règlement de compte mortel -Helena Valentin, sa compagne : «Li ti extra kontan pou gagn sa zanfan-la»</title>
       <link>https://defimedia.info/olivier-pierre-louis-victime-dun-reglement-de-compte-mortel-helena-valentin-sa-compagne-li-ti-extra</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.998797+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.626690+00:00</pubDate>
       <guid>57c3d58a9ac47f533cc820d05f8b3633</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -757,7 +570,7 @@
       <title>Le patron de la FCC ciblé : des balles attachées à la lettre de menaces</title>
       <link>https://defimedia.info/le-patron-de-la-fcc-cible-des-balles-attachees-la-lettre-de-menaces</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.998471+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.626312+00:00</pubDate>
       <guid>45d18234f96a6763d2177f4957e2855f</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -768,7 +581,7 @@
       <title>Mort d’Andy Selmour : un témoin évoque une affaire de drogue lors du Board of Inquiry</title>
       <link>https://defimedia.info/mort-dandy-selmour-un-temoin-evoque-une-affaire-de-drogue-lors-du-board-inquiry</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.998102+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.625938+00:00</pubDate>
       <guid>4af39a6e63e6bf628b71add55e388c2a</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -779,7 +592,7 @@
       <title>Iran : Diego Garcia visée, une capacité de frappe bien au-delà des estimations</title>
       <link>https://defimedia.info/iran-diego-garcia-visee-une-capacite-de-frappe-bien-au-dela-des-estimations</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.997780+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.625529+00:00</pubDate>
       <guid>3cd149d2defe207b8fb3cc2e0a9bd42c</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -790,7 +603,7 @@
       <title>Conférence sur la Gouvernance et le Leadership - Yoshinee Parasuraman : «Une organisation bien gouvernée est  une organisation qui inspire la confiance»</title>
       <link>https://defimedia.info/conference-sur-la-gouvernance-et-le-leadership-yoshinee-parasuraman-une-organisation-bien-gouvernee</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.997454+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.625170+00:00</pubDate>
       <guid>81c1acf50f2239851382f16de979f971</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -801,7 +614,7 @@
       <title>Meurtre de Yogeshwaree Bhunjun : une silhouette à l’arrière de la voiture du pharmacien Fadhil Dulloo trahit les suspects</title>
       <link>https://defimedia.info/meurtre-de-yogeshwaree-bhunjun-une-silhouette-larriere-de-la-voiture-du-pharmacien-fadhil-dulloo</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.997105+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.624803+00:00</pubDate>
       <guid>229f1d2942f250468968293a475e41f0</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -812,7 +625,7 @@
       <title>Conférence sur la Gouvernance et le Leadership - Novan Maharahaje : «La gouvernance est le socle de la crédibilité d’une entreprise»</title>
       <link>https://defimedia.info/conference-sur-la-gouvernance-et-le-leadership-novan-maharahaje-la-gouvernance-est-le-socle-de-la</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.996770+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.624412+00:00</pubDate>
       <guid>06ff4ae4d923c18a69cee0414336901a</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -823,7 +636,7 @@
       <title>Jossica et Jean Donuito Gai : l’amour plus fort que l’âge</title>
       <link>https://defimedia.info/jossica-et-jean-donuito-gai-lamour-plus-fort-que-lage</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.996442+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.624043+00:00</pubDate>
       <guid>c92bb4ec1291549833149cc4b35c8c4b</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -834,7 +647,7 @@
       <title>Shaheen Abdul Carrim, AML/CFT : «La gouvernance n’est plus seulement une obligation réglementaire, mais un levier de crédibilité et de performance»</title>
       <link>https://defimedia.info/shaheen-abdul-carrim-amlcft-la-gouvernance-nest-plus-seulement-une-obligation-reglementaire-mais-un</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.996089+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.623619+00:00</pubDate>
       <guid>3db177a7da98c1cb25f86567350e5e1a</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -845,7 +658,7 @@
       <title>À quelques mois du mariage, Trishan Kissondoyal emporté brutalement - Virginie Chrystel Felix : «Il devait être mon mari»</title>
       <link>https://defimedia.info/quelques-mois-du-mariage-trishan-kissondoyal-emporte-brutalement-virginie-chrystel-felix-il-devait</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.995760+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.623256+00:00</pubDate>
       <guid>20c61888fee465dd8eeb641fd5297687</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -856,7 +669,7 @@
       <title>Conférence sur la Gouvernance et le Leadership : la gouvernance au service de la performance des entreprises</title>
       <link>https://defimedia.info/conference-sur-la-gouvernance-et-le-leadership-au-dela-de-la-conformite-la-gouvernance-au-service</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.995418+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.622877+00:00</pubDate>
       <guid>f8e2fb24ea413fa0220e97397f53eb20</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -867,7 +680,7 @@
       <title>[Info Soirée] : « Mo pa prese pou nomm enn nouvo adzwin »</title>
       <link>https://defimedia.info/info-soiree-mo-pa-prese-pou-nomm-enn-nouvo-adzwin</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.994948+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.622348+00:00</pubDate>
       <guid>4c1d30138eea17f30195be3bd20dd262</guid>
       <source>Defimedia</source>
       <category>local</category>
@@ -878,12 +691,34 @@
       <title>L’Iran a ciblé la base de Diego Garcia avec des missiles balistiques</title>
       <link>https://defimedia.info/liran-cible-la-base-de-diego-garcia-avec-des-missiles-balistiques</link>
       <description/>
-      <pubDate>2026-03-21T16:56:45.992729+00:00</pubDate>
+      <pubDate>2026-03-21T17:28:21.619899+00:00</pubDate>
       <guid>baa9856697ad89462a963ce871d10f0f</guid>
       <source>Defimedia</source>
       <category>local</category>
       <language>fr</language>
       <date_verified>false</date_verified>
+    </item>
+    <item>
+      <title>Trump threatens to send ICE agents to airports amid TSA funding impasse</title>
+      <link>https://www.france24.com/en/americas/20260321-trump-threatens-to-send-ice-agents-to-airports-amid-tsa-funding-impasse</link>
+      <description>President Donald Trump on Saturday warned he may deploy ICE agents to US airports if Congress fails to fund airport security. The move comes as TSA staff face a second missed paycheck in a 36-day partial government shutdown, raising fears of travel disruption. Critics question ICE’s suitability for airport duties, given its focus on immigration enforcement.</description>
+      <pubDate>2026-03-21T17:13:21+00:00</pubDate>
+      <guid>d172ada2941ad7ead89c3ad2e02e634a</guid>
+      <source>France 24</source>
+      <category>global</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
+      <title>Trump threatens to deploy ICE to airports amid Homeland Security shutdown</title>
+      <link>https://www.aljazeera.com/news/2026/3/21/trump-threatens-to-deploy-ice-to-airports-amid-homeland-security-shutdown?traffic_source=rss</link>
+      <description>The US president called on immigration agents to place 'heavy emphasis' on the arrests of Somali immigrants.</description>
+      <pubDate>2026-03-21T16:57:54+00:00</pubDate>
+      <guid>735b2e395029183551dcf3ffd5149a2e</guid>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
     </item>
     <item>
       <title>AES calls for simultaneous mobilisation to condemn EU resolution on Niger's ex-president</title>
@@ -904,6 +739,17 @@
       <guid>b8b9a8a153b35359418e174bd9be416e</guid>
       <source>Al Jazeera</source>
       <category>global</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
+      <title>CEB power outage – Belvedere ( Lallmatie ), Flacq on 21 March 2026</title>
+      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
+      <description>Belvedere ( Lallmatie ) (Flacq): 20:20 to 22:30. Areas affected: Pont Bon Dieu,Belvedere,Bon Accueil Branch Rd,Part Brisee Verdiere</description>
+      <pubDate>2026-03-21T16:20:00+00:00</pubDate>
+      <guid>e3a6440db92a833afadbf9b9993a8812</guid>
+      <source>CEB Power Outages</source>
+      <category>utilities</category>
       <language>en</language>
       <date_verified>true</date_verified>
     </item>
@@ -1024,6 +870,17 @@
       <pubDate>2026-03-21T14:33:45+00:00</pubDate>
       <guid>bf8fafb4257acaaf1e716438b843715b</guid>
       <source>TechCabal</source>
+      <category>regional</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
+      <title>Meet the founders who raised over $10 million from palm processing and the waste it leaves behind</title>
+      <link>https://africa.businessinsider.com/local/leaders/meet-the-founders-who-raised-over-dollar10-million-from-palm-processing-and-the-waste/415xvlr</link>
+      <description>Releaf, founded in 2017 by Ikenna Nzewi and Uzo Ayogu, has evolved from an agricultural marketplace into a tech-driven processor focused on Nigerias palm oil industry</description>
+      <pubDate>2026-03-21T14:30:55+01:00</pubDate>
+      <guid>4235084f6bbf838ac392b17e505ec80d</guid>
+      <source>Business Insider Africa</source>
       <category>regional</category>
       <language>en</language>
       <date_verified>true</date_verified>
@@ -1164,6 +1021,17 @@ The post India Backs 500 MW Mauritius Gas Plant to Replace Aging Power Stations 
       <date_verified>true</date_verified>
     </item>
     <item>
+      <title>U.S. MQ-9 Reaper drones now active in Nigeria as 200 troops provide military support</title>
+      <link>https://africa.businessinsider.com/local/lifestyle/us-mq-9-reaper-drones-now-active-in-nigeria-as-200-troops-provide-military-support/ntz1hks</link>
+      <description>The United States has deployed multiple MQ-9 Reaper drones alongside 200 troops in Nigeria to support intelligence gathering and training for Nigerian forces combating Islamist militants across the north, U</description>
+      <pubDate>2026-03-21T13:03:24+01:00</pubDate>
+      <guid>9d84983474b34d9984490fe8b5d34440</guid>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
       <title>Vol MK059 : déroutement à Alger après un incident médical</title>
       <link>https://ionnews.mu/vol-mk059-deroutement-a-alger-apres-un-incident-medical/</link>
       <description>The post Vol MK059 : déroutement à Alger après un incident médical appeared first on IONNEWS.</description>
@@ -1175,11 +1043,11 @@ The post India Backs 500 MW Mauritius Gas Plant to Replace Aging Power Stations 
       <date_verified>true</date_verified>
     </item>
     <item>
-      <title>LOGEMENT â Chantier Ã  lâabandon â NSLD de Rose-Belle : urgence face Ã  lâinsÃ©curitÃ© patente</title>
+      <title>LOGEMENT — Chantier à l’abandon — NSLD de Rose-Belle : urgence face à l’insécurité patente</title>
       <link>https://www.lemauricien.com/actualites/societe/logement-chantier-a-labandon-nsld-de-rose-belle-urgence-face-a-linsecurite-patente/702318/</link>
       <description>Le MauricienÂ a Ã©voquÃ© rÃ©cemment lâÃ©tat dâabandon du chantier de laÂ New Social Living DevelopmentÂ (NSLD)Ltd Ã  Balisson, Rose-Belle. Des habitants du quartier rÃ©agissent Ã  lâargument que...</description>
       <pubDate>2026-03-21T12:00:00+00:00</pubDate>
-      <guid>beb9389ccb97ee66791c04cf83eb20f5</guid>
+      <guid>2ca4f2b200c5be2cdb60b93884ee675a</guid>
       <source>Le Mauricien</source>
       <category>local</category>
       <language>fr</language>
@@ -1395,6 +1263,17 @@ The post India Backs 500 MW Mauritius Gas Plant to Replace Aging Power Stations 
       <date_verified>true</date_verified>
     </item>
     <item>
+      <title>Concerns raised about The Trans-Kalahari Railway’s future after Trump ‘Visa Bond’ decision</title>
+      <link>https://africa.businessinsider.com/local/markets/concerns-raised-about-the-trans-kalahari-railways-future-after-trump-visa-bond/z4810e7</link>
+      <description/>
+      <pubDate>2026-03-21T10:31:39+01:00</pubDate>
+      <guid>9d91b8133bda28ef600bbf73bde56930</guid>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
       <title>How Iran's Revolutionary Guards helped Hezbollah prepare for its latest war with Israel</title>
       <link>https://www.france24.com/en/middle-east/20260321-how-iran-revolutionary-guards-helped-hezbollah-prepare-for-its-latest-war-with-israel</link>
       <description>With Lebanese Shiite group Hezbollah's military command reeling from Israel's brutal 2024 offensive that killed the group's leader Hassan Nasrallah, senior commanders and thousands of its militants, Iran's Revolutionary Guards stepped in to help get its ally back on its feet ahead of its latest clash with Israel, sources have said.</description>
@@ -1428,6 +1307,17 @@ The post India Backs 500 MW Mauritius Gas Plant to Replace Aging Power Stations 
       <date_verified>true</date_verified>
     </item>
     <item>
+      <title>Africa’s longest monorail line begins operations as Egypt opens 56.5km Cairo route</title>
+      <link>https://africa.businessinsider.com/local/lifestyle/africas-longest-monorail-line-begins-operations-as-egypt-opens-565km-cairo-route/n64xvkw</link>
+      <description>Egypt has officially launched the 56.5-kilometre East Nile monorail - Africa’s longest - marking a major milestone in the country’s push to modernise urban transport and expand green mobility infrastructure. | Business Insider Africa</description>
+      <pubDate>2026-03-21T10:16:13+01:00</pubDate>
+      <guid>5dfc07247f09d23c6f6fed04d6bacc2f</guid>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
       <title>US deploys more troops to Mideast as Trump considers ‘winding down’ operations</title>
       <link>https://www.france24.com/en/us-deploys-more-troops-to-mideast-as-trump-considers-winding-down-operations</link>
       <description>President Donald Trump said his administration was considering “winding down” military operations in the Middle East even as the United States announced it was sending more warships and Marines to the region and Iran threatened to attack tourist sites worldwide.</description>
@@ -1445,6 +1335,17 @@ The post India Backs 500 MW Mauritius Gas Plant to Replace Aging Power Stations 
       <pubDate>2026-03-21T10:12:46+00:00</pubDate>
       <guid>8e9b2fe5826d9f6d08b8967ad712d7eb</guid>
       <source>Africanews</source>
+      <category>regional</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
+      <title>After years of delays, Ghana enters global lithium race to help replace China in U.S. supply chains</title>
+      <link>https://africa.businessinsider.com/local/markets/after-years-of-delays-ghana-enters-global-lithium-race-to-help-replace-china-in-us/84x9h6v</link>
+      <description>Ghana has entered the global lithium market after Parliament approved a major mining lease, positioning the country as a potential supplier to U</description>
+      <pubDate>2026-03-21T09:59:07+01:00</pubDate>
+      <guid>793c987e287df3bde1e9e6062dc56042</guid>
+      <source>Business Insider Africa</source>
       <category>regional</category>
       <language>en</language>
       <date_verified>true</date_verified>
@@ -1468,6 +1369,17 @@ The post India Backs 500 MW Mauritius Gas Plant to Replace Aging Power Stations 
       <guid>96179f708b0dd514237ebd8108d02cfc</guid>
       <source>France 24</source>
       <category>global</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
+      <title>Africa’s largest university becomes first on the continent to own an Airport</title>
+      <link>https://africa.businessinsider.com/local/markets/africas-largest-university-becomes-first-on-the-continent-to-own-an-airport/lwkyxjz</link>
+      <description>The University of South Africa becomes the first in Africa to own an airport, boosting hands-on aviation training and strengthening its global innovation footprint</description>
+      <pubDate>2026-03-21T09:36:55+01:00</pubDate>
+      <guid>205854f043c2ade31173d38fad62e8f9</guid>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
       <language>en</language>
       <date_verified>true</date_verified>
     </item>
@@ -1517,6 +1429,17 @@ World Cup, PUMA unveiled jerseys for 11 nations, including the most prominent Af
       <date_verified>true</date_verified>
     </item>
     <item>
+      <title>US-Africa secret $40 million deportation deal turns scandalous as migrants are stranded in Equatorial Guinea</title>
+      <link>https://africa.businessinsider.com/local/markets/us-africa-secret-dollar40-million-deportation-deal-turns-scandalous-as-migrants-are/x5jpk4q</link>
+      <description>The US faces growing backlash over a covert deportation programme sending migrants to Equatorial Guinea and other African nations, raising legal, humanitarian, and diplomatic concerns</description>
+      <pubDate>2026-03-21T08:53:16+01:00</pubDate>
+      <guid>af95a1b7a4f68a248990d7e7bae3894d</guid>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+    </item>
+    <item>
       <title>Iran says it will allow Japanese ships to transit the Strait of Hormuz</title>
       <link>https://www.aljazeera.com/news/2026/3/21/iran-says-it-will-allow-japanese-ships-to-transit-the-strait-of-hormuz?traffic_source=rss</link>
       <description>Japan sources 90 percent of its crude from Middle East and is heavily dependent on exports transiting the key waterway.</description>
@@ -1539,11 +1462,11 @@ World Cup, PUMA unveiled jerseys for 11 nations, including the most prominent Af
       <date_verified>true</date_verified>
     </item>
     <item>
-      <title>Commission Lam Shang Leen | DÃ©cÃ¨s Ã  la prison de Melrose :Â  Un des dÃ©tenus ayant agressÃ©Â ...</title>
+      <title>Commission Lam Shang Leen | Décès à la prison de Melrose :  Un des détenus ayant agressé ...</title>
       <link>https://www.lemauricien.com/actualites/societe/commission-lam-shang-leen-deces-a-la-prison-de-melrose-un-des-detenus-ayant-agresse-andy-selmour-auditionne/702210/</link>
       <description>Un dÃ©tenu â qui avait Ã©tÃ© identifiÃ© comme Ã©tant parmi les agresseurs dâAndy Selmour le 9 dÃ©cembre dernier â a Ã©tÃ© auditionnÃ© par la Commission Lam Shang Leen mercredi 18 mars. InterrogÃ...</description>
       <pubDate>2026-03-21T08:00:58+04:00</pubDate>
-      <guid>f6d507875cd134d87b251103305c39dd</guid>
+      <guid>2379c2ff628e7197150537643ab237cd</guid>
       <source>Le Mauricien</source>
       <category>local</category>
       <language>fr</language>
@@ -1968,11 +1891,11 @@ World Cup, PUMA unveiled jerseys for 11 nations, including the most prominent Af
       <date_verified>true</date_verified>
     </item>
     <item>
-      <title>Ãducation – Initiative de lâUPSEE : Un projet de recherche sur le bien-Ãªtre du personnel Ã©ducatif</title>
+      <title>Éducation – Initiative de l’UPSEE : Un projet de recherche sur le bien-être du personnel éducatif</title>
       <link>https://www.lemauricien.com/actualites/societe/education-initiative-de-lupsee-un-projet-de-recherche-sur-le-bien-etre-du-personnel-educatif/702218/</link>
       <description>LâUnion of Private Secondary Education Employees (UPSEE), en collaboration avec le ministÃ¨re de lâÃducation et la Swedish International Development Capacity Academy a lancÃ© un projet ...</description>
       <pubDate>2026-03-21T08:00:00+00:00</pubDate>
-      <guid>19e57494a26f7a0b89d26506502de4d9</guid>
+      <guid>ff2cc527cf8f186c28f844490c309282</guid>
       <source>Le Mauricien</source>
       <category>local</category>
       <language>fr</language>
@@ -2001,17 +1924,6 @@ World Cup, PUMA unveiled jerseys for 11 nations, including the most prominent Af
       <date_verified>true</date_verified>
     </item>
     <item>
-      <title>'A bit of a mixed verdict': Musk misled Twitter shareholders, jury finds</title>
-      <link>https://www.france24.com/en/a-bit-of-a-mixed-verdict-musk-misled-twitter-shareholders-jury-finds</link>
-      <description>Tech multi-billionaire Elon Musk could be forced to pay billions of dollars in damages after a federal jury found that the world's richest man had misled Twitter shareholders while purchasing the social media platform. Musk was found to have posted false statements to drive down the company's share price. FRANCE 24 correspondent Wassim Cornet reports from Los Angeles.</description>
-      <pubDate>2026-03-21T07:20:20+00:00</pubDate>
-      <guid>131a29f49c5e1cb28e8a41cc2ece2488</guid>
-      <source>France 24</source>
-      <category>global</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-    </item>
-    <item>
       <title>« Made in Moris en Fête » prévu à Bagatelle le 28 mars prochain</title>
       <link>https://ionnews.mu/made-in-moris-en-fete-prevu-a-bagatelle-le-28-mars-prochain/</link>
       <description>La première édition de « Made in Moris en Fête » se tiendra le samedi 28 mars au Bagatelle Mall. L’événement réunira plus de 40 marques locales, présentes dans les boutiques, le supermarché et les allées du centre commercial. Cette initiative vise à mettre en avant les produits labellisés Made in Moris et à encourager la consommation locale, en rapprochant les entreprises mauriciennes du public. Parmi les participants figurent notamment MCB Juice, Esko, Weshade, Miko, Blédor, Dina ainsi que la C</description>
@@ -2023,11 +1935,11 @@ World Cup, PUMA unveiled jerseys for 11 nations, including the most prominent Af
       <date_verified>true</date_verified>
     </item>
     <item>
-      <title>16 Human IncineratorsÂ hors service</title>
+      <title>16 Human Incinerators hors service</title>
       <link>https://www.lemauricien.com/actualites/societe/16-human-incinerators-hors-service/702316/</link>
       <description>Les incinÃ©rateurs ont Ã©tÃ© achetÃ©s auprÃ¨s dâun fournisseur indienÂ dans le cadre dâune ligne de crÃ©dit du gouvernement indienÂ pour un coÃ»t de 2,3 millions USD (Rs 102 millions). Le projet a...</description>
       <pubDate>2026-03-21T07:00:00+00:00</pubDate>
-      <guid>63090cd26fc51af9c8a6d6e7b6b2c1cd</guid>
+      <guid>ffca056d6b01d0f2941a24a0cb11edf6</guid>
       <source>Le Mauricien</source>
       <category>local</category>
       <language>fr</language>
@@ -2194,13 +2106,13 @@ The post PwC Mauritius Among 3 Subsidiaries Blacklisted by World Bank over Fraud
       <date_verified>true</date_verified>
     </item>
     <item>
-      <title>La mÃ©tÃ©o de ce samedi 21 Mars</title>
+      <title>La météo de ce samedi 21 Mars</title>
       <link>https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-samedi-21-mars/702221/</link>
       <description>Ciel parfois nuageux ce matin avec des averses principalement sur la partie est de l'Ã®le et sur le plateau central.
 
 La tempÃ©rature minimale sera entre 20 et 22 degrÃ©s Celsius sur le plateau cent...</description>
       <pubDate>2026-03-21T01:30:00+00:00</pubDate>
-      <guid>5c2b97dcfa88741f52c6b78b53b75fac</guid>
+      <guid>e2442285547d476bbdee187965eff2f5</guid>
       <source>Le Mauricien</source>
       <category>local</category>
       <language>fr</language>
@@ -2306,17 +2218,6 @@ La tempÃ©rature minimale sera entre 20 et 22 degrÃ©s Celsius sur le plateau 
       <date_verified>true</date_verified>
     </item>
     <item>
-      <title>Pezeshkian says Iran not seeking war with Muslim neighbours</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/20/pezeshkian-says-iran-not-seeking-war-with-muslim-neighbours?traffic_source=rss</link>
-      <description>Iran’s President Masoud Pezeshkian says his country is not seeking war with its neighbours.</description>
-      <pubDate>2026-03-20T22:58:31+00:00</pubDate>
-      <guid>3bf03708003ed1cf62e9ebfbfb5f73e4</guid>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-    </item>
-    <item>
       <title>As Islamophobia rises, Australia's Muslims celebrate Eid</title>
       <link>https://www.bbc.com/news/articles/cr410ezy312o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Recent events abroad and at home have fuelled an ongoing surge of Islamophobia in Australia.</description>
@@ -2377,17 +2278,6 @@ La tempÃ©rature minimale sera entre 20 et 22 degrÃ©s Celsius sur le plateau 
       <description>Liverpool defender Ibrahima Konate was the target of “vile and abhorrent” racist abuse online, the Premier League club said Friday.</description>
       <pubDate>2026-03-20T17:41:29+00:00</pubDate>
       <guid>85b3d14c789fcb9a31fa46b468eefb85</guid>
-      <source>Africanews</source>
-      <category>regional</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-    </item>
-    <item>
-      <title>Rescued cheetahs find refuge in Somaliland amid trafficking crisis</title>
-      <link>http://www.africanews.com/2026/03/20/rescued-cheetahs-find-refuge-in-somaliland-amid-trafficking-crisis/</link>
-      <description>Inside a guarded sanctuary on the savannah, 127 rescued cheetahs pace, stretch and play — survivors of a brutal illegal trade that is pushing the species toward the brink.</description>
-      <pubDate>2026-03-20T17:14:09+00:00</pubDate>
-      <guid>73e975c3b33e94aac56f5a6636d9950e</guid>
       <source>Africanews</source>
       <category>regional</category>
       <language>en</language>
