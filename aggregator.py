@@ -1236,6 +1236,8 @@ def load_injected_items(path="inject.yaml"):
             url = (entry.get("url") or "").strip()
             title = (entry.get("title") or "").strip()
             description = (entry.get("description") or "").strip()
+            category = (entry.get("category") or "global").strip()
+            language = (entry.get("language") or "en").strip()
             if not url:
                 continue
             # If title missing, try to fetch it
@@ -1253,8 +1255,8 @@ def load_injected_items(path="inject.yaml"):
                 "url":           url,
                 "summary":       description,
                 "source":        "Injected",
-                "language":      "en",
-                "category":      "local",
+                "language":      language,
+                "category":      category,
                 "published":     now.isoformat(),
                 "date_verified": True,
             })
