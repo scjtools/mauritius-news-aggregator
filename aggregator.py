@@ -10,6 +10,7 @@ from datetime import datetime, timezone, timedelta, date
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
+import os
 import warnings
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
@@ -1208,6 +1209,123 @@ def enrich_articles(items: list) -> list:
     print(f"  Total stale dropped: {total_dropped}")
     return items
 
+
+# ── Manual inject reader ──────────────────────────────────────────────────────
+
+def load_injected_items(path="inject.yaml"):
+    """
+    Reads inject.yaml, returns items as feed-ready dicts, then clears the file.
+    Format:
+      items:
+        - url: "https://..."
+          title: "Article title"
+          description: "Optional description"
+    """
+    if not os.path.exists(path):
+        return []
+    try:
+        with open(path) as f:
+            data = yaml.safe_load(f) or {}
+        raw = data.get("items", []) or []
+        if not raw:
+            return []
+
+        items = []
+        now = datetime.now(timezone.utc)
+        for entry in raw:
+            url = (entry.get("url") or "").strip()
+            title = (entry.get("title") or "").strip()
+            description = (entry.get("description") or "").strip()
+            if not url:
+                continue
+            # If title missing, try to fetch it
+            if not title:
+                try:
+                    meta = _fetch_article_meta(url)
+                    title = meta.get("title") or url
+                    if not description:
+                        description = meta.get("summary") or ""
+                except Exception:
+                    title = url
+            items.append({
+                "id":            item_id(title, url),
+                "title":         title,
+                "url":           url,
+                "summary":       description,
+                "source":        "Injected",
+                "language":      "en",
+                "category":      "local",
+                "published":     now.isoformat(),
+                "date_verified": True,
+            })
+
+        # Clear the file after reading
+        with open(path, "w") as f:
+            f.write("items: []\n")
+
+        return items
+    except Exception as e:
+        print(f"[INJECT ERROR] {e}")
+        return []
+
+
+# ── Manual inject reader ──────────────────────────────────────────────
+
+def load_injected_items(path='inject.yaml'):
+    """
+    Reads inject.yaml, returns items as feed-ready dicts, then clears the file.
+    Format:
+      items:
+        - url: "https://..."
+          title: "Article title"
+          description: "Optional description"
+    """
+    if not os.path.exists(path):
+        return []
+    try:
+        with open(path) as f:
+            data = yaml.safe_load(f) or {}
+        raw = data.get('items', []) or []
+        if not raw:
+            return []
+
+        items = []
+        now = datetime.now(timezone.utc)
+        for entry in raw:
+            url = (entry.get('url') or '').strip()
+            title = (entry.get('title') or '').strip()
+            description = (entry.get('description') or '').strip()
+            if not url:
+                continue
+            if not title:
+                try:
+                    meta = _fetch_article_meta(url)
+                    title = meta.get('title') or url
+                    if not description:
+                        description = meta.get('summary') or ''
+                except Exception:
+                    title = url
+            items.append({
+                'id':            item_id(title, url),
+                'title':         title,
+                'url':           url,
+                'summary':       description,
+                'source':        'Injected',
+                'language':      'en',
+                'category':      'local',
+                'published':     now.isoformat(),
+                'date_verified': True,
+            })
+
+        # Clear the file after reading
+        with open(path, 'w') as f:
+            f.write('items: []\n')
+
+        return items
+    except Exception as e:
+        print(f'[INJECT ERROR] {e}')
+        return []
+
 def main():
     sources = load_sources()
     all_items = []
@@ -1318,6 +1436,18 @@ def main():
     except Exception as e:
         print(f"[CACHE WRITE ERROR] {e}")
     # ── End market cache ───────────────────────────────────────────────────────
+
+    # ── Manual injections ────────────────────────────────────────────────────
+    injected = load_injected_items()
+    if injected:
+        print(f"  Injected items: {len(injected)}")
+        all_items.extend(injected)
+
+    # ── Manual injections ──────────────────────────────────────────────────
+    injected = load_injected_items()
+    if injected:
+        print(f'  Injected items: {len(injected)}')
+        all_items.extend(injected)
 
     all_items = deduplicate(all_items)
     print(f"\nTotal unique items: {len(all_items)}")
