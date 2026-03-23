@@ -1154,7 +1154,7 @@ def main():
         logger.info(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
-   logger.info("Scraping web pages...")
+    logger.info("Scraping web pages...")
     for source in sources.get("scrapers", []):
         scrape_type = source.get("type")
         if scrape_type == "bulletin":
