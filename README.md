@@ -1,6 +1,6 @@
 # Mauritius News Aggregator
 
-Automated daily feed aggregating local, regional, and global news relevant to Mauritius. Outputs a structured RSS feed (`feed.xml`).
+Automated daily feed aggregating local, regional, and global news relevant to Mauritius. Outputs a structured (basic deduplication and clustering) RSS feed (`feed.xml`).
 
 ## What it does
 
