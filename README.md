@@ -1,8 +1,6 @@
 # MNA v1.1
 
-Automated daily feed aggregating local, regional, and global news relevant to Mauritius. Outputs a structured (basic deduplication and clustering) RSS feed (`feed.xml`).
-
-## What it does
+Automated daily feed aggregating local, regional, and global news. Outputs a structured (basic deduplication and clustering) RSS feed (`feed.xml`).
 
 - Fetches from ~15 online sources
 - Enriches articles with verified publication dates and full descriptions
