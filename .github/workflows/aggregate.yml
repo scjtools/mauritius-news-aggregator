@@ -15,14 +15,14 @@ jobs:
           python-version: "3.12"
 
       - name: Cache pip
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: ~/.cache/pip
           key: pip-${{ hashFiles('requirements.txt') }}
           restore-keys: pip-
 
       - name: Cache HuggingFace model
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         id: hf-cache
         with:
           path: ~/.cache/huggingface
@@ -41,7 +41,7 @@ jobs:
           PYEOF
 
       - name: Restore market cache
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: market_cache.json
           key: market-cache-${{ runner.os }}
