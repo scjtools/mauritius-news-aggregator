@@ -1,6 +1,6 @@
-# MNA v1.1
+# Mauritius News Aggregator
 
-Automated daily feed aggregating local, regional, and global news. Outputs a structured (basic deduplication and clustering) RSS feed (`feed.xml`).
+A custom built automated daily feed aggregating local, regional, and global news solely for personal consumption. Outputs a structured RSS feed (`feed.xml`).
 
 - Fetches from ~15 online sources
 - Enriches articles with verified publication dates and full descriptions
@@ -8,18 +8,10 @@ Automated daily feed aggregating local, regional, and global news. Outputs a str
 - Clusters related stories from different sources into single feed items
 - Includes live market data, power outage alerts and weather bulletin
 
-## Output
-
-`feed.xml` — standard RSS with extended fields:
-- `<cluster_size>` — number of sources covering this story
-- `<all_sources>` — semicolon-separated source list for clustered items  
-- `<all_urls>` — all source URLs for clustered items
-- `<description>` — structured multi-source summary for clustered items, formatted for LLM ingestion
-
 ## Schedule
 
 Runs at 02:00 local time (22:00 UTC) via GitHub Actions (queue delays expected up to ~4 hours). Can be run manually.
 
-## Stack
+## Disclaimer, ToS etc.
 
-Python · feedparser · BeautifulSoup · sentence-transformers (all-MiniLM-L6-v2) · GitHub Actions
+This project is solely for personal use and is not used for any other purpose.
