@@ -1,6 +1,6 @@
 # Mauritius News Aggregator
 
-Automated daily feed aggregating local, regional, and global news relevant to Mauritius. Outputs a structured RSS feed (`feed.xml`) optimised for downstream LLM processing.
+Automated daily feed aggregating local, regional, and global news relevant to Mauritius. Outputs a structured RSS feed (`feed.xml`).
 
 ## What it does
 
@@ -21,7 +21,7 @@ Automated daily feed aggregating local, regional, and global news relevant to Ma
 
 ## Schedule
 
-Runs at 02:00 Mauritius time (22:00 UTC) via GitHub Actions.
+Runs at 02:00 Mauritius time (22:00 UTC) via GitHub Actions (queue delays expected up to ~4 hours). Can be run manually.
 
 ## Stack
 
