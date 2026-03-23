@@ -902,6 +902,278 @@ def fetch_oilprice_demo(source):
     return items
 
 
+# ── linfo.re scraper ──────────────────────────────────────────────────────────
+
+# French month names used by linfo.re date strings
+_LINFO_MONTHS = {
+    "janvier": 1, "février": 2, "mars": 3, "avril": 4,
+    "mai": 5, "juin": 6, "juillet": 7, "août": 8,
+    "septembre": 9, "octobre": 10, "novembre": 11, "décembre": 12,
+    # ASCII fallbacks
+    "fevrier": 2, "aout": 8,
+}
+
+
+def _parse_linfo_date(text: str):
+    """
+    Parse linfo.re date strings into UTC datetime.
+
+    Handles multiple observed formats:
+      - ISO datetime attribute on <time>: "2026-03-21T10:31:00+04:00"
+      - French long form: "21 mars 2026 à 10h31"
+      - French short form: "21 mars 2026"
+      - Relative strings like "Il y a 3 heures" are left to the caller
+        (they signal freshness but can't be converted precisely here).
+
+    Réunion Island is UTC+4, same as Mauritius (MUT/RET).
+    """
+    if not text:
+        return None
+
+    # ISO format (most reliable — from <time datetime="...">)
+    try:
+        from dateutil import parser as _dp
+        dt = _dp.parse(text)
+        if dt.tzinfo is None:
+            dt = dt.replace(tzinfo=timezone(timedelta(hours=4)))
+        return dt.astimezone(timezone.utc)
+    except Exception:
+        pass
+
+    # French long form: "21 mars 2026 à 10h31" or "21 mars 2026"
+    m = re.search(
+        r"(\d{1,2})\s+(\w+)\s+(\d{4})(?:\s+[àa]\s+(\d{1,2})h(\d{2}))?",
+        text, re.IGNORECASE
+    )
+    if m:
+        day = int(m.group(1))
+        mon = m.group(2).lower()
+        year = int(m.group(3))
+        hour = int(m.group(4)) if m.group(4) else 12
+        minute = int(m.group(5)) if m.group(5) else 0
+        month = _LINFO_MONTHS.get(mon) or _LINFO_MONTHS.get(mon[:4]) or _LINFO_MONTHS.get(mon[:3])
+        if month:
+            ret_tz = timezone(timedelta(hours=4))  # RET = UTC+4
+            dt = datetime(year, month, day, hour, minute, tzinfo=ret_tz)
+            return dt.astimezone(timezone.utc)
+
+    return None
+
+
+def scrape_linfo(source):
+    """
+    Scraper for linfo.re section pages (la-reunion, ocean-indien, monde, sports).
+
+    Structure targeted:
+      <div class="info-main-col">
+        <!-- one or more article cards, each containing: -->
+        <a href="/path/to/article">
+          <h2 (or h3)>Title text</h2>
+          <p class="...description...">Teaser text</p>
+          <time datetime="2026-03-21T10:31:00+04:00">21 mars 2026 à 10h31</time>
+          <!-- OR a span/div with a relative date like "Il y a 3 heures" -->
+        </a>
+      </div>
+
+    Fallback chain if the above structure doesn't match exactly:
+      1. Find <div class="info-main-col">, iterate <a href> children.
+      2. Within each link, extract heading, description paragraph, and <time>.
+      3. If no <time datetime>, try text content of any date-like element.
+      4. If relative ("Il y a"), mark date_verified=False (enrichment will fix).
+
+    The source dict carries:
+      - url: the section page URL
+      - category: pre-set per entry in sources.yaml
+      - language: "fr"
+    """
+    items = []
+    try:
+        headers = {
+            **HEADERS,
+            "Accept-Language": "fr-FR,fr;q=0.9,en;q=0.8",
+            "Referer": "https://www.linfo.re/",
+        }
+        r = requests.get(source["url"], headers=headers, timeout=15)
+        r.raise_for_status()
+        r.encoding = "utf-8"
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        # ── Locate the main content column ───────────────────────────────────
+        main_col = soup.find("div", class_="info-main-col")
+        if not main_col:
+            # Broader fallback: look for any container with matching class fragment
+            main_col = soup.find(
+                "div", class_=re.compile(r"info-main", re.I)
+            )
+        if not main_col:
+            print(f"[LINFO WARNING] Could not find info-main-col on {source['url']}")
+            # Last resort: treat entire page body as search space
+            main_col = soup
+
+        seen = set()
+
+        # ── Collect article cards ─────────────────────────────────────────────
+        # linfo.re renders each article as a block-level <a> or as an <article>/<div>
+        # wrapping an <a>. We try both patterns.
+
+        # Pattern A: direct <a href> links inside info-main-col
+        # Pattern B: article/div containers with a child <a>
+        card_containers = main_col.find_all(
+            ["article", "div"],
+            class_=re.compile(r"(article|post|news|item|card|story|entry|actu)", re.I)
+        )
+
+        # If no semantic containers found, fall back to direct <a> links
+        if not card_containers:
+            card_containers = main_col.find_all("a", href=True)
+            use_direct_links = True
+        else:
+            use_direct_links = False
+
+        def _process_card(tag, is_direct_link=False):
+            """Extract (title, url, summary, dt, date_verified) from a card element."""
+            if is_direct_link:
+                a_tag = tag
+                href = a_tag.get("href", "")
+                title_el = a_tag.find(["h1", "h2", "h3", "h4"])
+                title = title_el.get_text(" ", strip=True) if title_el else a_tag.get_text(" ", strip=True)
+            else:
+                a_tag = tag.find("a", href=True)
+                if not a_tag:
+                    return None
+                href = a_tag.get("href", "")
+                # Title: prefer heading inside the card, fall back to link text
+                title = ""
+                for h in tag.find_all(["h1", "h2", "h3", "h4"]):
+                    t = h.get_text(" ", strip=True)
+                    if len(t) >= 15:
+                        title = t
+                        break
+                if not title:
+                    title = a_tag.get_text(" ", strip=True)
+
+            # Validate title length
+            title = title.strip()
+            if len(title) < 15 or len(title) > 250:
+                return None
+
+            # Resolve URL
+            if href.startswith("http"):
+                url = href
+            elif href.startswith("/"):
+                url = f"https://www.linfo.re{href}"
+            else:
+                return None
+
+            # Domain guard: only keep linfo.re URLs
+            if "linfo.re" not in url:
+                return None
+
+            if url in seen:
+                return None
+
+            # Summary: look for a description paragraph within the card
+            summary = ""
+            search_root = tag if not is_direct_link else a_tag
+            # Try explicit description/teaser class first
+            for desc_el in search_root.find_all(
+                class_=re.compile(r"(description|teaser|excerpt|intro|chapo|lead|summary)", re.I)
+            ):
+                t = desc_el.get_text(" ", strip=True)
+                if len(t) > 30:
+                    summary = t[:MAX_SUMMARY_CHARS]
+                    break
+            # Fallback: first substantial <p> that isn't part of the date/meta
+            if not summary:
+                for p in search_root.find_all("p"):
+                    t = p.get_text(" ", strip=True)
+                    if len(t) > 40:
+                        summary = t[:MAX_SUMMARY_CHARS]
+                        break
+
+            # Date extraction
+            dt = None
+            date_verified = False
+
+            # 1. <time datetime="..."> — most reliable
+            time_el = search_root.find("time", attrs={"datetime": True})
+            if time_el:
+                dt = _parse_linfo_date(time_el["datetime"])
+                if dt:
+                    date_verified = True
+
+            # 2. Any element with a data-date / data-time attribute
+            if not dt:
+                for el in search_root.find_all(attrs={"data-date": True}):
+                    dt = _parse_linfo_date(el["data-date"])
+                    if dt:
+                        date_verified = True
+                        break
+
+            # 3. Text content of the <time> element (French format)
+            if not dt and time_el:
+                dt = _parse_linfo_date(time_el.get_text(strip=True))
+                if dt:
+                    date_verified = True
+
+            # 4. Scan the card text for a French date pattern
+            if not dt:
+                card_text = search_root.get_text(" ", strip=True)
+                # Check for relative strings ("Il y a N heures/minutes") — treat as recent
+                if re.search(r"il y a\s+\d+\s+(heure|minute|jour)", card_text, re.I):
+                    # Can't get exact time, but article is almost certainly within 24h
+                    dt = None
+                    date_verified = False
+                else:
+                    dt = _parse_linfo_date(card_text)
+                    if dt:
+                        date_verified = True
+
+            return {
+                "title": title,
+                "url": url,
+                "summary": summary,
+                "dt": dt,
+                "date_verified": date_verified,
+            }
+
+        for card in card_containers:
+            result = _process_card(card, is_direct_link=use_direct_links)
+            if result is None:
+                continue
+
+            url = result["url"]
+            dt = result["dt"]
+
+            if dt and not is_recent(dt):
+                continue
+
+            if url in seen:
+                continue
+            seen.add(url)
+
+            published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
+
+            items.append({
+                "id":            item_id(result["title"], url),
+                "title":         result["title"],
+                "url":           url,
+                "summary":       result["summary"],
+                "source":        source["name"],
+                "language":      source["language"],
+                "category":      source["category"],
+                "published":     published,
+                "date_verified": result["date_verified"],
+            })
+
+        time.sleep(SCRAPE_SLEEP_SECONDS)
+
+    except Exception as e:
+        print(f"[LINFO ERROR] {source['name']} ({source['url']}): {e}")
+
+    return items
+
+
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def _parse_defimedia_date(soup) -> str | None:
@@ -1060,6 +1332,10 @@ _ENRICH_EXTRA_HEADERS = {
     "Defimedia": {"Referer": "https://defimedia.info"},
     "Le Mauricien": {"Referer": "https://www.lemauricien.com"},
     "Business Insider Africa": {"Referer": "https://africa.businessinsider.com"},
+    "linfo.re – La Réunion": {"Referer": "https://www.linfo.re/", "Accept-Language": "fr-FR,fr;q=0.9"},
+    "linfo.re – Océan Indien": {"Referer": "https://www.linfo.re/", "Accept-Language": "fr-FR,fr;q=0.9"},
+    "linfo.re – Monde": {"Referer": "https://www.linfo.re/", "Accept-Language": "fr-FR,fr;q=0.9"},
+    "linfo.re – Sports": {"Referer": "https://www.linfo.re/", "Accept-Language": "fr-FR,fr;q=0.9"},
 }
 
 # One session per blocking source, initialised lazily during enrichment
@@ -1295,6 +1571,8 @@ def main():
             items = scrape_megamu(source)
         elif scrape_type == "lemauricien":
             items = scrape_lemauricien(source)
+        elif scrape_type == "linfo":
+            items = scrape_linfo(source)
         else:
             items = scrape_homepage(source)
         print(f"  {source['name']}: {len(items)} items")
