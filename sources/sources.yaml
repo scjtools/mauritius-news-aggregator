@@ -92,31 +92,6 @@ scrapers:
     language: "en"
     category: "regional"
 
-  - name: "linfo.re – La Réunion"
-    url: "https://www.linfo.re/la-reunion"
-    language: "fr"
-    category: "regional"
-    type: linfo
-
-  - name: "linfo.re – Océan Indien"
-    url: "https://www.linfo.re/ocean-indien"
-    language: "fr"
-    category: "regional"
-    type: linfo
-
-  # ── Global ──────────────────────────────────────────────────
-  - name: "linfo.re – Monde"
-    url: "https://www.linfo.re/monde"
-    language: "fr"
-    category: "global"
-    type: linfo
-
-  - name: "linfo.re – Sports"
-    url: "https://www.linfo.re/sports"
-    language: "fr"
-    category: "global"
-    type: linfo
-
   # ── Utilities & data ─────────────────────────────────────────
   - name: "Mauritius Met Services"
     url: "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
