@@ -1147,7 +1147,8 @@ def main():
             logging.StreamHandler(),
         ]
     )
-
+    sources = load_sources()
+    
     logger.info("Starting news aggregation - Fetching RSS feeds...")
     for source in sources.get("rss_feeds", []):
         items = fetch_rss(source)
