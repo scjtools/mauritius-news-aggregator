@@ -1,25 +1,44 @@
 name: Aggregate news feed
-
 on:
   schedule:
     - cron: "0 22 * * *"  # 02:00 Mauritius time (UTC+4)
   workflow_dispatch:        # allows manual trigger from GitHub UI
-
 permissions:
   contents: write
-
 jobs:
   aggregate:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
 
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: pip-${{ hashFiles('requirements.txt') }}
+          restore-keys: pip-
+
+      - name: Cache HuggingFace model
+        uses: actions/cache@v4
+        id: hf-cache
+        with:
+          path: ~/.cache/huggingface
+          key: hf-all-MiniLM-L6-v2-v1
+
       - name: Install dependencies
-        run: pip install feedparser requests pyyaml beautifulsoup4 lxml python-dateutil curl_cffi
+        run: pip install -r requirements.txt
+
+      - name: Warm up embedding model
+        if: steps.hf-cache.outputs.cache-hit != 'true'
+        run: |
+          python - <<'PYEOF'
+          from sentence_transformers import SentenceTransformer
+          SentenceTransformer("all-MiniLM-L6-v2").encode(["warmup"], normalize_embeddings=True)
+          print("Model downloaded and cached")
+          PYEOF
 
       - name: Run aggregator
         run: python aggregator.py
