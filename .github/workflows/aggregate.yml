@@ -48,5 +48,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add feed.xml market_cache.json inject.yaml
-          git diff --staged --quiet || git commit -m "Update feed $(date -u '+%Y-%m-%d %H:%M')"
+          git diff --staged --quiet || ITEM_COUNT=$(python3 -c "import xml.etree.ElementTree as ET; t=ET.parse('feed.xml'); print(len(t.findall('.//item')))")
+git commit -m "chore: feed ${ITEM_COUNT} items — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
