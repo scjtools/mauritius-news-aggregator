@@ -1,7 +1,7 @@
 name: Aggregate news feed
 on:
   schedule:
-    - cron: "0 22 * * *"  # 02:00 Mauritius time (UTC+4)
+    - cron: "0 22 * * *"  # 02:00 local time (UTC+4)
   workflow_dispatch:        # allows manual trigger from GitHub UI
 permissions:
   contents: write
