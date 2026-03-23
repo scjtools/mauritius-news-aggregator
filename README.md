@@ -2,11 +2,10 @@
 
 A custom built automated daily feed aggregating local, regional, and global news solely for personal consumption. Outputs a structured RSS feed (`feed.xml`).
 
-- Fetches from ~15 online sources
-- Enriches articles with verified publication dates and full descriptions
-- Deduplicates using URL canonicalisation, ID hashing, and semantic embedding similarity
-- Clusters related stories from different sources into single feed items
-- Includes live market data, power outage alerts and weather bulletin
+- Fetches headlines and descriptions (up to 800 characters) from ~15 online sources, automatically categorised (local, regional or global)
+- Allows manual injection of articles (headline/title, description, category)
+- Deduplicates and clusters (count included) related stories from different sources into single feed items
+- Includes live market data (MURUSD, MUREUR, Gold, Bitcoin), CEB power outage alerts and MET weather bulletin
 
 ## Schedule
 
