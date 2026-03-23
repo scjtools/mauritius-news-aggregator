@@ -40,6 +40,13 @@ jobs:
           print("Model downloaded and cached")
           PYEOF
 
+      - name: Restore market cache
+        uses: actions/cache@v4
+        with:
+          path: market_cache.json
+          key: market-cache-${{ runner.os }}
+          restore-keys: market-cache-
+
       - name: Run aggregator
         run: python aggregator.py
 
@@ -47,7 +54,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml market_cache.json inject.yaml
+          git add feed.xml inject.yaml
           ITEM_COUNT=$(python3 -c "import xml.etree.ElementTree as ET; t=ET.parse('feed.xml'); print(len(t.findall('.//item')))")
           git diff --staged --quiet || git commit -m "chore: feed ${ITEM_COUNT} items — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
