@@ -7,25 +7,22 @@ WHAT THIS MODULE DOES
    • Pass 1: canonical URL match (strips UTM params, /amp suffixes)
    • Pass 2: ID hash match (aggregator re-ingestion)
    • Pass 3: semantic cosine similarity on sentence embeddings (threshold 0.92)
-             catches same article with reworded headline across sources
 
 2. CLUSTERING — groups items that cover the same news event:
-   • Uses sentence embeddings + cosine similarity (threshold 0.72)
-   • Language-aware: fr and en items cluster separately (different reader segments)
-   • Each cluster is COLLAPSED into a single rich feed item containing all
-     source URLs, titles, and descriptions — cleaner input for downstream LLM
+   • Full dense matrix comparison (no word-bucket pre-filtering)
+   • Catches synonym-based rewrites: "jet hits vehicle" == "plane collides with truck"
+   • Language-aware: fr and en items cluster separately
+   • Each cluster collapsed into one feed item with all sources/titles/descriptions
 
 3. EMBEDDING MODEL
    • all-MiniLM-L6-v2 (80MB, MIT licence)
-   • Cached at ~/.cache/huggingface between runs via GitHub Actions cache key
-   • Falls back to hybrid title similarity if sentence-transformers unavailable
+   • Loaded once per process via module-level singleton
+   • Cached at ~/.cache/huggingface between GitHub Actions runs
+   • Falls back to hybrid title similarity if unavailable
 
 USAGE
 ─────
     from cluster import deduplicate_items, cluster_and_collapse, deduplicate_bulletin_text
-
-    items = deduplicate_items(items)
-    items = cluster_and_collapse(items)   # returns collapsed list; fewer items
 """
 
 from __future__ import annotations
@@ -40,18 +37,17 @@ log = logging.getLogger(__name__)
 
 # ── Model configuration ──────────────────────────────────────────────────────
 
-_MODEL_NAME = "all-MiniLM-L6-v2"   # 80 MB, fast, good multilingual coverage
-_DEDUP_THRESHOLD   = 0.92           # cosine sim above this → same article
-_CLUSTER_THRESHOLD = 0.72           # cosine sim above this → same event
+_MODEL_NAME        = "all-MiniLM-L6-v2"
+_DEDUP_THRESHOLD   = 0.92   # above this → same article, keep best source
+_CLUSTER_THRESHOLD = 0.72   # above this → same event, merge into cluster
 
-# ── Lazy model loader ────────────────────────────────────────────────────────
+# ── Singleton model loader ────────────────────────────────────────────────────
 
 _model = None
-_USE_EMBEDDINGS = None  # None = not yet tried; True/False after first attempt
+_USE_EMBEDDINGS = None   # None = not yet attempted
 
 
 def _get_model():
-    """Load the SentenceTransformer model once; cache in-process."""
     global _model, _USE_EMBEDDINGS
     if _USE_EMBEDDINGS is False:
         return None
@@ -61,44 +57,49 @@ def _get_model():
         from sentence_transformers import SentenceTransformer
         _model = SentenceTransformer(_MODEL_NAME)
         _USE_EMBEDDINGS = True
-        log.info(f"[cluster] Loaded embedding model: {_MODEL_NAME}")
+        log.info(f"[cluster] Loaded {_MODEL_NAME}")
         return _model
     except Exception as e:
-        log.warning(f"[cluster] sentence-transformers unavailable ({e}), using title similarity fallback")
+        log.warning(f"[cluster] sentence-transformers unavailable ({e}), using title similarity")
         _USE_EMBEDDINGS = False
         return None
 
 
-def _embed(texts: list[str]) -> "list | None":
-    """Encode texts to normalised embeddings. Returns None on failure."""
+def _embed(texts: list[str]):
+    """
+    Encode texts to L2-normalised embeddings (numpy array shape [n, d]).
+    Returns None if model unavailable.
+    """
     model = _get_model()
     if model is None:
         return None
     try:
+        import numpy as np
         vecs = model.encode(
             texts,
             batch_size=64,
             show_progress_bar=False,
-            normalize_embeddings=True,   # L2-normalise so dot product == cosine sim
+            normalize_embeddings=True,
         )
-        return vecs  # numpy array; indexable by [i]
+        return np.array(vecs, dtype=np.float32)
     except Exception as e:
-        log.warning(f"[cluster] Embedding encode failed: {e}")
+        log.warning(f"[cluster] Embedding failed: {e}")
         return None
 
 
-def _cosine(a, b) -> float:
-    """Dot product of two pre-normalised vectors (works for both list and numpy)."""
-    try:
-        return float((a * b).sum())          # numpy fast path
-    except Exception:
-        return sum(x * y for x, y in zip(a, b))   # pure-python fallback
+def _similarity_matrix(embeddings) -> "np.ndarray":
+    """
+    Full pairwise cosine similarity matrix via matrix multiply.
+    Embeddings must be L2-normalised (dot product == cosine sim).
+    Shape: [n, n], dtype float32.
+    """
+    import numpy as np
+    return embeddings @ embeddings.T
 
 
-# ── Text utilities ───────────────────────────────────────────────────────────
+# ── Text utilities ────────────────────────────────────────────────────────────
 
 def _normalise(text: str) -> str:
-    """Lowercase, strip accents, collapse whitespace, strip punctuation."""
     text = unicodedata.normalize("NFD", text)
     text = "".join(c for c in text if unicodedata.category(c) != "Mn")
     text = text.lower()
@@ -107,7 +108,6 @@ def _normalise(text: str) -> str:
 
 
 def _canonical_url(url: str) -> str:
-    """Strip query strings, fragments, /amp for URL-based dedup."""
     url = re.sub(r"[?#].*$", "", url)
     url = re.sub(r"/amp/?$", "", url)
     return url.rstrip("/").lower()
@@ -118,10 +118,7 @@ def _ngrams(tokens: list[str], n: int) -> set[str]:
 
 
 def _title_similarity(a: str, b: str) -> float:
-    """
-    Hybrid fallback similarity (bigram Jaccard + unigram containment).
-    Active only when sentence-transformers is unavailable.
-    """
+    """Hybrid bigram Jaccard + unigram containment. Fallback when no embeddings."""
     ta, tb = _normalise(a).split(), _normalise(b).split()
     if not ta or not tb:
         return 0.0
@@ -134,7 +131,7 @@ def _title_similarity(a: str, b: str) -> float:
     return 0.4 * bigram_j + 0.6 * containment
 
 
-# ── Source priority ──────────────────────────────────────────────────────────
+# ── Source priority ───────────────────────────────────────────────────────────
 
 _SOURCE_PRIORITY: dict[str, int] = {
     "Le Mauricien": 10,
@@ -158,7 +155,6 @@ def _priority(item: dict) -> int:
 
 
 def _best_item(candidates: list[dict]) -> dict:
-    """Pick the highest-quality item: source priority, then verified date, then summary length."""
     return max(candidates, key=lambda i: (
         _priority(i),
         int(i.get("date_verified", False)),
@@ -166,16 +162,18 @@ def _best_item(candidates: list[dict]) -> dict:
     ))
 
 
-# ── Union-Find helper ────────────────────────────────────────────────────────
+# ── Union-Find ────────────────────────────────────────────────────────────────
 
-def _make_uf(n: int):
+def _make_uf(n: int, items: list[dict]):
     parent = list(range(n))
+
     def find(x):
         while parent[x] != x:
             parent[x] = parent[parent[x]]
             x = parent[x]
         return x
-    def union(x, y, items):
+
+    def union(x, y):
         rx, ry = find(x), find(y)
         if rx == ry:
             return
@@ -183,23 +181,8 @@ def _make_uf(n: int):
             parent[ry] = rx
         else:
             parent[rx] = ry
+
     return parent, find, union
-
-
-def _candidate_pairs(items: list[dict], min_word_len: int = 5) -> set[tuple[int,int]]:
-    """Bucket items by shared significant words to generate candidate pairs."""
-    buckets: dict[str, list[int]] = defaultdict(list)
-    for idx, item in enumerate(items):
-        for word in _normalise(item.get("title", "")).split():
-            if len(word) >= min_word_len:
-                buckets[word].append(idx)
-    pairs: set[tuple[int,int]] = set()
-    for indices in buckets.values():
-        for i in range(len(indices)):
-            for j in range(i + 1, len(indices)):
-                a, b = indices[i], indices[j]
-                pairs.add((min(a,b), max(a,b)))
-    return pairs
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -208,19 +191,20 @@ def _candidate_pairs(items: list[dict], min_word_len: int = 5) -> set[tuple[int,
 
 def deduplicate_items(items: list[dict]) -> list[dict]:
     """
-    Three-pass deduplication. Surviving items are unchanged.
+    Three-pass deduplication.
 
     Pass 1 — canonical URL
     Pass 2 — ID hash
-    Pass 3 — semantic similarity (same article, reworded headline)
+    Pass 3 — semantic similarity (same article, reworded title)
+              Uses dense matrix comparison when embeddings available.
     """
-    # Pass 1
+    # Pass 1: canonical URL
     url_groups: dict[str, list[dict]] = defaultdict(list)
     for item in items:
         url_groups[_canonical_url(item.get("url", ""))].append(item)
     deduped = [_best_item(g) for g in url_groups.values()]
 
-    # Pass 2
+    # Pass 2: ID hash
     seen: dict[str, dict] = {}
     for item in deduped:
         iid = item.get("id", "")
@@ -230,48 +214,63 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
             seen[iid] = _best_item([seen[iid], item])
     deduped = list(seen.values())
 
-    # Pass 3
+    # Pass 3: semantic
     before = len(deduped)
     deduped = _semantic_dedup(deduped)
     removed = before - len(deduped)
     if removed:
-        log.info(f"[cluster] Semantic dedup removed {removed} near-identical items")
+        log.info(f"[cluster] Semantic dedup removed {removed} items")
 
     return deduped
 
 
 def _semantic_dedup(items: list[dict]) -> list[dict]:
-    """Remove near-identical items using embedding cosine similarity."""
     if len(items) < 2:
         return items
 
     titles = [item.get("title", "") for item in items]
     embeddings = _embed(titles)
 
-    if embeddings is not None:
-        threshold = _DEDUP_THRESHOLD
-        def sim(i, j):
-            return _cosine(embeddings[i], embeddings[j])
-    else:
-        threshold = 0.72
-        def sim(i, j):
-            return _title_similarity(items[i].get("title",""), items[j].get("title",""))
-
     n = len(items)
-    parent, find, union = _make_uf(n)
+    parent, find, union = _make_uf(n, items)
 
-    for a, b in _candidate_pairs(items, min_word_len=5):
-        if find(a) == find(b):
-            continue
-        if items[a].get("language") != items[b].get("language"):
-            continue
-        if sim(a, b) >= threshold:
-            union(a, b, items)
+    if embeddings is not None:
+        # Dense matrix — catches all pairs regardless of vocabulary overlap
+        sim_matrix = _similarity_matrix(embeddings)
+        threshold = _DEDUP_THRESHOLD
+        for i in range(n):
+            for j in range(i + 1, n):
+                if find(i) == find(j):
+                    continue
+                if items[i].get("language") != items[j].get("language"):
+                    continue
+                if float(sim_matrix[i, j]) >= threshold:
+                    union(i, j)
+    else:
+        # Fallback: word-bucket candidate pairs + title similarity
+        threshold = 0.72
+        buckets: dict[str, list[int]] = defaultdict(list)
+        for idx, item in enumerate(items):
+            for word in _normalise(item.get("title", "")).split():
+                if len(word) >= 5:
+                    buckets[word].append(idx)
+        checked: set[tuple[int,int]] = set()
+        for indices in buckets.values():
+            for i in range(len(indices)):
+                for j in range(i + 1, len(indices)):
+                    a, b = indices[i], indices[j]
+                    pair = (min(a,b), max(a,b))
+                    if pair in checked:
+                        continue
+                    checked.add(pair)
+                    if items[a].get("language") != items[b].get("language"):
+                        continue
+                    if _title_similarity(items[a].get("title",""), items[b].get("title","")) >= threshold:
+                        union(a, b)
 
     groups: dict[int, list[dict]] = defaultdict(list)
     for idx in range(n):
         groups[find(idx)].append(items[idx])
-
     return [_best_item(g) for g in groups.values()]
 
 
@@ -279,32 +278,19 @@ def _semantic_dedup(items: list[dict]) -> list[dict]:
 # 2. CLUSTERING + COLLAPSE
 # ═══════════════════════════════════════════════════════════════════════════
 
-# Categories that should never be clustered together
 _NO_CLUSTER_CATEGORIES = {"finance", "weather", "utilities"}
 
 
 def cluster_and_collapse(items: list[dict]) -> list[dict]:
     """
     Groups items covering the same news event and collapses each cluster into
-    a single feed item containing all sources, titles, and descriptions.
+    a single feed item with structured multi-source description.
 
-    Finance / weather / utilities items pass through unclustered (they are
-    point-in-time data, not narratives).
+    Uses dense matrix comparison (no word-bucket pre-filtering) so synonym-based
+    rewrites ("jet hits vehicle" == "plane collides with truck") are caught.
 
-    Cluster isolation:
-    • French and English items cluster independently
-    • Category compatibility: local+regional ok; global+global ok;
-      weather/finance/utilities never cluster
-
-    The collapsed item summary uses this format (for LLM readability):
-
-        [SOURCE A] Title from source A
-        Description from source A.
-        URL: https://...
-
-        [SOURCE B] Title from source B
-        Description from source B.
-        URL: https://...
+    Finance / weather / utilities pass through unclustered.
+    French and English items cluster independently.
     """
     passthrough = [i for i in items if i.get("category","") in _NO_CLUSTER_CATEGORIES]
     clusterable = [i for i in items if i.get("category","") not in _NO_CLUSTER_CATEGORIES]
@@ -315,31 +301,51 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
     if not clusterable:
         return sorted(passthrough, key=lambda i: i.get("published",""), reverse=True)
 
+    n = len(clusterable)
     titles = [i.get("title","") for i in clusterable]
     embeddings = _embed(titles)
 
+    parent, find, union = _make_uf(n, clusterable)
+
     if embeddings is not None:
+        # Full pairwise comparison — no candidate pre-filter needed at n<500
+        sim_matrix = _similarity_matrix(embeddings)
         threshold = _CLUSTER_THRESHOLD
-        def sim(i, j):
-            return _cosine(embeddings[i], embeddings[j])
+        for i in range(n):
+            for j in range(i + 1, n):
+                if find(i) == find(j):
+                    continue
+                ia, ib = clusterable[i], clusterable[j]
+                if ia.get("language") != ib.get("language"):
+                    continue
+                if not _categories_compatible(ia.get("category",""), ib.get("category","")):
+                    continue
+                if float(sim_matrix[i, j]) >= threshold:
+                    union(i, j)
     else:
+        # Fallback: word-bucket candidates + title similarity
         threshold = 0.40
-        def sim(i, j):
-            return _title_similarity(clusterable[i].get("title",""), clusterable[j].get("title",""))
-
-    n = len(clusterable)
-    parent, find, union = _make_uf(n)
-
-    for a, b in _candidate_pairs(clusterable, min_word_len=4):
-        if find(a) == find(b):
-            continue
-        ia, ib = clusterable[a], clusterable[b]
-        if ia.get("language") != ib.get("language"):
-            continue
-        if not _categories_compatible(ia.get("category",""), ib.get("category","")):
-            continue
-        if sim(a, b) >= threshold:
-            union(a, b, clusterable)
+        buckets: dict[str, list[int]] = defaultdict(list)
+        for idx, item in enumerate(clusterable):
+            for word in _normalise(item.get("title","")).split():
+                if len(word) >= 4:
+                    buckets[word].append(idx)
+        checked: set[tuple[int,int]] = set()
+        for indices in buckets.values():
+            for i in range(len(indices)):
+                for j in range(i + 1, len(indices)):
+                    a, b = indices[i], indices[j]
+                    pair = (min(a,b), max(a,b))
+                    if pair in checked:
+                        continue
+                    checked.add(pair)
+                    ia, ib = clusterable[a], clusterable[b]
+                    if ia.get("language") != ib.get("language"):
+                        continue
+                    if not _categories_compatible(ia.get("category",""), ib.get("category","")):
+                        continue
+                    if _title_similarity(ia.get("title",""), ib.get("title","")) >= threshold:
+                        union(a, b)
 
     groups: dict[int, list[dict]] = defaultdict(list)
     for idx in range(n):
@@ -360,8 +366,8 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
             multi += 1
             collapsed.append(_collapse_group(group_sorted))
 
-    log.info(f"[cluster] {multi} multi-source clusters formed from {len(clusterable)} items "
-             f"→ {len(collapsed)} collapsed items")
+    log.info(f"[cluster] {multi} multi-source clusters from {len(clusterable)} items "
+             f"→ {len(collapsed)} collapsed")
 
     all_items = collapsed + passthrough
     all_items.sort(key=lambda i: i.get("published",""), reverse=True)
@@ -370,12 +376,19 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
 
 def _collapse_group(group: list[dict]) -> dict:
     """
-    Merge a list of related items into one canonical feed item.
-    group[0] is the highest-priority source (lead item).
+    Merge related items into one canonical feed item.
+    group[0] is highest-priority source (lead).
+
+    Summary format for LLM consumption:
+        [SOURCE A] Title from source A
+        Description from source A.
+        URL: https://...
+
+        [SOURCE B] Title from source B
+        ...
     """
     lead = group[0]
 
-    # Build structured multi-source summary for LLM consumption
     blocks = []
     for item in group:
         parts = [f"[{item.get('source','?')}] {item.get('title','')}"]
@@ -388,8 +401,6 @@ def _collapse_group(group: list[dict]) -> dict:
         blocks.append("\n".join(parts))
 
     combined_summary = "\n\n".join(blocks)
-
-    # Preserve all URLs and source names as flat metadata
     all_urls    = "\n".join(i.get("url","") for i in group if i.get("url"))
     all_sources = "; ".join(dict.fromkeys(i.get("source","") for i in group))
 
@@ -420,10 +431,7 @@ def _categories_compatible(cat_a: str, cat_b: str) -> bool:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def deduplicate_bulletin_text(text: str) -> str:
-    """
-    The Met Service page sometimes renders the bulletin text twice in different
-    HTML containers. Detect the repeated marker and truncate at second occurrence.
-    """
+    """Remove duplicate bulletin text caused by double-rendering on Met Service page."""
     if not text:
         return text
     marker = "Weather news for Mauritius issued at"
