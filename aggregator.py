@@ -17,14 +17,8 @@ warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 from cluster import deduplicate_items, cluster_and_collapse, deduplicate_bulletin_text
 
-import logging
-
-logger = logging.getLogger(__name__)
-
 HEADERS = {
-    "User-Agent": "MauritiusNewsAggregator/1.0 (+https://github.com/scjtools/mauritius-news-aggregator)",
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-US,en;q=0.5",
+    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 }
 MAX_AGE_HOURS = 24
 MAX_SUMMARY_CHARS = 800
@@ -126,7 +120,7 @@ def fetch_rss(source):
                 "date_verified": dt is not None,
             })
     except Exception as e:
-        logger.error(f"Failed to fetch RSS from {source['name']}", exc_info=True)
+        print(f"[RSS ERROR] {source['name']}: {e}")
     return items
 
 
@@ -267,7 +261,7 @@ def scrape_homepage(source):
         time.sleep(SCRAPE_SLEEP_SECONDS)
 
     except Exception as e:
-        logger.error(f"Failed to scrape homepage from {source['name']}", exc_info=True)
+        print(f"[SCRAPE ERROR] {source['name']}: {e}")
     return items
 
 
@@ -360,7 +354,8 @@ def scrape_megamu(source):
                 break
 
     except Exception as e:
-        logger.error(f"Failed to scrape mega.mu from {source['name']}", exc_info=True)
+        print(f"[MEGAMU ERROR] {source['name']}: {e}")
+
     return items
 
 
@@ -477,7 +472,7 @@ def scrape_lemauricien(source):
         time.sleep(SCRAPE_SLEEP_SECONDS)
 
     except Exception as e:
-        logger.error(f"Failed to scrape Le Mauricien from {source['name']}", exc_info=True)
+        print(f"[LEMAURICIEN ERROR] {source['name']}: {e}")
     return items
 
 
@@ -524,7 +519,7 @@ def scrape_bulletin(source):
             })
         time.sleep(SCRAPE_SLEEP_SECONDS)
     except Exception as e:
-        logger.error(f"Failed to scrape weather bulletin from {source['name']}", exc_info=True)
+        print(f"[BULLETIN ERROR] {source['name']}: {e}")
     return items
 
 
@@ -555,10 +550,10 @@ def scrape_semdex(source):
                 "date_verified": True,
             })
         else:
-            logger.warning(f"Could not extract SEMDEX index value from page")
+            print(f"[SEMDEX WARNING] Could not extract index value from page")
         time.sleep(SCRAPE_SLEEP_SECONDS)
     except Exception as e:
-        logger.error(f"Failed to scrape SEMDEX from {source['name']}", exc_info=True)
+        print(f"[SEMDEX ERROR] {source['name']}: {e}")
     return items
 
 
@@ -613,7 +608,7 @@ def fetch_power_outages(source):
             })
 
     except Exception as e:
-        logger.error(f"Failed to fetch power outages from {source['name']}", exc_info=True)
+        print(f"[POWER OUTAGES ERROR] {source['name']}: {e}")
     return items
 
 
@@ -668,7 +663,7 @@ def fetch_public_holidays(source):
             })
 
     except Exception as e:
-        logger.error(f"Failed to fetch public holidays from {source['name']}", exc_info=True)
+        print(f"[PUBLIC HOLIDAYS ERROR] {source['name']}: {e}")
     return items
 
 
@@ -764,7 +759,7 @@ def fetch_exchange_rates(source):
                 "date_verified": True,
             })
     except Exception as e:
-        logger.error(f"Failed to fetch exchange rates from {source['name']}", exc_info=True)
+        print(f"[RATES ERROR] {source['name']}: {e}")
     return items
 
 
@@ -794,7 +789,7 @@ def fetch_gold_api(source):
                 "date_verified": True,
             })
     except Exception as e:
-        logger.error(f"Failed to fetch gold price from {source['name']}", exc_info=True)
+        print(f"[GOLD API ERROR] {source['name']}: {e}")
     return items
 
 
@@ -828,9 +823,9 @@ def fetch_oilprice_demo(source):
                 "date_verified": True,
             })
         else:
-            logger.warning(f"No oil price found in response: {data}")
+            print(f"[OILPRICE WARNING] No price found in response: {data}")
     except Exception as e:
-        logger.error(f"Failed to fetch oil price from {source['name']}", exc_info=True)
+        print(f"[OILPRICE ERROR] {source['name']}: {e}")
     return items
 
 
@@ -951,7 +946,7 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
 
         except Exception as e:
             if is_defimedia:
-                logger.warning(f"Defimedia fetch error (attempt {attempt}): {url[:80]} - {e}")
+                print(f"      [Defimedia fetch error] attempt={attempt} url={url[:80]} err={e}")
             continue
 
     return {"published": None, "summary": None}
@@ -983,7 +978,7 @@ def _get_enrich_session(source_name: str, homepage_url: str):
             except Exception:
                 pass
         except ImportError:
-            logger.warning(f"curl_cffi not installed, falling back to requests.Session for {source_name}")
+            print(f"[WARN] curl_cffi not installed, falling back to requests.Session for {source_name}")
             session = requests.Session()
             session.headers.update({
                 **HEADERS,
@@ -1021,7 +1016,7 @@ def enrich_articles(items: list) -> list:
         and i not in set(date_targets)
     ]
 
-    logger.info(f"Enriching articles: {len(date_targets)} need date+summary, "
+    print(f"  Enriching: {len(date_targets)} need date+summary, "
           f"{len(summary_targets)} need summary only")
 
     stats = defaultdict(lambda: {"enriched": 0, "dropped": 0, "failed": 0, "summary_only": 0})
@@ -1076,11 +1071,11 @@ def enrich_articles(items: list) -> list:
         items.pop(idx)
 
     for src, s in sorted(stats.items()):
-        logger.info(f"[{src}] enriched={s['enriched']}, dropped={s['dropped']}, "
-            f"summary_only={s['summary_only']}, failed={s['failed']}")
+        print(f"    [{src}] enriched={s['enriched']}, dropped={s['dropped']}, "
+              f"summary_only={s['summary_only']}, failed={s['failed']}")
 
     total_dropped = sum(s["dropped"] for s in stats.values())
-    logger.info(f"Total stale articles dropped: {total_dropped}")
+    print(f"  Total stale dropped: {total_dropped}")
     return items
 
 
@@ -1131,31 +1126,23 @@ def load_injected_items(path="inject.yaml"):
 
         return items
     except Exception as e:
-        logger.error(f"Failed to load injected items", exc_info=True)
+        print(f"[INJECT ERROR] {e}")
         return []
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 
 def main():
-    # Configure logging
-    logging.basicConfig(
-        level=logging.INFO,
-        format='%(asctime)s [%(levelname)s] %(name)s: %(message)s',
-        handlers=[
-            logging.FileHandler('aggregator.log'),
-            logging.StreamHandler(),
-        ]
-    )
     sources = load_sources()
-    
-    logger.info("Starting news aggregation - Fetching RSS feeds...")
+    all_items = []
+
+    print("Fetching RSS feeds...")
     for source in sources.get("rss_feeds", []):
         items = fetch_rss(source)
-        logger.info(f"  {source['name']}: {len(items)} items")
+        print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
-    logger.info("Scraping web pages...")
+    print("Scraping pages...")
     for source in sources.get("scrapers", []):
         scrape_type = source.get("type")
         if scrape_type == "bulletin":
@@ -1172,10 +1159,10 @@ def main():
             items = scrape_lemauricien(source)
         else:
             items = scrape_homepage(source)
-        logger.info(f"  {source['name']}: {len(items)} items")
+        print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
-    logger.info("Fetching market data...")
+    print("Fetching market data...")
     for source in sources.get("market_data", []):
         rate_type = source.get("type")
         if rate_type == "gold_api":
@@ -1184,7 +1171,7 @@ def main():
             items = fetch_oilprice_demo(source)
         else:
             items = fetch_exchange_rates(source)
-        logger.info(f"  {source['name']}: {len(items)} items")
+        print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
     # ── Market data cache ─────────────────────────────────────────────────────
@@ -1251,37 +1238,37 @@ def main():
         with open(_CACHE_PATH, "w") as _f:
             json.dump(_new_cache, _f, indent=2)
     except Exception as e:
-        logger.error(f"Failed to write market cache", exc_info=True)
+        print(f"[CACHE WRITE ERROR] {e}")
 
     # ── Manual injections ─────────────────────────────────────────────────────
     injected = load_injected_items()
     if injected:
-        logger.info(f"Loaded {len(injected)} injected items")
+        print(f"  Injected items: {len(injected)}")
         all_items.extend(injected)
 
     # ── Deduplication (hash-based: URL + ID) ──────────────────────────────────
     all_items = deduplicate(all_items)
-    logger.info(f"After hash deduplication: {len(all_items)} items")
+    print(f"\nAfter hash dedup: {len(all_items)} items")
 
     # ── Enrichment ────────────────────────────────────────────────────────────
-    logger.info("Enriching unverified local articles...")
+    print("Enriching unverified local articles...")
     all_items = enrich_articles(all_items)
-    logger.info(f"Total articles after enrichment: {len(all_items)}")
+    print(f"  Total after enrichment: {len(all_items)}")
 
     # ── Semantic dedup + cluster + collapse ───────────────────────────────────
     before = len(all_items)
     all_items = deduplicate_items(all_items)
-    logger.info(f"After semantic deduplication: {len(all_items)} items ({before - len(all_items)} removed)")
+    print(f"After semantic dedup: {len(all_items)} items ({before - len(all_items)} removed)")
 
     all_items = cluster_and_collapse(all_items)
     multi = sum(1 for i in all_items if i.get("cluster_size", 1) > 1)
-    logger.info(f"After clustering and collapse: {len(all_items)} items ({multi} multi-source clusters)")
+    print(f"After cluster+collapse: {len(all_items)} items ({multi} multi-source clusters)")
 
     # ── Write feed ────────────────────────────────────────────────────────────
     rss_output = build_rss(all_items)
     with open("feed.xml", "w", encoding="utf-8") as f:
         f.write(rss_output)
-    logger.info("RSS feed successfully written to feed.xml")
+    print("Written to feed.xml")
 
 
 if __name__ == "__main__":
