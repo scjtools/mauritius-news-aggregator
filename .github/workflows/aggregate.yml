@@ -2,6 +2,7 @@ name: Aggregate news feed
 
 on:
   schedule:
+    - cron: "0 18 * * *"   # 22:00 Mauritius time (UTC+4)
     - cron: "0 22 * * *"   # 02:00 Mauritius time (UTC+4)
   workflow_dispatch:
 
