@@ -41,7 +41,7 @@ _MODEL_NAME = "all-MiniLM-L6-v2"
 _DEDUP_THRESHOLD = 0.92          # same article
 _CLUSTER_THRESHOLD = 0.70        # same-event clustering within same language
 _XLANG_CLUSTER_THRESHOLD = 0.74  # second-pass EN/FR merge on collapsed clusters
-_SUMMARY_EMBED_CHARS = 300       # chars of summary to include in semantic text
+_SUMMARY_EMBED_CHARS = 500       # chars of summary to include in semantic text
 
 # ── Singleton model loader ────────────────────────────────────────────────────
 
