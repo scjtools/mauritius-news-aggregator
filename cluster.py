@@ -40,6 +40,7 @@ log = logging.getLogger(__name__)
 _MODEL_NAME        = "all-MiniLM-L6-v2"
 _DEDUP_THRESHOLD   = 0.92   # above this → same article, keep best source
 _CLUSTER_THRESHOLD = 0.72   # above this → same event, merge into cluster
+_SUMMARY_EMBED_CHARS = 300  # chars of summary to include in semantic text
 
 # ── Singleton model loader ────────────────────────────────────────────────────
 
@@ -105,6 +106,37 @@ def _normalise(text: str) -> str:
     text = text.lower()
     text = re.sub(r"[^\w\s]", " ", text)
     return re.sub(r"\s+", " ", text).strip()
+
+
+def _clean_summary_text(text: str) -> str:
+    """
+    Lightweight cleanup for summary text before embedding.
+    Keeps content simple and stable without changing RSS-visible summary.
+    """
+    if not text:
+        return ""
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def _semantic_text(item: dict) -> str:
+    """
+    Build richer semantic text for embeddings.
+
+    Uses:
+    - normalised title
+    - cleaned summary excerpt
+
+    This improves both deduplication and event clustering compared with
+    title-only embeddings.
+    """
+    title = _normalise(item.get("title", ""))
+    summary = _clean_summary_text(item.get("summary", ""))
+
+    if summary:
+        summary = summary[:_SUMMARY_EMBED_CHARS]
+        return f"{title} {summary}"
+    return title
 
 
 def _canonical_url(url: str) -> str:
@@ -228,8 +260,8 @@ def _semantic_dedup(items: list[dict]) -> list[dict]:
     if len(items) < 2:
         return items
 
-    titles = [item.get("title", "") for item in items]
-    embeddings = _embed(titles)
+    semantic_texts = [_semantic_text(item) for item in items]
+    embeddings = _embed(semantic_texts)
 
     n = len(items)
     parent, find, union = _make_uf(n, items)
@@ -254,18 +286,18 @@ def _semantic_dedup(items: list[dict]) -> list[dict]:
             for word in _normalise(item.get("title", "")).split():
                 if len(word) >= 5:
                     buckets[word].append(idx)
-        checked: set[tuple[int,int]] = set()
+        checked: set[tuple[int, int]] = set()
         for indices in buckets.values():
             for i in range(len(indices)):
                 for j in range(i + 1, len(indices)):
                     a, b = indices[i], indices[j]
-                    pair = (min(a,b), max(a,b))
+                    pair = (min(a, b), max(a, b))
                     if pair in checked:
                         continue
                     checked.add(pair)
                     if items[a].get("language") != items[b].get("language"):
                         continue
-                    if _title_similarity(items[a].get("title",""), items[b].get("title","")) >= threshold:
+                    if _title_similarity(items[a].get("title", ""), items[b].get("title", "")) >= threshold:
                         union(a, b)
 
     groups: dict[int, list[dict]] = defaultdict(list)
@@ -292,18 +324,18 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
     Finance / weather / utilities pass through unclustered.
     French and English items cluster independently.
     """
-    passthrough = [i for i in items if i.get("category","") in _NO_CLUSTER_CATEGORIES]
-    clusterable = [i for i in items if i.get("category","") not in _NO_CLUSTER_CATEGORIES]
+    passthrough = [i for i in items if i.get("category", "") in _NO_CLUSTER_CATEGORIES]
+    clusterable = [i for i in items if i.get("category", "") not in _NO_CLUSTER_CATEGORIES]
 
     for item in passthrough:
         item.setdefault("cluster_size", 1)
 
     if not clusterable:
-        return sorted(passthrough, key=lambda i: i.get("published",""), reverse=True)
+        return sorted(passthrough, key=lambda i: i.get("published", ""), reverse=True)
 
     n = len(clusterable)
-    titles = [i.get("title","") for i in clusterable]
-    embeddings = _embed(titles)
+    semantic_texts = [_semantic_text(i) for i in clusterable]
+    embeddings = _embed(semantic_texts)
 
     parent, find, union = _make_uf(n, clusterable)
 
@@ -318,7 +350,7 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
                 ia, ib = clusterable[i], clusterable[j]
                 if ia.get("language") != ib.get("language"):
                     continue
-                if not _categories_compatible(ia.get("category",""), ib.get("category","")):
+                if not _categories_compatible(ia.get("category", ""), ib.get("category", "")):
                     continue
                 if float(sim_matrix[i, j]) >= threshold:
                     union(i, j)
@@ -327,24 +359,24 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
         threshold = 0.40
         buckets: dict[str, list[int]] = defaultdict(list)
         for idx, item in enumerate(clusterable):
-            for word in _normalise(item.get("title","")).split():
+            for word in _normalise(item.get("title", "")).split():
                 if len(word) >= 4:
                     buckets[word].append(idx)
-        checked: set[tuple[int,int]] = set()
+        checked: set[tuple[int, int]] = set()
         for indices in buckets.values():
             for i in range(len(indices)):
                 for j in range(i + 1, len(indices)):
                     a, b = indices[i], indices[j]
-                    pair = (min(a,b), max(a,b))
+                    pair = (min(a, b), max(a, b))
                     if pair in checked:
                         continue
                     checked.add(pair)
                     ia, ib = clusterable[a], clusterable[b]
                     if ia.get("language") != ib.get("language"):
                         continue
-                    if not _categories_compatible(ia.get("category",""), ib.get("category","")):
+                    if not _categories_compatible(ia.get("category", ""), ib.get("category", "")):
                         continue
-                    if _title_similarity(ia.get("title",""), ib.get("title","")) >= threshold:
+                    if _title_similarity(ia.get("title", ""), ib.get("title", "")) >= threshold:
                         union(a, b)
 
     groups: dict[int, list[dict]] = defaultdict(list)
@@ -357,7 +389,7 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
         group_sorted = sorted(group_items, key=lambda i: (
             _priority(i),
             int(i.get("date_verified", False)),
-            len(i.get("summary","")),
+            len(i.get("summary", "")),
         ), reverse=True)
         if len(group_sorted) == 1:
             group_sorted[0]["cluster_size"] = 1
@@ -370,7 +402,7 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
              f"→ {len(collapsed)} collapsed")
 
     all_items = collapsed + passthrough
-    all_items.sort(key=lambda i: i.get("published",""), reverse=True)
+    all_items.sort(key=lambda i: i.get("published", ""), reverse=True)
     return all_items
 
 
@@ -391,30 +423,30 @@ def _collapse_group(group: list[dict]) -> dict:
 
     blocks = []
     for item in group:
-        parts = [f"[{item.get('source','?')}] {item.get('title','')}"]
-        desc = item.get("summary","").strip()
+        parts = [f"[{item.get('source', '?')}] {item.get('title', '')}"]
+        desc = item.get("summary", "").strip()
         if desc:
             parts.append(desc)
-        url = item.get("url","")
+        url = item.get("url", "")
         if url:
             parts.append(f"URL: {url}")
         blocks.append("\n".join(parts))
 
     combined_summary = "\n\n".join(blocks)
-    all_urls    = "\n".join(i.get("url","") for i in group if i.get("url"))
-    all_sources = "; ".join(dict.fromkeys(i.get("source","") for i in group))
+    all_urls    = "\n".join(i.get("url", "") for i in group if i.get("url"))
+    all_sources = "; ".join(dict.fromkeys(i.get("source", "") for i in group))
 
     return {
-        "id":            lead.get("id",""),
-        "title":         lead.get("title",""),
-        "url":           lead.get("url",""),
+        "id":            lead.get("id", ""),
+        "title":         lead.get("title", ""),
+        "url":           lead.get("url", ""),
         "summary":       combined_summary,
-        "source":        lead.get("source",""),
+        "source":        lead.get("source", ""),
         "all_sources":   all_sources,
         "all_urls":      all_urls,
-        "language":      lead.get("language",""),
-        "category":      lead.get("category",""),
-        "published":     lead.get("published",""),
+        "language":      lead.get("language", ""),
+        "category":      lead.get("category", ""),
+        "published":     lead.get("published", ""),
         "date_verified": lead.get("date_verified", False),
         "cluster_size":  len(group),
     }
@@ -423,7 +455,7 @@ def _collapse_group(group: list[dict]) -> dict:
 def _categories_compatible(cat_a: str, cat_b: str) -> bool:
     if cat_a == cat_b:
         return True
-    return {cat_a, cat_b} in [{"local","regional"}, {"regional","global"}]
+    return {cat_a, cat_b} in [{"local", "regional"}, {"regional", "global"}]
 
 
 # ═══════════════════════════════════════════════════════════════════════════
