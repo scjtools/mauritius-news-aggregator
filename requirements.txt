@@ -7,5 +7,6 @@ python-dateutil
 curl_cffi>=0.14.0
 
 # embeddings
+numpy<2
 sentence-transformers>=2.7.0,<3
 torch==2.2.2
