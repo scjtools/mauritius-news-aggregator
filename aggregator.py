@@ -690,7 +690,7 @@ def build_rss(items):
     rss = Element("rss", version="2.0")
     channel = SubElement(rss, "channel")
     SubElement(channel, "title").text = "Mauritius News Aggregator"
-    SubElement(channel, "link").text = "https://github.com"
+    SubElement(channel, "link").text = "https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml"
     SubElement(channel, "description").text = "Aggregated Mauritius news – last 24 hours"
     SubElement(channel, "lastBuildDate").text = datetime.now(timezone.utc).strftime(
         "%a, %d %b %Y %H:%M:%S +0000"
