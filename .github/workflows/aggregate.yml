@@ -45,6 +45,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install --no-cache-dir --index-url https://download.pytorch.org/whl/cpu torch==2.2.2
           pip install --no-cache-dir -r requirements.txt
 
       - name: Warm up embedding model
