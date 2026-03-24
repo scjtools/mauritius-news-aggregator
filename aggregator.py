@@ -702,13 +702,21 @@ def _clean_xml_text(value):
         return ""
     text = str(value)
     text = re.sub(r"\bURL:\s*https?://\S+", " ", text, flags=re.IGNORECASE)
-    text = re.sub(r"https?://\S+", lambda m: m.group(0) if False else " ", text)
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    text = re.sub(r"[ \t]+", " ", text)
+    text = re.sub(r"\n{3,}", "\n\n", text)
+    return text.strip()
 
 
-def _set_text(parent, tag, value):
+def _set_clean_text(parent, tag, value):
     text = _clean_xml_text(value)
+    if text:
+        SubElement(parent, tag).text = text
+
+
+def _set_raw_text(parent, tag, value):
+    if value is None:
+        return
+    text = str(value).strip()
     if text:
         SubElement(parent, tag).text = text
 
@@ -727,18 +735,19 @@ def build_rss(items):
         entry = SubElement(channel, "item")
         cluster_size = int(item.get("cluster_size", 1) or 1)
 
-        _set_text(entry, "title", item.get("title", ""))
-        _set_text(entry, "link", item.get("url", ""))
-        _set_text(entry, "description", item.get("summary", ""))
-        _set_text(entry, "source", item.get("source", ""))
-        _set_text(entry, "category", item.get("category", ""))
-        _set_text(entry, "cluster_time", item.get("cluster_time", item.get("published", "")))
-        _set_text(entry, "cluster_size", str(cluster_size))
-        _set_text(entry, "source_count", str(item.get("source_count", 1)))
+        # Core fields
+        _set_clean_text(entry, "title", item.get("title", ""))
+        _set_raw_text(entry, "link", item.get("url", ""))
+        _set_clean_text(entry, "description", item.get("summary", ""))
+        _set_clean_text(entry, "source", item.get("source", ""))
+        _set_clean_text(entry, "category", item.get("category", ""))
+        _set_raw_text(entry, "cluster_time", item.get("cluster_time", item.get("published", "")))
+        _set_raw_text(entry, "cluster_size", str(cluster_size))
+        _set_raw_text(entry, "source_count", str(item.get("source_count", 1)))
 
-        # Only keep cluster_id for actual multi-item clusters
+        # Only keep cluster metadata for actual multi-item clusters
         if cluster_size > 1:
-            _set_text(entry, "cluster_id", item.get("cluster_id", ""))
+            _set_clean_text(entry, "cluster_id", item.get("cluster_id", ""))
 
             sources_text = _list_text(item.get("sources", []))
             urls_text = _list_text(item.get("urls", []))
@@ -746,13 +755,13 @@ def build_rss(items):
             languages_text = _list_text(item.get("languages", []))
 
             if sources_text:
-                SubElement(entry, "sources").text = sources_text
+                _set_clean_text(entry, "sources", sources_text)
             if urls_text:
-                SubElement(entry, "urls").text = urls_text
+                _set_raw_text(entry, "urls", urls_text)
             if titles_text:
-                SubElement(entry, "titles").text = titles_text
+                _set_clean_text(entry, "titles", titles_text)
             if languages_text:
-                SubElement(entry, "languages").text = languages_text
+                _set_clean_text(entry, "languages", languages_text)
 
     raw = tostring(rss, encoding="unicode")
     return minidom.parseString(raw).toprettyxml(indent="  ")
