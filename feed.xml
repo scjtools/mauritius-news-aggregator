@@ -4,7 +4,87 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Tue, 24 Mar 2026 21:44:28 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 23:08:43 +0000</lastBuildDate>
+    <item>
+      <title>Brent Crude Oil price – 24 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 104.49 per barrel</description>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T23:04:38.364517+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bitcoin price – 24 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 70,266.18 (▼ -0.20% from last)</description>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T23:04:38.207436+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 24 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,477.80 (▲ +2.02% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T23:04:37.869742+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>MUR exchange rates – 24 March 2026</title>
+      <link>https://www.floatrates.com/daily/mur.xml</link>
+      <description>MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)</description>
+      <source>MUR Exchange Rates</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T23:04:37.427572+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SEMDEX – 24 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)</description>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T23:04:35.023861+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 24 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals.</description>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <cluster_time>2026-03-24T23:04:30.721198+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>In Beirut, refugees stay put despite Israeli strikes</title>
+      <link>https://www.france24.com/en/in-beirut-palestinian-refugees-stay-put-despite-israeli-strikes</link>
+      <description>[France 24] Since the start of the war in the Middle East, over one million people in Lebanon have been displaced. In the southern suburbs of Beirut, Israeli strikes have become a daily part of life. But in this neighbourhood FRANCE 24 went to, where refugees reside, few are those who decided to leave. FRANCE 24 reports.
+
+[Al Jazeera] After Israel’s bombing of Beirut’s southern suburb of Dahiyeh, Palestinian refugee Dalal Dawali fled to Beddawi camp.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T22:39:48+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>304c75781028</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/in-beirut-palestinian-refugees-stay-put-despite-israeli-strikes
+https://www.aljazeera.com/video/newsfeed/2026/3/24/palestinian-refugees-in-lebanon-face-another-forced-displacement?traffic_source=rss</urls>
+      <titles>In Beirut, refugees stay put despite Israeli strikes
+Palestinian refugees in Lebanon face another forced displacement</titles>
+      <languages>en</languages>
+    </item>
     <item>
       <title>French-Israeli billionaire Patrick Drahi to auction rare diamond from Africa’s richest mine with $2.8 million price tag</title>
       <link>https://africa.businessinsider.com/local/markets/french-israeli-billionaire-patrick-drahi-to-auction-rare-diamond-from-africas-richest/5ct265v</link>
@@ -16,62 +96,42 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Brent Crude Oil price – 24 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 99.64 per barrel</description>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:40:29.074112+00:00</cluster_time>
+      <title>Russia launches 948 drones at Ukraine in largest attack over 24-hour period</title>
+      <link>https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.
+
+[France 24] Moscow launched nearly 1,000 drones at Ukraine within 24 hours in one of its biggest-ever daytime attacks, killing at least eight people and damaging a UNESCO heritage site in Lviv. Ukrainian President Volodymyr Zelensky on Tuesday slammed Moscow's &quot;absolute depravity&quot; and said Russia &quot;has no intention of actually ending this war&quot;.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T21:47:10+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>2f6e1102175d</cluster_id>
+      <sources>BBC News
+France 24</sources>
+      <urls>https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/europe/20260324-russia-launches-nearly-1000-drones-ukraine-in-24-hours</urls>
+      <titles>Russia launches 948 drones at Ukraine in largest attack over 24-hour period
+Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Arms manufacturer thrives amid US-Israel war on Iran</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/arms-manufacturer-thrives-amid-us-israel-war-on-iran?traffic_source=rss</link>
+      <description>Elbit Systems has seen rapid growth as wars intensify across Iran, Palestine, and Lebanon.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T21:33:59+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 24 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 70,071.13 (▼ -0.48% from last)</description>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:40:28.963180+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Gold price – 24 March 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,475.30 (▲ +1.96% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:40:28.457728+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>MUR exchange rates – 24 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)</description>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:40:27.902980+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>SEMDEX – 24 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)</description>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:40:25.409589+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mauritius weather bulletin – 24 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals.</description>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
-      <cluster_time>2026-03-24T21:40:20.705838+00:00</cluster_time>
+      <title>Death toll from Colombian military plane crash rises to 69 as search ends</title>
+      <link>https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The Hercules military transport plane crashed minutes after take-off near Colombia's southern border with Peru.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T21:30:53+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -176,6 +236,16 @@
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Salah to leave Liverpool at end of season</title>
+      <link>https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The Egypt forward says Liverpool fans &quot;gave me the best time of my life&quot; and &quot;stood by me in the toughest times&quot;.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T20:34:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Pilots killed in LaGuardia plane crash named</title>
       <link>https://www.bbc.com/news/articles/cz67jq0enwpo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Investigators released details from the final three minutes of cockpit and tower communications, which showed controllers cleared both the plane and a fire truck to cross the runway.</description>
@@ -202,16 +272,6 @@
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-24T20:15:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight</title>
-      <link>https://www.france24.com/en/europe/20260324-russia-launches-nearly-1000-drones-ukraine-in-24-hours</link>
-      <description>Moscow launched nearly 1,000 drones at Ukraine within 24 hours in one of its biggest-ever daytime attacks, killing at least eight people and damaging a UNESCO heritage site in Lviv. Ukrainian President Volodymyr Zelensky on Tuesday slammed Moscow's &quot;absolute depravity&quot; and said Russia &quot;has no intention of actually ending this war&quot;.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T20:15:30+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -288,7 +348,7 @@
     <item>
       <title>What Iranians make of the possibility of talks to end the war</title>
       <link>https://www.bbc.com/news/articles/c3ex39w09gzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>But I can change it: Some Iranians dismiss the possibility of talks to end the war, others worry a deal may leave the current leaders in place.</description>
+      <description>Some Iranians dismiss the possibility of talks to end the war, others worry a deal may leave the current leaders in place.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-24T19:36:59+00:00</cluster_time>
@@ -422,16 +482,6 @@ Carburants : le prix du diesel passe de Rs 58,95 à Rs 64,80, celui de l’essen
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-24T18:13:14+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Russia launches 948 drones at Ukraine in largest attack over 24-hour period</title>
-      <link>https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Cities across the west of Ukraine were hit, with residential buildings damaged and many injured.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T18:12:36+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -740,16 +790,6 @@ Kenya’s fuel retailers are running low on supply, and it could become a total 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Aid flotilla reaches Cuba amid US oil blockade and blackouts</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/aid-flotilla-reaches-cuba-amid-us-oil-blockade-and-blackouts?traffic_source=rss</link>
-      <description>An aid flotilla has arrived in Cuba as a US-imposed oil blockade drives severe fuel shortages and widespread blackouts.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T16:15:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Pix of the Day, 24 March 2026</title>
       <link>http://www.africanews.com/2026/03/24/pix-of-the-day-24-march-2026/</link>
       <description>Pix of the Day, 24 March 2026</description>
@@ -786,16 +826,6 @@ Kenya’s fuel retailers are running low on supply, and it could become a total 
       <source>Business Insider Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-24T15:52:05+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iranian IRGC’s ties to Hezbollah deepen tensions in Lebanese politics</title>
-      <link>https://www.aljazeera.com/features/2026/3/24/iranian-irgc-ties-hezbollah-deepen-tensions-lebanese-politics?traffic_source=rss</link>
-      <description>Lebanon's prime minister said the IRGC is commanding Hezbollah and analysts agree the Iranian group is calling the shots</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T15:47:39+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -840,12 +870,42 @@ Kenya’s fuel retailers are running low on supply, and it could become a total 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>In Beirut, refugees stay put despite Israeli strikes</title>
-      <link>https://www.france24.com/en/in-beirut-palestinian-refugees-stay-put-despite-israeli-strikes</link>
-      <description>Since the start of the war in the Middle East, over one million people in Lebanon have been displaced. In the southern suburbs of Beirut, Israeli strikes have become a daily part of life. But in this neighbourhood FRANCE 24 went to, where refugees reside, few are those who decided to leave. FRANCE 24 reports.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T15:33:33+00:00</cluster_time>
+      <title>Kenya: President Ruto, Orengo Pledge to Put Politics Aside for Nyanza Development</title>
+      <link>https://allafrica.com/stories/202603240481.html</link>
+      <description>[Capital FM] Siaya -- President William Ruto has signaled a truce with Siaya Governor James Orengo, emphasizing a shared commitment to work together for the benefit of Kenyans.</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T15:36:53+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Ethiopia: Ethiopian Airlines to Lease Two Next-Generation Converted Freighters From Aercap</title>
+      <link>https://allafrica.com/stories/202603240474.html</link>
+      <description>[Reporter] Ethiopian Airlines has agreed to lease two Boeing 777-300ER converted freighters from AerCap Holdings N.V., in a deal that will introduce the aircraft type to Africa for the first time, the companies said on Tuesday.</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T15:35:12+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Uganda: Uganda's Tuberculosis Response Goes Digital, but Not Yet Decisive</title>
+      <link>https://allafrica.com/stories/202603240470.html</link>
+      <description>[Independent (Kampala)] For years, Uganda's TB response has relied heavily on symptom-based screening. It is a low-cost approach, but one that experts increasingly describe as blunt and inadequate</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T15:33:25+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Uganda: Pathologists Demystify Autopsies, Costs, and Delays At Mulago Mortuary</title>
+      <link>https://allafrica.com/stories/202603240469.html</link>
+      <description>[Independent (Kampala)] Kampala -- Senior pathologists have stepped forward to clear the air following a wave of public concern regarding the management of the Mulago National Referral Hospital mortuary.</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T15:32:54+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1299,16 +1359,6 @@ Who is the new US homeland security chief Markwayne Mullin?</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Search for four missing soldiers after Colombia plane crash kills 66</title>
-      <link>https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The Hercules military transport plane crashed minutes after take-off near Colombia's southern border with Peru.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T11:20:06+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Nigeria: Iran War May Push Nigerians to Work From Home - Dangote</title>
       <link>https://allafrica.com/stories/202603240271.html</link>
       <description>[Vanguard] President of the Dangote Group, Aliko Dangote, has cautioned that the escalating tensions in the Middle East could push Nigeria and other African nations toward adopting pandemic-style work-from-home policies if the situation worsens.</description>
@@ -1468,16 +1518,6 @@ Parlement : la PNQ axée sur le pouvoir d’achat sur fond de guerre au Moyen-Or
       <source_count>1</source_count>
     </item>
     <item>
-      <title>South Africa: A R60 Test Could Help South Africa Find Millions More TB Patients - But Will It Miss The Most Dangerous Cases?</title>
-      <link>https://allafrica.com/stories/202603240229.html</link>
-      <description>[Bhekisisa] South Africa is trialling a cheap, portable TB test that costs a third of the current standard. But the new test can't detect drug-resistant TB, raising questions about how much diagnostic accuracy a national programme can afford to trade for reach.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:30:25+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Assemblée nationale : Joanna Bérenger et Chetan Baboolall absents</title>
       <link>https://defimedia.info/assemblee-nationale-joanna-berenger-et-chetan-baboolall-absents</link>
       <description>Les regards étaient braqués sur les travées de l’Assemblée nationale ce mardi. La raison : voir si Joanna Bérenger ou d’</description>
@@ -1538,16 +1578,6 @@ Parlement : la PNQ axée sur le pouvoir d’achat sur fond de guerre au Moyen-Or
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Liberia: Fear and Frustration Mount As Liberians React to Lofa Border Tension</title>
-      <link>https://allafrica.com/stories/202603240213.html</link>
-      <description>[New Dawn] Monrovia -- Growing tension surrounding the ongoing land dispute in Lofa County between Liberia and Guinea is sparking fear and mixed reactions among Liberian citizens, particularly those affected by displacement and uncertainty.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:16:17+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Lutte contre le blanchiment : coordination FIU–MRA–FCC, zones d’ombre sur les transactions automobiles</title>
       <link>https://www.lemauricien.com/actualites/societe/lutte-contre-le-blanchiment-coordination-fiu-mra-fcc-zones-dombre-sur-les-transactions-automobiles/702590/</link>
       <description>Les récentes saisies d’avoirs par la Financial Crimes Commission (FCC) et les interrogations sur l’efficacité du dispositif légal ont été évoquées lors des échanges à l’Assemblée nationale, ce mardi. Répondant à la Question du député de Rivière des Anguilles et Souillac Roshan jhummun, le Premier ministre le Dr Navin Ramgoolam a précisé les responsabilités de […]</description>
@@ -1584,16 +1614,6 @@ Parlement : la PNQ axée sur le pouvoir d’achat sur fond de guerre au Moyen-Or
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-24T09:58:16+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Ethiopia: Regional Mega-War? How Renewed Conflict in Ethiopia Could Pull in Sudan</title>
-      <link>https://allafrica.com/stories/202603240205.html</link>
-      <description>[The New Humanitarian] Cairo -- &quot;We are in an incredibly dangerous situation.&quot;</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:57:03+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1664,16 +1684,6 @@ Parlement : la PNQ axée sur le pouvoir d’achat sur fond de guerre au Moyen-Or
       <source>AllAfrica</source>
       <category>regional</category>
       <cluster_time>2026-03-24T09:45:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Liberia: Ex-Combatants Send Strong Message to Guinea</title>
-      <link>https://allafrica.com/stories/202603240186.html</link>
-      <description>[New Dawn] Ganta -- A former freedom fighter from Liberia's civil war, General K. Gblorgbay Young, has urged citizens not to panic amid rising tensions along the border between Liberia and Guinea, while warning that ex-combatants stand ready to defend the country if necessary.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:45:23+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -2403,16 +2413,6 @@ Parlement : PNQ : Joe Lesjongard interpelle sur l’impact économique du confli
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-24T00:10:24+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Jury orders Cosby to pay $19m to ex-waitress after finding he abused her in 1972</title>
-      <link>https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Donna Motsinger alleged Cosby gave her wine and a pill that left her incapacitated after picking her up in a limousine in 1972.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-23T22:18:27+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>

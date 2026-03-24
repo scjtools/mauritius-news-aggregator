@@ -1,7 +1,168 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 232,
+  "item_count": 230,
   "items": [
+    {
+      "id": "singleton_075c9e6b0d6f",
+      "cluster_time": "2026-03-24T23:04:38.364517+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Brent Crude Oil price – 24 March 2026",
+        "source": "Brent Crude Oil",
+        "url": "https://www.oilpriceapi.com",
+        "summary": "Brent Crude Oil: USD 104.49 per barrel"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Brent Crude Oil"
+      ],
+      "titles": [
+        "Brent Crude Oil price – 24 March 2026"
+      ],
+      "urls": [
+        "https://www.oilpriceapi.com"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_df75dc1edb63",
+      "cluster_time": "2026-03-24T23:04:38.207436+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Bitcoin price – 24 March 2026",
+        "source": "Bitcoin Price",
+        "url": "https://api.gold-api.com/price/BTC",
+        "summary": "Bitcoin (BTC): USD 70,266.18 (▼ -0.20% from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Bitcoin Price"
+      ],
+      "titles": [
+        "Bitcoin price – 24 March 2026"
+      ],
+      "urls": [
+        "https://api.gold-api.com/price/BTC"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_ec58bd454756",
+      "cluster_time": "2026-03-24T23:04:37.869742+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Gold price – 24 March 2026",
+        "source": "Gold Price",
+        "url": "https://api.gold-api.com/price/XAU",
+        "summary": "Gold (XAU): USD 4,477.80 (▲ +2.02% from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Gold Price"
+      ],
+      "titles": [
+        "Gold price – 24 March 2026"
+      ],
+      "urls": [
+        "https://api.gold-api.com/price/XAU"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_f2d774f99b43",
+      "cluster_time": "2026-03-24T23:04:37.427572+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "MUR exchange rates – 24 March 2026",
+        "source": "MUR Exchange Rates",
+        "url": "https://www.floatrates.com/daily/mur.xml",
+        "summary": "MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "MUR Exchange Rates"
+      ],
+      "titles": [
+        "MUR exchange rates – 24 March 2026"
+      ],
+      "urls": [
+        "https://www.floatrates.com/daily/mur.xml"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_551ef72028ec",
+      "cluster_time": "2026-03-24T23:04:35.023861+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "SEMDEX – 24 March 2026",
+        "source": "Stock Exchange of Mauritius",
+        "url": "https://www.stockexchangeofmauritius.com/products-market-data/indices",
+        "summary": "SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Stock Exchange of Mauritius"
+      ],
+      "titles": [
+        "SEMDEX – 24 March 2026"
+      ],
+      "urls": [
+        "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_5474cbfe3ad8",
+      "cluster_time": "2026-03-24T23:04:30.721198+00:00",
+      "category": "weather",
+      "lead": {
+        "title": "Mauritius weather bulletin – 24 March 2026",
+        "source": "Mauritius Met Services",
+        "url": "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php",
+        "summary": "Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Mauritius Met Services"
+      ],
+      "titles": [
+        "Mauritius weather bulletin – 24 March 2026"
+      ],
+      "urls": [
+        "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ],
+      "languages": []
+    },
+    {
+      "id": "304c75781028",
+      "cluster_time": "2026-03-24T22:39:48+00:00",
+      "category": "global",
+      "lead": {
+        "title": "In Beirut, refugees stay put despite Israeli strikes",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/in-beirut-palestinian-refugees-stay-put-despite-israeli-strikes",
+        "summary": "[France 24] Since the start of the war in the Middle East, over one million people in Lebanon have been displaced. In the southern suburbs of Beirut, Israeli strikes have become a daily part of life. But in this neighbourhood FRANCE 24 went to, where refugees reside, few are those who decided to leave. FRANCE 24 reports.\n\n[Al Jazeera] After Israel’s bombing of Beirut’s southern suburb of Dahiyeh, Palestinian refugee Dalal Dawali fled to Beddawi camp."
+      },
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24"
+      ],
+      "titles": [
+        "In Beirut, refugees stay put despite Israeli strikes"
+      ],
+      "urls": [
+        "https://www.france24.com/en/in-beirut-palestinian-refugees-stay-put-despite-israeli-strikes"
+      ],
+      "languages": []
+    },
     {
       "id": "singleton_1a008076942c",
       "cluster_time": "2026-03-24T22:14:13+01:00",
@@ -26,140 +187,71 @@
       "languages": []
     },
     {
-      "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-24T21:40:29.074112+00:00",
-      "category": "finance",
+      "id": "2f6e1102175d",
+      "cluster_time": "2026-03-24T21:47:10+00:00",
+      "category": "global",
       "lead": {
-        "title": "Brent Crude Oil price – 24 March 2026",
-        "source": "Brent Crude Oil",
-        "url": "https://www.oilpriceapi.com",
-        "summary": "Brent Crude Oil: USD 99.64 per barrel"
+        "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
+        "source": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
+        "summary": "[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.\n\n[France 24] Moscow launched nearly 1,000 drones at Ukraine within 24 hours in one of its biggest-ever daytime attacks, killing at least eight people and damaging a UNESCO heritage site in Lviv. Ukrainian President Volodymyr Zelensky on Tuesday slammed Moscow's \"absolute depravity\" and said Russia \"has no intention of actually ending this war\"."
       },
-      "cluster_size": 1,
-      "source_count": 1,
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
-        "Brent Crude Oil"
+        "BBC News"
       ],
       "titles": [
-        "Brent Crude Oil price – 24 March 2026"
+        "Russia launches 948 drones at Ukraine in largest attack over 24-hour period"
       ],
       "urls": [
-        "https://www.oilpriceapi.com"
+        "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss"
       ],
       "languages": []
     },
     {
-      "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-24T21:40:28.963180+00:00",
-      "category": "finance",
+      "id": "singleton_f7b8e6c5d79a",
+      "cluster_time": "2026-03-24T21:33:59+00:00",
+      "category": "global",
       "lead": {
-        "title": "Bitcoin price – 24 March 2026",
-        "source": "Bitcoin Price",
-        "url": "https://api.gold-api.com/price/BTC",
-        "summary": "Bitcoin (BTC): USD 70,071.13 (▼ -0.48% from last)"
+        "title": "Arms manufacturer thrives amid US-Israel war on Iran",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/24/arms-manufacturer-thrives-amid-us-israel-war-on-iran?traffic_source=rss",
+        "summary": "Elbit Systems has seen rapid growth as wars intensify across Iran, Palestine, and Lebanon."
       },
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Bitcoin Price"
+        "Al Jazeera"
       ],
       "titles": [
-        "Bitcoin price – 24 March 2026"
+        "Arms manufacturer thrives amid US-Israel war on Iran"
       ],
       "urls": [
-        "https://api.gold-api.com/price/BTC"
+        "https://www.aljazeera.com/video/newsfeed/2026/3/24/arms-manufacturer-thrives-amid-us-israel-war-on-iran?traffic_source=rss"
       ],
       "languages": []
     },
     {
-      "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-24T21:40:28.457728+00:00",
-      "category": "finance",
+      "id": "singleton_ee0c75209313",
+      "cluster_time": "2026-03-24T21:30:53+00:00",
+      "category": "global",
       "lead": {
-        "title": "Gold price – 24 March 2026",
-        "source": "Gold Price",
-        "url": "https://api.gold-api.com/price/XAU",
-        "summary": "Gold (XAU): USD 4,475.30 (▲ +1.96% from last)"
+        "title": "Death toll from Colombian military plane crash rises to 69 as search ends",
+        "source": "BBC News",
+        "url": "https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&at_campaign=rss",
+        "summary": "The Hercules military transport plane crashed minutes after take-off near Colombia's southern border with Peru."
       },
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Gold Price"
+        "BBC News"
       ],
       "titles": [
-        "Gold price – 24 March 2026"
+        "Death toll from Colombian military plane crash rises to 69 as search ends"
       ],
       "urls": [
-        "https://api.gold-api.com/price/XAU"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-03-24T21:40:27.902980+00:00",
-      "category": "finance",
-      "lead": {
-        "title": "MUR exchange rates – 24 March 2026",
-        "source": "MUR Exchange Rates",
-        "url": "https://www.floatrates.com/daily/mur.xml",
-        "summary": "MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "MUR Exchange Rates"
-      ],
-      "titles": [
-        "MUR exchange rates – 24 March 2026"
-      ],
-      "urls": [
-        "https://www.floatrates.com/daily/mur.xml"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-24T21:40:25.409589+00:00",
-      "category": "finance",
-      "lead": {
-        "title": "SEMDEX – 24 March 2026",
-        "source": "Stock Exchange of Mauritius",
-        "url": "https://www.stockexchangeofmauritius.com/products-market-data/indices",
-        "summary": "SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Stock Exchange of Mauritius"
-      ],
-      "titles": [
-        "SEMDEX – 24 March 2026"
-      ],
-      "urls": [
-        "https://www.stockexchangeofmauritius.com/products-market-data/indices"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-24T21:40:20.705838+00:00",
-      "category": "weather",
-      "lead": {
-        "title": "Mauritius weather bulletin – 24 March 2026",
-        "source": "Mauritius Met Services",
-        "url": "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php",
-        "summary": "Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Mauritius Met Services"
-      ],
-      "titles": [
-        "Mauritius weather bulletin – 24 March 2026"
-      ],
-      "urls": [
-        "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+        "https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&at_campaign=rss"
       ],
       "languages": []
     },
@@ -394,6 +486,29 @@
       "languages": []
     },
     {
+      "id": "singleton_8a0e7c3efe79",
+      "cluster_time": "2026-03-24T20:34:23+00:00",
+      "category": "regional",
+      "lead": {
+        "title": "Salah to leave Liverpool at end of season",
+        "source": "BBC Africa",
+        "url": "https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&at_campaign=rss",
+        "summary": "The Egypt forward says Liverpool fans \"gave me the best time of my life\" and \"stood by me in the toughest times\"."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC Africa"
+      ],
+      "titles": [
+        "Salah to leave Liverpool at end of season"
+      ],
+      "urls": [
+        "https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&at_campaign=rss"
+      ],
+      "languages": []
+    },
+    {
       "id": "singleton_44c8da52e619",
       "cluster_time": "2026-03-24T20:34:20+00:00",
       "category": "global",
@@ -459,29 +574,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts?traffic_source=rss"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_5b34a2837f90",
-      "cluster_time": "2026-03-24T20:15:30+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/europe/20260324-russia-launches-nearly-1000-drones-ukraine-in-24-hours",
-        "summary": "Moscow launched nearly 1,000 drones at Ukraine within 24 hours in one of its biggest-ever daytime attacks, killing at least eight people and damaging a UNESCO heritage site in Lviv. Ukrainian President Volodymyr Zelensky on Tuesday slammed Moscow's \"absolute depravity\" and said Russia \"has no intention of actually ending this war\"."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight"
-      ],
-      "urls": [
-        "https://www.france24.com/en/europe/20260324-russia-launches-nearly-1000-drones-ukraine-in-24-hours"
       ],
       "languages": []
     },
@@ -654,7 +746,7 @@
         "title": "What Iranians make of the possibility of talks to end the war",
         "source": "BBC News",
         "url": "https://www.bbc.com/news/articles/c3ex39w09gzo?at_medium=RSS&at_campaign=rss",
-        "summary": "But I can change it: Some Iranians dismiss the possibility of talks to end the war, others worry a deal may leave the current leaders in place."
+        "summary": "Some Iranians dismiss the possibility of talks to end the war, others worry a deal may leave the current leaders in place."
       },
       "cluster_size": 1,
       "source_count": 1,
@@ -942,29 +1034,6 @@
       ],
       "urls": [
         "https://www.france24.com/en/war-on-iran-fought-on-faulty-assumptions-notion-of-externally-delivered-regime-change-delusional"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_94776c3c0f66",
-      "cluster_time": "2026-03-24T18:12:36+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
-        "source": "BBC News",
-        "url": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
-        "summary": "Cities across the west of Ukraine were hit, with residential buildings damaged and many injured."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "titles": [
-        "Russia launches 948 drones at Ukraine in largest attack over 24-hour period"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss"
       ],
       "languages": []
     },
@@ -1613,29 +1682,6 @@
       "languages": []
     },
     {
-      "id": "singleton_aa5bdac5fcb7",
-      "cluster_time": "2026-03-24T16:15:59+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Aid flotilla reaches Cuba amid US oil blockade and blackouts",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/24/aid-flotilla-reaches-cuba-amid-us-oil-blockade-and-blackouts?traffic_source=rss",
-        "summary": "An aid flotilla has arrived in Cuba as a US-imposed oil blockade drives severe fuel shortages and widespread blackouts."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "titles": [
-        "Aid flotilla reaches Cuba amid US oil blockade and blackouts"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/video/newsfeed/2026/3/24/aid-flotilla-reaches-cuba-amid-us-oil-blockade-and-blackouts?traffic_source=rss"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_ef6963e8d70a",
       "cluster_time": "2026-03-24T16:08:03+00:00",
       "category": "regional",
@@ -1724,29 +1770,6 @@
       ],
       "urls": [
         "https://africa.businessinsider.com/local/markets/global-automaker-volkswagen-shuts-down-rwanda-exit-rumours-unveils-expansion-plan/l0jty3v"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_a5187a4e0fd4",
-      "cluster_time": "2026-03-24T15:47:39+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Iranian IRGC’s ties to Hezbollah deepen tensions in Lebanese politics",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/features/2026/3/24/iranian-irgc-ties-hezbollah-deepen-tensions-lebanese-politics?traffic_source=rss",
-        "summary": "Lebanon's prime minister said the IRGC is commanding Hezbollah and analysts agree the Iranian group is calling the shots"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "titles": [
-        "Iranian IRGC’s ties to Hezbollah deepen tensions in Lebanese politics"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/features/2026/3/24/iranian-irgc-ties-hezbollah-deepen-tensions-lebanese-politics?traffic_source=rss"
       ],
       "languages": []
     },
@@ -1843,25 +1866,94 @@
       "languages": []
     },
     {
-      "id": "singleton_68a61cbd43c7",
-      "cluster_time": "2026-03-24T15:33:33+00:00",
-      "category": "global",
+      "id": "singleton_c6a5ac2dd86e",
+      "cluster_time": "2026-03-24T15:36:53+00:00",
+      "category": "regional",
       "lead": {
-        "title": "In Beirut, refugees stay put despite Israeli strikes",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/in-beirut-palestinian-refugees-stay-put-despite-israeli-strikes",
-        "summary": "Since the start of the war in the Middle East, over one million people in Lebanon have been displaced. In the southern suburbs of Beirut, Israeli strikes have become a daily part of life. But in this neighbourhood FRANCE 24 went to, where refugees reside, few are those who decided to leave. FRANCE 24 reports."
+        "title": "Kenya: President Ruto, Orengo Pledge to Put Politics Aside for Nyanza Development",
+        "source": "AllAfrica",
+        "url": "https://allafrica.com/stories/202603240481.html",
+        "summary": "[Capital FM] Siaya -- President William Ruto has signaled a truce with Siaya Governor James Orengo, emphasizing a shared commitment to work together for the benefit of Kenyans."
       },
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "France 24"
+        "AllAfrica"
       ],
       "titles": [
-        "In Beirut, refugees stay put despite Israeli strikes"
+        "Kenya: President Ruto, Orengo Pledge to Put Politics Aside for Nyanza Development"
       ],
       "urls": [
-        "https://www.france24.com/en/in-beirut-palestinian-refugees-stay-put-despite-israeli-strikes"
+        "https://allafrica.com/stories/202603240481.html"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_7c48c05178b8",
+      "cluster_time": "2026-03-24T15:35:12+00:00",
+      "category": "regional",
+      "lead": {
+        "title": "Ethiopia: Ethiopian Airlines to Lease Two Next-Generation Converted Freighters From Aercap",
+        "source": "AllAfrica",
+        "url": "https://allafrica.com/stories/202603240474.html",
+        "summary": "[Reporter] Ethiopian Airlines has agreed to lease two Boeing 777-300ER converted freighters from AerCap Holdings N.V., in a deal that will introduce the aircraft type to Africa for the first time, the companies said on Tuesday."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "AllAfrica"
+      ],
+      "titles": [
+        "Ethiopia: Ethiopian Airlines to Lease Two Next-Generation Converted Freighters From Aercap"
+      ],
+      "urls": [
+        "https://allafrica.com/stories/202603240474.html"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_783a95634f85",
+      "cluster_time": "2026-03-24T15:33:25+00:00",
+      "category": "regional",
+      "lead": {
+        "title": "Uganda: Uganda's Tuberculosis Response Goes Digital, but Not Yet Decisive",
+        "source": "AllAfrica",
+        "url": "https://allafrica.com/stories/202603240470.html",
+        "summary": "[Independent (Kampala)] For years, Uganda's TB response has relied heavily on symptom-based screening. It is a low-cost approach, but one that experts increasingly describe as blunt and inadequate"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "AllAfrica"
+      ],
+      "titles": [
+        "Uganda: Uganda's Tuberculosis Response Goes Digital, but Not Yet Decisive"
+      ],
+      "urls": [
+        "https://allafrica.com/stories/202603240470.html"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_86bafff67926",
+      "cluster_time": "2026-03-24T15:32:54+00:00",
+      "category": "regional",
+      "lead": {
+        "title": "Uganda: Pathologists Demystify Autopsies, Costs, and Delays At Mulago Mortuary",
+        "source": "AllAfrica",
+        "url": "https://allafrica.com/stories/202603240469.html",
+        "summary": "[Independent (Kampala)] Kampala -- Senior pathologists have stepped forward to clear the air following a wave of public concern regarding the management of the Mulago National Referral Hospital mortuary."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "AllAfrica"
+      ],
+      "titles": [
+        "Uganda: Pathologists Demystify Autopsies, Costs, and Delays At Mulago Mortuary"
+      ],
+      "urls": [
+        "https://allafrica.com/stories/202603240469.html"
       ],
       "languages": []
     },
@@ -2832,29 +2924,6 @@
       "languages": []
     },
     {
-      "id": "singleton_ee0c75209313",
-      "cluster_time": "2026-03-24T11:20:06+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Search for four missing soldiers after Colombia plane crash kills 66",
-        "source": "BBC News",
-        "url": "https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&at_campaign=rss",
-        "summary": "The Hercules military transport plane crashed minutes after take-off near Colombia's southern border with Peru."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "titles": [
-        "Search for four missing soldiers after Colombia plane crash kills 66"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&at_campaign=rss"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_94fb6a9865e8",
       "cluster_time": "2026-03-24T11:19:53+00:00",
       "category": "regional",
@@ -3200,29 +3269,6 @@
       "languages": []
     },
     {
-      "id": "singleton_32016608a5f1",
-      "cluster_time": "2026-03-24T10:30:25+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "South Africa: A R60 Test Could Help South Africa Find Millions More TB Patients - But Will It Miss The Most Dangerous Cases?",
-        "source": "AllAfrica",
-        "url": "https://allafrica.com/stories/202603240229.html",
-        "summary": "[Bhekisisa] South Africa is trialling a cheap, portable TB test that costs a third of the current standard. But the new test can't detect drug-resistant TB, raising questions about how much diagnostic accuracy a national programme can afford to trade for reach."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "AllAfrica"
-      ],
-      "titles": [
-        "South Africa: A R60 Test Could Help South Africa Find Millions More TB Patients - But Will It Miss The Most Dangerous Cases?"
-      ],
-      "urls": [
-        "https://allafrica.com/stories/202603240229.html"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_35afd79dde64",
       "cluster_time": "2026-03-24T10:29:00+00:00",
       "category": "local",
@@ -3361,29 +3407,6 @@
       "languages": []
     },
     {
-      "id": "singleton_7aaac3ae8ab9",
-      "cluster_time": "2026-03-24T10:16:17+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Liberia: Fear and Frustration Mount As Liberians React to Lofa Border Tension",
-        "source": "AllAfrica",
-        "url": "https://allafrica.com/stories/202603240213.html",
-        "summary": "[New Dawn] Monrovia -- Growing tension surrounding the ongoing land dispute in Lofa County between Liberia and Guinea is sparking fear and mixed reactions among Liberian citizens, particularly those affected by displacement and uncertainty."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "AllAfrica"
-      ],
-      "titles": [
-        "Liberia: Fear and Frustration Mount As Liberians React to Lofa Border Tension"
-      ],
-      "urls": [
-        "https://allafrica.com/stories/202603240213.html"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_6691fafff532",
       "cluster_time": "2026-03-24T10:16:08+00:00",
       "category": "local",
@@ -3472,29 +3495,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/24/un-warns-of-systematic-abuse-in-occupied-palestinian-territories/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_5e38f1af31de",
-      "cluster_time": "2026-03-24T09:57:03+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Ethiopia: Regional Mega-War? How Renewed Conflict in Ethiopia Could Pull in Sudan",
-        "source": "AllAfrica",
-        "url": "https://allafrica.com/stories/202603240205.html",
-        "summary": "[The New Humanitarian] Cairo -- \"We are in an incredibly dangerous situation.\""
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "AllAfrica"
-      ],
-      "titles": [
-        "Ethiopia: Regional Mega-War? How Renewed Conflict in Ethiopia Could Pull in Sudan"
-      ],
-      "urls": [
-        "https://allafrica.com/stories/202603240205.html"
       ],
       "languages": []
     },
@@ -3656,29 +3656,6 @@
       ],
       "urls": [
         "https://allafrica.com/stories/202603240187.html"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_70e593cca8c2",
-      "cluster_time": "2026-03-24T09:45:23+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Liberia: Ex-Combatants Send Strong Message to Guinea",
-        "source": "AllAfrica",
-        "url": "https://allafrica.com/stories/202603240186.html",
-        "summary": "[New Dawn] Ganta -- A former freedom fighter from Liberia's civil war, General K. Gblorgbay Young, has urged citizens not to panic amid rising tensions along the border between Liberia and Guinea, while warning that ex-combatants stand ready to defend the country if necessary."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "AllAfrica"
-      ],
-      "titles": [
-        "Liberia: Ex-Combatants Send Strong Message to Guinea"
-      ],
-      "urls": [
-        "https://allafrica.com/stories/202603240186.html"
       ],
       "languages": []
     },
@@ -5312,29 +5289,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c93w2pw3y0no?at_medium=RSS&at_campaign=rss"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_81e28ef28ccf",
-      "cluster_time": "2026-03-23T22:18:27+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Jury orders Cosby to pay $19m to ex-waitress after finding he abused her in 1972",
-        "source": "BBC News",
-        "url": "https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Donna Motsinger alleged Cosby gave her wine and a pill that left her incapacitated after picking her up in a limousine in 1972."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "titles": [
-        "Jury orders Cosby to pay $19m to ex-waitress after finding he abused her in 1972"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&at_campaign=rss"
       ],
       "languages": []
     }
