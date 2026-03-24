@@ -556,6 +556,9 @@ def _normalise_singleton_item(item: dict) -> dict:
         "source": source,
         "category": item.get("category", ""),
         "language": language,
+
+        "languages": [language] if language else [],
+
         "cluster_time": cluster_time,
         "published": cluster_time,
         "cluster_size": 1,
