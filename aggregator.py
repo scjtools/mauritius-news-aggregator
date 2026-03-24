@@ -558,7 +558,7 @@ def scrape_semdex(source):
     return items
 
 
-# ── CEB Power Outages ─────────────────────────────────────────────────────────
+# ── CEB Power Outages ────────────────────────────────────────────────────────
 
 def fetch_power_outages(source):
     items = []
@@ -612,7 +612,7 @@ def fetch_power_outages(source):
     return items
 
 
-# ── Public holidays ───────────────────────────────────────────────────────────
+# ── Public holidays ──────────────────────────────────────────────────────────
 
 def fetch_public_holidays(source):
     items = []
@@ -667,7 +667,7 @@ def fetch_public_holidays(source):
     return items
 
 
-# ── Deduplicate (hash-based) ──────────────────────────────────────────────────
+# ── Deduplicate (hash-based) ────────────────────────────────────────────────
 
 def deduplicate(items):
     seen_urls = {}
@@ -684,7 +684,19 @@ def deduplicate(items):
     return list(seen_ids.values())
 
 
-# ── Build RSS output ──────────────────────────────────────────────────────────
+# ── Build RSS output ─────────────────────────────────────────────────────────
+
+def _list_text(value):
+    if not value:
+        return ""
+    if isinstance(value, list):
+        return "\n".join(str(v) for v in value if str(v).strip())
+    return str(value)
+
+
+def _sort_key(item):
+    return item.get("cluster_time") or item.get("published") or ""
+
 
 def build_rss(items):
     rss = Element("rss", version="2.0")
@@ -696,41 +708,38 @@ def build_rss(items):
         "%a, %d %b %Y %H:%M:%S +0000"
     )
 
-    for item in sorted(items, key=lambda x: x["published"], reverse=True):
+    for item in sorted(items, key=_sort_key, reverse=True):
         entry = SubElement(channel, "item")
-        SubElement(entry, "title").text = item["title"]
-        SubElement(entry, "link").text = item["url"]
-        SubElement(entry, "description").text = item["summary"]
-        SubElement(entry, "pubDate").text = item["published"]
-        SubElement(entry, "guid").text = item["id"]
-        SubElement(entry, "source").text = item["source"]
-        SubElement(entry, "category").text = item["category"]
-        SubElement(entry, "language").text = item["language"]
-        SubElement(entry, "date_verified").text = str(item.get("date_verified", True)).lower()
-        SubElement(entry, "cluster_size").text = str(item.get("cluster_size", 1))
 
-        if item.get("all_sources"):
-            SubElement(entry, "all_sources").text = item["all_sources"]
-        if item.get("all_urls"):
-            SubElement(entry, "all_urls").text = item["all_urls"]
-        if item.get("all_languages"):
-            SubElement(entry, "all_languages").text = item["all_languages"]
-        if item.get("lead_title"):
-            SubElement(entry, "lead_title").text = item["lead_title"]
-        if item.get("lead_source"):
-            SubElement(entry, "lead_source").text = item["lead_source"]
-        if item.get("source_count") is not None:
-            SubElement(entry, "source_count").text = str(item["source_count"])
-        if item.get("cluster_titles"):
-            SubElement(entry, "cluster_titles").text = item["cluster_titles"]
-        if item.get("cluster_id"):
-            SubElement(entry, "cluster_id").text = item["cluster_id"]
+        SubElement(entry, "title").text = item.get("title", "")
+        SubElement(entry, "link").text = item.get("url", "")
+        SubElement(entry, "description").text = item.get("summary", "")
+        SubElement(entry, "source").text = item.get("source", "")
+        SubElement(entry, "category").text = item.get("category", "")
+        SubElement(entry, "cluster_id").text = item.get("cluster_id", "")
+        SubElement(entry, "cluster_time").text = item.get("cluster_time", item.get("published", ""))
+        SubElement(entry, "cluster_size").text = str(item.get("cluster_size", 1))
+        SubElement(entry, "source_count").text = str(item.get("source_count", 1))
+
+        sources_text = _list_text(item.get("sources", []))
+        urls_text = _list_text(item.get("urls", []))
+        titles_text = _list_text(item.get("titles", []))
+        languages_text = _list_text(item.get("languages", []))
+
+        if sources_text:
+            SubElement(entry, "sources").text = sources_text
+        if urls_text:
+            SubElement(entry, "urls").text = urls_text
+        if titles_text:
+            SubElement(entry, "titles").text = titles_text
+        if languages_text:
+            SubElement(entry, "languages").text = languages_text
 
     raw = tostring(rss, encoding="unicode")
     return minidom.parseString(raw).toprettyxml(indent="  ")
 
 
-# ── Market data ───────────────────────────────────────────────────────────────
+# ── Market data ──────────────────────────────────────────────────────────────
 
 def fetch_exchange_rates(source):
     items = []
@@ -843,7 +852,7 @@ def fetch_oilprice_demo(source):
     return items
 
 
-# ── Article enrichment ────────────────────────────────────────────────────────
+# ── Article enrichment ───────────────────────────────────────────────────────
 
 def _parse_defimedia_date(soup) -> str | None:
     _DEFI_MONTHS = {
@@ -1093,7 +1102,7 @@ def enrich_articles(items: list) -> list:
     return items
 
 
-# ── Manual inject ─────────────────────────────────────────────────────────────
+# ── Manual inject ────────────────────────────────────────────────────────────
 
 def load_injected_items(path="inject.yaml"):
     if not os.path.exists(path):
@@ -1145,7 +1154,7 @@ def load_injected_items(path="inject.yaml"):
         return []
 
 
-# ── Main ──────────────────────────────────────────────────────────────────────
+# ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
     sources = load_sources()
