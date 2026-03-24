@@ -715,6 +715,16 @@ def build_rss(items):
             SubElement(entry, "all_urls").text = item["all_urls"]
         if item.get("all_languages"):
             SubElement(entry, "all_languages").text = item["all_languages"]
+        if item.get("lead_title"):
+            SubElement(entry, "lead_title").text = item["lead_title"]
+        if item.get("lead_source"):
+            SubElement(entry, "lead_source").text = item["lead_source"]
+        if item.get("source_count") is not None:
+            SubElement(entry, "source_count").text = str(item["source_count"])
+        if item.get("cluster_titles"):
+            SubElement(entry, "cluster_titles").text = item["cluster_titles"]
+        if item.get("cluster_id"):
+            SubElement(entry, "cluster_id").text = item["cluster_id"]
 
     raw = tostring(rss, encoding="unicode")
     return minidom.parseString(raw).toprettyxml(indent="  ")
