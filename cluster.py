@@ -108,7 +108,18 @@ def _normalise(text: str) -> str:
 def _clean_summary_text(text: str) -> str:
     if not text:
         return ""
-    return re.sub(r"\s+", " ", text).strip()
+    text = str(text)
+
+    # Remove inline URL blocks
+    text = re.sub(r"\bURL:\s*https?://\S+", " ", text, flags=re.IGNORECASE)
+
+    # Remove raw URLs that may survive
+    text = re.sub(r"https?://\S+", " ", text, flags=re.IGNORECASE)
+
+    # Collapse repeated whitespace
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text
 
 
 def _semantic_text(item: dict) -> str:
@@ -271,13 +282,11 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
     Pass 3 — exact normalised title
     Pass 4 — semantic similarity (same article, reworded title)
     """
-    # Pass 1: canonical URL
     url_groups: dict[str, list[dict]] = defaultdict(list)
     for item in items:
         url_groups[_canonical_url(item.get("url", ""))].append(item)
     deduped = [_best_item(g) for g in url_groups.values()]
 
-    # Pass 2: ID hash
     seen: dict[str, dict] = {}
     for item in deduped:
         iid = item.get("id", "")
@@ -287,7 +296,6 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
             seen[iid] = _best_item([seen[iid], item])
     deduped = list(seen.values())
 
-    # Pass 3: exact normalised title
     title_groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for item in deduped:
         lang = item.get("language", "") or ""
@@ -299,7 +307,6 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
 
     deduped = [_best_item(g) for g in title_groups.values()]
 
-    # Pass 4: semantic dedup
     before = len(deduped)
     deduped = _semantic_dedup(deduped)
     removed = before - len(deduped)
@@ -363,16 +370,6 @@ _NO_CLUSTER_CATEGORIES = {"finance", "weather", "utilities"}
 
 
 def cluster_and_collapse(items: list[dict]) -> list[dict]:
-    """
-    Groups items covering the same news event and collapses each cluster into
-    a single, schema-consistent feed item.
-
-    Flow:
-      1) cluster raw items within language
-      2) collapse groups
-      3) merge collapsed groups across language
-      4) normalise passthrough items to same schema
-    """
     passthrough_raw = [i for i in items if i.get("category", "") in _NO_CLUSTER_CATEGORIES]
     clusterable = [i for i in items if i.get("category", "") not in _NO_CLUSTER_CATEGORIES]
 
@@ -474,10 +471,6 @@ def _cluster_raw_items_same_language(clusterable: list[dict]) -> list[list[dict]
 
 
 def _merge_cross_language_clusters(items: list[dict]) -> list[dict]:
-    """
-    Second-pass merge on already-collapsed items.
-    This is where EN/FR versions of the same event can be joined.
-    """
     if len(items) < 2:
         return items
 
@@ -559,28 +552,57 @@ def _normalise_singleton_item(item: dict) -> dict:
         "id": item.get("id", ""),
         "title": title,
         "url": url,
-        "summary": summary,
+        "summary": _clean_summary_text(summary),
         "source": source,
         "category": item.get("category", ""),
         "language": language,
         "cluster_time": cluster_time,
-        "published": cluster_time,  # keep internal compatibility
+        "published": cluster_time,
         "cluster_size": 1,
         "source_count": 1,
-        "sources": [source] if source else [],
-        "urls": [url] if url else [],
-        "titles": [title] if title else [],
-        "languages": [language] if language else [],
         "cluster_id": cluster_id,
     }
 
 
+def _strip_leading_title_dup(summary: str, title: str, source: str) -> str:
+    """
+    Remove duplicated lead patterns like:
+      [Source] Title
+      Title
+      Title URL: ...
+    when the title is already stored separately in XML.
+    """
+    if not summary:
+        return ""
+
+    text = summary.strip()
+    title = (title or "").strip()
+    source = (source or "").strip()
+
+    if source:
+        text = re.sub(
+            rf"^\[{re.escape(source)}\]\s*",
+            "",
+            text,
+            flags=re.IGNORECASE
+        ).strip()
+
+    if title:
+        norm_title = re.sub(r"\s+", " ", title).strip()
+        if text.startswith(norm_title):
+            text = text[len(norm_title):].strip(" :-–—\n\t")
+
+    return text.strip()
+
+
 def _summary_block(item: dict) -> str:
     source = item.get("source", "?")
-    summary = _clean_summary_text(item.get("summary", ""))
     title = (item.get("title", "") or "").strip()
+    summary = _clean_summary_text(item.get("summary", ""))
 
+    summary = _strip_leading_title_dup(summary, title, source)
     body = summary or title
+
     if not body:
         return f"[{source}]"
 
@@ -588,12 +610,6 @@ def _summary_block(item: dict) -> str:
 
 
 def _collapse_group(group: list[dict]) -> dict:
-    """
-    Merge related items into one canonical feed item.
-    group[0] is highest-priority source (lead).
-
-    Output schema is intentionally lean for downstream LLM use.
-    """
     lead = group[0]
 
     summary_blocks = []
@@ -642,7 +658,7 @@ def _collapse_group(group: list[dict]) -> dict:
         "category": lead.get("category", ""),
         "language": lead.get("language", ""),
         "cluster_time": cluster_time,
-        "published": cluster_time,  # keep internal compatibility
+        "published": cluster_time,
         "cluster_size": len(group),
         "source_count": len(unique_sources),
         "sources": unique_sources,
