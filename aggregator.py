@@ -12,16 +12,19 @@ from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
 import os
 import warnings
+import logging
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 from cluster import deduplicate_items, cluster_and_collapse, deduplicate_bulletin_text
 
+logging.basicConfig(level=logging.INFO, format="%(message)s")
+
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 }
 MAX_AGE_HOURS = 24
-MAX_SUMMARY_CHARS = 800
+MAX_SUMMARY_CHARS = 500
 SCRAPE_SLEEP_SECONDS = 2
 
 
@@ -75,7 +78,7 @@ def try_parse_date_from_html(tag):
 def clean_title(title, source_name):
     """Strip trailing source attribution suffixes added by Google News aggregation."""
     if "Google News" in source_name:
-        title = re.sub(r'\s*[-–]\s*[^-–]{3,50}$', '', title).strip()
+        title = re.sub(r"\s*[-–]\s*[^-–]{3,50}$", "", title).strip()
     return title
 
 
@@ -83,7 +86,7 @@ def clean_title(title, source_name):
 
 def fetch_rss(source):
     items = []
-    exclude_url_patterns   = source.get("exclude_url_patterns", [])
+    exclude_url_patterns = source.get("exclude_url_patterns", [])
     exclude_title_prefixes = source.get("exclude_title_prefixes", [])
     try:
         if "lemauricien.com" in source["url"]:
@@ -92,31 +95,37 @@ def fetch_rss(source):
             feed = feedparser.parse(_rss_raw.text)
         else:
             feed = feedparser.parse(source["url"])
+
         for entry in feed.entries:
             dt = parse_date(entry)
             if not is_recent(dt):
                 continue
+
             raw_title = entry.get("title", "").strip()
             url = entry.get("link", "")
+
             if any(pat in url for pat in exclude_url_patterns):
                 continue
             if any(raw_title.startswith(pfx) for pfx in exclude_title_prefixes):
                 continue
+
             title = clean_title(raw_title, source["name"])
             summary = BeautifulSoup(
                 getattr(entry, "summary", "") or "", "html.parser"
             ).get_text()[:MAX_SUMMARY_CHARS]
+
             if not summary.strip() and source.get("summary_fallback_title"):
                 summary = title
+
             items.append({
-                "id":           item_id(title, entry.get("link", "")),
-                "title":        title,
-                "url":          url,
-                "summary":      summary.strip(),
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    dt.isoformat() if dt else datetime.now(timezone.utc).isoformat(),
+                "id": item_id(title, entry.get("link", "")),
+                "title": title,
+                "url": url,
+                "summary": summary.strip(),
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": dt.isoformat() if dt else datetime.now(timezone.utc).isoformat(),
                 "date_verified": dt is not None,
             })
     except Exception as e:
@@ -161,6 +170,7 @@ def scrape_homepage(source):
 
             if len(title) < 20 or len(title) > 200:
                 continue
+
             if not url.startswith("http"):
                 if url.startswith("/"):
                     from urllib.parse import urlparse
@@ -169,6 +179,7 @@ def scrape_homepage(source):
                 else:
                     base = source["url"].rstrip("/")
                 url = base + "/" + url.lstrip("/")
+
             if url in seen:
                 continue
 
@@ -180,16 +191,13 @@ def scrape_homepage(source):
 
             category_allowlist = source.get("category_allowlist")
             if category_allowlist and not use_link_fallback:
-                cat_el = tag.find(
-                    class_=lambda c: c and "article-category" in c
-                )
+                cat_el = tag.find(class_=lambda c: c and "article-category" in c)
                 if cat_el is None or cat_el.get_text(strip=True) not in category_allowlist:
                     continue
 
             url_path_allowlist = source.get("url_path_allowlist")
-            if url_path_allowlist:
-                if not any(seg in url for seg in url_path_allowlist):
-                    continue
+            if url_path_allowlist and not any(seg in url for seg in url_path_allowlist):
+                continue
 
             seen.add(url)
 
@@ -247,14 +255,14 @@ def scrape_homepage(source):
             published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
 
             items.append({
-                "id":           item_id(title, url),
-                "title":        title,
-                "url":          url,
-                "summary":      summary,
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    published,
+                "id": item_id(title, url),
+                "title": title,
+                "url": url,
+                "summary": summary,
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": published,
                 "date_verified": dt is not None,
             })
 
@@ -336,14 +344,14 @@ def scrape_megamu(source):
                 published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
 
                 items.append({
-                    "id":           item_id(title, redirect_url),
-                    "title":        title,
-                    "url":          redirect_url,
-                    "summary":      summary,
-                    "source":       source["name"],
-                    "language":     source["language"],
-                    "category":     source["category"],
-                    "published":    published,
+                    "id": item_id(title, redirect_url),
+                    "title": title,
+                    "url": redirect_url,
+                    "summary": summary,
+                    "source": source["name"],
+                    "language": source["language"],
+                    "category": source["category"],
+                    "published": published,
                     "date_verified": dt is not None,
                 })
                 found_on_page += 1
@@ -367,11 +375,9 @@ _LM_MONTHS = {
     "fev": 2, "aou": 8,
 }
 
+
 def _parse_lm_date(text: str):
-    m = re.search(
-        r"(\d{1,2})\s+(\w+)\s+(\d{4})\s+(\d{1,2})h(\d{2})",
-        text, re.IGNORECASE
-    )
+    m = re.search(r"(\d{1,2})\s+(\w+)\s+(\d{4})\s+(\d{1,2})h(\d{2})", text, re.IGNORECASE)
     if m:
         day, mon, year = int(m.group(1)), m.group(2).lower()[:3], int(m.group(3))
         hour, minute = int(m.group(4)), int(m.group(5))
@@ -379,6 +385,7 @@ def _parse_lm_date(text: str):
         if month:
             mu_tz = timezone(timedelta(hours=4))
             return datetime(year, month, day, hour, minute, tzinfo=mu_tz).astimezone(timezone.utc)
+
     m2 = re.search(r"(\d{1,2})\s+(\w+)\s+(\d{4})", text, re.IGNORECASE)
     if m2:
         day, mon, year = int(m2.group(1)), m2.group(2).lower()[:3], int(m2.group(3))
@@ -386,6 +393,7 @@ def _parse_lm_date(text: str):
         if month:
             mu_tz = timezone(timedelta(hours=4))
             return datetime(year, month, day, 12, 0, tzinfo=mu_tz).astimezone(timezone.utc)
+
     return None
 
 
@@ -399,7 +407,6 @@ def scrape_lemauricien(source):
 
         url_path_allowlist = source.get("url_path_allowlist", [])
         source_host = source["url"].rstrip("/").split("//")[-1]
-
         seen = set()
 
         for a_tag in soup.find_all("a", href=True):
@@ -414,10 +421,8 @@ def scrape_lemauricien(source):
 
             if source_host not in url:
                 continue
-
             if url_path_allowlist and not any(seg in url for seg in url_path_allowlist):
                 continue
-
             if url in seen:
                 continue
 
@@ -458,14 +463,14 @@ def scrape_lemauricien(source):
             published = dt.isoformat() if dt else datetime.now(timezone.utc).isoformat()
 
             items.append({
-                "id":            item_id(title, url),
-                "title":         title,
-                "url":           url,
-                "summary":       summary,
-                "source":        source["name"],
-                "language":      source["language"],
-                "category":      source["category"],
-                "published":     published,
+                "id": item_id(title, url),
+                "title": title,
+                "url": url,
+                "summary": summary,
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": published,
                 "date_verified": dt is not None,
             })
 
@@ -495,28 +500,23 @@ def scrape_bulletin(source):
 
         if paragraphs:
             bulletin_text = " ".join(paragraphs)
-            bulletin_text = re.sub(
-                r"^Welcome to Mauritius Meteorological Services\s*", "", bulletin_text
-            ).strip()
-            # Strip nav boilerplate that appears at the end of the page
-            bulletin_text = re.sub(
-                r"\s*About Us\|Publications\|.+$", "", bulletin_text, flags=re.DOTALL
-            ).strip()
-            # Fix double-rendering: Met Service page sometimes emits bulletin twice
+            bulletin_text = re.sub(r"^Welcome to Mauritius Meteorological Services\s*", "", bulletin_text).strip()
+            bulletin_text = re.sub(r"\s*About Us\|Publications\|.+$", "", bulletin_text, flags=re.DOTALL).strip()
             bulletin_text = deduplicate_bulletin_text(bulletin_text)
 
             now = datetime.now(timezone.utc)
             items.append({
-                "id":           item_id("Met bulletin", now.strftime("%Y-%m-%d")),
-                "title":        f"Mauritius weather bulletin – {now.strftime('%d %B %Y')}",
-                "url":          source["url"],
-                "summary":      bulletin_text,
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    now.isoformat(),
+                "id": item_id("Met bulletin", now.strftime("%Y-%m-%d")),
+                "title": f"Mauritius weather bulletin – {now.strftime('%d %B %Y')}",
+                "url": source["url"],
+                "summary": bulletin_text,
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": now.isoformat(),
                 "date_verified": True,
             })
+
         time.sleep(SCRAPE_SLEEP_SECONDS)
     except Exception as e:
         print(f"[BULLETIN ERROR] {source['name']}: {e}")
@@ -539,18 +539,19 @@ def scrape_semdex(source):
         if semdex_value:
             now = datetime.now(timezone.utc)
             items.append({
-                "id":           item_id("SEMDEX", now.strftime("%Y-%m-%d")),
-                "title":        f"SEMDEX – {now.strftime('%d %B %Y')}",
-                "url":          source["url"],
-                "summary":      f"SEMDEX closed at {semdex_value}",
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    now.isoformat(),
+                "id": item_id("SEMDEX", now.strftime("%Y-%m-%d")),
+                "title": f"SEMDEX – {now.strftime('%d %B %Y')}",
+                "url": source["url"],
+                "summary": f"SEMDEX closed at {semdex_value}",
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": now.isoformat(),
                 "date_verified": True,
             })
         else:
-            print(f"[SEMDEX WARNING] Could not extract index value from page")
+            print("[SEMDEX WARNING] Could not extract index value from page")
+
         time.sleep(SCRAPE_SLEEP_SECONDS)
     except Exception as e:
         print(f"[SEMDEX ERROR] {source['name']}: {e}")
@@ -566,7 +567,6 @@ def fetch_power_outages(source):
         r.raise_for_status()
         data = r.json()
 
-        now = datetime.now(timezone.utc)
         all_outages = data.get("today", []) + data.get("future", [])
 
         for outage in all_outages:
@@ -596,14 +596,14 @@ def fetch_power_outages(source):
                 summary += f" Areas affected: {streets[:300]}"
 
             items.append({
-                "id":           item_id("CEB outage", outage_id or f"{locality}{from_str}"),
-                "title":        title,
-                "url":          "https://github.com/MrSunshyne/mauritius-dataset-electricity",
-                "summary":      summary[:MAX_SUMMARY_CHARS],
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    from_dt.isoformat(),
+                "id": item_id("CEB outage", outage_id or f"{locality}{from_str}"),
+                "title": title,
+                "url": "https://github.com/MrSunshyne/mauritius-dataset-electricity",
+                "summary": summary[:MAX_SUMMARY_CHARS],
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": from_dt.isoformat(),
                 "date_verified": True,
             })
 
@@ -651,14 +651,14 @@ def fetch_public_holidays(source):
                     parts.append(f"In {days_away} days ({hdate}): {name}")
 
             items.append({
-                "id":           item_id("public holiday", today.isoformat()),
-                "title":        f"Upcoming public holiday – {upcoming[0][1]}",
-                "url":          "https://govmu.org",
-                "summary":      " | ".join(parts),
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    now.isoformat(),
+                "id": item_id("public holiday", today.isoformat()),
+                "title": f"Upcoming public holiday – {upcoming[0][1]}",
+                "url": "https://govmu.org",
+                "summary": " | ".join(parts),
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": now.isoformat(),
                 "date_verified": True,
             })
 
@@ -707,12 +707,14 @@ def build_rss(items):
         SubElement(entry, "category").text = item["category"]
         SubElement(entry, "language").text = item["language"]
         SubElement(entry, "date_verified").text = str(item.get("date_verified", True)).lower()
-        # Cluster metadata
         SubElement(entry, "cluster_size").text = str(item.get("cluster_size", 1))
+
         if item.get("all_sources"):
             SubElement(entry, "all_sources").text = item["all_sources"]
         if item.get("all_urls"):
             SubElement(entry, "all_urls").text = item["all_urls"]
+        if item.get("all_languages"):
+            SubElement(entry, "all_languages").text = item["all_languages"]
 
     raw = tostring(rss, encoding="unicode")
     return minidom.parseString(raw).toprettyxml(indent="  ")
@@ -728,6 +730,7 @@ def fetch_exchange_rates(source):
         root = ET.fromstring(r.content)
         target_currencies = source.get("currencies", [])
         rates = {}
+
         for item in root.findall("item"):
             title = item.findtext("title", "")
             for currency in target_currencies:
@@ -741,6 +744,7 @@ def fetch_exchange_rates(source):
                             rates[currency] = 1.0 / float(rate_value)
                         except (ValueError, ZeroDivisionError):
                             pass
+
         if rates:
             now = datetime.now(timezone.utc)
             summary = " | ".join(
@@ -748,14 +752,14 @@ def fetch_exchange_rates(source):
                 for c in target_currencies if c in rates
             )
             items.append({
-                "id":           item_id("MUR rates", now.strftime("%Y-%m-%d")),
-                "title":        f"MUR exchange rates – {now.strftime('%d %B %Y')}",
-                "url":          source["url"],
-                "summary":      summary,
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    now.isoformat(),
+                "id": item_id("MUR rates", now.strftime("%Y-%m-%d")),
+                "title": f"MUR exchange rates – {now.strftime('%d %B %Y')}",
+                "url": source["url"],
+                "summary": summary,
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": now.isoformat(),
                 "date_verified": True,
             })
     except Exception as e:
@@ -778,14 +782,14 @@ def fetch_gold_api(source):
             now = datetime.now(timezone.utc)
             label = {"XAU": "Gold", "BTC": "Bitcoin"}.get(symbol, symbol)
             items.append({
-                "id":           item_id(f"{symbol} price", now.strftime("%Y-%m-%d")),
-                "title":        f"{label} price – {now.strftime('%d %B %Y')}",
-                "url":          source["url"],
-                "summary":      f"{label} ({symbol}): {currency} {price:,.2f}",
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    now.isoformat(),
+                "id": item_id(f"{symbol} price", now.strftime("%Y-%m-%d")),
+                "title": f"{label} price – {now.strftime('%d %B %Y')}",
+                "url": source["url"],
+                "summary": f"{label} ({symbol}): {currency} {price:,.2f}",
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": now.isoformat(),
                 "date_verified": True,
             })
     except Exception as e:
@@ -812,14 +816,14 @@ def fetch_oilprice_demo(source):
         if price is not None:
             now = datetime.now(timezone.utc)
             items.append({
-                "id":           item_id("Brent crude", now.strftime("%Y-%m-%d")),
-                "title":        f"{label} price – {now.strftime('%d %B %Y')}",
-                "url":          "https://www.oilpriceapi.com",
-                "summary":      f"{label}: {formatted if formatted else f'{currency} {price:,.2f}'} per barrel",
-                "source":       source["name"],
-                "language":     source["language"],
-                "category":     source["category"],
-                "published":    now.isoformat(),
+                "id": item_id("Brent crude", now.strftime("%Y-%m-%d")),
+                "title": f"{label} price – {now.strftime('%d %B %Y')}",
+                "url": "https://www.oilpriceapi.com",
+                "summary": f"{label}: {formatted if formatted else f'{currency} {price:,.2f}'} per barrel",
+                "source": source["name"],
+                "language": source["language"],
+                "category": source["category"],
+                "published": now.isoformat(),
                 "date_verified": True,
             })
         else:
@@ -841,6 +845,7 @@ def _parse_defimedia_date(soup) -> str | None:
     date_div = soup.find("div", class_="published-date")
     if not date_div:
         return None
+
     text = date_div.get_text(" ", strip=True)
     text = re.sub(r"Publi[ée]\s+le\s*:\s*", "", text, flags=re.IGNORECASE).strip()
     m = re.search(
@@ -858,6 +863,7 @@ def _parse_defimedia_date(soup) -> str | None:
             mu_tz = timezone(timedelta(hours=4))
             dt = datetime(year, month, day, hour, minute, tzinfo=mu_tz)
             return dt.astimezone(timezone.utc).isoformat()
+
     return None
 
 
@@ -867,6 +873,7 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
     is_defimedia = "defimedia.info" in url
     headers = {**HEADERS, **(extra_headers or {})}
     delays = [2, 10, 30]
+
     for attempt, delay in enumerate([0] + delays):
         if delay:
             _time.sleep(delay)
@@ -885,7 +892,6 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
                 r.encoding = "utf-8"
 
             soup = BeautifulSoup(r.text, "html.parser")
-
             published = None
 
             if is_defimedia:
@@ -895,8 +901,8 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
                 for attr, name in [
                     ("property", "article:published_time"),
                     ("property", "og:article:published_time"),
-                    ("name",     "article:published_time"),
-                    ("name",     "datePublished"),
+                    ("name", "article:published_time"),
+                    ("name", "datePublished"),
                     ("itemprop", "datePublished"),
                 ]:
                     tag = soup.find("meta", attrs={attr: name})
@@ -925,8 +931,8 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
             summary = None
             for attr, name in [
                 ("property", "og:description"),
-                ("name",     "description"),
-                ("name",     "twitter:description"),
+                ("name", "description"),
+                ("name", "twitter:description"),
             ]:
                 tag = soup.find("meta", attrs={attr: name})
                 if tag and tag.get("content") and len(tag["content"].strip()) > 40:
@@ -1016,8 +1022,7 @@ def enrich_articles(items: list) -> list:
         and i not in set(date_targets)
     ]
 
-    print(f"  Enriching: {len(date_targets)} need date+summary, "
-          f"{len(summary_targets)} need summary only")
+    print(f"  Enriching: {len(date_targets)} need date+summary, {len(summary_targets)} need summary only")
 
     stats = defaultdict(lambda: {"enriched": 0, "dropped": 0, "failed": 0, "summary_only": 0})
     indices_to_drop = []
@@ -1071,8 +1076,7 @@ def enrich_articles(items: list) -> list:
         items.pop(idx)
 
     for src, s in sorted(stats.items()):
-        print(f"    [{src}] enriched={s['enriched']}, dropped={s['dropped']}, "
-              f"summary_only={s['summary_only']}, failed={s['failed']}")
+        print(f"    [{src}] enriched={s['enriched']}, dropped={s['dropped']}, summary_only={s['summary_only']}, failed={s['failed']}")
 
     total_dropped = sum(s["dropped"] for s in stats.values())
     print(f"  Total stale dropped: {total_dropped}")
@@ -1109,15 +1113,16 @@ def load_injected_items(path="inject.yaml"):
                         description = meta.get("summary") or ""
                 except Exception:
                     title = url
+
             items.append({
-                "id":            item_id(title, url),
-                "title":         title,
-                "url":           url,
-                "summary":       description,
-                "source":        "Injected",
-                "language":      language,
-                "category":      category,
-                "published":     now.isoformat(),
+                "id": item_id(title, url),
+                "title": title,
+                "url": url,
+                "summary": description,
+                "source": "Injected",
+                "language": language,
+                "category": category,
+                "published": now.isoformat(),
                 "date_verified": True,
             })
 
@@ -1174,7 +1179,6 @@ def main():
         print(f"  {source['name']}: {len(items)} items")
         all_items.extend(items)
 
-    # ── Market data cache ─────────────────────────────────────────────────────
     _CACHE_PATH = "market_cache.json"
     try:
         with open(_CACHE_PATH) as _f:
@@ -1186,6 +1190,7 @@ def main():
     for item in all_items:
         if item.get("category") != "finance":
             continue
+
         src = item.get("source", "")
         summary = item.get("summary", "")
 
@@ -1227,35 +1232,32 @@ def main():
                 pct = (delta / prev * 100) if prev else 0
                 arrow = "▲" if delta > 0 else "▼" if delta < 0 else "→"
                 if cache_key == "SEMDEX":
-                    item["summary"] += f" ({arrow} {abs(delta):.2f} pts, {'+' if delta>=0 else ''}{pct:.2f}% from last close {prev:,.2f})"
+                    item["summary"] += f" ({arrow} {abs(delta):.2f} pts, {'+' if delta >= 0 else ''}{pct:.2f}% from last close {prev:,.2f})"
                 else:
-                    item["summary"] += f" ({arrow} {'+' if delta>=0 else ''}{pct:.2f}% from last)"
+                    item["summary"] += f" ({arrow} {'+' if delta >= 0 else ''}{pct:.2f}% from last)"
 
     for k, v in _prev_cache.items():
         if k not in _new_cache:
             _new_cache[k] = v
+
     try:
         with open(_CACHE_PATH, "w") as _f:
             json.dump(_new_cache, _f, indent=2)
     except Exception as e:
         print(f"[CACHE WRITE ERROR] {e}")
 
-    # ── Manual injections ─────────────────────────────────────────────────────
     injected = load_injected_items()
     if injected:
         print(f"  Injected items: {len(injected)}")
         all_items.extend(injected)
 
-    # ── Deduplication (hash-based: URL + ID) ──────────────────────────────────
     all_items = deduplicate(all_items)
     print(f"\nAfter hash dedup: {len(all_items)} items")
 
-    # ── Enrichment ────────────────────────────────────────────────────────────
     print("Enriching unverified local articles...")
     all_items = enrich_articles(all_items)
     print(f"  Total after enrichment: {len(all_items)}")
 
-    # ── Semantic dedup + cluster + collapse ───────────────────────────────────
     before = len(all_items)
     all_items = deduplicate_items(all_items)
     print(f"After semantic dedup: {len(all_items)} items ({before - len(all_items)} removed)")
@@ -1264,7 +1266,6 @@ def main():
     multi = sum(1 for i in all_items if i.get("cluster_size", 1) > 1)
     print(f"After cluster+collapse: {len(all_items)} items ({multi} multi-source clusters)")
 
-    # ── Write feed ────────────────────────────────────────────────────────────
     rss_output = build_rss(all_items)
     with open("feed.xml", "w", encoding="utf-8") as f:
         f.write(rss_output)
