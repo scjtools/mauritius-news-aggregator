@@ -6,7 +6,8 @@ WHAT THIS MODULE DOES
 1. DEDUPLICATION  — removes items that are the same article:
    • Pass 1: canonical URL match (strips UTM params, /amp suffixes)
    • Pass 2: ID hash match (aggregator re-ingestion)
-   • Pass 3: semantic cosine similarity on sentence embeddings (threshold 0.92)
+   • Pass 3: exact normalised-title match
+   • Pass 4: semantic cosine similarity on sentence embeddings (threshold 0.92)
 
 2. CLUSTERING — groups items that cover the same news event:
    • Pass A: same-language clustering on raw items
@@ -39,7 +40,7 @@ log = logging.getLogger(__name__)
 _MODEL_NAME = "all-MiniLM-L6-v2"
 _DEDUP_THRESHOLD = 0.92          # same article
 _CLUSTER_THRESHOLD = 0.70        # same-event clustering within same language
-_XLANG_CLUSTER_THRESHOLD = 0.78  # stricter second-pass EN/FR merge on collapsed clusters
+_XLANG_CLUSTER_THRESHOLD = 0.74  # second-pass EN/FR merge on collapsed clusters
 _SUMMARY_EMBED_CHARS = 300       # chars of summary to include in semantic text
 
 # ── Singleton model loader ────────────────────────────────────────────────────
@@ -131,14 +132,21 @@ def _cross_language_semantic_text(item: dict) -> str:
     title = _normalise(item.get("title", ""))
     summary = _clean_summary_text(item.get("summary", ""))
 
-    # Remove obvious multi-source formatting noise from collapsed summaries.
-    summary = re.sub(r"\[[^\]]+\]", " ", summary)          # [SOURCE]
-    summary = re.sub(r"URL:\s*\S+", " ", summary)          # URL: ...
+    summary = re.sub(r"\[[^\]]+\]", " ", summary)   # [SOURCE]
+    summary = re.sub(r"URL:\s*\S+", " ", summary)   # URL: ...
     summary = re.sub(r"\s+", " ", summary).strip()
 
     if summary:
         return f"{title} {summary[:_SUMMARY_EMBED_CHARS]}"
     return title
+
+
+def _normalised_title_key(item: dict) -> str:
+    """
+    Deterministic title key for cheap exact-title dedup.
+    We keep this conservative: exact normalised title only.
+    """
+    return _normalise(item.get("title", ""))
 
 
 def _canonical_url(url: str) -> str:
@@ -163,6 +171,25 @@ def _title_similarity(a: str, b: str) -> float:
     longer = set(tb) if len(ta) <= len(tb) else set(ta)
     containment = len(shorter & longer) / len(shorter) if shorter else 0.0
     return 0.4 * bigram_j + 0.6 * containment
+
+
+def _headline_quality(item: dict) -> tuple[int, int, int]:
+    """
+    Prefer clearer, more informative lead headlines without overcomplicating it.
+    Higher is better.
+    """
+    title = (item.get("title", "") or "").strip()
+    title_len = len(title)
+
+    has_question = int("?" in title)
+    has_separator = int(" : " in title or " - " in title or " | " in title)
+    reasonable_len = int(35 <= title_len <= 140)
+
+    return (
+        reasonable_len,
+        has_separator,
+        -has_question,
+    )
 
 
 # ── Source priority ───────────────────────────────────────────────────────────
@@ -192,7 +219,9 @@ def _best_item(candidates: list[dict]) -> dict:
     return max(candidates, key=lambda i: (
         _priority(i),
         int(i.get("date_verified", False)),
+        _headline_quality(i),
         len(i.get("summary", "")),
+        len(i.get("title", "")),
     ))
 
 
@@ -225,11 +254,12 @@ def _make_uf(n: int, items: list[dict]):
 
 def deduplicate_items(items: list[dict]) -> list[dict]:
     """
-    Three-pass deduplication.
+    Four-pass deduplication.
 
     Pass 1 — canonical URL
     Pass 2 — ID hash
-    Pass 3 — semantic similarity (same article, reworded title)
+    Pass 3 — exact normalised title
+    Pass 4 — semantic similarity (same article, reworded title)
     """
     # Pass 1: canonical URL
     url_groups: dict[str, list[dict]] = defaultdict(list)
@@ -247,7 +277,19 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
             seen[iid] = _best_item([seen[iid], item])
     deduped = list(seen.values())
 
-    # Pass 3: semantic dedup
+    # Pass 3: exact normalised title
+    title_groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
+    for item in deduped:
+        lang = item.get("language", "") or ""
+        key = _normalised_title_key(item)
+        if key:
+            title_groups[(lang, key)].append(item)
+        else:
+            title_groups[(lang, f"__blank__::{id(item)}")].append(item)
+
+    deduped = [_best_item(g) for g in title_groups.values()]
+
+    # Pass 4: semantic dedup
     before = len(deduped)
     deduped = _semantic_dedup(deduped)
     removed = before - len(deduped)
@@ -337,7 +379,9 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
         group_sorted = sorted(group_items, key=lambda i: (
             _priority(i),
             int(i.get("date_verified", False)),
+            _headline_quality(i),
             len(i.get("summary", "")),
+            len(i.get("title", "")),
         ), reverse=True)
         if len(group_sorted) == 1:
             group_sorted[0]["cluster_size"] = 1
@@ -346,13 +390,19 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
             multi += 1
             collapsed.append(_collapse_group(group_sorted))
 
-    log.info(f"[cluster] Same-language pass: {multi} multi-source clusters from {len(clusterable)} items → {len(collapsed)} collapsed")
+    log.info(
+        f"[cluster] Same-language pass: {multi} multi-source clusters "
+        f"from {len(clusterable)} items → {len(collapsed)} collapsed"
+    )
 
     before_xlang = len(collapsed)
     collapsed = _merge_cross_language_clusters(collapsed)
     after_xlang = len(collapsed)
-    if after_xlang < before_xlang:
-        log.info(f"[cluster] Cross-language merge: {before_xlang} collapsed items → {after_xlang}")
+
+    log.info(
+        f"[cluster] Cross-language merge: {before_xlang} collapsed items "
+        f"→ {after_xlang}"
+    )
 
     all_items = collapsed + passthrough
     all_items.sort(key=lambda i: i.get("published", ""), reverse=True)
@@ -439,7 +489,6 @@ def _merge_cross_language_clusters(items: list[dict]) -> list[dict]:
 
                 ia, ib = items[i], items[j]
 
-                # Only do second-pass merge across languages.
                 if ia.get("language") == ib.get("language"):
                     continue
 
@@ -478,7 +527,9 @@ def _merge_cross_language_clusters(items: list[dict]) -> list[dict]:
             group_sorted = sorted(group, key=lambda i: (
                 _priority(i),
                 int(i.get("date_verified", False)),
+                _headline_quality(i),
                 len(i.get("summary", "")),
+                len(i.get("title", "")),
             ), reverse=True)
             merged.append(_collapse_group(group_sorted))
 
