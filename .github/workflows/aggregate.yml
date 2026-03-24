@@ -66,7 +66,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml inject.yaml market_cache.json
+          git add feed.xml inject.yaml
           ITEM_COUNT=$(python3 -c "import xml.etree.ElementTree as ET; t=ET.parse('feed.xml'); print(len(t.findall('.//item')))")
           git diff --staged --quiet || git commit -m "autorun: feed ${ITEM_COUNT} items — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
