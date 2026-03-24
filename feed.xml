@@ -4,7 +4,7 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Tue, 24 Mar 2026 09:22:12 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 09:41:14 +0000</lastBuildDate>
     <item>
       <title>L’avocat de Frederic Pavaday présente une nouvelle motion de remise en liberté conditionnelle</title>
       <link>https://www.lemauricien.com/actualites/faits-divers/lavocat-de-frederic-pavaday-presente-une-nouvelle-motion-de-remise-en-liberte-conditionnelle/702548/</link>
@@ -18,12 +18,96 @@
       <cluster_size>1</cluster_size>
     </item>
     <item>
+      <title>Brent Crude Oil price – 24 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 102.23 per barrel</description>
+      <pubDate>2026-03-24T09:37:00.183929+00:00</pubDate>
+      <guid>3562572646d0583ddb2a1f915bf78e97</guid>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+      <cluster_size>1</cluster_size>
+    </item>
+    <item>
+      <title>Bitcoin price – 24 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 70,998.11 (▲ +0.84% from last)</description>
+      <pubDate>2026-03-24T09:37:00.094302+00:00</pubDate>
+      <guid>fe2dbbed25035f4a3610383a2fb2693e</guid>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+      <cluster_size>1</cluster_size>
+    </item>
+    <item>
+      <title>Gold price – 24 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,413.30 (▲ +0.55% from last)</description>
+      <pubDate>2026-03-24T09:36:59.884692+00:00</pubDate>
+      <guid>ba9b77db4922db29c247ef49def29df6</guid>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+      <cluster_size>1</cluster_size>
+    </item>
+    <item>
+      <title>MUR exchange rates – 24 March 2026</title>
+      <link>https://www.floatrates.com/daily/mur.xml</link>
+      <description>MUR/USD 46.48 | MUR/EUR 53.82 (▼ 0.01 from last) (▲ 0.13 from last)</description>
+      <pubDate>2026-03-24T09:36:59.751275+00:00</pubDate>
+      <guid>8bc28a82e1f55d3894deb05008370775</guid>
+      <source>MUR Exchange Rates</source>
+      <category>finance</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+      <cluster_size>1</cluster_size>
+    </item>
+    <item>
+      <title>SEMDEX – 24 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)</description>
+      <pubDate>2026-03-24T09:36:57.250388+00:00</pubDate>
+      <guid>4f4d3742bc8fc55c228b41cbfd72146e</guid>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+      <cluster_size>1</cluster_size>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 24 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 11h45 on Tuesday 24 March 2026.General situation:A light airstream is flowing over the region.Forecast for the next 24 hours:Cloud developments are expected this afternoon with localised showers to the West, South-West and over the Central Plateau. Partly cloudy elsewhere.These showers may be temporarily moderate.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Partly cloudy tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with passing showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Wind will blow from Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.</description>
+      <pubDate>2026-03-24T09:36:50.927210+00:00</pubDate>
+      <guid>cbdd213031fc6a62361e6c7095d66d53</guid>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+      <cluster_size>1</cluster_size>
+    </item>
+    <item>
       <title>Morocco secures funding, signs power deals for 305MW Noor Atlas solar programme</title>
       <link>https://africa.businessinsider.com/local/markets/morocco-secures-funding-signs-power-deals-for-305mw-noor-atlas-solar-programme/dqkr82b</link>
       <description>Morocco has reached financial close and signed power deals for its 305MW Noor Atlas solar programme, marking a shift toward smaller, decentralised renewable projects and blended financing models</description>
       <pubDate>2026-03-24T09:36:22+01:00</pubDate>
       <guid>7a879d7ed121472e17b8e1ef34812173</guid>
       <source>Business Insider Africa</source>
+      <category>regional</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+      <cluster_size>1</cluster_size>
+    </item>
+    <item>
+      <title>KOKO Networks’ UK carbon arm hit $50.5 million revenue, then fell apart over a Kenyan permit</title>
+      <link>https://techcabal.com/2026/03/24/koko-networks-uk-carbon-arm-hit-50-5-million-revenue-then-fell-apart-over-a-kenyan-permit/</link>
+      <description>Accounts for KOKO Networks (UK) Ltd show turnover jumped to £39.8 million ($50.5 million) in 2024 from £1.8 million ($2.3 million) a year earlier.</description>
+      <pubDate>2026-03-24T09:32:55+00:00</pubDate>
+      <guid>d609abf88382320d0995968581bb0046</guid>
+      <source>TechCabal</source>
       <category>regional</category>
       <language>en</language>
       <date_verified>true</date_verified>
@@ -63,61 +147,49 @@ http://www.africanews.com/2026/03/23/dangote-refinery-says-begun-fuel-exports-in
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>Brent Crude Oil price – 24 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 101.70 per barrel</description>
-      <pubDate>2026-03-24T09:17:58.847025+00:00</pubDate>
-      <guid>3562572646d0583ddb2a1f915bf78e97</guid>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
+      <title>France takes small steps to mitigate fuel price rise amid Middle East war</title>
+      <link>https://www.france24.com/en/france-takes-small-steps-to-mitigate-fuel-price-rise-amid-middle-east-war</link>
+      <description>The French government has announced steps to limit the impact of rising crude oil prices on consumers and businesses, including easing some payroll levies and extending deadlines for tax payments. But fishing associations dismissed the package as &quot;mini-measures&quot; falling far short of what is needed.</description>
+      <pubDate>2026-03-24T09:24:23+00:00</pubDate>
+      <guid>51008f85ada0ed40ede7ddf15bdd0d57</guid>
+      <source>France 24</source>
+      <category>global</category>
       <language>en</language>
       <date_verified>true</date_verified>
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>Bitcoin price – 24 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 70,868.66 (▲ +0.66% from last)</description>
-      <pubDate>2026-03-24T09:17:58.496673+00:00</pubDate>
-      <guid>fe2dbbed25035f4a3610383a2fb2693e</guid>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
+      <title>McCullum to continue as England’s all-format cricket head coach</title>
+      <link>https://www.aljazeera.com/sports/2026/3/24/mccullum-to-continue-as-englands-all-format-cricket-head-coach?traffic_source=rss</link>
+      <description>Brendon McCullum, Ben Stokes and Rob Key will keep their positions despite recent Ashes drubbing and T20 World Cup exit.</description>
+      <pubDate>2026-03-24T09:15:22+00:00</pubDate>
+      <guid>e49e24c6200f0b82c6b213b579606035</guid>
+      <source>Al Jazeera</source>
+      <category>global</category>
       <language>en</language>
       <date_verified>true</date_verified>
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>MUR exchange rates – 24 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.48 | MUR/EUR 53.82 (▼ 0.01 from last) (▲ 0.13 from last)</description>
-      <pubDate>2026-03-24T09:17:58.083722+00:00</pubDate>
-      <guid>8bc28a82e1f55d3894deb05008370775</guid>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
+      <title>Hong Kong grants police power to demand phone and computer passwords</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/hong-kong-grants-police-power-to-demand-phone-and-computer-passwords?traffic_source=rss</link>
+      <description>The new provisions allow police to seize items with 'seditious intention', bypassing judicial authorisations.</description>
+      <pubDate>2026-03-24T09:12:24+00:00</pubDate>
+      <guid>1ed710146dec08c65b6c6ce298f3b2ad</guid>
+      <source>Al Jazeera</source>
+      <category>global</category>
       <language>en</language>
       <date_verified>true</date_verified>
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>SEMDEX – 24 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)</description>
-      <pubDate>2026-03-24T09:17:55.574418+00:00</pubDate>
-      <guid>4f4d3742bc8fc55c228b41cbfd72146e</guid>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-      <cluster_size>1</cluster_size>
-    </item>
-    <item>
-      <title>Mauritius weather bulletin – 24 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 11h45 on Tuesday 24 March 2026.General situation:A light airstream is flowing over the region.Forecast for the next 24 hours:Cloud developments are expected this afternoon with localised showers to the West, South-West and over the Central Plateau. Partly cloudy elsewhere.These showers may be temporarily moderate.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Partly cloudy tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with passing showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Wind will blow from Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.</description>
-      <pubDate>2026-03-24T09:17:50.879271+00:00</pubDate>
-      <guid>cbdd213031fc6a62361e6c7095d66d53</guid>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
+      <title>Israel kills two in Beirut as it intensifies attacks across Lebanon</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/israel-kills-two-in-beirut-as-it-intensifies-attacks-across-lebanon?traffic_source=rss</link>
+      <description>Israel steps up attacks across Lebanon as more than a million people are displaced due to the conflict.</description>
+      <pubDate>2026-03-24T09:10:12+00:00</pubDate>
+      <guid>1fb27b7bf5976445ba3b8b028767a9dc</guid>
+      <source>Al Jazeera</source>
+      <category>global</category>
       <language>en</language>
       <date_verified>true</date_verified>
       <cluster_size>1</cluster_size>
@@ -351,6 +423,37 @@ The post Audit Exposes Rs 444 Million Yearly Drain from Prison Remand Crisis app
       <cluster_size>1</cluster_size>
     </item>
     <item>
+      <title>Parlement : Suivez la séance en direct</title>
+      <link>https://live.mega.mu/redirect/252752/</link>
+      <description>[L'Express (via mega.mu)] Parlement : Suivez la séance en direct
+Ce mardi 24 mars, l’Assemblée nationale promet d’être au centre de toutes les attentions, dans un contexte politique agité marqué par la démission de Paul Bérenger de son poste de *Deputy Prime Minister*, ainsi que celle de Joanna Bérenger de son poste de *Junior Minister* à l’Environnement. La séance débutera par la *Private Notice Question* (PNQ) du leader de l’opposition, Joe Lesjongard, qui interpellera le gouvernement sur les répercussions du conflit au Moyen-Orien ...
+URL: https://live.mega.mu/redirect/252752/
+
+[Defimedia] BP du MMM : 22 des 37 membres présents ce lundi
+22 des 37 membres du Mouvement Militant Mauricien (MMM) étaient présents lors du Bureau politique (BP) qui s’est tenu à
+URL: https://defimedia.info/bp-du-mmm-22-des-37-membres-presents-ce-lundi
+
+[L'Express (via mega.mu)] Parlement : Qui sont les membres présents et absents du MMM ?
+Le Parlement a été marqué ce mardi 24 mars par une participation partielle des membres du Mouvement Militant Mauricien (MMM), après la démission de Paul Bérenger de son poste de *Deputy Prime Minister* et à la suite de plusieurs démissions en série survenues hier, lundi 23 mars. Plusieurs membres clés étaient absents, tandis que d’autres ont assisté aux travaux parlementaires. **Membres absents :** • Paul Bérenger • Joanna Bérenger • Chetan Baboolall • Ve ...
+URL: https://live.mega.mu/redirect/252755/
+
+[L'Express (via mega.mu)] Démission en tant que «junior minister» : Joanna Bérenger : «J’ai confiance en celui qui incarne le mieux les valeurs militantes depuis 50 ans»
+Joanna Bérenger a présenté sa lettre de démission de son poste de junior minister à l’Environnement hier. Cette décision intervient trois jours après la démission de son père, Paul Bérenger, leader du MMM, de la fonction de *Deputy Prime Minister*. Contacté, le ministre de l’Environnement, Rajesh Bhagwan, a déclaré prendre acte de la décision de son junior minister. Il a ajouté *«Joanna et moi avons travaillé ensemble dans le cadre d’un programme gouvernemental. Pour m ...
+URL: https://live.mega.mu/redirect/252740/</description>
+      <pubDate>2026-03-24T08:00:00+00:00</pubDate>
+      <guid>80fb7c6f8d1d6e9727e84d8d502d20b1</guid>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <language>fr</language>
+      <date_verified>true</date_verified>
+      <cluster_size>4</cluster_size>
+      <all_sources>L'Express (via mega.mu); Defimedia</all_sources>
+      <all_urls>https://live.mega.mu/redirect/252752/
+https://defimedia.info/bp-du-mmm-22-des-37-membres-presents-ce-lundi
+https://live.mega.mu/redirect/252755/
+https://live.mega.mu/redirect/252740/</all_urls>
+    </item>
+    <item>
       <title>Affaire Pavaday : Détention prolongée en attendant les plaignantes à l’étranger</title>
       <link>https://live.mega.mu/redirect/252746/</link>
       <description>[L'Express (via mega.mu)] Affaire Pavaday : Détention prolongée en attendant les plaignantes à l’étranger
@@ -382,27 +485,6 @@ https://defimedia.info/allegations-dabus-frederic-pavaday-reste-en-detention-jus
       <language>fr</language>
       <date_verified>true</date_verified>
       <cluster_size>1</cluster_size>
-    </item>
-    <item>
-      <title>Parlement : Suivez la séance en direct</title>
-      <link>https://live.mega.mu/redirect/252752/</link>
-      <description>[L'Express (via mega.mu)] Parlement : Suivez la séance en direct
-Ce mardi 24 mars, l’Assemblée nationale promet d’être au centre de toutes les attentions, dans un contexte politique agité marqué par la démission de Paul Bérenger de son poste de *Deputy Prime Minister*, ainsi que celle de Joanna Bérenger de son poste de *Junior Minister* à l’Environnement. La séance débutera par la *Private Notice Question* (PNQ) du leader de l’opposition, Joe Lesjongard, qui interpellera le gouvernement sur les répercussions du conflit au Moyen-Orien ...
-URL: https://live.mega.mu/redirect/252752/
-
-[L'Express (via mega.mu)] Démission en tant que «junior minister» : Joanna Bérenger : «J’ai confiance en celui qui incarne le mieux les valeurs militantes depuis 50 ans»
-Joanna Bérenger a présenté sa lettre de démission de son poste de junior minister à l’Environnement hier. Cette décision intervient trois jours après la démission de son père, Paul Bérenger, leader du MMM, de la fonction de *Deputy Prime Minister*. Contacté, le ministre de l’Environnement, Rajesh Bhagwan, a déclaré prendre acte de la décision de son junior minister. Il a ajouté *«Joanna et moi avons travaillé ensemble dans le cadre d’un programme gouvernemental. Pour m ...
-URL: https://live.mega.mu/redirect/252740/</description>
-      <pubDate>2026-03-24T08:00:00+00:00</pubDate>
-      <guid>80fb7c6f8d1d6e9727e84d8d502d20b1</guid>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <language>fr</language>
-      <date_verified>true</date_verified>
-      <cluster_size>2</cluster_size>
-      <all_sources>L'Express (via mega.mu)</all_sources>
-      <all_urls>https://live.mega.mu/redirect/252752/
-https://live.mega.mu/redirect/252740/</all_urls>
     </item>
     <item>
       <title>Tensions politiques : La crise au sein du MMM et ce qu’elle signifie pour le cœur et l’âme de la démocratie à Maurice</title>
@@ -583,27 +665,6 @@ https://www.lemauricien.com/actualites/faits-divers/montagne-des-signaux-un-jeun
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>Bureau politique du MMM : des militants pro-Bérenger font entendre leur voix dans la rue</title>
-      <link>https://defimedia.info/bureau-politique-du-mmm-des-militants-pro-berenger-font-entendre-leur-voix-dans-la-rue</link>
-      <description>[Defimedia] Bureau politique du MMM : des militants pro-Bérenger font entendre leur voix dans la rue
-C’était un Bureau politique particulier qui s’est tenu au siège du MMM ce lundi. D’une part l’absence de Paul Bérenger,
-URL: https://defimedia.info/bureau-politique-du-mmm-des-militants-pro-berenger-font-entendre-leur-voix-dans-la-rue
-
-[Defimedia] « Vre militan se Paul Bérenger… so lame prop… » : un militant affiche son soutien à Paul Bérenger, alors que le BP se réunit
-« Rant dan lopozisyon pa enn problem. » C’est ce qu'affirme un militant venu exprimer sa solidarité avec Paul Bérenger,
-URL: https://defimedia.info/vre-militan-se-paul-berenger-so-lame-prop-un-militant-affiche-son-soutien-paul-berenger-alors-que</description>
-      <pubDate>2026-03-24T06:59:00+00:00</pubDate>
-      <guid>5b632ee31fae761d719fc229ea8b4369</guid>
-      <source>Defimedia</source>
-      <category>local</category>
-      <language>fr</language>
-      <date_verified>true</date_verified>
-      <cluster_size>2</cluster_size>
-      <all_sources>Defimedia</all_sources>
-      <all_urls>https://defimedia.info/bureau-politique-du-mmm-des-militants-pro-berenger-font-entendre-leur-voix-dans-la-rue
-https://defimedia.info/vre-militan-se-paul-berenger-so-lame-prop-un-militant-affiche-son-soutien-paul-berenger-alors-que</all_urls>
-    </item>
-    <item>
       <title>À l’issue du Bureau politique - MMM : la discipline de parti brandie face aux «frondeurs»</title>
       <link>https://defimedia.info/lissue-du-bureau-politique-mmm-la-discipline-de-parti-brandie-face-aux-frondeurs</link>
       <description>Réuni le lundi 23 mars, le Bureau politique du MMM a affiché sa majorité en faveur du maintien au gouvernement. Son prés</description>
@@ -713,11 +774,11 @@ The post Montebello</description>
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>Football: France holds last training camp before 2026 World Cup</title>
+      <title>Football: France hold last training camp before 2026 World Cup</title>
       <link>https://www.france24.com/en/tv-shows/sports/20260324-football-france-holds-last-training-camp-before-2026-world-cup</link>
-      <description>Crystal Palace defender Maxence Lacroix is making his first appearance in the France squad. France face Brazil and Colombia.</description>
+      <description>Crystal Palace defender Maxence Lacroix is making his first appearance in the France squad. Les Bleus face Brazil and Colombia.</description>
       <pubDate>2026-03-24T06:24:17+00:00</pubDate>
-      <guid>304bd78efae61c8cf359c68b94f32cd8</guid>
+      <guid>d8e9be26eb6b1e693f3b9ea5a1cce96a</guid>
       <source>France 24</source>
       <category>global</category>
       <language>en</language>
@@ -1185,6 +1246,42 @@ http://www.africanews.com/2026/03/23/floods-kill-dozens-devastate-farmland-in-ke
       <cluster_size>1</cluster_size>
     </item>
     <item>
+      <title>Live: Iran launches missiles on Israel, calls Trump’s negotiation claims ‘fake news'</title>
+      <link>https://www.france24.com/en/middle-east/20260324-middle-east-war-live-trump-us-iran-talks-tehran-fires-missiles-israel</link>
+      <description>[France 24] Live: Iran launches missiles on Israel, calls Trump’s negotiation claims ‘fake news'
+President Donald Trump started the fourth week of his war against Iran by offering the world some guarded optimism that the US could soon be winding operations down, but Iran contradicted his claims of progress being made in diplomatic talks. Iran also launched another round of missiles towards Israel early Tuesday, state television announced. Follow our liveblog for all the latest updates.
+URL: https://www.france24.com/en/middle-east/20260324-middle-east-war-live-trump-us-iran-talks-tehran-fires-missiles-israel
+
+[Al Jazeera] Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran
+Huge explosions were heard in Tehran and other cities, as Iran denied it held talks with the US to end the war.
+URL: https://www.aljazeera.com/news/2026/3/24/despite-trumps-peace-talk-claims-us-israeli-attacks-continue-to-hit-iran?traffic_source=rss
+
+[France 24] Whose war is it? Trump eyes Iran talks as Israel hints at long campaign
+Another deadline day, another ultimatum, another surprise turn from the US president. The same Donald Trump who may or may not send ground troops to try to secure the Strait of Hormuz is now claiming that his administration is talking with the Iranians, thus holding off on hitting critical infrastructure. Trump's messaging since the start of this war has been keeping friends and foes alike guessing. That's in stark contrast to his Israeli allies, who seem to be embracing a fight many of its leaders have been dreaming of for decades.
+URL: https://www.france24.com/en/tv-shows/the-debate/20260323-whose-war-is-it-trump-eyes-iran-talks-as-israel-hints-at-long-campaign
+
+[Al Jazeera] Where do reported US-Iran ‘negotiations’ leave Israel?
+Israeli analysts describe confusion as US President Trump unexpectedly shifts from threatened strikes on Iran to talks.
+URL: https://www.aljazeera.com/news/2026/3/24/where-do-us-iran-negotiations-leave-israel?traffic_source=rss
+
+[Al Jazeera] US-Israel war on Iran: What’s happening on day 25 of attacks?
+Trump claims talks on with Iran, as he holds off on energy attacks, but Tehran denies any negotiations.
+URL: https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks?traffic_source=rss</description>
+      <pubDate>2026-03-24T03:41:26+00:00</pubDate>
+      <guid>bb1416568e1b32684b64be7d4b8d2e77</guid>
+      <source>France 24</source>
+      <category>global</category>
+      <language>en</language>
+      <date_verified>true</date_verified>
+      <cluster_size>5</cluster_size>
+      <all_sources>France 24; Al Jazeera</all_sources>
+      <all_urls>https://www.france24.com/en/middle-east/20260324-middle-east-war-live-trump-us-iran-talks-tehran-fires-missiles-israel
+https://www.aljazeera.com/news/2026/3/24/despite-trumps-peace-talk-claims-us-israeli-attacks-continue-to-hit-iran?traffic_source=rss
+https://www.france24.com/en/tv-shows/the-debate/20260323-whose-war-is-it-trump-eyes-iran-talks-as-israel-hints-at-long-campaign
+https://www.aljazeera.com/news/2026/3/24/where-do-us-iran-negotiations-leave-israel?traffic_source=rss
+https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks?traffic_source=rss</all_urls>
+    </item>
+    <item>
       <title>Denmark votes in close election overshadowed by Trump's Greenland bid</title>
       <link>https://www.france24.com/en/europe/20260324-denmark-votes-in-close-election-overshadowed-by-trump-s-greenland-bid</link>
       <description>[France 24] Denmark votes in close election overshadowed by Trump's Greenland bid
@@ -1265,23 +1362,14 @@ https://www.france24.com/en/americas/20260324-military-plane-crash-colombia-121-
     <item>
       <title>‘Israel has been given a licence to torture Palestinians’</title>
       <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/israel-has-been-given-a-licence-to-torture?traffic_source=rss</link>
-      <description>[Al Jazeera] ‘Israel has been given a licence to torture Palestinians’
-UN Special Rapporteur Francesca Albanese has said the world gave Israel a ‘licence to torture Palestinians’.
-URL: https://www.aljazeera.com/video/newsfeed/2026/3/24/israel-has-been-given-a-licence-to-torture?traffic_source=rss
-
-[Al Jazeera] UN expert says world has given Israel ‘licence to torture Palestinians’
-UN Special Rapporteur Francesca Albanese says torture 'has effectively become state policy' in Israel.
-URL: https://www.aljazeera.com/news/2026/3/23/un-expert-says-world-has-given-israel-licence-to-torture-palestinians?traffic_source=rss</description>
+      <description>UN Special Rapporteur Francesca Albanese has said the world gave Israel a ‘licence to torture Palestinians’.</description>
       <pubDate>2026-03-24T02:20:00+00:00</pubDate>
       <guid>266d9fde90f4a50d98215c3f91351ed1</guid>
       <source>Al Jazeera</source>
       <category>global</category>
       <language>en</language>
       <date_verified>true</date_verified>
-      <cluster_size>2</cluster_size>
-      <all_sources>Al Jazeera</all_sources>
-      <all_urls>https://www.aljazeera.com/video/newsfeed/2026/3/24/israel-has-been-given-a-licence-to-torture?traffic_source=rss
-https://www.aljazeera.com/news/2026/3/23/un-expert-says-world-has-given-israel-licence-to-torture-palestinians?traffic_source=rss</all_urls>
+      <cluster_size>1</cluster_size>
     </item>
     <item>
       <title>US Senate confirms Markwayne Mullin as homeland security chief</title>
@@ -1425,23 +1513,11 @@ https://defimedia.info/meteo-previsions-pour-ce-mardi-24-mars</all_urls>
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>Iran war live: Tehran says Trump’s peace talk claims are ‘fake news’</title>
+      <title>Iran war live: Casualties in attack on Tel Aviv, Israel hits Lebanon</title>
       <link>https://www.aljazeera.com/news/liveblog/2026/3/24/iran-war-live-tehran-says-trumps-claims-of-peace-talks-fake?traffic_source=rss</link>
       <description>Iran's Revolutionary Guard calls Trump a 'deceitful American president', accuses him of 'contradictory behaviour'.</description>
       <pubDate>2026-03-24T00:00:00+00:00</pubDate>
-      <guid>68a268f1bc7ec59b0b7fa477e30db29c</guid>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-      <cluster_size>1</cluster_size>
-    </item>
-    <item>
-      <title>Trump says Iran ‘wants peace’ after US military did ‘great job’</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/23/trump-says-iran-wants-peace-after-us-military-did-great?traffic_source=rss</link>
-      <description>US President Donald Trump says ‘there’s a very good chance of a deal’ to end the US-Israel war on Iran.</description>
-      <pubDate>2026-03-23T23:54:50+00:00</pubDate>
-      <guid>45f17e84dff4b0d39c112cce1b8aef7c</guid>
+      <guid>2a8dec9e042b14aa40f68460d9166507</guid>
       <source>Al Jazeera</source>
       <category>global</category>
       <language>en</language>
@@ -1455,18 +1531,6 @@ https://defimedia.info/meteo-previsions-pour-ce-mardi-24-mars</all_urls>
       <pubDate>2026-03-23T23:08:05+00:00</pubDate>
       <guid>8540fe25cfe5c8c199d4a0c7408693bb</guid>
       <source>France 24</source>
-      <category>global</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-      <cluster_size>1</cluster_size>
-    </item>
-    <item>
-      <title>Macron says Lebanon’s fight is ‘just’ amid escalating attacks by Israel</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/23/macron-says-lebanons-fight-is-just-amid-escalating-attacks-by-israel?traffic_source=rss</link>
-      <description>France’s president Emmanuel Macron said Lebanon’s fight against threats to its security is ‘just’.</description>
-      <pubDate>2026-03-23T22:59:25+00:00</pubDate>
-      <guid>48095d5cf5090d91e6d3cb6da7487e70</guid>
-      <source>Al Jazeera</source>
       <category>global</category>
       <language>en</language>
       <date_verified>true</date_verified>
@@ -1509,11 +1573,11 @@ https://defimedia.info/meteo-previsions-pour-ce-mardi-24-mars</all_urls>
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>Misleading campaign adverts target French far-left in local elections</title>
+      <title>Misleading campaign adverts target French far left in local elections</title>
       <link>https://www.france24.com/en/tv-shows/truth-or-fake/20260323-misleading-campaign-adverts-target-french-far-left-in-local-elections</link>
-      <description>Over the weekend, thousands of people in Toulouse - France's 4th largest city - were exposed to a misleading campaign targeting Francois Piquemal, the far-left France Unbowed’s candidate for mayor, ahead of Sunday’s municipal elections. It happened in the middle of France’s election silence period, raising suspicions of foreign interference.</description>
+      <description>Over the weekend, thousands of people in Toulouse – France's fourth-largest city – were exposed to a misleading campaign targeting Francois Piquemal, the far-left France Unbowed party's candidate for mayor, ahead of Sunday's municipal elections. It happened in the middle of France’s electoral silence period, raising suspicions of foreign interference. Emerald Maxwell explains in this edition of Truth or Fake.</description>
       <pubDate>2026-03-23T22:10:41+00:00</pubDate>
-      <guid>045ed3fb7132971de719ca9f90d47a6d</guid>
+      <guid>4ab614862198ec08f3ae83caeb418009</guid>
       <source>France 24</source>
       <category>global</category>
       <language>en</language>
@@ -1523,7 +1587,7 @@ https://defimedia.info/meteo-previsions-pour-ce-mardi-24-mars</all_urls>
     <item>
       <title>Oil plunges, stocks surge on Trump's Iran reprieve</title>
       <link>https://www.france24.com/en/tv-shows/business/20260323-oil-plunges-stocks-surge-on-trump-s-iran-reprieve</link>
-      <description>Global crude oil prices fell about 10% and Wall Street stocks rallied after Donald Trump said he was holding off military strikes on Iran's power plants following &quot;constructive talks&quot; with Tehran, despite Iran denying it was negotiating a deal. Meanwhile, France is looking at the possibility of increasing the country's refining capacity to cushion the impact of higher petrol prices on consumers, but is stopping short of cutting fuel taxes.</description>
+      <description>Global crude oil prices fell about 10 percent and Wall Street stocks rallied after Donald Trump said he was holding off military strikes on Iran's power plants. The US president made the announcement following what he called &quot;constructive talks&quot; with Tehran, despite Iran denying it was negotiating a deal. Meanwhile, France is looking at the possibility of increasing the country's refining capacity to cushion the impact of higher petrol prices on consumers, but is stopping short of cutting fuel taxes.</description>
       <pubDate>2026-03-23T21:35:10+00:00</pubDate>
       <guid>2110ee12266cb7fa95a4d8f8eebb6d71</guid>
       <source>France 24</source>
@@ -1539,13 +1603,13 @@ https://defimedia.info/meteo-previsions-pour-ce-mardi-24-mars</all_urls>
 Hundreds of ICE agents have been deployed to 14 airports, in cities including New York, Atlanta and Houston.
 URL: https://www.bbc.com/news/articles/cx298j7xg0yo?at_medium=RSS&amp;at_campaign=rss
 
-[Al Jazeera] ICE agents deployed to US airports: Which airports are affected?
-Immigration and Customs Enforcement (ICE) officers were reportedly sent to 14 airports, including New York’s JFK.
-URL: https://www.aljazeera.com/news/2026/3/24/ice-agents-deployed-to-us-airports-which-airports-are-affected?traffic_source=rss
-
 [Al Jazeera] Trump administration deploys ICE agents at airports across US
 The Trump administration has deployed ICE agents to airports across the United States.
-URL: https://www.aljazeera.com/video/newsfeed/2026/3/24/trump-administration-deploys-ice-agents-at-airports-across-us?traffic_source=rss</description>
+URL: https://www.aljazeera.com/video/newsfeed/2026/3/24/trump-administration-deploys-ice-agents-at-airports-across-us?traffic_source=rss
+
+[Al Jazeera] ICE agents deployed to US airports: Which airports are affected?
+Immigration and Customs Enforcement (ICE) officers were reportedly sent to 14 airports, including New York’s JFK.
+URL: https://www.aljazeera.com/news/2026/3/24/ice-agents-deployed-to-us-airports-which-airports-are-affected?traffic_source=rss</description>
       <pubDate>2026-03-23T21:22:18+00:00</pubDate>
       <guid>264f9d8d3ab4e806f758effd86a7ae63</guid>
       <source>BBC News</source>
@@ -1555,8 +1619,8 @@ URL: https://www.aljazeera.com/video/newsfeed/2026/3/24/trump-administration-dep
       <cluster_size>3</cluster_size>
       <all_sources>BBC News; Al Jazeera</all_sources>
       <all_urls>https://www.bbc.com/news/articles/cx298j7xg0yo?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/3/24/ice-agents-deployed-to-us-airports-which-airports-are-affected?traffic_source=rss
-https://www.aljazeera.com/video/newsfeed/2026/3/24/trump-administration-deploys-ice-agents-at-airports-across-us?traffic_source=rss</all_urls>
+https://www.aljazeera.com/video/newsfeed/2026/3/24/trump-administration-deploys-ice-agents-at-airports-across-us?traffic_source=rss
+https://www.aljazeera.com/news/2026/3/24/ice-agents-deployed-to-us-airports-which-airports-are-affected?traffic_source=rss</all_urls>
     </item>
     <item>
       <title>'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation</title>
@@ -1640,42 +1704,6 @@ https://www.france24.com/en/europe/20260323-italian-voters-reject-giorgia-meloni
       <cluster_size>1</cluster_size>
     </item>
     <item>
-      <title>Whose war is it? Trump eyes Iran talks as Israel hints at long campaign</title>
-      <link>https://www.france24.com/en/tv-shows/the-debate/20260323-whose-war-is-it-trump-eyes-iran-talks-as-israel-hints-at-long-campaign</link>
-      <description>[France 24] Whose war is it? Trump eyes Iran talks as Israel hints at long campaign
-Another deadline day, another ultimatum, another surprise turn from the US president. The same Donald Trump who may or may not send ground troops to try to secure the Strait of Hormuz is now claiming that his administration is talking with the Iranians, thus holding off on hitting critical infrastructure. Trump's messaging since the start of this war has been keeping friends and foes alike guessing. That's in stark contrast to his Israeli allies, who seem to be embracing a fight many of its leaders have been dreaming of for decades.
-URL: https://www.france24.com/en/tv-shows/the-debate/20260323-whose-war-is-it-trump-eyes-iran-talks-as-israel-hints-at-long-campaign
-
-[France 24] Live: Iran launches missiles on Israel, calls Trump’s negotiation claims ‘fake news'
-President Donald Trump started the fourth week of his war against Iran by offering the world some guarded optimism that the US could soon be winding operations down, but Iran contradicted his claims of progress being made in diplomatic talks. Iran also launched another round of missiles towards Israel early Tuesday, state television announced. Follow our liveblog for all the latest updates.
-URL: https://www.france24.com/en/middle-east/20260324-middle-east-war-live-trump-us-iran-talks-tehran-fires-missiles-israel
-
-[Al Jazeera] Where do reported US-Iran ‘negotiations’ leave Israel?
-Israeli analysts describe confusion as US President Trump unexpectedly shifts from threatened strikes on Iran to talks.
-URL: https://www.aljazeera.com/news/2026/3/24/where-do-us-iran-negotiations-leave-israel?traffic_source=rss
-
-[Al Jazeera] Despite Trump’s peace talk claims, US-Israeli attacks continue to hit Iran
-Huge explosions were heard in Tehran and other cities, as Iran denied it held talks with the US to end the war.
-URL: https://www.aljazeera.com/news/2026/3/24/despite-trumps-peace-talk-claims-us-israeli-attacks-continue-to-hit-iran?traffic_source=rss
-
-[Al Jazeera] US-Israel war on Iran: What’s happening on day 25 of attacks?
-Trump claims talks on with Iran, as he holds off on energy attacks, but Tehran denies any negotiations.
-URL: https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks?traffic_source=rss</description>
-      <pubDate>2026-03-23T19:29:12+00:00</pubDate>
-      <guid>ef0e74aced0a29037dca99712e329da4</guid>
-      <source>France 24</source>
-      <category>global</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-      <cluster_size>5</cluster_size>
-      <all_sources>France 24; Al Jazeera</all_sources>
-      <all_urls>https://www.france24.com/en/tv-shows/the-debate/20260323-whose-war-is-it-trump-eyes-iran-talks-as-israel-hints-at-long-campaign
-https://www.france24.com/en/middle-east/20260324-middle-east-war-live-trump-us-iran-talks-tehran-fires-missiles-israel
-https://www.aljazeera.com/news/2026/3/24/where-do-us-iran-negotiations-leave-israel?traffic_source=rss
-https://www.aljazeera.com/news/2026/3/24/despite-trumps-peace-talk-claims-us-israeli-attacks-continue-to-hit-iran?traffic_source=rss
-https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-on-day-25-of-attacks?traffic_source=rss</all_urls>
-    </item>
-    <item>
       <title>Lionel Jospin (1937-2026): 'Highly-respected moral and intellectual figure among left wing'</title>
       <link>https://www.france24.com/en/tv-shows/spotlight/20260323-lionel-jospin-highly-respected-moral-and-intellectual-figure-among-left-wing</link>
       <description>François Picard is pleased to welcome Damien Lecomte, Political Scientist and Researcher at CRPS-CESSP, Paris Pantheon Sorbonne University. According to Dr. Lecomte, there is a persistent tension between unity and fragmentation in French politics, and the legacy of Lionel Jospin illustrates this paradox: a figure of moral integrity and intellectual rigor who successfully governed a broad left-wing coalition, yet he was ultimately defeated by a divided electorate on the left.</description>
@@ -1731,18 +1759,6 @@ https://www.aljazeera.com/news/2026/3/24/us-israel-war-on-iran-whats-happening-o
       <guid>e79da974ab5b2c9af7c56587ce0f970b</guid>
       <source>France 24</source>
       <category>global</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-      <cluster_size>1</cluster_size>
-    </item>
-    <item>
-      <title>Africa: World Water Day 2026 - Across Africa, Where Water Flows, Equality Grows</title>
-      <link>https://allafrica.com/stories/202603230685.html</link>
-      <description>[African Development Bank (AfDB)] By Mtchera Chirwa, AfDB Director for Water Development and Sanitation and Dr. Jemimah Njuki, Director for Gender, Women and Civil Society</description>
-      <pubDate>2026-03-23T18:16:35+00:00</pubDate>
-      <guid>604fa988c4cb9d640d6a7613f7157793</guid>
-      <source>AllAfrica</source>
-      <category>regional</category>
       <language>en</language>
       <date_verified>true</date_verified>
       <cluster_size>1</cluster_size>
@@ -1966,30 +1982,6 @@ http://www.africanews.com/2026/03/23/former-kenyan-minister-reappears-after-disa
       <source>France 24</source>
       <category>global</category>
       <language>en</language>
-      <date_verified>true</date_verified>
-      <cluster_size>1</cluster_size>
-    </item>
-    <item>
-      <title>US signs nearly $1 billion deal with France's TotalEnergies to end offshore wind projects</title>
-      <link>https://www.france24.com/en/americas/20260323-us-signs-nearly-1-billion-deal-with-france-s-totalenergies-to-end-offshore-wind-projects</link>
-      <description>The United States and TotalEnergies signed an agreement on Monday to end the French company's offshore US wind farm projects and redirect those funds towards fossil fuel production, with the US interior secretary saying the deal was worth nearly $1 billion.</description>
-      <pubDate>2026-03-23T16:15:14+00:00</pubDate>
-      <guid>6f9cd7d84d1a91e474340e41232e4bfc</guid>
-      <source>France 24</source>
-      <category>global</category>
-      <language>en</language>
-      <date_verified>true</date_verified>
-      <cluster_size>1</cluster_size>
-    </item>
-    <item>
-      <title>BP du MMM : 22 des 37 membres présents ce lundi</title>
-      <link>https://defimedia.info/bp-du-mmm-22-des-37-membres-presents-ce-lundi</link>
-      <description>22 des 37 membres du Mouvement Militant Mauricien (MMM) étaient présents lors du Bureau politique (BP) qui s’est tenu à</description>
-      <pubDate>2026-03-23T16:13:00+00:00</pubDate>
-      <guid>59787e34fa9ff11901c1f33d37472d06</guid>
-      <source>Defimedia</source>
-      <category>local</category>
-      <language>fr</language>
       <date_verified>true</date_verified>
       <cluster_size>1</cluster_size>
     </item>
@@ -2324,6 +2316,27 @@ https://defimedia.info/nou-bizin-solider-ek-gouvernman-dit-une-militante-qui-aff
       <language>fr</language>
       <date_verified>true</date_verified>
       <cluster_size>1</cluster_size>
+    </item>
+    <item>
+      <title>« Vre militan se Paul Bérenger… so lame prop… » : un militant affiche son soutien à Paul Bérenger, alors que le BP se réunit</title>
+      <link>https://defimedia.info/vre-militan-se-paul-berenger-so-lame-prop-un-militant-affiche-son-soutien-paul-berenger-alors-que</link>
+      <description>[Defimedia] « Vre militan se Paul Bérenger… so lame prop… » : un militant affiche son soutien à Paul Bérenger, alors que le BP se réunit
+« Rant dan lopozisyon pa enn problem. » C’est ce qu'affirme un militant venu exprimer sa solidarité avec Paul Bérenger,
+URL: https://defimedia.info/vre-militan-se-paul-berenger-so-lame-prop-un-militant-affiche-son-soutien-paul-berenger-alors-que
+
+[Defimedia] Bureau politique du MMM : des militants pro-Bérenger font entendre leur voix dans la rue
+C’était un Bureau politique particulier qui s’est tenu au siège du MMM ce lundi. D’une part l’absence de Paul Bérenger,
+URL: https://defimedia.info/bureau-politique-du-mmm-des-militants-pro-berenger-font-entendre-leur-voix-dans-la-rue</description>
+      <pubDate>2026-03-23T14:14:00+00:00</pubDate>
+      <guid>185d7e5a862ea8e0b52ff5ab1032ece9</guid>
+      <source>Defimedia</source>
+      <category>local</category>
+      <language>fr</language>
+      <date_verified>true</date_verified>
+      <cluster_size>2</cluster_size>
+      <all_sources>Defimedia</all_sources>
+      <all_urls>https://defimedia.info/vre-militan-se-paul-berenger-so-lame-prop-un-militant-affiche-son-soutien-paul-berenger-alors-que
+https://defimedia.info/bureau-politique-du-mmm-des-militants-pro-berenger-font-entendre-leur-voix-dans-la-rue</all_urls>
     </item>
     <item>
       <title>CcHUB launches GATEWAY to train 340,000 Nigerians for global gig work</title>
