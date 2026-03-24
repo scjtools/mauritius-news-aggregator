@@ -4,7 +4,7 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Tue, 24 Mar 2026 21:22:32 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 21:44:28 +0000</lastBuildDate>
     <item>
       <title>French-Israeli billionaire Patrick Drahi to auction rare diamond from Africa’s richest mine with $2.8 million price tag</title>
       <link>https://africa.businessinsider.com/local/markets/french-israeli-billionaire-patrick-drahi-to-auction-rare-diamond-from-africas-richest/5ct265v</link>
@@ -12,6 +12,66 @@
       <source>Business Insider Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-24T22:14:13+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brent Crude Oil price – 24 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 99.64 per barrel</description>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:40:29.074112+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bitcoin price – 24 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 70,071.13 (▼ -0.48% from last)</description>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:40:28.963180+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 24 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,475.30 (▲ +1.96% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:40:28.457728+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>MUR exchange rates – 24 March 2026</title>
+      <link>https://www.floatrates.com/daily/mur.xml</link>
+      <description>MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)</description>
+      <source>MUR Exchange Rates</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:40:27.902980+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SEMDEX – 24 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)</description>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:40:25.409589+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 24 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals.</description>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <cluster_time>2026-03-24T21:40:20.705838+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -36,62 +96,12 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Brent Crude Oil price – 24 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 100.15 per barrel</description>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:18:22.901349+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Bitcoin price – 24 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 69,975.04 (▼ -0.61% from last)</description>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:18:22.752701+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Gold price – 24 March 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,475.30 (▲ +1.96% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:18:22.316887+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>MUR exchange rates – 24 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)</description>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:18:21.935262+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>SEMDEX – 24 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)</description>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T21:18:19.389103+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mauritius weather bulletin – 24 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals.</description>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
-      <cluster_time>2026-03-24T21:18:15.064399+00:00</cluster_time>
+      <title>Long lines, unpaid TSA workers: Experts say US air travel system in crisis</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/long-lines-unpaid-tsa-workers-experts-say-us-air-travel-system-in-crisis?traffic_source=rss</link>
+      <description>TSA workers face unpaid wages, causing long lines and staffing shortages at key US airports during shutdown chaos.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T21:13:34+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -168,7 +178,7 @@
     <item>
       <title>Pilots killed in LaGuardia plane crash named</title>
       <link>https://www.bbc.com/news/articles/cz67jq0enwpo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>An Air Canada plane, carrying 73 passengers and four crew, collided with a firefighting vehicle shortly after landing at LaGuardia airport.</description>
+      <description>Investigators released details from the final three minutes of cockpit and tower communications, which showed controllers cleared both the plane and a fire truck to cross the runway.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-24T20:34:20+00:00</cluster_time>
@@ -212,16 +222,6 @@
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-24T20:15:06+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth</title>
-      <link>https://allafrica.com/stories/202603240671.html</link>
-      <description>[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the second edition of the International Exhibition of Extractive and Energy Resources (SIREXE). In the presence of the country's highest authorities and the Minister of Minerals and Energy of Botswana, the guest of honour, Côte d'Ivoire reaffirmed its ambition to</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T20:07:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -620,24 +620,14 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>ICE agents deploy to major US airports as security queues stretch for hours</title>
-      <link>https://www.bbc.com/news/articles/cx298j7xg0yo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Hundreds of ICE agents have been deployed to 14 airports, in cities including New York, Atlanta and Houston.
-
-[France 24] US immigration agency began deploying to major airports on Monday, as officials scrambled to ease mounting travel disruption during a prolonged, partial government shutdown. The move places Immigration and Customs Enforcement (ICE) personnel – already under intense scrutiny after fatal shootings linked to immigration operations – in highly visible roles at crowded transport hubs across the country.</description>
-      <source>BBC News</source>
+      <title>United States: ICE agents patrol airports amid govt shutdown</title>
+      <link>https://www.france24.com/en/video/20260324-united-states-ice-agents-patrol-airports-amid-govt-shutdown</link>
+      <description>US immigration agency began deploying to major airports on Monday, as officials scrambled to ease mounting travel disruption during a prolonged, partial government shutdown. The move places Immigration and Customs Enforcement (ICE) personnel – already under intense scrutiny after fatal shootings linked to immigration operations – in highly visible roles at crowded transport hubs across the country.</description>
+      <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-24T16:54:56+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>8b6833271e7c</cluster_id>
-      <sources>BBC News
-France 24</sources>
-      <urls>https://www.bbc.com/news/articles/cx298j7xg0yo?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/video/20260324-united-states-ice-agents-patrol-airports-amid-govt-shutdown</urls>
-      <titles>ICE agents deploy to major US airports as security queues stretch for hours
-United States: ICE agents patrol airports amid govt shutdown</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>When are UEFA’s World Cup 2026 playoffs, and which nations are involved?</title>
@@ -846,16 +836,6 @@ Kenya’s fuel retailers are running low on supply, and it could become a total 
       <source>AllAfrica</source>
       <category>regional</category>
       <cluster_time>2026-03-24T15:38:27+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Israeli strike hits Tyre during Al Jazeera report</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/israeli-strike-hits-tyre-during-al-jazeera-report?traffic_source=rss</link>
-      <description>An Al Jazeera journalist's report was disrupted by an Israeli missile striking a waterfront building in Lebanon’s Tyre.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T15:34:43+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -2433,16 +2413,6 @@ Parlement : PNQ : Joe Lesjongard interpelle sur l’impact économique du confli
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-23T22:18:27+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Trump claims ‘very strong’ Iran talks as Tehran denies contact</title>
-      <link>http://www.africanews.com/2026/03/23/trump-claims-very-strong-iran-talks-as-tehran-denies-contact/</link>
-      <description>President Donald Trump said Monday the U.S. was talking with a “top&quot; and &quot;respected” Iranian leader and claimed the Islamic Republic was eager for a deal to end the war.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-23T21:38:33+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>

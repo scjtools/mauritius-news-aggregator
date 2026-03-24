@@ -1,6 +1,6 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 234,
+  "item_count": 232,
   "items": [
     {
       "id": "singleton_1a008076942c",
@@ -22,6 +22,144 @@
       ],
       "urls": [
         "https://africa.businessinsider.com/local/markets/french-israeli-billionaire-patrick-drahi-to-auction-rare-diamond-from-africas-richest/5ct265v"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_075c9e6b0d6f",
+      "cluster_time": "2026-03-24T21:40:29.074112+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Brent Crude Oil price – 24 March 2026",
+        "source": "Brent Crude Oil",
+        "url": "https://www.oilpriceapi.com",
+        "summary": "Brent Crude Oil: USD 99.64 per barrel"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Brent Crude Oil"
+      ],
+      "titles": [
+        "Brent Crude Oil price – 24 March 2026"
+      ],
+      "urls": [
+        "https://www.oilpriceapi.com"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_df75dc1edb63",
+      "cluster_time": "2026-03-24T21:40:28.963180+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Bitcoin price – 24 March 2026",
+        "source": "Bitcoin Price",
+        "url": "https://api.gold-api.com/price/BTC",
+        "summary": "Bitcoin (BTC): USD 70,071.13 (▼ -0.48% from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Bitcoin Price"
+      ],
+      "titles": [
+        "Bitcoin price – 24 March 2026"
+      ],
+      "urls": [
+        "https://api.gold-api.com/price/BTC"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_ec58bd454756",
+      "cluster_time": "2026-03-24T21:40:28.457728+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Gold price – 24 March 2026",
+        "source": "Gold Price",
+        "url": "https://api.gold-api.com/price/XAU",
+        "summary": "Gold (XAU): USD 4,475.30 (▲ +1.96% from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Gold Price"
+      ],
+      "titles": [
+        "Gold price – 24 March 2026"
+      ],
+      "urls": [
+        "https://api.gold-api.com/price/XAU"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_f2d774f99b43",
+      "cluster_time": "2026-03-24T21:40:27.902980+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "MUR exchange rates – 24 March 2026",
+        "source": "MUR Exchange Rates",
+        "url": "https://www.floatrates.com/daily/mur.xml",
+        "summary": "MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "MUR Exchange Rates"
+      ],
+      "titles": [
+        "MUR exchange rates – 24 March 2026"
+      ],
+      "urls": [
+        "https://www.floatrates.com/daily/mur.xml"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_551ef72028ec",
+      "cluster_time": "2026-03-24T21:40:25.409589+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "SEMDEX – 24 March 2026",
+        "source": "Stock Exchange of Mauritius",
+        "url": "https://www.stockexchangeofmauritius.com/products-market-data/indices",
+        "summary": "SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Stock Exchange of Mauritius"
+      ],
+      "titles": [
+        "SEMDEX – 24 March 2026"
+      ],
+      "urls": [
+        "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_5474cbfe3ad8",
+      "cluster_time": "2026-03-24T21:40:20.705838+00:00",
+      "category": "weather",
+      "lead": {
+        "title": "Mauritius weather bulletin – 24 March 2026",
+        "source": "Mauritius Met Services",
+        "url": "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php",
+        "summary": "Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Mauritius Met Services"
+      ],
+      "titles": [
+        "Mauritius weather bulletin – 24 March 2026"
+      ],
+      "urls": [
+        "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
       ],
       "languages": []
     },
@@ -72,140 +210,25 @@
       "languages": []
     },
     {
-      "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-24T21:18:22.901349+00:00",
-      "category": "finance",
+      "id": "singleton_1a9eb361415c",
+      "cluster_time": "2026-03-24T21:13:34+00:00",
+      "category": "global",
       "lead": {
-        "title": "Brent Crude Oil price – 24 March 2026",
-        "source": "Brent Crude Oil",
-        "url": "https://www.oilpriceapi.com",
-        "summary": "Brent Crude Oil: USD 100.15 per barrel"
+        "title": "Long lines, unpaid TSA workers: Experts say US air travel system in crisis",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/24/long-lines-unpaid-tsa-workers-experts-say-us-air-travel-system-in-crisis?traffic_source=rss",
+        "summary": "TSA workers face unpaid wages, causing long lines and staffing shortages at key US airports during shutdown chaos."
       },
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Brent Crude Oil"
+        "Al Jazeera"
       ],
       "titles": [
-        "Brent Crude Oil price – 24 March 2026"
+        "Long lines, unpaid TSA workers: Experts say US air travel system in crisis"
       ],
       "urls": [
-        "https://www.oilpriceapi.com"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-24T21:18:22.752701+00:00",
-      "category": "finance",
-      "lead": {
-        "title": "Bitcoin price – 24 March 2026",
-        "source": "Bitcoin Price",
-        "url": "https://api.gold-api.com/price/BTC",
-        "summary": "Bitcoin (BTC): USD 69,975.04 (▼ -0.61% from last)"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Bitcoin Price"
-      ],
-      "titles": [
-        "Bitcoin price – 24 March 2026"
-      ],
-      "urls": [
-        "https://api.gold-api.com/price/BTC"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-24T21:18:22.316887+00:00",
-      "category": "finance",
-      "lead": {
-        "title": "Gold price – 24 March 2026",
-        "source": "Gold Price",
-        "url": "https://api.gold-api.com/price/XAU",
-        "summary": "Gold (XAU): USD 4,475.30 (▲ +1.96% from last)"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Gold Price"
-      ],
-      "titles": [
-        "Gold price – 24 March 2026"
-      ],
-      "urls": [
-        "https://api.gold-api.com/price/XAU"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-03-24T21:18:21.935262+00:00",
-      "category": "finance",
-      "lead": {
-        "title": "MUR exchange rates – 24 March 2026",
-        "source": "MUR Exchange Rates",
-        "url": "https://www.floatrates.com/daily/mur.xml",
-        "summary": "MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "MUR Exchange Rates"
-      ],
-      "titles": [
-        "MUR exchange rates – 24 March 2026"
-      ],
-      "urls": [
-        "https://www.floatrates.com/daily/mur.xml"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-24T21:18:19.389103+00:00",
-      "category": "finance",
-      "lead": {
-        "title": "SEMDEX – 24 March 2026",
-        "source": "Stock Exchange of Mauritius",
-        "url": "https://www.stockexchangeofmauritius.com/products-market-data/indices",
-        "summary": "SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Stock Exchange of Mauritius"
-      ],
-      "titles": [
-        "SEMDEX – 24 March 2026"
-      ],
-      "urls": [
-        "https://www.stockexchangeofmauritius.com/products-market-data/indices"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-24T21:18:15.064399+00:00",
-      "category": "weather",
-      "lead": {
-        "title": "Mauritius weather bulletin – 24 March 2026",
-        "source": "Mauritius Met Services",
-        "url": "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php",
-        "summary": "Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Mauritius Met Services"
-      ],
-      "titles": [
-        "Mauritius weather bulletin – 24 March 2026"
-      ],
-      "urls": [
-        "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+        "https://www.aljazeera.com/news/2026/3/24/long-lines-unpaid-tsa-workers-experts-say-us-air-travel-system-in-crisis?traffic_source=rss"
       ],
       "languages": []
     },
@@ -378,7 +401,7 @@
         "title": "Pilots killed in LaGuardia plane crash named",
         "source": "BBC News",
         "url": "https://www.bbc.com/news/articles/cz67jq0enwpo?at_medium=RSS&at_campaign=rss",
-        "summary": "An Air Canada plane, carrying 73 passengers and four crew, collided with a firefighting vehicle shortly after landing at LaGuardia airport."
+        "summary": "Investigators released details from the final three minutes of cockpit and tower communications, which showed controllers cleared both the plane and a fire truck to cross the runway."
       },
       "cluster_size": 1,
       "source_count": 1,
@@ -482,29 +505,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/24/second-set-of-rare-gorilla-twins-born-in-dr-congo-reserve-goma-dr-congo/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_efa6b5b386c3",
-      "cluster_time": "2026-03-24T20:07:00+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth",
-        "source": "AllAfrica",
-        "url": "https://allafrica.com/stories/202603240671.html",
-        "summary": "[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the second edition of the International Exhibition of Extractive and Energy Resources (SIREXE). In the presence of the country's highest authorities and the Minister of Minerals and Energy of Botswana, the guest of honour, Côte d'Ivoire reaffirmed its ambition to"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "AllAfrica"
-      ],
-      "titles": [
-        "Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth"
-      ],
-      "urls": [
-        "https://allafrica.com/stories/202603240671.html"
       ],
       "languages": []
     },
@@ -1360,25 +1360,25 @@
       "languages": []
     },
     {
-      "id": "8b6833271e7c",
+      "id": "singleton_e3e5293a72c4",
       "cluster_time": "2026-03-24T16:54:56+00:00",
       "category": "global",
       "lead": {
-        "title": "ICE agents deploy to major US airports as security queues stretch for hours",
-        "source": "BBC News",
-        "url": "https://www.bbc.com/news/articles/cx298j7xg0yo?at_medium=RSS&at_campaign=rss",
-        "summary": "[BBC News] Hundreds of ICE agents have been deployed to 14 airports, in cities including New York, Atlanta and Houston.\n\n[France 24] US immigration agency began deploying to major airports on Monday, as officials scrambled to ease mounting travel disruption during a prolonged, partial government shutdown. The move places Immigration and Customs Enforcement (ICE) personnel – already under intense scrutiny after fatal shootings linked to immigration operations – in highly visible roles at crowded transport hubs across the country."
+        "title": "United States: ICE agents patrol airports amid govt shutdown",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/video/20260324-united-states-ice-agents-patrol-airports-amid-govt-shutdown",
+        "summary": "US immigration agency began deploying to major airports on Monday, as officials scrambled to ease mounting travel disruption during a prolonged, partial government shutdown. The move places Immigration and Customs Enforcement (ICE) personnel – already under intense scrutiny after fatal shootings linked to immigration operations – in highly visible roles at crowded transport hubs across the country."
       },
-      "cluster_size": 2,
-      "source_count": 2,
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "BBC News"
+        "France 24"
       ],
       "titles": [
-        "ICE agents deploy to major US airports as security queues stretch for hours"
+        "United States: ICE agents patrol airports amid govt shutdown"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cx298j7xg0yo?at_medium=RSS&at_campaign=rss"
+        "https://www.france24.com/en/video/20260324-united-states-ice-agents-patrol-airports-amid-govt-shutdown"
       ],
       "languages": []
     },
@@ -1839,29 +1839,6 @@
       ],
       "urls": [
         "https://allafrica.com/stories/202603240485.html"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_f9446d1be55c",
-      "cluster_time": "2026-03-24T15:34:43+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Israeli strike hits Tyre during Al Jazeera report",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/video/newsfeed/2026/3/24/israeli-strike-hits-tyre-during-al-jazeera-report?traffic_source=rss",
-        "summary": "An Al Jazeera journalist's report was disrupted by an Israeli missile striking a waterfront building in Lebanon’s Tyre."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "titles": [
-        "Israeli strike hits Tyre during Al Jazeera report"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/video/newsfeed/2026/3/24/israeli-strike-hits-tyre-during-al-jazeera-report?traffic_source=rss"
       ],
       "languages": []
     },
@@ -5358,29 +5335,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&at_campaign=rss"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_9e0c44babe32",
-      "cluster_time": "2026-03-23T21:38:33+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Trump claims ‘very strong’ Iran talks as Tehran denies contact",
-        "source": "Africanews",
-        "url": "http://www.africanews.com/2026/03/23/trump-claims-very-strong-iran-talks-as-tehran-denies-contact/",
-        "summary": "President Donald Trump said Monday the U.S. was talking with a “top\" and \"respected” Iranian leader and claimed the Islamic Republic was eager for a deal to end the war."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "titles": [
-        "Trump claims ‘very strong’ Iran talks as Tehran denies contact"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/23/trump-claims-very-strong-iran-talks-as-tehran-denies-contact/"
       ],
       "languages": []
     }
