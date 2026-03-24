@@ -61,14 +61,16 @@ jobs:
           print("Model downloaded and cached")
           PYEOF
 
-      - name: Run aggregator
-        run: python aggregator.py
+      - name: Run aggregation
+        run: |
+          python aggregator.py
+          python build_feed_json.py
 
       - name: Commit and push outputs
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml inject.yaml
+          git add feed.xml feed.json inject.yaml
           ITEM_COUNT=$(python3 -c "import xml.etree.ElementTree as ET; t=ET.parse('feed.xml'); print(len(t.findall('.//item')))")
           git diff --staged --quiet || git commit -m "autorun: feed ${ITEM_COUNT} items — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
