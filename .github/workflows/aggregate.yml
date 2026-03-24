@@ -1,15 +1,20 @@
 name: Aggregate news feed
+
 on:
   schedule:
-    - cron: "0 22 * * *"  # 02:00 local time (UTC+4)
-  workflow_dispatch:        # allows manual trigger from GitHub UI
+    - cron: "0 22 * * *"   # 02:00 Mauritius time (UTC+4)
+  workflow_dispatch:
+
 permissions:
   contents: write
+
 jobs:
   aggregate:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v6
+
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
@@ -18,34 +23,41 @@ jobs:
         uses: actions/cache@v5
         with:
           path: ~/.cache/pip
-          key: pip-${{ hashFiles('requirements.txt') }}
-          restore-keys: pip-
+          key: pip-${{ runner.os }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            pip-${{ runner.os }}-
 
-      - name: Cache HuggingFace model
+      - name: Cache Hugging Face model
         uses: actions/cache@v5
         id: hf-cache
         with:
           path: ~/.cache/huggingface
           key: hf-all-MiniLM-L6-v2-v1
 
+      - name: Restore market cache
+        uses: actions/cache@v5
+        with:
+          path: market_cache.json
+          key: market-cache-${{ runner.os }}
+          restore-keys: |
+            market-cache-${{ runner.os }}
+
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          python -m pip install --upgrade pip
+          pip install --no-cache-dir -r requirements.txt
 
       - name: Warm up embedding model
         if: steps.hf-cache.outputs.cache-hit != 'true'
         run: |
           python - <<'PYEOF'
           from sentence_transformers import SentenceTransformer
-          SentenceTransformer("all-MiniLM-L6-v2").encode(["warmup"], normalize_embeddings=True)
+          SentenceTransformer("all-MiniLM-L6-v2").encode(
+              ["warmup"],
+              normalize_embeddings=True
+          )
           print("Model downloaded and cached")
           PYEOF
-
-      - name: Restore market cache
-        uses: actions/cache@v5
-        with:
-          path: market_cache.json
-          key: market-cache-${{ runner.os }}
-          restore-keys: market-cache-
 
       - name: Run aggregator
         run: python aggregator.py
@@ -54,7 +66,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add feed.xml inject.yaml
+          git add feed.xml inject.yaml market_cache.json
           ITEM_COUNT=$(python3 -c "import xml.etree.ElementTree as ET; t=ET.parse('feed.xml'); print(len(t.findall('.//item')))")
           git diff --staged --quiet || git commit -m "autorun: feed ${ITEM_COUNT} items — $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
