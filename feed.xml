@@ -4,7 +4,17 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Tue, 24 Mar 2026 18:08:50 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Mar 2026 21:22:32 +0000</lastBuildDate>
+    <item>
+      <title>French-Israeli billionaire Patrick Drahi to auction rare diamond from Africa’s richest mine with $2.8 million price tag</title>
+      <link>https://africa.businessinsider.com/local/markets/french-israeli-billionaire-patrick-drahi-to-auction-rare-diamond-from-africas-richest/5ct265v</link>
+      <description>Global auction house Sothebys, owned by French-Israeli billionaire Patrick Drahi, is preparing to auction a rare 28</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T22:14:13+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
     <item>
       <title>Montagne Longue : un conducteur arrêté avec des substances suspectes lors d’un contrôle</title>
       <link>https://www.lemauricien.com/actualites/faits-divers/montagne-longue-un-conducteur-arrete-avec-des-substances-suspectes-lors-dun-controle/702612/</link>
@@ -26,6 +36,366 @@
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Brent Crude Oil price – 24 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 100.15 per barrel</description>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:18:22.901349+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bitcoin price – 24 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 69,975.04 (▼ -0.61% from last)</description>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:18:22.752701+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 24 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,475.30 (▲ +1.96% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:18:22.316887+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>MUR exchange rates – 24 March 2026</title>
+      <link>https://www.floatrates.com/daily/mur.xml</link>
+      <description>MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)</description>
+      <source>MUR Exchange Rates</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:18:21.935262+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SEMDEX – 24 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)</description>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <cluster_time>2026-03-24T21:18:19.389103+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 24 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals.</description>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <cluster_time>2026-03-24T21:18:15.064399+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Building collapses after Iranian missile strike on Israel</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/building-collapses-after-iranian-missile-strike-on-israel?traffic_source=rss</link>
+      <description>A building has collapsed in Bnei Brak, near Tel Aviv, after Israeli authorities said it was hit by an Iranian missile.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T21:07:10+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump claims US has achieved ‘regime change’, ‘received present’ from Iran</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/trump-claims-us-has-achieved-regime-change-received-present-from-iran?traffic_source=rss</link>
+      <description>US President Donald Trump has told reporters in the Oval Office that the US has achieved regime change in Iran.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T21:06:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iraq to summon US, Iran envoys over deadly attacks: PM’s office</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/iraq-to-summon-us-iranian-envoys-over-deadly-attacks-pms-office?traffic_source=rss</link>
+      <description>Iraqi government says it plans to deliver 'formal notes of protest' amid recent strikes tied to US-Israeli war on Iran.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T21:05:15+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>NASA to spend $20bn on moon base, nuclear-powered Mars spacecraft</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/nasa-to-spend-20bn-on-moon-base-nuclear-powered-mars-spacecraft?traffic_source=rss</link>
+      <description>The agency will increase robotic missions to the Moon and launch a nuclear spacecraft called Space Reactor 1 Freedom.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T20:58:04+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iranian missiles cause injuries and major damage across Israel</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/iranian-missiles-cause-injuries-and-major-damage-across-israel?traffic_source=rss</link>
+      <description>Iran released a video showing the launch of missiles as a new wave targeted areas across Israel.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T20:54:37+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Danish PM's left bloc leads election, but no majority</title>
+      <link>https://www.france24.com/en/danish-pm-s-left-bloc-leads-election-but-no-majority</link>
+      <description>Denmark's left bloc headed by Prime Minister Mette Frederiksen took an early lead in Tuesday's general election but failed to secure a majority, exit polls showed, with Frederiksen's Social Democrats posting their weakest showing in 125 years. FRANCE 24's Haxie Meyers-Belkin speaks with Ulrik Pram Gad, Senior Researcher at the Danish Institute for International Studies.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T20:34:38+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Has Iran brought down an ‘unkillable’ US F-35 jet?</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/has-iran-brought-down-an-unkillable-us-f-35-jet-3?traffic_source=rss</link>
+      <description>Iran says it struck a US F-35 and released footage of the incident.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T20:34:34+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pilots killed in LaGuardia plane crash named</title>
+      <link>https://www.bbc.com/news/articles/cz67jq0enwpo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>An Air Canada plane, carrying 73 passengers and four crew, collided with a firefighting vehicle shortly after landing at LaGuardia airport.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T20:34:20+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Rescuers race to save stranded whale in Germany</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/rescuers-race-to-save-stranded-whale-in-germany?traffic_source=rss</link>
+      <description>Rescuers are trying to save a young humpback whale which is stranded in shallow waters in northern Germany.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T20:21:47+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Russia hits Ukraine with rare daytime barrage as new offensive begins</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/russia-hits-ukraine-with-deadly-daytime-barrage-as-spring-offensive-starts?traffic_source=rss</link>
+      <description>Ukraine's President Zelenskyy warns that Kyiv faces a deficit of missiles as Washington is focused on its war on Iran.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T20:15:35+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight</title>
+      <link>https://www.france24.com/en/europe/20260324-russia-launches-nearly-1000-drones-ukraine-in-24-hours</link>
+      <description>Moscow launched nearly 1,000 drones at Ukraine within 24 hours in one of its biggest-ever daytime attacks, killing at least eight people and damaging a UNESCO heritage site in Lviv. Ukrainian President Volodymyr Zelensky on Tuesday slammed Moscow's &quot;absolute depravity&quot; and said Russia &quot;has no intention of actually ending this war&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T20:15:30+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Second set of rare gorilla twins born in DR Congo reserve Goma, DR Congo</title>
+      <link>http://www.africanews.com/2026/03/24/second-set-of-rare-gorilla-twins-born-in-dr-congo-reserve-goma-dr-congo/</link>
+      <description>An endangered mountain gorilla has given birth to twins in the Virunga National Park in eastern Democratic Republic of Congo, whose remarkable biodiversity has long been threatened by the region's litany of conflicts.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T20:15:06+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth</title>
+      <link>https://allafrica.com/stories/202603240671.html</link>
+      <description>[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the second edition of the International Exhibition of Extractive and Energy Resources (SIREXE). In the presence of the country's highest authorities and the Minister of Minerals and Energy of Botswana, the guest of honour, Côte d'Ivoire reaffirmed its ambition to</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T20:07:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Ivory Coast cocoa producers suffer amid global price fall</title>
+      <link>http://www.africanews.com/2026/03/24/ivory-coast-cocoa-producers-suffer-amid-global-price-fall/</link>
+      <description>Cocoa farmers in Ivory Coast are counting on losses from the reduced global prices.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T20:03:12+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pakistan’s prime minister says his nation is ready to facilitate talks to end Iran war</title>
+      <link>https://www.france24.com/en/pakistan-s-prime-minister-says-his-nation-is-ready-to-facilitate-talks-to-end-iran-war</link>
+      <description>Pakistan’s prime minister says his country is ready to “facilitate meaningful and conclusive talks” to end the Iran war. Pakistan is one of the countries pushing diplomatically for talks between Iran and the United States after President Donald Trump said Monday there were ongoing negotiations between Washington and Tehran. FRANCE 24's August Hakansson reports.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:58:27+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Nigeria bets on digital overhaul and port upgrades to tackle one of the world’s slowest ports</title>
+      <link>https://africa.businessinsider.com/local/markets/nigeria-launches-digital-trade-system-to-cut-port-delays-boost-competitiveness/k8ngqqz</link>
+      <description>Nigeria has unveiled a National Single Window and port upgrade plan to reduce cargo delays, lower trade costs and improve its position in global supply chains</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T19:56:08+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Saudi leader said to be pushing Trump to continue war in Iran, New York Times reports</title>
+      <link>https://www.france24.com/en/saudi-leader-said-to-be-pushing-trump-to-continue-war-in-iran-new-york-times-reports</link>
+      <description>The New York Times reports on Tuesday that Saudi Arabia’s de facto leader, Crown Prince Mohammed bin Salman, has been pushing President Trump to continue the war against Iran, arguing that the U.S.-Israeli military campaign presents a “historic opportunity” to remake the Middle East. FRANCE 24's Hoda Abdel-Hamid reports from Doha.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:52:39+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Egypt: Qualiphi Acquires Career Club to Expand Ai Career Platform Across Mena</title>
+      <link>https://allafrica.com/stories/202603240667.html</link>
+      <description>[Daba Finance] Qualiphi has acquired Career Club in a six-figure deal completed in the second half of 2025, as it expands AI-powered career services across Egypt and the Gulf.</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T19:51:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>'We need a more European NATO': Rasmussen warns the US is 'turning its back on Europe'</title>
+      <link>https://www.france24.com/en/tv-shows/spotlight/20260324-we-need-a-more-european-nato-rasmussen-warns-the-us-is-turning-its-back-on-europe</link>
+      <description>François Picard is pleased to welcome former NATO Secretary General Anders Fogh Rasmussen. According to NATO's Secretary General, Europe is entering a decisive strategic rupture, one that forces a long-delayed reckoning with its own dependency structures and security assumptions. The erosion of American commitment to European defence is not a hypothetical risk but an unfolding reality, exposing the fragility of a model built on external guarantees and internal complacency.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:39:22+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>What Iranians make of the possibility of talks to end the war</title>
+      <link>https://www.bbc.com/news/articles/c3ex39w09gzo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>But I can change it: Some Iranians dismiss the possibility of talks to end the war, others worry a deal may leave the current leaders in place.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:36:59+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US says they’re talking, Iran says they’re not. Who’s telling the truth?</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/us-says-theyre-talking-iran-says-theyre-not-whos-telling-the-truth?traffic_source=rss</link>
+      <description>Critics say Trump's claim of negotiations is a tactic to calm the market, but could the Iranians be ready to talk?</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:34:20+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Africa: Dangote Refinery Sells Fuel Across Africa After Reaching Full Capacity</title>
+      <link>https://allafrica.com/stories/202603240657.html</link>
+      <description>[Daba Finance] Dangote Petroleum Refinery &amp;amp; Petrochemicals has begun exporting fuel across Africa after reaching full production capacity, marking a shift in regional fuel supply dynamics.</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T19:31:15+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Egypt’s Mohamed Salah to leave Liverpool at end of season after 9-year stay</title>
+      <link>https://www.aljazeera.com/sports/2026/3/24/egypts-mohamed-salah-to-leave-liverpool-at-end-of-season-after-9-year-stay?traffic_source=rss</link>
+      <description>The former Chelsea and Roma forward has been linked with a move from Premier League champions to Saudi Pro League.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:23:24+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>EU ramps up Nigeria strategy with €290 million investment in broadband, pharma and agriculture</title>
+      <link>https://africa.businessinsider.com/local/markets/eu-announces-euro290m-investment-in-nigeria-for-broadband-pharma-and-agriculture/12ejj0z</link>
+      <description>The European Union has unveiled a €290 million investment package for Nigeria targeting internet infrastructure, local drug manufacturing and agricultural exports as Europe deepens economic ties with Africa’s largest economy</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T19:19:47+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Talks or theatre? Claims of peace talks to end Iran war collide with denials</title>
+      <link>https://www.france24.com/en/tv-shows/the-debate/20260324-talks-or-theatre-claims-of-peace-talks-to-end-iran-war-collide-with-denials</link>
+      <description>Are diplomatic talks to end the Iran conflict actually happening? Trump hinted at “major” progress, but the White House downplayed it. Iran says no, Qatar says they're not involved, while there's increasing speculation that Pakistan could be the host of talks later this week. Yet all of this as Israel says it plans to push into Lebanon as far as the Litani River against Hezbollah, and will use a Gaza-style approach; which resulted in a humanitarian catastrophe. So where are we at? Are we witness</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:15:47+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>What impact is the war on Iran having on Israel?</title>
+      <link>https://www.aljazeera.com/video/inside-story/2026/3/24/what-impact-is-the-war-on-iran-having-on-israel?traffic_source=rss</link>
+      <description>Iranian missiles hit the country as global economic damage deepens.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:15:36+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Why is Trump asking for Europe’s help in war on Iran?</title>
+      <link>https://www.aljazeera.com/video/the-bottom-line/2026/3/24/why-is-trump-asking-for-europes-help-in-war-on-iran?traffic_source=rss</link>
+      <description>Former French Ambassador to the US Gerard Araud argues that Europe is right to avoid the US-Israeli war on Iran.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:08:11+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Aid flotilla vessel arrives in Cuba amid US-driven energy crisis</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/aid-flotilla-vessel-arrives-in-cuba-amid-us-driven-energy-crisis?traffic_source=rss</link>
+      <description>Activists say that aid delivery is small 'gesture of solidarity' meant to draw attention to US energy blockade.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T19:06:12+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue</title>
+      <link>https://www.lemauricien.com/actualites/societe/carburants-le-prix-du-diesel-augmente-a-rs-64-80-celui-de-lessence-maintenue/702629/</link>
+      <description>[Le Mauricien] Le Petroleum Pricing Committee (PPC), réuni ce mardi 24 mars 2026, a décidé d’augmenter le prix du diesel et de maintenir celui de l’essence, à l’issue de son exercice de révision des prix ...
+
+[Defimedia] Le prix du diesel connaît une hausse de 10 %, passant de Rs 58,95 à Rs 64,80, tandis que celui de l’essence reste inchan</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-24T18:31:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>ca50926f36a8</cluster_id>
+      <sources>Le Mauricien
+Defimedia</sources>
+      <urls>https://www.lemauricien.com/actualites/societe/carburants-le-prix-du-diesel-augmente-a-rs-64-80-celui-de-lessence-maintenue/702629/
+https://defimedia.info/carburants-le-prix-du-diesel-passe-de-rs-5895-rs-6480-celui-de-lessence-reste-inchange</urls>
+      <titles>Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue
+Carburants : le prix du diesel passe de Rs 58,95 à Rs 64,80, celui de l’essence reste inchangé</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
       <title>DRC’s $1.4 billion lithium project could become one of the largest mines in the world</title>
       <link>https://africa.businessinsider.com/local/markets/drcs-dollar14-billion-lithium-project-could-become-one-of-the-largest-mines-in-the/f5qqex1</link>
       <description>A massive lithium project in the Democratic Republic of the Congo (DRC) is set to change Africas role in the global battery supply chain, as Zijin Mining Group Co</description>
@@ -36,72 +406,92 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Brent Crude Oil price – 24 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 104.82 per barrel</description>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T18:04:58.415043+00:00</cluster_time>
+      <title>Hausse de 10 % du diesel : « Cela entraînera probablement une augmentation des coûts de production, avec des répercussions sur l’électricité et les prix des biens et services », selon Tengur</title>
+      <link>https://defimedia.info/hausse-de-10-du-diesel-cela-entrainera-probablement-une-augmentation-des-couts-de-production-avec</link>
+      <description>Suttyhudeo Tengur, président de l’Association pour la protection de l’environnement et des consommateurs, dit avoir noté</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-24T18:29:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 24 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 69,284.53 (▼ -1.59% from last)</description>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T18:04:58.314296+00:00</cluster_time>
+      <title>War on Iran: 'Fought on faulty assumptions, notion of externally delivered regime change delusional'</title>
+      <link>https://www.france24.com/en/war-on-iran-fought-on-faulty-assumptions-notion-of-externally-delivered-regime-change-delusional</link>
+      <description>Carys Garland is pleased to welcome Barbara Slavin, Author and Distinguished Fellow at the Stimson Center. According to Slavin, the war on Iran is not a coherent strategic endeavour, and reflects a pattern in which rhetoric trumps reality. Rather than emerging from necessity, diplomatic alternatives were dismissed and intelligence warnings inadequately considered. Slavin warns military actions have strengthened hardline elements within the Iranian regime and has destabilised the global economy.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T18:13:14+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 24 March 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,388.80 (▼ -0.01% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T18:04:57.749921+00:00</cluster_time>
+      <title>Russia launches 948 drones at Ukraine in largest attack over 24-hour period</title>
+      <link>https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Cities across the west of Ukraine were hit, with residential buildings damaged and many injured.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T18:12:36+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 24 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.53 | MUR/EUR 53.89 (▲ 0.04 from last) (▲ 0.20 from last)</description>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T18:04:57.146421+00:00</cluster_time>
+      <title>Iran names successor to security chief killed in US-Israeli attack</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/mohammad-bagher-zolghadr-succeeds-slain-larijani-as-iran-security-chief?traffic_source=rss</link>
+      <description>Mohammad Bagher Zolghadr, ex-IRGC commander, to replace late Ali Larijani as chief of Supreme National Security Council.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T18:11:47+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 24 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2227.27 (▲ 4.07 pts, +0.18% from last close 2,223.20)</description>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <cluster_time>2026-03-24T18:04:54.583598+00:00</cluster_time>
+      <title>Afghanistan frees detained US citizen Dennis Coyle as gesture of ‘goodwill’</title>
+      <link>https://www.aljazeera.com/news/2026/3/24/afghanistan-frees-detained-us-citizen-dennis-coyle-as-gesture-of-goodwill?traffic_source=rss</link>
+      <description>US State Secretary Marco Rubio welcomes Coyle's release as 'positive step' and thanks Qatar and the UAE for their help.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T18:11:34+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Mauritius weather bulletin – 24 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 16h30 on Tuesday 24 March 2026.General situation:1. Few clouds coming from the Eastern sector will influence the local weather as from tonight.2. A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Partly cloudy in general tonight and tomorrow morning becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 21 and 23 degrees Celsius over the central plateau and between 25 and 27 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon over the Western part of the island and over the Central Plateau with localised showers. These showers may be temporarily moderate.Partly cloudy elsewhere.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind will blow from the Eastern sector at about 15 km/h.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :17h47 and tomorrow 04h04.Low tides :23h20 and tomorrow 12h28.Sunset :18h18.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1013 hectopascals.</description>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
-      <cluster_time>2026-03-24T18:04:49.768447+00:00</cluster_time>
+      <title>Israeli strike lands near Roman ruins in Lebanon</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/israeli-strike-lands-near-roman-ruins-in-lebanon?traffic_source=rss</link>
+      <description>Smoke was seen rising close to Roman ruins in the Lebanese city of Tyre after an Israeli strike hit a building nearby.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T18:06:04+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>'Truly magical woman': Tributes to Married at First Sight star Mel Schilling</title>
+      <title>Kim Jong Un says North Korea will never give up on nuclear weapons</title>
+      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/kim-jong-un-says-north-korea-will-never-give-up-on-nuclear-weapons?traffic_source=rss</link>
+      <description>Kim Jong Un has said North Korea will never give up on its push for nuclear weapons.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T18:01:06+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>'Truly magical woman': Tributes to Married at First Sight's Mel Schilling</title>
       <link>https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The TV dating coach is remembered as &quot;a radiant, shining light&quot; following her death at the age of 54.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-24T17:59:25+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Anthropic challenges US Pentagon’s ban in San Francisco court showdown</title>
+      <link>https://www.aljazeera.com/economy/2026/3/24/anthropic-challenges-us-pentagons-ban-in-san-francisco-court-showdown?traffic_source=rss</link>
+      <description>Anthropic accuses Pentagon of unlawful retaliation over its refusal to loosen AI safety restrictions for military use.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T17:57:50+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -126,22 +516,22 @@
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Bill Cosby ordered to pay $19.25m to woman in decades-old assault case</title>
+      <link>http://www.africanews.com/2026/03/24/bill-cosby-ordered-to-pay-1925m-to-woman-in-decades-old-assault-case/</link>
+      <description>A California court has awarded $19.25m in damages to a woman who accused actor Bill Cosby of drugging and sexually assaulting her somewhere in the early 1970s.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T17:43:19+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>French economic growth undercut by war in Iran, national statistics office says</title>
       <link>https://www.france24.com/en/france/20260324-french-economic-growth-undercut-by-war-in-iran-national-statistics-office-says</link>
       <description>The French economy will grow by only 0.2% in the first half of the year instead of the 0.3% forecast, the Insee national statistics agency said Tuesday, citing higher inflation linked to the war in Iran. Inflation will surpass 2% in coming months, rising sharply from the 1.1% rate seen in February.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-24T17:42:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Russia launches 948 drones at Ukraine in largest attack over 24-hour period</title>
-      <link>https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Cities across the west of Ukraine were hit, with residential buildings damaged and many injured.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T17:32:20+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -154,26 +544,6 @@
       <cluster_time>2026-03-24T17:28:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue</title>
-      <link>https://www.lemauricien.com/actualites/societe/carburants-le-prix-du-diesel-augmente-a-rs-64-80-celui-de-lessence-maintenue/702629/</link>
-      <description>[Le Mauricien] Le Petroleum Pricing Committee (PPC), réuni ce mardi 24 mars 2026, a décidé d’augmenter le prix du diesel et de maintenir celui de l’essence, à l’issue de son exercice de révision des prix ...
-
-[Defimedia] Le prix du diesel connaît une hausse de 10 %, passant de Rs 58,95 à Rs 64,80, tandis que celui de l’essence reste inchan</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T17:25:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>ca50926f36a8</cluster_id>
-      <sources>Le Mauricien
-Defimedia</sources>
-      <urls>https://www.lemauricien.com/actualites/societe/carburants-le-prix-du-diesel-augmente-a-rs-64-80-celui-de-lessence-maintenue/702629/
-https://defimedia.info/carburants-le-prix-du-diesel-passe-de-rs-5895-rs-6480-celui-de-lessence-reste-inchange</urls>
-      <titles>Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue
-Carburants : le prix du diesel passe de Rs 58,95 à Rs 64,80, celui de l’essence reste inchangé</titles>
-      <languages>fr</languages>
     </item>
     <item>
       <title>Prix des carburants : Attention ! Fake news en circulation</title>
@@ -198,7 +568,7 @@ Carburants : le prix du diesel passe de Rs 58,95 à Rs 64,80, celui de l’essen
     <item>
       <title>Is Iran's parliamentary speaker Ghalibaf negotiating with the US?</title>
       <link>https://www.france24.com/en/middle-east/20260324-iran-s-parliamentary-speaker-ghalibaf-floated-as-possible-us-interlocutor</link>
-      <description>US President Donald Trump claimed on Monday that the United States had been negotiating with an unnamed Iranian leader whom he described as &quot;very reasonable&quot;. Media reports have since speculated that the Iranian interlocutor could be 64-year-old pilot and parliament speaker Mohammad Bagher Ghalibaf.</description>
+      <description>US President Donald Trump claimed on Monday that the United States had been negotiating with an unnamed Iranian leader whom he described as a &quot;top person&quot;. Media reports have since speculated that the Iranian interlocutor could be 64-year-old pilot and parliament speaker Mohammad Bagher Ghalibaf.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-24T17:11:56+00:00</cluster_time>
@@ -410,7 +780,7 @@ Kenya’s fuel retailers are running low on supply, and it could become a total 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran war shows norms of international conflicts have been upended</title>
+      <title>Iran war shows norms of international conflicts have been overturned</title>
       <link>https://www.bbc.com/news/articles/c4gjv02g54ko?at_medium=RSS&amp;at_campaign=rss</link>
       <description>US threats against energy infrastructure, and Iran's retaliation on its Gulf neighbours, signal a clear change.</description>
       <source>BBC News</source>
@@ -470,32 +840,12 @@ Kenya’s fuel retailers are running low on supply, and it could become a total 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Central Africa: UAE and CEMAC - A Gradually Expanding Economic Partnership</title>
-      <link>https://allafrica.com/stories/202603240488.html</link>
-      <description>[InfoWire] For decades, the member states of the Central African Economic and Monetary Community (CEMAC) have maintained close economic and diplomatic ties with partners such as France, China, the United States and the European Union. These relationships continue to structure the region's external engagement, particularly in infrastructure, finance, and trade. Yet shifts in the global political economy are gradually reshaping this landscape, with emerging actors expanding their presence across A</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T15:40:30+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Africa: AU Iped Supports South Sudan to Strengthen Education Data Systems Through Emis Reform</title>
       <link>https://allafrica.com/stories/202603240485.html</link>
       <description>[African Union] The African Union Pan-African Institute for Education for Development (AU IPED), through the Global Partnership for Education Knowledge and Innovation Exchange (GPE KIX) Africa 19 Hub a joint initiative with Canada's International Development Research Centre (IDRC), has successfully concluded a three-day workshop in Juba, South Sudan, to support the strengthening of the country's Education Management Information System (EMIS).</description>
       <source>AllAfrica</source>
       <category>regional</category>
       <cluster_time>2026-03-24T15:38:27+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya: President Ruto, Orengo Pledge to Put Politics Aside for Nyanza Development</title>
-      <link>https://allafrica.com/stories/202603240481.html</link>
-      <description>[Capital FM] Siaya -- President William Ruto has signaled a truce with Siaya Governor James Orengo, emphasizing a shared commitment to work together for the benefit of Kenyans.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T15:36:53+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -559,28 +909,14 @@ Djibouti: Djibouti Breaks Ground On Largest Residential Project in Nation's Hist
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Australia and EU agree sweeping trade deal in face of global uncertainty</title>
-      <link>https://www.bbc.com/news/articles/cly6g6l6lq7o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Australia and the EU sign sweeping trade and security deals after years of negotiations.
-
-[France 24] The European Union and Australia struck a long-awaited free-trade deal on March 24. The two countries have also agreed to boost defence cooperation and access to crucial rare-earth minerals in the face of global uncertainty over trade. Speaking while visiting Australia, EU chief Ursula von der Leyen said it was necessary at a time where tariffs and supplu chains are being weaponised.
-
-[France 24] The European Union and Australia struck a long-awaited free-trade deal on Tuesday as the bloc seeks to diversify its export markets and expand beyond ​its traditional partners. The deal, however, has drawn stern criticism from European farmers' groups that called concessions on exports of Australian beef, sugar and lamb &quot;unacceptable&quot;.</description>
-      <source>BBC News</source>
+      <title>What to know about the sweeping new EU-Australia trade agreement</title>
+      <link>https://www.france24.com/en/europe/20260324-what-to-know-about-the-long-awaited-eu-australia-trade-agreement</link>
+      <description>The European Union and Australia struck a long-awaited free-trade deal on Tuesday as the bloc seeks to diversify its export markets and expand beyond ​its traditional partners. The deal, however, has drawn stern criticism from European farmers' groups that called concessions on exports of Australian beef, sugar and lamb &quot;unacceptable&quot;.</description>
+      <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-24T15:22:15+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>3b8fa017d982</cluster_id>
-      <sources>BBC News
-France 24</sources>
-      <urls>https://www.bbc.com/news/articles/cly6g6l6lq7o?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/eu-and-australia-sign-free-trade-deal-and-boost-defence-cooperation
-https://www.france24.com/en/europe/20260324-what-to-know-about-the-long-awaited-eu-australia-trade-agreement</urls>
-      <titles>Australia and EU agree sweeping trade deal in face of global uncertainty
-EU and Australia sign free trade deal and boost defence cooperation
-What to know about the sweeping new EU-Australia trade agreement</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Senegal fishermen bear the cost of industrial and illegal fishing</title>
@@ -603,32 +939,12 @@ What to know about the sweeping new EU-Australia trade agreement</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Moment rescuers find man alive under the rubble in Tehran</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/moment-rescuers-find-man-alive-under-the-rubble-in-tehran?traffic_source=rss</link>
-      <description>Rescuers have pulled a man alive from the rubble after US-Israeli strikes hit a residential area in Tehran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T15:16:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>UK-based firm to power Nigeria's first fully integrated $190M AI-enabled defence system</title>
       <link>https://africa.businessinsider.com/local/markets/uk-based-firm-to-power-nigerias-first-fully-integrated-dollar190m-ai-enabled-defence/8wzz881</link>
       <description>Nigeria has taken a major step in modernising its military capabilities by securing its first fully integrated national defence system through a $190 million deal with UK-based MARSS</description>
       <source>Business Insider Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-24T15:12:40+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>UN experts urge Israel to free Gaza doctor amid reports of ‘severe torture’</title>
-      <link>https://www.aljazeera.com/news/2026/3/24/un-experts-urge-israel-to-free-gaza-doctor-amid-reports-of-severe-torture?traffic_source=rss</link>
-      <description>Dr Hussam Abu Safia 'systematically denied' medical treatment in Israeli detention, UN special rapporteurs warn.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T15:09:34+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -643,52 +959,43 @@ What to know about the sweeping new EU-Australia trade agreement</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US Senate confirms Markwayne Mullin as homeland security chief</title>
-      <link>https://www.bbc.com/news/articles/c98kd9x705eo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] The US senator will now oversee the embattled department after a series of immigration enforcement blunders.
-
-[France 24] Following a 54 to 45 Senate vote, Oklahoma Senator Markwayne Mullin has been appointed the new Department of Homeland Security Secretary of the United States of America. He takes the helm of an agency in transition following the high-profile dismissal of Kristi Noem earlier in March.
-
-[Al Jazeera] Here's what we know about Markwayne Mullin, who'll oversee Trump’s contentious crackdown on migrants in the US.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:58:33+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>92c1619bb497</cluster_id>
-      <sources>BBC News
-France 24
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/c98kd9x705eo?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/who-is-the-new-us-homeland-security-chief-markwayne-mullin
-https://www.aljazeera.com/video/newsfeed/2026/3/24/who-is-markwayne-mullin-trumps-new-homeland-security-chief?traffic_source=rss</urls>
-      <titles>US Senate confirms Markwayne Mullin as homeland security chief
-Who is the new US homeland security chief Markwayne Mullin?
-Who is Markwayne Mullin, Trump’s new homeland security chief?</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Danes vote as PM Mette Frederiksen seeks third term after Greenland boost</title>
       <link>https://www.bbc.com/news/articles/cvgk02j4l4ko?at_medium=RSS&amp;at_campaign=rss</link>
       <description>[BBC News] Frederiksen enjoyed a surge in popularity for standing up to the US over Greenland but her support is down on 2022.
 
-[France 24] Danish PM Mette Frederiksen is seeking a third term as elections take place on March 24. She called the election in February - several months before she had to in apparent hopes that her resolute image in the crisis over Greenland would help her with voters. But the campaign was more aobut domestic issues than Denmark's relationship with Trump. FRANCE 24's Angela Diffley tells us more.
-
-[France 24] Danes voted on March 24 in parliamentary election. It could hand ​Prime Minister Mette Frederiksen a third term thanks to her staunch line against Donald Trump over Greenland, but she could also lose support over cost-of-living worries. FRANCE 24's Trine Villemann tells us what to expect from this election.</description>
+[France 24] Danish PM Mette Frederiksen is seeking a third term as elections take place on March 24. She called the election in February - several months before she had to in apparent hopes that her resolute image in the crisis over Greenland would help her with voters. But the campaign was more aobut domestic issues than Denmark's relationship with Trump. FRANCE 24's Angela Diffley tells us more.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-24T14:45:43+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
+      <cluster_size>2</cluster_size>
       <source_count>2</source_count>
-      <cluster_id>ab2cd9f012a9</cluster_id>
+      <cluster_id>33205cbe69f0</cluster_id>
       <sources>BBC News
 France 24</sources>
       <urls>https://www.bbc.com/news/articles/cvgk02j4l4ko?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/danish-pm-seeking-third-term-as-election-underway
-https://www.france24.com/en/denmark-election-dominated-by-domestic-issues-although-greenland-crisis-weighed-in</urls>
+https://www.france24.com/en/danish-pm-seeking-third-term-as-election-underway</urls>
       <titles>Danes vote as PM Mette Frederiksen seeks third term after Greenland boost
-Danish PM seeking third term as election underway
-Denmark election dominated by domestic issues followed by Greenland crisis</titles>
+Danish PM seeking third term as election underway</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>US Senate confirms Markwayne Mullin as homeland security chief</title>
+      <link>https://www.bbc.com/news/articles/c98kd9x705eo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The US senator will now oversee the embattled department after a series of immigration enforcement blunders.
+
+[France 24] Following a 54 to 45 Senate vote, Oklahoma Senator Markwayne Mullin has been appointed the new Department of Homeland Security Secretary of the United States of America. He takes the helm of an agency in transition following the high-profile dismissal of Kristi Noem earlier in March.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T14:44:13+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>ef619b08d661</cluster_id>
+      <sources>BBC News
+France 24</sources>
+      <urls>https://www.bbc.com/news/articles/c98kd9x705eo?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/who-is-the-new-us-homeland-security-chief-markwayne-mullin</urls>
+      <titles>US Senate confirms Markwayne Mullin as homeland security chief
+Who is the new US homeland security chief Markwayne Mullin?</titles>
       <languages>en</languages>
     </item>
     <item>
@@ -702,142 +1009,12 @@ Denmark election dominated by domestic issues followed by Greenland crisis</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Trump's supposed talks with Iran: What do we know?</title>
-      <link>https://www.france24.com/en/middle-east/20260324-trump-supposed-talks-with-iran-what-do-we-know</link>
-      <description>US President Donald Trump on Monday walked back his own deadline for escalating attacks on Iran, citing &quot;productive&quot; talks with Tehran – but Iranian officials deny those talks took place. So what is really happening? Here is a look at the facts and speculation.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:39:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>TV series show: 'One Piece' rides again</title>
-      <link>https://www.france24.com/en/tv-shows/arts24/20260324-tv-series-show-one-piece-rides-again</link>
-      <description>The manga megahit &quot;One Piece&quot; was a global hit when the first season of its small screen adaptation was released on Netflix in 2023; TV critic Dheepthika Laurent tells us why the second season is set for similar success. We also discuss Steve Carrell's comic turn in &quot;Rooster&quot;, a new HBO comedy set on a college campus from the makers of &quot;Ted Lasso&quot;.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:36:17+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Bill Cosby ordered to pay $19.25m to woman in decades-old assault case</title>
-      <link>http://www.africanews.com/2026/03/24/bill-cosby-ordered-to-pay-1925m-to-woman-in-decades-old-assault-case/</link>
-      <description>A California court has awarded $19.25m in damages to a woman who accused actor Bill Cosby of drugging and sexually assaulting her somewhere in the early 1970s.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T14:32:06+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Keir Starmer’s policy on the Iran war is a recipe for catastrophe</title>
-      <link>https://www.aljazeera.com/opinions/2026/3/24/keir-starmers-policy-on-the-iran-war-is-a-recipe-for-catastrophe?traffic_source=rss</link>
-      <description>The British government has learned no lessons from the disaster that the US-UK invasion of Iraq was.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:26:14+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>QatarEnergy declares force majeure on some LNG contracts due to Iran war</title>
-      <link>https://www.aljazeera.com/news/2026/3/24/qatarenergy-declares-force-majeure-on-some-lng-contracts?traffic_source=rss</link>
-      <description>The move comes amid production disruptions linked to the US-Israeli war on Iran, which have affected Qatar.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:22:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Is the US talking to Iran’s Mohammad Bagher Ghalibaf, and who is he?</title>
-      <link>https://www.aljazeera.com/news/2026/3/24/is-the-us-talking-to-irans-mohammad-bagher-ghalibaf-and-who-is-he?traffic_source=rss</link>
-      <description>Iranian leaders, including Ghalibaf, have denied that talks with the US are under way.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:16:21+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Middle East war weighs heavy on Iranian population</title>
-      <link>https://www.france24.com/en/middle-east-war-weighs-heavy-on-iranian-population</link>
-      <description>Getting a sense of the real death toll and the psychological toll of the war in the Middle East is a real challenge. According to estimates, at least 1,500 Iranians have died since the start of the US-Israeli military campaign. We spoke to a sociologist on how it is effecting civilians. Please be warned some of these images are disturbing.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:13:50+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>PNQ – Inflation attendue à 6% : le conflit au Moyen-Orient pèse sur le pouvoir d’achat</title>
       <link>https://www.lemauricien.com/actualites/societe/pnq-inflation-attendue-a-6-le-conflit-au-moyen-orient-pese-sur-le-pouvoir-dachat/702537/</link>
       <description>Le ministre du Commerce et de la Protection des consommateurs, Michaël Sik Yuen, a répondu ce mardi à la Private Notice Question du leader de l’opposition, Joe Lesjongard, à l’Assemblée natio...</description>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-24T14:11:50+04:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Us and French TotalEnergies reach $1 billion deal to end wind farm project</title>
-      <link>https://www.france24.com/en/us-and-french-totalenergies-reach-1-billion-deal-to-end-wind-farm-project</link>
-      <description>French energy giant Total is abandoning its plans to build offshore wind farms, a move critics call a massive backsliding for the planet. In a billion-dollar deal signed in Houston, the company is pivoting back to fossil fuels, leaving the public to wonder, who actually benefits from this reversal?</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:11:39+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>France's traditional chocolate Easter eggs get a makeover</title>
-      <link>https://www.france24.com/en/tv-shows/entre-nous/20260324-france-s-traditional-chocolate-easter-eggs-get-a-makeover</link>
-      <description>Easter is just around the corner, and that means chocolate is taking centre stage. In this edition of Entre Nous we're pleased to welcome back Eugénie Pont from the magazine Fou de Pâtisserie. She tells us why we traditionally offer chocolate at Easter and shows us what French chocolate makers have in store for us this year.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:09:31+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Why has India arrested US, Ukrainian nationals under ‘anti-terror’ laws?</title>
-      <link>https://www.aljazeera.com/news/2026/3/24/why-has-india-arrested-us-ukrainian-nationals-under-anti-terror-laws?traffic_source=rss</link>
-      <description>Six Ukrainians and an American allegedly crossed from India to Myanmar to train armed groups in drone warfare.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:05:02+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US 'shifts' towards diplomacy with Iran ahead of midterms</title>
-      <link>https://www.france24.com/en/us-shifts-towards-diplomacy-with-iran-ahead-of-midterms</link>
-      <description>Hopes rose that the Iran war could begin winding down as U.S. President Donald Trump said that his government was holding productive talks with Tehran. Although this was denied by Iran, it is a further sign that the US is turning towards diplomacy to end a conflict that could drag on. FRANCE 24's Philip Turle breaks it down for us.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:04:14+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>What if humanity meets the unknown?</title>
-      <link>https://www.aljazeera.com/video/doha-debates/2026/3/24/what-if-humanity-meets-the-unknown?traffic_source=rss</link>
-      <description>What if we’re not alone in this universe?</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:01:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mothers of the Plaza de Mayo reflect on 50th anniversary of Argentina coup</title>
-      <link>https://www.aljazeera.com/news/longform/2026/3/24/mothers-of-the-plaza-de-mayo-reflect-on-50th-anniversary-of-argentina-coup?traffic_source=rss</link>
-      <description>One of Argentina's most prominent activist groups, the Mothers of the Plaza de Mayo face cuts under Javier Milei.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T14:01:12+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -862,16 +1039,6 @@ Denmark election dominated by domestic issues followed by Greenland crisis</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Best cryptocurrency cards in Nigeria</title>
-      <link>https://africa.businessinsider.com/local/markets/best-cryptocurrency-cards-in-nigeria/7w37z8z</link>
-      <description>Crypto cards are completely mainstream in Nigeria. They work just like regular bank cards: you can pay in stores, online, or at a café. Your crypto is automatically converted into NGN at the moment of payment — simple and hassle-free, with no manual setup required.</description>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T13:58:56+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Manque de personnel hospitalier : des recrutements en cours et à venir, affirme Anil Bachoo</title>
       <link>https://defimedia.info/manque-de-personnel-hospitalier-des-recrutements-en-cours-et-venir-affirme-anil-bachoo</link>
       <description>Le coup d’envoi de la séance consacrée aux questions adressées aux ministres a été donné par Farhad Aumeer ce mardi. Il</description>
@@ -882,42 +1049,12 @@ Denmark election dominated by domestic issues followed by Greenland crisis</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Pakistan world’s most polluted country in 2025: Report</title>
-      <link>https://www.aljazeera.com/news/2026/3/24/pakistan-worlds-most-polluted-country-in-2025-report?traffic_source=rss</link>
-      <description>Fine particulates in Pakistan's air highest in the world last year, exceeding WHO guidelines by up to 13 times.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T13:47:12+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Pakistan ‘ready to host US-Iran talks’: Can latest peace push work?</title>
-      <link>https://www.aljazeera.com/news/2026/3/24/pakistan-ready-to-host-us-iran-talks-can-latest-peace-push-work?traffic_source=rss</link>
-      <description>Pakistan, Turkiye and Egypt are trying to broker talks. Analysts caution the chasm between the US and Iran remains wide.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T13:42:11+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Maurice sous pression de Moody’s : le gouvernement mobilisé pour éviter le “junk status”</title>
       <link>https://defimedia.info/maurice-sous-pression-de-moodys-le-gouvernement-mobilise-pour-eviter-le-junk-status</link>
       <description>Maurice reste sous étroite surveillance de l’agence Moody’s. Le Premier ministre, Navin Ramgoolam, a mis en garde contre</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-24T13:38:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Israel’s Smotrich calls for ‘new border’ and occupation of south Lebanon</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/israels-smotrich-calls-for-new-border-and-occupation-of-south-lebanon?traffic_source=rss</link>
-      <description>Israel’s Finance Minister Bezalel Smotrich has called for the effective annexation of southern Lebanon.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T13:34:38+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -962,46 +1099,6 @@ Denmark election dominated by domestic issues followed by Greenland crisis</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>After setbacks across Europe, is the populist far right losing ground?</title>
-      <link>https://www.aljazeera.com/features/2026/3/24/after-setbacks-across-europe-is-the-populist-far-right-losing-ground?traffic_source=rss</link>
-      <description>The far right struggled to convert momentum into decisive victories across a string of recent elections and referendums.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T13:20:18+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>What are Iran’s cluster munitions that are penetrating Israeli defences?</title>
-      <link>https://www.aljazeera.com/features/2026/3/24/what-are-irans-cluster-munitions-that-are-penetrating-israeli-defences?traffic_source=rss</link>
-      <description>Cluster bombs disperse munitions over a wide area and are particularly dangerous for civilians, analysts say.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T13:15:58+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>The tragic toll of Sudan’s destroyed healthcare</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/the-tragic-toll-of-sudans-destroyed-healthcare?traffic_source=rss</link>
-      <description>The tragic toll of Sudan’s destroyed healthcare</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T13:13:11+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Qatar’s foreign affairs ministry stresses need for regional coexistence</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/24/qatars-foreign-affairs-ministry-stresses-need-for-regional-coexistence?traffic_source=rss</link>
-      <description>Qatar’s foreign affairs ministry spokesman said that coexistence in the region is essential despite Iranian attacks.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T13:09:04+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Tourism Authority : José Arunasalom démissionne après une série de plaintes internes</title>
       <link>https://defimedia.info/tourism-authority-jose-arunasalom-demissionne-apres-une-serie-de-plaintes-internes</link>
       <description>José Arunasalam démissionne de son poste de président de la Tourism Authority. Il a soumis sa lettre ce mardi.Sa démissi</description>
@@ -1042,26 +1139,6 @@ Denmark election dominated by domestic issues followed by Greenland crisis</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>IPL champions Bengaluru to keep 11 seats empty in honour of stampede dead</title>
-      <link>https://www.aljazeera.com/sports/2026/3/24/ipl-champions-bengaluru-to-keep-11-seats-empty-in-honour-of-stampede-dead?traffic_source=rss</link>
-      <description>Royal Challengers Bengaluru, the Indian Premier League champions, will reserve 11 seats in memory of stampede victims.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T12:57:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Adviser questions US justification for war on Iran</title>
-      <link>https://www.aljazeera.com/video/quotable/2026/3/24/adviser-questions-us-justification-for-war-on-iran?traffic_source=rss</link>
-      <description>Brian Finucane says US intelligence failed to substantiate claims of an ‘imminent threat’ from Iran</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T12:49:57+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Mauritius Sports Council : Iqbal Calcattea démissionne de la présidence</title>
       <link>https://defimedia.info/mauritius-sports-council-iqbal-calcattea-demissionne-de-la-presidence</link>
       <description>Les démissions se poursuivent après le départ de Paul Bérenger comme Premier ministre adjoint vendredi dernier. Iqbal Ca</description>
@@ -1098,6 +1175,16 @@ Denmark election dominated by domestic issues followed by Greenland crisis</titl
       <source>Business Insider Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-24T12:20:10+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Australia and EU agree sweeping trade deal in face of global uncertainty</title>
+      <link>https://www.bbc.com/news/articles/cly6g6l6lq7o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Australia and the EU sign sweeping trade and security deals after years of negotiations.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T12:14:15+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -2356,106 +2443,6 @@ Parlement : PNQ : Joe Lesjongard interpelle sur l’impact économique du confli
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-23T21:38:33+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'Like the plane got cut in half': LaGuardia crash that killed two pilots now under investigation</title>
-      <link>https://www.bbc.com/news/articles/c78rdze8zvjo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Leo Medina, who was on another plane on the tarmac when the crash happened, told the BBC what he saw.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-23T21:13:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Starlink suffers new setback as Namibia rejects licence</title>
-      <link>http://www.africanews.com/2026/03/23/starlink-suffers-new-setback-as-namibia-rejects-licence/</link>
-      <description>Namibia said Monday it had rejected a request by billionaire Elon Musk's Starlink to operate its satellite internet services in the country, marking a second setback for the company in southern Africa.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-23T20:41:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Referendum defeat leaves Italy's Meloni looking more vulnerable</title>
-      <link>https://www.bbc.com/news/articles/crl1ne8dj1eo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Meloni vowed to press on after losing a vote on constitutional reform many turned into a referendum on her government.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-23T20:25:32+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Oil falls and shares rebound after Trump says talks have been held to end war</title>
-      <link>https://www.bbc.com/news/articles/czex56kwxxzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Energy prices fall and stock markets rebound after the US president says &quot;very good and productive&quot; talks have been held.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-23T20:21:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nigeria: The 2027 Presidential Election - Tinubu and Hasim in a Two-Horse Race</title>
-      <link>https://allafrica.com/stories/202603230717.html</link>
-      <description>[allAfrica] Abuja -- The two gladiators Bola Ahmed Tinubu, President and Commander-in-chief of the Armed Forces and Dr Gbenga Hashim of the PDP.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-23T19:52:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Floods kill dozens, devastate farmland in Kenya [Africanews Today]</title>
-      <link>http://www.africanews.com/2026/03/23/floods-kill-dozens-devastate-farmland-in-kenya-africanews-today/</link>
-      <description>In Kenya, entire villages have been submerged by floodwaters in Kisumu County. The region is bearing the brunt of climate-related hazards. The latest torrential rains have killed more than 80 people, according to authorities</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-23T19:36:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Soupçons de blanchiment d’argent : le directeur d’une compagnie de “car rental” interpellé lundi soir</title>
-      <link>https://defimedia.info/soupcons-de-blanchiment-dargent-le-directeur-dune-compagnie-de-car-rental-interpelle-lundi-soir</link>
-      <description>La Financial Crimes Commission (FCC) a procédé à l’interrogatoire du directeur d’une compagnie de location de voitures d</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-23T18:47:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>A committed pharmacist and a homesick blogger – the Iranian civilians killed in the war</title>
-      <link>https://www.bbc.com/news/articles/c3v6ld7lv9no?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The toll on civilians is mounting fast as the US-Israeli war on Iran continues.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-23T18:31:26+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Africa: World Water Day 2026 - Across Africa, Where Water Flows, Equality Grows</title>
-      <link>https://allafrica.com/stories/202603230685.html</link>
-      <description>[African Development Bank (AfDB)] By Mtchera Chirwa, AfDB Director for Water Development and Sanitation and Dr. Jemimah Njuki, Director for Gender, Women and Civil Society</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-23T18:16:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nigerians in Lagos grapple with rising pump prices</title>
-      <link>http://www.africanews.com/2026/03/23/nigerians-in-lagos-grapple-with-rising-pump-prices/</link>
-      <description>Nigerians in Lagos are feeling the impact of soaring fuel prices, as the ongoing conflict in the Middle East disrupts global oil supplies and drives up the cost of living.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-23T18:06:12+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
