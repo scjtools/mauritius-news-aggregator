@@ -9,10 +9,10 @@ WHAT THIS MODULE DOES
    • Pass 3: semantic cosine similarity on sentence embeddings (threshold 0.92)
 
 2. CLUSTERING — groups items that cover the same news event:
-   • Full dense matrix comparison (no word-bucket pre-filtering)
-   • Catches synonym-based rewrites: "jet hits vehicle" == "plane collides with truck"
-   • Language-aware: fr and en items cluster separately
-   • Each cluster collapsed into one feed item with all sources/titles/descriptions
+   • Pass A: same-language clustering on raw items
+   • Pass B: collapse each cluster into one feed item
+   • Pass C: second-pass cross-language merge on collapsed clusters
+   • Each final cluster collapsed into one feed item with all sources/titles/descriptions
 
 3. EMBEDDING MODEL
    • all-MiniLM-L6-v2 (80MB, MIT licence)
@@ -31,21 +31,21 @@ import re
 import unicodedata
 import logging
 from collections import defaultdict
-from typing import Any
 
 log = logging.getLogger(__name__)
 
 # ── Model configuration ──────────────────────────────────────────────────────
 
-_MODEL_NAME        = "all-MiniLM-L6-v2"
-_DEDUP_THRESHOLD   = 0.92   # above this → same article, keep best source
-_CLUSTER_THRESHOLD = 0.72   # above this → same event, merge into cluster
-_SUMMARY_EMBED_CHARS = 300  # chars of summary to include in semantic text
+_MODEL_NAME = "all-MiniLM-L6-v2"
+_DEDUP_THRESHOLD = 0.92          # same article
+_CLUSTER_THRESHOLD = 0.70        # same-event clustering within same language
+_XLANG_CLUSTER_THRESHOLD = 0.78  # stricter second-pass EN/FR merge on collapsed clusters
+_SUMMARY_EMBED_CHARS = 300       # chars of summary to include in semantic text
 
 # ── Singleton model loader ────────────────────────────────────────────────────
 
 _model = None
-_USE_EMBEDDINGS = None   # None = not yet attempted
+_USE_EMBEDDINGS = None  # None = not yet attempted
 
 
 def _get_model():
@@ -88,13 +88,8 @@ def _embed(texts: list[str]):
         return None
 
 
-def _similarity_matrix(embeddings) -> "np.ndarray":
-    """
-    Full pairwise cosine similarity matrix via matrix multiply.
-    Embeddings must be L2-normalised (dot product == cosine sim).
-    Shape: [n, n], dtype float32.
-    """
-    import numpy as np
+def _similarity_matrix(embeddings):
+    """Full pairwise cosine similarity matrix via matrix multiply."""
     return embeddings @ embeddings.T
 
 
@@ -109,33 +104,40 @@ def _normalise(text: str) -> str:
 
 
 def _clean_summary_text(text: str) -> str:
-    """
-    Lightweight cleanup for summary text before embedding.
-    Keeps content simple and stable without changing RSS-visible summary.
-    """
     if not text:
         return ""
-    text = re.sub(r"\s+", " ", text).strip()
-    return text
+    return re.sub(r"\s+", " ", text).strip()
 
 
 def _semantic_text(item: dict) -> str:
     """
-    Build richer semantic text for embeddings.
+    Semantic text for within-language clustering and dedup.
+    Uses normalised title + summary excerpt.
+    """
+    title = _normalise(item.get("title", ""))
+    summary = _clean_summary_text(item.get("summary", ""))
+    if summary:
+        return f"{title} {summary[:_SUMMARY_EMBED_CHARS]}"
+    return title
 
-    Uses:
-    - normalised title
-    - cleaned summary excerpt
 
-    This improves both deduplication and event clustering compared with
-    title-only embeddings.
+def _cross_language_semantic_text(item: dict) -> str:
+    """
+    Semantic text for second-pass cross-language cluster merge.
+
+    Intentionally avoids source labels and URL boilerplate that may be present in
+    collapsed summaries. We rely mostly on title + first summary block.
     """
     title = _normalise(item.get("title", ""))
     summary = _clean_summary_text(item.get("summary", ""))
 
+    # Remove obvious multi-source formatting noise from collapsed summaries.
+    summary = re.sub(r"\[[^\]]+\]", " ", summary)          # [SOURCE]
+    summary = re.sub(r"URL:\s*\S+", " ", summary)          # URL: ...
+    summary = re.sub(r"\s+", " ", summary).strip()
+
     if summary:
-        summary = summary[:_SUMMARY_EMBED_CHARS]
-        return f"{title} {summary}"
+        return f"{title} {summary[:_SUMMARY_EMBED_CHARS]}"
     return title
 
 
@@ -146,7 +148,7 @@ def _canonical_url(url: str) -> str:
 
 
 def _ngrams(tokens: list[str], n: int) -> set[str]:
-    return {" ".join(tokens[i : i + n]) for i in range(len(tokens) - n + 1)}
+    return {" ".join(tokens[i:i + n]) for i in range(len(tokens) - n + 1)}
 
 
 def _title_similarity(a: str, b: str) -> float:
@@ -158,7 +160,7 @@ def _title_similarity(a: str, b: str) -> float:
     ng_b = _ngrams(tb, 2) or set(tb)
     bigram_j = len(ng_a & ng_b) / len(ng_a | ng_b) if (ng_a | ng_b) else 0.0
     shorter = set(ta) if len(ta) <= len(tb) else set(tb)
-    longer  = set(tb) if len(ta) <= len(tb) else set(ta)
+    longer = set(tb) if len(ta) <= len(tb) else set(ta)
     containment = len(shorter & longer) / len(shorter) if shorter else 0.0
     return 0.4 * bigram_j + 0.6 * containment
 
@@ -228,7 +230,6 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
     Pass 1 — canonical URL
     Pass 2 — ID hash
     Pass 3 — semantic similarity (same article, reworded title)
-              Uses dense matrix comparison when embeddings available.
     """
     # Pass 1: canonical URL
     url_groups: dict[str, list[dict]] = defaultdict(list)
@@ -246,13 +247,11 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
             seen[iid] = _best_item([seen[iid], item])
     deduped = list(seen.values())
 
-    # Pass 3: semantic
+    # Pass 3: semantic dedup
     before = len(deduped)
     deduped = _semantic_dedup(deduped)
     removed = before - len(deduped)
-    if removed:
-        log.info(f"[cluster] Semantic dedup removed {removed} items")
-
+    log.info(f"[cluster] After semantic dedup: {len(deduped)} items ({removed} removed)")
     return deduped
 
 
@@ -267,7 +266,6 @@ def _semantic_dedup(items: list[dict]) -> list[dict]:
     parent, find, union = _make_uf(n, items)
 
     if embeddings is not None:
-        # Dense matrix — catches all pairs regardless of vocabulary overlap
         sim_matrix = _similarity_matrix(embeddings)
         threshold = _DEDUP_THRESHOLD
         for i in range(n):
@@ -279,7 +277,6 @@ def _semantic_dedup(items: list[dict]) -> list[dict]:
                 if float(sim_matrix[i, j]) >= threshold:
                     union(i, j)
     else:
-        # Fallback: word-bucket candidate pairs + title similarity
         threshold = 0.72
         buckets: dict[str, list[int]] = defaultdict(list)
         for idx, item in enumerate(items):
@@ -316,13 +313,12 @@ _NO_CLUSTER_CATEGORIES = {"finance", "weather", "utilities"}
 def cluster_and_collapse(items: list[dict]) -> list[dict]:
     """
     Groups items covering the same news event and collapses each cluster into
-    a single feed item with structured multi-source description.
+    a single feed item.
 
-    Uses dense matrix comparison (no word-bucket pre-filtering) so synonym-based
-    rewrites ("jet hits vehicle" == "plane collides with truck") are caught.
-
-    Finance / weather / utilities pass through unclustered.
-    French and English items cluster independently.
+    Flow:
+      1) cluster raw items within language
+      2) collapse groups
+      3) merge collapsed groups across language
     """
     passthrough = [i for i in items if i.get("category", "") in _NO_CLUSTER_CATEGORIES]
     clusterable = [i for i in items if i.get("category", "") not in _NO_CLUSTER_CATEGORIES]
@@ -333,14 +329,47 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
     if not clusterable:
         return sorted(passthrough, key=lambda i: i.get("published", ""), reverse=True)
 
+    groups = _cluster_raw_items_same_language(clusterable)
+
+    collapsed = []
+    multi = 0
+    for group_items in groups:
+        group_sorted = sorted(group_items, key=lambda i: (
+            _priority(i),
+            int(i.get("date_verified", False)),
+            len(i.get("summary", "")),
+        ), reverse=True)
+        if len(group_sorted) == 1:
+            group_sorted[0]["cluster_size"] = 1
+            collapsed.append(group_sorted[0])
+        else:
+            multi += 1
+            collapsed.append(_collapse_group(group_sorted))
+
+    log.info(f"[cluster] Same-language pass: {multi} multi-source clusters from {len(clusterable)} items → {len(collapsed)} collapsed")
+
+    before_xlang = len(collapsed)
+    collapsed = _merge_cross_language_clusters(collapsed)
+    after_xlang = len(collapsed)
+    if after_xlang < before_xlang:
+        log.info(f"[cluster] Cross-language merge: {before_xlang} collapsed items → {after_xlang}")
+
+    all_items = collapsed + passthrough
+    all_items.sort(key=lambda i: i.get("published", ""), reverse=True)
+    return all_items
+
+
+def _cluster_raw_items_same_language(clusterable: list[dict]) -> list[list[dict]]:
     n = len(clusterable)
+    if n == 0:
+        return []
+
     semantic_texts = [_semantic_text(i) for i in clusterable]
     embeddings = _embed(semantic_texts)
 
     parent, find, union = _make_uf(n, clusterable)
 
     if embeddings is not None:
-        # Full pairwise comparison — no candidate pre-filter needed at n<500
         sim_matrix = _similarity_matrix(embeddings)
         threshold = _CLUSTER_THRESHOLD
         for i in range(n):
@@ -355,13 +384,13 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
                 if float(sim_matrix[i, j]) >= threshold:
                     union(i, j)
     else:
-        # Fallback: word-bucket candidates + title similarity
         threshold = 0.40
         buckets: dict[str, list[int]] = defaultdict(list)
         for idx, item in enumerate(clusterable):
             for word in _normalise(item.get("title", "")).split():
                 if len(word) >= 4:
                     buckets[word].append(idx)
+
         checked: set[tuple[int, int]] = set()
         for indices in buckets.values():
             for i in range(len(indices)):
@@ -382,28 +411,78 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
     groups: dict[int, list[dict]] = defaultdict(list)
     for idx in range(n):
         groups[find(idx)].append(clusterable[idx])
+    return list(groups.values())
 
-    collapsed = []
-    multi = 0
-    for group_items in groups.values():
-        group_sorted = sorted(group_items, key=lambda i: (
-            _priority(i),
-            int(i.get("date_verified", False)),
-            len(i.get("summary", "")),
-        ), reverse=True)
-        if len(group_sorted) == 1:
-            group_sorted[0]["cluster_size"] = 1
-            collapsed.append(group_sorted[0])
+
+def _merge_cross_language_clusters(items: list[dict]) -> list[dict]:
+    """
+    Second-pass merge on already-collapsed items.
+    This is where EN/FR versions of the same event can be joined.
+    """
+    if len(items) < 2:
+        return items
+
+    semantic_texts = [_cross_language_semantic_text(item) for item in items]
+    embeddings = _embed(semantic_texts)
+
+    n = len(items)
+    parent, find, union = _make_uf(n, items)
+
+    if embeddings is not None:
+        sim_matrix = _similarity_matrix(embeddings)
+        threshold = _XLANG_CLUSTER_THRESHOLD
+
+        for i in range(n):
+            for j in range(i + 1, n):
+                if find(i) == find(j):
+                    continue
+
+                ia, ib = items[i], items[j]
+
+                # Only do second-pass merge across languages.
+                if ia.get("language") == ib.get("language"):
+                    continue
+
+                if not _categories_compatible(ia.get("category", ""), ib.get("category", "")):
+                    continue
+
+                if float(sim_matrix[i, j]) >= threshold:
+                    union(i, j)
+    else:
+        threshold = 0.55
+        for i in range(n):
+            for j in range(i + 1, n):
+                if find(i) == find(j):
+                    continue
+
+                ia, ib = items[i], items[j]
+
+                if ia.get("language") == ib.get("language"):
+                    continue
+
+                if not _categories_compatible(ia.get("category", ""), ib.get("category", "")):
+                    continue
+
+                if _title_similarity(ia.get("title", ""), ib.get("title", "")) >= threshold:
+                    union(i, j)
+
+    groups: dict[int, list[dict]] = defaultdict(list)
+    for idx in range(n):
+        groups[find(idx)].append(items[idx])
+
+    merged = []
+    for group in groups.values():
+        if len(group) == 1:
+            merged.append(group[0])
         else:
-            multi += 1
-            collapsed.append(_collapse_group(group_sorted))
+            group_sorted = sorted(group, key=lambda i: (
+                _priority(i),
+                int(i.get("date_verified", False)),
+                len(i.get("summary", "")),
+            ), reverse=True)
+            merged.append(_collapse_group(group_sorted))
 
-    log.info(f"[cluster] {multi} multi-source clusters from {len(clusterable)} items "
-             f"→ {len(collapsed)} collapsed")
-
-    all_items = collapsed + passthrough
-    all_items.sort(key=lambda i: i.get("published", ""), reverse=True)
-    return all_items
+    return merged
 
 
 def _collapse_group(group: list[dict]) -> dict:
@@ -433,22 +512,26 @@ def _collapse_group(group: list[dict]) -> dict:
         blocks.append("\n".join(parts))
 
     combined_summary = "\n\n".join(blocks)
-    all_urls    = "\n".join(i.get("url", "") for i in group if i.get("url"))
-    all_sources = "; ".join(dict.fromkeys(i.get("source", "") for i in group))
+    all_urls = "\n".join(dict.fromkeys(i.get("url", "") for i in group if i.get("url")))
+    all_sources = "; ".join(dict.fromkeys(i.get("source", "") for i in group if i.get("source")))
+
+    languages = [i.get("language", "") for i in group if i.get("language")]
+    unique_languages = list(dict.fromkeys(languages))
 
     return {
-        "id":            lead.get("id", ""),
-        "title":         lead.get("title", ""),
-        "url":           lead.get("url", ""),
-        "summary":       combined_summary,
-        "source":        lead.get("source", ""),
-        "all_sources":   all_sources,
-        "all_urls":      all_urls,
-        "language":      lead.get("language", ""),
-        "category":      lead.get("category", ""),
-        "published":     lead.get("published", ""),
+        "id": lead.get("id", ""),
+        "title": lead.get("title", ""),
+        "url": lead.get("url", ""),
+        "summary": combined_summary,
+        "source": lead.get("source", ""),
+        "all_sources": all_sources,
+        "all_urls": all_urls,
+        "language": lead.get("language", ""),
+        "all_languages": "; ".join(unique_languages),
+        "category": lead.get("category", ""),
+        "published": lead.get("published", ""),
         "date_verified": lead.get("date_verified", False),
-        "cluster_size":  len(group),
+        "cluster_size": len(group),
     }
 
 
@@ -467,7 +550,7 @@ def deduplicate_bulletin_text(text: str) -> str:
     if not text:
         return text
     marker = "Weather news for Mauritius issued at"
-    first  = text.find(marker)
+    first = text.find(marker)
     second = text.find(marker, first + len(marker))
     if second != -1 and len(text[:second].strip()) > 100:
         return text[:second].strip()
