@@ -13,7 +13,6 @@ WHAT THIS MODULE DOES
    • Pass A: same-language clustering on raw items
    • Pass B: collapse each cluster into one feed item
    • Pass C: second-pass cross-language merge on collapsed clusters
-   • Each final cluster collapsed into one feed item with all sources/titles/descriptions
 
 3. EMBEDDING MODEL
    • all-MiniLM-L6-v2 (80MB, MIT licence)
@@ -32,6 +31,7 @@ import re
 import unicodedata
 import logging
 import hashlib
+from datetime import datetime, timezone
 from collections import defaultdict
 
 log = logging.getLogger(__name__)
@@ -44,7 +44,7 @@ _CLUSTER_THRESHOLD = 0.70        # same-event clustering within same language
 _XLANG_CLUSTER_THRESHOLD = 0.70  # second-pass EN/FR merge on collapsed clusters
 _SUMMARY_EMBED_CHARS = 500       # chars of summary to include in semantic text
 
-# ── Singleton model loader ────────────────────────────────────────────────────
+# ── Singleton model loader ───────────────────────────────────────────────────
 
 _model = None
 _USE_EMBEDDINGS = None  # None = not yet attempted
@@ -95,10 +95,10 @@ def _similarity_matrix(embeddings):
     return embeddings @ embeddings.T
 
 
-# ── Text utilities ────────────────────────────────────────────────────────────
+# ── Text utilities ───────────────────────────────────────────────────────────
 
 def _normalise(text: str) -> str:
-    text = unicodedata.normalize("NFD", text)
+    text = unicodedata.normalize("NFD", text or "")
     text = "".join(c for c in text if unicodedata.category(c) != "Mn")
     text = text.lower()
     text = re.sub(r"[^\w\s]", " ", text)
@@ -126,32 +126,20 @@ def _semantic_text(item: dict) -> str:
 def _cross_language_semantic_text(item: dict) -> str:
     """
     Semantic text for second-pass cross-language cluster merge.
-
-    Intentionally avoids source labels and URL boilerplate that may be present in
-    collapsed summaries. We rely mostly on title + first summary block.
     """
     title = _normalise(item.get("title", ""))
     summary = _clean_summary_text(item.get("summary", ""))
-
-    summary = re.sub(r"\[[^\]]+\]", " ", summary)   # [SOURCE]
-    summary = re.sub(r"URL:\s*\S+", " ", summary)   # URL: ...
-    summary = re.sub(r"\s+", " ", summary).strip()
-
     if summary:
         return f"{title} {summary[:_SUMMARY_EMBED_CHARS]}"
     return title
 
 
 def _normalised_title_key(item: dict) -> str:
-    """
-    Deterministic title key for cheap exact-title dedup.
-    We keep this conservative: exact normalised title only.
-    """
     return _normalise(item.get("title", ""))
 
 
 def _canonical_url(url: str) -> str:
-    url = re.sub(r"[?#].*$", "", url)
+    url = re.sub(r"[?#].*$", "", url or "")
     url = re.sub(r"/amp/?$", "", url)
     return url.rstrip("/").lower()
 
@@ -191,6 +179,27 @@ def _headline_quality(item: dict) -> tuple[int, int, int]:
         has_separator,
         -has_question,
     )
+
+
+def _parse_iso_dt(value: str | None) -> datetime:
+    if not value:
+        return datetime(1970, 1, 1, tzinfo=timezone.utc)
+    try:
+        dt = datetime.fromisoformat(value)
+        if dt.tzinfo is None:
+            return dt.replace(tzinfo=timezone.utc)
+        return dt
+    except Exception:
+        return datetime(1970, 1, 1, tzinfo=timezone.utc)
+
+
+def _latest_published(items: list[dict]) -> str:
+    latest = max((_parse_iso_dt(i.get("published")) for i in items), default=datetime(1970, 1, 1, tzinfo=timezone.utc))
+    return latest.isoformat()
+
+
+def _unique_nonblank(values: list[str]) -> list[str]:
+    return list(dict.fromkeys(v for v in values if v))
 
 
 # ── Source priority ───────────────────────────────────────────────────────────
@@ -356,21 +365,21 @@ _NO_CLUSTER_CATEGORIES = {"finance", "weather", "utilities"}
 def cluster_and_collapse(items: list[dict]) -> list[dict]:
     """
     Groups items covering the same news event and collapses each cluster into
-    a single feed item.
+    a single, schema-consistent feed item.
 
     Flow:
       1) cluster raw items within language
       2) collapse groups
       3) merge collapsed groups across language
+      4) normalise passthrough items to same schema
     """
-    passthrough = [i for i in items if i.get("category", "") in _NO_CLUSTER_CATEGORIES]
+    passthrough_raw = [i for i in items if i.get("category", "") in _NO_CLUSTER_CATEGORIES]
     clusterable = [i for i in items if i.get("category", "") not in _NO_CLUSTER_CATEGORIES]
 
-    for item in passthrough:
-        item.setdefault("cluster_size", 1)
+    passthrough = [_normalise_singleton_item(i) for i in passthrough_raw]
 
     if not clusterable:
-        return sorted(passthrough, key=lambda i: i.get("published", ""), reverse=True)
+        return sorted(passthrough, key=lambda i: i.get("cluster_time", ""), reverse=True)
 
     groups = _cluster_raw_items_same_language(clusterable)
 
@@ -385,8 +394,7 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
             len(i.get("title", "")),
         ), reverse=True)
         if len(group_sorted) == 1:
-            group_sorted[0]["cluster_size"] = 1
-            collapsed.append(group_sorted[0])
+            collapsed.append(_normalise_singleton_item(group_sorted[0]))
         else:
             multi += 1
             collapsed.append(_collapse_group(group_sorted))
@@ -406,7 +414,7 @@ def cluster_and_collapse(items: list[dict]) -> list[dict]:
     )
 
     all_items = collapsed + passthrough
-    all_items.sort(key=lambda i: i.get("published", ""), reverse=True)
+    all_items.sort(key=lambda i: i.get("cluster_time", ""), reverse=True)
     return all_items
 
 
@@ -527,7 +535,6 @@ def _merge_cross_language_clusters(items: list[dict]) -> list[dict]:
         else:
             group_sorted = sorted(group, key=lambda i: (
                 _priority(i),
-                int(i.get("date_verified", False)),
                 _headline_quality(i),
                 len(i.get("summary", "")),
                 len(i.get("title", "")),
@@ -537,22 +544,59 @@ def _merge_cross_language_clusters(items: list[dict]) -> list[dict]:
     return merged
 
 
+def _normalise_singleton_item(item: dict) -> dict:
+    title = item.get("title", "")
+    url = item.get("url", "")
+    source = item.get("source", "")
+    language = item.get("language", "")
+    summary = (item.get("summary") or "").strip() or title
+    cluster_time = item.get("published", "")
+
+    cluster_seed = f"{title} || {source} || {url}"
+    cluster_id = hashlib.md5(cluster_seed.encode("utf-8")).hexdigest()[:12]
+
+    return {
+        "id": item.get("id", ""),
+        "title": title,
+        "url": url,
+        "summary": summary,
+        "source": source,
+        "category": item.get("category", ""),
+        "language": language,
+        "cluster_time": cluster_time,
+        "published": cluster_time,  # keep internal compatibility
+        "cluster_size": 1,
+        "source_count": 1,
+        "sources": [source] if source else [],
+        "urls": [url] if url else [],
+        "titles": [title] if title else [],
+        "languages": [language] if language else [],
+        "cluster_id": cluster_id,
+    }
+
+
+def _summary_block(item: dict) -> str:
+    source = item.get("source", "?")
+    summary = _clean_summary_text(item.get("summary", ""))
+    title = (item.get("title", "") or "").strip()
+
+    body = summary or title
+    if not body:
+        return f"[{source}]"
+
+    return f"[{source}] {body}"
+
+
 def _collapse_group(group: list[dict]) -> dict:
     """
     Merge related items into one canonical feed item.
     group[0] is highest-priority source (lead).
 
-    Summary format for LLM consumption:
-        [SOURCE A] Title from source A
-        Description from source A.
-        URL: https://...
-
-        [SOURCE B] Title from source B
-        ...
+    Output schema is intentionally lean for downstream LLM use.
     """
     lead = group[0]
 
-    blocks = []
+    summary_blocks = []
     all_title_list = []
     all_url_list = []
     all_source_list = []
@@ -560,11 +604,12 @@ def _collapse_group(group: list[dict]) -> dict:
 
     for item in group:
         title = item.get("title", "")
-        source = item.get("source", "?")
+        source = item.get("source", "")
         url = item.get("url", "")
         lang = item.get("language", "")
 
-        all_title_list.append(title)
+        if title:
+            all_title_list.append(title)
         if url:
             all_url_list.append(url)
         if source:
@@ -572,42 +617,38 @@ def _collapse_group(group: list[dict]) -> dict:
         if lang:
             all_language_list.append(lang)
 
-        parts = [f"[{source}] {title}"]
-        desc = item.get("summary", "").strip()
-        if desc:
-            parts.append(desc)
-        if url:
-            parts.append(f"URL: {url}")
-        blocks.append("\n".join(parts))
+        block = _summary_block(item)
+        if block:
+            summary_blocks.append(block)
 
-    combined_summary = "\n\n".join(blocks)
+    unique_titles = _unique_nonblank(all_title_list)
+    unique_urls = _unique_nonblank(all_url_list)
+    unique_sources = _unique_nonblank(all_source_list)
+    unique_languages = _unique_nonblank(all_language_list)
+    unique_blocks = _unique_nonblank(summary_blocks)
 
-    unique_titles = list(dict.fromkeys(t for t in all_title_list if t))
-    unique_urls = list(dict.fromkeys(all_url_list))
-    unique_sources = list(dict.fromkeys(all_source_list))
-    unique_languages = list(dict.fromkeys(all_language_list))
+    combined_summary = "\n\n".join(unique_blocks)
 
     cluster_seed = " | ".join(unique_titles[:5]) + " || " + " | ".join(unique_sources[:5])
     cluster_id = hashlib.md5(cluster_seed.encode("utf-8")).hexdigest()[:12]
+    cluster_time = _latest_published(group)
 
     return {
         "id": lead.get("id", ""),
         "title": lead.get("title", ""),
         "url": lead.get("url", ""),
-        "summary": combined_summary,
+        "summary": combined_summary or lead.get("title", ""),
         "source": lead.get("source", ""),
-        "lead_title": lead.get("title", ""),
-        "lead_source": lead.get("source", ""),
-        "source_count": len(unique_sources),
-        "cluster_titles": " || ".join(unique_titles),
-        "all_sources": "; ".join(unique_sources),
-        "all_urls": "\n".join(unique_urls),
-        "language": lead.get("language", ""),
-        "all_languages": "; ".join(unique_languages),
         "category": lead.get("category", ""),
-        "published": lead.get("published", ""),
-        "date_verified": lead.get("date_verified", False),
+        "language": lead.get("language", ""),
+        "cluster_time": cluster_time,
+        "published": cluster_time,  # keep internal compatibility
         "cluster_size": len(group),
+        "source_count": len(unique_sources),
+        "sources": unique_sources,
+        "urls": unique_urls,
+        "titles": unique_titles,
+        "languages": unique_languages,
         "cluster_id": cluster_id,
     }
 
