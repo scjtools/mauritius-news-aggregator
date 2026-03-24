@@ -440,8 +440,7 @@ def scrape_lemauricien(source):
             seen.add(url)
 
             summary = ""
-            parent = a_tag.find_parent()
-            if parent:
+            if parent := a_tag.find_parent():
                 for p in parent.find_all("p"):
                     pt = p.get_text(" ", strip=True)
                     if len(pt) > 40:
@@ -449,7 +448,7 @@ def scrape_lemauricien(source):
                         break
 
             dt = None
-            if parent:
+            if parent := a_tag.find_parent():
                 parent_text = parent.get_text(" ", strip=True)
                 dt = _parse_lm_date(parent_text)
                 if not dt:
@@ -698,6 +697,22 @@ def _sort_key(item):
     return item.get("cluster_time") or item.get("published") or ""
 
 
+def _clean_xml_text(value):
+    if value is None:
+        return ""
+    text = str(value)
+    text = re.sub(r"\bURL:\s*https?://\S+", " ", text, flags=re.IGNORECASE)
+    text = re.sub(r"https?://\S+", lambda m: m.group(0) if False else " ", text)
+    text = re.sub(r"\s+", " ", text).strip()
+    return text
+
+
+def _set_text(parent, tag, value):
+    text = _clean_xml_text(value)
+    if text:
+        SubElement(parent, tag).text = text
+
+
 def build_rss(items):
     rss = Element("rss", version="2.0")
     channel = SubElement(rss, "channel")
@@ -710,30 +725,34 @@ def build_rss(items):
 
     for item in sorted(items, key=_sort_key, reverse=True):
         entry = SubElement(channel, "item")
+        cluster_size = int(item.get("cluster_size", 1) or 1)
 
-        SubElement(entry, "title").text = item.get("title", "")
-        SubElement(entry, "link").text = item.get("url", "")
-        SubElement(entry, "description").text = item.get("summary", "")
-        SubElement(entry, "source").text = item.get("source", "")
-        SubElement(entry, "category").text = item.get("category", "")
-        SubElement(entry, "cluster_id").text = item.get("cluster_id", "")
-        SubElement(entry, "cluster_time").text = item.get("cluster_time", item.get("published", ""))
-        SubElement(entry, "cluster_size").text = str(item.get("cluster_size", 1))
-        SubElement(entry, "source_count").text = str(item.get("source_count", 1))
+        _set_text(entry, "title", item.get("title", ""))
+        _set_text(entry, "link", item.get("url", ""))
+        _set_text(entry, "description", item.get("summary", ""))
+        _set_text(entry, "source", item.get("source", ""))
+        _set_text(entry, "category", item.get("category", ""))
+        _set_text(entry, "cluster_time", item.get("cluster_time", item.get("published", "")))
+        _set_text(entry, "cluster_size", str(cluster_size))
+        _set_text(entry, "source_count", str(item.get("source_count", 1)))
 
-        sources_text = _list_text(item.get("sources", []))
-        urls_text = _list_text(item.get("urls", []))
-        titles_text = _list_text(item.get("titles", []))
-        languages_text = _list_text(item.get("languages", []))
+        # Only keep cluster_id for actual multi-item clusters
+        if cluster_size > 1:
+            _set_text(entry, "cluster_id", item.get("cluster_id", ""))
 
-        if sources_text:
-            SubElement(entry, "sources").text = sources_text
-        if urls_text:
-            SubElement(entry, "urls").text = urls_text
-        if titles_text:
-            SubElement(entry, "titles").text = titles_text
-        if languages_text:
-            SubElement(entry, "languages").text = languages_text
+            sources_text = _list_text(item.get("sources", []))
+            urls_text = _list_text(item.get("urls", []))
+            titles_text = _list_text(item.get("titles", []))
+            languages_text = _list_text(item.get("languages", []))
+
+            if sources_text:
+                SubElement(entry, "sources").text = sources_text
+            if urls_text:
+                SubElement(entry, "urls").text = urls_text
+            if titles_text:
+                SubElement(entry, "titles").text = titles_text
+            if languages_text:
+                SubElement(entry, "languages").text = languages_text
 
     raw = tostring(rss, encoding="unicode")
     return minidom.parseString(raw).toprettyxml(indent="  ")
