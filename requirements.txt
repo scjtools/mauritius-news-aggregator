@@ -7,3 +7,4 @@ python-dateutil
 curl_cffi>=0.14.0
 numpy<2
 sentence-transformers>=2.7.0,<3
+langid
