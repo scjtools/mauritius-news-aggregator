@@ -31,6 +31,7 @@ from __future__ import annotations
 import re
 import unicodedata
 import logging
+import hashlib
 from collections import defaultdict
 
 log = logging.getLogger(__name__)
@@ -552,22 +553,42 @@ def _collapse_group(group: list[dict]) -> dict:
     lead = group[0]
 
     blocks = []
+    all_title_list = []
+    all_url_list = []
+    all_source_list = []
+    all_language_list = []
+
     for item in group:
-        parts = [f"[{item.get('source', '?')}] {item.get('title', '')}"]
+        title = item.get("title", "")
+        source = item.get("source", "?")
+        url = item.get("url", "")
+        lang = item.get("language", "")
+
+        all_title_list.append(title)
+        if url:
+            all_url_list.append(url)
+        if source:
+            all_source_list.append(source)
+        if lang:
+            all_language_list.append(lang)
+
+        parts = [f"[{source}] {title}"]
         desc = item.get("summary", "").strip()
         if desc:
             parts.append(desc)
-        url = item.get("url", "")
         if url:
             parts.append(f"URL: {url}")
         blocks.append("\n".join(parts))
 
     combined_summary = "\n\n".join(blocks)
-    all_urls = "\n".join(dict.fromkeys(i.get("url", "") for i in group if i.get("url")))
-    all_sources = "; ".join(dict.fromkeys(i.get("source", "") for i in group if i.get("source")))
 
-    languages = [i.get("language", "") for i in group if i.get("language")]
-    unique_languages = list(dict.fromkeys(languages))
+    unique_titles = list(dict.fromkeys(t for t in all_title_list if t))
+    unique_urls = list(dict.fromkeys(all_url_list))
+    unique_sources = list(dict.fromkeys(all_source_list))
+    unique_languages = list(dict.fromkeys(all_language_list))
+
+    cluster_seed = " | ".join(unique_titles[:5]) + " || " + " | ".join(unique_sources[:5])
+    cluster_id = hashlib.md5(cluster_seed.encode("utf-8")).hexdigest()[:12]
 
     return {
         "id": lead.get("id", ""),
@@ -575,14 +596,19 @@ def _collapse_group(group: list[dict]) -> dict:
         "url": lead.get("url", ""),
         "summary": combined_summary,
         "source": lead.get("source", ""),
-        "all_sources": all_sources,
-        "all_urls": all_urls,
+        "lead_title": lead.get("title", ""),
+        "lead_source": lead.get("source", ""),
+        "source_count": len(unique_sources),
+        "cluster_titles": " || ".join(unique_titles),
+        "all_sources": "; ".join(unique_sources),
+        "all_urls": "\n".join(unique_urls),
         "language": lead.get("language", ""),
         "all_languages": "; ".join(unique_languages),
         "category": lead.get("category", ""),
         "published": lead.get("published", ""),
         "date_verified": lead.get("date_verified", False),
         "cluster_size": len(group),
+        "cluster_id": cluster_id,
     }
 
 
