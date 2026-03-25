@@ -17,11 +17,6 @@ rss_feeds:
     category: "local"
 
   # ── Regional ────────────────────────────────────────────────
-  - name: "TechCabal"
-    url: "https://techcabal.com/feed/"
-    language: "en"
-    category: "regional"
-
   - name: "Africanews"
     url: "https://www.africanews.com/feed/rss"
     language: "en"
@@ -80,12 +75,6 @@ scrapers:
       - "/actualites/faits-divers/"
       - "/actualites/societe/"
       - "/actualites/economie/"
-
-  # ── Regional ────────────────────────────────────────────────
-  - name: "Business Insider Africa"
-    url: "https://africa.businessinsider.com/"
-    language: "en"
-    category: "regional"
 
   # ── Utilities & data ─────────────────────────────────────────
   - name: "Mauritius Met Services"
