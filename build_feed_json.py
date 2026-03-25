@@ -43,6 +43,40 @@ def parse_int(value, default):
         return default
 
 
+def dedupe_preserve_order(values):
+    seen = set()
+    result = []
+
+    for value in values:
+        if not value:
+            continue
+        cleaned = value.strip()
+        if not cleaned:
+            continue
+        if cleaned in seen:
+            continue
+        seen.add(cleaned)
+        result.append(cleaned)
+
+    return result
+
+
+def ensure_lead_url_first(urls, lead_url):
+    if not lead_url:
+        return dedupe_preserve_order(urls)
+
+    ordered = [lead_url] + (urls or [])
+    return dedupe_preserve_order(ordered)
+
+
+def ensure_lead_source_first(sources, lead_source):
+    if not lead_source:
+        return dedupe_preserve_order(sources)
+
+    ordered = [lead_source] + (sources or [])
+    return dedupe_preserve_order(ordered)
+
+
 def parse_feed(feed_path):
     tree = ET.parse(feed_path)
     root = tree.getroot()
@@ -65,50 +99,33 @@ def parse_feed(feed_path):
         cluster_id = get_text(item, "cluster_id")
 
         sources = get_list(item, "sources")
-        titles = get_list(item, "titles")
         urls = get_list(item, "urls")
-        languages = get_list(item, "languages")
 
         is_singleton = cluster_size <= 1
 
         if is_singleton:
             cluster_id = cluster_id or make_stable_id(link, title, "singleton")
-
-            sources = sources or ([source] if source else [])
-            titles = titles or ([title] if title else [])
-            urls = urls or ([link] if link else [])
-
-            languages = []
             cluster_size = 1
-
+            source_count = 1 if source else max(source_count, 1)
         else:
             cluster_id = cluster_id or make_stable_id(link, title, "cluster")
 
-            if not sources and source:
-                sources = [source]
+        sources = ensure_lead_source_first(sources, source)
+        urls = ensure_lead_url_first(urls, link)
 
-            if not titles and title:
-                titles = [title]
-
-            if not urls and link:
-                urls = [link]
+        if not source_count:
+            source_count = len(sources) if sources else 1
 
         feed_items.append({
             "id": cluster_id,
             "cluster_time": cluster_time,
             "category": category,
-            "lead": {
-                "title": title,
-                "source": source,
-                "url": link,
-                "summary": description
-            },
+            "headline": title,
+            "summary": description,
             "cluster_size": cluster_size,
             "source_count": source_count,
             "sources": sources,
-            "titles": titles,
-            "urls": urls,
-            "languages": languages
+            "urls": urls
         })
 
     return {
