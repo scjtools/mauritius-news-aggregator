@@ -1,7 +1,475 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 177,
+  "item_count": 161,
   "items": [
+    {
+      "id": "singleton_34e3d1471244",
+      "cluster_time": "2026-03-25T11:54:02+01:00",
+      "category": "regional",
+      "lead": {
+        "title": "Nigeria’s economic ‘recovery’ isn’t reaching households as only 6% feel financially secure",
+        "source": "Business Insider Africa",
+        "url": "https://africa.businessinsider.com/local/markets/only-6-of-nigerians-feel-financially-secure-despite-economic-reforms/k0egd7h",
+        "summary": "A Piggyvest report shows most Nigerians are struggling financially, with half not saving and only 6% feeling secure despite signs of economic stabilisation"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Business Insider Africa"
+      ],
+      "titles": [
+        "Nigeria’s economic ‘recovery’ isn’t reaching households as only 6% feel financially secure"
+      ],
+      "urls": [
+        "https://africa.businessinsider.com/local/markets/only-6-of-nigerians-feel-financially-secure-despite-economic-reforms/k0egd7h"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_075c9e6b0d6f",
+      "cluster_time": "2026-03-25T11:15:25.248276+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Brent Crude Oil price – 25 March 2026",
+        "source": "Brent Crude Oil",
+        "url": "https://www.oilpriceapi.com",
+        "summary": "Brent Crude Oil: USD 97.95 per barrel"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Brent Crude Oil"
+      ],
+      "titles": [
+        "Brent Crude Oil price – 25 March 2026"
+      ],
+      "urls": [
+        "https://www.oilpriceapi.com"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_df75dc1edb63",
+      "cluster_time": "2026-03-25T11:15:25.109221+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Bitcoin price – 25 March 2026",
+        "source": "Bitcoin Price",
+        "url": "https://api.gold-api.com/price/BTC",
+        "summary": "Bitcoin (BTC): USD 71,512.27 (▲ +1.57% from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Bitcoin Price"
+      ],
+      "titles": [
+        "Bitcoin price – 25 March 2026"
+      ],
+      "urls": [
+        "https://api.gold-api.com/price/BTC"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_ec58bd454756",
+      "cluster_time": "2026-03-25T11:15:24.650593+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "Gold price – 25 March 2026",
+        "source": "Gold Price",
+        "url": "https://api.gold-api.com/price/XAU",
+        "summary": "Gold (XAU): USD 4,568.70 (▲ +4.09% from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Gold Price"
+      ],
+      "titles": [
+        "Gold price – 25 March 2026"
+      ],
+      "urls": [
+        "https://api.gold-api.com/price/XAU"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_f2d774f99b43",
+      "cluster_time": "2026-03-25T11:15:24.197250+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "MUR exchange rates – 25 March 2026",
+        "source": "MUR Exchange Rates",
+        "url": "https://www.floatrates.com/daily/mur.xml",
+        "summary": "MUR/USD 46.47 | MUR/EUR 53.90 (▼ 0.02 from last) (▲ 0.21 from last)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "MUR Exchange Rates"
+      ],
+      "titles": [
+        "MUR exchange rates – 25 March 2026"
+      ],
+      "urls": [
+        "https://www.floatrates.com/daily/mur.xml"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_551ef72028ec",
+      "cluster_time": "2026-03-25T11:15:21.509907+00:00",
+      "category": "finance",
+      "lead": {
+        "title": "SEMDEX – 25 March 2026",
+        "source": "Stock Exchange of Mauritius",
+        "url": "https://www.stockexchangeofmauritius.com/products-market-data/indices",
+        "summary": "SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Stock Exchange of Mauritius"
+      ],
+      "titles": [
+        "SEMDEX – 25 March 2026"
+      ],
+      "urls": [
+        "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_5474cbfe3ad8",
+      "cluster_time": "2026-03-25T11:15:15.281386+00:00",
+      "category": "weather",
+      "lead": {
+        "title": "Mauritius weather bulletin – 25 March 2026",
+        "source": "Mauritius Met Services",
+        "url": "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php",
+        "summary": "Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hikings, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Mauritius Met Services"
+      ],
+      "titles": [
+        "Mauritius weather bulletin – 25 March 2026"
+      ],
+      "urls": [
+        "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_41a997867d1f",
+      "cluster_time": "2026-03-25T11:14:49+00:00",
+      "category": "local",
+      "lead": {
+        "title": "Mauritius Trade Deficit Narrows to Rs 12.8 Billion as Imports Tumble",
+        "source": "News Moris",
+        "url": "https://newsmoris.com/mauritius-trade-deficit-narrows-to-rs-12-8-billion-as-imports-tumble/",
+        "summary": "The national trade deficit has seen a significant contraction, falling to Rs 12.8bn in January 2026, according to the latest figures from Statistics Mauritius. Data released on 17 March reveals a sharp 36.8% improvement compared to December 2025. On an … The post Mauritius Trade Deficit Narrows to Rs 12.8 Billion as Imports Tumble appeared first on News Moris."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "News Moris"
+      ],
+      "titles": [
+        "Mauritius Trade Deficit Narrows to Rs 12.8 Billion as Imports Tumble"
+      ],
+      "urls": [
+        "https://newsmoris.com/mauritius-trade-deficit-narrows-to-rs-12-8-billion-as-imports-tumble/"
+      ],
+      "languages": []
+    },
+    {
+      "id": "54e09e1fcd30",
+      "cluster_time": "2026-03-25T11:05:46+00:00",
+      "category": "global",
+      "lead": {
+        "title": "Meta told to pay $375m for misleading users over child safety",
+        "source": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&at_campaign=rss",
+        "summary": "[BBC News] The owner of Instagram, Facebook and WhatsApp has been found liable by a court in New Mexico.\n\n[France 24] A jury in the US state of New Mexico determined on March 25, that Meta misled consumers over safety and enabled harm against users especially children, hiding what it knew about child sexual exploitation on its social media platforms. The company which owns WhatsApp, Instagram and Facebook must pay a penalty of $375 million. The landmark decision comes after a nearly seven-week trial. A Meta spokesperson said the company disagrees with the verdict and will appeal.\n\n[France 24] A New Mexico jury on Tuesday found social media giant Meta liable for making children vulnerable to predators and other online dangers across its platforms, marking one of the first major jury rulings on child safety in the social media era.\n\n[Al Jazeera] The verdict marks the first time a US state has successfully sued the social media giant over child safety issues."
+      },
+      "cluster_size": 4,
+      "source_count": 3,
+      "sources": [
+        "BBC News",
+        "France 24",
+        "Al Jazeera"
+      ],
+      "titles": [
+        "Meta told to pay $375m for misleading users over child safety",
+        "Meta platforms found guilty of harming children's health and safety in US state trial",
+        "Meta ordered to pay $375 million over child exploitation in landmark verdict",
+        "US jury orders Meta to pay $375m for endangering children"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/meta-platforms-found-guilty-of-harming-children-s-health-and-safety-in-us-state-trial",
+        "https://www.france24.com/en/americas/20260324-meta-ordered-to-pay-375-million-over-child-exploitation-in-landmark-verdict",
+        "https://www.aljazeera.com/economy/2026/3/25/us-jury-orders-meta-to-pay-375m-for-endangering-children?traffic_source=rss"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "id": "singleton_f3ca49efaaa0",
+      "cluster_time": "2026-03-25T11:04:00+00:00",
+      "category": "local",
+      "lead": {
+        "title": "Chetan Baboolall, député du MMM : « Je soutiens pleinement mon leader »",
+        "source": "Defimedia",
+        "url": "https://defimedia.info/chetan-baboolall-depute-du-mmm-je-soutiens-pleinement-mon-leader",
+        "summary": "Tantôt absent lors de la rentrée parlementaire, tantôt présent lors de la conférence de presse de la « bande des 16 », l"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "titles": [
+        "Chetan Baboolall, député du MMM : « Je soutiens pleinement mon leader »"
+      ],
+      "urls": [
+        "https://defimedia.info/chetan-baboolall-depute-du-mmm-je-soutiens-pleinement-mon-leader"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_51507a863e74",
+      "cluster_time": "2026-03-25T11:02:40+00:00",
+      "category": "global",
+      "lead": {
+        "title": "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza",
+        "source": "Al Jazeera",
+        "url": "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss",
+        "summary": "Pedro ​Sanchez has been one of the few leaders in Europe to condemn Israel's war in Lebanon, US-Israeli ⁠war on Iran."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "titles": [
+        "Spain’s PM says Israel to inflict on Lebanon same destruction as in Gaza"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/25/spains-pm-says-israel-to-inflict-on-lebanon-same-destruction-as-in-gaza?traffic_source=rss"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_c9c2093c38c0",
+      "cluster_time": "2026-03-25T11:00:10+00:00",
+      "category": "global",
+      "lead": {
+        "title": "Inside the Palestinian camp in Beirut where residents are staying put, for now",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/inside-the-palestinian-camp-in-beirut-where-residents-are-staying-put-for-now",
+        "summary": "A FRANCE 24 team visited the Palestinian camp of Bourj el-Barajneh in the heart of Beirut’s southern suburbs, which are frequently struck by Israeli airstrikes. Yet here, many people say they have little choice but to stay. Bourj el-Barajneh was established in 1948 after Palestinians were forced to leave their homes in what became known as the Nakba (‘catastrophe’). Palestinian refugee camps in Lebanon have evolved from tent settlements into permanent but deprived neighbourhoods."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "titles": [
+        "Inside the Palestinian camp in Beirut where residents are staying put, for now"
+      ],
+      "urls": [
+        "https://www.france24.com/en/inside-the-palestinian-camp-in-beirut-where-residents-are-staying-put-for-now"
+      ],
+      "languages": []
+    },
+    {
+      "id": "88d7c481d366",
+      "cluster_time": "2026-03-25T11:00:00+00:00",
+      "category": "local",
+      "lead": {
+        "title": "Bonne gouvernance, lutte contre la drogue et nominations : Bérenger dénonce des engagements non respectés",
+        "source": "Defimedia",
+        "url": "https://defimedia.info/bonne-gouvernance-lutte-contre-la-drogue-et-nominations-berenger-denonce-des-engagements-non",
+        "summary": "[Defimedia] Lors d’une conférence de presse tenue ce mercredi, Paul Bérenger est revenu en détail sur les raisons qui l’ont poussé à\n\n[Defimedia] Lors d’une conférence de presse tenue à sa résidence de River Walk ce mercredi, Paul Bérenger a annoncé la tenue d’un ra\n\n[Defimedia] Lors d’une conférence de presse tenue ce matin à Riverwalk, Floréal, le leader du MMM, Paul Bérenger, est revenu sur les\n\n[Defimedia] Paul Bérenger, leader du MMM, organise un grand rassemblement ce samedi à Rose-Hill pour clarifier sa position politique\n\n[Defimedia] Suivez en direct la conférence de presse de Paul Bérenger"
+      },
+      "cluster_size": 5,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "titles": [
+        "Bonne gouvernance, lutte contre la drogue et nominations : Bérenger dénonce des engagements non respectés",
+        "MMM : Bérenger annonce un rassemblement à Rose-Hill ce samedi pour trancher sur les options à venir",
+        "Bérenger affirme que la situation économique du pays est l'une des raisons derrière son départ",
+        "Bérenger bat le rappel de ses troupes, ce samedi",
+        "Suivez en direct la conférence de presse de Paul Bérenger"
+      ],
+      "urls": [
+        "https://defimedia.info/bonne-gouvernance-lutte-contre-la-drogue-et-nominations-berenger-denonce-des-engagements-non",
+        "https://defimedia.info/mmm-berenger-annonce-un-rassemblement-rose-hill-ce-samedi-pour-trancher-sur-les-options-venir",
+        "https://defimedia.info/berenger-affirme-que-la-situation-economique-du-pays-est-lune-des-raisons-derriere-son-depart",
+        "https://defimedia.info/berenger-bat-le-rappel-de-ses-troupes-ce-samedi",
+        "https://defimedia.info/suivez-en-direct-la-conference-de-presse-de-paul-berenger"
+      ],
+      "languages": [
+        "fr"
+      ]
+    },
+    {
+      "id": "singleton_5e4b0d17331f",
+      "cluster_time": "2026-03-25T11:00:00+00:00",
+      "category": "local",
+      "lead": {
+        "title": "Enquête de la FCC sur un trafic estimé à Rs 75,9 M : Steven Moothoocurpen et l’inspecteur Luckmun arrêtés",
+        "source": "Defimedia",
+        "url": "https://defimedia.info/enquete-de-la-fcc-sur-un-trafic-estime-rs-759-m-steven-moothoocurpen-et-linspecteur-luckmun-arretes",
+        "summary": "La Financial Crimes Commission (FCC) a procédé à l’arrestation de Steven Moothoocurpen et de l’inspecteur Vicky Luckmun"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "titles": [
+        "Enquête de la FCC sur un trafic estimé à Rs 75,9 M : Steven Moothoocurpen et l’inspecteur Luckmun arrêtés"
+      ],
+      "urls": [
+        "https://defimedia.info/enquete-de-la-fcc-sur-un-trafic-estime-rs-759-m-steven-moothoocurpen-et-linspecteur-luckmun-arretes"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_eb0cbc47c131",
+      "cluster_time": "2026-03-25T11:00:00+00:00",
+      "category": "local",
+      "lead": {
+        "title": "PORT : Soutien de la PLHDWU  à Paul Bérenger",
+        "source": "Le Mauricien",
+        "url": "https://www.lemauricien.com/actualites/societe/port-soutien-de-la-plhdwu-a-paul-berenger/702672/",
+        "summary": "Le président du Port-Louis Harbour and Docks Workers Union (PLHDWU), Rama Valaydon, exprime sa solidarité envers l’ex-Deputy Prime Minister, Paul Bérenger, dans une lettre rendue publique. Il a..."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "titles": [
+        "PORT : Soutien de la PLHDWU  à Paul Bérenger"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/societe/port-soutien-de-la-plhdwu-a-paul-berenger/702672/"
+      ],
+      "languages": []
+    },
+    {
+      "id": "singleton_09918ea25ca2",
+      "cluster_time": "2026-03-25T10:57:00+00:00",
+      "category": "local",
+      "lead": {
+        "title": "Démission de Paul Bérenger : la corruption et le “gang des 5” parmi les raisons de son départ",
+        "source": "Defimedia",
+        "url": "https://defimedia.info/demission-de-paul-berenger-la-corruption-et-le-gang-des-5-parmi-les-raisons-de-son-depart",
+        "summary": "Lors de sa conférence de presse, Paul Bérenger a également évoqué la corruption comme l’une des principales raisons de s"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "titles": [
+        "Démission de Paul Bérenger : la corruption et le “gang des 5” parmi les raisons de son départ"
+      ],
+      "urls": [
+        "https://defimedia.info/demission-de-paul-berenger-la-corruption-et-le-gang-des-5-parmi-les-raisons-de-son-depart"
+      ],
+      "languages": []
+    },
+    {
+      "id": "d55621abb2ca",
+      "cluster_time": "2026-03-25T10:56:19+00:00",
+      "category": "global",
+      "lead": {
+        "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
+        "source": "BBC News",
+        "url": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
+        "summary": "[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.\n\n[France 24] Moscow fired nearly 1,000 drones at Ukraine in 24 hours, as it starts is spring offensive. One damaged an energy facility on the region of Chernihiv, leaving close to 150,000 consumers in the city and its surroundings without power. Russia's air defences also downed nearly 400 incoming Ukrainian drones, making it the largest reported overnight attack on Russian regions and Crimea since the start of the invasion. FRANCE 24's Emmanuelle Chaze tells us more from the ground.\n\n[France 24] A drone coming from Russian airspace struck a power plant in Estonia on Wednesday, while another crashed into Latvian territory, with officials in Riga saying it was likely a Ukrainian drone gone astray. Kyiv earlier launched a massive drone barrage against Russia, sparking a fire at a major petroleum export hub not far from the Estonian border."
+      },
+      "cluster_size": 3,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "titles": [
+        "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
+        "Russia and Ukraine escalate drone attacks as Moscow starts spring offensive",
+        "Estonia and Latvia say they were hit by drones as Ukraine unleashes massive attack on Russia"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/russia-and-ukraine-escalate-drone-attacks-as-moscow-starts-spring-offensive",
+        "https://www.france24.com/en/europe/20260325-estonia-and-latvia-say-they-were-hit-by-drones-as-ukraine-unleashes-massive-attack-on-russia"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
+      "id": "singleton_c9453b37af4b",
+      "cluster_time": "2026-03-25T10:53:24+00:00",
+      "category": "global",
+      "lead": {
+        "title": "In Lebanon, some schools choose to stay open despite the war",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/in-lebanon-some-schools-choose-to-stay-open-despite-the-war",
+        "summary": "In Lebanon, despite ongoing strikes and insecurity, some schools have chosen to remain open. In Beirut, a school located near the southern suburbs regularly targeted continues to welcome students, while others attend classes remotely. How do you teach and learn amidst a war? FRANCE 24's Serge Berberi and Renée Davis went to meet parents and students - and found some answers."
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "titles": [
+        "In Lebanon, some schools choose to stay open despite the war"
+      ],
+      "urls": [
+        "https://www.france24.com/en/in-lebanon-some-schools-choose-to-stay-open-despite-the-war"
+      ],
+      "languages": []
+    },
+    {
+      "id": "a160048523d8",
+      "cluster_time": "2026-03-25T10:45:44+00:00",
+      "category": "global",
+      "lead": {
+        "title": "US to deploy elite army brigade to Middle East: reports",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports",
+        "summary": "[France 24] The United States is planning to send some 3,000 soldiers from the elite 82nd Airborne Division to the Middle East to support operations against Iran, US media reported Tuesday. They would join thousands of Marines due to arrive in the Middle East by Friday, the latest deadline set by President Donald Trump for Iran to open the Strait of Hormuz, according to the Wall Street Journal. The Guardian Washington bureau chief David Smith reports.\n\n[France 24] The United States is ramping up its military presence in the Middle East even more, despite the US having reportedly sent a 15-point peace plan to Tehran. There are plans to send soldiers from the 82nd Airborne Division to support operations against Iran, according to US media reports. They would join thousands of Marines due to arrive in the region by March 25."
+      },
+      "cluster_size": 2,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "titles": [
+        "US to deploy elite army brigade to Middle East: reports",
+        "US ramps up military presence in the Middle East amid reported talks"
+      ],
+      "urls": [
+        "https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports",
+        "https://www.france24.com/en/us-ramps-up-military-presence-in-the-middle-east-amid-reported-talks"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
     {
       "id": "singleton_edd1cb60cb69",
       "cluster_time": "2026-03-25T10:41:01+04:00",
@@ -26,117 +494,48 @@
       "languages": []
     },
     {
-      "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-25T10:32:02.558852+00:00",
-      "category": "finance",
+      "id": "singleton_b488f21efebf",
+      "cluster_time": "2026-03-25T10:31:07+00:00",
+      "category": "global",
       "lead": {
-        "title": "Brent Crude Oil price – 25 March 2026",
-        "source": "Brent Crude Oil",
-        "url": "https://www.oilpriceapi.com",
-        "summary": "Brent Crude Oil: USD 98.72 per barrel"
+        "title": "War in the Middle East: An opportunity for Iran's minorities?",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/tv-shows/focus/20260325-war-in-the-middle-east-an-opportunity-for-iran-s-minorities",
+        "summary": "Shiite Persians make up 51 percent of Iran's population. Yet communities like the Azeris, Kurds, Balochs and Arabs also number in the millions. Historically, they have often been ignored or mistreated by the regime in Tehran, both under the shah and the Islamic Republic. These ethnic minorities could play a role in the current conflict raging in the Middle East. FRANCE 24's David Gilbert and Florent Marchais report."
       },
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Brent Crude Oil"
+        "France 24"
       ],
       "titles": [
-        "Brent Crude Oil price – 25 March 2026"
+        "War in the Middle East: An opportunity for Iran's minorities?"
       ],
       "urls": [
-        "https://www.oilpriceapi.com"
+        "https://www.france24.com/en/tv-shows/focus/20260325-war-in-the-middle-east-an-opportunity-for-iran-s-minorities"
       ],
       "languages": []
     },
     {
-      "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-25T10:32:02.466922+00:00",
-      "category": "finance",
+      "id": "singleton_a76c653297c0",
+      "cluster_time": "2026-03-25T10:30:00+00:00",
+      "category": "local",
       "lead": {
-        "title": "Bitcoin price – 25 March 2026",
-        "source": "Bitcoin Price",
-        "url": "https://api.gold-api.com/price/BTC",
-        "summary": "Bitcoin (BTC): USD 71,390.34 (▲ +1.40% from last)"
+        "title": "Anil Bachoo : «Il est temps de mettre fin aux abus !»",
+        "source": "Defimedia",
+        "url": "https://defimedia.info/anil-bachoo-il-est-temps-de-mettre-fin-aux-abus",
+        "summary": "Corriger une « erreur législative grave », mettre fin à des abus et rétablir l’équité dans le secteur de la santé visuel"
       },
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Bitcoin Price"
+        "Defimedia"
       ],
       "titles": [
-        "Bitcoin price – 25 March 2026"
+        "Anil Bachoo : «Il est temps de mettre fin aux abus !»"
       ],
       "urls": [
-        "https://api.gold-api.com/price/BTC"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-25T10:32:02.088032+00:00",
-      "category": "finance",
-      "lead": {
-        "title": "Gold price – 25 March 2026",
-        "source": "Gold Price",
-        "url": "https://api.gold-api.com/price/XAU",
-        "summary": "Gold (XAU): USD 4,555.80 (▲ +3.80% from last)"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Gold Price"
-      ],
-      "titles": [
-        "Gold price – 25 March 2026"
-      ],
-      "urls": [
-        "https://api.gold-api.com/price/XAU"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-25T10:31:44.346711+00:00",
-      "category": "finance",
-      "lead": {
-        "title": "SEMDEX – 25 March 2026",
-        "source": "Stock Exchange of Mauritius",
-        "url": "https://www.stockexchangeofmauritius.com/products-market-data/indices",
-        "summary": "SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Stock Exchange of Mauritius"
-      ],
-      "titles": [
-        "SEMDEX – 25 March 2026"
-      ],
-      "urls": [
-        "https://www.stockexchangeofmauritius.com/products-market-data/indices"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-25T10:31:37.539297+00:00",
-      "category": "weather",
-      "lead": {
-        "title": "Mauritius weather bulletin – 25 March 2026",
-        "source": "Mauritius Met Services",
-        "url": "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php",
-        "summary": "Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hikings, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Mauritius Met Services"
-      ],
-      "titles": [
-        "Mauritius weather bulletin – 25 March 2026"
-      ],
-      "urls": [
-        "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+        "https://defimedia.info/anil-bachoo-il-est-temps-de-mettre-fin-aux-abus"
       ],
       "languages": []
     },
@@ -185,6 +584,57 @@
         "https://www.france24.com/en/us-sends-15-point-peace-plan-to-iran-while-deploying-troops-in-the-region"
       ],
       "languages": []
+    },
+    {
+      "id": "singleton_ca0238d1a849",
+      "cluster_time": "2026-03-25T10:24:00+00:00",
+      "category": "local",
+      "lead": {
+        "title": "Paul Bérenger confirme des échanges avec certains membres du MMM",
+        "source": "Defimedia",
+        "url": "https://defimedia.info/paul-berenger-confirme-des-echanges-avec-certains-membres-du-mmm",
+        "summary": "Paul Bérenger a été interrogé sur la présence de Chetan Baboolall à son domicile ce mardi, alors que le député du MMM se"
+      },
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "titles": [
+        "Paul Bérenger confirme des échanges avec certains membres du MMM"
+      ],
+      "urls": [
+        "https://defimedia.info/paul-berenger-confirme-des-echanges-avec-certains-membres-du-mmm"
+      ],
+      "languages": []
+    },
+    {
+      "id": "2d4ffe098b20",
+      "cluster_time": "2026-03-25T10:22:45+00:00",
+      "category": "regional",
+      "lead": {
+        "title": "Salah to leave Liverpool at end of season",
+        "source": "BBC Africa",
+        "url": "https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&at_campaign=rss",
+        "summary": "[BBC Africa] The Egypt forward says Liverpool fans \"gave me the best time of my life\" and \"stood by me in the toughest times\".\n\n[Africanews] Liverpool star Mohamed Salah announced Tuesday he will leave the English club at the end of the season, marking an earlier-than-planned departure for one of the club's greatest-ever scorers and soccer's biggest names."
+      },
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC Africa",
+        "Africanews"
+      ],
+      "titles": [
+        "Salah to leave Liverpool at end of season",
+        "Mo Salah to leave Liverpool at the end of the season"
+      ],
+      "urls": [
+        "https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/03/25/mo-salah-to-leave-liverpool-at-the-end-of-the-season/"
+      ],
+      "languages": [
+        "en"
+      ]
     },
     {
       "id": "6a6689cc6824",
@@ -330,6 +780,36 @@
       "languages": []
     },
     {
+      "id": "82e4b48f2d1c",
+      "cluster_time": "2026-03-25T10:09:15+00:00",
+      "category": "global",
+      "lead": {
+        "title": "US proposes 15-point plan as Iran opens Strait of Hormuz to 'non-hostile' oil vessels",
+        "source": "France 24",
+        "url": "https://www.france24.com/en/middle-east/20260325-us-proposes-15-point-plan-as-iran-opens-hormuz-to-non-hostile-oil-vessels",
+        "summary": "[France 24] US President Donald Trump said Tuesday he had sent a peace plan to Iran, expressing cautious optimism about ending nearly a month of war. In a potential sign of de-escalation, Tehran announced it would allow “non-hostile” vessels to pass through the strategically vital Strait of Hormuz, a key artery for global oil supplies.\n\n[Al Jazeera] Tehran's statement on opening of key waterway comes as US President Trump says talks are taking place to end the war.\n\n[Al Jazeera] As such, it requires urgent action."
+      },
+      "cluster_size": 3,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Al Jazeera"
+      ],
+      "titles": [
+        "US proposes 15-point plan as Iran opens Strait of Hormuz to 'non-hostile' oil vessels",
+        "Iran says ‘non-hostile’ ships can pass safely through Strait of Hormuz",
+        "Iran’s closure of the Strait of Hormuz is an international crisis"
+      ],
+      "urls": [
+        "https://www.france24.com/en/middle-east/20260325-us-proposes-15-point-plan-as-iran-opens-hormuz-to-non-hostile-oil-vessels",
+        "https://www.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz?traffic_source=rss",
+        "https://www.aljazeera.com/opinions/2026/3/25/irans-closure-of-the-strait-of-hormuz-is-an-international-crisis?traffic_source=rss"
+      ],
+      "languages": [
+        "en"
+      ]
+    },
+    {
       "id": "singleton_e6371f221612",
       "cluster_time": "2026-03-25T10:08:14+00:00",
       "category": "local",
@@ -353,29 +833,6 @@
       "languages": []
     },
     {
-      "id": "singleton_dedcffe349b5",
-      "cluster_time": "2026-03-25T10:04:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Bérenger affirme que la situation économique du pays est l'une des raisons derrière son départ",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/berenger-affirme-que-la-situation-economique-du-pays-est-lune-des-raisons-derriere-son-depart",
-        "summary": "Lors d’une conférence de presse tenue ce matin à Riverwalk, Floréal, le leader du MMM, Paul Bérenger, est revenu sur les"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Bérenger affirme que la situation économique du pays est l'une des raisons derrière son départ"
-      ],
-      "urls": [
-        "https://defimedia.info/berenger-affirme-que-la-situation-economique-du-pays-est-lune-des-raisons-derriere-son-depart"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_762156444ecb",
       "cluster_time": "2026-03-25T10:03:03+00:00",
       "category": "local",
@@ -395,29 +852,6 @@
       ],
       "urls": [
         "https://ionnews.mu/parlement-standard-poors-le-premier-ministre-met-les-points-sur-les-i/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_309eaeb35406",
-      "cluster_time": "2026-03-25T10:02:18+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Estonia and Latvia say they were hit by drones as Ukraine unleashes massive attack on Russia",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/europe/20260325-estonia-and-latvia-say-they-were-hit-by-drones-as-ukraine-unleashes-massive-attack-on-russia",
-        "summary": "A drone coming from Russian airspace struck a power plant in Estonia on Wednesday, while another crashed into Latvian territory, with officials in Riga saying it was likely a Ukrainian drone gone astray. Kyiv earlier launched a massive drone barrage against Russia, sparking a fire at a major petroleum export hub not far from the Estonian border."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "Estonia and Latvia say they were hit by drones as Ukraine unleashes massive attack on Russia"
-      ],
-      "urls": [
-        "https://www.france24.com/en/europe/20260325-estonia-and-latvia-say-they-were-hit-by-drones-as-ukraine-unleashes-massive-attack-on-russia"
       ],
       "languages": []
     },
@@ -652,29 +1086,6 @@
       "languages": []
     },
     {
-      "id": "singleton_103ded001e90",
-      "cluster_time": "2026-03-25T09:23:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Suivez en direct la conférence de presse de Paul Bérenger",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/suivez-en-direct-la-conference-de-presse-de-paul-berenger",
-        "summary": "Suivez en direct la conférence de presse de Paul Bérenger"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Suivez en direct la conférence de presse de Paul Bérenger"
-      ],
-      "urls": [
-        "https://defimedia.info/suivez-en-direct-la-conference-de-presse-de-paul-berenger"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_0078f6e0ee97",
       "cluster_time": "2026-03-25T09:06:12+01:00",
       "category": "regional",
@@ -698,27 +1109,34 @@
       "languages": []
     },
     {
-      "id": "singleton_da0e96d0e93e",
+      "id": "742ff95d9a4e",
       "cluster_time": "2026-03-25T09:00:00+00:00",
       "category": "local",
       "lead": {
-        "title": "Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/reponse-de-navin-ramgoolam-le-gm-fait-tout-pour-eviter-une-degradation-par-moodys",
-        "summary": "Alors que la note souveraine de Maurice frôle la catégorie spéculative, le gouvernement affirme renforcer ses actions po"
+        "title": "PMQT -Situation économique Ramgoolam : « Maurice reste sous surveillance étroite de Moody’s »",
+        "source": "Le Mauricien",
+        "url": "https://www.lemauricien.com/actualites/societe/pmqt-situation-economique-ramgoolam-maurice-reste-sous-surveillance-etroite-de-moodys/702656/",
+        "summary": "[Le Mauricien] Raviraj Beechook a interpellé le Premier ministre, Navin Ramgoolam, sur les conséquences d’une nouvelle rétrogradation de Moody’s sur. Il a demandé si un Impact Assessment a été m...\n\n[Defimedia] Maurice reste sous étroite surveillance de l’agence Moody’s. Le Premier ministre, Navin Ramgoolam, a mis en garde contre\n\n[Defimedia] Alors que la note souveraine de Maurice frôle la catégorie spéculative, le gouvernement affirme renforcer ses actions po"
       },
-      "cluster_size": 1,
-      "source_count": 1,
+      "cluster_size": 3,
+      "source_count": 2,
       "sources": [
+        "Le Mauricien",
         "Defimedia"
       ],
       "titles": [
+        "PMQT -Situation économique Ramgoolam : « Maurice reste sous surveillance étroite de Moody’s »",
+        "Maurice sous pression de Moody’s : le gouvernement mobilisé pour éviter le “junk status”",
         "Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s"
       ],
       "urls": [
+        "https://www.lemauricien.com/actualites/societe/pmqt-situation-economique-ramgoolam-maurice-reste-sous-surveillance-etroite-de-moodys/702656/",
+        "https://defimedia.info/maurice-sous-pression-de-moodys-le-gouvernement-mobilise-pour-eviter-le-junk-status",
         "https://defimedia.info/reponse-de-navin-ramgoolam-le-gm-fait-tout-pour-eviter-une-degradation-par-moodys"
       ],
-      "languages": []
+      "languages": [
+        "fr"
+      ]
     },
     {
       "id": "singleton_4d277fb9edff",
@@ -1158,32 +1576,27 @@
       "languages": []
     },
     {
-      "id": "529254ca9d09",
+      "id": "singleton_1e1ed8654e2e",
       "cluster_time": "2026-03-25T08:00:00+00:00",
       "category": "local",
       "lead": {
         "title": "En solidarité à Paul Bérenger : Iqbal Calcateea met fin à son mandat au MSC",
         "source": "L'Express (via mega.mu)",
         "url": "https://live.mega.mu/redirect/252845/",
-        "summary": "[L'Express (via mega.mu)] Dans un geste politique marquant, Iqbal Calcateea a choisi de quitter ses fonctions de chairman du Mauritius Sports Council (MSC). Et ce, afin d’apporter son soutien à Paul Bérenger, récemment démissionnaire de son poste de vice-Premier ministre. Nommé à la tête du MSC par le Conseil des ministres le 17 janvier 2025, il met fin à son mandat après 13 mois, affirmant faire passer ses convictions avant ses responsabilités officielles. Nommé chairman du MSC par le Conseil des minist ...\n\n[Defimedia] Les démissions se poursuivent après le départ de Paul Bérenger comme Premier ministre adjoint vendredi dernier. Iqbal Ca"
+        "summary": "Dans un geste politique marquant, Iqbal Calcateea a choisi de quitter ses fonctions de chairman du Mauritius Sports Council (MSC). Et ce, afin d’apporter son soutien à Paul Bérenger, récemment démissionnaire de son poste de vice-Premier ministre. Nommé à la tête du MSC par le Conseil des ministres le 17 janvier 2025, il met fin à son mandat après 13 mois, affirmant faire passer ses convictions avant ses responsabilités officielles. Nommé chairman du MSC par le Conseil des minist ..."
       },
-      "cluster_size": 2,
-      "source_count": 2,
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "L'Express (via mega.mu)",
-        "Defimedia"
+        "L'Express (via mega.mu)"
       ],
       "titles": [
-        "En solidarité à Paul Bérenger : Iqbal Calcateea met fin à son mandat au MSC",
-        "Mauritius Sports Council : Iqbal Calcattea démissionne de la présidence"
+        "En solidarité à Paul Bérenger : Iqbal Calcateea met fin à son mandat au MSC"
       ],
       "urls": [
-        "https://live.mega.mu/redirect/252845/",
-        "https://defimedia.info/mauritius-sports-council-iqbal-calcattea-demissionne-de-la-presidence"
+        "https://live.mega.mu/redirect/252845/"
       ],
-      "languages": [
-        "fr"
-      ]
+      "languages": []
     },
     {
       "id": "singleton_89190786b9ad",
@@ -1255,16 +1668,16 @@
       "languages": []
     },
     {
-      "id": "9b02e9dc71a8",
+      "id": "b7ada84b7f11",
       "cluster_time": "2026-03-25T08:00:00+00:00",
       "category": "local",
       "lead": {
         "title": "Carburants : Le prix du diesel passe à Rs 64,80 le litre, celui de l’essence reste inchangé",
         "source": "L'Express (via mega.mu)",
         "url": "https://live.mega.mu/redirect/252821/",
-        "summary": "[L'Express (via mega.mu)] Réuni hier, mardi 24 mars, le *Petroleum Pricing Committee* (PPC) a procédé à un nouvel exercice de révision des prix conformément à la réglementation en vigueur. Ainsi, le prix du gasoil (diesel) passe de Rs 58,95 à Rs 64,80 le litre, soit une hausse d’environ 10 %. En revanche, le prix du mogas (essence) demeure inchangé à Rs 58,45 le litre. Selon le communiqué officiel, cette décision intervient dans un contexte de forte hausse des prix internationaux. Pour le diesel, l’a ...\n\n[L'Express (via mega.mu)] Le Petroleum Pricing Committee (PPC), réuni ce mardi 24 mars 2026, a décidé d’augmenter le prix du diesel et de maintenir celui de l’essence, à l’issue de son exercice de révision des prix conformément à la réglementation en vigueur.\n\n[Defimedia] Pourquoi avoir maintenu le prix de l’essence alors que celui du diesel augmente ?Il faut bien comprendre que ce n’est pa\n\n[Defimedia] Le prix du diesel connaît une hausse de 10 %, passant de Rs 58,95 à Rs 64,80, tandis que celui de l’essence reste inchan\n\n[Defimedia] Le prix du diesel a été revu à la hausse, passant de Rs 58,95 à Rs 64,80 le litre, soit une augmentation de 10 %. C’est"
+        "summary": "[L'Express (via mega.mu)] Réuni hier, mardi 24 mars, le *Petroleum Pricing Committee* (PPC) a procédé à un nouvel exercice de révision des prix conformément à la réglementation en vigueur. Ainsi, le prix du gasoil (diesel) passe de Rs 58,95 à Rs 64,80 le litre, soit une hausse d’environ 10 %. En revanche, le prix du mogas (essence) demeure inchangé à Rs 58,45 le litre. Selon le communiqué officiel, cette décision intervient dans un contexte de forte hausse des prix internationaux. Pour le diesel, l’a ...\n\n[L'Express (via mega.mu)] Le Petroleum Pricing Committee (PPC), réuni ce mardi 24 mars 2026, a décidé d’augmenter le prix du diesel et de maintenir celui de l’essence, à l’issue de son exercice de révision des prix conformément à la réglementation en vigueur.\n\n[Defimedia] Pourquoi avoir maintenu le prix de l’essence alors que celui du diesel augmente ?Il faut bien comprendre que ce n’est pa\n\n[Defimedia] Le prix du diesel connaît une hausse de 10 %, passant de Rs 58,95 à Rs 64,80, tandis que celui de l’essence reste inchan\n\n[Defimedia] Les regards sont braqués sur le Petroleum Pricing Committee (PPC), qui se réunit cet après-midi. Une hausse des prix des\n\n[Defimedia] Le prix du diesel a été revu à la hausse, passant de Rs 58,95 à Rs 64,80 le litre, soit une augmentation de 10 %. C’est"
       },
-      "cluster_size": 5,
+      "cluster_size": 6,
       "source_count": 2,
       "sources": [
         "L'Express (via mega.mu)",
@@ -1275,6 +1688,7 @@
         "Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue",
         "Trois questions à…Michael Sik Yuen, ministre du Commerce : «Nous avons évité une hausse de 40 % du prix du diesel»",
         "Carburants : le prix du diesel passe de Rs 58,95 à Rs 64,80, celui de l’essence reste inchangé",
+        "Carburants : le PPC en réunion, une hausse des prix redoutée",
         "Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre"
       ],
       "urls": [
@@ -1282,6 +1696,7 @@
         "https://live.mega.mu/redirect/252839/",
         "https://defimedia.info/trois-questions-amichael-sik-yuen-ministre-du-commerce-nous-avons-evite-une-hausse-de-40-du-prix-du",
         "https://defimedia.info/carburants-le-prix-du-diesel-passe-de-rs-5895-rs-6480-celui-de-lessence-reste-inchange",
+        "https://defimedia.info/carburants-le-ppc-en-reunion-une-hausse-des-prix-redoutee",
         "https://defimedia.info/carburant-le-diesel-passe-de-rs-5895-rs-6480-le-litre"
       ],
       "languages": [
@@ -1547,27 +1962,31 @@
       "languages": []
     },
     {
-      "id": "singleton_3e760c0d8a35",
+      "id": "a34988c71ca0",
       "cluster_time": "2026-03-25T07:13:52+00:00",
       "category": "global",
       "lead": {
-        "title": "'The humanitarian crisis here is worsening by the minute': Israel continues to bomb Lebanon",
+        "title": "Middle East live: Israeli strikes on South Lebanon leave nine dead",
         "source": "France 24",
-        "url": "https://www.france24.com/en/the-humanitarian-crisis-here-is-worsening-by-the-minute-israel-continues-to-bomb-lebanon",
-        "summary": "More than a million people have been driven from their homes in Lebanon as Israel continues its bombardment of the country and seizes land south of the Litani River. FRANCE 24 correspondent Renée Davis reports from Beirut on the rising resentment towards Israel's ongoing air strikes."
+        "url": "https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead",
+        "summary": "[France 24] In Lebanon, Israeli strikes killed at least six people in a town and a Palestinian refugee camp in the southern Sidon area, and three more in another town. This comes as US President Donald Trump expresses optimism at ending the war, after sending a 15-point ceasefire plan to Iran. Follow our liveblog for all the latest updates.\n\n[France 24] More than a million people have been driven from their homes in Lebanon as Israel continues its bombardment of the country and seizes land south of the Litani River. FRANCE 24 correspondent Renée Davis reports from Beirut on the rising resentment towards Israel's ongoing air strikes."
       },
-      "cluster_size": 1,
+      "cluster_size": 2,
       "source_count": 1,
       "sources": [
         "France 24"
       ],
       "titles": [
+        "Middle East live: Israeli strikes on South Lebanon leave nine dead",
         "'The humanitarian crisis here is worsening by the minute': Israel continues to bomb Lebanon"
       ],
       "urls": [
+        "https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead",
         "https://www.france24.com/en/the-humanitarian-crisis-here-is-worsening-by-the-minute-israel-continues-to-bomb-lebanon"
       ],
-      "languages": []
+      "languages": [
+        "en"
+      ]
     },
     {
       "id": "dbc9ba7539e1",
@@ -1667,29 +2086,6 @@
       "languages": []
     },
     {
-      "id": "singleton_27e686319e3a",
-      "cluster_time": "2026-03-25T07:00:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "PMQT -Situation économique Ramgoolam : « Maurice reste sous surveillance étroite de Moody’s »",
-        "source": "Le Mauricien",
-        "url": "https://www.lemauricien.com/actualites/societe/pmqt-situation-economique-ramgoolam-maurice-reste-sous-surveillance-etroite-de-moodys/702656/",
-        "summary": "Raviraj Beechook a interpellé le Premier ministre, Navin Ramgoolam, sur les conséquences d’une nouvelle rétrogradation de Moody’s sur. Il a demandé si un Impact Assessment a été m..."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "titles": [
-        "PMQT -Situation économique Ramgoolam : « Maurice reste sous surveillance étroite de Moody’s »"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/pmqt-situation-economique-ramgoolam-maurice-reste-sous-surveillance-etroite-de-moodys/702656/"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_5ab51159e77e",
       "cluster_time": "2026-03-25T06:56:04+00:00",
       "category": "global",
@@ -1755,29 +2151,6 @@
       ],
       "urls": [
         "https://defimedia.info/au-coeur-de-linfo-le-mmm-en-pleine-zone-de-turbulence"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_66a970213951",
-      "cluster_time": "2026-03-25T06:24:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Bérenger bat le rappel de ses troupes, ce samedi",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/berenger-bat-le-rappel-de-ses-troupes-ce-samedi",
-        "summary": "Paul Bérenger, leader du MMM, organise un grand rassemblement ce samedi à Rose-Hill pour clarifier sa position politique"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Bérenger bat le rappel de ses troupes, ce samedi"
-      ],
-      "urls": [
-        "https://defimedia.info/berenger-bat-le-rappel-de-ses-troupes-ce-samedi"
       ],
       "languages": []
     },
@@ -2035,27 +2408,32 @@
       "languages": []
     },
     {
-      "id": "singleton_cbf758c10b0b",
+      "id": "9381cb09718d",
       "cluster_time": "2026-03-25T05:11:24+00:00",
       "category": "local",
       "lead": {
-        "title": "Mohamed Salah annonce son départ de Liverpool !",
-        "source": "ION News",
-        "url": "https://ionnews.mu/mohamed-salah-annonce-son-depart-de-liverpool/",
-        "summary": "Après neuf ans de succès à Liverpool, Mohamed Salah vient d’annoncer la fin de son aventure chez les Reds. L’international égyptien quittera le club de la Mersey à l’issue de la saison. C’est une page importante de Liverpool qui va se tourner dans les prochaines semaines. Arrivé en provenance de l’AS Roma en 2017 contre 42 millions d’euros, Mohamed Salah vient d’annoncer la fin de son immense et belle aventure du côté des Reds. L’international égyptien (113 sélections) vient de communiquer sa dé"
+        "title": "Football : Salah et Liverpool, la fin d'une belle histoire d'amour",
+        "source": "Defimedia",
+        "url": "https://defimedia.info/football-salah-et-liverpool-la-fin-dune-belle-histoire-damour",
+        "summary": "[Defimedia] Légende vivante de Liverpool, le \"pharaon\" Mohamed Salah se prépare à faire ses adieux à Anfield et à ses supporters, qu\n\n[ION News] Après neuf ans de succès à Liverpool, Mohamed Salah vient d’annoncer la fin de son aventure chez les Reds. L’international égyptien quittera le club de la Mersey à l’issue de la saison. C’est une page importante de Liverpool qui va se tourner dans les prochaines semaines. Arrivé en provenance de l’AS Roma en 2017 contre 42 millions d’euros, Mohamed Salah vient d’annoncer la fin de son immense et belle aventure du côté des Reds. L’international égyptien (113 sélections) vient de communiquer sa dé"
       },
-      "cluster_size": 1,
-      "source_count": 1,
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
+        "Defimedia",
         "ION News"
       ],
       "titles": [
+        "Football : Salah et Liverpool, la fin d'une belle histoire d'amour",
         "Mohamed Salah annonce son départ de Liverpool !"
       ],
       "urls": [
+        "https://defimedia.info/football-salah-et-liverpool-la-fin-dune-belle-histoire-damour",
         "https://ionnews.mu/mohamed-salah-annonce-son-depart-de-liverpool/"
       ],
-      "languages": []
+      "languages": [
+        "fr"
+      ]
     },
     {
       "id": "singleton_88654181bc0e",
@@ -2111,7 +2489,7 @@
         "title": "CEB power outage – Moka, Moka on 25 March 2026",
         "source": "CEB Power Outages",
         "url": "https://github.com/MrSunshyne/mauritius-dataset-electricity",
-        "summary": "Moka (Moka): 09:00 to 17:00. Areas affected: MORC GENTILLY 1,2 , CTI 1,2, FOOD & ALLIED 1,2, PV FARM, CWA CAMP AUGUSTE, CWA MINISSY"
+        "summary": "Moka (Moka): 09:00 to 17:00. Areas affected: MORC GENTILLY 1,2 , CTI 1,2, FOOD & ALLIED 1,2, PV FARM, CWA CAMP AUGUSTE, CWA MINISSY,LES ALLEES DHELVETIA"
       },
       "cluster_size": 1,
       "source_count": 1,
@@ -2150,27 +2528,32 @@
       "languages": []
     },
     {
-      "id": "singleton_2df5405a213b",
+      "id": "c4264a66b421",
       "cluster_time": "2026-03-25T04:25:00+00:00",
       "category": "local",
       "lead": {
-        "title": "Huile lourde : une facture de Rs 2,46 milliards pour sécuriser l’électricité",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/huile-lourde-une-facture-de-rs-246-milliards-pour-securiser-lelectricite",
-        "summary": "Face à la crise énergétique, le gouvernement déploie une série de mesures d’urgence pour préserver l’approvisionnement d"
+        "title": "Moyen-Orient — Escalade militaire préoccupante — CEB : Rs 1 milliard de plus sur 2 cargaisons d’huile lourde",
+        "source": "Le Mauricien",
+        "url": "https://www.lemauricien.com/le-mauricien/moyen-orient-escalade-militaire-preoccupante-ceb-rs-1-milliard-de-plus-sur-2-cargaisons-dhuile-lourde/702575/",
+        "summary": "[Le Mauricien] Avec la volatilité décontrôlée sur le marché mondial du pétrole, le ministère de l’Énergie a refait ses calculs. Des dépenses supplémentaires de l’ordre de Rs 1 milliard devront être encourues pour assurer pour les deux prochaines cargaisons d’huile lourde pour le compte du Central Electricity Board (CEB). Rencontrant la presse hier, le ministre de l’Énergie, Patrick Assirvaden, a […]\n\n[Defimedia] Face à la crise énergétique, le gouvernement déploie une série de mesures d’urgence pour préserver l’approvisionnement d"
       },
-      "cluster_size": 1,
-      "source_count": 1,
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
+        "Le Mauricien",
         "Defimedia"
       ],
       "titles": [
+        "Moyen-Orient — Escalade militaire préoccupante — CEB : Rs 1 milliard de plus sur 2 cargaisons d’huile lourde",
         "Huile lourde : une facture de Rs 2,46 milliards pour sécuriser l’électricité"
       ],
       "urls": [
+        "https://www.lemauricien.com/le-mauricien/moyen-orient-escalade-militaire-preoccupante-ceb-rs-1-milliard-de-plus-sur-2-cargaisons-dhuile-lourde/702575/",
         "https://defimedia.info/huile-lourde-une-facture-de-rs-246-milliards-pour-securiser-lelectricite"
       ],
-      "languages": []
+      "languages": [
+        "fr"
+      ]
     },
     {
       "id": "singleton_de43a117a7b1",
@@ -2194,34 +2577,6 @@
         "https://www.aljazeera.com/news/2026/3/25/canada-tells-israel-that-lebanons-sovereignty-must-not-be-violated?traffic_source=rss"
       ],
       "languages": []
-    },
-    {
-      "id": "8fd02e8d3f76",
-      "cluster_time": "2026-03-25T04:10:03+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Meta ordered to pay $375 million over child exploitation in landmark verdict",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/americas/20260324-meta-ordered-to-pay-375-million-over-child-exploitation-in-landmark-verdict",
-        "summary": "[France 24] A New Mexico jury on Tuesday found social media giant Meta liable for making children vulnerable to predators and other online dangers across its platforms, marking one of the first major jury rulings on child safety in the social media era.\n\n[Al Jazeera] The verdict marks the first time a US state has successfully sued the social media giant over child safety issues."
-      },
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "France 24",
-        "Al Jazeera"
-      ],
-      "titles": [
-        "Meta ordered to pay $375 million over child exploitation in landmark verdict",
-        "US jury orders Meta to pay $375m for endangering children"
-      ],
-      "urls": [
-        "https://www.france24.com/en/americas/20260324-meta-ordered-to-pay-375-million-over-child-exploitation-in-landmark-verdict",
-        "https://www.aljazeera.com/economy/2026/3/25/us-jury-orders-meta-to-pay-375m-for-endangering-children?traffic_source=rss"
-      ],
-      "languages": [
-        "en"
-      ]
     },
     {
       "id": "singleton_683a178a11e5",
@@ -2266,52 +2621,6 @@
       ],
       "urls": [
         "https://defimedia.info/saisie-de-rs-50-m-de-drogue-laeroport-le-constable-akash-hurruck-se-constitue-prisonnier"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_de5ca2d27092",
-      "cluster_time": "2026-03-25T03:31:09+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Iran says ‘non-hostile’ ships can pass safely through Strait of Hormuz",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz?traffic_source=rss",
-        "summary": "Tehran's statement on opening of key waterway comes as US President Trump says talks are taking place to end the war."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "titles": [
-        "Iran says ‘non-hostile’ ships can pass safely through Strait of Hormuz"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz?traffic_source=rss"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_1ec0882cb5e0",
-      "cluster_time": "2026-03-25T03:21:39+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Middle East live: Israeli strikes on South Lebanon leave nine dead",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead",
-        "summary": "In Lebanon, Israeli strikes killed at least six people in a town and a Palestinian refugee camp in the southern Sidon area, and three more in another town. This comes as US President Donald Trump expresses optimism at ending the war, after sending a 15-point ceasefire plan to Iran. Follow our liveblog for all the latest updates."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "Middle East live: Israeli strikes on South Lebanon leave nine dead"
-      ],
-      "urls": [
-        "https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead"
       ],
       "languages": []
     },
@@ -2362,29 +2671,6 @@
       "languages": []
     },
     {
-      "id": "singleton_185c85d9021f",
-      "cluster_time": "2026-03-25T03:00:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Judiciaire — Law Practitioners (Disciplinary Proceedings) Act : Le Bar Council compte s’opposer à la plainte de Me Goodary",
-        "source": "Le Mauricien",
-        "url": "https://www.lemauricien.com/actualites/societe/judiciaire-law-practitioners-disciplinary-proceedings-act-le-bar-council-compte-sopposer-a-la-plainte-de-me-goodary/702563/",
-        "summary": "Le Bar Council compte s’opposer à la plainte constitutionnelle de Me Anoup Goodary, avocat, remettant en cause la section 16 de la Law Practitioners (Disciplinary Proceedings) Act (LPA). C’est..."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "titles": [
-        "Judiciaire — Law Practitioners (Disciplinary Proceedings) Act : Le Bar Council compte s’opposer à la plainte de Me Goodary"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/judiciaire-law-practitioners-disciplinary-proceedings-act-le-bar-council-compte-sopposer-a-la-plainte-de-me-goodary/702563/"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_3d346209a213",
       "cluster_time": "2026-03-25T02:55:12+00:00",
       "category": "global",
@@ -2404,29 +2690,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cy513rvg91ro?at_medium=RSS&at_campaign=rss"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_c3892d052075",
-      "cluster_time": "2026-03-25T02:21:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Football : Salah et Liverpool, la fin d'une belle histoire d'amour",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/football-salah-et-liverpool-la-fin-dune-belle-histoire-damour",
-        "summary": "Légende vivante de Liverpool, le \"pharaon\" Mohamed Salah se prépare à faire ses adieux à Anfield et à ses supporters, qu"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Football : Salah et Liverpool, la fin d'une belle histoire d'amour"
-      ],
-      "urls": [
-        "https://defimedia.info/football-salah-et-liverpool-la-fin-dune-belle-histoire-damour"
       ],
       "languages": []
     },
@@ -2473,29 +2736,6 @@
       ],
       "urls": [
         "https://defimedia.info/meteo-previsions-pour-ce-mercredi-25-mars"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_bca0b3f724c9",
-      "cluster_time": "2026-03-25T01:46:20+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Philippine president declares energy emergency as impact of Iran war felt",
-        "source": "Al Jazeera",
-        "url": "https://www.aljazeera.com/news/2026/3/25/philippine-president-declares-energy-emergency-as-impact-of-iran-war-felt?traffic_source=rss",
-        "summary": "Transport unions say emergency declaration a 'superficial band-aid' that does not address root cause of fuel crisis."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "titles": [
-        "Philippine president declares energy emergency as impact of Iran war felt"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/25/philippine-president-declares-energy-emergency-as-impact-of-iran-war-felt?traffic_source=rss"
       ],
       "languages": []
     },
@@ -2569,73 +2809,32 @@
       "languages": []
     },
     {
-      "id": "singleton_e4efb238dce4",
-      "cluster_time": "2026-03-25T00:05:03+00:00",
-      "category": "global",
-      "lead": {
-        "title": "US proposes 15-point plan as Iran opens Strait of Hormuz to 'non-hostile' oil vessels",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/middle-east/20260325-us-proposes-15-point-plan-as-iran-opens-hormuz-to-non-hostile-oil-vessels",
-        "summary": "US President Donald Trump said Tuesday he had sent a peace plan to Iran, expressing cautious optimism about ending nearly a month of war. In a potential sign of de-escalation, Tehran announced it would allow “non-hostile” vessels to pass through the strategically vital Strait of Hormuz, a key artery for global oil supplies."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "US proposes 15-point plan as Iran opens Strait of Hormuz to 'non-hostile' oil vessels"
-      ],
-      "urls": [
-        "https://www.france24.com/en/middle-east/20260325-us-proposes-15-point-plan-as-iran-opens-hormuz-to-non-hostile-oil-vessels"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_81e28ef28ccf",
+      "id": "d1c6649b6bc7",
       "cluster_time": "2026-03-24T23:54:03+00:00",
       "category": "global",
       "lead": {
         "title": "Jury orders Cosby to pay nearly $60m to ex-waitress after finding he abused her in 1972",
         "source": "BBC News",
         "url": "https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&at_campaign=rss",
-        "summary": "Donna Motsinger alleged Cosby gave her wine and a pill that left her incapacitated after picking her up in a limousine in 1972."
+        "summary": "[BBC News] Donna Motsinger alleged Cosby gave her wine and a pill that left her incapacitated after picking her up in a limousine in 1972.\n\n[Africanews] A California court has awarded $19.25m in damages to a woman who accused actor Bill Cosby of drugging and sexually assaulting her somewhere in the early 1970s."
       },
-      "cluster_size": 1,
-      "source_count": 1,
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
-        "BBC News"
+        "BBC News",
+        "Africanews"
       ],
       "titles": [
-        "Jury orders Cosby to pay nearly $60m to ex-waitress after finding he abused her in 1972"
+        "Jury orders Cosby to pay nearly $60m to ex-waitress after finding he abused her in 1972",
+        "Bill Cosby ordered to pay $19.25m to woman in decades-old assault case"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/03/24/bill-cosby-ordered-to-pay-1925m-to-woman-in-decades-old-assault-case/"
       ],
-      "languages": []
-    },
-    {
-      "id": "singleton_b437a72dc1e9",
-      "cluster_time": "2026-03-24T23:16:55+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Meta told to pay $375m for misleading users over child safety",
-        "source": "BBC News",
-        "url": "https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&at_campaign=rss",
-        "summary": "The owner of Instagram, Facebook and WhatsApp has been found liable by a court in New Mexico."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "titles": [
-        "Meta told to pay $375m for misleading users over child safety"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&at_campaign=rss"
-      ],
-      "languages": []
+      "languages": [
+        "en"
+      ]
     },
     {
       "id": "singleton_bf89616e703f",
@@ -2645,7 +2844,7 @@
         "title": "Hungary is 'the Kremlin's biggest agent in the EU', analyst says",
         "source": "France 24",
         "url": "https://www.france24.com/en/tv-shows/a-propos/20260324-hungary-is-the-kremlin-s-biggest-agent-in-the-eu-analyst-says",
-        "summary": "Speaking with FRANCE 24's Monte Francis, Dr Mark Loustau, Fellow at the Institute for Advanced Study at Central European University, asserts that \"we can probably safely say that Hungary is the Kremllin's biggest agent in the EU\" adding that \"for years now Orban has done the bidding\" of Moscow \"in trying to destabilise not only unity in the EU but also the government in Ukraine\". Hungarian foreign minister Peter Szijjarto is alleged to have leaked sensitive information about EU negotiations to R"
+        "summary": "Speaking with FRANCE 24's Monte Francis, Dr Mark Loustau, Fellow at the Institute for Advanced Study at Central European University, asserts that \"we can probably safely say that Hungary is the Kremlin's biggest agent in the EU\", adding that \"for years now Orban has done the bidding\" of Moscow \"in trying to destabilise not only unity in the EU but also the government in Ukraine\". Hungarian Foreign Minister Peter Szijjarto is alleged to have leaked sensitive information about EU negotiations to R"
       },
       "cluster_size": 1,
       "source_count": 1,
@@ -2665,10 +2864,10 @@
       "cluster_time": "2026-03-24T22:03:00+00:00",
       "category": "global",
       "lead": {
-        "title": "Has the AFCON trophy been hidden in a military base in Senegal? No",
+        "title": "Has the AFCON trophy been hidden at a military base in Senegal? No",
         "source": "France 24",
         "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20260324-has-the-afcon-trophy-been-hidden-in-a-military-base-in-senegal-no",
-        "summary": "In the wake of the Confederation of African Football's recent decision to strip Senegal of its AFCON title and declare Morocco the winners, some online are claiming that the AFCON trophy has been hidden away in a military base in Senegal. But as France 24's Charlotte Hughes explains, this rumour is not true, and the footage some internet users have been using to make the false claim has been taken out of its original context."
+        "summary": "In the wake of the Confederation of African Football's recent decision to strip Senegal of its AFCON title and declare Morocco the winners, some online users are claiming that the AFCON trophy has been hidden away in a military base in Senegal. But as FRANCE 24's Charlotte Hughes explains, this rumour is not true, and the footage some internet users have been using to make the false claim has been taken out of its original context."
       },
       "cluster_size": 1,
       "source_count": 1,
@@ -2676,40 +2875,12 @@
         "France 24"
       ],
       "titles": [
-        "Has the AFCON trophy been hidden in a military base in Senegal? No"
+        "Has the AFCON trophy been hidden at a military base in Senegal? No"
       ],
       "urls": [
         "https://www.france24.com/en/tv-shows/truth-or-fake/20260324-has-the-afcon-trophy-been-hidden-in-a-military-base-in-senegal-no"
       ],
       "languages": []
-    },
-    {
-      "id": "2f6e1102175d",
-      "cluster_time": "2026-03-24T21:47:10+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
-        "source": "BBC News",
-        "url": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
-        "summary": "[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.\n\n[France 24] Moscow launched nearly 1,000 drones at Ukraine within 24 hours in one of its biggest-ever daytime attacks, killing at least eight people and damaging a UNESCO heritage site in Lviv. Ukrainian President Volodymyr Zelensky on Tuesday slammed Moscow's \"absolute depravity\" and said Russia \"has no intention of actually ending this war\"."
-      },
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "France 24"
-      ],
-      "titles": [
-        "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
-        "Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/europe/20260324-russia-launches-nearly-1000-drones-ukraine-in-24-hours"
-      ],
-      "languages": [
-        "en"
-      ]
     },
     {
       "id": "singleton_c9cf9cb99cc4",
@@ -2788,7 +2959,7 @@
         "title": "Violences envers les policiers : 247 interpellations, 27 condamnations en deux ans",
         "source": "Le Mauricien",
         "url": "https://www.lemauricien.com/actualites/societe/violences-envers-les-policiers-247-interpellations-27-condamnations-en-deux-ans/702616/",
-        "summary": "Selon les chiffres communiqués par le Commissaire de police, 247 personnes ont été arrêtées entre le 1er janvier 2024 et le 19 mars 2026 pour des cas d’agression contre des agents de police. À..."
+        "summary": "Selon les chiffres communiqués par le Commissaire de police, 247 personnes ont été arrêtées entre le 1er janvier 2024 et le 19 mars 2026 pour des cas d’agression contre des agents de police . �..."
       },
       "cluster_size": 1,
       "source_count": 1,
@@ -2804,96 +2975,37 @@
       "languages": []
     },
     {
-      "id": "singleton_82cceb3a58b6",
-      "cluster_time": "2026-03-24T21:26:08+00:00",
-      "category": "global",
-      "lead": {
-        "title": "US to deploy elite army brigade to Middle East: reports",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports",
-        "summary": "The United States is planning to send some 3,000 soldiers from the elite 82nd Airborne Division to the Middle East to support operations against Iran, US media reported Tuesday. They would join thousands of Marines due to arrive in the Middle East by Friday, the latest deadline set by President Donald Trump for Iran to open the Strait of Hormuz, according to the Wall Street Journal. The Guardian Washington bureau chief David Smith reports."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "US to deploy elite army brigade to Middle East: reports"
-      ],
-      "urls": [
-        "https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_827d9066c801",
+      "id": "54f928ee5e42",
       "cluster_time": "2026-03-24T21:25:02+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Ghana signs security partnership with the EU",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/ghana-signs-security-partnership-with-the-eu",
-        "summary": "In tonight's edition, Ghana has become the first African country to enter into a landmark security and defence partnership with the European Union. Also, with several African countries heavily reliant on fertiliser imported from the Gulf, there's been a knock-on effect on the continent as the war in Iran chokes traditional supply routes. And the death toll from heavy flooding in Kenya has reached 88, as at least 21 counties are affected."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "Ghana signs security partnership with the EU"
-      ],
-      "urls": [
-        "https://www.france24.com/en/ghana-signs-security-partnership-with-the-eu"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_a5b30bd59dfc",
-      "cluster_time": "2026-03-24T20:34:38+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Danish PM's left bloc leads election, but no majority",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/danish-pm-s-left-bloc-leads-election-but-no-majority",
-        "summary": "Denmark's left bloc headed by Prime Minister Mette Frederiksen took an early lead in Tuesday's general election but failed to secure a majority, exit polls showed, with Frederiksen's Social Democrats posting their weakest showing in 125 years. FRANCE 24's Haxie Meyers-Belkin speaks with Ulrik Pram Gad, Senior Researcher at the Danish Institute for International Studies."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "Danish PM's left bloc leads election, but no majority"
-      ],
-      "urls": [
-        "https://www.france24.com/en/danish-pm-s-left-bloc-leads-election-but-no-majority"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_8a0e7c3efe79",
-      "cluster_time": "2026-03-24T20:34:23+00:00",
       "category": "regional",
       "lead": {
-        "title": "Salah to leave Liverpool at end of season",
+        "title": "Ghana and EU sign landmark defence deal to combat militant Islamist threat",
         "source": "BBC Africa",
-        "url": "https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&at_campaign=rss",
-        "summary": "The Egypt forward says Liverpool fans \"gave me the best time of my life\" and \"stood by me in the toughest times\"."
+        "url": "https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&at_campaign=rss",
+        "summary": "[BBC Africa] Ghana is the first African country to make such a deal with the EU, the Ghanaian vice-president says.\n\n[France 24] In tonight's edition: Ghana has become the first African country to enter into a landmark security and defence partnership with the European Union. Also, with several African countries heavily reliant on fertiliser imported from the Gulf, there's been a knock-on effect on the continent as the war in Iran chokes traditional supply routes. Plus the death toll from heavy flooding in Kenya reaches 88, with at least 21 counties affected.\n\n[Africanews] The agreement, signed in Accra by EU foreign policy chief Kaja Kallas and Ghanaian Vice President Jane Naana Opoku-Agyemang, is aimed at strengthening cooperation in areas including counterterrorism, intelligence sharing and crisis response\n\n[Africanews] Ghana and the European Union on Tuesday signed their first formal defence partnership, as the country presents itself as a regional bulwark against the growing jihadist violence roiling west Africa."
       },
-      "cluster_size": 1,
-      "source_count": 1,
+      "cluster_size": 4,
+      "source_count": 3,
       "sources": [
-        "BBC Africa"
+        "BBC Africa",
+        "France 24",
+        "Africanews"
       ],
       "titles": [
-        "Salah to leave Liverpool at end of season"
+        "Ghana and EU sign landmark defence deal to combat militant Islamist threat",
+        "Ghana signs security partnership with EU",
+        "Ghana, European Union agree defence pact",
+        "Ghana, EU sign first pact to counter West Africa's growing insecurity"
       ],
       "urls": [
-        "https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/ghana-signs-security-partnership-with-the-eu",
+        "http://www.africanews.com/2026/03/24/ghana-european-union-agree-defence-pact/",
+        "http://www.africanews.com/2026/03/24/ghana-eu-sign-first-pact-to-counter-west-africas-growing-insecurity/"
       ],
-      "languages": []
+      "languages": [
+        "en"
+      ]
     },
     {
       "id": "singleton_44c8da52e619",
@@ -2961,75 +3073,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/24/ivory-coast-cocoa-producers-suffer-amid-global-price-fall/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_ce0188aa1c79",
-      "cluster_time": "2026-03-24T19:58:27+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Pakistan’s prime minister says his nation is ready to facilitate talks to end Iran war",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/pakistan-s-prime-minister-says-his-nation-is-ready-to-facilitate-talks-to-end-iran-war",
-        "summary": "Pakistan’s prime minister says his country is ready to “facilitate meaningful and conclusive talks” to end the Iran war. Pakistan is one of the countries pushing diplomatically for talks between Iran and the United States after President Donald Trump said Monday there were ongoing negotiations between Washington and Tehran. FRANCE 24's August Hakansson reports."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "Pakistan’s prime minister says his nation is ready to facilitate talks to end Iran war"
-      ],
-      "urls": [
-        "https://www.france24.com/en/pakistan-s-prime-minister-says-his-nation-is-ready-to-facilitate-talks-to-end-iran-war"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_fc4c6586b6a5",
-      "cluster_time": "2026-03-24T19:52:39+00:00",
-      "category": "global",
-      "lead": {
-        "title": "Saudi leader said to be pushing Trump to continue war in Iran, New York Times reports",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/saudi-leader-said-to-be-pushing-trump-to-continue-war-in-iran-new-york-times-reports",
-        "summary": "The New York Times reports on Tuesday that Saudi Arabia’s de facto leader, Crown Prince Mohammed bin Salman, has been pushing President Trump to continue the war against Iran, arguing that the U.S.-Israeli military campaign presents a “historic opportunity” to remake the Middle East. FRANCE 24's Hoda Abdel-Hamid reports from Doha."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "Saudi leader said to be pushing Trump to continue war in Iran, New York Times reports"
-      ],
-      "urls": [
-        "https://www.france24.com/en/saudi-leader-said-to-be-pushing-trump-to-continue-war-in-iran-new-york-times-reports"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_e6800f7b819a",
-      "cluster_time": "2026-03-24T19:39:22+00:00",
-      "category": "global",
-      "lead": {
-        "title": "'We need a more European NATO': Rasmussen warns US is 'turning its back on Europe'",
-        "source": "France 24",
-        "url": "https://www.france24.com/en/tv-shows/spotlight/20260324-we-need-a-more-european-nato-rasmussen-warns-the-us-is-turning-its-back-on-europe",
-        "summary": "François Picard is pleased to welcome former NATO Secretary General Anders Fogh Rasmussen. Warning that the US is in the process of \"turning its back on Europe\", Rasmussen said that \"Europe must take care of its own affairs\". The former NATO chief conceded that \"without the United States, NATO does not exist.\" However, he added, \"we need a more European NATO; we need to strengthen the European pillar within NATO\"."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "titles": [
-        "'We need a more European NATO': Rasmussen warns US is 'turning its back on Europe'"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/spotlight/20260324-we-need-a-more-european-nato-rasmussen-warns-the-us-is-turning-its-back-on-europe"
       ],
       "languages": []
     },
@@ -3126,29 +3169,6 @@
       "languages": []
     },
     {
-      "id": "singleton_d7694e3fff17",
-      "cluster_time": "2026-03-24T17:43:19+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Bill Cosby ordered to pay $19.25m to woman in decades-old assault case",
-        "source": "Africanews",
-        "url": "http://www.africanews.com/2026/03/24/bill-cosby-ordered-to-pay-1925m-to-woman-in-decades-old-assault-case/",
-        "summary": "A California court has awarded $19.25m in damages to a woman who accused actor Bill Cosby of drugging and sexually assaulting her somewhere in the early 1970s."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "titles": [
-        "Bill Cosby ordered to pay $19.25m to woman in decades-old assault case"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/24/bill-cosby-ordered-to-pay-1925m-to-woman-in-decades-old-assault-case/"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_653b63209a98",
       "cluster_time": "2026-03-24T17:21:00+00:00",
       "category": "local",
@@ -3193,36 +3213,6 @@
         "https://www.bbc.com/news/articles/c1450zj6n48o?at_medium=RSS&at_campaign=rss"
       ],
       "languages": []
-    },
-    {
-      "id": "84324111bfbb",
-      "cluster_time": "2026-03-24T17:02:35+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Ghana and EU sign landmark defence deal to combat militant Islamist threat",
-        "source": "BBC Africa",
-        "url": "https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&at_campaign=rss",
-        "summary": "[BBC Africa] Ghana is the first African country to make such a deal with the EU, the Ghanaian vice-president says.\n\n[Africanews] The agreement, signed in Accra by EU foreign policy chief Kaja Kallas and Ghanaian Vice President Jane Naana Opoku-Agyemang, is aimed at strengthening cooperation in areas including counterterrorism, intelligence sharing and crisis response\n\n[Africanews] Ghana and the European Union on Tuesday signed their first formal defence partnership, as the country presents itself as a regional bulwark against the growing jihadist violence roiling west Africa."
-      },
-      "cluster_size": 3,
-      "source_count": 2,
-      "sources": [
-        "BBC Africa",
-        "Africanews"
-      ],
-      "titles": [
-        "Ghana and EU sign landmark defence deal to combat militant Islamist threat",
-        "Ghana, European Union agree defence pact",
-        "Ghana, EU sign first pact to counter West Africa's growing insecurity"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/03/24/ghana-european-union-agree-defence-pact/",
-        "http://www.africanews.com/2026/03/24/ghana-eu-sign-first-pact-to-counter-west-africas-growing-insecurity/"
-      ],
-      "languages": [
-        "en"
-      ]
     },
     {
       "id": "singleton_d20ae7a3038b",
@@ -3455,29 +3445,6 @@
       "languages": []
     },
     {
-      "id": "singleton_63f247c3129a",
-      "cluster_time": "2026-03-24T14:00:05+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Moyen-Orient — Escalade militaire préoccupante — CEB : Rs 1 milliard de plus sur 2 cargaisons d’huile lourde",
-        "source": "Le Mauricien",
-        "url": "https://www.lemauricien.com/le-mauricien/moyen-orient-escalade-militaire-preoccupante-ceb-rs-1-milliard-de-plus-sur-2-cargaisons-dhuile-lourde/702575/",
-        "summary": "Avec la volatilité décontrôlée sur le marché mondial du pétrole, le ministère de l’Énergie a refait ses calculs. Des dépenses supplémentaires de l’ordre de Rs 1 milliard devront être encourues pour assurer pour les deux prochaines cargaisons d’huile lourde pour le compte du Central Electricity Board (CEB). Rencontrant la presse hier, le ministre de l’Énergie, Patrick Assirvaden, a […]"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "titles": [
-        "Moyen-Orient — Escalade militaire préoccupante — CEB : Rs 1 milliard de plus sur 2 cargaisons d’huile lourde"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/le-mauricien/moyen-orient-escalade-militaire-preoccupante-ceb-rs-1-milliard-de-plus-sur-2-cargaisons-dhuile-lourde/702575/"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_b1d28bb5fdaa",
       "cluster_time": "2026-03-24T13:52:00+00:00",
       "category": "local",
@@ -3501,29 +3468,6 @@
       "languages": []
     },
     {
-      "id": "singleton_223d1cd66eac",
-      "cluster_time": "2026-03-24T13:38:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Maurice sous pression de Moody’s : le gouvernement mobilisé pour éviter le “junk status”",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/maurice-sous-pression-de-moodys-le-gouvernement-mobilise-pour-eviter-le-junk-status",
-        "summary": "Maurice reste sous étroite surveillance de l’agence Moody’s. Le Premier ministre, Navin Ramgoolam, a mis en garde contre"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Maurice sous pression de Moody’s : le gouvernement mobilisé pour éviter le “junk status”"
-      ],
-      "urls": [
-        "https://defimedia.info/maurice-sous-pression-de-moodys-le-gouvernement-mobilise-pour-eviter-le-junk-status"
-      ],
-      "languages": []
-    },
-    {
       "id": "singleton_ec61bd9b48aa",
       "cluster_time": "2026-03-24T13:32:00+00:00",
       "category": "regional",
@@ -3543,52 +3487,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/24/chad-begins-relocation-of-refugees-along-its-border-with-sudan/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_086257ffd7c9",
-      "cluster_time": "2026-03-24T13:29:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Carburants : le PPC en réunion, une hausse des prix redoutée",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/carburants-le-ppc-en-reunion-une-hausse-des-prix-redoutee",
-        "summary": "Les regards sont braqués sur le Petroleum Pricing Committee (PPC), qui se réunit cet après-midi. Une hausse des prix des"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Carburants : le PPC en réunion, une hausse des prix redoutée"
-      ],
-      "urls": [
-        "https://defimedia.info/carburants-le-ppc-en-reunion-une-hausse-des-prix-redoutee"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_886828f9b39e",
-      "cluster_time": "2026-03-24T13:09:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Tourism Authority : José Arunasalom démissionne après une série de plaintes internes",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/tourism-authority-jose-arunasalom-demissionne-apres-une-serie-de-plaintes-internes",
-        "summary": "José Arunasalam démissionne de son poste de président de la Tourism Authority. Il a soumis sa lettre ce mardi.Sa démissi"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Tourism Authority : José Arunasalom démissionne après une série de plaintes internes"
-      ],
-      "urls": [
-        "https://defimedia.info/tourism-authority-jose-arunasalom-demissionne-apres-une-serie-de-plaintes-internes"
       ],
       "languages": []
     },
@@ -3911,213 +3809,6 @@
       ],
       "urls": [
         "https://techcabal.com/2026/03/24/francophone-weekly-by-techcabal-016/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_5e9aaf1ddc9f",
-      "cluster_time": "2026-03-24T11:00:44+00:00",
-      "category": "local",
-      "lead": {
-        "title": "MOYEN-ORIENT — Missiles iraniens en direction de Diego : Maurice exprime ses vives inquiétudes",
-        "source": "Le Mauricien",
-        "url": "https://www.lemauricien.com/actualites/societe/moyen-orient-missiles-iraniens-en-direction-de-diego-maurice-exprime-ses-vives-inquietudes/702600/",
-        "summary": "Le gouvernement a exprimé ses vives inquiétudes à la suite de tirs de missiles balistiques en direction de l’archipel des Chagos, survenus dans la soirée du jeudi 19 et dans la matinée du vendredi 20 mars. C’est ce qui découle d’un communiqué officiel rendu public lundi soir, par le ministère des Affaires étrangères. Les autorités […]"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "titles": [
-        "MOYEN-ORIENT — Missiles iraniens en direction de Diego : Maurice exprime ses vives inquiétudes"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/moyen-orient-missiles-iraniens-en-direction-de-diego-maurice-exprime-ses-vives-inquietudes/702600/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_7dcad719d87c",
-      "cluster_time": "2026-03-24T11:00:17+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Commission Lam Shang Leen — Décès Andy Selmour : L’ex-CP de la Prison Dev Jokhoo sur la défensive",
-        "source": "Le Mauricien",
-        "url": "https://www.lemauricien.com/le-mauricien/commission-lam-shang-leen-deces-andy-selmour-lex-cp-de-la-prison-dev-jokhoo-sur-la-defensive/702555/",
-        "summary": "Le rapport final, contenant les Findings et recommandations, désormais attendu Les auditions des témoins en vue de faire la lumière sur l’agression fatale du détenu Andy Selmour le 9 décembre de l’année dernière à l’Eastern Hugh Security Prison de Melrose ont pris fin hier. L’un des derniers à être auditionné par la commission Lam Shang […]"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "titles": [
-        "Commission Lam Shang Leen — Décès Andy Selmour : L’ex-CP de la Prison Dev Jokhoo sur la défensive"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/le-mauricien/commission-lam-shang-leen-deces-andy-selmour-lex-cp-de-la-prison-dev-jokhoo-sur-la-defensive/702555/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_f5e6181f72e1",
-      "cluster_time": "2026-03-24T11:00:16+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Points Chauds",
-        "source": "Le Mauricien",
-        "url": "https://www.lemauricien.com/le-mauricien/points-chauds-16/702430/",
-        "summary": "I Le comité disciplinaire institué par la Fédération mauricienne de judo (FMJ) a recommandé un avertissement au judoka de Cassis Fraternel, Mc Dynest Résidu, pour son comportement reproché lors des Championnats nationaux du 7 décembre dernier. Toutefois, cette recommandation ne semble pas faire l’unanimité puisqu’un article de presse affirme que le comité directeur se réunira […]"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "titles": [
-        "Points Chauds"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/le-mauricien/points-chauds-16/702430/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_326b7fb37c86",
-      "cluster_time": "2026-03-24T11:00:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Tuberculose à Maurice : la vigilance reste de mise avec 130 nouveaux cas par an",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/tuberculose-maurice-la-vigilance-reste-de-mise-avec-130-nouveaux-cas-par",
-        "summary": "Malgré une situation stable, les autorités sanitaires renforcent le dépistage précoce. Le Dr Rajiv Kumar insiste sur l’i"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Tuberculose à Maurice : la vigilance reste de mise avec 130 nouveaux cas par an"
-      ],
-      "urls": [
-        "https://defimedia.info/tuberculose-maurice-la-vigilance-reste-de-mise-avec-130-nouveaux-cas-par"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_49d748ee4995",
-      "cluster_time": "2026-03-24T11:00:00+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Au Parlement : la PNQ axée sur le pouvoir d’achat et les effets du conflit au Moyen-Orient",
-        "source": "Defimedia",
-        "url": "https://defimedia.info/au-parlement-la-pnq-axee-sur-le-pouvoir-dachat-et-les-effets-du-conflit-au-moyen-orient",
-        "summary": "Le leader de l’Opposition, Joe Lesjongard, a axée sa Private Notice Question (PNQ) sur les répercussions de la guerre au"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "titles": [
-        "Au Parlement : la PNQ axée sur le pouvoir d’achat et les effets du conflit au Moyen-Orient"
-      ],
-      "urls": [
-        "https://defimedia.info/au-parlement-la-pnq-axee-sur-le-pouvoir-dachat-et-les-effets-du-conflit-au-moyen-orient"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_7e55668df9bc",
-      "cluster_time": "2026-03-24T10:53:08+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Kenya Airways sees surge in demand as Middle East conflict disrupts global travel",
-        "source": "Africanews",
-        "url": "http://www.africanews.com/2026/03/23/kenya-airways-sees-surge-in-demand-as-middle-east-conflict-disrupts-global-travel/",
-        "summary": "Kenya Airways says bookings on its flights have surged sharply in recent weeks, as disruptions linked to the conflict in the Middle East reshape global travel patterns."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "titles": [
-        "Kenya Airways sees surge in demand as Middle East conflict disrupts global travel"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/23/kenya-airways-sees-surge-in-demand-as-middle-east-conflict-disrupts-global-travel/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_b511ca24d11d",
-      "cluster_time": "2026-03-24T10:50:40+00:00",
-      "category": "local",
-      "lead": {
-        "title": "Police Officer and French National Arrested in Rs 50 Million Airport Drug Bust",
-        "source": "News Moris",
-        "url": "https://newsmoris.com/police-officer-and-french-national-arrested-in-rs-50-million-airport-drug-bust/",
-        "summary": "A police officer and a 27-year-old French woman have been taken into custody following the seizure of 16.4kg of narcotics at Sir Seewoosagur Ramgoolam (SSR) International Airport. The joint operation, conducted by the Anti-Drug and Smuggling Unit (ADSU) and the … The post Police Officer and French National Arrested in Rs 50 Million Airport Drug Bust appeared first on News Moris."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "News Moris"
-      ],
-      "titles": [
-        "Police Officer and French National Arrested in Rs 50 Million Airport Drug Bust"
-      ],
-      "urls": [
-        "https://newsmoris.com/police-officer-and-french-national-arrested-in-rs-50-million-airport-drug-bust/"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_8b090963861f",
-      "cluster_time": "2026-03-24T10:50:17+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Elon Musk's Starlink blocked from operating in Namibia",
-        "source": "BBC Africa",
-        "url": "https://www.bbc.com/news/articles/crl1ny1g6e0o?at_medium=RSS&at_campaign=rss",
-        "summary": "Namibia's regulator noted that Starlink's subsidiary is not locally owned."
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC Africa"
-      ],
-      "titles": [
-        "Elon Musk's Starlink blocked from operating in Namibia"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/crl1ny1g6e0o?at_medium=RSS&at_campaign=rss"
-      ],
-      "languages": []
-    },
-    {
-      "id": "singleton_41330c8fe51e",
-      "cluster_time": "2026-03-24T10:37:34+00:00",
-      "category": "regional",
-      "lead": {
-        "title": "Ukraine wants to import gas from Mozambique, Zelensky says",
-        "source": "Africanews",
-        "url": "http://www.africanews.com/2026/03/24/ukraine-wants-to-import-gas-from-mozambique-zelensky-says/",
-        "summary": "After a meeting with his Mozambique counterpart on Monday, the Ukrainian president said Ukraine could help Mozambique counter “security challenges” in exchange for “additional energy supplies.”"
-      },
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "titles": [
-        "Ukraine wants to import gas from Mozambique, Zelensky says"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/24/ukraine-wants-to-import-gas-from-mozambique-zelensky-says/"
       ],
       "languages": []
     }
