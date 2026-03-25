@@ -4,7 +4,7 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 25 Mar 2026 09:25:31 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 10:23:55 +0000</lastBuildDate>
     <item>
       <title>Homme de terrain et artisan de plusieurs initiatives sociales et éducatives, Jean-Noël Adolphe s’est éteint</title>
       <link>https://www.lemauricien.com/actualites/societe/homme-de-terrain-et-artisan-de-plusieurs-initiatives-sociales-et-educatives-jean-noel-adolphe-sest-eteint/702644/</link>
@@ -12,6 +12,76 @@
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-25T10:41:01+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Zimbabwean billionaire’s firm teams up with US fintech to expand stablecoins in Africa</title>
+      <link>https://africa.businessinsider.com/local/markets/zimbabwean-billionaires-firm-teams-up-with-us-fintech-to-expand-stablecoins-in-africa/0phxcht</link>
+      <description>Circle Internet Group Inc. has partnered with Cassava Technologies, owned by Zimbabwes richest person, Strive Masiyiwa, to increase the use of stablecoins across Africa, giving the continents rapidly growing digital payments industry a significant boost. | Business Insider Africa</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T10:20:21+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brent Crude Oil price – 25 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 99.04 per barrel</description>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:20:00.166872+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bitcoin price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 71,403.62 (▲ +1.42% from last)</description>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:20:00.072679+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,556.60 (▲ +3.81% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:19:59.976741+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>MUR exchange rates – 25 March 2026</title>
+      <link>https://www.floatrates.com/daily/mur.xml</link>
+      <description>MUR/USD 46.53 | MUR/EUR 53.97 (▲ 0.04 from last) (▲ 0.28 from last)</description>
+      <source>MUR Exchange Rates</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:19:59.899328+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SEMDEX – 25 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:19:54.822937+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 25 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hikings, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.</description>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <cluster_time>2026-03-25T10:19:49.822537+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -26,12 +96,102 @@
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Zamtel accueille une délégation mauricienne pour approfondir la collaboration TIC transfrontalière</title>
+      <link>https://ionnews.mu/zamtel-accueille-une-delegation-mauricienne-pour-approfondir-la-collaboration-tic-transfrontaliere/</link>
+      <description>Zamtel a accueilli une délégation en provenance de Maurice à la suite des engagements pris lors du Forum d’affaires TIC Maurice–Zambie, dans le cadre des efforts visant à approfondir la collaboration dans le secteur des technologies de l’information et de la communication. Cette visite a été l’occasion pour les deux parties d’engager des discussions axées sur l’innovation, les partenariats stratégiques et le développement de services TIC transfrontaliers destinés à stimuler la croissance au sein</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T10:14:33+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>[Tech-à-tête] La Xiaomi Pad 8 Pro sur le marché mondial</title>
+      <link>https://ionnews.mu/tech-a-tete-la-xiaomi-pad-8-pro-sur-le-marche-mondial/</link>
+      <description>La Xiaomi Pad 8 Pro marque une étape significative dans l’évolution des tablettes Android avec son lancement global, intervenant six mois après ses débuts en Chine. Ce modèle se distingue par l’intégration de la puce Snapdragon 8 Elite, gravée en 3 nm, offrant une puissance de traitement exceptionnelle pour le multitâche et les applications exigeantes. Dotée d’un écran IPS LCD de 11,2 pouces affichant une résolution de 3200 x 2136 pixels et une densité de 344 ppp, la tablette propose une immersi</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T10:10:12+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>[PMQT] Standard &amp; Poor’s : Le contrat n’a pas été renouvelé en ce mois de mars 2026</title>
+      <link>https://ionnews.mu/pmqt-standard-poors-le-contrat-na-pas-ete-renouvele-en-ce-mois-de-mars-2026/</link>
+      <description>The post [PMQT] Standard &amp; Poor’s : Le contrat n’a pas été renouvelé en ce mois de mars 2026 appeared first on IONNEWS.</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T10:08:14+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bérenger affirme que la situation économique du pays est l'une des raisons derrière son départ</title>
+      <link>https://defimedia.info/berenger-affirme-que-la-situation-economique-du-pays-est-lune-des-raisons-derriere-son-depart</link>
+      <description>Lors d’une conférence de presse tenue ce matin à Riverwalk, Floréal, le leader du MMM, Paul Bérenger, est revenu sur les</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T10:04:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>[Parlement] Standard &amp; Poor’s : Le Premier ministre met les points sur les i</title>
+      <link>https://ionnews.mu/parlement-standard-poors-le-premier-ministre-met-les-points-sur-les-i/</link>
+      <description>Lors de la PMQT au Parlement, le mardi 24 mars, le Premier ministre Navin Ramgoolam a révélé qu’en février 2023, l’ancien ministre des Finances avait sollicité la Banque de Maurice pour qu’elle demande à l’agence de notation financière Standard &amp; Poor’s (S&amp;P) de procéder à une deuxième évaluation de la note souveraine de Maurice. Le dossier, a-t-il précisé, avait été alors géré par « the very special advisor at the level of the Bank of Mauritius ». Et d’ajouter que le ministère des Finances ne d</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T10:03:03+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Estonia and Latvia say they were hit by drones as Ukraine unleashes massive attack on Russia</title>
+      <link>https://www.france24.com/en/europe/20260325-estonia-and-latvia-say-they-were-hit-by-drones-as-ukraine-unleashes-massive-attack-on-russia</link>
+      <description>A drone coming from Russian airspace struck a power plant in Estonia on Wednesday, while another crashed into Latvian territory, with officials in Riga saying it was likely a Ukrainian drone gone astray. Kyiv earlier launched a massive drone barrage against Russia, sparking a fire at a major petroleum export hub not far from the Estonian border.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T10:02:18+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Aviation – Relations industrielles Air Mauritius : le CEO présidera les négociations collectives</title>
+      <link>https://www.lemauricien.com/actualites/societe/aviation-relations-industrielles-air-mauritius-le-ceo-presidera-les-negociations-collectives/702670/</link>
+      <description>Le Chief Executive Officer (CEO) d’Air Mauritius, André Viljoen, présidera les négociations portant sur un nouvel accord collectif entre la direction de la compagnie aérienne nationale et ses sy...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T10:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Drone bases and defence hubs: How a Turkish investor is shaping DRCongo’s security future</title>
       <link>https://africa.businessinsider.com/local/lifestyle/drone-bases-and-defence-hubs-how-a-turkish-investor-is-shaping-drcongos-security/d31ve36</link>
       <description>Drone bases, surveillance networks and forward-operating hubs are rapidly redefining security strategy in the Democratic Republic of the Congo, where a Turkish investor, Turhan Mildon is emerging as an unlikely architect of the country’s defence modernisation</description>
       <source>Business Insider Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-25T09:55:42+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Tuberculosis has a last-mile delivery problem in Africa. A new logistics platform is trying to fix it.</title>
+      <link>https://techcabal.com/2026/03/25/tuberculosis-last-mile-logistics-africa/</link>
+      <description>Tuberculosis is curable. Yet, for many patients across developing countries, survival depends less on medicine and more on logistics. In 2024, the disease became the world’s leading infectious disease killer, with 10.7 million people falling ill globally, according to the World Health Organisation. Africa accounts for a significant share of cases and deaths. Weak infrastructure, […]</description>
+      <source>TechCabal</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T09:45:13+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US university cancels Mahama honour over LGBTQ bill concerns</title>
+      <link>http://www.africanews.com/2026/03/24/us-university-cancels-mahama-honour-over-lgbtq-bill-concerns/</link>
+      <description>Ghana’s embassy in the United States has criticised Lincoln University's last-minute decision to cancel plans to confer an honorary doctorate on former President John Dramani Mahama.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T09:35:49+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -46,6 +206,26 @@
       <source_count>1</source_count>
     </item>
     <item>
+      <title>‘A heinous crime’: Air strikes kill seven fighters in Iraq’s Anbar</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/a-heinous-crime-air-strikes-kill-seven-fighters-in-iraqs-anbar?traffic_source=rss</link>
+      <description>Police source tells Al Jazeera attack hits positions of the Iran-aligned PMF, which the US has increasingly targeted.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T09:34:59+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>A two hour wait for fuel: Kinshasa feels first effects of Middle East war</title>
+      <link>http://www.africanews.com/2026/03/25/a-two-hour-wait-for-fuel-kinshasa-feels-first-effects-of-middle-east-war/</link>
+      <description>Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortages and price hikes, as the capital of the Democratic Republic of Congo began to feel the effects of Iran's blockade of the Strait of Hormuz.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T09:33:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Niger and Algeria continue to ease up on their cold war with fresh agreements</title>
       <link>https://africa.businessinsider.com/local/markets/niger-and-algeria-continue-to-ease-up-on-their-cold-war-with-fresh-agreements/77v61wj</link>
       <description>Niger and Algeria are deepening their strategic cooperation with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation</description>
@@ -56,62 +236,42 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Brent Crude Oil price – 25 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 98.81 per barrel</description>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T09:21:20.442620+00:00</cluster_time>
+      <title>Question au Premier ministre : 247 agressions et 144 cas de harcèlement contre des policiers</title>
+      <link>https://defimedia.info/question-au-premier-ministre-247-agressions-et-144-cas-de-harcelement-contre-des-policiers</link>
+      <description>En un peu plus de deux ans, 247 personnes ont été arrêtées pour des agressions contre des policiers à Maurice. Ce chiffr</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T09:30:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 71,344.86 (▲ +1.33% from last)</description>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T09:21:20.296748+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
+      <title>Dozens of bodies, mostly infants, discovered in Kenya mass grave</title>
+      <link>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] Some of the 32 bodies, including 25 children, are believed to have come from local hospitals and mortuaries.
+
+[Africanews] Authorities in Kenya have uncovered a disturbing mass grave in Kericho, where officials exhumed dozens of bodies, including foetuses, in a case that is rapidly expanding in scale. The investigation began earlier this week after police received reports of a secret burial site over the weekend.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T09:27:22+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>6a6689cc6824</cluster_id>
+      <sources>BBC Africa
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/03/25/mass-grave-of-32-bodies-including-children-discovered-in-kenya/</urls>
+      <titles>Dozens of bodies, mostly infants, discovered in Kenya mass grave
+Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
+      <languages>en</languages>
     </item>
     <item>
-      <title>Gold price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,565.20 (▲ +4.01% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T09:21:19.912703+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>MUR exchange rates – 25 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.53 | MUR/EUR 53.97 (▲ 0.04 from last) (▲ 0.28 from last)</description>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T09:21:19.544474+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>SEMDEX – 25 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T09:21:17.068631+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mauritius weather bulletin – 25 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.</description>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
-      <cluster_time>2026-03-25T09:21:12.590326+00:00</cluster_time>
+      <title>Belarus’s Lukashenko makes first visit to North Korea in bid to deepen ties</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/belaruss-lukashenko-makes-first-visit-to-north-korea-in-bid-to-deepen-ties?traffic_source=rss</link>
+      <description>Belarus and North Korea are expected to sign a treaty of friendship as their leaders meet in Pyongyang.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T09:23:36+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -146,32 +306,12 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>A two hour wait for fuel: Kinshasa feels first effects of Middle East war</title>
-      <link>http://www.africanews.com/2026/03/25/a-two-hour-wait-for-fuel-kinshasa-feels-first-effects-of-middle-east-war/</link>
-      <description>Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortages and price hikes, as the capital of the Democratic Republic of Congo began to feel the effects of Iran's blockade of the Strait of Hormuz.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T08:57:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya: Third Contingent of 208 Kenyan Police Returns From Haiti Mission</title>
-      <link>https://allafrica.com/stories/202603250152.html</link>
-      <description>[Capital FM] Nairobi -- A third group of 208 Kenyan police officers returned home Tuesday after completing their deployment in Haiti under the Multinational Security Support (MSS) Mission, the National Police Service (NPS) said.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T08:55:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Africa: Well Over Three Million People in South Africa Develop Depression Every Year, Researchers Estimate</title>
-      <link>https://allafrica.com/stories/202603250153.html</link>
-      <description>[spotlight] Around 3.8 million people in South Africa developed depression in 2024, estimate leading local researchers in a major new modelling study.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T08:55:52+00:00</cluster_time>
+      <title>Marcos promises 'flow of oil' as Philippines declares energy emergency</title>
+      <link>https://www.bbc.com/news/articles/c3ex8ez3717o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The President says the country will procure one million barrels of oil to add to the current stock.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T08:59:46+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -192,16 +332,6 @@
       <source>Business Insider Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-25T08:46:52+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Shock as dozens of bodies, mostly infants, discovered in Kenya mass grave</title>
-      <link>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Some of the 32 bodies, including 25 children, are believed to have come from local hospitals and mortuaries.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T08:41:22+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -286,12 +416,22 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>‘Do not call your defeat an agreement’ IRGC warns US, Israel</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/do-not-call-your-defeat-an-agreement-irgc-warns-us-israel?traffic_source=rss</link>
-      <description>The spokesman for the IRGC has rejected President Trump’s suggestions that talks have been taking place with Iran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T08:01:05+00:00</cluster_time>
+      <title>Guerre psychologique et tempête politique</title>
+      <link>https://live.mega.mu/redirect/252854/</link>
+      <description>Les vents contraires se déchaînent. Alors qu’au Moyen-Orient, c’est l’escalade, avec pour conséquence une flambée du baril de pétrole qui a atteint jusqu’à 113 dollars lundi matin, à Maurice, c’est la crise politique provoquée par la démission de Paul Bérenger et celle de sa fille Joanna qui polarise toute l’attention. En déclenchant l’opération «Fureur épique», les forces armées israélo-américaines ne s’attendaient sans doute pas à ce que l’Iran lance une ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Conférence de Paul Bérenger : «Gouvernman pe ratrap seki MSM inn pouri konpletman»</title>
+      <link>https://live.mega.mu/redirect/252857/</link>
+      <description>Lors d’une conférence de presse tenue ce mercredi 25 mars à Riverwalk, Paul Bérenger a tenu à clarifier sa position politique, affirmant avec force qu’il n’a pas quitté le Mouvement militant mauricien (MMM), malgré sa démission en tant que Deputy Prime Minister. *«Jamais mo’nn kit MMM, mo’nn retir mwa selman kouma Premier minis adzwin»*, a-t-il déclaré. Face à la presse, le leader historique des mauves n’a pas mâché ses mots à l’égard de certains dirigeants de so ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -408,26 +548,6 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <languages>fr</languages>
     </item>
     <item>
-      <title>En couverture : 🔔 Les grands titres de l'express de ce mercredi 25 mars 2026 📰</title>
-      <link>https://live.mega.mu/redirect/252824/</link>
-      <description>En une de *l'express*: Politique : Le MMM peut-il exister sans Paul Bérenger ? ; Autre titre : Jean Claude de l’Estrac : «Il est présentement un leader sans parti, les autres ont un parti sans leader» l • Les Mauves présents dans l’Hémicycle, sauf les Bérenger et Chetan Baboolall l 16,4 kg de cannabis et de haschich saisis à l’aéroport : Une Française et un policier recherchés, l’épouse policière arrêtée l Enquête de la FCC : Yasish Emrith visé pour blanchiment et enri ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>En couverture de Business Magazine ce mercredi 25 mars 2026 🗞️📊 : Sunil Ramgobin : «Maurice reste une plateforme crédible pour structurer les investissements transfrontaliers»</title>
-      <link>https://live.mega.mu/redirect/252827/</link>
-      <description>À la tête de Bank One depuis octobre 2024, Sunil Ramgobin dirige une institution solide et engagée dans une phase de transformation stratégique. Entre repositionnement de la marque, ambition panafricaine et mutation du modèle bancaire vers plus de digital et d’expérience client, le CEO expose, dans un entretien, sa vision d’une banque plus lisible, plus cohérente et résolument tournée vers l’avenir. C’est en couverture de Business Magazine ce mercredi 25 mars 2026, un numér ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Annonces ministérielles : des mesures préventives pour économiser l’énergie</title>
       <link>https://defimedia.info/annonces-ministerielles-des-mesures-preventives-pour-economiser-lenergie</link>
       <description>Annonces ministérielles : des mesures préventives pour économiser l’énergie</description>
@@ -518,16 +638,6 @@ Guerre au Moyen-Orient : Donald Trump fait passer un plan de paix à l’Iran</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Suivez en direct la conférence de presse de Paul Bérenger</title>
-      <link>https://defimedia.info/suivez-en-direct-la-conference-de-presse-de-paul-berenger</link>
-      <description>Suivez en direct la conférence de presse de Paul Bérenger</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T07:16:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Iran’s new security boss Mohammad Zolghadr: Why his appointment matters</title>
       <link>https://www.aljazeera.com/news/2026/3/25/irans-new-security-boss-mohammad-zolghadr-why-his-appointment-matters?traffic_source=rss</link>
       <description>Zolghadr, an ex-IRGC commander, will manage Iran's security amid external US-Israeli pressures and internal unrest.</description>
@@ -597,16 +707,6 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Africa: All of Africa Today - March 25, 2026</title>
-      <link>https://allafrica.com/stories/202603250126.html</link>
-      <description>[allAfrica]</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T07:06:54+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Nigeria rolls out locally made armoured carriers as army ramps up defence capabilities</title>
       <link>https://africa.businessinsider.com/local/lifestyle/nigeria-rolls-out-locally-made-armoured-carriers-as-army-ramps-up-defence/t39b5ym</link>
       <description>The Nigerian Army has taken delivery of a new batch of armoured personnel carriers, combining locally manufactured platforms with foreign-supplied vehicles, in a move that underscores the country’s growing ambitions in defence production and its continued reliance on international partnerships</description>
@@ -617,7 +717,7 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>PMQT | Situation économique Ramgoolam : « Maurice reste sous surveillance étroite de Moody’s »</title>
+      <title>PMQT -Situation économique Ramgoolam : « Maurice reste sous surveillance étroite de Moody’s »</title>
       <link>https://www.lemauricien.com/actualites/societe/pmqt-situation-economique-ramgoolam-maurice-reste-sous-surveillance-etroite-de-moodys/702656/</link>
       <description>Raviraj Beechook a interpellé le Premier ministre, Navin Ramgoolam, sur les conséquences d’une nouvelle rétrogradation de Moody’s sur. Il a demandé si un Impact Assessment a été m...</description>
       <source>Le Mauricien</source>
@@ -757,16 +857,6 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>South Africa: Western Cape Water Levels Drop, Six Months' Supply Remains - South African News Briefs - March 25, 2026</title>
-      <link>https://allafrica.com/stories/202603250107.html</link>
-      <description>[allAfrica]</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T05:38:37+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Emtel Revenues Soar Past Rs 4 Billion Mark During a Fantastic 2025 Year</title>
       <link>https://newsmoris.com/emtel-revenues-soar-past-rs-4-billion-mark-during-a-fantastic-2025-year/</link>
       <description>Telecommunications leader Emtel has hit a historic financial milestone, with annual revenues surging past Rs 4 billion for the first time. The group’s financial results for the year ending 31 December 2025 reveal a significant leap from Rs 3.7 billion… The post Emtel Revenues Soar Past Rs 4 Billion Mark During a Fantastic 2025 Year appeared first on News Moris.</description>
@@ -783,36 +873,6 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-25T05:20:18+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya: Men Accounted for 90% of Victims of Police Killings in Kenya in 2025 - Missing Voices Report</title>
-      <link>https://allafrica.com/stories/202603250106.html</link>
-      <description>[Capital FM] Nairobi -- Men accounted for about 90 per cent of victims of police killings in Kenya in 2025, a newly released report by the Missing Voices Coalition has shown, highlighting &quot;persistent gendered patterns&quot; in the use of force by security agencies.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T05:19:31+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Uganda: Police Vacate Bobi Wine's Magere Home After Two-Month Siege</title>
-      <link>https://allafrica.com/stories/202603250079.html</link>
-      <description>[Nile Post] Police have completely withdrawn from the private residence of National Unity Platform (NUP) president Robert Kyagulanyi Ssentamu, popularly known as Bobi Wine, in Magere, Wakiso District, ending a heavy two-month deployment that had effectively turned the property into a restricted zone.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T05:13:25+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Namibia: Namibia Rejects Starlink Licence Over Legal and Security Concerns</title>
-      <link>https://allafrica.com/stories/202603250076.html</link>
-      <description>[Namibian] The government has rejected satellite internet service Starlink's application for a licence to operate in Namibia, citing the company does not meet key legal and regulatory requirements.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T05:13:24+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -857,56 +917,6 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>OpenAI pulls AI video app Sora as concerns grow on deepfake videos</title>
-      <link>https://www.aljazeera.com/economy/2026/3/25/openai-pulls-ai-video-app-sora-as-concerns-grow-on-deepfake-videos?traffic_source=rss</link>
-      <description>This is first big step by ChatGPT maker to focus its business on potentially more lucrative areas, such as coding tools.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T04:59:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nigeria: Switzerland to Return Benin Bronzes, Back Nigeria On Security</title>
-      <link>https://allafrica.com/stories/202603250061.html</link>
-      <description>[Leadership] Nigeria and Switzerland have agreed to actively strengthen their bilateral relations, focusing on a multi-faceted approach that spans trade, economic cooperation, skills acquisition, migration, security and cultural exchange.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T04:59:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Liberia: Ex-Combatants Issue One-Week Ultimatum to Guinean Troops Amid Border Tensions</title>
-      <link>https://allafrica.com/stories/202603250049.html</link>
-      <description>[Liberian Investigator] GANTA, Nimba County - Former fighters have issued a stark one-week ultimatum to Guinean troops reportedly occupying parts of Liberian territory, escalating pressure on authorities as tensions persist along the Liberia-Guinea border despite ongoing diplomatic efforts.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T04:59:07+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Parsi: No deal ‘’without both sides giving something to the other’</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/parsi-no-deal-without-both-sides-giving-something-to-the?traffic_source=rss</link>
-      <description>Trita Parsi argues that Iran is unlikely to agree to end the war without sanctions relief.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T04:58:54+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Thousands march to mark 50th anniversary of Argentina’s bloody coup</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/thousands-march-to-mark-50th-anniversary-of-argentinas-bloody-coup?traffic_source=rss</link>
-      <description>Thousands of people took to the streets in Buenos Aires to mark the 50th anniversary of Argentina’s last military coup.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T04:57:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>New Zealand footballers willing to play Iran World Cup match outside US</title>
       <link>https://www.aljazeera.com/sports/2026/3/25/new-zealand-footballers-willing-to-play-iran-world-cup-match-outside-us?traffic_source=rss</link>
       <description>The teams are set to play on June 15 in Los Angeles, but Iran has threatened to boycott its matches due to the war.</description>
@@ -917,102 +927,12 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Indonesians fire wooden cannons in post-Eid tradition</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/indonesians-fire-wooden-cannons-in-post-eid-tradition?traffic_source=rss</link>
-      <description>Two villages in Indonesia’s West Java province faced off with wooden cannons in a traditional post-Eid celebration.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T04:51:22+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>OpenAI ends Disney partnership as it closes Sora video-making app</title>
-      <link>https://www.bbc.com/news/articles/c3w3e467ewqo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The move comes less two years after the launch of the AI video app sent shockwaves through the media industry.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T04:48:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya: 33 Bodies Exhumed From Kericho Mass Grave, 25 Children Among Victims</title>
-      <link>https://allafrica.com/stories/202603250037.html</link>
-      <description>[Capital FM] Kericho -- Thirty-three bodies have been exhumed from a mass grave in Kericho, pathologist Dr Richard Njoroge has confirmed.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T04:48:26+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya: Tuju Secures Anticipatory Bond At the High Court</title>
-      <link>https://allafrica.com/stories/202603250036.html</link>
-      <description>[Capital FM] Nairobi -- Former Cabinet Secretary Raphael Tuju has been granted an anticipatory bond of Sh200,000 to prevent his arrest.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T04:48:25+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Khvicha Kvaratskhelia, nouveau capitaine de la Géorgie</title>
       <link>https://ionnews.mu/khvicha-kvaratskhelia-nouveau-capitaine-de-la-georgie/</link>
       <description>Absente de la Coupe du Monde, malgré un Euro 2024 séduisant, la Géorgie a un nouveau capitaine. Il s’agit de la star de la sélection, Khvicha Kvaratskhelia (45 sélections, 20 buts), présente en équipe nationale depuis 2019. Il prend la suite de Guram Kashia (38 ans), défenseur du Slovan Bratislava. « À partir de juin 2026, l’équipe nationale géorgienne sera menée par Khvicha Kvaratskhelia, Otar Kiteishvili sera le premier vice-capitaine et Otar Kakabadze le second », a annoncé la Fédération Géor</description>
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-03-25T04:40:16+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Chad: Chad Relocates Refugees Amid Rising Tensions At Border With Sudan</title>
-      <link>https://allafrica.com/stories/202603250007.html</link>
-      <description>[AllAfrica] [RFI] Chad has begun the emergency relocation of refugees from its border with Sudan as the army prepares to deploy to the area in response to cross-border attacks, an official from the country's refugee agency said on Monday.
-
-[Africanews] The evacuations already began in Ennedi Est Province over the weekend, with the government targeting to relocate at least 2,300 refugees, mostly women and children.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T04:31:14+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>c4b7e1204804</cluster_id>
-      <sources>AllAfrica
-Africanews</sources>
-      <urls>https://allafrica.com/stories/202603250007.html
-http://www.africanews.com/2026/03/24/chad-begins-relocation-of-refugees-along-its-border-with-sudan/</urls>
-      <titles>Chad: Chad Relocates Refugees Amid Rising Tensions At Border With Sudan
-Chad begins relocation of refugees along its border with Sudan</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>East Africa: As East Africa's Migratory Fish Vanish, a Food Security Crisis Surfaces</title>
-      <link>https://allafrica.com/stories/202603250005.html</link>
-      <description>[IPS] Rufiji, Tanzania -- By the time the auction begins at Nangurukuru fish market in Tanzania's southern Lindi region, the crisis is already visible. Wooden canoes that once returned from the Rufiji River with heavy catches now bring only a fraction of what they used to. Traders scan for the long-whiskered catfish that once defined the market but find none.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T04:31:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Sudan: Hospital Strike Highlights Surge in Drone Attacks On Civilians</title>
-      <link>https://allafrica.com/stories/202603250006.html</link>
-      <description>[UN News] The death toll from a horrific attack on a hospital in Sudan's Darfur has risen further, amid a &quot;sharp increase&quot; in drone attacks against civilians this year, UN agencies said on Tuesday.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T04:31:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya: Kenya's Double Climate Crisis - It Needs Funds to Adapt, and Disaster Aid Is Damaging the Environment</title>
-      <link>https://allafrica.com/stories/202603250002.html</link>
-      <description>[The Conversation Africa] Over the last two decades, economic losses from extreme weather (such as the damage caused by floods, mudslides and drought) has amounted to trillions of dollars.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T04:29:37+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1057,16 +977,6 @@ US jury orders Meta to pay $375m for endangering children</titles>
       <languages>en</languages>
     </item>
     <item>
-      <title>What we know about the US’s 15-point plan Iran proposal</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/what-we-know-about-the-uss-15-point-plan-iran-proposal?traffic_source=rss</link>
-      <description>US media reports the Trump administration has proposed a temporary ceasefire and a 15-point plan to end the war on Iran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T04:10:03+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Déficit en personnel soignant: 1 417 médecins et 1 750 infirmiers nécessaires chaque jour</title>
       <link>https://www.lemauricien.com/actualites/societe/deficit-en-personnel-soignant-1-417-medecins-et-1-750-infirmiers-necessaires-chaque-jour/702623/</link>
       <description>En moyenne, 1 417 médecins, incluant les medical and health officers et spécialistes, ainsi que 1 750 infirmiers sont requis chaque jour pour assurer le fonctionnement des établissements de santé ...</description>
@@ -1087,52 +997,12 @@ US jury orders Meta to pay $375m for endangering children</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US to deploy elite army brigade to Middle East: reports</title>
-      <link>https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports</link>
-      <description>[France 24] The United States is planning to send some 3,000 soldiers from the elite 82nd Airborne Division to the Middle East to support operations against Iran, US media reported Tuesday. They would join thousands of Marines due to arrive in the Middle East by Friday, the latest deadline set by President Donald Trump for Iran to open the Strait of Hormuz, according to the Wall Street Journal. The Guardian Washington bureau chief David Smith reports.
-
-[Al Jazeera] The US is expected to deploy up to 3,000 troops from the 82nd Airborne Division to the Middle East.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T03:52:05+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>23519d2db6bf</cluster_id>
-      <sources>France 24
-Al Jazeera</sources>
-      <urls>https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports
-https://www.aljazeera.com/video/newsfeed/2026/3/25/us-to-send-thousands-of-soldiers-from-82nd-airborne-division-to-middle-east?traffic_source=rss</urls>
-      <titles>US to deploy elite army brigade to Middle East: reports
-US to send thousands of soldiers from 82nd Airborne Division to Middle East</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Iran says ‘non-hostile’ ships can pass safely through Strait of Hormuz</title>
       <link>https://www.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz?traffic_source=rss</link>
       <description>Tehran's statement on opening of key waterway comes as US President Trump says talks are taking place to end the war.</description>
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-25T03:31:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Drone attack ignites fuel tank at Kuwait airport</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/drone-attack-ignites-fuel-tank-at-kuwait-airport?traffic_source=rss</link>
-      <description>A drone has sparked a fire at a fuel tank at Kuwait International Airport.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T03:31:06+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Middle East live: Israeli strikes on South Lebanon leave nine dead</title>
-      <link>https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead</link>
-      <description>In Lebanon, Israeli strikes killed at least six people in a town and a Palestinian refugee camp in the southern Sidon area, and three more in another town. This comes as US President Donald Trump expresses optimism at ending the war, after sending a 15-point ceasefire plan to Iran. Follow our liveblog for all the latest updates.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T03:21:39+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1177,26 +1047,6 @@ US to send thousands of soldiers from 82nd Airborne Division to Middle East</tit
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Temps nuageux avec des averses localisées cet après-midi</title>
-      <link>https://ionnews.mu/temps-nuageux-avec-des-averses-localisees-cet-apres-midi/</link>
-      <description>Un courant d’air léger et chaud circule sur la région. Le temps est mi-couvert tôt ce matin avec quelques ondées à l’Est et sur les hauteurs. Le temps sera essentiellement beau par la suite. Des développements nuageux sont attendus cet après-midi sur l’Ouest et sur le Plateau central avec des averses localisées. Ces averses pourraient être parfois d’intensité modérée. Le temps sera mi-couvert ailleurs. Après des averses localisées dans la soirée à l’Ouest et sur les hauteurs, le temps deviendra</description>
-      <source>ION News</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T02:52:58+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>[Parlement] PM : « Il est essentiel de relancer d’abord l’économie… »</title>
-      <link>https://ionnews.mu/parlement-pm-il-est-essentiel-de-relancer-dabord-leconomie/</link>
-      <description>Répondant au député Raviraj Beechook lors de la PMQT au Parlement, le mardi 24 mars, le Premier ministre (PM) Navin Ramgoolam a affirmé que la « mauvaise gestion économique » du gouvernement précédent a mené la notation souveraine de Maurice aux portes du « junk status ». Ainsi, une délégation de haut niveau a été dépêchée à Londres pour présenter à la direction de Moody’s un plan de consolidation économique et fiscale incluant une réforme des retraites. Basculer vers le « junk status », a rappe</description>
-      <source>ION News</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T02:42:54+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Football : Salah et Liverpool, la fin d'une belle histoire d'amour</title>
       <link>https://defimedia.info/football-salah-et-liverpool-la-fin-dune-belle-histoire-damour</link>
       <description>Légende vivante de Liverpool, le &quot;pharaon&quot; Mohamed Salah se prépare à faire ses adieux à Anfield et à ses supporters, qu</description>
@@ -1217,24 +1067,14 @@ US to send thousands of soldiers from 82nd Airborne Division to Middle East</tit
       <source_count>1</source_count>
     </item>
     <item>
-      <title>La météo du mercredi 25 mars</title>
-      <link>https://www.lemauricien.com/actualites/societe/la-meteo-du-mercredi-25-mars/702627/</link>
-      <description>[Le Mauricien] Quelques nuages venant du secteur est influenceront le temps local. Un courant d'air léger et chaud circule sur la région.Des développements nuageux sont attendus cet après-midi sur la partie oues...
-
-[Defimedia] Un courant d’air léger et chaud circule sur la région. Le ciel sera mi-couvert tôt ce matin avec quelques ondées à l’est</description>
-      <source>Le Mauricien</source>
+      <title>Météo : prévisions pour ce mercredi 25 mars</title>
+      <link>https://defimedia.info/meteo-previsions-pour-ce-mercredi-25-mars</link>
+      <description>Un courant d’air léger et chaud circule sur la région. Le ciel sera mi-couvert tôt ce matin avec quelques ondées à l’est</description>
+      <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-25T02:06:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>474a7bc4150c</cluster_id>
-      <sources>Le Mauricien
-Defimedia</sources>
-      <urls>https://www.lemauricien.com/actualites/societe/la-meteo-du-mercredi-25-mars/702627/
-https://defimedia.info/meteo-previsions-pour-ce-mercredi-25-mars</urls>
-      <titles>La météo du mercredi 25 mars
-Météo : prévisions pour ce mercredi 25 mars</titles>
-      <languages>fr</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Philippine president declares energy emergency as impact of Iran war felt</title>
@@ -1243,36 +1083,6 @@ Météo : prévisions pour ce mercredi 25 mars</titles>
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-25T01:46:20+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Philippines declares national emergency as fuel supplies dwindle</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/philippines-declares-national-emergency-as-fuel-supplies-dwindle?traffic_source=rss</link>
-      <description>Philippine President Ferdinand Marcos Jr. has declared a year-long national emergency as fuel supplies begin to dwindle.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T01:38:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Indian police manage long lines as panic grows over fuel shortages</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/indian-police-manage-long-lines-as-panic-grows-over-fuel-shortages?traffic_source=rss</link>
-      <description>Indian police have been stationed at petrol pumps in the state of Gujarat as people panic over possible fuel shortages.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T01:35:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Israeli and Palestinian mothers call for peace on barefoot walk</title>
-      <link>https://www.aljazeera.com/video/newsfeed/2026/3/25/israeli-and-palestinian-mothers-call-for-peace-on-barefoot-walk?traffic_source=rss</link>
-      <description>Israeli and Palestinian mothers marched barefoot through Rome, calling for greater protection for children.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T01:18:01+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1313,16 +1123,6 @@ Météo : prévisions pour ce mercredi 25 mars</titles>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-25T00:05:03+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran war live: Iranian military dismisses Trump’s claim of negotiations</title>
-      <link>https://www.aljazeera.com/news/liveblog/2026/3/25/iran-war-live-trump-again-says-talks-underway-12-killed-in-south-tehran?traffic_source=rss</link>
-      <description>US-Israeli strikes on Iran continue despite claims of talks, with at least 12 killed, 28 wounded in an attack in Tehran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T00:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1427,6 +1227,16 @@ Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight<
       <source_count>1</source_count>
     </item>
     <item>
+      <title>US to deploy elite army brigade to Middle East: reports</title>
+      <link>https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports</link>
+      <description>The United States is planning to send some 3,000 soldiers from the elite 82nd Airborne Division to the Middle East to support operations against Iran, US media reported Tuesday. They would join thousands of Marines due to arrive in the Middle East by Friday, the latest deadline set by President Donald Trump for Iran to open the Strait of Hormuz, according to the Wall Street Journal. The Guardian Washington bureau chief David Smith reports.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-24T21:26:08+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Ghana signs security partnership with the EU</title>
       <link>https://www.france24.com/en/ghana-signs-security-partnership-with-the-eu</link>
       <description>In tonight's edition, Ghana has become the first African country to enter into a landmark security and defence partnership with the European Union. Also, with several African countries heavily reliant on fertiliser imported from the Gulf, there's been a knock-on effect on the continent as the war in Iran chokes traditional supply routes. And the death toll from heavy flooding in Kenya has reached 88, as at least 21 counties are affected.</description>
@@ -1507,9 +1317,9 @@ Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight<
       <source_count>1</source_count>
     </item>
     <item>
-      <title>'We need a more European NATO': Rasmussen warns the US is 'turning its back on Europe'</title>
+      <title>'We need a more European NATO': Rasmussen warns US is 'turning its back on Europe'</title>
       <link>https://www.france24.com/en/tv-shows/spotlight/20260324-we-need-a-more-european-nato-rasmussen-warns-the-us-is-turning-its-back-on-europe</link>
-      <description>François Picard is pleased to welcome former NATO Secretary General Anders Fogh Rasmussen. According to NATO's Secretary General, Europe is entering a decisive strategic rupture, one that forces a long-delayed reckoning with its own dependency structures and security assumptions. The erosion of American commitment to European defence is not a hypothetical risk but an unfolding reality, exposing the fragility of a model built on external guarantees and internal complacency.</description>
+      <description>François Picard is pleased to welcome former NATO Secretary General Anders Fogh Rasmussen. Warning that the US is in the process of &quot;turning its back on Europe&quot;, Rasmussen said that &quot;Europe must take care of its own affairs&quot;. The former NATO chief conceded that &quot;without the United States, NATO does not exist.&quot; However, he added, &quot;we need a more European NATO; we need to strengthen the European pillar within NATO&quot;.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-24T19:39:22+00:00</cluster_time>
@@ -1529,7 +1339,7 @@ Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight<
     <item>
       <title>Talks or theatre? Claims of peace talks to end Iran war collide with denials</title>
       <link>https://www.france24.com/en/tv-shows/the-debate/20260324-talks-or-theatre-claims-of-peace-talks-to-end-iran-war-collide-with-denials</link>
-      <description>Are diplomatic talks to end the Iran conflict actually happening? Trump hinted at “major” progress, but the White House downplayed it. Iran says no, Qatar says they're not involved, while there's increasing speculation that Pakistan could be the host of talks later this week. Yet all of this as Israel says it plans to push into Lebanon as far as the Litani River against Hezbollah, and will use a Gaza-style approach; which resulted in a humanitarian catastrophe. So where are we at? Are we witness</description>
+      <description>Are diplomatic talks to end the Iran conflict actually happening? Donald Trump has hinted at &quot;major&quot; progress, but the White House downplayed this. Iran says no, Qatar says they're not involved, while there's increasing speculation that Pakistan could be the host of talks later this week. Yet all of this comes as Israel says it plans to push into Lebanon as far as the Litani River against Hezbollah and will use a Gaza-style approach, which resulted in a humanitarian catastrophe. So where are we</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-24T19:15:47+00:00</cluster_time>
@@ -1553,16 +1363,6 @@ Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight<
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-24T18:29:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>War on Iran: 'Fought on faulty assumptions, notion of externally delivered regime change delusional'</title>
-      <link>https://www.france24.com/en/war-on-iran-fought-on-faulty-assumptions-notion-of-externally-delivered-regime-change-delusional</link>
-      <description>Carys Garland is pleased to welcome Barbara Slavin, Author and Distinguished Fellow at the Stimson Center. According to Slavin, the war on Iran is not a coherent strategic endeavour, and reflects a pattern in which rhetoric trumps reality. Rather than emerging from necessity, diplomatic alternatives were dismissed and intelligence warnings inadequately considered. Slavin warns military actions have strengthened hardline elements within the Iranian regime and has destabilised the global economy.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T18:13:14+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1593,16 +1393,6 @@ Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight<
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-24T17:43:19+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>French economic growth undercut by war in Iran, national statistics office says</title>
-      <link>https://www.france24.com/en/france/20260324-french-economic-growth-undercut-by-war-in-iran-national-statistics-office-says</link>
-      <description>The French economy will grow by only 0.2% in the first half of the year instead of the 0.3% forecast, the Insee national statistics agency said Tuesday, citing higher inflation linked to the war in Iran. Inflation will surpass 2% in coming months, rising sharply from the 1.1% rate seen in February.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T17:42:59+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1711,46 +1501,6 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US university cancels Mahama honour over LGBTQ bill concerns</title>
-      <link>http://www.africanews.com/2026/03/24/us-university-cancels-mahama-honour-over-lgbtq-bill-concerns/</link>
-      <description>Ghana’s embassy in the United States has criticised Lincoln University's last-minute decision to cancel plans to confer an honorary doctorate on former President John Dramani Mahama.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T15:46:11+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Rama Valayden exprime son soutien à Paul Bérenger</title>
-      <link>https://ionnews.mu/rama-valayden-exprime-son-soutien-a-paul-berenger/</link>
-      <description>Le président du Port-Louis Harbour and Docks Workers Union, Rama Valayden, a exprimé son soutien à Paul à travers une lettre, évoquant une « trahison » de la part de personnes proches. Dans ce message, il affirme que cette épreuve, bien que difficile, ne remet pas en cause les valeurs, l’intégrité et le parcours de l’intéressé. Il insiste également sur le fait que ce type de situation reflète davantage les failles de ceux qui en sont à l’origine. Rama Valayden souligne par ailleurs l’engagement</description>
-      <source>ION News</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T15:46:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Central Africa: UAE and CEMAC - A Gradually Expanding Economic Partnership</title>
-      <link>https://allafrica.com/stories/202603240488.html</link>
-      <description>[InfoWire] For decades, the member states of the Central African Economic and Monetary Community (CEMAC) have maintained close economic and diplomatic ties with partners such as France, China, the United States and the European Union. These relationships continue to structure the region's external engagement, particularly in infrastructure, finance, and trade. Yet shifts in the global political economy are gradually reshaping this landscape, with emerging actors expanding their presence across A</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T15:40:30+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Djibouti: Djibouti's New Horizon - President Guelleh Unveils $480 Million 'Salaam City'</title>
-      <link>https://allafrica.com/stories/202603240462.html</link>
-      <description>[Shabelle] Djibouti City -- H.E. Ismail Omar Guelleh, President of the Republic of Djibouti, on Monday launched a $480 million residential project dubbed &quot;Salaam City,&quot; as Djibouti steps up efforts to meet rising housing demand driven by rapid economic growth.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T15:30:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Senegal fishermen bear the cost of industrial and illegal fishing</title>
       <link>http://www.africanews.com/2026/03/24/senegal-fishermen-bear-the-cost-of-industrial-and-illegal-fishing/</link>
       <description>In the port town of Rufisque, fishermen who have worked in these waters for decades say industrial and illegal fleets have stripped the sea bare. With no catch and no income, young men are now making a desperate choice: to leave.</description>
@@ -1777,16 +1527,6 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-24T15:08:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PNQ – Inflation attendue à 6% : le conflit au Moyen-Orient pèse sur le pouvoir d’achat</title>
-      <link>https://www.lemauricien.com/actualites/societe/pnq-inflation-attendue-a-6-le-conflit-au-moyen-orient-pese-sur-le-pouvoir-dachat/702537/</link>
-      <description>Le ministre du Commerce et de la Protection des consommateurs, Michaël Sik Yuen, a répondu ce mardi à la Private Notice Question du leader de l’opposition, Joe Lesjongard, à l’Assemblée natio...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T14:11:50+04:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1831,22 +1571,22 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Chad begins relocation of refugees along its border with Sudan</title>
+      <link>http://www.africanews.com/2026/03/24/chad-begins-relocation-of-refugees-along-its-border-with-sudan/</link>
+      <description>The evacuations already began in Ennedi Est Province over the weekend, with the government targeting to relocate at least 2,300 refugees, mostly women and children.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T13:32:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Carburants : le PPC en réunion, une hausse des prix redoutée</title>
       <link>https://defimedia.info/carburants-le-ppc-en-reunion-une-hausse-des-prix-redoutee</link>
       <description>Les regards sont braqués sur le Petroleum Pricing Committee (PPC), qui se réunit cet après-midi. Une hausse des prix des</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-24T13:29:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Africa: No, Kenyan Health Minister Aden Duale Was Not Injured in Road Crash</title>
-      <link>https://allafrica.com/stories/202603240425.html</link>
-      <description>[Africa Check] No, Kenyan health minister Aden Duale was not injured in road crash</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T13:27:38+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1941,42 +1681,12 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>[PMQT] Vidéos de policiers agressés : Le Premier ministre annonce un durcissement de la loi</title>
-      <link>https://ionnews.mu/pmqt-videos-de-policiers-agresses-le-premier-ministre-annonce-un-durcissement-de-la-loi/</link>
-      <description>The post [PMQT] Vidéos de policiers agressés : Le Premier ministre annonce un durcissement de la loi appeared first on IONNEWS.</description>
-      <source>ION News</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T12:11:11+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Beaux Songes : Le cadavre d’un homme découvert</title>
       <link>https://www.lemauricien.com/actualites/faits-divers/beaux-songes-le-cadavre-dun-homme-decouvert/702605/</link>
       <description>Le corps sans vie d’un homme non identifié a été retrouvé ce mardi 24 mars à Beaux Songes. Le cadavre a été découvert à l’arrière d’un terrain de football. Selon les premiers éléments, la victime gisait sur le dos, sous un arbre, dans un état avancé de décomposition. Le corps a été transporté à la morgue […]</description>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-24T12:10:42+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya: Government Moves to Calm Fears Over Kenya's Unpreparedness to Host Afcon 2027</title>
-      <link>https://allafrica.com/stories/202603240360.html</link>
-      <description>[Capital FM] NAIROBI, Kenya, March 24, 2026 - Sports Cabinet Secretary Salim Mvurya says they are working overtime to pay the Ksh 3.9 billion required to host next year's Africa Cup of Nations (Afcon).</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T12:08:07+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Africa: Planning to Fail - Why South Africa Is Not Preventing Violence and Crime</title>
-      <link>https://allafrica.com/stories/202603240354.html</link>
-      <description>[ISS] For the past 16 years, South Africa's government has not planned for the prevention of violence, particularly interpersonal violent crime.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T12:05:16+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -2031,26 +1741,6 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Ghana: 70 Percent of Road Projects Under 'Big Push' to Be Ready End of 2027 - Minister</title>
-      <link>https://allafrica.com/stories/202603240281.html</link>
-      <description>[Ghanaian Times] SUNYANI -- The Minister of Roads and Highways, Mr. Kwame Governs Agbodza, has assured that by the end of 2027, about 70 per cent of road projects under the &quot;Big Push&quot; initiative will be completed nationwide.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T11:23:37+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nigeria: Iran War May Push Nigerians to Work From Home - Dangote</title>
-      <link>https://allafrica.com/stories/202603240271.html</link>
-      <description>[Vanguard] President of the Dangote Group, Aliko Dangote, has cautioned that the escalating tensions in the Middle East could push Nigeria and other African nations toward adopting pandemic-style work-from-home policies if the situation worsens.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T11:19:53+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>MOYEN-ORIENT — Missiles iraniens en direction de Diego : Maurice exprime ses vives inquiétudes</title>
       <link>https://www.lemauricien.com/actualites/societe/moyen-orient-missiles-iraniens-en-direction-de-diego-maurice-exprime-ses-vives-inquietudes/702600/</link>
       <description>Le gouvernement a exprimé ses vives inquiétudes à la suite de tirs de missiles balistiques en direction de l’archipel des Chagos, survenus dans la soirée du jeudi 19 et dans la matinée du vendredi 20 mars. C’est ce qui découle d’un communiqué officiel rendu public lundi soir, par le ministère des Affaires étrangères. Les autorités […]</description>
@@ -2101,16 +1791,6 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Nigeria: Brain Drain - Improve Remuneration, Fix Naira and Doctors Will Stay - - Prof Ebeigbe</title>
-      <link>https://allafrica.com/stories/202603240260.html</link>
-      <description>[Vanguard] Statistics from the Medical and Dental Council of Nigeria, MDCN, showed that in 2024, Nigeria registered about 4,900 new medical doctors and dental surgeons, while 4,200 requested certificates of good standing, a clear sign that many are preparing to practice abroad.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:57:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Kenya Airways sees surge in demand as Middle East conflict disrupts global travel</title>
       <link>http://www.africanews.com/2026/03/23/kenya-airways-sees-surge-in-demand-as-middle-east-conflict-disrupts-global-travel/</link>
       <description>Kenya Airways says bookings on its flights have surged sharply in recent weeks, as disruptions linked to the conflict in the Middle East reshape global travel patterns.</description>
@@ -2141,16 +1821,6 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Africa: WHO Recommends New Diagnostic Tools to Help End TB</title>
-      <link>https://allafrica.com/stories/202603240243.html</link>
-      <description>[WHO] On World TB Day, the World Health Organization (WHO) is urging countries to accelerate action to end tuberculosis (TB) and expand access to lifesaving services by using new innovations such as diagnostic tests that can be used near the point-of-care and tongue swabs that can help detect the disease faster, reaching more people.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:42:38+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Ukraine wants to import gas from Mozambique, Zelensky says</title>
       <link>http://www.africanews.com/2026/03/24/ukraine-wants-to-import-gas-from-mozambique-zelensky-says/</link>
       <description>After a meeting with his Mozambique counterpart on Monday, the Ukrainian president said Ukraine could help Mozambique counter “security challenges” in exchange for “additional energy supplies.”</description>
@@ -2161,152 +1831,12 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Nigeria: Boat Mishap - Nigerian Navy Rescues Seven Survivors in Bayelsa</title>
-      <link>https://allafrica.com/stories/202603240230.html</link>
-      <description>[This Day] Abuja -- The Nigerian Navy has rescued seven survivors following a boat mishap in the waterways of Bayelsa State, in a swift search and rescue operation aimed at saving lives after a collision.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:30:43+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Assemblée nationale : Joanna Bérenger et Chetan Baboolall absents</title>
       <link>https://defimedia.info/assemblee-nationale-joanna-berenger-et-chetan-baboolall-absents</link>
       <description>Les regards étaient braqués sur les travées de l’Assemblée nationale ce mardi. La raison : voir si Joanna Bérenger ou d’</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-24T10:29:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Africa: Chatunga Mugabe Back in Johannesburg Court</title>
-      <link>https://allafrica.com/stories/202603240225.html</link>
-      <description>[New Zimbabwe] Johannesburg -- The son of former Zimbabwean president Robert Mugabe, Bellarmine, is expected back in the dock on Tuesday.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:27:25+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Africa: How a Boy Born on World TB Day Helped Turn the Tide on South Africa's Deadliest TB</title>
-      <link>https://allafrica.com/stories/202603240224.html</link>
-      <description>[Bhekisisa] Norbert Ndjeka was born on World TB Day. Decades later, he would reshape how South Africa treats the deadliest forms of the disease.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:27:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Libya: Libya's $210m Investment in Sandton Yields Zero Benefits for the North African Nation's People</title>
-      <link>https://allafrica.com/stories/202603240218.html</link>
-      <description>[Daily Maverick] Libya's $210m investment in The Michelangelo Hotel and other properties in Sandton has yielded nothing for its people over two decades, due to mismanagement and ongoing legal battles.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:21:45+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Rwanda: Surrounded and Outnumbered - Why Resistance Failed During the Genocide</title>
-      <link>https://allafrica.com/stories/202603240216.html</link>
-      <description>[New Times] In executing the 1994 Genocide against the Tutsi in Rwanda, there was a well-articulated organization; without it, the massacres would not have reached devastating levels.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T10:19:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Lutte contre le blanchiment : coordination FIU–MRA–FCC, zones d’ombre sur les transactions automobiles</title>
-      <link>https://www.lemauricien.com/actualites/societe/lutte-contre-le-blanchiment-coordination-fiu-mra-fcc-zones-dombre-sur-les-transactions-automobiles/702590/</link>
-      <description>Les récentes saisies d’avoirs par la Financial Crimes Commission (FCC) et les interrogations sur l’efficacité du dispositif légal ont été évoquées lors des échanges à l’Assemblée nationale, ce mardi. Répondant à la Question du député de Rivière des Anguilles et Souillac Roshan jhummun, le Premier ministre le Dr Navin Ramgoolam a précisé les responsabilités de […]</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T10:16:08+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Sécurité alimentaire : le naufrage du Food Act 2022</title>
-      <link>https://defimedia.info/securite-alimentaire-le-naufrage-du-food-act-2022</link>
-      <description>Trois ans après son vote, la loi reste une coquille vide. Absence de feuille de route, agence dissoute et contrôles défa</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T10:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>UN warns of systematic abuse in Occupied Palestinian Territories</title>
-      <link>http://www.africanews.com/2026/03/24/un-warns-of-systematic-abuse-in-occupied-palestinian-territories/</link>
-      <description>The United Nations has raised serious concerns over conditions in the Palestinian territories occupied since 1967, with officials warning that abuse of Palestinians appears deliberate, widespread, and systematic.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:58:16+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Africa: How Climate Change is Quietly Reshaping Lung Health in South Africa</title>
-      <link>https://allafrica.com/stories/202603240201.html</link>
-      <description>[allAfrica] Johannesburg -- On any given day, breathing is automatic, an invisible rhythm sustaining life. But for millions of South Africans, every breath carries risk.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:55:10+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Central Africa: Journalists Urged to Promote Peace and Security in Great Lake Region</title>
-      <link>https://allafrica.com/stories/202603240199.html</link>
-      <description>[Nile Post] Journalists across the Great Lakes Region have been urged to play a more deliberate role in promoting peace and security through responsible and balanced reporting.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:53:19+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nigeria to spend $6.1 million on consultants for national fibre project</title>
-      <link>https://techcabal.com/2026/03/24/nigeria-commits-6-1m-to-consultants-for-bridge-fibre-rollout/</link>
-      <description>Nigeria will spend $6.1 million on seven consulting firms and five individual consultants to support the rollout of its national fibre expansion project</description>
-      <source>TechCabal</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:51:15+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>How TeamApt got inside Nigeria’s payment rails</title>
-      <link>https://techcabal.com/2026/03/24/how-teamapt-got-inside-nigerias-payment-rails/</link>
-      <description>When Tosin Eniolorunda brought Dennis Ajalie into TeamApt as a senior business development officer in 2018, the company was still building software for financial institutions.</description>
-      <source>TechCabal</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:40:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>KOKO Networks’ UK carbon arm hit $50.5 million revenue, then fell apart over a Kenyan permit</title>
-      <link>https://techcabal.com/2026/03/24/koko-networks-uk-carbon-arm-hit-50-5-million-revenue-then-fell-apart-over-a-kenyan-permit/</link>
-      <description>Accounts for KOKO Networks (UK) Ltd show turnover jumped to £39.8 million ($50.5 million) in 2024 from £1.8 million ($2.3 million) a year earlier.</description>
-      <source>TechCabal</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:32:55+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Économie bleue : des millions engagés, des résultats flous</title>
-      <link>https://defimedia.info/economie-bleue-des-millions-engages-des-resultats-flous</link>
-      <description>Allocations, subventions, projets pilotes, équipements... Le rapport de l’Audit met en lumière une même faille récurrent</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T09:30:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
