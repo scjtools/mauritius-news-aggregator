@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 167,
+  "item_count": 159,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-25T19:59:02.104546+00:00",
+      "cluster_time": "2026-03-25T23:53:22.295333+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 25 March 2026",
-      "summary": "Brent Crude Oil: USD 102.59 per barrel",
+      "summary": "Brent Crude Oil: USD 102.22 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-25T19:59:01.979512+00:00",
+      "cluster_time": "2026-03-25T23:53:22.134151+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 25 March 2026",
-      "summary": "Bitcoin (BTC): USD 70,871.99 (▲ +0.66% from last)",
+      "summary": "Bitcoin (BTC): USD 71,206.26 (▲ +1.14% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -33,11 +33,26 @@
       ]
     },
     {
+      "id": "singleton_ec58bd454756",
+      "cluster_time": "2026-03-25T23:53:21.814508+00:00",
+      "category": "finance",
+      "headline": "Gold price – 25 March 2026",
+      "summary": "Gold (XAU): USD 4,496.60 (▲ +2.45% from last)",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Gold Price"
+      ],
+      "urls": [
+        "https://api.gold-api.com/price/XAU"
+      ]
+    },
+    {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-03-25T19:59:01.479582+00:00",
+      "cluster_time": "2026-03-25T23:53:21.351218+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 25 March 2026",
-      "summary": "MUR/USD 46.48 | MUR/EUR 53.90 (▼ 0.01 from last) (▲ 0.21 from last)",
+      "summary": "MUR/USD 46.48 | MUR/EUR 53.88 (▼ 0.01 from last) (▲ 0.19 from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-25T19:58:59.066913+00:00",
+      "cluster_time": "2026-03-25T23:53:18.880850+00:00",
       "category": "finance",
       "headline": "SEMDEX – 25 March 2026",
       "summary": "SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)",
@@ -64,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-25T19:58:54.535471+00:00",
+      "cluster_time": "2026-03-25T23:53:14.480127+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 25 March 2026",
       "summary": "Weather news for Mauritius issued at 16h30 on Wednesday 25 March 2026.General situation:Few clouds coming from the East will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy tonight, becoming cloudy at times to the East and over the Central Plateau with occasional showers.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.After a few morning showers over the highgrounds tomorrow, the weather will mainly fair afterwards.However, cloud development are expected in the afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hiking, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :Tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1011 hectopascals.",
@@ -78,42 +93,156 @@
       ]
     },
     {
-      "id": "12b8dd17c801",
-      "cluster_time": "2026-03-25T19:38:00+00:00",
+      "id": "singleton_e949a319453d",
+      "cluster_time": "2026-03-25T23:10:47+00:00",
       "category": "global",
-      "headline": "Meta and YouTube found liable in landmark social media addiction trial",
-      "summary": "[BBC News] A woman has been awarded $3m in a verdict that could have implications for hundreds of other cases in the US.\n\n[France 24] A California jury found both Meta and YouTube liable for $3 million in damages in a landmark lawsuit that aimed to hold social media platforms responsible for harm to children using their services. The case, along with several others, has been randomly selected as a bellwether trial, meaning its outcome could impact how thousands of similar lawsuits filed against social media companies play out.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "France 24"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/americas/20260325-california-jury-finds-meta-youtube-liable-in-landmark-social-media-trial"
-      ]
-    },
-    {
-      "id": "8f253135f2c2",
-      "cluster_time": "2026-03-25T19:21:21+00:00",
-      "category": "global",
-      "headline": "Iran media casts doubt on US peace plan as strikes land across the Mideast",
-      "summary": "[France 24] State media in Iran said Wednesday that Tehran had rejected a US plan to end fighting, as the head of the United Nations warned that the Middle East war was spiralling out of control. In a first public acknowledgement of US efforts to discuss peace, state television cited an unidentified official as saying the war would end on Tehran's terms, shortly after Iran said it had fired a volley of cruise missiles at a US aircraft carrier. FRANCE 24's Carys Garland reports.\n\n[France 24] Iran on March 25 an American plan to pause the war in the Middle East, issuing its own counterproposal instead, as it launched more attacks on Israel and Gulf Arab countries. Its own plan includes a halt to killings of its officials, means to make sure no other war is waged against it, reparations for the war, the end of hostilities and Iran’s “exercise of sovereignty over the Strait of Hormuz.” FRANCE 24's Philip Turle takes a look.\n\n[France 24] Iranian state television’s English-language broadcaster quoted an anonymous official as saying Iran rejected America’s ceasefire proposal and has its own demands for an end to the fighting. FRANCE 24's Reza Sayah reports from Tehran. He explains that the Iranian leadership is \"being emboldened, gaining confidence that they have the upper hand, that they are exacting a cost against Israel and the United States\".",
-      "cluster_size": 3,
+      "headline": "Lukashenko greeted by Kim Jong Un on first visit to North Korea",
+      "summary": "Belarusian President Alexander Lukashenko made his first visit to North Korea on Wednesday, where he was warmly received by Kim Jong Un. The trip highlights growing ties between the two Moscow-aligned nations, both of which have supported Russia’s war in Ukraine, even as human rights abuses and Western sanctions continue to mount.",
+      "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "France 24"
       ],
       "urls": [
-        "https://www.france24.com/en/iran-media-casts-doubt-on-us-peace-plan-as-strikes-land-across-the-mideast",
-        "https://www.france24.com/en/iran-dismisses-us-15-point-peace-plan-issues-its-own-ceasefire-proposal",
-        "https://www.france24.com/en/iran-rejects-us-peace-plan-issues-its-own-demands"
+        "https://www.france24.com/en/asia-pacific/20260325-lukashenko-greeted-by-kim-jong-un-on-first-visit-to-north-korea"
+      ]
+    },
+    {
+      "id": "2b7142d938af",
+      "cluster_time": "2026-03-25T22:59:23+00:00",
+      "category": "global",
+      "headline": "Meta and YouTube found liable in landmark social media addiction trial",
+      "summary": "[BBC News] A woman has been awarded $6m in a verdict that could have implications for hundreds of other cases in the US.\n\n[France 24] A California jury found both Meta and YouTube liable for $3 million in damages in a landmark lawsuit that aimed to hold social media platforms responsible for harm to children using their services. The case, along with several others, has been randomly selected as a bellwether trial, meaning its outcome could impact how thousands of similar lawsuits filed against social media companies play out.\n\n[France 24] A California jury on Wednesday found Meta and YouTube liable for harming a young woman through the addictive design of their platforms, ordering them to pay $3 million and opening the door to potentially far larger punitive awards. FRANCE 24's Wassim Cornet reports from Los Angeles.\n\n[Al Jazeera] A California jury awarded the plaintiff $3m in damages in the case",
+      "cluster_size": 4,
+      "source_count": 3,
+      "sources": [
+        "BBC News",
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/americas/20260325-california-jury-finds-meta-youtube-liable-in-landmark-social-media-trial",
+        "https://www.france24.com/en/us-jury-finds-meta-youtube-liable-in-social-media-addiction-trial",
+        "https://www.aljazeera.com/economy/2026/3/25/us-jury-finds-meta-alphabet-liable-in-landmark-social-media-addiction-case?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_99e126444e28",
+      "cluster_time": "2026-03-25T22:53:15+00:00",
+      "category": "global",
+      "headline": "US ties Ukraine security guarantees to Donbas withdrawal, Zelensky says",
+      "summary": "Ukrainian President Volodomyr Zelensky said the US is conditioning post-war security guarantees on Kyiv ceding the Russian-occupied Donbas, as Washington pushes for a swift end to the war. Zelensky warned such terms would weaken Ukraine’s defences and embolden Moscow, amid uncertainty over future US support despite continued military aid.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/europe/20260325-us-ties-ukraine-security-guarantees-to-donbas-withdrawal"
+      ]
+    },
+    {
+      "id": "singleton_5db384b5df0f",
+      "cluster_time": "2026-03-25T22:28:38+00:00",
+      "category": "global",
+      "headline": "Mexico will continue accepting Cuban medical workers despite US pressure",
+      "summary": "Mexican President Claudia Sheinbaum praises services from Cuban doctors, who often work in underserved rural areas.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/25/mexico-will-continue-accepting-cuban-medical-workers-despite-us-pressure?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_264f313ac855",
+      "cluster_time": "2026-03-25T22:10:52+00:00",
+      "category": "global",
+      "headline": "France confirms oil crisis, says 30-40% Gulf energy infrastructure destroyed",
+      "summary": "A daily update on the latest business and economic news.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/france-confirms-oil-crisis-says-30-40-gulf-energy-infrastructure-destroyed"
+      ]
+    },
+    {
+      "id": "singleton_4851d9d6a7da",
+      "cluster_time": "2026-03-25T21:57:40+00:00",
+      "category": "global",
+      "headline": "Oil, stock trading spikes before Trump's Iran remarks spark insider trading suspicions",
+      "summary": "Thousands of oil contracts -- a far higher volume than normal -- were traded 15 minutes before Trump pledged to halt strikes on Iranian energy infrastructure, sending prices tumbling. Traders who bet on prices dropping ahead of the announcement would likely have profited from Trump's sudden reversal, prompting analysts to question whether some market participants had acted on prior information. FRANCE 24's Yinka Oyetade speaks with Meziane Lasfer, Professor of Finance at Bayes Business School, C",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/a-propos/20260325-oil-stock-trading-spikes-before-trump-s-iran-remarks-spark-insider-trading-suspicions"
+      ]
+    },
+    {
+      "id": "singleton_a11ad6cb43d8",
+      "cluster_time": "2026-03-25T21:38:13+00:00",
+      "category": "global",
+      "headline": "Lacking 'morals, values, or principles': Georgia government 'guided by Kremlin'",
+      "summary": "François Picard is pleased to welcome Tina Khidasheli, Jurist and former Minister of Defence of Georgia. According to Khidasheli, Georgia is suspended between its declared European future and an increasingly authoritarian present. While formally holding candidate status for European Union membership, the political reality has shifted toward systemic control, legal ambiguity, and the suppression of dissent. Legal instruments, particularly the foreign agents law, are designed not merely to regulat",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/spotlight/20260325-lacking-morals-values-or-principles-georgia-government-guided-by-kremlin"
+      ]
+    },
+    {
+      "id": "ed0bc255f1fa",
+      "cluster_time": "2026-03-25T21:35:53+00:00",
+      "category": "regional",
+      "headline": "UN votes to recognise enslavement of Africans as 'gravest crime against humanity'",
+      "summary": "[BBC Africa] The landmark resolution calls for an apology and contributions to a reparations fund, without specifying an amount.\n\n[France 24] In tonight's edition, the UN General Assembly designated the transatlantic African slave trade as \"the gravest crime against humanity,\" in a move advocates hailed as a step towards healing and possible reparations. Also, in a visit to top African trading partner Algeria, Italy's prime minister, Giorgia Meloni, said the two nations would work to increase deliveries of Algerian gas. And the conflict in the Middle East risks crippling Kenya's flower industry.\n\n[France 24] The UN General Assembly on Wednesday designated the transatlantic African slave trade as \"the gravest crime against humanity\" in a move advocates hailed as a step towards healing and possible reparations. The United States, Israel and Argentina opposed the measure while Britain and EU member states abstained.\n\n[Al Jazeera] Resolution on transatlantic slavery supported by 123 countries, while three opposed it - including the US and Israel.\n\n[Africanews] Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.\n\n[Africanews] The landmark resolution was an historic victory for Ghana which tabled the motion earlier this month.",
+      "cluster_size": 6,
+      "source_count": 4,
+      "sources": [
+        "BBC Africa",
+        "France 24",
+        "Al Jazeera",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/un-names-african-slave-trade-gravest-crime-against-humanity",
+        "https://www.france24.com/en/africa/20260325-un-calls-for-reparations-to-remedy-african-slave-trade-despite-european-and-us-opposition",
+        "https://www.aljazeera.com/news/2026/3/25/un-passes-resolution-naming-slave-trade-gravest-crime-against-humanity?traffic_source=rss",
+        "http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/",
+        "http://www.africanews.com/2026/03/25/un-declares-transatlantic-slave-trade-a-crime-against-humanity-demands-reparations/"
+      ]
+    },
+    {
+      "id": "singleton_7fa836f28585",
+      "cluster_time": "2026-03-25T21:07:42+00:00",
+      "category": "regional",
+      "headline": "Congolese rapper, Gims, arrested in Paris over alleged money laundering",
+      "summary": "Africa Intelligence is reporting that the singer, whose real name is Gandhi Djuna, was taken into custody at Roissy-Charles de Gaulle airport",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/25/congolese-rapper-gims-arrested-in-paris-over-alleged-money-laundering/"
       ]
     },
     {
       "id": "singleton_8d3c1d823304",
-      "cluster_time": "2026-03-25T19:14:19+00:00",
+      "cluster_time": "2026-03-25T21:06:26+00:00",
       "category": "global",
       "headline": "What are the US and Iran's proposals for peace?",
       "summary": "Trump says he is talking to \"the right people\" in Iran, but Tehran says no such negotiations are being held.",
@@ -124,6 +253,142 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cly9nz5vyz4o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_1fcd10bdb13e",
+      "cluster_time": "2026-03-25T20:51:52+00:00",
+      "category": "global",
+      "headline": "Barcelona hammer Real Madrid in Women’s Champions League quarterfinals",
+      "summary": "Defeated finalists last season, Barcelona have now gone 25 games unbeaten with latest win against fierce rivals.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/3/25/barcelona-hammer-real-madrid-in-womens-champions-league-quarterfinals?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_291bb1f4f091",
+      "cluster_time": "2026-03-25T20:51:50+00:00",
+      "category": "global",
+      "headline": "US investors bet big on Indian cricket with record billion-dollar IPL deals",
+      "summary": "Royal Challengers Bengaluru and Rajasthan Royals both sold within hours for two separate record-breaking deals.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/3/25/us-investors-bet-big-on-indian-cricket-with-record-billion-dollar-ipl-deals?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_156fec588796",
+      "cluster_time": "2026-03-25T20:47:04+00:00",
+      "category": "global",
+      "headline": "Four killed in latest US attack on alleged drug-smuggling boat in Caribbean",
+      "summary": "The Trump administration has argued that the deadly strike targeted members of a 'designated terrorist organisation'.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/25/four-killed-in-latest-us-attack-on-alleged-drug-smuggling-boat-in-caribbean?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_60f05025570e",
+      "cluster_time": "2026-03-25T20:36:51+00:00",
+      "category": "global",
+      "headline": "Benfica fined for fans’ racism at Real Madrid game with UEFA investigation",
+      "summary": "European football's governing body fines Portuguese club Benfica for racist abuse by its fans in Champions League game.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/3/25/benfica-fined-for-fans-racism-at-real-madrid-game-with-uefa-investigation?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_837f04e11979",
+      "cluster_time": "2026-03-25T20:30:37+00:00",
+      "category": "global",
+      "headline": "'Difficult of overemphasise how risky it would be for the US' to put boots on the ground: expert",
+      "summary": "The Pentagon is reportedly ⁠expected to send thousands of soldiers from ​the U.S. Army's elite 82nd Airborne Division to the Middle East, adding to a massive U.S. military buildup in view of potential ground operations. Christopher Featherstone, Associate Lecturer in the Department of Politics and International Relations at the University of York, says it is \"difficult to overemphasise just how risky this would be politically for the US\".",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/difficult-of-overemphasise-how-risky-it-would-be-for-the-us-to-put-boots-on-the-ground-expert"
+      ]
+    },
+    {
+      "id": "singleton_fe72de76d31e",
+      "cluster_time": "2026-03-25T20:20:16+00:00",
+      "category": "global",
+      "headline": "Trump to visit Xi Jinping in China on May 14 and 15 after Iran war delay",
+      "summary": "Press secretary Karoline Leavitt says Chinese President Xi Jinping will also visit US at a later date.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/25/trump-to-visit-xi-jinping-in-china-on-may-14-and-15-after-iran-war-delay?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_4aaba30a8d21",
+      "cluster_time": "2026-03-25T20:08:23+00:00",
+      "category": "global",
+      "headline": "Democrat alleges Trump ‘sold out’ US security in classified documents case",
+      "summary": "Representative Jamie Raskin alleged that a newly released memo shows that Trump mishandled highly sensitive documents.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/25/democrat-alleges-trump-sold-out-us-security-in-classified-documents-case?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_d72bf67c8cc5",
+      "cluster_time": "2026-03-25T19:42:21+00:00",
+      "category": "global",
+      "headline": "Israel 'concerned Trump could decide to end war unilaterally as soon as Saturday'",
+      "summary": "Reporting from Jerusalem, FRANCE 24's Noga Tarnopolsky says that there's \"genuine concern from the Israeli government that Donald Trump could unilaterally decide an end to this war as soon as Saturday\".",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/israel-concerned-trump-could-decide-to-end-war-unilaterally-as-soon-as-saturday"
+      ]
+    },
+    {
+      "id": "cd4d9806add8",
+      "cluster_time": "2026-03-25T19:21:21+00:00",
+      "category": "global",
+      "headline": "Iran media casts doubt on US peace plan as strikes land across the Mideast",
+      "summary": "[France 24] State media in Iran said Wednesday that Tehran had rejected a US plan to end fighting, as the head of the United Nations warned that the Middle East war was spiralling out of control. In a first public acknowledgement of US efforts to discuss peace, state television cited an unidentified official as saying the war would end on Tehran's terms, shortly after Iran said it had fired a volley of cruise missiles at a US aircraft carrier. FRANCE 24's Carys Garland reports.\n\n[France 24] Iranian state television’s English-language broadcaster quoted an anonymous official as saying Iran rejected America’s ceasefire proposal and has its own demands for an end to the fighting. FRANCE 24's Reza Sayah reports from Tehran. He explains that the Iranian leadership is \"being emboldened, gaining confidence that they have the upper hand, that they are exacting a cost against Israel and the United States\".",
+      "cluster_size": 2,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/iran-media-casts-doubt-on-us-peace-plan-as-strikes-land-across-the-mideast",
+        "https://www.france24.com/en/iran-rejects-us-peace-plan-issues-its-own-demands"
       ]
     },
     {
@@ -139,21 +404,6 @@
       ],
       "urls": [
         "https://www.france24.com/en/tv-shows/the-debate/20260325-trump-s-war-nato-s-problem-will-allies-help-secure-strait-of-hormuz"
-      ]
-    },
-    {
-      "id": "singleton_c4ce1a2a535d",
-      "cluster_time": "2026-03-25T18:55:28+00:00",
-      "category": "global",
-      "headline": "UN passes resolution naming slave trade ‘gravest crime against humanity’",
-      "summary": "Resolution on transatlantic slavery supported by 123 countries, while three opposed it - including the US and Israel.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/25/un-passes-resolution-naming-slave-trade-gravest-crime-against-humanity?traffic_source=rss"
       ]
     },
     {
@@ -262,21 +512,6 @@
       ]
     },
     {
-      "id": "singleton_b3afba03e085",
-      "cluster_time": "2026-03-25T17:51:27+00:00",
-      "category": "regional",
-      "headline": "UN votes to recognise slavery as 'gravest crime against humanity'",
-      "summary": "The landmark resolution calls for an apology and contributions to a reparations fund, without specifying an amount.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC Africa"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "id": "singleton_e819f350e65a",
       "cluster_time": "2026-03-25T17:49:47+00:00",
       "category": "global",
@@ -295,7 +530,7 @@
       "id": "singleton_516900dac616",
       "cluster_time": "2026-03-25T17:48:20+00:00",
       "category": "global",
-      "headline": "Governments move to shield consumers from soaring energy costs",
+      "headline": "Governments move to shield consumers from soaring energy costs due to Mideast war",
       "summary": "The closure of the Strait of Hormuz has rattled global markets, with oil prices up around 40 percent since the start of the US-Israeli war on Iran. Governments are now scrambling to shield ⁠consumers from soaring energy costs.",
       "cluster_size": 1,
       "source_count": 1,
@@ -397,21 +632,6 @@
       ]
     },
     {
-      "id": "singleton_ebc1816503e3",
-      "cluster_time": "2026-03-25T16:46:55+00:00",
-      "category": "global",
-      "headline": "NATO officer says allies must urgently rethink defence, prepare for 'new enemy'",
-      "summary": "A top NATO official on Wednesday urged allied countries to rethink how they ensure their defence. Pierre Vandier told a security and defence forum in Paris that many countries have yet to fully grasp the scale of the challenge, particularly when it comes to boosting weapons production, adding that it was not a question of money but of speed.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/europe/20260325-nato-officer-says-allies-must-urgently-rethink-defence-prepare-for-new-enemy"
-      ]
-    },
-    {
       "id": "singleton_629e36f15790",
       "cluster_time": "2026-03-25T16:38:03+00:00",
       "category": "global",
@@ -424,21 +644,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/ckgxzlny4w3o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_c3ed1e1837e3",
-      "cluster_time": "2026-03-25T16:34:21+00:00",
-      "category": "global",
-      "headline": "Where do French parties stand a year before the presidential election?",
-      "summary": "With local elections done and dusted, France is pivoting towards electing a president to replace Emmanuel Macron in 2027. The local elections have revealed that the political landscape is fragmented, and that party alliances have reshaped. On the left, the socialist party is in turmoil over an alliance with the radical left party France Unbowed. On the right, the question is whether to move toward the centre of further shift right, towards the far-right party National Rally. FRANCE 24's Clovis C",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/where-do-french-parties-stand-a-year-before-the-presidential-election"
       ]
     },
     {
@@ -457,111 +662,6 @@
       ]
     },
     {
-      "id": "singleton_14f1b73da896",
-      "cluster_time": "2026-03-25T16:32:37+00:00",
-      "category": "global",
-      "headline": "Ex-EU border chief faces French investigation for crimes against humanity",
-      "summary": "The Paris Court of Appeal opened an investigation into the former head of the EU Border agency on March 24 for potentially participating in crimes against humanity. The former border chief, Fabrice Leggeri resigned in 2022 following allegations of mistreatment of migrants at EU borders. Now a lawmaker for France's far-right National Rally party, he denies the allegations.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/ex-eu-border-chief-faces-french-investigation-for-crimes-against-humanity"
-      ]
-    },
-    {
-      "id": "singleton_efa6021f9c83",
-      "cluster_time": "2026-03-25T16:26:57+00:00",
-      "category": "global",
-      "headline": "Denmark faces tough coalition talks following election",
-      "summary": "Prime Minister Mette Frederiksen handed in her government's resignation. The move comes after her three-party coalition suffered a large defeat in March 25's snap elections. Frederiksen faces tough coalition talks if she wants to remain PM. Since neither the left nor right leaning blocs won a majority in Denmark, Frederiksen's fate likely lies is in the hands of the centrist Moderate party of Lars Lugge Rasmussen, a foreign minister in her own government.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/denmark-faces-tough-coalition-talks-following-election"
-      ]
-    },
-    {
-      "id": "singleton_aaef461d35a3",
-      "cluster_time": "2026-03-25T16:25:30+00:00",
-      "category": "global",
-      "headline": "What it would take to end the Iran war",
-      "summary": "The termination of the US-Israeli war on Iran would require solid guarantees and a credible guarantor.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/3/25/what-it-would-take-to-end-the-iran-war?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_5124bd0dcba2",
-      "cluster_time": "2026-03-25T16:24:27+00:00",
-      "category": "global",
-      "headline": "Heritage sites in the Middle East under threat due to conflict",
-      "summary": "The Middle East war is having an impact on the region's heritage sites. Archaeological and Unesco heritage sites have been collateral damage in the war, on all sides. Unesco believes at least 6 heritage sites in the Middle East have been damaged, the Tyre site in Lebanon, four in Iran and the White City in Israel. In Iran, the historic city of isfahan and the Golestan palace in Tehran were also damaged.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/heritage-sites-in-the-middle-east-under-threat-due-to-conflict"
-      ]
-    },
-    {
-      "id": "singleton_566233fa0a38",
-      "cluster_time": "2026-03-25T16:19:45+00:00",
-      "category": "global",
-      "headline": "Which teams can still qualify for the World Cup, and when are the playoffs?",
-      "summary": "A breakdown of the intercontinental tournament that will determine two of last six teams to qualify for World Cup 2026.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/3/25/which-teams-can-still-qualify-for-the-world-cup-and-when-are-the-playoffs?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_542567106698",
-      "cluster_time": "2026-03-25T16:14:35+00:00",
-      "category": "global",
-      "headline": "Emblematic MeToo trial of Islamic scholar Tariq Ramadan awaits verdict",
-      "summary": "Tariq Ramadan, a well-known Swiss-Egyptian Islamic scholar, has been tried in absentia for the rape of three women in Paris, with the verdict to fall on March 25. The trial is one of the most emblematic of the MeToo movement in France. He has already been convicted in Switzerland, where he is currently hospitalised for multiple sclerosis - which his medical team judged made him unable to attend his trial in France. FRANCE 24's Angela Diffley looks at the details of the trial, and who the accused",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/emblematic-metoo-trial-of-islamic-scholar-tariq-ramadan-awaits-verdict"
-      ]
-    },
-    {
-      "id": "singleton_42069ba5b889",
-      "cluster_time": "2026-03-25T16:11:47+00:00",
-      "category": "global",
-      "headline": "Cancer nurse turned archbishop installed as first female Church of England leader",
-      "summary": "A former cancer nurse who became a priest at the age of 40 is to become archbishop of Canterbury, publicly celebrating her election as the first woman to lead the Church of England. Although she was nominated in January, the ceremony marks the symbolic start of her public ministry. Her appointment has been criticised by conservative voices in the Church, who continue to oppose the possibility for women to be priests at all. FRANCE 24's Bénédicte Paviot breaks it down for us.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/cancer-nurse-turned-archbishop-installed-as-first-female-church-of-england-leader"
-      ]
-    },
-    {
       "id": "singleton_aeceb6216bf2",
       "cluster_time": "2026-03-25T16:08:56+00:00",
       "category": "regional",
@@ -574,39 +674,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/25/in-search-of-gas-supplies-italian-prime-minister-meloni-visits-algiers/"
-      ]
-    },
-    {
-      "id": "74e4816f9b99",
-      "cluster_time": "2026-03-25T16:08:31+00:00",
-      "category": "global",
-      "headline": "Estonia and Latvia say territories hit by stray Ukrainian drones",
-      "summary": "[BBC News] The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.\n\n[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.\n\n[France 24] Stray Ukrainian drones hit Estonia and Latvia early on March 25, one of them slamming into a chimney at a power station. There were no reports of injuries in the incidents, and the drones were believed to be part of a wider Ukrainian attack on Russia targeting energy infrastructure. Latvia says these drone incursions could keep happening in the Baltic region.",
-      "cluster_size": 3,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "France 24"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&at_campaign=rss",
-        "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/ukrainian-drones-crash-in-estonia-and-latvia-raising-air-defence-concerns"
-      ]
-    },
-    {
-      "id": "singleton_f3638b97aad4",
-      "cluster_time": "2026-03-25T15:59:32+00:00",
-      "category": "global",
-      "headline": "War on Iran: What troops is the US moving to the Gulf?",
-      "summary": "Growing US military presence around Iran suggests shift from air campaign to potential ground operations.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/25/war-on-iran-what-troops-is-the-us-moving-to-the-gulf?traffic_source=rss"
       ]
     },
     {
@@ -625,51 +692,6 @@
       ]
     },
     {
-      "id": "singleton_fd7a0e02c693",
-      "cluster_time": "2026-03-25T15:28:45+00:00",
-      "category": "global",
-      "headline": "Once seeking de-escalation, Saudi Arabia now sees ‘no coexistence’ with hardline Iran",
-      "summary": "Nadia Massih is pleased to welcome Natasha Lindstaedt, Author, Professor of Government at the University of Essex. The unfolding conflict reveals a profound shift in Gulf strategic thinking, Professor Lindstaedt argues, driven less by ideological ambition than by accumulated insecurity. What began as a strong preference for de-escalation has gradually given way to a more hard-edged assessment of regional realities. The persistence of attacks, particularly on critical infrastructure, has reinforc",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/once-seeking-de-escalation-saudi-arabia-now-sees-no-coexistence-with-hardline-iran"
-      ]
-    },
-    {
-      "id": "singleton_f2784572976d",
-      "cluster_time": "2026-03-25T15:27:02+00:00",
-      "category": "global",
-      "headline": "French population overexposed to cadmium through food, health agency says",
-      "summary": "The French population is overexposed to cadmium through food sources, according to a comprehensive report published Wednesday by the national environmental health agency. Cadmium is a toxic metal that is ubiquitous in the environment and can contaminate soil, water and air.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/france/20260325-french-population-overexposed-to-cadmium-though-food-health-agency-says"
-      ]
-    },
-    {
-      "id": "singleton_cb082324ee6c",
-      "cluster_time": "2026-03-25T15:23:51+00:00",
-      "category": "global",
-      "headline": "US goals shift: 'At the beginning of the Iran war, the US and Israel were on the same page'",
-      "summary": "Genie Godula is pleased to welcome Dr H. A. Hellyer, Senior Associate Fellow at the Royal United Services Institute (RUSI) for Defence and International Security Studies in London. He examines the evolving dynamics between Washington and Tel Aviv in the context of the war on Iran, alongside Israel’s expanding military posture in Lebanon. The central observation is that while initial strategic alignment existed, divergence has emerged, not necessarily in ultimate objectives, but in coherence, mes",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/us-goals-shift-at-the-beginning-of-the-iran-war-the-us-and-israel-were-on-the-same-page"
-      ]
-    },
-    {
       "id": "singleton_f20cabc88f67",
       "cluster_time": "2026-03-25T15:23:08+00:00",
       "category": "regional",
@@ -685,35 +707,18 @@
       ]
     },
     {
-      "id": "singleton_941fb5b77fd2",
-      "cluster_time": "2026-03-25T15:11:36+00:00",
-      "category": "global",
-      "headline": "Iran calls US proposal to end war ‘maximalist, unreasonable’",
-      "summary": "Diplomatic source tells Al Jazeera that Tehran is dismissing the 15-point plan from Washington as unworkable.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/25/iran-calls-us-proposal-to-end-war-maximalist-unreasonable?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "41c7148a1842",
+      "id": "singleton_cd8dea64a07c",
       "cluster_time": "2026-03-25T15:07:13+00:00",
       "category": "global",
       "headline": "Democrats flip Florida state seat that includes Trump's Mar-a-Lago home",
-      "summary": "[BBC News] Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.\n\n[Al Jazeera] Emily Gregory's victory in the previously GOP-held district is the latest Democratic upset before November midterms.",
-      "cluster_size": 2,
-      "source_count": 2,
+      "summary": "Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "BBC News",
-        "Al Jazeera"
+        "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/3/25/democrat-captures-florida-house-seat-in-trumps-mar-a-lago-district?traffic_source=rss"
+        "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -759,36 +764,6 @@
       ],
       "urls": [
         "https://www.bbc.com/sport/football/articles/c86ew5d52d9o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_967fd0955314",
-      "cluster_time": "2026-03-25T14:41:47+00:00",
-      "category": "global",
-      "headline": "Missiles overhead, silence below: Israel’s home front holds firm",
-      "summary": "Censorship and unity in the face of the Iranian threat combine to stifle dissent as Israel's war with Iran drags on.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/25/missiles-overhead-silence-below-israels-home-front-holds-firm?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_f53443c77a69",
-      "cluster_time": "2026-03-25T14:41:16+00:00",
-      "category": "global",
-      "headline": "Anthropic’s case against the Pentagon could open space for AI regulation",
-      "summary": "A California judge says US DoD may be 'attempting to cripple Anthropic' for pushing for restrictions on AI weapons.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/economy/2026/3/25/anthropics-case-against-the-pentagon-could-open-space-for-ai-regulation?traffic_source=rss"
       ]
     },
     {
@@ -854,21 +829,6 @@
       ]
     },
     {
-      "id": "singleton_0db42e3d86e3",
-      "cluster_time": "2026-03-25T14:24:11+00:00",
-      "category": "global",
-      "headline": "Hezbollah chief urges unity, no talks with Israel amid Lebanon attacks",
-      "summary": "Naim Qassem says negotiating with Israel 'under fire amounts to imposing surrender' on Lebanon.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/25/hezbollah-chief-urges-unity-no-talks-with-israel-amid-lebanon-attacks?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_de035cf78505",
       "cluster_time": "2026-03-25T14:16:00+00:00",
       "category": "local",
@@ -896,25 +856,6 @@
       ],
       "urls": [
         "https://defimedia.info/electricite-une-alerte-jaune-severe-declenchee-ce-matin"
-      ]
-    },
-    {
-      "id": "c2334971aa7b",
-      "cluster_time": "2026-03-25T13:44:24+00:00",
-      "category": "regional",
-      "headline": "Salah to leave Liverpool at end of season",
-      "summary": "[BBC Africa] The Egypt forward says Liverpool fans \"gave me the best time of my life\" and \"stood by me in the toughest times\".\n\n[Al Jazeera] With his time at Liverpool, and apparently the world's most elite league, coming to an end, what is left to drive Salah?\n\n[Africanews] Liverpool star Mohamed Salah announced Tuesday he will leave the English club at the end of the season, marking an earlier-than-planned departure for one of the club's greatest-ever scorers and soccer's biggest names.",
-      "cluster_size": 3,
-      "source_count": 3,
-      "sources": [
-        "BBC Africa",
-        "Al Jazeera",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/sports/2026/3/25/mohamed-salah-is-liverpool-exit-the-end-or-can-world-cup-spur-egypt-star?traffic_source=rss",
-        "http://www.africanews.com/2026/03/25/mo-salah-to-leave-liverpool-at-the-end-of-the-season/"
       ]
     },
     {
@@ -973,21 +914,6 @@
       ]
     },
     {
-      "id": "singleton_17e7954449c1",
-      "cluster_time": "2026-03-25T13:00:22+00:00",
-      "category": "global",
-      "headline": "Iranian attacks amount to violation of sovereignty, Gulf states tell UN",
-      "summary": "UN Human Rights Council passes resolution demanding end to Iran's 'unprovoked attacks' on countries in the Middle East.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/25/iranian-attacks-amount-to-violation-of-sovereignty-gulf-states-tell-un?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_311a35c47c44",
       "cluster_time": "2026-03-25T12:57:05+00:00",
       "category": "regional",
@@ -1030,6 +956,21 @@
       ],
       "urls": [
         "https://ionnews.mu/journee-mondiale-de-leau-legalite-des-genres-au-coeur-des-enjeux/"
+      ]
+    },
+    {
+      "id": "singleton_3b9227b7af99",
+      "cluster_time": "2026-03-25T12:42:14+00:00",
+      "category": "global",
+      "headline": "Estonia and Latvia say territories hit by stray Ukrainian drones",
+      "summary": "The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -1322,6 +1263,21 @@
       ]
     },
     {
+      "id": "singleton_a2f80851a34d",
+      "cluster_time": "2026-03-25T11:03:49+00:00",
+      "category": "regional",
+      "headline": "Mo Salah to leave Liverpool at the end of the season",
+      "summary": "Liverpool star Mohamed Salah announced Tuesday he will leave the English club at the end of the season, marking an earlier-than-planned departure for one of the club's greatest-ever scorers and soccer's biggest names.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/25/mo-salah-to-leave-liverpool-at-the-end-of-the-season/"
+      ]
+    },
+    {
       "id": "singleton_eb0cbc47c131",
       "cluster_time": "2026-03-25T11:00:00+00:00",
       "category": "local",
@@ -1349,21 +1305,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cdxd949dvqeo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_edd1cb60cb69",
-      "cluster_time": "2026-03-25T10:41:01+04:00",
-      "category": "local",
-      "headline": "Homme de terrain et artisan de plusieurs initiatives sociales et éducatives, Jean-Noël Adolphe s’est éteint",
-      "summary": "Nous avons appris le décès de Jean-Noël Adolphe, figure connue de l’engagement social, éducatif et spirituel à Maurice, dont le parcours aura marqué plusieurs générations à travers des proj...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/homme-de-terrain-et-artisan-de-plusieurs-initiatives-sociales-et-educatives-jean-noel-adolphe-sest-eteint/702644/"
       ]
     },
     {
@@ -2243,21 +2184,6 @@
       ]
     },
     {
-      "id": "singleton_c4b662e13276",
-      "cluster_time": "2026-03-25T07:09:56+00:00",
-      "category": "regional",
-      "headline": "Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity",
-      "summary": "Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/"
-      ]
-    },
-    {
       "id": "singleton_8d6f183f9aac",
       "cluster_time": "2026-03-25T07:06:59+00:00",
       "category": "local",
@@ -2270,6 +2196,21 @@
       ],
       "urls": [
         "https://newsmoris.com/130-annual-tuberculosis-cases-recorded-as-hospital-admissions-reach-104-patients/"
+      ]
+    },
+    {
+      "id": "singleton_edd1cb60cb69",
+      "cluster_time": "2026-03-25T06:41:00+00:00",
+      "category": "local",
+      "headline": "Homme de terrain et artisan de plusieurs initiatives sociales et éducatives, Jean-Noël Adolphe s’est éteint",
+      "summary": "Nous avons appris le décès de Jean-Noël Adolphe, figure connue de l’engagement social, éducatif et spirituel à Maurice, dont le parcours aura marqué plusieurs générations à travers des proj...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/societe/homme-de-terrain-et-artisan-de-plusieurs-initiatives-sociales-et-educatives-jean-noel-adolphe-sest-eteint/702644/"
       ]
     },
     {
@@ -2480,66 +2421,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cpwj8nxey7eo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_b437a72dc1e9",
-      "cluster_time": "2026-03-24T23:16:55+00:00",
-      "category": "global",
-      "headline": "Meta told to pay $375m for misleading users over child safety",
-      "summary": "The owner of Instagram, Facebook and WhatsApp has been found liable by a court in New Mexico.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_44c8da52e619",
-      "cluster_time": "2026-03-24T20:34:20+00:00",
-      "category": "global",
-      "headline": "Pilots killed in LaGuardia plane crash named",
-      "summary": "Investigators released details from the final three minutes of cockpit and tower communications, which showed controllers cleared both the plane and a fire truck to cross the runway.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cz67jq0enwpo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_6c3cd0a0e50d",
-      "cluster_time": "2026-03-24T20:15:06+00:00",
-      "category": "regional",
-      "headline": "Second set of rare gorilla twins born in DR Congo reserve Goma, DR Congo",
-      "summary": "An endangered mountain gorilla has given birth to twins in the Virunga National Park in eastern Democratic Republic of Congo, whose remarkable biodiversity has long been threatened by the region's litany of conflicts.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/24/second-set-of-rare-gorilla-twins-born-in-dr-congo-reserve-goma-dr-congo/"
-      ]
-    },
-    {
-      "id": "singleton_bebf1a783e67",
-      "cluster_time": "2026-03-24T20:03:12+00:00",
-      "category": "regional",
-      "headline": "Ivory Coast cocoa producers suffer amid global price fall",
-      "summary": "Cocoa farmers in Ivory Coast are counting on losses from the reduced global prices.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/24/ivory-coast-cocoa-producers-suffer-amid-global-price-fall/"
       ]
     }
   ]

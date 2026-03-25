@@ -4,34 +4,44 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 25 Mar 2026 20:02:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 23:56:50 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 25 March 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 102.59 per barrel</description>
+      <description>Brent Crude Oil: USD 102.22 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-03-25T19:59:02.104546+00:00</cluster_time>
+      <cluster_time>2026-03-25T23:53:22.295333+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 25 March 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 70,871.99 (▲ +0.66% from last)</description>
+      <description>Bitcoin (BTC): USD 71,206.26 (▲ +1.14% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-03-25T19:59:01.979512+00:00</cluster_time>
+      <cluster_time>2026-03-25T23:53:22.134151+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,496.60 (▲ +2.45% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T23:53:21.814508+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>MUR exchange rates – 25 March 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.48 | MUR/EUR 53.90 (▼ 0.01 from last) (▲ 0.21 from last)</description>
+      <description>MUR/USD 46.48 | MUR/EUR 53.88 (▼ 0.01 from last) (▲ 0.19 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-03-25T19:59:01.479582+00:00</cluster_time>
+      <cluster_time>2026-03-25T23:53:21.351218+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -41,7 +51,7 @@
       <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-03-25T19:58:59.066913+00:00</cluster_time>
+      <cluster_time>2026-03-25T23:53:18.880850+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,52 +61,146 @@
       <description>Weather news for Mauritius issued at 16h30 on Wednesday 25 March 2026.General situation:Few clouds coming from the East will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy tonight, becoming cloudy at times to the East and over the Central Plateau with occasional showers.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.After a few morning showers over the highgrounds tomorrow, the weather will mainly fair afterwards.However, cloud development are expected in the afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hiking, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :Tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1011 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-03-25T19:58:54.535471+00:00</cluster_time>
+      <cluster_time>2026-03-25T23:53:14.480127+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Lukashenko greeted by Kim Jong Un on first visit to North Korea</title>
+      <link>https://www.france24.com/en/asia-pacific/20260325-lukashenko-greeted-by-kim-jong-un-on-first-visit-to-north-korea</link>
+      <description>Belarusian President Alexander Lukashenko made his first visit to North Korea on Wednesday, where he was warmly received by Kim Jong Un. The trip highlights growing ties between the two Moscow-aligned nations, both of which have supported Russia’s war in Ukraine, even as human rights abuses and Western sanctions continue to mount.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T23:10:47+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Meta and YouTube found liable in landmark social media addiction trial</title>
       <link>https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] A woman has been awarded $3m in a verdict that could have implications for hundreds of other cases in the US.
+      <description>[BBC News] A woman has been awarded $6m in a verdict that could have implications for hundreds of other cases in the US.
 
-[France 24] A California jury found both Meta and YouTube liable for $3 million in damages in a landmark lawsuit that aimed to hold social media platforms responsible for harm to children using their services. The case, along with several others, has been randomly selected as a bellwether trial, meaning its outcome could impact how thousands of similar lawsuits filed against social media companies play out.</description>
+[France 24] A California jury found both Meta and YouTube liable for $3 million in damages in a landmark lawsuit that aimed to hold social media platforms responsible for harm to children using their services. The case, along with several others, has been randomly selected as a bellwether trial, meaning its outcome could impact how thousands of similar lawsuits filed against social media companies play out.
+
+[France 24] A California jury on Wednesday found Meta and YouTube liable for harming a young woman through the addictive design of their platforms, ordering them to pay $3 million and opening the door to potentially far larger punitive awards. FRANCE 24's Wassim Cornet reports from Los Angeles.
+
+[Al Jazeera] A California jury awarded the plaintiff $3m in damages in the case</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-03-25T19:38:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>12b8dd17c801</cluster_id>
+      <cluster_time>2026-03-25T22:59:23+00:00</cluster_time>
+      <cluster_size>4</cluster_size>
+      <source_count>3</source_count>
+      <cluster_id>2b7142d938af</cluster_id>
       <sources>BBC News
-France 24</sources>
+France 24
+Al Jazeera</sources>
       <urls>https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/americas/20260325-california-jury-finds-meta-youtube-liable-in-landmark-social-media-trial</urls>
+https://www.france24.com/en/americas/20260325-california-jury-finds-meta-youtube-liable-in-landmark-social-media-trial
+https://www.france24.com/en/us-jury-finds-meta-youtube-liable-in-social-media-addiction-trial
+https://www.aljazeera.com/economy/2026/3/25/us-jury-finds-meta-alphabet-liable-in-landmark-social-media-addiction-case?traffic_source=rss</urls>
       <titles>Meta and YouTube found liable in landmark social media addiction trial
-California jury finds Meta, YouTube liable in landmark social media trial</titles>
+California jury finds Meta, YouTube liable in landmark social media trial
+US jury finds Meta, YouTube liable in social media addiction trial
+US jury finds Meta, Alphabet liable in landmark social media addiction case</titles>
       <languages>en</languages>
     </item>
     <item>
-      <title>Iran media casts doubt on US peace plan as strikes land across the Mideast</title>
-      <link>https://www.france24.com/en/iran-media-casts-doubt-on-us-peace-plan-as-strikes-land-across-the-mideast</link>
-      <description>[France 24] State media in Iran said Wednesday that Tehran had rejected a US plan to end fighting, as the head of the United Nations warned that the Middle East war was spiralling out of control. In a first public acknowledgement of US efforts to discuss peace, state television cited an unidentified official as saying the war would end on Tehran's terms, shortly after Iran said it had fired a volley of cruise missiles at a US aircraft carrier. FRANCE 24's Carys Garland reports.
-
-[France 24] Iran on March 25 an American plan to pause the war in the Middle East, issuing its own counterproposal instead, as it launched more attacks on Israel and Gulf Arab countries. Its own plan includes a halt to killings of its officials, means to make sure no other war is waged against it, reparations for the war, the end of hostilities and Iran’s “exercise of sovereignty over the Strait of Hormuz.” FRANCE 24's Philip Turle takes a look.
-
-[France 24] Iranian state television’s English-language broadcaster quoted an anonymous official as saying Iran rejected America’s ceasefire proposal and has its own demands for an end to the fighting. FRANCE 24's Reza Sayah reports from Tehran. He explains that the Iranian leadership is &quot;being emboldened, gaining confidence that they have the upper hand, that they are exacting a cost against Israel and the United States&quot;.</description>
+      <title>US ties Ukraine security guarantees to Donbas withdrawal, Zelensky says</title>
+      <link>https://www.france24.com/en/europe/20260325-us-ties-ukraine-security-guarantees-to-donbas-withdrawal</link>
+      <description>Ukrainian President Volodomyr Zelensky said the US is conditioning post-war security guarantees on Kyiv ceding the Russian-occupied Donbas, as Washington pushes for a swift end to the war. Zelensky warned such terms would weaken Ukraine’s defences and embolden Moscow, amid uncertainty over future US support despite continued military aid.</description>
       <source>France 24</source>
       <category>global</category>
-      <cluster_time>2026-03-25T19:21:21+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
+      <cluster_time>2026-03-25T22:53:15+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-      <cluster_id>8f253135f2c2</cluster_id>
-      <sources>France 24</sources>
-      <urls>https://www.france24.com/en/iran-media-casts-doubt-on-us-peace-plan-as-strikes-land-across-the-mideast
-https://www.france24.com/en/iran-dismisses-us-15-point-peace-plan-issues-its-own-ceasefire-proposal
-https://www.france24.com/en/iran-rejects-us-peace-plan-issues-its-own-demands</urls>
-      <titles>Iran media casts doubt on US peace plan as strikes land across the Mideast
-Iran 'dismisses' US 15-point peace plan, issues its own ceasefire proposal
-Iran rejects US peace plan, issues its own demands</titles>
+    </item>
+    <item>
+      <title>Mexico will continue accepting Cuban medical workers despite US pressure</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/mexico-will-continue-accepting-cuban-medical-workers-despite-us-pressure?traffic_source=rss</link>
+      <description>Mexican President Claudia Sheinbaum praises services from Cuban doctors, who often work in underserved rural areas.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T22:28:38+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>France confirms oil crisis, says 30-40% Gulf energy infrastructure destroyed</title>
+      <link>https://www.france24.com/en/france-confirms-oil-crisis-says-30-40-gulf-energy-infrastructure-destroyed</link>
+      <description>A daily update on the latest business and economic news.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T22:10:52+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Oil, stock trading spikes before Trump's Iran remarks spark insider trading suspicions</title>
+      <link>https://www.france24.com/en/tv-shows/a-propos/20260325-oil-stock-trading-spikes-before-trump-s-iran-remarks-spark-insider-trading-suspicions</link>
+      <description>Thousands of oil contracts -- a far higher volume than normal -- were traded 15 minutes before Trump pledged to halt strikes on Iranian energy infrastructure, sending prices tumbling. Traders who bet on prices dropping ahead of the announcement would likely have profited from Trump's sudden reversal, prompting analysts to question whether some market participants had acted on prior information. FRANCE 24's Yinka Oyetade speaks with Meziane Lasfer, Professor of Finance at Bayes Business School, C</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T21:57:40+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Lacking 'morals, values, or principles': Georgia government 'guided by Kremlin'</title>
+      <link>https://www.france24.com/en/tv-shows/spotlight/20260325-lacking-morals-values-or-principles-georgia-government-guided-by-kremlin</link>
+      <description>François Picard is pleased to welcome Tina Khidasheli, Jurist and former Minister of Defence of Georgia. According to Khidasheli, Georgia is suspended between its declared European future and an increasingly authoritarian present. While formally holding candidate status for European Union membership, the political reality has shifted toward systemic control, legal ambiguity, and the suppression of dissent. Legal instruments, particularly the foreign agents law, are designed not merely to regulat</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T21:38:13+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>UN votes to recognise enslavement of Africans as 'gravest crime against humanity'</title>
+      <link>https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] The landmark resolution calls for an apology and contributions to a reparations fund, without specifying an amount.
+
+[France 24] In tonight's edition, the UN General Assembly designated the transatlantic African slave trade as &quot;the gravest crime against humanity,&quot; in a move advocates hailed as a step towards healing and possible reparations. Also, in a visit to top African trading partner Algeria, Italy's prime minister, Giorgia Meloni, said the two nations would work to increase deliveries of Algerian gas. And the conflict in the Middle East risks crippling Kenya's flower industry.
+
+[France 24] The UN General Assembly on Wednesday designated the transatlantic African slave trade as &quot;the gravest crime against humanity&quot; in a move advocates hailed as a step towards healing and possible reparations. The United States, Israel and Argentina opposed the measure while Britain and EU member states abstained.
+
+[Al Jazeera] Resolution on transatlantic slavery supported by 123 countries, while three opposed it - including the US and Israel.
+
+[Africanews] Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.
+
+[Africanews] The landmark resolution was an historic victory for Ghana which tabled the motion earlier this month.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T21:35:53+00:00</cluster_time>
+      <cluster_size>6</cluster_size>
+      <source_count>4</source_count>
+      <cluster_id>ed0bc255f1fa</cluster_id>
+      <sources>BBC Africa
+France 24
+Al Jazeera
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/un-names-african-slave-trade-gravest-crime-against-humanity
+https://www.france24.com/en/africa/20260325-un-calls-for-reparations-to-remedy-african-slave-trade-despite-european-and-us-opposition
+https://www.aljazeera.com/news/2026/3/25/un-passes-resolution-naming-slave-trade-gravest-crime-against-humanity?traffic_source=rss
+http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/
+http://www.africanews.com/2026/03/25/un-declares-transatlantic-slave-trade-a-crime-against-humanity-demands-reparations/</urls>
+      <titles>UN votes to recognise enslavement of Africans as 'gravest crime against humanity'
+UN names African slave trade 'gravest crime against humanity'
+UN designates slave trade as ‘gravest crime against humanity’ despite US opposition
+UN passes resolution naming slave trade ‘gravest crime against humanity’
+Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity
+UN declares transatlantic slave trade a crime against humanity, demands reparations</titles>
       <languages>en</languages>
+    </item>
+    <item>
+      <title>Congolese rapper, Gims, arrested in Paris over alleged money laundering</title>
+      <link>http://www.africanews.com/2026/03/25/congolese-rapper-gims-arrested-in-paris-over-alleged-money-laundering/</link>
+      <description>Africa Intelligence is reporting that the singer, whose real name is Gandhi Djuna, was taken into custody at Roissy-Charles de Gaulle airport</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T21:07:42+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>What are the US and Iran's proposals for peace?</title>
@@ -104,9 +208,108 @@ Iran rejects US peace plan, issues its own demands</titles>
       <description>Trump says he is talking to &quot;the right people&quot; in Iran, but Tehran says no such negotiations are being held.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-03-25T19:14:19+00:00</cluster_time>
+      <cluster_time>2026-03-25T21:06:26+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Barcelona hammer Real Madrid in Women’s Champions League quarterfinals</title>
+      <link>https://www.aljazeera.com/sports/2026/3/25/barcelona-hammer-real-madrid-in-womens-champions-league-quarterfinals?traffic_source=rss</link>
+      <description>Defeated finalists last season, Barcelona have now gone 25 games unbeaten with latest win against fierce rivals.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T20:51:52+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US investors bet big on Indian cricket with record billion-dollar IPL deals</title>
+      <link>https://www.aljazeera.com/sports/2026/3/25/us-investors-bet-big-on-indian-cricket-with-record-billion-dollar-ipl-deals?traffic_source=rss</link>
+      <description>Royal Challengers Bengaluru and Rajasthan Royals both sold within hours for two separate record-breaking deals.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T20:51:50+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Four killed in latest US attack on alleged drug-smuggling boat in Caribbean</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/four-killed-in-latest-us-attack-on-alleged-drug-smuggling-boat-in-caribbean?traffic_source=rss</link>
+      <description>The Trump administration has argued that the deadly strike targeted members of a 'designated terrorist organisation'.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T20:47:04+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Benfica fined for fans’ racism at Real Madrid game with UEFA investigation</title>
+      <link>https://www.aljazeera.com/sports/2026/3/25/benfica-fined-for-fans-racism-at-real-madrid-game-with-uefa-investigation?traffic_source=rss</link>
+      <description>European football's governing body fines Portuguese club Benfica for racist abuse by its fans in Champions League game.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T20:36:51+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>'Difficult of overemphasise how risky it would be for the US' to put boots on the ground: expert</title>
+      <link>https://www.france24.com/en/difficult-of-overemphasise-how-risky-it-would-be-for-the-us-to-put-boots-on-the-ground-expert</link>
+      <description>The Pentagon is reportedly ⁠expected to send thousands of soldiers from ​the U.S. Army's elite 82nd Airborne Division to the Middle East, adding to a massive U.S. military buildup in view of potential ground operations. Christopher Featherstone, Associate Lecturer in the Department of Politics and International Relations at the University of York, says it is &quot;difficult to overemphasise just how risky this would be politically for the US&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T20:30:37+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump to visit Xi Jinping in China on May 14 and 15 after Iran war delay</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/trump-to-visit-xi-jinping-in-china-on-may-14-and-15-after-iran-war-delay?traffic_source=rss</link>
+      <description>Press secretary Karoline Leavitt says Chinese President Xi Jinping will also visit US at a later date.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T20:20:16+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Democrat alleges Trump ‘sold out’ US security in classified documents case</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/democrat-alleges-trump-sold-out-us-security-in-classified-documents-case?traffic_source=rss</link>
+      <description>Representative Jamie Raskin alleged that a newly released memo shows that Trump mishandled highly sensitive documents.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T20:08:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Israel 'concerned Trump could decide to end war unilaterally as soon as Saturday'</title>
+      <link>https://www.france24.com/en/israel-concerned-trump-could-decide-to-end-war-unilaterally-as-soon-as-saturday</link>
+      <description>Reporting from Jerusalem, FRANCE 24's Noga Tarnopolsky says that there's &quot;genuine concern from the Israeli government that Donald Trump could unilaterally decide an end to this war as soon as Saturday&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T19:42:21+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran media casts doubt on US peace plan as strikes land across the Mideast</title>
+      <link>https://www.france24.com/en/iran-media-casts-doubt-on-us-peace-plan-as-strikes-land-across-the-mideast</link>
+      <description>[France 24] State media in Iran said Wednesday that Tehran had rejected a US plan to end fighting, as the head of the United Nations warned that the Middle East war was spiralling out of control. In a first public acknowledgement of US efforts to discuss peace, state television cited an unidentified official as saying the war would end on Tehran's terms, shortly after Iran said it had fired a volley of cruise missiles at a US aircraft carrier. FRANCE 24's Carys Garland reports.
+
+[France 24] Iranian state television’s English-language broadcaster quoted an anonymous official as saying Iran rejected America’s ceasefire proposal and has its own demands for an end to the fighting. FRANCE 24's Reza Sayah reports from Tehran. He explains that the Iranian leadership is &quot;being emboldened, gaining confidence that they have the upper hand, that they are exacting a cost against Israel and the United States&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T19:21:21+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>1</source_count>
+      <cluster_id>cd4d9806add8</cluster_id>
+      <sources>France 24</sources>
+      <urls>https://www.france24.com/en/iran-media-casts-doubt-on-us-peace-plan-as-strikes-land-across-the-mideast
+https://www.france24.com/en/iran-rejects-us-peace-plan-issues-its-own-demands</urls>
+      <titles>Iran media casts doubt on US peace plan as strikes land across the Mideast
+Iran rejects US peace plan, issues its own demands</titles>
+      <languages>en</languages>
     </item>
     <item>
       <title>Trump's war, NATO's problem: Will allies help secure Strait of Hormuz?</title>
@@ -115,16 +318,6 @@ Iran rejects US peace plan, issues its own demands</titles>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-25T19:14:12+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>UN passes resolution naming slave trade ‘gravest crime against humanity’</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/un-passes-resolution-naming-slave-trade-gravest-crime-against-humanity?traffic_source=rss</link>
-      <description>Resolution on transatlantic slavery supported by 123 countries, while three opposed it - including the US and Israel.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T18:55:28+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -199,16 +392,6 @@ Iran rejects US peace plan, issues its own demands</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>UN votes to recognise slavery as 'gravest crime against humanity'</title>
-      <link>https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The landmark resolution calls for an apology and contributions to a reparations fund, without specifying an amount.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T17:51:27+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Palestine Action hunger strikers to sue prisons over alleged mistreatment</title>
       <link>https://www.aljazeera.com/news/2026/3/25/palestine-action-hunger-strikers-to-sue-prisons-over-alleged-mistreatment?traffic_source=rss</link>
       <description>Activists plan to take legal action against the UK prisons that allegedly mistreated them.</description>
@@ -219,7 +402,7 @@ Iran rejects US peace plan, issues its own demands</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Governments move to shield consumers from soaring energy costs</title>
+      <title>Governments move to shield consumers from soaring energy costs due to Mideast war</title>
       <link>https://www.france24.com/en/economy/20260325-governments-move-to-shield-consumers-from-soaring-energy-costs</link>
       <description>The closure of the Strait of Hormuz has rattled global markets, with oil prices up around 40 percent since the start of the US-Israeli war on Iran. Governments are now scrambling to shield ⁠consumers from soaring energy costs.</description>
       <source>France 24</source>
@@ -289,32 +472,12 @@ Iran rejects US peace plan, issues its own demands</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>NATO officer says allies must urgently rethink defence, prepare for 'new enemy'</title>
-      <link>https://www.france24.com/en/europe/20260325-nato-officer-says-allies-must-urgently-rethink-defence-prepare-for-new-enemy</link>
-      <description>A top NATO official on Wednesday urged allied countries to rethink how they ensure their defence. Pierre Vandier told a security and defence forum in Paris that many countries have yet to fully grasp the scale of the challenge, particularly when it comes to boosting weapons production, adding that it was not a question of money but of speed.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:46:55+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>'We are in agony' - Savannah Guthrie does first interview since mum's disappearance</title>
       <link>https://www.bbc.com/news/articles/ckgxzlny4w3o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The US presenter says terrifying thoughts wake her at night as she imagines what happened.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-25T16:38:03+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Where do French parties stand a year before the presidential election?</title>
-      <link>https://www.france24.com/en/where-do-french-parties-stand-a-year-before-the-presidential-election</link>
-      <description>With local elections done and dusted, France is pivoting towards electing a president to replace Emmanuel Macron in 2027. The local elections have revealed that the political landscape is fragmented, and that party alliances have reshaped. On the left, the socialist party is in turmoil over an alliance with the radical left party France Unbowed. On the right, the question is whether to move toward the centre of further shift right, towards the far-right party National Rally. FRANCE 24's Clovis C</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:34:21+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -329,116 +492,12 @@ Iran rejects US peace plan, issues its own demands</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Ex-EU border chief faces French investigation for crimes against humanity</title>
-      <link>https://www.france24.com/en/ex-eu-border-chief-faces-french-investigation-for-crimes-against-humanity</link>
-      <description>The Paris Court of Appeal opened an investigation into the former head of the EU Border agency on March 24 for potentially participating in crimes against humanity. The former border chief, Fabrice Leggeri resigned in 2022 following allegations of mistreatment of migrants at EU borders. Now a lawmaker for France's far-right National Rally party, he denies the allegations.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:32:37+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Denmark faces tough coalition talks following election</title>
-      <link>https://www.france24.com/en/denmark-faces-tough-coalition-talks-following-election</link>
-      <description>Prime Minister Mette Frederiksen handed in her government's resignation. The move comes after her three-party coalition suffered a large defeat in March 25's snap elections. Frederiksen faces tough coalition talks if she wants to remain PM. Since neither the left nor right leaning blocs won a majority in Denmark, Frederiksen's fate likely lies is in the hands of the centrist Moderate party of Lars Lugge Rasmussen, a foreign minister in her own government.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:26:57+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>What it would take to end the Iran war</title>
-      <link>https://www.aljazeera.com/opinions/2026/3/25/what-it-would-take-to-end-the-iran-war?traffic_source=rss</link>
-      <description>The termination of the US-Israeli war on Iran would require solid guarantees and a credible guarantor.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:25:30+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Heritage sites in the Middle East under threat due to conflict</title>
-      <link>https://www.france24.com/en/heritage-sites-in-the-middle-east-under-threat-due-to-conflict</link>
-      <description>The Middle East war is having an impact on the region's heritage sites. Archaeological and Unesco heritage sites have been collateral damage in the war, on all sides. Unesco believes at least 6 heritage sites in the Middle East have been damaged, the Tyre site in Lebanon, four in Iran and the White City in Israel. In Iran, the historic city of isfahan and the Golestan palace in Tehran were also damaged.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:24:27+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Which teams can still qualify for the World Cup, and when are the playoffs?</title>
-      <link>https://www.aljazeera.com/sports/2026/3/25/which-teams-can-still-qualify-for-the-world-cup-and-when-are-the-playoffs?traffic_source=rss</link>
-      <description>A breakdown of the intercontinental tournament that will determine two of last six teams to qualify for World Cup 2026.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:19:45+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Emblematic MeToo trial of Islamic scholar Tariq Ramadan awaits verdict</title>
-      <link>https://www.france24.com/en/emblematic-metoo-trial-of-islamic-scholar-tariq-ramadan-awaits-verdict</link>
-      <description>Tariq Ramadan, a well-known Swiss-Egyptian Islamic scholar, has been tried in absentia for the rape of three women in Paris, with the verdict to fall on March 25. The trial is one of the most emblematic of the MeToo movement in France. He has already been convicted in Switzerland, where he is currently hospitalised for multiple sclerosis - which his medical team judged made him unable to attend his trial in France. FRANCE 24's Angela Diffley looks at the details of the trial, and who the accused</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:14:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Cancer nurse turned archbishop installed as first female Church of England leader</title>
-      <link>https://www.france24.com/en/cancer-nurse-turned-archbishop-installed-as-first-female-church-of-england-leader</link>
-      <description>A former cancer nurse who became a priest at the age of 40 is to become archbishop of Canterbury, publicly celebrating her election as the first woman to lead the Church of England. Although she was nominated in January, the ceremony marks the symbolic start of her public ministry. Her appointment has been criticised by conservative voices in the Church, who continue to oppose the possibility for women to be priests at all. FRANCE 24's Bénédicte Paviot breaks it down for us.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:11:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>In search of gas supplies: Italian Prime Minister Meloni visits Algiers</title>
       <link>http://www.africanews.com/2026/03/25/in-search-of-gas-supplies-italian-prime-minister-meloni-visits-algiers/</link>
       <description>Italy's Prime Minister Giorgia Meloni travelled to Algiers on Wednesday. It is her second visit to Algeria since taking office and Meloni comes with clear goals: more gas supplies and tighter relations.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-25T16:08:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Estonia and Latvia say territories hit by stray Ukrainian drones</title>
-      <link>https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.
-
-[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.
-
-[France 24] Stray Ukrainian drones hit Estonia and Latvia early on March 25, one of them slamming into a chimney at a power station. There were no reports of injuries in the incidents, and the drones were believed to be part of a wider Ukrainian attack on Russia targeting energy infrastructure. Latvia says these drone incursions could keep happening in the Baltic region.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:08:31+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>74e4816f9b99</cluster_id>
-      <sources>BBC News
-France 24</sources>
-      <urls>https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&amp;at_campaign=rss
-https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/ukrainian-drones-crash-in-estonia-and-latvia-raising-air-defence-concerns</urls>
-      <titles>Estonia and Latvia say territories hit by stray Ukrainian drones
-Russia launches 948 drones at Ukraine in largest attack over 24-hour period
-Ukrainian drones crash in Estonia and Latvia, raising air defence concerns</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>War on Iran: What troops is the US moving to the Gulf?</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/war-on-iran-what-troops-is-the-us-moving-to-the-gulf?traffic_source=rss</link>
-      <description>Growing US military presence around Iran suggests shift from air campaign to potential ground operations.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T15:59:32+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -453,36 +512,6 @@ Ukrainian drones crash in Estonia and Latvia, raising air defence concerns</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Once seeking de-escalation, Saudi Arabia now sees ‘no coexistence’ with hardline Iran</title>
-      <link>https://www.france24.com/en/once-seeking-de-escalation-saudi-arabia-now-sees-no-coexistence-with-hardline-iran</link>
-      <description>Nadia Massih is pleased to welcome Natasha Lindstaedt, Author, Professor of Government at the University of Essex. The unfolding conflict reveals a profound shift in Gulf strategic thinking, Professor Lindstaedt argues, driven less by ideological ambition than by accumulated insecurity. What began as a strong preference for de-escalation has gradually given way to a more hard-edged assessment of regional realities. The persistence of attacks, particularly on critical infrastructure, has reinforc</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T15:28:45+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>French population overexposed to cadmium through food, health agency says</title>
-      <link>https://www.france24.com/en/france/20260325-french-population-overexposed-to-cadmium-though-food-health-agency-says</link>
-      <description>The French population is overexposed to cadmium through food sources, according to a comprehensive report published Wednesday by the national environmental health agency. Cadmium is a toxic metal that is ubiquitous in the environment and can contaminate soil, water and air.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T15:27:02+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US goals shift: 'At the beginning of the Iran war, the US and Israel were on the same page'</title>
-      <link>https://www.france24.com/en/us-goals-shift-at-the-beginning-of-the-iran-war-the-us-and-israel-were-on-the-same-page</link>
-      <description>Genie Godula is pleased to welcome Dr H. A. Hellyer, Senior Associate Fellow at the Royal United Services Institute (RUSI) for Defence and International Security Studies in London. He examines the evolving dynamics between Washington and Tel Aviv in the context of the war on Iran, alongside Israel’s expanding military posture in Lebanon. The central observation is that while initial strategic alignment existed, divergence has emerged, not necessarily in ultimate objectives, but in coherence, mes</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T15:23:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Food security concerns mount as Iran war hurts fertilizer trade</title>
       <link>http://www.africanews.com/2026/03/25/food-security-concerns-mount-as-iran-war-hurts-fertilizer-trade/</link>
       <description>Countries like Sudan, Somalia, Tanzania, and Mozambique rely heavily on imported fertilizers - much of it coming through the Strait of Hormuz. At the same time, fertilizer use across the region is already among the lowest in the world</description>
@@ -493,34 +522,14 @@ Ukrainian drones crash in Estonia and Latvia, raising air defence concerns</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran calls US proposal to end war ‘maximalist, unreasonable’</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/iran-calls-us-proposal-to-end-war-maximalist-unreasonable?traffic_source=rss</link>
-      <description>Diplomatic source tells Al Jazeera that Tehran is dismissing the 15-point plan from Washington as unworkable.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T15:11:36+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Democrats flip Florida state seat that includes Trump's Mar-a-Lago home</title>
       <link>https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.
-
-[Al Jazeera] Emily Gregory's victory in the previously GOP-held district is the latest Democratic upset before November midterms.</description>
+      <description>Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-25T15:07:13+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>41c7148a1842</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/3/25/democrat-captures-florida-house-seat-in-trumps-mar-a-lago-district?traffic_source=rss</urls>
-      <titles>Democrats flip Florida state seat that includes Trump's Mar-a-Lago home
-Democrat captures Florida House seat in Trump’s Mar-a-Lago district</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Drogue interceptée à l’aéroport : la présumée mule française interpellée après plus de 24 heures de fuite</title>
@@ -549,26 +558,6 @@ Democrat captures Florida House seat in Trump’s Mar-a-Lago district</titles>
       <source>BBC Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-25T14:50:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Missiles overhead, silence below: Israel’s home front holds firm</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/missiles-overhead-silence-below-israels-home-front-holds-firm?traffic_source=rss</link>
-      <description>Censorship and unity in the face of the Iranian threat combine to stifle dissent as Israel's war with Iran drags on.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T14:41:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Anthropic’s case against the Pentagon could open space for AI regulation</title>
-      <link>https://www.aljazeera.com/economy/2026/3/25/anthropics-case-against-the-pentagon-could-open-space-for-ai-regulation?traffic_source=rss</link>
-      <description>A California judge says US DoD may be 'attempting to cripple Anthropic' for pushing for restrictions on AI weapons.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T14:41:16+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -623,16 +612,6 @@ Enquête de la FCC sur un trafic estimé à Rs 75,9 M : Steven Moothoocurpen et 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Hezbollah chief urges unity, no talks with Israel amid Lebanon attacks</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/hezbollah-chief-urges-unity-no-talks-with-israel-amid-lebanon-attacks?traffic_source=rss</link>
-      <description>Naim Qassem says negotiating with Israel 'under fire amounts to imposing surrender' on Lebanon.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T14:24:11+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Corps para-étatiques et autres institutions : Les démissions se poursuivent après le départ de Paul Bérenger</title>
       <link>https://defimedia.info/corps-para-etatiques-et-autres-institutions-les-demissions-se-poursuivent-apres-le-depart-de-paul</link>
       <description>Les démissions se succèdent au sein des corps para-étatiques et autres institutions après le départ de Paul Bérenger du</description>
@@ -651,31 +630,6 @@ Enquête de la FCC sur un trafic estimé à Rs 75,9 M : Steven Moothoocurpen et 
       <cluster_time>2026-03-25T13:47:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Salah to leave Liverpool at end of season</title>
-      <link>https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC Africa] The Egypt forward says Liverpool fans &quot;gave me the best time of my life&quot; and &quot;stood by me in the toughest times&quot;.
-
-[Al Jazeera] With his time at Liverpool, and apparently the world's most elite league, coming to an end, what is left to drive Salah?
-
-[Africanews] Liverpool star Mohamed Salah announced Tuesday he will leave the English club at the end of the season, marking an earlier-than-planned departure for one of the club's greatest-ever scorers and soccer's biggest names.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T13:44:24+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>c2334971aa7b</cluster_id>
-      <sources>BBC Africa
-Al Jazeera
-Africanews</sources>
-      <urls>https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/sports/2026/3/25/mohamed-salah-is-liverpool-exit-the-end-or-can-world-cup-spur-egypt-star?traffic_source=rss
-http://www.africanews.com/2026/03/25/mo-salah-to-leave-liverpool-at-the-end-of-the-season/</urls>
-      <titles>Salah to leave Liverpool at end of season
-Mohamed Salah: Is Liverpool exit the end? Can World Cup spur Egypt star?
-Mo Salah to leave Liverpool at the end of the season</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Hausse du prix du diesel : un effet domino redouté, selon Jayen Chellum</title>
@@ -747,16 +701,6 @@ Suivez en direct la conférence de presse de Paul Bérenger</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iranian attacks amount to violation of sovereignty, Gulf states tell UN</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/iranian-attacks-amount-to-violation-of-sovereignty-gulf-states-tell-un?traffic_source=rss</link>
-      <description>UN Human Rights Council passes resolution demanding end to Iran's 'unprovoked attacks' on countries in the Middle East.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T13:00:22+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Senegal denies secret €650M borrowing allegations</title>
       <link>http://www.africanews.com/2026/03/25/senegal-denies-secret-650m-borrowing-allegations/</link>
       <description>Debt-laden Senegal has denied a report in the Financial Times that it covertly borrowed 650 million euros ($754 million) to avoid a default, saying it acted in line with &quot;market transparency rules&quot;.</description>
@@ -783,6 +727,16 @@ Suivez en direct la conférence de presse de Paul Bérenger</titles>
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-03-25T12:42:38+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Estonia and Latvia say territories hit by stray Ukrainian drones</title>
+      <link>https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T12:42:14+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -998,6 +952,16 @@ Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Mo Salah to leave Liverpool at the end of the season</title>
+      <link>http://www.africanews.com/2026/03/25/mo-salah-to-leave-liverpool-at-the-end-of-the-season/</link>
+      <description>Liverpool star Mohamed Salah announced Tuesday he will leave the English club at the end of the season, marking an earlier-than-planned departure for one of the club's greatest-ever scorers and soccer's biggest names.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T11:03:49+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>PORT : Soutien de la PLHDWU  à Paul Bérenger</title>
       <link>https://www.lemauricien.com/actualites/societe/port-soutien-de-la-plhdwu-a-paul-berenger/702672/</link>
       <description>Le président du Port-Louis Harbour and Docks Workers Union (PLHDWU), Rama Valaydon, exprime sa solidarité envers l’ex-Deputy Prime Minister, Paul Bérenger, dans une lettre rendue publique. Il a...</description>
@@ -1014,16 +978,6 @@ Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-25T10:45:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Homme de terrain et artisan de plusieurs initiatives sociales et éducatives, Jean-Noël Adolphe s’est éteint</title>
-      <link>https://www.lemauricien.com/actualites/societe/homme-de-terrain-et-artisan-de-plusieurs-initiatives-sociales-et-educatives-jean-noel-adolphe-sest-eteint/702644/</link>
-      <description>Nous avons appris le décès de Jean-Noël Adolphe, figure connue de l’engagement social, éducatif et spirituel à Maurice, dont le parcours aura marqué plusieurs générations à travers des proj...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T10:41:01+04:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1636,22 +1590,22 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</title>
-      <link>http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/</link>
-      <description>Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T07:09:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>130 Annual Tuberculosis Cases Recorded As Hospital Admissions Reach 104 Patients</title>
       <link>https://newsmoris.com/130-annual-tuberculosis-cases-recorded-as-hospital-admissions-reach-104-patients/</link>
       <description>Health authorities in Mauritius are intensifying screening efforts as tuberculosis (TB) continues to be the leading cause of admission to the island’s respiratory wards, with approximately 130 new cases recorded annually. While the clinical situation has remained stable over the … The post 130 Annual Tuberculosis Cases Recorded As Hospital Admissions Reach 104 Patients appeared first on News Moris.</description>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-03-25T07:06:59+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Homme de terrain et artisan de plusieurs initiatives sociales et éducatives, Jean-Noël Adolphe s’est éteint</title>
+      <link>https://www.lemauricien.com/actualites/societe/homme-de-terrain-et-artisan-de-plusieurs-initiatives-sociales-et-educatives-jean-noel-adolphe-sest-eteint/702644/</link>
+      <description>Nous avons appris le décès de Jean-Noël Adolphe, figure connue de l’engagement social, éducatif et spirituel à Maurice, dont le parcours aura marqué plusieurs générations à travers des proj...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T06:41:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1792,46 +1746,6 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-25T00:42:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Meta told to pay $375m for misleading users over child safety</title>
-      <link>https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The owner of Instagram, Facebook and WhatsApp has been found liable by a court in New Mexico.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T23:16:55+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Pilots killed in LaGuardia plane crash named</title>
-      <link>https://www.bbc.com/news/articles/cz67jq0enwpo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Investigators released details from the final three minutes of cockpit and tower communications, which showed controllers cleared both the plane and a fire truck to cross the runway.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T20:34:20+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Second set of rare gorilla twins born in DR Congo reserve Goma, DR Congo</title>
-      <link>http://www.africanews.com/2026/03/24/second-set-of-rare-gorilla-twins-born-in-dr-congo-reserve-goma-dr-congo/</link>
-      <description>An endangered mountain gorilla has given birth to twins in the Virunga National Park in eastern Democratic Republic of Congo, whose remarkable biodiversity has long been threatened by the region's litany of conflicts.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T20:15:06+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Ivory Coast cocoa producers suffer amid global price fall</title>
-      <link>http://www.africanews.com/2026/03/24/ivory-coast-cocoa-producers-suffer-amid-global-price-fall/</link>
-      <description>Cocoa farmers in Ivory Coast are counting on losses from the reduced global prices.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T20:03:12+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
