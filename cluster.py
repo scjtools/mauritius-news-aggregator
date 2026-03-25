@@ -40,8 +40,8 @@ log = logging.getLogger(__name__)
 
 _MODEL_NAME = "all-MiniLM-L6-v2"
 _DEDUP_THRESHOLD = 0.92          # same article
-_CLUSTER_THRESHOLD = 0.76        # same-event clustering within same language
-_XLANG_CLUSTER_THRESHOLD = 0.70  # second-pass EN/FR merge on collapsed clusters
+_CLUSTER_THRESHOLD = 0.70        # same-event clustering within same language
+_XLANG_CLUSTER_THRESHOLD = 0.68  # second-pass EN/FR merge on collapsed clusters
 _SUMMARY_EMBED_CHARS = 500       # chars of summary to include in semantic text
 
 # ── Singleton model loader ───────────────────────────────────────────────────
@@ -124,24 +124,30 @@ def _clean_summary_text(text: str) -> str:
 
 def _semantic_text(item: dict) -> str:
     """
-    Semantic text for within-language clustering and dedup.
-    Uses normalised title + summary excerpt.
+    Semantic text for dedup and same-language clustering.
+
+    Important: embeddings work better on natural text than aggressively
+    normalised text, so we keep the original headline and a cleaned summary
+    excerpt. This gives the model more signal than summary-only text.
     """
-    title = _normalise(item.get("title", ""))
+    title = (item.get("title", "") or "").strip()
     summary = _clean_summary_text(item.get("summary", ""))
     if summary:
-        return f"{title} {summary[:_SUMMARY_EMBED_CHARS]}"
+        return f"{title}. {summary[:_SUMMARY_EMBED_CHARS]}"
     return title
 
 
 def _cross_language_semantic_text(item: dict) -> str:
     """
     Semantic text for second-pass cross-language cluster merge.
+
+    Keep the headline plus summary excerpt in natural text so EN/FR semantic
+    similarity has the best chance of firing.
     """
-    title = _normalise(item.get("title", ""))
+    title = (item.get("title", "") or "").strip()
     summary = _clean_summary_text(item.get("summary", ""))
     if summary:
-        return f"{title} {summary[:_SUMMARY_EMBED_CHARS]}"
+        return f"{title}. {summary[:_SUMMARY_EMBED_CHARS]}"
     return title
 
 
@@ -282,10 +288,13 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
     Pass 3 — exact normalised title
     Pass 4 — semantic similarity (same article, reworded title)
     """
+    start_count = len(items)
+
     url_groups: dict[str, list[dict]] = defaultdict(list)
     for item in items:
         url_groups[_canonical_url(item.get("url", ""))].append(item)
     deduped = [_best_item(g) for g in url_groups.values()]
+    after_url = len(deduped)
 
     seen: dict[str, dict] = {}
     for item in deduped:
@@ -295,6 +304,7 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
         else:
             seen[iid] = _best_item([seen[iid], item])
     deduped = list(seen.values())
+    after_id = len(deduped)
 
     title_groups: dict[tuple[str, str], list[dict]] = defaultdict(list)
     for item in deduped:
@@ -306,11 +316,20 @@ def deduplicate_items(items: list[dict]) -> list[dict]:
             title_groups[(lang, f"__blank__::{id(item)}")].append(item)
 
     deduped = [_best_item(g) for g in title_groups.values()]
+    after_title = len(deduped)
 
-    before = len(deduped)
+    before_semantic = len(deduped)
     deduped = _semantic_dedup(deduped)
-    removed = before - len(deduped)
-    log.info(f"[cluster] After semantic dedup: {len(deduped)} items ({removed} removed)")
+    after_semantic = len(deduped)
+
+    log.info(
+        "[cluster] Dedup passes: "
+        f"start={start_count} | "
+        f"url={after_url} (-{start_count - after_url}) | "
+        f"id={after_id} (-{after_url - after_id}) | "
+        f"title={after_title} (-{after_id - after_title}) | "
+        f"semantic={after_semantic} (-{before_semantic - after_semantic})"
+    )
     return deduped
 
 
