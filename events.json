@@ -1,8 +1,8 @@
 {
   "generated_from": "feed.json",
-  "event_count": 217,
+  "event_count": 218,
   "language_distribution": {
-    "fr": 49,
+    "fr": 50,
     "en": 168
   },
   "events": [
@@ -74,6 +74,149 @@
     {
       "event_id": "evt_0002",
       "source_item_ids": [
+        "singleton_0be9865b4dbe"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T10:18:49+01:00",
+      "category": "regional",
+      "event_type_guess": "economy",
+      "event_type_confidence": "keyword",
+      "language": "en",
+      "headline": "Kenya, China conclude trade agreement to deepen economic ties",
+      "headline_original": "",
+      "summary": "Kenya has finalised a trade deal with China, granting up to 98% of Kenyan exports duty-free access to the Chinese market",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [
+          "China"
+        ],
+        "products": []
+      },
+      "topics": [
+        "trade"
+      ],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "Business Insider Africa"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Kenya, China conclude trade agreement to deepen economic ties",
+          "source": "Business Insider Africa",
+          "url": "https://africa.businessinsider.com/local/markets/kenya-china-conclude-trade-agreement-to-deepen-economic-ties/1em5wf7",
+          "summary": "Kenya has finalised a trade deal with China, granting up to 98% of Kenyan exports duty-free access to the Chinese market",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 4,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [
+          "evt_0004",
+          "evt_0052",
+          "evt_0081",
+          "evt_0128",
+          "evt_0161",
+          "evt_0181"
+        ],
+        "shared_topics": [
+          "trade"
+        ],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "Kenya, China conclude trade agreement to deepen economic ties",
+        "lead_summary": "Kenya has finalised a trade deal with China, granting up to 98% of Kenyan exports duty-free access to the Chinese market",
+        "lead_source": "Business Insider Africa",
+        "lead_url": "https://africa.businessinsider.com/local/markets/kenya-china-conclude-trade-agreement-to-deepen-economic-ties/1em5wf7",
+        "titles": [
+          "Kenya, China conclude trade agreement to deepen economic ties"
+        ],
+        "sources": [
+          "Business Insider Africa"
+        ],
+        "urls": [
+          "https://africa.businessinsider.com/local/markets/kenya-china-conclude-trade-agreement-to-deepen-economic-ties/1em5wf7"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0003",
+      "source_item_ids": [
+        "singleton_ab5fa98c2ffb"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T09:55:42+01:00",
+      "category": "regional",
+      "event_type_guess": "international",
+      "event_type_confidence": "category_fallback",
+      "language": "en",
+      "headline": "Drone bases and defence hubs: How a Turkish investor is shaping DRCongo’s security future",
+      "headline_original": "",
+      "summary": "Drone bases, surveillance networks and forward-operating hubs are rapidly redefining security strategy in the Democratic Republic of the Congo, where a Turkish investor, Turhan Mildon is emerging as an unlikely architect of the country’s defence modernisation",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [],
+        "products": []
+      },
+      "topics": [],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "Business Insider Africa"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Drone bases and defence hubs: How a Turkish investor is shaping DRCongo’s security future",
+          "source": "Business Insider Africa",
+          "url": "https://africa.businessinsider.com/local/lifestyle/drone-bases-and-defence-hubs-how-a-turkish-investor-is-shaping-drcongos-security/d31ve36",
+          "summary": "Drone bases, surveillance networks and forward-operating hubs are rapidly redefining security strategy in the Democratic Republic of the Congo, where a Turkish investor, Turhan Mildon is emerging as an unlikely architect of the country’s defence modernisation",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 2,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [],
+        "shared_topics": [],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "Drone bases and defence hubs: How a Turkish investor is shaping DRCongo’s security future",
+        "lead_summary": "Drone bases, surveillance networks and forward-operating hubs are rapidly redefining security strategy in the Democratic Republic of the Congo, where a Turkish investor, Turhan Mildon is emerging as an unlikely architect of the country’s defence modernisation",
+        "lead_source": "Business Insider Africa",
+        "lead_url": "https://africa.businessinsider.com/local/lifestyle/drone-bases-and-defence-hubs-how-a-turkish-investor-is-shaping-drcongos-security/d31ve36",
+        "titles": [
+          "Drone bases and defence hubs: How a Turkish investor is shaping DRCongo’s security future"
+        ],
+        "sources": [
+          "Business Insider Africa"
+        ],
+        "urls": [
+          "https://africa.businessinsider.com/local/lifestyle/drone-bases-and-defence-hubs-how-a-turkish-investor-is-shaping-drcongos-security/d31ve36"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0004",
+      "source_item_ids": [
         "singleton_cd6b2fc96938"
       ],
       "candidate_kind": "news_event",
@@ -117,10 +260,12 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0044",
-          "evt_0073",
-          "evt_0121",
-          "evt_0175"
+          "evt_0002",
+          "evt_0052",
+          "evt_0081",
+          "evt_0128",
+          "evt_0161",
+          "evt_0181"
         ],
         "shared_topics": [
           "trade"
@@ -148,7 +293,7 @@
       }
     },
     {
-      "event_id": "evt_0003",
+      "event_id": "evt_0005",
       "source_item_ids": [
         "singleton_f4dc0c33bdf2"
       ],
@@ -160,7 +305,7 @@
       "language": "en",
       "headline": "Niger and Algeria continue to ease up on their cold war with fresh agreements",
       "headline_original": "",
-      "summary": "Niger and Algeria are deepening their strategic collaboration with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation",
+      "summary": "Niger and Algeria are deepening their strategic cooperation with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation",
       "summary_original": "",
       "key_entities": {
         "people": [],
@@ -182,7 +327,7 @@
           "title": "Niger and Algeria continue to ease up on their cold war with fresh agreements",
           "source": "Business Insider Africa",
           "url": "https://africa.businessinsider.com/local/markets/niger-and-algeria-continue-to-ease-up-on-their-cold-war-with-fresh-agreements/77v61wj",
-          "summary": "Niger and Algeria are deepening their strategic collaboration with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation",
+          "summary": "Niger and Algeria are deepening their strategic cooperation with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation",
           "language": "en"
         }
       ],
@@ -197,7 +342,7 @@
       "notes": "singleton",
       "evidence": {
         "lead_title": "Niger and Algeria continue to ease up on their cold war with fresh agreements",
-        "lead_summary": "Niger and Algeria are deepening their strategic collaboration with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation",
+        "lead_summary": "Niger and Algeria are deepening their strategic cooperation with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation",
         "lead_source": "Business Insider Africa",
         "lead_url": "https://africa.businessinsider.com/local/markets/niger-and-algeria-continue-to-ease-up-on-their-cold-war-with-fresh-agreements/77v61wj",
         "titles": [
@@ -215,236 +360,19 @@
       }
     },
     {
-      "event_id": "evt_0004",
-      "source_item_ids": [
-        "singleton_0078f6e0ee97"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-25T09:06:12+01:00",
-      "category": "regional",
-      "event_type_guess": "economy",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding",
-      "headline_original": "",
-      "summary": "Nigeria and Finland have signed a digital cooperation agreement as the EU rolls out a €23m initiative to boost public services and train tech talent in Africa’s largest economy",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [
-          "EU"
-        ],
-        "places": [
-          "Africa"
-        ],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "Business Insider Africa"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding",
-          "source": "Business Insider Africa",
-          "url": "https://africa.businessinsider.com/local/markets/nigeria-finland-sign-digital-economy-deal-as-eu-backs-tech-skills-push/qqvkbsh",
-          "summary": "Nigeria and Finland have signed a digital cooperation agreement as the EU rolls out a €23m initiative to boost public services and train tech talent in Africa’s largest economy",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 4,
-      "confidence": "medium",
-      "merge_hints": {
-        "related_event_ids": [
-          "evt_0118",
-          "evt_0121",
-          "evt_0125",
-          "evt_0146",
-          "evt_0175"
-        ],
-        "shared_topics": [],
-        "shared_entities": [
-          "EU"
-        ]
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding",
-        "lead_summary": "Nigeria and Finland have signed a digital cooperation agreement as the EU rolls out a €23m initiative to boost public services and train tech talent in Africa’s largest economy",
-        "lead_source": "Business Insider Africa",
-        "lead_url": "https://africa.businessinsider.com/local/markets/nigeria-finland-sign-digital-economy-deal-as-eu-backs-tech-skills-push/qqvkbsh",
-        "titles": [
-          "Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding"
-        ],
-        "sources": [
-          "Business Insider Africa"
-        ],
-        "urls": [
-          "https://africa.businessinsider.com/local/markets/nigeria-finland-sign-digital-economy-deal-as-eu-backs-tech-skills-push/qqvkbsh"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0005",
-      "source_item_ids": [
-        "singleton_1a4bc70d4177"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-25T08:50:11+01:00",
-      "category": "regional",
-      "event_type_guess": "health",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "Africa’s 10 most polluted nations: Insights from the World Air Quality report",
-      "headline_original": "",
-      "summary": "Air pollution continues to pose a major health and environmental challenge across Africa, with fine particulate matter, known as PM2",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [
-          "Africa"
-        ],
-        "products": []
-      },
-      "topics": [
-        "environment"
-      ],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "Business Insider Africa"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Africa’s 10 most polluted nations: Insights from the World Air Quality report",
-          "source": "Business Insider Africa",
-          "url": "https://africa.businessinsider.com/local/lifestyle/africas-10-most-polluted-nations-insights-from-the-world-air-quality-report/0hb8chm",
-          "summary": "Air pollution continues to pose a major health and environmental challenge across Africa, with fine particulate matter, known as PM2",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 4,
-      "confidence": "medium",
-      "merge_hints": {
-        "related_event_ids": [
-          "evt_0022",
-          "evt_0086",
-          "evt_0138"
-        ],
-        "shared_topics": [
-          "environment"
-        ],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "Africa’s 10 most polluted nations: Insights from the World Air Quality report",
-        "lead_summary": "Air pollution continues to pose a major health and environmental challenge across Africa, with fine particulate matter, known as PM2",
-        "lead_source": "Business Insider Africa",
-        "lead_url": "https://africa.businessinsider.com/local/lifestyle/africas-10-most-polluted-nations-insights-from-the-world-air-quality-report/0hb8chm",
-        "titles": [
-          "Africa’s 10 most polluted nations: Insights from the World Air Quality report"
-        ],
-        "sources": [
-          "Business Insider Africa"
-        ],
-        "urls": [
-          "https://africa.businessinsider.com/local/lifestyle/africas-10-most-polluted-nations-insights-from-the-world-air-quality-report/0hb8chm"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
       "event_id": "evt_0006",
-      "source_item_ids": [
-        "singleton_01237ecdedc2"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-25T08:46:52+01:00",
-      "category": "regional",
-      "event_type_guess": "business",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "Algeria clears $30million hurdle for Australian miner Terramin to advance $471million zinc project",
-      "headline_original": "",
-      "summary": "Australia’s Terramin has launched site works at Algeria’s Tala Hamza zinc project after a $30million land acquisition cleared delays, as the country seeks to boost mining and cut reliance on hydrocarbons",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "Business Insider Africa"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Algeria clears $30million hurdle for Australian miner Terramin to advance $471million zinc project",
-          "source": "Business Insider Africa",
-          "url": "https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30million-land/5dkbbrv",
-          "summary": "Australia’s Terramin has launched site works at Algeria’s Tala Hamza zinc project after a $30million land acquisition cleared delays, as the country seeks to boost mining and cut reliance on hydrocarbons",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 2,
-      "confidence": "medium",
-      "merge_hints": {
-        "related_event_ids": [],
-        "shared_topics": [],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "Algeria clears $30million hurdle for Australian miner Terramin to advance $471million zinc project",
-        "lead_summary": "Australia’s Terramin has launched site works at Algeria’s Tala Hamza zinc project after a $30million land acquisition cleared delays, as the country seeks to boost mining and cut reliance on hydrocarbons",
-        "lead_source": "Business Insider Africa",
-        "lead_url": "https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30million-land/5dkbbrv",
-        "titles": [
-          "Algeria clears $30million hurdle for Australian miner Terramin to advance $471million zinc project"
-        ],
-        "sources": [
-          "Business Insider Africa"
-        ],
-        "urls": [
-          "https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30million-land/5dkbbrv"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0007",
       "source_item_ids": [
         "singleton_075c9e6b0d6f"
       ],
       "candidate_kind": "data_record",
-      "cluster_time": "2026-03-25T08:44:37.826201+00:00",
+      "cluster_time": "2026-03-25T09:21:20.442620+00:00",
       "category": "finance",
       "event_type_guess": "data",
       "event_type_confidence": "source_match",
       "language": "en",
       "headline": "Brent Crude Oil price – 25 March 2026",
       "headline_original": "",
-      "summary": "Brent Crude Oil: USD 98.22 per barrel",
+      "summary": "Brent Crude Oil: USD 98.81 per barrel",
       "summary_original": "",
       "key_entities": {
         "people": [],
@@ -464,7 +392,7 @@
           "title": "Brent Crude Oil price – 25 March 2026",
           "source": "Brent Crude Oil",
           "url": "https://www.oilpriceapi.com",
-          "summary": "Brent Crude Oil: USD 98.22 per barrel",
+          "summary": "Brent Crude Oil: USD 98.81 per barrel",
           "language": "en"
         }
       ],
@@ -479,7 +407,7 @@
       "notes": "data record; not a narrative news story; singleton",
       "evidence": {
         "lead_title": "Brent Crude Oil price – 25 March 2026",
-        "lead_summary": "Brent Crude Oil: USD 98.22 per barrel",
+        "lead_summary": "Brent Crude Oil: USD 98.81 per barrel",
         "lead_source": "Brent Crude Oil",
         "lead_url": "https://www.oilpriceapi.com",
         "titles": [
@@ -497,19 +425,19 @@
       }
     },
     {
-      "event_id": "evt_0008",
+      "event_id": "evt_0007",
       "source_item_ids": [
         "singleton_df75dc1edb63"
       ],
       "candidate_kind": "data_record",
-      "cluster_time": "2026-03-25T08:44:37.737180+00:00",
+      "cluster_time": "2026-03-25T09:21:20.296748+00:00",
       "category": "finance",
       "event_type_guess": "data",
       "event_type_confidence": "source_match",
       "language": "en",
       "headline": "Bitcoin price – 25 March 2026",
       "headline_original": "",
-      "summary": "Bitcoin (BTC): USD 71,345.35 (▲ +1.33% from last)",
+      "summary": "Bitcoin (BTC): USD 71,344.86 (▲ +1.33% from last)",
       "summary_original": "",
       "key_entities": {
         "people": [],
@@ -529,7 +457,7 @@
           "title": "Bitcoin price – 25 March 2026",
           "source": "Bitcoin Price",
           "url": "https://api.gold-api.com/price/BTC",
-          "summary": "Bitcoin (BTC): USD 71,345.35 (▲ +1.33% from last)",
+          "summary": "Bitcoin (BTC): USD 71,344.86 (▲ +1.33% from last)",
           "language": "en"
         }
       ],
@@ -544,7 +472,7 @@
       "notes": "data record; not a narrative news story; singleton",
       "evidence": {
         "lead_title": "Bitcoin price – 25 March 2026",
-        "lead_summary": "Bitcoin (BTC): USD 71,345.35 (▲ +1.33% from last)",
+        "lead_summary": "Bitcoin (BTC): USD 71,344.86 (▲ +1.33% from last)",
         "lead_source": "Bitcoin Price",
         "lead_url": "https://api.gold-api.com/price/BTC",
         "titles": [
@@ -562,19 +490,19 @@
       }
     },
     {
-      "event_id": "evt_0009",
+      "event_id": "evt_0008",
       "source_item_ids": [
         "singleton_ec58bd454756"
       ],
       "candidate_kind": "data_record",
-      "cluster_time": "2026-03-25T08:44:37.332345+00:00",
+      "cluster_time": "2026-03-25T09:21:19.912703+00:00",
       "category": "finance",
       "event_type_guess": "data",
       "event_type_confidence": "source_match",
       "language": "en",
       "headline": "Gold price – 25 March 2026",
       "headline_original": "",
-      "summary": "Gold (XAU): USD 4,566.70 (▲ +4.04% from last)",
+      "summary": "Gold (XAU): USD 4,565.20 (▲ +4.01% from last)",
       "summary_original": "",
       "key_entities": {
         "people": [],
@@ -594,7 +522,7 @@
           "title": "Gold price – 25 March 2026",
           "source": "Gold Price",
           "url": "https://api.gold-api.com/price/XAU",
-          "summary": "Gold (XAU): USD 4,566.70 (▲ +4.04% from last)",
+          "summary": "Gold (XAU): USD 4,565.20 (▲ +4.01% from last)",
           "language": "en"
         }
       ],
@@ -609,7 +537,7 @@
       "notes": "data record; not a narrative news story; singleton",
       "evidence": {
         "lead_title": "Gold price – 25 March 2026",
-        "lead_summary": "Gold (XAU): USD 4,566.70 (▲ +4.04% from last)",
+        "lead_summary": "Gold (XAU): USD 4,565.20 (▲ +4.01% from last)",
         "lead_source": "Gold Price",
         "lead_url": "https://api.gold-api.com/price/XAU",
         "titles": [
@@ -627,12 +555,12 @@
       }
     },
     {
-      "event_id": "evt_0010",
+      "event_id": "evt_0009",
       "source_item_ids": [
         "singleton_f2d774f99b43"
       ],
       "candidate_kind": "data_record",
-      "cluster_time": "2026-03-25T08:44:36.971481+00:00",
+      "cluster_time": "2026-03-25T09:21:19.544474+00:00",
       "category": "finance",
       "event_type_guess": "data",
       "event_type_confidence": "source_match",
@@ -694,12 +622,12 @@
       }
     },
     {
-      "event_id": "evt_0011",
+      "event_id": "evt_0010",
       "source_item_ids": [
         "singleton_551ef72028ec"
       ],
       "candidate_kind": "data_record",
-      "cluster_time": "2026-03-25T08:44:34.498870+00:00",
+      "cluster_time": "2026-03-25T09:21:17.068631+00:00",
       "category": "finance",
       "event_type_guess": "data",
       "event_type_confidence": "source_match",
@@ -759,12 +687,12 @@
       }
     },
     {
-      "event_id": "evt_0012",
+      "event_id": "evt_0011",
       "source_item_ids": [
         "singleton_5474cbfe3ad8"
       ],
       "candidate_kind": "data_record",
-      "cluster_time": "2026-03-25T08:44:30.108031+00:00",
+      "cluster_time": "2026-03-25T09:21:12.590326+00:00",
       "category": "weather",
       "event_type_guess": "data",
       "event_type_confidence": "source_match",
@@ -826,7 +754,573 @@
       }
     },
     {
+      "event_id": "evt_0012",
+      "source_item_ids": [
+        "singleton_0078f6e0ee97"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T09:06:12+01:00",
+      "category": "regional",
+      "event_type_guess": "economy",
+      "event_type_confidence": "keyword",
+      "language": "en",
+      "headline": "Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding",
+      "headline_original": "",
+      "summary": "Nigeria and Finland have signed a digital cooperation agreement as the EU rolls out a €23m initiative to boost public services and train tech talent in Africa’s largest economy",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [
+          "EU"
+        ],
+        "places": [
+          "Africa"
+        ],
+        "products": []
+      },
+      "topics": [],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "Business Insider Africa"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding",
+          "source": "Business Insider Africa",
+          "url": "https://africa.businessinsider.com/local/markets/nigeria-finland-sign-digital-economy-deal-as-eu-backs-tech-skills-push/qqvkbsh",
+          "summary": "Nigeria and Finland have signed a digital cooperation agreement as the EU rolls out a €23m initiative to boost public services and train tech talent in Africa’s largest economy",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 4,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [
+          "evt_0125",
+          "evt_0128",
+          "evt_0132",
+          "evt_0152",
+          "evt_0181"
+        ],
+        "shared_topics": [],
+        "shared_entities": [
+          "EU"
+        ]
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding",
+        "lead_summary": "Nigeria and Finland have signed a digital cooperation agreement as the EU rolls out a €23m initiative to boost public services and train tech talent in Africa’s largest economy",
+        "lead_source": "Business Insider Africa",
+        "lead_url": "https://africa.businessinsider.com/local/markets/nigeria-finland-sign-digital-economy-deal-as-eu-backs-tech-skills-push/qqvkbsh",
+        "titles": [
+          "Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding"
+        ],
+        "sources": [
+          "Business Insider Africa"
+        ],
+        "urls": [
+          "https://africa.businessinsider.com/local/markets/nigeria-finland-sign-digital-economy-deal-as-eu-backs-tech-skills-push/qqvkbsh"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
       "event_id": "evt_0013",
+      "source_item_ids": [
+        "singleton_da0e96d0e93e"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T09:00:00+00:00",
+      "category": "local",
+      "event_type_guess": "politics",
+      "event_type_confidence": "keyword",
+      "language": "fr",
+      "headline": "Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s",
+      "headline_original": "Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s",
+      "summary": "Alors que la note souveraine de Maurice frôle la catégorie spéculative, le gouvernement affirme renforcer ses actions po",
+      "summary_original": "Alors que la note souveraine de Maurice frôle la catégorie spéculative, le gouvernement affirme renforcer ses actions po",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [],
+        "products": []
+      },
+      "topics": [],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "Defimedia"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s",
+          "source": "Defimedia",
+          "url": "https://defimedia.info/reponse-de-navin-ramgoolam-le-gm-fait-tout-pour-eviter-une-degradation-par-moodys",
+          "summary": "Alors que la note souveraine de Maurice frôle la catégorie spéculative, le gouvernement affirme renforcer ses actions po",
+          "language": "fr"
+        }
+      ],
+      "mauritius_relevance_guess": 8,
+      "editorial_priority_guess": 6,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [],
+        "shared_topics": [],
+        "shared_entities": []
+      },
+      "notes": "singleton; contains French; needs translation",
+      "evidence": {
+        "lead_title": "Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s",
+        "lead_summary": "Alors que la note souveraine de Maurice frôle la catégorie spéculative, le gouvernement affirme renforcer ses actions po",
+        "lead_source": "Defimedia",
+        "lead_url": "https://defimedia.info/reponse-de-navin-ramgoolam-le-gm-fait-tout-pour-eviter-une-degradation-par-moodys",
+        "titles": [
+          "Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s"
+        ],
+        "sources": [
+          "Defimedia"
+        ],
+        "urls": [
+          "https://defimedia.info/reponse-de-navin-ramgoolam-le-gm-fait-tout-pour-eviter-une-degradation-par-moodys"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0014",
+      "source_item_ids": [
+        "singleton_4d277fb9edff"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T09:00:00+00:00",
+      "category": "local",
+      "event_type_guess": "other",
+      "event_type_confidence": "none",
+      "language": "fr",
+      "headline": "ARSENAL – Journée internationale des forêts: Mise en terre de 300 arbres endémiques",
+      "headline_original": "ARSENAL – Journée internationale des forêts: Mise en terre de 300 arbres endémiques",
+      "summary": "À l’occasion de la Journée internationale des forêts, célébrée ce 21 mars, Mauritius Telecom, à travers son entité CSR, la Mauritius Telecom Foundation, a organisé en collaboratio...",
+      "summary_original": "À l’occasion de la Journée internationale des forêts, célébrée ce 21 mars, Mauritius Telecom, à travers son entité CSR, la Mauritius Telecom Foundation, a organisé en collaboratio...",
+      "key_entities": {
+        "people": [],
+        "organizations": [
+          "Mauritius Telecom"
+        ],
+        "places": [
+          "Mauritius"
+        ],
+        "products": []
+      },
+      "topics": [],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "Le Mauricien"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "ARSENAL – Journée internationale des forêts: Mise en terre de 300 arbres endémiques",
+          "source": "Le Mauricien",
+          "url": "https://www.lemauricien.com/actualites/societe/arsenal-journee-internationale-des-forets-mise-en-terre-de-300-arbres-endemiques/702667/",
+          "summary": "À l’occasion de la Journée internationale des forêts, célébrée ce 21 mars, Mauritius Telecom, à travers son entité CSR, la Mauritius Telecom Foundation, a organisé en collaboratio...",
+          "language": "fr"
+        }
+      ],
+      "mauritius_relevance_guess": 8,
+      "editorial_priority_guess": 4,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [],
+        "shared_topics": [],
+        "shared_entities": []
+      },
+      "notes": "singleton; contains French; needs translation",
+      "evidence": {
+        "lead_title": "ARSENAL – Journée internationale des forêts: Mise en terre de 300 arbres endémiques",
+        "lead_summary": "À l’occasion de la Journée internationale des forêts, célébrée ce 21 mars, Mauritius Telecom, à travers son entité CSR, la Mauritius Telecom Foundation, a organisé en collaboratio...",
+        "lead_source": "Le Mauricien",
+        "lead_url": "https://www.lemauricien.com/actualites/societe/arsenal-journee-internationale-des-forets-mise-en-terre-de-300-arbres-endemiques/702667/",
+        "titles": [
+          "ARSENAL – Journée internationale des forêts: Mise en terre de 300 arbres endémiques"
+        ],
+        "sources": [
+          "Le Mauricien"
+        ],
+        "urls": [
+          "https://www.lemauricien.com/actualites/societe/arsenal-journee-internationale-des-forets-mise-en-terre-de-300-arbres-endemiques/702667/"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0015",
+      "source_item_ids": [
+        "singleton_db4a98f26134"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T08:57:49+00:00",
+      "category": "regional",
+      "event_type_guess": "energy",
+      "event_type_confidence": "keyword",
+      "language": "en",
+      "headline": "A two hour wait for fuel: Kinshasa feels first effects of Middle East war",
+      "headline_original": "",
+      "summary": "Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortages and price hikes, as the capital of the Democratic Republic of Congo began to feel the effects of Iran's blockade of the Strait of Hormuz.",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [],
+        "products": []
+      },
+      "topics": [
+        "fuel prices",
+        "middle east"
+      ],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "Africanews"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "A two hour wait for fuel: Kinshasa feels first effects of Middle East war",
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/03/25/a-two-hour-wait-for-fuel-kinshasa-feels-first-effects-of-middle-east-war/",
+          "summary": "Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortages and price hikes, as the capital of the Democratic Republic of Congo began to feel the effects of Iran's blockade of the Strait of Hormuz.",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 4,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187"
+        ],
+        "shared_topics": [
+          "fuel prices"
+        ],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "A two hour wait for fuel: Kinshasa feels first effects of Middle East war",
+        "lead_summary": "Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortages and price hikes, as the capital of the Democratic Republic of Congo began to feel the effects of Iran's blockade of the Strait of Hormuz.",
+        "lead_source": "Africanews",
+        "lead_url": "http://www.africanews.com/2026/03/25/a-two-hour-wait-for-fuel-kinshasa-feels-first-effects-of-middle-east-war/",
+        "titles": [
+          "A two hour wait for fuel: Kinshasa feels first effects of Middle East war"
+        ],
+        "sources": [
+          "Africanews"
+        ],
+        "urls": [
+          "http://www.africanews.com/2026/03/25/a-two-hour-wait-for-fuel-kinshasa-feels-first-effects-of-middle-east-war/"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0016",
+      "source_item_ids": [
+        "singleton_ad9604f56ee1"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T08:55:52+00:00",
+      "category": "regional",
+      "event_type_guess": "crime",
+      "event_type_confidence": "keyword",
+      "language": "en",
+      "headline": "Kenya: Third Contingent of 208 Kenyan Police Returns From Haiti Mission",
+      "headline_original": "",
+      "summary": "[Capital FM] Nairobi -- A third group of 208 Kenyan police officers returned home Tuesday after completing their deployment in Haiti under the Multinational Security Support (MSS) Mission, the National Police Service (NPS) said.",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [],
+        "products": []
+      },
+      "topics": [],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "AllAfrica"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Kenya: Third Contingent of 208 Kenyan Police Returns From Haiti Mission",
+          "source": "AllAfrica",
+          "url": "https://allafrica.com/stories/202603250152.html",
+          "summary": "[Capital FM] Nairobi -- A third group of 208 Kenyan police officers returned home Tuesday after completing their deployment in Haiti under the Multinational Security Support (MSS) Mission, the National Police Service (NPS) said.",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 4,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [],
+        "shared_topics": [],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "Kenya: Third Contingent of 208 Kenyan Police Returns From Haiti Mission",
+        "lead_summary": "[Capital FM] Nairobi -- A third group of 208 Kenyan police officers returned home Tuesday after completing their deployment in Haiti under the Multinational Security Support (MSS) Mission, the National Police Service (NPS) said.",
+        "lead_source": "AllAfrica",
+        "lead_url": "https://allafrica.com/stories/202603250152.html",
+        "titles": [
+          "Kenya: Third Contingent of 208 Kenyan Police Returns From Haiti Mission"
+        ],
+        "sources": [
+          "AllAfrica"
+        ],
+        "urls": [
+          "https://allafrica.com/stories/202603250152.html"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0017",
+      "source_item_ids": [
+        "singleton_30f0398f57e8"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T08:55:52+00:00",
+      "category": "regional",
+      "event_type_guess": "international",
+      "event_type_confidence": "category_fallback",
+      "language": "en",
+      "headline": "South Africa: Well Over Three Million People in South Africa Develop Depression Every Year, Researchers Estimate",
+      "headline_original": "",
+      "summary": "[spotlight] Around 3.8 million people in South Africa developed depression in 2024, estimate leading local researchers in a major new modelling study.",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [
+          "South Africa",
+          "Africa"
+        ],
+        "products": []
+      },
+      "topics": [],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "AllAfrica"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "South Africa: Well Over Three Million People in South Africa Develop Depression Every Year, Researchers Estimate",
+          "source": "AllAfrica",
+          "url": "https://allafrica.com/stories/202603250153.html",
+          "summary": "[spotlight] Around 3.8 million people in South Africa developed depression in 2024, estimate leading local researchers in a major new modelling study.",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 2,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [],
+        "shared_topics": [],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "South Africa: Well Over Three Million People in South Africa Develop Depression Every Year, Researchers Estimate",
+        "lead_summary": "[spotlight] Around 3.8 million people in South Africa developed depression in 2024, estimate leading local researchers in a major new modelling study.",
+        "lead_source": "AllAfrica",
+        "lead_url": "https://allafrica.com/stories/202603250153.html",
+        "titles": [
+          "South Africa: Well Over Three Million People in South Africa Develop Depression Every Year, Researchers Estimate"
+        ],
+        "sources": [
+          "AllAfrica"
+        ],
+        "urls": [
+          "https://allafrica.com/stories/202603250153.html"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0018",
+      "source_item_ids": [
+        "singleton_1a4bc70d4177"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T08:50:11+01:00",
+      "category": "regional",
+      "event_type_guess": "health",
+      "event_type_confidence": "keyword",
+      "language": "en",
+      "headline": "Africa’s 10 most polluted nations: Insights from the World Air Quality report",
+      "headline_original": "",
+      "summary": "Air pollution continues to pose a major health and environmental challenge across Africa, with fine particulate matter, known as PM2",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [
+          "Africa"
+        ],
+        "products": []
+      },
+      "topics": [
+        "environment"
+      ],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "Business Insider Africa"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Africa’s 10 most polluted nations: Insights from the World Air Quality report",
+          "source": "Business Insider Africa",
+          "url": "https://africa.businessinsider.com/local/lifestyle/africas-10-most-polluted-nations-insights-from-the-world-air-quality-report/0hb8chm",
+          "summary": "Air pollution continues to pose a major health and environmental challenge across Africa, with fine particulate matter, known as PM2",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 4,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [
+          "evt_0030",
+          "evt_0094",
+          "evt_0144"
+        ],
+        "shared_topics": [
+          "environment"
+        ],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "Africa’s 10 most polluted nations: Insights from the World Air Quality report",
+        "lead_summary": "Air pollution continues to pose a major health and environmental challenge across Africa, with fine particulate matter, known as PM2",
+        "lead_source": "Business Insider Africa",
+        "lead_url": "https://africa.businessinsider.com/local/lifestyle/africas-10-most-polluted-nations-insights-from-the-world-air-quality-report/0hb8chm",
+        "titles": [
+          "Africa’s 10 most polluted nations: Insights from the World Air Quality report"
+        ],
+        "sources": [
+          "Business Insider Africa"
+        ],
+        "urls": [
+          "https://africa.businessinsider.com/local/lifestyle/africas-10-most-polluted-nations-insights-from-the-world-air-quality-report/0hb8chm"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0019",
+      "source_item_ids": [
+        "singleton_1b945d2a7def"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T08:46:52+01:00",
+      "category": "regional",
+      "event_type_guess": "business",
+      "event_type_confidence": "keyword",
+      "language": "en",
+      "headline": "Algeria clears $30m hurdle for Australian miner Terramin to advance $471m zinc project",
+      "headline_original": "",
+      "summary": "Australia’s Terramin has launched site works at Algeria’s Tala Hamza zinc project after a $30million land acquisition cleared delays, as the country seeks to boost mining and cut reliance on hydrocarbons",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [],
+        "products": []
+      },
+      "topics": [],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "Business Insider Africa"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Algeria clears $30m hurdle for Australian miner Terramin to advance $471m zinc project",
+          "source": "Business Insider Africa",
+          "url": "https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30m-land-deal/5dkbbrv",
+          "summary": "Australia’s Terramin has launched site works at Algeria’s Tala Hamza zinc project after a $30million land acquisition cleared delays, as the country seeks to boost mining and cut reliance on hydrocarbons",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 2,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [],
+        "shared_topics": [],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "Algeria clears $30m hurdle for Australian miner Terramin to advance $471m zinc project",
+        "lead_summary": "Australia’s Terramin has launched site works at Algeria’s Tala Hamza zinc project after a $30million land acquisition cleared delays, as the country seeks to boost mining and cut reliance on hydrocarbons",
+        "lead_source": "Business Insider Africa",
+        "lead_url": "https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30m-land-deal/5dkbbrv",
+        "titles": [
+          "Algeria clears $30m hurdle for Australian miner Terramin to advance $471m zinc project"
+        ],
+        "sources": [
+          "Business Insider Africa"
+        ],
+        "urls": [
+          "https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30m-land-deal/5dkbbrv"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0020",
       "source_item_ids": [
         "singleton_050670268a2c"
       ],
@@ -891,7 +1385,7 @@
       }
     },
     {
-      "event_id": "evt_0014",
+      "event_id": "evt_0021",
       "source_item_ids": [
         "singleton_59aeff09a7d4"
       ],
@@ -958,7 +1452,7 @@
       }
     },
     {
-      "event_id": "evt_0015",
+      "event_id": "evt_0022",
       "source_item_ids": [
         "singleton_e80d0f4bf067"
       ],
@@ -1025,7 +1519,7 @@
       }
     },
     {
-      "event_id": "evt_0016",
+      "event_id": "evt_0023",
       "source_item_ids": [
         "singleton_75a76f8192b7"
       ],
@@ -1069,15 +1563,15 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0022",
-          "evt_0023",
-          "evt_0039",
-          "evt_0102",
-          "evt_0150",
-          "evt_0159",
-          "evt_0191",
-          "evt_0199",
-          "evt_0204"
+          "evt_0030",
+          "evt_0031",
+          "evt_0047",
+          "evt_0110",
+          "evt_0156",
+          "evt_0166",
+          "evt_0197",
+          "evt_0205",
+          "evt_0210"
         ],
         "shared_topics": [
           "parliament"
@@ -1105,7 +1599,7 @@
       }
     },
     {
-      "event_id": "evt_0017",
+      "event_id": "evt_0024",
       "source_item_ids": [
         "singleton_718517ed9b44"
       ],
@@ -1170,7 +1664,7 @@
       }
     },
     {
-      "event_id": "evt_0018",
+      "event_id": "evt_0025",
       "source_item_ids": [
         "singleton_3ab762c45fdc"
       ],
@@ -1215,9 +1709,9 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0071",
-          "evt_0087",
-          "evt_0161"
+          "evt_0079",
+          "evt_0095",
+          "evt_0168"
         ],
         "shared_topics": [
           "electricity"
@@ -1245,7 +1739,72 @@
       }
     },
     {
-      "event_id": "evt_0019",
+      "event_id": "evt_0026",
+      "source_item_ids": [
+        "singleton_ed0160aea43d"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-25T08:17:51+00:00",
+      "category": "global",
+      "event_type_guess": "courts",
+      "event_type_confidence": "keyword",
+      "language": "en",
+      "headline": "Graffiti conviction for Australian woman who stuck googly eyes on sculpture",
+      "headline_original": "",
+      "summary": "The woman had taken MDMA and three litres of vodka when she vandalised the piece nicknamed Blue Blob.",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [],
+        "products": []
+      },
+      "topics": [],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "BBC News"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Graffiti conviction for Australian woman who stuck googly eyes on sculpture",
+          "source": "BBC News",
+          "url": "https://www.bbc.com/news/articles/cwydx34kzlvo?at_medium=RSS&at_campaign=rss",
+          "summary": "The woman had taken MDMA and three litres of vodka when she vandalised the piece nicknamed Blue Blob.",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 2,
+      "editorial_priority_guess": 2,
+      "confidence": "medium",
+      "merge_hints": {
+        "related_event_ids": [],
+        "shared_topics": [],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "Graffiti conviction for Australian woman who stuck googly eyes on sculpture",
+        "lead_summary": "The woman had taken MDMA and three litres of vodka when she vandalised the piece nicknamed Blue Blob.",
+        "lead_source": "BBC News",
+        "lead_url": "https://www.bbc.com/news/articles/cwydx34kzlvo?at_medium=RSS&at_campaign=rss",
+        "titles": [
+          "Graffiti conviction for Australian woman who stuck googly eyes on sculpture"
+        ],
+        "sources": [
+          "BBC News"
+        ],
+        "urls": [
+          "https://www.bbc.com/news/articles/cwydx34kzlvo?at_medium=RSS&at_campaign=rss"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0027",
       "source_item_ids": [
         "singleton_b5381cbba557"
       ],
@@ -1312,7 +1871,7 @@
       }
     },
     {
-      "event_id": "evt_0020",
+      "event_id": "evt_0028",
       "source_item_ids": [
         "singleton_bbb043f216fb"
       ],
@@ -1322,7 +1881,7 @@
       "event_type_guess": "energy",
       "event_type_confidence": "keyword",
       "language": "en",
-      "headline": "Warning of global recession if oil price hits $150",
+      "headline": "Boss of financial giant BlackRock warns of global recession if oil price hits $150",
       "headline_original": "",
       "summary": "Larry Fink says if oil prices stay high for a sustained period it will have \"profound implications\" for the world economy.",
       "summary_original": "",
@@ -1341,7 +1900,7 @@
       "article_count": 1,
       "articles": [
         {
-          "title": "Warning of global recession if oil price hits $150",
+          "title": "Boss of financial giant BlackRock warns of global recession if oil price hits $150",
           "source": "BBC News",
           "url": "https://www.bbc.com/news/articles/c9wqrdkx8ppo?at_medium=RSS&at_campaign=rss",
           "summary": "Larry Fink says if oil prices stay high for a sustained period it will have \"profound implications\" for the world economy.",
@@ -1358,12 +1917,12 @@
       },
       "notes": "singleton",
       "evidence": {
-        "lead_title": "Warning of global recession if oil price hits $150",
+        "lead_title": "Boss of financial giant BlackRock warns of global recession if oil price hits $150",
         "lead_summary": "Larry Fink says if oil prices stay high for a sustained period it will have \"profound implications\" for the world economy.",
         "lead_source": "BBC News",
         "lead_url": "https://www.bbc.com/news/articles/c9wqrdkx8ppo?at_medium=RSS&at_campaign=rss",
         "titles": [
-          "Warning of global recession if oil price hits $150"
+          "Boss of financial giant BlackRock warns of global recession if oil price hits $150"
         ],
         "sources": [
           "BBC News"
@@ -1377,7 +1936,7 @@
       }
     },
     {
-      "event_id": "evt_0021",
+      "event_id": "evt_0029",
       "source_item_ids": [
         "singleton_08eee0ecd75e"
       ],
@@ -1444,7 +2003,7 @@
       }
     },
     {
-      "event_id": "evt_0022",
+      "event_id": "evt_0030",
       "source_item_ids": [
         "singleton_1f76b643f709"
       ],
@@ -1490,21 +2049,21 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0005",
-          "evt_0086",
-          "evt_0138",
-          "evt_0016",
+          "evt_0018",
+          "evt_0094",
+          "evt_0144",
           "evt_0023",
-          "evt_0039",
-          "evt_0102",
-          "evt_0150",
-          "evt_0159",
-          "evt_0191",
-          "evt_0199",
-          "evt_0204",
-          "evt_0030",
-          "evt_0051",
-          "evt_0052"
+          "evt_0031",
+          "evt_0047",
+          "evt_0110",
+          "evt_0156",
+          "evt_0166",
+          "evt_0197",
+          "evt_0205",
+          "evt_0210",
+          "evt_0038",
+          "evt_0059",
+          "evt_0060"
         ],
         "shared_topics": [
           "environment",
@@ -1535,7 +2094,7 @@
       }
     },
     {
-      "event_id": "evt_0023",
+      "event_id": "evt_0031",
       "source_item_ids": [
         "singleton_a24bc635e931"
       ],
@@ -1580,16 +2139,16 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0016",
-          "evt_0022",
-          "evt_0039",
-          "evt_0102",
-          "evt_0150",
-          "evt_0159",
-          "evt_0191",
-          "evt_0199",
-          "evt_0204",
-          "evt_0110"
+          "evt_0023",
+          "evt_0030",
+          "evt_0047",
+          "evt_0110",
+          "evt_0156",
+          "evt_0166",
+          "evt_0197",
+          "evt_0205",
+          "evt_0210",
+          "evt_0118"
         ],
         "shared_topics": [
           "parliament",
@@ -1618,7 +2177,7 @@
       }
     },
     {
-      "event_id": "evt_0024",
+      "event_id": "evt_0032",
       "source_item_ids": [
         "singleton_84533f92c400"
       ],
@@ -1662,11 +2221,11 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0030",
-          "evt_0092",
-          "evt_0095",
-          "evt_0194",
-          "evt_0027"
+          "evt_0038",
+          "evt_0100",
+          "evt_0103",
+          "evt_0200",
+          "evt_0035"
         ],
         "shared_topics": [
           "airport",
@@ -1695,7 +2254,7 @@
       }
     },
     {
-      "event_id": "evt_0025",
+      "event_id": "evt_0033",
       "source_item_ids": [
         "529254ca9d09"
       ],
@@ -1723,9 +2282,10 @@
       "source_count": 2,
       "cluster_size": 2,
       "source_names": [
-        "L'Express (via mega.mu)"
+        "L'Express (via mega.mu)",
+        "Defimedia"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "En solidarité à Paul Bérenger : Iqbal Calcateea met fin à son mandat au MSC",
@@ -1739,6 +2299,13 @@
           "source": "Defimedia",
           "url": "",
           "summary": "Les démissions se poursuivent après le départ de Paul Bérenger comme Premier ministre adjoint vendredi dernier. Iqbal Ca",
+          "language": "fr"
+        },
+        {
+          "title": "Mauritius Sports Council : Iqbal Calcattea démissionne de la présidence",
+          "source": "Defimedia",
+          "url": "https://defimedia.info/mauritius-sports-council-iqbal-calcattea-demissionne-de-la-presidence",
+          "summary": "",
           "language": "fr"
         }
       ],
@@ -1757,21 +2324,26 @@
         "lead_source": "L'Express (via mega.mu)",
         "lead_url": "https://live.mega.mu/redirect/252845/",
         "titles": [
-          "En solidarité à Paul Bérenger : Iqbal Calcateea met fin à son mandat au MSC"
+          "En solidarité à Paul Bérenger : Iqbal Calcateea met fin à son mandat au MSC",
+          "Mauritius Sports Council : Iqbal Calcattea démissionne de la présidence"
         ],
         "sources": [
-          "L'Express (via mega.mu)"
+          "L'Express (via mega.mu)",
+          "Defimedia"
         ],
         "urls": [
-          "https://live.mega.mu/redirect/252845/"
+          "https://live.mega.mu/redirect/252845/",
+          "https://defimedia.info/mauritius-sports-council-iqbal-calcattea-demissionne-de-la-presidence"
         ],
-        "languages": [],
+        "languages": [
+          "fr"
+        ],
         "cluster_size": 2,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0026",
+      "event_id": "evt_0034",
       "source_item_ids": [
         "singleton_89190786b9ad"
       ],
@@ -1818,12 +2390,11 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0030",
-          "evt_0160",
-          "evt_0204",
-          "evt_0027",
-          "evt_0170",
-          "evt_0215"
+          "evt_0038",
+          "evt_0167",
+          "evt_0210",
+          "evt_0035",
+          "evt_0176"
         ],
         "shared_topics": [
           "corruption"
@@ -1853,7 +2424,7 @@
       }
     },
     {
-      "event_id": "evt_0027",
+      "event_id": "evt_0035",
       "source_item_ids": [
         "singleton_26a2f2b0c2b5"
       ],
@@ -1899,15 +2470,14 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0024",
-          "evt_0030",
-          "evt_0092",
-          "evt_0194",
-          "evt_0026",
-          "evt_0160",
-          "evt_0170",
-          "evt_0204",
-          "evt_0215"
+          "evt_0032",
+          "evt_0038",
+          "evt_0100",
+          "evt_0200",
+          "evt_0034",
+          "evt_0167",
+          "evt_0176",
+          "evt_0210"
         ],
         "shared_topics": [
           "drugs"
@@ -1938,7 +2508,7 @@
       }
     },
     {
-      "event_id": "evt_0028",
+      "event_id": "evt_0036",
       "source_item_ids": [
         "singleton_0b570237b259"
       ],
@@ -2008,7 +2578,7 @@
       }
     },
     {
-      "event_id": "evt_0029",
+      "event_id": "evt_0037",
       "source_item_ids": [
         "9b02e9dc71a8"
       ],
@@ -2037,9 +2607,10 @@
       "source_count": 2,
       "cluster_size": 5,
       "source_names": [
-        "L'Express (via mega.mu)"
+        "L'Express (via mega.mu)",
+        "Defimedia"
       ],
-      "article_count": 5,
+      "article_count": 9,
       "articles": [
         {
           "title": "Carburants : Le prix du diesel passe à Rs 64,80 le litre, celui de l’essence reste inchangé",
@@ -2075,6 +2646,34 @@
           "url": "",
           "summary": "Le prix du diesel a été revu à la hausse, passant de Rs 58,95 à Rs 64,80 le litre, soit une augmentation de 10 %. C’est",
           "language": "fr"
+        },
+        {
+          "title": "Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue",
+          "source": "Defimedia",
+          "url": "https://live.mega.mu/redirect/252839/",
+          "summary": "",
+          "language": "fr"
+        },
+        {
+          "title": "Trois questions à…Michael Sik Yuen, ministre du Commerce : «Nous avons évité une hausse de 40 % du prix du diesel»",
+          "source": "",
+          "url": "https://defimedia.info/trois-questions-amichael-sik-yuen-ministre-du-commerce-nous-avons-evite-une-hausse-de-40-du-prix-du",
+          "summary": "",
+          "language": "fr"
+        },
+        {
+          "title": "Carburants : le prix du diesel passe de Rs 58,95 à Rs 64,80, celui de l’essence reste inchangé",
+          "source": "",
+          "url": "https://defimedia.info/carburants-le-prix-du-diesel-passe-de-rs-5895-rs-6480-celui-de-lessence-reste-inchange",
+          "summary": "",
+          "language": "fr"
+        },
+        {
+          "title": "Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre",
+          "source": "",
+          "url": "https://defimedia.info/carburant-le-diesel-passe-de-rs-5895-rs-6480-le-litre",
+          "summary": "",
+          "language": "fr"
         }
       ],
       "mauritius_relevance_guess": 8,
@@ -2082,22 +2681,23 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0069",
-          "evt_0138",
-          "evt_0034",
-          "evt_0095",
-          "evt_0106",
-          "evt_0107",
-          "evt_0108",
-          "evt_0145",
-          "evt_0148",
-          "evt_0161",
-          "evt_0181",
-          "evt_0164"
+          "evt_0015",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187",
+          "evt_0144",
+          "evt_0171"
         ],
         "shared_topics": [
-          "diesel",
-          "fuel prices"
+          "fuel prices",
+          "diesel"
         ],
         "shared_entities": [
           "PPC"
@@ -2110,21 +2710,32 @@
         "lead_source": "L'Express (via mega.mu)",
         "lead_url": "https://live.mega.mu/redirect/252821/",
         "titles": [
-          "Carburants : Le prix du diesel passe à Rs 64,80 le litre, celui de l’essence reste inchangé"
+          "Carburants : Le prix du diesel passe à Rs 64,80 le litre, celui de l’essence reste inchangé",
+          "Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue",
+          "Trois questions à…Michael Sik Yuen, ministre du Commerce : «Nous avons évité une hausse de 40 % du prix du diesel»",
+          "Carburants : le prix du diesel passe de Rs 58,95 à Rs 64,80, celui de l’essence reste inchangé",
+          "Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre"
         ],
         "sources": [
-          "L'Express (via mega.mu)"
+          "L'Express (via mega.mu)",
+          "Defimedia"
         ],
         "urls": [
-          "https://live.mega.mu/redirect/252821/"
+          "https://live.mega.mu/redirect/252821/",
+          "https://live.mega.mu/redirect/252839/",
+          "https://defimedia.info/trois-questions-amichael-sik-yuen-ministre-du-commerce-nous-avons-evite-une-hausse-de-40-du-prix-du",
+          "https://defimedia.info/carburants-le-prix-du-diesel-passe-de-rs-5895-rs-6480-celui-de-lessence-reste-inchange",
+          "https://defimedia.info/carburant-le-diesel-passe-de-rs-5895-rs-6480-le-litre"
         ],
-        "languages": [],
+        "languages": [
+          "fr"
+        ],
         "cluster_size": 5,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0030",
+      "event_id": "evt_0038",
       "source_item_ids": [
         "singleton_159290857640"
       ],
@@ -2172,19 +2783,18 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0024",
-          "evt_0092",
-          "evt_0095",
-          "evt_0194",
-          "evt_0027",
-          "evt_0026",
-          "evt_0160",
-          "evt_0204",
-          "evt_0022",
-          "evt_0051",
-          "evt_0052",
-          "evt_0170",
-          "evt_0215"
+          "evt_0032",
+          "evt_0100",
+          "evt_0103",
+          "evt_0200",
+          "evt_0035",
+          "evt_0034",
+          "evt_0167",
+          "evt_0210",
+          "evt_0030",
+          "evt_0059",
+          "evt_0060",
+          "evt_0176"
         ],
         "shared_topics": [
           "airport",
@@ -2217,7 +2827,7 @@
       }
     },
     {
-      "event_id": "evt_0031",
+      "event_id": "evt_0039",
       "source_item_ids": [
         "singleton_1713151caafb"
       ],
@@ -2284,7 +2894,7 @@
       }
     },
     {
-      "event_id": "evt_0032",
+      "event_id": "evt_0040",
       "source_item_ids": [
         "singleton_26cbb75302b9"
       ],
@@ -2349,7 +2959,7 @@
       }
     },
     {
-      "event_id": "evt_0033",
+      "event_id": "evt_0041",
       "source_item_ids": [
         "singleton_29f1252c9384"
       ],
@@ -2392,8 +3002,8 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0110",
-          "evt_0126"
+          "evt_0118",
+          "evt_0133"
         ],
         "shared_topics": [
           "elections"
@@ -2421,7 +3031,7 @@
       }
     },
     {
-      "event_id": "evt_0034",
+      "event_id": "evt_0042",
       "source_item_ids": [
         "singleton_fa85e18672dd"
       ],
@@ -2465,16 +3075,17 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029",
-          "evt_0069",
-          "evt_0095",
-          "evt_0106",
-          "evt_0107",
-          "evt_0108",
-          "evt_0145",
-          "evt_0148",
-          "evt_0161",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187"
         ],
         "shared_topics": [
           "fuel prices"
@@ -2502,7 +3113,7 @@
       }
     },
     {
-      "event_id": "evt_0035",
+      "event_id": "evt_0043",
       "source_item_ids": [
         "singleton_1c5ca7f8bd73"
       ],
@@ -2545,7 +3156,7 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0167"
+          "evt_0173"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -2573,7 +3184,7 @@
       }
     },
     {
-      "event_id": "evt_0036",
+      "event_id": "evt_0044",
       "source_item_ids": [
         "92553342363e"
       ],
@@ -2599,9 +3210,10 @@
       "source_count": 2,
       "cluster_size": 2,
       "source_names": [
-        "Defimedia"
+        "Defimedia",
+        "ION News"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "Guerre au Moyen-Orient : les derniers développements",
@@ -2615,6 +3227,13 @@
           "source": "ION News",
           "url": "",
           "summary": "Donald Trump a proposé un plan de paix à l’Iran et s’est montré optimiste mardi 24 mars sur les chances de parvenir à un accord, Téhéran indiquant de son côté qu’il laissera passer les navires non hostiles par le stratégique détroit d’Ormuz, au 26e jour de la guerre qui embrase le Moyen-Orient. Iran et États-Unis négocient pour tenter de mettre un terme au conflit, a de nouveau affirmé le président américain, mais les opérations militaires américaines contre la République islamique se poursuiven",
+          "language": "fr"
+        },
+        {
+          "title": "Guerre au Moyen-Orient : Donald Trump fait passer un plan de paix à l’Iran",
+          "source": "ION News",
+          "url": "https://ionnews.mu/guerre-au-moyen-orient-donald-trump-fait-passer-un-plan-de-paix-a-liran/",
+          "summary": "",
           "language": "fr"
         }
       ],
@@ -2633,21 +3252,26 @@
         "lead_source": "Defimedia",
         "lead_url": "https://defimedia.info/guerre-au-moyen-orient-les-derniers-developpements-19",
         "titles": [
-          "Guerre au Moyen-Orient : les derniers développements"
+          "Guerre au Moyen-Orient : les derniers développements",
+          "Guerre au Moyen-Orient : Donald Trump fait passer un plan de paix à l’Iran"
         ],
         "sources": [
-          "Defimedia"
+          "Defimedia",
+          "ION News"
         ],
         "urls": [
-          "https://defimedia.info/guerre-au-moyen-orient-les-derniers-developpements-19"
+          "https://defimedia.info/guerre-au-moyen-orient-les-derniers-developpements-19",
+          "https://ionnews.mu/guerre-au-moyen-orient-donald-trump-fait-passer-un-plan-de-paix-a-liran/"
         ],
-        "languages": [],
+        "languages": [
+          "fr"
+        ],
         "cluster_size": 2,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0037",
+      "event_id": "evt_0045",
       "source_item_ids": [
         "singleton_f80106432268"
       ],
@@ -2712,7 +3336,7 @@
       }
     },
     {
-      "event_id": "evt_0038",
+      "event_id": "evt_0046",
       "source_item_ids": [
         "singleton_5d72ed274361"
       ],
@@ -2779,7 +3403,7 @@
       }
     },
     {
-      "event_id": "evt_0039",
+      "event_id": "evt_0047",
       "source_item_ids": [
         "singleton_df1c5e05eeb1"
       ],
@@ -2824,16 +3448,16 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0016",
-          "evt_0022",
           "evt_0023",
-          "evt_0102",
-          "evt_0150",
-          "evt_0159",
-          "evt_0191",
-          "evt_0199",
-          "evt_0204",
-          "evt_0110"
+          "evt_0030",
+          "evt_0031",
+          "evt_0110",
+          "evt_0156",
+          "evt_0166",
+          "evt_0197",
+          "evt_0205",
+          "evt_0210",
+          "evt_0118"
         ],
         "shared_topics": [
           "parliament",
@@ -2862,7 +3486,7 @@
       }
     },
     {
-      "event_id": "evt_0040",
+      "event_id": "evt_0048",
       "source_item_ids": [
         "singleton_103ded001e90"
       ],
@@ -2927,7 +3551,7 @@
       }
     },
     {
-      "event_id": "evt_0041",
+      "event_id": "evt_0049",
       "source_item_ids": [
         "singleton_e956ceec500e"
       ],
@@ -2994,7 +3618,7 @@
       }
     },
     {
-      "event_id": "evt_0042",
+      "event_id": "evt_0050",
       "source_item_ids": [
         "singleton_3e760c0d8a35"
       ],
@@ -3063,7 +3687,7 @@
       }
     },
     {
-      "event_id": "evt_0043",
+      "event_id": "evt_0051",
       "source_item_ids": [
         "dbc9ba7539e1"
       ],
@@ -3089,9 +3713,10 @@
       "source_count": 2,
       "cluster_size": 2,
       "source_names": [
-        "BBC News"
+        "BBC News",
+        "France 24"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "Democrats flip Florida state seat that includes Trump's Mar-a-Lago home",
@@ -3105,6 +3730,13 @@
           "source": "France 24",
           "url": "",
           "summary": "The US Democratic Party appears to have won back a Florida state legislative from the Republicans – and one that's home to US President Donald Trump's lavish Mar-a-Lago estate.",
+          "language": "en"
+        },
+        {
+          "title": "Democrats projected to win back Florida district home to Trump's Mar-a-Lago",
+          "source": "France 24",
+          "url": "https://www.france24.com/en/americas/20260325-democrats-projected-to-win-back-florida-district-home-to-trump-mar-a-lago",
+          "summary": "",
           "language": "en"
         }
       ],
@@ -3123,21 +3755,26 @@
         "lead_source": "BBC News",
         "lead_url": "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss",
         "titles": [
-          "Democrats flip Florida state seat that includes Trump's Mar-a-Lago home"
+          "Democrats flip Florida state seat that includes Trump's Mar-a-Lago home",
+          "Democrats projected to win back Florida district home to Trump's Mar-a-Lago"
         ],
         "sources": [
-          "BBC News"
+          "BBC News",
+          "France 24"
         ],
         "urls": [
-          "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&at_campaign=rss",
+          "https://www.france24.com/en/americas/20260325-democrats-projected-to-win-back-florida-district-home-to-trump-mar-a-lago"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "cluster_size": 2,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0044",
+      "event_id": "evt_0052",
       "source_item_ids": [
         "ba1f795af497"
       ],
@@ -3169,7 +3806,7 @@
       "source_names": [
         "Africanews"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "Ghana leads UN effort to acknowledge slave trade as crime against humanity",
@@ -3184,6 +3821,13 @@
           "url": "",
           "summary": "Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.",
           "language": "en"
+        },
+        {
+          "title": "Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity",
+          "source": "",
+          "url": "http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/",
+          "summary": "",
+          "language": "en"
         }
       ],
       "mauritius_relevance_guess": 4,
@@ -3192,10 +3836,12 @@
       "merge_hints": {
         "related_event_ids": [
           "evt_0002",
-          "evt_0073",
-          "evt_0121",
-          "evt_0175",
-          "evt_0206"
+          "evt_0004",
+          "evt_0081",
+          "evt_0128",
+          "evt_0161",
+          "evt_0181",
+          "evt_0212"
         ],
         "shared_topics": [
           "trade"
@@ -3211,21 +3857,25 @@
         "lead_source": "Africanews",
         "lead_url": "http://www.africanews.com/2026/03/24/ghana-leads-un-effort-to-acknowledg-slave-trade-as-crime-against-humanity/",
         "titles": [
-          "Ghana leads UN effort to acknowledge slave trade as crime against humanity"
+          "Ghana leads UN effort to acknowledge slave trade as crime against humanity",
+          "Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity"
         ],
         "sources": [
           "Africanews"
         ],
         "urls": [
-          "http://www.africanews.com/2026/03/24/ghana-leads-un-effort-to-acknowledg-slave-trade-as-crime-against-humanity/"
+          "http://www.africanews.com/2026/03/24/ghana-leads-un-effort-to-acknowledg-slave-trade-as-crime-against-humanity/",
+          "http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "cluster_size": 2,
         "source_count": 1
       }
     },
     {
-      "event_id": "evt_0045",
+      "event_id": "evt_0053",
       "source_item_ids": [
         "singleton_8d6f183f9aac"
       ],
@@ -3292,7 +3942,7 @@
       }
     },
     {
-      "event_id": "evt_0046",
+      "event_id": "evt_0054",
       "source_item_ids": [
         "singleton_63bbc8ec438f"
       ],
@@ -3359,7 +4009,7 @@
       }
     },
     {
-      "event_id": "evt_0047",
+      "event_id": "evt_0055",
       "source_item_ids": [
         "singleton_a78625e8f9cb"
       ],
@@ -3424,7 +4074,7 @@
       }
     },
     {
-      "event_id": "evt_0048",
+      "event_id": "evt_0056",
       "source_item_ids": [
         "singleton_27e686319e3a"
       ],
@@ -3489,7 +4139,7 @@
       }
     },
     {
-      "event_id": "evt_0049",
+      "event_id": "evt_0057",
       "source_item_ids": [
         "singleton_5ab51159e77e"
       ],
@@ -3556,7 +4206,7 @@
       }
     },
     {
-      "event_id": "evt_0050",
+      "event_id": "evt_0058",
       "source_item_ids": [
         "singleton_a8c471da690c"
       ],
@@ -3599,9 +4249,9 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0143",
-          "evt_0159",
-          "evt_0182"
+          "evt_0149",
+          "evt_0166",
+          "evt_0188"
         ],
         "shared_topics": [
           "inflation"
@@ -3629,7 +4279,7 @@
       }
     },
     {
-      "event_id": "evt_0051",
+      "event_id": "evt_0059",
       "source_item_ids": [
         "singleton_54f1a6a7c037"
       ],
@@ -3672,9 +4322,9 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0022",
           "evt_0030",
-          "evt_0052"
+          "evt_0038",
+          "evt_0060"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -3702,7 +4352,7 @@
       }
     },
     {
-      "event_id": "evt_0052",
+      "event_id": "evt_0060",
       "source_item_ids": [
         "singleton_66a970213951"
       ],
@@ -3747,9 +4397,9 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0022",
           "evt_0030",
-          "evt_0051"
+          "evt_0038",
+          "evt_0059"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -3777,7 +4427,7 @@
       }
     },
     {
-      "event_id": "evt_0053",
+      "event_id": "evt_0061",
       "source_item_ids": [
         "singleton_3d5f6387b973"
       ],
@@ -3787,9 +4437,9 @@
       "event_type_guess": "sports",
       "event_type_confidence": "keyword",
       "language": "en",
-      "headline": "Football: France have arrived in Boston to face Brazil and Colombia",
+      "headline": "Football: France arrive in Boston to face Brazil and Colombia in friendlies",
       "headline_original": "",
-      "summary": "The French national team have arrived in Boston for their US tour. France will face Brazil on 26 March and Colombia on 29 March.",
+      "summary": "The French national team have arrived in Boston for their US tour. France will face Brazil on March 26 and Colombia on March 29 in friendly matches.",
       "summary_original": "",
       "key_entities": {
         "people": [],
@@ -3808,10 +4458,10 @@
       "article_count": 1,
       "articles": [
         {
-          "title": "Football: France have arrived in Boston to face Brazil and Colombia",
+          "title": "Football: France arrive in Boston to face Brazil and Colombia in friendlies",
           "source": "France 24",
           "url": "https://www.france24.com/en/tv-shows/sports/20260325-football-france-have-arrived-in-boston-to-face-brazil-and-colombia",
-          "summary": "The French national team have arrived in Boston for their US tour. France will face Brazil on 26 March and Colombia on 29 March.",
+          "summary": "The French national team have arrived in Boston for their US tour. France will face Brazil on March 26 and Colombia on March 29 in friendly matches.",
           "language": "en"
         }
       ],
@@ -3825,12 +4475,12 @@
       },
       "notes": "singleton",
       "evidence": {
-        "lead_title": "Football: France have arrived in Boston to face Brazil and Colombia",
-        "lead_summary": "The French national team have arrived in Boston for their US tour. France will face Brazil on 26 March and Colombia on 29 March.",
+        "lead_title": "Football: France arrive in Boston to face Brazil and Colombia in friendlies",
+        "lead_summary": "The French national team have arrived in Boston for their US tour. France will face Brazil on March 26 and Colombia on March 29 in friendly matches.",
         "lead_source": "France 24",
         "lead_url": "https://www.france24.com/en/tv-shows/sports/20260325-football-france-have-arrived-in-boston-to-face-brazil-and-colombia",
         "titles": [
-          "Football: France have arrived in Boston to face Brazil and Colombia"
+          "Football: France arrive in Boston to face Brazil and Colombia in friendlies"
         ],
         "sources": [
           "France 24"
@@ -3844,7 +4494,7 @@
       }
     },
     {
-      "event_id": "evt_0054",
+      "event_id": "evt_0062",
       "source_item_ids": [
         "singleton_188a7d79491c"
       ],
@@ -3911,7 +4561,7 @@
       }
     },
     {
-      "event_id": "evt_0055",
+      "event_id": "evt_0063",
       "source_item_ids": [
         "singleton_d95ef98e2ac5"
       ],
@@ -3976,7 +4626,7 @@
       }
     },
     {
-      "event_id": "evt_0056",
+      "event_id": "evt_0064",
       "source_item_ids": [
         "singleton_61b01d3bd8ac"
       ],
@@ -4041,7 +4691,7 @@
       }
     },
     {
-      "event_id": "evt_0057",
+      "event_id": "evt_0065",
       "source_item_ids": [
         "singleton_05fab6aea668"
       ],
@@ -4108,7 +4758,7 @@
       }
     },
     {
-      "event_id": "evt_0058",
+      "event_id": "evt_0066",
       "source_item_ids": [
         "singleton_d5549501dea6"
       ],
@@ -4173,7 +4823,7 @@
       }
     },
     {
-      "event_id": "evt_0059",
+      "event_id": "evt_0067",
       "source_item_ids": [
         "singleton_725def6dc8b8"
       ],
@@ -4218,7 +4868,7 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0134"
+          "evt_0140"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -4246,7 +4896,7 @@
       }
     },
     {
-      "event_id": "evt_0060",
+      "event_id": "evt_0068",
       "source_item_ids": [
         "singleton_dc8adb546cd4"
       ],
@@ -4311,7 +4961,7 @@
       }
     },
     {
-      "event_id": "evt_0061",
+      "event_id": "evt_0069",
       "source_item_ids": [
         "singleton_62f7cc7e004b"
       ],
@@ -4378,7 +5028,7 @@
       }
     },
     {
-      "event_id": "evt_0062",
+      "event_id": "evt_0070",
       "source_item_ids": [
         "singleton_f2af1809272c"
       ],
@@ -4446,7 +5096,7 @@
       }
     },
     {
-      "event_id": "evt_0063",
+      "event_id": "evt_0071",
       "source_item_ids": [
         "singleton_60f0bf515d2b"
       ],
@@ -4511,7 +5161,7 @@
       }
     },
     {
-      "event_id": "evt_0064",
+      "event_id": "evt_0072",
       "source_item_ids": [
         "singleton_576bf715880b"
       ],
@@ -4580,7 +5230,7 @@
       }
     },
     {
-      "event_id": "evt_0065",
+      "event_id": "evt_0073",
       "source_item_ids": [
         "singleton_450a52cbd11a"
       ],
@@ -4645,7 +5295,7 @@
       }
     },
     {
-      "event_id": "evt_0066",
+      "event_id": "evt_0074",
       "source_item_ids": [
         "singleton_11729b5689e9"
       ],
@@ -4710,7 +5360,7 @@
       }
     },
     {
-      "event_id": "evt_0067",
+      "event_id": "evt_0075",
       "source_item_ids": [
         "singleton_54c39b8569ae"
       ],
@@ -4775,7 +5425,7 @@
       }
     },
     {
-      "event_id": "evt_0068",
+      "event_id": "evt_0076",
       "source_item_ids": [
         "singleton_cbf758c10b0b"
       ],
@@ -4840,7 +5490,7 @@
       }
     },
     {
-      "event_id": "evt_0069",
+      "event_id": "evt_0077",
       "source_item_ids": [
         "singleton_88654181bc0e"
       ],
@@ -4884,21 +5534,22 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029",
-          "evt_0138",
-          "evt_0034",
-          "evt_0095",
-          "evt_0106",
-          "evt_0107",
-          "evt_0108",
-          "evt_0145",
-          "evt_0148",
-          "evt_0161",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187",
+          "evt_0144"
         ],
         "shared_topics": [
-          "diesel",
-          "fuel prices"
+          "fuel prices",
+          "diesel"
         ],
         "shared_entities": []
       },
@@ -4923,7 +5574,7 @@
       }
     },
     {
-      "event_id": "evt_0070",
+      "event_id": "evt_0078",
       "source_item_ids": [
         "singleton_44b8dba15d41"
       ],
@@ -4968,7 +5619,7 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0213"
+          "evt_0218"
         ],
         "shared_topics": [
           "audit"
@@ -4996,7 +5647,7 @@
       }
     },
     {
-      "event_id": "evt_0071",
+      "event_id": "evt_0079",
       "source_item_ids": [
         "singleton_513741316c21"
       ],
@@ -5045,9 +5696,9 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0018",
-          "evt_0087",
-          "evt_0161"
+          "evt_0025",
+          "evt_0095",
+          "evt_0168"
         ],
         "shared_topics": [
           "electricity"
@@ -5077,7 +5728,7 @@
       }
     },
     {
-      "event_id": "evt_0072",
+      "event_id": "evt_0080",
       "source_item_ids": [
         "singleton_d385dc0f19d6"
       ],
@@ -5142,7 +5793,7 @@
       }
     },
     {
-      "event_id": "evt_0073",
+      "event_id": "evt_0081",
       "source_item_ids": [
         "singleton_863d7548bc7b"
       ],
@@ -5186,9 +5837,11 @@
       "merge_hints": {
         "related_event_ids": [
           "evt_0002",
-          "evt_0044",
-          "evt_0121",
-          "evt_0175"
+          "evt_0004",
+          "evt_0052",
+          "evt_0128",
+          "evt_0161",
+          "evt_0181"
         ],
         "shared_topics": [
           "trade"
@@ -5216,7 +5869,7 @@
       }
     },
     {
-      "event_id": "evt_0074",
+      "event_id": "evt_0082",
       "source_item_ids": [
         "singleton_b86159873679"
       ],
@@ -5281,7 +5934,7 @@
       }
     },
     {
-      "event_id": "evt_0075",
+      "event_id": "evt_0083",
       "source_item_ids": [
         "singleton_79510a1b4f95"
       ],
@@ -5348,7 +6001,7 @@
       }
     },
     {
-      "event_id": "evt_0076",
+      "event_id": "evt_0084",
       "source_item_ids": [
         "singleton_855ad6eabea2"
       ],
@@ -5415,7 +6068,7 @@
       }
     },
     {
-      "event_id": "evt_0077",
+      "event_id": "evt_0085",
       "source_item_ids": [
         "singleton_422926429eae"
       ],
@@ -5482,7 +6135,7 @@
       }
     },
     {
-      "event_id": "evt_0078",
+      "event_id": "evt_0086",
       "source_item_ids": [
         "singleton_dc4ecff0ef10"
       ],
@@ -5547,7 +6200,7 @@
       }
     },
     {
-      "event_id": "evt_0079",
+      "event_id": "evt_0087",
       "source_item_ids": [
         "singleton_df92b1cc3907"
       ],
@@ -5612,7 +6265,7 @@
       }
     },
     {
-      "event_id": "evt_0080",
+      "event_id": "evt_0088",
       "source_item_ids": [
         "singleton_32936b628e83"
       ],
@@ -5677,7 +6330,7 @@
       }
     },
     {
-      "event_id": "evt_0081",
+      "event_id": "evt_0089",
       "source_item_ids": [
         "singleton_08a739cfbfad"
       ],
@@ -5744,7 +6397,7 @@
       }
     },
     {
-      "event_id": "evt_0082",
+      "event_id": "evt_0090",
       "source_item_ids": [
         "singleton_b45e2bc03ca9"
       ],
@@ -5809,7 +6462,7 @@
       }
     },
     {
-      "event_id": "evt_0083",
+      "event_id": "evt_0091",
       "source_item_ids": [
         "c4b7e1204804"
       ],
@@ -5835,9 +6488,10 @@
       "source_count": 2,
       "cluster_size": 2,
       "source_names": [
-        "AllAfrica"
+        "AllAfrica",
+        "Africanews"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "Chad: Chad Relocates Refugees Amid Rising Tensions At Border With Sudan",
@@ -5851,6 +6505,13 @@
           "source": "Africanews",
           "url": "",
           "summary": "The evacuations already began in Ennedi Est Province over the weekend, with the government targeting to relocate at least 2,300 refugees, mostly women and children.",
+          "language": "en"
+        },
+        {
+          "title": "Chad begins relocation of refugees along its border with Sudan",
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/03/24/chad-begins-relocation-of-refugees-along-its-border-with-sudan/",
+          "summary": "",
           "language": "en"
         }
       ],
@@ -5869,21 +6530,26 @@
         "lead_source": "AllAfrica",
         "lead_url": "https://allafrica.com/stories/202603250007.html",
         "titles": [
-          "Chad: Chad Relocates Refugees Amid Rising Tensions At Border With Sudan"
+          "Chad: Chad Relocates Refugees Amid Rising Tensions At Border With Sudan",
+          "Chad begins relocation of refugees along its border with Sudan"
         ],
         "sources": [
-          "AllAfrica"
+          "AllAfrica",
+          "Africanews"
         ],
         "urls": [
-          "https://allafrica.com/stories/202603250007.html"
+          "https://allafrica.com/stories/202603250007.html",
+          "http://www.africanews.com/2026/03/24/chad-begins-relocation-of-refugees-along-its-border-with-sudan/"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "cluster_size": 2,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0084",
+      "event_id": "evt_0092",
       "source_item_ids": [
         "singleton_3cfc50b7e6b8"
       ],
@@ -5951,7 +6617,7 @@
       }
     },
     {
-      "event_id": "evt_0085",
+      "event_id": "evt_0093",
       "source_item_ids": [
         "singleton_2281a4cfa1ea"
       ],
@@ -6016,7 +6682,7 @@
       }
     },
     {
-      "event_id": "evt_0086",
+      "event_id": "evt_0094",
       "source_item_ids": [
         "singleton_e050691a95be"
       ],
@@ -6062,9 +6728,9 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0005",
-          "evt_0022",
-          "evt_0138"
+          "evt_0018",
+          "evt_0030",
+          "evt_0144"
         ],
         "shared_topics": [
           "environment"
@@ -6092,7 +6758,7 @@
       }
     },
     {
-      "event_id": "evt_0087",
+      "event_id": "evt_0095",
       "source_item_ids": [
         "singleton_2df5405a213b"
       ],
@@ -6135,9 +6801,9 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0018",
-          "evt_0071",
-          "evt_0161"
+          "evt_0025",
+          "evt_0079",
+          "evt_0168"
         ],
         "shared_topics": [
           "electricity"
@@ -6165,7 +6831,7 @@
       }
     },
     {
-      "event_id": "evt_0088",
+      "event_id": "evt_0096",
       "source_item_ids": [
         "singleton_de43a117a7b1"
       ],
@@ -6234,7 +6900,7 @@
       }
     },
     {
-      "event_id": "evt_0089",
+      "event_id": "evt_0097",
       "source_item_ids": [
         "8fd02e8d3f76"
       ],
@@ -6262,9 +6928,10 @@
       "source_count": 2,
       "cluster_size": 2,
       "source_names": [
-        "France 24"
+        "France 24",
+        "Al Jazeera"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "Meta ordered to pay $375 million over child exploitation in landmark verdict",
@@ -6279,6 +6946,13 @@
           "url": "",
           "summary": "The verdict marks the first time a US state has successfully sued the social media giant over child safety issues.",
           "language": "en"
+        },
+        {
+          "title": "US jury orders Meta to pay $375m for endangering children",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/3/25/us-jury-orders-meta-to-pay-375m-for-endangering-children?traffic_source=rss",
+          "summary": "",
+          "language": "en"
         }
       ],
       "mauritius_relevance_guess": 2,
@@ -6286,8 +6960,8 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0116",
-          "evt_0205"
+          "evt_0124",
+          "evt_0211"
         ],
         "shared_topics": [
           "public safety"
@@ -6301,21 +6975,26 @@
         "lead_source": "France 24",
         "lead_url": "https://www.france24.com/en/americas/20260324-meta-ordered-to-pay-375-million-over-child-exploitation-in-landmark-verdict",
         "titles": [
-          "Meta ordered to pay $375 million over child exploitation in landmark verdict"
+          "Meta ordered to pay $375 million over child exploitation in landmark verdict",
+          "US jury orders Meta to pay $375m for endangering children"
         ],
         "sources": [
-          "France 24"
+          "France 24",
+          "Al Jazeera"
         ],
         "urls": [
-          "https://www.france24.com/en/americas/20260324-meta-ordered-to-pay-375-million-over-child-exploitation-in-landmark-verdict"
+          "https://www.france24.com/en/americas/20260324-meta-ordered-to-pay-375-million-over-child-exploitation-in-landmark-verdict",
+          "https://www.aljazeera.com/economy/2026/3/25/us-jury-orders-meta-to-pay-375m-for-endangering-children?traffic_source=rss"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "cluster_size": 2,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0090",
+      "event_id": "evt_0098",
       "source_item_ids": [
         "singleton_51c2f9128fe6"
       ],
@@ -6382,7 +7061,7 @@
       }
     },
     {
-      "event_id": "evt_0091",
+      "event_id": "evt_0099",
       "source_item_ids": [
         "singleton_683a178a11e5"
       ],
@@ -6447,7 +7126,7 @@
       }
     },
     {
-      "event_id": "evt_0092",
+      "event_id": "evt_0100",
       "source_item_ids": [
         "singleton_91f75f948298"
       ],
@@ -6491,11 +7170,11 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0024",
-          "evt_0030",
-          "evt_0095",
-          "evt_0194",
-          "evt_0027"
+          "evt_0032",
+          "evt_0038",
+          "evt_0103",
+          "evt_0200",
+          "evt_0035"
         ],
         "shared_topics": [
           "airport",
@@ -6524,7 +7203,7 @@
       }
     },
     {
-      "event_id": "evt_0093",
+      "event_id": "evt_0101",
       "source_item_ids": [
         "23519d2db6bf"
       ],
@@ -6553,9 +7232,10 @@
       "source_count": 2,
       "cluster_size": 2,
       "source_names": [
-        "France 24"
+        "France 24",
+        "Al Jazeera"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "US to deploy elite army brigade to Middle East: reports",
@@ -6569,6 +7249,13 @@
           "source": "Al Jazeera",
           "url": "",
           "summary": "The US is expected to deploy up to 3,000 troops from the 82nd Airborne Division to the Middle East.",
+          "language": "en"
+        },
+        {
+          "title": "US to send thousands of soldiers from 82nd Airborne Division to Middle East",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/video/newsfeed/2026/3/25/us-to-send-thousands-of-soldiers-from-82nd-airborne-division-to-middle-east?traffic_source=rss",
+          "summary": "",
           "language": "en"
         }
       ],
@@ -6587,21 +7274,26 @@
         "lead_source": "France 24",
         "lead_url": "https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports",
         "titles": [
-          "US to deploy elite army brigade to Middle East: reports"
+          "US to deploy elite army brigade to Middle East: reports",
+          "US to send thousands of soldiers from 82nd Airborne Division to Middle East"
         ],
         "sources": [
-          "France 24"
+          "France 24",
+          "Al Jazeera"
         ],
         "urls": [
-          "https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports"
+          "https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports",
+          "https://www.aljazeera.com/video/newsfeed/2026/3/25/us-to-send-thousands-of-soldiers-from-82nd-airborne-division-to-middle-east?traffic_source=rss"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "cluster_size": 2,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0094",
+      "event_id": "evt_0102",
       "source_item_ids": [
         "singleton_de5ca2d27092"
       ],
@@ -6668,7 +7360,7 @@
       }
     },
     {
-      "event_id": "evt_0095",
+      "event_id": "evt_0103",
       "source_item_ids": [
         "singleton_58fedbc37fe6"
       ],
@@ -6712,24 +7404,25 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0024",
-          "evt_0030",
-          "evt_0092",
-          "evt_0194",
-          "evt_0029",
-          "evt_0034",
-          "evt_0069",
-          "evt_0106",
-          "evt_0107",
-          "evt_0108",
-          "evt_0145",
-          "evt_0148",
-          "evt_0161",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187",
+          "evt_0032",
+          "evt_0038",
+          "evt_0100",
+          "evt_0200"
         ],
         "shared_topics": [
-          "airport",
-          "fuel prices"
+          "fuel prices",
+          "airport"
         ],
         "shared_entities": []
       },
@@ -6754,7 +7447,7 @@
       }
     },
     {
-      "event_id": "evt_0096",
+      "event_id": "evt_0104",
       "source_item_ids": [
         "singleton_1ec0882cb5e0"
       ],
@@ -6821,7 +7514,7 @@
       }
     },
     {
-      "event_id": "evt_0097",
+      "event_id": "evt_0105",
       "source_item_ids": [
         "singleton_46b5aa0d8494"
       ],
@@ -6886,7 +7579,7 @@
       }
     },
     {
-      "event_id": "evt_0098",
+      "event_id": "evt_0106",
       "source_item_ids": [
         "singleton_2f95f5a954de"
       ],
@@ -6951,7 +7644,7 @@
       }
     },
     {
-      "event_id": "evt_0099",
+      "event_id": "evt_0107",
       "source_item_ids": [
         "singleton_185c85d9021f"
       ],
@@ -7016,7 +7709,7 @@
       }
     },
     {
-      "event_id": "evt_0100",
+      "event_id": "evt_0108",
       "source_item_ids": [
         "singleton_3d346209a213"
       ],
@@ -7081,7 +7774,7 @@
       }
     },
     {
-      "event_id": "evt_0101",
+      "event_id": "evt_0109",
       "source_item_ids": [
         "singleton_584b7bfc3d38"
       ],
@@ -7146,7 +7839,7 @@
       }
     },
     {
-      "event_id": "evt_0102",
+      "event_id": "evt_0110",
       "source_item_ids": [
         "singleton_000c0573cf86"
       ],
@@ -7189,15 +7882,15 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0016",
-          "evt_0022",
           "evt_0023",
-          "evt_0039",
-          "evt_0150",
-          "evt_0159",
-          "evt_0191",
-          "evt_0199",
-          "evt_0204"
+          "evt_0030",
+          "evt_0031",
+          "evt_0047",
+          "evt_0156",
+          "evt_0166",
+          "evt_0197",
+          "evt_0205",
+          "evt_0210"
         ],
         "shared_topics": [
           "parliament"
@@ -7225,7 +7918,7 @@
       }
     },
     {
-      "event_id": "evt_0103",
+      "event_id": "evt_0111",
       "source_item_ids": [
         "singleton_c3892d052075"
       ],
@@ -7290,7 +7983,7 @@
       }
     },
     {
-      "event_id": "evt_0104",
+      "event_id": "evt_0112",
       "source_item_ids": [
         "singleton_728669344853"
       ],
@@ -7357,7 +8050,7 @@
       }
     },
     {
-      "event_id": "evt_0105",
+      "event_id": "evt_0113",
       "source_item_ids": [
         "474a7bc4150c"
       ],
@@ -7381,9 +8074,10 @@
       "source_count": 2,
       "cluster_size": 2,
       "source_names": [
-        "Le Mauricien"
+        "Le Mauricien",
+        "Defimedia"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "La météo du mercredi 25 mars",
@@ -7397,6 +8091,13 @@
           "source": "Defimedia",
           "url": "",
           "summary": "Un courant d’air léger et chaud circule sur la région. Le ciel sera mi-couvert tôt ce matin avec quelques ondées à l’est",
+          "language": "fr"
+        },
+        {
+          "title": "Météo : prévisions pour ce mercredi 25 mars",
+          "source": "Defimedia",
+          "url": "https://defimedia.info/meteo-previsions-pour-ce-mercredi-25-mars",
+          "summary": "",
           "language": "fr"
         }
       ],
@@ -7415,21 +8116,26 @@
         "lead_source": "Le Mauricien",
         "lead_url": "https://www.lemauricien.com/actualites/societe/la-meteo-du-mercredi-25-mars/702627/",
         "titles": [
-          "La météo du mercredi 25 mars"
+          "La météo du mercredi 25 mars",
+          "Météo : prévisions pour ce mercredi 25 mars"
         ],
         "sources": [
-          "Le Mauricien"
+          "Le Mauricien",
+          "Defimedia"
         ],
         "urls": [
-          "https://www.lemauricien.com/actualites/societe/la-meteo-du-mercredi-25-mars/702627/"
+          "https://www.lemauricien.com/actualites/societe/la-meteo-du-mercredi-25-mars/702627/",
+          "https://defimedia.info/meteo-previsions-pour-ce-mercredi-25-mars"
         ],
-        "languages": [],
+        "languages": [
+          "fr"
+        ],
         "cluster_size": 2,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0106",
+      "event_id": "evt_0114",
       "source_item_ids": [
         "singleton_bca0b3f724c9"
       ],
@@ -7473,16 +8179,17 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029",
-          "evt_0034",
-          "evt_0069",
-          "evt_0095",
-          "evt_0107",
-          "evt_0108",
-          "evt_0145",
-          "evt_0148",
-          "evt_0161",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187"
         ],
         "shared_topics": [
           "fuel prices"
@@ -7510,7 +8217,7 @@
       }
     },
     {
-      "event_id": "evt_0107",
+      "event_id": "evt_0115",
       "source_item_ids": [
         "singleton_6e2d860ef3ce"
       ],
@@ -7553,16 +8260,17 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029",
-          "evt_0034",
-          "evt_0069",
-          "evt_0095",
-          "evt_0106",
-          "evt_0108",
-          "evt_0145",
-          "evt_0148",
-          "evt_0161",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187"
         ],
         "shared_topics": [
           "fuel prices"
@@ -7590,7 +8298,7 @@
       }
     },
     {
-      "event_id": "evt_0108",
+      "event_id": "evt_0116",
       "source_item_ids": [
         "singleton_3205c94d3df3"
       ],
@@ -7635,16 +8343,17 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029",
-          "evt_0034",
-          "evt_0069",
-          "evt_0095",
-          "evt_0106",
-          "evt_0107",
-          "evt_0145",
-          "evt_0148",
-          "evt_0161",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187"
         ],
         "shared_topics": [
           "fuel prices"
@@ -7672,7 +8381,7 @@
       }
     },
     {
-      "event_id": "evt_0109",
+      "event_id": "evt_0117",
       "source_item_ids": [
         "singleton_46bcb1b557af"
       ],
@@ -7737,7 +8446,7 @@
       }
     },
     {
-      "event_id": "evt_0110",
+      "event_id": "evt_0118",
       "source_item_ids": [
         "singleton_3b84da00401b"
       ],
@@ -7781,12 +8490,12 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0023",
-          "evt_0039",
-          "evt_0159",
-          "evt_0191",
-          "evt_0033",
-          "evt_0126"
+          "evt_0031",
+          "evt_0047",
+          "evt_0166",
+          "evt_0197",
+          "evt_0041",
+          "evt_0133"
         ],
         "shared_topics": [
           "cost of living",
@@ -7815,7 +8524,7 @@
       }
     },
     {
-      "event_id": "evt_0111",
+      "event_id": "evt_0119",
       "source_item_ids": [
         "singleton_7a66df83adf6"
       ],
@@ -7880,7 +8589,7 @@
       }
     },
     {
-      "event_id": "evt_0112",
+      "event_id": "evt_0120",
       "source_item_ids": [
         "singleton_0c0a0eb6ce8d"
       ],
@@ -7945,7 +8654,7 @@
       }
     },
     {
-      "event_id": "evt_0113",
+      "event_id": "evt_0121",
       "source_item_ids": [
         "singleton_e4efb238dce4"
       ],
@@ -8012,7 +8721,7 @@
       }
     },
     {
-      "event_id": "evt_0114",
+      "event_id": "evt_0122",
       "source_item_ids": [
         "singleton_cfc4707cf97a"
       ],
@@ -8079,7 +8788,7 @@
       }
     },
     {
-      "event_id": "evt_0115",
+      "event_id": "evt_0123",
       "source_item_ids": [
         "singleton_81e28ef28ccf"
       ],
@@ -8144,7 +8853,7 @@
       }
     },
     {
-      "event_id": "evt_0116",
+      "event_id": "evt_0124",
       "source_item_ids": [
         "singleton_b437a72dc1e9"
       ],
@@ -8187,8 +8896,8 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0089",
-          "evt_0205"
+          "evt_0097",
+          "evt_0211"
         ],
         "shared_topics": [
           "public safety"
@@ -8216,74 +8925,7 @@
       }
     },
     {
-      "event_id": "evt_0117",
-      "source_item_ids": [
-        "singleton_1a008076942c"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-24T22:14:13+01:00",
-      "category": "regional",
-      "event_type_guess": "international",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "French-Israeli billionaire Patrick Drahi to auction rare diamond from Africa’s richest mine with $2.8 million price tag",
-      "headline_original": "",
-      "summary": "Global auction house Sothebys, owned by French-Israeli billionaire Patrick Drahi, is preparing to auction a rare 28",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [
-          "Africa"
-        ],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "Business Insider Africa"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "French-Israeli billionaire Patrick Drahi to auction rare diamond from Africa’s richest mine with $2.8 million price tag",
-          "source": "Business Insider Africa",
-          "url": "https://africa.businessinsider.com/local/markets/french-israeli-billionaire-patrick-drahi-to-auction-rare-diamond-from-africas-richest/5ct265v",
-          "summary": "Global auction house Sothebys, owned by French-Israeli billionaire Patrick Drahi, is preparing to auction a rare 28",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 2,
-      "confidence": "medium",
-      "merge_hints": {
-        "related_event_ids": [],
-        "shared_topics": [],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "French-Israeli billionaire Patrick Drahi to auction rare diamond from Africa’s richest mine with $2.8 million price tag",
-        "lead_summary": "Global auction house Sothebys, owned by French-Israeli billionaire Patrick Drahi, is preparing to auction a rare 28",
-        "lead_source": "Business Insider Africa",
-        "lead_url": "https://africa.businessinsider.com/local/markets/french-israeli-billionaire-patrick-drahi-to-auction-rare-diamond-from-africas-richest/5ct265v",
-        "titles": [
-          "French-Israeli billionaire Patrick Drahi to auction rare diamond from Africa’s richest mine with $2.8 million price tag"
-        ],
-        "sources": [
-          "Business Insider Africa"
-        ],
-        "urls": [
-          "https://africa.businessinsider.com/local/markets/french-israeli-billionaire-patrick-drahi-to-auction-rare-diamond-from-africas-richest/5ct265v"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0118",
+      "event_id": "evt_0125",
       "source_item_ids": [
         "singleton_bf89616e703f"
       ],
@@ -8329,11 +8971,11 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0004",
-          "evt_0121",
-          "evt_0125",
-          "evt_0146",
-          "evt_0175"
+          "evt_0012",
+          "evt_0128",
+          "evt_0132",
+          "evt_0152",
+          "evt_0181"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -8361,7 +9003,7 @@
       }
     },
     {
-      "event_id": "evt_0119",
+      "event_id": "evt_0126",
       "source_item_ids": [
         "singleton_4b2a94c15c4f"
       ],
@@ -8379,8 +9021,8 @@
         "people": [],
         "organizations": [],
         "places": [
-          "Africa",
-          "France"
+          "France",
+          "Africa"
         ],
         "products": []
       },
@@ -8429,7 +9071,7 @@
       }
     },
     {
-      "event_id": "evt_0120",
+      "event_id": "evt_0127",
       "source_item_ids": [
         "2f6e1102175d"
       ],
@@ -8458,9 +9100,10 @@
       "source_count": 2,
       "cluster_size": 2,
       "source_names": [
-        "BBC News"
+        "BBC News",
+        "France 24"
       ],
-      "article_count": 2,
+      "article_count": 3,
       "articles": [
         {
           "title": "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
@@ -8474,6 +9117,13 @@
           "source": "France 24",
           "url": "",
           "summary": "Moscow launched nearly 1,000 drones at Ukraine within 24 hours in one of its biggest-ever daytime attacks, killing at least eight people and damaging a UNESCO heritage site in Lviv. Ukrainian President Volodymyr Zelensky on Tuesday slammed Moscow's \"absolute depravity\" and said Russia \"has no intention of actually ending this war\".",
+          "language": "en"
+        },
+        {
+          "title": "Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight",
+          "source": "France 24",
+          "url": "https://www.france24.com/en/europe/20260324-russia-launches-nearly-1000-drones-ukraine-in-24-hours",
+          "summary": "",
           "language": "en"
         }
       ],
@@ -8492,21 +9142,26 @@
         "lead_source": "BBC News",
         "lead_url": "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
         "titles": [
-          "Russia launches 948 drones at Ukraine in largest attack over 24-hour period"
+          "Russia launches 948 drones at Ukraine in largest attack over 24-hour period",
+          "Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight"
         ],
         "sources": [
-          "BBC News"
+          "BBC News",
+          "France 24"
         ],
         "urls": [
-          "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
+          "https://www.france24.com/en/europe/20260324-russia-launches-nearly-1000-drones-ukraine-in-24-hours"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "cluster_size": 2,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0121",
+      "event_id": "evt_0128",
       "source_item_ids": [
         "singleton_c9cf9cb99cc4"
       ],
@@ -8518,7 +9173,7 @@
       "language": "en",
       "headline": "Iran war pushes plastic packaging costs higher",
       "headline_original": "",
-      "summary": "Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war was going. Brent crude settled well above 100 dollars a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first, the EU and Australia sealed a landmark free trade agreement that will eliminate tariffs on most goods.",
+      "summary": "Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war is going. Brent crude settled well above $100 a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first: the EU and Australia have sealed a landmark free trade agreement that will eliminate tariffs on most goods.",
       "summary_original": "",
       "key_entities": {
         "people": [],
@@ -8543,7 +9198,7 @@
           "title": "Iran war pushes plastic packaging costs higher",
           "source": "France 24",
           "url": "https://www.france24.com/en/tv-shows/business/20260324-iran-war-pushes-plastic-packaging-costs-higher",
-          "summary": "Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war was going. Brent crude settled well above 100 dollars a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first, the EU and Australia sealed a landmark free trade agreement that will eliminate tariffs on most goods.",
+          "summary": "Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war is going. Brent crude settled well above $100 a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first: the EU and Australia have sealed a landmark free trade agreement that will eliminate tariffs on most goods.",
           "language": "en"
         }
       ],
@@ -8553,13 +9208,15 @@
       "merge_hints": {
         "related_event_ids": [
           "evt_0002",
-          "evt_0044",
-          "evt_0073",
-          "evt_0175",
           "evt_0004",
-          "evt_0118",
+          "evt_0052",
+          "evt_0081",
+          "evt_0161",
+          "evt_0181",
+          "evt_0012",
           "evt_0125",
-          "evt_0146"
+          "evt_0132",
+          "evt_0152"
         ],
         "shared_topics": [
           "trade"
@@ -8571,7 +9228,7 @@
       "notes": "singleton",
       "evidence": {
         "lead_title": "Iran war pushes plastic packaging costs higher",
-        "lead_summary": "Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war was going. Brent crude settled well above 100 dollars a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first, the EU and Australia sealed a landmark free trade agreement that will eliminate tariffs on most goods.",
+        "lead_summary": "Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war is going. Brent crude settled well above $100 a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first: the EU and Australia have sealed a landmark free trade agreement that will eliminate tariffs on most goods.",
         "lead_source": "France 24",
         "lead_url": "https://www.france24.com/en/tv-shows/business/20260324-iran-war-pushes-plastic-packaging-costs-higher",
         "titles": [
@@ -8589,7 +9246,7 @@
       }
     },
     {
-      "event_id": "evt_0122",
+      "event_id": "evt_0129",
       "source_item_ids": [
         "singleton_ee0c75209313"
       ],
@@ -8654,7 +9311,7 @@
       }
     },
     {
-      "event_id": "evt_0123",
+      "event_id": "evt_0130",
       "source_item_ids": [
         "singleton_77eb6399615f"
       ],
@@ -8721,7 +9378,7 @@
       }
     },
     {
-      "event_id": "evt_0124",
+      "event_id": "evt_0131",
       "source_item_ids": [
         "singleton_524bea00a2d5"
       ],
@@ -8786,7 +9443,7 @@
       }
     },
     {
-      "event_id": "evt_0125",
+      "event_id": "evt_0132",
       "source_item_ids": [
         "singleton_827d9066c801"
       ],
@@ -8833,11 +9490,11 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0004",
-          "evt_0118",
-          "evt_0121",
-          "evt_0146",
-          "evt_0175"
+          "evt_0012",
+          "evt_0125",
+          "evt_0128",
+          "evt_0152",
+          "evt_0181"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -8865,7 +9522,7 @@
       }
     },
     {
-      "event_id": "evt_0126",
+      "event_id": "evt_0133",
       "source_item_ids": [
         "singleton_a5b30bd59dfc"
       ],
@@ -8910,8 +9567,8 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0033",
-          "evt_0110"
+          "evt_0041",
+          "evt_0118"
         ],
         "shared_topics": [
           "elections"
@@ -8939,7 +9596,7 @@
       }
     },
     {
-      "event_id": "evt_0127",
+      "event_id": "evt_0134",
       "source_item_ids": [
         "singleton_8a0e7c3efe79"
       ],
@@ -9004,7 +9661,7 @@
       }
     },
     {
-      "event_id": "evt_0128",
+      "event_id": "evt_0135",
       "source_item_ids": [
         "singleton_44c8da52e619"
       ],
@@ -9069,7 +9726,7 @@
       }
     },
     {
-      "event_id": "evt_0129",
+      "event_id": "evt_0136",
       "source_item_ids": [
         "singleton_6c3cd0a0e50d"
       ],
@@ -9134,74 +9791,7 @@
       }
     },
     {
-      "event_id": "evt_0130",
-      "source_item_ids": [
-        "singleton_efa6b5b386c3"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-24T20:07:00+00:00",
-      "category": "regional",
-      "event_type_guess": "politics",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth",
-      "headline_original": "",
-      "summary": "[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the second edition of the International Exhibition of Extractive and Energy Resources (SIREXE). In the presence of the country's highest authorities and the Minister of Minerals and Energy of Botswana, the guest of honour, Côte d'Ivoire reaffirmed its ambition to",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [
-          "Africa"
-        ],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "AllAfrica"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth",
-          "source": "AllAfrica",
-          "url": "https://allafrica.com/stories/202603240671.html",
-          "summary": "[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the second edition of the International Exhibition of Extractive and Energy Resources (SIREXE). In the presence of the country's highest authorities and the Minister of Minerals and Energy of Botswana, the guest of honour, Côte d'Ivoire reaffirmed its ambition to",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 4,
-      "confidence": "high",
-      "merge_hints": {
-        "related_event_ids": [],
-        "shared_topics": [],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth",
-        "lead_summary": "[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the second edition of the International Exhibition of Extractive and Energy Resources (SIREXE). In the presence of the country's highest authorities and the Minister of Minerals and Energy of Botswana, the guest of honour, Côte d'Ivoire reaffirmed its ambition to",
-        "lead_source": "AllAfrica",
-        "lead_url": "https://allafrica.com/stories/202603240671.html",
-        "titles": [
-          "Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth"
-        ],
-        "sources": [
-          "AllAfrica"
-        ],
-        "urls": [
-          "https://allafrica.com/stories/202603240671.html"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0131",
+      "event_id": "evt_0137",
       "source_item_ids": [
         "singleton_bebf1a783e67"
       ],
@@ -9266,7 +9856,7 @@
       }
     },
     {
-      "event_id": "evt_0132",
+      "event_id": "evt_0138",
       "source_item_ids": [
         "singleton_ce0188aa1c79"
       ],
@@ -9335,7 +9925,7 @@
       }
     },
     {
-      "event_id": "evt_0133",
+      "event_id": "evt_0139",
       "source_item_ids": [
         "singleton_fc4c6586b6a5"
       ],
@@ -9404,7 +9994,7 @@
       }
     },
     {
-      "event_id": "evt_0134",
+      "event_id": "evt_0140",
       "source_item_ids": [
         "singleton_e6800f7b819a"
       ],
@@ -9447,7 +10037,7 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0059"
+          "evt_0067"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -9475,7 +10065,7 @@
       }
     },
     {
-      "event_id": "evt_0135",
+      "event_id": "evt_0141",
       "source_item_ids": [
         "singleton_96f952913903"
       ],
@@ -9540,7 +10130,7 @@
       }
     },
     {
-      "event_id": "evt_0136",
+      "event_id": "evt_0142",
       "source_item_ids": [
         "singleton_37a9bf8555df"
       ],
@@ -9607,7 +10197,7 @@
       }
     },
     {
-      "event_id": "evt_0137",
+      "event_id": "evt_0143",
       "source_item_ids": [
         "singleton_66cd8924cc21"
       ],
@@ -9672,7 +10262,7 @@
       }
     },
     {
-      "event_id": "evt_0138",
+      "event_id": "evt_0144",
       "source_item_ids": [
         "singleton_b38fbb899dd7"
       ],
@@ -9716,11 +10306,11 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0005",
-          "evt_0022",
-          "evt_0086",
-          "evt_0029",
-          "evt_0069"
+          "evt_0018",
+          "evt_0030",
+          "evt_0094",
+          "evt_0037",
+          "evt_0077"
         ],
         "shared_topics": [
           "environment",
@@ -9749,7 +10339,7 @@
       }
     },
     {
-      "event_id": "evt_0139",
+      "event_id": "evt_0145",
       "source_item_ids": [
         "singleton_b3d0da042a01"
       ],
@@ -9816,7 +10406,7 @@
       }
     },
     {
-      "event_id": "evt_0140",
+      "event_id": "evt_0146",
       "source_item_ids": [
         "singleton_fccfb37b0329"
       ],
@@ -9881,7 +10471,7 @@
       }
     },
     {
-      "event_id": "evt_0141",
+      "event_id": "evt_0147",
       "source_item_ids": [
         "singleton_334137c6a29b"
       ],
@@ -9948,7 +10538,7 @@
       }
     },
     {
-      "event_id": "evt_0142",
+      "event_id": "evt_0148",
       "source_item_ids": [
         "singleton_d7694e3fff17"
       ],
@@ -10013,7 +10603,7 @@
       }
     },
     {
-      "event_id": "evt_0143",
+      "event_id": "evt_0149",
       "source_item_ids": [
         "singleton_c102fc39c72c"
       ],
@@ -10057,9 +10647,9 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0050",
-          "evt_0159",
-          "evt_0182"
+          "evt_0058",
+          "evt_0166",
+          "evt_0188"
         ],
         "shared_topics": [
           "inflation"
@@ -10087,7 +10677,7 @@
       }
     },
     {
-      "event_id": "evt_0144",
+      "event_id": "evt_0150",
       "source_item_ids": [
         "singleton_653b63209a98"
       ],
@@ -10152,7 +10742,7 @@
       }
     },
     {
-      "event_id": "evt_0145",
+      "event_id": "evt_0151",
       "source_item_ids": [
         "singleton_d72f3d387394"
       ],
@@ -10196,16 +10786,17 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029",
-          "evt_0034",
-          "evt_0069",
-          "evt_0095",
-          "evt_0106",
-          "evt_0107",
-          "evt_0108",
-          "evt_0148",
-          "evt_0161",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0154",
+          "evt_0168",
+          "evt_0187"
         ],
         "shared_topics": [
           "fuel prices"
@@ -10233,7 +10824,7 @@
       }
     },
     {
-      "event_id": "evt_0146",
+      "event_id": "evt_0152",
       "source_item_ids": [
         "84324111bfbb"
       ],
@@ -10261,9 +10852,10 @@
       "source_count": 2,
       "cluster_size": 3,
       "source_names": [
-        "BBC Africa"
+        "BBC Africa",
+        "Africanews"
       ],
-      "article_count": 3,
+      "article_count": 5,
       "articles": [
         {
           "title": "Ghana and EU sign landmark defence deal to combat militant Islamist threat",
@@ -10285,6 +10877,20 @@
           "url": "",
           "summary": "Ghana and the European Union on Tuesday signed their first formal defence partnership, as the country presents itself as a regional bulwark against the growing jihadist violence roiling west Africa.",
           "language": "en"
+        },
+        {
+          "title": "Ghana, European Union agree defence pact",
+          "source": "Africanews",
+          "url": "http://www.africanews.com/2026/03/24/ghana-european-union-agree-defence-pact/",
+          "summary": "",
+          "language": "en"
+        },
+        {
+          "title": "Ghana, EU sign first pact to counter West Africa's growing insecurity",
+          "source": "",
+          "url": "http://www.africanews.com/2026/03/24/ghana-eu-sign-first-pact-to-counter-west-africas-growing-insecurity/",
+          "summary": "",
+          "language": "en"
         }
       ],
       "mauritius_relevance_guess": 4,
@@ -10292,11 +10898,11 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0004",
-          "evt_0118",
-          "evt_0121",
+          "evt_0012",
           "evt_0125",
-          "evt_0175"
+          "evt_0128",
+          "evt_0132",
+          "evt_0181"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -10310,21 +10916,28 @@
         "lead_source": "BBC Africa",
         "lead_url": "https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&at_campaign=rss",
         "titles": [
-          "Ghana and EU sign landmark defence deal to combat militant Islamist threat"
+          "Ghana and EU sign landmark defence deal to combat militant Islamist threat",
+          "Ghana, European Union agree defence pact",
+          "Ghana, EU sign first pact to counter West Africa's growing insecurity"
         ],
         "sources": [
-          "BBC Africa"
+          "BBC Africa",
+          "Africanews"
         ],
         "urls": [
-          "https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&at_campaign=rss"
+          "https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&at_campaign=rss",
+          "http://www.africanews.com/2026/03/24/ghana-european-union-agree-defence-pact/",
+          "http://www.africanews.com/2026/03/24/ghana-eu-sign-first-pact-to-counter-west-africas-growing-insecurity/"
         ],
-        "languages": [],
+        "languages": [
+          "en"
+        ],
         "cluster_size": 3,
         "source_count": 2
       }
     },
     {
-      "event_id": "evt_0147",
+      "event_id": "evt_0153",
       "source_item_ids": [
         "singleton_d20ae7a3038b"
       ],
@@ -10393,7 +11006,7 @@
       }
     },
     {
-      "event_id": "evt_0148",
+      "event_id": "evt_0154",
       "source_item_ids": [
         "singleton_314955fe3ab0"
       ],
@@ -10437,16 +11050,17 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029",
-          "evt_0034",
-          "evt_0069",
-          "evt_0095",
-          "evt_0106",
-          "evt_0107",
-          "evt_0108",
-          "evt_0145",
-          "evt_0161",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0168",
+          "evt_0187"
         ],
         "shared_topics": [
           "fuel prices"
@@ -10474,7 +11088,7 @@
       }
     },
     {
-      "event_id": "evt_0149",
+      "event_id": "evt_0155",
       "source_item_ids": [
         "singleton_edd17cd453d6"
       ],
@@ -10541,7 +11155,7 @@
       }
     },
     {
-      "event_id": "evt_0150",
+      "event_id": "evt_0156",
       "source_item_ids": [
         "singleton_4d08a072a057"
       ],
@@ -10585,15 +11199,15 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0016",
-          "evt_0022",
           "evt_0023",
-          "evt_0039",
-          "evt_0102",
-          "evt_0159",
-          "evt_0191",
-          "evt_0199",
-          "evt_0204"
+          "evt_0030",
+          "evt_0031",
+          "evt_0047",
+          "evt_0110",
+          "evt_0166",
+          "evt_0197",
+          "evt_0205",
+          "evt_0210"
         ],
         "shared_topics": [
           "parliament"
@@ -10621,7 +11235,7 @@
       }
     },
     {
-      "event_id": "evt_0151",
+      "event_id": "evt_0157",
       "source_item_ids": [
         "singleton_ef6963e8d70a"
       ],
@@ -10686,7 +11300,7 @@
       }
     },
     {
-      "event_id": "evt_0152",
+      "event_id": "evt_0158",
       "source_item_ids": [
         "singleton_c26e2ce14dfc"
       ],
@@ -10753,7 +11367,7 @@
       }
     },
     {
-      "event_id": "evt_0153",
+      "event_id": "evt_0159",
       "source_item_ids": [
         "singleton_748d2d7f828f"
       ],
@@ -10818,7 +11432,7 @@
       }
     },
     {
-      "event_id": "evt_0154",
+      "event_id": "evt_0160",
       "source_item_ids": [
         "singleton_cedd846197b9"
       ],
@@ -10885,9 +11499,89 @@
       }
     },
     {
-      "event_id": "evt_0155",
+      "event_id": "evt_0161",
       "source_item_ids": [
-        "018128b64ecf"
+        "singleton_bb9b37da3c65"
+      ],
+      "candidate_kind": "news_event",
+      "cluster_time": "2026-03-24T15:40:30+00:00",
+      "category": "regional",
+      "event_type_guess": "economy",
+      "event_type_confidence": "keyword",
+      "language": "en",
+      "headline": "Central Africa: UAE and CEMAC - A Gradually Expanding Economic Partnership",
+      "headline_original": "",
+      "summary": "[InfoWire] For decades, the member states of the Central African Economic and Monetary Community (CEMAC) have maintained close economic and diplomatic ties with partners such as France, China, the United States and the European Union. These relationships continue to structure the region's external engagement, particularly in infrastructure, finance, and trade. Yet shifts in the global political economy are gradually reshaping this landscape, with emerging actors expanding their presence across A",
+      "summary_original": "",
+      "key_entities": {
+        "people": [],
+        "organizations": [],
+        "places": [
+          "France",
+          "Africa",
+          "China"
+        ],
+        "products": []
+      },
+      "topics": [
+        "trade"
+      ],
+      "source_count": 1,
+      "cluster_size": 1,
+      "source_names": [
+        "AllAfrica"
+      ],
+      "article_count": 1,
+      "articles": [
+        {
+          "title": "Central Africa: UAE and CEMAC - A Gradually Expanding Economic Partnership",
+          "source": "AllAfrica",
+          "url": "https://allafrica.com/stories/202603240488.html",
+          "summary": "[InfoWire] For decades, the member states of the Central African Economic and Monetary Community (CEMAC) have maintained close economic and diplomatic ties with partners such as France, China, the United States and the European Union. These relationships continue to structure the region's external engagement, particularly in infrastructure, finance, and trade. Yet shifts in the global political economy are gradually reshaping this landscape, with emerging actors expanding their presence across A",
+          "language": "en"
+        }
+      ],
+      "mauritius_relevance_guess": 4,
+      "editorial_priority_guess": 4,
+      "confidence": "high",
+      "merge_hints": {
+        "related_event_ids": [
+          "evt_0002",
+          "evt_0004",
+          "evt_0052",
+          "evt_0081",
+          "evt_0128",
+          "evt_0181"
+        ],
+        "shared_topics": [
+          "trade"
+        ],
+        "shared_entities": []
+      },
+      "notes": "singleton",
+      "evidence": {
+        "lead_title": "Central Africa: UAE and CEMAC - A Gradually Expanding Economic Partnership",
+        "lead_summary": "[InfoWire] For decades, the member states of the Central African Economic and Monetary Community (CEMAC) have maintained close economic and diplomatic ties with partners such as France, China, the United States and the European Union. These relationships continue to structure the region's external engagement, particularly in infrastructure, finance, and trade. Yet shifts in the global political economy are gradually reshaping this landscape, with emerging actors expanding their presence across A",
+        "lead_source": "AllAfrica",
+        "lead_url": "https://allafrica.com/stories/202603240488.html",
+        "titles": [
+          "Central Africa: UAE and CEMAC - A Gradually Expanding Economic Partnership"
+        ],
+        "sources": [
+          "AllAfrica"
+        ],
+        "urls": [
+          "https://allafrica.com/stories/202603240488.html"
+        ],
+        "languages": [],
+        "cluster_size": 1,
+        "source_count": 1
+      }
+    },
+    {
+      "event_id": "evt_0162",
+      "source_item_ids": [
+        "singleton_ba8a515e92c6"
       ],
       "candidate_kind": "news_event",
       "cluster_time": "2026-03-24T15:30:35+00:00",
@@ -10897,25 +11591,23 @@
       "language": "en",
       "headline": "Djibouti: Djibouti's New Horizon - President Guelleh Unveils $480 Million 'Salaam City'",
       "headline_original": "",
-      "summary": "[AllAfrica] [Shabelle] Djibouti City -- H.E. Ismail Omar Guelleh, President of the Republic of Djibouti, on Monday launched a $480 million residential project dubbed \"Salaam City,\" as Djibouti steps up efforts to meet rising housing demand driven by rapid economic growth. [AllAfrica] [Nile Post] President Ismail Omar Guelleh on Monday led the groundbreaking for Salaam City, the largest residential development in Djibouti's history, marking a significant step in the nation's urban expansion.",
+      "summary": "[Shabelle] Djibouti City -- H.E. Ismail Omar Guelleh, President of the Republic of Djibouti, on Monday launched a $480 million residential project dubbed \"Salaam City,\" as Djibouti steps up efforts to meet rising housing demand driven by rapid economic growth.",
       "summary_original": "",
       "key_entities": {
         "people": [],
         "organizations": [],
-        "places": [
-          "Africa"
-        ],
+        "places": [],
         "products": []
       },
       "topics": [
         "housing"
       ],
       "source_count": 1,
-      "cluster_size": 2,
+      "cluster_size": 1,
       "source_names": [
         "AllAfrica"
       ],
-      "article_count": 2,
+      "article_count": 1,
       "articles": [
         {
           "title": "Djibouti: Djibouti's New Horizon - President Guelleh Unveils $480 Million 'Salaam City'",
@@ -10923,27 +11615,20 @@
           "url": "https://allafrica.com/stories/202603240462.html",
           "summary": "[Shabelle] Djibouti City -- H.E. Ismail Omar Guelleh, President of the Republic of Djibouti, on Monday launched a $480 million residential project dubbed \"Salaam City,\" as Djibouti steps up efforts to meet rising housing demand driven by rapid economic growth.",
           "language": "en"
-        },
-        {
-          "title": "",
-          "source": "AllAfrica",
-          "url": "",
-          "summary": "[Nile Post] President Ismail Omar Guelleh on Monday led the groundbreaking for Salaam City, the largest residential development in Djibouti's history, marking a significant step in the nation's urban expansion.",
-          "language": "en"
         }
       ],
       "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 5,
-      "confidence": "high",
+      "editorial_priority_guess": 4,
+      "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [],
         "shared_topics": [],
         "shared_entities": []
       },
-      "notes": "same-source bundle only",
+      "notes": "singleton",
       "evidence": {
         "lead_title": "Djibouti: Djibouti's New Horizon - President Guelleh Unveils $480 Million 'Salaam City'",
-        "lead_summary": "[AllAfrica] [Shabelle] Djibouti City -- H.E. Ismail Omar Guelleh, President of the Republic of Djibouti, on Monday launched a $480 million residential project dubbed \"Salaam City,\" as Djibouti steps up efforts to meet rising housing demand driven by rapid economic growth.\n\n[AllAfrica] [Nile Post] President Ismail Omar Guelleh on Monday led the groundbreaking for Salaam City, the largest residential development in Djibouti's history, marking a significant step in the nation's urban expansion.",
+        "lead_summary": "[Shabelle] Djibouti City -- H.E. Ismail Omar Guelleh, President of the Republic of Djibouti, on Monday launched a $480 million residential project dubbed \"Salaam City,\" as Djibouti steps up efforts to meet rising housing demand driven by rapid economic growth.",
         "lead_source": "AllAfrica",
         "lead_url": "https://allafrica.com/stories/202603240462.html",
         "titles": [
@@ -10956,12 +11641,12 @@
           "https://allafrica.com/stories/202603240462.html"
         ],
         "languages": [],
-        "cluster_size": 2,
+        "cluster_size": 1,
         "source_count": 1
       }
     },
     {
-      "event_id": "evt_0156",
+      "event_id": "evt_0163",
       "source_item_ids": [
         "singleton_9217ee87aca0"
       ],
@@ -11026,7 +11711,7 @@
       }
     },
     {
-      "event_id": "evt_0157",
+      "event_id": "evt_0164",
       "source_item_ids": [
         "singleton_b10c212aa7b8"
       ],
@@ -11091,7 +11776,7 @@
       }
     },
     {
-      "event_id": "evt_0158",
+      "event_id": "evt_0165",
       "source_item_ids": [
         "singleton_a9e68f7ffcc2"
       ],
@@ -11158,7 +11843,7 @@
       }
     },
     {
-      "event_id": "evt_0159",
+      "event_id": "evt_0166",
       "source_item_ids": [
         "singleton_0afcacf85c49"
       ],
@@ -11204,19 +11889,19 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0016",
-          "evt_0022",
           "evt_0023",
-          "evt_0039",
-          "evt_0102",
-          "evt_0150",
-          "evt_0191",
-          "evt_0199",
-          "evt_0204",
+          "evt_0030",
+          "evt_0031",
+          "evt_0047",
           "evt_0110",
-          "evt_0050",
-          "evt_0143",
-          "evt_0182"
+          "evt_0156",
+          "evt_0197",
+          "evt_0205",
+          "evt_0210",
+          "evt_0118",
+          "evt_0058",
+          "evt_0149",
+          "evt_0188"
         ],
         "shared_topics": [
           "parliament",
@@ -11246,7 +11931,7 @@
       }
     },
     {
-      "event_id": "evt_0160",
+      "event_id": "evt_0167",
       "source_item_ids": [
         "singleton_d759839dd492"
       ],
@@ -11295,12 +11980,11 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0026",
-          "evt_0030",
-          "evt_0204",
-          "evt_0027",
-          "evt_0170",
-          "evt_0215"
+          "evt_0034",
+          "evt_0038",
+          "evt_0210",
+          "evt_0035",
+          "evt_0176"
         ],
         "shared_topics": [
           "corruption"
@@ -11330,7 +12014,7 @@
       }
     },
     {
-      "event_id": "evt_0161",
+      "event_id": "evt_0168",
       "source_item_ids": [
         "singleton_63f247c3129a"
       ],
@@ -11377,23 +12061,24 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0018",
-          "evt_0071",
-          "evt_0087",
-          "evt_0029",
-          "evt_0034",
-          "evt_0069",
-          "evt_0095",
-          "evt_0106",
-          "evt_0107",
-          "evt_0108",
-          "evt_0145",
-          "evt_0148",
-          "evt_0181"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0187",
+          "evt_0025",
+          "evt_0079",
+          "evt_0095"
         ],
         "shared_topics": [
-          "electricity",
-          "fuel prices"
+          "fuel prices",
+          "electricity"
         ],
         "shared_entities": [
           "CEB"
@@ -11420,7 +12105,7 @@
       }
     },
     {
-      "event_id": "evt_0162",
+      "event_id": "evt_0169",
       "source_item_ids": [
         "singleton_b1d28bb5fdaa"
       ],
@@ -11485,7 +12170,7 @@
       }
     },
     {
-      "event_id": "evt_0163",
+      "event_id": "evt_0170",
       "source_item_ids": [
         "singleton_223d1cd66eac"
       ],
@@ -11550,7 +12235,7 @@
       }
     },
     {
-      "event_id": "evt_0164",
+      "event_id": "evt_0171",
       "source_item_ids": [
         "singleton_086257ffd7c9"
       ],
@@ -11595,7 +12280,7 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029"
+          "evt_0037"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -11623,7 +12308,7 @@
       }
     },
     {
-      "event_id": "evt_0165",
+      "event_id": "evt_0172",
       "source_item_ids": [
         "singleton_489f21bb5112"
       ],
@@ -11691,72 +12376,7 @@
       }
     },
     {
-      "event_id": "evt_0166",
-      "source_item_ids": [
-        "singleton_dc3ed2173897"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-24T13:22:53+01:00",
-      "category": "regional",
-      "event_type_guess": "business",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "March shoulder season in Europe and Asia: Fewer crowds",
-      "headline_original": "",
-      "summary": "Experienced travelers know that planning a truly memorable vacation and choosing the right timing is not easy. While some tourists organize trips during the peak season and complain about crowded streets, others take full advantage of the March shoulder season. During this period, flights and hotels are usually more affordable, queues are almost nonexistent, and cities live in their usual rhythm without the overwhelming tourist crowds.",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "Business Insider Africa"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "March shoulder season in Europe and Asia: Fewer crowds – more opportunities",
-          "source": "Business Insider Africa",
-          "url": "https://africa.businessinsider.com/local/lifestyle/march-shoulder-season-in-europe-and-asia-fewer-crowds-more-opportunities/3yce28q",
-          "summary": "Experienced travelers know that planning a truly memorable vacation and choosing the right timing is not easy. While some tourists organize trips during the peak season and complain about crowded streets, others take full advantage of the March shoulder season. During this period, flights and hotels are usually more affordable, queues are almost nonexistent, and cities live in their usual rhythm without the overwhelming tourist crowds.",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 2,
-      "confidence": "high",
-      "merge_hints": {
-        "related_event_ids": [],
-        "shared_topics": [],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "March shoulder season in Europe and Asia: Fewer crowds – more opportunities",
-        "lead_summary": "Experienced travelers know that planning a truly memorable vacation and choosing the right timing is not easy. While some tourists organize trips during the peak season and complain about crowded streets, others take full advantage of the March shoulder season. During this period, flights and hotels are usually more affordable, queues are almost nonexistent, and cities live in their usual rhythm without the overwhelming tourist crowds.",
-        "lead_source": "Business Insider Africa",
-        "lead_url": "https://africa.businessinsider.com/local/lifestyle/march-shoulder-season-in-europe-and-asia-fewer-crowds-more-opportunities/3yce28q",
-        "titles": [
-          "March shoulder season in Europe and Asia: Fewer crowds – more opportunities"
-        ],
-        "sources": [
-          "Business Insider Africa"
-        ],
-        "urls": [
-          "https://africa.businessinsider.com/local/lifestyle/march-shoulder-season-in-europe-and-asia-fewer-crowds-more-opportunities/3yce28q"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0167",
+      "event_id": "evt_0173",
       "source_item_ids": [
         "singleton_886828f9b39e"
       ],
@@ -11799,7 +12419,7 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0035"
+          "evt_0043"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -11827,7 +12447,7 @@
       }
     },
     {
-      "event_id": "evt_0168",
+      "event_id": "evt_0174",
       "source_item_ids": [
         "singleton_612be681b934"
       ],
@@ -11894,7 +12514,7 @@
       }
     },
     {
-      "event_id": "evt_0169",
+      "event_id": "evt_0175",
       "source_item_ids": [
         "singleton_322549559fe8"
       ],
@@ -11961,7 +12581,7 @@
       }
     },
     {
-      "event_id": "evt_0170",
+      "event_id": "evt_0176",
       "source_item_ids": [
         "singleton_368aeae4f557"
       ],
@@ -12006,13 +12626,12 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0188",
-          "evt_0026",
-          "evt_0027",
-          "evt_0030",
-          "evt_0160",
-          "evt_0204",
-          "evt_0215"
+          "evt_0194",
+          "evt_0034",
+          "evt_0035",
+          "evt_0038",
+          "evt_0167",
+          "evt_0210"
         ],
         "shared_topics": [
           "prisons"
@@ -12042,7 +12661,7 @@
       }
     },
     {
-      "event_id": "evt_0171",
+      "event_id": "evt_0177",
       "source_item_ids": [
         "singleton_869c3ef7e638"
       ],
@@ -12109,7 +12728,7 @@
       }
     },
     {
-      "event_id": "evt_0172",
+      "event_id": "evt_0178",
       "source_item_ids": [
         "singleton_d8dc6056fb3d"
       ],
@@ -12174,7 +12793,7 @@
       }
     },
     {
-      "event_id": "evt_0173",
+      "event_id": "evt_0179",
       "source_item_ids": [
         "singleton_690f897ba7e2"
       ],
@@ -12241,7 +12860,7 @@
       }
     },
     {
-      "event_id": "evt_0174",
+      "event_id": "evt_0180",
       "source_item_ids": [
         "singleton_eca850644609"
       ],
@@ -12308,7 +12927,7 @@
       }
     },
     {
-      "event_id": "evt_0175",
+      "event_id": "evt_0181",
       "source_item_ids": [
         "singleton_2438f978f3f6"
       ],
@@ -12354,13 +12973,15 @@
       "merge_hints": {
         "related_event_ids": [
           "evt_0002",
-          "evt_0044",
-          "evt_0073",
-          "evt_0121",
           "evt_0004",
-          "evt_0118",
+          "evt_0052",
+          "evt_0081",
+          "evt_0128",
+          "evt_0161",
+          "evt_0012",
           "evt_0125",
-          "evt_0146"
+          "evt_0132",
+          "evt_0152"
         ],
         "shared_topics": [
           "trade"
@@ -12390,7 +13011,7 @@
       }
     },
     {
-      "event_id": "evt_0176",
+      "event_id": "evt_0182",
       "source_item_ids": [
         "singleton_c812b5da448a"
       ],
@@ -12455,7 +13076,7 @@
       }
     },
     {
-      "event_id": "evt_0177",
+      "event_id": "evt_0183",
       "source_item_ids": [
         "singleton_cc59099651dd"
       ],
@@ -12522,7 +13143,7 @@
       }
     },
     {
-      "event_id": "evt_0178",
+      "event_id": "evt_0184",
       "source_item_ids": [
         "singleton_72e4fd480dc2"
       ],
@@ -12589,7 +13210,7 @@
       }
     },
     {
-      "event_id": "evt_0179",
+      "event_id": "evt_0185",
       "source_item_ids": [
         "singleton_fd015a320c52"
       ],
@@ -12657,7 +13278,7 @@
       }
     },
     {
-      "event_id": "evt_0180",
+      "event_id": "evt_0186",
       "source_item_ids": [
         "singleton_eee689a6018d"
       ],
@@ -12722,7 +13343,7 @@
       }
     },
     {
-      "event_id": "evt_0181",
+      "event_id": "evt_0187",
       "source_item_ids": [
         "singleton_4b5868c206bb"
       ],
@@ -12769,16 +13390,17 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0029",
-          "evt_0034",
-          "evt_0069",
-          "evt_0095",
-          "evt_0106",
-          "evt_0107",
-          "evt_0108",
-          "evt_0145",
-          "evt_0148",
-          "evt_0161"
+          "evt_0015",
+          "evt_0037",
+          "evt_0042",
+          "evt_0077",
+          "evt_0103",
+          "evt_0114",
+          "evt_0115",
+          "evt_0116",
+          "evt_0151",
+          "evt_0154",
+          "evt_0168"
         ],
         "shared_topics": [
           "fuel prices"
@@ -12806,7 +13428,7 @@
       }
     },
     {
-      "event_id": "evt_0182",
+      "event_id": "evt_0188",
       "source_item_ids": [
         "singleton_896087e3bc36"
       ],
@@ -12852,9 +13474,9 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0050",
-          "evt_0143",
-          "evt_0159"
+          "evt_0058",
+          "evt_0149",
+          "evt_0166"
         ],
         "shared_topics": [
           "inflation"
@@ -12882,7 +13504,7 @@
       }
     },
     {
-      "event_id": "evt_0183",
+      "event_id": "evt_0189",
       "source_item_ids": [
         "singleton_57184c68d329"
       ],
@@ -12949,7 +13571,7 @@
       }
     },
     {
-      "event_id": "evt_0184",
+      "event_id": "evt_0190",
       "source_item_ids": [
         "singleton_c3725152ee61"
       ],
@@ -13016,7 +13638,7 @@
       }
     },
     {
-      "event_id": "evt_0185",
+      "event_id": "evt_0191",
       "source_item_ids": [
         "singleton_4967321fd297"
       ],
@@ -13081,7 +13703,7 @@
       }
     },
     {
-      "event_id": "evt_0186",
+      "event_id": "evt_0192",
       "source_item_ids": [
         "singleton_94fb6a9865e8"
       ],
@@ -13150,7 +13772,7 @@
       }
     },
     {
-      "event_id": "evt_0187",
+      "event_id": "evt_0193",
       "source_item_ids": [
         "singleton_5e9aaf1ddc9f"
       ],
@@ -13219,7 +13841,7 @@
       }
     },
     {
-      "event_id": "evt_0188",
+      "event_id": "evt_0194",
       "source_item_ids": [
         "singleton_7dcad719d87c"
       ],
@@ -13262,7 +13884,7 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0170"
+          "evt_0176"
         ],
         "shared_topics": [
           "prisons"
@@ -13290,7 +13912,7 @@
       }
     },
     {
-      "event_id": "evt_0189",
+      "event_id": "evt_0195",
       "source_item_ids": [
         "singleton_f5e6181f72e1"
       ],
@@ -13355,7 +13977,7 @@
       }
     },
     {
-      "event_id": "evt_0190",
+      "event_id": "evt_0196",
       "source_item_ids": [
         "singleton_326b7fb37c86"
       ],
@@ -13420,7 +14042,7 @@
       }
     },
     {
-      "event_id": "evt_0191",
+      "event_id": "evt_0197",
       "source_item_ids": [
         "singleton_49d748ee4995"
       ],
@@ -13465,16 +14087,16 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0016",
-          "evt_0022",
           "evt_0023",
-          "evt_0039",
-          "evt_0102",
-          "evt_0150",
-          "evt_0159",
-          "evt_0199",
-          "evt_0204",
-          "evt_0110"
+          "evt_0030",
+          "evt_0031",
+          "evt_0047",
+          "evt_0110",
+          "evt_0156",
+          "evt_0166",
+          "evt_0205",
+          "evt_0210",
+          "evt_0118"
         ],
         "shared_topics": [
           "parliament",
@@ -13503,7 +14125,7 @@
       }
     },
     {
-      "event_id": "evt_0192",
+      "event_id": "evt_0198",
       "source_item_ids": [
         "singleton_c50aecf888c4"
       ],
@@ -13568,7 +14190,7 @@
       }
     },
     {
-      "event_id": "evt_0193",
+      "event_id": "evt_0199",
       "source_item_ids": [
         "singleton_7e55668df9bc"
       ],
@@ -13635,7 +14257,7 @@
       }
     },
     {
-      "event_id": "evt_0194",
+      "event_id": "evt_0200",
       "source_item_ids": [
         "singleton_b511ca24d11d"
       ],
@@ -13681,11 +14303,11 @@
       "confidence": "high",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0024",
-          "evt_0030",
-          "evt_0092",
-          "evt_0095",
-          "evt_0027"
+          "evt_0032",
+          "evt_0038",
+          "evt_0100",
+          "evt_0103",
+          "evt_0035"
         ],
         "shared_topics": [
           "airport",
@@ -13716,7 +14338,7 @@
       }
     },
     {
-      "event_id": "evt_0195",
+      "event_id": "evt_0201",
       "source_item_ids": [
         "singleton_8b090963861f"
       ],
@@ -13781,7 +14403,7 @@
       }
     },
     {
-      "event_id": "evt_0196",
+      "event_id": "evt_0202",
       "source_item_ids": [
         "singleton_c25eb94a9d00"
       ],
@@ -13850,7 +14472,7 @@
       }
     },
     {
-      "event_id": "evt_0197",
+      "event_id": "evt_0203",
       "source_item_ids": [
         "singleton_41330c8fe51e"
       ],
@@ -13917,7 +14539,7 @@
       }
     },
     {
-      "event_id": "evt_0198",
+      "event_id": "evt_0204",
       "source_item_ids": [
         "singleton_8680b3e4b1cf"
       ],
@@ -13982,7 +14604,7 @@
       }
     },
     {
-      "event_id": "evt_0199",
+      "event_id": "evt_0205",
       "source_item_ids": [
         "singleton_35afd79dde64"
       ],
@@ -14025,15 +14647,15 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0016",
-          "evt_0022",
           "evt_0023",
-          "evt_0039",
-          "evt_0102",
-          "evt_0150",
-          "evt_0159",
-          "evt_0191",
-          "evt_0204"
+          "evt_0030",
+          "evt_0031",
+          "evt_0047",
+          "evt_0110",
+          "evt_0156",
+          "evt_0166",
+          "evt_0197",
+          "evt_0210"
         ],
         "shared_topics": [
           "parliament"
@@ -14061,7 +14683,7 @@
       }
     },
     {
-      "event_id": "evt_0200",
+      "event_id": "evt_0206",
       "source_item_ids": [
         "singleton_05a8e39f0157"
       ],
@@ -14129,7 +14751,7 @@
       }
     },
     {
-      "event_id": "evt_0201",
+      "event_id": "evt_0207",
       "source_item_ids": [
         "singleton_6f491c4cf355"
       ],
@@ -14197,7 +14819,7 @@
       }
     },
     {
-      "event_id": "evt_0202",
+      "event_id": "evt_0208",
       "source_item_ids": [
         "singleton_90158d15df69"
       ],
@@ -14264,7 +14886,7 @@
       }
     },
     {
-      "event_id": "evt_0203",
+      "event_id": "evt_0209",
       "source_item_ids": [
         "singleton_03b8de6fb722"
       ],
@@ -14329,7 +14951,7 @@
       }
     },
     {
-      "event_id": "evt_0204",
+      "event_id": "evt_0210",
       "source_item_ids": [
         "singleton_6691fafff532"
       ],
@@ -14379,21 +15001,20 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0016",
-          "evt_0022",
           "evt_0023",
-          "evt_0039",
-          "evt_0102",
-          "evt_0150",
-          "evt_0159",
-          "evt_0191",
-          "evt_0199",
-          "evt_0026",
           "evt_0030",
-          "evt_0160",
-          "evt_0027",
-          "evt_0170",
-          "evt_0215"
+          "evt_0031",
+          "evt_0047",
+          "evt_0110",
+          "evt_0156",
+          "evt_0166",
+          "evt_0197",
+          "evt_0205",
+          "evt_0034",
+          "evt_0038",
+          "evt_0167",
+          "evt_0035",
+          "evt_0176"
         ],
         "shared_topics": [
           "parliament",
@@ -14424,7 +15045,7 @@
       }
     },
     {
-      "event_id": "evt_0205",
+      "event_id": "evt_0211",
       "source_item_ids": [
         "singleton_5e5d767efd6d"
       ],
@@ -14467,8 +15088,8 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0089",
-          "evt_0116"
+          "evt_0097",
+          "evt_0124"
         ],
         "shared_topics": [
           "public safety"
@@ -14496,7 +15117,7 @@
       }
     },
     {
-      "event_id": "evt_0206",
+      "event_id": "evt_0212",
       "source_item_ids": [
         "singleton_d0bf1499eb12"
       ],
@@ -14539,7 +15160,7 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0044"
+          "evt_0052"
         ],
         "shared_topics": [],
         "shared_entities": [
@@ -14567,7 +15188,7 @@
       }
     },
     {
-      "event_id": "evt_0207",
+      "event_id": "evt_0213",
       "source_item_ids": [
         "singleton_17418c930b82"
       ],
@@ -14637,7 +15258,7 @@
       }
     },
     {
-      "event_id": "evt_0208",
+      "event_id": "evt_0214",
       "source_item_ids": [
         "singleton_f36757561b71"
       ],
@@ -14704,7 +15325,7 @@
       }
     },
     {
-      "event_id": "evt_0209",
+      "event_id": "evt_0215",
       "source_item_ids": [
         "singleton_3dc1dd9fa4dc"
       ],
@@ -14769,75 +15390,7 @@
       }
     },
     {
-      "event_id": "evt_0210",
-      "source_item_ids": [
-        "singleton_1f09099107d9"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-24T09:47:50+00:00",
-      "category": "regional",
-      "event_type_guess": "international",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "Liberia: Boakai Seeks France's Intervention As Guinean Troops, Customs Officers Deploy On Liberian Soil",
-      "headline_original": "",
-      "summary": "[FrontPageAfrica] Monrovia -- Sources within the Executive Mansion have informed FrontPage Africa that Joseph Nyuma Boakai has reportedly made direct diplomatic contact with Emmanuel Macron, seeking France's intervention in the escalating boundary dispute between Liberia and Guinea.",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [
-          "Africa",
-          "France"
-        ],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "AllAfrica"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Liberia: Boakai Seeks France's Intervention As Guinean Troops, Customs Officers Deploy On Liberian Soil",
-          "source": "AllAfrica",
-          "url": "https://allafrica.com/stories/202603240190.html",
-          "summary": "[FrontPageAfrica] Monrovia -- Sources within the Executive Mansion have informed FrontPage Africa that Joseph Nyuma Boakai has reportedly made direct diplomatic contact with Emmanuel Macron, seeking France's intervention in the escalating boundary dispute between Liberia and Guinea.",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 2,
-      "confidence": "medium",
-      "merge_hints": {
-        "related_event_ids": [],
-        "shared_topics": [],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "Liberia: Boakai Seeks France's Intervention As Guinean Troops, Customs Officers Deploy On Liberian Soil",
-        "lead_summary": "[FrontPageAfrica] Monrovia -- Sources within the Executive Mansion have informed FrontPage Africa that Joseph Nyuma Boakai has reportedly made direct diplomatic contact with Emmanuel Macron, seeking France's intervention in the escalating boundary dispute between Liberia and Guinea.",
-        "lead_source": "AllAfrica",
-        "lead_url": "https://allafrica.com/stories/202603240190.html",
-        "titles": [
-          "Liberia: Boakai Seeks France's Intervention As Guinean Troops, Customs Officers Deploy On Liberian Soil"
-        ],
-        "sources": [
-          "AllAfrica"
-        ],
-        "urls": [
-          "https://allafrica.com/stories/202603240190.html"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0211",
+      "event_id": "evt_0216",
       "source_item_ids": [
         "singleton_c9ff016a4090"
       ],
@@ -14902,7 +15455,7 @@
       }
     },
     {
-      "event_id": "evt_0212",
+      "event_id": "evt_0217",
       "source_item_ids": [
         "singleton_c6f1df648dde"
       ],
@@ -14969,7 +15522,7 @@
       }
     },
     {
-      "event_id": "evt_0213",
+      "event_id": "evt_0218",
       "source_item_ids": [
         "singleton_8a533b53b678"
       ],
@@ -15012,7 +15565,7 @@
       "confidence": "medium",
       "merge_hints": {
         "related_event_ids": [
-          "evt_0070"
+          "evt_0078"
         ],
         "shared_topics": [
           "audit"
@@ -15033,280 +15586,6 @@
         ],
         "urls": [
           "https://defimedia.info/economie-bleue-des-millions-engages-des-resultats-flous"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0214",
-      "source_item_ids": [
-        "singleton_15bacc346a8a"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-24T09:13:49+00:00",
-      "category": "regional",
-      "event_type_guess": "crime",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "Zimbabwe opposition leader granted bail amid growing tensions over constitutional changes",
-      "headline_original": "",
-      "summary": "Opposition leader Tendai Biti has been granted bail after spending the weekend in detention. He was arrested near the Mozambique border alongside an activist, accused of holding a public meeting without notifying authorities.",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "Africanews"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Zimbabwe opposition leader granted bail amid growing tensions over constitutional changes",
-          "source": "Africanews",
-          "url": "http://www.africanews.com/2026/03/24/zimbabwe-opposition-leader-granted-bail-amid-growing-tensions-over-constitutional-changes/",
-          "summary": "Opposition leader Tendai Biti has been granted bail after spending the weekend in detention. He was arrested near the Mozambique border alongside an activist, accused of holding a public meeting without notifying authorities.",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 4,
-      "confidence": "medium",
-      "merge_hints": {
-        "related_event_ids": [],
-        "shared_topics": [],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "Zimbabwe opposition leader granted bail amid growing tensions over constitutional changes",
-        "lead_summary": "Opposition leader Tendai Biti has been granted bail after spending the weekend in detention. He was arrested near the Mozambique border alongside an activist, accused of holding a public meeting without notifying authorities.",
-        "lead_source": "Africanews",
-        "lead_url": "http://www.africanews.com/2026/03/24/zimbabwe-opposition-leader-granted-bail-amid-growing-tensions-over-constitutional-changes/",
-        "titles": [
-          "Zimbabwe opposition leader granted bail amid growing tensions over constitutional changes"
-        ],
-        "sources": [
-          "Africanews"
-        ],
-        "urls": [
-          "http://www.africanews.com/2026/03/24/zimbabwe-opposition-leader-granted-bail-amid-growing-tensions-over-constitutional-changes/"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0215",
-      "source_item_ids": [
-        "singleton_a99eb62f9334"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-24T09:00:00+00:00",
-      "category": "local",
-      "event_type_guess": "courts",
-      "event_type_confidence": "keyword",
-      "language": "fr",
-      "headline": "L’État et la FCC font marche arrière : la plainte constitutionnelle de Navin Ramgoolam sera entendue sur le fond",
-      "headline_original": "L’État et la FCC font marche arrière : la plainte constitutionnelle de Navin Ramgoolam sera entendue sur le fond",
-      "summary": "La Cour suprême examinera sur le fond la plainte constitutionnelle de Navin Ramgoolam après le retrait de l’objection pr",
-      "summary_original": "La Cour suprême examinera sur le fond la plainte constitutionnelle de Navin Ramgoolam après le retrait de l’objection pr",
-      "key_entities": {
-        "people": [],
-        "organizations": [
-          "FCC"
-        ],
-        "places": [],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "Defimedia"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "L’État et la FCC font marche arrière : la plainte constitutionnelle de Navin Ramgoolam sera entendue sur le fond",
-          "source": "Defimedia",
-          "url": "https://defimedia.info/letat-et-la-fcc-font-marche-arriere-la-plainte-constitutionnelle-de-navin-ramgoolam-sera-entendue",
-          "summary": "La Cour suprême examinera sur le fond la plainte constitutionnelle de Navin Ramgoolam après le retrait de l’objection pr",
-          "language": "fr"
-        }
-      ],
-      "mauritius_relevance_guess": 8,
-      "editorial_priority_guess": 6,
-      "confidence": "medium",
-      "merge_hints": {
-        "related_event_ids": [
-          "evt_0026",
-          "evt_0027",
-          "evt_0030",
-          "evt_0160",
-          "evt_0170",
-          "evt_0204"
-        ],
-        "shared_topics": [],
-        "shared_entities": [
-          "FCC"
-        ]
-      },
-      "notes": "singleton; contains French; needs translation",
-      "evidence": {
-        "lead_title": "L’État et la FCC font marche arrière : la plainte constitutionnelle de Navin Ramgoolam sera entendue sur le fond",
-        "lead_summary": "La Cour suprême examinera sur le fond la plainte constitutionnelle de Navin Ramgoolam après le retrait de l’objection pr",
-        "lead_source": "Defimedia",
-        "lead_url": "https://defimedia.info/letat-et-la-fcc-font-marche-arriere-la-plainte-constitutionnelle-de-navin-ramgoolam-sera-entendue",
-        "titles": [
-          "L’État et la FCC font marche arrière : la plainte constitutionnelle de Navin Ramgoolam sera entendue sur le fond"
-        ],
-        "sources": [
-          "Defimedia"
-        ],
-        "urls": [
-          "https://defimedia.info/letat-et-la-fcc-font-marche-arriere-la-plainte-constitutionnelle-de-navin-ramgoolam-sera-entendue"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0216",
-      "source_item_ids": [
-        "singleton_5200b28d050b"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-24T08:57:38+00:00",
-      "category": "local",
-      "event_type_guess": "crime",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain",
-      "headline_original": "",
-      "summary": "A major police search operation is currently underway in the Signal Mountain region following the disappearance of a woman during a mountain hike early Monday morning, 23 March. The alarm was raised after the woman’s 18-year-old son contacted authorities to … The post Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain appeared first on News Moris.",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "News Moris"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain",
-          "source": "News Moris",
-          "url": "https://newsmoris.com/police-deploy-helicopter-and-multiple-units-for-missing-mother-on-mountain/",
-          "summary": "A major police search operation is currently underway in the Signal Mountain region following the disappearance of a woman during a mountain hike early Monday morning, 23 March. The alarm was raised after the woman’s 18-year-old son contacted authorities to … The post Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain appeared first on News Moris.",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 8,
-      "editorial_priority_guess": 6,
-      "confidence": "high",
-      "merge_hints": {
-        "related_event_ids": [],
-        "shared_topics": [],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain",
-        "lead_summary": "A major police search operation is currently underway in the Signal Mountain region following the disappearance of a woman during a mountain hike early Monday morning, 23 March. The alarm was raised after the woman’s 18-year-old son contacted authorities to … The post Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain appeared first on News Moris.",
-        "lead_source": "News Moris",
-        "lead_url": "https://newsmoris.com/police-deploy-helicopter-and-multiple-units-for-missing-mother-on-mountain/",
-        "titles": [
-          "Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain"
-        ],
-        "sources": [
-          "News Moris"
-        ],
-        "urls": [
-          "https://newsmoris.com/police-deploy-helicopter-and-multiple-units-for-missing-mother-on-mountain/"
-        ],
-        "languages": [],
-        "cluster_size": 1,
-        "source_count": 1
-      }
-    },
-    {
-      "event_id": "evt_0217",
-      "source_item_ids": [
-        "singleton_57f9008daef0"
-      ],
-      "candidate_kind": "news_event",
-      "cluster_time": "2026-03-24T08:49:47+00:00",
-      "category": "regional",
-      "event_type_guess": "business",
-      "event_type_confidence": "keyword",
-      "language": "en",
-      "headline": "littlefish raises $9.5 million to scale its merchant operating system across Africa",
-      "headline_original": "",
-      "summary": "littlefish, the South African startup building financial infrastructure for small businesses, has raised a $9.5 million Series A round to scale its merchant operating system and expand across Africa.",
-      "summary_original": "",
-      "key_entities": {
-        "people": [],
-        "organizations": [],
-        "places": [
-          "South Africa",
-          "Africa"
-        ],
-        "products": []
-      },
-      "topics": [],
-      "source_count": 1,
-      "cluster_size": 1,
-      "source_names": [
-        "TechCabal"
-      ],
-      "article_count": 1,
-      "articles": [
-        {
-          "title": "littlefish raises $9.5 million to scale its merchant operating system across Africa",
-          "source": "TechCabal",
-          "url": "https://techcabal.com/2026/03/24/littlefish-raises-9-5-million/",
-          "summary": "littlefish, the South African startup building financial infrastructure for small businesses, has raised a $9.5 million Series A round to scale its merchant operating system and expand across Africa.",
-          "language": "en"
-        }
-      ],
-      "mauritius_relevance_guess": 4,
-      "editorial_priority_guess": 2,
-      "confidence": "medium",
-      "merge_hints": {
-        "related_event_ids": [],
-        "shared_topics": [],
-        "shared_entities": []
-      },
-      "notes": "singleton",
-      "evidence": {
-        "lead_title": "littlefish raises $9.5 million to scale its merchant operating system across Africa",
-        "lead_summary": "littlefish, the South African startup building financial infrastructure for small businesses, has raised a $9.5 million Series A round to scale its merchant operating system and expand across Africa.",
-        "lead_source": "TechCabal",
-        "lead_url": "https://techcabal.com/2026/03/24/littlefish-raises-9-5-million/",
-        "titles": [
-          "littlefish raises $9.5 million to scale its merchant operating system across Africa"
-        ],
-        "sources": [
-          "TechCabal"
-        ],
-        "urls": [
-          "https://techcabal.com/2026/03/24/littlefish-raises-9-5-million/"
         ],
         "languages": [],
         "cluster_size": 1,

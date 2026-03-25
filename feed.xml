@@ -4,7 +4,7 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 25 Mar 2026 08:48:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 09:25:31 +0000</lastBuildDate>
     <item>
       <title>Homme de terrain et artisan de plusieurs initiatives sociales et éducatives, Jean-Noël Adolphe s’est éteint</title>
       <link>https://www.lemauricien.com/actualites/societe/homme-de-terrain-et-artisan-de-plusieurs-initiatives-sociales-et-educatives-jean-noel-adolphe-sest-eteint/702644/</link>
@@ -12,6 +12,26 @@
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-25T10:41:01+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Kenya, China conclude trade agreement to deepen economic ties</title>
+      <link>https://africa.businessinsider.com/local/markets/kenya-china-conclude-trade-agreement-to-deepen-economic-ties/1em5wf7</link>
+      <description>Kenya has finalised a trade deal with China, granting up to 98% of Kenyan exports duty-free access to the Chinese market</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T10:18:49+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Drone bases and defence hubs: How a Turkish investor is shaping DRCongo’s security future</title>
+      <link>https://africa.businessinsider.com/local/lifestyle/drone-bases-and-defence-hubs-how-a-turkish-investor-is-shaping-drcongos-security/d31ve36</link>
+      <description>Drone bases, surveillance networks and forward-operating hubs are rapidly redefining security strategy in the Democratic Republic of the Congo, where a Turkish investor, Turhan Mildon is emerging as an unlikely architect of the country’s defence modernisation</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T09:55:42+01:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -28,10 +48,70 @@
     <item>
       <title>Niger and Algeria continue to ease up on their cold war with fresh agreements</title>
       <link>https://africa.businessinsider.com/local/markets/niger-and-algeria-continue-to-ease-up-on-their-cold-war-with-fresh-agreements/77v61wj</link>
-      <description>Niger and Algeria are deepening their strategic collaboration with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation</description>
+      <description>Niger and Algeria are deepening their strategic cooperation with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation</description>
       <source>Business Insider Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-25T09:31:00+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brent Crude Oil price – 25 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 98.81 per barrel</description>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T09:21:20.442620+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bitcoin price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 71,344.86 (▲ +1.33% from last)</description>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T09:21:20.296748+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,565.20 (▲ +4.01% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T09:21:19.912703+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>MUR exchange rates – 25 March 2026</title>
+      <link>https://www.floatrates.com/daily/mur.xml</link>
+      <description>MUR/USD 46.53 | MUR/EUR 53.97 (▲ 0.04 from last) (▲ 0.28 from last)</description>
+      <source>MUR Exchange Rates</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T09:21:19.544474+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SEMDEX – 25 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T09:21:17.068631+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 25 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.</description>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <cluster_time>2026-03-25T09:21:12.590326+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -46,6 +126,56 @@
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s</title>
+      <link>https://defimedia.info/reponse-de-navin-ramgoolam-le-gm-fait-tout-pour-eviter-une-degradation-par-moodys</link>
+      <description>Alors que la note souveraine de Maurice frôle la catégorie spéculative, le gouvernement affirme renforcer ses actions po</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T09:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>ARSENAL – Journée internationale des forêts: Mise en terre de 300 arbres endémiques</title>
+      <link>https://www.lemauricien.com/actualites/societe/arsenal-journee-internationale-des-forets-mise-en-terre-de-300-arbres-endemiques/702667/</link>
+      <description>À l’occasion de la Journée internationale des forêts, célébrée ce 21 mars, Mauritius Telecom, à travers son entité CSR, la Mauritius Telecom Foundation, a organisé en collaboratio...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T09:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>A two hour wait for fuel: Kinshasa feels first effects of Middle East war</title>
+      <link>http://www.africanews.com/2026/03/25/a-two-hour-wait-for-fuel-kinshasa-feels-first-effects-of-middle-east-war/</link>
+      <description>Long lines of motorcycles and cars were growing in front of petrol stations in Kinshasa this week, with fear of shortages and price hikes, as the capital of the Democratic Republic of Congo began to feel the effects of Iran's blockade of the Strait of Hormuz.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T08:57:49+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Kenya: Third Contingent of 208 Kenyan Police Returns From Haiti Mission</title>
+      <link>https://allafrica.com/stories/202603250152.html</link>
+      <description>[Capital FM] Nairobi -- A third group of 208 Kenyan police officers returned home Tuesday after completing their deployment in Haiti under the Multinational Security Support (MSS) Mission, the National Police Service (NPS) said.</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T08:55:52+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>South Africa: Well Over Three Million People in South Africa Develop Depression Every Year, Researchers Estimate</title>
+      <link>https://allafrica.com/stories/202603250153.html</link>
+      <description>[spotlight] Around 3.8 million people in South Africa developed depression in 2024, estimate leading local researchers in a major new modelling study.</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T08:55:52+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Africa’s 10 most polluted nations: Insights from the World Air Quality report</title>
       <link>https://africa.businessinsider.com/local/lifestyle/africas-10-most-polluted-nations-insights-from-the-world-air-quality-report/0hb8chm</link>
       <description>Air pollution continues to pose a major health and environmental challenge across Africa, with fine particulate matter, known as PM2</description>
@@ -56,72 +186,12 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Algeria clears $30million hurdle for Australian miner Terramin to advance $471million zinc project</title>
-      <link>https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30million-land/5dkbbrv</link>
+      <title>Algeria clears $30m hurdle for Australian miner Terramin to advance $471m zinc project</title>
+      <link>https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30m-land-deal/5dkbbrv</link>
       <description>Australia’s Terramin has launched site works at Algeria’s Tala Hamza zinc project after a $30million land acquisition cleared delays, as the country seeks to boost mining and cut reliance on hydrocarbons</description>
       <source>Business Insider Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-25T08:46:52+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Brent Crude Oil price – 25 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 98.22 per barrel</description>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T08:44:37.826201+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Bitcoin price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 71,345.35 (▲ +1.33% from last)</description>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T08:44:37.737180+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Gold price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,566.70 (▲ +4.04% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T08:44:37.332345+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>MUR exchange rates – 25 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.53 | MUR/EUR 53.97 (▲ 0.04 from last) (▲ 0.28 from last)</description>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T08:44:36.971481+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>SEMDEX – 25 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T08:44:34.498870+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mauritius weather bulletin – 25 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.</description>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
-      <cluster_time>2026-03-25T08:44:30.108031+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -186,6 +256,16 @@
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Graffiti conviction for Australian woman who stuck googly eyes on sculpture</title>
+      <link>https://www.bbc.com/news/articles/cwydx34kzlvo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The woman had taken MDMA and three litres of vodka when she vandalised the piece nicknamed Blue Blob.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T08:17:51+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>US talking to itself, says Iran as Trump claims wheels of diplomacy turning</title>
       <link>https://www.aljazeera.com/news/2026/3/25/us-talking-to-itself-says-iran-as-trump-claims-wheels-of-diplomacy-turning?traffic_source=rss</link>
       <description>Iranian officials continue to deny any peace talks, amid reports the US sent the country a ceasefire proposal.</description>
@@ -196,7 +276,7 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Warning of global recession if oil price hits $150</title>
+      <title>Boss of financial giant BlackRock warns of global recession if oil price hits $150</title>
       <link>https://www.bbc.com/news/articles/c9wqrdkx8ppo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Larry Fink says if oil prices stay high for a sustained period it will have &quot;profound implications&quot; for the world economy.</description>
       <source>BBC News</source>
@@ -587,9 +667,9 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Football: France have arrived in Boston to face Brazil and Colombia</title>
+      <title>Football: France arrive in Boston to face Brazil and Colombia in friendlies</title>
       <link>https://www.france24.com/en/tv-shows/sports/20260325-football-france-have-arrived-in-boston-to-face-brazil-and-colombia</link>
-      <description>The French national team have arrived in Boston for their US tour. France will face Brazil on 26 March and Colombia on 29 March.</description>
+      <description>The French national team have arrived in Boston for their US tour. France will face Brazil on March 26 and Colombia on March 29 in friendly matches.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-25T06:16:41+00:00</cluster_time>
@@ -1267,16 +1347,6 @@ Météo : prévisions pour ce mercredi 25 mars</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>French-Israeli billionaire Patrick Drahi to auction rare diamond from Africa’s richest mine with $2.8 million price tag</title>
-      <link>https://africa.businessinsider.com/local/markets/french-israeli-billionaire-patrick-drahi-to-auction-rare-diamond-from-africas-richest/5ct265v</link>
-      <description>Global auction house Sothebys, owned by French-Israeli billionaire Patrick Drahi, is preparing to auction a rare 28</description>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T22:14:13+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Hungary is 'the Kremlin's biggest agent in the EU', analyst says</title>
       <link>https://www.france24.com/en/tv-shows/a-propos/20260324-hungary-is-the-kremlin-s-biggest-agent-in-the-eu-analyst-says</link>
       <description>Speaking with FRANCE 24's Monte Francis, Dr Mark Loustau, Fellow at the Institute for Advanced Study at Central European University, asserts that &quot;we can probably safely say that Hungary is the Kremllin's biggest agent in the EU&quot; adding that &quot;for years now Orban has done the bidding&quot; of Moscow &quot;in trying to destabilise not only unity in the EU but also the government in Ukraine&quot;. Hungarian foreign minister Peter Szijjarto is alleged to have leaked sensitive information about EU negotiations to R</description>
@@ -1319,7 +1389,7 @@ Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight<
     <item>
       <title>Iran war pushes plastic packaging costs higher</title>
       <link>https://www.france24.com/en/tv-shows/business/20260324-iran-war-pushes-plastic-packaging-costs-higher</link>
-      <description>Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war was going. Brent crude settled well above 100 dollars a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first, the EU and Australia sealed a landmark free trade agreement that will eliminate tariffs on most goods.</description>
+      <description>Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war is going. Brent crude settled well above $100 a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first: the EU and Australia have sealed a landmark free trade agreement that will eliminate tariffs on most goods.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-24T21:40:35+00:00</cluster_time>
@@ -1403,16 +1473,6 @@ Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight<
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-24T20:15:06+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Africa: SIREXE 2026 - Extractive and Energy Sectors Positioned as New Drivers of National Growth</title>
-      <link>https://allafrica.com/stories/202603240671.html</link>
-      <description>[InfoWire] Monday, 23 March 2026 marks a strategic turning point for the Ivorian economy with the official launch of the second edition of the International Exhibition of Extractive and Energy Resources (SIREXE). In the presence of the country's highest authorities and the Minister of Minerals and Energy of Botswana, the guest of honour, Côte d'Ivoire reaffirmed its ambition to</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T20:07:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1671,23 +1731,24 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Central Africa: UAE and CEMAC - A Gradually Expanding Economic Partnership</title>
+      <link>https://allafrica.com/stories/202603240488.html</link>
+      <description>[InfoWire] For decades, the member states of the Central African Economic and Monetary Community (CEMAC) have maintained close economic and diplomatic ties with partners such as France, China, the United States and the European Union. These relationships continue to structure the region's external engagement, particularly in infrastructure, finance, and trade. Yet shifts in the global political economy are gradually reshaping this landscape, with emerging actors expanding their presence across A</description>
+      <source>AllAfrica</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T15:40:30+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Djibouti: Djibouti's New Horizon - President Guelleh Unveils $480 Million 'Salaam City'</title>
       <link>https://allafrica.com/stories/202603240462.html</link>
-      <description>[AllAfrica] [Shabelle] Djibouti City -- H.E. Ismail Omar Guelleh, President of the Republic of Djibouti, on Monday launched a $480 million residential project dubbed &quot;Salaam City,&quot; as Djibouti steps up efforts to meet rising housing demand driven by rapid economic growth.
-
-[AllAfrica] [Nile Post] President Ismail Omar Guelleh on Monday led the groundbreaking for Salaam City, the largest residential development in Djibouti's history, marking a significant step in the nation's urban expansion.</description>
+      <description>[Shabelle] Djibouti City -- H.E. Ismail Omar Guelleh, President of the Republic of Djibouti, on Monday launched a $480 million residential project dubbed &quot;Salaam City,&quot; as Djibouti steps up efforts to meet rising housing demand driven by rapid economic growth.</description>
       <source>AllAfrica</source>
       <category>regional</category>
       <cluster_time>2026-03-24T15:30:35+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
+      <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-      <cluster_id>018128b64ecf</cluster_id>
-      <sources>AllAfrica</sources>
-      <urls>https://allafrica.com/stories/202603240462.html
-https://allafrica.com/stories/202603240198.html</urls>
-      <titles>Djibouti: Djibouti's New Horizon - President Guelleh Unveils $480 Million 'Salaam City'
-Djibouti: Djibouti Breaks Ground On Largest Residential Project in Nation's History</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Senegal fishermen bear the cost of industrial and illegal fishing</title>
@@ -1786,16 +1847,6 @@ Djibouti: Djibouti Breaks Ground On Largest Residential Project in Nation's Hist
       <source>AllAfrica</source>
       <category>regional</category>
       <cluster_time>2026-03-24T13:27:38+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>March shoulder season in Europe and Asia: Fewer crowds – more opportunities</title>
-      <link>https://africa.businessinsider.com/local/lifestyle/march-shoulder-season-in-europe-and-asia-fewer-crowds-more-opportunities/3yce28q</link>
-      <description>Experienced travelers know that planning a truly memorable vacation and choosing the right timing is not easy. While some tourists organize trips during the peak season and complain about crowded streets, others take full advantage of the March shoulder season. During this period, flights and hotels are usually more affordable, queues are almost nonexistent, and cities live in their usual rhythm without the overwhelming tourist crowds.</description>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T13:22:53+01:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -2230,16 +2281,6 @@ Djibouti: Djibouti Breaks Ground On Largest Residential Project in Nation's Hist
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Liberia: Boakai Seeks France's Intervention As Guinean Troops, Customs Officers Deploy On Liberian Soil</title>
-      <link>https://allafrica.com/stories/202603240190.html</link>
-      <description>[FrontPageAfrica] Monrovia -- Sources within the Executive Mansion have informed FrontPage Africa that Joseph Nyuma Boakai has reportedly made direct diplomatic contact with Emmanuel Macron, seeking France's intervention in the escalating boundary dispute between Liberia and Guinea.</description>
-      <source>AllAfrica</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:47:50+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>How TeamApt got inside Nigeria’s payment rails</title>
       <link>https://techcabal.com/2026/03/24/how-teamapt-got-inside-nigerias-payment-rails/</link>
       <description>When Tosin Eniolorunda brought Dennis Ajalie into TeamApt as a senior business development officer in 2018, the company was still building software for financial institutions.</description>
@@ -2266,46 +2307,6 @@ Djibouti: Djibouti Breaks Ground On Largest Residential Project in Nation's Hist
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-24T09:30:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Zimbabwe opposition leader granted bail amid growing tensions over constitutional changes</title>
-      <link>http://www.africanews.com/2026/03/24/zimbabwe-opposition-leader-granted-bail-amid-growing-tensions-over-constitutional-changes/</link>
-      <description>Opposition leader Tendai Biti has been granted bail after spending the weekend in detention. He was arrested near the Mozambique border alongside an activist, accused of holding a public meeting without notifying authorities.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T09:13:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>L’État et la FCC font marche arrière : la plainte constitutionnelle de Navin Ramgoolam sera entendue sur le fond</title>
-      <link>https://defimedia.info/letat-et-la-fcc-font-marche-arriere-la-plainte-constitutionnelle-de-navin-ramgoolam-sera-entendue</link>
-      <description>La Cour suprême examinera sur le fond la plainte constitutionnelle de Navin Ramgoolam après le retrait de l’objection pr</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T09:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain</title>
-      <link>https://newsmoris.com/police-deploy-helicopter-and-multiple-units-for-missing-mother-on-mountain/</link>
-      <description>A major police search operation is currently underway in the Signal Mountain region following the disappearance of a woman during a mountain hike early Monday morning, 23 March. The alarm was raised after the woman’s 18-year-old son contacted authorities to … The post Police Deploy Helicopter and Multiple Units for Missing Mother on Mountain appeared first on News Moris.</description>
-      <source>News Moris</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T08:57:38+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>littlefish raises $9.5 million to scale its merchant operating system across Africa</title>
-      <link>https://techcabal.com/2026/03/24/littlefish-raises-9-5-million/</link>
-      <description>littlefish, the South African startup building financial infrastructure for small businesses, has raised a $9.5 million Series A round to scale its merchant operating system and expand across Africa.</description>
-      <source>TechCabal</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T08:49:47+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
