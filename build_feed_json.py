@@ -16,17 +16,16 @@ def get_text(elem, tag):
     return value or None
 
 
-def get_list(elem, parent_tag, child_tag):
-    parent = elem.find(parent_tag)
-    if parent is None:
+def get_list(elem, tag):
+    child = elem.find(tag)
+    if child is None or child.text is None:
         return []
 
     values = []
-    for child in parent.findall(child_tag):
-        if child.text:
-            value = child.text.strip()
-            if value:
-                values.append(value)
+    for line in child.text.splitlines():
+        value = line.strip()
+        if value:
+            values.append(value)
 
     return values
 
@@ -53,7 +52,6 @@ def parse_feed(feed_path):
     feed_items = []
 
     for item in items:
-
         title = get_text(item, "title")
         link = get_text(item, "link")
         description = get_text(item, "description")
@@ -66,15 +64,14 @@ def parse_feed(feed_path):
 
         cluster_id = get_text(item, "cluster_id")
 
-        sources = get_list(item, "sources", "source")
-        titles = get_list(item, "titles", "title")
-        urls = get_list(item, "urls", "url")
-        languages = get_list(item, "languages", "language")
+        sources = get_list(item, "sources")
+        titles = get_list(item, "titles")
+        urls = get_list(item, "urls")
+        languages = get_list(item, "languages")
 
         is_singleton = cluster_size <= 1
 
         if is_singleton:
-
             cluster_id = cluster_id or make_stable_id(link, title, "singleton")
 
             sources = sources or ([source] if source else [])
@@ -85,7 +82,6 @@ def parse_feed(feed_path):
             cluster_size = 1
 
         else:
-
             cluster_id = cluster_id or make_stable_id(link, title, "cluster")
 
             if not sources and source:
@@ -101,17 +97,14 @@ def parse_feed(feed_path):
             "id": cluster_id,
             "cluster_time": cluster_time,
             "category": category,
-
             "lead": {
                 "title": title,
                 "source": source,
                 "url": link,
                 "summary": description
             },
-
             "cluster_size": cluster_size,
             "source_count": source_count,
-
             "sources": sources,
             "titles": titles,
             "urls": urls,
@@ -126,7 +119,6 @@ def parse_feed(feed_path):
 
 
 def main():
-
     if not INPUT_FILE.exists():
         raise FileNotFoundError("feed.xml not found")
 
