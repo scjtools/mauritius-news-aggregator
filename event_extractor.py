@@ -1,17 +1,6 @@
 #!/usr/bin/env python3
 """
-event_extractor.py — Dodo Digest first-pass candidate event builder.
-
-Converts feed.json into candidate event records (events.json) optimised
-for a later editorial pass that handles semantic merging, final
-classification, translation, scoring, and newsletter writing.
-
-This script is deterministic and uses only the Python standard library.
-It does NOT attempt final event reasoning — it preserves evidence and
-provides best-effort heuristic guesses that the editorial pass can override.
-
-Usage:
-    python event_extractor.py [--input feed.json] [--output events.json]
+event_extractor.py — first-pass candidate event builder for downstream editorial processing.
 """
 
 import json
@@ -64,9 +53,8 @@ def is_data_record(title: str, source: str) -> bool:
 # Event-type keyword rules (first-pass heuristic)
 # ---------------------------------------------------------------------------
 # Order matters: first match wins.  Patterns are case-insensitive unless
-# prefixed with "CASESENSITIVE:" (used for short acronyms like UN).
-# Both English and French terms are included because ~30% of feed items
-# are in French.
+# prefixed with "CASESENSITIVE:" (used for short acronyms like UN that
+# collide with common French words).
 
 EVENT_TYPE_RULES: list[tuple[str, list[str]]] = [
     ("obituary", [
@@ -222,34 +210,6 @@ EVENT_TYPE_RULES: list[tuple[str, list[str]]] = [
     ]),
 ]
 
-# Mauritius-relevance signals (for heuristic scoring)
-MAURITIUS_STRONG_SIGNALS = [
-    r"\bmauritius\b", r"\bmauricien", r"\bport.?louis\b", r"\bcurepipe\b",
-    r"\bquatre.?bornes\b", r"\bvacoas\b", r"\bphoenix\b", r"\brose.?hill\b",
-    r"\bmoka\b", r"\bflacq\b", r"\bpamplemousses\b", r"\brigaud\b",
-    r"\bmahebourg\b", r"\bplaine.?wilhems\b", r"\brodrigues\b",
-    r"\bagalega\b", r"\bchagos\b", r"\btrou.?aux.?biches\b",
-    r"\bflic.?en.?flac\b", r"\ble.?morne\b", r"\baapravasi\b",
-    r"\bmaurice\b", r"\bîle maurice\b",
-    r"\bbeau.?bassin\b", r"\btamarin\b", r"\bgoodlands\b",
-    r"\btriolet\b", r"\bsouillac\b", r"\bchamarel\b",
-    r"\bébène\b", r"\bbaie.?du.?tombeau\b",
-    r"\bmontagne.?longue\b", r"\broche.?bois\b", r"\bbagatelle\b",
-    r"\bbeaux.?songes\b", r"\bmont.?roches\b",
-    r"\bBank of Mauritius\b", r"\bBoM\b", r"\bMRA\b",
-    r"\bCEB\b", r"\bCWA\b", r"\bMBC\b", r"\bICPC\b", r"\bICAC\b",
-    r"\bFSC\b", r"\bSEM\b", r"\bNHDC\b", r"\bFCC\b",
-    r"\bMauritian\b", r"\bSEMDEX\b",
-    r"\bMSM\b", r"\bPTr\b", r"\bMMM\b", r"\bPMSD\b",
-    r"\bReform Alliance\b", r"\bAlliance Lepep\b",
-]
-
-MAURITIUS_MODERATE_SIGNALS = [
-    r"\bindian ocean\b", r"\bocéan indien\b", r"\breunion\b",
-    r"\bmadagascar\b", r"\bseychelles\b", r"\bcomoros\b",
-    r"\bafrican\b", r"\bafrica\b", r"\bDiego Garcia\b",
-]
-
 # Language detection helpers
 FR_INDICATORS = re.compile(r"[éèêëàâùûüôçîïæœ]", re.IGNORECASE)
 CREOLE_MARKERS = [
@@ -330,13 +290,11 @@ TOPIC_KEYWORDS: dict[str, list[str]] = {
     "audit": [r"\baudit\b", r"\brapport de l.audit\b"],
 }
 
-# Specific topics where 2+ events sharing the topic are likely merge candidates
+# Merge-hint topic thresholds
 MERGE_SENSITIVE_TOPICS = {
     "diesel", "fuel prices", "electricity", "cost of living",
     "audit", "prisons", "drugs", "corruption",
 }
-
-# Broad topics where we need 3+ events before flagging merge
 MERGE_BROAD_TOPICS = {"middle east", "climate"}
 
 
@@ -413,7 +371,7 @@ def classify_event_type(title: str, summary: str, category: str,
                         source: str) -> tuple[str, str]:
     """
     Returns (event_type_guess, event_type_confidence).
-    Confidence: "keyword" if matched by pattern, "category_fallback" if not.
+    Confidence values: "source_match", "keyword", "category_fallback", "none".
     """
     if is_data_record(title, source):
         return "data", "source_match"
@@ -437,82 +395,32 @@ def classify_event_type(title: str, summary: str, category: str,
 
 
 # ---------------------------------------------------------------------------
-# Scoring helpers (all first-pass guesses)
+# Confidence assessment (candidate quality, not editorial importance)
 # ---------------------------------------------------------------------------
-
-def guess_mauritius_relevance(title: str, summary: str,
-                              category: str) -> int:
-    """Heuristic 0-10 Mauritius relevance guess."""
-    combined = f"{title} {summary}".lower()
-    score = {"local": 8, "utilities": 8, "finance": 5,
-             "regional": 4, "global": 2}.get(category, 0)
-
-    strong = sum(1 for p in MAURITIUS_STRONG_SIGNALS
-                 if re.search(p, combined, re.IGNORECASE))
-    if strong >= 2:
-        score = max(score, 9)
-    elif strong == 1:
-        score = max(score, 7)
-
-    moderate = sum(1 for p in MAURITIUS_MODERATE_SIGNALS
-                   if re.search(p, combined, re.IGNORECASE))
-    if moderate >= 1:
-        score = max(score, 4)
-
-    return min(10, max(0, score))
-
-
-def guess_editorial_priority(cluster_size: int, source_count: int,
-                             event_type: str, mu_relevance: int,
-                             summary_length: int) -> int:
-    """Heuristic 0-10 editorial priority guess."""
-    s = mu_relevance * 0.5
-    if source_count >= 3:
-        s += 3.0
-    elif source_count >= 2:
-        s += 2.0
-    if cluster_size >= 5:
-        s += 2.0
-    elif cluster_size >= 3:
-        s += 1.5
-    elif cluster_size >= 2:
-        s += 1.0
-    if event_type in {"politics", "economy", "crime", "health",
-                       "energy", "weather", "utilities", "courts"}:
-        s += 1.5
-    if summary_length > 200:
-        s += 0.5
-    if summary_length < 30:
-        s -= 1.5
-    if event_type == "data":
-        s -= 2.0
-    return min(10, max(0, round(s)))
-
 
 def assess_confidence(cluster_size: int, source_count: int,
                       summary: str, needs_translation: bool) -> str:
     """
-    Candidate-quality confidence: how much can the Claude pass trust
-    this candidate without heavy re-examination?
+    How much can the Claude pass trust this candidate's evidence
+    without heavy re-examination?
+
+    high   = multi-source cluster or rich detailed summary
+    medium = reasonable singleton or same-source bundle
+    low    = thin, truncated, title-only, or translation-needed with thin text
     """
     slen = len(summary)
     truncated = summary.rstrip().endswith("...")
 
-    # High: multi-source coherent cluster with substantial text
     if source_count >= 2 and cluster_size >= 2 and slen > 80:
         return "high"
-    # High: rich singleton
     if slen > 300 and not truncated and not needs_translation:
         return "high"
-    # Low: very thin or title-only
     if slen < 40 or summary.startswith("Report:"):
         return "low"
     if truncated and slen < 100:
         return "low"
-    # Low: thin + needs translation = doubly uncertain
     if needs_translation and slen < 80:
         return "low"
-    # Same-source bundle with moderate text
     if cluster_size > 1 and source_count == 1:
         return "medium"
     return "medium"
@@ -542,7 +450,6 @@ def extract_entities(text: str) -> dict[str, list[str]]:
         if place.lower() in text.lower():
             entities["places"].append(place)
 
-    # Dedup normalising hyphens
     for key in entities:
         seen: set[str] = set()
         deduped = []
@@ -557,11 +464,10 @@ def extract_entities(text: str) -> dict[str, list[str]]:
 
 def extract_topics(title: str, summary: str) -> list[str]:
     combined = f"{title} {summary}".lower()
-    topics = []
-    for topic, patterns in TOPIC_KEYWORDS.items():
-        if any(re.search(p, combined, re.IGNORECASE) for p in patterns):
-            topics.append(topic)
-    return topics
+    return [
+        topic for topic, patterns in TOPIC_KEYWORDS.items()
+        if any(re.search(p, combined, re.IGNORECASE) for p in patterns)
+    ]
 
 
 # ---------------------------------------------------------------------------
@@ -584,9 +490,7 @@ def clean_headline(raw: str) -> str:
 def build_headline(item: dict) -> tuple[str, str]:
     """Returns (headline, headline_original).  Prefers English when available."""
     lead = item.get("lead", {})
-    titles = item.get("titles", [])
-
-    for t in titles:
+    for t in item.get("titles", []):
         tc = clean_text(safe_str(t))
         if tc and detect_language(tc) == "en":
             return clean_headline(tc), ""
@@ -594,9 +498,7 @@ def build_headline(item: dict) -> tuple[str, str]:
     lead_t = clean_text(safe_str(lead.get("title", "")))
     if lead_t:
         h = clean_headline(lead_t)
-        lang = detect_language(lead_t)
-        return h, (h if lang != "en" else "")
-
+        return h, (h if detect_language(lead_t) != "en" else "")
     return "Untitled event", ""
 
 
@@ -617,13 +519,15 @@ def build_summary(item: dict) -> tuple[str, str]:
 
 
 # ---------------------------------------------------------------------------
-# Articles list (best-effort reconstruction)
+# Articles list (best-effort reconstruction from available evidence)
 # ---------------------------------------------------------------------------
 
 def build_articles(item: dict, lead_title: str, lead_source: str,
                    lead_url: str, lead_summary_clean: str,
                    lead_lang: str) -> list[dict]:
-    """Build articles list from lead + multi-source blocks + cluster titles."""
+    """Build articles from lead + multi-source blocks + cluster titles.
+    Some articles may have blank title or URL — this is honest evidence
+    preservation, not a data quality failure."""
     articles = []
     lead = item.get("lead", {})
     raw_summary = safe_str(lead.get("summary", ""))
@@ -664,16 +568,16 @@ def build_articles(item: dict, lead_title: str, lead_source: str,
                 "summary": "",
                 "language": detect_language(tc),
             })
-
     return articles
 
 
 # ---------------------------------------------------------------------------
-# Evidence block (compact raw preservation)
+# Evidence block (compact raw preservation for Claude pass)
 # ---------------------------------------------------------------------------
 
 def build_evidence(item: dict) -> dict:
-    """Compact preservation of raw feed-item fields for Claude pass."""
+    """Preserve raw feed-item fields so the Claude pass can inspect
+    original evidence without re-reading feed.json."""
     lead = item.get("lead", {})
     return {
         "lead_title": safe_str(lead.get("title", "")),
@@ -726,11 +630,7 @@ def build_notes(item: dict, detected_langs: set[str],
 # ---------------------------------------------------------------------------
 
 def detect_merge_hints(events: list[dict]) -> None:
-    """
-    Second pass: populate structured merge_hints on each candidate.
-    Uses shared topics and shared entities to find likely-same-story groups.
-    """
-    # Build topic→indices and org→indices maps
+    """Populate structured merge_hints using shared topics and entities."""
     topic_map: dict[str, list[int]] = {}
     org_map: dict[str, list[int]] = {}
 
@@ -740,9 +640,7 @@ def detect_merge_hints(events: list[dict]) -> None:
         for org in evt.get("key_entities", {}).get("organizations", []):
             org_map.setdefault(org, []).append(i)
 
-    # Identify merge groups
     merge_groups: dict[str, list[int]] = {}
-
     for topic, indices in topic_map.items():
         if topic in MERGE_SENSITIVE_TOPICS and len(indices) >= 2:
             merge_groups[topic] = indices
@@ -753,7 +651,6 @@ def detect_merge_hints(events: list[dict]) -> None:
         if len(indices) >= 2:
             merge_groups[f"org:{org}"] = indices
 
-    # Write structured hints
     for group_key, indices in merge_groups.items():
         event_ids = [events[i]["event_id"] for i in indices]
         is_topic = not group_key.startswith("org:")
@@ -761,13 +658,10 @@ def detect_merge_hints(events: list[dict]) -> None:
         entity_name = group_key[4:] if not is_topic else None
 
         for i in indices:
-            evt = events[i]
-            hints = evt["merge_hints"]
-            other_ids = [eid for eid in event_ids
-                         if eid != evt["event_id"]]
-            for oid in other_ids:
-                if oid not in hints["related_event_ids"]:
-                    hints["related_event_ids"].append(oid)
+            hints = events[i]["merge_hints"]
+            for eid in event_ids:
+                if eid != events[i]["event_id"] and eid not in hints["related_event_ids"]:
+                    hints["related_event_ids"].append(eid)
             if topic_name and topic_name not in hints["shared_topics"]:
                 hints["shared_topics"].append(topic_name)
             if entity_name and entity_name not in hints["shared_entities"]:
@@ -838,10 +732,7 @@ def transform_item(item: dict, index: int) -> dict:
     key_entities = extract_entities(combined_text)
     topics = extract_topics(lead_title, lead_summary)
 
-    # Scoring
-    mu_rel = guess_mauritius_relevance(lead_title, lead_summary, category)
-    ed_pri = guess_editorial_priority(
-        cluster_size, source_count, etype_guess, mu_rel, len(lead_summary))
+    # Confidence
     confidence = assess_confidence(
         cluster_size, source_count, lead_summary, needs_translation)
 
@@ -849,7 +740,7 @@ def transform_item(item: dict, index: int) -> dict:
     articles = build_articles(
         item, lead_title, lead_source, lead_url, lead_summary, lead_lang)
 
-    # Evidence, notes, merge_hints stub (populated in second pass)
+    # Evidence, notes, merge_hints stub
     evidence = build_evidence(item)
     notes = build_notes(item, detected, is_data)
     merge_hints: dict[str, Any] = {
@@ -878,8 +769,6 @@ def transform_item(item: dict, index: int) -> dict:
         "source_names": sources,
         "article_count": len(articles),
         "articles": articles,
-        "mauritius_relevance_guess": mu_rel,
-        "editorial_priority_guess": ed_pri,
         "confidence": confidence,
         "merge_hints": merge_hints,
         "notes": notes,
@@ -913,8 +802,6 @@ def malformed_candidate(index: int) -> dict:
         "source_names": [],
         "article_count": 0,
         "articles": [],
-        "mauritius_relevance_guess": 0,
-        "editorial_priority_guess": 0,
         "confidence": "low",
         "merge_hints": {"related_event_ids": [], "shared_topics": [],
                         "shared_entities": []},
