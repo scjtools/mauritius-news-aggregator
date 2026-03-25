@@ -4,7 +4,828 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 25 Mar 2026 11:19:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 16:14:30 +0000</lastBuildDate>
+    <item>
+      <title>Attention Fake News : un graphique trompeur en circulation avec notre logo</title>
+      <link>https://www.lemauricien.com/actualites/societe/attention-fake-news-un-graphique-trompeur-en-circulation-avec-notre-logo-2/702742/</link>
+      <description>Attention chers lecteurs ! Des graphiques portant le nom et le logo de Le Mauricien Ltd continuent de circuler sur internet et les réseaux sociaux(facebook et WhatsApp) entre autres, laissant croi...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T18:39:42+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Melrose : des cigarettes introduites en prison, une détenue interpellée</title>
+      <link>https://www.lemauricien.com/actualites/faits-divers/melrose-des-cigarettes-introduites-en-prison-une-detenue-interpellee/702713/</link>
+      <description>Une opération de contrôle menée à la prison de haute sécurité de Melrose a permis de mettre au jour l’introduction d’objets prohibés au sein de l’établissement. Selon les informations r...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T18:34:17+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Faits-divers – MCB Main Office : un faux billet de Rs 1 000 détecté, un suspect arrêté</title>
+      <link>https://www.lemauricien.com/actualites/faits-divers/faist-divers-mcb-main-office-un-faux-billet-de-rs-1-000-detecte-un-suspect-arrete/702707/</link>
+      <description>Un billet de Rs 1 000 a été identifié comme contrefait, le 24 mars 2026, au MCB Main Office, à Place d’Armes, lors d’une transaction effectuée vers midi. Une caissière de 22 ans a intercept�...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T18:33:58+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brent Crude Oil price – 25 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 101.44 per barrel</description>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T16:10:12.462267+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bitcoin price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 70,834.77 (▲ +0.61% from last)</description>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T16:10:12.267067+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,561.20 (▲ +3.92% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T16:10:11.481367+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>MUR exchange rates – 25 March 2026</title>
+      <link>https://www.floatrates.com/daily/mur.xml</link>
+      <description>MUR/USD 46.48 | MUR/EUR 53.90 (▼ 0.01 from last) (▲ 0.21 from last)</description>
+      <source>MUR Exchange Rates</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T16:10:11.038188+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SEMDEX – 25 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T16:10:08.653797+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 25 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 16h30 on Wednesday 25 March 2026.General situation:Few clouds coming from the East will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy tonight, becoming cloudy at times to the East and over the Central Plateau with occasional showers.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.After a few morning showers over the highgrounds tomorrow, the weather will mainly fair afterwards.However, cloud development are expected in the afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hiking, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :Tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1011 hectopascals.</description>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <cluster_time>2026-03-25T16:10:03.923438+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>South Africa's police chief to appear in court over controversial health contract</title>
+      <link>https://www.bbc.com/news/articles/cwyjpxnzdvyo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>South African authorities declined to disclose the charges he will face when he stands in the dock.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T15:38:17+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Once seeking de-escalation, Saudi Arabia now sees ‘no coexistence’ with hardline Iran</title>
+      <link>https://www.france24.com/en/once-seeking-de-escalation-saudi-arabia-now-sees-no-coexistence-with-hardline-iran</link>
+      <description>Nadia Massih is pleased to welcome Natasha Lindstaedt, Author, Professor of Government at the University of Essex. The unfolding conflict reveals a profound shift in Gulf strategic thinking, Professor Lindstaedt argues, driven less by ideological ambition than by accumulated insecurity. What began as a strong preference for de-escalation has gradually given way to a more hard-edged assessment of regional realities. The persistence of attacks, particularly on critical infrastructure, has reinforc</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T15:28:45+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>French population overexposed to cadmium through food, health agency says</title>
+      <link>https://www.france24.com/en/france/20260325-french-population-overexposed-to-cadmium-though-food-health-agency-says</link>
+      <description>The French population is overexposed to cadmium through food sources, according to a comprehensive report published Wednesday by the national environmental health agency. Cadmium is a toxic metal that is ubiquitous in the environment and can contaminate soil, water and air.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T15:27:02+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US goals shift: 'At the beginning of the Iran war, the US and Israel were on the same page'</title>
+      <link>https://www.france24.com/en/us-goals-shift-at-the-beginning-of-the-iran-war-the-us-and-israel-were-on-the-same-page</link>
+      <description>Genie Godula is pleased to welcome Dr H. A. Hellyer, Senior Associate Fellow at the Royal United Services Institute (RUSI) for Defence and International Security Studies in London. He examines the evolving dynamics between Washington and Tel Aviv in the context of the war on Iran, alongside Israel’s expanding military posture in Lebanon. The central observation is that while initial strategic alignment existed, divergence has emerged, not necessarily in ultimate objectives, but in coherence, mes</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T15:23:51+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Film show: 'Anemone', a Day-Lewis family production</title>
+      <link>https://www.france24.com/en/tv-shows/arts24/20260325-film-show-anemone-a-day-lewis-family-production</link>
+      <description>The only person who managed to coax Daniel Day-Lewis out of his eight-year retirement was a certain Ronan Day-Lewis, whose début feature &quot;Anemone&quot; stars his father. Film critic Emma Jones tells us why a mesmerising Day-Lewis senior steals the show with the intensity of his performance.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T15:21:24+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran calls US proposal to end war ‘maximalist, unreasonable’</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/iran-calls-us-proposal-to-end-war-maximalist-unreasonable?traffic_source=rss</link>
+      <description>This is a breaking news story.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T15:11:36+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Democrats flip Florida state seat that includes Trump's Mar-a-Lago home</title>
+      <link>https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.
+
+[Al Jazeera] Emily Gregory's victory in the previously GOP-held district is the latest Democratic upset before November midterms.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T15:07:13+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>41c7148a1842</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/3/25/democrat-captures-florida-house-seat-in-trumps-mar-a-lago-district?traffic_source=rss</urls>
+      <titles>Democrats flip Florida state seat that includes Trump's Mar-a-Lago home
+Democrat captures Florida House seat in Trump’s Mar-a-Lago district</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Drogue interceptée à l’aéroport : la présumée mule française interpellée après plus de 24 heures de fuite</title>
+      <link>https://defimedia.info/drogue-interceptee-laeroport-la-presumee-mule-francaise-interpellee-apres-plus-de-24-heures-de</link>
+      <description>La présumée mule française Lisa Lily Romain, 27 ans, a été arrêtée à Grand-Baie aux petites heures ce mercredi 25 mars.E</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T15:02:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US demands of 15-point peace plan likely 'unacceptable' for Iran</title>
+      <link>https://www.france24.com/en/us-demands-of-15-point-peace-plan-likely-unacceptable-for-iran</link>
+      <description>[France 24] The US announced it had sent on a 15-point peace plan to Iran, which Tehran has deemed 'excessive'. But what is the US's list of demands? There are some indications: sanction relief, a rollback of Iran's nuclear programme, the monitoring by the IAEA of that programme, shipping through the Strait of Hormuz and an end to support for proxies. FRANCE 24's Philip Turle takes a look at the latest developments.
+
+[France 24] Donald Trump says he has a 15-point plan that has been offered to Iran to bring an end to the war. But details remain vague and Trump's claims of progress in talks have been dismissed by Tehran. The US is hoping that talks hosted by Pakistan will be able to facilitate a settlement. But Washington is still keeping its military options open, with US media reporting that at least 3,000 airborne troops would be deployed to the region in the coming days.
+
+[Al Jazeera] Trump's envoys have sent a 15-point ceasefire plan to Iran via Pakistan. But Tehran has its own conditions.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T15:01:57+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>3c3fc034d1ef</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/us-demands-of-15-point-peace-plan-likely-unacceptable-for-iran
+https://www.france24.com/en/what-do-we-know-of-the-us-s-15-point-peace-plan-sent-to-iran
+https://www.aljazeera.com/economy/2026/3/25/us-iran-mediation-what-are-each-sides-demands-and-is-a-deal-possible?traffic_source=rss</urls>
+      <titles>US demands of 15-point peace plan likely 'unacceptable' for Iran
+What do we know of the US's 15-point peace plan sent to Iran?
+US-Iran mediation: What are each side’s demands – and is a deal possible?</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>UN migration agency says 2025 was deadliest year on Red Sea migrant route</title>
+      <link>http://www.africanews.com/2026/03/25/un-migration-agency-says-2025-was-deadliest-year-on-red-sea-migrant-route/</link>
+      <description>The IOM says the number of people who died or went missing on this route doubled to 922.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T15:01:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>In Nairobi, residents blame flood devastation on inadequate infrastructure</title>
+      <link>https://www.france24.com/en/in-nairobi-residents-blame-flood-devastation-on-inadequate-infrastructure</link>
+      <description>[France 24] At least 21 Kenyan counties have been affected by floods since their start in March, raising concerns over public safety, infrastructure damage and growing humanitarian needs. According to authorities, over 34,000 people have been displaced. The capital, Nairobi, has been particularly hit. Although the governor has urgently launched operations to clear drainage systems, residents say the severe flooding is partly due to a city that is growing too quickly. FRANCE 24's team went to Nairobi to lear
+
+[Africanews] At least 21 counties have been affected by the floods, raising concerns over public safety, infrastructure damage and growing humanitarian needs</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T14:58:59+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>20760c0dbe01</cluster_id>
+      <sources>France 24
+Africanews</sources>
+      <urls>https://www.france24.com/en/in-nairobi-residents-blame-flood-devastation-on-inadequate-infrastructure
+http://www.africanews.com/2026/03/25/floods-in-kenya-worsen-as-2-rivers-burst-banks-with-death-toll-climbing/</urls>
+      <titles>In Nairobi, residents blame flood devastation on inadequate infrastructure
+Floods in Kenya worsen as 2 rivers burst banks, with death toll climbing</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Ghana and EU sign landmark defence deal to combat militant Islamist threat</title>
+      <link>https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] Ghana is the first African country to make such a deal with the EU, the Ghanaian vice-president says.
+
+[France 24] Ghana and the European Union on March 25 signed their first formal defence partnership. It has also signed a similar agreement with Iceland and Australia. It comes as Ghana tries to prevent a spillover of increased attacks from groups backed by Al-Qaeda and the Islamic State in the region. FRANCE 24's Justice Baidoo tells us what the partnership entails, from Accra.
+
+[Africanews] The agreement, signed in Accra by EU foreign policy chief Kaja Kallas and Ghanaian Vice President Jane Naana Opoku-Agyemang, is aimed at strengthening cooperation in areas including counterterrorism, intelligence sharing and crisis response</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T14:56:12+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>3</source_count>
+      <cluster_id>4c85be1f0918</cluster_id>
+      <sources>BBC Africa
+France 24
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/ghana-and-eu-sign-defence-partnership-to-counter-west-africa-insecurity
+http://www.africanews.com/2026/03/24/ghana-european-union-agree-defence-pact/</urls>
+      <titles>Ghana and EU sign landmark defence deal to combat militant Islamist threat
+Ghana and EU sign defence partnership to counter west Africa insecurity
+Ghana, European Union agree defence pact</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Ghana demands compensation for slavery in landmark UN vote</title>
+      <link>https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] Nations will vote on whether to designate the slave trade as &quot;the gravest crime against humanity&quot;.
+
+[Africanews] Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T14:55:36+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>552e1b82c05b</cluster_id>
+      <sources>BBC Africa
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/</urls>
+      <titles>Ghana demands compensation for slavery in landmark UN vote
+Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Missiles overhead, silence below: Israel’s home front holds firm</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/missiles-overhead-silence-below-israels-home-front-holds-firm?traffic_source=rss</link>
+      <description>Censorship and unity in the face of the Iranian threat combine to stifle dissent as Israel's war with Iran drags on.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T14:41:47+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Anthropic’s case against the Pentagon could open space for AI regulation</title>
+      <link>https://www.aljazeera.com/economy/2026/3/25/anthropics-case-against-the-pentagon-could-open-space-for-ai-regulation?traffic_source=rss</link>
+      <description>A California judge says US DoD may be 'attempting to cripple Anthropic' for pushing for restrictions on AI weapons.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T14:41:16+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Only one in 20 Nigerians earns above N1m monthly – PiggyVest</title>
+      <link>https://techcabal.com/2026/03/25/only-one-in-20-nigerians-earn-over-%e2%82%a61-million-monthly-piggyvest/</link>
+      <description>One in 20 Nigerians now earns above ₦1 million ($723.26) monthly, according to data from savings platform Piggyvest’s new savings report.</description>
+      <source>TechCabal</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T14:34:45+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Danish election signals shift toward Dutch and Belgian-style of coalition building</title>
+      <link>https://www.france24.com/en/danish-election-signals-shift-toward-dutch-and-belgian-style-of-coalition-building</link>
+      <description>Haxie Meyers-Belkin is pleased to welcome Ulrik Pram Gad, Senior Researcher at the Danish Institute for International Studies. He observes a political landscape marked less by decisive outcomes and more by fragmentation and negotiation. Electoral erosion among traditional parties continues, yet not uniformly, leaving space for incumbency without dominance. Strategic timing, shaped by temporary surges in approval, has not reversed longer-term structural trends. External crises have influenced per</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T14:33:21+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Tourism Authority : José Arunasalom démissionne de la présidence après une serie de plainte</title>
+      <link>https://www.lemauricien.com/actualites/societe/tourism-authority-jose-arunasalom-demissionne-de-la-presidence-apres-une-serie-de-plainte/702722/</link>
+      <description>Nouveau rebondissement à la Tourism Authority. José Arunasalom a soumis sa démission le mardi 24 mars, dans un contexte de vives tensions au sein de l’institution. La semaine dernière, à l’A...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T14:33:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Enquête de la FCC : Steven Mootoocurpen de nouveau arrêté, un inspecteur de l’ADSU impliqué</title>
+      <link>https://www.lemauricien.com/actualites/faits-divers/enquete-de-la-fcc-steven-mootoocurpen-de-nouveau-arrete-un-inspecteur-de-ladsu-implique/702706/</link>
+      <description>[Le Mauricien] La Financial Crimes Commission (FCC) a de nouveau procédé à l’arrestation de Steven Mootoocurpen ce mercredi 25 mars. Cette fois, l’accusation concerne une affaire de complot en vue de comm...
+
+[Defimedia] La Financial Crimes Commission (FCC) a procédé à l’arrestation de Steven Moothoocurpen et de l’inspecteur Vicky Luckmun</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T14:33:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>cff00714015a</cluster_id>
+      <sources>Le Mauricien
+Defimedia</sources>
+      <urls>https://www.lemauricien.com/actualites/faits-divers/enquete-de-la-fcc-steven-mootoocurpen-de-nouveau-arrete-un-inspecteur-de-ladsu-implique/702706/
+https://defimedia.info/enquete-de-la-fcc-sur-un-trafic-estime-rs-759-m-steven-moothoocurpen-et-linspecteur-luckmun-arretes</urls>
+      <titles>Enquête de la FCC : Steven Mootoocurpen de nouveau arrêté, un inspecteur de l’ADSU impliqué
+Enquête de la FCC sur un trafic estimé à Rs 75,9 M : Steven Moothoocurpen et l’inspecteur Luckmun arrêtés</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Uganda: economy expanded by 8.5% in last quarter in December</title>
+      <link>http://www.africanews.com/2026/03/25/uganda-economy-expanded-by-85-in-last-quarter-in-december/</link>
+      <description>Strong consumer demand and high activity in sectors such as construction drove Uganda's economy to expand by 8.5% during the financial quarter that ended in December 2025.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T14:32:30+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Musketeer d'Artagnan's remains believed found under Dutch church</title>
+      <link>https://www.bbc.com/news/articles/cm2rew2dgzzo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>D'Artagnan was killed during the Siege of Maastricht in 1673 and later immortalised in the stories of Alexandre Dumas.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T14:30:39+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Hezbollah chief urges unity, no talks with Israel amid Lebanon attacks</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/hezbollah-chief-urges-unity-no-talks-with-israel-amid-lebanon-attacks?traffic_source=rss</link>
+      <description>Naim Qassem says negotiating with Israel 'under fire amounts to imposing surrender' on Lebanon.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T14:24:11+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Corps para-étatiques et autres institutions : Les démissions se poursuivent après le départ de Paul Bérenger</title>
+      <link>https://defimedia.info/corps-para-etatiques-et-autres-institutions-les-demissions-se-poursuivent-apres-le-depart-de-paul</link>
+      <description>Les démissions se succèdent au sein des corps para-étatiques et autres institutions après le départ de Paul Bérenger du</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T14:16:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Kenya’s I&amp;M Bank hits 98% digital usage as growth shifts to revenue per user</title>
+      <link>https://techcabal.com/2026/03/25/kenyas-im-bank-hits-98-digital-usage-as-growth-shifts-to-revenue-per-user/</link>
+      <description>Kenya’s tier-1 banks have largely exhausted the pool of new digital users, and I&amp;M Group’s disclosure that 98% of its customers now transact digitally shows the next phase of growth will come from extracting more revenue from existing users rather than bringing new ones online. I&amp;M Group serves more than 727,000 customers across five markets […]</description>
+      <source>TechCabal</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T14:10:47+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>10 African countries with the highest diesel prices in March 2026</title>
+      <link>https://africa.businessinsider.com/local/markets/10-african-countries-with-the-highest-diesel-prices-in-march-2026/rv447lm</link>
+      <description>Diesel prices have risen substantially in recent weeks, owing to the ongoing conflict in the Middle East, particularly the confrontation between Iran, Israel, and the United States</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T14:00:24+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Famed Lille bakery shares story behind its 'gaufres' on International Waffle Day</title>
+      <link>https://www.france24.com/en/tv-shows/entre-nous/20260325-famed-lille-bakery-shares-story-behind-its-gaufres-on-international-waffle-day</link>
+      <description>This Wednesday is International Waffle Day – a celebration for waffle lovers everywhere, but particularly here in France, where les gaufres are a particular fan favourite. We're focusing on a very particular kind of waffle, one that's not big and puffy like the ones you might find in Belgium. These waffles come from the northern French town of Lille and the bakery Meert. Gregori Pillegand, Meert's international development director, tells us what's so special about their kind of gaufre.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T13:59:32+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Suspicious bets placed on US-Iran strikes trigger insider trading concerns</title>
+      <link>https://www.france24.com/en/suspicious-bets-placed-on-us-iran-strikes-trigger-insider-trading-concerns</link>
+      <description>Before financial markets opened in the United States on March 25, the US president stepped back from a threat to target Iranian energy sites. But 15 minutes before Trump's statement, thousands of oil contracts were traded - meaning anyone who placed bet on crude prices dropping would have made a lot of money. It's raising questions on if anyone acted on insider knowledge.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T13:57:18+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Meta told to pay $375m for misleading users over child safety</title>
+      <link>https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The owner of Instagram, Facebook and WhatsApp has been found liable by a court in New Mexico.
+
+[France 24] A jury in the US state of New Mexico determined on March 25, that Meta misled consumers over safety and enabled harm against users especially children, hiding what it knew about child sexual exploitation on its social media platforms. The company which owns WhatsApp, Instagram and Facebook must pay a penalty of $375 million. The landmark decision comes after a nearly seven-week trial. A Meta spokesperson said the company disagrees with the verdict and will appeal.
+
+[France 24] A jury in New Mexico found on March 25 that the social media giant's platforms are harmful to children’s mental health and imposed a $375 million penalty. The trial is the first of several to be held in 2026 regarding social media child safety. The New Mexico jury found that the tech giant knowingly misled users when it came to child safety, and chose 'growth and profit' first, as FRANCE 24's Wassim Cornet explains from Los Angeles.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T13:51:37+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>87372538b122</cluster_id>
+      <sources>BBC News
+France 24</sources>
+      <urls>https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/meta-platforms-found-guilty-of-harming-children-s-health-and-safety-in-us-state-trial
+https://www.france24.com/en/new-mexico-trial-finds-meta-chose-growth-and-profit-over-children-s-safety</urls>
+      <titles>Meta told to pay $375m for misleading users over child safety
+Meta platforms found guilty of harming children's health and safety in US state trial
+New Mexico trial finds Meta chose 'growth and profit over children's safety'</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Électricité : une alerte jaune sévère déclenchée ce matin</title>
+      <link>https://defimedia.info/electricite-une-alerte-jaune-severe-declenchee-ce-matin</link>
+      <description>Le Central Electricity Board (CEB) a déclenché une alerte jaune sévère ce mercredi matin, en raison d’une forte hausse d</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T13:47:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Salah to leave Liverpool at end of season</title>
+      <link>https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] The Egypt forward says Liverpool fans &quot;gave me the best time of my life&quot; and &quot;stood by me in the toughest times&quot;.
+
+[Al Jazeera] With his time at Liverpool, and apparently the world's most elite league, coming to an end, what is left to drive Salah?
+
+[Al Jazeera] Al Jazeera explains the Liverpool and Egypt icon's departure from the Premier League and what happens next.
+
+[Africanews] Liverpool star Mohamed Salah announced Tuesday he will leave the English club at the end of the season, marking an earlier-than-planned departure for one of the club's greatest-ever scorers and soccer's biggest names.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T13:44:24+00:00</cluster_time>
+      <cluster_size>4</cluster_size>
+      <source_count>3</source_count>
+      <cluster_id>21fb04f17c76</cluster_id>
+      <sources>BBC Africa
+Al Jazeera
+Africanews</sources>
+      <urls>https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/sports/2026/3/25/mohamed-salah-is-liverpool-exit-the-end-or-can-world-cup-spur-egypt-star?traffic_source=rss
+https://www.aljazeera.com/sports/2026/3/25/why-is-mohamed-salah-leaving-liverpool-and-which-club-will-he-join-next?traffic_source=rss
+http://www.africanews.com/2026/03/25/mo-salah-to-leave-liverpool-at-the-end-of-the-season/</urls>
+      <titles>Salah to leave Liverpool at end of season
+Mohamed Salah: Is Liverpool exit the end? Can World Cup spur Egypt star?
+Why is Mohamed Salah leaving Liverpool, and which club will he join next?
+Mo Salah to leave Liverpool at the end of the season</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Hausse du prix du diesel : un effet domino redouté, selon Jayen Chellum</title>
+      <link>https://defimedia.info/hausse-du-prix-du-diesel-un-effet-domino-redoute-selon-jayen-chellum</link>
+      <description>La hausse du prix du diesel pourrait entraîner un effet domino, avertit Jayen Chellum. Le secrétaire général de l’Associ</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T13:44:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Who controls Nigeria’s only communications satellite? Inside a growing $11.4m dispute with China</title>
+      <link>https://techcabal.com/2026/03/25/a-11-4m-debt-puts-nigerias-space-ambitions-at-risk/</link>
+      <description>A dispute over $11.4 million in unpaid fees has put Nigeria's only operational communications satellite at risk of losing the technical support keeping it in orbit</description>
+      <source>TechCabal</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T13:43:33+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Oil supply shock hardens energy transition resolve – for some</title>
+      <link>https://www.france24.com/en/tv-shows/business/20260325-oil-supply-shock-hardens-energy-transition-resolve-%E2%80%93-for-some</link>
+      <description>The energy crisis over the Iran war has left some countries glad they've added more renewables, while others are doubling down on fossil fuels. But first: oil prices fall on hopes for de-escalation in the Middle East, while suspicions swirl over potential insider trading on Trump administration policies.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T13:26:11+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Rupture : Paul Bérenger fustige la corruption, dérive économique et l’inaction de Navin Ramgoolam</title>
+      <link>https://www.lemauricien.com/actualites/politique/rupture-paul-berenger-fustige-la-corruption-derive-economique-et-linaction-de-navin-ramgoolam/702690/</link>
+      <description>[Le Mauricien] Face à la presse à sa résidence à Riverwalk, ce mercredi 25 mars, le leader du MMM, Paul Bérenger, a insisté avec force qu’il n’a pas quitté le Mouvement militant mauricien (MMM) « Mo anko...
+
+[L'Express (via mega.mu)] Évoquant les nominations au sein des corps parapublics et des institutions bancaires gouvernementales, Paul Bérenger a vivement critiqué les choix effectués, estimant que *«presque toutes ces nominations ne sont pas bonnes». «Il y a des personnes qui ne sont pas qualifiées»*, a-t-il déclaré. S’attardant sur la situation carcérale, il a pointé du doigt la nomination de Dev Jokhoo, qu’il qualifie de *«crime»*. «À plusieurs reprises, j’en ai parlé à Navin Ramgoolam», a-t ...
+
+[L'Express (via mega.mu)] Lors d’une conférence de presse tenue ce mercredi 25 mars à Riverwalk, Paul Bérenger a tenu à clarifier sa position politique, affirmant avec force qu’il n’a pas quitté le Mouvement militant mauricien (MMM), malgré sa démission en tant que Deputy Prime Minister. *«Jamais mo’nn kit MMM, mo’nn retir mwa selman kouma Premier minis adzwin»*, a-t-il déclaré. Face à la presse, le leader historique des mauves n’a pas mâché ses mots à l’égard de certains dirigeants de so ...
+
+[Defimedia] Lors d’une conférence de presse tenue ce mercredi, Paul Bérenger est revenu en détail sur les raisons qui l’ont poussé à
+
+[Defimedia] Lors d’une conférence de presse tenue à sa résidence de River Walk ce mercredi, Paul Bérenger a annoncé la tenue d’un ra
+
+[Defimedia] Lors de sa conférence de presse, Paul Bérenger a également évoqué la corruption comme l’une des principales raisons de s
+
+[Defimedia] Lors d’une conférence de presse tenue ce matin à Riverwalk, Floréal, le leader du MMM, Paul Bérenger, est revenu sur les
+
+[Defimedia] Paul Bérenger, leader du MMM, organise un grand rassemblement ce samedi à Rose-Hill pour clarifier sa position politique
+
+[Defimedia] Suivez en direct la conférence de presse de Paul Bérenger</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T13:19:00+00:00</cluster_time>
+      <cluster_size>9</cluster_size>
+      <source_count>3</source_count>
+      <cluster_id>2032ef154ae2</cluster_id>
+      <sources>Le Mauricien
+L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://www.lemauricien.com/actualites/politique/rupture-paul-berenger-fustige-la-corruption-derive-economique-et-linaction-de-navin-ramgoolam/702690/
+https://live.mega.mu/redirect/252875/
+https://live.mega.mu/redirect/252857/
+https://defimedia.info/bonne-gouvernance-lutte-contre-la-drogue-et-nominations-berenger-denonce-des-engagements-non
+https://defimedia.info/mmm-berenger-annonce-un-rassemblement-rose-hill-ce-samedi-pour-trancher-sur-les-options-venir
+https://defimedia.info/demission-de-paul-berenger-la-corruption-et-le-gang-des-5-parmi-les-raisons-de-son-depart
+https://defimedia.info/berenger-affirme-que-la-situation-economique-du-pays-est-lune-des-raisons-derriere-son-depart
+https://defimedia.info/berenger-bat-le-rappel-de-ses-troupes-ce-samedi
+https://defimedia.info/suivez-en-direct-la-conference-de-presse-de-paul-berenger</urls>
+      <titles>Rupture : Paul Bérenger fustige la corruption, dérive économique et l’inaction de Navin Ramgoolam
+Conférence de presse : Paul Bérenger critique les nominations et vise Dev Jokhoo
+Conférence de Paul Bérenger : «Gouvernman pe ratrap seki MSM inn pouri konpletman»
+Bonne gouvernance, lutte contre la drogue et nominations : Bérenger dénonce des engagements non respectés
+MMM : Bérenger annonce un rassemblement à Rose-Hill ce samedi pour trancher sur les options à venir
+Démission de Paul Bérenger : la corruption et le “gang des 5” parmi les raisons de son départ
+Bérenger affirme que la situation économique du pays est l'une des raisons derrière son départ
+Bérenger bat le rappel de ses troupes, ce samedi
+Suivez en direct la conférence de presse de Paul Bérenger</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>CEB power outage – Phoenix, Plainewilhems on 25 March 2026</title>
+      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
+      <description>Phoenix (Plainewilhems): 17:15 to 21:00. Areas affected: Phoenix Industrial Zone, part of Valentina.</description>
+      <source>CEB Power Outages</source>
+      <category>utilities</category>
+      <cluster_time>2026-03-25T13:15:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Why gold-backed retirement accounts are gaining popularity in 2026</title>
+      <link>https://africa.businessinsider.com/local/markets/why-gold-backed-retirement-accounts-are-gaining-popularity-in-2026/hz8592w</link>
+      <description>In today’s uncertain economic climate, investors are increasingly looking for ways to protect their wealth and secure their financial future. With inflation concerns, market volatility, and shifting global dynamics, traditional investment strategies are no longer enough for many individuals. This has led to a growing interest in alternative investment options, particularlygold-backed retirement accounts, which are becoming a preferred choice for long-term financial stability.</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T13:00:37+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iranian attacks amount to violation of sovereignty, Gulf states tell UN</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/iranian-attacks-amount-to-violation-of-sovereignty-gulf-states-tell-un?traffic_source=rss</link>
+      <description>UN Human Rights Council passes resolution demanding end to Iran's 'unprovoked attacks' on countries in the Middle East.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T13:00:22+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Senegal denies secret €650M borrowing allegations</title>
+      <link>http://www.africanews.com/2026/03/25/senegal-denies-secret-650m-borrowing-allegations/</link>
+      <description>Debt-laden Senegal has denied a report in the Financial Times that it covertly borrowed 650 million euros ($754 million) to avoid a default, saying it acted in line with &quot;market transparency rules&quot;.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T12:57:05+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Kenya finalises trade deal with China as they deepen bilateral ties</title>
+      <link>http://www.africanews.com/2026/03/25/kenya-finalises-trade-deal-with-china-as-they-deepen-bilateral-ties/</link>
+      <description>Among the deals was an agreement that will grant Kenya duty-free and quota-free access to the Chinese market starting in May.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T12:55:57+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Exploring the ups and downs of transportation options in and around London</title>
+      <link>https://africa.businessinsider.com/local/markets/exploring-the-ups-and-downs-of-transportation-options-in-and-around-london/rglwqgc</link>
+      <description>The Greater London area is frequently lauded for its diverse public transportation options, ranging from a fleet of buses, overground train networks, and its subway system, famously dubbed “the Tube.”</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T12:55:56+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Olympia: Inside the making of the world’s largest mixed-format billboard in Lagos</title>
+      <link>https://africa.businessinsider.com/local/markets/olympia-inside-the-making-of-the-worlds-largest-mixed-format-billboard-in-lagos/0dg5394</link>
+      <description>On the busy Eko Bridge corridor in Lagos, where thousands of vehicles stream through the city’s commercial spine every hour, a new structure now dominates the skyline. Rising beside the National Theatre and the Wole Soyinka Centre for Art and Culture, the structure, famously known as Olympia, is more than just another advertising board.</description>
+      <source>Business Insider Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T12:50:05+01:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Journée mondiale de l’eau : L’égalité des genres au cœur des enjeux</title>
+      <link>https://ionnews.mu/journee-mondiale-de-leau-legalite-des-genres-au-coeur-des-enjeux/</link>
+      <description>À l’occasion de la Journée mondiale de l’eau, un séminaire national s’est tenu au Caudan Arts Centre à Port-Louis, mettant en lumière les liens entre accès à l’eau et égalité des genres. Intervenant lors de l’événement, le ministre de l’Énergie et des services publics, Patrick Assirvaden, a souligné que les femmes sont les premières touchées en situation de pénurie d’eau, en raison de leur rôle central dans la gestion des besoins domestiques. Il a indiqué que cette réalité met en évidence des in</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T12:42:38+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Estonia and Latvia say territories hit by stray Ukrainian drones</title>
+      <link>https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.
+
+[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.
+
+[France 24] Russia launched a massive attack on Ukraine in broad daylight on March 25, firing hundreds of drones into the territory. It comes after Russia fired nearly 1,000 drones in a 24-hour period, killing a total of eight people across the country. This record attack had hit Lviv's historic centre and residential houses in the west of the country.
+
+[Al Jazeera] Riga said drone that entered its territory may be Ukrainian.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T12:42:14+00:00</cluster_time>
+      <cluster_size>4</cluster_size>
+      <source_count>3</source_count>
+      <cluster_id>dd5bf27d6046</cluster_id>
+      <sources>BBC News
+France 24
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&amp;at_campaign=rss
+https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/zelensky-slams-absolute-depravity-after-massive-russian-drone-attack
+https://www.aljazeera.com/news/2026/3/25/estonia-latvia-report-drone-incursions-from-russian-airspace?traffic_source=rss</urls>
+      <titles>Estonia and Latvia say territories hit by stray Ukrainian drones
+Russia launches 948 drones at Ukraine in largest attack over 24-hour period
+Zelensky slams 'absolute depravity' after massive Russian drone attack
+Estonia, Latvia report drone incursions from Russian airspace</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>'Make cheese not war': How France's Larzac protests inspired demos around the world</title>
+      <link>https://www.france24.com/en/tv-shows/perspective/20260325-make-cheese-not-war-how-larzac-protests-in-france-inspired-demos-around-the-world</link>
+      <description>The author of a new book has spoken to FRANCE 24 about how the Larzac protests in France from 1971 became a modern-day template for demonstrations across the world. The protests began after the French government announced a huge extension of a military base on the Larzac plateau, referring to the farmers living there as &quot;a few peasants&quot; in &quot;French Siberia&quot;. This sparked much anger, and residents ended up swearing oaths never to be forced from their land, pioneering regional radicalism for years</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T12:39:18+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Police Inspector &amp; Civilian Arrested Over Rs 75.9 Million Drug Importation Plot</title>
+      <link>https://newsmoris.com/police-inspector-civilian-arrested-over-rs-75-9-million-drug-importation-plot/</link>
+      <description>A high-ranking police inspector and a civilian on bail have been arrested by the Financial Crimes Commission (FCC) following an investigation into a sophisticated drug trafficking operation valued at Rs 75.9 million. Inspector Vicky Luckmun, a former member of the … The post Police Inspector &amp; Civilian Arrested Over Rs 75.9 Million Drug Importation Plot appeared first on News Moris.</description>
+      <source>News Moris</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T12:27:30+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>'There's no safety anymore': Palestinians warn of expanding West Bank settler violence</title>
+      <link>https://www.bbc.com/news/articles/c747x00m83vo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>There has been a surge of attacks by Israeli settlers on Palestinian villages across the occupied territory since the start of the Iran war.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T12:27:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Uber officiellement lancée à Maurice : une nouvelle ère pour les taxis</title>
+      <link>https://defimedia.info/uber-officiellement-lancee-maurice-une-nouvelle-ere-pour-les-taxis</link>
+      <description>Uber est désormais opérationnelle à Maurice, mais uniquement pour les taxis. La plateforme a été officiellement lancée c</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T12:25:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Talk show host Stephen Colbert to write new Lord of the Rings film</title>
+      <link>https://www.bbc.com/news/articles/c33ldp22833o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Colbert, who is a Tolkien superfan, will adapt an early section of the first Lord of the Rings novel.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T12:21:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>30 ans de Défi Plus : deux grands gagnants à l’honneur lors de la remise des prix</title>
+      <link>https://defimedia.info/30-ans-de-defi-plus-deux-grands-gagnants-lhonneur-lors-de-la-remise-des-prix</link>
+      <description>À l’occasion des 30 ans de Défi Plus, le jeu concours organisé par le Défi Media Group a offert bien plus que des récomp</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T12:21:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Asian Champions League quarterfinal sends Iran’s Tractor FC to Saudi Arabia</title>
+      <link>https://www.aljazeera.com/sports/2026/3/25/asian-champions-league-quarterfinal-sends-irans-tractor-fc-to-saudi-arabia?traffic_source=rss</link>
+      <description>Draw for AFC Asian Champions League Elite quarterfinals sees Tractor FC play Dubai's Shabab Al-Ahli in Saudi Arabia.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T12:18:33+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>We need more plumbers and fewer lawyers in AI age, says BlackRock boss</title>
+      <link>https://www.bbc.com/news/articles/c9wqrdkx8ppo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Larry Fink also warns if oil prices stay high for a sustained period it will have &quot;profound implications&quot; for the world economy.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T12:00:38+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Restauration- Constance Festival Culinaire 2026 : L’excellence gastronomique dans tous ses états</title>
+      <link>https://www.lemauricien.com/actualites/societe/restauration-constance-festival-culinaire-2026-lexcellence-gastronomique-dans-tous-ses-etats/702683/</link>
+      <description>La 19e édition du Constance Festival Culinaire, qui s’est tenue du 13 au 21 mars, a confirmé son statut de rendez-vous incontournable. Entre compétitions culinaires passionnantes, découvertes ga...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T12:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Aviation – Relations industrielles Air Mauritius : le CEO présidera les négociations collectives</title>
+      <link>https://www.lemauricien.com/actualites/societe/aviation-relations-industrielles-air-mauritius-le-ceo-presidera-les-negociations-collectives/702670/</link>
+      <description>[Le Mauricien] Le Chief Executive Officer (CEO) d’Air Mauritius, André Viljoen, présidera les négociations portant sur un nouvel accord collectif entre la direction de la compagnie aérienne nationale et ses sy...
+
+[News Moris] André Viljoen, the CEO of Air Mauritius, is to take the helm of collective bargaining negotiations, following a pivotal meeting with union leaders aimed at resolving long-standing industrial relations issues. In a significant move for the national carrier, Mr Viljoen … The post Air Mauritius CEO to Lead Major Push For New Union Agreements appeared first on News Moris.</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T11:57:57+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>fe9f2e8f9e11</cluster_id>
+      <sources>Le Mauricien
+News Moris</sources>
+      <urls>https://www.lemauricien.com/actualites/societe/aviation-relations-industrielles-air-mauritius-le-ceo-presidera-les-negociations-collectives/702670/
+https://newsmoris.com/air-mauritius-ceo-to-lead-major-push-for-new-union-agreements/</urls>
+      <titles>Aviation – Relations industrielles Air Mauritius : le CEO présidera les négociations collectives
+Air Mauritius CEO to Lead Major Push For New Union Agreements</titles>
+      <languages>fr
+en</languages>
+    </item>
+    <item>
+      <title>MMM : la réunion du comité central reprogrammée</title>
+      <link>https://defimedia.info/mmm-la-reunion-du-comite-central-reprogrammee</link>
+      <description>La réunion du comité central du MMM, initialement prévue ce samedi à la mairie de Beau-Bassin/Rose-Hill, a été reprogram</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T11:56:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Danish PM hands in government resignation after defeat in general election</title>
+      <link>https://www.france24.com/en/danish-pm-hands-in-government-resignation-after-defeat-in-general-election</link>
+      <description>[France 24] Danish ​Prime Minister Mette ​Frederiksen on March 25 submitted her government's resignation ​to ‌the ⁠king after ‌her three-party coalition suffered a ⁠large defeat in a ​general election. She could survive a third term but will have to negotiate a deal with the 'kingmaker', Foreign Minister Lars Lokke Rasmussen and his centrist party. Whereas her role in dealing with Donald Trump's ambitions over Greenland was saluted, the campaign mainly focused on bread-and-butter issues. FRANCE 24's Trine V
+
+[Al Jazeera] Mette Frederiksen could return for a third term as prime minister after tough coalition talks.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T11:54:14+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>9199dba082c2</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/danish-pm-hands-in-government-resignation-after-defeat-in-general-election
+https://www.aljazeera.com/news/2026/3/25/denmarks-pm-resigns-after-failing-to-secure-majority-in-general-election?traffic_source=rss</urls>
+      <titles>Danish PM hands in government resignation after defeat in general election
+Denmark’s PM resigns after failing to secure majority in general election</titles>
+      <languages>en</languages>
+    </item>
     <item>
       <title>Nigeria’s economic ‘recovery’ isn’t reaching households as only 6% feel financially secure</title>
       <link>https://africa.businessinsider.com/local/markets/only-6-of-nigerians-feel-financially-secure-despite-economic-reforms/k0egd7h</link>
@@ -16,62 +837,112 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Brent Crude Oil price – 25 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 97.95 per barrel</description>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T11:15:25.248276+00:00</cluster_time>
+      <title>Unclear 'how much of a negotiation is taking place' between US and Iran</title>
+      <link>https://www.france24.com/en/unclear-how-much-of-a-negotiation-is-taking-place-between-us-and-iran</link>
+      <description>Iran has received a US plan to pause the war in the Middle East, officials said on March 25 — a proposal sent even as Washington deploys paratroopers and more Marines to the region. Tehran did not confirm receiving the plan and publicly dismissed Washington's diplomatic efforts. For FRANCE 24's Philip Turle, a lot of aspects of those negotiations remain unclear: how far have they gone, who is the US dealing with, and what the US is deploying troops in the Middle East for amid as it says it is en</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T11:52:04+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 71,512.27 (▲ +1.57% from last)</description>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T11:15:25.109221+00:00</cluster_time>
+      <title>Brazil's Bolsonaro gets temporary house arrest for ill-health</title>
+      <link>https://www.bbc.com/news/articles/cge0950jxd0o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Former President Jair Bolsonaro was moved from his cell to hospital earlier this month with pneumonia.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T11:37:17+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,568.70 (▲ +4.09% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T11:15:24.650593+00:00</cluster_time>
+      <title>À l’aéroport SSR : une valise oubliée révèle un réseau de trafiquants et des complicités policières</title>
+      <link>https://defimedia.info/laeroport-ssr-une-valise-oubliee-revele-un-reseau-de-trafiquants-et-des-complicites-policieres</link>
+      <description>Un bagage oublié contenant 16 kilos de cannabis a révélé l’implication présumée du limier Pagoo de l’ADSU et du policier</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T11:30:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 25 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.47 | MUR/EUR 53.90 (▼ 0.02 from last) (▲ 0.21 from last)</description>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T11:15:24.197250+00:00</cluster_time>
+      <title>Danish PM fails to secure majority in party's weakest election showing since 1903</title>
+      <link>https://www.bbc.com/news/articles/c74v5qynl9vo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The party, which has been in power since 2019, gained the most votes but faces tough talks on forming a new government.
+
+[France 24] Social Democrat Mette Frederiksen has said she is &quot;ready to assume&quot; the role of Prime Minister of Denmark again, despite her party's significant setback in March 25's parliamentary elections, which saw the left-wing bloc win the most votes but lack a majority. With 21.9% of the vote, the Social Democrats reached their lowest level since 1903, far from the 27.5% they achieved in 2022.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T11:24:55+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>96d572a39f2e</cluster_id>
+      <sources>BBC News
+France 24</sources>
+      <urls>https://www.bbc.com/news/articles/c74v5qynl9vo?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/danish-pm-secures-third-term-despite-party-s-historic-setback</urls>
+      <titles>Danish PM fails to secure majority in party's weakest election showing since 1903
+Danish PM secures third term despite party's historic setback</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Large Polymarket, Wall Street bets on Trump’s war news under scrutiny</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss</link>
+      <description>Well-timed trades regarding Iran war news this week lead critics to argue White House may be engaged in insider trading.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T11:21:19+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 25 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T11:15:21.509907+00:00</cluster_time>
+      <title>'Mind-blowing corruption': Alleged insider trading over US-Israeli strikes in Iran</title>
+      <link>https://www.france24.com/en/tv-shows/press-review/20260325-mind-blowing-corruption-alleged-insider-trading-on-us-israeli-strikes-in-iran</link>
+      <description>PRESS REVIEW – Wednesday, March 25: Papers discuss Donald Trump's 15-point plan and the US's &quot;fog of diplomacy&quot;. Could it be staged for the global markets? Also: brick workers are coerced into selling their kidneys in Pakistan. Finally, Democrat Emily Gregory wins the hotly contested race for the Florida House in a &quot;Mar-a-Lago flip&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T11:19:14+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Mauritius weather bulletin – 25 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hikings, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.</description>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
-      <cluster_time>2026-03-25T11:15:15.281386+00:00</cluster_time>
+      <title>South Africa arrests 12 senior police officers on suspicion of corruption</title>
+      <link>http://www.africanews.com/2026/03/25/south-africa-arrests-12-senior-police-officers-on-suspicion-of-corruption/</link>
+      <description>South African anti-graft investigators have arrested 12 senior police officers on allegations of corruption and fraud, prosecutors said Wednesday.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T11:18:47+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>La constitution du MMM : un « charabia inapplicable » selon Paul Bérenger</title>
+      <link>https://defimedia.info/la-constitution-du-mmm-un-charabia-inapplicable-selon-paul-berenger</link>
+      <description>L’image de Reza Uteem brandissant la constitution du MMM lors de la conférence de presse ayant suivi le bureau politique</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T11:16:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Taiwan skips WTO meeting after Cameroon labels it ‘Province of China’</title>
+      <link>http://www.africanews.com/2026/03/25/taiwan-skips-wto-meeting-after-cameroon-labels-it-province-of-china/</link>
+      <description>Taiwan has announced it will for the first time skip a major World Trade Organization (WTO) ministerial meeting after a dispute with host nation Cameroon over how the island was identified on official documents.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T11:15:51+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>First flotilla boat arrives in Cuba to deliver aid amid crisis</title>
+      <link>https://www.france24.com/en/first-flotilla-boat-arrives-in-cuba-to-deliver-aid-amid-crisis</link>
+      <description>The first of three humanitarian aid boats carrying activists and crucial goods has arrived in Cuba from Mexico as groups around the world mobilize to supply the Cuban people with aid amid a US imposed fuel blockade. As fuel supplies run dry, the island has been experiencing widespread blackouts, and the country's crumbling infrastructure is nearing a breaking point.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T11:14:55+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -86,33 +957,34 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Meta told to pay $375m for misleading users over child safety</title>
-      <link>https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] The owner of Instagram, Facebook and WhatsApp has been found liable by a court in New Mexico.
+      <title>Dozens of bodies, mostly infants, discovered in Kenya mass grave</title>
+      <link>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] Some of the 32 bodies, including 25 children, are believed to have come from local hospitals and mortuaries.
 
-[France 24] A jury in the US state of New Mexico determined on March 25, that Meta misled consumers over safety and enabled harm against users especially children, hiding what it knew about child sexual exploitation on its social media platforms. The company which owns WhatsApp, Instagram and Facebook must pay a penalty of $375 million. The landmark decision comes after a nearly seven-week trial. A Meta spokesperson said the company disagrees with the verdict and will appeal.
-
-[France 24] A New Mexico jury on Tuesday found social media giant Meta liable for making children vulnerable to predators and other online dangers across its platforms, marking one of the first major jury rulings on child safety in the social media era.
-
-[Al Jazeera] The verdict marks the first time a US state has successfully sued the social media giant over child safety issues.</description>
+[Africanews] Authorities in Kenya have uncovered a disturbing mass grave in Kericho, where officials exhumed dozens of bodies, including foetuses, in a case that is rapidly expanding in scale. The investigation began earlier this week after police received reports of a secret burial site over the weekend.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T11:11:50+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>6a6689cc6824</cluster_id>
+      <sources>BBC Africa
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/03/25/mass-grave-of-32-bodies-including-children-discovered-in-kenya/</urls>
+      <titles>Dozens of bodies, mostly infants, discovered in Kenya mass grave
+Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>'Major player' in alleged mistaken identity kidnap of Sydney grandfather charged</title>
+      <link>https://www.bbc.com/news/articles/cqxl825z839o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The 23-year-old is the third man to be charged in connection with the death of Chris Baghsarian.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-03-25T11:05:46+00:00</cluster_time>
-      <cluster_size>4</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>54e09e1fcd30</cluster_id>
-      <sources>BBC News
-France 24
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/meta-platforms-found-guilty-of-harming-children-s-health-and-safety-in-us-state-trial
-https://www.france24.com/en/americas/20260324-meta-ordered-to-pay-375-million-over-child-exploitation-in-landmark-verdict
-https://www.aljazeera.com/economy/2026/3/25/us-jury-orders-meta-to-pay-375m-for-endangering-children?traffic_source=rss</urls>
-      <titles>Meta told to pay $375m for misleading users over child safety
-Meta platforms found guilty of harming children's health and safety in US state trial
-Meta ordered to pay $375 million over child exploitation in landmark verdict
-US jury orders Meta to pay $375m for endangering children</titles>
-      <languages>en</languages>
+      <cluster_time>2026-03-25T11:06:41+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Chetan Baboolall, député du MMM : « Je soutiens pleinement mon leader »</title>
@@ -145,47 +1017,6 @@ US jury orders Meta to pay $375m for endangering children</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bonne gouvernance, lutte contre la drogue et nominations : Bérenger dénonce des engagements non respectés</title>
-      <link>https://defimedia.info/bonne-gouvernance-lutte-contre-la-drogue-et-nominations-berenger-denonce-des-engagements-non</link>
-      <description>[Defimedia] Lors d’une conférence de presse tenue ce mercredi, Paul Bérenger est revenu en détail sur les raisons qui l’ont poussé à
-
-[Defimedia] Lors d’une conférence de presse tenue à sa résidence de River Walk ce mercredi, Paul Bérenger a annoncé la tenue d’un ra
-
-[Defimedia] Lors d’une conférence de presse tenue ce matin à Riverwalk, Floréal, le leader du MMM, Paul Bérenger, est revenu sur les
-
-[Defimedia] Paul Bérenger, leader du MMM, organise un grand rassemblement ce samedi à Rose-Hill pour clarifier sa position politique
-
-[Defimedia] Suivez en direct la conférence de presse de Paul Bérenger</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T11:00:00+00:00</cluster_time>
-      <cluster_size>5</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>88d7c481d366</cluster_id>
-      <sources>Defimedia</sources>
-      <urls>https://defimedia.info/bonne-gouvernance-lutte-contre-la-drogue-et-nominations-berenger-denonce-des-engagements-non
-https://defimedia.info/mmm-berenger-annonce-un-rassemblement-rose-hill-ce-samedi-pour-trancher-sur-les-options-venir
-https://defimedia.info/berenger-affirme-que-la-situation-economique-du-pays-est-lune-des-raisons-derriere-son-depart
-https://defimedia.info/berenger-bat-le-rappel-de-ses-troupes-ce-samedi
-https://defimedia.info/suivez-en-direct-la-conference-de-presse-de-paul-berenger</urls>
-      <titles>Bonne gouvernance, lutte contre la drogue et nominations : Bérenger dénonce des engagements non respectés
-MMM : Bérenger annonce un rassemblement à Rose-Hill ce samedi pour trancher sur les options à venir
-Bérenger affirme que la situation économique du pays est l'une des raisons derrière son départ
-Bérenger bat le rappel de ses troupes, ce samedi
-Suivez en direct la conférence de presse de Paul Bérenger</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
-      <title>Enquête de la FCC sur un trafic estimé à Rs 75,9 M : Steven Moothoocurpen et l’inspecteur Luckmun arrêtés</title>
-      <link>https://defimedia.info/enquete-de-la-fcc-sur-un-trafic-estime-rs-759-m-steven-moothoocurpen-et-linspecteur-luckmun-arretes</link>
-      <description>La Financial Crimes Commission (FCC) a procédé à l’arrestation de Steven Moothoocurpen et de l’inspecteur Vicky Luckmun</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T11:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>PORT : Soutien de la PLHDWU  à Paul Bérenger</title>
       <link>https://www.lemauricien.com/actualites/societe/port-soutien-de-la-plhdwu-a-paul-berenger/702672/</link>
       <description>Le président du Port-Louis Harbour and Docks Workers Union (PLHDWU), Rama Valaydon, exprime sa solidarité envers l’ex-Deputy Prime Minister, Paul Bérenger, dans une lettre rendue publique. Il a...</description>
@@ -196,67 +1027,14 @@ Suivez en direct la conférence de presse de Paul Bérenger</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Démission de Paul Bérenger : la corruption et le “gang des 5” parmi les raisons de son départ</title>
-      <link>https://defimedia.info/demission-de-paul-berenger-la-corruption-et-le-gang-des-5-parmi-les-raisons-de-son-depart</link>
-      <description>Lors de sa conférence de presse, Paul Bérenger a également évoqué la corruption comme l’une des principales raisons de s</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T10:57:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Russia launches 948 drones at Ukraine in largest attack over 24-hour period</title>
-      <link>https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.
-
-[France 24] Moscow fired nearly 1,000 drones at Ukraine in 24 hours, as it starts is spring offensive. One damaged an energy facility on the region of Chernihiv, leaving close to 150,000 consumers in the city and its surroundings without power. Russia's air defences also downed nearly 400 incoming Ukrainian drones, making it the largest reported overnight attack on Russian regions and Crimea since the start of the invasion. FRANCE 24's Emmanuelle Chaze tells us more from the ground.
-
-[France 24] A drone coming from Russian airspace struck a power plant in Estonia on Wednesday, while another crashed into Latvian territory, with officials in Riga saying it was likely a Ukrainian drone gone astray. Kyiv earlier launched a massive drone barrage against Russia, sparking a fire at a major petroleum export hub not far from the Estonian border.</description>
+      <title>'Fearless' Mel Schilling remembered by Married at First Sight co-star</title>
+      <link>https://www.bbc.com/news/articles/cdxd949dvqeo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Paul C Brunson pays an emotional tribute to his fellow TV relationship expert, who died on Tuesday.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-03-25T10:56:19+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>d55621abb2ca</cluster_id>
-      <sources>BBC News
-France 24</sources>
-      <urls>https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/russia-and-ukraine-escalate-drone-attacks-as-moscow-starts-spring-offensive
-https://www.france24.com/en/europe/20260325-estonia-and-latvia-say-they-were-hit-by-drones-as-ukraine-unleashes-massive-attack-on-russia</urls>
-      <titles>Russia launches 948 drones at Ukraine in largest attack over 24-hour period
-Russia and Ukraine escalate drone attacks as Moscow starts spring offensive
-Estonia and Latvia say they were hit by drones as Ukraine unleashes massive attack on Russia</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>In Lebanon, some schools choose to stay open despite the war</title>
-      <link>https://www.france24.com/en/in-lebanon-some-schools-choose-to-stay-open-despite-the-war</link>
-      <description>In Lebanon, despite ongoing strikes and insecurity, some schools have chosen to remain open. In Beirut, a school located near the southern suburbs regularly targeted continues to welcome students, while others attend classes remotely. How do you teach and learn amidst a war? FRANCE 24's Serge Berberi and Renée Davis went to meet parents and students - and found some answers.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T10:53:24+00:00</cluster_time>
+      <cluster_time>2026-03-25T10:45:34+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US to deploy elite army brigade to Middle East: reports</title>
-      <link>https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports</link>
-      <description>[France 24] The United States is planning to send some 3,000 soldiers from the elite 82nd Airborne Division to the Middle East to support operations against Iran, US media reported Tuesday. They would join thousands of Marines due to arrive in the Middle East by Friday, the latest deadline set by President Donald Trump for Iran to open the Strait of Hormuz, according to the Wall Street Journal. The Guardian Washington bureau chief David Smith reports.
-
-[France 24] The United States is ramping up its military presence in the Middle East even more, despite the US having reportedly sent a 15-point peace plan to Tehran. There are plans to send soldiers from the 82nd Airborne Division to support operations against Iran, according to US media reports. They would join thousands of Marines due to arrive in the region by March 25.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T10:45:44+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>a160048523d8</cluster_id>
-      <sources>France 24</sources>
-      <urls>https://www.france24.com/en/us-to-deploy-elite-army-brigade-to-middle-east-reports
-https://www.france24.com/en/us-ramps-up-military-presence-in-the-middle-east-amid-reported-talks</urls>
-      <titles>US to deploy elite army brigade to Middle East: reports
-US ramps up military presence in the Middle East amid reported talks</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Homme de terrain et artisan de plusieurs initiatives sociales et éducatives, Jean-Noël Adolphe s’est éteint</title>
@@ -265,16 +1043,6 @@ US ramps up military presence in the Middle East amid reported talks</titles>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-25T10:41:01+04:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>War in the Middle East: An opportunity for Iran's minorities?</title>
-      <link>https://www.france24.com/en/tv-shows/focus/20260325-war-in-the-middle-east-an-opportunity-for-iran-s-minorities</link>
-      <description>Shiite Persians make up 51 percent of Iran's population. Yet communities like the Azeris, Kurds, Balochs and Arabs also number in the millions. Historically, they have often been ignored or mistreated by the regime in Tehran, both under the shah and the Islamic Republic. These ethnic minorities could play a role in the current conflict raging in the Middle East. FRANCE 24's David Gilbert and Florent Marchais report.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T10:31:07+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -289,26 +1057,6 @@ US ramps up military presence in the Middle East amid reported talks</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Former cancer nurse Sarah Mullally to be enthroned as first woman to lead Church of England</title>
-      <link>https://www.france24.com/en/europe/20260325-former-cancer-nurse-sarah-mullally-to-be-enthroned-as-first-woman-to-lead-church-of-england</link>
-      <description>Cancer nurse turned archbishop Sarah Mullally will be enthroned Wednesday as the first woman to lead the Church of England. The archbishop of Canterbury also serves as spiritual leader of the global Anglican Communion, grouping together some 100 million members.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T10:28:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US sends 15-point peace plan to Iran while deploying troops in the region</title>
-      <link>https://www.france24.com/en/us-sends-15-point-peace-plan-to-iran-while-deploying-troops-in-the-region</link>
-      <description>The Trump administration is ramping up efforts to end the Middle East war. After Trump said talks were ongoing between Washington and Tehran, Pakistani officials said that the White House had sent a 15-point peace plan to Iran - yet Tehran has dismissed the idea of negotiating with the US. Meanwhile, US media reported that at least 1,000 troops are to deploy to the Middle East. Although it could be to put pressure on Tehran, Iran is also preparing for the possibility of US troops on the ground.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T10:25:57+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Paul Bérenger confirme des échanges avec certains membres du MMM</title>
       <link>https://defimedia.info/paul-berenger-confirme-des-echanges-avec-certains-membres-du-mmm</link>
       <description>Paul Bérenger a été interrogé sur la présence de Chetan Baboolall à son domicile ce mardi, alors que le député du MMM se</description>
@@ -317,46 +1065,6 @@ US ramps up military presence in the Middle East amid reported talks</titles>
       <cluster_time>2026-03-25T10:24:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Salah to leave Liverpool at end of season</title>
-      <link>https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC Africa] The Egypt forward says Liverpool fans &quot;gave me the best time of my life&quot; and &quot;stood by me in the toughest times&quot;.
-
-[Africanews] Liverpool star Mohamed Salah announced Tuesday he will leave the English club at the end of the season, marking an earlier-than-planned departure for one of the club's greatest-ever scorers and soccer's biggest names.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T10:22:45+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>2d4ffe098b20</cluster_id>
-      <sources>BBC Africa
-Africanews</sources>
-      <urls>https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/03/25/mo-salah-to-leave-liverpool-at-the-end-of-the-season/</urls>
-      <titles>Salah to leave Liverpool at end of season
-Mo Salah to leave Liverpool at the end of the season</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>Dozens of bodies, mostly infants, discovered in Kenya mass grave</title>
-      <link>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC Africa] Some of the 32 bodies, including 25 children, are believed to have come from local hospitals and mortuaries.
-
-[Africanews] Authorities in Kenya have uncovered a disturbing mass grave in Kericho, where officials exhumed dozens of bodies, including foetuses, in a case that is rapidly expanding in scale. The investigation began earlier this week after police received reports of a secret burial site over the weekend.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T10:22:25+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>6a6689cc6824</cluster_id>
-      <sources>BBC Africa
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/03/25/mass-grave-of-32-bodies-including-children-discovered-in-kenya/</urls>
-      <titles>Dozens of bodies, mostly infants, discovered in Kenya mass grave
-Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Zimbabwean billionaire’s firm teams up with US fintech to expand stablecoins in Africa</title>
@@ -375,16 +1083,6 @@ Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-03-25T10:18:50+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya, China conclude trade agreement to deepen economic ties</title>
-      <link>https://africa.businessinsider.com/local/markets/kenya-china-conclude-trade-agreement-to-deepen-economic-ties/1em5wf7</link>
-      <description>Kenya has finalised a trade deal with China, granting up to 98% of Kenyan exports duty-free access to the Chinese market</description>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T10:18:49+01:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -409,28 +1107,14 @@ Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US proposes 15-point plan as Iran opens Strait of Hormuz to 'non-hostile' oil vessels</title>
-      <link>https://www.france24.com/en/middle-east/20260325-us-proposes-15-point-plan-as-iran-opens-hormuz-to-non-hostile-oil-vessels</link>
-      <description>[France 24] US President Donald Trump said Tuesday he had sent a peace plan to Iran, expressing cautious optimism about ending nearly a month of war. In a potential sign of de-escalation, Tehran announced it would allow “non-hostile” vessels to pass through the strategically vital Strait of Hormuz, a key artery for global oil supplies.
-
-[Al Jazeera] Tehran's statement on opening of key waterway comes as US President Trump says talks are taking place to end the war.
-
-[Al Jazeera] As such, it requires urgent action.</description>
-      <source>France 24</source>
+      <title>Iran’s closure of the Strait of Hormuz is an international crisis</title>
+      <link>https://www.aljazeera.com/opinions/2026/3/25/irans-closure-of-the-strait-of-hormuz-is-an-international-crisis?traffic_source=rss</link>
+      <description>As such, it requires urgent action.</description>
+      <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-25T10:09:15+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>82e4b48f2d1c</cluster_id>
-      <sources>France 24
-Al Jazeera</sources>
-      <urls>https://www.france24.com/en/middle-east/20260325-us-proposes-15-point-plan-as-iran-opens-hormuz-to-non-hostile-oil-vessels
-https://www.aljazeera.com/economy/2026/3/25/iran-says-non-hostile-ships-can-pass-safely-through-strait-of-hormuz?traffic_source=rss
-https://www.aljazeera.com/opinions/2026/3/25/irans-closure-of-the-strait-of-hormuz-is-an-international-crisis?traffic_source=rss</urls>
-      <titles>US proposes 15-point plan as Iran opens Strait of Hormuz to 'non-hostile' oil vessels
-Iran says ‘non-hostile’ ships can pass safely through Strait of Hormuz
-Iran’s closure of the Strait of Hormuz is an international crisis</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>[PMQT] Standard &amp; Poor’s : Le contrat n’a pas été renouvelé en ce mois de mars 2026</title>
@@ -449,16 +1133,6 @@ Iran’s closure of the Strait of Hormuz is an international crisis</titles>
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-03-25T10:03:03+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Aviation – Relations industrielles Air Mauritius : le CEO présidera les négociations collectives</title>
-      <link>https://www.lemauricien.com/actualites/societe/aviation-relations-industrielles-air-mauritius-le-ceo-presidera-les-negociations-collectives/702670/</link>
-      <description>Le Chief Executive Officer (CEO) d’Air Mauritius, André Viljoen, présidera les négociations portant sur un nouvel accord collectif entre la direction de la compagnie aérienne nationale et ses sy...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T10:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -523,16 +1197,6 @@ Iran’s closure of the Strait of Hormuz is an international crisis</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Niger and Algeria continue to ease up on their cold war with fresh agreements</title>
-      <link>https://africa.businessinsider.com/local/markets/niger-and-algeria-continue-to-ease-up-on-their-cold-war-with-fresh-agreements/77v61wj</link>
-      <description>Niger and Algeria are deepening their strategic cooperation with a new wave of agreements aimed at accelerating development in key sectors, marking a significant step forward in West and North African regional cooperation</description>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T09:31:00+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Question au Premier ministre : 247 agressions et 144 cas de harcèlement contre des policiers</title>
       <link>https://defimedia.info/question-au-premier-ministre-247-agressions-et-144-cas-de-harcelement-contre-des-policiers</link>
       <description>En un peu plus de deux ans, 247 personnes ont été arrêtées pour des agressions contre des policiers à Maurice. Ce chiffr</description>
@@ -553,36 +1217,22 @@ Iran’s closure of the Strait of Hormuz is an international crisis</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Nigeria signs digital deal with Finland as Europe backs Africa’s tech talent push with €23million funding</title>
-      <link>https://africa.businessinsider.com/local/markets/nigeria-finland-sign-digital-economy-deal-as-eu-backs-tech-skills-push/qqvkbsh</link>
-      <description>Nigeria and Finland have signed a digital cooperation agreement as the EU rolls out a €23m initiative to boost public services and train tech talent in Africa’s largest economy</description>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T09:06:12+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>PMQT -Situation économique Ramgoolam : « Maurice reste sous surveillance étroite de Moody’s »</title>
       <link>https://www.lemauricien.com/actualites/societe/pmqt-situation-economique-ramgoolam-maurice-reste-sous-surveillance-etroite-de-moodys/702656/</link>
       <description>[Le Mauricien] Raviraj Beechook a interpellé le Premier ministre, Navin Ramgoolam, sur les conséquences d’une nouvelle rétrogradation de Moody’s sur. Il a demandé si un Impact Assessment a été m...
-
-[Defimedia] Maurice reste sous étroite surveillance de l’agence Moody’s. Le Premier ministre, Navin Ramgoolam, a mis en garde contre
 
 [Defimedia] Alors que la note souveraine de Maurice frôle la catégorie spéculative, le gouvernement affirme renforcer ses actions po</description>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-25T09:00:00+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
+      <cluster_size>2</cluster_size>
       <source_count>2</source_count>
-      <cluster_id>742ff95d9a4e</cluster_id>
+      <cluster_id>37f5ccb310b7</cluster_id>
       <sources>Le Mauricien
 Defimedia</sources>
       <urls>https://www.lemauricien.com/actualites/societe/pmqt-situation-economique-ramgoolam-maurice-reste-sous-surveillance-etroite-de-moodys/702656/
-https://defimedia.info/maurice-sous-pression-de-moodys-le-gouvernement-mobilise-pour-eviter-le-junk-status
 https://defimedia.info/reponse-de-navin-ramgoolam-le-gm-fait-tout-pour-eviter-une-degradation-par-moodys</urls>
       <titles>PMQT -Situation économique Ramgoolam : « Maurice reste sous surveillance étroite de Moody’s »
-Maurice sous pression de Moody’s : le gouvernement mobilisé pour éviter le “junk status”
 Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par Moody’s</titles>
       <languages>fr</languages>
     </item>
@@ -617,36 +1267,6 @@ Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Algeria clears $30m hurdle for Australian miner Terramin to advance $471m zinc project</title>
-      <link>https://africa.businessinsider.com/local/markets/terramin-starts-work-on-algerias-tala-hamza-zinc-project-after-dollar30m-land-deal/5dkbbrv</link>
-      <description>Australia’s Terramin has launched site works at Algeria’s Tala Hamza zinc project after a $30million land acquisition cleared delays, as the country seeks to boost mining and cut reliance on hydrocarbons</description>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T08:46:52+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Is Iran’s negotiating position stronger than when US-Israeli war started?</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/is-irans-negotiating-position-stronger-than-when-us-israeli-war-started?traffic_source=rss</link>
-      <description>Tehran believes so, and will seek to extract concessions that the US and Gulf nations can't agree to, analysts caution.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T08:38:42+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Dreams of survival: How war has restructured Gaza’s job market</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/dreams-of-survival-how-war-restructured-gaza-labour-market?traffic_source=rss</link>
-      <description>Gaza's professionals adapt careers to survive, shifting from arts and business to whatever they can find to make money.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T08:34:07+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>PNQ - Conséquences du conflit au Moyen-Orient : Maurice redoute une nouvelle poussée inflationniste</title>
       <link>https://defimedia.info/pnq-consequences-du-conflit-au-moyen-orient-maurice-redoute-une-nouvelle-poussee-inflationniste</link>
       <description>Les tensions dans le golfe font peser de nouvelles incertitudes sur l’économie mauricienne, notamment sur les prix des c</description>
@@ -667,16 +1287,6 @@ Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Russia, Ukraine tit-for-tat attacks knock out power for over half a million</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/russia-ukraine-tit-for-tat-attacks-knock-out-power-for-over-half-a-million?traffic_source=rss</link>
-      <description>Some 450,000 people without electricity in Belgorod region, while power cut off for 150,000 consumers ‌in ​Chernihiv.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T08:21:08+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Graffiti conviction for Australian woman who stuck googly eyes on sculpture</title>
       <link>https://www.bbc.com/news/articles/cwydx34kzlvo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The woman had taken MDMA and three litres of vodka when she vandalised the piece nicknamed Blue Blob.</description>
@@ -687,22 +1297,200 @@ Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US talking to itself, says Iran as Trump claims wheels of diplomacy turning</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/us-talking-to-itself-says-iran-as-trump-claims-wheels-of-diplomacy-turning?traffic_source=rss</link>
-      <description>Iranian officials continue to deny any peace talks, amid reports the US sent the country a ceasefire proposal.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T08:09:40+00:00</cluster_time>
+      <title>Bel-Air-Rivière-Sèche : Deux vols rapportés</title>
+      <link>https://live.mega.mu/redirect/252917/</link>
+      <description>Deux vols distincts ont été rapportés au poste de police de Bel-Air-Rivière-Sèche au cours de la journée du mardi 24 mars, mobilisant les enquêteurs de la Criminal Investigation Division (CID). Dans le premier cas, un opérateur de 63 ans, employé dans une entreprise basée à Rivière-Sèche, a rapporté un vol de câbles dans un dépôt situé à Grande-Rivière-Sud-Est. Ce vol aurait eu lieu entre le 23 mars aux alentours de 13 h 30 et le lendemain à 7 h 10. Les malfaiteurs sont r ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Boss of financial giant BlackRock warns of global recession if oil price hits $150</title>
-      <link>https://www.bbc.com/news/articles/c9wqrdkx8ppo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Larry Fink says if oil prices stay high for a sustained period it will have &quot;profound implications&quot; for the world economy.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T08:04:43+00:00</cluster_time>
+      <title>Développement : Maurice attire les investisseurs indiens grâce au freeport</title>
+      <link>https://live.mega.mu/redirect/252920/</link>
+      <description>Une quinzaine d’hommes d’affaires et d’investisseurs du Gujarat, membres de l’Indian Economic Trade Organisation (IETO), étaient à Maurice du 16 au 21 mars, dans le prolongement de la visite d’une délégation mauricienne en Inde l’an dernier. Pendant leur séjour, ils ont rencontré des institutions publiques et des acteurs privés afin d’explorer des possibilités de collaboration et d’évaluer les conditions d’investissement dans des secteurs variés tels que les servic ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Éclairage : Navin Ramgoolam face à l’équation impossible : Gouverner sous pression politique et contrainte budgétaire</title>
+      <link>https://live.mega.mu/redirect/252911/</link>
+      <description>À l’approche des consultations pré-budgétaires, Navin Ramgoolam se retrouve confronté à une équation d’une rare complexité. D’un côté, un environnement économique qui se détériore rapidement sous l’effet des tensions géopolitiques internationales, notamment impliquant le conflit en Iran. De l’autre, une crise politique interne déclenchée par la rupture avec son ancien *Deputy Prime Minister*, Paul Bérenger, désormais repositionné dans l’opposition. Ce double choc ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Appel d’offres de poisson salé aux prisons : Dev Jokhoo : «Ce n’est pas moi qui attribue les contrats»</title>
+      <link>https://live.mega.mu/redirect/252914/</link>
+      <description>Au cœur de la tourmente liée au contrat controversé de fourniture en poisson salé aux services pénitenciers, l’ancien commissaire des prisons (CP), Dev Jokhoo, a livré une réponse ce lundi 23 mars, à sa sortie du *Board of Inquiry* sur la mort d’Andy Selmour. Dans une déclaration à la presse, il a tenu à préciser les faits, en multipliant les éléments techniques et les mises au point. D’entrée de jeu, il a rejeté toute implication personnelle dans les décisions évoqué ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Questions à : Jean Claude de l’Estrac : «Bérenger est présentement un leader sans parti, les autres ont un parti sans leader»</title>
+      <link>https://live.mega.mu/redirect/252899/</link>
+      <description>■ **Il semblerait que la crise interne au MMM est en train de prendre une tournure juridique basée sur sa Constitution. Est-ce pertinent à votre avis ?** Je suis surpris par ce débat sur une Constitution largement inopérante depuis plusieurs années. Pour commencer, l’actuel Comité central est en fonction prolongée, et inconstitutionnelle, comme disent les juristes, du fait que des élections n’ont pas été tenues depuis 2018, soit huit ans, alors qu’elles sont censées se teni ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>MMM : Le comité central se tiendra ce vendredi</title>
+      <link>https://live.mega.mu/redirect/252902/</link>
+      <description>La réunion du comité central du Mouvement militant mauricien (MMM), initialement prévue ce samedi à la mairie de Beau-Bassin/Rose-Hill, a été avancée et relocalisée. Elle se tiendra finalement le vendredi 27 mars à 17 heures à l’hôtel Hennessy Park, à Ébène, a indiqué le secrétaire du parti, Rajesh Bhagwan. Ce changement intervient dans un contexte politique tendu au sein de la formation mauve. Lors d’une conférence de presse tenue ce mercredi, le leader du MMM, Paul Bér ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Diplomatie : Maurice et le Rwanda renforcent leurs relations bilatérales</title>
+      <link>https://live.mega.mu/redirect/252905/</link>
+      <description>Le Premier ministre, Navin Ramgoolam, a reçu ce mercredi 25 mars 2026 Christine Nkulikiyinka, ministre de la Fonction publique et du Travail de la République du Rwanda, en visite officielle à Maurice. Christine Nkulikiyinka était porteuse d’un message du président Paul Kagame, portant notamment sur le poste de secrétaire générale de l’Organisation internationale de la Francophonie (OIF), pour lequel la candidate rwandaise, Louise Mushikiwabo, brigue un nouveau mandat. Cette ren ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Politique : Yvan Martial : «Le MMM n’intéresse que les membres du MMM… nous sommes 1,2 million de Mauriciens»</title>
+      <link>https://live.mega.mu/redirect/252908/</link>
+      <description>La question de savoir si le MMM peut exister sans Paul Bérenger dépasse, pour Yvan Martial, le simple cadre partisan. Elle s’inscrit d’abord dans une réalité nationale. *«La question, c’est est-ce que le MMM reste dans le gouvernement ? C’est la seule question qui intéresse les Mauriciens, nous sommes 1,2 million, et notre gouvernement intéresse tout le monde»*, affirme-t-il d’emblée, balayant l’idée d’un débat limité aux seuls militants mauves. Dans son analyse, le ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Parlement : Agressions contre des policiers: 247 arrestations en un peu plus de deux ans, 27 condamnations</title>
+      <link>https://live.mega.mu/redirect/252887/</link>
+      <description>La question des agressions et actes de violence visant des policiers en service a été soulevée par le député Dr Farhad Aumeer. Il a interrogé Navin Ramgoolam sur le nombre de cas recensés au cours des deux dernières années, les arrestations et condamnations associées, ainsi que sur les mesures mises en place pour prévenir de tels incidents. En réponse, le chef du gouvernement a d’emblée condamné fermement toute forme de violence, d’intimidation ou de brutalité à l’encont ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>«L’express» du 2 septembre 1987 : «Il n’y a pas que moi seul au parti»</title>
+      <link>https://live.mega.mu/redirect/252884/</link>
+      <description>C’est chez lui, à Floréal, que Paul Bérenger a accordé à *l’express* cet entretien paru le 2 septembre 1987. La question est directe : *«Pour le MMM, Paul Bérenger, c’est qui ?»* Sa réponse révèle un style de leadership qui lui est propre : *«J’ai beaucoup d’attachement sentimental au MMM. Il y a plusieurs raisons à ça. Les victoires, les défaites, les épreuves, mon rôle de leader de parti et de leader de l’opposition. Mais il n’y a pas que moi seul au MMM. Le ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Interview of… Aarshin Karande : Beyond Data: Why Indian Classical Music Challenges Artificial Intelligence</title>
+      <link>https://live.mega.mu/redirect/252893/</link>
+      <description>Can AI Understand a Raga? Aarshin Karande on Music, Machines and Meaning In an era where algorithms increasingly shape culture, Aarshin Karande stands at an unlikely crossroads – between the ancient discipline of Indian classical music and the fast-evolving field of artificial intelligence (AI) ethics. Trained in the guru-shishya tradition under disciples of maestros such as Pandit Jasraj and Ustad Zakir Hussain, Karande has spent a lifetime immersed in a musical form rooted in intuition, l ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Carburants : Le prix du diesel passe à Rs 64,80 le litre, celui de l’essence reste inchangé</title>
+      <link>https://live.mega.mu/redirect/252821/</link>
+      <description>[L'Express (via mega.mu)] Réuni hier, mardi 24 mars, le *Petroleum Pricing Committee* (PPC) a procédé à un nouvel exercice de révision des prix conformément à la réglementation en vigueur. Ainsi, le prix du gasoil (diesel) passe de Rs 58,95 à Rs 64,80 le litre, soit une hausse d’environ 10 %. En revanche, le prix du mogas (essence) demeure inchangé à Rs 58,45 le litre. Selon le communiqué officiel, cette décision intervient dans un contexte de forte hausse des prix internationaux. Pour le diesel, l’a ...
+
+[L'Express (via mega.mu)] Le Petroleum Pricing Committee (PPC), réuni ce mardi 24 mars 2026, a décidé d’augmenter le prix du diesel et de maintenir celui de l’essence, à l’issue de son exercice de révision des prix conformément à la réglementation en vigueur.
+
+[Defimedia] Pourquoi avoir maintenu le prix de l’essence alors que celui du diesel augmente ?Il faut bien comprendre que ce n’est pa
+
+[Defimedia] Le prix du diesel a été revu à la hausse, passant de Rs 58,95 à Rs 64,80 le litre, soit une augmentation de 10 %. C’est</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>4</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>41d1291dc382</cluster_id>
+      <sources>L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://live.mega.mu/redirect/252821/
+https://live.mega.mu/redirect/252839/
+https://defimedia.info/trois-questions-amichael-sik-yuen-ministre-du-commerce-nous-avons-evite-une-hausse-de-40-du-prix-du
+https://defimedia.info/carburant-le-diesel-passe-de-rs-5895-rs-6480-le-litre</urls>
+      <titles>Carburants : Le prix du diesel passe à Rs 64,80 le litre, celui de l’essence reste inchangé
+Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue
+Trois questions à…Michael Sik Yuen, ministre du Commerce : «Nous avons évité une hausse de 40 % du prix du diesel»
+Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Réforme électorale : Paul Bérenger déplore des retards</title>
+      <link>https://live.mega.mu/redirect/252896/</link>
+      <description>Paul Bérenger a également évoqué la réforme électorale, dont la mise en œuvre tarde selon lui. « Je ne suis pas convaincu, car certains membres du Parti travailliste ne sont pas d’accord avec cette réforme, et je ne vois pas le Premier ministre les rappeler à l’ordre », a-t-il déclaré. Il a toutefois rappelé qu’un engagement avait été pris en faveur de cette réforme, soulignant l’importance de respecter cette promesse politique. ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mouvement Militant Mauricien : Chetan Baboolall affiche son soutien à Paul et Joanna Bérenger</title>
+      <link>https://live.mega.mu/redirect/252866/</link>
+      <description>*«Je donne mon plein soutien à Paul et Joanna Bérenger.»* Chetan Baboolall s’est également dissocié totalement des propos tenus à l’encontre de Paul Bérenger lors d’une conférence de presse par certains membres du MMM, le vendredi 20 mars. ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Politique : Vinod Boolell : «Lorsque SSR est mort, le PTr a survécu»</title>
+      <link>https://live.mega.mu/redirect/252869/</link>
+      <description>À La question *«le MMM peutil exister sans Paul Bérenger ?»*, l’ancien juge de la Cour suprême Vinod Boolell (photo) est catégorique : *«Bien sûr. Lorsque SSR est mort, le PTr a survécu. Ils ont élu un autre leader. Sir Satcam Boolell a pris la relève, puis Navin Ramgoolam. Lorsque SAJ est mort, Pravind Jugnauth a pris la relève. Ainsi, lorsqu’un leader part, rien n’empêche un parti d’exister. Dans le cas du MMM, Paul Bérenger est un symbole. Maintenant, s’il cède le lea ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Conférence de presse : Paul Bérenger : «Air Mauritius pe al crash»</title>
+      <link>https://live.mega.mu/redirect/252872/</link>
+      <description>Lors de sa conférence de presse, Paul Bérenger a exprimé de vives inquiétudes concernant la situation d’Air Mauritius, affirmant que la compagnie nationale «pe al crash». « C’est notre patrimoine et notre fierté nationale. Moi-même, j’avais dit que j’allais faire appel à Megh Pillay, car il est compétent et professionnel, mais à condition qu’il soit le patron d’Air Mauritius », a-t-il déclaré. *« On est en train de le saboter avec d’autres personnes à la tête ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Conférence de presse : Paul Bérenger relance la polémique sur le «gang des cinq»</title>
+      <link>https://live.mega.mu/redirect/252878/</link>
+      <description>Paul Bérenger a évoqué des allégations graves lors de sa conférence de presse ce mercredi 25 mars, mettant en cause des pratiques qu’il juge inacceptables au sein du Prime Minister’s Office (PMO). «Un ministre travailliste est venu me voir pour me dire qu’un membre du gang des cinq du PMO s’était rendu dans son bureau, accompagné d’un homme d’affaires, afin de lui proposer un pot-de-vin. Je lui ai conseillé de le mettre dehors», a-t-il déclaré. Selon lui, il aurait en ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Tribeca BIG Sales : L’expérience shopping prend une autre dimension au Tribeca Mall</title>
+      <link>https://live.mega.mu/redirect/252881/</link>
+      <description>Du 25 mars au 5 avril 2026, le Tribeca Mall sera le lieu incontournable pour les *fashionistas, shopaholics* et autres chasseurs de bons plans. Le plus grand centre commercial de l'île Maurice accueille l’un des événements shopping les plus attendus de l’année, le Tribeca BIG Sales. Avec comme objectif, «Shop BIG. Save BIG. Win BIG.», cette campagne annuelle d’envergure propose des offres exceptionnelles, des animations immersives, des expériences uniques et bien plus encore. ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -730,16 +1518,6 @@ Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par 
       <title>Guerre psychologique et tempête politique</title>
       <link>https://live.mega.mu/redirect/252854/</link>
       <description>Les vents contraires se déchaînent. Alors qu’au Moyen-Orient, c’est l’escalade, avec pour conséquence une flambée du baril de pétrole qui a atteint jusqu’à 113 dollars lundi matin, à Maurice, c’est la crise politique provoquée par la démission de Paul Bérenger et celle de sa fille Joanna qui polarise toute l’attention. En déclenchant l’opération «Fureur épique», les forces armées israélo-américaines ne s’attendaient sans doute pas à ce que l’Iran lance une ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Conférence de Paul Bérenger : «Gouvernman pe ratrap seki MSM inn pouri konpletman»</title>
-      <link>https://live.mega.mu/redirect/252857/</link>
-      <description>Lors d’une conférence de presse tenue ce mercredi 25 mars à Riverwalk, Paul Bérenger a tenu à clarifier sa position politique, affirmant avec force qu’il n’a pas quitté le Mouvement militant mauricien (MMM), malgré sa démission en tant que Deputy Prime Minister. *«Jamais mo’nn kit MMM, mo’nn retir mwa selman kouma Premier minis adzwin»*, a-t-il déclaré. Face à la presse, le leader historique des mauves n’a pas mâché ses mots à l’égard de certains dirigeants de so ...</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
@@ -817,42 +1595,6 @@ Réponse de Navin Ramgoolam : le GM fait tout pour éviter une dégradation par 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Carburants : Le prix du diesel passe à Rs 64,80 le litre, celui de l’essence reste inchangé</title>
-      <link>https://live.mega.mu/redirect/252821/</link>
-      <description>[L'Express (via mega.mu)] Réuni hier, mardi 24 mars, le *Petroleum Pricing Committee* (PPC) a procédé à un nouvel exercice de révision des prix conformément à la réglementation en vigueur. Ainsi, le prix du gasoil (diesel) passe de Rs 58,95 à Rs 64,80 le litre, soit une hausse d’environ 10 %. En revanche, le prix du mogas (essence) demeure inchangé à Rs 58,45 le litre. Selon le communiqué officiel, cette décision intervient dans un contexte de forte hausse des prix internationaux. Pour le diesel, l’a ...
-
-[L'Express (via mega.mu)] Le Petroleum Pricing Committee (PPC), réuni ce mardi 24 mars 2026, a décidé d’augmenter le prix du diesel et de maintenir celui de l’essence, à l’issue de son exercice de révision des prix conformément à la réglementation en vigueur.
-
-[Defimedia] Pourquoi avoir maintenu le prix de l’essence alors que celui du diesel augmente ?Il faut bien comprendre que ce n’est pa
-
-[Defimedia] Le prix du diesel connaît une hausse de 10 %, passant de Rs 58,95 à Rs 64,80, tandis que celui de l’essence reste inchan
-
-[Defimedia] Les regards sont braqués sur le Petroleum Pricing Committee (PPC), qui se réunit cet après-midi. Une hausse des prix des
-
-[Defimedia] Le prix du diesel a été revu à la hausse, passant de Rs 58,95 à Rs 64,80 le litre, soit une augmentation de 10 %. C’est</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
-      <cluster_size>6</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>b7ada84b7f11</cluster_id>
-      <sources>L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://live.mega.mu/redirect/252821/
-https://live.mega.mu/redirect/252839/
-https://defimedia.info/trois-questions-amichael-sik-yuen-ministre-du-commerce-nous-avons-evite-une-hausse-de-40-du-prix-du
-https://defimedia.info/carburants-le-prix-du-diesel-passe-de-rs-5895-rs-6480-celui-de-lessence-reste-inchange
-https://defimedia.info/carburants-le-ppc-en-reunion-une-hausse-des-prix-redoutee
-https://defimedia.info/carburant-le-diesel-passe-de-rs-5895-rs-6480-le-litre</urls>
-      <titles>Carburants : Le prix du diesel passe à Rs 64,80 le litre, celui de l’essence reste inchangé
-Carburants : le prix du diesel augmente à Rs 64.80, celui de l’essence maintenue
-Trois questions à…Michael Sik Yuen, ministre du Commerce : «Nous avons évité une hausse de 40 % du prix du diesel»
-Carburants : le prix du diesel passe de Rs 58,95 à Rs 64,80, celui de l’essence reste inchangé
-Carburants : le PPC en réunion, une hausse des prix redoutée
-Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
       <title>En couverture : 🔔 Les grands titres de l'express de ce mercredi 25 mars 2026 📰</title>
       <link>https://live.mega.mu/redirect/252824/</link>
       <description>En une de *l'express*: Politique : Le MMM peut-il exister sans Paul Bérenger ? ; Autre titre : Jean Claude de l’Estrac : «Il est présentement un leader sans parti, les autres ont un parti sans leader» l • Les Mauves présents dans l’Hémicycle, sauf les Bérenger et Chetan Baboolall l 16,4 kg de cannabis et de haschich saisis à l’aéroport : Une Française et un policier recherchés, l’épouse policière arrêtée l Enquête de la FCC : Yasish Emrith visé pour blanchiment et enri ...</description>
@@ -883,16 +1625,6 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Danish PM fails to secure majority in party's weakest election showing since 1903</title>
-      <link>https://www.bbc.com/news/articles/c74v5qynl9vo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The party, which has been in power since 2019, gained the most votes but faces tough talks on forming a new government.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T07:59:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Sécurisation de l’approvisionnement en produits pétroliers à Maurice</title>
       <link>https://www.lemauricien.com/actualites/societe/securisation-de-lapprovisionnement-en-produits-petroliers-a-maurice/702686/</link>
       <description>Dans le contexte actuel de tensions géopolitiques au Moyen-Orient et des inquiétudes liées au détroit d’Ormuz, la sécurisation de l’approvisionnement en produits pétroliers constit...</description>
@@ -913,24 +1645,14 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Guerre au Moyen-Orient : les derniers développements</title>
-      <link>https://defimedia.info/guerre-au-moyen-orient-les-derniers-developpements-19</link>
-      <description>[Defimedia] Le président américain Donald Trump affirme que des négociations pour mettre fin à la guerre avec l’Iran ont lieu « en c
-
-[ION News] Donald Trump a proposé un plan de paix à l’Iran et s’est montré optimiste mardi 24 mars sur les chances de parvenir à un accord, Téhéran indiquant de son côté qu’il laissera passer les navires non hostiles par le stratégique détroit d’Ormuz, au 26e jour de la guerre qui embrase le Moyen-Orient. Iran et États-Unis négocient pour tenter de mettre un terme au conflit, a de nouveau affirmé le président américain, mais les opérations militaires américaines contre la République islamique se poursuiven</description>
-      <source>Defimedia</source>
+      <title>Guerre au Moyen-Orient : Donald Trump fait passer un plan de paix à l’Iran</title>
+      <link>https://ionnews.mu/guerre-au-moyen-orient-donald-trump-fait-passer-un-plan-de-paix-a-liran/</link>
+      <description>Donald Trump a proposé un plan de paix à l’Iran et s’est montré optimiste mardi 24 mars sur les chances de parvenir à un accord, Téhéran indiquant de son côté qu’il laissera passer les navires non hostiles par le stratégique détroit d’Ormuz, au 26e jour de la guerre qui embrase le Moyen-Orient. Iran et États-Unis négocient pour tenter de mettre un terme au conflit, a de nouveau affirmé le président américain, mais les opérations militaires américaines contre la République islamique se poursuiven</description>
+      <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-03-25T07:30:46+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>92553342363e</cluster_id>
-      <sources>Defimedia
-ION News</sources>
-      <urls>https://defimedia.info/guerre-au-moyen-orient-les-derniers-developpements-19
-https://ionnews.mu/guerre-au-moyen-orient-donald-trump-fait-passer-un-plan-de-paix-a-liran/</urls>
-      <titles>Guerre au Moyen-Orient : les derniers développements
-Guerre au Moyen-Orient : Donald Trump fait passer un plan de paix à l’Iran</titles>
-      <languages>fr</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>L’Afghanistan annonce la libération d’un prisonnier américain</title>
@@ -963,65 +1685,6 @@ Guerre au Moyen-Orient : Donald Trump fait passer un plan de paix à l’Iran</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran’s new security boss Mohammad Zolghadr: Why his appointment matters</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/irans-new-security-boss-mohammad-zolghadr-why-his-appointment-matters?traffic_source=rss</link>
-      <description>Zolghadr, an ex-IRGC commander, will manage Iran's security amid external US-Israeli pressures and internal unrest.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T07:15:26+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Middle East live: Israeli strikes on South Lebanon leave nine dead</title>
-      <link>https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead</link>
-      <description>[France 24] In Lebanon, Israeli strikes killed at least six people in a town and a Palestinian refugee camp in the southern Sidon area, and three more in another town. This comes as US President Donald Trump expresses optimism at ending the war, after sending a 15-point ceasefire plan to Iran. Follow our liveblog for all the latest updates.
-
-[France 24] More than a million people have been driven from their homes in Lebanon as Israel continues its bombardment of the country and seizes land south of the Litani River. FRANCE 24 correspondent Renée Davis reports from Beirut on the rising resentment towards Israel's ongoing air strikes.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T07:13:52+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>a34988c71ca0</cluster_id>
-      <sources>France 24</sources>
-      <urls>https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead
-https://www.france24.com/en/the-humanitarian-crisis-here-is-worsening-by-the-minute-israel-continues-to-bomb-lebanon</urls>
-      <titles>Middle East live: Israeli strikes on South Lebanon leave nine dead
-'The humanitarian crisis here is worsening by the minute': Israel continues to bomb Lebanon</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>Democrats flip Florida state seat that includes Trump's Mar-a-Lago home</title>
-      <link>https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Emily Gregory’s projected victory comes in a legislative district which a Republican candidate won by 19 percentage points in 2024.
-
-[France 24] The US Democratic Party appears to have won back a Florida state legislative from the Republicans – and one that's home to US President Donald Trump's lavish Mar-a-Lago estate.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T07:11:24+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>dbc9ba7539e1</cluster_id>
-      <sources>BBC News
-France 24</sources>
-      <urls>https://www.bbc.com/news/articles/c9qd7wyln2jo?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/americas/20260325-democrats-projected-to-win-back-florida-district-home-to-trump-mar-a-lago</urls>
-      <titles>Democrats flip Florida state seat that includes Trump's Mar-a-Lago home
-Democrats projected to win back Florida district home to Trump's Mar-a-Lago</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</title>
-      <link>http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/</link>
-      <description>Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T07:09:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>130 Annual Tuberculosis Cases Recorded As Hospital Admissions Reach 104 Patients</title>
       <link>https://newsmoris.com/130-annual-tuberculosis-cases-recorded-as-hospital-admissions-reach-104-patients/</link>
       <description>Health authorities in Mauritius are intensifying screening efforts as tuberculosis (TB) continues to be the leading cause of admission to the island’s respiratory wards, with approximately 130 new cases recorded annually. While the clinical situation has remained stable over the … The post 130 Annual Tuberculosis Cases Recorded As Hospital Admissions Reach 104 Patients appeared first on News Moris.</description>
@@ -1042,16 +1705,6 @@ Democrats projected to win back Florida district home to Trump's Mar-a-Lago</tit
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US-Israel war on Iran: What’s happening on day 26 of attacks?</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/us-israel-war-on-iran-whats-happening-on-day-26-of-attacks?traffic_source=rss</link>
-      <description>Iran, Israel, the Gulf faced new missiles and drones. The US has signalled military escalation and openness to a deal.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T06:56:04+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Journalists at Australia's national broadcaster strike for first time in 20 years</title>
       <link>https://www.bbc.com/news/articles/c208ngv1mz7o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Staff have walked out for 24 hours over a pay rise offer that was below inflation.</description>
@@ -1068,16 +1721,6 @@ Democrats projected to win back Florida district home to Trump's Mar-a-Lago</tit
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-25T06:26:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Football: France arrive in Boston to face Brazil and Colombia in friendlies</title>
-      <link>https://www.france24.com/en/tv-shows/sports/20260325-football-france-have-arrived-in-boston-to-face-brazil-and-colombia</link>
-      <description>The French national team have arrived in Boston for their US tour. France will face Brazil on March 26 and Colombia on March 29 in friendly matches.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T06:16:41+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1112,16 +1755,6 @@ Democrats projected to win back Florida district home to Trump's Mar-a-Lago</tit
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Secteur des services financiers : Maurice accélère sa préparation à l’évaluation ESAAMLG de 2027</title>
-      <link>https://www.lemauricien.com/actualites/societe/secteur-des-services-financiers-maurice-accelere-sa-preparation-a-levaluation-esaamlg-de-2027/702588/</link>
-      <description>Réformes du secteur, préparation de Maurice à la Mutual Evaluation du Eastern and Southern Africa Anti-Money Laundering Group (ESAAMLG) de 2027, montée en puissance de l’assurance santé dans ...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T06:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>👨🏿‍🚀TechCabal Daily – Optasia takes interest in banks</title>
       <link>https://techcabal.com/2026/03/25/techcabal-daily-optasia-takes-interest-in-banks/</link>
       <description>In today's edition: Optasia wants to sell its technology to banks || NBK posts profit after Access Bank purchase || Namibia rejects Starlink || Circle, Cassava partner to bring stablecoin payments || Plus: World Wide Web 3 and Opportunities for you</description>
@@ -1142,26 +1775,6 @@ Democrats projected to win back Florida district home to Trump's Mar-a-Lago</tit
       <source_count>1</source_count>
     </item>
     <item>
-      <title>'Major player' in alleged mistaken identity kidnap of Sydney grandfather charged</title>
-      <link>https://www.bbc.com/news/articles/cqxl825z839o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The 23-year-old is the third man to be charged in connection with the death of Chris Baghsarian.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T05:47:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Amid US-Israeli attacks, people in Iran struggle to survive ailing economy</title>
-      <link>https://www.aljazeera.com/features/2026/3/25/amid-us-israeli-attacks-people-in-iran-struggle-to-survive-ailing-economy?traffic_source=rss</link>
-      <description>Some are left without an income, others are temporarily displaced, and no one knows when the internet will return .</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T05:41:14+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Emtel Revenues Soar Past Rs 4 Billion Mark During a Fantastic 2025 Year</title>
       <link>https://newsmoris.com/emtel-revenues-soar-past-rs-4-billion-mark-during-a-fantastic-2025-year/</link>
       <description>Telecommunications leader Emtel has hit a historic financial milestone, with annual revenues surging past Rs 4 billion for the first time. The group’s financial results for the year ending 31 December 2025 reveal a significant leap from Rs 3.7 billion… The post Emtel Revenues Soar Past Rs 4 Billion Mark During a Fantastic 2025 Year appeared first on News Moris.</description>
@@ -1170,36 +1783,6 @@ Democrats projected to win back Florida district home to Trump's Mar-a-Lago</tit
       <cluster_time>2026-03-25T05:30:56+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>From Pakistan to Egypt, Iran war drives up prices in Global South</title>
-      <link>https://www.aljazeera.com/economy/2026/3/25/from-pakistan-to-egypt-iran-war-drives-up-fuel-prices-in-the-global-south?traffic_source=rss</link>
-      <description>Developing economies in Asia, Africa and the Middle East are most exposed to surging energy costs.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T05:20:18+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Football : Salah et Liverpool, la fin d'une belle histoire d'amour</title>
-      <link>https://defimedia.info/football-salah-et-liverpool-la-fin-dune-belle-histoire-damour</link>
-      <description>[Defimedia] Légende vivante de Liverpool, le &quot;pharaon&quot; Mohamed Salah se prépare à faire ses adieux à Anfield et à ses supporters, qu
-
-[ION News] Après neuf ans de succès à Liverpool, Mohamed Salah vient d’annoncer la fin de son aventure chez les Reds. L’international égyptien quittera le club de la Mersey à l’issue de la saison. C’est une page importante de Liverpool qui va se tourner dans les prochaines semaines. Arrivé en provenance de l’AS Roma en 2017 contre 42 millions d’euros, Mohamed Salah vient d’annoncer la fin de son immense et belle aventure du côté des Reds. L’international égyptien (113 sélections) vient de communiquer sa dé</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T05:11:24+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>9381cb09718d</cluster_id>
-      <sources>Defimedia
-ION News</sources>
-      <urls>https://defimedia.info/football-salah-et-liverpool-la-fin-dune-belle-histoire-damour
-https://ionnews.mu/mohamed-salah-annonce-son-depart-de-liverpool/</urls>
-      <titles>Football : Salah et Liverpool, la fin d'une belle histoire d'amour
-Mohamed Salah annonce son départ de Liverpool !</titles>
-      <languages>fr</languages>
     </item>
     <item>
       <title>Diesel Hit by 10% Hike to Rs 64.80 While Petrol Remains Unchanged</title>
@@ -1212,72 +1795,12 @@ Mohamed Salah annonce son départ de Liverpool !</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>RODRIGUES — Assemblée Régionale : Trois années de défaillances systémiques confirmées par les audits</title>
-      <link>https://www.lemauricien.com/actualites/societe/rodrigues-assemblee-regionale-trois-annees-de-defaillances-systemiques-confirmees-par-les-audits/702576/</link>
-      <description>Trois commissions ont été retenues parmi l’ensemble des commissions de l’Assemblée régionale de Rodrigues (ARR) dans le cadre du dernier rapport du Directeur de l'Audit, à savoir les commissi...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T05:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>CEB power outage – Moka, Moka on 25 March 2026</title>
-      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
-      <description>Moka (Moka): 09:00 to 17:00. Areas affected: MORC GENTILLY 1,2 , CTI 1,2, FOOD &amp; ALLIED 1,2, PV FARM, CWA CAMP AUGUSTE, CWA MINISSY,LES ALLEES DHELVETIA</description>
-      <source>CEB Power Outages</source>
-      <category>utilities</category>
-      <cluster_time>2026-03-25T05:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>New Zealand footballers willing to play Iran World Cup match outside US</title>
-      <link>https://www.aljazeera.com/sports/2026/3/25/new-zealand-footballers-willing-to-play-iran-world-cup-match-outside-us?traffic_source=rss</link>
-      <description>The teams are set to play on June 15 in Los Angeles, but Iran has threatened to boycott its matches due to the war.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T04:57:10+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Moyen-Orient — Escalade militaire préoccupante — CEB : Rs 1 milliard de plus sur 2 cargaisons d’huile lourde</title>
-      <link>https://www.lemauricien.com/le-mauricien/moyen-orient-escalade-militaire-preoccupante-ceb-rs-1-milliard-de-plus-sur-2-cargaisons-dhuile-lourde/702575/</link>
-      <description>[Le Mauricien] Avec la volatilité décontrôlée sur le marché mondial du pétrole, le ministère de l’Énergie a refait ses calculs. Des dépenses supplémentaires de l’ordre de Rs 1 milliard devront être encourues pour assurer pour les deux prochaines cargaisons d’huile lourde pour le compte du Central Electricity Board (CEB). Rencontrant la presse hier, le ministre de l’Énergie, Patrick Assirvaden, a […]
-
-[Defimedia] Face à la crise énergétique, le gouvernement déploie une série de mesures d’urgence pour préserver l’approvisionnement d</description>
-      <source>Le Mauricien</source>
+      <title>Huile lourde : une facture de Rs 2,46 milliards pour sécuriser l’électricité</title>
+      <link>https://defimedia.info/huile-lourde-une-facture-de-rs-246-milliards-pour-securiser-lelectricite</link>
+      <description>Face à la crise énergétique, le gouvernement déploie une série de mesures d’urgence pour préserver l’approvisionnement d</description>
+      <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-25T04:25:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>c4264a66b421</cluster_id>
-      <sources>Le Mauricien
-Defimedia</sources>
-      <urls>https://www.lemauricien.com/le-mauricien/moyen-orient-escalade-militaire-preoccupante-ceb-rs-1-milliard-de-plus-sur-2-cargaisons-dhuile-lourde/702575/
-https://defimedia.info/huile-lourde-une-facture-de-rs-246-milliards-pour-securiser-lelectricite</urls>
-      <titles>Moyen-Orient — Escalade militaire préoccupante — CEB : Rs 1 milliard de plus sur 2 cargaisons d’huile lourde
-Huile lourde : une facture de Rs 2,46 milliards pour sécuriser l’électricité</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
-      <title>Canada tells Israel that Lebanon’s sovereignty ‘must not be violated’</title>
-      <link>https://www.aljazeera.com/news/2026/3/25/canada-tells-israel-that-lebanons-sovereignty-must-not-be-violated?traffic_source=rss</link>
-      <description>Canada and France call on Israel to halt plans to occupy southern Lebanon as invasion preparations under way.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T04:21:15+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Déficit en personnel soignant: 1 417 médecins et 1 750 infirmiers nécessaires chaque jour</title>
-      <link>https://www.lemauricien.com/actualites/societe/deficit-en-personnel-soignant-1-417-medecins-et-1-750-infirmiers-necessaires-chaque-jour/702623/</link>
-      <description>En moyenne, 1 417 médecins, incluant les medical and health officers et spécialistes, ainsi que 1 750 infirmiers sont requis chaque jour pour assurer le fonctionnement des établissements de santé ...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T04:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1322,32 +1845,22 @@ Huile lourde : une facture de Rs 2,46 milliards pour sécuriser l’électricit�
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Football : Salah et Liverpool, la fin d'une belle histoire d'amour</title>
+      <link>https://defimedia.info/football-salah-et-liverpool-la-fin-dune-belle-histoire-damour</link>
+      <description>Légende vivante de Liverpool, le &quot;pharaon&quot; Mohamed Salah se prépare à faire ses adieux à Anfield et à ses supporters, qu</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T02:21:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Ce que l’on sait du plan en 15 points des États-Unis pour mettre fin à la guerre avec l’Iran</title>
       <link>https://defimedia.info/ce-que-lon-sait-du-plan-en-15-points-des-etats-unis-pour-mettre-fin-la-guerre-avec-liran</link>
       <description>Des médias américains et israéliens, citant des responsables anonymes, rapportent que Washington a transmis à l’Iran un</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-25T02:18:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Météo : prévisions pour ce mercredi 25 mars</title>
-      <link>https://defimedia.info/meteo-previsions-pour-ce-mercredi-25-mars</link>
-      <description>Un courant d’air léger et chaud circule sur la région. Le ciel sera mi-couvert tôt ce matin avec quelques ondées à l’est</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T02:06:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Denmark's Frederiksen weakened by election setback, coalition talks loom</title>
-      <link>https://www.france24.com/en/europe/20260325-denmark-frederiksen-weakened-by-election-setback-coalition-talks-loom</link>
-      <description>Danish Prime Minister Mette Frederiksen faced a sharp electoral setback Tuesday as her Social Democrats slid toward their worst result in more than a century. Despite broad international backing for her firm stance toward Washington over Greenland, domestic concerns over migration and the cost of living dominated the vote, leaving Frederiksen heading into uncertain coalition talks.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T01:04:45+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1372,66 +1885,6 @@ Huile lourde : une facture de Rs 2,46 milliards pour sécuriser l’électricit�
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Jury orders Cosby to pay nearly $60m to ex-waitress after finding he abused her in 1972</title>
-      <link>https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Donna Motsinger alleged Cosby gave her wine and a pill that left her incapacitated after picking her up in a limousine in 1972.
-
-[Africanews] A California court has awarded $19.25m in damages to a woman who accused actor Bill Cosby of drugging and sexually assaulting her somewhere in the early 1970s.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T23:54:03+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>d1c6649b6bc7</cluster_id>
-      <sources>BBC News
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/c1eq7v91n4xo?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/03/24/bill-cosby-ordered-to-pay-1925m-to-woman-in-decades-old-assault-case/</urls>
-      <titles>Jury orders Cosby to pay nearly $60m to ex-waitress after finding he abused her in 1972
-Bill Cosby ordered to pay $19.25m to woman in decades-old assault case</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>Hungary is 'the Kremlin's biggest agent in the EU', analyst says</title>
-      <link>https://www.france24.com/en/tv-shows/a-propos/20260324-hungary-is-the-kremlin-s-biggest-agent-in-the-eu-analyst-says</link>
-      <description>Speaking with FRANCE 24's Monte Francis, Dr Mark Loustau, Fellow at the Institute for Advanced Study at Central European University, asserts that &quot;we can probably safely say that Hungary is the Kremlin's biggest agent in the EU&quot;, adding that &quot;for years now Orban has done the bidding&quot; of Moscow &quot;in trying to destabilise not only unity in the EU but also the government in Ukraine&quot;. Hungarian Foreign Minister Peter Szijjarto is alleged to have leaked sensitive information about EU negotiations to R</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T22:07:16+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Has the AFCON trophy been hidden at a military base in Senegal? No</title>
-      <link>https://www.france24.com/en/tv-shows/truth-or-fake/20260324-has-the-afcon-trophy-been-hidden-in-a-military-base-in-senegal-no</link>
-      <description>In the wake of the Confederation of African Football's recent decision to strip Senegal of its AFCON title and declare Morocco the winners, some online users are claiming that the AFCON trophy has been hidden away in a military base in Senegal. But as FRANCE 24's Charlotte Hughes explains, this rumour is not true, and the footage some internet users have been using to make the false claim has been taken out of its original context.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T22:03:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran war pushes plastic packaging costs higher</title>
-      <link>https://www.france24.com/en/tv-shows/business/20260324-iran-war-pushes-plastic-packaging-costs-higher</link>
-      <description>Oil prices rose again on Tuesday, a day after a sharp decline, amid confusion over which way the Iran war is going. Brent crude settled well above $100 a barrel. Meanwhile, rising energy costs stemming from the conflict are causing the cost of plastic packaging to skyrocket, which in turn will make everything on supermarket shelves more expensive. But first: the EU and Australia have sealed a landmark free trade agreement that will eliminate tariffs on most goods.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T21:40:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Death toll from Colombian military plane crash rises to 69 as search ends</title>
-      <link>https://www.bbc.com/news/articles/c8ejkz89k1ro?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The Hercules military transport plane crashed minutes after take-off near Colombia's southern border with Peru.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T21:30:53+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Montagne Longue : un conducteur arrêté avec des substances suspectes lors d’un contrôle</title>
       <link>https://www.lemauricien.com/actualites/faits-divers/montagne-longue-un-conducteur-arrete-avec-des-substances-suspectes-lors-dun-controle/702612/</link>
       <description>Un habitant de Vallée-des-Prêtres, âgé de 26 ans, a été arrêté dans la nuit du lundi 23 mars, lors d’un contrôle routier à Ilot Branch Road, à Montagne Longue. Interpellé dans la soiré...</description>
@@ -1440,45 +1893,6 @@ Bill Cosby ordered to pay $19.25m to woman in decades-old assault case</titles>
       <cluster_time>2026-03-24T21:29:18+04:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Violences envers les policiers : 247 interpellations, 27 condamnations en deux ans</title>
-      <link>https://www.lemauricien.com/actualites/societe/violences-envers-les-policiers-247-interpellations-27-condamnations-en-deux-ans/702616/</link>
-      <description>Selon les chiffres communiqués par le Commissaire de police, 247 personnes ont été arrêtées entre le 1er janvier 2024 et le 19 mars 2026 pour des cas d’agression contre des agents de police . �...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T21:28:45+04:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Ghana and EU sign landmark defence deal to combat militant Islamist threat</title>
-      <link>https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC Africa] Ghana is the first African country to make such a deal with the EU, the Ghanaian vice-president says.
-
-[France 24] In tonight's edition: Ghana has become the first African country to enter into a landmark security and defence partnership with the European Union. Also, with several African countries heavily reliant on fertiliser imported from the Gulf, there's been a knock-on effect on the continent as the war in Iran chokes traditional supply routes. Plus the death toll from heavy flooding in Kenya reaches 88, with at least 21 counties affected.
-
-[Africanews] The agreement, signed in Accra by EU foreign policy chief Kaja Kallas and Ghanaian Vice President Jane Naana Opoku-Agyemang, is aimed at strengthening cooperation in areas including counterterrorism, intelligence sharing and crisis response
-
-[Africanews] Ghana and the European Union on Tuesday signed their first formal defence partnership, as the country presents itself as a regional bulwark against the growing jihadist violence roiling west Africa.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T21:25:02+00:00</cluster_time>
-      <cluster_size>4</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>54f928ee5e42</cluster_id>
-      <sources>BBC Africa
-France 24
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/c87w80xe1jro?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/ghana-signs-security-partnership-with-the-eu
-http://www.africanews.com/2026/03/24/ghana-european-union-agree-defence-pact/
-http://www.africanews.com/2026/03/24/ghana-eu-sign-first-pact-to-counter-west-africas-growing-insecurity/</urls>
-      <titles>Ghana and EU sign landmark defence deal to combat militant Islamist threat
-Ghana signs security partnership with EU
-Ghana, European Union agree defence pact
-Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Pilots killed in LaGuardia plane crash named</title>
@@ -1521,16 +1935,6 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Hausse de 10 % du diesel : « Cela entraînera probablement une augmentation des coûts de production, avec des répercussions sur l’électricité et les prix des biens et services », selon Tengur</title>
-      <link>https://defimedia.info/hausse-de-10-du-diesel-cela-entrainera-probablement-une-augmentation-des-couts-de-production-avec</link>
-      <description>Suttyhudeo Tengur, président de l’Association pour la protection de l’environnement et des consommateurs, dit avoir noté</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T18:29:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>'Truly magical woman': Tributes to Married at First Sight's Mel Schilling</title>
       <link>https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The TV dating coach is remembered as &quot;a radiant, shining light&quot; following her death at the age of 54.</description>
@@ -1551,12 +1955,12 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Prix des carburants : Attention ! Fake news en circulation</title>
-      <link>https://defimedia.info/prix-des-carburants-attention-fake-news-en-circulation</link>
-      <description>Une publication circule actuellement sur les réseaux sociaux, portant le nom et le logo du Défi Media Group, laissant cr</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T17:21:00+00:00</cluster_time>
+      <title>Bill Cosby ordered to pay $19.25m to woman in decades-old assault case</title>
+      <link>http://www.africanews.com/2026/03/24/bill-cosby-ordered-to-pay-1925m-to-woman-in-decades-old-assault-case/</link>
+      <description>A California court has awarded $19.25m in damages to a woman who accused actor Bill Cosby of drugging and sexually assaulting her somewhere in the early 1970s.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-24T17:43:19+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1607,226 +2011,6 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-24T16:18:50+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Pix of the Day, 24 March 2026</title>
-      <link>http://www.africanews.com/2026/03/24/pix-of-the-day-24-march-2026/</link>
-      <description>Pix of the Day, 24 March 2026</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T16:08:03+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran war shows norms of international conflicts have been overturned</title>
-      <link>https://www.bbc.com/news/articles/c4gjv02g54ko?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>US threats against energy infrastructure, and Iran's retaliation on its Gulf neighbours, signal a clear change.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T15:55:08+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Senegal fishermen bear the cost of industrial and illegal fishing</title>
-      <link>http://www.africanews.com/2026/03/24/senegal-fishermen-bear-the-cost-of-industrial-and-illegal-fishing/</link>
-      <description>In the port town of Rufisque, fishermen who have worked in these waters for decades say industrial and illegal fleets have stripped the sea bare. With no catch and no income, young men are now making a desperate choice: to leave.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T15:18:42+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>DR Congo plans to conduct second national census after 40 years</title>
-      <link>http://www.africanews.com/2026/03/24/dr-congo-plans-to-conduct-second-national-census-after-40-years/</link>
-      <description>The Democratic Republic of Congo is preparing to hold the second general census in its history, more than 40 years after the previous one, conducted in 1984.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T15:18:36+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>IMF plans Mozambique visit as debt pressures deepen</title>
-      <link>http://www.africanews.com/2026/03/24/imf-plans-mozambique-visit-as-debt-pressures-deepen/</link>
-      <description>Mozambique is set to host an International Monetary Fund mission in the coming months, as authorities seek support to manage growing financial pressures.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T15:08:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Enquête — Blanchiment d’argent : Saisie de Rs 100 M de biens appartenant à Yashish Emrith</title>
-      <link>https://www.lemauricien.com/actualites/faits-divers/enquete-blanchiment-dargent-saisie-de-rs-100-m-de-biens-appartenant-a-yashish-emrith/702572/</link>
-      <description>Une opération d’envergure menée par la Financial Crimes Commission (FCC) a été déclenchée tôt hier matin, simultanément à Pereybère et à Nouvelle-France, dans le cadre d’une enquête approfondie sur des soupçons de blanchiment d’argent visant un homme d’affaires de 31 ans, un dénommé Yashish Emrith. Directeur d’une compagnie opérant au Nord du pays, ce suspect est […]</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T14:00:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Manque de personnel hospitalier : des recrutements en cours et à venir, affirme Anil Bachoo</title>
-      <link>https://defimedia.info/manque-de-personnel-hospitalier-des-recrutements-en-cours-et-venir-affirme-anil-bachoo</link>
-      <description>Le coup d’envoi de la séance consacrée aux questions adressées aux ministres a été donné par Farhad Aumeer ce mardi. Il</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T13:52:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Chad begins relocation of refugees along its border with Sudan</title>
-      <link>http://www.africanews.com/2026/03/24/chad-begins-relocation-of-refugees-along-its-border-with-sudan/</link>
-      <description>The evacuations already began in Ennedi Est Province over the weekend, with the government targeting to relocate at least 2,300 refugees, mostly women and children.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T13:32:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Bagatelle : 37 smartphones estimés à Rs 3 millions volés</title>
-      <link>https://defimedia.info/bagatelle-37-smartphones-estimes-rs-3-millions-voles</link>
-      <description>Deux hommes, âgés de 19 et 24 ans, ont été arrêtés après le vol de 37 téléphones portables, d’une valeur totale estimée</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T13:07:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>TRIOLET : Des membres du public appréhendent un malfaiteur</title>
-      <link>https://www.lemauricien.com/le-mauricien/triolet-des-membres-du-public-apprehendent-un-malfaiteur/702567/</link>
-      <description>Une marchande (45 ans) vendait des œufs, dimanche matin, à la foire de Triolet quand un homme a mis la main dans une boîte où elle gardait son argent. Ce dernier a pris plusieurs billets et il a tenté de s’enfuir. La quadragénaire a alerté des membres du public qui ont arrêté le suspect. […]</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T13:00:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PRISON — Unexplained Wealth : La FCC prend à contrepied Dev Jokhoo</title>
-      <link>https://www.lemauricien.com/le-mauricien/prison-unexplained-wealth-la-fcc-prend-a-contrepied-dev-jokhoo/702566/</link>
-      <description>La Financial Crimes Commission (FCC), par voie d’un communiqué en début de soirée d’hier, prend à contre-pied des déclarations de l’ancien commissaire de la Prison (CP) Dev Jokhoo. Ce dernier affirme avoir transmis à cette instance une liste de Prison Officers, soupçonnés du délit d’Unexplained Wealth et qu’aucune action n’a été initiée à cet effet. […]</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T13:00:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Avis de recherche : Une jeune de 13 ans introuvable depuis le 4 mars à Cité Roche Bois</title>
-      <link>https://www.lemauricien.com/actualites/societe/avis-de-recherche-une-jeune-de-13-ans-introuvable-depuis-le-4-mars-a-cite-roche-bois/702604/</link>
-      <description>Une mineure de 13 ans, Dabou Marie Laëtisia Lynntiana, habitant Block H 20, Laetisia Street à Cité Roche Bois, est portée disparue depuis le 4 mars 2026. Selon les information de la police, l’adolescente mesure environ 1,50 m, est de corpulence moyenne et de teint brun. Elle a les cheveux noirs, coupés aux épaules, et […]</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T12:26:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Danes vote as PM Mette Frederiksen seeks third term after Greenland boost</title>
-      <link>https://www.bbc.com/news/articles/cvgk02j4l4ko?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Frederiksen enjoyed a surge in popularity for standing up to the US over Greenland but her support is down on 2022.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T12:26:42+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Israel bombs Tehran as Iran hits Telaviv, Gulf states</title>
-      <link>http://www.africanews.com/2026/03/24/israel-bombs-tehran-as-iran-hits-telaviv-gulf-states/</link>
-      <description>Israel said it carried out an extensive series of strikes on Iranian “production sites,” without providing more information. Iran also fired multiple waves of missiles at Israel early on Tuesday</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T12:21:01+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Top 5 employer of record platforms companies use to hire global talent</title>
-      <link>https://africa.businessinsider.com/local/careers/top-5-employer-of-record-platforms-companies-use-to-hire-global-talent/5b77qp9</link>
-      <description>Global hiring has become a normal part of how companies grow. Businesses today recruit engineers in Europe, customer support teams in Africa, and marketing professionals in Asia without necessarily opening offices in those locations.</description>
-      <source>Business Insider Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T12:20:10+01:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Australia and EU agree sweeping trade deal in face of global uncertainty</title>
-      <link>https://www.bbc.com/news/articles/cly6g6l6lq7o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Australia and the EU sign sweeping trade and security deals after years of negotiations.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T12:14:15+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Beaux Songes : Le cadavre d’un homme découvert</title>
-      <link>https://www.lemauricien.com/actualites/faits-divers/beaux-songes-le-cadavre-dun-homme-decouvert/702605/</link>
-      <description>Le corps sans vie d’un homme non identifié a été retrouvé ce mardi 24 mars à Beaux Songes. Le cadavre a été découvert à l’arrière d’un terrain de football. Selon les premiers éléments, la victime gisait sur le dos, sous un arbre, dans un état avancé de décomposition. Le corps a été transporté à la morgue […]</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T12:10:42+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Decline in migratory fish populations prompts fight for protection</title>
-      <link>https://www.bbc.com/news/articles/cr4105d93d3o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The UN assessment of the state of migratory freshwater fish revealed an 81% decline in the last 50 years.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T12:00:30+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Rising fuel prices and Middle East tensions hit South African Airlines</title>
-      <link>http://www.africanews.com/2026/03/24/rising-fuel-prices-and-middle-east-tensions-hit-south-african-airlines/</link>
-      <description>South African airlines are facing mounting pressures as rising fuel prices and regional tensions disrupt operations. Jet fuel prices have surged more than 70% since late February due to ongoing instability in the Middle East.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T11:44:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Government Monitors 5,000 Products As Global Tensions Drive 6% Inflation Spike</title>
-      <link>https://newsmoris.com/government-monitors-5000-products-as-global-tensions-drive-6-inflation-spike/</link>
-      <description>Mauritian households are facing a significant squeeze on their purchasing power as inflation is now forecast to hit 6%, driven by the escalating conflict in the Middle East. Addressing a Private Notice Question in the National Assembly on Tuesday, 24 … The post Government Monitors 5,000 Products As Global Tensions Drive 6% Inflation Spike appeared first on News Moris.</description>
-      <source>News Moris</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T11:33:02+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Ramaphosa slams 'corpse theft' at reburial of anti-colonial heroes</title>
-      <link>http://www.africanews.com/2026/03/24/ramaphosa-slams-corpse-theft-at-reburial-of-anti-colonial-heroes/</link>
-      <description>The remains of at least 63 members of the Khoi and San communities were repatriated from a European museum, part of a wider movement in Africa to bring back remains and artifacts that had been stolen or removed from the continent</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T11:32:18+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Starlink wants to wire Francophone Africa. Regulators hold the switch.</title>
-      <link>https://techcabal.com/2026/03/24/francophone-weekly-by-techcabal-016/</link>
-      <description>Starlink is rewiring Francophone Africa’s internet, shifting from rogue outsider to infrastructure partner as telcos, regulators, and politicians haggle over licences, bans, and who gets connected first.</description>
-      <source>TechCabal</source>
-      <category>regional</category>
-      <cluster_time>2026-03-24T11:26:53+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
