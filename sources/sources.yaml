@@ -17,11 +17,6 @@ rss_feeds:
     category: "local"
 
   # ── Regional ────────────────────────────────────────────────
-  - name: "AllAfrica"
-    url: "https://allafrica.com/tools/headlines/rdf/latest/headlines.rdf"
-    language: "en"
-    category: "regional"
-
   - name: "TechCabal"
     url: "https://techcabal.com/feed/"
     language: "en"
@@ -33,7 +28,7 @@ rss_feeds:
     category: "regional"
 
   - name: "BBC Africa"
-    url: "https://feeds.bbci.co.uk/news/world/africa/rss.xml"
+    url: "https://bbc-feeds.danq.dev/africa-sports.xml"
     language: "en"
     category: "regional"
 
