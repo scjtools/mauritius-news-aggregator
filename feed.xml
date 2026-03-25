@@ -4,7 +4,140 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 25 Mar 2026 18:00:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 20:02:28 +0000</lastBuildDate>
+    <item>
+      <title>Brent Crude Oil price – 25 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 102.59 per barrel</description>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T19:59:02.104546+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bitcoin price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 70,871.99 (▲ +0.66% from last)</description>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T19:59:01.979512+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>MUR exchange rates – 25 March 2026</title>
+      <link>https://www.floatrates.com/daily/mur.xml</link>
+      <description>MUR/USD 46.48 | MUR/EUR 53.90 (▼ 0.01 from last) (▲ 0.21 from last)</description>
+      <source>MUR Exchange Rates</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T19:59:01.479582+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SEMDEX – 25 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T19:58:59.066913+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 25 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 16h30 on Wednesday 25 March 2026.General situation:Few clouds coming from the East will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy tonight, becoming cloudy at times to the East and over the Central Plateau with occasional showers.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.After a few morning showers over the highgrounds tomorrow, the weather will mainly fair afterwards.However, cloud development are expected in the afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hiking, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :Tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1011 hectopascals.</description>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <cluster_time>2026-03-25T19:58:54.535471+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Meta and YouTube found liable in landmark social media addiction trial</title>
+      <link>https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] A woman has been awarded $3m in a verdict that could have implications for hundreds of other cases in the US.
+
+[France 24] A California jury found both Meta and YouTube liable for $3 million in damages in a landmark lawsuit that aimed to hold social media platforms responsible for harm to children using their services. The case, along with several others, has been randomly selected as a bellwether trial, meaning its outcome could impact how thousands of similar lawsuits filed against social media companies play out.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T19:38:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>12b8dd17c801</cluster_id>
+      <sources>BBC News
+France 24</sources>
+      <urls>https://www.bbc.com/news/articles/c747x7gz249o?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/americas/20260325-california-jury-finds-meta-youtube-liable-in-landmark-social-media-trial</urls>
+      <titles>Meta and YouTube found liable in landmark social media addiction trial
+California jury finds Meta, YouTube liable in landmark social media trial</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Iran media casts doubt on US peace plan as strikes land across the Mideast</title>
+      <link>https://www.france24.com/en/iran-media-casts-doubt-on-us-peace-plan-as-strikes-land-across-the-mideast</link>
+      <description>[France 24] State media in Iran said Wednesday that Tehran had rejected a US plan to end fighting, as the head of the United Nations warned that the Middle East war was spiralling out of control. In a first public acknowledgement of US efforts to discuss peace, state television cited an unidentified official as saying the war would end on Tehran's terms, shortly after Iran said it had fired a volley of cruise missiles at a US aircraft carrier. FRANCE 24's Carys Garland reports.
+
+[France 24] Iran on March 25 an American plan to pause the war in the Middle East, issuing its own counterproposal instead, as it launched more attacks on Israel and Gulf Arab countries. Its own plan includes a halt to killings of its officials, means to make sure no other war is waged against it, reparations for the war, the end of hostilities and Iran’s “exercise of sovereignty over the Strait of Hormuz.” FRANCE 24's Philip Turle takes a look.
+
+[France 24] Iranian state television’s English-language broadcaster quoted an anonymous official as saying Iran rejected America’s ceasefire proposal and has its own demands for an end to the fighting. FRANCE 24's Reza Sayah reports from Tehran. He explains that the Iranian leadership is &quot;being emboldened, gaining confidence that they have the upper hand, that they are exacting a cost against Israel and the United States&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T19:21:21+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>1</source_count>
+      <cluster_id>8f253135f2c2</cluster_id>
+      <sources>France 24</sources>
+      <urls>https://www.france24.com/en/iran-media-casts-doubt-on-us-peace-plan-as-strikes-land-across-the-mideast
+https://www.france24.com/en/iran-dismisses-us-15-point-peace-plan-issues-its-own-ceasefire-proposal
+https://www.france24.com/en/iran-rejects-us-peace-plan-issues-its-own-demands</urls>
+      <titles>Iran media casts doubt on US peace plan as strikes land across the Mideast
+Iran 'dismisses' US 15-point peace plan, issues its own ceasefire proposal
+Iran rejects US peace plan, issues its own demands</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>What are the US and Iran's proposals for peace?</title>
+      <link>https://www.bbc.com/news/articles/cly9nz5vyz4o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Trump says he is talking to &quot;the right people&quot; in Iran, but Tehran says no such negotiations are being held.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T19:14:19+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump's war, NATO's problem: Will allies help secure Strait of Hormuz?</title>
+      <link>https://www.france24.com/en/tv-shows/the-debate/20260325-trump-s-war-nato-s-problem-will-allies-help-secure-strait-of-hormuz</link>
+      <description>It’s Trump’s war, but is it also NATO’s problem? Europeans forced to bear security and financial consequences of the second war at its doorstep. We'll see if our panel agrees with Nato secretary-general Mark Rutte who assures it’s only a matter of “a couple of weeks” before traditional allies agree to help secure the Strait of Hormuz.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T19:14:12+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>UN passes resolution naming slave trade ‘gravest crime against humanity’</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/un-passes-resolution-naming-slave-trade-gravest-crime-against-humanity?traffic_source=rss</link>
+      <description>Resolution on transatlantic slavery supported by 123 countries, while three opposed it - including the US and Israel.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T18:55:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Lukashenko 'not an independent actor’: opposition leader Tsikhanouskaya on why Belarus needs Russia</title>
+      <link>https://www.france24.com/en/europe/20260325-lukashenko-not-an-independent-actor-opposition-leader-tsikhanouskaya-on-why-belarus-needs-russia</link>
+      <description>Belarusian President Alexander Lukashenko has recently embarked on a flurry of diplomatic activity, from US negotiations to an official visit to North Korea on Wednesday. But despite efforts to diversify relations with other countries, he ultimately remains dependent on Russia, said Sviatlana Tsikhanouskaya, the exiled Belarus opposition leader.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T18:51:10+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
     <item>
       <title>Attention Fake News : un graphique trompeur en circulation avec notre logo</title>
       <link>https://www.lemauricien.com/actualites/societe/attention-fake-news-un-graphique-trompeur-en-circulation-avec-notre-logo-2/702742/</link>
@@ -36,62 +169,52 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Brent Crude Oil price – 25 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 101.46 per barrel</description>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T17:56:59.656762+00:00</cluster_time>
+      <title>Israel forcibly displaces more Palestinian families in East Jerusalem</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/israel-forcibly-displaces-more-palestinian-families-in-east-jerusalem?traffic_source=rss</link>
+      <description>Rights group says Israel 'expanding ethnic cleansing in East Jerusalem, throwing Palestinian families into the streets'.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T18:29:50+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 70,817.24 (▲ +0.58% from last)</description>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T17:56:59.475249+00:00</cluster_time>
+      <title>Paul Bérenger : « MIC… Silver Bank, mari skandal, ziska zordi pe kontinye parey… »</title>
+      <link>https://ionnews.mu/paul-berenger-kote-mic-monn-fatige-koz-ek-ramgoolam-inn-ena-boukou-korupsion-ladan-premier-zafer-ki-ti-bizin-fer-se-enn-forensic-audit-profon-pou-kone-egzakteman-k/</link>
+      <description>The post Paul Bérenger : « MIC… Silver Bank, mari skandal, ziska zordi pe kontinye parey… » appeared first on IONNEWS.</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T18:01:19+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,549.90 (▲ +3.66% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T17:56:59.103609+00:00</cluster_time>
+      <title>Paul Bérenger : « Kan dimoun kokin li pa donn enn ‘reçu’ »</title>
+      <link>https://ionnews.mu/paul-berenger-kan-dimoun-kokin-li-pa-donn-enn-recu/</link>
+      <description>Comme il l’avait annoncé, l’ancien Deputy Prime Minister Paul Bérenger a tenu une conférence de presse, le mercredi 25 mars, pour expliquer les raisons de sa démission. Il a, entre autres, affirmé qu’un ministre travailliste l’a sollicité pour obtenir conseil. « Enn dan sa bann dimoun dan gang 5 ou 25 dan Prime Minister’s Office (PMO) inn amenn enn biznes man ar li dan so biro pou ofer li enn ‘bribe’ », a-t-il relaté. La réaction de l’ex-No 2 du gouvernement a été « fou deor ». Paul Bérenger a a</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T17:56:11+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 25 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.48 | MUR/EUR 53.90 (▼ 0.01 from last) (▲ 0.21 from last)</description>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T17:56:58.626538+00:00</cluster_time>
+      <title>UN votes to recognise slavery as 'gravest crime against humanity'</title>
+      <link>https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The landmark resolution calls for an apology and contributions to a reparations fund, without specifying an amount.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T17:51:27+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 25 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T17:56:56.188671+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mauritius weather bulletin – 25 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 16h30 on Wednesday 25 March 2026.General situation:Few clouds coming from the East will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy tonight, becoming cloudy at times to the East and over the Central Plateau with occasional showers.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.After a few morning showers over the highgrounds tomorrow, the weather will mainly fair afterwards.However, cloud development are expected in the afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hiking, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :Tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1011 hectopascals.</description>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
-      <cluster_time>2026-03-25T17:56:51.789065+00:00</cluster_time>
+      <title>Palestine Action hunger strikers to sue prisons over alleged mistreatment</title>
+      <link>https://www.aljazeera.com/news/2026/3/25/palestine-action-hunger-strikers-to-sue-prisons-over-alleged-mistreatment?traffic_source=rss</link>
+      <description>Activists plan to take legal action against the UK prisons that allegedly mistreated them.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T17:49:47+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -106,24 +229,14 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Ghana demands compensation for slavery in landmark UN vote</title>
-      <link>https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC Africa] Nations will vote on whether to designate the slave trade as &quot;the gravest crime against humanity&quot;.
-
-[Africanews] Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.</description>
-      <source>BBC Africa</source>
+      <title>Protesters in South Africa call for stricter immigration laws and border controls</title>
+      <link>http://www.africanews.com/2026/03/25/protesters-in-south-africa-call-for-stricter-immigration-laws-and-border-controls/</link>
+      <description>A controversial civic group took to the streets of Durban on Wednesday to demand the immediate arrest of illegal immigrants.</description>
+      <source>Africanews</source>
       <category>regional</category>
-      <cluster_time>2026-03-25T17:13:10+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>552e1b82c05b</cluster_id>
-      <sources>BBC Africa
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/</urls>
-      <titles>Ghana demands compensation for slavery in landmark UN vote
-Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</titles>
-      <languages>en</languages>
+      <cluster_time>2026-03-25T17:34:44+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Israel's defence network challenged by Iranian cluster ballistic missiles</title>
@@ -156,9 +269,9 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Oldest dog DNA suggests 16,000 years of human companionship</title>
-      <link>https://www.france24.com/en/live-news/20260325-oldest-dog-dna-suggests-16-000-years-of-human-companionship</link>
-      <description>The discovery of the oldest ever dog DNA suggests they have been our best friends for nearly 16,000 years -- 5,000 years earlier than had previously been thought, new research said Wednesday.</description>
+      <title>Ancient dog DNA suggests 16,000-year history as man's best friend</title>
+      <link>https://www.france24.com/en/science/20260325-ancient-dog-dna-suggests-16-000-years-of-human-companionship</link>
+      <description>The discovery of the oldest ever canine DNA suggests dogs may have been man's best friend for 16,000 years, according to new research published on Wednesday.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-25T16:51:10+00:00</cluster_time>
@@ -254,25 +367,6 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <cluster_time>2026-03-25T16:24:27+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran 'dismisses' US 15-point peace plan, issues its own ceasefire proposal</title>
-      <link>https://www.france24.com/en/iran-dismisses-us-15-point-peace-plan-issues-its-own-ceasefire-proposal</link>
-      <description>[France 24] Iran on March 25 an American plan to pause the war in the Middle East, issuing its own counterproposal instead, as it launched more attacks on Israel and Gulf Arab countries. Its own plan includes a halt to killings of its officials, means to make sure no other war is waged against it, reparations for the war, the end of hostilities and Iran’s “exercise of sovereignty over the Strait of Hormuz.” FRANCE 24's Philip Turle takes a look.
-
-[France 24] The US announced it had sent on a 15-point peace plan to Iran, which Tehran has deemed 'excessive'. But what is the US's list of demands? There are some indications: sanction relief, a rollback of Iran's nuclear programme, the monitoring by the IAEA of that programme, shipping through the Strait of Hormuz and an end to support for proxies. FRANCE 24's Philip Turle takes a look at the latest developments.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T16:21:31+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>eaf13efd7005</cluster_id>
-      <sources>France 24</sources>
-      <urls>https://www.france24.com/en/iran-dismisses-us-15-point-peace-plan-issues-its-own-ceasefire-proposal
-https://www.france24.com/en/us-demands-of-15-point-peace-plan-likely-unacceptable-for-iran</urls>
-      <titles>Iran 'dismisses' US 15-point peace plan, issues its own ceasefire proposal
-US demands of 15-point peace plan likely 'unacceptable' for Iran</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Which teams can still qualify for the World Cup, and when are the playoffs?</title>
@@ -399,16 +493,6 @@ Ukrainian drones crash in Estonia and Latvia, raising air defence concerns</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Film show: 'Anemone', a Day-Lewis family production</title>
-      <link>https://www.france24.com/en/tv-shows/arts24/20260325-film-show-anemone-a-day-lewis-family-production</link>
-      <description>The only person who managed to coax Daniel Day-Lewis out of his eight-year retirement was a certain Ronan Day-Lewis, whose début feature &quot;Anemone&quot; stars his father. Film critic Emma Jones tells us why a mesmerising Day-Lewis senior steals the show with the intensity of his performance.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T15:21:24+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Iran calls US proposal to end war ‘maximalist, unreasonable’</title>
       <link>https://www.aljazeera.com/news/2026/3/25/iran-calls-us-proposal-to-end-war-maximalist-unreasonable?traffic_source=rss</link>
       <description>Diplomatic source tells Al Jazeera that Tehran is dismissing the 15-point plan from Washington as unworkable.</description>
@@ -459,36 +543,6 @@ Democrat captures Florida House seat in Trump’s Mar-a-Lago district</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>In Nairobi, residents blame flood devastation on inadequate infrastructure</title>
-      <link>https://www.france24.com/en/in-nairobi-residents-blame-flood-devastation-on-inadequate-infrastructure</link>
-      <description>[France 24] At least 21 Kenyan counties have been affected by floods since their start in March, raising concerns over public safety, infrastructure damage and growing humanitarian needs. According to authorities, over 34,000 people have been displaced. The capital, Nairobi, has been particularly hit. Although the governor has urgently launched operations to clear drainage systems, residents say the severe flooding is partly due to a city that is growing too quickly. FRANCE 24's team went to Nairobi to lear
-
-[Africanews] At least 21 counties have been affected by the floods, raising concerns over public safety, infrastructure damage and growing humanitarian needs</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T14:58:59+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>20760c0dbe01</cluster_id>
-      <sources>France 24
-Africanews</sources>
-      <urls>https://www.france24.com/en/in-nairobi-residents-blame-flood-devastation-on-inadequate-infrastructure
-http://www.africanews.com/2026/03/25/floods-in-kenya-worsen-as-2-rivers-burst-banks-with-death-toll-climbing/</urls>
-      <titles>In Nairobi, residents blame flood devastation on inadequate infrastructure
-Floods in Kenya worsen as 2 rivers burst banks, with death toll climbing</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>Ghana and EU sign defence partnership to counter west Africa insecurity</title>
-      <link>https://www.france24.com/en/ghana-and-eu-sign-defence-partnership-to-counter-west-africa-insecurity</link>
-      <description>Ghana and the European Union on March 25 signed their first formal defence partnership. It has also signed a similar agreement with Iceland and Australia. It comes as Ghana tries to prevent a spillover of increased attacks from groups backed by Al-Qaeda and the Islamic State in the region. FRANCE 24's Justice Baidoo tells us what the partnership entails, from Accra.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T14:56:12+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Saudi Pro League, the US or Europe - what are Salah's options?</title>
       <link>https://www.bbc.com/sport/football/articles/c86ew5d52d9o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Liverpool reporter Aadam Patel analyses what Mohamed Salah's next move might be following the forward's announcement that he is to leave the club this summer.</description>
@@ -515,16 +569,6 @@ Floods in Kenya worsen as 2 rivers burst banks, with death toll climbing</titles
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-25T14:41:16+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Danish election signals shift toward Dutch and Belgian-style of coalition building</title>
-      <link>https://www.france24.com/en/danish-election-signals-shift-toward-dutch-and-belgian-style-of-coalition-building</link>
-      <description>Haxie Meyers-Belkin is pleased to welcome Ulrik Pram Gad, Senior Researcher at the Danish Institute for International Studies. He observes a political landscape marked less by decisive outcomes and more by fragmentation and negotiation. Electoral erosion among traditional parties continues, yet not uniformly, leaving space for incumbency without dominance. Strategic timing, shaped by temporary surges in approval, has not reversed longer-term structural trends. External crises have influenced per</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T14:33:21+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -615,25 +659,21 @@ Enquête de la FCC sur un trafic estimé à Rs 75,9 M : Steven Moothoocurpen et 
 
 [Al Jazeera] With his time at Liverpool, and apparently the world's most elite league, coming to an end, what is left to drive Salah?
 
-[Al Jazeera] Al Jazeera explains the Liverpool and Egypt icon's departure from the Premier League and what happens next.
-
 [Africanews] Liverpool star Mohamed Salah announced Tuesday he will leave the English club at the end of the season, marking an earlier-than-planned departure for one of the club's greatest-ever scorers and soccer's biggest names.</description>
       <source>BBC Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-25T13:44:24+00:00</cluster_time>
-      <cluster_size>4</cluster_size>
+      <cluster_size>3</cluster_size>
       <source_count>3</source_count>
-      <cluster_id>21fb04f17c76</cluster_id>
+      <cluster_id>c2334971aa7b</cluster_id>
       <sources>BBC Africa
 Al Jazeera
 Africanews</sources>
       <urls>https://www.bbc.com/sport/football/articles/c0e7ww12w2qo?at_medium=RSS&amp;at_campaign=rss
 https://www.aljazeera.com/sports/2026/3/25/mohamed-salah-is-liverpool-exit-the-end-or-can-world-cup-spur-egypt-star?traffic_source=rss
-https://www.aljazeera.com/sports/2026/3/25/why-is-mohamed-salah-leaving-liverpool-and-which-club-will-he-join-next?traffic_source=rss
 http://www.africanews.com/2026/03/25/mo-salah-to-leave-liverpool-at-the-end-of-the-season/</urls>
       <titles>Salah to leave Liverpool at end of season
 Mohamed Salah: Is Liverpool exit the end? Can World Cup spur Egypt star?
-Why is Mohamed Salah leaving Liverpool, and which club will he join next?
 Mo Salah to leave Liverpool at the end of the season</titles>
       <languages>en</languages>
     </item>
@@ -797,16 +837,6 @@ Suivez en direct la conférence de presse de Paul Bérenger</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Asian Champions League quarterfinal sends Iran’s Tractor FC to Saudi Arabia</title>
-      <link>https://www.aljazeera.com/sports/2026/3/25/asian-champions-league-quarterfinal-sends-irans-tractor-fc-to-saudi-arabia?traffic_source=rss</link>
-      <description>Draw for AFC Asian Champions League Elite quarterfinals sees Tractor FC play Dubai's Shabab Al-Ahli in Saudi Arabia.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T12:18:33+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>We need more plumbers and fewer lawyers in AI age, says BlackRock boss</title>
       <link>https://www.bbc.com/news/articles/c9wqrdkx8ppo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Larry Fink also warns if oil prices stay high for a sustained period it will have &quot;profound implications&quot; for the world economy.</description>
@@ -858,22 +888,22 @@ en</languages>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US-Iran mediation: What are each side’s demands – and is a deal possible?</title>
-      <link>https://www.aljazeera.com/economy/2026/3/25/us-iran-mediation-what-are-each-sides-demands-and-is-a-deal-possible?traffic_source=rss</link>
-      <description>Trump's envoys have sent a 15-point ceasefire plan to Iran via Pakistan. But Tehran has its own conditions.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-25T11:45:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Brazil's Bolsonaro gets temporary house arrest for ill-health</title>
       <link>https://www.bbc.com/news/articles/cge0950jxd0o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Former President Jair Bolsonaro was moved from his cell to hospital earlier this month with pneumonia.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-25T11:37:17+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Floods in Kenya worsen as 2 rivers burst banks, with death toll climbing</title>
+      <link>http://www.africanews.com/2026/03/25/floods-in-kenya-worsen-as-2-rivers-burst-banks-with-death-toll-climbing/</link>
+      <description>At least 21 counties have been affected by the floods, raising concerns over public safety, infrastructure damage and growing humanitarian needs</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T11:30:23+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1606,12 +1636,12 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Conflit au Moyen-Orient : Le gouvernement renforce les mesures pour protéger les consommateurs</title>
-      <link>https://ionnews.mu/conflit-au-moyen-orient-le-gouvernement-renforce-les-mesures-pour-proteger-les-consommateurs/</link>
-      <description>Face aux répercussions du conflit au Moyen-Orient, le gouvernement a réaffirmé sa mobilisation pour atténuer l’impact des pressions extérieures sur l’économie mauricienne et le pouvoir d’achat des consommateurs. Répondant à une Private Notice Question à l’Assemblée nationale, le ministre du Commerce et de la protection des consommateurs, Michaël Sik Yuen, a souligné que Maurice, en tant qu’économie ouverte et fortement dépendante des importations, reste particulièrement vulnérable aux fluctuatio</description>
-      <source>ION News</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T07:21:48+00:00</cluster_time>
+      <title>Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</title>
+      <link>http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/</link>
+      <description>Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T07:09:56+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1672,16 +1702,6 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-25T06:00:25+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Qualifications pour la CAN 2027 : Les nations du COSAFA entrent en lice</title>
-      <link>https://ionnews.mu/qualifications-pour-la-can-2027-les-nations-du-cosafa-entrent-en-lice/</link>
-      <description>Plusieurs nations de la région du COSAFA entameront leur parcours vers la TotalEnergies CAF Coupe d’Afrique des Nations Kenya, Ouganda, Tanzanie 2027 lors du début du tour préliminaire de qualification cette semaine. L’Eswatini, les Seychelles, le Lesotho et l’île Maurice seront tous impliqués à ce stade des éliminatoires. L’Érythrée et l’Eswatini renouent le contact à Meknès, au Maroc, où le match aller se jouera au Stade d’Honneur le 25 mars. L’Eswatini cherchera ensuite à faire fructifier l’a</description>
-      <source>ION News</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T05:52:09+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1812,26 +1832,6 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-24T20:03:12+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>What Iranians make of the possibility of talks to end the war</title>
-      <link>https://www.bbc.com/news/articles/c3ex39w09gzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Some Iranians dismiss the possibility of talks to end the war, others worry a deal may leave the current leaders in place.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T19:36:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'Truly magical woman': Tributes to Married at First Sight's Mel Schilling</title>
-      <link>https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The TV dating coach is remembered as &quot;a radiant, shining light&quot; following her death at the age of 54.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T17:59:25+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
