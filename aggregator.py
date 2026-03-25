@@ -1068,15 +1068,6 @@ def _fetch_article_meta(url: str, extra_headers: dict = None, session=None) -> d
                     summary = tag["content"].strip()[:MAX_SUMMARY_CHARS]
                     break
 
-            if not summary and "businessinsider.com" in url:
-                for div in soup.find_all("div", class_="ringCommonDetail"):
-                    p = div.find("p")
-                    if p:
-                        text = p.get_text(strip=True)
-                        if len(text) > 40:
-                            summary = text[:MAX_SUMMARY_CHARS]
-                            break
-
             return {"published": published, "summary": summary}
 
         except Exception as e:
@@ -1092,7 +1083,6 @@ _ENRICH_SESSION_SOURCES = {"Defimedia"}
 _ENRICH_EXTRA_HEADERS = {
     "Defimedia": {"Referer": "https://defimedia.info"},
     "Le Mauricien": {"Referer": "https://www.lemauricien.com"},
-    "Business Insider Africa": {"Referer": "https://africa.businessinsider.com"},
 }
 
 _ENRICH_SESSIONS: dict = {}
