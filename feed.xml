@@ -4,7 +4,7 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 25 Mar 2026 10:23:55 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Mar 2026 10:36:07 +0000</lastBuildDate>
     <item>
       <title>Homme de terrain et artisan de plusieurs initiatives sociales et éducatives, Jean-Noël Adolphe s’est éteint</title>
       <link>https://www.lemauricien.com/actualites/societe/homme-de-terrain-et-artisan-de-plusieurs-initiatives-sociales-et-educatives-jean-noel-adolphe-sest-eteint/702644/</link>
@@ -14,6 +14,96 @@
       <cluster_time>2026-03-25T10:41:01+04:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brent Crude Oil price – 25 March 2026</title>
+      <link>https://www.oilpriceapi.com</link>
+      <description>Brent Crude Oil: USD 98.72 per barrel</description>
+      <source>Brent Crude Oil</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:32:02.558852+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bitcoin price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/BTC</link>
+      <description>Bitcoin (BTC): USD 71,390.34 (▲ +1.40% from last)</description>
+      <source>Bitcoin Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:32:02.466922+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 25 March 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,555.80 (▲ +3.80% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:32:02.088032+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SEMDEX – 25 March 2026</title>
+      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
+      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
+      <source>Stock Exchange of Mauritius</source>
+      <category>finance</category>
+      <cluster_time>2026-03-25T10:31:44.346711+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius weather bulletin – 25 March 2026</title>
+      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
+      <description>Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hikings, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.</description>
+      <source>Mauritius Met Services</source>
+      <category>weather</category>
+      <cluster_time>2026-03-25T10:31:37.539297+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Former cancer nurse Sarah Mullally to be enthroned as first woman to lead Church of England</title>
+      <link>https://www.france24.com/en/europe/20260325-former-cancer-nurse-sarah-mullally-to-be-enthroned-as-first-woman-to-lead-church-of-england</link>
+      <description>Cancer nurse turned archbishop Sarah Mullally will be enthroned Wednesday as the first woman to lead the Church of England. The archbishop of Canterbury also serves as spiritual leader of the global Anglican Communion, grouping together some 100 million members.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T10:28:59+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US sends 15-point peace plan to Iran while deploying troops in the region</title>
+      <link>https://www.france24.com/en/us-sends-15-point-peace-plan-to-iran-while-deploying-troops-in-the-region</link>
+      <description>The Trump administration is ramping up efforts to end the Middle East war. After Trump said talks were ongoing between Washington and Tehran, Pakistani officials said that the White House had sent a 15-point peace plan to Iran - yet Tehran has dismissed the idea of negotiating with the US. Meanwhile, US media reported that at least 1,000 troops are to deploy to the Middle East. Although it could be to put pressure on Tehran, Iran is also preparing for the possibility of US troops on the ground.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T10:25:57+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Dozens of bodies, mostly infants, discovered in Kenya mass grave</title>
+      <link>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] Some of the 32 bodies, including 25 children, are believed to have come from local hospitals and mortuaries.
+
+[Africanews] Authorities in Kenya have uncovered a disturbing mass grave in Kericho, where officials exhumed dozens of bodies, including foetuses, in a case that is rapidly expanding in scale. The investigation began earlier this week after police received reports of a secret burial site over the weekend.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-25T10:22:25+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>6a6689cc6824</cluster_id>
+      <sources>BBC Africa
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/03/25/mass-grave-of-32-bodies-including-children-discovered-in-kenya/</urls>
+      <titles>Dozens of bodies, mostly infants, discovered in Kenya mass grave
+Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
+      <languages>en</languages>
     </item>
     <item>
       <title>Zimbabwean billionaire’s firm teams up with US fintech to expand stablecoins in Africa</title>
@@ -26,62 +116,12 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Brent Crude Oil price – 25 March 2026</title>
-      <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 99.04 per barrel</description>
-      <source>Brent Crude Oil</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T10:20:00.166872+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Bitcoin price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 71,403.62 (▲ +1.42% from last)</description>
-      <source>Bitcoin Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T10:20:00.072679+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Gold price – 25 March 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,556.60 (▲ +3.81% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T10:19:59.976741+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>MUR exchange rates – 25 March 2026</title>
-      <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.53 | MUR/EUR 53.97 (▲ 0.04 from last) (▲ 0.28 from last)</description>
-      <source>MUR Exchange Rates</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T10:19:59.899328+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>SEMDEX – 25 March 2026</title>
-      <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)</description>
-      <source>Stock Exchange of Mauritius</source>
-      <category>finance</category>
-      <cluster_time>2026-03-25T10:19:54.822937+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mauritius weather bulletin – 25 March 2026</title>
-      <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Weather news for Mauritius issued at 11h30 on Wednesday 25 March 2026.General situation:A light and warm airstream is flowing over the region.Forecast for the next 24 hours:Clouds development are expected this afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors late in the afternoon.The maximum temperature will be above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.The sky will clear up gradually in the evening and will be mainly fair across the island during the night and tomorrow morning.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hikings, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :12h28 and tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.</description>
-      <source>Mauritius Met Services</source>
-      <category>weather</category>
-      <cluster_time>2026-03-25T10:19:49.822537+00:00</cluster_time>
+      <title>L’île Maurice lance le défi d’innovation « SustainX 2026 » pour promouvoir les systèmes numériques durables</title>
+      <link>https://ionnews.mu/lile-maurice-lance-le-defi-dinnovation-sustainx-2026-pour-promouvoir-les-systemes-numeriques-durables/</link>
+      <description>Le Mauritius Research and Innovation Council (MRIC) a marqué l’ouverture officielle de SustainX 2026, un défi national d’innovation axé sur l’avancement des systèmes numériques durables. L’initiative, menée par Telcom Solutions Ltd en collaboration avec l’Université de Maurice, a été lancée lors d’une cérémonie tenue le 24 mars 2026 à l’Université de Maurice. L’événement a réuni des parties prenantes clés, notamment Kaviraj Sharma Sukon, ministre de l’Enseignement supérieur, de la science et de</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T10:18:50+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -246,32 +286,22 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Dozens of bodies, mostly infants, discovered in Kenya mass grave</title>
-      <link>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC Africa] Some of the 32 bodies, including 25 children, are believed to have come from local hospitals and mortuaries.
-
-[Africanews] Authorities in Kenya have uncovered a disturbing mass grave in Kericho, where officials exhumed dozens of bodies, including foetuses, in a case that is rapidly expanding in scale. The investigation began earlier this week after police received reports of a secret burial site over the weekend.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-25T09:27:22+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>6a6689cc6824</cluster_id>
-      <sources>BBC Africa
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/clydj9gj24jo?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/03/25/mass-grave-of-32-bodies-including-children-discovered-in-kenya/</urls>
-      <titles>Dozens of bodies, mostly infants, discovered in Kenya mass grave
-Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Belarus’s Lukashenko makes first visit to North Korea in bid to deepen ties</title>
       <link>https://www.aljazeera.com/news/2026/3/25/belaruss-lukashenko-makes-first-visit-to-north-korea-in-bid-to-deepen-ties?traffic_source=rss</link>
       <description>Belarus and North Korea are expected to sign a treaty of friendship as their leaders meet in Pyongyang.</description>
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-25T09:23:36+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Suivez en direct la conférence de presse de Paul Bérenger</title>
+      <link>https://defimedia.info/suivez-en-direct-la-conference-de-presse-de-paul-berenger</link>
+      <description>Suivez en direct la conférence de presse de Paul Bérenger</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T09:23:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -416,6 +446,26 @@ Mass grave of 32 Bodies, including children, discovered in Kenya</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Cape Epic : VTT : Victoire historique en Open pour William Piat et son coéquipier Mark Van Zyl</title>
+      <link>https://live.mega.mu/redirect/252860/</link>
+      <description>Après avoir brillé au Tankwa Trek début février, le Mauricien William Piat et son coéquipier botswanais, Mark Van Zyl ont refait le même coup dans la catégorie Open lors du Cape Epic qui s’est tenu du 15 au 22 mars en Afrique du Sud. Une performance historique quand on sait qu’il s’agit de la plus grande course de VTT au monde. William Piat devient le quatrième Mauricien à remporter une catégorie lors de cette épreuve prestigieuse après Aurélie et Yannick Lincoln en mixte (en ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Parlement : Adrien Duval : «You should apply the same rules to everyone»</title>
+      <link>https://live.mega.mu/redirect/252863/</link>
+      <description>L’ambiance était plutôt calme à l’Assemblée nationale, malgré quelques échanges vifs qui ont ponctué la séance et rappelé les tensions politiques du moment. Il était exactement 11h23 lorsque le Premier ministre, Navin Ramgoolam, est entré dans l’hémicycle, attirant aussitôt les regards. Sur les bancs, certains membres du MMM discutaient déjà, notamment Ajay Gunness, aperçu en grande conversation avec le chef du gouvernement, signe d’une atmosphère encore feutrée en déb ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Guerre psychologique et tempête politique</title>
       <link>https://live.mega.mu/redirect/252854/</link>
       <description>Les vents contraires se déchaînent. Alors qu’au Moyen-Orient, c’est l’escalade, avec pour conséquence une flambée du baril de pétrole qui a atteint jusqu’à 113 dollars lundi matin, à Maurice, c’est la crise politique provoquée par la démission de Paul Bérenger et celle de sa fille Joanna qui polarise toute l’attention. En déclenchant l’opération «Fureur épique», les forces armées israélo-américaines ne s’attendaient sans doute pas à ce que l’Iran lance une ...</description>
@@ -548,6 +598,26 @@ Carburant : le diesel passe de Rs 58,95 à Rs 64,80 le litre</titles>
       <languages>fr</languages>
     </item>
     <item>
+      <title>En couverture : 🔔 Les grands titres de l'express de ce mercredi 25 mars 2026 📰</title>
+      <link>https://live.mega.mu/redirect/252824/</link>
+      <description>En une de *l'express*: Politique : Le MMM peut-il exister sans Paul Bérenger ? ; Autre titre : Jean Claude de l’Estrac : «Il est présentement un leader sans parti, les autres ont un parti sans leader» l • Les Mauves présents dans l’Hémicycle, sauf les Bérenger et Chetan Baboolall l 16,4 kg de cannabis et de haschich saisis à l’aéroport : Une Française et un policier recherchés, l’épouse policière arrêtée l Enquête de la FCC : Yasish Emrith visé pour blanchiment et enri ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>En couverture de Business Magazine ce mercredi 25 mars 2026 🗞️📊 : Sunil Ramgobin : «Maurice reste une plateforme crédible pour structurer les investissements transfrontaliers»</title>
+      <link>https://live.mega.mu/redirect/252827/</link>
+      <description>À la tête de Bank One depuis octobre 2024, Sunil Ramgobin dirige une institution solide et engagée dans une phase de transformation stratégique. Entre repositionnement de la marque, ambition panafricaine et mutation du modèle bancaire vers plus de digital et d’expérience client, le CEO expose, dans un entretien, sa vision d’une banque plus lisible, plus cohérente et résolument tournée vers l’avenir. C’est en couverture de Business Magazine ce mercredi 25 mars 2026, un numér ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-03-25T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Annonces ministérielles : des mesures préventives pour économiser l’énergie</title>
       <link>https://defimedia.info/annonces-ministerielles-des-mesures-preventives-pour-economiser-lenergie</link>
       <description>Annonces ministérielles : des mesures préventives pour économiser l’énergie</description>
@@ -678,23 +748,14 @@ Democrats projected to win back Florida district home to Trump's Mar-a-Lago</tit
       <languages>en</languages>
     </item>
     <item>
-      <title>Ghana leads UN effort to acknowledge slave trade as crime against humanity</title>
-      <link>http://www.africanews.com/2026/03/24/ghana-leads-un-effort-to-acknowledg-slave-trade-as-crime-against-humanity/</link>
-      <description>[Africanews] Ghana is calling for global support at the United Nations for a draft resolution that would recognize the transatlantic slave trade as the gravest crime against humanity, a move it says could strengthen ongoing conversations around reparations and historical accountability.
-
-[Africanews] Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.</description>
+      <title>Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</title>
+      <link>http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/</link>
+      <description>Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-25T07:09:56+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
+      <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-      <cluster_id>ba1f795af497</cluster_id>
-      <sources>Africanews</sources>
-      <urls>http://www.africanews.com/2026/03/24/ghana-leads-un-effort-to-acknowledg-slave-trade-as-crime-against-humanity/
-http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/</urls>
-      <titles>Ghana leads UN effort to acknowledge slave trade as crime against humanity
-Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>130 Annual Tuberculosis Cases Recorded As Hospital Admissions Reach 104 Patients</title>
@@ -927,16 +988,6 @@ Ghana pushes UN Resolution to recognize Slave Trade as crime against humanity</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Khvicha Kvaratskhelia, nouveau capitaine de la Géorgie</title>
-      <link>https://ionnews.mu/khvicha-kvaratskhelia-nouveau-capitaine-de-la-georgie/</link>
-      <description>Absente de la Coupe du Monde, malgré un Euro 2024 séduisant, la Géorgie a un nouveau capitaine. Il s’agit de la star de la sélection, Khvicha Kvaratskhelia (45 sélections, 20 buts), présente en équipe nationale depuis 2019. Il prend la suite de Guram Kashia (38 ans), défenseur du Slovan Bratislava. « À partir de juin 2026, l’équipe nationale géorgienne sera menée par Khvicha Kvaratskhelia, Otar Kiteishvili sera le premier vice-capitaine et Otar Kakabadze le second », a annoncé la Fédération Géor</description>
-      <source>ION News</source>
-      <category>local</category>
-      <cluster_time>2026-03-25T04:40:16+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Huile lourde : une facture de Rs 2,46 milliards pour sécuriser l’électricité</title>
       <link>https://defimedia.info/huile-lourde-une-facture-de-rs-246-milliards-pour-securiser-lelectricite</link>
       <description>Face à la crise énergétique, le gouvernement déploie une série de mesures d’urgence pour préserver l’approvisionnement d</description>
@@ -1003,6 +1054,16 @@ US jury orders Meta to pay $375m for endangering children</titles>
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-25T03:31:09+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Middle East live: Israeli strikes on South Lebanon leave nine dead</title>
+      <link>https://www.france24.com/en/middle-east/20260325-middle-east-live-israeli-strikes-on-south-lebanon-leave-nine-dead</link>
+      <description>In Lebanon, Israeli strikes killed at least six people in a town and a Palestinian refugee camp in the southern Sidon area, and three more in another town. This comes as US President Donald Trump expresses optimism at ending the war, after sending a 15-point ceasefire plan to Iran. Follow our liveblog for all the latest updates.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-25T03:21:39+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1333,26 +1394,6 @@ Russia fires nearly 1,000 drones at Ukraine in 24 hours, killing at least eight<
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-24T19:36:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Talks or theatre? Claims of peace talks to end Iran war collide with denials</title>
-      <link>https://www.france24.com/en/tv-shows/the-debate/20260324-talks-or-theatre-claims-of-peace-talks-to-end-iran-war-collide-with-denials</link>
-      <description>Are diplomatic talks to end the Iran conflict actually happening? Donald Trump has hinted at &quot;major&quot; progress, but the White House downplayed this. Iran says no, Qatar says they're not involved, while there's increasing speculation that Pakistan could be the host of talks later this week. Yet all of this comes as Israel says it plans to push into Lebanon as far as the Litani River against Hezbollah and will use a Gaza-style approach, which resulted in a humanitarian catastrophe. So where are we</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T19:15:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Salah to leave Liverpool at the end of the season after 'illustrious' nine-year stretch</title>
-      <link>https://www.france24.com/en/sport/20260324-salah-to-leave-liverpool-at-the-end-of-the-season-after-illustrious-nine-year-stretch</link>
-      <description>Liverpool star Mohamed Salah announced Tuesday that he would be leaving the English club at the end of the season. The earlier-than-planned departure follows a recent dip in Salah's form, leading him to be dropped for several games late last year.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-24T19:11:12+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1827,16 +1868,6 @@ Ghana, EU sign first pact to counter West Africa's growing insecurity</titles>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-24T10:37:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Assemblée nationale : Joanna Bérenger et Chetan Baboolall absents</title>
-      <link>https://defimedia.info/assemblee-nationale-joanna-berenger-et-chetan-baboolall-absents</link>
-      <description>Les regards étaient braqués sur les travées de l’Assemblée nationale ce mardi. La raison : voir si Joanna Bérenger ou d’</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-24T10:29:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
