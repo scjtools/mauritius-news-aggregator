@@ -27,6 +27,54 @@ MAX_AGE_HOURS = 24
 MAX_SUMMARY_CHARS = 500
 SCRAPE_SLEEP_SECONDS = 2
 
+# Universal editorial-noise filters.
+# These are applied only to normal news categories, not structured data sources.
+UNIVERSAL_EXCLUDE_URL_PATTERNS = [
+    "/video/",
+    "/videos/",
+    "/newsfeed/",
+    "/live/",
+    "/liveblog/",
+    "/live-blog/",
+    "/gallery/",
+    "/galleries/",
+    "/photo/",
+    "/photos/",
+    "/pictures/",
+]
+
+UNIVERSAL_EXCLUDE_TITLE_PATTERNS = [
+    r"(?i)\bvideo\b",
+    r"(?i)\bwatch\b",
+    r"(?i)\bnewsfeed\b",
+    r"(?i)\bgallery\b",
+    r"(?i)\bphotos?\b",
+    r"(?i)\bpictures?\b",
+    r"(?i)\ben images\b",
+    r"(?i)\bsuivez en direct\b",
+    r"(?i)\ben direct\b",
+    r"(?i)\blive\b",
+    r"(?i)\blive updates?\b",
+    r"(?i)\blive blog\b",
+    r"(?i)\bopinion\b",
+    r"(?i)\banalysis\b",
+    r"(?i)\bcommentary\b",
+    r"(?i)\bexplained\b",
+    r"(?i)\bexplainer\b",
+    r"(?i)\bmost read\b",
+    r"(?i)\ben couverture\b",
+    r"(?i)\bles grands titres\b",
+    r"(?i)\ball of africa today\b",
+]
+
+UNIVERSAL_EXCLUDE_SUMMARY_PATTERNS = [
+    r"(?i)\bfollow our live\b",
+    r"(?i)\blive updates?\b",
+    r"(?i)\bopinion\b",
+    r"(?i)\banalysis\b",
+    r"(?i)\bcommentary\b",
+]
+
 
 def load_sources(path="sources/sources.yaml"):
     with open(path) as f:
@@ -82,12 +130,60 @@ def clean_title(title, source_name):
     return title
 
 
+def _matches_any_regex(text, patterns):
+    if not text:
+        return False
+    return any(re.search(pat, text) for pat in patterns)
+
+
+def should_drop_item(source, title, url, summary=""):
+    """
+    Early editorial junk filter.
+    Applies to normal news categories only.
+    Also supports YAML-level exclude rules across RSS + scrapers.
+    """
+    category = (source.get("category") or "").lower()
+    if category in {"finance", "weather", "utilities", "government"}:
+        return False
+
+    title = (title or "").strip()
+    url = (url or "").strip()
+    summary = (summary or "").strip()
+
+    title_lower = title.lower()
+    url_lower = url.lower()
+    summary_lower = summary.lower()
+
+    # Source-defined simple filters
+    exclude_url_patterns = [p.lower() for p in source.get("exclude_url_patterns", [])]
+    exclude_title_prefixes = [p.lower() for p in source.get("exclude_title_prefixes", [])]
+    exclude_title_patterns = source.get("exclude_title_patterns", [])
+    exclude_summary_patterns = source.get("exclude_summary_patterns", [])
+
+    if any(pat in url_lower for pat in exclude_url_patterns):
+        return True
+    if any(title_lower.startswith(pfx) for pfx in exclude_title_prefixes):
+        return True
+    if _matches_any_regex(title, exclude_title_patterns):
+        return True
+    if _matches_any_regex(summary, exclude_summary_patterns):
+        return True
+
+    # Universal filters
+    if any(pat in url_lower for pat in UNIVERSAL_EXCLUDE_URL_PATTERNS):
+        return True
+    if _matches_any_regex(title, UNIVERSAL_EXCLUDE_TITLE_PATTERNS):
+        return True
+    if _matches_any_regex(summary, UNIVERSAL_EXCLUDE_SUMMARY_PATTERNS):
+        return True
+
+    return False
+
+
 # ── RSS sources ──────────────────────────────────────────────────────────────
 
 def fetch_rss(source):
     items = []
-    exclude_url_patterns = source.get("exclude_url_patterns", [])
-    exclude_title_prefixes = source.get("exclude_title_prefixes", [])
     try:
         if "lemauricien.com" in source["url"]:
             _rss_raw = requests.get(source["url"], headers=HEADERS, timeout=15)
@@ -103,25 +199,22 @@ def fetch_rss(source):
 
             raw_title = entry.get("title", "").strip()
             url = entry.get("link", "")
-
-            if any(pat in url for pat in exclude_url_patterns):
-                continue
-            if any(raw_title.startswith(pfx) for pfx in exclude_title_prefixes):
-                continue
-
             title = clean_title(raw_title, source["name"])
             summary = BeautifulSoup(
                 getattr(entry, "summary", "") or "", "html.parser"
-            ).get_text()[:MAX_SUMMARY_CHARS]
+            ).get_text()[:MAX_SUMMARY_CHARS].strip()
 
-            if not summary.strip() and source.get("summary_fallback_title"):
+            if not summary and source.get("summary_fallback_title"):
                 summary = title
+
+            if should_drop_item(source, title, url, summary):
+                continue
 
             items.append({
                 "id": item_id(title, entry.get("link", "")),
                 "title": title,
                 "url": url,
-                "summary": summary.strip(),
+                "summary": summary,
                 "source": source["name"],
                 "language": source["language"],
                 "category": source["category"],
@@ -199,8 +292,6 @@ def scrape_homepage(source):
             if url_path_allowlist and not any(seg in url for seg in url_path_allowlist):
                 continue
 
-            seen.add(url)
-
             summary = ""
             if not use_link_fallback:
                 for p in tag.find_all("p"):
@@ -216,6 +307,11 @@ def scrape_homepage(source):
                         if len(tt) > 40:
                             summary = tt[:MAX_SUMMARY_CHARS]
                             break
+
+            if should_drop_item(source, title, url, summary):
+                continue
+
+            seen.add(url)
 
             dt = try_parse_date_from_html(tag) if not use_link_fallback else None
 
@@ -233,7 +329,7 @@ def scrape_homepage(source):
                             elif isinstance(data, list):
                                 for d in data:
                                     if isinstance(d, dict):
-                                        raw_date = d.get("datePublished") or d.get("dateCreated")
+                                        raw_date = d.get("datePublished") or data.get("dateCreated")
                                         if raw_date:
                                             break
                             if raw_date:
@@ -321,7 +417,6 @@ def scrape_megamu(source):
 
                 if redirect_url in seen:
                     continue
-                seen.add(redirect_url)
 
                 summary = ""
                 parent = h3.find_parent()
@@ -329,6 +424,11 @@ def scrape_megamu(source):
                     p = parent.find("p")
                     if p:
                         summary = p.get_text(" ", strip=True)[:MAX_SUMMARY_CHARS]
+
+                if should_drop_item(source, title, redirect_url, summary):
+                    continue
+
+                seen.add(redirect_url)
 
                 dt = None
                 if parent:
@@ -437,8 +537,6 @@ def scrape_lemauricien(source):
             if len(title) < 20 or len(title) > 200:
                 continue
 
-            seen.add(url)
-
             summary = ""
             if parent := a_tag.find_parent():
                 for p in parent.find_all("p"):
@@ -446,6 +544,11 @@ def scrape_lemauricien(source):
                     if len(pt) > 40:
                         summary = pt[:MAX_SUMMARY_CHARS]
                         break
+
+            if should_drop_item(source, title, url, summary):
+                continue
+
+            seen.add(url)
 
             dt = None
             if parent := a_tag.find_parent():
@@ -735,7 +838,6 @@ def build_rss(items):
         entry = SubElement(channel, "item")
         cluster_size = int(item.get("cluster_size", 1) or 1)
 
-        # Core fields
         _set_clean_text(entry, "title", item.get("title", ""))
         _set_raw_text(entry, "link", item.get("url", ""))
         _set_clean_text(entry, "description", item.get("summary", ""))
@@ -745,7 +847,6 @@ def build_rss(items):
         _set_raw_text(entry, "cluster_size", str(cluster_size))
         _set_raw_text(entry, "source_count", str(item.get("source_count", 1)))
 
-        # Only keep cluster metadata for actual multi-item clusters
         if cluster_size > 1:
             _set_clean_text(entry, "cluster_id", item.get("cluster_id", ""))
 
