@@ -1,6 +1,6 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 183,
+  "item_count": 166,
   "items": [
     {
       "id": "singleton_5acc0f10f37a",
@@ -48,26 +48,11 @@
       ]
     },
     {
-      "id": "singleton_7e52a72927a6",
-      "cluster_time": "2026-03-25T17:56:54+01:00",
-      "category": "regional",
-      "headline": "East Africa’s largest economy to host $3B Dubai-funded industrial projects over next five years",
-      "summary": "Kenya strikes $3 billion deal with Dubai-based investor to boost industrial zones",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/markets/east-africas-largest-economy-to-host-dollar3b-dubai-funded-industrial-projects-over/z6z3z5r"
-      ]
-    },
-    {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-25T17:03:56.710894+00:00",
+      "cluster_time": "2026-03-25T17:56:59.656762+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 25 March 2026",
-      "summary": "Brent Crude Oil: USD 100.98 per barrel",
+      "summary": "Brent Crude Oil: USD 101.46 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -79,10 +64,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-25T17:03:56.414889+00:00",
+      "cluster_time": "2026-03-25T17:56:59.475249+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 25 March 2026",
-      "summary": "Bitcoin (BTC): USD 71,362.55 (▲ +1.36% from last)",
+      "summary": "Bitcoin (BTC): USD 70,817.24 (▲ +0.58% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -94,10 +79,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-25T17:03:56.117840+00:00",
+      "cluster_time": "2026-03-25T17:56:59.103609+00:00",
       "category": "finance",
       "headline": "Gold price – 25 March 2026",
-      "summary": "Gold (XAU): USD 4,555.70 (▲ +3.79% from last)",
+      "summary": "Gold (XAU): USD 4,549.90 (▲ +3.66% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -109,7 +94,7 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-03-25T17:03:55.792492+00:00",
+      "cluster_time": "2026-03-25T17:56:58.626538+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 25 March 2026",
       "summary": "MUR/USD 46.48 | MUR/EUR 53.90 (▼ 0.01 from last) (▲ 0.21 from last)",
@@ -124,7 +109,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-25T17:03:53.247561+00:00",
+      "cluster_time": "2026-03-25T17:56:56.188671+00:00",
       "category": "finance",
       "headline": "SEMDEX – 25 March 2026",
       "summary": "SEMDEX closed at 2242.15 (▲ 18.95 pts, +0.85% from last close 2,223.20)",
@@ -139,7 +124,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-25T17:03:48.871252+00:00",
+      "cluster_time": "2026-03-25T17:56:51.789065+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 25 March 2026",
       "summary": "Weather news for Mauritius issued at 16h30 on Wednesday 25 March 2026.General situation:Few clouds coming from the East will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy tonight, becoming cloudy at times to the East and over the Central Plateau with occasional showers.The minimum temperature will be between 20 and 22 degrees Celsius over the central plateau and between 24 and 26 degrees Celsius along the coasts.After a few morning showers over the highgrounds tomorrow, the weather will mainly fair afterwards.However, cloud development are expected in the afternoon over the Western part of the island and over the Central plateau with localised showers.These showers may be sometimes of moderate intensity with risks of thunderstorm and may spread in other sectors.The maximum temperature will be slightly above the mean and will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind from the Eastern sector at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.Practical advice:The public is advised to stay in safe places and avoid open areas, hiking, sea ventures and sheltering under trees in case of thunderstorms.High tides :22h11 and tomorrow 22h57.Low tides :Tomorrow 15h37.Sunset :18h17.Sunrise (tomorrow) :06h15.Atmospheric pressure at 16h00:1011 hectopascals.",
@@ -150,6 +135,113 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "singleton_516900dac616",
+      "cluster_time": "2026-03-25T17:48:20+00:00",
+      "category": "global",
+      "headline": "Governments move to shield consumers from soaring energy costs",
+      "summary": "The closure of the Strait of Hormuz has rattled global markets, with oil prices up around 40 percent since the start of the US-Israeli war on Iran. Governments are now scrambling to shield ⁠consumers from soaring energy costs.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/economy/20260325-governments-move-to-shield-consumers-from-soaring-energy-costs"
+      ]
+    },
+    {
+      "id": "552e1b82c05b",
+      "cluster_time": "2026-03-25T17:13:10+00:00",
+      "category": "regional",
+      "headline": "Ghana demands compensation for slavery in landmark UN vote",
+      "summary": "[BBC Africa] Nations will vote on whether to designate the slave trade as \"the gravest crime against humanity\".\n\n[Africanews] Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC Africa",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/"
+      ]
+    },
+    {
+      "id": "singleton_b9921f25ab86",
+      "cluster_time": "2026-03-25T17:06:08+00:00",
+      "category": "global",
+      "headline": "Israel's defence network challenged by Iranian cluster ballistic missiles",
+      "summary": "As the regional conflict between Israel and Iran enters a volatile new phase, a banned weapon of war is reappearing over civilian centres. While Israel’s defence systems remain robust, a new threat - the cluster ballistic missile - is testing the limits of safety. Unlike a single warhead, these missiles release hundreds of \"bomblets,\" turning neighbourhoods into active minefields long after the sirens stop.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/israel-s-defence-network-challenged-by-iranian-cluster-ballistic-missiles"
+      ]
+    },
+    {
+      "id": "singleton_ef06b9edae54",
+      "cluster_time": "2026-03-25T17:04:34+00:00",
+      "category": "global",
+      "headline": "'Typosquatting': How to spot fake news sites created by AI",
+      "summary": "Courrier France 24, Sud Ouest Direct, 20minutes.com… they sound like real news outlets, but they are not. Learn how to spot sites created by AI.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/the-observers/20260325-typosquatting-spot-fake-news-sites-created-ai"
+      ]
+    },
+    {
+      "id": "singleton_a843efc3c84b",
+      "cluster_time": "2026-03-25T16:57:06+00:00",
+      "category": "regional",
+      "headline": "South Africa's top cop to be charged in corruption case",
+      "summary": "National Police Commissioner Fannie Masemola has been served with a summons to appear in court next month, said a spokesman for South Africa's National Prosecuting Authority",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/25/south-africas-top-cop-to-be-charged-in-corruption-case/"
+      ]
+    },
+    {
+      "id": "singleton_1a4a1f8bd9e2",
+      "cluster_time": "2026-03-25T16:51:10+00:00",
+      "category": "global",
+      "headline": "Oldest dog DNA suggests 16,000 years of human companionship",
+      "summary": "The discovery of the oldest ever dog DNA suggests they have been our best friends for nearly 16,000 years -- 5,000 years earlier than had previously been thought, new research said Wednesday.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/live-news/20260325-oldest-dog-dna-suggests-16-000-years-of-human-companionship"
+      ]
+    },
+    {
+      "id": "singleton_3807583995b4",
+      "cluster_time": "2026-03-25T16:50:20+00:00",
+      "category": "regional",
+      "headline": "Senegal appeal to be heard 'as swiftly as possible'",
+      "summary": "The Court of Arbitration for Sport (Cas) says it will rule on Senegal's appeal against being stripped of the Africa Cup of Nations title \"as swiftly as possible\".",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC Africa"
+      ],
+      "urls": [
+        "https://www.bbc.com/sport/football/articles/c895x5x0jy5o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -165,6 +257,21 @@
       ],
       "urls": [
         "https://www.france24.com/en/europe/20260325-nato-officer-says-allies-must-urgently-rethink-defence-prepare-for-new-enemy"
+      ]
+    },
+    {
+      "id": "singleton_629e36f15790",
+      "cluster_time": "2026-03-25T16:38:03+00:00",
+      "category": "global",
+      "headline": "'We are in agony' - Savannah Guthrie does first interview since mum's disappearance",
+      "summary": "The US presenter says terrifying thoughts wake her at night as she imagines what happened.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/ckgxzlny4w3o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -334,23 +441,21 @@
       ]
     },
     {
-      "id": "8e3ecb828c67",
+      "id": "74e4816f9b99",
       "cluster_time": "2026-03-25T16:08:31+00:00",
       "category": "global",
       "headline": "Estonia and Latvia say territories hit by stray Ukrainian drones",
-      "summary": "[BBC News] The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.\n\n[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.\n\n[France 24] Stray Ukrainian drones hit Estonia and Latvia early on March 25, one of them slamming into a chimney at a power station. There were no reports of injuries in the incidents, and the drones were believed to be part of a wider Ukrainian attack on Russia targeting energy infrastructure. Latvia says these drone incursions could keep happening in the Baltic region.\n\n[Al Jazeera] Riga said drone that entered its territory may be Ukrainian.",
-      "cluster_size": 4,
-      "source_count": 3,
+      "summary": "[BBC News] The incidents occurred on the same night that Ukraine launched a massive attack on Russia's port of Ust-Luga, near the Estonian border.\n\n[BBC News] Cities across Ukraine were hit, with local officials reporting at least eight people killed and dozens injured.\n\n[France 24] Stray Ukrainian drones hit Estonia and Latvia early on March 25, one of them slamming into a chimney at a power station. There were no reports of injuries in the incidents, and the drones were believed to be part of a wider Ukrainian attack on Russia targeting energy infrastructure. Latvia says these drone incursions could keep happening in the Baltic region.",
+      "cluster_size": 3,
+      "source_count": 2,
       "sources": [
         "BBC News",
-        "France 24",
-        "Al Jazeera"
+        "France 24"
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c1eql309n12o?at_medium=RSS&at_campaign=rss",
         "https://www.bbc.com/news/articles/cz90gpyw90wo?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/ukrainian-drones-crash-in-estonia-and-latvia-raising-air-defence-concerns",
-        "https://www.aljazeera.com/news/2026/3/25/estonia-latvia-report-drone-incursions-from-russian-airspace?traffic_source=rss"
+        "https://www.france24.com/en/ukrainian-drones-crash-in-estonia-and-latvia-raising-air-defence-concerns"
       ]
     },
     {
@@ -463,7 +568,7 @@
       "cluster_time": "2026-03-25T15:11:36+00:00",
       "category": "global",
       "headline": "Iran calls US proposal to end war ‘maximalist, unreasonable’",
-      "summary": "Diplomatic sources tells Al Jazeera that Iran is dismissing the 15-point plan from the United States as unworkable.",
+      "summary": "Diplomatic source tells Al Jazeera that Tehran is dismissing the 15-point plan from Washington as unworkable.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -553,20 +658,18 @@
       ]
     },
     {
-      "id": "552e1b82c05b",
-      "cluster_time": "2026-03-25T14:55:36+00:00",
+      "id": "singleton_c1dc4a7d5a1f",
+      "cluster_time": "2026-03-25T14:50:13+00:00",
       "category": "regional",
-      "headline": "Ghana demands compensation for slavery in landmark UN vote",
-      "summary": "[BBC Africa] Nations will vote on whether to designate the slave trade as \"the gravest crime against humanity\".\n\n[Africanews] Ghana is intensifying its diplomatic campaign at the United Nations, combining cultural expression and political advocacy to push for global recognition of the transatlantic slave trade as the gravest crime against humanity.",
-      "cluster_size": 2,
-      "source_count": 2,
+      "headline": "Saudi Pro League, the US or Europe - what are Salah's options?",
+      "summary": "Liverpool reporter Aadam Patel analyses what Mohamed Salah's next move might be following the forward's announcement that he is to leave the club this summer.",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "BBC Africa",
-        "Africanews"
+        "BBC Africa"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/03/25/ghana-pushes-un-resolution-to-recognize-slave-trade-as-crime-against-humanity/"
+        "https://www.bbc.com/sport/football/articles/c86ew5d52d9o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -597,21 +700,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/economy/2026/3/25/anthropics-case-against-the-pentagon-could-open-space-for-ai-regulation?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_37992f50d84e",
-      "cluster_time": "2026-03-25T14:34:45+00:00",
-      "category": "regional",
-      "headline": "Only one in 20 Nigerians earns above N1m monthly – PiggyVest",
-      "summary": "One in 20 Nigerians now earns above ₦1 million ($723.26) monthly, according to data from savings platform Piggyvest’s new savings report.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "TechCabal"
-      ],
-      "urls": [
-        "https://techcabal.com/2026/03/25/only-one-in-20-nigerians-earn-over-%e2%82%a61-million-monthly-piggyvest/"
       ]
     },
     {
@@ -722,81 +810,6 @@
       ]
     },
     {
-      "id": "singleton_b9fabcbdf2ec",
-      "cluster_time": "2026-03-25T14:10:47+00:00",
-      "category": "regional",
-      "headline": "Kenya’s I&M Bank hits 98% digital usage as growth shifts to revenue per user",
-      "summary": "Kenya’s tier-1 banks have largely exhausted the pool of new digital users, and I&M Group’s disclosure that 98% of its customers now transact digitally shows the next phase of growth will come from extracting more revenue from existing users rather than bringing new ones online. I&M Group serves more than 727,000 customers across five markets […]",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "TechCabal"
-      ],
-      "urls": [
-        "https://techcabal.com/2026/03/25/kenyas-im-bank-hits-98-digital-usage-as-growth-shifts-to-revenue-per-user/"
-      ]
-    },
-    {
-      "id": "singleton_4e74b7837b2f",
-      "cluster_time": "2026-03-25T14:00:24+01:00",
-      "category": "regional",
-      "headline": "10 African countries with the highest diesel prices in March 2026",
-      "summary": "Diesel prices have risen substantially in recent weeks, owing to the ongoing conflict in the Middle East, particularly the confrontation between Iran, Israel, and the United States",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/markets/10-african-countries-with-the-highest-diesel-prices-in-march-2026/rv447lm"
-      ]
-    },
-    {
-      "id": "singleton_0d375495063b",
-      "cluster_time": "2026-03-25T13:59:32+00:00",
-      "category": "global",
-      "headline": "Famed Lille bakery shares story behind its 'gaufres' on International Waffle Day",
-      "summary": "This Wednesday is International Waffle Day – a celebration for waffle lovers everywhere, but particularly here in France, where les gaufres are a particular fan favourite. We're focusing on a very particular kind of waffle, one that's not big and puffy like the ones you might find in Belgium. These waffles come from the northern French town of Lille and the bakery Meert. Gregori Pillegand, Meert's international development director, tells us what's so special about their kind of gaufre.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/entre-nous/20260325-famed-lille-bakery-shares-story-behind-its-gaufres-on-international-waffle-day"
-      ]
-    },
-    {
-      "id": "singleton_068dbcae6d42",
-      "cluster_time": "2026-03-25T13:57:18+00:00",
-      "category": "global",
-      "headline": "Suspicious bets placed on US-Iran strikes trigger insider trading concerns",
-      "summary": "Before financial markets opened in the United States on March 25, the US president stepped back from a threat to target Iranian energy sites. But 15 minutes before Trump's statement, thousands of oil contracts were traded - meaning anyone who placed bet on crude prices dropping would have made a lot of money. It's raising questions on if anyone acted on insider knowledge.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/suspicious-bets-placed-on-us-iran-strikes-trigger-insider-trading-concerns"
-      ]
-    },
-    {
-      "id": "singleton_7b051dcd2b7a",
-      "cluster_time": "2026-03-25T13:51:37+00:00",
-      "category": "global",
-      "headline": "New Mexico trial finds Meta chose 'growth and profit over children's safety'",
-      "summary": "A jury in New Mexico found on March 25 that the social media giant's platforms are harmful to children’s mental health and imposed a $375 million penalty. The trial is the first of several to be held in 2026 regarding social media child safety. The New Mexico jury found that the tech giant knowingly misled users when it came to child safety, and chose 'growth and profit' first, as FRANCE 24's Wassim Cornet explains from Los Angeles.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/new-mexico-trial-finds-meta-chose-growth-and-profit-over-children-s-safety"
-      ]
-    },
-    {
       "id": "singleton_39e29d3285d6",
       "cluster_time": "2026-03-25T13:47:00+00:00",
       "category": "local",
@@ -847,36 +860,6 @@
       ]
     },
     {
-      "id": "singleton_f4b23fcad085",
-      "cluster_time": "2026-03-25T13:43:33+00:00",
-      "category": "regional",
-      "headline": "Who controls Nigeria’s only communications satellite? Inside a growing $11.4m dispute with China",
-      "summary": "A dispute over $11.4 million in unpaid fees has put Nigeria's only operational communications satellite at risk of losing the technical support keeping it in orbit",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "TechCabal"
-      ],
-      "urls": [
-        "https://techcabal.com/2026/03/25/a-11-4m-debt-puts-nigerias-space-ambitions-at-risk/"
-      ]
-    },
-    {
-      "id": "singleton_82694faf9f5f",
-      "cluster_time": "2026-03-25T13:26:11+00:00",
-      "category": "global",
-      "headline": "Oil supply shock hardens energy transition resolve – for some",
-      "summary": "The energy crisis over the Iran war has left some countries glad they've added more renewables, while others are doubling down on fossil fuels. But first: oil prices fall on hopes for de-escalation in the Middle East, while suspicions swirl over potential insider trading on Trump administration policies.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/business/20260325-oil-supply-shock-hardens-energy-transition-resolve-%E2%80%93-for-some"
-      ]
-    },
-    {
       "id": "2032ef154ae2",
       "cluster_time": "2026-03-25T13:19:00+00:00",
       "category": "local",
@@ -914,21 +897,6 @@
       ],
       "urls": [
         "https://github.com/MrSunshyne/mauritius-dataset-electricity"
-      ]
-    },
-    {
-      "id": "singleton_26d4ea066c9a",
-      "cluster_time": "2026-03-25T13:00:37+01:00",
-      "category": "regional",
-      "headline": "Why gold-backed retirement accounts are gaining popularity in 2026",
-      "summary": "In today’s uncertain economic climate, investors are increasingly looking for ways to protect their wealth and secure their financial future. With inflation concerns, market volatility, and shifting global dynamics, traditional investment strategies are no longer enough for many individuals. This has led to a growing interest in alternative investment options, particularlygold-backed retirement accounts, which are becoming a preferred choice for long-term financial stability.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/markets/why-gold-backed-retirement-accounts-are-gaining-popularity-in-2026/hz8592w"
       ]
     },
     {
@@ -977,36 +945,6 @@
       ]
     },
     {
-      "id": "singleton_3409375e0752",
-      "cluster_time": "2026-03-25T12:55:56+01:00",
-      "category": "regional",
-      "headline": "Exploring the ups and downs of transportation options in and around London",
-      "summary": "The Greater London area is frequently lauded for its diverse public transportation options, ranging from a fleet of buses, overground train networks, and its subway system, famously dubbed “the Tube.”",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/markets/exploring-the-ups-and-downs-of-transportation-options-in-and-around-london/rglwqgc"
-      ]
-    },
-    {
-      "id": "singleton_e8af60120c29",
-      "cluster_time": "2026-03-25T12:50:05+01:00",
-      "category": "regional",
-      "headline": "Olympia: Inside the making of the world’s largest mixed-format billboard in Lagos",
-      "summary": "On the busy Eko Bridge corridor in Lagos, where thousands of vehicles stream through the city’s commercial spine every hour, a new structure now dominates the skyline. Rising beside the National Theatre and the Wole Soyinka Centre for Art and Culture, the structure, famously known as Olympia, is more than just another advertising board.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/markets/olympia-inside-the-making-of-the-worlds-largest-mixed-format-billboard-in-lagos/0dg5394"
-      ]
-    },
-    {
       "id": "singleton_a8bf1ee10471",
       "cluster_time": "2026-03-25T12:42:38+00:00",
       "category": "local",
@@ -1019,21 +957,6 @@
       ],
       "urls": [
         "https://ionnews.mu/journee-mondiale-de-leau-legalite-des-genres-au-coeur-des-enjeux/"
-      ]
-    },
-    {
-      "id": "singleton_b6d7924f3e5f",
-      "cluster_time": "2026-03-25T12:39:18+00:00",
-      "category": "global",
-      "headline": "'Make cheese not war': How France's Larzac protests inspired demos around the world",
-      "summary": "The author of a new book has spoken to FRANCE 24 about how the Larzac protests in France from 1971 became a modern-day template for demonstrations across the world. The protests began after the French government announced a huge extension of a military base on the Larzac plateau, referring to the farmers living there as \"a few peasants\" in \"French Siberia\". This sparked much anger, and residents ended up swearing oaths never to be forced from their land, pioneering regional radicalism for years",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/perspective/20260325-make-cheese-not-war-how-larzac-protests-in-france-inspired-demos-around-the-world"
       ]
     },
     {
@@ -1189,21 +1112,6 @@
       ]
     },
     {
-      "id": "singleton_34e3d1471244",
-      "cluster_time": "2026-03-25T11:54:02+01:00",
-      "category": "regional",
-      "headline": "Nigeria’s economic ‘recovery’ isn’t reaching households as only 6% feel financially secure",
-      "summary": "A Piggyvest report shows most Nigerians are struggling financially, with half not saving and only 6% feeling secure despite signs of economic stabilisation",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/markets/only-6-of-nigerians-feel-financially-secure-despite-economic-reforms/k0egd7h"
-      ]
-    },
-    {
       "id": "singleton_8bb669dd16ef",
       "cluster_time": "2026-03-25T11:45:09+00:00",
       "category": "global",
@@ -1246,21 +1154,6 @@
       ],
       "urls": [
         "https://defimedia.info/laeroport-ssr-une-valise-oubliee-revele-un-reseau-de-trafiquants-et-des-complicites-policieres"
-      ]
-    },
-    {
-      "id": "singleton_b1fe9096b14e",
-      "cluster_time": "2026-03-25T11:21:19+00:00",
-      "category": "global",
-      "headline": "Large Polymarket, Wall Street bets on Trump’s war news under scrutiny",
-      "summary": "Well-timed trades regarding Iran war news this week lead critics to argue White House may be engaged in insider trading.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/25/large-polymarket-wall-street-bets-on-trumps-war-news-under-scrutiny?traffic_source=rss"
       ]
     },
     {
@@ -1446,21 +1339,6 @@
       ]
     },
     {
-      "id": "singleton_83876b64063d",
-      "cluster_time": "2026-03-25T10:20:21+01:00",
-      "category": "regional",
-      "headline": "Zimbabwean billionaire’s firm teams up with US fintech to expand stablecoins in Africa",
-      "summary": "Circle Internet Group Inc. has partnered with Cassava Technologies, owned by Zimbabwes richest person, Strive Masiyiwa, to increase the use of stablecoins across Africa, giving the continents rapidly growing digital payments industry a significant boost. | Business Insider Africa",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/markets/zimbabwean-billionaires-firm-teams-up-with-us-fintech-to-expand-stablecoins-in-africa/0phxcht"
-      ]
-    },
-    {
       "id": "singleton_be982a10807f",
       "cluster_time": "2026-03-25T10:18:50+00:00",
       "category": "local",
@@ -1533,36 +1411,6 @@
       ],
       "urls": [
         "https://ionnews.mu/parlement-standard-poors-le-premier-ministre-met-les-points-sur-les-i/"
-      ]
-    },
-    {
-      "id": "singleton_ab5fa98c2ffb",
-      "cluster_time": "2026-03-25T09:55:42+01:00",
-      "category": "regional",
-      "headline": "Drone bases and defence hubs: How a Turkish investor is shaping DRCongo’s security future",
-      "summary": "Drone bases, surveillance networks and forward-operating hubs are rapidly redefining security strategy in the Democratic Republic of the Congo, where a Turkish investor, Turhan Mildon is emerging as an unlikely architect of the country’s defence modernisation",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/lifestyle/drone-bases-and-defence-hubs-how-a-turkish-investor-is-shaping-drcongos-security/d31ve36"
-      ]
-    },
-    {
-      "id": "singleton_29e2494a3d8b",
-      "cluster_time": "2026-03-25T09:45:13+00:00",
-      "category": "regional",
-      "headline": "Tuberculosis has a last-mile delivery problem in Africa. A new logistics platform is trying to fix it.",
-      "summary": "Tuberculosis is curable. Yet, for many patients across developing countries, survival depends less on medicine and more on logistics. In 2024, the disease became the world’s leading infectious disease killer, with 10.7 million people falling ill globally, according to the World Health Organisation. Africa accounts for a significant share of cases and deaths. Weak infrastructure, […]",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "TechCabal"
-      ],
-      "urls": [
-        "https://techcabal.com/2026/03/25/tuberculosis-last-mile-logistics-africa/"
       ]
     },
     {
@@ -1655,21 +1503,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c3ex8ez3717o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_1a4bc70d4177",
-      "cluster_time": "2026-03-25T08:50:11+01:00",
-      "category": "regional",
-      "headline": "Africa’s 10 most polluted nations: Insights from the World Air Quality report",
-      "summary": "Air pollution continues to pose a major health and environmental challenge across Africa, with fine particulate matter, known as PM2",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/lifestyle/africas-10-most-polluted-nations-insights-from-the-world-air-quality-report/0hb8chm"
       ]
     },
     {
@@ -1925,6 +1758,21 @@
       ],
       "urls": [
         "https://live.mega.mu/redirect/252935/"
+      ]
+    },
+    {
+      "id": "singleton_d9ed92198fef",
+      "cluster_time": "2026-03-25T08:00:00+00:00",
+      "category": "local",
+      "headline": "Montagne Longue : un conducteur arrêté avec des substances suspectes lors d’un contrôle",
+      "summary": "Un habitant de Vallée-des-Prêtres, âgé de 26 ans, a été arrêté dans la nuit du lundi 23 mars, lors d’un contrôle routier à Ilot Branch Road, à Montagne Longue.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/252938/"
       ]
     },
     {
@@ -2367,18 +2215,18 @@
       ]
     },
     {
-      "id": "singleton_a78625e8f9cb",
-      "cluster_time": "2026-03-25T07:03:29+01:00",
+      "id": "singleton_04838bef096d",
+      "cluster_time": "2026-03-25T06:30:23+00:00",
       "category": "regional",
-      "headline": "Nigeria rolls out locally made armoured carriers as army ramps up defence capabilities",
-      "summary": "The Nigerian Army has taken delivery of a new batch of armoured personnel carriers, combining locally manufactured platforms with foreign-supplied vehicles, in a move that underscores the country’s growing ambitions in defence production and its continued reliance on international partnerships",
+      "headline": "Where does Salah rank among greatest Premier League forwards?",
+      "summary": "As Mohamed Salah announces he will leave Liverpool this summer, BBC Sport asks you to rank the best forwards in Premier League history.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Business Insider Africa"
+        "BBC Africa"
       ],
       "urls": [
-        "https://africa.businessinsider.com/local/lifestyle/nigeria-rolls-out-locally-made-armoured-carriers-as-army-ramps-up-defence/t39b5ym"
+        "https://www.bbc.com/sport/football/articles/c2evxggw1xro?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -2439,21 +2287,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cpqxjwvvyl4o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_d5549501dea6",
-      "cluster_time": "2026-03-25T05:56:56+00:00",
-      "category": "regional",
-      "headline": "👨🏿‍🚀TechCabal Daily – Optasia takes interest in banks",
-      "summary": "In today's edition: Optasia wants to sell its technology to banks || NBK posts profit after Access Bank purchase || Namibia rejects Starlink || Circle, Cassava partner to bring stablecoin payments || Plus: World Wide Web 3 and Opportunities for you",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "TechCabal"
-      ],
-      "urls": [
-        "https://techcabal.com/2026/03/25/techcabal-daily-optasia-takes-interest-in-banks/"
       ]
     },
     {
@@ -2592,21 +2425,6 @@
       ]
     },
     {
-      "id": "singleton_728669344853",
-      "cluster_time": "2026-03-25T02:18:00+00:00",
-      "category": "local",
-      "headline": "Ce que l’on sait du plan en 15 points des États-Unis pour mettre fin à la guerre avec l’Iran",
-      "summary": "Des médias américains et israéliens, citant des responsables anonymes, rapportent que Washington a transmis à l’Iran un",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/ce-que-lon-sait-du-plan-en-15-points-des-etats-unis-pour-mettre-fin-la-guerre-avec-liran"
-      ]
-    },
-    {
       "id": "singleton_7a66df83adf6",
       "cluster_time": "2026-03-25T00:42:59+00:00",
       "category": "global",
@@ -2622,21 +2440,6 @@
       ]
     },
     {
-      "id": "singleton_0c0a0eb6ce8d",
-      "cluster_time": "2026-03-25T00:22:44+01:00",
-      "category": "regional",
-      "headline": "US under fire from Ghana’s president for 'normalising' the erasure of Black history",
-      "summary": "Ghanaian President John Dramani Mahama criticised the U",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Business Insider Africa"
-      ],
-      "urls": [
-        "https://africa.businessinsider.com/local/leaders/us-under-fire-from-ghanas-president-for-normalizing-the-erasure-of-black-history/y401p30"
-      ]
-    },
-    {
       "id": "singleton_b437a72dc1e9",
       "cluster_time": "2026-03-24T23:16:55+00:00",
       "category": "global",
@@ -2649,21 +2452,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cql75dn07n2o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_77eb6399615f",
-      "cluster_time": "2026-03-24T21:29:18+04:00",
-      "category": "local",
-      "headline": "Montagne Longue : un conducteur arrêté avec des substances suspectes lors d’un contrôle",
-      "summary": "Un habitant de Vallée-des-Prêtres, âgé de 26 ans, a été arrêté dans la nuit du lundi 23 mars, lors d’un contrôle routier à Ilot Branch Road, à Montagne Longue. Interpellé dans la soiré...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/faits-divers/montagne-longue-un-conducteur-arrete-avec-des-substances-suspectes-lors-dun-controle/702612/"
       ]
     },
     {
@@ -2739,51 +2527,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c8ejk0z430jo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_334137c6a29b",
-      "cluster_time": "2026-03-24T17:51:00+00:00",
-      "category": "local",
-      "headline": "Metro Express - Menace au couteau : un passager arrêté à Rose-Hill",
-      "summary": "Un incident inquiétant s’est produit lundi à la station Vandermeesch, à Rose-Hill, impliquant un « Ticket Inspector » du",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/metro-express-menace-au-couteau-un-passager-arrete-rose-hill"
-      ]
-    },
-    {
-      "id": "singleton_d7694e3fff17",
-      "cluster_time": "2026-03-24T17:43:19+00:00",
-      "category": "regional",
-      "headline": "Bill Cosby ordered to pay $19.25m to woman in decades-old assault case",
-      "summary": "A California court has awarded $19.25m in damages to a woman who accused actor Bill Cosby of drugging and sexually assaulting her somewhere in the early 1970s.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/24/bill-cosby-ordered-to-pay-1925m-to-woman-in-decades-old-assault-case/"
-      ]
-    },
-    {
-      "id": "singleton_d72f3d387394",
-      "cluster_time": "2026-03-24T17:12:50+00:00",
-      "category": "global",
-      "headline": "Everyday life in Asia is being upended by Iran war fuel crisis",
-      "summary": "Asia relies heavily on oil and gas from the Gulf, and shortages and higher prices are starting to bite.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c1450zj6n48o?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
