@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 159,
+  "item_count": 166,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-26T20:01:42.225230+00:00",
+      "cluster_time": "2026-03-26T23:00:50.911627+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 26 March 2026",
-      "summary": "Brent Crude Oil: USD 107.73 per barrel",
+      "summary": "Brent Crude Oil: USD 108.01 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-26T20:01:41.822672+00:00",
+      "cluster_time": "2026-03-26T23:00:50.663786+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 26 March 2026",
-      "summary": "Bitcoin (BTC): USD 68,584.26 (▼ -2.59% from last)",
+      "summary": "Bitcoin (BTC): USD 68,787.76 (▼ -2.30% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-26T20:01:41.345789+00:00",
+      "cluster_time": "2026-03-26T23:00:50.174416+00:00",
       "category": "finance",
       "headline": "Gold price – 26 March 2026",
-      "summary": "Gold (XAU): USD 4,359.70 (▼ -0.67% from last)",
+      "summary": "Gold (XAU): USD 4,412.70 (▲ +0.54% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -48,8 +48,23 @@
       ]
     },
     {
+      "id": "singleton_f2d774f99b43",
+      "cluster_time": "2026-03-26T23:00:49.973158+00:00",
+      "category": "finance",
+      "headline": "MUR exchange rates – 26 March 2026",
+      "summary": "MUR/USD 46.52 | MUR/EUR 53.73 (▲ 0.03 from last) (▲ 0.04 from last)",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "MUR Exchange Rates"
+      ],
+      "urls": [
+        "https://www.floatrates.com/daily/mur.xml"
+      ]
+    },
+    {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-26T20:01:23.502677+00:00",
+      "cluster_time": "2026-03-26T23:00:46.982693+00:00",
       "category": "finance",
       "headline": "SEMDEX – 26 March 2026",
       "summary": "SEMDEX closed at 2239.92 (▲ 16.72 pts, +0.75% from last close 2,223.20)",
@@ -64,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-26T20:01:19.230296+00:00",
+      "cluster_time": "2026-03-26T23:00:42.246965+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 26 March 2026",
       "summary": "NO Heavy Rain Watch for Mauritius|Welcome to Mauritius Meteorological Services Weather news for Mauritius issued at 16h30 on Thursday 26 March 2026.General situation:1. A heavy rain watch remains in force in Mauritius, valid till 20h00 this evening.2. The atmospheric conditions are unstable over our region.Forecast for the next 24 hours:Localised moderate to temporarily heavy showers with thunderstorms are still expected early in the evening.Fog patches will be present in some places.However, the sky will gradually clear up late evening and it will be fair tonight and tomorrow morning..The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Clouds development are expected tomorrow afternoon to the West, the North-West and over the central plateau with localised showers.The showers will be moderate at times and could be accompanied by thunderstorms.Elsewhere, the sky will be partly cloudy.The maximum temperature will be between 26 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius over the coastal regions.Wind light and variable tonight, blowing from the South-East at about 15 km/h tomorrow.Sea moderate beyond the reefs with waves of the order of 2 metres.South westerly swells are expected as from tonight.The public is advised to:1. remain in safe places and avoid open areas, hikings, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roads due to reduced visibility resulting from heavy rains and fog patches.High tides :22h57 and tomorrow 09h40.Low tides :Tomorrow 04h49 and 16h44.Sunset :18h16.Sunrise (tomorrow) :06h16.Atmospheric pressure at 16h00:1014 hectopascals.",
@@ -75,6 +90,205 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "singleton_e9e3665dace2",
+      "cluster_time": "2026-03-26T22:37:20+00:00",
+      "category": "global",
+      "headline": "Mbappe nets for 10-man France in win against Brazil in World Cup warm-up",
+      "summary": "France beat Brazil 2-1 in a friendly in United States, in what was a potential dress rehearsal for World Cup 2026 final.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/3/26/mbappe-nets-for-10-man-france-in-win-against-brazil-in-world-cup-warm-up?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_f2c25c9c911e",
+      "cluster_time": "2026-03-26T22:03:55+00:00",
+      "category": "global",
+      "headline": "Argentina declares Jalisco New Generation Cartel a ‘terrorist’ group",
+      "summary": "President Javier Milei's office said the designation 'strengthens international cooperation' against crime.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/26/argentina-declares-jalisco-new-generation-cartel-a-terrorist-group?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_d7d2bd59eec9",
+      "cluster_time": "2026-03-26T22:03:25+00:00",
+      "category": "global",
+      "headline": "Trump postpones US strikes on Iranian power grid to April 6 amid talks",
+      "summary": "The US president has threatened the attacks as a means of pressuring Iran to reopen Strait of Hormuz, a vital waterway.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/26/trump-postpones-us-strikes-on-iranian-power-grid-to-april-6-amid-talks?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_9b65b1273b65",
+      "cluster_time": "2026-03-26T21:56:40+00:00",
+      "category": "global",
+      "headline": "WTO holds crunch meeting amid growing uncertainty over multilateral system",
+      "summary": "Tariff wars smashed old system, but failure to agree on reforms could see ‘some people writing a new rulebook’.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/26/wto-holds-crunch-meeting-amid-collapsing-multilateral-system?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_eccb91aca8d3",
+      "cluster_time": "2026-03-26T21:44:00+00:00",
+      "category": "regional",
+      "headline": "WTO director-general says world order has changed irrevocably",
+      "summary": "Speaking at the opening of the 14th ministerial conference, Ngozi Okonjo-Iweala said countries must look to the future to consider how to reform the global trade system.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/26/wto-director-general-says-world-order-has-changed-irrevocably/"
+      ]
+    },
+    {
+      "id": "30c595d15a35",
+      "cluster_time": "2026-03-26T21:24:11+00:00",
+      "category": "global",
+      "headline": "South Africa disinvited from G7 in France",
+      "summary": "[France 24] In tonight's edition, South Africa says France rescinded President Cyril Ramaphosa's invitation to the G7 Leaders Summit in June, alleging Paris bent to the demands of the US. Also, Ethiopia steps up its bid to join the World Trade Organization, over 2 decades on since applying for accession.And we take a look at the role of accessible and inclusive cybersecurity.\n\n[Africanews] The presidency says they have been told that the United States threatened to boycott the gathering if South Africa was invited.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.france24.com/en/south-africa-disinvited-from-g7-in-france",
+        "http://www.africanews.com/2026/03/26/south-africa-says-france-has-disinvited-it-from-g7-gathering-in-june/"
+      ]
+    },
+    {
+      "id": "singleton_4ed8951c2d39",
+      "cluster_time": "2026-03-26T21:21:10+00:00",
+      "category": "global",
+      "headline": "At least nine people dead, dozens missing as boat sinks off Djibouti coast",
+      "summary": "Rescue operation recovers 266 survivors as UN warns deadliest season on the route is just beginning.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/26/at-least-nine-people-dead-dozens-missing-as-boat-sinks-off-djibouti-coast?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "f761bab0576e",
+      "cluster_time": "2026-03-26T21:01:32+00:00",
+      "category": "global",
+      "headline": "'Return hubs' for migrants clear EU parliament hurdle",
+      "summary": "[France 24] European lawmakers cleared the way Thursday for tougher penalties for irregular migrants and their potential deportation to so-called \"return hubs\" outside the bloc. The measures, criticised by human rights groups, are part of a tightening of Europe's immigration rules in response to pressure across the 27-nation bloc to curb migration. FRANCE 24's Dave Keating reports.\n\n[Africanews] Lawmakers have approved plans to ease the creation of offshore detention centres and impose tougher penalties on irregular migrants, in a vote that exposed deep divisions over EU migration policy.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.france24.com/en/return-hubs-for-migrants-clear-eu-parliament-hurdle",
+        "http://www.africanews.com/2026/03/26/european-parliament-backs-controversial-migrant-return-hubs/"
+      ]
+    },
+    {
+      "id": "singleton_7bfac50c56a3",
+      "cluster_time": "2026-03-26T20:50:33+00:00",
+      "category": "global",
+      "headline": "Russia's spring offensive in Ukraine expected to focus on 'Fortress Belt' in Donetsk region",
+      "summary": "Russia's spring offensive in Ukraine is expected to focus on the so-called \"Fortress Belt\" ​of heavily defended cities in Ukraine's eastern Donetsk region, which Moscow has repeatedly demanded Kyiv relinquish in return for peace. Speaking on FRANCE 24, retired Vice Admiral of the US Navy Robert B Murrett, says that the region is \"a veritable highway for any army that wanted to conduct operations further into Ukraine and beyond\".",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/russia-s-spring-offensive-in-ukraine-expected-to-focus-on-fortress-belt-in-donetsk-region"
+      ]
+    },
+    {
+      "id": "singleton_bda99e48c526",
+      "cluster_time": "2026-03-26T20:37:52+00:00",
+      "category": "regional",
+      "headline": "Algeria and Spain discuss increasing gas supplies to the European nation",
+      "summary": "The visit by Spain’s top diplomat to Algeria comes as the Iran conflict upends global energy markets.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/26/algeria-and-spain-discuss-increasing-gas-supplies-to-the-european-nation/"
+      ]
+    },
+    {
+      "id": "singleton_077bb137ecbe",
+      "cluster_time": "2026-03-26T20:35:31+00:00",
+      "category": "global",
+      "headline": "Trump again berates NATO for inaction in securing Strait of Hormuz",
+      "summary": "Donald Trump lambasted NATO and other allies for rejecting his appeals to help secure the Strait of Hormuz, through which around a fifth of global crude oil and liquefied natural gas normally passes. \"I'm so disappointed in NATO, because this was a test for NATO\" the US President said during a cabinet meeting on Thursday. FRANCE 24's Carys Garland reports.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/trump-again-berates-nato-for-inaction-in-securing-strait-of-hormuz"
+      ]
+    },
+    {
+      "id": "singleton_187d9c78845f",
+      "cluster_time": "2026-03-26T20:33:07+00:00",
+      "category": "global",
+      "headline": "Spanish woman dies by euthanasia after long legal battle with father",
+      "summary": "The European Court of Human Rights (ECHR) ruled in Noelia Castillo's favour earlier this week.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c7vqdd23y0vo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_23973920f37e",
+      "cluster_time": "2026-03-26T20:10:30+00:00",
+      "category": "global",
+      "headline": "Israel sends more troops into southern Lebanon as ground invasion expands",
+      "summary": "Lebanon's PM warns Israeli actions and statements threaten Lebanese sovereignty and violate international law.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/26/israel-sends-more-troops-into-southern-lebanon-as-ground-invasion-expands?traffic_source=rss"
       ]
     },
     {
@@ -93,18 +307,33 @@
       ]
     },
     {
-      "id": "singleton_187d9c78845f",
-      "cluster_time": "2026-03-26T19:41:52+00:00",
+      "id": "singleton_0f9d0b8b8993",
+      "cluster_time": "2026-03-26T19:56:31+00:00",
       "category": "global",
-      "headline": "Spanish woman dies by euthanasia after long legal battle with father",
-      "summary": "The European Court of Human Rights (ECHR) ruled in Noelia Castillo's favour earlier this week.",
+      "headline": "Dutch court bans xAI’s Grok from generating nonconsensual nude images",
+      "summary": "Court dismissed xAI claim that measures were taken after plaintiff produced video of nude person shortly before hearing.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "BBC News"
+        "Al Jazeera"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/c7vqdd23y0vo?at_medium=RSS&at_campaign=rss"
+        "https://www.aljazeera.com/news/2026/3/26/dutch-court-bans-xais-grok-from-generating-non-consensual-nude-images?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_7bdfd631a869",
+      "cluster_time": "2026-03-26T19:53:04+00:00",
+      "category": "global",
+      "headline": "US judge weighs Trump decision to bar Venezuelan funds for Maduro’s defence",
+      "summary": "Judge Hellerstein declined to dismiss the case against Maduro but questioned US prosecutors about his access to defence.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/26/us-judge-weighs-trump-decision-to-bar-venezuelan-funds-for-maduros-defence?traffic_source=rss"
       ]
     },
     {
@@ -112,7 +341,7 @@
       "cluster_time": "2026-03-26T19:33:37+00:00",
       "category": "global",
       "headline": "Trump insists Iran is ‘begging to make a deal’ after Tehran dismisses ceasefire plan",
-      "summary": "[France 24] A day after Tehran dismissed Donald Trump’s 15-point ceasefire plan, the American leader claimed that Iran was “begging to make a deal,” and that he wasn’t the one pushing for negotiations. Reporting from Tehran for FRANCE 24, Reza Sayah says that Iranian leaders do not consider the exchanges \"legitimate negotiations\" and that they \"are trying to project the message that they're in the driver's seat and will decide how this war ends\".\n\n[Al Jazeera] Trump says US, Israel wiped out navy and air force, as Iran lawmakers plan to collect tolls for transiting ships.",
+      "summary": "[France 24] A day after Tehran dismissed Donald Trump’s 15-point ceasefire plan, the American leader claimed that Iran was “begging to make a deal,” and that he wasn’t the one pushing for negotiations. Reporting from Tehran for FRANCE 24, Reza Sayah says that Iranian leaders do not consider the exchanges \"legitimate negotiations\" and that they \"are trying to project the message that they're in the driver's seat and will decide how this war ends\".\n\n[Al Jazeera] Trump claims US, Israel wiped out navy and air force, as Iran lawmakers plan to collect tolls for transiting ships.",
       "cluster_size": 2,
       "source_count": 2,
       "sources": [
@@ -125,19 +354,17 @@
       ]
     },
     {
-      "id": "c317e760848b",
+      "id": "singleton_d4120df25b13",
       "cluster_time": "2026-03-26T19:30:58+00:00",
-      "category": "global",
-      "headline": "Tehran’s ‘toll booth’: How Iran picks who to let through Strait of Hormuz",
-      "summary": "[Al Jazeera] Iran has blocked the passage of vessels carrying 20 percent of the world’s oil and liquefied natural gas supplies.\n\n[Africanews] About 25 per cent of the world’s oil and liquefied natural gas usually passes through the waterway which is being blocked by Tehran.",
-      "cluster_size": 2,
-      "source_count": 2,
+      "category": "regional",
+      "headline": "Gulf council accuses Iran of charging ships to transit Strait of Hormuz",
+      "summary": "About 25 per cent of the world’s oil and liquefied natural gas usually passes through the waterway which is being blocked by Tehran.",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "Al Jazeera",
         "Africanews"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/3/26/tehranstollbooth-how-iran-picks-who-to-let-through-strait-of-hormuz?traffic_source=rss",
         "http://www.africanews.com/2026/03/26/gulf-council-accuses-iran-of-charging-ships-to-transit-strait-of-hormuz/"
       ]
     },
@@ -177,7 +404,7 @@
       "cluster_time": "2026-03-26T18:49:46+00:00",
       "category": "global",
       "headline": "US prosecutors argue Maduro 'plundered' Venezuelan wealth in court battle over legal fees",
-      "summary": "A judge said the right to defence was paramount as prosecutors argued the couple should not be able to use Venezuelan funds to pay their lawyers.",
+      "summary": "A judge said the right to defence was paramount as prosecutors argued the couple should not be able to use Venezuelan funds to pay lawyers.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -368,6 +595,21 @@
       ]
     },
     {
+      "id": "singleton_f6df62d8c591",
+      "cluster_time": "2026-03-26T17:02:03+00:00",
+      "category": "global",
+      "headline": "Rescuers attempt to save stranded humpback whale off German coast",
+      "summary": "The marine mammal, which is stuck on a sandbank, was first spotted in Lübeck Bay on Monday.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/ce3dn005x7xo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "id": "singleton_273e8d619d84",
       "cluster_time": "2026-03-26T16:47:01+00:00",
       "category": "global",
@@ -400,11 +642,11 @@
       ]
     },
     {
-      "id": "3a72ca1f9a80",
+      "id": "f39baa483aec",
       "cluster_time": "2026-03-26T16:27:43+00:00",
       "category": "global",
       "headline": "Olympic women's sport limited to biological females",
-      "summary": "[BBC News] The women's category of Olympic sports will be limited to biological females from 2028, says the International Olympic Committee.\n\n[France 24] The International Olympic Committee said on Thursday only \"biological females\" will be allowed to compete in women's events, preventing transgender women from competing.\n\n[Al Jazeera] Transgender athletes banned from women's Olympic events by new IOC policy aiming for 'fairness, safety and integrity'.",
+      "summary": "[BBC News] The women's category of Olympic sports will be limited to biological females from 2028, says the International Olympic Committee.\n\n[France 24] The International Olympic Committee (IOC) on Thursday banned transgender women from competing in games, and said only \"biological females\" will be allowed to participate in women's events. The IOC is reintroducing testing for gender to determine eligibility, which will also rule out many athletes with differences in sexual development.\n\n[Al Jazeera] Transgender athletes banned from women's Olympic events by new IOC policy aiming for 'fairness, safety and integrity'.",
       "cluster_size": 3,
       "source_count": 3,
       "sources": [
@@ -414,7 +656,7 @@
       ],
       "urls": [
         "https://www.bbc.com/sport/olympics/articles/cdj7dgvlj0no?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/live-news/20260326-olympic-women-s-sport-to-be-limited-to-biological-females-1",
+        "https://www.france24.com/en/sport/20260326-transgender-women-banned-from-competing-in-olympic-games",
         "https://www.aljazeera.com/sports/2026/3/26/olympics-align-with-trump-as-transgender-athletes-banned-from-womens-games?traffic_source=rss"
       ]
     },
@@ -571,21 +813,6 @@
       ]
     },
     {
-      "id": "singleton_03365a994340",
-      "cluster_time": "2026-03-26T14:48:49+00:00",
-      "category": "regional",
-      "headline": "European Parliament backs controversial migrant ‘Return Hubs’",
-      "summary": "Lawmakers have approved plans to ease the creation of offshore detention centres and impose tougher penalties on irregular migrants, in a vote that exposed deep divisions over EU migration policy.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/26/european-parliament-backs-controversial-migrant-return-hubs/"
-      ]
-    },
-    {
       "id": "singleton_9f85be5f3553",
       "cluster_time": "2026-03-26T14:38:29+00:00",
       "category": "local",
@@ -601,21 +828,19 @@
       ]
     },
     {
-      "id": "f0d77622e2e3",
+      "id": "ca51da3b108b",
       "cluster_time": "2026-03-26T14:35:52+00:00",
       "category": "regional",
       "headline": "Senegal to parade Afcon trophy despite title being stripped",
-      "summary": "[BBC Africa] Senegal's Football Federation boss calls the decision to hand Morocco the Afcon title a \"robbery\" amid plans to parade the trophy before Saturday's friendly against Peru in Paris.\n\n[Al Jazeera] Senegal's lawyers say CAF's decision to hand Morocco the AFCON title 'openly violates the laws of the ‌game'.\n\n[Africanews] Senegal’s Football Association president described the stripping of the team's title by CAF as \"administrative robbery\".",
-      "cluster_size": 3,
-      "source_count": 3,
+      "summary": "[BBC Africa] Senegal's Football Federation boss calls the decision to hand Morocco the Afcon title a \"robbery\" amid plans to parade the trophy before Saturday's friendly against Peru in Paris.\n\n[Africanews] Senegal’s Football Association president described the stripping of the team's title by CAF as \"administrative robbery\".",
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
         "BBC Africa",
-        "Al Jazeera",
         "Africanews"
       ],
       "urls": [
         "https://www.bbc.com/sport/football/articles/c070kg5rn0ko?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/sports/2026/3/26/senegal-pledges-to-fight-robbery-after-caf-strips-it-of-afcon-title?traffic_source=rss",
         "http://www.africanews.com/2026/03/26/worlds-top-sporting-tribunal-confirms-senegal-has-lodged-afcon-appeal/"
       ]
     },
@@ -632,21 +857,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cj408984v2xo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_c0d88a8a432a",
-      "cluster_time": "2026-03-26T14:28:36+00:00",
-      "category": "regional",
-      "headline": "South Africa says France has disinvited it from G7 gathering in June",
-      "summary": "The presidency says they have been told that the United States threatened to boycott the gathering if South Africa was invited.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/26/south-africa-says-france-has-disinvited-it-from-g7-gathering-in-june/"
       ]
     },
     {
@@ -755,21 +965,6 @@
       ]
     },
     {
-      "id": "singleton_14ae51ab7d4f",
-      "cluster_time": "2026-03-26T13:34:37+00:00",
-      "category": "global",
-      "headline": "Russian officials meet US counterparts as Moscow denies aiding Iran",
-      "summary": "Kremlin spokesperson says talks are part of '​necessary dialogue' with Washington as war in Ukraine continues.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/26/russian-officials-meet-us-counterparts-as-moscow-denies-aiding-iran?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_a9bd51bf271f",
       "cluster_time": "2026-03-26T13:34:13+00:00",
       "category": "local",
@@ -829,21 +1024,6 @@
       "urls": [
         "https://www.bbc.com/news/articles/clyxe6n297ro?at_medium=RSS&at_campaign=rss",
         "http://www.africanews.com/2026/03/26/toumba-diakite-perpetrator-of-infamous-2009-massacre-in-guinea-has-died/"
-      ]
-    },
-    {
-      "id": "singleton_b43897ee0145",
-      "cluster_time": "2026-03-26T13:07:13+00:00",
-      "category": "global",
-      "headline": "‘My phone is a brick’: Russians scramble for information as data blocked",
-      "summary": "As Ukrainian drones rain down, authorities have implemented blackouts citing ‘security concerns’.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/features/2026/3/26/my-phone-is-a-brick-russians-scramble-for-information-as-data-blocked?traffic_source=rss"
       ]
     },
     {
@@ -922,21 +1102,6 @@
       ]
     },
     {
-      "id": "singleton_5e82cf34d813",
-      "cluster_time": "2026-03-26T12:26:23+00:00",
-      "category": "global",
-      "headline": "As a Palestinian, I stand in solidarity with the Iranian people. Here’s why",
-      "summary": "History teaches us that the West's promises of caring for our 'freedoms' are empty because imperialism wants control.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/3/26/as-a-palestinian-i-stand-in-solidarity-with-the-iranian-people-heres-why?traffic_source=rss"
-      ]
-    },
-    {
       "id": "fb6feacc1476",
       "cluster_time": "2026-03-26T12:23:00+00:00",
       "category": "local",
@@ -954,21 +1119,6 @@
       ]
     },
     {
-      "id": "singleton_93399e63cc22",
-      "cluster_time": "2026-03-26T12:12:55+00:00",
-      "category": "global",
-      "headline": "North Korea’s Kim meets Lukashenko, slams ‘pressure ​on Belarus from West’",
-      "summary": "Putin's allies mark a 'fundamentally new ‌stage' in relations with a friendship treaty during Pyongyang meeting.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/26/north-koreas-kim-meets-lukashenko-slams-pressure-on-belarus-from-west?traffic_source=rss"
-      ]
-    },
-    {
       "id": "77404cba4e8e",
       "cluster_time": "2026-03-26T12:05:00+00:00",
       "category": "local",
@@ -983,21 +1133,6 @@
       "urls": [
         "https://live.mega.mu/redirect/253067/",
         "https://defimedia.info/bassin-blanc-154-plants-de-cannabis-dune-valeur-de-rs-770-000-deracines"
-      ]
-    },
-    {
-      "id": "singleton_6734923bd4d0",
-      "cluster_time": "2026-03-26T11:59:01+00:00",
-      "category": "global",
-      "headline": "Jury finds Meta, YouTube liable for social media addiction: What we know",
-      "summary": "Jury recommends Google and Meta pay $6m damages in landmark social media addiction lawsuit.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/26/jury-finds-meta-youtube-liable-for-social-media-addiction-what-we-know?traffic_source=rss"
       ]
     },
     {
@@ -2390,38 +2525,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cn08x9lw0pzo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_7fa836f28585",
-      "cluster_time": "2026-03-25T21:07:42+00:00",
-      "category": "regional",
-      "headline": "Congolese rapper, Gims, arrested in Paris over alleged money laundering",
-      "summary": "Africa Intelligence is reporting that the singer, whose real name is Gandhi Djuna, was taken into custody at Roissy-Charles de Gaulle airport",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/25/congolese-rapper-gims-arrested-in-paris-over-alleged-money-laundering/"
-      ]
-    },
-    {
-      "id": "9051bd067a61",
-      "cluster_time": "2026-03-25T20:17:20+00:00",
-      "category": "regional",
-      "headline": "UN votes to recognise enslavement of Africans as 'gravest crime against humanity'",
-      "summary": "[BBC Africa] The landmark resolution calls for an apology and contributions to a reparations fund, without specifying an amount.\n\n[Africanews] The landmark resolution was an historic victory for Ghana which tabled the motion earlier this month.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC Africa",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cvg06q36052o?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/03/25/un-declares-transatlantic-slave-trade-a-crime-against-humanity-demands-reparations/"
       ]
     }
   ]
