@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 177,
+  "item_count": 176,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-27T19:54:46.775840+00:00",
+      "cluster_time": "2026-03-27T23:07:21.002590+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 27 March 2026",
-      "summary": "Brent Crude Oil: USD 114.11 per barrel",
+      "summary": "Brent Crude Oil: USD 112.57 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -18,41 +18,11 @@
       ]
     },
     {
-      "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-27T19:54:46.580116+00:00",
-      "category": "finance",
-      "headline": "Bitcoin price – 27 March 2026",
-      "summary": "Bitcoin (BTC): USD 65,913.64 (▼ -6.38% from last)",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Bitcoin Price"
-      ],
-      "urls": [
-        "https://api.gold-api.com/price/BTC"
-      ]
-    },
-    {
-      "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-27T19:54:46.257797+00:00",
-      "category": "finance",
-      "headline": "Gold price – 27 March 2026",
-      "summary": "Gold (XAU): USD 4,516.40 (▲ +2.90% from last)",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Gold Price"
-      ],
-      "urls": [
-        "https://api.gold-api.com/price/XAU"
-      ]
-    },
-    {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-03-27T19:54:45.798723+00:00",
+      "cluster_time": "2026-03-27T23:07:20.433940+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 27 March 2026",
-      "summary": "MUR/USD 46.68 | MUR/EUR 53.80 (▲ 0.19 from last) (▲ 0.11 from last)",
+      "summary": "MUR/USD 46.68 | MUR/EUR 53.79 (▲ 0.19 from last) (▲ 0.10 from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -64,7 +34,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-27T19:54:43.366750+00:00",
+      "cluster_time": "2026-03-27T23:07:18.033870+00:00",
       "category": "finance",
       "headline": "SEMDEX – 27 March 2026",
       "summary": "SEMDEX closed at 2228.32 (▲ 5.12 pts, +0.23% from last close 2,223.20)",
@@ -79,7 +49,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-27T19:54:38.828520+00:00",
+      "cluster_time": "2026-03-27T23:07:13.486442+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 27 March 2026",
       "summary": "Weather news for Mauritius issued at 16h30 on Friday 27 March 2026.General situation:A light, warm and unstable airstream is flowing over the region.Forecast for the next 24 hours:Localised showers, moderate at times, will persist during the evening to the northwest and over the highgrounds.The weather will be fair afterwards tonight and tomorrow morning.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.The sky will become gradually cloudy in the afternoon with localised showers.These showers will be moderate at times to the West, the North-West and over the central plateau and may be accompanied by isolated thunderstorms.The maximum temperature will be between 26 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius over the coastal regions.Wind blowing from the South-East at about 15 km/h, becoming variable during the night.Sea moderate beyond the reefs with South-Westerly swells of the order of 2 metres.Pratical advice:In case of thunderstorms, the public is advised to remain in safe places and avoid open areas, hiking and sheltering under treesHigh tides :23h31 and tomorrow 10h38.Low tides :Tomorrow 05h22 and 17h26.Sunset :18h15.Sunrise (tomorrow) :06h16.Atmospheric pressure at 16h00:1013 hectopascals.",
@@ -90,6 +60,254 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "singleton_c9c2af057bb0",
+      "cluster_time": "2026-03-27T22:53:23+00:00",
+      "category": "global",
+      "headline": "Houthis warn ‘fingers on the trigger’ as US-Israeli war on Iran continues",
+      "summary": "The Iran-aligned Yemeni group have the ability to target key shipping lanes around the Arabian Peninsula.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/27/houthis-warn-fingers-on-the-trigger-as-us-israeli-war-on-iran-continues?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "6fe30e521e1a",
+      "cluster_time": "2026-03-27T22:17:04+00:00",
+      "category": "global",
+      "headline": "Tiger Woods charged with driving under influence after crash",
+      "summary": "[BBC News] Tiger Woods is charged with driving under the influence after rolling his car in a crash in Florida, police confirm.\n\n[Al Jazeera] Tiger Woods showed signs of impairment and was arrested at the scene of car crash in which he struck another vehicle.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/sport/golf/articles/cvg092kege7o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/sports/2026/3/27/tiger-woods-charged-with-dui-after-rollover-crash-in-florida?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_64e024f63fd0",
+      "cluster_time": "2026-03-27T22:09:55+00:00",
+      "category": "global",
+      "headline": "Oyarzabal double seals Spain win against Serbia in World Cup warm-up",
+      "summary": "Spain enjoy a comfortable night as Mikel Oyarzabal scores twice in 3-0 win against Serbia in warm-up for World Cup 2026.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/3/27/oyarzabal-double-seals-spain-win-against-serbia-in-world-cup-warm-up?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_d0db1719418d",
+      "cluster_time": "2026-03-27T22:06:38+00:00",
+      "category": "global",
+      "headline": "What is the TACO trade and are investors profiting amid war on Iran?",
+      "summary": "Global energy crisis continues to widen amid market volatility, while so-called 'TACO traders' attempt to capitalise.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/27/what-is-the-taco-trade-and-are-investors-profiting-amid-war-on-iran?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_e6341b8746e7",
+      "cluster_time": "2026-03-27T22:05:42+00:00",
+      "category": "global",
+      "headline": "I escaped North Korea with my mum. Now I'm terrified she might be sent back",
+      "summary": "Geumseong made it safely to South Korea, but his mother is stuck in a Chinese prison and may be forcibly repatriated.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c239n93ejm8o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_f7600b04904e",
+      "cluster_time": "2026-03-27T22:03:34+00:00",
+      "category": "global",
+      "headline": "Man arrested over plot to firebomb pro-Palestinian activist's NY home",
+      "summary": "Agents found eight Molotov cocktails in the man's Hoboken home, according to court documents.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c4g69q6r32do?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "b5d9e45b7453",
+      "cluster_time": "2026-03-27T21:55:20+00:00",
+      "category": "global",
+      "headline": "Rubio says US expects to finish Iran war 'in next couple of weeks'",
+      "summary": "[BBC News] Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.\n\n[France 24] US Secretary of State Marco Rubio said Friday that Washington expects its military operation against Iran to wrap up within weeks without the need for ground troops. This comes as G7 nations adopted a declaration on Iran calling for an immediate halt to attacks against civilian populations and infrastructure.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/europe/20260327-rubio-says-iran-war-to-last-weeks-no-us-ground-troops-needed"
+      ]
+    },
+    {
+      "id": "d45e7185bfa1",
+      "cluster_time": "2026-03-27T21:43:31+00:00",
+      "category": "global",
+      "headline": "Egypt imposes business curfew to counter soaring fuel costs",
+      "summary": "[France 24] In tonight's edition, Egypt orders shops, restaurants and shopping malls to shut their doors from 9:00 pm Saturday as it hopes to cushion the blow of energy prices that have more than doubled because of the Iran war. Also, rising jihadist violence in the Sahel is hitting tourism in Benin. And Somali women defy Al-Shabaab threats and conservative norms to play football.\n\n[Africanews] Egypt has ordered shops, restaurants and shopping malls to close from 9:00 pm from Saturday, hoping to curb energy bills that have more than doubled because of the Iran war",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.france24.com/en/egypt-imposes-business-curfew-to-counter-soaring-fuel-costs",
+        "http://www.africanews.com/2026/03/27/curfews-evs-and-ethanol-how-african-countries-are-trying-to-save-fuel/"
+      ]
+    },
+    {
+      "id": "singleton_666f58ba306d",
+      "cluster_time": "2026-03-27T21:36:07+00:00",
+      "category": "regional",
+      "headline": "Rival presidential candidates on campaign trail in Benin",
+      "summary": "Incumbent finance minister Romuald Wadagni is a strong favourite to win against opposition candidate, Paul Hounkpé.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/27/rival-presidential-candidates-on-campaign-trail-in-benin/"
+      ]
+    },
+    {
+      "id": "singleton_46865ab9bb13",
+      "cluster_time": "2026-03-27T21:30:12+00:00",
+      "category": "global",
+      "headline": "'My daughter is under the rubble': Inside Tehran as civilian toll of strikes rises",
+      "summary": "One month since the US and Israel launched strikes on Iran, Tehran residents tell the BBC their lives have been devastated.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cn0w1qxzd4xo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_ad4ae72a588e",
+      "cluster_time": "2026-03-27T21:22:49+00:00",
+      "category": "global",
+      "headline": "Guns in the streets as US, Israel intensify month-long attacks across Iran",
+      "summary": "A senior IRGC official in Tehran told state television that children over 12 can join armed patrols and checkpoints.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/27/guns-in-the-streets-as-us-israel-intensify-month-long-attacks-across?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "bef798a84616",
+      "cluster_time": "2026-03-27T20:51:09+00:00",
+      "category": "global",
+      "headline": "Two Cuba-bound aid ships missing after leaving Mexico",
+      "summary": "[BBC News] Mexico's navy launches a rescue mission for ships delivering aid to Cuba, strained by food and fuel shortages amid a US embargo.\n\n[Al Jazeera] The Nuestra America Convoy said that the sailboats were led by 'experienced sailors' with access to safety equipment.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cp84kw1y337o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/3/27/mexicos-navy-searches-for-two-missing-boats-involved-in-cuba-aid-convoy?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_9d7ae20ddf35",
+      "cluster_time": "2026-03-27T20:43:37+00:00",
+      "category": "global",
+      "headline": "Israel launches strikes on nuclear sites as Iran warns of retaliation",
+      "summary": "Uranium facility, steel plants and heavy water complex among targets hit as IRGC warns of escalation.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/27/israel-launches-strikes-on-iran-nuclear-sites-as-war-enters-fifth-week?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_e520ceb453ae",
+      "cluster_time": "2026-03-27T20:23:07+00:00",
+      "category": "global",
+      "headline": "Pope Leo XIV makes historic visit to glitzy Monaco",
+      "summary": "Pope Leo XIV will travel on Saturday to the principality of Monaco, becoming the first pontiff in almost five centuries to visit the Mediterranean enclave, in a trip the Vatican says will underscore the global influence of small states.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/europe/20260327-pope-leo-xiv-makes-historic-visit-to-glitzy-monaco"
+      ]
+    },
+    {
+      "id": "singleton_b6c2560e73d1",
+      "cluster_time": "2026-03-27T20:13:10+00:00",
+      "category": "regional",
+      "headline": "Tanzania landslides kill 20 as heavy rains hit East Africa",
+      "summary": "At least 20 people have been killed in landslides in southern Tanzania after days of intense rainfall, as extreme weather continues to batter parts of East Africa.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/27/tanzania-landslides-kill-20-as-heavy-rains-hit-east-africa/"
+      ]
+    },
+    {
+      "id": "singleton_2e19a11b818b",
+      "cluster_time": "2026-03-27T20:10:31+00:00",
+      "category": "global",
+      "headline": "House Republicans shoot down bill that would pay federal airport workers",
+      "summary": "White House memo says Trump has instructed DHS to pay federal airport workers as long lines snarl travel.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/27/house-republicans-shoot-down-bill-that-would-pay-federal-airport-workers?traffic_source=rss"
       ]
     },
     {
@@ -112,7 +330,7 @@
       "cluster_time": "2026-03-27T19:33:21+00:00",
       "category": "global",
       "headline": "'New phenomenon of dangerous rhetoric': World leaders embrace proud disregard for international law",
-      "summary": "Gavin Lee is pleased to welcome Philippe Bolopion. Executive Director of Human Rights Watch. He describes a profound and accelerating shift in the conduct of war, marked not merely by violations of international humanitarian law, but by an unprecedented openness in asserting, even embracing, such violations. What distinguishes this moment is not the erosion of norms alone, but the rhetorical normalisation of their abandoning any respect for civilians and international law.",
+      "summary": "Gavin Lee is pleased to welcome Philippe Bolopion. Executive Director of Human Rights Watch. He describes a seismic shift in the conduct of war, marked not merely by violations of international humanitarian law, but by an unprecedented openness in asserting, even embracing, such violations. What distinguishes this moment is not the erosion of norms alone, but the normalisation of dismissing international law and lacking empathy for civilians' suffering.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -141,7 +359,7 @@
       "id": "singleton_aeb4d0f78e08",
       "cluster_time": "2026-03-27T19:31:57+00:00",
       "category": "global",
-      "headline": "Trump orders paychecks for TSA workers as Congress stalls and airport chaos grinds on",
+      "headline": "Trump orders paycheques for TSA workers as Congress stalls and airport chaos grinds on",
       "summary": "The late-night vote was a step towards bringing the 40-day partial shutdown - and long security lines at US airports - to an end.",
       "cluster_size": 1,
       "source_count": 1,
@@ -157,7 +375,7 @@
       "cluster_time": "2026-03-27T19:21:19+00:00",
       "category": "global",
       "headline": "Iran-backed hackers breach FBI director Kash Patel's personal emails",
-      "summary": "A hacker group shares Patel's purported resume and photos of him on its website, information, the FBI says, is \"historical in nature\".",
+      "summary": "A hacker group shares Patel's purported resume and photos - information, the FBI says, is \"historical in nature\".",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -225,21 +443,6 @@
       ],
       "urls": [
         "https://defimedia.info/rajesh-bhagwan-so-bann-nouvo-kamarad-pou-sirmann-ar-li-deerpalsingh-gayan-collendaveloo-bhadain"
-      ]
-    },
-    {
-      "id": "singleton_3d2dc81e76b3",
-      "cluster_time": "2026-03-27T18:41:02+00:00",
-      "category": "global",
-      "headline": "Rubio says US expects to finish Iran war 'in next couple of weeks'",
-      "summary": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -379,35 +582,18 @@
       ]
     },
     {
-      "id": "singleton_c5d5241ad63d",
-      "cluster_time": "2026-03-27T18:04:02+00:00",
+      "id": "singleton_ea12b820d988",
+      "cluster_time": "2026-03-27T17:21:42+00:00",
       "category": "global",
-      "headline": "Two Cuba-bound aid ships missing after leaving Mexico",
-      "summary": "Mexico's navy launches a rescue mission for ships delivering aid to Cuba, strained by food and fuel shortages amid a US embargo.",
+      "headline": "Austria becomes latest to propose social media ban for children",
+      "summary": "The proposed under-14 ban follows similar steps in other European countries, including France and Spain.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cp84kw1y337o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "f47426136ea5",
-      "cluster_time": "2026-03-27T17:21:42+00:00",
-      "category": "global",
-      "headline": "Austria becomes latest to propose social media ban for children",
-      "summary": "[BBC News] The proposed under-14 ban follows similar steps in other European countries, including France and Spain.\n\n[Al Jazeera] Austrian officials highlight addiction and ill-health while advocating for stricter age restrictions.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cwyv70de9exo?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/3/27/austria-plans-social-media-ban-for-children-under-age-14?traffic_source=rss"
+        "https://www.bbc.com/news/articles/cwyv70de9exo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -625,36 +811,6 @@
       ]
     },
     {
-      "id": "singleton_24ff86b9f1bc",
-      "cluster_time": "2026-03-27T15:53:36+00:00",
-      "category": "regional",
-      "headline": "Curfews, EVs and ethanol: How African countries are trying to save fuel",
-      "summary": "Egypt has ordered shops, restaurants and shopping malls to close from 9:00 pm from Saturday, hoping to curb energy bills that have more than doubled because of the Iran war",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/27/curfews-evs-and-ethanol-how-african-countries-are-trying-to-save-fuel/"
-      ]
-    },
-    {
-      "id": "singleton_ab6ca76b7fbf",
-      "cluster_time": "2026-03-27T15:51:46+00:00",
-      "category": "global",
-      "headline": "Meet the children left without parents under El Salvador’s emergency decree",
-      "summary": "As El Salvador's state of emergency turns four years old, families warn of the toll of the mass arrests on children.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/longform/2026/3/27/meet-the-children-left-without-parents-under-el-salvadors-emergency-decree?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_747184f81e18",
       "cluster_time": "2026-03-27T15:41:56+00:00",
       "category": "local",
@@ -730,21 +886,6 @@
       ]
     },
     {
-      "id": "singleton_f66a809e18ee",
-      "cluster_time": "2026-03-27T15:11:46+00:00",
-      "category": "global",
-      "headline": "Lebanon faces ‘humanitarian catastrophe’ under Israeli assault: UN",
-      "summary": "Displaced Lebanese families 'living in constant fear' under Israeli bombardment, warns UN Refugee Agency official.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/27/lebanon-faces-humanitarian-catastrophe-under-israeli-assault-un?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_684195a2e1b6",
       "cluster_time": "2026-03-27T15:11:32+00:00",
       "category": "global",
@@ -757,21 +898,6 @@
       ],
       "urls": [
         "https://www.france24.com/en/us-israeli-war-goals-not-realistic-regime-change-in-iran-can-t-be-achieved-by-airstrikes"
-      ]
-    },
-    {
-      "id": "singleton_b6c2560e73d1",
-      "cluster_time": "2026-03-27T15:10:56+00:00",
-      "category": "regional",
-      "headline": "Tanzania landslides kill 20 as heavy rains hit East Africa",
-      "summary": "At least 20 people have been killed in landslides in southern Tanzania after days of intense rainfall, as extreme weather continues to batter parts of East Africa.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/27/tanzania-landslides-kill-20-as-heavy-rains-hit-east-africa/"
       ]
     },
     {
@@ -913,51 +1039,6 @@
       ]
     },
     {
-      "id": "singleton_90b10e28cb07",
-      "cluster_time": "2026-03-27T14:38:27+00:00",
-      "category": "global",
-      "headline": "Nixon to Trump: Pakistan’s long record as backchannel between rival powers",
-      "summary": "Islamabad reprises its role as diplomatic broker as US and Iran edge closer to wider confrontation.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/27/nixon-to-trump-pakistans-long-record-as-backchannel-between-rival-powers?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_de498e277eb8",
-      "cluster_time": "2026-03-27T14:31:18+00:00",
-      "category": "global",
-      "headline": "Norway to add more than $11bn to defence budget over 10 years",
-      "summary": "Norway, as well as other NATO countries, has been under pressure from the US to boost defence spending.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/27/norway-to-add-more-than-11bn-to-defence-budget-over-10-years?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_d6a750860f9b",
-      "cluster_time": "2026-03-27T14:22:59+00:00",
-      "category": "global",
-      "headline": "‘Raising 10 red flags’: Is Israel’s army exhausted?",
-      "summary": "After years of regional forever wars, Israel's chief of staff warns the army is on the brink of collapse.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/features/2026/3/27/raising-10-red-flags-is-israels-army-exhausted?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_f1fcf6be4893",
       "cluster_time": "2026-03-27T14:22:25+00:00",
       "category": "global",
@@ -1033,35 +1114,18 @@
       ]
     },
     {
-      "id": "4354ad750062",
+      "id": "singleton_86f9806940fa",
       "cluster_time": "2026-03-27T13:36:23+00:00",
-      "category": "global",
-      "headline": "France calls IOC sex testing a ‘step backwards’ while Trump praises move",
-      "summary": "[Al Jazeera] Transgender women athletes now excluded from female events at the Olympics after IOC agrees new eligibility policy.\n\n[Africanews] Transgender women athletes are now excluded from women's events at the Olympics after the IOC agreed to a new eligibility policy on Thursday which aligns with U.S. President Donald Trump’s executive order on sports ahead of the 2028 Los Angeles Games",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/3/27/france-calls-ioc-sex-testing-a-step-backwards-while-trump-praises-move?traffic_source=rss",
-        "http://www.africanews.com/2026/03/27/transgender-women-athletes-banned-from-female-olympic-events/"
-      ]
-    },
-    {
-      "id": "singleton_382a591744f4",
-      "cluster_time": "2026-03-27T13:27:26+00:00",
-      "category": "global",
-      "headline": "Saudi, UAE, Iraq: Can three pipelines help oil escape Strait of Hormuz?",
-      "summary": "Countries in the Middle East have ramped up oil exports via pipeline to bridge the Strait of Hormuz gap.",
+      "category": "regional",
+      "headline": "Transgender women athletes banned from female Olympic events",
+      "summary": "Transgender women athletes are now excluded from women's events at the Olympics after the IOC agreed to a new eligibility policy on Thursday which aligns with U.S. President Donald Trump’s executive order on sports ahead of the 2028 Los Angeles Games",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Al Jazeera"
+        "Africanews"
       ],
       "urls": [
-        "https://www.aljazeera.com/economy/2026/3/27/saudi-uae-iraq-can-three-pipelines-help-oil-escape-strait-of-hormuz?traffic_source=rss"
+        "http://www.africanews.com/2026/03/27/transgender-women-athletes-banned-from-female-olympic-events/"
       ]
     },
     {
@@ -1123,21 +1187,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c2evg2m3ye2o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_cd6839ffd458",
-      "cluster_time": "2026-03-27T13:15:36+00:00",
-      "category": "global",
-      "headline": "Qatari PM and US officials discuss strategic ties amid Iran war",
-      "summary": "The meeting reviewed the 'close strategic cooperation' between Doha and Washington, Qatar's foreign ministry said.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/27/qatari-pm-and-us-officials-discuss-strategic-ties-amid-iran-war?traffic_source=rss"
       ]
     },
     {
@@ -1260,21 +1309,6 @@
       ],
       "urls": [
         "https://defimedia.info/pension-de-vieillesse-les-anciennes-cartes-restent-valides-en-attendant-leur-renouvellement-en-mai"
-      ]
-    },
-    {
-      "id": "singleton_a5e7a49c90d1",
-      "cluster_time": "2026-03-27T12:25:11+00:00",
-      "category": "global",
-      "headline": "Ukraine announces ‘mutually beneficial’ defence deal with Saudi Arabia",
-      "summary": "Kyiv, which has built expertise on how to counter drones, seals pact amid Iran war.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/27/ukraine-announces-defense-pact-with-saudi-arabia?traffic_source=rss"
       ]
     },
     {
@@ -1507,21 +1541,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/27/kenya-bodies-in-mass-graves-came-from-hospital-morgue-police-finds/"
-      ]
-    },
-    {
-      "id": "singleton_46865ab9bb13",
-      "cluster_time": "2026-03-27T09:30:52+00:00",
-      "category": "global",
-      "headline": "'My daughter is under the rubble': Inside Tehran as civilian toll of strikes rises",
-      "summary": "One month since the US and Israel launched strikes on Iran, Tehran residents tell the BBC their lives have been devastated.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cn0w1qxzd4xo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -2651,36 +2670,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c3w384px52no?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_eccb91aca8d3",
-      "cluster_time": "2026-03-26T21:44:00+00:00",
-      "category": "regional",
-      "headline": "WTO director-general says world order has changed irrevocably",
-      "summary": "Speaking at the opening of the 14th ministerial conference, Ngozi Okonjo-Iweala said countries must look to the future to consider how to reform the global trade system.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/26/wto-director-general-says-world-order-has-changed-irrevocably/"
-      ]
-    },
-    {
-      "id": "singleton_bda99e48c526",
-      "cluster_time": "2026-03-26T20:37:52+00:00",
-      "category": "regional",
-      "headline": "Algeria and Spain discuss increasing gas supplies to the European nation",
-      "summary": "The visit by Spain’s top diplomat to Algeria comes as the Iran conflict upends global energy markets.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/26/algeria-and-spain-discuss-increasing-gas-supplies-to-the-european-nation/"
       ]
     }
   ]
