@@ -1,10 +1,10 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 150,
+  "item_count": 145,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-28T19:47:35.065711+00:00",
+      "cluster_time": "2026-03-28T23:02:36.586478+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 28 March 2026",
       "summary": "Brent Crude Oil: USD 112.57 per barrel",
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-28T19:47:34.855296+00:00",
+      "cluster_time": "2026-03-28T23:02:36.353540+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 28 March 2026",
-      "summary": "Bitcoin (BTC): USD 66,828.27 (▼ -5.08% from last)",
+      "summary": "Bitcoin (BTC): USD 66,690.13 (▼ -5.28% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-28T19:47:34.421623+00:00",
+      "cluster_time": "2026-03-28T23:02:35.919668+00:00",
       "category": "finance",
       "headline": "Gold price – 28 March 2026",
       "summary": "Gold (XAU): USD 4,495.00 (▲ +2.41% from last)",
@@ -49,7 +49,7 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-03-28T19:47:33.695159+00:00",
+      "cluster_time": "2026-03-28T23:02:35.490193+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 28 March 2026",
       "summary": "MUR/USD 46.68 | MUR/EUR 53.79 (▲ 0.19 from last) (▲ 0.10 from last)",
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-28T19:47:31.352405+00:00",
+      "cluster_time": "2026-03-28T23:02:32.582906+00:00",
       "category": "finance",
       "headline": "SEMDEX – 28 March 2026",
       "summary": "SEMDEX closed at 2228.32 (▲ 5.12 pts, +0.23% from last close 2,223.20)",
@@ -79,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-28T19:47:26.942898+00:00",
+      "cluster_time": "2026-03-28T23:02:28.227938+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 28 March 2026",
       "summary": "Termination Bulletin for Heavy Rain Warning . Weather news for Mauritius issued at 16h30 on Saturday 28 March 2026.General situation:1. A heavy rain warning is in force in Mauritius, valid till 20h00 this evening.2. The atmospheric conditions remain unstable over our region.Forecast for the next 24 hours:Moderate to heavy localised showers with thunderstorms are still likely in the early evening mainly over the Western part of the island.Partly cloudy afterwards becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Clouds development are expected tomorrow afternoon to the West, to the South West and over the Central plateau with showers, temporarily moderate and accompanied with thunderstorms.These showers may spread to the other sectors during the afternoon.The maximum temperature will be between 26 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius over the coastal regions.Wind light and variable tonight, blowing from the East Northeast at about 15km/h tomorrow.Sea moderate beyond the reefs with South-Westerly swells of the order of 2 metres.The public is advised to:1. remain in safe places and avoid open areas, hiking, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roads due to reduced visibility resulting from heavy rains and fog patches.High tides :Tomorrow 00h00 and 11h16.Low tides :17h26 and tomorrow 05h52.Sunset :18h14.Sunrise (tomorrow) :06h16.Atmospheric pressure at 16h00:1010 hectopascals.",
@@ -93,18 +93,156 @@
       ]
     },
     {
-      "id": "ae93cb5c1ebd",
-      "cluster_time": "2026-03-28T19:08:30+00:00",
+      "id": "33365b808f04",
+      "cluster_time": "2026-03-28T22:48:02+00:00",
       "category": "global",
-      "headline": "Iran-backed Houthis join war with attack against Israel",
-      "summary": "[BBC News] There are fears the Iranian proxy may attack shipping in the Red Sea, adding to global economic woes.\n\n[BBC News] The Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.",
+      "headline": "No Kings protests across the US rally against Donald Trump",
+      "summary": "[BBC News] One of the flagship No Kings rallies happened in Minnesota, where singer Bruce Springsteen preformed to crowds.\n\n[Africanews] Hundreds rally in Paris’ Place de la Bastille for a “No Kings” protest against Donald Trump, denouncing authoritarianism and “endless wars”.",
       "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/03/28/france-hosts-no-kings-march-as-anti-trump-protests-spread/"
+      ]
+    },
+    {
+      "id": "singleton_381632acc424",
+      "cluster_time": "2026-03-28T22:32:05+00:00",
+      "category": "global",
+      "headline": "Air strikes in Iraq kill three PMF fighters, two police",
+      "summary": "Iraq turning into 'expanding battleground' in war, which began on February 28 with US-Israeli strikes on Iran.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/28/air-strikes-in-iraq-kill-three-pmf-fighters-and-two-iraqi-police?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_eaa108cb4537",
+      "cluster_time": "2026-03-28T22:05:31+00:00",
+      "category": "global",
+      "headline": "Reza Pahlavi pledges to ‘make Iran great again’ at 2026 CPAC conference",
+      "summary": "Iranian opposition leader calls on Trump administration to 'stay the course' as the US and Israel wage war on Iran.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/28/reza-pahlavi-pledges-to-make-iran-great-again-at-2026-cpac-conference?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_801f4954a0c1",
+      "cluster_time": "2026-03-28T21:56:30+00:00",
+      "category": "global",
+      "headline": "Pakistan secures Iran deal to send 20 ships through Strait of Hormuz",
+      "summary": "Islamabad's diplomatic push bears fruit as the world watches for signs of a broader breakthrough.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/28/pakistan-secures-iran-deal-to-send-20-ships-through-strait-of-hormuz?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "9cb251c55e12",
+      "cluster_time": "2026-03-28T21:50:40+00:00",
+      "category": "global",
+      "headline": "Three Lebanese journalists killed in Israeli strike, say broadcasters",
+      "summary": "[BBC News] The Israeli military confirms it killed Ali Shoeib from the Hezbollah-affiliated Al Manar TV.\n\n[Al Jazeera] Israeli attack on clearly marked press car kills reporters as WHO laments deadly day for paramedics.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgme1j70294o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/3/28/three-journalists-killed-in-israeli-strike-on-marked-press-car-in-lebanon?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_77c06940dfd4",
+      "cluster_time": "2026-03-28T21:46:12+00:00",
+      "category": "global",
+      "headline": "Yemen’s Houthis launch ballistic missile at Israel as Middle East conflict escalates",
+      "summary": "Yemen’s Houthi rebels fired a ballistic missile towards Israel on Saturday, marking their entry into the intensifying Middle East war. The move comes amid rising regional tensions, US-Israeli airstrikes on Iran, and disruptions to Red Sea shipping that threaten global trade and energy markets.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/middle-east/20260328-yemen-s-houthis-launch-ballistic-missile-at-israel-as-middle-east-conflict-escalates"
+      ]
+    },
+    {
+      "id": "singleton_88ba9ff338ce",
+      "cluster_time": "2026-03-28T21:04:30+00:00",
+      "category": "global",
+      "headline": "Frosting, sprinkles and layers of fun: Giant cake picnic hits Sydney",
+      "summary": "Hundreds of bakers head to Sydney's Botanic Gardens to share and savour their colourful creations.",
+      "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cd6l5n8jv4yo?at_medium=RSS&at_campaign=rss",
+        "https://www.bbc.com/news/articles/c1w40dy58vwo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_c37fe622dde9",
+      "cluster_time": "2026-03-28T20:09:35+00:00",
+      "category": "global",
+      "headline": "Palestine Action supporters arrested as London’s Met Police reverse policy",
+      "summary": "Arrests come days after force announced U-turn, saying that despite High Court ruling, 'terror' ban remains in place.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/28/palestine-action-supporters-arrested-as-londons-met-police-reverse-policy?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_2eeb78145bd4",
+      "cluster_time": "2026-03-28T19:41:17+00:00",
+      "category": "global",
+      "headline": "Two Cuba-bound aid ships found days after disappearing",
+      "summary": "The crew are safe and will complete their mission, a spokesman for the organisers said.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/clye4w10g22o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_93af5864a834",
+      "cluster_time": "2026-03-28T19:08:30+00:00",
+      "category": "global",
+      "headline": "Potential Houthi threat to Red Sea shipping could further damage global economy",
+      "summary": "The Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
         "https://www.bbc.com/news/articles/cwyvd5z1xjno?at_medium=RSS&at_campaign=rss"
       ]
     },
@@ -121,23 +259,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c62lx8ek9x9o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "9cb251c55e12",
-      "cluster_time": "2026-03-28T19:01:26+00:00",
-      "category": "global",
-      "headline": "Three Lebanese journalists killed in Israeli strike, say broadcasters",
-      "summary": "[BBC News] The Israeli military confirms it killed Ali Shoeib from the Hezbollah-affiliated Al Manar TV.\n\n[Al Jazeera] Israeli attack on clearly marked press car kills reporters as WHO laments deadly day for paramedics.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cgme1j70294o?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/3/28/three-journalists-killed-in-israeli-strike-on-marked-press-car-in-lebanon?traffic_source=rss"
       ]
     },
     {
@@ -159,40 +280,42 @@
     {
       "id": "singleton_dc35d499be15",
       "cluster_time": "2026-03-28T18:34:24+00:00",
-      "category": "global",
+      "category": "regional",
       "headline": "Shops and restaurants in Egypt told to close early as energy crisis deepens",
       "summary": "Retail and dining premises will have to shut by 21:00 each night for the next month to conserve power.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "BBC News"
+        "BBC Africa"
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c0rxz7ggv8go?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
-      "id": "singleton_32250186568b",
+      "id": "6b1cda18b0d3",
       "cluster_time": "2026-03-28T18:32:23+00:00",
       "category": "global",
-      "headline": "Hundreds of thousands march through London in stand against the far right",
-      "summary": "Crowds gather in London for what organisers say is the largest anti-far-right march in British history.",
-      "cluster_size": 1,
-      "source_count": 1,
+      "headline": "Tens of thousands march against far right in London ahead of local elections",
+      "summary": "[France 24] Tens of thousands of protesters marched through central London on Saturday in a major show of opposition to the far right, weeks before key elections and amid growing support for hard-right movements in the UK.\n\n[Al Jazeera] Organisers say 'Together Alliance' event was the largest anti-far-right march in British history.",
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
+        "France 24",
         "Al Jazeera"
       ],
       "urls": [
+        "https://www.france24.com/en/europe/20260328-tens-of-thousands-march-against-far-right-in-londonn-ahead-of-elections",
         "https://www.aljazeera.com/news/2026/3/28/hundreds-of-thousands-march-through-london-in-stand-against-the-far-right?traffic_source=rss"
       ]
     },
     {
-      "id": "73fb98254012",
+      "id": "2a14b12ae395",
       "cluster_time": "2026-03-28T18:13:22+00:00",
       "category": "regional",
       "headline": "Senegal parade Afcon trophy despite title controversy",
-      "summary": "[BBC Africa] Senegal parade the Africa Cup of Nations trophy before Saturday's friendly match against Peru in Paris - despite being stripped of the title earlier this month.\n\n[France 24] Despite being stripped of their title, the Senegal national team are expected to present their AFCON 2025 trophy to fans in the build-up to their friendly match against Peru at the Stade de France on Saturday. The country's football federation has also lodged an appeal to the Court of Arbitration for Sport over CAF's decision to award the title to Morocco.\n\n[France 24] Senegal on Saturday paraded the Africa Cup of Nations trophy they have been ordered to return ahead of a friendly against Peru at the Stade de France in Paris. The Confederation of African Football (CAF) on March 17 reversed Senegal's 1-0 final victory over Morocco in Rabat on January 18 and awarded a 3-0 victory to the hosts.",
-      "cluster_size": 3,
+      "summary": "[BBC Africa] Senegal parade the Africa Cup of Nations trophy before Saturday's friendly match against Peru in Paris - despite being stripped of the title earlier this month.\n\n[France 24] Senegal on Saturday paraded the Africa Cup of Nations trophy they have been ordered to return ahead of a friendly against Peru at the Stade de France in Paris. The Confederation of African Football (CAF) on March 17 reversed Senegal's 1-0 final victory over Morocco in Rabat on January 18 and awarded a 3-0 victory to the hosts.",
+      "cluster_size": 2,
       "source_count": 2,
       "sources": [
         "BBC Africa",
@@ -200,7 +323,6 @@
       ],
       "urls": [
         "https://www.bbc.com/sport/football/articles/cqxl0gj9787o?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/sport/20260328-senegal-stage-afcon-victory-celebrations-paris-despite-losing-title",
         "https://www.france24.com/en/senegal-celebrate-afcon-win-at-stade-de-france-after-being-stripped-of-title"
       ]
     },
@@ -286,21 +408,6 @@
       ]
     },
     {
-      "id": "singleton_c5acf1d18e0b",
-      "cluster_time": "2026-03-28T16:42:46+00:00",
-      "category": "regional",
-      "headline": "France hosts ‘No Kings’ march as anti-Trump protests spread",
-      "summary": "Hundreds rally in Paris’ Place de la Bastille for a “No Kings” protest against Donald Trump, denouncing authoritarianism and “endless wars”.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/28/france-hosts-no-kings-march-as-anti-trump-protests-spread/"
-      ]
-    },
-    {
       "id": "3ed4b984f94e",
       "cluster_time": "2026-03-28T16:31:37+00:00",
       "category": "global",
@@ -318,19 +425,17 @@
       ]
     },
     {
-      "id": "f08461938929",
+      "id": "singleton_f61344755be5",
       "cluster_time": "2026-03-28T16:16:28+00:00",
       "category": "global",
-      "headline": "Ukraine, UAE seal defence deal: Kyiv’s 'know-how and equipment” gain recognition",
-      "summary": "[France 24] Ukraine and the United Arab Emirates have agreed to cooperate on defence amid Iran’s drone strikes across the region, according to Ukrainian President Volodymyr Zelensky. The news comes as the war in the Middle East escalates, prompting countries in the region – particularly those facing Iranian attacks – to recognise \"what Ukraine has to offer in terms of defence technology\", FRANCE 24’s Gulliver Cragg said, noting that the newly signed agreement focuses on exporting Kyiv’s “know-how and equipm\n\n[Al Jazeera] Kyiv has sought to leverage its expertise in downing Russian drones to help Gulf nations.",
-      "cluster_size": 2,
-      "source_count": 2,
+      "headline": "Ukraine’s Zelenskyy signs air defence deals with UAE, Qatar on Gulf tour",
+      "summary": "Kyiv has sought to leverage its expertise in downing Russian drones to help Gulf nations.",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "France 24",
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.france24.com/en/ukraine-uae-seal-defence-deal-kyiv-s-know-how-and-equipment-gain-recognition",
         "https://www.aljazeera.com/news/2026/3/28/zelenskyy-signs-air-defence-deals-with-uae-qatar-on-gulf-tour?traffic_source=rss"
       ]
     },
@@ -734,21 +839,6 @@
       ]
     },
     {
-      "id": "singleton_2eeb78145bd4",
-      "cluster_time": "2026-03-28T12:39:28+00:00",
-      "category": "global",
-      "headline": "Two Cuba-bound aid ships found days after disappearing",
-      "summary": "The crew are safe and will complete their mission, a spokesman for the organisers said.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/clye4w10g22o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "id": "singleton_c23aa3f877ff",
       "cluster_time": "2026-03-28T12:37:33+00:00",
       "category": "global",
@@ -843,21 +933,6 @@
       ]
     },
     {
-      "id": "singleton_46638f414ec3",
-      "cluster_time": "2026-03-28T12:02:39+00:00",
-      "category": "global",
-      "headline": "Diop debut for Morocco adds latest twist in Senegal post-AFCON dispute",
-      "summary": "Issa Diop makes Morocco debut only hours after receiving clearance and turning down Senegal advances.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/3/28/diop-debut-for-morocco-adds-latest-twist-in-senegal-post-afcon-battle?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_c24baeb02ab1",
       "cluster_time": "2026-03-28T12:00:00+00:00",
       "category": "local",
@@ -870,6 +945,21 @@
       ],
       "urls": [
         "https://www.lemauricien.com/actualites/societe/etudes-tertiaires-acca-high-achievers-celebration-2026-neuf-mauriciens-dans-le-top-10-et-82-dans-le-top20-a-divers-examens/702885/"
+      ]
+    },
+    {
+      "id": "singleton_3c703154e601",
+      "cluster_time": "2026-03-28T11:51:14+00:00",
+      "category": "global",
+      "headline": "Ukraine signs 10-year defence pact with Qatar, eyes broader Gulf cooperation",
+      "summary": "Ukraine signed a 10-year defence agreement with Qatar on Saturday, part of a series of deals with Gulf countries to counter missile and drone threats, as Kyiv seeks to leverage its battlefield expertise and secure new partnerships amid rising regional tensions.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/europe/20260328-zelensky-agrees-defence-cooperation-with-uae-qatar-on-gulf-tour"
       ]
     },
     {
@@ -948,36 +1038,6 @@
       ]
     },
     {
-      "id": "singleton_664fc3646e38",
-      "cluster_time": "2026-03-28T11:12:32+00:00",
-      "category": "global",
-      "headline": "How the US and Israel are making the Islamic republic stronger",
-      "summary": "The war is feeding into a theological narrative of martyrdom and sacrifice that is helping maintain the Islamic Republic",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/3/28/how-the-us-and-israel-are-making-the-islamic-republic?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_382c2c232812",
-      "cluster_time": "2026-03-28T11:11:48+00:00",
-      "category": "global",
-      "headline": "Russian strikes on Ukraine kill 4 as deal to end war dims",
-      "summary": "US Secretary of State Marco Rubio voices openness to diverting weapons to Kyiv to support the US attack on Iran.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/28/russian-strikes-on-ukraine-cities-kill-4-as-deal-to-end-war-dims?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_acec21ac35d6",
       "cluster_time": "2026-03-28T10:40:00+00:00",
       "category": "local",
@@ -1053,22 +1113,6 @@
       ]
     },
     {
-      "id": "f023da1ac405",
-      "cluster_time": "2026-03-28T09:55:07+00:00",
-      "category": "global",
-      "headline": "Yemen's Houthis claim missile attack on Israel in expanding conflict",
-      "summary": "[France 24] Iranian-backed Houthi rebels claimed a missile launch toward Israel early Saturday, their first since the war in the Middle East started. The Israeli military said it intercepted the projectile. The attack came as a surprise for Israel as authorities estimated that Houthis would only join in the war if a ceasefire agreement was on the table, FRANCE 24's Noga Tarnopolsky said, adding that \"for now it's certainly an expanding conflict\".\n\n[France 24] Iranian-backed Houthi rebels have claimed responsibility for a missile attack on Israel. Brig. Gen. Yahya Saree, a military spokesman for the Houthis, issued a statement on Saturday on the rebel group’s Al-Masirah satellite television network. Israel’s military had earlier said it had intercepted a missile.",
-      "cluster_size": 2,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/yemen-s-houthis-claim-missile-attack-on-israel-in-expanding-conflict",
-        "https://www.france24.com/en/iranian-backed-houthi-rebels-say-launched-missile-attack-on-israel"
-      ]
-    },
-    {
       "id": "singleton_93cc8519d710",
       "cluster_time": "2026-03-28T09:52:05+00:00",
       "category": "regional",
@@ -1081,21 +1125,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/28/demonstrators-gather-in-dakar-to-protest-iran-war-and-show-solidarity/"
-      ]
-    },
-    {
-      "id": "singleton_9a9dbcc42b03",
-      "cluster_time": "2026-03-28T09:50:07+00:00",
-      "category": "global",
-      "headline": "Nepal’s ex-PM Oli detained over alleged role in deadly protest crackdown",
-      "summary": "New home minister says arrest of former leader is the 'beginning of justice'.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/28/nepals-ex-pm-arrested-over-alleged-role-in-protest-crackdown?traffic_source=rss"
       ]
     },
     {
@@ -2179,111 +2208,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c15dz7ql59yo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_9316ba8ee178",
-      "cluster_time": "2026-03-27T22:55:47+00:00",
-      "category": "regional",
-      "headline": "Gabon’s tiny turtles race against extinction as funding for protection dries up",
-      "summary": "Gabon is intensifying efforts to protect vulnerable sea turtle hatchlings as nesting season peaks between December and March along the country’s Atlantic coast.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/27/gabons-tiny-turtles-race-against-extinction-as-funding-for-protection-dries-up/"
-      ]
-    },
-    {
-      "id": "singleton_e6341b8746e7",
-      "cluster_time": "2026-03-27T22:05:42+00:00",
-      "category": "global",
-      "headline": "I escaped North Korea with my mum. Now I'm terrified she might be sent back",
-      "summary": "Geumseong survived a dangerous journey to South Korea, but his mother is stuck in a Chinese prison and may be forcibly repatriated.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c239n93ejm8o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_f7600b04904e",
-      "cluster_time": "2026-03-27T22:03:34+00:00",
-      "category": "global",
-      "headline": "Man arrested over plot to firebomb pro-Palestinian activist's NY home",
-      "summary": "Agents found eight Molotov cocktails in the man's Hoboken home, according to court documents.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c4g69q6r32do?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_666f58ba306d",
-      "cluster_time": "2026-03-27T21:36:07+00:00",
-      "category": "regional",
-      "headline": "Rival presidential candidates on campaign trail in Benin",
-      "summary": "Incumbent finance minister Romuald Wadagni is a strong favourite to win against opposition candidate, Paul Hounkpé.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/27/rival-presidential-candidates-on-campaign-trail-in-benin/"
-      ]
-    },
-    {
-      "id": "singleton_46865ab9bb13",
-      "cluster_time": "2026-03-27T21:30:12+00:00",
-      "category": "global",
-      "headline": "'My daughter is under the rubble': Inside Tehran as civilian toll of strikes rises",
-      "summary": "One month since the US and Israel launched strikes on Iran, Tehran residents tell the BBC their lives have been devastated.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cn0w1qxzd4xo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_3d2dc81e76b3",
-      "cluster_time": "2026-03-27T21:16:30+00:00",
-      "category": "global",
-      "headline": "Rubio says US expects to finish Iran war 'in next couple of weeks'",
-      "summary": "Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_b6c2560e73d1",
-      "cluster_time": "2026-03-27T20:13:10+00:00",
-      "category": "regional",
-      "headline": "Tanzania landslides kill 20 as heavy rains hit East Africa",
-      "summary": "At least 20 people have been killed in landslides in southern Tanzania after days of intense rainfall, as extreme weather continues to batter parts of East Africa.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/03/27/tanzania-landslides-kill-20-as-heavy-rains-hit-east-africa/"
       ]
     }
   ]

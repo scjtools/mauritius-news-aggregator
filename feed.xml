@@ -4,24 +4,24 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Sat, 28 Mar 2026 19:50:58 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 28 Mar 2026 23:06:01 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 28 March 2026</title>
       <link>https://www.oilpriceapi.com</link>
       <description>Brent Crude Oil: USD 112.57 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-03-28T19:47:35.065711+00:00</cluster_time>
+      <cluster_time>2026-03-28T23:02:36.586478+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 28 March 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 66,828.27 (▼ -5.08% from last)</description>
+      <description>Bitcoin (BTC): USD 66,690.13 (▼ -5.28% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-03-28T19:47:34.855296+00:00</cluster_time>
+      <cluster_time>2026-03-28T23:02:36.353540+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -31,7 +31,7 @@
       <description>Gold (XAU): USD 4,495.00 (▲ +2.41% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-03-28T19:47:34.421623+00:00</cluster_time>
+      <cluster_time>2026-03-28T23:02:35.919668+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -41,7 +41,7 @@
       <description>MUR/USD 46.68 | MUR/EUR 53.79 (▲ 0.19 from last) (▲ 0.10 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-03-28T19:47:33.695159+00:00</cluster_time>
+      <cluster_time>2026-03-28T23:02:35.490193+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +51,7 @@
       <description>SEMDEX closed at 2228.32 (▲ 5.12 pts, +0.23% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-03-28T19:47:31.352405+00:00</cluster_time>
+      <cluster_time>2026-03-28T23:02:32.582906+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -61,36 +61,57 @@
       <description>Termination Bulletin for Heavy Rain Warning . Weather news for Mauritius issued at 16h30 on Saturday 28 March 2026.General situation:1. A heavy rain warning is in force in Mauritius, valid till 20h00 this evening.2. The atmospheric conditions remain unstable over our region.Forecast for the next 24 hours:Moderate to heavy localised showers with thunderstorms are still likely in the early evening mainly over the Western part of the island.Partly cloudy afterwards becoming cloudy at times to the East and over the highgrounds with showers.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Clouds development are expected tomorrow afternoon to the West, to the South West and over the Central plateau with showers, temporarily moderate and accompanied with thunderstorms.These showers may spread to the other sectors during the afternoon.The maximum temperature will be between 26 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius over the coastal regions.Wind light and variable tonight, blowing from the East Northeast at about 15km/h tomorrow.Sea moderate beyond the reefs with South-Westerly swells of the order of 2 metres.The public is advised to:1. remain in safe places and avoid open areas, hiking, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roads due to reduced visibility resulting from heavy rains and fog patches.High tides :Tomorrow 00h00 and 11h16.Low tides :17h26 and tomorrow 05h52.Sunset :18h14.Sunrise (tomorrow) :06h16.Atmospheric pressure at 16h00:1010 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-03-28T19:47:26.942898+00:00</cluster_time>
+      <cluster_time>2026-03-28T23:02:28.227938+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran-backed Houthis join war with attack against Israel</title>
-      <link>https://www.bbc.com/news/articles/cd6l5n8jv4yo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] There are fears the Iranian proxy may attack shipping in the Red Sea, adding to global economic woes.
+      <title>No Kings protests across the US rally against Donald Trump</title>
+      <link>https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] One of the flagship No Kings rallies happened in Minnesota, where singer Bruce Springsteen preformed to crowds.
 
-[BBC News] The Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.</description>
+[Africanews] Hundreds rally in Paris’ Place de la Bastille for a “No Kings” protest against Donald Trump, denouncing authoritarianism and “endless wars”.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-03-28T19:08:30+00:00</cluster_time>
+      <cluster_time>2026-03-28T22:48:02+00:00</cluster_time>
       <cluster_size>2</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>ae93cb5c1ebd</cluster_id>
-      <sources>BBC News</sources>
-      <urls>https://www.bbc.com/news/articles/cd6l5n8jv4yo?at_medium=RSS&amp;at_campaign=rss
-https://www.bbc.com/news/articles/cwyvd5z1xjno?at_medium=RSS&amp;at_campaign=rss</urls>
-      <titles>Iran-backed Houthis join war with attack against Israel
-Potential Houthi threat to Red Sea shipping could further damage global economy</titles>
+      <source_count>2</source_count>
+      <cluster_id>33365b808f04</cluster_id>
+      <sources>BBC News
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/03/28/france-hosts-no-kings-march-as-anti-trump-protests-spread/</urls>
+      <titles>No Kings protests across the US rally against Donald Trump
+France hosts ‘No Kings’ march as anti-Trump protests spread</titles>
       <languages>en</languages>
     </item>
     <item>
-      <title>Tears and defiance as Lebanese family bury child, 11, killed in Israeli strike</title>
-      <link>https://www.bbc.com/news/articles/c62lx8ek9x9o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Jawad Younes and his uncle Ragheb were laid to rest on Saturday after their family compound was hit a day earlier.</description>
-      <source>BBC News</source>
+      <title>Air strikes in Iraq kill three PMF fighters, two police</title>
+      <link>https://www.aljazeera.com/news/2026/3/28/air-strikes-in-iraq-kill-three-pmf-fighters-and-two-iraqi-police?traffic_source=rss</link>
+      <description>Iraq turning into 'expanding battleground' in war, which began on February 28 with US-Israeli strikes on Iran.</description>
+      <source>Al Jazeera</source>
       <category>global</category>
-      <cluster_time>2026-03-28T19:02:40+00:00</cluster_time>
+      <cluster_time>2026-03-28T22:32:05+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Reza Pahlavi pledges to ‘make Iran great again’ at 2026 CPAC conference</title>
+      <link>https://www.aljazeera.com/news/2026/3/28/reza-pahlavi-pledges-to-make-iran-great-again-at-2026-cpac-conference?traffic_source=rss</link>
+      <description>Iranian opposition leader calls on Trump administration to 'stay the course' as the US and Israel wage war on Iran.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T22:05:31+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pakistan secures Iran deal to send 20 ships through Strait of Hormuz</title>
+      <link>https://www.aljazeera.com/news/2026/3/28/pakistan-secures-iran-deal-to-send-20-ships-through-strait-of-hormuz?traffic_source=rss</link>
+      <description>Islamabad's diplomatic push bears fruit as the world watches for signs of a broader breakthrough.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T21:56:30+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -102,7 +123,7 @@ Potential Houthi threat to Red Sea shipping could further damage global economy<
 [Al Jazeera] Israeli attack on clearly marked press car kills reporters as WHO laments deadly day for paramedics.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-03-28T19:01:26+00:00</cluster_time>
+      <cluster_time>2026-03-28T21:50:40+00:00</cluster_time>
       <cluster_size>2</cluster_size>
       <source_count>2</source_count>
       <cluster_id>9cb251c55e12</cluster_id>
@@ -113,6 +134,66 @@ https://www.aljazeera.com/news/2026/3/28/three-journalists-killed-in-israeli-str
       <titles>Three Lebanese journalists killed in Israeli strike, say broadcasters
 Three journalists killed in Israeli strike on marked press car in Lebanon</titles>
       <languages>en</languages>
+    </item>
+    <item>
+      <title>Yemen’s Houthis launch ballistic missile at Israel as Middle East conflict escalates</title>
+      <link>https://www.france24.com/en/middle-east/20260328-yemen-s-houthis-launch-ballistic-missile-at-israel-as-middle-east-conflict-escalates</link>
+      <description>Yemen’s Houthi rebels fired a ballistic missile towards Israel on Saturday, marking their entry into the intensifying Middle East war. The move comes amid rising regional tensions, US-Israeli airstrikes on Iran, and disruptions to Red Sea shipping that threaten global trade and energy markets.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T21:46:12+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Frosting, sprinkles and layers of fun: Giant cake picnic hits Sydney</title>
+      <link>https://www.bbc.com/news/articles/c1w40dy58vwo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Hundreds of bakers head to Sydney's Botanic Gardens to share and savour their colourful creations.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T21:04:30+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Palestine Action supporters arrested as London’s Met Police reverse policy</title>
+      <link>https://www.aljazeera.com/news/2026/3/28/palestine-action-supporters-arrested-as-londons-met-police-reverse-policy?traffic_source=rss</link>
+      <description>Arrests come days after force announced U-turn, saying that despite High Court ruling, 'terror' ban remains in place.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T20:09:35+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Two Cuba-bound aid ships found days after disappearing</title>
+      <link>https://www.bbc.com/news/articles/clye4w10g22o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The crew are safe and will complete their mission, a spokesman for the organisers said.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T19:41:17+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Potential Houthi threat to Red Sea shipping could further damage global economy</title>
+      <link>https://www.bbc.com/news/articles/cwyvd5z1xjno?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The Iran-backed group could bring a second crucial waterway to a standstill, writes Sebastian Usher.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T19:08:30+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Tears and defiance as Lebanese family bury child, 11, killed in Israeli strike</title>
+      <link>https://www.bbc.com/news/articles/c62lx8ek9x9o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Jawad Younes and his uncle Ragheb were laid to rest on Saturday after their family compound was hit a day earlier.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T19:02:40+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Football fever comes to New York with unveiling of France's World Cup jersey</title>
@@ -137,43 +218,49 @@ Football fever hits NYC as France unveils team jersey for World Cup</titles>
       <title>Shops and restaurants in Egypt told to close early as energy crisis deepens</title>
       <link>https://www.bbc.com/news/articles/c0rxz7ggv8go?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Retail and dining premises will have to shut by 21:00 each night for the next month to conserve power.</description>
-      <source>BBC News</source>
-      <category>global</category>
+      <source>BBC Africa</source>
+      <category>regional</category>
       <cluster_time>2026-03-28T18:34:24+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Hundreds of thousands march through London in stand against the far right</title>
-      <link>https://www.aljazeera.com/news/2026/3/28/hundreds-of-thousands-march-through-london-in-stand-against-the-far-right?traffic_source=rss</link>
-      <description>Crowds gather in London for what organisers say is the largest anti-far-right march in British history.</description>
-      <source>Al Jazeera</source>
+      <title>Tens of thousands march against far right in London ahead of local elections</title>
+      <link>https://www.france24.com/en/europe/20260328-tens-of-thousands-march-against-far-right-in-londonn-ahead-of-elections</link>
+      <description>[France 24] Tens of thousands of protesters marched through central London on Saturday in a major show of opposition to the far right, weeks before key elections and amid growing support for hard-right movements in the UK.
+
+[Al Jazeera] Organisers say 'Together Alliance' event was the largest anti-far-right march in British history.</description>
+      <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-28T18:32:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>6b1cda18b0d3</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/europe/20260328-tens-of-thousands-march-against-far-right-in-londonn-ahead-of-elections
+https://www.aljazeera.com/news/2026/3/28/hundreds-of-thousands-march-through-london-in-stand-against-the-far-right?traffic_source=rss</urls>
+      <titles>Tens of thousands march against far right in London ahead of local elections
+Thousands march through London in stand against the far right</titles>
+      <languages>en</languages>
     </item>
     <item>
       <title>Senegal parade Afcon trophy despite title controversy</title>
       <link>https://www.bbc.com/sport/football/articles/cqxl0gj9787o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>[BBC Africa] Senegal parade the Africa Cup of Nations trophy before Saturday's friendly match against Peru in Paris - despite being stripped of the title earlier this month.
 
-[France 24] Despite being stripped of their title, the Senegal national team are expected to present their AFCON 2025 trophy to fans in the build-up to their friendly match against Peru at the Stade de France on Saturday. The country's football federation has also lodged an appeal to the Court of Arbitration for Sport over CAF's decision to award the title to Morocco.
-
 [France 24] Senegal on Saturday paraded the Africa Cup of Nations trophy they have been ordered to return ahead of a friendly against Peru at the Stade de France in Paris. The Confederation of African Football (CAF) on March 17 reversed Senegal's 1-0 final victory over Morocco in Rabat on January 18 and awarded a 3-0 victory to the hosts.</description>
       <source>BBC Africa</source>
       <category>regional</category>
       <cluster_time>2026-03-28T18:13:22+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
+      <cluster_size>2</cluster_size>
       <source_count>2</source_count>
-      <cluster_id>73fb98254012</cluster_id>
+      <cluster_id>2a14b12ae395</cluster_id>
       <sources>BBC Africa
 France 24</sources>
       <urls>https://www.bbc.com/sport/football/articles/cqxl0gj9787o?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/sport/20260328-senegal-stage-afcon-victory-celebrations-paris-despite-losing-title
 https://www.france24.com/en/senegal-celebrate-afcon-win-at-stade-de-france-after-being-stripped-of-title</urls>
       <titles>Senegal parade Afcon trophy despite title controversy
-Senegal to stage AFCON victory celebrations in Paris despite losing title
 Senegal celebrate AFCON win at Stade de France after being stripped of title</titles>
       <languages>en</languages>
     </item>
@@ -256,16 +343,6 @@ Incendie au Victoria Urban Terminal, vite maîtrisé</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>France hosts ‘No Kings’ march as anti-Trump protests spread</title>
-      <link>http://www.africanews.com/2026/03/28/france-hosts-no-kings-march-as-anti-trump-protests-spread/</link>
-      <description>Hundreds rally in Paris’ Place de la Bastille for a “No Kings” protest against Donald Trump, denouncing authoritarianism and “endless wars”.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-28T16:42:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Iranian strike on Saudi base wounds several US troops, damages aircraft</title>
       <link>https://www.france24.com/en/iranian-strike-on-saudi-base-wounds-several-us-troops-damages-aircraft</link>
       <description>[France 24] A dozen US troops were wounded in an Iranian attack on Prince Sultan Air Base in Saudi Arabia, with two suffering serious injuries and 10 concussions, according to US media reports. The personnel were inside a building hit during the strike, which involved at least one missile and several drones. The attack also caused damage to multiple US refuelling aircraft, according to US and Arab officials.
@@ -286,24 +363,14 @@ At least 15 US troops wounded in Iran strike on Saudi airbase: Reports</titles>
       <languages>en</languages>
     </item>
     <item>
-      <title>Ukraine, UAE seal defence deal: Kyiv’s 'know-how and equipment” gain recognition</title>
-      <link>https://www.france24.com/en/ukraine-uae-seal-defence-deal-kyiv-s-know-how-and-equipment-gain-recognition</link>
-      <description>[France 24] Ukraine and the United Arab Emirates have agreed to cooperate on defence amid Iran’s drone strikes across the region, according to Ukrainian President Volodymyr Zelensky. The news comes as the war in the Middle East escalates, prompting countries in the region – particularly those facing Iranian attacks – to recognise &quot;what Ukraine has to offer in terms of defence technology&quot;, FRANCE 24’s Gulliver Cragg said, noting that the newly signed agreement focuses on exporting Kyiv’s “know-how and equipm
-
-[Al Jazeera] Kyiv has sought to leverage its expertise in downing Russian drones to help Gulf nations.</description>
-      <source>France 24</source>
+      <title>Ukraine’s Zelenskyy signs air defence deals with UAE, Qatar on Gulf tour</title>
+      <link>https://www.aljazeera.com/news/2026/3/28/zelenskyy-signs-air-defence-deals-with-uae-qatar-on-gulf-tour?traffic_source=rss</link>
+      <description>Kyiv has sought to leverage its expertise in downing Russian drones to help Gulf nations.</description>
+      <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-03-28T16:16:28+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>f08461938929</cluster_id>
-      <sources>France 24
-Al Jazeera</sources>
-      <urls>https://www.france24.com/en/ukraine-uae-seal-defence-deal-kyiv-s-know-how-and-equipment-gain-recognition
-https://www.aljazeera.com/news/2026/3/28/zelenskyy-signs-air-defence-deals-with-uae-qatar-on-gulf-tour?traffic_source=rss</urls>
-      <titles>Ukraine, UAE seal defence deal: Kyiv’s 'know-how and equipment” gain recognition
-Ukraine’s Zelenskyy signs air defence deals with UAE, Qatar on Gulf tour</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Sauvetage médical : bébé Ezekiel remporte une première victoire grâce à l’OMCA</title>
@@ -608,16 +675,6 @@ Fin de l’avertissement de fortes pluies</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Two Cuba-bound aid ships found days after disappearing</title>
-      <link>https://www.bbc.com/news/articles/clye4w10g22o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The crew are safe and will complete their mission, a spokesman for the organisers said.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-28T12:39:28+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Scientists dive beneath Arctic ice to study threatened ecosystems</title>
       <link>https://www.france24.com/en/scientists-dive-beneath-arctic-ice-to-study-threatened-ecosystems</link>
       <description>Scientists trained in Finland to dive beneath Arctic ice, studying fragile polar ecosystems threatened by climate change. The course gives rare, hands-on skills to explore underwater habitats robots cannot safely survey, as instructors warn of the urgent need for more research to protect these vanishing environment</description>
@@ -696,22 +753,22 @@ Rassemblement de Paul Bérenger au Plaza, Rose-Hill</titles>
       <languages>fr</languages>
     </item>
     <item>
-      <title>Diop debut for Morocco adds latest twist in Senegal post-AFCON dispute</title>
-      <link>https://www.aljazeera.com/sports/2026/3/28/diop-debut-for-morocco-adds-latest-twist-in-senegal-post-afcon-battle?traffic_source=rss</link>
-      <description>Issa Diop makes Morocco debut only hours after receiving clearance and turning down Senegal advances.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-28T12:02:39+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Etudes tertiaires – ACCA High Achievers Celebration 2026 — Neuf mauriciens dans le Top 10 et 82% dans le Top20 à divers examens</title>
       <link>https://www.lemauricien.com/actualites/societe/etudes-tertiaires-acca-high-achievers-celebration-2026-neuf-mauriciens-dans-le-top-10-et-82-dans-le-top20-a-divers-examens/702885/</link>
       <description>Quarante-cinq étudiant.e.s mauricien.ne.s qui ont obtenu les meilleurs résultats nationaux aux quatre séries d’examens de l’Association of Chartered Certified Accountants (ACCA) en 2025 ont ét...</description>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-28T12:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Ukraine signs 10-year defence pact with Qatar, eyes broader Gulf cooperation</title>
+      <link>https://www.france24.com/en/europe/20260328-zelensky-agrees-defence-cooperation-with-uae-qatar-on-gulf-tour</link>
+      <description>Ukraine signed a 10-year defence agreement with Qatar on Saturday, part of a series of deals with Gulf countries to counter missile and drone threats, as Kyiv seeks to leverage its battlefield expertise and secure new partnerships amid rising regional tensions.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-28T11:51:14+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -766,26 +823,6 @@ Rassemblement de Paul Bérenger au Plaza, Rose-Hill</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>How the US and Israel are making the Islamic republic stronger</title>
-      <link>https://www.aljazeera.com/opinions/2026/3/28/how-the-us-and-israel-are-making-the-islamic-republic?traffic_source=rss</link>
-      <description>The war is feeding into a theological narrative of martyrdom and sacrifice that is helping maintain the Islamic Republic</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-28T11:12:32+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Russian strikes on Ukraine kill 4 as deal to end war dims</title>
-      <link>https://www.aljazeera.com/news/2026/3/28/russian-strikes-on-ukraine-cities-kill-4-as-deal-to-end-war-dims?traffic_source=rss</link>
-      <description>US Secretary of State Marco Rubio voices openness to diverting weapons to Kyiv to support the US attack on Iran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-28T11:11:48+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Économie bleue : douze ans après les grandes annonces, Maurice reste loin du décollage bleu</title>
       <link>https://defimedia.info/economie-bleue-douze-ans-apres-les-grandes-annonces-maurice-reste-loin-du-decollage-bleu</link>
       <description>Maurice a la mer, l’espace, les discours, les plans, les ministères, les unités, les consultants, les feuilles de route</description>
@@ -836,41 +873,12 @@ Rassemblement de Paul Bérenger au Plaza, Rose-Hill</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Yemen's Houthis claim missile attack on Israel in expanding conflict</title>
-      <link>https://www.france24.com/en/yemen-s-houthis-claim-missile-attack-on-israel-in-expanding-conflict</link>
-      <description>[France 24] Iranian-backed Houthi rebels claimed a missile launch toward Israel early Saturday, their first since the war in the Middle East started. The Israeli military said it intercepted the projectile. The attack came as a surprise for Israel as authorities estimated that Houthis would only join in the war if a ceasefire agreement was on the table, FRANCE 24's Noga Tarnopolsky said, adding that &quot;for now it's certainly an expanding conflict&quot;.
-
-[France 24] Iranian-backed Houthi rebels have claimed responsibility for a missile attack on Israel. Brig. Gen. Yahya Saree, a military spokesman for the Houthis, issued a statement on Saturday on the rebel group’s Al-Masirah satellite television network. Israel’s military had earlier said it had intercepted a missile.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-28T09:55:07+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>f023da1ac405</cluster_id>
-      <sources>France 24</sources>
-      <urls>https://www.france24.com/en/yemen-s-houthis-claim-missile-attack-on-israel-in-expanding-conflict
-https://www.france24.com/en/iranian-backed-houthi-rebels-say-launched-missile-attack-on-israel</urls>
-      <titles>Yemen's Houthis claim missile attack on Israel in expanding conflict
-Iranian-backed Houthi rebels say launched missile attack on Israel</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Demonstrators gather in Dakar to protest Iran war and show solidarity</title>
       <link>http://www.africanews.com/2026/03/28/demonstrators-gather-in-dakar-to-protest-iran-war-and-show-solidarity/</link>
       <description>Dozens of demonstrators gathered in Dakar on Friday to protest the ongoing Iran war, voicing opposition to military action and expressing solidarity with countries affected by U.S. and Israeli operations.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-03-28T09:52:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nepal’s ex-PM Oli detained over alleged role in deadly protest crackdown</title>
-      <link>https://www.aljazeera.com/news/2026/3/28/nepals-ex-pm-arrested-over-alleged-role-in-protest-crackdown?traffic_source=rss</link>
-      <description>New home minister says arrest of former leader is the 'beginning of justice'.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-28T09:50:07+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1610,76 +1618,6 @@ https://defimedia.info/le-crime-le-plus-grave-contre-lhumanite-que-signifie-le-v
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-27T23:19:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Gabon’s tiny turtles race against extinction as funding for protection dries up</title>
-      <link>http://www.africanews.com/2026/03/27/gabons-tiny-turtles-race-against-extinction-as-funding-for-protection-dries-up/</link>
-      <description>Gabon is intensifying efforts to protect vulnerable sea turtle hatchlings as nesting season peaks between December and March along the country’s Atlantic coast.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-27T22:55:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>I escaped North Korea with my mum. Now I'm terrified she might be sent back</title>
-      <link>https://www.bbc.com/news/articles/c239n93ejm8o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Geumseong survived a dangerous journey to South Korea, but his mother is stuck in a Chinese prison and may be forcibly repatriated.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-27T22:05:42+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Man arrested over plot to firebomb pro-Palestinian activist's NY home</title>
-      <link>https://www.bbc.com/news/articles/c4g69q6r32do?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Agents found eight Molotov cocktails in the man's Hoboken home, according to court documents.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-27T22:03:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Rival presidential candidates on campaign trail in Benin</title>
-      <link>http://www.africanews.com/2026/03/27/rival-presidential-candidates-on-campaign-trail-in-benin/</link>
-      <description>Incumbent finance minister Romuald Wadagni is a strong favourite to win against opposition candidate, Paul Hounkpé.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-27T21:36:07+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'My daughter is under the rubble': Inside Tehran as civilian toll of strikes rises</title>
-      <link>https://www.bbc.com/news/articles/cn0w1qxzd4xo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>One month since the US and Israel launched strikes on Iran, Tehran residents tell the BBC their lives have been devastated.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-27T21:30:12+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Rubio says US expects to finish Iran war 'in next couple of weeks'</title>
-      <link>https://www.bbc.com/news/articles/c1l9vz064nqo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Marco Rubio said US allies were open to helping escort ships through the Strait of Hormuz, which Iran has closed and threatened to charge fees for.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-27T21:16:30+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Tanzania landslides kill 20 as heavy rains hit East Africa</title>
-      <link>http://www.africanews.com/2026/03/27/tanzania-landslides-kill-20-as-heavy-rains-hit-east-africa/</link>
-      <description>At least 20 people have been killed in landslides in southern Tanzania after days of intense rainfall, as extreme weather continues to batter parts of East Africa.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-27T20:13:10+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
