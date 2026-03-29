@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 140,
+  "item_count": 137,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-29T19:49:23.249812+00:00",
+      "cluster_time": "2026-03-29T23:05:02.481102+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 29 March 2026",
-      "summary": "Brent Crude Oil: USD 112.57 per barrel",
+      "summary": "Brent Crude Oil: USD 115.23 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-29T19:49:23.093402+00:00",
+      "cluster_time": "2026-03-29T23:05:02.390379+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 29 March 2026",
-      "summary": "Bitcoin (BTC): USD 66,330.14 (▼ -5.79% from last)",
+      "summary": "Bitcoin (BTC): USD 65,802.68 (▼ -6.54% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-29T19:49:22.845068+00:00",
+      "cluster_time": "2026-03-29T23:05:01.962481+00:00",
       "category": "finance",
       "headline": "Gold price – 29 March 2026",
-      "summary": "Gold (XAU): USD 4,495.00 (▲ +2.41% from last)",
+      "summary": "Gold (XAU): USD 4,490.80 (▲ +2.31% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,7 +49,7 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-03-29T19:49:22.287825+00:00",
+      "cluster_time": "2026-03-29T23:05:01.563604+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 29 March 2026",
       "summary": "MUR/USD 46.68 | MUR/EUR 53.79 (▲ 0.19 from last) (▲ 0.10 from last)",
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-29T19:49:19.652995+00:00",
+      "cluster_time": "2026-03-29T23:04:59.021329+00:00",
       "category": "finance",
       "headline": "SEMDEX – 29 March 2026",
       "summary": "SEMDEX closed at 2228.32 (▲ 5.12 pts, +0.23% from last close 2,223.20)",
@@ -79,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-29T19:49:15.017232+00:00",
+      "cluster_time": "2026-03-29T23:04:54.604121+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 29 March 2026",
       "summary": "Termination Bulletin for Heavy Rain Watch for Mauritius issued at 22h15 on Sunday 29 March 2026 . Weather news for Mauritius issued at 16h45 on Sunday 29 March 2026.General situation:1. The heavy rain warning is terminated. However, a heavy rain watch is in force in Mauritius, valid till 10h30 tomorrow Monday 30 March 2026.2. Other active clouds are approaching Mauritius from the Southeast and will influence the weather as from this evening.Forecast for the next 24 hours:Moderate showers which may be heavy with thunderstorms are expected as from this evening till tomorrow morning especially to the East, South and over the central plateau.There may be water accumulations in flood prone areas.Visibility will be reduced due to fog and in showers.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.In the afternoon other clouds will develop to the South-West and over the central plateau with localised showers. These showers may be moderate with thunderstorms.The maximum temperature will be between 26 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius over the coastal regions.Wind will blow from the Northeast at about 15 km/h with peaks in showers.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.The public is advised to:1. remain in safe places and avoid open areas, hiking, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roads due to reduced visibility resulting from heavy rains and fog patches.High tides :Tomorrow 00h21 and 11h48.Low tides :17h59 and tomorrow 06h20.Sunset :18h13.Sunrise (tomorrow) :06h16.Atmospheric pressure at 16h00:1010 hectopascals.",
@@ -90,6 +90,132 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "5153187e53a0",
+      "cluster_time": "2026-03-29T22:44:25+00:00",
+      "category": "global",
+      "headline": "European nations warn over Israel’s planned expansion of death penalty",
+      "summary": "[France 24] Britain, France, Germany and Italy on Sunday voiced deep concern over Israeli plans to expand the use of the death penalty in a bill expected to be voted on next week. The Council of Europe’s rights body also opposed the draft law, warning it would significantly broaden capital punishment.\n\n[Al Jazeera] France, Germany, Italy and the United Kingdom raise concern over 'de facto discriminatory character of the bill.'",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.france24.com/en/middle-east/20260329-europe-warns-israel-death-penalty-expansion-bill",
+        "https://www.aljazeera.com/news/2026/3/29/european-nations-criticise-israels-death-penalty-plans?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_d1195585d0e8",
+      "cluster_time": "2026-03-29T22:36:05+00:00",
+      "category": "global",
+      "headline": "Iran accuses US of plotting ground attack, as Israel steps up bombardment",
+      "summary": "Power being restored after Iran's Ministry of Energy reported outages in the capital, Tehran following attacks.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/29/iran-accuses-us-of-plotting-ground-attack-as-israel-steps-up-bombardment?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "041c96b1c635",
+      "cluster_time": "2026-03-29T21:39:08+00:00",
+      "category": "global",
+      "headline": "Israeli police block Latin Patriarch from Palm Sunday mass in Jerusalem",
+      "summary": "[BBC News] The move drew criticism from the church, global leaders and the US ambassador. Israel's PM said it was a safety measure following recent Iranian strikes.\n\n[France 24] Israeli police prevented the Latin Patriarch of Jerusalem from entering the Church of the Holy Sepulchre to celebrate Palm Sunday mass, according to the Latin Patriarchate of Jerusalem. It is not yet clear whether this blockade was intentional or a mistake from the Israeli police; in the meantime, some world leaders, including Italian Prime Minister Giorgia Meloni and French President Emmanuel Macron reacted condemning the event as an \"offense\" to faithful. France 24 correspondent Noga Tarnopols",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/israeli-police-bar-top-catholic-figure-in-jerusalem-from-holding-palm-sunday-mass-at-holy-sepulchre"
+      ]
+    },
+    {
+      "id": "singleton_39cb15bc560d",
+      "cluster_time": "2026-03-29T21:29:56+00:00",
+      "category": "global",
+      "headline": "Renoir, Cézanne and Matisse paintings stolen in Italian job",
+      "summary": "The paintings were taken from a museum in Parma by four masked men in the middle of the night, police say.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cn4vw2xmpzzo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_c5ea29d92978",
+      "cluster_time": "2026-03-29T20:48:51+00:00",
+      "category": "global",
+      "headline": "African football chief Motsepe to respect CAS ruling on Senegal’s appeal",
+      "summary": "Confederation of African Football (CAF) president Patrice Motsepe on Sunday said he would implement the Court of Arbitration for Sport (CAS) decision on Senegal national football team’s appeal after they were stripped of their Africa Cup of Nations title, as the governing body moves to restore confidence following the controversial final.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/sport/20260329-caf-chief-motsepe-to-respect-cas-ruling-on-senegal-s-afcon-appeal"
+      ]
+    },
+    {
+      "id": "singleton_6521a4d921da",
+      "cluster_time": "2026-03-29T20:42:32+00:00",
+      "category": "global",
+      "headline": "No Kings protests draw large crowds to rally against Donald Trump",
+      "summary": "One of the flagship No Kings rallies happened in Minnesota, where singer Bruce Springsteen performed to crowds.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "1643adcd7d4a",
+      "cluster_time": "2026-03-29T20:22:08+00:00",
+      "category": "global",
+      "headline": "Pakistan offers to host US-Iran talks as Tehran warns ground troops would be 'set on fire'",
+      "summary": "[France 24] Pakistan on Sunday said it would soon host talks between the United States and Iran over the monthlong war, positioning itself as a mediator as fighting intensifies across the region, global energy routes are shaken and fears grow of a broader conflict involving Israel, Lebanon and key maritime chokepoints.\n\n[Al Jazeera] Foreign ministers meet in Islamabad, seeking to de-escalate the US-Israel war on Iran.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.france24.com/en/middle-east/20260329-pakistan-offers-to-host-us-iran-talks-as-tehran-warns-ground-troops-would-be-set-on-fire",
+        "https://www.aljazeera.com/news/2026/3/29/pakistan-maintains-delicate-balancing-act-as-it-hosts-iran-talks?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_f69b181b3445",
+      "cluster_time": "2026-03-29T19:37:03+00:00",
+      "category": "global",
+      "headline": "Italy investigates Sephora and Benefit over marketing skincare to children",
+      "summary": "The Italian Competition Authority said luxury goods giant LVMH appears to have adopted \"particularly insidious\" marketing strategies.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c3dlk93m7jyo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -122,24 +248,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/news/2026/3/29/rsf-attack-on-sudans-south-kordofan-kills-at-least-14-including-children?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "9669cf1405d3",
-      "cluster_time": "2026-03-29T18:55:56+00:00",
-      "category": "global",
-      "headline": "No Kings protests draw millions to rally against Donald Trump",
-      "summary": "[BBC News] One of the flagship No Kings rallies happened in Minnesota, where singer Bruce Springsteen performed to crowds.\n\n[France 24] Huge crowds protested Saturday against US President Donald Trump's actions and the war in Iran in \"No Kings\" rallies across the US and in Europe. Minnesota took centre stage, with thousands of people standing shoulder-to-shoulder to celebrate resistance to Trump's aggressive immigration enforcement. France 24 International Affairs Editor Kethevane Gorjestani tells us more.\n\n[France 24] Huge crowds protested Saturday against US President Donald Trump's actions and the war in Iran in \"No Kings\" rallies across the US and in Europe. Minnesota took centre stage, with thousands of people standing shoulder-to-shoulder to celebrate resistance to Trump's aggressive immigration enforcement. Wassim Cornet reports from Los Angeles.",
-      "cluster_size": 3,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "France 24"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/massive-protests-against-trump-across-us",
-        "https://www.france24.com/en/no-kings-rallies-draw-crowds-across-us"
       ]
     },
     {
@@ -188,24 +296,7 @@
       ]
     },
     {
-      "id": "041c96b1c635",
-      "cluster_time": "2026-03-29T17:09:00+00:00",
-      "category": "global",
-      "headline": "Israeli police block Latin Patriarch from Palm Sunday mass in Jerusalem",
-      "summary": "[BBC News] The move drew criticism from the church, global leaders and the US ambassador. Israel's PM said it was a safety measure following recent Iranian strikes.\n\n[France 24] Israeli police prevented the Latin Patriarch of Jerusalem from entering the Church of the Holy Sepulchre to celebrate Palm Sunday mass, according to the Latin Patriarchate of Jerusalem. It is not yet clear whether this blockade was intentional or a mistake from the Israeli police; in the meantime, some world leaders, including Italian Prime Minister Giorgia Meloni and French President Emmanuel Macron reacted condemning the event as an \"offense\" to faithful. France 24 correspondent Noga Tarnopols",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "France 24"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/israeli-police-bar-top-catholic-figure-in-jerusalem-from-holding-palm-sunday-mass-at-holy-sepulchre"
-      ]
-    },
-    {
-      "id": "singleton_d5caa3ce3231",
+      "id": "singleton_d6f7b9d3bf0d",
       "cluster_time": "2026-03-29T17:04:00+00:00",
       "category": "local",
       "headline": "L’histoire bouleversante d’une Mauricienne en Allemagne",
@@ -216,7 +307,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/lhistoire-bouleversante-dune-mauricienne-en-allemagne"
+        "https://defimedia.info/lhistoire-bouleversante-dune-mauricienne-en-allemagne"
       ]
     },
     {
@@ -248,15 +339,30 @@
       ],
       "urls": [
         "https://live.mega.mu/redirect/253412/",
-        "https://defimedia.info/index.php/victoria-urban-terminal-lensemble-des-operations-reprendra-ce-lundi-le-marche-reste-ferme"
+        "https://defimedia.info/victoria-urban-terminal-lensemble-des-operations-reprendra-ce-lundi-le-marche-reste-ferme"
+      ]
+    },
+    {
+      "id": "singleton_a716f4358f42",
+      "cluster_time": "2026-03-29T16:34:23+00:00",
+      "category": "global",
+      "headline": "Massive protests against Trump across US",
+      "summary": "Huge crowds protested Saturday against US President Donald Trump's actions and the war in Iran in \"No Kings\" rallies across the US and in Europe. Minnesota took centre stage, with thousands of people standing shoulder-to-shoulder to celebrate resistance to Trump's aggressive immigration enforcement. France 24 International Affairs Editor Kethevane Gorjestani tells us more.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/massive-protests-against-trump-across-us"
       ]
     },
     {
       "id": "singleton_ff1c9bf2217f",
       "cluster_time": "2026-03-29T16:31:22+00:00",
       "category": "global",
-      "headline": "Mrs la maire - Maureen Searle becomes the first foreign-born woman to run a French town",
-      "summary": "In the last 2026 mayoral elections, for the first time a British-born woman, who acquired the French nationality after living in France for years, became the mayor of a French town. Maureen Searle speaks to Gavin Lee about her life and experience in France 24's Spotlight.",
+      "headline": "Madame la Maire: Maureen Searle becomes the first English woman to run a French town",
+      "summary": "In the last 2026 mayoral elections, for the first time a British woman, who acquired the French nationality after living in France for years, became the mayor of a French town. Maureen Searle speaks to Gavin Lee about her life and experience in France 24's Spotlight.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -267,12 +373,12 @@
       ]
     },
     {
-      "id": "6b353718c2cc",
+      "id": "c4d67ff7560f",
       "cluster_time": "2026-03-29T16:30:59+00:00",
       "category": "global",
       "headline": "Three Lebanese journalists killed in Israeli strike, say broadcasters",
-      "summary": "[BBC News] The Israeli military confirms it killed Ali Shoeib from the Hezbollah-affiliated Al Manar TV.\n\n[France 24] Hundreds of mourners gathered at a cemetery south of Beirut on Sunday to attend the funeral of journalists Ali Shoeib, Fatima Ftouni, and Mohammed Ftouni, who were killed in an Israeli strike a day earlier. Israel has acknowledged carrying out the attack, claiming that Shoeib was affiliated with a militant group, but the incident has sparked widespread outrage within Lebanon, where officials have condemned it as a clear breach of international law. According to the Committee to Protect Journalis\n\n[France 24] Israel said early Sunday that one of its soldiers had been killed during clashes with Iran-backed Hezbollah in southern Lebanon.The announcement follows an Israeli airstrike on Saturday that killed three journalists, including a veteran correspondent for Hezbollah’s television network. A subsequent strike targeted and killed rescuers who had arrived at the scene to provide aid. In separate Israeli raids, nine paramedics were also reported killed. Jennie Shin reports with the latest updates.",
-      "cluster_size": 3,
+      "summary": "[BBC News] The Israeli military confirms it killed Ali Shoeib from the Hezbollah-affiliated Al Manar TV.\n\n[France 24] Hundreds of mourners gathered at a cemetery south of Beirut on Sunday to attend the funeral of journalists Ali Shoeib, Fatima Ftouni, and Mohammed Ftouni, who were killed in an Israeli strike a day earlier. Israel has acknowledged carrying out the attack, claiming that Shoeib was affiliated with a militant group, but the incident has sparked widespread outrage within Lebanon, where officials have condemned it as a clear breach of international law. According to the Committee to Protect Journalis",
+      "cluster_size": 2,
       "source_count": 2,
       "sources": [
         "BBC News",
@@ -280,8 +386,7 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cgme1j70294o?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/lebanon-mourns-three-journalists-killed-in-israeli-strikes",
-        "https://www.france24.com/en/three-lebanese-journalists-killed-in-strikes"
+        "https://www.france24.com/en/lebanon-mourns-three-journalists-killed-in-israeli-strikes"
       ]
     },
     {
@@ -300,7 +405,7 @@
       ]
     },
     {
-      "id": "singleton_0ce6ec8b9f81",
+      "id": "singleton_e22c83f0743d",
       "cluster_time": "2026-03-29T16:00:00+00:00",
       "category": "local",
       "headline": "Souffrant de lourds handicaps - Noorshaba et Dhruv : debout… ou presque, pour la première fois",
@@ -311,7 +416,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/souffrant-de-lourds-handicaps-noorshaba-et-dhruv-debout-ou-presque-pour-la-premiere-fois"
+        "https://defimedia.info/souffrant-de-lourds-handicaps-noorshaba-et-dhruv-debout-ou-presque-pour-la-premiere-fois"
       ]
     },
     {
@@ -470,7 +575,7 @@
       ]
     },
     {
-      "id": "singleton_b635f1397f28",
+      "id": "singleton_c0371f6b7db3",
       "cluster_time": "2026-03-29T15:00:00+00:00",
       "category": "local",
       "headline": "Fabrice et Aurélie : 18 ans d’écart, 10 ans d’évidence",
@@ -481,7 +586,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/fabrice-et-aurelie-18-ans-decart-10-ans-devidence"
+        "https://defimedia.info/fabrice-et-aurelie-18-ans-decart-10-ans-devidence"
       ]
     },
     {
@@ -531,7 +636,7 @@
       ]
     },
     {
-      "id": "singleton_42a57de76efc",
+      "id": "singleton_1e280778dd14",
       "cluster_time": "2026-03-29T14:39:00+00:00",
       "category": "local",
       "headline": "Hommage à SAJ : Nando Bodha salue « le progrès et la stabilité » du mandat 2000-2005",
@@ -542,22 +647,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/hommage-saj-nando-bodha-salue-le-progres-et-la-stabilite-du-mandat-2000-2005"
-      ]
-    },
-    {
-      "id": "singleton_893cd0b84436",
-      "cluster_time": "2026-03-29T14:35:58+00:00",
-      "category": "global",
-      "headline": "Pakistan maintains ‘delicate balancing act’ as it hosts Iran talks",
-      "summary": "Foreign ministers meet in Islamabad, seeking to de-escalate the US-Israel war on Iran.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/29/pakistan-maintains-delicate-balancing-act-as-it-hosts-iran-talks?traffic_source=rss"
+        "https://defimedia.info/hommage-saj-nando-bodha-salue-le-progres-et-la-stabilite-du-mandat-2000-2005"
       ]
     },
     {
@@ -591,7 +681,7 @@
       ]
     },
     {
-      "id": "singleton_001ee34fe02b",
+      "id": "singleton_47fb0a0295ca",
       "cluster_time": "2026-03-29T14:00:00+00:00",
       "category": "local",
       "headline": "Du soldat au hashtag, la longue mutation du «militant»",
@@ -602,7 +692,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/du-soldat-au-hashtag-la-longue-mutation-du-militant"
+        "https://defimedia.info/du-soldat-au-hashtag-la-longue-mutation-du-militant"
       ]
     },
     {
@@ -666,7 +756,7 @@
       ]
     },
     {
-      "id": "singleton_a941c09eb07a",
+      "id": "singleton_6f6f1e511c5a",
       "cluster_time": "2026-03-29T13:30:00+00:00",
       "category": "local",
       "headline": "Jonathan Ravat : «Le militant incarnait une nouvelle manière d’être Mauricien»",
@@ -677,7 +767,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/jonathan-ravat-le-militant-incarnait-une-nouvelle-maniere-detre-mauricien"
+        "https://defimedia.info/jonathan-ravat-le-militant-incarnait-une-nouvelle-maniere-detre-mauricien"
       ]
     },
     {
@@ -709,12 +799,12 @@
       ],
       "urls": [
         "https://www.lemauricien.com/actualites/societe/orages-et-averses-intenses-maurice-sous-avertissement-de-fortes-pluies-jusqua-19-h/703023/",
-        "https://defimedia.info/index.php/meteo-un-avertissement-de-fortes-pluies-en-vigueur-jusqua-19-h-ce-dimanche-29-mars-2026",
-        "https://defimedia.info/index.php/meteo-lavertissement-de-fortes-pluies-leve-une-veille-de-fortes-pluies-desormais-en-vigeur-jusqua"
+        "https://defimedia.info/meteo-un-avertissement-de-fortes-pluies-en-vigueur-jusqua-19-h-ce-dimanche-29-mars-2026",
+        "https://defimedia.info/meteo-lavertissement-de-fortes-pluies-leve-une-veille-de-fortes-pluies-desormais-en-vigeur-jusqua"
       ]
     },
     {
-      "id": "singleton_ed8196a546d5",
+      "id": "singleton_09b44d54ed26",
       "cluster_time": "2026-03-29T13:00:00+00:00",
       "category": "local",
       "headline": "Nita Juddoo : «Le MMM s’est éloigné de ses racines»",
@@ -725,7 +815,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/nita-juddoo-le-mmm-sest-eloigne-de-ses-racines"
+        "https://defimedia.info/nita-juddoo-le-mmm-sest-eloigne-de-ses-racines"
       ]
     },
     {
@@ -774,7 +864,7 @@
       ]
     },
     {
-      "id": "singleton_1d4120c86a17",
+      "id": "singleton_d5df2c0ee7ba",
       "cluster_time": "2026-03-29T12:55:00+00:00",
       "category": "local",
       "headline": "Chamouny : un habitant dénonce l’abandon de chiens dans la nature",
@@ -785,11 +875,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/chamouny-un-habitant-denonce-labandon-de-chiens-dans-la-nature"
+        "https://defimedia.info/chamouny-un-habitant-denonce-labandon-de-chiens-dans-la-nature"
       ]
     },
     {
-      "id": "singleton_16664bd1b50a",
+      "id": "singleton_ad8a69143b97",
       "cluster_time": "2026-03-29T12:30:00+00:00",
       "category": "local",
       "headline": "Motee Ramdass : «Le militantisme n’est pas un calcul de pouvoir»",
@@ -800,22 +890,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/motee-ramdass-le-militantisme-nest-pas-un-calcul-de-pouvoir"
-      ]
-    },
-    {
-      "id": "singleton_f7a936ea42d7",
-      "cluster_time": "2026-03-29T12:25:29+00:00",
-      "category": "global",
-      "headline": "ICC states should not ignore judicial experts’ conclusions in Khan’s case",
-      "summary": "Doing so would damage State Parties' own credibility and that of the ICC system.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/3/29/icc-states-should-not-ignore-judicial-experts-conclusions-in-khans-case?traffic_source=rss"
+        "https://defimedia.info/motee-ramdass-le-militantisme-nest-pas-un-calcul-de-pouvoir"
       ]
     },
     {
@@ -834,7 +909,7 @@
       ]
     },
     {
-      "id": "singleton_7cf6e35ecdd9",
+      "id": "singleton_00b531367bd8",
       "cluster_time": "2026-03-29T12:12:00+00:00",
       "category": "local",
       "headline": "Ashley Gokul tué dans un accident : « Nous étions comme deux frères »",
@@ -845,26 +920,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/ashley-gokul-tue-dans-un-accident-nous-etions-comme-deux-freres"
+        "https://defimedia.info/ashley-gokul-tue-dans-un-accident-nous-etions-comme-deux-freres"
       ]
     },
     {
-      "id": "singleton_d8ec555242f6",
-      "cluster_time": "2026-03-29T12:08:26+00:00",
-      "category": "global",
-      "headline": "The US-Israeli war on humanity",
-      "summary": "The lawlessness and brutality of the US-Israeli genocide in Gaza have now spread to other parts of the world.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/3/29/the-us-israeli-war-on-humanity?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_0749b10a9738",
+      "id": "singleton_f486b036fb78",
       "cluster_time": "2026-03-29T12:00:00+00:00",
       "category": "local",
       "headline": "Valeurs militantes : que reste-t-il de l’étincelle de 1969 ?",
@@ -875,7 +935,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/valeurs-militantes-que-reste-t-il-de-letincelle-de-1969"
+        "https://defimedia.info/valeurs-militantes-que-reste-t-il-de-letincelle-de-1969"
       ]
     },
     {
@@ -894,7 +954,7 @@
       ]
     },
     {
-      "id": "singleton_0a50b5841ac2",
+      "id": "singleton_f99d1a4b7391",
       "cluster_time": "2026-03-29T11:30:00+00:00",
       "category": "local",
       "headline": "Paul Bérenger : «Ena dimounn dan MMM ki finn fer boukou ditor MMM»",
@@ -905,26 +965,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/paul-berenger-ena-dimounn-dan-mmm-ki-finn-fer-boukou-ditor-mmm"
+        "https://defimedia.info/paul-berenger-ena-dimounn-dan-mmm-ki-finn-fer-boukou-ditor-mmm"
       ]
     },
     {
-      "id": "singleton_ea63a4f11590",
-      "cluster_time": "2026-03-29T11:10:43+00:00",
-      "category": "global",
-      "headline": "Pakistan hosts four-nation bid to encourage US, Iran towards diplomacy",
-      "summary": "Top diplomats of Pakistan, Egypt, Saudi Arabia and Turkiye meet to prepare ground for de-escalation in war on Iran.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/29/pakistan-hosts-four-nation-bid-to-encourage-us-iran-towards-diplomacy?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_04ad22fae217",
+      "id": "singleton_fd3f92f5ca4b",
       "cluster_time": "2026-03-29T11:00:00+00:00",
       "category": "local",
       "headline": "Piton de la Fournaise : «La nuit s’est transformée en un théâtre incandescent»",
@@ -935,7 +980,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/piton-de-la-fournaise-la-nuit-sest-transformee-en-un-theatre-incandescent"
+        "https://defimedia.info/piton-de-la-fournaise-la-nuit-sest-transformee-en-un-theatre-incandescent"
       ]
     },
     {
@@ -954,7 +999,7 @@
       ]
     },
     {
-      "id": "singleton_7878f0dff103",
+      "id": "singleton_aa54a6abebfc",
       "cluster_time": "2026-03-29T10:40:00+00:00",
       "category": "local",
       "headline": "Simon et Rosemonde : à la vie, à la mer…après leur fils",
@@ -965,22 +1010,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/simon-et-rosemonde-la-vie-la-merapres-leur-fils"
-      ]
-    },
-    {
-      "id": "singleton_1f72813e91e3",
-      "cluster_time": "2026-03-29T10:33:51+00:00",
-      "category": "global",
-      "headline": "Olympic gender test ‘a disrespect for women’, South Africa’s Semenya says",
-      "summary": "Olympic gold medallist lashes out at IOC and its president, Kirsty Coventry, for asking women to prove themselves.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/3/29/olympic-gender-test-a-disrespect-for-women-south-africas-semenya-says?traffic_source=rss"
+        "https://defimedia.info/simon-et-rosemonde-la-vie-la-merapres-leur-fils"
       ]
     },
     {
@@ -999,7 +1029,7 @@
       ]
     },
     {
-      "id": "singleton_a2e980c2ea48",
+      "id": "singleton_bf31a4558951",
       "cluster_time": "2026-03-29T09:48:00+00:00",
       "category": "local",
       "headline": "Huawei frappe fort avec le Mate 80 Pro",
@@ -1010,7 +1040,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/huawei-frappe-fort-avec-le-mate-80-pro"
+        "https://defimedia.info/huawei-frappe-fort-avec-le-mate-80-pro"
       ]
     },
     {
@@ -1029,7 +1059,7 @@
       "urls": [
         "https://www.lemauricien.com/actualites/societe/sante-chikungunya-une-trentaine-de-cas-recenses-chaque-jour/702983/",
         "https://live.mega.mu/redirect/253418/",
-        "https://defimedia.info/index.php/chikungunya-31-cas-recenses-en-une-journee"
+        "https://defimedia.info/chikungunya-31-cas-recenses-en-une-journee"
       ]
     },
     {
@@ -1048,7 +1078,7 @@
       ]
     },
     {
-      "id": "singleton_f41786c8ce27",
+      "id": "singleton_27e96067db68",
       "cluster_time": "2026-03-29T09:40:00+00:00",
       "category": "local",
       "headline": "Vicky Soniah périt noyé au Morne - Amrita, inconsolable : «Mon fils et moi étions inséparables»",
@@ -1059,7 +1089,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/vicky-soniah-perit-noye-au-morne-amrita-inconsolable-mon-fils-et-moi-etions-inseparables"
+        "https://defimedia.info/vicky-soniah-perit-noye-au-morne-amrita-inconsolable-mon-fils-et-moi-etions-inseparables"
       ]
     },
     {
@@ -1078,21 +1108,6 @@
       ]
     },
     {
-      "id": "singleton_4cdea02056ea",
-      "cluster_time": "2026-03-29T09:15:57+00:00",
-      "category": "global",
-      "headline": "Pentagon readies ‘for weeks of US ground operations’ in Iran",
-      "summary": "Uncertainty looms over Trump's approval of the Pentagon's plans for limited ground operations in Iran's strategic regions.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/29/pentagon-readies-for-weeks-of-us-ground-operations-in-iran-report?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_eefe3992f8f8",
       "cluster_time": "2026-03-29T09:11:53+00:00",
       "category": "regional",
@@ -1108,7 +1123,7 @@
       ]
     },
     {
-      "id": "singleton_c45c817fe62f",
+      "id": "singleton_eea64ee42d49",
       "cluster_time": "2026-03-29T09:00:00+00:00",
       "category": "local",
       "headline": "Corruption : Subron évoque des dérives «encore plus graves»",
@@ -1119,7 +1134,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/corruption-subron-evoque-des-derives-encore-plus-graves"
+        "https://defimedia.info/corruption-subron-evoque-des-derives-encore-plus-graves"
       ]
     },
     {
@@ -1138,7 +1153,7 @@
       ]
     },
     {
-      "id": "singleton_e9915863eccf",
+      "id": "singleton_ec9133722a6b",
       "cluster_time": "2026-03-29T08:52:00+00:00",
       "category": "local",
       "headline": "Accident à Beau-Climat : un conducteur de 36 ans succombe à ses blessures",
@@ -1149,26 +1164,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/accident-beau-climat-un-conducteur-de-36-ans-succombe-ses-blessures"
+        "https://defimedia.info/accident-beau-climat-un-conducteur-de-36-ans-succombe-ses-blessures"
       ]
     },
     {
-      "id": "singleton_fd6a979d9eec",
-      "cluster_time": "2026-03-29T08:46:47+00:00",
-      "category": "global",
-      "headline": "Yemen's rebels could further threaten global shipping",
-      "summary": "Iran-backed Houthi rebels in Yemen have carried out a second missile strike against Israel and have pledged to continue their attacks in the coming days. These assaults have heightened fears that the conflict could expand into the Red Sea region, where Saudi Arabia has already been redirecting a significant portion of its oil exports.Jennie Shin and Gabrielle Nadler",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/yemen-s-rebels-could-further-threaten-global-shipping"
-      ]
-    },
-    {
-      "id": "singleton_a078ee0eb3c0",
+      "id": "singleton_16d944de555d",
       "cluster_time": "2026-03-29T08:35:00+00:00",
       "category": "local",
       "headline": "Urban Terminal : les commerces du rez-de-chaussée, y compris Winner’s, reprennent leurs activités",
@@ -1179,11 +1179,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/urban-terminal-les-commerces-du-rez-de-chaussee-y-compris-winners-reprennent-leurs-activites"
+        "https://defimedia.info/urban-terminal-les-commerces-du-rez-de-chaussee-y-compris-winners-reprennent-leurs-activites"
       ]
     },
     {
-      "id": "singleton_f081f255d97e",
+      "id": "singleton_6dcb63c032d7",
       "cluster_time": "2026-03-29T08:30:00+00:00",
       "category": "local",
       "headline": "Kushal Lobine, leader de Nouveaux Démocrates : «Priorité au pays plutôt qu’aux calculs politiques»",
@@ -1194,7 +1194,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/kushal-lobine-leader-de-nouveaux-democrates-priorite-au-pays-plutot-quaux-calculs-politiques"
+        "https://defimedia.info/kushal-lobine-leader-de-nouveaux-democrates-priorite-au-pays-plutot-quaux-calculs-politiques"
       ]
     },
     {
@@ -1731,7 +1731,7 @@
       ]
     },
     {
-      "id": "singleton_c93dc6063336",
+      "id": "singleton_d87e800e9455",
       "cluster_time": "2026-03-29T08:00:00+00:00",
       "category": "local",
       "headline": "Jocelyn Chan Low, observateur politique : vers un nouveau parti et une possible partielle",
@@ -1742,11 +1742,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/jocelyn-chan-low-observateur-politique-vers-un-nouveau-parti-et-une-possible-partielle"
+        "https://defimedia.info/jocelyn-chan-low-observateur-politique-vers-un-nouveau-parti-et-une-possible-partielle"
       ]
     },
     {
-      "id": "singleton_4006abb31d57",
+      "id": "singleton_85ef5c9ddc41",
       "cluster_time": "2026-03-29T07:39:00+00:00",
       "category": "local",
       "headline": "[Blog] Torturing a toddler: the case of Karim Abu Nassar",
@@ -1757,11 +1757,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/blog-torturing-toddler-case-karim-abu-nassar"
+        "https://defimedia.info/blog-torturing-toddler-case-karim-abu-nassar"
       ]
     },
     {
-      "id": "singleton_5a2cc2478a76",
+      "id": "singleton_0994dd0d7fb4",
       "cluster_time": "2026-03-29T07:30:00+00:00",
       "category": "local",
       "headline": "Kaviraj Rookny, député du no 5 : «Rester comme minoritaire au sein du gouvernement n’est pas une option»",
@@ -1772,11 +1772,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/kaviraj-rookny-depute-du-no-5-rester-comme-minoritaire-au-sein-du-gouvernement-nest-pas-une-option"
+        "https://defimedia.info/kaviraj-rookny-depute-du-no-5-rester-comme-minoritaire-au-sein-du-gouvernement-nest-pas-une-option"
       ]
     },
     {
-      "id": "singleton_1979535abc60",
+      "id": "singleton_dcccb79c2ad9",
       "cluster_time": "2026-03-29T07:00:00+00:00",
       "category": "local",
       "headline": "Rajesh Bhagwan, secrétaire général du MMM : «Nous avons toujours respecté les instances»",
@@ -1787,7 +1787,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/rajesh-bhagwan-secretaire-general-du-mmm-nous-avons-toujours-respecte-les-instances"
+        "https://defimedia.info/rajesh-bhagwan-secretaire-general-du-mmm-nous-avons-toujours-respecte-les-instances"
       ]
     },
     {
@@ -1851,7 +1851,7 @@
       ]
     },
     {
-      "id": "singleton_680ac4536c08",
+      "id": "singleton_273f52b5bd19",
       "cluster_time": "2026-03-29T06:44:00+00:00",
       "category": "local",
       "headline": "Gabriella Batour : «Ma présence est une affirmation»",
@@ -1862,7 +1862,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/gabriella-batour-ma-presence-est-une-affirmation"
+        "https://defimedia.info/gabriella-batour-ma-presence-est-une-affirmation"
       ]
     },
     {
@@ -1881,7 +1881,7 @@
       ]
     },
     {
-      "id": "singleton_9a8ade3a85d9",
+      "id": "singleton_34ccb629ea81",
       "cluster_time": "2026-03-29T06:39:00+00:00",
       "category": "local",
       "headline": "Joanna Bérenger : «J’ai senti que le renouveau est le souhait majoritaire»",
@@ -1892,7 +1892,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/joanna-berenger-jai-senti-que-le-renouveau-est-le-souhait-majoritaire"
+        "https://defimedia.info/joanna-berenger-jai-senti-que-le-renouveau-est-le-souhait-majoritaire"
       ]
     },
     {
@@ -2001,7 +2001,7 @@
       ]
     },
     {
-      "id": "singleton_8ef4d478c202",
+      "id": "singleton_627cc200466f",
       "cluster_time": "2026-03-29T02:55:00+00:00",
       "category": "local",
       "headline": "\"No Kings\" protest - Manifestations contre Trump : les organisateurs revendiquent au moins 8 millions de personnes",
@@ -2012,7 +2012,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/no-kings-protest-manifestations-contre-trump-les-organisateurs-revendiquent-au-moins-8-millions-de"
+        "https://defimedia.info/no-kings-protest-manifestations-contre-trump-les-organisateurs-revendiquent-au-moins-8-millions-de"
       ]
     },
     {
@@ -2028,21 +2028,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c5y969pnxgvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_d89e59cb7943",
-      "cluster_time": "2026-03-29T00:02:36+00:00",
-      "category": "global",
-      "headline": "Prison phone call recordings raise questions over ex-Abercrombie boss' fitness for trial",
-      "summary": "Mike Jeffries' lawyers argue that he is suffering with dementia and late onset of Alzheimer's disease.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c2034ww6kqxo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -2103,36 +2088,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cj0vj36yd12o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_dc35d499be15",
-      "cluster_time": "2026-03-28T23:00:49+00:00",
-      "category": "regional",
-      "headline": "Shops and restaurants in Egypt told to close early as energy crisis deepens",
-      "summary": "Retail and dining premises will have to shut by 21:00 each night for the next month to conserve power.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC Africa"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c0rxz7ggv8go?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_88ba9ff338ce",
-      "cluster_time": "2026-03-28T21:04:30+00:00",
-      "category": "global",
-      "headline": "Frosting, sprinkles and layers of fun: Giant cake picnic hits Sydney",
-      "summary": "Hundreds of bakers head to the city's botanic gardens to share and savour their colourful creations.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c1w40dy58vwo?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
