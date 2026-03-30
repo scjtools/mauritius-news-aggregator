@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 173,
+  "item_count": 165,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-03-30T20:05:58.642270+00:00",
+      "cluster_time": "2026-03-30T23:53:30.802274+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 30 March 2026",
-      "summary": "Brent Crude Oil: USD 113.95 per barrel",
+      "summary": "Brent Crude Oil: USD 114.39 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-03-30T20:05:58.517042+00:00",
+      "cluster_time": "2026-03-30T23:53:30.625404+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 30 March 2026",
-      "summary": "Bitcoin (BTC): USD 66,498.67 (▼ -5.55% from last)",
+      "summary": "Bitcoin (BTC): USD 66,709.87 (▼ -5.25% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-03-30T20:05:58.156782+00:00",
+      "cluster_time": "2026-03-30T23:53:30.474763+00:00",
       "category": "finance",
       "headline": "Gold price – 30 March 2026",
-      "summary": "Gold (XAU): USD 4,510.40 (▲ +2.76% from last)",
+      "summary": "Gold (XAU): USD 4,517.10 (▲ +2.91% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,10 +49,10 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-03-30T20:05:57.700041+00:00",
+      "cluster_time": "2026-03-30T23:53:30.186851+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 30 March 2026",
-      "summary": "MUR/USD 46.81 | MUR/EUR 53.82 (▲ 0.32 from last) (▲ 0.13 from last)",
+      "summary": "MUR/USD 46.81 | MUR/EUR 53.78 (▲ 0.32 from last) (▲ 0.09 from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-03-30T20:05:54.917439+00:00",
+      "cluster_time": "2026-03-30T23:53:27.570702+00:00",
       "category": "finance",
       "headline": "SEMDEX – 30 March 2026",
       "summary": "SEMDEX closed at 2213.64 (▼ 9.56 pts, -0.43% from last close 2,223.20)",
@@ -79,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-03-30T20:05:50.568673+00:00",
+      "cluster_time": "2026-03-30T23:53:22.845943+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 30 March 2026",
       "summary": "Weather news for Mauritius issued at 16h30 on Monday 30 March 2026.General situation:1. Clouds coming from the East will influence the local weather during the night and tomorrow morning.2. Our region remains under the influence of a light and moist airstream, conducive for local cloud formation tomorrow afternoon.Forecast for the next 24 hours:Partly cloudy in general during the night and tomorrow morning, becoming sometimes cloudy mainly over the Eastern part of the island and over the highgrounds with showers. The showers may be sometimes of moderate intensity.Rather distant thunderstorms are likely during the night.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Cloud developments are expected tomorrow afternoon to the West, the South West and over part of the central plateau with localised showers.These showers may be temporarily of moderate intensity.Elsewhere, the weather will be mainly fair.The maximum temperature will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind light and variable during the night, blowing from the East-Northeast at about 15 km/h tomorrow.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.In case of thunderstorms, the public is advised to remain in safe places and avoid open areas, hiking, sea ventures and sheltering under trees during thundery showers.High tides :Tomorrow 00h37 and 12h18.Low tides :18h25 and tomorrow 06h45.Sunset :18h12.Sunrise (tomorrow) :06h17.Atmospheric pressure at 16h00:1012 hectopascals.",
@@ -90,6 +90,261 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "singleton_52bd09c0881a",
+      "cluster_time": "2026-03-30T23:10:44+00:00",
+      "category": "global",
+      "headline": "Inside the cockpit of RAF tanker during defensive mission against Iranian drones",
+      "summary": "Defence correspondent Jonathan Beale flies onboard an RAF Voyager as it refuels jets in the Middle East.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cdrmg6x2rgxo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "0bc502dc950c",
+      "cluster_time": "2026-03-30T22:57:15+00:00",
+      "category": "global",
+      "headline": "Céline Dion announces comeback shows in Paris after incurable diagnosis",
+      "summary": "[BBC News] The star was diagnosed with a rare condition that affects her singing voice and her ability to walk.\n\n[France 24] On her 58th birthday, Céline Dion announced her return to the stage with 10 concerts in Paris this fall, marking her first major performances since pausing her career for health reasons. The news was highlighted by a Paris-wide ad campaign and a light show on the Eiffel Tower.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c0708dkm2lko?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/europe/20260330-c%C3%A9line-dion-makes-her-big-comeback-with-concerts-in-paris-after-six-year-hiatus"
+      ]
+    },
+    {
+      "id": "singleton_498e1379e584",
+      "cluster_time": "2026-03-30T22:14:30+00:00",
+      "category": "global",
+      "headline": "US says Trump ‘interested’ in asking Arab countries to pay for war on Iran",
+      "summary": "White House's Karoline Leavitt says passing the conflict's costs off to regional states is 'an idea' Donald Trump has.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/30/us-says-trump-interested-in-asking-arab-countries-to-pay-for-war-on-iran?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "45bcf7a5c5fb",
+      "cluster_time": "2026-03-30T21:57:52+00:00",
+      "category": "global",
+      "headline": "How the US could try to seize Iran's Kharg Island",
+      "summary": "[BBC News] Donald Trump has indicated he could send troops to take control of Iran's key oil export terminal.\n\n[France 24] US President Donald Trump on Monday threatened to destroy Iran’s key oil export hub at Kharg Island and other critical infrastructure unless Tehran swiftly agrees to a deal to end the US-Israeli war, sharply escalating tensions in an already volatile region. The warning has rattled global energy markets and raised fears of a broader conflict, as Iran signals potential retaliation and moves to tighten control over the strategic Strait of Hormuz.\n\n[France 24] US President Donald Trump threatened on March 30 to destroy Iran's crude export hub of Kharg Island, along with its oil wells and power plants, unless Tehran quickly accepted a peace deal. He also claimed that the United States was in 'serious discussions' with 'a more reasonable regime' in Tehran. 'While Trump points in one direction, empirical evidence seems to point the other way' says FRANCE 24's Douglas Herbert.\n\n[France 24] What could possibly go wrong? As Donald Trump repeats threats of a Venezuela-style seizing of Tehran’s oil exports, as US assault troops get in position, the price of oil blowing past 110 dollars a barrel, and as markets take it at face value that the Pentagon's planning to make a grab for Kharg Island - the hub for nearly 90-percent of Iranian crude exports...",
+      "cluster_size": 4,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c937gd1vq7xo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/middle-east/20260330-trump-threatens-to-obliterate-iran-kharg-island-oil-hub-if-no-deal-reached-usa-strait-of-hormuz",
+        "https://www.france24.com/en/while-trump-vows-iran-deal-on-the-way-evidence-points-to-another-direction",
+        "https://www.france24.com/en/tv-shows/the-debate/20260330-boots-on-the-ground-trump-eyes-iran-oil-hub-kharg-island"
+      ]
+    },
+    {
+      "id": "singleton_036df65ae79e",
+      "cluster_time": "2026-03-30T21:39:49+00:00",
+      "category": "global",
+      "headline": "'The hypocrisy was so stark' expert says, as US reverses course on Cuba oil blockade",
+      "summary": "Speaking with FRANCE 24's Sharon Gaffney, Helen Yaffe, Professor of Latin American Political Economy at the University of Glasgow, describes the \"stark hypocrisy\" of the Trump administration's complaints about Iran blocking free movement on the seas while at the same time weaponising starvation by denying the Cuban people oil. The US has allowed a sanctioned Russian tanker to deliver fuel to the island for humanitarian reasons, saying such decisions would be handled on a ​case-by-case basis.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/a-propos/20260330-the-hypocrisy-was-so-stark-expert-says-as-us-reverses-course-on-cuba-oil-blockade"
+      ]
+    },
+    {
+      "id": "singleton_ac883bc347a1",
+      "cluster_time": "2026-03-30T21:38:02+00:00",
+      "category": "global",
+      "headline": "Social media firms must better enforce Australia under-16 ban, watchdog says",
+      "summary": "Regulator eSafety says it has concerns about how Facebook, Instagram, Snapchat, TikTok and YouTube are complying with the ban.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cy4181pkxl2o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "44128b093b60",
+      "cluster_time": "2026-03-30T21:29:12+00:00",
+      "category": "global",
+      "headline": "Palestinians convicted of deadly attacks face death penalty under new Israeli law",
+      "summary": "[BBC News] The new law, passed on Monday, was pushed hard by the far-right and Security Minister Itamar Ben-Gvir.\n\n[France 24] Israel's parliament on Monday passed a law approving the death penalty for Palestinians convicted on terror charges of carrying out deadly attacks on Israelis. The law, which also allows the courts to impose the death penalty on Israeli citizens, has been harshly criticised by Israeli and Palestinian rights groups.\n\n[Al Jazeera] Rights groups denounce Israeli legislation as a violation of international law that puts Palestinian prisoners at risk.\n\n[Al Jazeera] Palestinian Authority calls the bill a 'war crime' against Palestinians, says it breaches the Fourth Geneva Convention.",
+      "cluster_size": 4,
+      "source_count": 3,
+      "sources": [
+        "BBC News",
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cp8dkd6lnjdo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/middle-east/20260330-israel-legalises-death-penalty-for-palestinians-convicted-of-murdering-israelis",
+        "https://www.aljazeera.com/news/2026/3/30/dangerous-escalation-world-reacts-to-israel-passing-death-penalty-law?traffic_source=rss",
+        "https://www.aljazeera.com/news/2026/3/30/israel-passes-discriminatory-death-penalty-bill-targeting-palestinians?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_16a8ff3ca82e",
+      "cluster_time": "2026-03-30T21:12:29+00:00",
+      "category": "global",
+      "headline": "Gazan mother reunited with evacuated daughter after two years",
+      "summary": "The girl is among at least eight children who were premature newborns when they were evacuated during heavy fighting in Gaza at the start of the war.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/czex10lngzjo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "084c67f743c3",
+      "cluster_time": "2026-03-30T21:03:45+00:00",
+      "category": "global",
+      "headline": "Houthi attacks stoke fears of more shipping disruption",
+      "summary": "[France 24] Global oil prices continued to surge after Yemen's Houthi rebels entered the war, launching attacks on Israeli targets. The Iran-allied militants had previously attacked commercial ships passing through Bab el-Mandep, a maritime chokepoint between the Red Sea and the Gulf of Aden, during Israel's war with Hamas. The weekend events stoked fears of wider disruption to the global energy and goods trade as the strait is crucial for shipping between Europe and Asia via the Suez Canal.\n\n[France 24] As Iran’s Houthi allies enter the conflict, Iran has threatened to disrupt shipping in the Bab al-Mandab Strait – a strategic waterway linking the Gulf of Aden to the Red Sea and the Suez Canal – with the help of its Houthi allies in Yemen. While disruptions in the Strait of Hormuz primarily affect Asia, blocking access to the Gulf of Aden could affect European energy supplies and imports from Asia.",
+      "cluster_size": 2,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/business/20260330-houthi-attacks-stoke-fears-of-more-shipping-disruption",
+        "https://www.france24.com/en/middle-east/20260330-will-iranian-backed-yemen-houthis-rebels-block-the-bab-al-mandeb-strait"
+      ]
+    },
+    {
+      "id": "singleton_d498ddb401f8",
+      "cluster_time": "2026-03-30T21:03:25+00:00",
+      "category": "global",
+      "headline": "The war in Iran: Key takeaways from Al Jazeera’s interview with Marco Rubio",
+      "summary": "US Secretary of State Marco Rubio spoke to Al Jazeera’s Hashem Ahelbarra about Iran war objectives.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/30/the-war-in-iran-key-takeaways-from-al-jazeeras-interview-with-marco-rubio?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "4c105c142984",
+      "cluster_time": "2026-03-30T20:54:28+00:00",
+      "category": "global",
+      "headline": "Shock, sadness and relief in town at centre of Australia's seven-month manhunt for Dezi Freeman",
+      "summary": "[BBC News] The Australian town has been in the spotlight since Dezi Freeman shot dead two police officers last year.\n\n[BBC News] Freeman has been wanted since the fatal shooting of two police officers in Porepunkah in August.",
+      "cluster_size": 2,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cq59wj31vl4o?at_medium=RSS&at_campaign=rss",
+        "https://www.bbc.com/news/articles/c93e4gxn22wo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_6560b1a91135",
+      "cluster_time": "2026-03-30T20:19:55+00:00",
+      "category": "global",
+      "headline": "Nigeria's gasoline pump ⁠prices rise by 65%, ​highest in Africa",
+      "summary": "In tonight's edition, Nigerians are feeling the consequences of the war in the Middle East at the pump, with gas prices soaring. Also, the Democratic Republic of Congo's armed forces begin a disarmament push against the FDLR, a militia linked to the Rwandan genocide in 1994. And in South Africa, a mine owner has reached an understanding with illegal miners, allowing them limited access to his property once formal operations end for the day.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/nigeria-s-gasoline-pump-prices-rise-by-65-highest-in-africa"
+      ]
+    },
+    {
+      "id": "0cfe2a27b6cf",
+      "cluster_time": "2026-03-30T20:11:25+00:00",
+      "category": "global",
+      "headline": "Most Syrian refugees in Germany expected to return home in three years, Merz says",
+      "summary": "[BBC News] Merz’s government has taken a tougher line on refugees and migrants, amid surging support for the anti-immigration AfD party.\n\n[France 24] Germany's Chancellor Friedrich Merz said on Monday that he and Syrian President Ahmed al-Sharaa agreed the vast majority of Syrian immigrants living in Germany should return to their homeland over the next three years. Al-Sharaa met Merz in Berlin – making his first presidential visit to Germany, which is home to the largest Syrian diaspora in Europe.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cy41vqx4pdzo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/europe/20260330-germany-s-merz-says-80-percent-of-syrian-immigrants-should-return-home"
+      ]
+    },
+    {
+      "id": "singleton_524893ee5c38",
+      "cluster_time": "2026-03-30T20:06:08+00:00",
+      "category": "regional",
+      "headline": "Touadera sworn in for third term as Central African Republic president",
+      "summary": "Central African President Faustin-Archange Touadera on Monday pledged to buttress security and peace as he was sworn in for a third term in one of the world's poorest and most volatile countries",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/30/touadera-sworn-in-for-third-term-as-central-african-republic-president/"
+      ]
+    },
+    {
+      "id": "singleton_90e8e7b2f4de",
+      "cluster_time": "2026-03-30T19:51:28+00:00",
+      "category": "global",
+      "headline": "Fake images falsely claim Iran captured US marines on Kharg Island",
+      "summary": "Fake images falsely claim Iran captured US marines on Kharg Island",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/fake-images-falsely-claim-iran-captured-us-marines-on-kharg-island"
+      ]
+    },
+    {
+      "id": "singleton_95b17b14bc8f",
+      "cluster_time": "2026-03-30T19:50:00+00:00",
+      "category": "global",
+      "headline": "Rubio denies US actions punitive, blames Cuba for economic failures",
+      "summary": "In exclusive interview with Al Jazeera, the US secretary of state downplays US role in the island nation's fuel crisis.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/3/30/rubio-denies-us-punitive-actions-blames-cuba-for-economic-failures?traffic_source=rss"
       ]
     },
     {
@@ -140,7 +395,7 @@
       ]
     },
     {
-      "id": "6f7f2920a2b9",
+      "id": "cdd81cddfaec",
       "cluster_time": "2026-03-30T19:14:12+00:00",
       "category": "global",
       "headline": "Two Indonesian UN peacekeepers killed in explosion in Lebanon",
@@ -237,36 +492,6 @@
       ]
     },
     {
-      "id": "singleton_7ef3008507dc",
-      "cluster_time": "2026-03-30T18:19:55+00:00",
-      "category": "global",
-      "headline": "Israel legalises death penalty for Palestinians convicted of murdering Israelis",
-      "summary": "Israel's parliament on Monday passed a law approving the death penalty for Palestinians convicted on terror charges of carrying out deadly attacks on Israelis. The law, which also allows the courts to impose the death penalty on Israeli citizens, has been harshly criticised by Israeli and Palestinian rights groups.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/middle-east/20260330-israel-legalises-death-penalty-for-palestinians-convicted-of-murdering-israelis"
-      ]
-    },
-    {
-      "id": "singleton_cdda8b8e4175",
-      "cluster_time": "2026-03-30T18:14:43+00:00",
-      "category": "global",
-      "headline": "Boots on the ground? Trump eyes Iran oil hub Kharg Island",
-      "summary": "What could possibly go wrong? As Donald Trump repeats threats of a Venezuela-style seizing of Tehran’s oil exports, as US assault troops get in position, the price of oil blowing past 110 dollars a barrel, and as markets take it at face value that the Pentagon's planning to make a grab for Kharg Island - the hub for nearly 90-percent of Iranian crude exports...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/the-debate/20260330-boots-on-the-ground-trump-eyes-iran-oil-hub-kharg-island"
-      ]
-    },
-    {
       "id": "singleton_e067e6e903cd",
       "cluster_time": "2026-03-30T18:13:45+00:00",
       "category": "global",
@@ -279,37 +504,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cp3l1422d3qo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_60e9b5cbe185",
-      "cluster_time": "2026-03-30T18:08:12+00:00",
-      "category": "global",
-      "headline": "Most Syrian refugees in Germany expected to return home in three years, Merz says",
-      "summary": "Merz’s government has taken a tougher line on refugees and migrants, amid surging support for the anti-immigration AfD party.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cy41vqx4pdzo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "4c105c142984",
-      "cluster_time": "2026-03-30T18:01:03+00:00",
-      "category": "global",
-      "headline": "Shock, sadness and relief in town at centre of Australia's seven-month manhunt for Dezi Freeman",
-      "summary": "[BBC News] The Australian town has been in the spotlight since Dezi Freeman shot dead two police officers last year.\n\n[BBC News] Freeman has been wanted since the fatal shooting of two police officers in Porepunkah in August.",
-      "cluster_size": 2,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cq59wj31vl4o?at_medium=RSS&at_campaign=rss",
-        "https://www.bbc.com/news/articles/c93e4gxn22wo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -332,7 +526,7 @@
       "cluster_time": "2026-03-30T17:20:51+00:00",
       "category": "global",
       "headline": "ICE announces death of another Mexican detainee in US immigration custody",
-      "summary": "Mexico's President Claudia Sheinbaum says her country will take steps to protest death of another Mexican citizen in US.",
+      "summary": "Mexico says it will protest the death of another Mexican citizen, one of about 14 detainees to die in custody this year.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -370,21 +564,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/news/2026/3/30/g7-ready-to-take-necessary-measures-to-ensure-energy-market-stability?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_a3aa9c96f541",
-      "cluster_time": "2026-03-30T16:55:37+00:00",
-      "category": "global",
-      "headline": "Bab al-Mandab strait: Iran’s Houthi allies enter the conflict, raising fears over key trade route",
-      "summary": "As Iran’s Houthi allies enter the conflict, Iran has threatened to disrupt shipping in the Bab al-Mandab Strait – a strategic waterway linking the Gulf of Aden to the Red Sea and the Suez Canal – with the help of its Houthi allies in Yemen. While disruptions in the Strait of Hormuz primarily affect Asia, blocking access to the Gulf of Aden could affect European energy supplies and imports from Asia.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/middle-east/20260330-will-iranian-backed-yemen-houthis-rebels-block-the-bab-al-mandeb-strait"
       ]
     },
     {
@@ -508,21 +687,6 @@
       ]
     },
     {
-      "id": "singleton_eafb19f997ad",
-      "cluster_time": "2026-03-30T16:13:00+00:00",
-      "category": "global",
-      "headline": "We dug up medics in Gaza. A year later, international law remains buried",
-      "summary": "Israel has created an environment of impunity for attacks on healthcare that has spread well beyond Gaza's borders.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/3/30/we-dug-up-medics-in-gaza-a-year-later-international-law-remains-buried?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_51b9e4c05d60",
       "cluster_time": "2026-03-30T16:09:40+00:00",
       "category": "regional",
@@ -535,21 +699,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/30/drone-warfare-intensifies-in-sudans-kordofan/"
-      ]
-    },
-    {
-      "id": "singleton_0fef38fe4589",
-      "cluster_time": "2026-03-30T16:04:49+00:00",
-      "category": "global",
-      "headline": "Heavy rain, floods kill at least 45 people in Afghanistan, Pakistan",
-      "summary": "At least 28 people are killed in Afghanistan and 17 in Pakistan after heavy rainfall causes severe flooding.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/30/heavy-rain-floods-kill-at-least-45-people-in-afghanistan-pakistan?traffic_source=rss"
       ]
     },
     {
@@ -583,53 +732,6 @@
       ]
     },
     {
-      "id": "e0b649d37a5b",
-      "cluster_time": "2026-03-30T15:58:13+00:00",
-      "category": "global",
-      "headline": "FIFA World Cup will be held amid ‘human rights crisis’ in the US: Amnesty",
-      "summary": "[Al Jazeera] Rights group says football tournament in Canada, Mexico and US poses risks for fans from local communities and abroad.\n\n[Africanews] This summer’s World Cup is being billed as a celebration of global football but not everyone is convinced it will feel that way on the ground.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/3/30/fifa-world-cup-will-be-held-amid-human-rights-crisis-in-the-us-amnesty?traffic_source=rss",
-        "http://www.africanews.com/2026/03/30/world-cup-2026-under-fire-as-amnesty-warns-of-human-rights-risks-for-fans/"
-      ]
-    },
-    {
-      "id": "singleton_3b36d40b43cd",
-      "cluster_time": "2026-03-30T15:51:18+00:00",
-      "category": "global",
-      "headline": "Trump threatens to ‘blow up’ desalination plants in Iran if no deal reached",
-      "summary": "Legal expert says targeting civilian sites would be 'collective punishment', which is prohibited under laws of war.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/30/trump-threatens-to-blow-up-all-desalination-plants-in-iran?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_437e56946855",
-      "cluster_time": "2026-03-30T15:46:04+00:00",
-      "category": "global",
-      "headline": "Is the US ready to invade Iran? What Trump’s moves tell us so far",
-      "summary": "Seizing strategic islands and destroying Iran's stock of enriched uranium are options the US is considering.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/30/is-the-us-ready-to-invade-iran-what-trumps-moves-tell-us-so-far?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_df0a960dda7d",
       "cluster_time": "2026-03-30T15:42:22+00:00",
       "category": "regional",
@@ -657,36 +759,6 @@
       ],
       "urls": [
         "https://www.bbc.com/sport/football/articles/cwyd1zpy81mo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_5994254d9043",
-      "cluster_time": "2026-03-30T15:40:26+00:00",
-      "category": "global",
-      "headline": "‘Loyalty campaign’: Iraqi armed groups in Iran as US talks of ground war",
-      "summary": "Fighters from a major Iraqi pro-Iran armed group have entered the country, carrying aid — and a signal of support.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/30/loyalty-campaign-iraqi-armed-groups-in-iran-as-us-talks-of-ground?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_ac0257f365db",
-      "cluster_time": "2026-03-30T15:31:25+00:00",
-      "category": "global",
-      "headline": "While Trump vows Iran deal on the way, 'evidence points to another direction'",
-      "summary": "US President Donald Trump threatened on March 30 to destroy Iran's crude export hub of Kharg Island, along with its oil wells and power plants, unless Tehran quickly accepted a peace deal. He also claimed that the United States was in 'serious discussions' with 'a more reasonable regime' in Tehran. 'While Trump points in one direction, empirical evidence seems to point the other way' says FRANCE 24's Douglas Herbert.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/while-trump-vows-iran-deal-on-the-way-evidence-points-to-another-direction"
       ]
     },
     {
@@ -750,37 +822,18 @@
       ]
     },
     {
-      "id": "59297f24d5b4",
-      "cluster_time": "2026-03-30T14:54:47+00:00",
-      "category": "global",
-      "headline": "How the US could try to seize Iran's Kharg Island",
-      "summary": "[BBC News] Donald Trump has indicated he could send troops to take control of Iran's key oil export terminal.\n\n[Al Jazeera] Donald Trump says US forces could seize Iran's oil export hub at Kharg Island as the war enters its second month.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c937gd1vq7xo?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/economy/2026/3/30/trump-wants-to-take-irans-oil-can-he-and-what-would-that-mean?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "cbf8c65baf1d",
+      "id": "singleton_2ae2119527fb",
       "cluster_time": "2026-03-30T14:46:15+00:00",
       "category": "global",
       "headline": "Russian oil tanker reaches Cuba after Trump appears to loosen blockade",
-      "summary": "[BBC News] The tanker has reached Cuban waters just hours after Donald Trump said he had \"no problem\" with it.\n\n[France 24] A Russian oil tanker has reached Cuba, bringing a much-needed shipment to the oil-starved nation. The shipment of oil would be the first to Havana since January, when US forces abducted Venezuelan president and Cuban ally Nicolas Maduro in a raid. This comes after US President Donald Trump signalled to a softening of the blockade against the island nation. FRANCE 24's Philip Turle looks into this change of course from Trump, and what could be behind it.",
-      "cluster_size": 2,
-      "source_count": 2,
+      "summary": "The tanker has reached Cuban waters just hours after Donald Trump said he had \"no problem\" with it.",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "BBC News",
-        "France 24"
+        "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/czrevyx28z2o?at_medium=RSS&at_campaign=rss",
-        "https://www.france24.com/en/russian-oil-arrives-in-cuba-following-trump-turnaround-on-cuban-blockade"
+        "https://www.bbc.com/news/articles/czrevyx28z2o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -814,37 +867,6 @@
       ]
     },
     {
-      "id": "131de72f0a1e",
-      "cluster_time": "2026-03-30T14:37:33+00:00",
-      "category": "global",
-      "headline": "Ukraine signs defence agreements with Gulf Nations eager to fend off Iranian drones",
-      "summary": "[France 24] The Ukrainian president has hailed \"historic\" defence agreements with several Middle Eastern countries after his visit to the region last week. Volodymyr Zelensky has been seeking to capitalise on his military's drone-fighting prowess as countries like the United Arab Emirates and Saudi Arabia continue to come under attack from Iranian drones and missiles. The president has insisted that any deal should also benefit Ukraine -- which is seeking expensive air defence missiles.\n\n[France 24] Ukrainian President Volodymyr Zelensky on Monday said he signed \"historic\" agreements with countries in the Middle East last week, including sharing Ukrainian expertise on downing drones as Iranian strikes continue to target Gulf countries. Ukraine has previously proposed an exchange of its drone interceptors for the Gulf's air defence missiles.",
-      "cluster_size": 2,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/ukraine-signs-defence-agreements-with-gulf-nations-eager-to-fend-off-iranian-drones",
-        "https://www.france24.com/en/europe/20260330-zelensky-hails-historic-defence-agreements-with-gulf-states"
-      ]
-    },
-    {
-      "id": "singleton_be1a16c85150",
-      "cluster_time": "2026-03-30T14:34:18+00:00",
-      "category": "global",
-      "headline": "New Paris mayor vows to tackle systemic abuse in after-school programmes",
-      "summary": "Paris' new mayor Emmanuel Grégoire officially started on March 30. His first promise has been to tackle child abuse in after-school programmes, an issue that was at the centre of the latest municipal elections. Emmanuel Grégoire was himself a victim of abuse in an after-school programme, which he made public last September. The issue is not specific to Paris - cases have appeared all over France. FRANCE 24's Solange Mougin looks into the issue.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/new-paris-mayor-vows-to-tackle-systemic-abuse-in-after-school-programmes"
-      ]
-    },
-    {
       "id": "singleton_a37cc0906368",
       "cluster_time": "2026-03-30T14:22:02+00:00",
       "category": "regional",
@@ -857,51 +879,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/30/kenyas-wastepreneurs-turn-food-waste-into-opportunity/"
-      ]
-    },
-    {
-      "id": "singleton_e7a1b2bb6e59",
-      "cluster_time": "2026-03-30T14:21:57+00:00",
-      "category": "global",
-      "headline": "Music show: Arlo Parks going dancefloor, Italian electro pop and Breton psych rock",
-      "summary": "This week on arts24 we welcome on set Italian electro pop artist Gaia Banfi, whose new album \"La Maccaia\" takes us to the Gulf of Genoa. We also have a chat with psych rock Breton band Komodor and check out Arlo Parks' long-awaited third album \"Ambiguous Desire\".",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/arts24/20260330-music-show-arlo-parks-going-dancefloor-italian-electro-pop-and-breton-psych-rock"
-      ]
-    },
-    {
-      "id": "singleton_7171e16518ab",
-      "cluster_time": "2026-03-30T14:21:00+00:00",
-      "category": "global",
-      "headline": "Rubio says Strait of Hormuz to reopen ‘one way or another’ amid Iran war",
-      "summary": "In an exclusive interview, top US diplomat says Trump seeks diplomacy and demands Iran end nuclear, missile programme.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/3/30/rubio-tells-al-jazeera-strait-of-hormuz-will-reopen-one-way-or-another?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_36d2ae1826c0",
-      "cluster_time": "2026-03-30T14:14:32+00:00",
-      "category": "global",
-      "headline": "US not 'postured' for another Iraq 2003: Iran maintains vast, 'high-quality military capability'",
-      "summary": "Genie Godula is pleased to welcome Michael Knights, Adjunct Fellow at The Washington Institute and Head of Research at Horizon Engage. He examines the evolving military dynamics between the US and Iran, focusing on the operational possibilities available to US forces and the structural resilience of Iran’s defence strategy. According to Knights, decisive, large-scale invasions are highly unlikely. He argues that while the US possesses the capacity to execute targeted missions, Iran remains a for",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/us-not-postured-for-another-iraq-2003-iran-maintains-vast-high-quality-military-capability"
       ]
     },
     {
@@ -952,21 +929,6 @@
       ]
     },
     {
-      "id": "singleton_c3d4e654842b",
-      "cluster_time": "2026-03-30T13:47:23+00:00",
-      "category": "global",
-      "headline": "Kenya’s former New York marathon champion Korir gets five-year doping ban",
-      "summary": "Korir tested positive for a drug that stimulates red blood cell production during out-of-competition tests.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/3/30/kenyas-former-new-york-marathon-champion-korir-gets-five-year-doping-ban?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_910bf6eb1420",
       "cluster_time": "2026-03-30T13:42:00+00:00",
       "category": "local",
@@ -995,36 +957,6 @@
       "urls": [
         "https://defimedia.info/affaire-des-coffres-forts-le-role-de-linformateur-evoque",
         "https://defimedia.info/affaire-des-coffres-forts-ce-quil-faut-retenir-de-laudition-de-linspecteur-ramdoo"
-      ]
-    },
-    {
-      "id": "singleton_ff6592627799",
-      "cluster_time": "2026-03-30T13:38:45+00:00",
-      "category": "global",
-      "headline": "Asian economies scramble to find solutions to war's impact on oil markets",
-      "summary": "Iran continues to cut off the strait of Hormuz as it retaliates for the US and Israel's campaign against the Islamic Republic. The strategy has been effective as it piles pressure on the United States to the end the war, with global energy prices continuing to soar. Over 80% of oil and gas typically passing through the Strait of Hormuz heads for Asia.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/asian-economies-scramble-to-find-solutions-to-war-s-impact-on-oil-markets"
-      ]
-    },
-    {
-      "id": "singleton_ba2eaa7c6d66",
-      "cluster_time": "2026-03-30T13:38:34+00:00",
-      "category": "global",
-      "headline": "One Lebanese soldier killed, Israel expands buffer zone in southern Lebanon",
-      "summary": "Israel renewed its bombardment of Beirut's southern suburbs on March 30 while continuing air strikes on Lebanon's south, one of which targeted an army checkpoint and killed a soldier. In south Lebanon, where state media reported a series of Israeli air strikes, the Lebanese army said one of its soldiers was killed and others wounded in an attack on one of its checkpoints in the Tyre region. FRANCE 24's Olivia Bizot tells us more from the ground in Beirut",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/one-lebanese-soldier-killed-israel-expands-buffer-zone-in-southern-lebanon"
       ]
     },
     {
@@ -1331,6 +1263,21 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/03/30/egypt-business-curfew-sparks-concern-among-traders-and-tourism-sector/"
+      ]
+    },
+    {
+      "id": "singleton_4ff68da81eb4",
+      "cluster_time": "2026-03-30T10:42:07+00:00",
+      "category": "regional",
+      "headline": "World Cup 2026 under fire as Amnesty warns of human rights risks for fans",
+      "summary": "This summer’s World Cup is being billed as a celebration of global football but not everyone is convinced it will feel that way on the ground.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/03/30/world-cup-2026-under-fire-as-amnesty-warns-of-human-rights-risks-for-fans/"
       ]
     },
     {
@@ -2577,66 +2524,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_aac662270dbd",
-      "cluster_time": "2026-03-29T23:50:21+00:00",
-      "category": "global",
-      "headline": "First stop, the Moon. Next stop, Mars? Why Nasa's mission matters",
-      "summary": "From a race with China to lunar discoveries, the US is investing time, effort and money to head to the Moon - and beyond.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cd6wp6xenv0o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_d76add1cdd8b",
-      "cluster_time": "2026-03-29T23:07:12+00:00",
-      "category": "global",
-      "headline": "Why Chinese tech companies are racing to set up in Hong Kong",
-      "summary": "Mainland firms are using the territory to test products and as a springboard for global expansion.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c8d5v404m96o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_bca52488e2c7",
-      "cluster_time": "2026-03-29T23:07:04+00:00",
-      "category": "global",
-      "headline": "Tech CEOs suddenly love blaming AI for mass job cuts. Why?",
-      "summary": "More tech leaders are pointing to job cuts caused by AI tools - and a need for more investment cash.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cde5y2x51y8o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_39cb15bc560d",
-      "cluster_time": "2026-03-29T21:29:56+00:00",
-      "category": "global",
-      "headline": "Thieves steal Renoir, Cézanne and Matisse paintings in three-minute Italian heist",
-      "summary": "The paintings were taken from a museum in Parma by four masked men in the middle of the night, police say.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cn4vw2xmpzzo?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
