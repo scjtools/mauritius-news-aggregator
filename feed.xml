@@ -4,64 +4,277 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Sun, 29 Mar 2026 23:08:20 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Mar 2026 04:46:34 +0000</lastBuildDate>
     <item>
-      <title>Brent Crude Oil price – 29 March 2026</title>
+      <title>Donald Trump set to lose midterm elections</title>
+      <link>https://www.reddit.com/r/NoFilterNews/comments/1p5hc74/fox_news_delivers_brutal_donald_trumps_approval/</link>
+      <description>Approval ratings for POTUS are tanking amidst the Iran war. Is America marching to its death?</description>
+      <source>Injected</source>
+      <category>global</category>
+      <cluster_time>2026-03-30T04:43:18.923691+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brent Crude Oil price – 30 March 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 115.23 per barrel</description>
+      <description>Brent Crude Oil: USD 115.35 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-03-29T23:05:02.481102+00:00</cluster_time>
+      <cluster_time>2026-03-30T04:43:18.920926+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 29 March 2026</title>
+      <title>Bitcoin price – 30 March 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 65,802.68 (▼ -6.54% from last)</description>
+      <description>Bitcoin (BTC): USD 67,356.86 (▼ -4.33% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-03-29T23:05:02.390379+00:00</cluster_time>
+      <cluster_time>2026-03-30T04:43:18.818032+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 29 March 2026</title>
+      <title>Gold price – 30 March 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,490.80 (▲ +2.31% from last)</description>
+      <description>Gold (XAU): USD 4,490.20 (▲ +2.30% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-03-29T23:05:01.962481+00:00</cluster_time>
+      <cluster_time>2026-03-30T04:43:17.962087+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 29 March 2026</title>
+      <title>MUR exchange rates – 30 March 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
       <description>MUR/USD 46.68 | MUR/EUR 53.79 (▲ 0.19 from last) (▲ 0.10 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-03-29T23:05:01.563604+00:00</cluster_time>
+      <cluster_time>2026-03-30T04:43:17.415569+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 29 March 2026</title>
+      <title>SEMDEX – 30 March 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2228.32 (▲ 5.12 pts, +0.23% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-03-29T23:04:59.021329+00:00</cluster_time>
+      <cluster_time>2026-03-30T04:43:14.851103+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Mauritius weather bulletin – 29 March 2026</title>
+      <title>Mauritius weather bulletin – 30 March 2026</title>
       <link>https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php</link>
-      <description>Termination Bulletin for Heavy Rain Watch for Mauritius issued at 22h15 on Sunday 29 March 2026 . Weather news for Mauritius issued at 16h45 on Sunday 29 March 2026.General situation:1. The heavy rain warning is terminated. However, a heavy rain watch is in force in Mauritius, valid till 10h30 tomorrow Monday 30 March 2026.2. Other active clouds are approaching Mauritius from the Southeast and will influence the weather as from this evening.Forecast for the next 24 hours:Moderate showers which may be heavy with thunderstorms are expected as from this evening till tomorrow morning especially to the East, South and over the central plateau.There may be water accumulations in flood prone areas.Visibility will be reduced due to fog and in showers.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.In the afternoon other clouds will develop to the South-West and over the central plateau with localised showers. These showers may be moderate with thunderstorms.The maximum temperature will be between 26 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius over the coastal regions.Wind will blow from the Northeast at about 15 km/h with peaks in showers.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.The public is advised to:1. remain in safe places and avoid open areas, hiking, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roads due to reduced visibility resulting from heavy rains and fog patches.High tides :Tomorrow 00h21 and 11h48.Low tides :17h59 and tomorrow 06h20.Sunset :18h13.Sunrise (tomorrow) :06h16.Atmospheric pressure at 16h00:1010 hectopascals.</description>
+      <description>Heavy Rain Warning for Mauritius issued at 05h45 on Monday 30 March 2026, valid till 18h00 today . Weather news for Mauritius issued at 05h45 on Monday 30 March 2026.General situation:1. A Heavy Rain Warning is in force in Mauritius valid till 18h00 today.2. The atmospheric conditions are still moist and unstable over our region.Forecast for the next 24 hours:Cloudy this morning with showers over the Eastern half of the island and over the central plateau. These showers will be locally heavy at times with isolated thunderstorms and spread to the other sectors during the day.There may be water accumulations in flood prone areas.Visibility will be reduced due to fog and in showers.The maximum temperature will be between 26 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius over the coastal regions.Localised showers will persist till the start of the evening to the west.The weather will gradually become fair during the night.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Wind will blow from the Northeast at about 15 km/h with peaks in showers.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.The public is advised to:1. remain in safe places and avoid open areas, hiking, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roads due to reduced visibility resulting from heavy rains and fog patches.High tides:11h48 and tomorrow 00h37.Low tides:06h20 and 18h25.Sunrise:06h16.Sunset:18h12.Atmospheric pressure at 04h00:1011 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-03-29T23:04:54.604121+00:00</cluster_time>
+      <cluster_time>2026-03-30T04:43:10.129932+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bypass de Flic-en-Flac et son prolongement vers l’avenue Kestrel — L’Audit brosse un sombre tableau…</title>
+      <link>https://www.lemauricien.com/actualites/societe/bypass-de-flic-en-flac-et-son-prolongement-vers-lavenue-kestrel-laudit-brosse-un-sombre-tableau/703036/</link>
+      <description>— … classant le Bypass (Flic-en-Flac/Pierrefonds) comme étant une infrastructure fantôme ! — Le chantier a démarré en juillet 2023, alors que la demande d’obtention du permis EIA a �...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-30T04:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Marco Bezzecchi wins USA MotoGP to extend perfect start to season</title>
+      <link>https://www.aljazeera.com/sports/2026/3/30/marco-bezzecchi-wins-usa-motogp-to-extend-perfect-start-to-season?traffic_source=rss</link>
+      <description>The Italian wins his fifth straight Grand Prix to take control of the world championship standings after three rounds.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-30T03:29:40+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>[Supplément spécial] Vacances de Pâques</title>
+      <link>https://defimedia.info/supplement-special-vacances-de-paques</link>
+      <description>Pâques dépasse la simple célébration : c’est un moment de foi, de traditions et de vie familiale. Du mercredi des Cendre</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-30T03:18:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump affirme vouloir « s’emparer du pétrole iranien »</title>
+      <link>https://defimedia.info/trump-affirme-vouloir-semparer-du-petrole-iranien</link>
+      <description>Le président américain Donald Trump a déclaré au journal Financial Times qu’il souhaitait « s’emparer du pétrole » en Ir</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-30T03:17:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Caf general secretary resigns amid Afcon final fallout</title>
+      <link>https://www.bbc.com/news/articles/cx2w8d1q70vo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] Veron Mosengo-Omba, a controversial figure, leaves at a turbulent time for African football.
+
+[Al Jazeera] Veron Mosengo-Omba's resignation follows the fallout over the CAF board's decision to strip Senegal of the AFCON title.
+
+[Africanews] Véron Mosengo-Omba has stepped down as general secretary of the Confederation of African Football after five years as the deputy head of African soccer’s governing body.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-30T02:58:14+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>3</source_count>
+      <cluster_id>2aba90a9030c</cluster_id>
+      <sources>BBC Africa
+Al Jazeera
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/cx2w8d1q70vo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/sports/2026/3/30/caf-general-secretary-quits-amid-afcon-final-controversy?traffic_source=rss
+http://www.africanews.com/2026/03/29/veron-mosengo-resigns-as-caf-general-secretary-after-five-years-in-leadership-role/</urls>
+      <titles>Caf general secretary resigns amid Afcon final fallout
+CAF general secretary quits amid AFCON final controversy
+Véron Mosengo resigns as CAF general secretary after five years in leadership role</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Orages et averses intenses : Maurice sous avertissement de fortes pluies jusqu’à 19 h</title>
+      <link>https://www.lemauricien.com/actualites/societe/orages-et-averses-intenses-maurice-sous-avertissement-de-fortes-pluies-jusqua-19-h/703023/</link>
+      <description>[Le Mauricien] La station météorologique de Vacoas a émis un avertissement de fortes pluies pour Maurice ce dimanche 29 mars 2026 à 12 h 45, valable jusqu’à 19 h. Selon le bulletin, des conditions atmosph�...
+
+[Le Mauricien] À la suite de l’avertissement de fortes pluies émis à 05h45 ce lundi 30 mars 2026 par la station météorologique de Maurice, plusieurs ministères ont annoncé la fermeture des établissements �...
+
+[Le Mauricien] La station météorologique de Maurice a émis, à 05h45 ce lundi 30 mars 2026, un avertissement de fortes pluies valable jusqu’à 18h00 aujourd’hui. Dans son dernier communiqué, la météo in...
+
+[Le Mauricien] Suite au communiqué de la météo émis ce lundi matin, le ministère de l’Égalité des genres et du Bien-être de la famille tient à informer le public que, les crèches seront fermées aujo...
+
+[Le Mauricien] Une veille de fortes pluies pour Maurice émis à 05h05 ce lundi 30 mars 2026, valable jusqu'à 18h00 aujourd'hui. Des averses modérées qui pourraient être fortes avec orages sont prévues ce ...
+
+[Defimedia] Un avertissement de fortes pluies est en vigueur à Maurice jusqu’à 19 h ce dimanche 29 mars, selon un bulletin spécial é
+
+[Defimedia] Un bulletin d’avertissement de fortes pluies pour Maurice a été émis à 05 h 45 ce lundi 30 mars 2026, valable jusqu’à 18
+
+[Defimedia] Suite à l’avis de fortes pluies émis ce matin par la station météorologique de Maurice, le ministère de l'Éducation et d
+
+[Defimedia] L’avertissement de fortes pluies émis plus tôt ce dimanche 29 mars 2026 à Maurice a été levé, les nuages influençant le</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-30T02:32:00+00:00</cluster_time>
+      <cluster_size>9</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>35a22b37a930</cluster_id>
+      <sources>Le Mauricien
+Defimedia</sources>
+      <urls>https://www.lemauricien.com/actualites/societe/orages-et-averses-intenses-maurice-sous-avertissement-de-fortes-pluies-jusqua-19-h/703023/
+https://www.lemauricien.com/actualites/societe/fortes-pluies-pas-de-classes-ce-lundi-dans-les-ecoles-colleges-centres-techniques-et-etablissements-du-superieur-2/703074/
+https://www.lemauricien.com/actualites/societe/fortes-pluies-un-avertissement-en-vigueur-a-maurice-jusqua-18h/703069/
+https://www.lemauricien.com/actualites/societe/fortes-pluies-les-creches-restent-fermees-ce-lundi-30-mars/703080/
+https://www.lemauricien.com/actualites/societe/la-meteo-du-lundi-30-mars/703063/
+https://defimedia.info/meteo-un-avertissement-de-fortes-pluies-en-vigueur-jusqua-19-h-ce-dimanche-29-mars-2026
+https://defimedia.info/meteo-un-avis-de-fortes-pluies-en-vigueur-maurice-jusqua-18-h-ce-lundi
+https://defimedia.info/avis-de-fortes-pluies-les-ecoles-restent-fermees-ce-lundi-30-mars
+https://defimedia.info/meteo-lavertissement-de-fortes-pluies-leve-une-veille-de-fortes-pluies-desormais-en-vigeur-jusqua</urls>
+      <titles>Orages et averses intenses : Maurice sous avertissement de fortes pluies jusqu’à 19 h
+Fortes pluies : écoles, collèges, crèches et établissements du supérieur fermés ce lundi
+Fortes pluies : météo Maurice émet un avertissement pour Maurice à 5h45
+Fortes pluies : les crèches restent fermées ce lundi 30 mars
+La météo du lundi 30 mars
+Météo : un avertissement de fortes pluies en vigueur jusqu’à 19 h ce dimanche 29 mars 2026
+Météo : un avis de fortes pluies en vigueur à Maurice jusqu’à 18 h ce lundi
+Avis de fortes pluies : les écoles restent fermées ce lundi 30 mars
+Météo : l’avertissement de fortes pluies levé, une veille de fortes pluies désormais en vigeur jusqu’à lundi matin</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Fortes pluies : pas de classes ce lundi dans les écoles, collèges, centres techniques et établissements du supérieur</title>
+      <link>https://www.lemauricien.com/actualites/societe/fortes-pluies-pas-de-classes-ce-lundi-dans-les-ecoles-colleges-centres-techniques-et-etablissements-du-superieur/703076/</link>
+      <description>Fortes pluies : pas de classes ce lundi dans les écoles, collèges, centres techniques et établissements du supérieur</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-30T02:24:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Avis de fortes pluies : les universités et centres d’enseignement de Polytechnics Mauritius resteront fermés</title>
+      <link>https://defimedia.info/avis-de-fortes-pluies-les-universites-et-centres-denseignement-de-polytechnics-mauritius-resteront</link>
+      <description>Avis de fortes pluies : les universités et centres d’enseignement de Polytechnics Mauritius resteront fermés, mais les c</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-03-30T02:12:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Amnesty warns 2026 World Cup across North American risks becoming ‘stage for repression’</title>
+      <link>https://www.france24.com/en/sport/20260330-amnesty-warns-2026-world-cup-north-america-stage-repression</link>
+      <description>Amnesty International warned on Monday that this summer’s World Cup in the United States, Canada and Mexico risks becoming a “stage for repression”, urging FIFA and host nations to protect rights. FIFA said it aims to ensure all participants feel safe, included and free to exercise their rights.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-30T01:14:34+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Live: Trump says he could seize Iran's Kharg Island as US ramps up troop buildup</title>
+      <link>https://www.france24.com/en/middle-east/20260330-live-trump-says-iran-has-undergone-regime-change-as-us-builds-up-troops</link>
+      <description>US ⁠President ​Donald ​Trump said he wants ​to &quot;take ‌the ⁠oil ‌in Iran&quot; ⁠and could seize ​the ‌export hub of Kharg ​Island, in an interview with ​Financial ​Times ​published on ​Sunday as about 2,500 US Marines arrived in the region. Follow our liveblog for the latest developments.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-30T01:03:36+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Oil tops $116 a barrel as Iran accuses US of preparing invasion</title>
+      <link>https://www.aljazeera.com/economy/2026/3/30/oil-rises-above-116-a-barrel-as-iran-accuses-us-of-preparing-invasion?traffic_source=rss</link>
+      <description>Crude prices continue to climb as world faces its biggest energy crisis in decades.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-30T00:53:36+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iranian attack damages Kuwait power and desalination plant, kills worker</title>
+      <link>https://www.aljazeera.com/news/2026/3/30/iranian-attack-damages-kuwait-power-and-desalination-plant-kills-worker?traffic_source=rss</link>
+      <description>Kuwaiti authorities say Indian worker killed in attack that also caused 'significant material damage' to building.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-30T00:52:55+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Netanyahu says Latin Patriarch will have full access to holy site</title>
+      <link>https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The Israeli PM said Cardinal Pierbattista Pizzaballa had been asked not to enter the church out of concern for his safety.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-30T00:41:58+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran war live: Trump says wants to take Iran’s oil; Kuwait power site hit</title>
+      <link>https://www.aljazeera.com/news/liveblog/2026/3/30/iran-war-live-worker-killed-in-kuwait-israel-intercepts-drones-from-yemen?traffic_source=rss</link>
+      <description>Kuwait says an Indian worker has been killed in an Iranian raid as attacks across the Gulf continue.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-30T00:00:44+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>No Kings protests draw large crowds to rally against Donald Trump</title>
+      <link>https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>One of the flagship No Kings rallies happened in Minnesota, where singer Bruce Springsteen performed to crowds.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-29T23:57:25+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -96,26 +309,6 @@ European nations criticise Israel’s death penalty plans</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Israeli police block Latin Patriarch from Palm Sunday mass in Jerusalem</title>
-      <link>https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] The move drew criticism from the church, global leaders and the US ambassador. Israel's PM said it was a safety measure following recent Iranian strikes.
-
-[France 24] Israeli police prevented the Latin Patriarch of Jerusalem from entering the Church of the Holy Sepulchre to celebrate Palm Sunday mass, according to the Latin Patriarchate of Jerusalem. It is not yet clear whether this blockade was intentional or a mistake from the Israeli police; in the meantime, some world leaders, including Italian Prime Minister Giorgia Meloni and French President Emmanuel Macron reacted condemning the event as an &quot;offense&quot; to faithful. France 24 correspondent Noga Tarnopols</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T21:39:08+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>041c96b1c635</cluster_id>
-      <sources>BBC News
-France 24</sources>
-      <urls>https://www.bbc.com/news/articles/cvg0128z41eo?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/israeli-police-bar-top-catholic-figure-in-jerusalem-from-holding-palm-sunday-mass-at-holy-sepulchre</urls>
-      <titles>Israeli police block Latin Patriarch from Palm Sunday mass in Jerusalem
-Israeli police bar top Catholic figure in Jerusalem from holding Palm Sunday mass at Holy Sepulchre</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Renoir, Cézanne and Matisse paintings stolen in Italian job</title>
       <link>https://www.bbc.com/news/articles/cn4vw2xmpzzo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The paintings were taken from a museum in Parma by four masked men in the middle of the night, police say.</description>
@@ -136,34 +329,14 @@ Israeli police bar top Catholic figure in Jerusalem from holding Palm Sunday mas
       <source_count>1</source_count>
     </item>
     <item>
-      <title>No Kings protests draw large crowds to rally against Donald Trump</title>
-      <link>https://www.bbc.com/news/articles/cq8wy7g1gd1o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>One of the flagship No Kings rallies happened in Minnesota, where singer Bruce Springsteen performed to crowds.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T20:42:32+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Pakistan offers to host US-Iran talks as Tehran warns ground troops would be 'set on fire'</title>
       <link>https://www.france24.com/en/middle-east/20260329-pakistan-offers-to-host-us-iran-talks-as-tehran-warns-ground-troops-would-be-set-on-fire</link>
-      <description>[France 24] Pakistan on Sunday said it would soon host talks between the United States and Iran over the monthlong war, positioning itself as a mediator as fighting intensifies across the region, global energy routes are shaken and fears grow of a broader conflict involving Israel, Lebanon and key maritime chokepoints.
-
-[Al Jazeera] Foreign ministers meet in Islamabad, seeking to de-escalate the US-Israel war on Iran.</description>
+      <description>Pakistan on Sunday said it would soon host talks between the United States and Iran over the monthlong war, positioning itself as a mediator as fighting intensifies across the region, global energy routes are shaken and fears grow of a broader conflict involving Israel, Lebanon and key maritime chokepoints.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-29T20:22:08+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>1643adcd7d4a</cluster_id>
-      <sources>France 24
-Al Jazeera</sources>
-      <urls>https://www.france24.com/en/middle-east/20260329-pakistan-offers-to-host-us-iran-talks-as-tehran-warns-ground-troops-would-be-set-on-fire
-https://www.aljazeera.com/news/2026/3/29/pakistan-maintains-delicate-balancing-act-as-it-hosts-iran-talks?traffic_source=rss</urls>
-      <titles>Pakistan offers to host US-Iran talks as Tehran warns ground troops would be 'set on fire'
-Pakistan maintains ‘delicate balancing act’ as it hosts Iran talks</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Italy investigates Sephora and Benefit over marketing skincare to children</title>
@@ -286,6 +459,16 @@ Victoria Urban Terminal : l’ensemble des opérations reprendra ce lundi, le ma
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Israeli police bar top Catholic figure in Jerusalem from holding Palm Sunday mass at Holy Sepulchre</title>
+      <link>https://www.france24.com/en/israeli-police-bar-top-catholic-figure-in-jerusalem-from-holding-palm-sunday-mass-at-holy-sepulchre</link>
+      <description>Israeli police prevented the Latin Patriarch of Jerusalem from entering the Church of the Holy Sepulchre to celebrate Palm Sunday mass, according to the Latin Patriarchate of Jerusalem. It is not yet clear whether this blockade was intentional or a mistake from the Israeli police; in the meantime, some world leaders, including Italian Prime Minister Giorgia Meloni and French President Emmanuel Macron reacted condemning the event as an &quot;offense&quot; to faithful. France 24 correspondent Noga Tarnopols</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-29T16:33:17+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Madame la Maire: Maureen Searle becomes the first English woman to run a French town</title>
       <link>https://www.france24.com/en/tv-shows/spotlight/20260329-mrs-la-maire-maureen-searle-becomes-the-first-foreign-born-woman-to-run-a-french-town</link>
       <description>In the last 2026 mayoral elections, for the first time a British woman, who acquired the French nationality after living in France for years, became the mayor of a French town. Maureen Searle speaks to Gavin Lee about her life and experience in France 24's Spotlight.</description>
@@ -380,32 +563,12 @@ Two new suspects arrested over foiled Bank of America bomb plot in Paris</titles
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Israeli police block Catholic cardinal from Holy Sepulchre on Palm Sunday</title>
-      <link>https://www.aljazeera.com/news/2026/3/29/israeli-police-block-catholic-cardinal-from-holy-sepulchre-on-palm-sunday?traffic_source=rss</link>
-      <description>Since the US and Israel launched a war on Iran, Israel has closed holy sites in Jerusalem, citing safety concerns.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T15:26:27+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Two Australian states offer free public transport as war pushes up fuel prices</title>
       <link>https://www.bbc.com/news/articles/c937n0yxggeo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Victoria and Tasmania incentivise commuters not to drive as the Iran war causes the price of petrol to shoot up.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-29T15:24:54+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Houthis open new front in Iran war: Will Yemeni group block Bab al-Mandeb?</title>
-      <link>https://www.aljazeera.com/news/2026/3/29/houthis-open-new-front-in-iran-war-will-yemeni-group-block-bab-al-mandeb?traffic_source=rss</link>
-      <description>Blockade of strait, one of the world's busiest maritime routes, would prove disastrous for global economy.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T15:09:51+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -418,26 +581,6 @@ Two new suspects arrested over foiled Bank of America bomb plot in Paris</titles
       <cluster_time>2026-03-29T15:06:53+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Caf general secretary resigns amid Afcon final fallout</title>
-      <link>https://www.bbc.com/news/articles/cx2w8d1q70vo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC Africa] Veron Mosengo-Omba, a controversial figure, leaves at a turbulent time for African football.
-
-[Africanews] Véron Mosengo-Omba has stepped down as general secretary of the Confederation of African Football after five years as the deputy head of African soccer’s governing body.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-29T15:05:41+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>a8f89d8a1109</cluster_id>
-      <sources>BBC Africa
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/cx2w8d1q70vo?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/03/29/veron-mosengo-resigns-as-caf-general-secretary-after-five-years-in-leadership-role/</urls>
-      <titles>Caf general secretary resigns amid Afcon final fallout
-Véron Mosengo resigns as CAF general secretary after five years in leadership role</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Senegal celebrate AFCON title at Stade de France friendly amid controversy</title>
@@ -466,16 +609,6 @@ Véron Mosengo resigns as CAF general secretary after five years in leadership r
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-29T15:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>African football chief will ‘respect’ CAS decision on AFCON final row</title>
-      <link>https://www.aljazeera.com/news/2026/3/29/african-football-chief-will-respect-cas-decision-on-afcon-final-row?traffic_source=rss</link>
-      <description>'I will respect and implement the CAS decision,' Patrice Motsepe says amid turbulent times in African football.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T14:52:13+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -529,16 +662,6 @@ Mediation talks in Islamabad: Middle East powers meet to discuss how to end the 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>‘Nowhere is really safe’: Iranian dissidents grapple with US war in Iran</title>
-      <link>https://www.aljazeera.com/features/longform/2026/3/29/nowhere-is-really-safe-iranian-dissidents-grapple-with-us-war-in-iran?traffic_source=rss</link>
-      <description>Critics of Iran's government say they fear retribution while in exile, as well as growing anti-immigrant sentiment.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T14:26:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Du soldat au hashtag, la longue mutation du «militant»</title>
       <link>https://defimedia.info/du-soldat-au-hashtag-la-longue-mutation-du-militant</link>
       <description>Du latin « militare » aux réseaux sociaux, le mot « militant » incarne la constance de la lutte. La linguiste Yannick Bo</description>
@@ -549,32 +672,12 @@ Mediation talks in Islamabad: Middle East powers meet to discuss how to end the 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Israeli footballer’s role in assault on southern Lebanon sparks outrage</title>
-      <link>https://www.aljazeera.com/sports/2026/3/29/israeli-footballers-role-in-assault-on-southern-lebanon-sparks-outrage?traffic_source=rss</link>
-      <description>Israeli Premier League player Menashe Zalka is seen opening fire with Israeli army soldiers in southern Lebanon assault.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T13:42:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>The law is coming for social media, with the science still uncertain</title>
       <link>https://www.france24.com/en/tv-shows/tech-24/20260329-the-law-is-coming-for-social-media-with-the-science-still-uncertain</link>
       <description>The law is finally catching up with social media. This week, a California jury found Meta and Google liable for addicting a child to their platforms. On Tuesday, the French Senate will vote to ban under-15s from social media, with other countries making similar plans. Is humanity saved? Or are things more complicated than that?</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-29T13:33:08+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran ‘hits’ US AWACS, air tankers: What else has it targeted in past month?</title>
-      <link>https://www.aljazeera.com/news/2026/3/29/iran-hits-us-awacs-air-tankers-what-else-has-it-targeted-in-past-month?traffic_source=rss</link>
-      <description>Iran reportedly hits E-3 Sentry flying radars, which track drones, missiles, aircraft from hundreds of kilometres away.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T13:33:05+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -609,30 +712,6 @@ Mediation talks in Islamabad: Middle East powers meet to discuss how to end the 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Orages et averses intenses : Maurice sous avertissement de fortes pluies jusqu’à 19 h</title>
-      <link>https://www.lemauricien.com/actualites/societe/orages-et-averses-intenses-maurice-sous-avertissement-de-fortes-pluies-jusqua-19-h/703023/</link>
-      <description>[Le Mauricien] La station météorologique de Vacoas a émis un avertissement de fortes pluies pour Maurice ce dimanche 29 mars 2026 à 12 h 45, valable jusqu’à 19 h. Selon le bulletin, des conditions atmosph�...
-
-[Defimedia] Un avertissement de fortes pluies est en vigueur à Maurice jusqu’à 19 h ce dimanche 29 mars, selon un bulletin spécial é
-
-[Defimedia] L’avertissement de fortes pluies émis plus tôt ce dimanche 29 mars 2026 à Maurice a été levé, les nuages influençant le</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T13:08:00+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>b5334183130f</cluster_id>
-      <sources>Le Mauricien
-Defimedia</sources>
-      <urls>https://www.lemauricien.com/actualites/societe/orages-et-averses-intenses-maurice-sous-avertissement-de-fortes-pluies-jusqua-19-h/703023/
-https://defimedia.info/meteo-un-avertissement-de-fortes-pluies-en-vigueur-jusqua-19-h-ce-dimanche-29-mars-2026
-https://defimedia.info/meteo-lavertissement-de-fortes-pluies-leve-une-veille-de-fortes-pluies-desormais-en-vigeur-jusqua</urls>
-      <titles>Orages et averses intenses : Maurice sous avertissement de fortes pluies jusqu’à 19 h
-Météo : un avertissement de fortes pluies en vigueur jusqu’à 19 h ce dimanche 29 mars 2026
-Météo : l’avertissement de fortes pluies levé, une veille de fortes pluies désormais en vigeur jusqu’à lundi matin</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
       <title>Nita Juddoo : «Le MMM s’est éloigné de ses racines»</title>
       <link>https://defimedia.info/nita-juddoo-le-mmm-sest-eloigne-de-ses-racines</link>
       <description>De l’héritage militant du MMM à la présidence d’En Avant Moris, Nita Juddoo incarne un parcours de convictions et de rup</description>
@@ -643,9 +722,9 @@ Météo : l’avertissement de fortes pluies levé, une veille de fortes pluies 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Beachcomber – Promotion : Rayeroux et Noyan nommés GM de Trou aux Biches et de Victoria</title>
-      <link>https://www.lemauricien.com/actualites/societe/beachcomber-promotion-rayeroux-et-noyan-nommes-gm-de-trou-aux-biches-et-de-victoria/702969/</link>
-      <description>Beachcomber Resorts &amp; Hotels annonce la nomination de Kervyn Rayeroux et Guillaume Noyan aux postes de General Manager de Trou aux Biches Beachcomber Golf Resort &amp; Spa et de Victoria...</description>
+      <title>Food and Beverage : Six entreprises présentent leurs produits à Foodex Japan</title>
+      <link>https://www.lemauricien.com/actualites/societe/food-and-beverage-six-entreprises-presentent-leurs-produits-a-foodex-japan/702989/</link>
+      <description>Le pays renforce sa présence sur les marchés asiatiques du Food and Beverage par le biais de sa participation à Foodex Japan 2026, où l’Economic Development Board a conduit une dé...</description>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-29T13:00:00+00:00</cluster_time>
@@ -653,9 +732,9 @@ Météo : l’avertissement de fortes pluies levé, une veille de fortes pluies 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Food and Beverage : Six entreprises présentent leurs produits à Foodex Japan</title>
-      <link>https://www.lemauricien.com/actualites/societe/food-and-beverage-six-entreprises-presentent-leurs-produits-a-foodex-japan/702989/</link>
-      <description>Le pays renforce sa présence sur les marchés asiatiques du Food and Beverage par le biais de sa participation à Foodex Japan 2026, où l’Economic Development Board a conduit une dé...</description>
+      <title>Beachcomber – Promotion : Rayeroux et Noyan nommés GM de Trou aux Biches et de Victoria</title>
+      <link>https://www.lemauricien.com/actualites/societe/beachcomber-promotion-rayeroux-et-noyan-nommes-gm-de-trou-aux-biches-et-de-victoria/702969/</link>
+      <description>Beachcomber Resorts &amp; Hotels annonce la nomination de Kervyn Rayeroux et Guillaume Noyan aux postes de General Manager de Trou aux Biches Beachcomber Golf Resort &amp; Spa et de Victoria...</description>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-03-29T13:00:00+00:00</cluster_time>
@@ -743,6 +822,26 @@ Météo : l’avertissement de fortes pluies levé, une veille de fortes pluies 
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Leptospirose : un nouveau cas à Flacq</title>
+      <link>https://www.lemauricien.com/actualites/societe/leptospirose-un-nouveau-cas-a-flacq/702986/</link>
+      <description>Le directeur des services de santé par intérim a indiqué que « pour ce qui est de la leptospirose, nous avons détecté un nouveau cas, ces jours-ci ». Le patient habite la région de F...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-29T11:00:52+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Projet de remplacement des lignes électriques vieillissantes de 66 kV</title>
+      <link>https://www.lemauricien.com/actualites/societe/projet-de-remplacement-des-lignes-electriques-vieillissantes-de-66-kv/702995/</link>
+      <description>Le Central Electricity Board (CEB) compte solliciter un cabinet de consultants pour le remplacement des conducteurs des lignes de transmission de 66 kV à Maurice. Ce réseau, vieux de 45 à 50 ans, ...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-29T11:00:03+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Piton de la Fournaise : «La nuit s’est transformée en un théâtre incandescent»</title>
       <link>https://defimedia.info/piton-de-la-fournaise-la-nuit-sest-transformee-en-un-theatre-incandescent</link>
       <description>L’éruption du Piton de la Fournaise, qui a débuté le 13 février, a pris fin le 25 mars. Entre fascination et vigilance,</description>
@@ -818,16 +917,6 @@ Chikungunya : 31 cas recensés en une journée</titles>
       <languages>fr</languages>
     </item>
     <item>
-      <title>Tehran threatens to target US universities in the region</title>
-      <link>https://www.france24.com/en/tehran-threatens-to-target-us-universities-in-the-region</link>
-      <description>Overnight, powerful explosions were reported in both eastern and western parts of Tehran, lighting up the capital’s skyline. In the south of the country, state media said US-Israeli strikes killed five people in the city of Bandar Khamir, near the strategic Strait of Hormuz. Iranian officials say nearly 2,000 people have been killed since the start of the war, including more than 200 children. Meanwhile, Iran’s Revolutionary Guards have threatened to target U.S. university campuses in the Middle</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T09:45:48+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Vicky Soniah périt noyé au Morne - Amrita, inconsolable : «Mon fils et moi étions inséparables»</title>
       <link>https://defimedia.info/vicky-soniah-perit-noye-au-morne-amrita-inconsolable-mon-fils-et-moi-etions-inseparables</link>
       <description>Une journée familiale à la plage du Morne s’est transformée en tragédie, le dimanche 22 mars. Emporté par une forte houl</description>
@@ -858,22 +947,22 @@ Chikungunya : 31 cas recensés en une journée</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Berlines hybrides : le PMO annule un exercice d’appel d’offres</title>
+      <link>https://www.lemauricien.com/actualites/societe/berlines-hybrides-le-pmo-annule-un-exercice-dappel-doffres/702992/</link>
+      <description>Le Prime Minister’s Office (PMO) a annulé un exercice d’appel d’offres portant sur l’achat de berlines hybrides (Hybrid Saloon Cars) et de véhicules utilitaires sport (SUV). Cet exercice ava...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-03-29T09:00:17+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Corruption : Subron évoque des dérives «encore plus graves»</title>
       <link>https://defimedia.info/corruption-subron-evoque-des-derives-encore-plus-graves</link>
       <description>« Si ou nepli dakor dan Cabinet, ou bizin ale. » Ashok Subron a durci le ton, samedi à Moka. Face à la presse, il a évoq</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-29T09:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>New International Olympic Committee policy bans transgender athletes</title>
-      <link>https://www.france24.com/en/new-international-olympic-committee-policy-bans-transgender-athletes</link>
-      <description>Only biological women will be allowed to compete at the 2028 Los Angeles Olympics following a landmark decision by the International Olympic Committee banning transgender women and those with differences in sexual development. IOC President Kirsty Coventry said the policy was “led by medical experts.”The IOC used gene testing in the 1980s, but it was abolished in the 1990s.The policy change comes after years of controversy over the participation of transgender and DSD athletes in women’s compet</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T08:57:16+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1314,66 +1403,6 @@ Collision mortelle à La Flora : Une caméra de surveillance révèle tout</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Jocelyn Chan Low, observateur politique : vers un nouveau parti et une possible partielle</title>
-      <link>https://defimedia.info/jocelyn-chan-low-observateur-politique-vers-un-nouveau-parti-et-une-possible-partielle</link>
-      <description>« Il paraît que Paul Bérenger se dirigera vers la création d’un nouveau parti. Les gens ne veulent plus des partis tradi</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>[Blog] Torturing a toddler: the case of Karim Abu Nassar</title>
-      <link>https://defimedia.info/blog-torturing-toddler-case-karim-abu-nassar</link>
-      <description>These days, all eyes are riveted on the Iran war. Media are focusing on the American-Israeli attacks and the tit-for-tat</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T07:39:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kaviraj Rookny, député du no 5 : «Rester comme minoritaire au sein du gouvernement n’est pas une option»</title>
-      <link>https://defimedia.info/kaviraj-rookny-depute-du-no-5-rester-comme-minoritaire-au-sein-du-gouvernement-nest-pas-une-option</link>
-      <description>« Rester comme minoritaire au sein du gouvernement n’est pas une option. Cela impliquerait de rester et de critiquer, ma</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T07:30:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Rajesh Bhagwan, secrétaire général du MMM : «Nous avons toujours respecté les instances»</title>
-      <link>https://defimedia.info/rajesh-bhagwan-secretaire-general-du-mmm-nous-avons-toujours-respecte-les-instances</link>
-      <description>« La population pourra tirer ses propres conclusions sur le nombre de personnes présentes et sur ce qui a été dit. Tout</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T07:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Leptospirose : un nouveau cas à Flacq</title>
-      <link>https://www.lemauricien.com/actualites/societe/leptospirose-un-nouveau-cas-a-flacq/702986/</link>
-      <description>Le directeur des services de santé par intérim a indiqué que « pour ce qui est de la leptospirose, nous avons détecté un nouveau cas, ces jours-ci ». Le patient habite la région de F...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T07:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Projet de remplacement des lignes électriques vieillissantes de 66 kV</title>
-      <link>https://www.lemauricien.com/actualites/societe/projet-de-remplacement-des-lignes-electriques-vieillissantes-de-66-kv/702995/</link>
-      <description>Le Central Electricity Board (CEB) compte solliciter un cabinet de consultants pour le remplacement des conducteurs des lignes de transmission de 66 kV à Maurice. Ce réseau, vieux de 45 à 50 ans, ...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T07:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Ashok Subron : « Si sete a refer pandan sa 15 mwa la se pa koumsa ki nou ti bizin fer li »</title>
       <link>https://ionnews.mu/ashok-subron-si-sete-a-refer-pandan-sa-15-mwa-la-se-pa-koumsa-ki-nou-ti-bizin-fer-li/</link>
       <description>Rezistans ek Alternativ (ReA) appelle le gouvernement à revoir sa ligne politique, estimant qu’un recentrage vers une approche plus sociale, écologique et solidaire est nécessaire. C’était lors d’une conférence de presse tenue hier, samedi 28 mars. Ashok Subron, ministre et porte-parole de ReA, explique que cette prise de position intervient après 15 mois de gouvernance, dans un contexte marqué par des enjeux géopolitiques et des changements politiques récents. « Si sete a refer pandan sa 15 mwa</description>
@@ -1394,32 +1423,12 @@ Collision mortelle à La Flora : Une caméra de surveillance révèle tout</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gabriella Batour : «Ma présence est une affirmation»</title>
-      <link>https://defimedia.info/gabriella-batour-ma-presence-est-une-affirmation</link>
-      <description>Gabriella Batour, maire de Beau-Bassin/Rose-Hill, l’affirme : elle n’a reçu aucune convocation pour assister au comité c</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T06:44:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Angola Oil &amp; Gas 2026 : Investissement et sécurité énergétique au cœur des discussions</title>
       <link>https://ionnews.mu/angola-oil-gas-2026-investissement-et-securite-energetique-au-coeur-des-discussions/</link>
       <description>La conférence et exposition Angola Oil &amp; Gas (AOG) fera son retour à Luanda en septembre 2026, avec un programme élargi visant à renforcer les investissements et le développement de projets dans le secteur pétrolier et gazier. Dans un contexte marqué par les tensions géopolitiques et les perturbations de l’approvisionnement mondial, l’Angola entend se positionner comme une destination clé pour les investisseurs. L’événement servira de plateforme pour connecter investisseurs internationaux et act</description>
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-03-29T06:43:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Joanna Bérenger : «J’ai senti que le renouveau est le souhait majoritaire»</title>
-      <link>https://defimedia.info/joanna-berenger-jai-senti-que-le-renouveau-est-le-souhait-majoritaire</link>
-      <description>Pour Joanna Bérenger, une tendance claire se dégage parmi les quatre options présentées par Paul Bérenger pour l’avenir</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T06:39:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1490,66 +1499,6 @@ Collision mortelle à La Flora : Une caméra de surveillance révèle tout</titl
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-03-29T05:29:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>&quot;No Kings&quot; protest - Manifestations contre Trump : les organisateurs revendiquent au moins 8 millions de personnes</title>
-      <link>https://defimedia.info/no-kings-protest-manifestations-contre-trump-les-organisateurs-revendiquent-au-moins-8-millions-de</link>
-      <description>Le mouvement &quot;No Kings&quot;, qui a organisé des milliers de rassemblements à travers les Etats-Unis pour s'opposer aux polit</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-03-29T02:55:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Jeremy Bowen: Trump is waging war based on instinct and it isn't working</title>
-      <link>https://www.bbc.com/news/articles/c5y969pnxgvo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>One month into the conflict in Iran, Trump's gut-instinct approach is not proving effective, writes the BBC's international editor.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T00:02:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>One ant for $220: The new frontier of wildlife trafficking</title>
-      <link>https://www.bbc.com/news/articles/cg4g44zv37qo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The craze for collecting ants takes Kenya by surprise as smugglers zone in to make a profit.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-29T00:01:15+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>How deepfake porn scandal surrounding TV star rocked Germany</title>
-      <link>https://www.bbc.com/news/articles/c9vlm4j47e2o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Collien Fernandes has accused her ex-husband of spreading images of her online, but he has categorically denied it.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T00:00:18+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Think Love Island is bad? Wait until you see the AI fruit version</title>
-      <link>https://www.bbc.com/news/articles/ckgr35y26q7o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Like in Love Island, the characters - or fruits - compete for a chance to couple up and stay on the island.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-29T00:00:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>India restoring a centuries-old royal kitchen that never stopped serving food</title>
-      <link>https://www.bbc.com/news/articles/cj0vj36yd12o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The royal kitchen still serves food, but the complex has been worn down by time.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-28T23:25:03+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
