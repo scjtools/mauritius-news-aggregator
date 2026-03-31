@@ -4,7 +4,7 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Tue, 31 Mar 2026 20:08:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 31 Mar 2026 23:09:28 +0000</lastBuildDate>
     <item>
       <title>CEB power outage – Plaine Magnien, Grandport on 02 April 2026</title>
       <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
@@ -21,37 +21,37 @@
       <description>Brent Crude Oil: USD 118.35 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-03-31T20:04:46.140001+00:00</cluster_time>
+      <cluster_time>2026-03-31T23:06:11.825667+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 31 March 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 67,817.83 (▼ -3.68% from last)</description>
+      <description>Bitcoin (BTC): USD 68,076.42 (▼ -3.31% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-03-31T20:04:46.024907+00:00</cluster_time>
+      <cluster_time>2026-03-31T23:06:11.665092+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Gold price – 31 March 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,683.00 (▲ +6.69% from last)</description>
+      <description>Gold (XAU): USD 4,677.10 (▲ +6.56% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-03-31T20:04:45.673827+00:00</cluster_time>
+      <cluster_time>2026-03-31T23:06:11.370347+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>MUR exchange rates – 31 March 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.96 | MUR/EUR 53.90 (▲ 0.47 from last) (▲ 0.21 from last)</description>
+      <description>MUR/USD 46.96 | MUR/EUR 53.96 (▲ 0.47 from last) (▲ 0.27 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-03-31T20:04:45.166977+00:00</cluster_time>
+      <cluster_time>2026-03-31T23:06:11.010956+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -61,7 +61,7 @@
       <description>SEMDEX closed at 2213.70 (▼ 9.50 pts, -0.43% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-03-31T20:04:41.838079+00:00</cluster_time>
+      <cluster_time>2026-03-31T23:06:08.275169+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -71,7 +71,7 @@
       <description>Weather news for Mauritius issued at 16h30 on Tuesday 31 March 2026.General situation:Clouds coming from the Northeast will influence the local weather tonight.Forecast for the next 24 hours:Partly cloudy tonight and early tomorrow morning with showers to the North, East and over the highgrounds.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Cloud developments are expected during the day to the South, Southwest and over the Central Plateau with localised showers.These showers will be moderate and thundery.The public is advised to:1. remain in safe places and avoid open areas, hiking, sea ventures and sheltering under trees in case of thundery showers.2. be cautious on the roads due to reduced visibility resulting from showers and fog patches.The maximum temperature will be between 26 and 29 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius over the coastal regions.The wind will blow from the Northeast at about 15 km/h, becoming variable at times.Sea moderate beyond the reefs with Southwesterly swells of the order of 2 metres.High tides :Tomorrow 00h52 and 12h48.Low tides :18h48 and tomorrow 07h10.Sunset :18h11.Sunrise (tomorrow) :06h17.Atmospheric pressure at 16h00:1011 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-03-31T20:04:37.390169+00:00</cluster_time>
+      <cluster_time>2026-03-31T23:06:03.650651+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -81,7 +81,247 @@
       <description>The Republican-appointed judge ruled that Trump was the &quot;steward&quot; of the White House, but not the &quot;owner&quot;.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-03-31T19:58:06+00:00</cluster_time>
+      <cluster_time>2026-03-31T22:16:06+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Peacekeepers killed by roadside explosion in Lebanon, initial report finds</title>
+      <link>https://www.bbc.com/news/articles/c05d7md899ro?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The deaths of the two Indonesian nationals came less than a day after another UN peacekeeper - also Indonesian - was killed in Lebanon.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T22:07:26+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Lebanon condemns Israel’s 'clear intention' to impose new occupation of its territory</title>
+      <link>https://www.france24.com/en/middle-east/20260331-lebanon-condemns-israel-s-clear-intention-to-impose-new-occupation-of-its-territory</link>
+      <description>Lebanon said Israeli strikes hit near Beirut’s airport road on Tuesday as the UN Security Council met after three peacekeepers were killed. Israeli Defence Minister Israel Katz said troops would occupy parts of southern Lebanon post-war, prompting Beirut to warn of a “clear intention” to impose a new occupation.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:55:56+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Tiger Woods pleads not guilty to DUI in car crash where opioids found</title>
+      <link>https://www.aljazeera.com/sports/2026/3/31/tiger-woods-pleads-not-guilty-to-dui-in-car-crash-where-opioids-found?traffic_source=rss</link>
+      <description>Plea comes hours after sheriff's report said the golfer showed signs of impairment at the scene of last week's crash.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:54:47+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bosnia and Herzegovina dump Italy out of World Cup 2026 qualifier</title>
+      <link>https://www.aljazeera.com/sports/2026/3/31/bosnia-and-herzegovina-dump-italy-out-of-world-cup-2026-qualifier?traffic_source=rss</link>
+      <description>After the match was level at 1-1 after extra time, Bosnia and Herzegovina beat Italy 4-1 on penalties to reach finals.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:52:32+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US Supreme Court rules against ban on 'conversion therapy' for LGBTQ minors</title>
+      <link>https://www.france24.com/en/us-supreme-court-rules-against-ban-on-conversion-therapy-for-lgbtq-minors</link>
+      <description>[France 24] The US Supreme Court ruled Tuesday against a Colorado state law banning &quot;conversion therapy&quot; for LGBTQ minors, siding with a Christian therapist who challenged it on the grounds of free speech. At issue is the constitutionality of a 2019 Colorado law that prohibits licensed practitioners from conducting &quot;conversion therapy&quot; on patients under 18. The Guardian Washington DC bureau chief David Smith reports.
+
+[Al Jazeera] In an eight-to-one decision, the high court ruled against a law banning the discredited practice on free speech grounds.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:45:57+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>2f6406096cb4</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/us-supreme-court-rules-against-ban-on-conversion-therapy-for-lgbtq-minors
+https://www.aljazeera.com/news/2026/3/31/us-supreme-court-rejects-colorado-ban-on-lgbtq-child-conversion?traffic_source=rss</urls>
+      <titles>US Supreme Court rules against ban on 'conversion therapy' for LGBTQ minors
+US Supreme Court rejects Colorado ban on LGBTQ child ‘conversion therapy’</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Russian oil tanker docks in Cuba ending near-total blockade</title>
+      <link>https://www.bbc.com/news/articles/clyx1lrv0w5o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] A Russian oil tanker has docked in Cuba, providing temporary relief after months of shortages.
+
+[Al Jazeera] Russian tanker delivers enough fuel to meet Cuba’s energy needs for up to 10 days, following a three-month blockade.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:25:56+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>5a8d36bef52b</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/clyx1lrv0w5o?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/economy/2026/3/31/russian-tanker-reaches-cuba-amid-critical-energy-shortage?traffic_source=rss</urls>
+      <titles>Russian oil tanker docks in Cuba ending near-total blockade
+Russian tanker reaches Cuba amid critical energy shortage</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>‘I need to leave’: Cuba’s tourism workers reel from US oil blockade</title>
+      <link>https://www.aljazeera.com/news/2026/3/31/i-need-to-leave-cubas-tourism-workers-reel-from-us-oil-blockade?traffic_source=rss</link>
+      <description>From taxi drivers to tour guides, the collapse of Cuba’s tourism industry has left thousands struggling to get by.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:24:49+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>FBI agents who investigated Trump file lawsuit alleging retaliatory firing</title>
+      <link>https://www.aljazeera.com/news/2026/3/31/fbi-agents-who-investigated-trump-file-lawsuit-alleging-retaliatory-firing?traffic_source=rss</link>
+      <description>Former agents say that they were fired for work on probe into Trump's efforts to stay in power after 2020 election loss.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:17:50+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>EU faces 'largest oil supply disruption in history', energy expert says</title>
+      <link>https://www.france24.com/en/tv-shows/a-propos/20260331-eu-faces-largest-oil-supply-disruption-in-history-energy-expert-says</link>
+      <description>Speaking with FRANCE 24's Sharon Gaffney, Francesco Sassi, Assistant Professor at the University of Oslo and energy geopolitics expert, says that the Iran war has provoked &quot;the largest oil supply disruption in history&quot; adding that &quot;what is really concerning is that national governments will start to unilaterally take action, subsidising energy consumption or act to secure energy supplies, and this will inevitably increase the cost of natural gas and oil in Europe&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:09:31+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US journalist Shelly Kittleson kidnapped in Baghdad</title>
+      <link>https://www.bbc.com/news/articles/c5yled478zwo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The US state department says a suspect in her abduction has ties to an Iran-backed militia group, Kataib Hezbollah.
+
+[France 24] A woman US journalist who was kidnapped in Iraq's capital city by a suspected Iranian-backed Iraqi armed group, US officials said on Tuesday. Advocacy groups identified the missing woman as Shelly Kittleson, a freelance journalist based in Rome who has covered several wars in the Middle East..</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:08:35+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>4db6a75b2e15</cluster_id>
+      <sources>BBC News
+France 24</sources>
+      <urls>https://www.bbc.com/news/articles/c5yled478zwo?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/middle-east/20260331-us-journalist-kidnapped-in-baghdad-by-suspected-iranian-backed-armed-group</urls>
+      <titles>US journalist Shelly Kittleson kidnapped in Baghdad
+US journalist kidnapped in Baghdad by suspected Iranian-backed armed group</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>US fuel prices surge past $4 a gallon</title>
+      <link>https://www.france24.com/en/tv-shows/business/20260331-us-fuel-prices-surge-past-4-a-gallon</link>
+      <description>The average price of regular gasoline in the United States topped $4 dollars a gallon for the first time since 2022, as the Iran war continues to disrupt global energy supply. This as inflation in the Eurozone rose past the ECB's target to 2.5% in March. Meanwhile, Egyptian shops and restaurants are having to close early due to the government's energy-saving measures.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:04:22+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Turkiye and Sweden book World Cup 2026 spots as Kosovo and Poland bow out</title>
+      <link>https://www.aljazeera.com/sports/2026/3/31/turkey-and-sweden-book-world-cup-2026-spots-as-kosovo-and-poland-bow-out?traffic_source=rss</link>
+      <description>Turkiye beat Kosovo 1-0, and Sweden beat Poland 3-2, as winners secure latest FIFA World Cup 2026 qualifying spots.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:04:03+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>King's state visit to US to go ahead in April, but no Harry meeting</title>
+      <link>https://www.bbc.com/news/articles/cjd8nkezdyxo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Despite political tensions between the US and UK, the King will travel to Washington next month.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T21:00:24+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>As Ukraine commemorates the Bucha massacre, Russia rejects idea of Easter truce</title>
+      <link>https://www.france24.com/en/as-ukraine-commemorates-the-bucha-massacre-russia-rejects-idea-of-easter-truce</link>
+      <description>[France 24] Ukraine is commemorating the fourth anniversary of the Bucha massacre, named after a town who many of its residents are thought to have been massacred by Russian invading troops in the early weeks of the war. Since, the conflict hasn't slowed down, as Russia keeps pounding the country. FRANCE 24's Philip Turle tells us more.
+
+[Al Jazeera] Ukraine's president hosts EU leaders to mark Bucha massacre anniversary, says negotiator Umerov in Turkiye for talks.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T20:37:47+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>f6ba63f675be</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/as-ukraine-commemorates-the-bucha-massacre-russia-rejects-idea-of-easter-truce
+https://www.aljazeera.com/news/2026/3/31/zelenskyy-to-ask-us-mediators-to-pass-on-easter-truce-offer-to-kremlin?traffic_source=rss</urls>
+      <titles>As Ukraine commemorates the Bucha massacre, Russia rejects idea of Easter truce
+Ukraine to ask US mediators to pass on Easter ceasefire offer to Russia</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Eurovision Song Contest launches first-ever Asia edition</title>
+      <link>https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Broadcasters from 10 countries, including South Korea and the Philippines, will be taking part.
+
+[France 24] The Eurovision Song Contest Asia 2026 has confirmed artists from at least 10 countries across Asia competing: Thailand, South Korea, the Philippines, Vietnam, Malaysia, Cambodia, Laos, Bangladesh, Nepal and Bhutan. More are expected to join before the finale in November. FRANCE 24's Monte Francis reports.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T20:29:32+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>c9cdc9b4eeb0</cluster_id>
+      <sources>BBC News
+France 24</sources>
+      <urls>https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/eurovision-song-contest-to-hold-first-asian-edition-in-bangkok-in-november</urls>
+      <titles>Eurovision Song Contest launches first-ever Asia edition
+Eurovision Song Contest to hold first Asian edition in Bangkok in November</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Report finds there are no safe places for women in Darfur</title>
+      <link>https://www.france24.com/en/report-finds-there-are-no-safe-place-for-women-in-darfur</link>
+      <description>In tonight's edition, Doctors Without Borders sounds the alarm over Sudan, warning sexual violence against women and girls is being used as a weapon of war. Also, a Tunisian ⁠court handed down a ​two-year prison sentence to news website editor Ghassen Ben Khelifa in ​the latest prosecution targeting media workers. And after stops in New York, London and Melbourne, the Africa Fashion exhibition arrives in Paris.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T20:21:29+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Eritrea advance after 19-year absence from Afcon qualifying</title>
+      <link>https://www.bbc.com/sport/football/articles/c203n5y7723o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Eritrea are one of six nations to reach the group stage of qualification for Afcon 2027, having played their first games in the competition since 2007.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-03-31T20:15:42+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Five EU countries 'deliberately eroding' rule of law, report shows</title>
+      <link>https://www.france24.com/en/five-eu-countries-deliberately-eroding-rule-of-law-report-shows</link>
+      <description>A new report by the Civil Liberties Union of Europe points to “deliberate erosion of the rule of law” in Bulgaria, Croatia, Hungary, Italy, and Slovakia. FRANCE 24's Brussels correspondent Dave Keating reports.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T20:10:31+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Italian Christmas meal tragedy turns into murder inquiry</title>
+      <link>https://www.bbc.com/news/articles/cje470qgl1yo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Tests results suggest the two women may have been killed with ricin, according to Italian media, but police still do not have a suspect.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T19:52:31+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -92,6 +332,16 @@
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-31T19:47:06+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Hiring in the US drops to pandemic lows as job market under Trump stagnates</title>
+      <link>https://www.aljazeera.com/economy/2026/3/31/hiring-in-the-us-drops-to-pandemic-lows-as-job-market-under-trump-stagnates?traffic_source=rss</link>
+      <description>Labour market stagnation mirrors a slowing private payroll growth, averaging just 18,000 monthly in recent months</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-03-31T19:41:08+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -126,12 +376,12 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US Supreme Court rules against ban on 'conversion therapy' for LGBTQ minors</title>
-      <link>https://www.france24.com/en/us-supreme-court-rules-against-ban-on-conversion-therapy-for-lgbtq-minors</link>
-      <description>The US Supreme Court ruled Tuesday against a Colorado state law banning &quot;conversion therapy&quot; for LGBTQ minors, siding with a Christian therapist who challenged it on the grounds of free speech. At issue is the constitutionality of a 2019 Colorado law that prohibits licensed practitioners from conducting &quot;conversion therapy&quot; on patients under 18. The Guardian Washington DC bureau chief David Smith reports.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T19:03:58+00:00</cluster_time>
+      <title>Brandy honored with star on Hollywood Walk of Fame</title>
+      <link>http://www.africanews.com/2026/03/31/brandy-honored-with-star-on-hollywood-walk-of-fame/</link>
+      <description>Singer and actor Brandy was honored with a star on the Hollywood Walk of Fame Monday</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-03-31T19:18:11+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -150,25 +400,21 @@
       <link>https://www.bbc.com/news/articles/c5yx8knpr5no?at_medium=RSS&amp;at_campaign=rss</link>
       <description>[BBC News] Defence Minister Israel Katz also says houses in Lebanese villages near the Israeli border will be demolished.
 
-[France 24] Israel will destroy all homes in Lebanese villages near the ​border and 600,000 people who fled the south will not be allowed home until northern Israel is secure. It vows to inflict Gaza-like destruction in the area. This comes as Israel's parliament passes a controversial law making the death penalty a default sentence to Palestinians who are found guilty of murdering Israelis in military courts. FRANCE 24's Noga Tarnopolsky tells us more from Jerusalem.
-
 [France 24] Israel's defence minister has vowed his army will block residents from returning to southern Lebanon after the war and will be destroying all homes in villages along the border, in which he implied would be a Gaza-like scale of destruction as seen in Rafah and Beit Hanoun. More than 1200 people have been killed in Lebanon and over 1.2 million displaced since Israel began its offensive against Hezbollah at the start of March.
 
 [France 24] The Lebanese have seen it all, from civil war to the 2019 protests demanding an end to revolving door politics, from the 2020 port of Beirut explosion that exposed the tragic consequences of nepotism to Israel’s 2024 operation to neutralize longtime foe Hezbollah. Now Israel’s ground forces are back to again take on Tehran-backed foe Hezbollah. Thus, Lebanon finds itself the second front of the month-long war launched against Iran.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-31T18:57:25+00:00</cluster_time>
-      <cluster_size>4</cluster_size>
+      <cluster_size>3</cluster_size>
       <source_count>2</source_count>
-      <cluster_id>b30c6e99925d</cluster_id>
+      <cluster_id>37210b825060</cluster_id>
       <sources>BBC News
 France 24</sources>
       <urls>https://www.bbc.com/news/articles/c5yx8knpr5no?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/israel-to-destroy-all-houses-in-south-lebanon-buffer-zone
 https://www.france24.com/en/israel-to-occupy-swaths-of-south-lebanon-and-destroy-houses-near-border
 https://www.france24.com/en/tv-shows/the-debate/20260331-can-lebanon-keep-it-together-government-faces-israeli-invasion-standoff-with-hezbollah</urls>
       <titles>Israel says it will keep control over part of southern Lebanon after war with Hezbollah ends
-Israel to destroy all houses in South Lebanon buffer-zone
 Israel to occupy swaths of south Lebanon and destroy houses near border
 Can Lebanon keep it together? Government faces Israeli invasion, standoff with Hezbollah</titles>
       <languages>en</languages>
@@ -264,16 +510,6 @@ Condemnation and outrage: Israelis and world react to Israeli death penalty law<
       <source_count>1</source_count>
     </item>
     <item>
-      <title>King's state visit to US to go ahead in April, but no Harry meeting</title>
-      <link>https://www.bbc.com/news/articles/cjd8nkezdyxo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Despite political tensions between the US and UK, the King will travel to Washington next month.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T17:06:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>South African politician takes dip in pothole to show city management failures</title>
       <link>http://www.africanews.com/2026/03/31/south-african-politician-takes-dip-in-pothole-to-show-city-management-failures/</link>
       <description>Helen Zille, a well-known South African politician, wore a wetsuit, a mask and snorkel, and a pink-and-white swimming cap as she doggy-paddled through the pool of muddy brown water in an upscale Johannesburg suburb</description>
@@ -314,26 +550,6 @@ Chagos : la Cour annule les expulsions et déclare illégale l’interdiction de
       <source_count>1</source_count>
     </item>
     <item>
-      <title>UK accused of ‘intimidation tactics’ against bailed pro-Palestine activists</title>
-      <link>https://www.aljazeera.com/news/2026/3/31/uk-accused-intimidation-tactics-bailed-pro-palestine-activitsts?traffic_source=rss</link>
-      <description>In the space of a week, two young women linked to Palestine Action have been arrested in the UK.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T16:27:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>UN aid chief warns of new Israeli occupation in southern Lebanon</title>
-      <link>https://www.aljazeera.com/news/2026/3/31/un-humanitarian-chief-warns-of-new-israeli-occupation-in-southern-lebanon?traffic_source=rss</link>
-      <description>As Israel expands Lebanon invasion, Tom Fletcher asks how world will prepare for 'new addition' to occupied territory.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T16:24:19+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Au Cœur de l’Info – Situation politique : quelle alternative face aux partis traditionnels ?</title>
       <link>https://defimedia.info/au-coeur-de-linfo-situation-politique-quelle-alternative-face-aux-partis-traditionnels</link>
       <description>Le débat est au centre de l’émission Au Cœur de l’Info ce mardi 31 mars. À suivre en direct dès 17h sur Radio Plus et en</description>
@@ -354,67 +570,24 @@ Chagos : la Cour annule les expulsions et déclare illégale l’interdiction de
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Qatar says Iran’s attacks on neighbours crossed ‘many red lines’</title>
-      <link>https://www.aljazeera.com/news/2026/3/31/qatar-warns-iranian-attacks-on-region-causing-catastrophic-effects?traffic_source=rss</link>
-      <description>Iranian attacks on Qatar are having a 'catastrophic effect on the relationship between the two countries', Doha says.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T15:54:37+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Cuba crisis explained: Who holds power, and could Diaz-Canel be replaced?</title>
-      <link>https://www.aljazeera.com/news/2026/3/31/cuba-crisis-explained-who-holds-power-and-could-diaz-canel-be-replaced?traffic_source=rss</link>
-      <description>As Cuba faces one of the worst humanitarian crises in its history, questions have emerged about the island's leadership.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T15:53:20+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>EU shows support to Ukraine at Bucha commemoration</title>
       <link>https://www.france24.com/en/eu-shows-support-to-ukraine-at-bucha-commemoration</link>
-      <description>[France 24] Four years on from the Bucha massacre, the Ukrainian town is remembering its dead. Russian military forces retreated from Bucha in 2022, hundreds of bodies were discovered, including women, children and elderly people, many of the corpses had been left lying in the streets. A delegation of EU foreign ministers arrived in Kyiv on March 31 to mark the anniversary and discuss ways to further support Ukraine.
-
-[France 24] Top European diplomats are visiting Ukraine to mark the anniversary of atrocities committed in a town near Kyiv by Russia’s invading forces four years ago. Speaking at the commemoration, EU's foreign affairs commissioner said these crimes were 'not isolated' as Russia's invasion of Ukraine continues. FRANCE 24's Douglas Herbert looks into the history of the massacre.
-
-[France 24] Ukraine is commemorating the fourth anniversary of the Bucha massacre, named after a town who many of its residents are thought to have been massacred by Russian invading troops in the early weeks of the war. Since, the conflict hasn't slowed down, as Russia keeps pounding the country. FRANCE 24's Philip Turle tells us more.</description>
+      <description>Four years on from the Bucha massacre, the Ukrainian town is remembering its dead. Russian military forces retreated from Bucha in 2022, hundreds of bodies were discovered, including women, children and elderly people, many of the corpses had been left lying in the streets. A delegation of EU foreign ministers arrived in Kyiv on March 31 to mark the anniversary and discuss ways to further support Ukraine.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-03-31T15:51:15+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
+      <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-      <cluster_id>32d8fdb049b2</cluster_id>
-      <sources>France 24</sources>
-      <urls>https://www.france24.com/en/eu-shows-support-to-ukraine-at-bucha-commemoration
-https://www.france24.com/en/bucha-massacre-part-of-deliberate-campaign-to-pave-a-road-of-destruction-to-kyiv
-https://www.france24.com/en/as-ukraine-commemorates-the-bucha-massacre-russia-rejects-idea-of-easter-truce</urls>
-      <titles>EU shows support to Ukraine at Bucha commemoration
-Bucha massacre 'part of deliberate campaign to pave a road of destruction to Kyiv'
-As Ukraine commemorates the Bucha massacre, Russia rejects idea of Easter truce</titles>
-      <languages>en</languages>
     </item>
     <item>
-      <title>Senegal signs law doubling penalty for same-sex relations to 10 years in jail</title>
-      <link>https://www.france24.com/en/africa/20260331-senegal-signs-law-doubling-penalty-for-same-sex-relations-to-10-years-in-jail</link>
-      <description>[France 24] Senegal on Tuesday signed into law legislation doubling the penalty for same-sex relations to up to 10 years in jail. The new law also includes criminal penalties for those found guilty of promoting or financing same-sex relationships.
-
-[Africanews] Senegalese President Bassirou Diomaye Faye has signed into law legislation doubling the maximum penalty for same-sex relations, making them punishable by up to 10 years in prison amid a crackdown on the country's gay community.</description>
-      <source>France 24</source>
-      <category>global</category>
+      <title>Senegal doubles prison sentence length for same-sex relations</title>
+      <link>http://www.africanews.com/2026/03/31/senegal-doubles-prison-sentence-length-for-same-sex-relations/</link>
+      <description>Senegalese President Bassirou Diomaye Faye has signed into law legislation doubling the maximum penalty for same-sex relations, making them punishable by up to 10 years in prison amid a crackdown on the country's gay community.</description>
+      <source>Africanews</source>
+      <category>regional</category>
       <cluster_time>2026-03-31T15:33:43+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>ccd0255f2bb1</cluster_id>
-      <sources>France 24
-Africanews</sources>
-      <urls>https://www.france24.com/en/africa/20260331-senegal-signs-law-doubling-penalty-for-same-sex-relations-to-10-years-in-jail
-http://www.africanews.com/2026/03/31/senegal-doubles-prison-sentence-length-for-same-sex-relations/</urls>
-      <titles>Senegal signs law doubling penalty for same-sex relations to 10 years in jail
-Senegal doubles prison sentence length for same-sex relations</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>At least 16 killed and thousands displaced by gang attack in rural Haiti</title>
@@ -435,16 +608,6 @@ http://www.africanews.com/2026/03/31/haiti-at-least-30-people-dead-after-gang-at
       <titles>At least 16 killed and thousands displaced by gang attack in rural Haiti
 Haiti: At least 30 people dead after gang attacks town</titles>
       <languages>en</languages>
-    </item>
-    <item>
-      <title>Venezuela’s ‘Chavismo’ movement faces a crossroads after US attack</title>
-      <link>https://www.aljazeera.com/news/longform/2026/3/31/venezuelas-chavismo-movement-faces-a-crossroads-after-us-attack?traffic_source=rss</link>
-      <description>Hugo Chavez founded a movement opposed to US intervention. How have his supporters adapted to new US-Venezuela ties?</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T15:11:33+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
     </item>
     <item>
       <title>Hôpital Flacq et Jawaharlal Nehru – Deux attaques dans les hôpitaux : des médecins battus sous le...</title>
@@ -475,16 +638,6 @@ http://www.africanews.com/2026/03/31/celine-dion-announces-emotional-paris-comeb
       <titles>Céline Dion's triumphant return to the city of lights: Ten Paris concerts confirmed
 Céline Dion announces emotional Paris comeback after health battle</titles>
       <languages>en</languages>
-    </item>
-    <item>
-      <title>The attack on the right to protest in the UK is not just about Palestine</title>
-      <link>https://www.aljazeera.com/opinions/2026/3/31/the-attack-on-the-right-to-protest-in-the-uk-is-not-just-about-palestine?traffic_source=rss</link>
-      <description>Patterns of politicised policing uncovered in a recent trial of pro-Palestinian activists should worry us all.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T15:03:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
     </item>
     <item>
       <title>Nigeria warns its citizens in South Africa to be cautious after march turns violent</title>
@@ -542,16 +695,6 @@ Allégations de corruption : Navin Ramgoolam évoque un malentendu entre Mahend 
       <languages>fr</languages>
     </item>
     <item>
-      <title>Iran will play World Cup games in US despite war, FIFA’s Infantino says</title>
-      <link>https://www.aljazeera.com/sports/2026/3/31/iran-will-play-world-cup-games-in-us-despite-war-fifas-infantino-says?traffic_source=rss</link>
-      <description>The chief of global football's governing body says US-Israeli war on Iran will not affect scheduling of 2026 World Cup.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T14:43:57+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>International Booker Prize 2026 shortlist announced featuring French witch, sworn virgin</title>
       <link>https://www.france24.com/en/culture/20260331-international-booker-prize-2026-shortlist-announced-featuring-french-witch-sworn-virgin</link>
       <description>The organisers of the International Booker Prize announced on Tuesday the 2026 shortlist for the prestigious literary award which recognises works of fiction from around the world that have been translated into English.The six finalists include French novelist and playwright Marie NDiaye, winner of the country's top Goncourt prize.</description>
@@ -592,16 +735,6 @@ Allégations de corruption : Navin Ramgoolam évoque un malentendu entre Mahend 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Canada's Ontario bets on greenhouse farming to boost food sovereignty</title>
-      <link>https://www.france24.com/en/tv-shows/focus/20260331-canada-s-ontario-bets-on-greenhouse-farming-to-boost-food-sovereignty</link>
-      <description>In the face of growing competition with Donald Trump's United States and the ongoing trade war, Canada is betting big on greenhouse agriculture. In Ontario, the heart of national agricultural research and innovation, tomatoes and cucumbers are just some of the produce grown safe from bad weather and harsh winters. The country is also banking on artificial intelligence to reduce its dependence on imports, particularly American ones.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T14:36:40+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>[Tech-à-tête] Lenovo Legion Go Fold redéfinit le gaming portable avec un concept pliable</title>
       <link>https://ionnews.mu/tech-a-tete-lenovo-legion-go-fold-redefinit-le-gaming-portable-avec-un-concept-pliable/</link>
       <description>Lenovo a présenté au Mobile World Congress (MWC) 2026 un concept innovant baptisé Legion Go Fold, un appareil hybride combinant console portable, tablette et mini ordinateur portable. Ce prototype se distingue par son écran POLED pliable, capable de passer de 7,7 pouces en mode compact à 11,6 pouces une fois déployé, offrant ainsi une expérience de jeu plus immersive tout en conservant une bonne portabilité. Pensé comme un appareil polyvalent, le Legion Go Fold propose plusieurs modes d’utilisat</description>
@@ -612,52 +745,12 @@ Allégations de corruption : Navin Ramgoolam évoque un malentendu entre Mahend 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran desalination plant in the Strait of Hormuz out of service following strikes</title>
-      <link>https://www.france24.com/en/iran-desalination-plant-in-the-strait-of-hormuz-out-of-service-following-strikes</link>
-      <description>One of the desalination plants on Iran's Qeshm Island has been out ​of ‌service since being ⁠hit by an air strike earlier ‌in the month, an official from ⁠the Health Ministry told Iranian media on March 30. This follows strikes on the cities of Tehran and Isfahan by the US as it tries to get Iranian leaders to agree to a deal. FRANCE 24's Reza ayah spoke to us earlier about the situation.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T14:32:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Where to invest during Iran war? Ask – or don’t – Mohammad Bagher Ghalibaf</title>
-      <link>https://www.aljazeera.com/news/2026/3/31/where-to-invest-during-iran-war-ask-or-dont-mohammad-bagher-ghalibaf?traffic_source=rss</link>
-      <description>Iran’s parliamentary speaker is using X to shape market sentiment, blending war messaging with financial signalling.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T14:26:10+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Mise en demeure : La Mauritius Bar Association réclame des excuses publiques de la part de Dev Jokhoo</title>
       <link>https://defimedia.info/mise-en-demeure-la-mauritius-bar-association-reclame-des-excuses-publiques-de-la-part-de-dev-jokhoo</link>
       <description>La Mauritius Bar Association a adressé une mise en demeure à l’ancien commissaire des prisons, Dev Jokhoo.Dans ce docume</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-03-31T14:20:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>How Trump’s dream of seizing enriched uranium from Iran could end in catastrophe</title>
-      <link>https://www.france24.com/en/middle-east/20260331-how-trump-s-dream-of-seizing-enriched-uranium-from-iran-could-end-in-catastrophe</link>
-      <description>US President Donald Trump is reportedly considering a military mission to seize Iranian uranium that has been enriched to 60 percent. But while some might view such a plan as offering a quick win, others warn that it could be &quot;one of the most risky and difficult operations the US military has undertaken since the Second World War&quot;.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T14:19:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Easter eggs smaller and more expensive as cocoa prices remain high</title>
-      <link>https://www.france24.com/en/easter-eggs-smaller-and-more-expensive-as-cocoa-prices-remain-high</link>
-      <description>Inflation, war in the middle east, energy prices - consumers really haven't been having a great time of it lately, and we're sorry to report that Easter and its habitual chocolates aren't really going to relieve the gloom either. It turns out not only have the world's beloved easter eggs been getting smaller - they're getting pricer as well - and this despite a recent crash in cocoa prices.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T14:17:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -682,26 +775,6 @@ Allégations de corruption : Navin Ramgoolam évoque un malentendu entre Mahend 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Africa Fashion: A continent of style comes to Paris</title>
-      <link>https://www.france24.com/en/tv-shows/arts24/20260331-africa-fashion-a-continent-of-style-comes-to-paris</link>
-      <description>After dazzling crowds at the V&amp;A in London, the &quot;Africa Fashion&quot; exhibition has landed at the Quai Branly museum in Paris. Our reporters get an insight into this showcase of continental style, from the ancestral weaves of traditional dress to the African creations making a splash on contemporary red carpets.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T14:01:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>War on Iran: US’s history of making other nations pay for conflicts</title>
-      <link>https://www.aljazeera.com/news/2026/3/31/war-on-iran-uss-history-of-making-other-nations-pay-for-conflicts?traffic_source=rss</link>
-      <description>White House says Trump could ask Arab nations to bear the cost of the Iran war.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T13:56:30+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Trump willing to end war even if Strait of Hormuz stays closed - Report</title>
       <link>http://www.africanews.com/2026/03/31/trump-willing-to-end-war-even-if-strait-of-hormuz-stays-closed-report/</link>
       <description>U.S. President Donald Trump has told aides that he is willing to end the U.S.-Israeli war with Iran even if the Strait of Hormuz remains largely closed, The Wall Street Journal reported on Monday night, citing officials</description>
@@ -718,36 +791,6 @@ Allégations de corruption : Navin Ramgoolam évoque un malentendu entre Mahend 
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-03-31T13:38:38+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Cancer drug facility, religious site hit in Israeli-US strikes on Iran</title>
-      <link>https://www.aljazeera.com/news/2026/3/31/cancer-drug-facility-religious-site-hit-in-israeli-us-strikes-on-iran?traffic_source=rss</link>
-      <description>The Iranian government said the company's drug production line has been damaged, as no diplomatic solution is in sight.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T13:37:19+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Will China join Pakistan-led efforts to mediate US-Iran peace?</title>
-      <link>https://www.aljazeera.com/news/2026/3/31/will-china-join-pakistan-led-efforts-to-mediate-us-iran-peace?traffic_source=rss</link>
-      <description>Pakistan's Deputy PM Ishaq Dar visits China after Islamabad talks to broker negotiations between the US and Iran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T13:32:24+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>MinaLima revisit Saint-Exupéry's 'The Little Prince' drawings</title>
-      <link>https://www.france24.com/en/tv-shows/entre-nous/20260331-minalima-revisit-saint-exup%C3%A9ry-s-the-little-prince-drawings</link>
-      <description>This year, &quot;The Little Prince&quot; turns 80! Over the years, millions of readers have been touched by the classic story written and illustrated by French author Antoine de Saint-Exupéry. To mark this special anniversary, a new edition of the book is being released around the world in 22 languages. It's an illustrated pop-up edition by MinaLima, the studio famous for creating the graphic design of the Harry Potter films. We spoke to the designers Miraphora Mina and Eduardo Lima in Entre Nous.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T13:30:32+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -815,7 +858,7 @@ Meurtre de Yogeshwaree Bhunjun : reconstitution des faits à Case-Noyale</titles
       <languages>fr</languages>
     </item>
     <item>
-      <title>Wolf bites woman in shock German attack in Hamburg shopping street</title>
+      <title>Wolf bites woman in shock German attack on busy Hamburg shopping street</title>
       <link>https://www.bbc.com/news/articles/c20qxjxe2nno?at_medium=RSS&amp;at_campaign=rss</link>
       <description>It is believed to be the first wolf attack on a human since the animals began to reestablish themselves in Germany decades ago.</description>
       <source>BBC News</source>
@@ -873,16 +916,6 @@ http://www.africanews.com/2026/03/31/in-sudan-sexual-violence-is-a-weapon-among-
       <titles>Sexual violence part of 'everyday life' in parts of Sudan, charity says
 In Sudan, sexual violence is a &quot;weapon&quot; among many</titles>
       <languages>en</languages>
-    </item>
-    <item>
-      <title>Russian oil tanker docks in Cuba ending near-total blockade</title>
-      <link>https://www.bbc.com/news/articles/clyx1lrv0w5o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>A Russian oil tanker has docked in Cuba, providing temporary relief after months of shortages.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T12:51:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
     </item>
     <item>
       <title>Chagos : la justice tranche en faveur du groupe de Misley Mandarin</title>
@@ -1190,16 +1223,6 @@ http://www.africanews.com/2026/03/31/ghana-cuts-ties-with-head-coach-otto-addo-j
       <titles>Ghana sack manager Addo, 72 days before World Cup
 Ghana cuts ties with head coach Otto Addo just months before World Cup kick off</titles>
       <languages>en</languages>
-    </item>
-    <item>
-      <title>Eurovision Song Contest launches first-ever Asia edition</title>
-      <link>https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Broadcasters from 10 countries, including South Korea and the Philippines, will be taking part.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T09:51:58+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
     </item>
     <item>
       <title>Oil price steadies for now but cost of petrol soars around the world</title>
@@ -1844,16 +1867,6 @@ Parlement : les nominations de conseillers au PMO et aux Finances au cœur de la
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-30T23:10:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Touadera sworn in for third term as Central African Republic president</title>
-      <link>http://www.africanews.com/2026/03/30/touadera-sworn-in-for-third-term-as-central-african-republic-president/</link>
-      <description>Central African President Faustin-Archange Touadera on Monday pledged to buttress security and peace as he was sworn in for a third term in one of the world's poorest and most volatile countries</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-03-30T20:06:08+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
