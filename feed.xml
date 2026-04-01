@@ -4,44 +4,44 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 01 Apr 2026 20:11:38 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Apr 2026 23:55:40 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 01 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 100.78 per barrel</description>
+      <description>Brent Crude Oil: USD 100.24 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-01T20:08:18.230239+00:00</cluster_time>
+      <cluster_time>2026-04-01T23:52:33.836179+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 01 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 68,076.95 (▼ -3.31% from last)</description>
+      <description>Bitcoin (BTC): USD 68,110.49 (▼ -3.26% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-01T20:08:18.101635+00:00</cluster_time>
+      <cluster_time>2026-04-01T23:52:33.392585+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Gold price – 01 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,766.00 (▲ +8.58% from last)</description>
+      <description>Gold (XAU): USD 4,780.80 (▲ +8.92% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-01T20:08:17.410434+00:00</cluster_time>
+      <cluster_time>2026-04-01T23:52:33.284024+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>MUR exchange rates – 01 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.95 | MUR/EUR 54.42 (▲ 0.46 from last) (▲ 0.73 from last)</description>
+      <description>MUR/USD 46.95 | MUR/EUR 54.43 (▲ 0.46 from last) (▲ 0.74 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-01T20:08:17.140686+00:00</cluster_time>
+      <cluster_time>2026-04-01T23:52:33.087538+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +51,7 @@
       <description>SEMDEX closed at 2213.57 (▼ 9.63 pts, -0.43% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-01T20:08:14.735995+00:00</cluster_time>
+      <cluster_time>2026-04-01T23:52:30.300591+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -61,17 +61,191 @@
       <description>Weather news for Mauritius issued at 16h30 on Wednesday 01 April 2026.General situation:1. A heavy rain warning is in force in Mauritius valid till 19h00.2. The atmospheric conditions are moist and unstable over our region.Forecast for the next 24 hours:Moderate to temporarily heavy showers, accompanied by thunderstorms to the south and over part of the central plateau, will gradually dissipate in the evening.Thereafter, the sky will be partly cloudy to cloudy during the night, with showers to the north, the east and over the central plateau.The minimum temperature will be between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Mainly fair tomorrow morning.Cloud developments are expected in the afternoon over the Southern part of the island and over the Central Plateau with localised showers. These showers will be sometimes of moderate intensity, accompanied with isolated thunderstorms.The maximum temperature will be between 26 and 29 degrees Celsius over the highgrounds and between 31 and 34 degrees Celsius over the coastal regions.Wind light and variable during the night, blowing from the Northern sector at about 15 km/h tomorrow.Sea moderate beyond the reefs with swells of the order of 2 metres.The public is advised to:1. remain in safe places and avoid open areas, hikings, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roads due to reduced visibility resulting from heavy rains and fog patches.High tides :Tomorrow 01h07 and 13h18.Low tides :19h08 and tomorrow 07h34.Sunset :18h11.Sunrise (tomorrow) :06h17.Atmospheric pressure at 16h00:1012 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-04-01T20:08:09.884873+00:00</cluster_time>
+      <cluster_time>2026-04-01T23:52:25.506621+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>FBI agents from US arrive in Cuba to probe lethal speedboat shooting</title>
+      <link>https://www.aljazeera.com/news/2026/4/1/fbi-agents-from-us-arrive-in-cuba-to-probe-lethal-speedboat-shooting?traffic_source=rss</link>
+      <description>Trump administration has denied involvement after Cuban government says a boat of armed men tried to infiltrate island.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T23:31:14+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>First troops from UN-backed Gang Suppression Force arrive in Haiti</title>
+      <link>https://www.aljazeera.com/news/2026/4/1/first-troops-from-un-backed-gang-suppression-force-arrive-in-haiti?traffic_source=rss</link>
+      <description>The force has an initial mandate of 12 months to address widespread gang violence in Haiti ahead of its elections.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T23:19:08+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Megan Thee Stallion taken to hospital during Moulin Rouge performance</title>
+      <link>https://www.bbc.com/news/articles/c86e1403793o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The rapper says she felt faint while performing in the Broadway show and was later diagnosed with &quot;extreme exhaustion&quot;.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T23:16:58+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>'There's a certain romanticism to sending humans into space'</title>
+      <link>https://www.france24.com/en/tv-shows/a-propos/20260401-there-s-a-certain-romanticism-to-sending-humans-into-space</link>
+      <description>[France 24] Speaking with FRANCE 24's Sharon Gaffney, Dr David Brown, Senior Research Fellow in the Astronomy and Astrophysics Group at Warwick University, hopes that the Artemis II mission &quot;is the start of a new era of human spaceflight&quot;, adding that &quot;it is incredibly exciting and inspiring to see that this is still something that wa can do and something that people can aspire to do&quot;.
+
+[France 24] Four astronauts – three Americans and one Canadian – blasted off Wednesday on NASA’s Artemis II, humanity’s first lunar flight in over 50 years. The 32-storey rocket soared from Kennedy Space Center, marking the start of a decade-long plan for sustainable Moon exploration and a future landing near the south pole.
+
+[Al Jazeera] The mission is a major step in NASA’s plan to return humans to the moon and eventually send astronauts to Mars.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T22:39:26+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>e0eea2c38c86</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/tv-shows/a-propos/20260401-there-s-a-certain-romanticism-to-sending-humans-into-space
+https://www.france24.com/en/technology/20260401-artemis-2-set-for-historic-crewed-return-around-moon
+https://www.aljazeera.com/news/2026/4/1/nasas-artemis-ii-lifts-off-to-the-moon?traffic_source=rss</urls>
+      <titles>'There's a certain romanticism to sending humans into space'
+Artemis II launches historic flyby lunar mission with diverse crew
+NASA’s Artemis II lifts off to the moon</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Trump administration lifts sanctions on Venezuela’s interim leader</title>
+      <link>https://www.france24.com/en/americas/20260401-us-lifts-sanctions-on-venezuela-interim-leader-delcy-rodriguez</link>
+      <description>[France 24] The US has lifted sanctions on Delcy Rodriguez, Venezuela’s interim president, in a significant shift following the ouster of Nicolas Maduro. The move comes as relations between Washington and Caracas begin to thaw, with Rodriguez taking steps to open the country’s energy sector to US companies after assuming power earlier this year.
+
+[Al Jazeera] US has exerted growing influence over the Venezuelan government after abducting former President Nicolas Maduro.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T22:12:46+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>0e1b2a4ddc33</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/americas/20260401-us-lifts-sanctions-on-venezuela-interim-leader-delcy-rodriguez
+https://www.aljazeera.com/news/2026/4/1/us-removes-sanctions-on-venezuelas-interim-president-delcy-rodriguez?traffic_source=rss</urls>
+      <titles>Trump administration lifts sanctions on Venezuela’s interim leader
+US removes sanctions on Venezuela’s interim President Delcy Rodriguez</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Trump to deliver 'important update' on Iran war in televised speech</title>
+      <link>https://www.france24.com/en/americas/20260401-trump-to-deliver-important-update-on-iran-war-in-televised-speech</link>
+      <description>Donald Trump will give an “important update” on the Iran war in a prime-time televised address to the American nation on Wednesday evening, which is expected to reiterate the president's timeline for rolling back US military operations in the region.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T22:05:07+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SpaceX files to go public, paving way to make Elon Musk first trillionaire</title>
+      <link>https://www.aljazeera.com/news/2026/4/1/spacex-files-to-go-public-paving-way-to-make-elon-musk-first-trillionaire?traffic_source=rss</link>
+      <description>Company has captured public attention through vast network of satellites and focus on space exploration.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T21:12:27+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>‘Which interests being served by war?’ Iran’s Pezeshkian asks US public</title>
+      <link>https://www.aljazeera.com/news/2026/4/1/which-interests-being-served-by-war-irans-pezeshkian-asks-us-public?traffic_source=rss</link>
+      <description>In open letter, Iranian President Masoud Pezeshkian urges Americans to see beyond 'flood of distortions' as war rages.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T20:40:31+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>19 migrants found dead by Italian coastguard</title>
+      <link>http://www.africanews.com/2026/04/01/19-migrants-found-dead-by-italian-coastguard/</link>
+      <description>The bodies of 19 migrants were recovered from an inflatable boat south of the island of Lampedusa on Wednesday by the Italian coastguard</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-01T20:25:53+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>South Africa deploys military to Cape Town townships hit by crime</title>
+      <link>https://www.france24.com/en/south-africa-deploys-military-to-cape-town-townships-hit-by-crime</link>
+      <description>In tonight's edition, South African government ramps up its fight against crime with the deployment of soldiers in Cape Town. Also, DR Congo gets a chance at World Cup glory for the first time in over half a century. And top African leaders and changemakers came together for the international Climate Summit Change Now in Paris. We speak to one of them, Elizabeth Wathuti.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T20:23:47+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Ecuador claims 28% drop in homicides amid concerns over anti-crime campaign</title>
+      <link>https://www.aljazeera.com/news/2026/4/1/ecuador-claims-28-drop-in-homicides-amid-concerns-over-anti-crime-campaign?traffic_source=rss</link>
+      <description>President Daniel Noboa has led a hardline effort against local criminal networks, including military operations with US.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T20:20:43+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Trump attends birthright citizenship hearing at Supreme Court in historic first</title>
       <link>https://www.france24.com/en/americas/20260401-trump-attends-birthright-citizenship-hearing-at-supreme-court-in-historic-first</link>
-      <description>In a historic first, Donald Trump became the first US sitting president to attend oral arguments at the Supreme Court on Wednesday as it weighed his bid to restrict birthright citizenship. During more than two hours of questioning, justices from across the ideological spectrum assessed the policy’s legality, indicating that the court may be poised to block a key aspect of Trump’s immigration agenda.</description>
+      <description>[France 24] In a historic first, Donald Trump became the first US sitting president to attend oral arguments at the Supreme Court on Wednesday as it weighed his bid to restrict birthright citizenship. During more than two hours of questioning, justices from across the ideological spectrum assessed the policy’s legality, indicating that the court may be poised to block a key aspect of Trump’s immigration agenda.
+
+[Al Jazeera] Case could determine future of century-old practice of infants being born in US automatically being granted citizenship.</description>
       <source>France 24</source>
       <category>global</category>
-      <cluster_time>2026-04-01T19:56:10+00:00</cluster_time>
+      <cluster_time>2026-04-01T20:19:38+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>c85cd6d3da06</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/americas/20260401-trump-attends-birthright-citizenship-hearing-at-supreme-court-in-historic-first
+https://www.aljazeera.com/news/2026/4/1/hits-close-to-home-us-supreme-court-hears-birthright-citizenship-case?traffic_source=rss</urls>
+      <titles>Trump attends birthright citizenship hearing at Supreme Court in historic first
+‘Hits close to home’: US Supreme Court hears birthright citizenship case</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Explosions at Burundi ammunition depot kill civilians, witnesses say</title>
+      <link>https://www.bbc.com/news/articles/c5y7x7qre0zo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] Powerful blasts destroyed homes and sparked panic in the city of Bujumbura on Tuesday night.
+
+[Al Jazeera] Army spokesperson says houses, buildings, vehicles ​and military equipment were destroyed in ammunition depot blast.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-04-01T20:16:32+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>a0ac7831c64d</cluster_id>
+      <sources>BBC Africa
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/c5y7x7qre0zo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/1/burundi-says-at-least-13-killed-dozens-injured-in-military-base-blast?traffic_source=rss</urls>
+      <titles>Explosions at Burundi ammunition depot kill civilians, witnesses say
+Burundi says at least 13 killed, dozens injured in military base blast</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>'Like a camping trip, but everything needs to be attached'</title>
+      <link>https://www.france24.com/en/like-a-camping-trip-but-everything-needs-to-be-attached</link>
+      <description>NASA is set to launch four astronauts as soon as Wednesday evening on a 10-day flight around the moon, marking the most ambitious U.S. space mission in decades. FRANCE 24's Mark Owen speaks with astronaut Jean-François Clervoy, Founder of Air Zero G, about what life is going to be like for astronauts on board the Artemis II. He says the mission capsule is a very confined space and the four astronauts &quot;better get along with each other&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-01T20:08:39+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -84,6 +258,26 @@
       <cluster_time>2026-04-01T19:54:03+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
+    </item>
+    <item>
+      <title>South African army arrive in crime hotspots to help tackle gangs</title>
+      <link>https://www.bbc.com/news/articles/cx2e78yk09no?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] The army has been deployed to five of South Africa's nine provinces for a year-long operation.
+
+[Africanews] South African soldiers moved into gang-ridden Cape Town townships on Wednesday, as two people were killed in fresh violence, nearly 50 days after the president ordered the deployment.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-04-01T19:43:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>eb750f77933a</cluster_id>
+      <sources>BBC Africa
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/cx2e78yk09no?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/04/01/south-africa-deploys-2200-soldiers-as-gang-violence-plagues-cape-flats/</urls>
+      <titles>South African army arrive in crime hotspots to help tackle gangs
+South Africa deploys 2,200 soldiers as gang violence plagues Cape flats</titles>
+      <languages>en</languages>
     </item>
     <item>
       <title>'It's a nightmare for Keir Starmer' as UK PM sees 'special relationship' with US unravel</title>
@@ -118,22 +312,12 @@
     <item>
       <title>Trump claims Iran wants a ceasefire, Iran says remarks are ‘false and baseless’</title>
       <link>https://www.france24.com/en/trump-claims-iran-wants-a-ceasefire-iran-says-remarks-are-false-and-baseless</link>
-      <description>[France 24] Donald Trump has claimed that Iran has asked the United States for a ceasefire -- adding that Washington would only consider it when the Strait of Hormuz reopens. Tehran, though, has denied this -- the Foreign Ministry calling Trump's remarks &quot;baseless.&quot; It comes hours ahead of the president's primetime address to the nation. FRANCE 24's Carys Garland reports.
-
-[Al Jazeera] Donald Trump says US will continue 'blasting Iran into oblivion' until Strait of Hormuz is reopened.</description>
+      <description>Donald Trump has claimed that Iran has asked the United States for a ceasefire -- adding that Washington would only consider it when the Strait of Hormuz reopens. Tehran, though, has denied this -- the Foreign Ministry calling Trump's remarks &quot;baseless.&quot; It comes hours ahead of the president's primetime address to the nation. FRANCE 24's Carys Garland reports.</description>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-04-01T18:45:21+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>cefd2e83a705</cluster_id>
-      <sources>France 24
-Al Jazeera</sources>
-      <urls>https://www.france24.com/en/trump-claims-iran-wants-a-ceasefire-iran-says-remarks-are-false-and-baseless
-https://www.aljazeera.com/news/2026/4/1/iran-denies-trumps-claim-iranian-president-requested-ceasefire?traffic_source=rss</urls>
-      <titles>Trump claims Iran wants a ceasefire, Iran says remarks are ‘false and baseless’
-Iran denies Trump’s claim Iranian president requested ceasefire</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>When the oil runs dry: What next for globalization as Asia bears brunt of Iran war?</title>
@@ -276,42 +460,12 @@ Iran denies Trump’s claim Iranian president requested ceasefire</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Explosions at Burundi ammunition depot kill civilians, witnesses say</title>
-      <link>https://www.bbc.com/news/articles/c5y7x7qre0zo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Powerful blasts destroyed homes and sparked panic in the city of Bujumbura on Tuesday night.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-04-01T16:26:19+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Plus de 300 médecins réunis au C-Care Symposium 2026</title>
       <link>https://ionnews.mu/plus-de-300-medecins-reunis-au-c-care-symposium-2026/</link>
       <description>Plus de 300 médecins ont participé au C-Care Symposium, tenu les 28 et 29 mars à Balaclava. L’événement a porté sur les avancées médicales, les nouvelles technologies et les pratiques innovantes dans le domaine de la santé. Le ministre de la Santé et du bien-être, Anil Bachoo, a souligné l’importance de la formation continue pour améliorer la qualité des soins. Le symposium a également permis des échanges entre professionnels autour des évolutions de la médecine. The post Plus de 300 médecins ré</description>
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-04-01T16:22:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>History’s biggest census: Why India’s new population count is controversial</title>
-      <link>https://www.aljazeera.com/news/2026/4/1/historys-biggest-census-why-indias-new-population-count-is-controversial?traffic_source=rss</link>
-      <description>The population count, which was delayed by five years, will include caste enumeration for the first time in a century.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T16:19:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>UK to host meeting of 35 countries on reopening Strait of Hormuz</title>
-      <link>https://www.aljazeera.com/news/2026/4/1/uk-to-host-meeting-of-35-countries-on-reopening-strait-of-hormuz?traffic_source=rss</link>
-      <description>Before talks with 35 countries, UK Prime Minister Keir Starmer says reopening strait 'will not be easy'.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T15:55:32+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -342,26 +496,6 @@ Iran denies Trump’s claim Iranian president requested ceasefire</titles>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-04-01T15:40:33+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Russia says will continue helping Cuba after first oil shipment arrives</title>
-      <link>https://www.aljazeera.com/news/2026/4/1/russia-to-continue-helping-cuba-after-first-oil-shipment-arrives-diplomat?traffic_source=rss</link>
-      <description>Foreign ministry spokeswoman Maria Zakharova also called on the US to lift its energy blockade on the island nation.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T15:39:32+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mojtaba Khamenei’s rumoured injury or death won’t change Iran’s trajectory</title>
-      <link>https://www.aljazeera.com/opinions/2026/4/1/mojtaba-khameneis-rumoured-injury-or-death-wont-change-irans-trajectory?traffic_source=rss</link>
-      <description>His father, Ali Khamenei, built the supreme leader's office into an institution that does not depend on a single leader.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T15:38:50+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -466,42 +600,12 @@ Iran denies Trump’s claim Iranian president requested ceasefire</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran War: What a Marine Expeditionary Unit is – and other US military terms</title>
-      <link>https://www.aljazeera.com/news/2026/4/1/iran-war-what-a-marine-expeditionary-unit-is-and-other-us-military-terms?traffic_source=rss</link>
-      <description>The US has deployed thousands of additional Marines and airborne troops to the Middle East since the Iran war began.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T15:13:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Ali Zafar wins defamation case against Meesha Shafi: Why it matters</title>
-      <link>https://www.aljazeera.com/news/2026/4/1/ali-zafar-wins-defamation-case-against-meesha-shafi-why-it-matters?traffic_source=rss</link>
-      <description>Shafi’s 2018 sexual harassment allegations against Zafar are widely seen as Pakistan’s highest‑profile #MeToo case.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T14:40:55+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Iran stands firm as diplomatic efforts remain indirect</title>
       <link>http://www.africanews.com/2026/04/01/iran-stands-firm-as-diplomatic-efforts-remain-indirect/</link>
       <description>Iran has reiterated its uncompromising position as pressure mounts for a diplomatic resolution to the ongoing conflict. A senior Iranian official emphasized that Tehran will not accept any agreement unless its core conditions are fully met.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-01T14:39:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South African army arrive in crime hotspots to help tackle gangs</title>
-      <link>https://www.bbc.com/news/articles/cx2e78yk09no?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The army has been deployed to five of South Africa's nine provinces for a year-long operation.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-04-01T14:35:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -557,16 +661,6 @@ Fin de l’avertissement de fortes pluies</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Death penalty bill an 'extension of the genocidal measures of the State of Israel': Palestinian FM</title>
-      <link>https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20260401-death-penalty-bill-an-extension-of-the-genocidal-measures-of-the-state-of-israel-palestinian-fm</link>
-      <description>Speaking to FRANCE 24, Palestinian Foreign Minister Varsen Aghabekian condemned Israel’s new death penalty bill as “an extension of the genocidal measures of the State of Israel”. She accused settlers and the Israeli army of being “one and the same”, and insisted that the two-state solution remains the “only solution”.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T14:15:36+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>South Africans react as fuel prices surge despite tax relief</title>
       <link>http://www.africanews.com/2026/04/01/south-africans-react-as-fuel-prices-surge-despite-tax-relief/</link>
       <description>[Africanews] Authorities announced a reduction of the general fuel levy by three rand per litre, a measure aimed at cushioning the impact of soaring global oil prices linked to the Iran war. However, the relief has done little to offset one of the steepest pump price increases on record.
@@ -616,26 +710,6 @@ South Africans load up on fuel as Iran war leads to major price hike</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Russia claims to take full control of Ukraine’s Luhansk region</title>
-      <link>https://www.aljazeera.com/news/2026/4/1/russia-claims-to-take-full-control-of-ukraines-luhansk-region?traffic_source=rss</link>
-      <description>No immediate comment from Ukraine on Kremlin's claim of advance in part of larger industrial Donbas area.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T13:45:48+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Russia demands France release woman arrested for suspected espionage</title>
-      <link>https://www.france24.com/en/europe/20260401-russia-demands-france-release-woman-arrested-for-suspected-espionage</link>
-      <description>Moscow is demanding that Russian-French national Anna Novikova be freed after she was detained in France last year ⁠on suspicion of espionage. Novikova is suspected of trying to obtain information about French economic interests.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T13:44:22+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Peter Magyar, the former Orban ally vying for power in Hungary</title>
       <link>https://www.bbc.com/news/articles/c78l7vyylgqo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Magyar represents the biggest threat to Viktor Orban's rule in Hungary since he won the first of four consecutive victories in 2010.</description>
@@ -652,6 +726,16 @@ South Africans load up on fuel as Iran war leads to major price hike</titles>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-01T13:42:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Lamine Yamal condemns racist abuse aimed at Egypt</title>
+      <link>https://www.bbc.com/sport/football/articles/cz6737pdnwpo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Lamine Yamal says racist chants heard during Spain's 0-0 draw with Egypt in Barcelona on Tuesday were &quot;disrespectful and intolerable&quot;.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-04-01T13:28:19+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -687,26 +771,6 @@ Nommée présidente du conseil d’administration de la NADC : Nadia Peerun mise
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-01T13:15:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>‘The World Cup curse’: Outcry as Italy miss out for third time in a row</title>
-      <link>https://www.aljazeera.com/sports/2026/4/1/the-world-cup-curse-outcry-as-italy-miss-out-for-third-time-in-a-row?traffic_source=rss</link>
-      <description>Italy's sport minister says football federation boss should step down after national team loses playoff to Bosnia.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T13:09:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Minerals for aid: Are new US health deals ‘exploiting’ African countries?</title>
-      <link>https://www.aljazeera.com/news/2026/4/1/minerals-for-aid-are-new-us-health-deals-exploiting-african-countries?traffic_source=rss</link>
-      <description>Zimbabwe and Zambia have pushed back against 'lopsided' agreements after US asks for health data and minerals.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T12:57:28+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -951,16 +1015,6 @@ Enquête pour blanchiment d’argent : le suspect en fuite se rend à la FCC</ti
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-01T09:55:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Russian military plane crash kills 29 in occupied Crimea</title>
-      <link>https://www.bbc.com/news/articles/cly6387xgqxo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Russian authorities say a technical malfunction caused the An-26 to crash into a cliff.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T09:55:28+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1877,16 +1931,6 @@ Crise oblige : Ministres, députés et «Advisers» toucheront désormais le sal
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Megan Thee Stallion taken to hospital during Moulin Rouge performance</title>
-      <link>https://www.bbc.com/news/articles/c86e1403793o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The rapper &quot;started feeling very ill&quot; mid-way through the show in New York, her representative told US media.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T05:30:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Divorced couples in Japan can now share custody of their children</title>
       <link>https://www.bbc.com/news/articles/c77m16n6dm0o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Japan was, until recently, the only G7 country to not recognise the legal concept of joint custody.</description>
@@ -1943,56 +1987,6 @@ Crise oblige : Ministres, députés et «Advisers» toucheront désormais le sal
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-03-31T23:58:29+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'You're no longer my sister' - rows erupt as war divides Iranian families</title>
-      <link>https://www.bbc.com/news/articles/ce9mvzpvr7xo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>People in Iran describe angry scenes and tense relationships as rifts open up over the war.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T23:25:19+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'A million things could go wrong' - why seizing Iran's uranium would be so risky for the US</title>
-      <link>https://www.bbc.com/news/articles/cvglv5v4yvpo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Seizing the stockpile would be one of the &quot;most complicated special operations in history&quot;, a former defence official tells the BBC.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T23:16:15+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Asia's migrant workers debate if Gulf jobs are worth deadly risk of Iran war</title>
-      <link>https://www.bbc.com/news/articles/c0kr8lrpekmo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Iran's strikes on Gulf states have been especially hard for migrants who have long supported these economies to lift their families back home from poverty.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T22:48:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US journalist Shelly Kittleson kidnapped in Baghdad</title>
-      <link>https://www.bbc.com/news/articles/c5yled478zwo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The US state department says a suspect in her abduction has ties to an Iran-backed militia group, Kataib Hezbollah.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-03-31T21:08:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Eritrea advance after 19-year absence from Afcon qualifying</title>
-      <link>https://www.bbc.com/sport/football/articles/c203n5y7723o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Eritrea are one of six nations to reach the group stage of qualification for Afcon 2027, having played their first games in the competition since 2007.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-03-31T20:15:42+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
