@@ -4,44 +4,44 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Thu, 02 Apr 2026 20:05:46 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Apr 2026 23:08:47 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 02 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 108.58 per barrel</description>
+      <description>Brent Crude Oil: USD 109.03 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-02T20:02:11.295938+00:00</cluster_time>
+      <cluster_time>2026-04-02T23:05:21.869707+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 02 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 67,024.75 (▼ -4.80% from last)</description>
+      <description>Bitcoin (BTC): USD 66,980.14 (▼ -4.87% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-02T20:02:10.853075+00:00</cluster_time>
+      <cluster_time>2026-04-02T23:05:21.775891+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Gold price – 02 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,675.30 (▲ +6.52% from last)</description>
+      <description>Gold (XAU): USD 4,678.00 (▲ +6.58% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-02T20:02:10.567150+00:00</cluster_time>
+      <cluster_time>2026-04-02T23:05:21.740493+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>MUR exchange rates – 02 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.85 | MUR/EUR 54.01 (▲ 0.36 from last) (▲ 0.32 from last)</description>
+      <description>MUR/USD 46.85 | MUR/EUR 54.02 (▲ 0.36 from last) (▲ 0.33 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-02T20:02:10.339852+00:00</cluster_time>
+      <cluster_time>2026-04-02T23:05:21.268084+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +51,7 @@
       <description>SEMDEX closed at 2229.12 (▲ 5.92 pts, +0.27% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-02T20:02:07.778719+00:00</cluster_time>
+      <cluster_time>2026-04-02T23:05:18.718283+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -61,7 +61,225 @@
       <description>Moderate Tropical Storm INDUSA|Weather Outlook for Mauritius, Rodrigues &amp; St Brandon Weather news for Mauritius issued at 16h30 on Thursday 02 April 2026.General situation:1. A light airstream is flowing over region.2. Clouds associated with a frontal system will influence the local weather as from tomorrow afternoon.Forecast for the next 24 hours:Partly cloudy during the night and tomorrow morning with occasionnal showers mainly over the highgrounds.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Showers are expected mainly over the Southern part of the island and over the central plateau in the early afternoon. Afterwards, these showers will spread to other sectors and could be at times of moderate intensity, with thunderstorms.The maximum temperature will vary between 25 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius along the coasts.Wind light and variable, blowing from North-west at 10 to 20 km/h tomorrow.Sea moderate beyond the reefs with waves of the order of 2 metres, becoming gradually rough with South-westerly swells as from tomorrow afternoon.Ventures in the open sea are not advised as from tomorrow afternoon.Practical advice:In case of thunderstorms, it is advised to remain in safe places and avoid open areas, hikings, sea ventures and sheltering under trees during thundery showers.Supplementary Information:At 16h00, the Moderate Tropical Storm INDUSA was centered near the point 12.6 degrees South in latitude and 73.2 degrees East in longitude. It is moving in a general South-Southwesterly direction at about 10 km/h and will not have any direct influence over the Mascarenes Islands.High tides :Tomorrow 01h25 and 13h48.Low tides :19h28 and tomorrow 07h57.Sunset :18h10.Sunrise (tomorrow) :06h17.Atmospheric pressure at 16h00:1011 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-04-02T20:02:02.848152+00:00</cluster_time>
+      <cluster_time>2026-04-02T23:05:13.991083+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US court orders resentencing for Colorado clerk involved in election scheme</title>
+      <link>https://www.aljazeera.com/news/2026/4/2/us-court-orders-resentencing-for-colorado-clerk-involved-in-election-scheme?traffic_source=rss</link>
+      <description>Former clerk Tina Peters has become a cause celebre for the election denial movement and President Donald Trump.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T22:56:55+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Judge dismisses most of Blake Lively's claims in Justin Baldoni harassment suit</title>
+      <link>https://www.bbc.com/news/articles/c3ex59yy4j2o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The judge dismissed all but three claims against Baldoni weeks before a trial date.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T22:47:48+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Rights groups, Milwaukee leaders slam ICE’s arrest of Palestinian advocate</title>
+      <link>https://www.aljazeera.com/news/2026/4/2/rights-groups-milwaukee-leaders-slam-ices-arrest-of-palestinian-advocate?traffic_source=rss</link>
+      <description>Salah Sarsour, the president of Islamic Society of Milwaukee, was reportedly detained while driving on March 30.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T22:45:48+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump signs order threatening up to 100% tariffs on pharmaceuticals</title>
+      <link>https://www.france24.com/en/americas/20260402-trump-signs-order-threatening-up-to-100-tariffs-on-pharmaceuticals</link>
+      <description>Donald Trump unveiled sweeping new pharmaceutical tariffs on Thursday that could reach 100% unless drugmakers strike pricing deals with his administration. The move, tied to national security concerns, escalates his trade strategy and could reshape global supply chains and raise costs.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T22:37:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Myanmar's coup leader who set off a brutal civil war is set to become president</title>
+      <link>https://www.bbc.com/news/articles/c1782nk0018o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>General Min Aung is set to be chosen as the next president by the newly-elected parliament.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T22:14:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump removes US Attorney General Pam Bondi</title>
+      <link>https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Bondi's time as America's top law enforcement officer was overshadowed by the justice department's handling of the Jeffrey Epstein investigation.
+
+[France 24] US President Donald Trump fired Attorney General Pam Bondi on Thursday and named his former personal lawyer to serve as the acting chief of the Justice Department. The move, which the Republican president announced in a social media post, comes amid criticism of Bondi's handling of the Epstein files and her failure to successfully prosecute several perceived Trump political foes. FRANCE 24's Monte Francis reports.
+
+[France 24] US President Donald Trump fired Attorney General Pam Bondi on Thursday after months of strained relations and named his former personal lawyer to serve as the acting chief of the Justice Department. Pentagon ​chief ​Pete Hegseth has asked the ​U.S. ‌Army ⁠Chief ‌of Staff ⁠Randy George to step ​down ‌and take immediate ‌retirement. The Guardian Washington DC bureau chief David Smith reports.
+
+[France 24] US President Donald Trump has fired Pam Bondi, a loyalist who oversaw Justice Department upheaval during her role as US attorney general, replacing her with his former personal attorney Todd Blanche.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T21:54:15+00:00</cluster_time>
+      <cluster_size>4</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>24d944608bbb</cluster_id>
+      <sources>BBC News
+France 24</sources>
+      <urls>https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&amp;at_campaign=rss
+https://www.france24.com/en/trump-sacks-attorney-general-replaces-with-ex-personal-lawyer
+https://www.france24.com/en/trump-sacks-attorney-general-bondi-hegseth-reportedly-asks-us-army-chief-of-staff-to-step-down
+https://www.france24.com/en/americas/20260402-trump-fires-loyalist-pam-bondi-as-us-attorney-general</urls>
+      <titles>Trump removes US Attorney General Pam Bondi
+Trump sacks attorney general, replaces with ex-personal lawyer
+Trump sacks attorney general Bondi, Hegseth asks US Army Chief of Staff to step down
+Trump fires loyalist Pam Bondi as US attorney general</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Unbridled Bosnian joy marks World Cup qualification win over Italy</title>
+      <link>https://www.aljazeera.com/sports/2026/4/2/unbridled-bosnian-joy-marks-world-cup-qualification-win-over-italy?traffic_source=rss</link>
+      <description>Bosnia and Herzegovina's dramatic win over Italy sparks wild celebrations from Zenica to Sarajevo and evokes memories.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T21:25:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Four toddlers stabbed to death at Ugandan nursery school</title>
+      <link>https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC Africa] The suspect is in custody but his motive is unknown, the police say in a brief statement.
+
+[Africanews] The male suspect gained access to the daycare facility by posing as a parent, according to local media. Police said the four children killed were aged bewteen two and three.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-04-02T21:23:44+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>e83263c13a6d</cluster_id>
+      <sources>BBC Africa
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/04/02/uganda-four-children-killed-in-knife-attack-at-kampala-kindergarten/</urls>
+      <titles>Four toddlers stabbed to death at Ugandan nursery school
+Uganda: Four children killed in knife attack at Kampala kindergarten</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>'Any weapon Europe buys from the US is a liability', rearmament expert says</title>
+      <link>https://www.france24.com/en/tv-shows/a-propos/20260402-any-weapon-europe-buys-from-the-us-is-a-liability-rearmament-expert-says</link>
+      <description>European NATO countries have reduced their reliance on the US for weapons imports while significantly increasing their defense spending in the past year. Speaking with FRANCE 24's Sharon Gaffney, Guntram Wolff, Senior Fellow at Bruegel, says that &quot;any weapon we buy as Europeans from the United States is a liability both in terms of technology dependence but also in terms of missing growth and domestic ecosystem that would develop&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T21:13:44+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Russia to send second oil tanker to Cuba, minister says</title>
+      <link>https://www.france24.com/en/europe/20260402-russia-to-send-second-oil-tanker-to-cuba-minister-says</link>
+      <description>[France 24] Russia is sending a second oil tanker to Cuba as the island struggles with a deepening energy crisis under a US fuel blockade, Energy Minister Sergei Tsivilev said Thursday. The move follows a first delivery this week amid widespread blackouts and shortages after Washington cut off key supplies, prompting Moscow to step in.
+
+[Al Jazeera] Announcement comes days after Russian tanker brought some 700,000 barrels of crude to Cuba in response to energy crisis.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T20:51:25+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>220f03fb9e21</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/europe/20260402-russia-to-send-second-oil-tanker-to-cuba-minister-says
+https://www.aljazeera.com/news/2026/4/2/russia-sending-second-ship-with-oil-to-cuba-amid-us-blockade?traffic_source=rss</urls>
+      <titles>Russia to send second oil tanker to Cuba, minister says
+Russia sending second ship with oil to Cuba amid US blockade</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>One year on, what remains of Trump's tariffs?</title>
+      <link>https://www.france24.com/en/one-year-on-what-remains-of-trump-s-tariffs</link>
+      <description>It's been a year since US President Donald Trump unveiled sweeping new tariffs, which would change the global trade landscape. But after a year of upheaval and uncertainty, what remains of the 'Liberation Day' duties? Also in the show - soaring oil prices lead to a jump in car-pooling services in France.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T20:43:38+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>At least 43 people killed in ADF attack in northeast DR Congo, army says</title>
+      <link>https://www.aljazeera.com/news/2026/4/2/at-least-43-people-killed-in-adf-attack-in-northeast-dr-congo-army-says?traffic_source=rss</link>
+      <description>Attacks by the Allied Democratic Forces have intensified in recent months.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T20:34:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Russia's military campaign in Ukraine stalls for first time in more than two years</title>
+      <link>https://www.france24.com/en/europe/20260402-russia-military-campaign-in-ukraine-stalls-for-first-time-in-more-than-two-years</link>
+      <description>Russia’s advance in Ukraine stalled in March, with no territorial gains for the first time in over two years, according to the Institute for the Study of War. Ukrainian forces recaptured small areas, signalling a slowdown in Moscow’s momentum after months of progress, raising new questions about the war’s next phase.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T20:33:56+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Wall Street falls, oil surges after Trump threatens more attacks on Iran</title>
+      <link>http://www.africanews.com/2026/04/02/wall-street-falls-oil-surges-after-trump-threatens-more-attacks-on-iran/</link>
+      <description>Stocks slumped and oil prices soared Thursday after President Donald Trump vowed the U.S. will continue to attack Iran and failed to offer a clear timetable for ending the conflict in the Middle East.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-02T20:28:05+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>As war drags on, US reiterates Trump open to diplomacy with Iran</title>
+      <link>https://www.aljazeera.com/news/2026/4/2/as-war-drags-on-us-reiterates-trump-open-to-diplomacy-with-iran?traffic_source=rss</link>
+      <description>US State Department accuses Iran of attacking civilian sites as Trump shares footage of destruction of Iranian bridge.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T20:24:20+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Burkina army, jihadists killed more than 1,800 civilians since 2023</title>
+      <link>https://www.france24.com/en/burkina-army-jihadists-killed-more-than-1-800-civilians-since-2023</link>
+      <description>In tonight's edition, Human Rights Watch says Burkina Faso’s government forces and jihadists together killed more than 1800 civilians between 2023 and 2025. Also, a collapsed, unfinished school in Accra kills four people and injures nearly 30, raising concerns over unsafe classrooms. And Belgium is resisting a U.S.-backed AI firm’s attempt to access historic mining maps that could reveal valuable mineral deposits.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T20:20:22+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Legal groups condemn arrival of a dozen deportees from US to Uganda</title>
+      <link>https://www.aljazeera.com/news/2026/4/2/legal-groups-condemn-arrival-of-a-dozen-deportees-from-us-to-uganda?traffic_source=rss</link>
+      <description>Advocates in Uganda described the deportation as an act of 'transnational repression' and pledged to fight the process.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T20:17:59+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Planning commission approves Trump’s White House ballroom plans</title>
+      <link>https://www.aljazeera.com/news/2026/4/2/planning-commission-approves-trumps-white-house-ballroom-plans?traffic_source=rss</link>
+      <description>Legal fight over Trump's enormous construction project will continue despite panel's approval.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T20:04:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -82,6 +300,26 @@
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-04-02T19:50:29+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Fact-checking Trump's address on the war in Iran</title>
+      <link>https://www.france24.com/en/fact-checking-trump-s-address-on-the-iran-war</link>
+      <description>In his 19-minute address to the nation from the White House on Wednesday, President Donald Trump defended his war in Iran, which is now entering his second month, presenting the operation as a success that he said was “nearing completion.” But the President also stretched the truth about certain victories on the battlefield, and misrepresented the state of the US economy.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T19:44:19+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Macron says Trump marriage jibe does not 'merit response'</title>
+      <link>https://www.france24.com/en/macron-says-trump-marriage-jibe-does-not-merit-response</link>
+      <description>French President Emmanuel Macron said on Thursday Donald Trump's mocking comments about his marriage did not merit a response, calling them &quot;neither elegant nor appropriate&quot; for the situation. But after days of tensions over US-Israeli strikes on Iran and over NATO, an apparently irritated Macron launched a broadside of his own, saying &quot;there is too much talk&quot; and &quot;this is not a show&quot;.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-02T19:43:41+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -236,26 +474,6 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Trump fires loyalist Pam Bondi as US attorney general</title>
-      <link>https://www.france24.com/en/americas/20260402-trump-fires-loyalist-pam-bondi-as-us-attorney-general</link>
-      <description>[France 24] US President Donald Trump has fired Pam Bondi, a loyalist who oversaw Justice Department upheaval during her role as US attorney general, replacing her with his former personal attorney Todd Blanche.
-
-[Al Jazeera] Bondi came under fire for what critics called politically motivated prosecutions and her handling of the Epstein files.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T17:34:07+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>b2f568de04e3</cluster_id>
-      <sources>France 24
-Al Jazeera</sources>
-      <urls>https://www.france24.com/en/americas/20260402-trump-fires-loyalist-pam-bondi-as-us-attorney-general
-https://www.aljazeera.com/news/2026/4/2/trump-says-pam-bondi-out-as-attorney-general?traffic_source=rss</urls>
-      <titles>Trump fires loyalist Pam Bondi as US attorney general
-Trump fires Pam Bondi as US attorney general, elevates Todd Blanche</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Man dies in storm near Athens as Saharan dust shrouds Crete</title>
       <link>https://www.bbc.com/news/articles/c070d9g5k7jo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Several regions are flooded in mainland Greece, while a Saharan dust storm envelopes the island of Crete.</description>
@@ -266,27 +484,7 @@ Trump fires Pam Bondi as US attorney general, elevates Todd Blanche</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US Homeland Security shutdown to stretch on, despite Senate passing funding</title>
-      <link>https://www.aljazeera.com/news/2026/4/2/us-homeland-security-shutdown-to-stretch-on-despite-senate-passing-funding?traffic_source=rss</link>
-      <description>The House has failed to hold a vote on the Senate bill, while Trump says he will sign order to pay 'all' DHS employees.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T17:27:24+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Argentina expels Iranian diplomat amid rift over blacklisting IRGC</title>
-      <link>https://www.aljazeera.com/news/2026/4/2/argentina-expels-iranian-diplomat-amid-rift-over-blacklisting-irgc?traffic_source=rss</link>
-      <description>Buenos Aires accuses Tehran of making 'offensive' accusations against Argentina after it labeled IRGC as 'terror' group.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T17:02:21+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran's two largest steel plants shut down due to strikes, companies say</title>
+      <title>Iran's two largest steel plants shut down due to air strikes, companies say</title>
       <link>https://www.bbc.com/news/articles/c1w4pdexxqpo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The strikes, which Iran says were first launched by Israel in co-ordination with the US last week, could cause major damage to the Iranian economy.</description>
       <source>BBC News</source>
@@ -302,16 +500,6 @@ Trump fires Pam Bondi as US attorney general, elevates Todd Blanche</titles>
       <source>CEB Power Outages</source>
       <category>utilities</category>
       <cluster_time>2026-04-02T17:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>World Cup 2026: Iran and Infantino talks progressing as war darkens US trip</title>
-      <link>https://www.aljazeera.com/sports/2026/4/2/world-cup-2026-iran-and-infantino-talks-progressing-as-war-darkens-us-trip?traffic_source=rss</link>
-      <description>Iranian football officials hold first face-to-face meeting with FIFA's president since start of US-Israel war on Iran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T16:55:34+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -384,16 +572,6 @@ Fraude alléguée de Rs 14 M : un policier interpellé par la FCC</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>World Cup 2026: Italy’s football chief resigns after qualifying failure</title>
-      <link>https://www.aljazeera.com/sports/2026/4/2/world-cup-2026-italys-football-chief-resigns-after-qualifying-failure?traffic_source=rss</link>
-      <description>Italian men's football has struggled recently, in contrast with other Italian teams.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T16:26:38+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>[Rodrigues] CEB : Une enquête ouverte après un incendie</title>
       <link>https://ionnews.mu/rodrigues-ceb-une-enquete-ouverte-apres-un-incendie/</link>
       <description>Une enquête interne a été lancée par le Central Electricity Board (CEB) après un incendie survenu hier soir à sa station de Pointe L’herbe, à Rodrigues. Alors que des rumeurs évoquaient un tanker en feu, le CEB a rapidement rectifié : il s’agissait en réalité d’un incinérateur. L’organisme a tenu à rassurer la population face aux informations erronées circulant en ligne. Grâce à l’intervention rapide des pompiers, le feu a été maîtrisé sans causer de dégâts majeurs. Aucun impact n’a été enregist</description>
@@ -424,12 +602,12 @@ Fraude alléguée de Rs 14 M : un policier interpellé par la FCC</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Russia to send second oil tanker to Cuba, minister says</title>
-      <link>https://www.france24.com/en/europe/20260402-russia-to-send-second-oil-tanker-to-cuba-minister-says</link>
-      <description>Russia is sending a second oil tanker to Cuba as the island struggles with a deepening energy crisis under a US fuel blockade, Energy Minister Sergei Tsivilev said Thursday. The move follows a first delivery this week amid widespread blackouts and shortages after Washington cut off key supplies, prompting Moscow to step in.</description>
-      <source>France 24</source>
+      <title>'I haven't slept for days': Iranians describe mounting desperation after a month of war</title>
+      <link>https://www.bbc.com/news/articles/crm1vj941x9o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Ordinary people from various parts of Iran describe expanding strikes, economic pain and fear of repression.</description>
+      <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-04-02T16:11:40+00:00</cluster_time>
+      <cluster_time>2026-04-02T16:09:24+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -484,72 +662,12 @@ Médecin agressé à l’hôpital SAJ : deux suspects arrêtés</titles>
       <languages>fr</languages>
     </item>
     <item>
-      <title>Pakistan, Afghanistan hold talks in China to end months of conflict</title>
-      <link>https://www.aljazeera.com/news/2026/4/2/pakistan-afghanistan-hold-talks-in-china-to-end-months-of-conflict?traffic_source=rss</link>
-      <description>China has been trying to mediate a negotiated settlement to the conflict between the allies-turned-foes.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T15:55:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Black mayor faces abuse as France confronts racism in public life</title>
-      <link>https://www.france24.com/en/france/20260402-black-mayor-faces-abuse-as-france-confronts-racism-in-public-life</link>
-      <description>France’s hard-left France Unbowed party said several Black lawmakers received racist letters, condemning what it called entrenched discrimination. The incident follows a surge of abuse targeting recently elected Saint-Denis Mayor Bally Bagayoko, underscoring concerns about rising racism in French public life.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T15:53:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Chikungunya : Plus de 850 cas recensés</title>
       <link>https://ionnews.mu/chikungunya-plus-de-850-cas-recenses/</link>
       <description>Face à une hausse des cas de chikungunya, les autorités mauriciennes renforcent leur action. Réunis ce jeudi 2 avril sous la présidence du ministre de la Santé, Anil Bachoo, les principales parties prenantes ont dressé un bilan préoccupant : plus de 850 cas recensés. Parmi, environ 100 cas sont toujours actifs. Les régions de Port-Louis et Rose-Hill figurent parmi les plus touchées, poussant les autorités à multiplier les interventions sur le terrain, notamment avec un déploiement des équipes de</description>
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-04-02T15:43:58+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Four toddlers stabbed to death at Ugandan nursery school</title>
-      <link>https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC Africa] The suspect is in custody but his motive is unknown, the police say in a brief statement.
-
-[Africanews] The male suspect gained access to the daycare facility by posing as a parent, according to local media. Police said the four children killed were aged bewteen two and three.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-04-02T15:37:20+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>e83263c13a6d</cluster_id>
-      <sources>BBC Africa
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/04/02/uganda-four-children-killed-in-knife-attack-at-kampala-kindergarten/</urls>
-      <titles>Four toddlers stabbed to death at Ugandan nursery school
-Uganda: Four children killed in knife attack at Kampala kindergarten</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>US war on Iran: 'Absolute disaster' for Middle Eastern airlines</title>
-      <link>https://www.france24.com/en/us-war-on-iran-absolute-disaster-for-middle-eastern-airlines</link>
-      <description>Nadia Massih is pleased to welcome Dr. Wouter Dewulf, professor at the University of Antwerp AMS where he serves as Academic Director for the Master of Maritime/Air Transport Management. According to Dr. Dewulf, the current crisis facing global airlines must be understood as a convergence of geopolitical upheaval and unstable markets. The sharp rise in oil prices, driven by war, has immediately had a dramatic effect on the airline industry. All the while, airspace instability and shifting travel</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T15:32:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Can the US seize Iran’s enriched uranium – and what are the risks?</title>
-      <link>https://www.aljazeera.com/news/2026/4/2/can-the-us-seize-irans-enriched-uranium-and-what-are-the-risks?traffic_source=rss</link>
-      <description>A military operation would pose chemical, logistical, and tactical hurdles, experts say.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T15:21:51+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -574,42 +692,12 @@ Uganda: Four children killed in knife attack at Kampala kindergarten</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>European Parliament member Rima Hassan taken into French police custody</title>
-      <link>https://www.aljazeera.com/news/2026/4/2/european-parliament-member-rima-hassan-taken-into-french-police-custody?traffic_source=rss</link>
-      <description>Members of Hassan's La France Insoumise party condemn detention as part of effort to 'intimidate' Palestine supporters.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T15:11:32+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>More than 40 countries hold talks on ways to reopen the Strait of Hormuz</title>
       <link>http://www.africanews.com/2026/04/02/more-than-40-countries-hold-talks-on-ways-to-reopen-the-strait-of-hormuz/</link>
       <description>Britain accused Iran on Thursday of holding the world's economy hostage as diplomats from more than 40 countries held talks on ways to reopen the Strait of Hormuz, a vital shipping route that has been choked off by the U.S.-Israeli war against Iran.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-02T15:06:02+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Members of Iran’s Basij militia mount online intimidation campaign to deter protests</title>
-      <link>https://www.france24.com/en/tv-shows/the-observers/20260402-members-iran-basij-militia-mount-online-intimidation-campaign-deter-protests</link>
-      <description>Heavily armed and dressed in camouflage, members of Iran's Basij paramilitary force have been circulating photos of themselves patrolling the streets of Tehran with portraits of the new supreme leader since early March. The aim: to dissuade Iranians from restarting protests against the regime.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T14:55:42+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>India’s new digital rules tighten the noose on freedom of speech</title>
-      <link>https://www.france24.com/en/asia-pacific/20260402-india-new-digital-rules-tighten-the-noose-on-freedom-of-speech</link>
-      <description>Journalists, news outlets, satirists and cartoonists are among the spate of citizens targeted by India’s increasingly strict laws on digital censorship. Critics say that a new set of rules will further expand executive power over the internet and signal a growing digital authoritarianism.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T14:48:16+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -642,16 +730,6 @@ https://live.mega.mu/redirect/254042/</urls>
       <titles>Journée mondiale de sensibilisation à l’autisme —...
 Journée mondiale de l’autisme : Mobilisation citoyenne à Curepipe</titles>
       <languages>fr</languages>
-    </item>
-    <item>
-      <title>Can Starmer’s 40-nation coalition open the Strait of Hormuz?</title>
-      <link>https://www.aljazeera.com/news/2026/4/2/can-starmers-40-nation-coalition-open-the-strait-of-hormuz?traffic_source=rss</link>
-      <description>About 20 percent of global oil and gas passes through the Gulf waterway.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-02T14:26:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
     </item>
     <item>
       <title>Ancient golden helmet recovered more than a year after Dutch heist</title>
@@ -1688,36 +1766,6 @@ Iran : Le pétrole grimpe et les marchés asiatiques chutent après l’allocuti
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-02T01:08:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Utah teen identified as victim of serial killer Ted Bundy</title>
-      <link>https://www.bbc.com/news/articles/c0lendp6390o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>New DNA testing has solved the 51-year-old case of murdered teenager Laura Ann Aime, according to investigators.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T22:35:54+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US Supreme Court appears sceptical of Trump plan to limit birthright citizenship</title>
-      <link>https://www.bbc.com/news/articles/cje47jk49k0o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Trump attended the arguments in person, a rare move by a sitting president.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-01T22:00:17+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>19 migrants found dead by Italian coastguard</title>
-      <link>http://www.africanews.com/2026/04/01/19-migrants-found-dead-by-italian-coastguard/</link>
-      <description>The bodies of 19 migrants were recovered from an inflatable boat south of the island of Lampedusa on Wednesday by the Italian coastguard</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-01T20:25:53+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
