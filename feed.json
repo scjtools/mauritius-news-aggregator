@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 152,
+  "item_count": 155,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-02T17:22:55.227470+00:00",
+      "cluster_time": "2026-04-02T20:02:11.295938+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 02 April 2026",
-      "summary": "Brent Crude Oil: USD 107.78 per barrel",
+      "summary": "Brent Crude Oil: USD 108.58 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-02T17:22:55.038291+00:00",
+      "cluster_time": "2026-04-02T20:02:10.853075+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 02 April 2026",
-      "summary": "Bitcoin (BTC): USD 67,343.43 (▼ -4.35% from last)",
+      "summary": "Bitcoin (BTC): USD 67,024.75 (▼ -4.80% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-02T17:22:54.655115+00:00",
+      "cluster_time": "2026-04-02T20:02:10.567150+00:00",
       "category": "finance",
       "headline": "Gold price – 02 April 2026",
-      "summary": "Gold (XAU): USD 4,661.90 (▲ +6.21% from last)",
+      "summary": "Gold (XAU): USD 4,675.30 (▲ +6.52% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,7 +49,7 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-02T17:22:54.324630+00:00",
+      "cluster_time": "2026-04-02T20:02:10.339852+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 02 April 2026",
       "summary": "MUR/USD 46.85 | MUR/EUR 54.01 (▲ 0.36 from last) (▲ 0.32 from last)",
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-02T17:22:51.699640+00:00",
+      "cluster_time": "2026-04-02T20:02:07.778719+00:00",
       "category": "finance",
       "headline": "SEMDEX – 02 April 2026",
       "summary": "SEMDEX closed at 2229.12 (▲ 5.92 pts, +0.27% from last close 2,223.20)",
@@ -79,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-04-02T17:22:47.086522+00:00",
+      "cluster_time": "2026-04-02T20:02:02.848152+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 02 April 2026",
       "summary": "Moderate Tropical Storm INDUSA|Weather Outlook for Mauritius, Rodrigues & St Brandon Weather news for Mauritius issued at 16h30 on Thursday 02 April 2026.General situation:1. A light airstream is flowing over region.2. Clouds associated with a frontal system will influence the local weather as from tomorrow afternoon.Forecast for the next 24 hours:Partly cloudy during the night and tomorrow morning with occasionnal showers mainly over the highgrounds.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Showers are expected mainly over the Southern part of the island and over the central plateau in the early afternoon. Afterwards, these showers will spread to other sectors and could be at times of moderate intensity, with thunderstorms.The maximum temperature will vary between 25 and 28 degrees Celsius over the highgrounds and between 30 and 33 degrees Celsius along the coasts.Wind light and variable, blowing from North-west at 10 to 20 km/h tomorrow.Sea moderate beyond the reefs with waves of the order of 2 metres, becoming gradually rough with South-westerly swells as from tomorrow afternoon.Ventures in the open sea are not advised as from tomorrow afternoon.Practical advice:In case of thunderstorms, it is advised to remain in safe places and avoid open areas, hikings, sea ventures and sheltering under trees during thundery showers.Supplementary Information:At 16h00, the Moderate Tropical Storm INDUSA was centered near the point 12.6 degrees South in latitude and 73.2 degrees East in longitude. It is moving in a general South-Southwesterly direction at about 10 km/h and will not have any direct influence over the Mascarenes Islands.High tides :Tomorrow 01h25 and 13h48.Low tides :19h28 and tomorrow 07h57.Sunset :18h10.Sunrise (tomorrow) :06h17.Atmospheric pressure at 16h00:1011 hectopascals.",
@@ -90,6 +90,338 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "singleton_3c5de0fcadb3",
+      "cluster_time": "2026-04-02T19:50:38+00:00",
+      "category": "global",
+      "headline": "Yamal slams anti-Muslim fan chants as Spain’s World Cup final hopes tainted",
+      "summary": "Lamine Yamal condemns xenophobic fans at Egypt friendly at a time when Spain is trying to secure 2030 World Cup final.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/2/yamal-slams-anti-muslim-fan-chants-as-spains-world-cup-final-hopes-tainted?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_0fa3d707df52",
+      "cluster_time": "2026-04-02T19:50:29+00:00",
+      "category": "global",
+      "headline": "Barcelona thump Real Madrid 6-0 to reach women’s Champions League semifinal",
+      "summary": "Barcelona reach the last four of women's Champions League, beating fierce football rivals Real Madrid 12-2 on aggregate.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/2/barcelona-thump-real-madrid-6-0-to-reach-champions-league-final?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_9e0940c540e5",
+      "cluster_time": "2026-04-02T19:41:17+00:00",
+      "category": "global",
+      "headline": "Europe, NATO under pressure over Iran war: 'Trump strong with the weak and weak with the strong'",
+      "summary": "François Picard is pleased to welcome Hélène Conway-Mouret, French Senator, Vice Chair of the Foreign Affairs Committee. According to Conway-Mouret, Donald Trump’s Iran war strategy is creating incredible volatility for European security, transatlantic relations, and even domestic politics in the US. All the while, NATO withdrawal is being levied as a threat to force European compliance.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/spotlight/20260402-europe-nato-under-pressure-over-iran-war-trump-strong-with-the-weak-and-weak-with-the-strong"
+      ]
+    },
+    {
+      "id": "singleton_8e23ee85f2a2",
+      "cluster_time": "2026-04-02T19:40:43+00:00",
+      "category": "global",
+      "headline": "'He wasn't convincing to the world and to the American people', former US ambassador to NATO says",
+      "summary": "Speaking with FRANCE 24's Mark Owen, Ivo Daalder, Former US Ambassador to NATO and Senior Fellow at the Belfer Center at Harvard University, says that US President Donald Trump's address to the nation failed to convince, stressing that communication about the war \"is almost a repeat of Vietnam. We're now hearing not body counts but how many targets have been hit [...] it seems like we're bombing for bombing's sake\".",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/he-wasn-t-convincing-to-the-world-and-to-the-american-people-former-us-ambassador-to-nato-says"
+      ]
+    },
+    {
+      "id": "singleton_d5bdd1922848",
+      "cluster_time": "2026-04-02T19:25:51+00:00",
+      "category": "global",
+      "headline": "Thomas Pesquet on space exploration: 'We’re all on the same boat, we have to take care of the ship'",
+      "summary": "François Picard is pleased to welcome from Toulouse in southwest France, European Space Agency astronaut Thomas Pesquet. As an astronaut who has experienced spaceflight firsthand, Pesquet sees the Artemis II mission not simply as a technological milestone, but as part of a broader human narrative of exploration and understanding. What fascinates him is not only how far we can travel from Earth, but how these journeys reshape our perception of it.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/spotlight/20260402-thomas-pesquet-on-space-exploration-we-re-all-on-the-same-boat-we-have-to-take-care-of-the-ship"
+      ]
+    },
+    {
+      "id": "singleton_28f6608da894",
+      "cluster_time": "2026-04-02T19:13:11+00:00",
+      "category": "regional",
+      "headline": "Videos show explosions in central Iran as conflict with Israel intensifies",
+      "summary": "Iran was hit by a powerful new wave of strikes on Wednesday when massive explosions and thick plumes of smoke rose over Baharestan, in the Esfahan region of central Iran.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/02/videos-show-explosions-in-central-iran-as-conflict-with-israel-intensifies/"
+      ]
+    },
+    {
+      "id": "singleton_ce7f49c6b3f9",
+      "cluster_time": "2026-04-02T19:09:37+00:00",
+      "category": "global",
+      "headline": "Israel's Lebanon endgame: 'Dismantle Hezbollah entirely as a political and social movement'",
+      "summary": "Nadia Massih is pleased to welcome Yezid Sayigh, a senior fellow at the Malcolm H. Kerr Carnegie Middle East Center in Beirut. He sees Israel’s military actions in southern Lebanon within a broader political and strategic framework that extends beyond immediate battlefield objectives. Sayigh argues that while military operations are visible and urgent, they are deeply intertwined with domestic political imperatives in Israel, regional power calculations, and the structural fragility of the Leban",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/middle-east-matters/20260402-israel-s-lebanon-endgame-dismantle-hezbollah-entirely-as-a-political-and-social-movement"
+      ]
+    },
+    {
+      "id": "singleton_2ec010594c86",
+      "cluster_time": "2026-04-02T19:07:35+00:00",
+      "category": "regional",
+      "headline": "From the Chrism Mass to the washing of the feet: Pope Leo’s first Easter season begins",
+      "summary": "Pope Leo XIV begins his first Easter as pontiff by washing priests’ feet, following a tradition previously used by Pope Francis, while warning against domination in a troubled world.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/02/from-the-chrism-mass-to-the-washing-of-the-feet-pope-leos-first-easter-season-begins/"
+      ]
+    },
+    {
+      "id": "singleton_a25efd7eaf86",
+      "cluster_time": "2026-04-02T18:58:34+00:00",
+      "category": "regional",
+      "headline": "Fally Ipupa marks 20 Years of solo career with historic Stade de France show [Interview]",
+      "summary": "Fally Ipupa is celebrating 20 years of his solo career. For the occasion, he is releasing his eighth studio album, “XX\", and inviting all music lovers to a major two-day celebration at the Stade de France on May 2 and 3.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/02/fally-ipupa-marks-20-years-of-solo-career-with-historic-stade-de-france-show-interview/"
+      ]
+    },
+    {
+      "id": "singleton_030b21c41b81",
+      "cluster_time": "2026-04-02T18:50:27+00:00",
+      "category": "global",
+      "headline": "US and Israel 'again bombing what were clearly non-military sites' in Iran",
+      "summary": "Reporting from Tehran for FRANCE 24, Reza Sayah says that \"today again US and Israeli forces bombed what were clearly non-military sites in broad daylight and later in the day US president Donald Trump seemed to boast about it\"",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/us-and-israel-again-bombing-what-were-clearly-non-military-sites-in-iran"
+      ]
+    },
+    {
+      "id": "singleton_52ace55e469a",
+      "cluster_time": "2026-04-02T18:40:06+00:00",
+      "category": "global",
+      "headline": "GCC chief urges UN to halt Iranian attacks, protect Gulf waterways",
+      "summary": "Jassim al-Budaiwi calls on UN Security Council to guarantee 'uninterrupted navigation through all strategic waterways'.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/2/gcc-chief-urges-un-to-halt-iranian-attacks-protect-gulf-waterways?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_0a5b8b943b8f",
+      "cluster_time": "2026-04-02T18:37:35+00:00",
+      "category": "global",
+      "headline": "Children’s hospital in Tehran keeps hopes and smiles alive during war",
+      "summary": "Staff at the Children’s Medical Center organise activities to offer a joyful experience to children in hospital.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/2/childrens-hospital-in-tehran-keeps-hopes-and-smiles-alive-during-war?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_5a8c730d175f",
+      "cluster_time": "2026-04-02T18:35:09+00:00",
+      "category": "regional",
+      "headline": "Sixteen Kenyans missing in Russia after army recruitment",
+      "summary": "More than 250 Kenyans have gone to fight for Russia in Ukraine, mostly willingly, Kenya's foreign minister says.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC Africa"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cx2ell79v2wo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_c640b5c6b3d7",
+      "cluster_time": "2026-04-02T18:12:54+00:00",
+      "category": "global",
+      "headline": "No longer so mighty? Iran war tests US strength and resolve",
+      "summary": "Might is right... until it's not. 2026 began with US commandos grabbing Venezuela’s president with zero casualties, an operation that put the rest of the world was on notice. But now, Donald Trump's first prime time address in nearly five weeks of war worrying markets instead of reassuring them. The US president telling impacted nations to just buy more oil from him and if they’re so worried about energy security in the Strait of Hormuz to go in themselves and sort it.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/the-debate/20260402-no-longer-so-mighty-iran-war-tests-us-strength-and-resolve"
+      ]
+    },
+    {
+      "id": "singleton_558ade5ebaf5",
+      "cluster_time": "2026-04-02T18:07:37+00:00",
+      "category": "regional",
+      "headline": "President Putin holds talks with Egyptian Foreign Minister Abdelatty in Moscow",
+      "summary": "Russian President Vladimir Putin has held talks in Moscow with Egypt's foreign minister, Badr Abdelatty, focusing on the war in the Middle East and economic cooperation.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/02/president-putin-holds-talks-with-egyptian-foreign-minister-abdelatty-in-moscow/"
+      ]
+    },
+    {
+      "id": "singleton_e3f84574ff13",
+      "cluster_time": "2026-04-02T17:48:33+00:00",
+      "category": "global",
+      "headline": "'An eye for an eye': Israel’s death penalty law is retaliatory and electorally motivated",
+      "summary": "The Israeli parliament's adoption of a law establishing \"the death penalty for terrorists\" – which in practice will only apply to Palestinians – has provoked an international outcry. The reasons for it passing are not just retaliatory, but politically motivated.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/middle-east/20260402-an-eye-for-an-eye-israel-death-penalty-law-is-retaliatory-and-electorally-motivated"
+      ]
+    },
+    {
+      "id": "singleton_3fcdec6f3737",
+      "cluster_time": "2026-04-02T17:47:36+00:00",
+      "category": "global",
+      "headline": "UN experts urge investigation into Israel’s killing of Lebanese journalists",
+      "summary": "UN experts say Israel 'emboldened by impunity' for previous journalist killings in Lebanon, Gaza and the West Bank.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/2/un-experts-urge-investigation-into-israels-killing-of-lebanese-journalists?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "b2f568de04e3",
+      "cluster_time": "2026-04-02T17:34:07+00:00",
+      "category": "global",
+      "headline": "Trump fires loyalist Pam Bondi as US attorney general",
+      "summary": "[France 24] US President Donald Trump has fired Pam Bondi, a loyalist who oversaw Justice Department upheaval during her role as US attorney general, replacing her with his former personal attorney Todd Blanche.\n\n[Al Jazeera] Bondi came under fire for what critics called politically motivated prosecutions and her handling of the Epstein files.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.france24.com/en/americas/20260402-trump-fires-loyalist-pam-bondi-as-us-attorney-general",
+        "https://www.aljazeera.com/news/2026/4/2/trump-says-pam-bondi-out-as-attorney-general?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_28b93d0fa485",
+      "cluster_time": "2026-04-02T17:32:25+00:00",
+      "category": "global",
+      "headline": "Man dies in storm near Athens as Saharan dust shrouds Crete",
+      "summary": "Several regions are flooded in mainland Greece, while a Saharan dust storm envelopes the island of Crete.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c070d9g5k7jo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_c9f9755907e3",
+      "cluster_time": "2026-04-02T17:27:24+00:00",
+      "category": "global",
+      "headline": "US Homeland Security shutdown to stretch on, despite Senate passing funding",
+      "summary": "The House has failed to hold a vote on the Senate bill, while Trump says he will sign order to pay 'all' DHS employees.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/2/us-homeland-security-shutdown-to-stretch-on-despite-senate-passing-funding?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_cf8ef4526997",
+      "cluster_time": "2026-04-02T17:02:21+00:00",
+      "category": "global",
+      "headline": "Argentina expels Iranian diplomat amid rift over blacklisting IRGC",
+      "summary": "Buenos Aires accuses Tehran of making 'offensive' accusations against Argentina after it labeled IRGC as 'terror' group.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/2/argentina-expels-iranian-diplomat-amid-rift-over-blacklisting-irgc?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_69a9b95c5326",
+      "cluster_time": "2026-04-02T17:01:08+00:00",
+      "category": "global",
+      "headline": "Iran's two largest steel plants shut down due to strikes, companies say",
+      "summary": "The strikes, which Iran says were first launched by Israel in co-ordination with the US last week, could cause major damage to the Iranian economy.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c1w4pdexxqpo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -105,6 +437,21 @@
       ],
       "urls": [
         "https://github.com/MrSunshyne/mauritius-dataset-electricity"
+      ]
+    },
+    {
+      "id": "singleton_ce6667dbcb27",
+      "cluster_time": "2026-04-02T16:55:34+00:00",
+      "category": "global",
+      "headline": "World Cup 2026: Iran and Infantino talks progressing as war darkens US trip",
+      "summary": "Iranian football officials hold first face-to-face meeting with FIFA's president since start of US-Israel war on Iran.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/2/world-cup-2026-iran-and-infantino-talks-progressing-as-war-darkens-us-trip?traffic_source=rss"
       ]
     },
     {
@@ -187,6 +534,21 @@
       ]
     },
     {
+      "id": "singleton_07b557a2afaf",
+      "cluster_time": "2026-04-02T16:26:38+00:00",
+      "category": "global",
+      "headline": "World Cup 2026: Italy’s football chief resigns after qualifying failure",
+      "summary": "Italian men's football has struggled recently, in contrast with other Italian teams.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/2/world-cup-2026-italys-football-chief-resigns-after-qualifying-failure?traffic_source=rss"
+      ]
+    },
+    {
       "id": "singleton_7ec9f4b1f670",
       "cluster_time": "2026-04-02T16:26:32+00:00",
       "category": "local",
@@ -199,6 +561,21 @@
       ],
       "urls": [
         "https://ionnews.mu/rodrigues-ceb-une-enquete-ouverte-apres-un-incendie/"
+      ]
+    },
+    {
+      "id": "singleton_d9dbc6d53893",
+      "cluster_time": "2026-04-02T16:17:52+00:00",
+      "category": "global",
+      "headline": "2026 Contemporary Art Biennale: Lebanon’s art, old and new",
+      "summary": "Nabil Nahas has been painting for seven decades. From his childhood in Lebanon to his career in New York, he is now presenting his latest monumental work in Venice as his country’s representative at the 2026 Contemporary Art Biennale. The artist speaks to us about his connection to the ancient civilisations of his homeland, and why he believes politicising international platforms is the wrong approach.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/arts24/20260402-2026-contemporary-art-biennale-lebanon-s-art-old-and-new"
       ]
     },
     {
@@ -339,21 +716,19 @@
       ]
     },
     {
-      "id": "bf8e929c2903",
+      "id": "e83263c13a6d",
       "cluster_time": "2026-04-02T15:37:20+00:00",
       "category": "regional",
       "headline": "Four toddlers stabbed to death at Ugandan nursery school",
-      "summary": "[BBC Africa] The suspect is in custody but his motive is unknown, the police say in a brief statement.\n\n[Al Jazeera] Police say a suspect is in custody but the motive remains unknown after attack in Ugandan capital, Kampala.\n\n[Africanews] The male suspect gained access to the daycare facility by posing as a parent, according to local media. Police said the four children killed were aged bewteen two and three.",
-      "cluster_size": 3,
-      "source_count": 3,
+      "summary": "[BBC Africa] The suspect is in custody but his motive is unknown, the police say in a brief statement.\n\n[Africanews] The male suspect gained access to the daycare facility by posing as a parent, according to local media. Police said the four children killed were aged bewteen two and three.",
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
         "BBC Africa",
-        "Al Jazeera",
         "Africanews"
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cq8wzklp834o?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/2/four-children-killed-in-school-stabbing-attack-in-uganda?traffic_source=rss",
         "http://www.africanews.com/2026/04/02/uganda-four-children-killed-in-knife-attack-at-kampala-kindergarten/"
       ]
     },
@@ -540,51 +915,6 @@
       ]
     },
     {
-      "id": "singleton_d7bd6b46acd7",
-      "cluster_time": "2026-04-02T14:15:11+00:00",
-      "category": "global",
-      "headline": "Why Lebanon should join the International Criminal Court",
-      "summary": "ICC jurisdiction in Lebanon would mean a chance of accountability for Israeli war crimes and renewed political pressure.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/4/2/why-lebanon-should-join-the-international-criminal-court?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_c6abd749cc97",
-      "cluster_time": "2026-04-02T14:11:11+00:00",
-      "category": "global",
-      "headline": "Nuclear power: Why did France put the atom at the heart of its energy strategy?",
-      "summary": "In this week’s show, we turn the spotlight on France’s appetite for nuclear energy. It is one of the most nuclear-dependent countries in the world, with atomic power at the heart of its national energy strategy. When – and why – did France decide to bet so heavily on the atom? For decades, nuclear energy has been seen not just as a source of power, but as a cornerstone of national sovereignty. But is it really a “cleaner” source of energy?",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/french-connections/20260402-nuclear-power-why-did-france-put-the-atom-at-the-heart-of-its-energy-strategy"
-      ]
-    },
-    {
-      "id": "singleton_e88b2aa12a1f",
-      "cluster_time": "2026-04-02T14:09:31+00:00",
-      "category": "global",
-      "headline": "France ramps up Paris security after foiled attack on US bank",
-      "summary": "France has tightened security across Paris amid heightened international tensions and a raised \"terrorist threat\", authorities said Thursday, after a foiled attack targeting a US bank. Police have scaled up their presence at sensitive sites while other major US banks, including Citigroup, have asked staff in Paris and Frankfurt to work from home as a precaution.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/france/20260402-france-ramps-up-paris-security-after-foiled-attack-on-us-bank"
-      ]
-    },
-    {
       "id": "singleton_9b18fd0d4c95",
       "cluster_time": "2026-04-02T14:04:57+00:00",
       "category": "global",
@@ -615,51 +945,6 @@
       ]
     },
     {
-      "id": "singleton_7b62aa344b6b",
-      "cluster_time": "2026-04-02T13:56:38+00:00",
-      "category": "global",
-      "headline": "UEFA’s Euro 2032 warning the latest blow to Italy after World Cup exit",
-      "summary": "Days after missing out on World Cup 2026 spot, Italy are warned that their cohosting of Euro 2032 could be in doubt.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/2/uefas-euro-2032-warning-the-latest-blow-to-italy-after-world-cup-shock?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_80f8fca73fb9",
-      "cluster_time": "2026-04-02T13:53:23+00:00",
-      "category": "global",
-      "headline": "Burkina Faso military, allies committing ‘horrific’ civilian abuses: HRW",
-      "summary": "More than 1,800 civilians have been killed by the army and armed groups since 2023, Human Rights Watch says.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/2/burkina-faso-military-allies-committing-horrific-civilian-abuses-hrw?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_4aaf405ca484",
-      "cluster_time": "2026-04-02T13:48:45+00:00",
-      "category": "global",
-      "headline": "Easter, the Pierre Hermé way: A playful twist on a classic chocolate tradition",
-      "summary": "Easter is just around the corner – and for many people around the world, that means chocolate. Here in France, chocolate shops are filled with eggs, rabbits, hens, bells and – somewhat surprisingly – even small shellfish. We explore the tradition of Easter chocolates with one of France’s great masters of all things sweet, Pierre Hermé.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/entre-nous/20260402-easter-the-pierre-herm%C3%A9-way-a-playful-twist-on-a-classic-chocolate-tradition"
-      ]
-    },
-    {
       "id": "singleton_5d6bd5f05020",
       "cluster_time": "2026-04-02T13:45:09+00:00",
       "category": "global",
@@ -687,66 +972,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_952ecebc4243",
-      "cluster_time": "2026-04-02T13:40:10+00:00",
-      "category": "global",
-      "headline": "'NASA wants to be back on the moon in a sustainable way', space expert says",
-      "summary": "As the Artemis 2 mission blasts off for the Moon, an expert has spoken to FRANCE 24 about NASA’s plans to return sustainably. Olivier Sanguy, head of Space News at the Cité de l’Espace (Space City) in Toulouse, southern France, says reusable spacecraft could significantly reduce costs. He spoke to us in Perspective.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/perspective/20260402-nasa-wants-to-be-back-on-the-moon-in-a-sustainable-way-space-expert-says"
-      ]
-    },
-    {
-      "id": "singleton_bd0c959c1737",
-      "cluster_time": "2026-04-02T13:39:24+00:00",
-      "category": "global",
-      "headline": "'The scale of sexual violence is horrific': MSF head of mission Amande Bazerolle",
-      "summary": "Sexual violence has become a hallmark of conflict in Sudan, according to a new report from MSF, as the country approaches the fourth anniversary of its civil war. The report highlights the scale of devastation inflicted on civilians in Darfur, set against an even longer history of repeated cycles of violence and atrocity. It reveals that in 2024 and 2025 nearly 3,400 survivors of sexual violence sought care at MSF health facilities across northern and southern Darfur – 97 per cent of them women",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/perspective/20260402-the-scale-of-sexual-violence-is-horrific-msf-amande-bazerolle"
-      ]
-    },
-    {
-      "id": "singleton_d188eedfcc7a",
-      "cluster_time": "2026-04-02T13:36:46+00:00",
-      "category": "global",
-      "headline": "IVF and the workplace: How fertility struggles affect women’s careers",
-      "summary": "Fertility treatments such as IVF are becoming increasingly common. But a study by UK-based organisation Fertility Matters at Work suggests that nearly two-thirds of respondents do not feel comfortable speaking to their employer about support during the process. Our guests, Becky Kearns – CEO and co-founder of Fertility Matters at Work – and Suzy Jackson, COO of RVO Health, say both employers and governments can help change that.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/people-profit/20260402-ivf-and-the-workplace-how-fertility-struggles-affect-women-s-careers"
-      ]
-    },
-    {
-      "id": "singleton_23bb2bbaa8f2",
-      "cluster_time": "2026-04-02T13:33:55+00:00",
-      "category": "global",
-      "headline": "Spanish cyclist Guardeno airlifted to intensive care after crash with car",
-      "summary": "A week after 23-year-old's participation in the Tour of Catalonia, Guardeno suffers head injuries in collision with car.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/2/spanish-cyclist-guardeno-airlifted-to-intensive-care-after-training-crash?traffic_source=rss"
       ]
     },
     {
@@ -782,36 +1007,6 @@
       ]
     },
     {
-      "id": "singleton_5cdc1cb5def4",
-      "cluster_time": "2026-04-02T13:27:36+00:00",
-      "category": "global",
-      "headline": "UK-led coalition of 40 countries vows action on Hormuz Strait gridlock",
-      "summary": "UK PM Keir Starmer urges non-military solutions ahead of coalition meeting to ease gridlock in vital Strait of Hormuz.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/2/uk-led-coalition-of-35-countries-vows-action-on-hormuz-strait-gridlock?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_e64b54568bfd",
-      "cluster_time": "2026-04-02T13:19:47+00:00",
-      "category": "global",
-      "headline": "Pakistan to continue with Iran-US mediation despite ‘obstacles’",
-      "summary": "Islamabad's statement follows Trump threatening to bomb Iran 'back to the Stone Ages'.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/2/pakistan-to-continue-with-iran-us-mediation-despite-obstacles?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_022f043e3fce",
       "cluster_time": "2026-04-02T13:16:00+00:00",
       "category": "local",
@@ -839,21 +1034,6 @@
       ],
       "urls": [
         "https://defimedia.info/chikungunya-49-contaminations-en-24-heures-appel-la-vigilance-du-ministre-de-la-sante"
-      ]
-    },
-    {
-      "id": "singleton_f4d23d99b54f",
-      "cluster_time": "2026-04-02T13:06:35+00:00",
-      "category": "global",
-      "headline": "‘Bomb back to the Stone Age’: US history of threats and carpet bombing",
-      "summary": "Analysts say carpet bombing countries is a war crime. But it wouldn't be new for the US.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/2/bomb-back-to-the-stone-age-us-history-of-threats-and-carpet-bombing?traffic_source=rss"
       ]
     },
     {
@@ -997,36 +1177,6 @@
       ]
     },
     {
-      "id": "singleton_2ca12b130e77",
-      "cluster_time": "2026-04-02T12:07:55+00:00",
-      "category": "global",
-      "headline": "Women’s Asian Cup finalists accuse governing body over equal money",
-      "summary": "Japan and Australia renew calls for pay parity with men's football, as former also sack coach Nils Nielsen.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/2/womens-asian-cup-finalists-accuse-governing-body-over-equal-money?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_7f76fa652c9a",
-      "cluster_time": "2026-04-02T12:07:55+00:00",
-      "category": "global",
-      "headline": "Macron says 'unrealistic' to open Hormuz Strait by force, urges Trump to 'be serious'",
-      "summary": "French President Emmanuel Macron on Thursday said it would be unrealistic to launch a military operation to force open the Strait of Hormuz after US President Donald Trump challenged allies to work towards reopening it. In unusually strong criticism, Macron accused Trump of constantly contradicting himself on the Iran war and of undermining faith in the NATO military alliance.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/macron-says-unrealistic-open-hormuz-strait-force-urges-trump-be-serious"
-      ]
-    },
-    {
       "id": "singleton_522d2db4bba2",
       "cluster_time": "2026-04-02T11:56:39+00:00",
       "category": "regional",
@@ -1119,21 +1269,6 @@
       ]
     },
     {
-      "id": "singleton_8faf978da71d",
-      "cluster_time": "2026-04-02T11:26:47+00:00",
-      "category": "global",
-      "headline": "Israeli strikes kill 7 in southern Lebanon, Hezbollah targets ground troops",
-      "summary": "Lebanon's prime minister warns of a 'critical' situation as Israel says it is working to dismantle Hezbollah.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/2/israeli-strikes-kill-7-in-southern-lebanon-hezbollah-targets-ground-troops?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_5fa4e2c9a6ff",
       "cluster_time": "2026-04-02T11:19:16+00:00",
       "category": "local",
@@ -1146,36 +1281,6 @@
       ],
       "urls": [
         "https://newsmoris.com/malaysia-mandates-remote-work-starting-15-april-to-tackle-global-energy-crisis/"
-      ]
-    },
-    {
-      "id": "singleton_840e48b346ea",
-      "cluster_time": "2026-04-02T11:09:02+00:00",
-      "category": "global",
-      "headline": "How Israel’s record budget will finance expanding illegal settlements",
-      "summary": "Budget of $271bn comes against a backdrop of surging violence by Israeli settlers towards Palestinians in the West Bank.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/economy/2026/4/2/how-israels-record-budget-will-finance-expanding-illegal-settlements?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_080b12dfcd04",
-      "cluster_time": "2026-04-02T11:01:16+00:00",
-      "category": "global",
-      "headline": "Libyan military leader may have combat drones despite UN embargo",
-      "summary": "Reuters news agency says satellite images show ⁠at least three drones at Al Khadim airbase between April and December.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/2/libyan-military-leader-may-have-combat-drones-despite-un-embargo?traffic_source=rss"
       ]
     },
     {
@@ -1206,36 +1311,6 @@
       ],
       "urls": [
         "https://www.lemauricien.com/actualites/societe/nouveaux-reglements-resistance-des-enseignants-a-linterdiction-du-telephone-portable/703464/"
-      ]
-    },
-    {
-      "id": "singleton_183fb3c8a809",
-      "cluster_time": "2026-04-02T10:40:32+00:00",
-      "category": "global",
-      "headline": "Eight countries condemn Israel’s one-sided death penalty for Palestinians",
-      "summary": "Muslim-majority nations denounce Israel's 'increasingly discriminatory' practices that 'entrench a system of apartheid'.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/2/muslim-majority-countries-condemn-israels-one-sided-new-death-penalty-law?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_d1801685a7a0",
-      "cluster_time": "2026-04-02T10:36:37+00:00",
-      "category": "global",
-      "headline": "Yemen’s Houthis coordinate with Iran, but retain independence, despite war",
-      "summary": "Houthi actions align with Iran’s strategy, but maintain autonomy to maximise regional influence and domestic objectives.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/2/yemen-houthis-analysis-iran?traffic_source=rss"
       ]
     },
     {
@@ -1893,21 +1968,6 @@
       ]
     },
     {
-      "id": "singleton_28b93d0fa485",
-      "cluster_time": "2026-04-02T07:54:44+00:00",
-      "category": "global",
-      "headline": "Man dies in storm as Saharan dust shrouds Crete",
-      "summary": "A man dies in flooding near Athens as rain lashes several regions in Greece, while a Saharan dust storm enveloped Crete.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c070d9g5k7jo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "id": "singleton_ec5474e26c51",
       "cluster_time": "2026-04-02T07:53:00+00:00",
       "category": "local",
@@ -2299,21 +2359,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/01/19-migrants-found-dead-by-italian-coastguard/"
-      ]
-    },
-    {
-      "id": "singleton_084014950eb4",
-      "cluster_time": "2026-04-01T19:43:00+00:00",
-      "category": "regional",
-      "headline": "South Africa deploys 2,200 soldiers as gang violence plagues Cape flats",
-      "summary": "South African soldiers moved into gang-ridden Cape Town townships on Wednesday, as two people were killed in fresh violence, nearly 50 days after the president ordered the deployment.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/01/south-africa-deploys-2200-soldiers-as-gang-violence-plagues-cape-flats/"
       ]
     }
   ]
