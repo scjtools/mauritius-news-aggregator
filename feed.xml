@@ -4,34 +4,24 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Fri, 03 Apr 2026 17:51:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 03 Apr 2026 19:33:04 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 03 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
       <description>Brent Crude Oil: USD 109.24 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-03T17:47:51.767000+00:00</cluster_time>
+      <cluster_time>2026-04-03T19:29:15.629677+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 03 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 66,863.13 (▼ -5.03% from last)</description>
+      <description>Bitcoin (BTC): USD 66,826.62 (▼ -5.09% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-03T17:47:51.591542+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Gold price – 03 April 2026</title>
-      <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,678.00 (▲ +6.58% from last)</description>
-      <source>Gold Price</source>
-      <category>finance</category>
-      <cluster_time>2026-04-03T17:47:51.271064+00:00</cluster_time>
+      <cluster_time>2026-04-03T19:29:15.531355+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -41,7 +31,7 @@
       <description>MUR/USD 46.85 | MUR/EUR 54.05 (▲ 0.36 from last) (▲ 0.36 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-03T17:47:50.843590+00:00</cluster_time>
+      <cluster_time>2026-04-03T19:29:14.872165+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +41,7 @@
       <description>SEMDEX closed at 2230.90 (▲ 7.70 pts, +0.35% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-03T17:47:48.344543+00:00</cluster_time>
+      <cluster_time>2026-04-03T19:29:12.453446+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -61,7 +51,127 @@
       <description>STS INDUSA|Heavy Rain Watch for Mauritius Weather news for Mauritius issued at 17h00 on Friday 03 April 2026.General situation:1. Heavy Rain Watch is in force in Mauritius till 10h00 tomorrow, Saturday 04 April 2026.2. Clouds associated with the frontal system coming from the West, will influence the local weather at times.Forecast for the next 24 hours:Rather cloudy tonight and tomorrow morning with showers, moderate at times. These showers may be temporarily heavy and accompanied by thunderstorms.There may be water accumulations in flood prone areas.Visibility will be reduced due to fog and in showers.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Partly cloudy in the afternoon becoming cloudy at times over the highgrounds and over windward slopes with a few showers.The maximum temperature will vary between 24 and 27 degrees Celsius over the highgrounds and between 28 and 31 degrees Celsius along the coasts.Wind from North-west at about 15 km/h, blowing from South at about 20 km/h tomorrow.Sea rough beyond the reefs with South-westerly swells of 2 metres 50.Ventures in the open sea are not advised.The public is advised to:1. remain in safe places and avoid open areas, hikings, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roadsSupplementary Information:At 16h00, the severe tropical storm INDUSA was centred near the point 16.5 degrees south latitude and 72.0 degrees east longitude. It is moving in a general south-southwesterly direction at around 15 km/h and will not directly influence the weather over the Mascarene Islands.High tides :Tomorrow 01h42 and 14h19.Low tides :19h48 and tomorrow 08h21.Sunset :18h09.Sunrise (tomorrow) :06h18.Atmospheric pressure at 16h00:1009 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-04-03T17:47:43.869384+00:00</cluster_time>
+      <cluster_time>2026-04-03T19:29:07.394370+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>At least one killed at UAE’s Habshan gas facility after intercepted attack</title>
+      <link>https://www.aljazeera.com/news/2026/4/3/at-least-one-killed-at-uaes-habshan-gas-facility-after-intercepted-attack?traffic_source=rss</link>
+      <description>UAE says largest gas facility, Habshan, suffered 'significant damage' after air defence interception sparked fires.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-03T19:08:52+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Drone strike on Sudan hospital kills 10, medical charity MSF says</title>
+      <link>https://www.aljazeera.com/news/2026/4/3/drone-strike-on-sudan-hospital-kills-10-medical-charity-msf-says?traffic_source=rss</link>
+      <description>Two strikes on Al Jabalain Hospital in White Nile State hit an operating theatre and a maternity ward, MSF says.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-03T18:32:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Artemis II crew take 'spectacular' image of Earth</title>
+      <link>https://www.bbc.com/news/articles/ce8jzr423p9o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The snap was taken aboard the Orion capsule by its commander, Reid Wiseman, as the crew head towards the Moon.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-03T18:25:25+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Meurtre de Nikesh Sapiny en 2019 : Une sentence de 24 ans de servitude pénale infligée à Rick Marcelin</title>
+      <link>https://www.lemauricien.com/actualites/faits-divers/meurtre-de-nikesh-sapiny-en-2019-une-sentence-de-24-ans-de-servitude-penale-infligee-a-rick-marcelin/703747/</link>
+      <description>[Le Mauricien] Un dénommé Rick Marcelin, âgé de 30 ans, a été condamné à 24 ans de servitude pénale ce vendredi 3 avril 2026, pour un meurtre qu’il avait commis en 2019. C’est le juge Mehdi Manrakhan, s...
+
+[Defimedia] Le verdict est tombé ce vendredi 3 avril 2026 en cour d’assises. Rick Marcelin a été condamné à 24 ans de prison pour av</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-03T18:21:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>a47d92a6c45c</cluster_id>
+      <sources>Le Mauricien
+Defimedia</sources>
+      <urls>https://www.lemauricien.com/actualites/faits-divers/meurtre-de-nikesh-sapiny-en-2019-une-sentence-de-24-ans-de-servitude-penale-infligee-a-rick-marcelin/703747/
+https://defimedia.info/index.php/dispute-sur-fond-de-dette-rick-marcelin-condamne-24-ans-de-prison-pour-le-meurtre-de-son-employeur</urls>
+      <titles>Meurtre de Nikesh Sapiny en 2019 : Une sentence de 24 ans de servitude pénale infligée à Rick Marcelin
+Dispute sur fond de dette : Rick Marcelin condamné à 24 ans de prison pour le meurtre de son employeur</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Déféré devant le ‘Medical Disciplinary Tribunal’ : La suspension du Dr. Nishan Moheeputh annulée</title>
+      <link>https://www.lemauricien.com/actualites/faits-divers/defere-devant-le-medical-disciplinary-tribunal-la-suspension-du-dr-nishan-moheeputh-annulee/703743/</link>
+      <description>Le Medical Council a annulé la suspension du Dr. Nishan Moheeputh ce vendredi 3 avril 2026. Cela une fois que cette instance ait reçu le rapport du Medical Disciplinary Tribunal qui avait été mis ...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-03T18:14:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Blanchiment d’argent allégué : Chetan Parmanund arrêté, comparution ce samedi</title>
+      <link>https://www.lemauricien.com/actualites/faits-divers/blanchiment-dargent-allegue-chetan-parmanund-arrete-comparution-ce-samedi/703741/</link>
+      <description>Arrêté ce vendredi 3 avril 2026, Chetan Parmanund a été placé en détention et devra comparaître demain devant la Bail and Remand Court. Dans le même temps, son frère, Chetraj Parmanund, est...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-03T18:13:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Ukraine’s Zhytomyr region reels after missile and drone strike</title>
+      <link>http://www.africanews.com/2026/04/03/ukraines-zhytomyr-region-reels-after-missile-and-drone-strike/</link>
+      <description>Russian missile and drone strikes hit Ukraine’s Zhytomyr region, killing one and injuring 10, as dozens of homes and public buildings were destroyed.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-03T18:09:18+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>French-owned ship passes through Strait of Hormuz</title>
+      <link>https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.
+
+[Al Jazeera] CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-03T17:45:46+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>2fbf9ad6d070</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war?traffic_source=rss</urls>
+      <titles>French-owned ship passes through Strait of Hormuz
+French-owned container ship transits Hormuz Strait in first since Iran war</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Cambodia parliament approves law to combat cybercrime scam rings</title>
+      <link>https://www.aljazeera.com/news/2026/4/3/cambodia-parliament-approves-law-to-combat-cybercrime-scam-rings?traffic_source=rss</link>
+      <description>Justice Minister Keut Rith says the law aimed to enhance the &quot;cleaning operation&quot; across the country.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-03T17:40:45+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US unemployment rate drops despite economic uncertainty and Iran war</title>
+      <link>https://www.aljazeera.com/news/2026/4/3/us-unemployment-rate-drops-despite-economic-uncertainty-and-iran-war?traffic_source=rss</link>
+      <description>White House says March jobs report 'blew out expectations' with gains made in the healthcare and construction sectors.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-03T17:35:23+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -77,7 +187,7 @@
     </item>
     <item>
       <title>Maurice–Inde : un accord de 655 millions de dollars (environ Rs 31,26 milliards) pour financer des projets majeurs</title>
-      <link>https://defimedia.info/maurice-inde-un-accord-de-655-millions-de-dollars-environ-rs-3126-milliards-pour-financer-des</link>
+      <link>https://defimedia.info/index.php/maurice-inde-un-accord-de-655-millions-de-dollars-environ-rs-3126-milliards-pour-financer-des</link>
       <description>Le Conseil des ministres a donné son accord ce vendredi pour la signature d’un protocole d’accord (MoU) entre les gouver</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -87,7 +197,7 @@
     </item>
     <item>
       <title>Fiscalité : l’Inde clarifie l’application des règles anti-abus, les investissements mauriciens d’avant 2017 préservés</title>
-      <link>https://defimedia.info/fiscalite-linde-clarifie-lapplication-des-regles-anti-abus-les-investissements-mauriciens-davant</link>
+      <link>https://defimedia.info/index.php/fiscalite-linde-clarifie-lapplication-des-regles-anti-abus-les-investissements-mauriciens-davant</link>
       <description>Le gouvernement indien a apporté des clarifications sur l’application des règles générales anti-abus (GAAR), confirmant</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -97,7 +207,7 @@
     </item>
     <item>
       <title>Découverte choquante à Pailles : des drogues de synthèse et des psychotropes retrouvés dans un véhicule de police</title>
-      <link>https://defimedia.info/decouverte-choquante-pailles-des-drogues-de-synthese-et-des-psychotropes-retrouves-dans-un-vehicule</link>
+      <link>https://defimedia.info/index.php/decouverte-choquante-pailles-des-drogues-de-synthese-et-des-psychotropes-retrouves-dans-un-vehicule</link>
       <description>Une découverte pour le moins troublante au sein de la police mauricienne. Ce vendredi, lors de l’entretien d’un véhicule</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -117,7 +227,7 @@
     </item>
     <item>
       <title>Impacts économiques du conflit au Moyen-Orient : le PM présidera une réunion du comité de crise le 8 avril</title>
-      <link>https://defimedia.info/impacts-economiques-du-conflit-au-moyen-orient-le-pm-presidera-une-reunion-du-comite-de-crise-le-8</link>
+      <link>https://defimedia.info/index.php/impacts-economiques-du-conflit-au-moyen-orient-le-pm-presidera-une-reunion-du-comite-de-crise-le-8</link>
       <description>Dans le cadre du suivi des impacts économiques et sociaux du conflit actuel au Moyen-Orient, un comité interministériel</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -126,8 +236,37 @@
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Interpellation pour blanchiment d’argent allégué : Chetan Purmanund interrogé par la FCC</title>
+      <link>https://www.lemauricien.com/actualites/faits-divers/interpellation-pour-blanchiment-dargent-allegue-chetan-purmanund-interroge-par-la-fcc/703726/</link>
+      <description>[Le Mauricien] La Financial Crimes Commission (FCC) a ouvert, en 2025, une enquête ciblant deux directeurs de compagnie, Chetan Purmanund et Chetraj Purmanund, tous deux âgés de 45 ans et résidant à Terre Rouge...
+
+[L'Express (via mega.mu)] Le ministre du Travail, Reza Uteem, a justifié l’absence de nomination à la tête de la FCC. Selon lui, le gouvernement prépare une nouvelle loi avec le *Financial Crimes Agency*, qui absorbera la FCC : inutile donc de nommer un dirigeant pour une institution appelée à disparaître. Il a rappelé que la loi a déjà été amendée pour renforcer les pouvoirs du Directeur des poursuites publiques et permettre à la police de mener des enquêtes parallèles dans des affaires de blanchiment, ...
+
+[Defimedia] Nouveau coup de filet de la Financial Crimes Commission (FCC) ce vendredi 3 avril. Chetan Purmanund, un habitant de Terr
+
+[Defimedia] La Financial Crimes Commission (FCC) a, ce vendredi 3 avril 2026, objecté à la motion d'Avinash Luchoo aussi connu comme</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-03T16:57:51+04:00</cluster_time>
+      <cluster_size>4</cluster_size>
+      <source_count>3</source_count>
+      <cluster_id>5990a3f79a63</cluster_id>
+      <sources>Le Mauricien
+L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://www.lemauricien.com/actualites/faits-divers/interpellation-pour-blanchiment-dargent-allegue-chetan-purmanund-interroge-par-la-fcc/703726/
+https://live.mega.mu/redirect/254168/
+https://defimedia.info/index.php/blanchiment-dargent-presume-le-directeur-dune-societe-immobiliere-interpelle-par-la-fcc-son-frere
+https://defimedia.info/index.php/blanchiment-dargent-allegue-la-fcc-objecte-la-requete-davinash-luchoo-dannuler-laccusation</urls>
+      <titles>Interpellation pour blanchiment d’argent allégué : Chetan Purmanund interrogé par la FCC
+Travaux parlementaires : Reza Uteem : «Pas la peine maintenant de nommer quelqu’un à la tête de la FCC»
+Blanchiment d’argent présumé : le directeur d’une société immobilière interpellé par la FCC ; son frère recherché
+Blanchiment d'argent allégué : La FCC objecte à la requête d'Avinash Luchoo d'annuler l'accusation provisoire</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
       <title>Conseil des ministres : rappel des restrictions pour les poids lourds aux heures de pointe</title>
-      <link>https://defimedia.info/conseil-des-ministres-rappel-des-restrictions-pour-les-poids-lourds-aux-heures-de-pointe</link>
+      <link>https://defimedia.info/index.php/conseil-des-ministres-rappel-des-restrictions-pour-les-poids-lourds-aux-heures-de-pointe</link>
       <description>Le Conseil des ministres, réuni ce vendredi 3 avril, a pris note qu’à la suite de l’accident de la route survenu le mard</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -147,21 +286,11 @@
     </item>
     <item>
       <title>Lutte contre la drogue : Ramgoolam présidera une réunion de la National Drug Control Commission le jeudi 16 avril</title>
-      <link>https://defimedia.info/lutte-contre-la-drogue-ramgoolam-presidera-une-reunion-de-la-national-drug-control-commission-le</link>
+      <link>https://defimedia.info/index.php/lutte-contre-la-drogue-ramgoolam-presidera-une-reunion-de-la-national-drug-control-commission-le</link>
       <description>Le Cabinet ministériel, réuni ce vendredi 3 avril, indique que Kunal Naik a démissionné de son poste de président de la</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-03T16:46:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>French-owned container ship transits Hormuz Strait in first since Iran war</title>
-      <link>https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war?traffic_source=rss</link>
-      <description>CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-03T16:24:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -177,7 +306,7 @@
     </item>
     <item>
       <title>Blanchiment allégué de Rs 28 millions : Chetan Purmanund arrêté, son frère jumeau toujours recherché</title>
-      <link>https://defimedia.info/blanchiment-allegue-de-rs-28-millions-chetan-purmanund-arrete-son-frere-jumeau-toujours-recherche</link>
+      <link>https://defimedia.info/index.php/blanchiment-allegue-de-rs-28-millions-chetan-purmanund-arrete-son-frere-jumeau-toujours-recherche</link>
       <description>Le promoteur immobilier de l’agence Venezis Real Estate, Chetan Purmanund, a été placé en état d’arrestation par la Fina</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -257,7 +386,7 @@ Trump seeks historic $1.5 trillion for military in Congress budget request</titl
     </item>
     <item>
       <title>Au Cœur de l’Info- Crise alimentaire : Maurice est-il prêt face aux tensions au Moyen-Orient ?</title>
-      <link>https://defimedia.info/au-coeur-de-linfo-crise-alimentaire-maurice-est-il-pret-face-aux-tensions-au-moyen-orient</link>
+      <link>https://defimedia.info/index.php/au-coeur-de-linfo-crise-alimentaire-maurice-est-il-pret-face-aux-tensions-au-moyen-orient</link>
       <description>Et si la guerre au Moyen-Orient venait perturber notre assiette ? Maurice est-il prêt à faire face à une crise alimentai</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -388,22 +517,12 @@ Israel army says will strike two bridges in east Lebanon</titles>
     <item>
       <title>Cuba to release more than 2,000 prisoners as US pressure mounts</title>
       <link>https://www.bbc.com/news/articles/cwy3r3w4zl8o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] US President Trump has made clear his desire to change Cuba's leadership and has placed the country under an oil embargo.
-
-[Al Jazeera] Releasing political prisoners in Cuba has long been a US core demand as oil blockade continues.</description>
+      <description>US President Trump has made clear his desire to change Cuba's leadership and has placed the country under an oil embargo.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-03T14:18:04+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>09c50103eb95</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/cwy3r3w4zl8o?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/4/3/cuba-to-pardon-more-than-2000-prisoners-amid-us-pressure?traffic_source=rss</urls>
-      <titles>Cuba to release more than 2,000 prisoners as US pressure mounts
-Cuba to pardon more than 2,000 prisoners amid US pressure</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>From 250 to 700 dollars per article: How Russia influenced West African media content</title>
@@ -436,7 +555,7 @@ How a Russian influence network is spreading anti-Ukrainian propaganda in Ivory 
     </item>
     <item>
       <title>Contrôle des prix : des commerçants sanctionnés, des opérations de surveillance maintenues</title>
-      <link>https://defimedia.info/controle-des-prix-des-commercants-sanctionnes-des-operations-de-surveillance-maintenues</link>
+      <link>https://defimedia.info/index.php/controle-des-prix-des-commercants-sanctionnes-des-operations-de-surveillance-maintenues</link>
       <description>Une dizaine de contraventions ont été infligées par la Consumer Affairs Unit le mois dernier. Des commerçants ont été sa</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -456,7 +575,7 @@ How a Russian influence network is spreading anti-Ukrainian propaganda in Ivory 
     </item>
     <item>
       <title>Le Morne : un jeune de 21 ans périt noyé</title>
-      <link>https://defimedia.info/le-morne-un-jeune-de-21-ans-perit-noye</link>
+      <link>https://defimedia.info/index.php/le-morne-un-jeune-de-21-ans-perit-noye</link>
       <description>Drame au Morne cet après-midi. Un jeune de 21 ans, d’origine rodriguaise, a péri noyé. Selon les premières indications,</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -466,7 +585,7 @@ How a Russian influence network is spreading anti-Ukrainian propaganda in Ivory 
     </item>
     <item>
       <title>Robert Hungley insiste sur l’importance de passer de la théorie à la pratique en matière de bonne gouvernance</title>
-      <link>https://defimedia.info/robert-hungley-insiste-sur-limportance-de-passer-de-la-theorie-la-pratique-en-matiere-de-bonne</link>
+      <link>https://defimedia.info/index.php/robert-hungley-insiste-sur-limportance-de-passer-de-la-theorie-la-pratique-en-matiere-de-bonne</link>
       <description>Le Vice-président de la République, Robert Hungley, était l’invité d’honneur du &quot;workshop&quot; Governance with Grit. Ce &quot;wor</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -495,33 +614,28 @@ How a Russian influence network is spreading anti-Ukrainian propaganda in Ivory 
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Italy part company with manager after failing to qualify for World Cup</title>
-      <link>https://www.bbc.com/sport/football/articles/cevk0mn93ejo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Manager Gennaro Gattuso and Italy agree to &quot;mutually terminate&quot; his contract after their failure to qualify for a third successive World Cup.
-
-[France 24] Italy coach Gennaro Gattuso resigned on Friday, three days after failing to qualify the national team for the 2026 World Cup and one day after the announcement that Italian Football Federation (FIGC) president Gabriele Gravina was stepping down.
+      <title>Italy's head coach quits after team fails to qualify for World Cup</title>
+      <link>https://www.france24.com/en/sport/20260403-italy-head-coach-quits-after-team-fails-to-qualify-for-world-cup</link>
+      <description>[France 24] Italy coach Gennaro Gattuso resigned on Friday, three days after failing to qualify the national team for the 2026 World Cup and one day after the announcement that Italian Football Federation (FIGC) president Gabriele Gravina was stepping down.
 
 [Al Jazeera] The Azzurri's failure to reach a third consecutive World Cup continues to send shockwaves through Italian football.</description>
-      <source>BBC News</source>
+      <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-04-03T13:34:36+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>94e131d7e6c0</cluster_id>
-      <sources>BBC News
-France 24
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>48460ef5914a</cluster_id>
+      <sources>France 24
 Al Jazeera</sources>
-      <urls>https://www.bbc.com/sport/football/articles/cevk0mn93ejo?at_medium=RSS&amp;at_campaign=rss
-https://www.france24.com/en/sport/20260403-italy-head-coach-quits-after-team-fails-to-qualify-for-world-cup
+      <urls>https://www.france24.com/en/sport/20260403-italy-head-coach-quits-after-team-fails-to-qualify-for-world-cup
 https://www.aljazeera.com/sports/2026/4/3/gattuso-out-as-italys-coach-after-failure-to-qualify-for-2026-world-cup?traffic_source=rss</urls>
-      <titles>Italy part company with manager after failing to qualify for World Cup
-Italy's head coach quits after team fails to qualify for World Cup
+      <titles>Italy's head coach quits after team fails to qualify for World Cup
 Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup</titles>
       <languages>en</languages>
     </item>
     <item>
       <title>Crise énergétique liée à la guerre au Moyen-Orient : le GM explore des mesures pour réduire la consommation d’électricité et de carburants</title>
-      <link>https://defimedia.info/crise-energetique-liee-la-guerre-au-moyen-orient-le-gm-explore-des-mesures-pour-reduire-la</link>
+      <link>https://defimedia.info/index.php/crise-energetique-liee-la-guerre-au-moyen-orient-le-gm-explore-des-mesures-pour-reduire-la</link>
       <description>Face à la pression croissante sur le système énergétique à Maurice, liée aux tensions au Moyen-Orient, plusieurs pistes</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -541,7 +655,7 @@ Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup</titl
     </item>
     <item>
       <title>Prix du pain : les boulangers maintiennent la pression</title>
-      <link>https://defimedia.info/prix-du-pain-les-boulangers-maintiennent-la-pression</link>
+      <link>https://defimedia.info/index.php/prix-du-pain-les-boulangers-maintiennent-la-pression</link>
       <description>Les propriétaires de boulangeries maintiennent la pression. Les boulangers demandent que le prix du pain maison passe de</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -571,8 +685,8 @@ Gattuso out as Italy’s coach after failure to qualify for 2026 World Cup</titl
 Defimedia
 ION News</sources>
       <urls>https://www.lemauricien.com/actualites/societe/meteo-maurice-sous-le-coup-dun-avis-de-fortes-pluies-jusqua-samedi-matin/703701/
-https://defimedia.info/meteo-lavertissement-de-fortes-pluies-leve-une-veille-de-fortes-pluies-desormais-en-vigueur-jusqua
-https://defimedia.info/meteo-un-avertissement-de-fortes-pluies-en-vigueur-jusqua-04h30-ce-samedi-4-avril-2026
+https://defimedia.info/index.php/meteo-lavertissement-de-fortes-pluies-leve-une-veille-de-fortes-pluies-desormais-en-vigueur-jusqua
+https://defimedia.info/index.php/meteo-un-avertissement-de-fortes-pluies-en-vigueur-jusqua-04h30-ce-samedi-4-avril-2026
 https://ionnews.mu/un-avertissement-de-fortes-pluies-est-en-vigueur-a-maurice-jusqua-ce-samedi-matin/
 https://ionnews.mu/des-averses-accompagnees-dorages-ce-vendredi-2/</urls>
       <titles>Météo : Maurice sous le coup d’un avis de fortes pluies jusqu’à samedi matin
@@ -614,7 +728,7 @@ Des averses accompagnées d’orages ce vendredi</titles>
     </item>
     <item>
       <title>Agression à Saint-Pierre : un homme en soins intensifs, sa concubine arrêtée</title>
-      <link>https://defimedia.info/agression-saint-pierre-un-homme-en-soins-intensifs-sa-concubine-arretee</link>
+      <link>https://defimedia.info/index.php/agression-saint-pierre-un-homme-en-soins-intensifs-sa-concubine-arretee</link>
       <description>Un homme de 52 ans a été admis en soins intensifs après avoir été agressé par sa concubine, âgée de 60 ans.L’incident s’</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -665,35 +779,6 @@ L'Express (via mega.mu)</sources>
 https://live.mega.mu/redirect/254141/</urls>
       <titles>Consommation – Menace de pénurie de pain : Le MLC prône de nouveaux permis pour assurer la production
 Escalade au Moyen-Orient : Entre pénurie et solutions durables : Du pain sur la planche...</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
-      <title>Interpellation pour blanchiment d’argent allégué : Chetan Purmanund interrogé par la FCC</title>
-      <link>https://www.lemauricien.com/actualites/faits-divers/interpellation-pour-blanchiment-dargent-allegue-chetan-purmanund-interroge-par-la-fcc/703726/</link>
-      <description>[Le Mauricien] La Financial Crimes Commission (FCC) a ouvert, en 2025, une enquête ciblant deux directeurs de compagnie, Chetan Purmanund et Chetraj Purmanund, tous deux âgés de 45 ans et résidant à Terre Rouge...
-
-[L'Express (via mega.mu)] Le ministre du Travail, Reza Uteem, a justifié l’absence de nomination à la tête de la FCC. Selon lui, le gouvernement prépare une nouvelle loi avec le *Financial Crimes Agency*, qui absorbera la FCC : inutile donc de nommer un dirigeant pour une institution appelée à disparaître. Il a rappelé que la loi a déjà été amendée pour renforcer les pouvoirs du Directeur des poursuites publiques et permettre à la police de mener des enquêtes parallèles dans des affaires de blanchiment, ...
-
-[Defimedia] Nouveau coup de filet de la Financial Crimes Commission (FCC) ce vendredi 3 avril. Chetan Purmanund, un habitant de Terr
-
-[Defimedia] La Financial Crimes Commission (FCC) a, ce vendredi 3 avril 2026, objecté à la motion d'Avinash Luchoo aussi connu comme</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-03T12:57:00+00:00</cluster_time>
-      <cluster_size>4</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>5990a3f79a63</cluster_id>
-      <sources>Le Mauricien
-L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://www.lemauricien.com/actualites/faits-divers/interpellation-pour-blanchiment-dargent-allegue-chetan-purmanund-interroge-par-la-fcc/703726/
-https://live.mega.mu/redirect/254168/
-https://defimedia.info/blanchiment-dargent-presume-le-directeur-dune-societe-immobiliere-interpelle-par-la-fcc-son-frere
-https://defimedia.info/blanchiment-dargent-allegue-la-fcc-objecte-la-requete-davinash-luchoo-dannuler-laccusation</urls>
-      <titles>Interpellation pour blanchiment d’argent allégué : Chetan Purmanund interrogé par la FCC
-Travaux parlementaires : Reza Uteem : «Pas la peine maintenant de nommer quelqu’un à la tête de la FCC»
-Blanchiment d’argent présumé : le directeur d’une société immobilière interpellé par la FCC ; son frère recherché
-Blanchiment d'argent allégué : La FCC objecte à la requête d'Avinash Luchoo d'annuler l'accusation provisoire</titles>
       <languages>fr</languages>
     </item>
     <item>
@@ -834,7 +919,7 @@ Blanchiment d'argent allégué : La FCC objecte à la requête d'Avinash Luchoo 
 Defimedia
 ION News</sources>
       <urls>https://live.mega.mu/redirect/254219/
-https://defimedia.info/crise-energetique-mauritius-telecom-passe-au-mode-de-travail-hybride-des-la-semaine-prochaine
+https://defimedia.info/index.php/crise-energetique-mauritius-telecom-passe-au-mode-de-travail-hybride-des-la-semaine-prochaine
 https://ionnews.mu/mauritius-telecom-passe-au-work-from-home-trois-fois-par-semaine-a-partir-de-ce-lundi/</urls>
       <titles>Escalade au Moyen-Orient : Mauritius Telecom montre la voie avec le travail hybride dès lundi
 Crise énergétique : Mauritius Telecom passe au mode de travail hybride dès la semaine prochaine
@@ -863,7 +948,7 @@ Mauritius Telecom passe au « Work from Home » trois fois par semaine à partir
     </item>
     <item>
       <title>Série de vols de moteurs de bateau dans le Nord : trois suspects arrêtés</title>
-      <link>https://defimedia.info/serie-de-vols-de-moteurs-de-bateau-dans-le-nord-trois-suspects-arretes</link>
+      <link>https://defimedia.info/index.php/serie-de-vols-de-moteurs-de-bateau-dans-le-nord-trois-suspects-arretes</link>
       <description>Trois suspects ont été arrêtés jeudi par la police après que plusieurs cas de vols de moteurs de bateau, se trouvant à b</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -872,18 +957,8 @@ Mauritius Telecom passe au « Work from Home » trois fois par semaine à partir
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Dispute sur fond de dette : Rick Marcelin condamné à 24 ans pour le meurtre de son employeur</title>
-      <link>https://defimedia.info/dispute-sur-fond-de-dette-rick-marcelin-condamne-24-ans-pour-le-meurtre-de-son-employeur</link>
-      <description>Le verdict est tombé ce vendredi 3 avril 2026 en cour d’assises. Rick Marcelin a été condamné à 24 ans de prison pour av</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-03T11:21:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Talat Aziz au SVICC : une brève rencontre avant son concert demain</title>
-      <link>https://defimedia.info/talat-aziz-au-svicc-une-breve-rencontre-avant-son-concert-demain</link>
+      <link>https://defimedia.info/index.php/talat-aziz-au-svicc-une-breve-rencontre-avant-son-concert-demain</link>
       <description>Présent ce vendredi au SVICC, où se tient &quot;Nou Lakaz – Le Grand Salon&quot; dédié à la maison et au jardin, Talat Aziz a acco</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -898,16 +973,6 @@ Mauritius Telecom passe au « Work from Home » trois fois par semaine à partir
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-04-03T11:14:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Artemis II leaves Earth's orbit on track for far side of the Moon</title>
-      <link>https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The mission's last, big push on its lunar journey takes humans out of the Earth's orbit for the first time since 1972.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-03T11:12:28+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -933,7 +998,7 @@ Mauritius Telecom passe au « Work from Home » trois fois par semaine à partir
     </item>
     <item>
       <title>Avertissement de fortes pluies : les cours dans les universités prévus cet après-midi annulés</title>
-      <link>https://defimedia.info/avertissement-de-fortes-pluies-les-cours-dans-les-universites-prevus-cet-apres-midi-annules</link>
+      <link>https://defimedia.info/index.php/avertissement-de-fortes-pluies-les-cours-dans-les-universites-prevus-cet-apres-midi-annules</link>
       <description>[Defimedia] Les cours en présentiel dans les établissements d’enseignement supérieur, publics et privés, sont annulés ce vendredi 3
 
 [ION News] Les cours prévus ce vendredi après-midi ou en début de soirée, dans les établissements d’enseignement supérieur, qu’ils soient publics ou privés, sont annulés, suite à l’avis de fortes pluies émis à 14 h par la station météorologique de Vacoas. C’est ce qui ressort d’un communiqué du ministère de l’Enseignement supérieur, de la science et de la recherche publié ce vendredi. Toutefois, les cours en ligne pourront se tenir à la convenance des institutions concernées. The post Avis de fortes pluies</description>
@@ -945,25 +1010,15 @@ Mauritius Telecom passe au « Work from Home » trois fois par semaine à partir
       <cluster_id>76db5adcf105</cluster_id>
       <sources>Defimedia
 ION News</sources>
-      <urls>https://defimedia.info/avertissement-de-fortes-pluies-les-cours-dans-les-universites-prevus-cet-apres-midi-annules
+      <urls>https://defimedia.info/index.php/avertissement-de-fortes-pluies-les-cours-dans-les-universites-prevus-cet-apres-midi-annules
 https://ionnews.mu/avis-de-fortes-pluies-les-cours-dans-les-etablissements-denseignement-superieur-annules-ce-vendredi-apres-midi/</urls>
       <titles>Avertissement de fortes pluies : les cours dans les universités prévus cet après-midi annulés
 Avis de fortes pluies : Les cours dans les établissements d’enseignement supérieur annulés ce vendredi après-midi</titles>
       <languages>fr</languages>
     </item>
     <item>
-      <title>Monde du travail | Conventions : Tripartisme : la SOEF porte plainte à l’OIT contre le GM</title>
-      <link>https://www.lemauricien.com/actualites/societe/monde-du-travail-conventions-tripartisme-la-soef-porte-plainte-a-loit-contre-le-gm/703530/</link>
-      <description>La State and Other Employees Federation of Mauritius (SOEF) a décidé de porter plainte contre le gouvernement pour non-respect des dispositions des conventions 87, 98 et 144 de l’Organ...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-03T11:00:46+04:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>À partir de ce lundi 6 avril : MT met en place trois jours de télétravail par semaine</title>
-      <link>https://defimedia.info/partir-de-ce-lundi-6-avril-mt-met-en-place-trois-jours-de-teletravail-par-semaine</link>
+      <link>https://defimedia.info/index.php/partir-de-ce-lundi-6-avril-mt-met-en-place-trois-jours-de-teletravail-par-semaine</link>
       <description>*Près de 750 employés, environ 40 % de ses effectifs, concernés par cette décision*Environ 5 000 kWh d’économies d’élect</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1063,7 +1118,7 @@ Avis de fortes pluies : Les cours dans les établissements d’enseignement sup�
     </item>
     <item>
       <title>Pâques 2026 : Mgr Jean Michaël Durhône appelle à passer de la crainte à l’espérance</title>
-      <link>https://defimedia.info/paques-2026-mgr-jean-michael-durhone-appelle-passer-de-la-crainte-lesperance</link>
+      <link>https://defimedia.info/index.php/paques-2026-mgr-jean-michael-durhone-appelle-passer-de-la-crainte-lesperance</link>
       <description>À l’occasion de la fête de Pâques, l’évêque de Port-Louis, Mgr Jean Michaël Durhône, invite les Mauriciens à laisser pla</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1072,18 +1127,8 @@ Avis de fortes pluies : Les cours dans les établissements d’enseignement sup�
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Ten years since Panama Papers: What did they reveal, did anything change?</title>
-      <link>https://www.aljazeera.com/news/2026/4/3/ten-years-since-panama-papers-what-did-they-reveal-did-anything-change?traffic_source=rss</link>
-      <description>More than 11.5 million documents were released in what was considered one of the biggest data leaks ever.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-03T09:46:11+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Transferts de fonds - Travailleurs indiens à Maurice : Rs 1,44 Md envoyées vers l’Inde</title>
-      <link>https://defimedia.info/transferts-de-fonds-travailleurs-indiens-maurice-rs-144-md-envoyees-vers-linde</link>
+      <link>https://defimedia.info/index.php/transferts-de-fonds-travailleurs-indiens-maurice-rs-144-md-envoyees-vers-linde</link>
       <description>Les flux de transferts de fonds s’accélèrent, mais restent largement dans un seul sens. Résultat : plus de Rs 3 milliard</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1103,7 +1148,7 @@ Avis de fortes pluies : Les cours dans les établissements d’enseignement sup�
     </item>
     <item>
       <title>Agressions dans les hôpitaux : la MHOA réclame un renforcement urgent de la sécurité</title>
-      <link>https://defimedia.info/agressions-dans-les-hopitaux-la-mhoa-reclame-un-renforcement-urgent-de-la-securite</link>
+      <link>https://defimedia.info/index.php/agressions-dans-les-hopitaux-la-mhoa-reclame-un-renforcement-urgent-de-la-securite</link>
       <description>La Medical and Health Officers Association (MHOA) réclame des mesures immédiates pour renforcer la sécurité dans les hôp</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1113,31 +1158,11 @@ Avis de fortes pluies : Les cours dans les établissements d’enseignement sup�
     </item>
     <item>
       <title>Aadil Ameer Meea : «Après le 11 avril, on va tourner la page»</title>
-      <link>https://defimedia.info/aadil-ameer-meea-apres-le-11-avril-va-tourner-la-page</link>
+      <link>https://defimedia.info/index.php/aadil-ameer-meea-apres-le-11-avril-va-tourner-la-page</link>
       <description>Bérenger dénonce des irrégularités dans la liste des délégués convoqués pour l’assemblée cruciale du 11 avril. En face,</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-03T09:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kuwait desalination plant, oil refinery hit by missile and drone strikes</title>
-      <link>https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes?traffic_source=rss</link>
-      <description>Twelve people were injured by falling debris in the UAE, fire at Abu Dhabi gas plant.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-03T08:59:42+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Tiger Woods told police after car crash he was ‘talking to the president’</title>
-      <link>https://www.aljazeera.com/sports/2026/4/3/tiger-woods-told-police-after-car-crash-he-was-talking-to-the-president?traffic_source=rss</link>
-      <description>Police body camera video shows how golfer appeared to be astonished as he was handcuffed for failing sobriety test.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-03T08:59:18+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1162,18 +1187,8 @@ Avis de fortes pluies : Les cours dans les établissements d’enseignement sup�
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Man City vs Liverpool: FA Cup quarterfinal – team news, start, lineups</title>
-      <link>https://www.aljazeera.com/sports/2026/4/3/man-city-vs-liverpool-fa-cup-quarterfinal-preview-team-news-start?traffic_source=rss</link>
-      <description>FA Cup and Champions League are Liverpool's only hope for glory this season as they languish in fifth place in league.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-03T08:30:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Gaz ménager : Maurice dispose de deux mois de stock</title>
-      <link>https://defimedia.info/gaz-menager-maurice-dispose-de-deux-mois-de-stock</link>
+      <link>https://defimedia.info/index.php/gaz-menager-maurice-dispose-de-deux-mois-de-stock</link>
       <description>À Maurice, la hausse du prix du gaz ménager relance les interrogations sur les stocks disponibles. Les autorités et les</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1183,7 +1198,7 @@ Avis de fortes pluies : Les cours dans les établissements d’enseignement sup�
     </item>
     <item>
       <title>Tarifs de l’électricité : plusieurs scénarios à l’étude face à la flambée des coûts énergétiques</title>
-      <link>https://defimedia.info/tarifs-de-lelectricite-plusieurs-scenarios-letude-face-la-flambee-des-couts-energetiques</link>
+      <link>https://defimedia.info/index.php/tarifs-de-lelectricite-plusieurs-scenarios-letude-face-la-flambee-des-couts-energetiques</link>
       <description>Le Central Electricity Board (CEB) a soumis plusieurs scénarios d’ajustement tarifaire au ministre de l’Énergie, Patrick</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1647,7 +1662,7 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
     </item>
     <item>
       <title>Carburant : 34 880 tonnes d’essence et 35 490 tonnes de diesel attendues d’ici le 1er mai</title>
-      <link>https://defimedia.info/carburant-34-880-tonnes-dessence-et-35-490-tonnes-de-diesel-attendues-dici-le-1er-mai</link>
+      <link>https://defimedia.info/index.php/carburant-34-880-tonnes-dessence-et-35-490-tonnes-de-diesel-attendues-dici-le-1er-mai</link>
       <description>Les derniers chiffres fournis par la State Trading Corporation au Défi Quotidien dressent un état précis des réserves de</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1667,7 +1682,7 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
     </item>
     <item>
       <title>Gouvernance : l’intégrité et la résilience au cœur d’un atelier de travail</title>
-      <link>https://defimedia.info/gouvernance-lintegrite-et-la-resilience-au-coeur-dun-atelier-de-travail</link>
+      <link>https://defimedia.info/index.php/gouvernance-lintegrite-et-la-resilience-au-coeur-dun-atelier-de-travail</link>
       <description>Le Défi Training School, en collaboration avec le Chartered Governance Institute (CGI) Mauritius, organise ce vendredi 3</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1687,7 +1702,7 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
     </item>
     <item>
       <title>Clensy Appavoo : « Nous espérons un changement de paradigme économique, monétaire et fiscal dans le Budget »</title>
-      <link>https://defimedia.info/clensy-appavoo-nous-esperons-un-changement-de-paradigme-economique-monetaire-et-fiscal-dans-le</link>
+      <link>https://defimedia.info/index.php/clensy-appavoo-nous-esperons-un-changement-de-paradigme-economique-monetaire-et-fiscal-dans-le</link>
       <description>Le premier trimestre de 2026 confirme une instabilité économique alimentée par des tensions internationales persistantes</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1717,9 +1732,19 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
     </item>
     <item>
       <title>Secteur bancaire : Absa Maurice franchit le cap des Rs 4,6 milliards de profits</title>
-      <link>https://defimedia.info/secteur-bancaire-absa-maurice-franchit-le-cap-des-rs-46-milliards-de-profits</link>
+      <link>https://defimedia.info/index.php/secteur-bancaire-absa-maurice-franchit-le-cap-des-rs-46-milliards-de-profits</link>
       <description>Absa Maurice booste ses revenus à Rs 10,4 milliards en 2025. Durant la même période, ses profits ont grimpé à Rs 4,6 mil</description>
       <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-03T07:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Monde du travail | Conventions : Tripartisme : la SOEF porte plainte à l’OIT contre le GM</title>
+      <link>https://www.lemauricien.com/actualites/societe/monde-du-travail-conventions-tripartisme-la-soef-porte-plainte-a-loit-contre-le-gm/703530/</link>
+      <description>La State and Other Employees Federation of Mauritius (SOEF) a décidé de porter plainte contre le gouvernement pour non-respect des dispositions des conventions 87, 98 et 144 de l’Organ...</description>
+      <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-04-03T07:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
@@ -1777,7 +1802,7 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
     </item>
     <item>
       <title>Contrat de Rs 30 Md attribué par la STC à MMG : Kareena Neisius de nouveau devant la FCC</title>
-      <link>https://defimedia.info/contrat-de-rs-30-md-attribue-par-la-stc-mmg-kareena-neisius-de-nouveau-devant-la-fcc</link>
+      <link>https://defimedia.info/index.php/contrat-de-rs-30-md-attribue-par-la-stc-mmg-kareena-neisius-de-nouveau-devant-la-fcc</link>
       <description>L’enquête de la Financial Crimes Commission (FCC) sur l’attribution controversée d’un contrat pétrolier de Rs 30 milliar</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1807,7 +1832,7 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
     </item>
     <item>
       <title>Allégations d’attouchements : une jeune femme identifie Frédéric Pavaday</title>
-      <link>https://defimedia.info/allegations-dattouchements-une-jeune-femme-identifie-frederic-pavaday</link>
+      <link>https://defimedia.info/index.php/allegations-dattouchements-une-jeune-femme-identifie-frederic-pavaday</link>
       <description>L’enquête sur les agissements de Frédéric Pavaday, ancien enseignant de musique à la Loreto Junior School de Curepipe, p</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1817,7 +1842,7 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
     </item>
     <item>
       <title>Violence en milieu hospitalier : un médecin de l'hôpital Nehru agressé par un groupe d'individus</title>
-      <link>https://defimedia.info/violence-en-milieu-hospitalier-un-medecin-de-lhopital-nehru-agresse-par-un-groupe-dindividus</link>
+      <link>https://defimedia.info/index.php/violence-en-milieu-hospitalier-un-medecin-de-lhopital-nehru-agresse-par-un-groupe-dindividus</link>
       <description>À l’hôpital Jawaharlal Nehru Hospital, un médecin a été violemment agressé par un groupe d’individus en colère. Cet inci</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1907,7 +1932,7 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
     </item>
     <item>
       <title>Coup d'Etat présumé à Madagascar : 13 personnes inculpées dont un general</title>
-      <link>https://defimedia.info/coup-detat-presume-madagascar-13-personnes-inculpees-dont-un-general</link>
+      <link>https://defimedia.info/index.php/coup-detat-presume-madagascar-13-personnes-inculpees-dont-un-general</link>
       <description>Le parquet de Madagascar a annoncé jeudi que 13 personnes, dont un général, faisaient l'objet de poursuites pour leur im</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1952,46 +1977,6 @@ Vendredi saint : Un jour de recueillement et de mémoire</titles>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-02T20:28:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>From the Chrism Mass to the washing of the feet: Pope Leo’s first Easter season begins</title>
-      <link>http://www.africanews.com/2026/04/02/from-the-chrism-mass-to-the-washing-of-the-feet-pope-leos-first-easter-season-begins/</link>
-      <description>Pope Leo XIV begins his first Easter as pontiff by washing priests’ feet, following a tradition previously used by Pope Francis, while warning against domination in a troubled world.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-02T19:07:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Fally Ipupa marks 20 Years of solo career with historic Stade de France show [Interview]</title>
-      <link>http://www.africanews.com/2026/04/02/fally-ipupa-marks-20-years-of-solo-career-with-historic-stade-de-france-show-interview/</link>
-      <description>Fally Ipupa is celebrating 20 years of his solo career. For the occasion, he is releasing his eighth studio album, “XX&quot;, and inviting all music lovers to a major two-day celebration at the Stade de France on May 2 and 3.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-02T18:58:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Sixteen Kenyans missing in Russia after army recruitment</title>
-      <link>https://www.bbc.com/news/articles/cx2ell79v2wo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>More than 250 Kenyans have gone to fight for Russia in Ukraine, mostly willingly, Kenya's foreign minister says.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-04-02T18:35:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>President Putin holds talks with Egyptian Foreign Minister Abdelatty in Moscow</title>
-      <link>http://www.africanews.com/2026/04/02/president-putin-holds-talks-with-egyptian-foreign-minister-abdelatty-in-moscow/</link>
-      <description>Russian President Vladimir Putin has held talks in Moscow with Egypt's foreign minister, Badr Abdelatty, focusing on the war in the Middle East and economic cooperation.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-02T18:07:37+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>

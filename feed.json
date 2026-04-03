@@ -1,10 +1,10 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 183,
+  "item_count": 181,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-03T17:47:51.767000+00:00",
+      "cluster_time": "2026-04-03T19:29:15.629677+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 03 April 2026",
       "summary": "Brent Crude Oil: USD 109.24 per barrel",
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-03T17:47:51.591542+00:00",
+      "cluster_time": "2026-04-03T19:29:15.531355+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 03 April 2026",
-      "summary": "Bitcoin (BTC): USD 66,863.13 (▼ -5.03% from last)",
+      "summary": "Bitcoin (BTC): USD 66,826.62 (▼ -5.09% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -33,23 +33,8 @@
       ]
     },
     {
-      "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-03T17:47:51.271064+00:00",
-      "category": "finance",
-      "headline": "Gold price – 03 April 2026",
-      "summary": "Gold (XAU): USD 4,678.00 (▲ +6.58% from last)",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Gold Price"
-      ],
-      "urls": [
-        "https://api.gold-api.com/price/XAU"
-      ]
-    },
-    {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-03T17:47:50.843590+00:00",
+      "cluster_time": "2026-04-03T19:29:14.872165+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 03 April 2026",
       "summary": "MUR/USD 46.85 | MUR/EUR 54.05 (▲ 0.36 from last) (▲ 0.36 from last)",
@@ -64,7 +49,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-03T17:47:48.344543+00:00",
+      "cluster_time": "2026-04-03T19:29:12.453446+00:00",
       "category": "finance",
       "headline": "SEMDEX – 03 April 2026",
       "summary": "SEMDEX closed at 2230.90 (▲ 7.70 pts, +0.35% from last close 2,223.20)",
@@ -79,7 +64,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-04-03T17:47:43.869384+00:00",
+      "cluster_time": "2026-04-03T19:29:07.394370+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 03 April 2026",
       "summary": "STS INDUSA|Heavy Rain Watch for Mauritius Weather news for Mauritius issued at 17h00 on Friday 03 April 2026.General situation:1. Heavy Rain Watch is in force in Mauritius till 10h00 tomorrow, Saturday 04 April 2026.2. Clouds associated with the frontal system coming from the West, will influence the local weather at times.Forecast for the next 24 hours:Rather cloudy tonight and tomorrow morning with showers, moderate at times. These showers may be temporarily heavy and accompanied by thunderstorms.There may be water accumulations in flood prone areas.Visibility will be reduced due to fog and in showers.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Partly cloudy in the afternoon becoming cloudy at times over the highgrounds and over windward slopes with a few showers.The maximum temperature will vary between 24 and 27 degrees Celsius over the highgrounds and between 28 and 31 degrees Celsius along the coasts.Wind from North-west at about 15 km/h, blowing from South at about 20 km/h tomorrow.Sea rough beyond the reefs with South-westerly swells of 2 metres 50.Ventures in the open sea are not advised.The public is advised to:1. remain in safe places and avoid open areas, hikings, sea ventures and sheltering under trees during thundery showers.2. avoid places prone to water accumulation.3. be very cautious on the roadsSupplementary Information:At 16h00, the severe tropical storm INDUSA was centred near the point 16.5 degrees south latitude and 72.0 degrees east longitude. It is moving in a general south-southwesterly direction at around 15 km/h and will not directly influence the weather over the Mascarene Islands.High tides :Tomorrow 01h42 and 14h19.Low tides :19h48 and tomorrow 08h21.Sunset :18h09.Sunrise (tomorrow) :06h18.Atmospheric pressure at 16h00:1009 hectopascals.",
@@ -90,6 +75,160 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "singleton_484066e4775d",
+      "cluster_time": "2026-04-03T19:08:52+00:00",
+      "category": "global",
+      "headline": "At least one killed at UAE’s Habshan gas facility after intercepted attack",
+      "summary": "UAE says largest gas facility, Habshan, suffered 'significant damage' after air defence interception sparked fires.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/3/at-least-one-killed-at-uaes-habshan-gas-facility-after-intercepted-attack?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_ce2d14f8f527",
+      "cluster_time": "2026-04-03T18:32:43+00:00",
+      "category": "global",
+      "headline": "Drone strike on Sudan hospital kills 10, medical charity MSF says",
+      "summary": "Two strikes on Al Jabalain Hospital in White Nile State hit an operating theatre and a maternity ward, MSF says.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/3/drone-strike-on-sudan-hospital-kills-10-medical-charity-msf-says?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_46f3734138cc",
+      "cluster_time": "2026-04-03T18:25:25+00:00",
+      "category": "global",
+      "headline": "Artemis II crew take 'spectacular' image of Earth",
+      "summary": "The snap was taken aboard the Orion capsule by its commander, Reid Wiseman, as the crew head towards the Moon.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/ce8jzr423p9o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "a47d92a6c45c",
+      "cluster_time": "2026-04-03T18:21:00+00:00",
+      "category": "local",
+      "headline": "Meurtre de Nikesh Sapiny en 2019 : Une sentence de 24 ans de servitude pénale infligée à Rick Marcelin",
+      "summary": "[Le Mauricien] Un dénommé Rick Marcelin, âgé de 30 ans, a été condamné à 24 ans de servitude pénale ce vendredi 3 avril 2026, pour un meurtre qu’il avait commis en 2019. C’est le juge Mehdi Manrakhan, s...\n\n[Defimedia] Le verdict est tombé ce vendredi 3 avril 2026 en cour d’assises. Rick Marcelin a été condamné à 24 ans de prison pour av",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "Le Mauricien",
+        "Defimedia"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/faits-divers/meurtre-de-nikesh-sapiny-en-2019-une-sentence-de-24-ans-de-servitude-penale-infligee-a-rick-marcelin/703747/",
+        "https://defimedia.info/index.php/dispute-sur-fond-de-dette-rick-marcelin-condamne-24-ans-de-prison-pour-le-meurtre-de-son-employeur"
+      ]
+    },
+    {
+      "id": "singleton_5d171f0d449d",
+      "cluster_time": "2026-04-03T18:14:00+00:00",
+      "category": "local",
+      "headline": "Déféré devant le ‘Medical Disciplinary Tribunal’ : La suspension du Dr. Nishan Moheeputh annulée",
+      "summary": "Le Medical Council a annulé la suspension du Dr. Nishan Moheeputh ce vendredi 3 avril 2026. Cela une fois que cette instance ait reçu le rapport du Medical Disciplinary Tribunal qui avait été mis ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/faits-divers/defere-devant-le-medical-disciplinary-tribunal-la-suspension-du-dr-nishan-moheeputh-annulee/703743/"
+      ]
+    },
+    {
+      "id": "singleton_fcae9611f74f",
+      "cluster_time": "2026-04-03T18:13:00+00:00",
+      "category": "local",
+      "headline": "Blanchiment d’argent allégué : Chetan Parmanund arrêté, comparution ce samedi",
+      "summary": "Arrêté ce vendredi 3 avril 2026, Chetan Parmanund a été placé en détention et devra comparaître demain devant la Bail and Remand Court. Dans le même temps, son frère, Chetraj Parmanund, est...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/faits-divers/blanchiment-dargent-allegue-chetan-parmanund-arrete-comparution-ce-samedi/703741/"
+      ]
+    },
+    {
+      "id": "singleton_07d7d1a31e44",
+      "cluster_time": "2026-04-03T18:09:18+00:00",
+      "category": "regional",
+      "headline": "Ukraine’s Zhytomyr region reels after missile and drone strike",
+      "summary": "Russian missile and drone strikes hit Ukraine’s Zhytomyr region, killing one and injuring 10, as dozens of homes and public buildings were destroyed.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/03/ukraines-zhytomyr-region-reels-after-missile-and-drone-strike/"
+      ]
+    },
+    {
+      "id": "2fbf9ad6d070",
+      "cluster_time": "2026-04-03T17:45:46+00:00",
+      "category": "global",
+      "headline": "French-owned ship passes through Strait of Hormuz",
+      "summary": "[BBC News] It appears to be the first ship owned by a major European firm to go through the strait since the conflict began.\n\n[Al Jazeera] CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cjd8275jrrko?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_e4018220d5a2",
+      "cluster_time": "2026-04-03T17:40:45+00:00",
+      "category": "global",
+      "headline": "Cambodia parliament approves law to combat cybercrime scam rings",
+      "summary": "Justice Minister Keut Rith says the law aimed to enhance the \"cleaning operation\" across the country.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/3/cambodia-parliament-approves-law-to-combat-cybercrime-scam-rings?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_535cea8785db",
+      "cluster_time": "2026-04-03T17:35:23+00:00",
+      "category": "global",
+      "headline": "US unemployment rate drops despite economic uncertainty and Iran war",
+      "summary": "White House says March jobs report 'blew out expectations' with gains made in the healthcare and construction sectors.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/3/us-unemployment-rate-drops-despite-economic-uncertainty-and-iran-war?traffic_source=rss"
       ]
     },
     {
@@ -108,7 +247,7 @@
       ]
     },
     {
-      "id": "singleton_7641d701dffb",
+      "id": "singleton_60a253950100",
       "cluster_time": "2026-04-03T17:23:00+00:00",
       "category": "local",
       "headline": "Maurice–Inde : un accord de 655 millions de dollars (environ Rs 31,26 milliards) pour financer des projets majeurs",
@@ -119,11 +258,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/maurice-inde-un-accord-de-655-millions-de-dollars-environ-rs-3126-milliards-pour-financer-des"
+        "https://defimedia.info/index.php/maurice-inde-un-accord-de-655-millions-de-dollars-environ-rs-3126-milliards-pour-financer-des"
       ]
     },
     {
-      "id": "singleton_1b09757d2b5a",
+      "id": "singleton_e79f51e8df23",
       "cluster_time": "2026-04-03T17:20:00+00:00",
       "category": "local",
       "headline": "Fiscalité : l’Inde clarifie l’application des règles anti-abus, les investissements mauriciens d’avant 2017 préservés",
@@ -134,11 +273,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/fiscalite-linde-clarifie-lapplication-des-regles-anti-abus-les-investissements-mauriciens-davant"
+        "https://defimedia.info/index.php/fiscalite-linde-clarifie-lapplication-des-regles-anti-abus-les-investissements-mauriciens-davant"
       ]
     },
     {
-      "id": "singleton_372c4db0a47d",
+      "id": "singleton_152eba715a0a",
       "cluster_time": "2026-04-03T17:18:00+00:00",
       "category": "local",
       "headline": "Découverte choquante à Pailles : des drogues de synthèse et des psychotropes retrouvés dans un véhicule de police",
@@ -149,7 +288,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/decouverte-choquante-pailles-des-drogues-de-synthese-et-des-psychotropes-retrouves-dans-un-vehicule"
+        "https://defimedia.info/index.php/decouverte-choquante-pailles-des-drogues-de-synthese-et-des-psychotropes-retrouves-dans-un-vehicule"
       ]
     },
     {
@@ -168,7 +307,7 @@
       ]
     },
     {
-      "id": "singleton_aeb5d242be10",
+      "id": "singleton_478a195e7001",
       "cluster_time": "2026-04-03T17:11:00+00:00",
       "category": "local",
       "headline": "Impacts économiques du conflit au Moyen-Orient : le PM présidera une réunion du comité de crise le 8 avril",
@@ -179,11 +318,31 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/impacts-economiques-du-conflit-au-moyen-orient-le-pm-presidera-une-reunion-du-comite-de-crise-le-8"
+        "https://defimedia.info/index.php/impacts-economiques-du-conflit-au-moyen-orient-le-pm-presidera-une-reunion-du-comite-de-crise-le-8"
       ]
     },
     {
-      "id": "singleton_f7c6244308b2",
+      "id": "5990a3f79a63",
+      "cluster_time": "2026-04-03T16:57:51+04:00",
+      "category": "local",
+      "headline": "Interpellation pour blanchiment d’argent allégué : Chetan Purmanund interrogé par la FCC",
+      "summary": "[Le Mauricien] La Financial Crimes Commission (FCC) a ouvert, en 2025, une enquête ciblant deux directeurs de compagnie, Chetan Purmanund et Chetraj Purmanund, tous deux âgés de 45 ans et résidant à Terre Rouge...\n\n[L'Express (via mega.mu)] Le ministre du Travail, Reza Uteem, a justifié l’absence de nomination à la tête de la FCC. Selon lui, le gouvernement prépare une nouvelle loi avec le *Financial Crimes Agency*, qui absorbera la FCC : inutile donc de nommer un dirigeant pour une institution appelée à disparaître. Il a rappelé que la loi a déjà été amendée pour renforcer les pouvoirs du Directeur des poursuites publiques et permettre à la police de mener des enquêtes parallèles dans des affaires de blanchiment, ...\n\n[Defimedia] Nouveau coup de filet de la Financial Crimes Commission (FCC) ce vendredi 3 avril. Chetan Purmanund, un habitant de Terr\n\n[Defimedia] La Financial Crimes Commission (FCC) a, ce vendredi 3 avril 2026, objecté à la motion d'Avinash Luchoo aussi connu comme",
+      "cluster_size": 4,
+      "source_count": 3,
+      "sources": [
+        "Le Mauricien",
+        "L'Express (via mega.mu)",
+        "Defimedia"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/faits-divers/interpellation-pour-blanchiment-dargent-allegue-chetan-purmanund-interroge-par-la-fcc/703726/",
+        "https://live.mega.mu/redirect/254168/",
+        "https://defimedia.info/index.php/blanchiment-dargent-presume-le-directeur-dune-societe-immobiliere-interpelle-par-la-fcc-son-frere",
+        "https://defimedia.info/index.php/blanchiment-dargent-allegue-la-fcc-objecte-la-requete-davinash-luchoo-dannuler-laccusation"
+      ]
+    },
+    {
+      "id": "singleton_9729ae42e770",
       "cluster_time": "2026-04-03T16:57:00+00:00",
       "category": "local",
       "headline": "Conseil des ministres : rappel des restrictions pour les poids lourds aux heures de pointe",
@@ -194,7 +353,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/conseil-des-ministres-rappel-des-restrictions-pour-les-poids-lourds-aux-heures-de-pointe"
+        "https://defimedia.info/index.php/conseil-des-ministres-rappel-des-restrictions-pour-les-poids-lourds-aux-heures-de-pointe"
       ]
     },
     {
@@ -213,7 +372,7 @@
       ]
     },
     {
-      "id": "singleton_7b9bec268204",
+      "id": "singleton_76db8b4e91db",
       "cluster_time": "2026-04-03T16:46:00+00:00",
       "category": "local",
       "headline": "Lutte contre la drogue : Ramgoolam présidera une réunion de la National Drug Control Commission le jeudi 16 avril",
@@ -224,22 +383,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/lutte-contre-la-drogue-ramgoolam-presidera-une-reunion-de-la-national-drug-control-commission-le"
-      ]
-    },
-    {
-      "id": "singleton_a744f0df25b1",
-      "cluster_time": "2026-04-03T16:24:00+00:00",
-      "category": "global",
-      "headline": "French-owned container ship transits Hormuz Strait in first since Iran war",
-      "summary": "CMA CGM's vessel becomes the first French-owned ship to traverse Hormuz since the US–Israel war on Iran began.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/3/french-owned-container-ship-transits-hormuz-strait-in-first-since-iran-war?traffic_source=rss"
+        "https://defimedia.info/index.php/lutte-contre-la-drogue-ramgoolam-presidera-une-reunion-de-la-national-drug-control-commission-le"
       ]
     },
     {
@@ -258,7 +402,7 @@
       ]
     },
     {
-      "id": "singleton_8f1b0b7e9b0f",
+      "id": "singleton_9a5710bc7070",
       "cluster_time": "2026-04-03T16:04:00+00:00",
       "category": "local",
       "headline": "Blanchiment allégué de Rs 28 millions : Chetan Purmanund arrêté, son frère jumeau toujours recherché",
@@ -269,7 +413,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/blanchiment-allegue-de-rs-28-millions-chetan-purmanund-arrete-son-frere-jumeau-toujours-recherche"
+        "https://defimedia.info/index.php/blanchiment-allegue-de-rs-28-millions-chetan-purmanund-arrete-son-frere-jumeau-toujours-recherche"
       ]
     },
     {
@@ -365,7 +509,7 @@
       ]
     },
     {
-      "id": "singleton_39abb4dad55c",
+      "id": "singleton_1f5840d6db21",
       "cluster_time": "2026-04-03T15:30:00+00:00",
       "category": "local",
       "headline": "Au Cœur de l’Info- Crise alimentaire : Maurice est-il prêt face aux tensions au Moyen-Orient ?",
@@ -376,7 +520,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/au-coeur-de-linfo-crise-alimentaire-maurice-est-il-pret-face-aux-tensions-au-moyen-orient"
+        "https://defimedia.info/index.php/au-coeur-de-linfo-crise-alimentaire-maurice-est-il-pret-face-aux-tensions-au-moyen-orient"
       ]
     },
     {
@@ -547,20 +691,18 @@
       ]
     },
     {
-      "id": "09c50103eb95",
+      "id": "singleton_4ec0b8408ad5",
       "cluster_time": "2026-04-03T14:18:04+00:00",
       "category": "global",
       "headline": "Cuba to release more than 2,000 prisoners as US pressure mounts",
-      "summary": "[BBC News] US President Trump has made clear his desire to change Cuba's leadership and has placed the country under an oil embargo.\n\n[Al Jazeera] Releasing political prisoners in Cuba has long been a US core demand as oil blockade continues.",
-      "cluster_size": 2,
-      "source_count": 2,
+      "summary": "US President Trump has made clear his desire to change Cuba's leadership and has placed the country under an oil embargo.",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "BBC News",
-        "Al Jazeera"
+        "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cwy3r3w4zl8o?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/3/cuba-to-pardon-more-than-2000-prisoners-amid-us-pressure?traffic_source=rss"
+        "https://www.bbc.com/news/articles/cwy3r3w4zl8o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -595,7 +737,7 @@
       ]
     },
     {
-      "id": "singleton_0639e4751a29",
+      "id": "singleton_06404696af55",
       "cluster_time": "2026-04-03T14:00:00+00:00",
       "category": "local",
       "headline": "Contrôle des prix : des commerçants sanctionnés, des opérations de surveillance maintenues",
@@ -606,7 +748,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/controle-des-prix-des-commercants-sanctionnes-des-operations-de-surveillance-maintenues"
+        "https://defimedia.info/index.php/controle-des-prix-des-commercants-sanctionnes-des-operations-de-surveillance-maintenues"
       ]
     },
     {
@@ -625,7 +767,7 @@
       ]
     },
     {
-      "id": "singleton_751617d0ee7d",
+      "id": "singleton_28a174c9c06a",
       "cluster_time": "2026-04-03T13:55:00+00:00",
       "category": "local",
       "headline": "Le Morne : un jeune de 21 ans périt noyé",
@@ -636,11 +778,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/le-morne-un-jeune-de-21-ans-perit-noye"
+        "https://defimedia.info/index.php/le-morne-un-jeune-de-21-ans-perit-noye"
       ]
     },
     {
-      "id": "singleton_f1162562a4de",
+      "id": "singleton_94b10c48f23c",
       "cluster_time": "2026-04-03T13:49:00+00:00",
       "category": "local",
       "headline": "Robert Hungley insiste sur l’importance de passer de la théorie à la pratique en matière de bonne gouvernance",
@@ -651,7 +793,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/robert-hungley-insiste-sur-limportance-de-passer-de-la-theorie-la-pratique-en-matiere-de-bonne"
+        "https://defimedia.info/index.php/robert-hungley-insiste-sur-limportance-de-passer-de-la-theorie-la-pratique-en-matiere-de-bonne"
       ]
     },
     {
@@ -685,26 +827,24 @@
       ]
     },
     {
-      "id": "94e131d7e6c0",
+      "id": "48460ef5914a",
       "cluster_time": "2026-04-03T13:34:36+00:00",
       "category": "global",
-      "headline": "Italy part company with manager after failing to qualify for World Cup",
-      "summary": "[BBC News] Manager Gennaro Gattuso and Italy agree to \"mutually terminate\" his contract after their failure to qualify for a third successive World Cup.\n\n[France 24] Italy coach Gennaro Gattuso resigned on Friday, three days after failing to qualify the national team for the 2026 World Cup and one day after the announcement that Italian Football Federation (FIGC) president Gabriele Gravina was stepping down.\n\n[Al Jazeera] The Azzurri's failure to reach a third consecutive World Cup continues to send shockwaves through Italian football.",
-      "cluster_size": 3,
-      "source_count": 3,
+      "headline": "Italy's head coach quits after team fails to qualify for World Cup",
+      "summary": "[France 24] Italy coach Gennaro Gattuso resigned on Friday, three days after failing to qualify the national team for the 2026 World Cup and one day after the announcement that Italian Football Federation (FIGC) president Gabriele Gravina was stepping down.\n\n[Al Jazeera] The Azzurri's failure to reach a third consecutive World Cup continues to send shockwaves through Italian football.",
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
-        "BBC News",
         "France 24",
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.bbc.com/sport/football/articles/cevk0mn93ejo?at_medium=RSS&at_campaign=rss",
         "https://www.france24.com/en/sport/20260403-italy-head-coach-quits-after-team-fails-to-qualify-for-world-cup",
         "https://www.aljazeera.com/sports/2026/4/3/gattuso-out-as-italys-coach-after-failure-to-qualify-for-2026-world-cup?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_7e88f1db5433",
+      "id": "singleton_e52a392a31fb",
       "cluster_time": "2026-04-03T13:34:00+00:00",
       "category": "local",
       "headline": "Crise énergétique liée à la guerre au Moyen-Orient : le GM explore des mesures pour réduire la consommation d’électricité et de carburants",
@@ -715,7 +855,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/crise-energetique-liee-la-guerre-au-moyen-orient-le-gm-explore-des-mesures-pour-reduire-la"
+        "https://defimedia.info/index.php/crise-energetique-liee-la-guerre-au-moyen-orient-le-gm-explore-des-mesures-pour-reduire-la"
       ]
     },
     {
@@ -734,7 +874,7 @@
       ]
     },
     {
-      "id": "singleton_ddb9980b7aca",
+      "id": "singleton_420b83daf826",
       "cluster_time": "2026-04-03T13:28:00+00:00",
       "category": "local",
       "headline": "Prix du pain : les boulangers maintiennent la pression",
@@ -745,7 +885,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/prix-du-pain-les-boulangers-maintiennent-la-pression"
+        "https://defimedia.info/index.php/prix-du-pain-les-boulangers-maintiennent-la-pression"
       ]
     },
     {
@@ -763,8 +903,8 @@
       ],
       "urls": [
         "https://www.lemauricien.com/actualites/societe/meteo-maurice-sous-le-coup-dun-avis-de-fortes-pluies-jusqua-samedi-matin/703701/",
-        "https://defimedia.info/meteo-lavertissement-de-fortes-pluies-leve-une-veille-de-fortes-pluies-desormais-en-vigueur-jusqua",
-        "https://defimedia.info/meteo-un-avertissement-de-fortes-pluies-en-vigueur-jusqua-04h30-ce-samedi-4-avril-2026",
+        "https://defimedia.info/index.php/meteo-lavertissement-de-fortes-pluies-leve-une-veille-de-fortes-pluies-desormais-en-vigueur-jusqua",
+        "https://defimedia.info/index.php/meteo-un-avertissement-de-fortes-pluies-en-vigueur-jusqua-04h30-ce-samedi-4-avril-2026",
         "https://ionnews.mu/un-avertissement-de-fortes-pluies-est-en-vigueur-a-maurice-jusqua-ce-samedi-matin/",
         "https://ionnews.mu/des-averses-accompagnees-dorages-ce-vendredi-2/"
       ]
@@ -815,7 +955,7 @@
       ]
     },
     {
-      "id": "singleton_6f32fac769fb",
+      "id": "singleton_303a66972eff",
       "cluster_time": "2026-04-03T13:02:00+00:00",
       "category": "local",
       "headline": "Agression à Saint-Pierre : un homme en soins intensifs, sa concubine arrêtée",
@@ -826,7 +966,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/agression-saint-pierre-un-homme-en-soins-intensifs-sa-concubine-arretee"
+        "https://defimedia.info/index.php/agression-saint-pierre-un-homme-en-soins-intensifs-sa-concubine-arretee"
       ]
     },
     {
@@ -863,26 +1003,6 @@
       "urls": [
         "https://www.lemauricien.com/actualites/societe/consommation-menace-de-penurie-de-pain-le-mlc-prone-de-nouveaux-permis-pour-assurer-la-production/703684/",
         "https://live.mega.mu/redirect/254141/"
-      ]
-    },
-    {
-      "id": "5990a3f79a63",
-      "cluster_time": "2026-04-03T12:57:00+00:00",
-      "category": "local",
-      "headline": "Interpellation pour blanchiment d’argent allégué : Chetan Purmanund interrogé par la FCC",
-      "summary": "[Le Mauricien] La Financial Crimes Commission (FCC) a ouvert, en 2025, une enquête ciblant deux directeurs de compagnie, Chetan Purmanund et Chetraj Purmanund, tous deux âgés de 45 ans et résidant à Terre Rouge...\n\n[L'Express (via mega.mu)] Le ministre du Travail, Reza Uteem, a justifié l’absence de nomination à la tête de la FCC. Selon lui, le gouvernement prépare une nouvelle loi avec le *Financial Crimes Agency*, qui absorbera la FCC : inutile donc de nommer un dirigeant pour une institution appelée à disparaître. Il a rappelé que la loi a déjà été amendée pour renforcer les pouvoirs du Directeur des poursuites publiques et permettre à la police de mener des enquêtes parallèles dans des affaires de blanchiment, ...\n\n[Defimedia] Nouveau coup de filet de la Financial Crimes Commission (FCC) ce vendredi 3 avril. Chetan Purmanund, un habitant de Terr\n\n[Defimedia] La Financial Crimes Commission (FCC) a, ce vendredi 3 avril 2026, objecté à la motion d'Avinash Luchoo aussi connu comme",
-      "cluster_size": 4,
-      "source_count": 3,
-      "sources": [
-        "Le Mauricien",
-        "L'Express (via mega.mu)",
-        "Defimedia"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/faits-divers/interpellation-pour-blanchiment-dargent-allegue-chetan-purmanund-interroge-par-la-fcc/703726/",
-        "https://live.mega.mu/redirect/254168/",
-        "https://defimedia.info/blanchiment-dargent-presume-le-directeur-dune-societe-immobiliere-interpelle-par-la-fcc-son-frere",
-        "https://defimedia.info/blanchiment-dargent-allegue-la-fcc-objecte-la-requete-davinash-luchoo-dannuler-laccusation"
       ]
     },
     {
@@ -1080,7 +1200,7 @@
       ],
       "urls": [
         "https://live.mega.mu/redirect/254219/",
-        "https://defimedia.info/crise-energetique-mauritius-telecom-passe-au-mode-de-travail-hybride-des-la-semaine-prochaine",
+        "https://defimedia.info/index.php/crise-energetique-mauritius-telecom-passe-au-mode-de-travail-hybride-des-la-semaine-prochaine",
         "https://ionnews.mu/mauritius-telecom-passe-au-work-from-home-trois-fois-par-semaine-a-partir-de-ce-lundi/"
       ]
     },
@@ -1115,7 +1235,7 @@
       ]
     },
     {
-      "id": "singleton_d8cb2c3f8b6e",
+      "id": "singleton_7a93a99f9143",
       "cluster_time": "2026-04-03T11:21:00+00:00",
       "category": "local",
       "headline": "Série de vols de moteurs de bateau dans le Nord : trois suspects arrêtés",
@@ -1126,26 +1246,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/serie-de-vols-de-moteurs-de-bateau-dans-le-nord-trois-suspects-arretes"
+        "https://defimedia.info/index.php/serie-de-vols-de-moteurs-de-bateau-dans-le-nord-trois-suspects-arretes"
       ]
     },
     {
-      "id": "singleton_7f0a798db4ce",
-      "cluster_time": "2026-04-03T11:21:00+00:00",
-      "category": "local",
-      "headline": "Dispute sur fond de dette : Rick Marcelin condamné à 24 ans pour le meurtre de son employeur",
-      "summary": "Le verdict est tombé ce vendredi 3 avril 2026 en cour d’assises. Rick Marcelin a été condamné à 24 ans de prison pour av",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/dispute-sur-fond-de-dette-rick-marcelin-condamne-24-ans-pour-le-meurtre-de-son-employeur"
-      ]
-    },
-    {
-      "id": "singleton_29906992271d",
+      "id": "singleton_d643d5a68a50",
       "cluster_time": "2026-04-03T11:16:00+00:00",
       "category": "local",
       "headline": "Talat Aziz au SVICC : une brève rencontre avant son concert demain",
@@ -1156,7 +1261,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/talat-aziz-au-svicc-une-breve-rencontre-avant-son-concert-demain"
+        "https://defimedia.info/index.php/talat-aziz-au-svicc-une-breve-rencontre-avant-son-concert-demain"
       ]
     },
     {
@@ -1172,21 +1277,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/features/2026/4/3/rubble-mud-and-hair-how-to-rebuild-a-home-in-gaza?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_f356927bd71b",
-      "cluster_time": "2026-04-03T11:12:28+00:00",
-      "category": "global",
-      "headline": "Artemis II leaves Earth's orbit on track for far side of the Moon",
-      "summary": "The mission's last, big push on its lunar journey takes humans out of the Earth's orbit for the first time since 1972.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -1232,27 +1322,12 @@
         "ION News"
       ],
       "urls": [
-        "https://defimedia.info/avertissement-de-fortes-pluies-les-cours-dans-les-universites-prevus-cet-apres-midi-annules",
+        "https://defimedia.info/index.php/avertissement-de-fortes-pluies-les-cours-dans-les-universites-prevus-cet-apres-midi-annules",
         "https://ionnews.mu/avis-de-fortes-pluies-les-cours-dans-les-etablissements-denseignement-superieur-annules-ce-vendredi-apres-midi/"
       ]
     },
     {
-      "id": "singleton_f530cde67896",
-      "cluster_time": "2026-04-03T11:00:46+04:00",
-      "category": "local",
-      "headline": "Monde du travail | Conventions : Tripartisme : la SOEF porte plainte à l’OIT contre le GM",
-      "summary": "La State and Other Employees Federation of Mauritius (SOEF) a décidé de porter plainte contre le gouvernement pour non-respect des dispositions des conventions 87, 98 et 144 de l’Organ...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/monde-du-travail-conventions-tripartisme-la-soef-porte-plainte-a-loit-contre-le-gm/703530/"
-      ]
-    },
-    {
-      "id": "singleton_b21cd17dffe2",
+      "id": "singleton_db28105eb595",
       "cluster_time": "2026-04-03T10:54:00+00:00",
       "category": "local",
       "headline": "À partir de ce lundi 6 avril : MT met en place trois jours de télétravail par semaine",
@@ -1263,7 +1338,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/partir-de-ce-lundi-6-avril-mt-met-en-place-trois-jours-de-teletravail-par-semaine"
+        "https://defimedia.info/index.php/partir-de-ce-lundi-6-avril-mt-met-en-place-trois-jours-de-teletravail-par-semaine"
       ]
     },
     {
@@ -1402,7 +1477,7 @@
       ]
     },
     {
-      "id": "singleton_35d5cccf953b",
+      "id": "singleton_9eb048b31ebf",
       "cluster_time": "2026-04-03T09:55:00+00:00",
       "category": "local",
       "headline": "Pâques 2026 : Mgr Jean Michaël Durhône appelle à passer de la crainte à l’espérance",
@@ -1413,26 +1488,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/paques-2026-mgr-jean-michael-durhone-appelle-passer-de-la-crainte-lesperance"
+        "https://defimedia.info/index.php/paques-2026-mgr-jean-michael-durhone-appelle-passer-de-la-crainte-lesperance"
       ]
     },
     {
-      "id": "singleton_bac7704ee3f0",
-      "cluster_time": "2026-04-03T09:46:11+00:00",
-      "category": "global",
-      "headline": "Ten years since Panama Papers: What did they reveal, did anything change?",
-      "summary": "More than 11.5 million documents were released in what was considered one of the biggest data leaks ever.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/3/ten-years-since-panama-papers-what-did-they-reveal-did-anything-change?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_e0ead808d404",
+      "id": "singleton_7ae4d4970013",
       "cluster_time": "2026-04-03T09:30:00+00:00",
       "category": "local",
       "headline": "Transferts de fonds - Travailleurs indiens à Maurice : Rs 1,44 Md envoyées vers l’Inde",
@@ -1443,7 +1503,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/transferts-de-fonds-travailleurs-indiens-maurice-rs-144-md-envoyees-vers-linde"
+        "https://defimedia.info/index.php/transferts-de-fonds-travailleurs-indiens-maurice-rs-144-md-envoyees-vers-linde"
       ]
     },
     {
@@ -1462,7 +1522,7 @@
       ]
     },
     {
-      "id": "singleton_6d043bda68b2",
+      "id": "singleton_f5ef71510c76",
       "cluster_time": "2026-04-03T09:02:00+00:00",
       "category": "local",
       "headline": "Agressions dans les hôpitaux : la MHOA réclame un renforcement urgent de la sécurité",
@@ -1473,11 +1533,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/agressions-dans-les-hopitaux-la-mhoa-reclame-un-renforcement-urgent-de-la-securite"
+        "https://defimedia.info/index.php/agressions-dans-les-hopitaux-la-mhoa-reclame-un-renforcement-urgent-de-la-securite"
       ]
     },
     {
-      "id": "singleton_f31bfe282a0d",
+      "id": "singleton_4d9408ef184b",
       "cluster_time": "2026-04-03T09:00:00+00:00",
       "category": "local",
       "headline": "Aadil Ameer Meea : «Après le 11 avril, on va tourner la page»",
@@ -1488,37 +1548,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/aadil-ameer-meea-apres-le-11-avril-va-tourner-la-page"
-      ]
-    },
-    {
-      "id": "singleton_0d1694ec1615",
-      "cluster_time": "2026-04-03T08:59:42+00:00",
-      "category": "global",
-      "headline": "Kuwait desalination plant, oil refinery hit by missile and drone strikes",
-      "summary": "Twelve people were injured by falling debris in the UAE, fire at Abu Dhabi gas plant.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/3/kuwait-desalination-plant-oil-refinery-hit-by-missile-and-drone-strikes?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_b6c0a48758ee",
-      "cluster_time": "2026-04-03T08:59:18+00:00",
-      "category": "global",
-      "headline": "Tiger Woods told police after car crash he was ‘talking to the president’",
-      "summary": "Police body camera video shows how golfer appeared to be astonished as he was handcuffed for failing sobriety test.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/3/tiger-woods-told-police-after-car-crash-he-was-talking-to-the-president?traffic_source=rss"
+        "https://defimedia.info/index.php/aadil-ameer-meea-apres-le-11-avril-va-tourner-la-page"
       ]
     },
     {
@@ -1552,22 +1582,7 @@
       ]
     },
     {
-      "id": "singleton_a1b4e09b7e33",
-      "cluster_time": "2026-04-03T08:30:44+00:00",
-      "category": "global",
-      "headline": "Man City vs Liverpool: FA Cup quarterfinal – team news, start, lineups",
-      "summary": "FA Cup and Champions League are Liverpool's only hope for glory this season as they languish in fifth place in league.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/3/man-city-vs-liverpool-fa-cup-quarterfinal-preview-team-news-start?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_af39db93223f",
+      "id": "singleton_6c031bd7cb91",
       "cluster_time": "2026-04-03T08:30:00+00:00",
       "category": "local",
       "headline": "Gaz ménager : Maurice dispose de deux mois de stock",
@@ -1578,11 +1593,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/gaz-menager-maurice-dispose-de-deux-mois-de-stock"
+        "https://defimedia.info/index.php/gaz-menager-maurice-dispose-de-deux-mois-de-stock"
       ]
     },
     {
-      "id": "singleton_804f2b0e01c2",
+      "id": "singleton_e3583f8390f7",
       "cluster_time": "2026-04-03T08:27:00+00:00",
       "category": "local",
       "headline": "Tarifs de l’électricité : plusieurs scénarios à l’étude face à la flambée des coûts énergétiques",
@@ -1593,7 +1608,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/tarifs-de-lelectricite-plusieurs-scenarios-letude-face-la-flambee-des-couts-energetiques"
+        "https://defimedia.info/index.php/tarifs-de-lelectricite-plusieurs-scenarios-letude-face-la-flambee-des-couts-energetiques"
       ]
     },
     {
@@ -2260,7 +2275,7 @@
       ]
     },
     {
-      "id": "singleton_068f9ffc50a5",
+      "id": "singleton_17e6fd247ebe",
       "cluster_time": "2026-04-03T08:00:00+00:00",
       "category": "local",
       "headline": "Carburant : 34 880 tonnes d’essence et 35 490 tonnes de diesel attendues d’ici le 1er mai",
@@ -2271,7 +2286,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/carburant-34-880-tonnes-dessence-et-35-490-tonnes-de-diesel-attendues-dici-le-1er-mai"
+        "https://defimedia.info/index.php/carburant-34-880-tonnes-dessence-et-35-490-tonnes-de-diesel-attendues-dici-le-1er-mai"
       ]
     },
     {
@@ -2290,7 +2305,7 @@
       ]
     },
     {
-      "id": "singleton_f6d976598f3c",
+      "id": "singleton_1b695c3e6bf4",
       "cluster_time": "2026-04-03T07:36:00+00:00",
       "category": "local",
       "headline": "Gouvernance : l’intégrité et la résilience au cœur d’un atelier de travail",
@@ -2301,7 +2316,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/gouvernance-lintegrite-et-la-resilience-au-coeur-dun-atelier-de-travail"
+        "https://defimedia.info/index.php/gouvernance-lintegrite-et-la-resilience-au-coeur-dun-atelier-de-travail"
       ]
     },
     {
@@ -2320,7 +2335,7 @@
       ]
     },
     {
-      "id": "singleton_23756a42a44d",
+      "id": "singleton_533425a6de09",
       "cluster_time": "2026-04-03T07:30:00+00:00",
       "category": "local",
       "headline": "Clensy Appavoo : « Nous espérons un changement de paradigme économique, monétaire et fiscal dans le Budget »",
@@ -2331,7 +2346,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/clensy-appavoo-nous-esperons-un-changement-de-paradigme-economique-monetaire-et-fiscal-dans-le"
+        "https://defimedia.info/index.php/clensy-appavoo-nous-esperons-un-changement-de-paradigme-economique-monetaire-et-fiscal-dans-le"
       ]
     },
     {
@@ -2365,7 +2380,7 @@
       ]
     },
     {
-      "id": "singleton_88a6b4361c26",
+      "id": "singleton_362f1141513e",
       "cluster_time": "2026-04-03T07:00:00+00:00",
       "category": "local",
       "headline": "Secteur bancaire : Absa Maurice franchit le cap des Rs 4,6 milliards de profits",
@@ -2376,7 +2391,22 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/secteur-bancaire-absa-maurice-franchit-le-cap-des-rs-46-milliards-de-profits"
+        "https://defimedia.info/index.php/secteur-bancaire-absa-maurice-franchit-le-cap-des-rs-46-milliards-de-profits"
+      ]
+    },
+    {
+      "id": "singleton_f530cde67896",
+      "cluster_time": "2026-04-03T07:00:00+00:00",
+      "category": "local",
+      "headline": "Monde du travail | Conventions : Tripartisme : la SOEF porte plainte à l’OIT contre le GM",
+      "summary": "La State and Other Employees Federation of Mauritius (SOEF) a décidé de porter plainte contre le gouvernement pour non-respect des dispositions des conventions 87, 98 et 144 de l’Organ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/societe/monde-du-travail-conventions-tripartisme-la-soef-porte-plainte-a-loit-contre-le-gm/703530/"
       ]
     },
     {
@@ -2455,7 +2485,7 @@
       ]
     },
     {
-      "id": "singleton_121e442a44f7",
+      "id": "singleton_081cbb01ac08",
       "cluster_time": "2026-04-03T06:40:00+00:00",
       "category": "local",
       "headline": "Contrat de Rs 30 Md attribué par la STC à MMG : Kareena Neisius de nouveau devant la FCC",
@@ -2466,7 +2496,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/contrat-de-rs-30-md-attribue-par-la-stc-mmg-kareena-neisius-de-nouveau-devant-la-fcc"
+        "https://defimedia.info/index.php/contrat-de-rs-30-md-attribue-par-la-stc-mmg-kareena-neisius-de-nouveau-devant-la-fcc"
       ]
     },
     {
@@ -2500,7 +2530,7 @@
       ]
     },
     {
-      "id": "singleton_24b399936b5c",
+      "id": "singleton_20a8cecb1033",
       "cluster_time": "2026-04-03T06:12:00+00:00",
       "category": "local",
       "headline": "Allégations d’attouchements : une jeune femme identifie Frédéric Pavaday",
@@ -2511,11 +2541,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/allegations-dattouchements-une-jeune-femme-identifie-frederic-pavaday"
+        "https://defimedia.info/index.php/allegations-dattouchements-une-jeune-femme-identifie-frederic-pavaday"
       ]
     },
     {
-      "id": "singleton_01f198894a9b",
+      "id": "singleton_21f2cdaa00a4",
       "cluster_time": "2026-04-03T06:10:00+00:00",
       "category": "local",
       "headline": "Violence en milieu hospitalier : un médecin de l'hôpital Nehru agressé par un groupe d'individus",
@@ -2526,7 +2556,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/violence-en-milieu-hospitalier-un-medecin-de-lhopital-nehru-agresse-par-un-groupe-dindividus"
+        "https://defimedia.info/index.php/violence-en-milieu-hospitalier-un-medecin-de-lhopital-nehru-agresse-par-un-groupe-dindividus"
       ]
     },
     {
@@ -2650,7 +2680,7 @@
       ]
     },
     {
-      "id": "singleton_fc1db7ea26b4",
+      "id": "singleton_1eab41c8e67a",
       "cluster_time": "2026-04-03T02:26:00+00:00",
       "category": "local",
       "headline": "Coup d'Etat présumé à Madagascar : 13 personnes inculpées dont un general",
@@ -2661,7 +2691,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/coup-detat-presume-madagascar-13-personnes-inculpees-dont-un-general"
+        "https://defimedia.info/index.php/coup-detat-presume-madagascar-13-personnes-inculpees-dont-un-general"
       ]
     },
     {
@@ -2722,66 +2752,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/02/wall-street-falls-oil-surges-after-trump-threatens-more-attacks-on-iran/"
-      ]
-    },
-    {
-      "id": "singleton_2ec010594c86",
-      "cluster_time": "2026-04-02T19:07:35+00:00",
-      "category": "regional",
-      "headline": "From the Chrism Mass to the washing of the feet: Pope Leo’s first Easter season begins",
-      "summary": "Pope Leo XIV begins his first Easter as pontiff by washing priests’ feet, following a tradition previously used by Pope Francis, while warning against domination in a troubled world.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/02/from-the-chrism-mass-to-the-washing-of-the-feet-pope-leos-first-easter-season-begins/"
-      ]
-    },
-    {
-      "id": "singleton_a25efd7eaf86",
-      "cluster_time": "2026-04-02T18:58:34+00:00",
-      "category": "regional",
-      "headline": "Fally Ipupa marks 20 Years of solo career with historic Stade de France show [Interview]",
-      "summary": "Fally Ipupa is celebrating 20 years of his solo career. For the occasion, he is releasing his eighth studio album, “XX\", and inviting all music lovers to a major two-day celebration at the Stade de France on May 2 and 3.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/02/fally-ipupa-marks-20-years-of-solo-career-with-historic-stade-de-france-show-interview/"
-      ]
-    },
-    {
-      "id": "singleton_5a8c730d175f",
-      "cluster_time": "2026-04-02T18:35:09+00:00",
-      "category": "regional",
-      "headline": "Sixteen Kenyans missing in Russia after army recruitment",
-      "summary": "More than 250 Kenyans have gone to fight for Russia in Ukraine, mostly willingly, Kenya's foreign minister says.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC Africa"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cx2ell79v2wo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_558ade5ebaf5",
-      "cluster_time": "2026-04-02T18:07:37+00:00",
-      "category": "regional",
-      "headline": "President Putin holds talks with Egyptian Foreign Minister Abdelatty in Moscow",
-      "summary": "Russian President Vladimir Putin has held talks in Moscow with Egypt's foreign minister, Badr Abdelatty, focusing on the war in the Middle East and economic cooperation.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/02/president-putin-holds-talks-with-egyptian-foreign-minister-abdelatty-in-moscow/"
       ]
     }
   ]
