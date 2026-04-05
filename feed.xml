@@ -4,24 +4,24 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Sun, 05 Apr 2026 16:07:42 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Apr 2026 18:06:26 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 05 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
       <description>Brent Crude Oil: USD 109.24 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-05T16:05:04.554384+00:00</cluster_time>
+      <cluster_time>2026-04-05T18:03:43.990754+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 05 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 67,281.09 (▼ -4.44% from last)</description>
+      <description>Bitcoin (BTC): USD 67,325.81 (▼ -4.38% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-05T16:05:04.441417+00:00</cluster_time>
+      <cluster_time>2026-04-05T18:03:43.876247+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -31,7 +31,7 @@
       <description>Gold (XAU): USD 4,678.00 (▲ +6.58% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-05T16:05:03.944654+00:00</cluster_time>
+      <cluster_time>2026-04-05T18:03:43.426277+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -41,7 +41,7 @@
       <description>MUR/USD 46.85 | MUR/EUR 54.05 (▲ 0.36 from last) (▲ 0.36 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-05T16:05:03.375370+00:00</cluster_time>
+      <cluster_time>2026-04-05T18:03:43.081932+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +51,7 @@
       <description>SEMDEX closed at 2230.90 (▲ 7.70 pts, +0.35% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-05T16:05:00.876928+00:00</cluster_time>
+      <cluster_time>2026-04-05T18:03:40.563572+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -61,7 +61,37 @@
       <description>Weather news for Mauritius issued at 16h30 on Sunday 05 April 2026.General situation:A light airstream is flowing over our region.Forecast for the next 24 hours:Partly cloudy tonight and tomorrow morning with occasional showers over the highgrounds.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Temporary cloud developments are expected tomorrow afternoon to the West, the North-west and over the central plateau with localised showers. These showers may be temporarily moderate. Partly cloudy elsewhereThe maximum temperature will vary between 25 and 27 degrees Celsius over the highgrounds and between 29 and 32 degrees Celsius along the coasts.Wind blowing from the South-east at about 15 km/h, becoming variable at night.Sea rough beyond the reefs with swells from the Southern sector of the order of 3 metres.Ventures in the open sea as well as in the Western and Southern lagoons are not advised.However, the Western and Southern lagoons will improve tomorrow.Supplementary information:The severe tropical storm INDUSA has weakened into a post tropical depression.At 16h00, the post tropical depression INDUSA was centred near the point 29.7 degrees South in latitude and 71.4 degrees East in longitude. It is moving in a general Southerly direction at about 35 km/h and will not directly influence the weather over the Mascarene Islands.High tides :Tomorrow 02h14 and 15h21.Low tides :20h24 and tomorrow 09h04.Sunset :18h07.Sunrise (tomorrow) :06h18.Atmospheric pressure at 16h00:1011 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-04-05T16:04:56.219589+00:00</cluster_time>
+      <cluster_time>2026-04-05T18:03:36.053053+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Israel launches new strikes on Lebanon, forces closure of Syria border crossing</title>
+      <link>https://www.france24.com/en/middle-east/20260405-israel-launches-new-strikes-on-lebanon-forces-closure-of-syria-border-crossing</link>
+      <description>[France 24] Israeli airstrikes on Beirut and southern Lebanon on Sunday killed at least 11 people, including a family of six, and wounded dozens more. The attacks also forced the closure of Lebanon’s main border crossing with Syria, as Israel's conflict with Hezbollah intensifies.
+
+[Al Jazeera] Hezbollah fires projectiles at northern Israel while Israeli troops push deeper into southern Lebanon.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-05T17:54:33+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>c852511489cd</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/middle-east/20260405-israel-launches-new-strikes-on-lebanon-forces-closure-of-syria-border-crossing
+https://www.aljazeera.com/news/2026/4/5/at-least-14-people-killed-in-israeli-strikes-across-lebanon?traffic_source=rss</urls>
+      <titles>Israel launches new strikes on Lebanon, forces closure of Syria border crossing
+At least 14 people killed in Israeli strikes across Lebanon</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>OPEC+ agrees to hike oil output, warns of slow recovery after attacks</title>
+      <link>https://www.aljazeera.com/news/2026/4/5/opec-agrees-to-hike-oil-output-warns-of-slow-recovery-after-attacks?traffic_source=rss</link>
+      <description>The rise is largely symbolic as some key members are unable to raise ​production amid the US-Israel war on Iran.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-05T17:33:04+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -81,10 +111,10 @@
 [France 24] David Smith, Guardian's Washington bureau chief, is our guest.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-04-05T15:45:20+00:00</cluster_time>
+      <cluster_time>2026-04-05T17:15:34+00:00</cluster_time>
       <cluster_size>6</cluster_size>
       <source_count>3</source_count>
-      <cluster_id>ea268c50df1c</cluster_id>
+      <cluster_id>a935e115f08d</cluster_id>
       <sources>BBC News
 France 24
 Al Jazeera</sources>
@@ -95,12 +125,32 @@ https://www.france24.com/en/middle-east/20260405-inside-the-race-to-rescue-a-dow
 https://www.aljazeera.com/news/2026/4/5/us-pilot-from-downed-f-15-plane-rescued-in-iran-what-we-know?traffic_source=rss
 https://www.france24.com/en/us-aviator-missing-after-iran-shot-down-fighter-jet-has-been-rescued</urls>
       <titles>How downed F-15 US airman was rescued inside Iran
-US airman injured but safe after rescue from inside Iran, Trump says
+Seriously wounded US airman rescued from Iran, Trump says
 &quot;We got him!&quot;: US rescues aviator whose fighter jet was shot down in Iran
 Inside the race to rescue a downed US airman in Iran
 US pilot from downed F-15E plane rescued in Iran: What we know
 US aviator missing after Iran shot down fighter jet has been rescued</titles>
       <languages>en</languages>
+    </item>
+    <item>
+      <title>Mgr Durhône : « La crise politique actuelle suscite l’inquiétude »</title>
+      <link>https://defimedia.info/mgr-durhone-la-crise-politique-actuelle-suscite-linquietude</link>
+      <description>La crise politique locale, ainsi que la guerre au Moyen-Orient et ses répercussions sur l’économie mauricienne, ont été</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-05T17:14:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Hungary alleges plot to blow up gas pipeline ahead of election</title>
+      <link>https://www.bbc.com/news/articles/cj60x206dx1o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The incident comes a week before the polls, and follow warnings of a potential operations staged to influence voters.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-05T16:38:06+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>War in the Middle East: Israeli strike on South Beirut kills at least 4 people</title>
@@ -219,6 +269,16 @@ Congo to take third-country deportees from the US under new deal</titles>
       <source>France 24</source>
       <category>global</category>
       <cluster_time>2026-04-05T15:00:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>CEB power outage – Pereybere, Rivieredurempart on 05 April 2026</title>
+      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
+      <description>Pereybere (Rivieredurempart): 19:00 to 00:00. Areas affected: RESIDENCE FRANGIPANIERPEREYBERE ET LES ALENTOURS</description>
+      <source>CEB Power Outages</source>
+      <category>utilities</category>
+      <cluster_time>2026-04-05T15:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -582,16 +642,6 @@ Several people killed in Ukraine after a Russian drone strike on a market</title
       <source_count>1</source_count>
     </item>
     <item>
-      <title>One Health Summit begins in Lyon, France: How to prevent health risks ?</title>
-      <link>https://www.france24.com/en/one-health-summit-begins-in-lyon-france-how-to-prevent-health-risks</link>
-      <description>Sophie Drogué, INRAE Research Engineer, is our guest.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-05T09:17:25+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Kuwait’s power, water plants damaged as Iran keeps attacking Gulf states</title>
       <link>https://www.aljazeera.com/news/2026/4/5/kuwait-says-power-water-facilities-hit-by-iran-as-gulf-attacks-continue?traffic_source=rss</link>
       <description>Bahrain and the UAE also report attacks resulting in fires, which are put out quickly.</description>
@@ -602,42 +652,12 @@ Several people killed in Ukraine after a Russian drone strike on a market</title
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Israel’s attack on UNRWA is central to its genocide of the Palestinians</title>
-      <link>https://www.aljazeera.com/opinions/2026/4/5/israels-attack-on-unrwa-is-central-to-its-genocide-of-the-palestinians?traffic_source=rss</link>
-      <description>UNRWA's mandate to provide for Palestinian refugees makes it a direct threat to the Israeli genocidal project.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-05T08:40:26+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Ken Dylan Prosper, 21 ans, meurt noyé : il voulait faire une surprise à sa mère pour la Pâques</title>
       <link>https://defimedia.info/ken-dylan-prosper-21-ans-meurt-noye-il-voulait-faire-une-surprise-sa-mere-pour-la-paques</link>
       <description>Ken Dylan Prosper avait 21 ans, une ceinture d’or aux Jeux de la CJSOI (Commission de la Jeunesse et des Sports de l’Océ</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-05T08:30:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Messi scores as Inter Miami open new stadium with a draw in the MLS</title>
-      <link>https://www.aljazeera.com/sports/2026/4/5/messi-scores-as-inter-miami-open-new-stadium-with-a-draw-in-the-mls?traffic_source=rss</link>
-      <description>Miami captain scored his team's first goal after David Beckham said the Nu Stadium was a 'dream come true' for Miami.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-05T08:14:26+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>CEB power outage – Pointe Aux Canonniers, Rivieredurempart on 05 April 2026</title>
-      <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
-      <description>Pointe Aux Canonniers (Rivieredurempart): 12:05 to 20:15. Areas affected: CHEMIN CASSE GHOON, CHEMIN COLLINE ET LES ALENTOURS.</description>
-      <source>CEB Power Outages</source>
-      <category>utilities</category>
-      <cluster_time>2026-04-05T08:05:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -660,6 +680,26 @@ https://ionnews.mu/manchester-city-le-cyborg-erling-haaland-sest-reveille/</urls
       <titles>Coupe d’Angleterre : Manchester City corrige Liverpool FC avant son choc européen
 Manchester City : le Cyborg Erling Haaland s’est réveillé !</titles>
       <languages>fr</languages>
+    </item>
+    <item>
+      <title>Inde–Maurice : Les investissements antérieurs à 2017 restent protégés</title>
+      <link>https://live.mega.mu/redirect/254501/</link>
+      <description>L’Inde vient d’apporter une clarification majeure pour les investisseurs opérant sur le corridor indo-mauricien. Par le biais d’une notification publiée le 31 mars 2026, le *Central Board of Direct Taxes* (CBDT) a amendé la règle 128 des *Income-tax (Amendment) Rules 2026*, précisant explicitement que les *General Anti-Avoidance Rules* (GAAR) ne s’appliquent pas aux revenus issus du transfert d’investissements réalisés avant le 1ᵉʳ avril 2017. Cette mesure confirme ainsi ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-05T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Sous les sabots : Boundless Energy : Un nom à retenir</title>
+      <link>https://live.mega.mu/redirect/254504/</link>
+      <description>L’écurie Paul Foo Kune ne cache pas ses ambitions en vue de la saison 2026. Pour les réaliser, elle a procédé à une pléiade d’acquisitions, dont un certain *Boundless Energy*. Âgé de quatre ans, ce coursier bien né, par *Vercingetorix* et *Bella Spumante* – une jument issue de Dynasty – compte seulement deux victoires en sept sorties dans son pays natal, mais il vaut bien plus que cela. Déjà, lorsqu’il avait été présenté aux ventes de yearlings, fort d’un solid ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-05T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Secteur immobilier : Loyers en hausse : Les plus vulnérables paient le prix fort</title>
@@ -734,6 +774,16 @@ De Bérenger à Subron, le silence de Ramgoolam</titles>
       <title>«Grey List» : Attirer le capital sans vendre son âme</title>
       <link>https://live.mega.mu/redirect/254477/</link>
       <description>Dix ans après les *Panama Papers*, le monde n’a pas tant changé qu’il s’est sophistiqué. L’opacité n’a pas disparu, elle s’est déplacée, digitalisée, juridiquement blindée. Pendant que les États colmatent, les flux contournent. Et au cœur de cette tension permanente entre régulation et ingénierie financière, une vérité s’impose : la crédibilité d’une place financière n’est plus une déclaration. C’est une démonstration. C’est dans ce contexte – celu ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-05T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>PMQT, Conduite en état d’ivresse : 650 cas recensés depuis janvier</title>
+      <link>https://live.mega.mu/redirect/254507/</link>
+      <description>Interpellé par le député Arvin Babajee, le Premier ministre (PM) a présenté un état des lieux préoccupant de la conduite sous l’influence de l’alcool.</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-05T08:00:00+00:00</cluster_time>
@@ -1277,66 +1327,6 @@ Nuages et averses ce dimanche 5 avril à Maurice</titles>
       <source>BBC Africa</source>
       <category>regional</category>
       <cluster_time>2026-04-04T18:30:58+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Arnaque WhatsApp : le piège du «service urgent»</title>
-      <link>https://defimedia.info/arnaque-whatsapp-le-piege-du-service-urgent</link>
-      <description>Un simple message. Quelques mots empreints de respect. Une demande qui semble anodine… et pourtant, en quelques minutes,</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-04T17:30:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Agressé à l’hôpital de Flacq - Dr Tarachand Seenauth : «Zot inn antour mwa ek tapp mwa kout bar feray»</title>
-      <link>https://defimedia.info/agresse-lhopital-de-flacq-dr-tarachand-seenauth-zot-inn-antour-mwa-ek-tapp-mwa-kout-bar-feray</link>
-      <description>Les assaillants lui reprochaient de les avoir filmés.La victime : « A okenn moman mo pa’nn record naryen »Le traumatisme</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-04T17:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Paul Bérenger : “Électricité …bizin fer maximum pou le renouvelable… bizin augment le base load”</title>
-      <link>https://ionnews.mu/paul-berenger-electricite-bizin-fer-maximum-pou-le-renouvelable-bizin-augment-le-base-load/</link>
-      <description>The post Paul Bérenger : “Électricité …bizin fer maximum pou le renouvelable… bizin augment le base load” appeared first on IONNEWS.</description>
-      <source>ION News</source>
-      <category>local</category>
-      <cluster_time>2026-04-04T16:46:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Affaire Avinash Luchoo : enquête sur une «virée» à 10 000 euros en Thaïlande</title>
-      <link>https://defimedia.info/affaire-avinash-luchoo-enquete-sur-une-viree-10-000-euros-en-thailande</link>
-      <description>La Financial Crimes Commission (FCC) passe au crible un voyage effectué par l'homme d'affaires en janvier 2026. Entre hô</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-04T16:30:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Agressés par un proche toxicomane : le calvaire d’une veuve et son fils de 14 ans</title>
-      <link>https://defimedia.info/agresses-par-un-proche-toxicomane-le-calvaire-dune-veuve-et-son-fils-de-14-ans</link>
-      <description>L’ado : «Mo pann kapav get li bat mo mama» Sa vie est devenue un enfer. Nooreza, habitante de Vacoas âgée de 54 ans, se</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-04T16:30:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Loto : un joueur remporte Rs 36 millions</title>
-      <link>https://defimedia.info/loto-un-joueur-remporte-rs-36-millions-0</link>
-      <description>Le Loto a fait ce samedi soir un grand gagnant, qui empoche la somme de Rs 36 millions. Le ticket gagnant a été vendu pa</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-04T16:19:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>

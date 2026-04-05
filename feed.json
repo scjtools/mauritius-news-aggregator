@@ -1,10 +1,10 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 120,
+  "item_count": 118,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-05T16:05:04.554384+00:00",
+      "cluster_time": "2026-04-05T18:03:43.990754+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 05 April 2026",
       "summary": "Brent Crude Oil: USD 109.24 per barrel",
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-05T16:05:04.441417+00:00",
+      "cluster_time": "2026-04-05T18:03:43.876247+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 05 April 2026",
-      "summary": "Bitcoin (BTC): USD 67,281.09 (▼ -4.44% from last)",
+      "summary": "Bitcoin (BTC): USD 67,325.81 (▼ -4.38% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,7 +34,7 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-05T16:05:03.944654+00:00",
+      "cluster_time": "2026-04-05T18:03:43.426277+00:00",
       "category": "finance",
       "headline": "Gold price – 05 April 2026",
       "summary": "Gold (XAU): USD 4,678.00 (▲ +6.58% from last)",
@@ -49,7 +49,7 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-05T16:05:03.375370+00:00",
+      "cluster_time": "2026-04-05T18:03:43.081932+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 05 April 2026",
       "summary": "MUR/USD 46.85 | MUR/EUR 54.05 (▲ 0.36 from last) (▲ 0.36 from last)",
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-05T16:05:00.876928+00:00",
+      "cluster_time": "2026-04-05T18:03:40.563572+00:00",
       "category": "finance",
       "headline": "SEMDEX – 05 April 2026",
       "summary": "SEMDEX closed at 2230.90 (▲ 7.70 pts, +0.35% from last close 2,223.20)",
@@ -79,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-04-05T16:04:56.219589+00:00",
+      "cluster_time": "2026-04-05T18:03:36.053053+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 05 April 2026",
       "summary": "Weather news for Mauritius issued at 16h30 on Sunday 05 April 2026.General situation:A light airstream is flowing over our region.Forecast for the next 24 hours:Partly cloudy tonight and tomorrow morning with occasional showers over the highgrounds.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Temporary cloud developments are expected tomorrow afternoon to the West, the North-west and over the central plateau with localised showers. These showers may be temporarily moderate. Partly cloudy elsewhereThe maximum temperature will vary between 25 and 27 degrees Celsius over the highgrounds and between 29 and 32 degrees Celsius along the coasts.Wind blowing from the South-east at about 15 km/h, becoming variable at night.Sea rough beyond the reefs with swells from the Southern sector of the order of 3 metres.Ventures in the open sea as well as in the Western and Southern lagoons are not advised.However, the Western and Southern lagoons will improve tomorrow.Supplementary information:The severe tropical storm INDUSA has weakened into a post tropical depression.At 16h00, the post tropical depression INDUSA was centred near the point 29.7 degrees South in latitude and 71.4 degrees East in longitude. It is moving in a general Southerly direction at about 35 km/h and will not directly influence the weather over the Mascarene Islands.High tides :Tomorrow 02h14 and 15h21.Low tides :20h24 and tomorrow 09h04.Sunset :18h07.Sunrise (tomorrow) :06h18.Atmospheric pressure at 16h00:1011 hectopascals.",
@@ -93,8 +93,40 @@
       ]
     },
     {
-      "id": "ea268c50df1c",
-      "cluster_time": "2026-04-05T15:45:20+00:00",
+      "id": "c852511489cd",
+      "cluster_time": "2026-04-05T17:54:33+00:00",
+      "category": "global",
+      "headline": "Israel launches new strikes on Lebanon, forces closure of Syria border crossing",
+      "summary": "[France 24] Israeli airstrikes on Beirut and southern Lebanon on Sunday killed at least 11 people, including a family of six, and wounded dozens more. The attacks also forced the closure of Lebanon’s main border crossing with Syria, as Israel's conflict with Hezbollah intensifies.\n\n[Al Jazeera] Hezbollah fires projectiles at northern Israel while Israeli troops push deeper into southern Lebanon.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.france24.com/en/middle-east/20260405-israel-launches-new-strikes-on-lebanon-forces-closure-of-syria-border-crossing",
+        "https://www.aljazeera.com/news/2026/4/5/at-least-14-people-killed-in-israeli-strikes-across-lebanon?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_0dffa150abe3",
+      "cluster_time": "2026-04-05T17:33:04+00:00",
+      "category": "global",
+      "headline": "OPEC+ agrees to hike oil output, warns of slow recovery after attacks",
+      "summary": "The rise is largely symbolic as some key members are unable to raise ​production amid the US-Israel war on Iran.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/5/opec-agrees-to-hike-oil-output-warns-of-slow-recovery-after-attacks?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "a935e115f08d",
+      "cluster_time": "2026-04-05T17:15:34+00:00",
       "category": "global",
       "headline": "How downed F-15 US airman was rescued inside Iran",
       "summary": "[BBC News] The US has rescued the missing crew member of the US F-15 fighter jet which was shot down over southern Iran.\n\n[BBC News] The recovery of the airman follows separate search efforts by both the US and Iran.\n\n[France 24] The United States said Sunday it rescued a service member missing behind enemy lines since Iran downed a fighter jet, as President Donald Trump escalated pressure on Tehran with a new looming deadline to reopen the Strait of Hormuz.\n\n[France 24] President Donald Trump on Sunday hailed a daring rescue of a downed US airman in central Iran, but Tehran insisted the mission was “foiled”, leaving the world to sift fact from fiction amid conflicting reports and viral images.\n\n[Al Jazeera] The second pilot from the fighter jet shot down in Iran is rescued by US rescue forces after 48 hours.\n\n[France 24] David Smith, Guardian's Washington bureau chief, is our guest.",
@@ -112,6 +144,36 @@
         "https://www.france24.com/en/middle-east/20260405-inside-the-race-to-rescue-a-downed-us-airman-in-iran",
         "https://www.aljazeera.com/news/2026/4/5/us-pilot-from-downed-f-15-plane-rescued-in-iran-what-we-know?traffic_source=rss",
         "https://www.france24.com/en/us-aviator-missing-after-iran-shot-down-fighter-jet-has-been-rescued"
+      ]
+    },
+    {
+      "id": "singleton_cacca0e795b8",
+      "cluster_time": "2026-04-05T17:14:00+00:00",
+      "category": "local",
+      "headline": "Mgr Durhône : « La crise politique actuelle suscite l’inquiétude »",
+      "summary": "La crise politique locale, ainsi que la guerre au Moyen-Orient et ses répercussions sur l’économie mauricienne, ont été",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/mgr-durhone-la-crise-politique-actuelle-suscite-linquietude"
+      ]
+    },
+    {
+      "id": "singleton_989bc93d40c3",
+      "cluster_time": "2026-04-05T16:38:06+00:00",
+      "category": "global",
+      "headline": "Hungary alleges plot to blow up gas pipeline ahead of election",
+      "summary": "The incident comes a week before the polls, and follow warnings of a potential operations staged to influence voters.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cj60x206dx1o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -279,6 +341,21 @@
       ],
       "urls": [
         "https://www.france24.com/en/trump-s-puppet-regime-home-to-world-s-largest-oil-reserves-is-venezuela-key-to-us-economy"
+      ]
+    },
+    {
+      "id": "singleton_513741316c21",
+      "cluster_time": "2026-04-05T15:00:00+00:00",
+      "category": "utilities",
+      "headline": "CEB power outage – Pereybere, Rivieredurempart on 05 April 2026",
+      "summary": "Pereybere (Rivieredurempart): 19:00 to 00:00. Areas affected: RESIDENCE FRANGIPANIERPEREYBERE ET LES ALENTOURS",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "CEB Power Outages"
+      ],
+      "urls": [
+        "https://github.com/MrSunshyne/mauritius-dataset-electricity"
       ]
     },
     {
@@ -771,21 +848,6 @@
       ]
     },
     {
-      "id": "singleton_88fca4448eb0",
-      "cluster_time": "2026-04-05T09:17:25+00:00",
-      "category": "global",
-      "headline": "One Health Summit begins in Lyon, France: How to prevent health risks ?",
-      "summary": "Sophie Drogué, INRAE Research Engineer, is our guest.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/one-health-summit-begins-in-lyon-france-how-to-prevent-health-risks"
-      ]
-    },
-    {
       "id": "singleton_623fdb3d3b21",
       "cluster_time": "2026-04-05T08:52:22+00:00",
       "category": "global",
@@ -798,21 +860,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/news/2026/4/5/kuwait-says-power-water-facilities-hit-by-iran-as-gulf-attacks-continue?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_f5177d41435f",
-      "cluster_time": "2026-04-05T08:40:26+00:00",
-      "category": "global",
-      "headline": "Israel’s attack on UNRWA is central to its genocide of the Palestinians",
-      "summary": "UNRWA's mandate to provide for Palestinian refugees makes it a direct threat to the Israeli genocidal project.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/4/5/israels-attack-on-unrwa-is-central-to-its-genocide-of-the-palestinians?traffic_source=rss"
       ]
     },
     {
@@ -831,36 +878,6 @@
       ]
     },
     {
-      "id": "singleton_c4c722c3d5b0",
-      "cluster_time": "2026-04-05T08:14:26+00:00",
-      "category": "global",
-      "headline": "Messi scores as Inter Miami open new stadium with a draw in the MLS",
-      "summary": "Miami captain scored his team's first goal after David Beckham said the Nu Stadium was a 'dream come true' for Miami.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/5/messi-scores-as-inter-miami-open-new-stadium-with-a-draw-in-the-mls?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_513741316c21",
-      "cluster_time": "2026-04-05T08:05:00+00:00",
-      "category": "utilities",
-      "headline": "CEB power outage – Pointe Aux Canonniers, Rivieredurempart on 05 April 2026",
-      "summary": "Pointe Aux Canonniers (Rivieredurempart): 12:05 to 20:15. Areas affected: CHEMIN CASSE GHOON, CHEMIN COLLINE ET LES ALENTOURS.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "CEB Power Outages"
-      ],
-      "urls": [
-        "https://github.com/MrSunshyne/mauritius-dataset-electricity"
-      ]
-    },
-    {
       "id": "72c573cedf13",
       "cluster_time": "2026-04-05T08:00:00+00:00",
       "category": "local",
@@ -875,6 +892,36 @@
       "urls": [
         "https://live.mega.mu/redirect/254408/",
         "https://ionnews.mu/manchester-city-le-cyborg-erling-haaland-sest-reveille/"
+      ]
+    },
+    {
+      "id": "singleton_147d0d8fef7d",
+      "cluster_time": "2026-04-05T08:00:00+00:00",
+      "category": "local",
+      "headline": "Inde–Maurice : Les investissements antérieurs à 2017 restent protégés",
+      "summary": "L’Inde vient d’apporter une clarification majeure pour les investisseurs opérant sur le corridor indo-mauricien. Par le biais d’une notification publiée le 31 mars 2026, le *Central Board of Direct Taxes* (CBDT) a amendé la règle 128 des *Income-tax (Amendment) Rules 2026*, précisant explicitement que les *General Anti-Avoidance Rules* (GAAR) ne s’appliquent pas aux revenus issus du transfert d’investissements réalisés avant le 1ᵉʳ avril 2017. Cette mesure confirme ainsi ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/254501/"
+      ]
+    },
+    {
+      "id": "singleton_0aad57da0709",
+      "cluster_time": "2026-04-05T08:00:00+00:00",
+      "category": "local",
+      "headline": "Sous les sabots : Boundless Energy : Un nom à retenir",
+      "summary": "L’écurie Paul Foo Kune ne cache pas ses ambitions en vue de la saison 2026. Pour les réaliser, elle a procédé à une pléiade d’acquisitions, dont un certain *Boundless Energy*. Âgé de quatre ans, ce coursier bien né, par *Vercingetorix* et *Bella Spumante* – une jument issue de Dynasty – compte seulement deux victoires en sept sorties dans son pays natal, mais il vaut bien plus que cela. Déjà, lorsqu’il avait été présenté aux ventes de yearlings, fort d’un solid ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/254504/"
       ]
     },
     {
@@ -981,6 +1028,21 @@
       ],
       "urls": [
         "https://live.mega.mu/redirect/254477/"
+      ]
+    },
+    {
+      "id": "singleton_1cd50bd7f60c",
+      "cluster_time": "2026-04-05T08:00:00+00:00",
+      "category": "local",
+      "headline": "PMQT, Conduite en état d’ivresse : 650 cas recensés depuis janvier",
+      "summary": "Interpellé par le député Arvin Babajee, le Premier ministre (PM) a présenté un état des lieux préoccupant de la conduite sous l’influence de l’alcool.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/254507/"
       ]
     },
     {
@@ -1739,96 +1801,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cx2e95xqn10o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_a5c885823e9f",
-      "cluster_time": "2026-04-04T17:30:00+00:00",
-      "category": "local",
-      "headline": "Arnaque WhatsApp : le piège du «service urgent»",
-      "summary": "Un simple message. Quelques mots empreints de respect. Une demande qui semble anodine… et pourtant, en quelques minutes,",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/arnaque-whatsapp-le-piege-du-service-urgent"
-      ]
-    },
-    {
-      "id": "singleton_9c39f6e87a67",
-      "cluster_time": "2026-04-04T17:00:00+00:00",
-      "category": "local",
-      "headline": "Agressé à l’hôpital de Flacq - Dr Tarachand Seenauth : «Zot inn antour mwa ek tapp mwa kout bar feray»",
-      "summary": "Les assaillants lui reprochaient de les avoir filmés.La victime : « A okenn moman mo pa’nn record naryen »Le traumatisme",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/agresse-lhopital-de-flacq-dr-tarachand-seenauth-zot-inn-antour-mwa-ek-tapp-mwa-kout-bar-feray"
-      ]
-    },
-    {
-      "id": "singleton_25571297317e",
-      "cluster_time": "2026-04-04T16:46:59+00:00",
-      "category": "local",
-      "headline": "Paul Bérenger : “Électricité …bizin fer maximum pou le renouvelable… bizin augment le base load”",
-      "summary": "The post Paul Bérenger : “Électricité …bizin fer maximum pou le renouvelable… bizin augment le base load” appeared first on IONNEWS.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "ION News"
-      ],
-      "urls": [
-        "https://ionnews.mu/paul-berenger-electricite-bizin-fer-maximum-pou-le-renouvelable-bizin-augment-le-base-load/"
-      ]
-    },
-    {
-      "id": "singleton_e981ba15fae3",
-      "cluster_time": "2026-04-04T16:30:00+00:00",
-      "category": "local",
-      "headline": "Affaire Avinash Luchoo : enquête sur une «virée» à 10 000 euros en Thaïlande",
-      "summary": "La Financial Crimes Commission (FCC) passe au crible un voyage effectué par l'homme d'affaires en janvier 2026. Entre hô",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/affaire-avinash-luchoo-enquete-sur-une-viree-10-000-euros-en-thailande"
-      ]
-    },
-    {
-      "id": "singleton_c78c34ad3da6",
-      "cluster_time": "2026-04-04T16:30:00+00:00",
-      "category": "local",
-      "headline": "Agressés par un proche toxicomane : le calvaire d’une veuve et son fils de 14 ans",
-      "summary": "L’ado : «Mo pann kapav get li bat mo mama» Sa vie est devenue un enfer. Nooreza, habitante de Vacoas âgée de 54 ans, se",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/agresses-par-un-proche-toxicomane-le-calvaire-dune-veuve-et-son-fils-de-14-ans"
-      ]
-    },
-    {
-      "id": "singleton_52b60859651a",
-      "cluster_time": "2026-04-04T16:19:00+00:00",
-      "category": "local",
-      "headline": "Loto : un joueur remporte Rs 36 millions",
-      "summary": "Le Loto a fait ce samedi soir un grand gagnant, qui empoche la somme de Rs 36 millions. Le ticket gagnant a été vendu pa",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/loto-un-joueur-remporte-rs-36-millions-0"
       ]
     }
   ]
