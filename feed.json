@@ -4,10 +4,10 @@
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-06T17:04:07.215809+00:00",
+      "cluster_time": "2026-04-06T17:12:26.136886+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 06 April 2026",
-      "summary": "Brent Crude Oil: USD 108.88 per barrel",
+      "summary": "Brent Crude Oil: USD 109.47 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-06T17:04:07.101141+00:00",
+      "cluster_time": "2026-04-06T17:12:25.976082+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 06 April 2026",
-      "summary": "Bitcoin (BTC): USD 69,834.83 (▼ -0.81% from last)",
+      "summary": "Bitcoin (BTC): USD 69,620.74 (▼ -1.12% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-06T17:04:06.531752+00:00",
+      "cluster_time": "2026-04-06T17:12:25.532236+00:00",
       "category": "finance",
       "headline": "Gold price – 06 April 2026",
-      "summary": "Gold (XAU): USD 4,658.00 (▲ +6.12% from last)",
+      "summary": "Gold (XAU): USD 4,659.00 (▲ +6.15% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,7 +49,7 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-06T17:04:05.985693+00:00",
+      "cluster_time": "2026-04-06T17:12:25.084632+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 06 April 2026",
       "summary": "MUR/USD 46.85 | MUR/EUR 54.07 (▲ 0.36 from last) (▲ 0.38 from last)",
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-06T17:04:03.402679+00:00",
+      "cluster_time": "2026-04-06T17:12:22.751334+00:00",
       "category": "finance",
       "headline": "SEMDEX – 06 April 2026",
       "summary": "SEMDEX closed at 2235.91 (▲ 12.71 pts, +0.57% from last close 2,223.20)",
@@ -79,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-04-06T17:03:58.957918+00:00",
+      "cluster_time": "2026-04-06T17:12:18.251351+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 06 April 2026",
       "summary": "Weather news for Mauritius issued at 16h30 on Monday 06 April 2026.General situation:Clouds coming from the Eastern sector will influence the local weather at times.Forecast for the next 24 hours:Localised showers are still expected in the early evening to the north west aand over the central plateau.Partly cloudy to cloudy tonight and tomorrow with few showers mainly to the east, south and over the central plateau.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts tonight.The maximum temperature will vary between 25 and 27 degrees Celsius over the highgrounds and between 29 and 32 degrees Celsius along the coasts tomorrow.THe wind will be light and variable tonight and will blow from the Southeast at about 15km/h tomorrow.Sea moderate beyond the reefs with swells from Southwest of the order of 2 metres.High tides :Tomorrow 02h27 and 15h57.Low tides :20h35 and tomorrow 09h25.Sunset :18h06.Sunrise (tomorrow) :06h18.Atmospheric pressure at 16h00:1015 hectopascals.",
@@ -107,21 +107,6 @@
       "urls": [
         "https://defimedia.info/parlement-adrien-duval-conteste-le-seating-arrangement-de-trois-deputes-du-mmm",
         "https://ionnews.mu/assemblee-nationale-adrien-duval-soppose-au-seating-plan-des-trois-deputes-du-mmm/"
-      ]
-    },
-    {
-      "id": "singleton_eea6496f4dd3",
-      "cluster_time": "2026-04-06T16:50:44+00:00",
-      "category": "global",
-      "headline": "Libya’s oil disputes mirror Hormuz crisis, fuel European energy fears",
-      "summary": "Libyan oil sector proxy wars occur during Hormuz tensions, creating dangerous supply vulnerabilities for global markets.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/6/libyas-oil-disputes-mirror-hormuz-crisis-fuel-european-energy-fears?traffic_source=rss"
       ]
     },
     {
@@ -1448,6 +1433,21 @@
       "urls": [
         "http://www.africanews.com/2026/04/04/cameroon-opposition-slams-plan-to-create-vice-president-post-as-coup/",
         "http://www.africanews.com/2026/04/05/cameroon-parliament-votes-to-create-vice-president-post/"
+      ]
+    },
+    {
+      "id": "singleton_73f9d0170d69",
+      "cluster_time": "2026-04-06T08:31:35+00:00",
+      "category": "global",
+      "headline": "Iran’s top university bombed as US, Israel intensify attacks; 34 killed",
+      "summary": "Tehran says it will respond 'in kind' to attacks on its infrastructure, accuses Trump of inciting 'war crimes'.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/6/irans-top-university-bombed-as-us-israel-intensify-attacks-34-killed?traffic_source=rss"
       ]
     },
     {

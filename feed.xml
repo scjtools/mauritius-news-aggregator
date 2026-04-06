@@ -4,34 +4,34 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Mon, 06 Apr 2026 17:07:04 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 06 Apr 2026 17:15:35 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 06 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 108.88 per barrel</description>
+      <description>Brent Crude Oil: USD 109.47 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-06T17:04:07.215809+00:00</cluster_time>
+      <cluster_time>2026-04-06T17:12:26.136886+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 06 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 69,834.83 (▼ -0.81% from last)</description>
+      <description>Bitcoin (BTC): USD 69,620.74 (▼ -1.12% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-06T17:04:07.101141+00:00</cluster_time>
+      <cluster_time>2026-04-06T17:12:25.976082+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Gold price – 06 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,658.00 (▲ +6.12% from last)</description>
+      <description>Gold (XAU): USD 4,659.00 (▲ +6.15% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-06T17:04:06.531752+00:00</cluster_time>
+      <cluster_time>2026-04-06T17:12:25.532236+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -41,7 +41,7 @@
       <description>MUR/USD 46.85 | MUR/EUR 54.07 (▲ 0.36 from last) (▲ 0.38 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-06T17:04:05.985693+00:00</cluster_time>
+      <cluster_time>2026-04-06T17:12:25.084632+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +51,7 @@
       <description>SEMDEX closed at 2235.91 (▲ 12.71 pts, +0.57% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-06T17:04:03.402679+00:00</cluster_time>
+      <cluster_time>2026-04-06T17:12:22.751334+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -61,7 +61,7 @@
       <description>Weather news for Mauritius issued at 16h30 on Monday 06 April 2026.General situation:Clouds coming from the Eastern sector will influence the local weather at times.Forecast for the next 24 hours:Localised showers are still expected in the early evening to the north west aand over the central plateau.Partly cloudy to cloudy tonight and tomorrow with few showers mainly to the east, south and over the central plateau.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts tonight.The maximum temperature will vary between 25 and 27 degrees Celsius over the highgrounds and between 29 and 32 degrees Celsius along the coasts tomorrow.THe wind will be light and variable tonight and will blow from the Southeast at about 15km/h tomorrow.Sea moderate beyond the reefs with swells from Southwest of the order of 2 metres.High tides :Tomorrow 02h27 and 15h57.Low tides :20h35 and tomorrow 09h25.Sunset :18h06.Sunrise (tomorrow) :06h18.Atmospheric pressure at 16h00:1015 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-04-06T17:03:58.957918+00:00</cluster_time>
+      <cluster_time>2026-04-06T17:12:18.251351+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -84,16 +84,6 @@ https://ionnews.mu/assemblee-nationale-adrien-duval-soppose-au-seating-plan-des-
       <titles>Parlement : Adrien Duval conteste le « seating arrangement » de trois députés du MMM
 Assemblée nationale : Adrien Duval s’oppose au Seating Plan des trois députés du MMM</titles>
       <languages>fr</languages>
-    </item>
-    <item>
-      <title>Libya’s oil disputes mirror Hormuz crisis, fuel European energy fears</title>
-      <link>https://www.aljazeera.com/news/2026/4/6/libyas-oil-disputes-mirror-hormuz-crisis-fuel-european-energy-fears?traffic_source=rss</link>
-      <description>Libyan oil sector proxy wars occur during Hormuz tensions, creating dangerous supply vulnerabilities for global markets.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-06T16:50:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
     </item>
     <item>
       <title>L’Iran affirme ne pas pouvoir accepter un cessez-le-feu « sur la base des expériences passées » avec les États-Unis</title>
@@ -1085,6 +1075,16 @@ http://www.africanews.com/2026/04/05/cameroon-parliament-votes-to-create-vice-pr
       <titles>Cameroon opposition slams plan to create vice president post as 'coup'
 Cameroon parliament votes to create vice president post</titles>
       <languages>en</languages>
+    </item>
+    <item>
+      <title>Iran’s top university bombed as US, Israel intensify attacks; 34 killed</title>
+      <link>https://www.aljazeera.com/news/2026/4/6/irans-top-university-bombed-as-us-israel-intensify-attacks-34-killed?traffic_source=rss</link>
+      <description>Tehran says it will respond 'in kind' to attacks on its infrastructure, accuses Trump of inciting 'war crimes'.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-06T08:31:35+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Rare mountain bongos return to Kenya</title>
