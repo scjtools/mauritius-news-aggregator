@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 180,
+  "item_count": 182,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-06T17:12:26.136886+00:00",
+      "cluster_time": "2026-04-06T19:57:47.360999+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 06 April 2026",
-      "summary": "Brent Crude Oil: USD 109.47 per barrel",
+      "summary": "Brent Crude Oil: USD 109.81 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-06T17:12:25.976082+00:00",
+      "cluster_time": "2026-04-06T19:57:47.150106+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 06 April 2026",
-      "summary": "Bitcoin (BTC): USD 69,620.74 (▼ -1.12% from last)",
+      "summary": "Bitcoin (BTC): USD 69,678.49 (▼ -1.03% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-06T17:12:25.532236+00:00",
+      "cluster_time": "2026-04-06T19:57:46.825682+00:00",
       "category": "finance",
       "headline": "Gold price – 06 April 2026",
-      "summary": "Gold (XAU): USD 4,659.00 (▲ +6.15% from last)",
+      "summary": "Gold (XAU): USD 4,656.60 (▲ +6.09% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,7 +49,7 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-06T17:12:25.084632+00:00",
+      "cluster_time": "2026-04-06T19:57:46.301608+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 06 April 2026",
       "summary": "MUR/USD 46.85 | MUR/EUR 54.07 (▲ 0.36 from last) (▲ 0.38 from last)",
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-06T17:12:22.751334+00:00",
+      "cluster_time": "2026-04-06T19:57:43.905464+00:00",
       "category": "finance",
       "headline": "SEMDEX – 06 April 2026",
       "summary": "SEMDEX closed at 2235.91 (▲ 12.71 pts, +0.57% from last close 2,223.20)",
@@ -79,7 +79,7 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-04-06T17:12:18.251351+00:00",
+      "cluster_time": "2026-04-06T19:57:39.601174+00:00",
       "category": "weather",
       "headline": "Mauritius weather bulletin – 06 April 2026",
       "summary": "Weather news for Mauritius issued at 16h30 on Monday 06 April 2026.General situation:Clouds coming from the Eastern sector will influence the local weather at times.Forecast for the next 24 hours:Localised showers are still expected in the early evening to the north west aand over the central plateau.Partly cloudy to cloudy tonight and tomorrow with few showers mainly to the east, south and over the central plateau.The minimum temperature will vary between 19 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts tonight.The maximum temperature will vary between 25 and 27 degrees Celsius over the highgrounds and between 29 and 32 degrees Celsius along the coasts tomorrow.THe wind will be light and variable tonight and will blow from the Southeast at about 15km/h tomorrow.Sea moderate beyond the reefs with swells from Southwest of the order of 2 metres.High tides :Tomorrow 02h27 and 15h57.Low tides :20h35 and tomorrow 09h25.Sunset :18h06.Sunrise (tomorrow) :06h18.Atmospheric pressure at 16h00:1015 hectopascals.",
@@ -90,6 +90,283 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "singleton_ea508f2b0346",
+      "cluster_time": "2026-04-06T19:36:43+00:00",
+      "category": "global",
+      "headline": "'Vladimir Putin absolutely nervous' about Hungary's election, expert says",
+      "summary": "Speaking with FRANCE 24's Mark Owen, Dr Marc Roscoe Loustau, Affiliated Fellow at the Central European University, says that \"next to Viktor Orban, the person who stands to lose the most in case of a Fidesz party loss is Vladimir Putin\". According to press reports quoting intelligence officials, the powerful explosives found near a Serbian gas pipeline to Hungary may be part of a \"false flag\" operation to influence the upcoming election.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/vladimir-putin-absolutely-nervous-about-hungary-s-election-expert-says"
+      ]
+    },
+    {
+      "id": "singleton_0b7ff70c6919",
+      "cluster_time": "2026-04-06T19:29:02+00:00",
+      "category": "global",
+      "headline": "Kanye West's right to enter UK under review after festival outcry",
+      "summary": "The rapper's appearance in London in July has caused controversy because of his past antisemitic comments.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cwywnkdn3zno?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_0c986bbd0123",
+      "cluster_time": "2026-04-06T19:20:40+00:00",
+      "category": "global",
+      "headline": "Trump says Iran could be 'taken out' on Tuesday",
+      "summary": "U.S. President ​Donald Trump on Monday told reporters that Iran could be taken out in one night, \"and that night might be tomorrow night,\" warning Tehran it had to make a deal by Tuesday night or face wider bombing raids. FRANCE 24's Reza Sayah reports from Tehran.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/trump-says-iran-could-be-taken-out-on-tuesday"
+      ]
+    },
+    {
+      "id": "singleton_0f220851e2d8",
+      "cluster_time": "2026-04-06T19:11:20+00:00",
+      "category": "global",
+      "headline": "Ten killed in Israeli strikes and clashes between Hamas and militia in Gaza, local sources say",
+      "summary": "The Israeli strikes reportedly targeted Hamas security personnel after they clashed with an Israeli-backed militia near Maghazi camp.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c77md512n71o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_9150c8df1266",
+      "cluster_time": "2026-04-06T18:55:45+00:00",
+      "category": "global",
+      "headline": "Trump endorses ex-UK political aide Steve Hilton for California governor",
+      "summary": "Steve Hilton, who advised the former prime minster and hosted a Fox News show, is running as a Republican.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c0mj4jeyvmzo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_7c9e3b376901",
+      "cluster_time": "2026-04-06T18:32:16+00:00",
+      "category": "global",
+      "headline": "North Korea keeping Iran at arm’s length, reports Seoul",
+      "summary": "South Korea says Pyongyang is wary as it seeks to renew diplomatic dialogue with the US.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/6/north-korea-keeping-iran-at-arms-length-reports-seoul?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "d834c89c180e",
+      "cluster_time": "2026-04-06T18:29:54+00:00",
+      "category": "global",
+      "headline": "How rescue of US airman in remote part of Iran unfolded",
+      "summary": "[BBC News] The operation to extract him from the ground in hostile territory was hugely complex and involved multiple US government agencies.\n\n[Al Jazeera] President Trump says US service member whose fighter jet was shot down over Iran is rescued during two raids.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cx2vpz1kwreo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/6/how-us-operation-to-rescue-air-officer-from-iran-unfolded?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "e3384bb40922",
+      "cluster_time": "2026-04-06T18:11:02+00:00",
+      "category": "global",
+      "headline": "Artemis II astronauts race to set a new distance record from Earth",
+      "summary": "[France 24] With the moon looming ever larger, the Artemis II astronauts raced to set a new distance record Monday from Earth on a lunar fly-around promising magnificent views of the far side never seen before by eye.\n\n[Al Jazeera] Mission's four astronauts break record set in 1970 by Apollo 13, which flew 400,171km from the planet.\n\n[France 24] Artemis II breaks Apollo 13’s distance record as humans travel farther from Earth than ever before",
+      "cluster_size": 3,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.france24.com/en/artemis-ii-astronauts-race-to-set-a-new-distance-record-from-earth",
+        "https://www.aljazeera.com/news/2026/4/6/artemis-ii-breaks-record-for-the-furthest-human-travel-from-earth?traffic_source=rss",
+        "https://www.france24.com/en/europe/20260406-follow-live-artemis-ii-begins-its-final-lunar-flyby"
+      ]
+    },
+    {
+      "id": "singleton_a553560eead6",
+      "cluster_time": "2026-04-06T18:07:46+00:00",
+      "category": "global",
+      "headline": "'Really feeling the love' - Savannah Guthrie returns to NBC as search for mother goes on",
+      "summary": "Nancy Guthrie disappeared from her home in Tucson, Arizona, in what authorities believe was an abduction.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c04xqglg7xgo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_24ee7fef0334",
+      "cluster_time": "2026-04-06T18:00:00+00:00",
+      "category": "local",
+      "headline": "[Info Soirée] : « Nu lavi en danze »",
+      "summary": "Au Sommaire de ce Lundi 06 Avril 2026 :• Énième cas de violence envers une femme. La vidéo interpelle. À Vacoas, une",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/info-soiree-nu-lavi-en-danze"
+      ]
+    },
+    {
+      "id": "singleton_4328d1230561",
+      "cluster_time": "2026-04-06T17:59:29+00:00",
+      "category": "regional",
+      "headline": "Burkina Faso: Govt. denies report alleging more than 1,800 killed since junta took power",
+      "summary": "Burkina Faso's government has denounced a report alleging that more than 1,800 civilians have been killed since the junta seized power three years ago as 'false'. The report was published by Human Rights Watch and based on open source information.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/06/burkina-faso-govt-denies-report-alleging-more-than-1800-killed-since-junta-took-power/"
+      ]
+    },
+    {
+      "id": "singleton_d765afabcd1c",
+      "cluster_time": "2026-04-06T17:53:40+00:00",
+      "category": "regional",
+      "headline": "Iran war continues to disrupt fuel supplies as US issues ultimatum [Africanews Today]",
+      "summary": "Donald Trump has once again postponed his ultimatum to Iran. The US president is threatening to destroy critical Iranian infrastructure if Tehran does not meet the Tuesday deadline.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/06/iran-war-continues-to-disrupt-fuel-supplies-as-us-issues-ultimatum-africanews-today/"
+      ]
+    },
+    {
+      "id": "singleton_5eecf11c26c2",
+      "cluster_time": "2026-04-06T17:51:26+00:00",
+      "category": "global",
+      "headline": "Democrats blast Trump for Iran ‘war crimes’ threat; Republicans supportive",
+      "summary": "Several members of US Congress question president's fitness for office after his expletive-laden Easter Sunday message.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/6/democrats-blast-trump-for-iran-war-crimes-threat-republicans-supportive?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_e22f50afcfd7",
+      "cluster_time": "2026-04-06T17:38:01+00:00",
+      "category": "global",
+      "headline": "Trump warns deadline ‘final’ as Iran pushes proposal to end war",
+      "summary": "US president says proposal not enough to avert threat to infrastructure should Iran fail to open Strait of Hormuz.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/6/trump-warns-deadline-final-as-iran-pushes-proposal-to-end-war?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_4820b45bf953",
+      "cluster_time": "2026-04-06T17:31:33+00:00",
+      "category": "regional",
+      "headline": "Seven Eritrean players fail to return home after international match",
+      "summary": "Several footballers have absconded in the past leaving behind what rights groups call a repressive government.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC Africa"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c747037e2kgo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_8aa05373e19f",
+      "cluster_time": "2026-04-06T17:31:00+00:00",
+      "category": "local",
+      "headline": "Deux souris dans une chambre d’hôtel : son cadeau d’anniversaire pour ses 60 ans vire au cauchemar",
+      "summary": "Ce qui devait être un moment de joie s’est transformé en véritable mésaventure. Une habitante de Curepipe, Rajesparee Ve",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/deux-souris-dans-une-chambre-dhotel-son-cadeau-danniversaire-pour-ses-60-ans-vire-au-cauchemar"
+      ]
+    },
+    {
+      "id": "singleton_30d52de5f91d",
+      "cluster_time": "2026-04-06T17:20:16+00:00",
+      "category": "regional",
+      "headline": "Ladysmith Black Mambazo's 'wise elder' dies aged 77",
+      "summary": "Albert Mazibuko sang in the iconic South African choral group for more than 55 years.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC Africa"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cx2r5g7x25yo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "19a09cd2a1bb",
+      "cluster_time": "2026-04-06T17:09:18+00:00",
+      "category": "regional",
+      "headline": "Nigerian army rescues 31 held after Easter church attack",
+      "summary": "[BBC Africa] Five civilians were killed by the gunmen and their bodies were recovered at the scene, the army said.\n\n[Africanews] Nigerian troops have rescued 31 worshippers abducted during Easter services in Kaduna state, the military said, following an attack that left several people dead.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC Africa",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgld111d9jpo?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/04/06/nigeria-troops-rescue-31-abducted-easter-worshippers-in-kaduna-attack/"
       ]
     },
     {
@@ -110,6 +387,21 @@
       ]
     },
     {
+      "id": "singleton_eea6496f4dd3",
+      "cluster_time": "2026-04-06T16:50:44+00:00",
+      "category": "global",
+      "headline": "Libya’s oil disputes mirror Hormuz crisis, fuel European energy fears",
+      "summary": "Libyan oil sector proxy wars occur during Hormuz tensions, creating dangerous supply vulnerabilities for global markets.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/6/libyas-oil-disputes-mirror-hormuz-crisis-fuel-european-energy-fears?traffic_source=rss"
+      ]
+    },
+    {
       "id": "singleton_244be3e58531",
       "cluster_time": "2026-04-06T16:46:00+00:00",
       "category": "local",
@@ -122,6 +414,23 @@
       ],
       "urls": [
         "https://defimedia.info/liran-affirme-ne-pas-pouvoir-accepter-un-cessez-le-feu-sur-la-base-des-experiences-passees-avec-les"
+      ]
+    },
+    {
+      "id": "13f046347372",
+      "cluster_time": "2026-04-06T16:43:14+00:00",
+      "category": "global",
+      "headline": "US Supreme Court paves way for dismissal of Steve Bannon conviction",
+      "summary": "[BBC News] The order allows a lower court to consider dismissing the former Trump strategist's indictment.\n\n[France 24] The US Supreme Court on Monday paved the way for the Justice Department to drop a criminal case against Steve Bannon, a one-time chief ally of President Donald Trump, who had been convicted of defying a congressional subpoena issued during the investigation into the January 6 Capitol attack.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgqk4kyj4yvo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/americas/20260406-us-supreme-court-paves-way-to-drop-capitol-riot-charges-against-ex-trump-ally-steve-bannon"
       ]
     },
     {
@@ -140,21 +449,6 @@
       ]
     },
     {
-      "id": "singleton_30d52de5f91d",
-      "cluster_time": "2026-04-06T16:24:59+00:00",
-      "category": "regional",
-      "headline": "Ladysmith Black Mambazo's 'wise elder' dies aged 77",
-      "summary": "Albert Mazibuko sang in the iconic South African choral group for more than 55 years.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC Africa"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cx2r5g7x25yo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "id": "singleton_dbc3b6291c83",
       "cluster_time": "2026-04-06T16:20:00+00:00",
       "category": "local",
@@ -170,18 +464,18 @@
       ]
     },
     {
-      "id": "singleton_eb8bf3d0921b",
-      "cluster_time": "2026-04-06T16:13:59+00:00",
+      "id": "singleton_128fe6eb5b7b",
+      "cluster_time": "2026-04-06T16:09:11+00:00",
       "category": "global",
-      "headline": "Follow live: Artemis II begins its final lunar flyby",
-      "summary": "Artemis II begins its final lunar flyby Monday to set a new distance record from Earth promising magnificent views of the far side of the moon. During the lunar flyby, which will last for several hours, the crew will study specific lunar sites and phenomena as part of a 10-goal plan by NASA.",
+      "headline": "Trump steps up Iran threats, highlights successful rescue mission",
+      "summary": "US President Donald Trump said Monday he would lay waste to every bridge and power plant in Iran if it fails to bend to his demands, as he touted the high-risk operation that rescued two downed airmen.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "France 24"
       ],
       "urls": [
-        "https://www.france24.com/en/europe/20260406-follow-live-artemis-ii-begins-its-final-lunar-flyby"
+        "https://www.france24.com/en/americas/20260406-trump-steps-up-iran-threats-highlights-successful-rescue-mission"
       ]
     },
     {
@@ -247,52 +541,35 @@
       ]
     },
     {
-      "id": "singleton_34360692444f",
-      "cluster_time": "2026-04-06T15:41:33+00:00",
+      "id": "f65fb0ddeb19",
+      "cluster_time": "2026-04-06T15:40:35+00:00",
       "category": "global",
-      "headline": "US Supreme Court paves way to drop Capitol riot charges against ex-Trump ally Steve Bannon",
-      "summary": "The US Supreme Court on Monday paved the way for the Justice Department to drop a criminal case against Steve Bannon, a one-time chief ally of President Donald Trump, who had been convicted of defying a congressional subpoena issued during the investigation into the January 6 Capitol attack.",
+      "headline": "'We're sinking deeper': Iranians brace for infrastructure strikes as Trump deadline nears",
+      "summary": "[BBC News] Ordinary Iranians respond to the US president's threat to destroy Iran's power plants and bridges unless it opens the Strait of Hormuz.\n\n[Al Jazeera] US President Trump threatens to destroy power plants, bridges by 8pm Tuesday if Iran doesn't open the Strait of Hormuz.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cvgl0ng8z0do?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/6/where-are-irans-power-plants-that-trump-has-threatened-to-destroy?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_5d93768bdc74",
+      "cluster_time": "2026-04-06T15:25:33+00:00",
+      "category": "global",
+      "headline": "Lebanon says Israeli strikes hit south Beirut, country's south",
+      "summary": "An Israeli strike hit Beirut's southern suburbs on Monday as Israel's army said it was targeting Iran-backed militant group Hezbollah, while Lebanon reported broad strikes in the country's south.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "France 24"
       ],
       "urls": [
-        "https://www.france24.com/en/americas/20260406-us-supreme-court-paves-way-to-drop-capitol-riot-charges-against-ex-trump-ally-steve-bannon"
-      ]
-    },
-    {
-      "id": "83b0938d69d7",
-      "cluster_time": "2026-04-06T15:28:12+00:00",
-      "category": "global",
-      "headline": "Artemis II astronauts race to set a new distance record from Earth",
-      "summary": "[France 24] With the moon looming ever larger, the Artemis II astronauts raced to set a new distance record Monday from Earth on a lunar fly-around promising magnificent views of the far side never seen before by eye.\n\n[Al Jazeera] Artemis II is expected to break the record for the farthest distance humans have travelled from Earth.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "France 24",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.france24.com/en/artemis-ii-astronauts-race-to-set-a-new-distance-record-from-earth",
-        "https://www.aljazeera.com/news/2026/4/6/a-visual-guide-to-artemis-ii-and-previous-missions-to-the-moon?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "04a7fea426e4",
-      "cluster_time": "2026-04-06T15:25:33+00:00",
-      "category": "global",
-      "headline": "Lebanon says Israeli strikes hit south Beirut, country's south",
-      "summary": "[France 24] An Israeli strike hit Beirut's southern suburbs on Monday as Israel's army said it was targeting Iran-backed militant group Hezbollah, while Lebanon reported broad strikes in the country's south.\n\n[Al Jazeera] The Israeli military launches new attacks on Beirut, southern Lebanon as humanitarian crisis deepens.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "France 24",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.france24.com/en/lebanon-says-israeli-strikes-hit-south-beirut-country-s-south",
-        "https://www.aljazeera.com/news/2026/4/6/israel-destroys-southern-lebanon-towns-hits-safe-areas-around-beirut?traffic_source=rss"
+        "https://www.france24.com/en/lebanon-says-israeli-strikes-hit-south-beirut-country-s-south"
       ]
     },
     {
@@ -353,21 +630,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/06/sierra-leones-unity-boat-race-showcases-coastal-culture-identity-and-community-spirit/"
-      ]
-    },
-    {
-      "id": "singleton_e0a03963d0c8",
-      "cluster_time": "2026-04-06T14:50:22+00:00",
-      "category": "global",
-      "headline": "Where are Iran’s power plants that Trump has threatened to destroy?",
-      "summary": "US President Trump threatens to destroy power plants, bridges by 8pm Tuesday if Iran doesn't open the Strait of Hormuz.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/6/where-are-irans-power-plants-that-trump-has-threatened-to-destroy?traffic_source=rss"
       ]
     },
     {
@@ -536,36 +798,33 @@
       ]
     },
     {
-      "id": "791abb191cf0",
+      "id": "c3cac1e6d2a3",
       "cluster_time": "2026-04-06T14:11:55+00:00",
       "category": "global",
       "headline": "US president Donald Trump warns Tehran to reopen Hormuz or face \"hell\"",
-      "summary": "[France 24] Iran and the United States received a draft proposal late Sunday calling for a 45-day ceasefire and the reopening of the Strait of Hormuz.\n\n[Al Jazeera] Iran, while still reviewing the proposal, says it won't reopen Hormuz as part of a temporary ceasefire.\n\n[France 24] Resa Sayah, our correspondent in Tehran, has more.",
-      "cluster_size": 3,
-      "source_count": 2,
-      "sources": [
-        "France 24",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.france24.com/en/us-president-donald-trump-warns-tehran-to-reopen-hormuz-or-face-hell",
-        "https://www.aljazeera.com/news/2026/4/6/pakistan-offers-two-tier-truce-iran-wont-open-hormuz-under-temporary-one?traffic_source=rss",
-        "https://www.france24.com/en/donald-trump-threatens-hell-unless-tehran-reopens-hormuz-strait"
-      ]
-    },
-    {
-      "id": "4736ea3c73d9",
-      "cluster_time": "2026-04-06T14:08:55+00:00",
-      "category": "global",
-      "headline": "War in the Middle East: Donald Trump threatens to hit Iran power plants",
-      "summary": "[France 24] Israeli strikes killed the intelligence chief of Iran's Revolutionary Guards, as the Islamic republic on Monday defied threats from US President Donald Trump to devastate civilian infrastructure if it does not reopen the Strait of Hormuz.",
+      "summary": "[France 24] Iran and the United States received a draft proposal late Sunday calling for a 45-day ceasefire and the reopening of the Strait of Hormuz.\n\n[France 24] Resa Sayah, our correspondent in Tehran, has more.",
       "cluster_size": 2,
       "source_count": 1,
       "sources": [
         "France 24"
       ],
       "urls": [
-        "https://www.france24.com/en/war-in-the-middle-east-donald-trump-threatens-to-hit-iran-power-plants",
+        "https://www.france24.com/en/us-president-donald-trump-warns-tehran-to-reopen-hormuz-or-face-hell",
+        "https://www.france24.com/en/donald-trump-threatens-hell-unless-tehran-reopens-hormuz-strait"
+      ]
+    },
+    {
+      "id": "singleton_34cec0f9641b",
+      "cluster_time": "2026-04-06T14:08:55+00:00",
+      "category": "global",
+      "headline": "Israeli strikes kill Iran Guards intel chief as Trump deadline looms",
+      "summary": "Israeli strikes killed the intelligence chief of Iran's Revolutionary Guards, as the Islamic republic on Monday defied threats from US President Donald Trump to devastate civilian infrastructure if it does not reopen the Strait of Hormuz.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
         "https://www.france24.com/en/israeli-strikes-kill-iran-guards-intel-chief-as-trump-deadline-looms"
       ]
     },
@@ -738,23 +997,6 @@
       ]
     },
     {
-      "id": "d834c89c180e",
-      "cluster_time": "2026-04-06T12:42:47+00:00",
-      "category": "global",
-      "headline": "How rescue of US airman in remote part of Iran unfolded",
-      "summary": "[BBC News] The operation to extract him from the ground in hostile territory was hugely complex and involved multiple US government agencies.\n\n[Al Jazeera] President Trump says US service member whose fighter jet was shot down over Iran is rescued during two raids.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cx2vpz1kwreo?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/6/how-us-operation-to-rescue-air-officer-from-iran-unfolded?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_8974496c4e06",
       "cluster_time": "2026-04-06T12:42:00+00:00",
       "category": "local",
@@ -845,18 +1087,17 @@
       ]
     },
     {
-      "id": "3467d66ad5cd",
+      "id": "singleton_adf2b3940387",
       "cluster_time": "2026-04-06T11:52:36+00:00",
       "category": "global",
-      "headline": "Trump says US armed Iranian dissidents via Kurds, Kurdish groups deny claim",
-      "summary": "[Al Jazeera] Trump's admission gives credence to Iranian assertion that the January protests were backed by the West to create chaos.\n\n[Al Jazeera] US president says Washington armed Kurdish Iranian opposition groups during the January demonstrations.",
-      "cluster_size": 2,
+      "headline": "Has Trump confirmed Iran’s claim that protesters were US-armed?",
+      "summary": "US president says Washington armed Kurdish Iranian opposition groups during the January demonstrations.",
+      "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/6/trump-says-us-armed-iranian-dissidents-via-kurds-kurdish-groups-deny-claim?traffic_source=rss",
         "https://www.aljazeera.com/news/2026/4/6/has-trump-confirmed-irans-claim-that-protesters-were-us-armed?traffic_source=rss"
       ]
     },
@@ -873,21 +1114,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/news/2026/4/6/iran-threatens-bab-al-mandeb-closure-how-would-that-affect-world-trade?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_a553560eead6",
-      "cluster_time": "2026-04-06T11:48:29+00:00",
-      "category": "global",
-      "headline": "'Really feeling the love' - Savannah Guthrie returns to NBC as search for mother goes on",
-      "summary": "Nancy Guthrie disappeared from her home in Tucson, Arizona, in what authorities believe was an abduction.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c04xqglg7xgo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -936,36 +1162,6 @@
       ]
     },
     {
-      "id": "singleton_de72da3733b3",
-      "cluster_time": "2026-04-06T11:12:53+00:00",
-      "category": "global",
-      "headline": "Trump’s ‘Bridge Day’ threat: Can a last-ditch ceasefire plan work?",
-      "summary": "Mediators Pakistan, Turkiye and Egypt are proposing a 45-day ceasefire plan. But Iran is reluctant.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/6/trumps-bridge-day-threat-can-a-last-ditch-ceasefire-plan-work?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_e4ceaaf9e348",
-      "cluster_time": "2026-04-06T11:11:24+00:00",
-      "category": "global",
-      "headline": "Real Madrid vs Bayern Munich: Champions League – team news, start, lineups",
-      "summary": "Madrid host Bundesliga champions Bayern Munich for the first leg of their blockbuster Champions League quarterfinal tie.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/6/real-madrid-vs-bayern-munich-champions-league-team-news-start?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_8c04df3f7995",
       "cluster_time": "2026-04-06T11:00:00+00:00",
       "category": "local",
@@ -1008,23 +1204,6 @@
       ],
       "urls": [
         "https://defimedia.info/garde-denfants-quand-le-cout-des-creches-limite-les-projets-de-famille"
-      ]
-    },
-    {
-      "id": "19a09cd2a1bb",
-      "cluster_time": "2026-04-06T10:26:55+00:00",
-      "category": "regional",
-      "headline": "Nigerian army rescues 31 held after Easter church attack",
-      "summary": "[BBC Africa] Five civilians were killed by the gunmen and their bodies were recovered at the scene, the army said.\n\n[Africanews] Nigerian troops have rescued 31 worshippers abducted during Easter services in Kaduna state, the military said, following an attack that left several people dead.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC Africa",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cgld111d9jpo?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/04/06/nigeria-troops-rescue-31-abducted-easter-worshippers-in-kaduna-attack/"
       ]
     },
     {
@@ -1148,21 +1327,6 @@
       ]
     },
     {
-      "id": "singleton_2651035d6166",
-      "cluster_time": "2026-04-06T09:53:26+00:00",
-      "category": "global",
-      "headline": "World Cup qualification earns Iraq coach Arnold a hero’s welcome in Sydney",
-      "summary": "Graham Arnold was received by jubilant Iraqi fans upon his return to Australia after a successful qualification campaign.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/6/world-cup-qualification-earns-iraq-coach-arnold-a-heros-welcome-in-sydney?traffic_source=rss"
-      ]
-    },
-    {
       "id": "17a593800868",
       "cluster_time": "2026-04-06T09:41:40+00:00",
       "category": "global",
@@ -1192,36 +1356,6 @@
       ],
       "urls": [
         "https://newsmoris.com/customs-seize-16-kilos-of-cannabis-as-police-face-internal-infiltration-claims/"
-      ]
-    },
-    {
-      "id": "singleton_4df58ee27376",
-      "cluster_time": "2026-04-06T09:21:57+00:00",
-      "category": "global",
-      "headline": "Families fleeing Israeli attacks take refuge in Lebanon’s mountains",
-      "summary": "Over one million people displaced across Lebanon as Israel escalates military campaign with air raids, ground invasion.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/6/families-fleeing-israeli-attacks-take-refuge-in-lebanon-mountains?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_0d3b33df2fa0",
-      "cluster_time": "2026-04-06T09:19:33+00:00",
-      "category": "regional",
-      "headline": "Burkina Faso rejects report that over 1,800 civilians killed since junta seized power",
-      "summary": "The government says the report, which blamed most of the killings on the military, as \"unfounded\".",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC Africa"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/ckgr639007zo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -1270,21 +1404,6 @@
       ]
     },
     {
-      "id": "singleton_e4da57e7eea5",
-      "cluster_time": "2026-04-06T09:10:31+00:00",
-      "category": "global",
-      "headline": "Yemen’s civilians fear fallout after Houthis enter Iran war",
-      "summary": "Fears of air strikes and rising prices dominate everyday life in Sanaa as Yemen becomes embroiled in regional conflict.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/6/yemens-civilians-fear-fallout-after-houthis-enter-iran-war?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_6f00321c24aa",
       "cluster_time": "2026-04-06T09:08:00+00:00",
       "category": "local",
@@ -1297,21 +1416,6 @@
       ],
       "urls": [
         "https://defimedia.info/hassan-alibakhshi-ambassadeur-sortant-de-liran-maurice-le-peuple-iranien-est-debout-lennemi-est"
-      ]
-    },
-    {
-      "id": "singleton_1e19322e4074",
-      "cluster_time": "2026-04-06T09:06:06+00:00",
-      "category": "global",
-      "headline": "Could China's adoption of electric vehicles shield it from the energy crisis?",
-      "summary": "As crude prices hover around the $110 per barrel mark on Monday morning, consumers worldwide are feeling the impact of the war in Iran and the closure of the Hormuz Strait when they head to the petrol pump. In China, where more than half of new car sales are for electric vehicles, that impact may be less pronounced, as France 24’s Bryan Quinn explains in his report. Also in this edition, \"Super Mario Galaxy Movie\" has achieved the best opening release of the year so far.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/business/20260406-could-china-s-adoption-of-electric-vehicles-shield-it-from-the-energy-crisis"
       ]
     },
     {
@@ -1357,21 +1461,6 @@
       ],
       "urls": [
         "https://www.lemauricien.com/actualites/societe/le-rapport-2025-de-la-national-human-rights-commission-droits-humains-a-maurice-le-test-de-verite/703847/"
-      ]
-    },
-    {
-      "id": "singleton_0e057530b25f",
-      "cluster_time": "2026-04-06T08:57:32+00:00",
-      "category": "global",
-      "headline": "Hungarian elections, academia’s greatest chancer, and Easter-inspired satire",
-      "summary": "PRESS REVIEW – Monday, April 6: Ahead of the Hungarian elections, we take a look at the satirical \"Two-Tailed Dog Party\", who are promising free beer for all while demanding anti-corruption measures. Meanwhile, the police have finally caught up with a French academic who earned prestige and recognition for an award he made up – one he then awarded to himself! And, as Easter Monday approaches, we explore how the resurrection of Christ, millennia on, continues to inspire cartoonists.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/press-review/20260406-hungarian-elections-academia-s-greatest-chancer-and-easter-inspired-satire"
       ]
     },
     {
@@ -1433,21 +1522,6 @@
       "urls": [
         "http://www.africanews.com/2026/04/04/cameroon-opposition-slams-plan-to-create-vice-president-post-as-coup/",
         "http://www.africanews.com/2026/04/05/cameroon-parliament-votes-to-create-vice-president-post/"
-      ]
-    },
-    {
-      "id": "singleton_73f9d0170d69",
-      "cluster_time": "2026-04-06T08:31:35+00:00",
-      "category": "global",
-      "headline": "Iran’s top university bombed as US, Israel intensify attacks; 34 killed",
-      "summary": "Tehran says it will respond 'in kind' to attacks on its infrastructure, accuses Trump of inciting 'war crimes'.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/6/irans-top-university-bombed-as-us-israel-intensify-attacks-34-killed?traffic_source=rss"
       ]
     },
     {
@@ -1523,21 +1597,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/05/africa-faces-growth-slowdown-due-to-war-on-iran-report/"
-      ]
-    },
-    {
-      "id": "singleton_3ea09021ccc8",
-      "cluster_time": "2026-04-06T08:13:45+00:00",
-      "category": "global",
-      "headline": "More than 40 trapped underground after strike on coal mine in Russian-controlled Luhansk region",
-      "summary": "More than 40 people have been trapped underground after a strike on a coal mine in the Russia-controlled Luhansk region, a Moscow-installed official said on Monday, blaming the attack on Ukraine.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/europe/20260406-more-than-40-trapped-underground-after-strike-on-coal-mine-in-russian-controlled-luhansk-region"
       ]
     },
     {
@@ -2640,21 +2699,6 @@
       ]
     },
     {
-      "id": "singleton_dbc74c9324bf",
-      "cluster_time": "2026-04-06T00:23:16+00:00",
-      "category": "global",
-      "headline": "Trump declares victory after rescue but threats to US operation in Iran still loom",
-      "summary": "The rescue could impact how Trump views a ground operation to take Kharg Island or to seize enriched uranium sites.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cy01vg7x5ppo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "id": "singleton_27f986b126f6",
       "cluster_time": "2026-04-05T23:32:20+00:00",
       "category": "regional",
@@ -2712,21 +2756,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cz673y3qqjlo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_989bc93d40c3",
-      "cluster_time": "2026-04-05T19:17:42+00:00",
-      "category": "global",
-      "headline": "Hungary alleges plot to blow up gas pipeline ahead of election",
-      "summary": "It comes a week before votes are cast and follows warnings of so-called false flag operations blamed on Ukraine.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cj60x206dx1o?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
