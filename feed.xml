@@ -4,14 +4,14 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Thu, 09 Apr 2026 16:48:25 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 20:14:06 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 09 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 95.34 per barrel</description>
+      <description>Brent Crude Oil: USD 97.31 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-09T16:45:17.139839+00:00</cluster_time>
+      <cluster_time>2026-04-09T20:10:59.681115+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -21,17 +21,27 @@
       <description>Bitcoin (BTC): USD 70,964.09 (▲ +0.79% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-09T16:45:16.957849+00:00</cluster_time>
+      <cluster_time>2026-04-09T20:10:59.558034+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gold price – 09 April 2026</title>
+      <link>https://api.gold-api.com/price/XAU</link>
+      <description>Gold (XAU): USD 4,772.00 (▲ +8.72% from last)</description>
+      <source>Gold Price</source>
+      <category>finance</category>
+      <cluster_time>2026-04-09T20:10:59.033298+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>MUR exchange rates – 09 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.60 | MUR/EUR 54.39 (▲ 0.11 from last) (▲ 0.70 from last)</description>
+      <description>MUR/USD 46.60 | MUR/EUR 54.40 (▲ 0.11 from last) (▲ 0.71 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-09T16:45:16.533485+00:00</cluster_time>
+      <cluster_time>2026-04-09T20:10:58.429401+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -41,7 +51,7 @@
       <description>SEMDEX closed at 2232.44 (▲ 9.24 pts, +0.42% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-09T16:45:14.022648+00:00</cluster_time>
+      <cluster_time>2026-04-09T20:10:55.933160+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +61,265 @@
       <description>Welcome to the Mauritius Meteorological Services Weather news for Mauritius issued at 16h30 on Thursday 09 April 2026.General situation:1. The anticyclone evolving far to the Southwest of the Mascarenes is causing moderate trades over our region.2. Few clouds coming from the South will influence the local weather tonight.Forecast for the next 24 hours:Fair weather this evening.Partly cloudy tonight and tomorrow morning with occasional showers over the Southern part and over the highgrounds.The minimum temperature will vary between 18 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Fair weather tomorrow afternoon.The maximum temperature will vary between 24 and 27 degrees Celsius over the highgrounds and between 29 and 32 degrees Celsius along the coasts.Wind will blow from the Southeast at about 20 km/h with peaks of 50 km/h.Sea rough beyond the reefs with Southwesterly swells of the order of 2 metres 50.Ventures in the open sea, as well as in the western and southern lagoons are not advised.High tides :Tomorrow 01h41 and 23h13.Low tides :Tomorrow 14h58.Sunset :18h03.Sunrise (tomorrow) :06h19.Atmospheric pressure at 16h00:1016 hectopascals.</description>
       <source>Mauritius Met Services</source>
       <category>weather</category>
-      <cluster_time>2026-04-09T16:45:09.729816+00:00</cluster_time>
+      <cluster_time>2026-04-09T20:10:51.197681+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>High fuel prices spur interest in EVs</title>
+      <link>https://www.france24.com/en/high-fuel-prices-spur-interest-in-evs</link>
+      <description>The war in Iran has sent fuel costs soaring, and consumers scrambling for savings. At the New York Auto Show, many drivers are warming up to the idea of buying an electric vehicle, because of high petrol prices, as our correspondent Jessica Le Masurier reports. Also in the show - the relief rally loses steam as the fragile Iran ceasefire enters its second day, and the OECD decries a 'historic decline' in international development aid, driven by the US.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T20:02:44+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US has let in 4,499 refugees since October - all but three were South African</title>
+      <link>https://www.bbc.com/news/articles/c4g89kkvenqo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Trump has given priority to Afrikaners, a white minority group he says is being persecuted. South Africa has objected to his characterisation.</description>
+      <source>BBC Africa</source>
+      <category>regional</category>
+      <cluster_time>2026-04-09T19:31:52+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US fertility rate drops to all-time low, continuing a two-decade decline</title>
+      <link>https://www.aljazeera.com/news/2026/4/9/us-fertility-rate-drops-to-all-time-low-continuing-a-two-decade-decline?traffic_source=rss</link>
+      <description>The United States fertility rate has now been in decline for two decades, dropping nearly 23 percent since 2007.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T19:30:36+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Melania Trump delivers statement denying Epstein ties, knowledge of his crimes</title>
+      <link>https://www.france24.com/en/americas/20260409-melania-trump-delivers-statement-denying-epstein-ties-knowledge-of-his-crimes</link>
+      <description>US first lady Melania Trump gave an extraordinary statement from the White House on Thursday denying any ties to late financier and convicted sex offender Jeffrey Epstein. Trump said the &quot;lies&quot; linking her to Epstein were &quot;mean-spirited attempts&quot; defame her reputation.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T19:28:31+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>IMF warns of looming inflation crisis on back of US-Israel war on Iran</title>
+      <link>https://www.aljazeera.com/economy/2026/4/9/imf-warns-of-looming-inflation-crisis-on-back-of-us-israel-war-on-iran?traffic_source=rss</link>
+      <description>[Al Jazeera] The conflict has driven up prices of oil, natural gas, damaged refineries and other energy infrastructure.
+
+[Africanews] The war on Iran is darkening the outlook for the world economy — whether or not a fragile ceasefire holds, the head of the International Monetary Fund warned Thursday</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T19:24:03+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>3b4da1ba2a99</cluster_id>
+      <sources>Al Jazeera
+Africanews</sources>
+      <urls>https://www.aljazeera.com/economy/2026/4/9/imf-warns-of-looming-inflation-crisis-on-back-of-us-israel-war-on-iran?traffic_source=rss
+http://www.africanews.com/2026/04/09/imf-chief-warns-that-iran-war-will-slow-global-economic-growth/</urls>
+      <titles>IMF warns of looming inflation crisis on back of US-Israel war on Iran
+IMF chief warns that Iran war will slow global economic growth</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Putin announces Orthodox Easter ceasefire in Ukraine after Kyiv proposes same</title>
+      <link>https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine</link>
+      <description>Russian President Vladimir Putin on Thursday announced a ceasefire in Ukraine over the Orthodox Easter weekend.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T19:22:04+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US led ‘historic’ foreign aid decline in 2025 amid Trump cuts: OECD</title>
+      <link>https://www.aljazeera.com/news/2026/4/9/us-led-historic-foreign-aid-decline-in-2025-amid-trump-cuts-oecd?traffic_source=rss</link>
+      <description>A forum of top economies in Europe and Americas says aid from members declined 23 percent as humanitarian needs grow.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T19:01:21+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran says it ‘would be dumb’ for US to let Netanyahu kill diplomacy</title>
+      <link>https://www.aljazeera.com/news/2026/4/9/iran-says-it-would-be-dumb-for-us-to-let-netanyahu-kill-diplomacy?traffic_source=rss</link>
+      <description>In an implicit response to JD Vance, Iran's Abbas Araghchi warns of the repercussions of Israel's attacks on Lebanon.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T18:49:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>[Info Soirée] : « Inn fer zot fim mass, met string »</title>
+      <link>https://defimedia.info/info-soiree-inn-fer-zot-fim-mass-met-string</link>
+      <description>Au Sommaire de ce Jeudi 09 Avril 2026 :• La Twaha Academy sous enquête. Violences, maltraitance, actes indécents et e</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-09T18:37:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Sidelined by Trump’s truce with Iran, Israel pummels Lebanon – then agrees to talks</title>
+      <link>https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu</link>
+      <description>[France 24] The ceasefire between the US and Iran has sidelined Israel and left its war goals largely unmet, leading Benjamin Netanyahu’s critics to lament a “strategic failure” that has damaged Israel’s standing in Washington. With his hands tied on Iran, the Israeli PM has agreed to peace talks with Lebanon under pressure from the US, just hours after vowing to pursue his country’s deadly campaign.
+
+[Al Jazeera] Israeli PM says his gov't ready to enter negotiations on 'disarming Hezbollah' and 'establishing peaceful relations'.
+
+[France 24] 🔴 Live: Israel's Netanyahu says instructed cabinet 'to begin direct negotiations' with Lebanon</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T18:27:32+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>070bedcc9446</cluster_id>
+      <sources>France 24
+Al Jazeera</sources>
+      <urls>https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu
+https://www.aljazeera.com/news/2026/4/9/israels-netanyahu-ready-for-talks-with-lebanon-as-soon-as-possible?traffic_source=rss
+https://www.france24.com/en/middle-east/20260409-middle-east-live-us-iran-truce-enters-second-day-as-war-flares-in-lebanon</urls>
+      <titles>Sidelined by Trump’s truce with Iran, Israel pummels Lebanon – then agrees to talks
+Israel’s Netanyahu calls for talks with Lebanon ‘as soon as possible’
+🔴 Live: Israel's Netanyahu says instructed cabinet 'to begin direct negotiations' with Lebanon</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Petrol and diesel prices rise again as concerns grow over ceasefire</title>
+      <link>https://www.bbc.com/news/articles/cq6j0rnvlzeo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Motoring groups have warned drivers not to expect a significant drop in costs soon.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T18:27:14+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>‘Not some piece of ice’: Greenland hits back at Trump insult</title>
+      <link>https://www.aljazeera.com/news/2026/4/9/not-some-piece-of-ice-greenland-hits-back-at-trump-insult?traffic_source=rss</link>
+      <description>PM Nielsen calls Greenland a proud nation seeking to maintain global order, after US president calls it 'piece of ice'.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T18:22:55+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>UK says three Russian submarines tracked during ‘covert’ operation</title>
+      <link>https://www.aljazeera.com/news/2026/4/9/uk-says-three-russian-submarines-tracked-during-covert-operation?traffic_source=rss</link>
+      <description>British defence minister says the operation did not find evidence that Russia had damaged undersea infrastructure.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T18:20:57+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Who profits off Iran war? Strait of Hormuz toll talk fuels outrage</title>
+      <link>https://www.france24.com/en/tv-shows/the-debate/20260409-who-profits-off-iran-war-strait-of-hormuz-toll-talk-fuels-outrage</link>
+      <description>A most confusing Wednesday it was. In the space of six minutes during the same press conference, the White House spokesperson first hailed the reopening of the Strait of Hormuz then called on Iran to immediately reopen the planet’s most oil sensitive shipping lane. Five weeks of contradictory statements begeting broader confusion over the actual contents of the ceasefire deal and who's even involved.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T18:12:38+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz</title>
+      <link>https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Israel says Lebanon is not included in the ceasefire the US agreed to halt the war with Iran.
+
+[BBC News] Iran's deputy foreign minister says the US must choose between 'war and ceasefire'.
+
+[Al Jazeera] Democratic lawmakers tell White House that allowing Israel to continue to bomb Lebanon could reignite the regional war.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T17:38:26+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>f0b24dea98a1</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&amp;at_campaign=rss
+https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/9/us-democrats-warn-trump-that-iran-ceasefire-must-apply-to-lebanon?traffic_source=rss</urls>
+      <titles>Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz
+Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC
+US Democrats warn Trump that Iran ceasefire must apply to Lebanon</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Can Africa’s informal economy become the continent’s next investment frontier? {Business Africa}</title>
+      <link>http://www.africanews.com/2026/04/09/can-africas-informal-economy-become-the-continents-next-investment-frontier-business-afric/</link>
+      <description>Formalising Africa’s sizable informal sector: how an investment company is turning unreported consumer power into verifiable, high-growth portfolios. While Kenya’s housing faces crisis, a massive deficit of two million units persists despite the real estate sector’s 5.7% growth.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-09T17:36:14+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Saint-Pierre : un homme de 65 ans agressé au sabre, son frère recherché</title>
+      <link>https://defimedia.info/saint-pierre-un-homme-de-65-ans-agresse-au-sabre-son-frere-recherche</link>
+      <description>Anil Heerooa, 65 ans et habitant Petit-Verger, Saint-Pierre, a été agressé au sabre. Son frère, âgé de 54 ans, est soupç</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-09T17:33:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Accident mortel à Mon Goût : le témoignage du frère de la victime</title>
+      <link>https://defimedia.info/accident-mortel-mon-gout-le-temoignage-du-frere-de-la-victime</link>
+      <description>Dheeraj Seesaha, frère de Rajwantee Devi Kichenama, décédée dans un tragique accident de la route à Mon Goût ce jeudi 9</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-09T17:33:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>LA28 Olympics opens ticket sales globally after record local demand</title>
+      <link>https://www.aljazeera.com/sports/2026/4/9/la28-olympics-opens-ticket-sales-globally-after-record-local-demand?traffic_source=rss</link>
+      <description>LA28 sold more tickets to the domestic audience than any previous Olympic Games as sales open to rest of the world.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T17:23:41+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Venezuela police tear gas protesters calling for pay and pension rises</title>
+      <link>https://www.france24.com/en/americas/20260409-venezuela-police-tear-gas-protesters-calling-for-pay-and-pension-rises</link>
+      <description>Police in Caracas on Thursday launched tear gas at thousands of protesters marching towards the presidential palace to demand pay raises and pension increases. Interim President Delcy Rodriguez announced wage increases on May 1 without disclosing the amount, as many Venezuelans live on salaries so low they struggle to survive.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T17:13:21+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Calls to invoke the 25th Amendment after Trump's Iran threats 'useless'</title>
+      <link>https://www.france24.com/en/americas/20260409-calls-to-invoke-the-25th-amendment-after-trump-iran-threats-useless</link>
+      <description>US President Donald Trump’s threat to destroy “a whole civilisation” in Iran has reignited calls to invoke the 25th Amendment and drawn condemnation across the political spectrum. Yet despite a growing chorus of critics, from Democrats to former MAGA allies, the mechanism remains politically out of reach – even as Trump’s approval ratings slide ahead of the 2026 midterms.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T17:06:07+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>'Trump abandoned us': ceasefire sparks anger, fear, division among Iranians</title>
+      <link>https://www.france24.com/en/middle-east/20260409-iran-ceasefire-reactions-trump-anger-division-war-regime-change-debate</link>
+      <description>Iranians are divided between relief, disappointment, fear and anger after the announcement of a two-week ceasefire and possible peace plan between the USA and Israel on one side, and Iran on the other. The FRANCE 24 Observers team talked to several Iranians inside Iran to capture their responses and first-hand impressions of the ceasefire after five weeks of armed conflict in their country.</description>
+      <source>France 24</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T17:04:53+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -62,6 +330,16 @@
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-09T16:41:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Gambia appoints special prosecutor for Jammeh-era crimes</title>
+      <link>http://www.africanews.com/2026/04/09/gambia-appoints-special-prosecutor-for-jammeh-era-crimes/</link>
+      <description>The Gambia on Wednesday appointed a special prosecutor nearly two years after creating the post to try crimes committed under the reign of brutal former strongman Yahya Jammeh</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-09T16:39:07+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -92,6 +370,26 @@
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-04-09T16:07:49+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Tanzania president orders smaller official convoys to cut fuel</title>
+      <link>http://www.africanews.com/2026/04/09/tanzania-president-orders-smaller-official-convoys-to-cut-fuel/</link>
+      <description>Samia Suluhu Hassan is known for her extensive motorcades. Her move is part of a series of steps announced by several African governments in recent days to cope with fuel shortages and rising prices.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-09T16:07:10+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>'Endless fears': Even if fighting stops, the damage to Iran's children will endure</title>
+      <link>https://www.bbc.com/news/articles/ce84ngmjz8zo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The BBC has been able to obtain testimony from parents and those trying to help children deal with the distress that comes with war.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-09T16:06:39+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -142,16 +440,6 @@
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-09T15:43:11+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>🔴 Live: Israel's Netanyahu says instructed cabinet 'to begin direct negotiations' with Lebanon</title>
-      <link>https://www.france24.com/en/middle-east/20260409-middle-east-live-us-iran-truce-enters-second-day-as-war-flares-in-lebanon</link>
-      <description>🔴 Live: Israel's Netanyahu says instructed cabinet 'to begin direct negotiations' with Lebanon</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T15:40:20+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -352,16 +640,6 @@ Fears Middle East ceasefire at risk after Israeli strikes on Lebanon kill 182 pe
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Brazil bowler Cardoso takes 9 Lesotho wickets in record-breaking T20 win</title>
-      <link>https://www.aljazeera.com/sports/2026/4/9/brazil-bowler-cardoso-takes-9-lesotho-wickets-in-record-breaking-t20-win?traffic_source=rss</link>
-      <description>Brazil's Laura Cardoso takes record nine-wicket haul in 189 win against Lesotho to claim best bowling figures in a T20I.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T14:33:57+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>CEB power outage – Mahebourg, Grandport on 09 April 2026</title>
       <link>https://github.com/MrSunshyne/mauritius-dataset-electricity</link>
       <description>Mahebourg (Grandport): 18:30 to 00:30. Areas affected: TOMBEAU LANE, KARAN LANE AND SURROUNDINGS</description>
@@ -432,16 +710,6 @@ Fears Middle East ceasefire at risk after Israeli strikes on Lebanon kill 182 pe
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Petrol and diesel prices rise again as concerns grow over ceasefire</title>
-      <link>https://www.bbc.com/news/articles/cq6j0rnvlzeo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Motoring groups have warned drivers not to expect a significant drop in costs soon.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T13:49:04+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Gaza: Selling handmade dolls to survive and bring joy to children</title>
       <link>http://www.africanews.com/2026/04/09/gaza-selling-handmade-dolls-to-survive-and-bring-joy-to-children/</link>
       <description>Shireen al-Kurdi is a 36-year-old displaced mother of five. The Palestinian woman is earning a limited income through her hobby of making crochet dolls and selling them at an affordable price.</description>
@@ -456,23 +724,18 @@ Fears Middle East ceasefire at risk after Israeli strikes on Lebanon kill 182 pe
       <link>https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>[BBC News] The Israeli military claims Mohammed Wishah was a &quot;Hamas terrorist&quot; - which the Qatar-based network has previously denied.
 
-[Al Jazeera] More than 260 journalists have been killed by Israel in Gaza since the start of the genocide in October 2023.
-
 [Africanews] Gaza was mourning Al Jazeera correspondent Mohammed Wishah on Thursday after he was killed in an Israeli drone strike that hit his car west of Gaza City a day earlier.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-09T13:45:15+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>5431aa273f13</cluster_id>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>ff452998becd</cluster_id>
       <sources>BBC News
-Al Jazeera
 Africanews</sources>
       <urls>https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/4/9/funeral-held-for-al-jazeeras-wishah-killed-in-israeli-strike-in-gaza?traffic_source=rss
 http://www.africanews.com/2026/04/09/gaza-mourns-al-jazeera-reporter-mohammed-wishah-killed-iin-israeli-drone-strike/</urls>
       <titles>Al Jazeera condemns killing of journalist in Israeli strike in Gaza
-Funeral held for Al Jazeera’s Wishah killed in Israeli strike in Gaza
 Gaza mourns Al Jazeera reporter Mohammed Wishah killed iin Israeli drone strike</titles>
       <languages>en</languages>
     </item>
@@ -536,52 +799,12 @@ Africa Economic Compass : La MCB analyse les répercussions du conflit au Moyen-
       <languages>fr</languages>
     </item>
     <item>
-      <title>Four migrants die in north France trying to board small boat to cross Channel</title>
-      <link>https://www.france24.com/en/france/20260409-four-migrants-die-in-north-france-trying-to-board-small-boat-to-cross-channel</link>
-      <description>[France 24] Two men and two women died on Thursday after being swept away by currents in the English Channel while trying to board a dinghy to travel from France to England.
-
-[Al Jazeera] Tragedy underscores failure to create safe routes for asylum seekers, say campaigners.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T13:28:30+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>13617b57e8b3</cluster_id>
-      <sources>France 24
-Al Jazeera</sources>
-      <urls>https://www.france24.com/en/france/20260409-four-migrants-die-in-north-france-trying-to-board-small-boat-to-cross-channel
-https://www.aljazeera.com/news/2026/4/9/four-die-dozens-rescued-in-attempted-channel-crossing-from-france-to-uk?traffic_source=rss</urls>
-      <titles>Four migrants die in north France trying to board small boat to cross Channel
-Four die, dozens rescued in attempted Channel crossing from France to UK</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>What is Iran’s Strait of Hormuz protocol and will other nations accept it?</title>
-      <link>https://www.aljazeera.com/economy/2026/4/9/what-is-irans-strait-of-hormuz-protocol-and-will-other-nations-accept-it?traffic_source=rss</link>
-      <description>Tehran's plans to tax ships passing through the strait and raise money to rebuild is already seeing pushback.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T13:23:15+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Comité de crise - Mahend Gungapersad : « Aucune mesure ne sera prise contre le bien-être de nos enfants »</title>
       <link>https://defimedia.info/comite-de-crise-mahend-gungapersad-aucune-mesure-ne-sera-prise-contre-le-bien-etre-de-nos-enfants</link>
       <description>« Nous ne prendrons aucune mesure qui irait à l’encontre du bien-être ou de l’éducation de nos enfants », a affirmé le m</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-09T13:21:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US-Iran talks in Pakistan: Who’s attending, what’s on the agenda?</title>
-      <link>https://www.aljazeera.com/news/2026/4/9/us-iran-talks-in-pakistan-whos-attending-whats-on-the-agenda?traffic_source=rss</link>
-      <description>Islamabad hosts negotiations as US and Iran seek off-ramp. But deep mistrust and regional tensions threaten talks.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T13:18:37+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -656,16 +879,6 @@ Four die, dozens rescued in attempted Channel crossing from France to UK</titles
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Escaping survival mode: Psychologist offers guide to slowing down and reclaiming balance</title>
-      <link>https://www.france24.com/en/tv-shows/entre-nous/20260409-escaping-survival-mode-psychologist-offers-guide-to-slowing-down-and-reclaiming-balance</link>
-      <description>With never-ending to-do lists, pressure to excel at work, and the expectation to be present for family and friends, it’s no surprise that many women feel they are living in “survival mode” – worrying about letting others down, experiencing stress-related physical symptoms, and battling exhaustion. Psychologist Nicola Jane Hobbs aims to change that. She has written a book titled “The Relaxed Woman: Reclaim Rest and Live an Empowered, Joy-Filled Life”, which offers strategies to reclaim rest and f</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T12:19:32+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Blanchiment d’argent allégué : l’informaticien “Hacker” dans les filets de la FCC</title>
       <link>https://defimedia.info/blanchiment-dargent-allegue-linformaticien-hacker-dans-les-filets-de-la-fcc</link>
       <description>Un habitant de Flic-en-Flac a été arrêté par la Financial Crimes Commission (FCC) ce jeudi 9 avril, dans le cadre d’une</description>
@@ -674,40 +887,6 @@ Four die, dozens rescued in attempted Channel crossing from France to UK</titles
       <cluster_time>2026-04-09T12:19:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Global energy crisis is ‘the mother of all crises’: Turkish energy minister</title>
-      <link>https://www.aljazeera.com/news/2026/4/9/energy-crisis-is-the-mother-of-all-crises-turkish-energy-minister?traffic_source=rss</link>
-      <description>Turkiye is a key regional energy hub due to its investments, location and oil reserves, the minister tells Al Jazeera.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T12:18:31+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz</title>
-      <link>https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Israel says Lebanon is not included in the ceasefire the US agreed to halt the war with Iran.
-
-[BBC News] Iran's deputy foreign minister says the US must choose between 'war and ceasefire'.
-
-[Al Jazeera] Ceasefire dispute escalates as US and Israel exclude Lebanon, raising fears of a broader regional conflict.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T12:12:06+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>afee80b5f09e</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&amp;at_campaign=rss
-https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/4/9/why-israels-attacks-on-lebanon-could-cripple-us-iran-ceasefire?traffic_source=rss</urls>
-      <titles>Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz
-Israeli strikes in Lebanon 'grave violation' of ceasefire, Iran minister tells BBC
-Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Prix du pain – L’ACIM : « Il n’est pas question d’une révision à Rs 4,78 »</title>
@@ -720,32 +899,12 @@ Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Fury vs Makhmudov: All you need to know about the heavyweight boxing bout</title>
-      <link>https://www.aljazeera.com/sports/2026/4/9/fury-vs-makhmudov-all-you-need-to-know-about-the-heavyweight-boxing-bout?traffic_source=rss</link>
-      <description>Tyson Fury comes out of retirement to fight devastating puncher Arslanbek Makhmudov at the Tottenham Hotspur Stadium.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T12:09:29+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Double chantier à Plaine Magnien : La relocalisation des camions de la WMA et drains en cours</title>
       <link>https://www.lemauricien.com/actualites/societe/double-chantier-a-plaine-magnien-la-relocalisation-des-camions-de-la-wma-et-drains-en-cours/704129/</link>
       <description>La présence de camions de la Wastewater Management Authority (WMA) en pleine zone résidentielle depuis plus de vingt-cinq ans touche à sa fin. une visite a été effectué hier mercredi 8 avril, le...</description>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-04-09T12:05:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Rising oil prices: Are we heading for a recession?</title>
-      <link>https://www.france24.com/en/tv-shows/business/20260409-rising-oil-prices-are-we-heading-for-a-recession</link>
-      <description>Crude oil prices rose again on Thursday as the ceasefire announced by US President Donald Trump and Iran shows signs of fragility. In this edition, we speak with Ilian Mihov, Professor of Economics at INSEAD, about whether the war and the resulting oil shock could trigger a global recession. He explains that supply shortages can affect economic activity more than price hikes and outlines the delicate calculations central banks will have to make.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T12:04:08+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -770,42 +929,12 @@ Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bosnian ball boy who hid Donnarumma’s penalty shootout notes hailed as hero</title>
-      <link>https://www.aljazeera.com/sports/2026/4/9/bosnian-ball-boy-who-hid-donnarummas-penalty-shootout-notes-hailed-as-hero?traffic_source=rss</link>
-      <description>Afan Cizmic, a 14-year-old ball boy in the Bosnia vs Italy World Cup qualifying final, took away the goalkeeper's notes.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T11:57:31+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>[Tech-à-tête] Samsung Galaxy A57 : Une évolution maîtrisée du milieu de gamme</title>
       <link>https://ionnews.mu/tech-a-tete-samsung-galaxy-a57-une-evolution-maitrisee-du-milieu-de-gamme/</link>
       <description>Le lancement du Samsung Galaxy A57 marque une nouvelle étape dans le renouvellement de la série A, s’inscrivant dans la lignée de ses prédécesseurs tout en affinant sa proposition de valeur. Bien que l’esthétique générale conserve les panneaux en verre Gorilla Glass Victus+ et le cadre en aluminium caractéristiques, l’appareil se distingue par une réduction notable de son encombrement et une perte de poids de 20 grammes. Désormais certifié IP68 pour une résistance totale à l’eau et à la poussièr</description>
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-04-09T11:24:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'Sheer terror rained from the sky': Arab Reform Initiative Executive Director Nadim Houry</title>
-      <link>https://www.france24.com/en/tv-shows/perspective/20260409-sheer-terror-reigned-from-the-sky-arab-reform-initiative-executive-director-nadim-houry</link>
-      <description>The Executive Director of the Arab Reform Initiative told FRANCE 24 how chaos erupted during Israel’s attacks on Beirut. Nadim Houry was on the phone with colleagues as Israel struck around a hundred targets in just ten minutes. He said the attacks on Lebanon could stop immediately if Donald Trump called Benjamin Netanyahu to make clear that the US would no longer supply Israel with weapons. He spoke to us in Perspective.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T11:22:20+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Cannes 2026 Palme d’Or picks include Iran’s Farhadi, Spain’s Almodovar</title>
-      <link>https://www.france24.com/en/culture/20260409-farhadi-almodovar-zvyagintsev-to-vie-for-top-cannes-festival-prize</link>
-      <description>The list of 21 directors vying for the Palme d’Or at the 2026 Cannes Film Festival includes world cinema auteurs such as Iran’s Asghar Farhadi and Spain's Pedro Almodovar, organisers revealed on Thursday. Major Hollywood studios are set to be notable in their absence on the French Riviera in May.</description>
-      <source>France 24</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T11:03:14+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -822,22 +951,12 @@ Why Israel’s attacks on Lebanon could cripple US-Iran ceasefire</titles>
     <item>
       <title>Argentina passes bill loosening protection of its glaciers</title>
       <link>https://www.bbc.com/news/articles/c5y72e6x554o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] The new bill will make it easier for provincial governments to allow mining projects in glacier regions.
-
-[Al Jazeera] Thousands of people have demonstrated against the bill, which scientists and activists say threatens water resources.</description>
+      <description>The new bill will make it easier for provincial governments to allow mining projects in glacier regions.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-09T10:52:23+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>6b2725d843a2</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/c5y72e6x554o?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/4/9/argentinas-lawmakers-approve-bill-allowing-mining-in-glaciers?traffic_source=rss</urls>
-      <titles>Argentina passes bill loosening protection of its glaciers
-Argentina MPs approve bill allowing mining in glaciers</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Midlands et Côte-d’Or : 325 plantes de cannabis déracinées</title>
@@ -940,26 +1059,6 @@ Mexico: Miner rescued alive after 14 days trapped underground</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Djibouti elections: Who’s running against Guelleh and what’s at stake?</title>
-      <link>https://www.aljazeera.com/news/2026/4/9/djibouti-elections-whos-running-against-guelleh-and-whats-at-stake?traffic_source=rss</link>
-      <description>[Al Jazeera] Long-ruling leader faces no real competition as he seeks a sixth term in the strategic Horn of Africa country.
-
-[Africanews] Djibouti’s leader Ismail Omar Guelleh held his final campaign rally on Wednesday ahead of Friday’s presidential election. Facing a divided and largely silenced opposition, Guelleh is expected to extend his 27-year rule of the strategically located Horn of Africa nation.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-09T09:57:37+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>54a38deecaa5</cluster_id>
-      <sources>Al Jazeera
-Africanews</sources>
-      <urls>https://www.aljazeera.com/news/2026/4/9/djibouti-elections-whos-running-against-guelleh-and-whats-at-stake?traffic_source=rss
-http://www.africanews.com/2026/04/09/djibouti-vote-guelleh-poised-to-extend-27-year-rule/</urls>
-      <titles>Djibouti elections: Who’s running against Guelleh and what’s at stake?
-Djibouti Vote: Guelleh poised to extend 27-year rule</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Ki zistwar zordi ? [9 avril 2005] L’union du roi Charles III et de Camilla Parker Bowles</title>
       <link>https://ionnews.mu/ki-zistwar-zordi-9-avril-2005-lunion-du-roi-charles-iii-et-de-camilla-parker-bowles/</link>
       <description>Le 9 avril 2005, la monarchie britannique a franchi une étape institutionnelle majeure avec le mariage civil du prince Charles, aujourd’hui le roi Charles III, et de Camilla Parker Bowles. Cette union, célébrée au Windsor Guildhall, a marqué la première fois qu’un héritier du trône britannique s’unissait par une cérémonie civile en Angleterre, reflétant une adaptation notable des traditions royales aux réalités sociales contemporaines. L’événement a attiré l’attention du monde entier, scellant o</description>
@@ -1036,6 +1135,16 @@ Djibouti Vote: Guelleh poised to extend 27-year rule</titles>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-09T08:59:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Djibouti Vote: Guelleh poised to extend 27-year rule</title>
+      <link>http://www.africanews.com/2026/04/09/djibouti-vote-guelleh-poised-to-extend-27-year-rule/</link>
+      <description>Djibouti’s leader Ismail Omar Guelleh held his final campaign rally on Wednesday ahead of Friday’s presidential election. Facing a divided and largely silenced opposition, Guelleh is expected to extend his 27-year rule of the strategically located Horn of Africa nation.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-09T08:49:22+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1590,24 +1699,14 @@ Du beau temps ce jeudi</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Décès de la magistrate Varsha Biefun-Doorga : ‘Finding’ de « gross medical negligence » contre le Dr. Nishan Moheeputh</title>
-      <link>https://www.lemauricien.com/actualites/societe/deces-de-la-magistrate-varsha-biefun-doorga-finding-de-gross-medical-negligence-contre-le-dr-nishan-moheeputh/704052/</link>
-      <description>[Le Mauricien] Le Dr. Nishan Moheeputh, chirurgien plastique, a été « found guilty of gross medical negligence », selon un communiqué émis par le Medical Council ce mercredi 8 avril 2026. En effet, il avait...
-
-[Defimedia] Reconnu coupable de négligence médicale grave ayant entraîné le décès d’une patiente après une liposuccion, le Dr Nishan</description>
-      <source>Le Mauricien</source>
+      <title>Négligence médicale mortelle : la levée de suspension du Dr Nishan Moheeputh divise</title>
+      <link>https://defimedia.info/negligence-medicale-mortelle-la-levee-de-suspension-du-dr-nishan-moheeputh-divise</link>
+      <description>Reconnu coupable de négligence médicale grave ayant entraîné le décès d’une patiente après une liposuccion, le Dr Nishan</description>
+      <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-09T07:00:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>bf145f70b72a</cluster_id>
-      <sources>Le Mauricien
-Defimedia</sources>
-      <urls>https://www.lemauricien.com/actualites/societe/deces-de-la-magistrate-varsha-biefun-doorga-finding-de-gross-medical-negligence-contre-le-dr-nishan-moheeputh/704052/
-https://defimedia.info/negligence-medicale-mortelle-la-levee-de-suspension-du-dr-nishan-moheeputh-divise</urls>
-      <titles>Décès de la magistrate Varsha Biefun-Doorga : ‘Finding’ de « gross medical negligence » contre le Dr. Nishan Moheeputh
-Négligence médicale mortelle : la levée de suspension du Dr Nishan Moheeputh divise</titles>
-      <languages>fr</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>DROGUE : L’ancien footballeur Steeve Curpanen arrêté après une semaine de cavale</title>
@@ -1686,16 +1785,6 @@ Négligence médicale mortelle : la levée de suspension du Dr Nishan Moheeputh 
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-09T06:07:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Seconde réunion du comité de crise : mesures de soutien pour les plus vulnérables à l’étude</title>
-      <link>https://defimedia.info/seconde-reunion-du-comite-de-crise-mesures-de-soutien-pour-les-plus-vulnerables-letude</link>
-      <description>Le comité de crise a soumis mercredi de nouvelles recommandations pour contrer l’inflation énergétique. Au programme : a</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-09T06:06:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1786,36 +1875,6 @@ Négligence médicale mortelle : la levée de suspension du Dr Nishan Moheeputh 
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-08T20:25:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'Ketamine Queen' sentenced to 15 years in Matthew Perry overdose death</title>
-      <link>https://www.bbc.com/news/articles/c6258qe1yl0o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Jasveen Sangha was found guilty of selling drugs that killed Friends actor Matthew Perry who had struggled with addiction for years.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-08T19:34:29+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Gambia appoints British barrister to prosecute gruesome Jammeh-era crimes</title>
-      <link>https://www.bbc.com/news/articles/cjr90wyw09wo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Ex-President Yahya Jammeh's 22-year rule was known for enforced disappearances and extrajudicial killings.</description>
-      <source>BBC Africa</source>
-      <category>regional</category>
-      <cluster_time>2026-04-08T19:30:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nearly 5,000 S.African Afrikaners take up Trump refugee offer</title>
-      <link>http://www.africanews.com/2026/04/08/nearly-5000-safrican-afrikaners-take-up-trump-refugee-offer/</link>
-      <description>Nearly 5,000 white Afrikaners have entered the United States under a programme launched by President Donald Trump nearly a year ago based on unfounded claims that the South African minority faces persecution</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-08T18:53:01+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
