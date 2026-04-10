@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 171,
+  "item_count": 175,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-09T20:10:59.681115+00:00",
+      "cluster_time": "2026-04-10T03:27:47.499490+00:00",
       "category": "finance",
-      "headline": "Brent Crude Oil price – 09 April 2026",
-      "summary": "Brent Crude Oil: USD 97.31 per barrel",
+      "headline": "Brent Crude Oil price – 10 April 2026",
+      "summary": "Brent Crude Oil: USD 96.35 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-09T20:10:59.558034+00:00",
+      "cluster_time": "2026-04-10T03:27:47.348914+00:00",
       "category": "finance",
-      "headline": "Bitcoin price – 09 April 2026",
-      "summary": "Bitcoin (BTC): USD 70,964.09 (▲ +0.79% from last)",
+      "headline": "Bitcoin price – 10 April 2026",
+      "summary": "Bitcoin (BTC): USD 72,663.89 (▲ +3.21% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-09T20:10:59.033298+00:00",
+      "cluster_time": "2026-04-10T03:27:47.152038+00:00",
       "category": "finance",
-      "headline": "Gold price – 09 April 2026",
-      "summary": "Gold (XAU): USD 4,772.00 (▲ +8.72% from last)",
+      "headline": "Gold price – 10 April 2026",
+      "summary": "Gold (XAU): USD 4,757.60 (▲ +8.39% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,10 +49,10 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-09T20:10:58.429401+00:00",
+      "cluster_time": "2026-04-10T03:27:46.953006+00:00",
       "category": "finance",
-      "headline": "MUR exchange rates – 09 April 2026",
-      "summary": "MUR/USD 46.60 | MUR/EUR 54.40 (▲ 0.11 from last) (▲ 0.71 from last)",
+      "headline": "MUR exchange rates – 10 April 2026",
+      "summary": "MUR/USD 46.60 | MUR/EUR 54.42 (▲ 0.11 from last) (▲ 0.73 from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -64,9 +64,9 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-09T20:10:55.933160+00:00",
+      "cluster_time": "2026-04-10T03:27:44.537365+00:00",
       "category": "finance",
-      "headline": "SEMDEX – 09 April 2026",
+      "headline": "SEMDEX – 10 April 2026",
       "summary": "SEMDEX closed at 2232.44 (▲ 9.24 pts, +0.42% from last close 2,223.20)",
       "cluster_size": 1,
       "source_count": 1,
@@ -79,10 +79,10 @@
     },
     {
       "id": "singleton_5474cbfe3ad8",
-      "cluster_time": "2026-04-09T20:10:51.197681+00:00",
+      "cluster_time": "2026-04-10T03:27:39.099772+00:00",
       "category": "weather",
-      "headline": "Mauritius weather bulletin – 09 April 2026",
-      "summary": "Welcome to the Mauritius Meteorological Services Weather news for Mauritius issued at 16h30 on Thursday 09 April 2026.General situation:1. The anticyclone evolving far to the Southwest of the Mascarenes is causing moderate trades over our region.2. Few clouds coming from the South will influence the local weather tonight.Forecast for the next 24 hours:Fair weather this evening.Partly cloudy tonight and tomorrow morning with occasional showers over the Southern part and over the highgrounds.The minimum temperature will vary between 18 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Fair weather tomorrow afternoon.The maximum temperature will vary between 24 and 27 degrees Celsius over the highgrounds and between 29 and 32 degrees Celsius along the coasts.Wind will blow from the Southeast at about 20 km/h with peaks of 50 km/h.Sea rough beyond the reefs with Southwesterly swells of the order of 2 metres 50.Ventures in the open sea, as well as in the western and southern lagoons are not advised.High tides :Tomorrow 01h41 and 23h13.Low tides :Tomorrow 14h58.Sunset :18h03.Sunrise (tomorrow) :06h19.Atmospheric pressure at 16h00:1016 hectopascals.",
+      "headline": "Mauritius weather bulletin – 10 April 2026",
+      "summary": "Welcome to the Mauritius Meteorological Services Weather news for Mauritius issued at 04h30 on Friday 10 April 2026.General situation:The anticyclone to the Southwest of the Mascarenes is causing moderate trades over our region.Forecast for the next 24 hours:Partly cloudy early morning with light showers over the highgrounds.Fair weather during the day.The maximum temperature will vary between 26 and 28 degrees Celsius over the highgrounds and between 30 and 32 degrees Celsius along the coasts.The weather will remain fair tonight.The minimum temperature will vary between 18 and 21 degrees Celsius over the central plateau and between 23 and 25 degrees Celsius along the coasts.Wind will blow from the Southeast at about 20 km/h with peaks of 50 km/h.Sea rough beyond the reefs with Southwesterly swells of the order of 2 metres 50.Ventures in the open sea, as well as in the Western and Southern lagoons are not advised.However, the state of the sea in the Western and Southern lagoons will gradually improve tonight.High tides :23h13 and tomorrow 09h35.Low tides :14h58 and tomorrow 06h03.Sunrise :06h19.Sunset :18h02.Atmospheric pressure at 16h00:1017 hectopascals.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -90,6 +90,441 @@
       ],
       "urls": [
         "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
+      ]
+    },
+    {
+      "id": "singleton_b163235f9a0c",
+      "cluster_time": "2026-04-10T03:00:00+00:00",
+      "category": "local",
+      "headline": "ÉCONOMIE | GUERRE EN IRAN Le ministre Duval : « Tôt ou tard le tourisme sera durement impacté »",
+      "summary": "Le ciel s’assombrit dans le secteur touristique. Si l'industrie fait preuve de résilience en ce début d'année, l'escalade des tensions internationales et les répercussions directes du conflit en...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/societe/economie-guerre-en-iran-le-ministre-duval-tot-ou-tard-le-tourisme-sera-durement-impacte/704044/"
+      ]
+    },
+    {
+      "id": "singleton_fc5b64e468ae",
+      "cluster_time": "2026-04-10T02:47:13+00:00",
+      "category": "global",
+      "headline": "Shipping in Strait of Hormuz still at a trickle despite US-Iran ceasefire",
+      "summary": "Washington and Tehran accuse each other of not honouring truce agreement.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/economy/2026/4/10/shipping-in-strait-of-hormuz-at-a-trickle-despite-us-iran-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_e9a1e896e230",
+      "cluster_time": "2026-04-10T02:31:00+00:00",
+      "category": "local",
+      "headline": "Météo : un anticyclone au sud-ouest des Mascareignes, des rafales de 50 km/h attendues",
+      "summary": "Un anticyclone au sud-ouest des Mascareignes fait circuler des alizés modérés sur notre région. Le temps sera mi-couvert",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/meteo-un-anticyclone-au-sud-ouest-des-mascareignes-des-rafales-de-50-kmh-attendues"
+      ]
+    },
+    {
+      "id": "11cfab3cd38d",
+      "cluster_time": "2026-04-10T02:14:55+00:00",
+      "category": "global",
+      "headline": "Sidelined by Trump’s truce with Iran, Israel pummels Lebanon – then agrees to talks",
+      "summary": "[France 24] The ceasefire between the US and Iran has sidelined Israel and left its war goals largely unmet, leading Benjamin Netanyahu’s critics to lament a “strategic failure” that has damaged Israel’s standing in Washington. With his hands tied on Iran, the Israeli PM has agreed to peace talks with Lebanon under pressure from the US, just hours after vowing to pursue his country’s deadly campaign.\n\n[France 24] Israel and Lebanon are set to hold talks in Washington next week as tensions escalate over continued fighting in Lebanon and concerns grow that the fragile US-Iran ceasefire could collapse. The meeting comes amid heavy strikes, rising casualties, and renewed disputes over the scope of the truce and regional security arrangements.",
+      "cluster_size": 2,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu",
+        "https://www.france24.com/en/middle-east/20260410-netanyahu-greenlights-israel-lebanon-talks-in-washington-amid-ceasefire-tensions"
+      ]
+    },
+    {
+      "id": "singleton_f88f3b8e056f",
+      "cluster_time": "2026-04-10T02:10:44+00:00",
+      "category": "global",
+      "headline": "Trump says Iran's handling of Strait of Hormuz is 'not the agreement we have'",
+      "summary": "The US president accused Iran of \"doing a very poor job\" with the waterway as Israel and Lebanon to begin peace talks.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cge0xre3d27o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "85b50f674ada",
+      "cluster_time": "2026-04-10T01:48:20+00:00",
+      "category": "global",
+      "headline": "Hip-hop pioneer, Afrika Bambaataa, dies aged 67",
+      "summary": "[BBC News] The Bronx born rapper's global hit Planet Rock is credited with shaping hip-hop in the 1980s.\n\n[France 24] Afrika Bambaataa, one of hip-hop’s founding pioneers, died on Thursday at the age of 68 from prostate cancer, according to his lawyer. Known for shaping early hip-hop culture through DJing, electro-funk and the Zulu Nation collective, his legacy is both celebrated and contested amid longstanding abuse allegations.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c2evppm30p7o?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/culture/20260410-hip-hop-pioneer-afrika-bambaataa-dies-at-68-from-prostate-cancer"
+      ]
+    },
+    {
+      "id": "singleton_0d1037c3719b",
+      "cluster_time": "2026-04-10T01:30:00+00:00",
+      "category": "local",
+      "headline": "La météo de ce vendredi 10 avril",
+      "summary": "Mi-couvert ce matin avec quelques ondées sur la partie sud et sur les hauteurs. La température minimale variera entre 19 et 21 degrés Celsius sur le plateau central et entre 23 et 25 degrés Cel...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-vendredi-10-avril/704157/"
+      ]
+    },
+    {
+      "id": "singleton_943dc42c3810",
+      "cluster_time": "2026-04-10T00:23:18+00:00",
+      "category": "global",
+      "headline": "India proposes new rules to regulate news and political posts on social media",
+      "summary": "The changes will give government more power over news-related posts shared by podcasters and influencers.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/ce9mx2j3xlxo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_4c3c7ba41019",
+      "cluster_time": "2026-04-10T00:00:00+00:00",
+      "category": "global",
+      "headline": "Iran war live: Israeli attacks on Lebanon threaten US-Iran ceasefire talks",
+      "summary": "Iran’s parliament speaker Mohammad Bagher Ghalibaf warns ‘time is running out’ amid Israel’s attacks on Lebanon.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/4/10/iran-war-live-israeli-attacks-on-lebanon-threaten-us-iran-ceasefire-talks?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_005f56f270ee",
+      "cluster_time": "2026-04-09T23:33:53+00:00",
+      "category": "global",
+      "headline": "Ecuador hikes tariffs to 100-percent in feud with neighbour Colombia",
+      "summary": "Daniel Noboa has accused Colombia's Gustavo Petro of failing to take 'effective measures' against drug trafficking.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/9/ecuador-hikes-tariffs-to-100-percent-in-feud-with-neighbour-colombia?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_38be68060a0b",
+      "cluster_time": "2026-04-09T23:02:13+00:00",
+      "category": "regional",
+      "headline": "Spreading Islamist insurgency dominates Benin's presidential campaign",
+      "summary": "Cross-border raids from militant Islamists are increasingly threatening the West African state's stability.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC Africa"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c75k1631e75o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_32e5cbd74425",
+      "cluster_time": "2026-04-09T23:01:47+00:00",
+      "category": "global",
+      "headline": "Ceasefire or no ceasefire, the Middle East's reshuffling is not yet done",
+      "summary": "Both sides have reason to end the war but share no common ground.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cp3l4yk5rlgo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "e1a56f0a1c70",
+      "cluster_time": "2026-04-09T22:50:43+00:00",
+      "category": "global",
+      "headline": "Venezuela police tear gas protesters calling for pay and pension rises",
+      "summary": "[France 24] Police in Caracas on Thursday launched tear gas at thousands of protesters marching towards the presidential palace to demand pay raises and pension increases. Interim President Delcy Rodriguez announced wage increases on May 1 without disclosing the amount, as many Venezuelans live on salaries so low they struggle to survive.\n\n[Al Jazeera] Cost of living issues have persisted in Venezuela since the US abducted former President Nicolas Maduro in January.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.france24.com/en/americas/20260409-venezuela-police-tear-gas-protesters-calling-for-pay-and-pension-rises",
+        "https://www.aljazeera.com/news/2026/4/9/police-in-venezuela-block-protesters-calling-for-higher-wages-pensions?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_d8a826102924",
+      "cluster_time": "2026-04-09T22:35:26+00:00",
+      "category": "global",
+      "headline": "Judge bars Trump administration from nixing protected status for Ethiopians",
+      "summary": "Ruling marks legal setback for administration's efforts to roll back protections for various groups of immigrants.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/9/judge-bars-trump-administration-from-nixing-protected-status-for-ethiopians?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "c342d9e80ff4",
+      "cluster_time": "2026-04-09T22:33:48+00:00",
+      "category": "global",
+      "headline": "Russia and Ukraine agree to truce for Orthodox Easter",
+      "summary": "[BBC News] Vladimir Putin announced the truce, which will last from Saturday afternoon on 11 April through Easter Sunday.\n\n[France 24] Russian President Vladimir Putin on Thursday announced a ceasefire in Ukraine over the Orthodox Easter weekend.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "France 24"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cn0wkkwev2vo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine"
+      ]
+    },
+    {
+      "id": "ba19733e3d5a",
+      "cluster_time": "2026-04-09T22:27:36+00:00",
+      "category": "global",
+      "headline": "Melania Trump denies ties to Jeffrey Epstein and urges hearing for survivors",
+      "summary": "[BBC News] She called rumours that Epstein introduced her to Donald Trump \"mean-spirited attempts to defame my reputation\".\n\n[France 24] US first lady Melania Trump gave an extraordinary statement from the White House on Thursday denying any ties to late financier and convicted sex offender Jeffrey Epstein. Trump said the \"lies\" linking her to Epstein were \"mean-spirited attempts\" defame her reputation.\n\n[Al Jazeera] Melania calls for Congress to holding survivors' hearing but does not say why she chose to speak on the issue.",
+      "cluster_size": 3,
+      "source_count": 3,
+      "sources": [
+        "BBC News",
+        "France 24",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c3ex07l1qvpo?at_medium=RSS&at_campaign=rss",
+        "https://www.france24.com/en/americas/20260409-melania-trump-delivers-statement-denying-epstein-ties-knowledge-of-his-crimes",
+        "https://www.aljazeera.com/news/2026/4/9/us-first-lady-melania-trump-denies-connection-to-epstein-in-rare-speech?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_5fa3d6988dc5",
+      "cluster_time": "2026-04-09T22:03:15+00:00",
+      "category": "global",
+      "headline": "Hot in the city: Energy crisis tests Singapore's air-con addiction",
+      "summary": "The rise in energy prices has hit Asia particularly hard as many nations are heavily reliant on Gulf oil.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c80mxrdvkpjo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_137839b60ea5",
+      "cluster_time": "2026-04-09T22:02:12+00:00",
+      "category": "global",
+      "headline": "Democrats in US slam Pam Bondi for refusing to appear for Epstein hearing",
+      "summary": "Lawmakers warn the former Justice Department chief that a congressional subpoena for her testimony remains in effect.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/9/democrats-in-us-slam-pam-bondi-for-refusing-to-appear-for-epstein-hearing?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_180119438559",
+      "cluster_time": "2026-04-09T21:36:43+00:00",
+      "category": "global",
+      "headline": "Hospitals in Beirut struggle to deal with casualties after Israeli attacks",
+      "summary": "Doctors warn of worsening crises as vital supplies run low and Israeli attacks devastate Beirut and surrounding areas.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/9/hospitals-in-beirut-struggle-to-deal-with-casualties-after-israeli-attacks?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_afc9fb8dedb5",
+      "cluster_time": "2026-04-09T21:33:29+00:00",
+      "category": "global",
+      "headline": "CAF President Motsepe rejects Senegal’s corruption claim amid AFCON fallout",
+      "summary": "Senegal's government alleged corruption at African football's governing body after AFCON title awarded to Morocco.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/9/caf-president-motsepe-rejects-senegals-corruption-claim-after-afcon-furore?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_f52bac6b4cd2",
+      "cluster_time": "2026-04-09T21:17:01+00:00",
+      "category": "global",
+      "headline": "Real Madrid vs Girona: La Liga – teams, start, kickoff time, lineups",
+      "summary": "Real Madrid's challenges for Spain's La Liga and the UEFA Champions League hang in the balance after consecutive losses.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/9/real-madrid-vs-girona-la-liga-teams-start-kickoff-time-lineups?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_bc28b3bee454",
+      "cluster_time": "2026-04-09T20:57:46+00:00",
+      "category": "global",
+      "headline": "US Justice Department opens probe into NFL over anticompetitive practices",
+      "summary": "The US Justice Department is investigating the NFL amid concerns about broadcast sales to streamers.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/9/us-justice-department-opens-probe-into-nfl-over-anticompetitive-practices?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "2b994f9bf447",
+      "cluster_time": "2026-04-09T20:41:58+00:00",
+      "category": "global",
+      "headline": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
+      "summary": "[BBC News] The Israeli military claims Mohammed Wishah was a \"Hamas terrorist\" - which the Qatar-based network has previously denied.\n\n[Al Jazeera] Wishah is latest Al Jazeera journalist to be killed by Israel in Gaza since the start of the war in October 2023.\n\n[Africanews] Gaza was mourning Al Jazeera correspondent Mohammed Wishah on Thursday after he was killed in an Israeli drone strike that hit his car west of Gaza City a day earlier.",
+      "cluster_size": 3,
+      "source_count": 3,
+      "sources": [
+        "BBC News",
+        "Al Jazeera",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/9/gaza-journalists-mourn-al-jazeeras-wishah-killed-by-israel?traffic_source=rss",
+        "http://www.africanews.com/2026/04/09/gaza-mourns-al-jazeera-reporter-mohammed-wishah-killed-iin-israeli-drone-strike/"
+      ]
+    },
+    {
+      "id": "singleton_ddfd798e354b",
+      "cluster_time": "2026-04-09T20:32:46+00:00",
+      "category": "global",
+      "headline": "NASA's Artemis II: conspiracy theories take off about ‘staged’ green screen",
+      "summary": "NASA’s Artemis II is set to return to Earth on Friday, after its astronauts travelled further from Earth than any humans before. But the historic lunar flyby also inflamed conspiracy theories online about a “staged” mission, and triggered a wave of fake viral AI videos.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/tv-shows/truth-or-fake/20260409-nasa-s-artemis-ii-conspiracy-theories-take-off-about-staged-green-screen"
+      ]
+    },
+    {
+      "id": "singleton_d089be28540a",
+      "cluster_time": "2026-04-09T20:20:34+00:00",
+      "category": "global",
+      "headline": "Nigeria begins trial of 500 terrorism suspects",
+      "summary": "In tonight's edition, amid a surge of violence across Nigeria, Abuja begins mass trials of 500 suspected terrorists in 13 courtrooms under heavy security. Also, Benin votes this Sunday as Patrice Talon steps down after a decade in power. And Algerian boxing star Imane Khelif returns to the ring for her first pro fight since Olympic gold in Paris.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/nigeria-begins-trial-of-500-terrorism-suspects"
+      ]
+    },
+    {
+      "id": "singleton_44487ff068f0",
+      "cluster_time": "2026-04-09T20:16:45+00:00",
+      "category": "global",
+      "headline": "Khamenei says Tehran ‘astonished the world’ during US-Israeli war on Iran",
+      "summary": "In a statement read out on television, Mojtaba Khamenei said Tehran will 'demand compensation' for war damages.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/9/khamenei-says-tehran-astonished-the-world-during-us-israeli-war-on-iran?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_729f15c518fa",
+      "cluster_time": "2026-04-09T20:09:52+00:00",
+      "category": "global",
+      "headline": "Saudi Arabia says operational activities halted at several energy sites",
+      "summary": "Attacks on energy facilities cause a reduced supply and slow recovery, a Saudi official tells state news agency.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/9/saudi-arabia-says-operational-activities-halted-at-several-energy-sites?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_4d9567290952",
+      "cluster_time": "2026-04-09T20:07:08+00:00",
+      "category": "global",
+      "headline": "Petrol and diesel prices rise again as concerns grow over ceasefire",
+      "summary": "Motoring groups have warned drivers not to expect a significant drop in costs soon.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cq6j0rnvlzeo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -138,50 +573,18 @@
       ]
     },
     {
-      "id": "singleton_40e2aa4fa11e",
-      "cluster_time": "2026-04-09T19:28:31+00:00",
-      "category": "global",
-      "headline": "Melania Trump delivers statement denying Epstein ties, knowledge of his crimes",
-      "summary": "US first lady Melania Trump gave an extraordinary statement from the White House on Thursday denying any ties to late financier and convicted sex offender Jeffrey Epstein. Trump said the \"lies\" linking her to Epstein were \"mean-spirited attempts\" defame her reputation.",
+      "id": "singleton_3be28efa7ba1",
+      "cluster_time": "2026-04-09T19:24:03+00:00",
+      "category": "regional",
+      "headline": "IMF chief warns that Iran war will slow global economic growth",
+      "summary": "The war on Iran is darkening the outlook for the world economy — whether or not a fragile ceasefire holds, the head of the International Monetary Fund warned Thursday",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/americas/20260409-melania-trump-delivers-statement-denying-epstein-ties-knowledge-of-his-crimes"
-      ]
-    },
-    {
-      "id": "3b4da1ba2a99",
-      "cluster_time": "2026-04-09T19:24:03+00:00",
-      "category": "global",
-      "headline": "IMF warns of looming inflation crisis on back of US-Israel war on Iran",
-      "summary": "[Al Jazeera] The conflict has driven up prices of oil, natural gas, damaged refineries and other energy infrastructure.\n\n[Africanews] The war on Iran is darkening the outlook for the world economy — whether or not a fragile ceasefire holds, the head of the International Monetary Fund warned Thursday",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
         "Africanews"
       ],
       "urls": [
-        "https://www.aljazeera.com/economy/2026/4/9/imf-warns-of-looming-inflation-crisis-on-back-of-us-israel-war-on-iran?traffic_source=rss",
         "http://www.africanews.com/2026/04/09/imf-chief-warns-that-iran-war-will-slow-global-economic-growth/"
-      ]
-    },
-    {
-      "id": "singleton_2fff437204b3",
-      "cluster_time": "2026-04-09T19:22:04+00:00",
-      "category": "global",
-      "headline": "Putin announces Orthodox Easter ceasefire in Ukraine after Kyiv proposes same",
-      "summary": "Russian President Vladimir Putin on Thursday announced a ceasefire in Ukraine over the Orthodox Easter weekend.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/europe/20260409-putin-announces-orthodox-easter-ceasefire-in-ukraine"
       ]
     },
     {
@@ -200,99 +603,6 @@
       ]
     },
     {
-      "id": "singleton_fd43d6fa4a2a",
-      "cluster_time": "2026-04-09T18:49:00+00:00",
-      "category": "global",
-      "headline": "Iran says it ‘would be dumb’ for US to let Netanyahu kill diplomacy",
-      "summary": "In an implicit response to JD Vance, Iran's Abbas Araghchi warns of the repercussions of Israel's attacks on Lebanon.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/9/iran-says-it-would-be-dumb-for-us-to-let-netanyahu-kill-diplomacy?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_9e67995586b0",
-      "cluster_time": "2026-04-09T18:37:00+00:00",
-      "category": "local",
-      "headline": "[Info Soirée] : « Inn fer zot fim mass, met string »",
-      "summary": "Au Sommaire de ce Jeudi 09 Avril 2026 :• La Twaha Academy sous enquête. Violences, maltraitance, actes indécents et e",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/info-soiree-inn-fer-zot-fim-mass-met-string"
-      ]
-    },
-    {
-      "id": "070bedcc9446",
-      "cluster_time": "2026-04-09T18:27:32+00:00",
-      "category": "global",
-      "headline": "Sidelined by Trump’s truce with Iran, Israel pummels Lebanon – then agrees to talks",
-      "summary": "[France 24] The ceasefire between the US and Iran has sidelined Israel and left its war goals largely unmet, leading Benjamin Netanyahu’s critics to lament a “strategic failure” that has damaged Israel’s standing in Washington. With his hands tied on Iran, the Israeli PM has agreed to peace talks with Lebanon under pressure from the US, just hours after vowing to pursue his country’s deadly campaign.\n\n[Al Jazeera] Israeli PM says his gov't ready to enter negotiations on 'disarming Hezbollah' and 'establishing peaceful relations'.\n\n[France 24] 🔴 Live: Israel's Netanyahu says instructed cabinet 'to begin direct negotiations' with Lebanon",
-      "cluster_size": 3,
-      "source_count": 2,
-      "sources": [
-        "France 24",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.france24.com/en/middle-east/20260409-sidelined-trump-ceasefire-iran-israel-pummels-lebanon-agrees-talks-netanyahu",
-        "https://www.aljazeera.com/news/2026/4/9/israels-netanyahu-ready-for-talks-with-lebanon-as-soon-as-possible?traffic_source=rss",
-        "https://www.france24.com/en/middle-east/20260409-middle-east-live-us-iran-truce-enters-second-day-as-war-flares-in-lebanon"
-      ]
-    },
-    {
-      "id": "singleton_4d9567290952",
-      "cluster_time": "2026-04-09T18:27:14+00:00",
-      "category": "global",
-      "headline": "Petrol and diesel prices rise again as concerns grow over ceasefire",
-      "summary": "Motoring groups have warned drivers not to expect a significant drop in costs soon.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cq6j0rnvlzeo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_b08136b4f28a",
-      "cluster_time": "2026-04-09T18:22:55+00:00",
-      "category": "global",
-      "headline": "‘Not some piece of ice’: Greenland hits back at Trump insult",
-      "summary": "PM Nielsen calls Greenland a proud nation seeking to maintain global order, after US president calls it 'piece of ice'.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/9/not-some-piece-of-ice-greenland-hits-back-at-trump-insult?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_adf29b95ccb7",
-      "cluster_time": "2026-04-09T18:20:57+00:00",
-      "category": "global",
-      "headline": "UK says three Russian submarines tracked during ‘covert’ operation",
-      "summary": "British defence minister says the operation did not find evidence that Russia had damaged undersea infrastructure.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/9/uk-says-three-russian-submarines-tracked-during-covert-operation?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_86080bd54af7",
       "cluster_time": "2026-04-09T18:12:38+00:00",
       "category": "global",
@@ -305,24 +615,6 @@
       ],
       "urls": [
         "https://www.france24.com/en/tv-shows/the-debate/20260409-who-profits-off-iran-war-strait-of-hormuz-toll-talk-fuels-outrage"
-      ]
-    },
-    {
-      "id": "f0b24dea98a1",
-      "cluster_time": "2026-04-09T17:38:26+00:00",
-      "category": "global",
-      "headline": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
-      "summary": "[BBC News] Israel says Lebanon is not included in the ceasefire the US agreed to halt the war with Iran.\n\n[BBC News] Iran's deputy foreign minister says the US must choose between 'war and ceasefire'.\n\n[Al Jazeera] Democratic lawmakers tell White House that allowing Israel to continue to bomb Lebanon could reignite the regional war.",
-      "cluster_size": 3,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss",
-        "https://www.bbc.com/news/articles/cp849k4j0y1o?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/9/us-democrats-warn-trump-that-iran-ceasefire-must-apply-to-lebanon?traffic_source=rss"
       ]
     },
     {
@@ -371,33 +663,33 @@
       ]
     },
     {
-      "id": "singleton_1a6e04f58e69",
-      "cluster_time": "2026-04-09T17:23:41+00:00",
+      "id": "singleton_a6324e117bd2",
+      "cluster_time": "2026-04-09T17:16:08+00:00",
       "category": "global",
-      "headline": "LA28 Olympics opens ticket sales globally after record local demand",
-      "summary": "LA28 sold more tickets to the domestic audience than any previous Olympic Games as sales open to rest of the world.",
+      "headline": "Lebanon thought there was a ceasefire - then Israel unleashed deadly blitz",
+      "summary": "Israel says Lebanon is not included in the ceasefire the US agreed to halt the war with Iran.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Al Jazeera"
+        "BBC News"
       ],
       "urls": [
-        "https://www.aljazeera.com/sports/2026/4/9/la28-olympics-opens-ticket-sales-globally-after-record-local-demand?traffic_source=rss"
+        "https://www.bbc.com/news/articles/cgk0edynpmzo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
-      "id": "singleton_98b60b4a44d9",
-      "cluster_time": "2026-04-09T17:13:21+00:00",
+      "id": "singleton_440ed3693bf4",
+      "cluster_time": "2026-04-09T17:09:57+00:00",
       "category": "global",
-      "headline": "Venezuela police tear gas protesters calling for pay and pension rises",
-      "summary": "Police in Caracas on Thursday launched tear gas at thousands of protesters marching towards the presidential palace to demand pay raises and pension increases. Interim President Delcy Rodriguez announced wage increases on May 1 without disclosing the amount, as many Venezuelans live on salaries so low they struggle to survive.",
+      "headline": "UK says Russia ran submarine operation over cables and pipelines",
+      "summary": "Defence Secretary John Healey says there is \"no evidence\" of any damage to UK infrastructure in the Atlantic.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "France 24"
+        "BBC News"
       ],
       "urls": [
-        "https://www.france24.com/en/americas/20260409-venezuela-police-tear-gas-protesters-calling-for-pay-and-pension-rises"
+        "https://www.bbc.com/news/articles/cre13qn9z7do?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -458,21 +750,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/09/gambia-appoints-special-prosecutor-for-jammeh-era-crimes/"
-      ]
-    },
-    {
-      "id": "singleton_7ae5e146a80e",
-      "cluster_time": "2026-04-09T16:16:09+00:00",
-      "category": "global",
-      "headline": "Humanitarian situation in Sudan at ‘catastrophic levels’, says NGO",
-      "summary": "Humanity & Inclusion says people with disabilities face extreme challenges amid war and humanitarian crisis.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/9/humanitarian-situation-in-sudan-at-catastrophic-levels-says-ngo?traffic_source=rss"
       ]
     },
     {
@@ -551,51 +828,6 @@
       ]
     },
     {
-      "id": "singleton_d9dc4925555f",
-      "cluster_time": "2026-04-09T15:54:26+00:00",
-      "category": "global",
-      "headline": "India’s Assam and Kerala states hold legislative assembly elections",
-      "summary": "Voting also held in the federal territory of ​Puducherry, while West Bengal and Tamil Nadu will vote later this month.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/9/indias-assam-and-kerala-states-hold-legislative-assembly-elections?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_4a0893109159",
-      "cluster_time": "2026-04-09T15:53:33+00:00",
-      "category": "global",
-      "headline": "Israel bombed Gaza on 36 of the past 40 days while the war raged in Iran",
-      "summary": "Israel killed 107 people, permitted only 8 percent of medical evacuations, and admitted just 20 percent of trucks.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/9/israel-bombed-gaza-on-36-of-the-past-40-days-while-the-war-raged-in-iran?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_391c6751c741",
-      "cluster_time": "2026-04-09T15:52:12+00:00",
-      "category": "global",
-      "headline": "A record-breaking field: What to expect from Peru’s presidential election",
-      "summary": "Crime and corruption are top issues for voters as the country struggles to cope with persistent political instability.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/9/a-record-breaking-field-what-to-expect-from-perus-presidential-election?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_d59edd5dc9d1",
       "cluster_time": "2026-04-09T15:43:11+00:00",
       "category": "regional",
@@ -608,6 +840,21 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/09/womens-sports-revenues-set-to-break-3bn-in-2026/"
+      ]
+    },
+    {
+      "id": "singleton_a5cd22a828a5",
+      "cluster_time": "2026-04-09T15:40:20+00:00",
+      "category": "global",
+      "headline": "🔴 Live: Israel's Netanyahu says instructed cabinet 'to begin direct negotiations' with Lebanon",
+      "summary": "🔴 Live: Israel's Netanyahu says instructed cabinet 'to begin direct negotiations' with Lebanon",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "France 24"
+      ],
+      "urls": [
+        "https://www.france24.com/en/middle-east/20260409-middle-east-live-us-iran-truce-enters-second-day-as-war-flares-in-lebanon"
       ]
     },
     {
@@ -735,27 +982,6 @@
       ]
     },
     {
-      "id": "f553b8632e87",
-      "cluster_time": "2026-04-09T14:52:54+00:00",
-      "category": "global",
-      "headline": "At least 182 killed across Lebanon in large wave of Israeli strikes",
-      "summary": "[BBC News] Attacks hit the southern suburbs of Beirut, southern Lebanon and the eastern Bekaa Valley, hours after a US-Iran ceasefire was announced.\n\n[Al Jazeera] More than 250 people have been killed in a barrage of air strikes on Lebanon since the ceasefire was declared.\n\n[Africanews] Lebanon is searching for survivors after Israeli strikes on Beirut, Tyre and the southern village of Abbassiyeh killed at least 203 people and wounded more than 1,000, the health ministry said, as the overall death toll from attacks since early March surpasses 1,500.\n\n[Africanews] Lebanon spent the night digging through rubble after Israeli strikes hit busy commercial and residential districts in central Beirut late on Wednesday, killing at least 182 people and wounding 890, according to the health ministry.\n\n[Africanews] Emergency workers in Beirut are searching for survivors after Israeli strikes on busy commercial and residential areas of the Lebanese capital on Wednesday. Now there are fears the Middle East ceasefire is at risk.",
-      "cluster_size": 5,
-      "source_count": 3,
-      "sources": [
-        "BBC News",
-        "Al Jazeera",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c0j6d538l6qo?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/9/israeli-attacks-on-lebanon-aimed-to-undermine-ceasefire-critics-say?traffic_source=rss",
-        "http://www.africanews.com/2026/04/09/israeli-strikes-on-lebanon-leave-more-than-200-dead-and-1000-wounded/",
-        "http://www.africanews.com/2026/04/09/israeli-strikes-on-beirut-kill-at-least-182-and-wound-hundreds/",
-        "http://www.africanews.com/2026/04/09/rescue-workers-in-beirut-search-for-survivors-after-israeli-strikes-on-lebanon/"
-      ]
-    },
-    {
       "id": "singleton_3744fd9b6236",
       "cluster_time": "2026-04-09T14:52:09+00:00",
       "category": "global",
@@ -798,21 +1024,6 @@
       ],
       "urls": [
         "https://www.france24.com/en/europe/20260409-trump-vance-support-for-hungary-s-orban-is-not-meddling-in-upcoming-vote-says-us-envoy"
-      ]
-    },
-    {
-      "id": "singleton_a7b23d5d54ed",
-      "cluster_time": "2026-04-09T14:47:13+00:00",
-      "category": "global",
-      "headline": "Has Iran’s 10-point plan changed, as JD Vance claims?",
-      "summary": "The proposal fuels uncertainty as US officials offer conflicting interpretations of the plan to permanently end hostilities.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/9/has-irans-10-point-plan-changed-as-jd-vance-claims?traffic_source=rss"
       ]
     },
     {
@@ -891,21 +1102,6 @@
       ]
     },
     {
-      "id": "singleton_9fbd0e82688f",
-      "cluster_time": "2026-04-09T14:12:43+00:00",
-      "category": "global",
-      "headline": "India hit by Middle East war: Millions face gas shortages",
-      "summary": "In the weeks leading up to the ceasefire, the impact of the war in the Middle East was felt far beyond the region, reaching countries such as India. The nation of nearly 1.5 billion people relies heavily on imports of cooking gas, or LPG, much of it sourced from the Middle East. When Iran blocked the Strait of Hormuz – a critical global shipping route – supplies were severely disrupted. Long queues formed outside distribution centres in major cities, forcing many to turn to the black market. The",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "France 24"
-      ],
-      "urls": [
-        "https://www.france24.com/en/tv-shows/focus/20260409-india-hit-by-middle-east-war-millions-face-gas-shortages"
-      ]
-    },
-    {
       "id": "singleton_da2171cc6e2e",
       "cluster_time": "2026-04-09T14:05:00+00:00",
       "category": "local",
@@ -963,23 +1159,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/09/gaza-selling-handmade-dolls-to-survive-and-bring-joy-to-children/"
-      ]
-    },
-    {
-      "id": "ff452998becd",
-      "cluster_time": "2026-04-09T13:45:15+00:00",
-      "category": "global",
-      "headline": "Al Jazeera condemns killing of journalist in Israeli strike in Gaza",
-      "summary": "[BBC News] The Israeli military claims Mohammed Wishah was a \"Hamas terrorist\" - which the Qatar-based network has previously denied.\n\n[Africanews] Gaza was mourning Al Jazeera correspondent Mohammed Wishah on Thursday after he was killed in an Israeli drone strike that hit his car west of Gaza City a day earlier.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cg40nqzvwq2o?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/04/09/gaza-mourns-al-jazeera-reporter-mohammed-wishah-killed-iin-israeli-drone-strike/"
       ]
     },
     {
@@ -1076,6 +1255,21 @@
       ]
     },
     {
+      "id": "singleton_68224e43993b",
+      "cluster_time": "2026-04-09T13:12:45+00:00",
+      "category": "global",
+      "headline": "Amazon to end support for older Kindles, prompting user outcry",
+      "summary": "The move means owners of Kindles released before 2013 will be unable to download new e-books.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c98k91yy4z4o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
       "id": "singleton_59d4b1000465",
       "cluster_time": "2026-04-09T13:11:03+00:00",
       "category": "global",
@@ -1103,6 +1297,23 @@
       ],
       "urls": [
         "https://www.lemauricien.com/actualites/societe/commission-des-affaires-parlementaires-de-lapf-la-speaker-ce-nest-pas-par-hasard-que-la-langue-francaise-a-survecu-ici/704102/"
+      ]
+    },
+    {
+      "id": "2bd4160f578c",
+      "cluster_time": "2026-04-09T12:36:31+00:00",
+      "category": "regional",
+      "headline": "Israeli strikes on Lebanon leave more than 200 dead and 1,000 wounded",
+      "summary": "[Africanews] Lebanon is searching for survivors after Israeli strikes on Beirut, Tyre and the southern village of Abbassiyeh killed at least 203 people and wounded more than 1,000, the health ministry said, as the overall death toll from attacks since early March surpasses 1,500.\n\n[Africanews] Lebanon spent the night digging through rubble after Israeli strikes hit busy commercial and residential districts in central Beirut late on Wednesday, killing at least 182 people and wounding 890, according to the health ministry.\n\n[Africanews] Emergency workers in Beirut are searching for survivors after Israeli strikes on busy commercial and residential areas of the Lebanese capital on Wednesday. Now there are fears the Middle East ceasefire is at risk.",
+      "cluster_size": 3,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/09/israeli-strikes-on-lebanon-leave-more-than-200-dead-and-1000-wounded/",
+        "http://www.africanews.com/2026/04/09/israeli-strikes-on-beirut-kill-at-least-182-and-wound-hundreds/",
+        "http://www.africanews.com/2026/04/09/rescue-workers-in-beirut-search-for-survivors-after-israeli-strikes-on-lebanon/"
       ]
     },
     {
@@ -1139,7 +1350,7 @@
       "id": "singleton_f3273bb9c028",
       "cluster_time": "2026-04-09T12:30:00+00:00",
       "category": "local",
-      "headline": "Biens saisis : vente aux enchères publiques à la FCC",
+      "headline": "Biens saisis : vente aux enchères publiques...",
       "summary": "Nous avons sollicité la Chief Officer de l’Asset Recovery Unit, Anuja Appadoo-Bhikoo, pour nous parler de la vente aux enchères de biens saisis que s’apprête à organiser la Financial Crimes Co...",
       "cluster_size": 1,
       "source_count": 1,
@@ -2269,19 +2480,17 @@
       ]
     },
     {
-      "id": "d753638947c9",
+      "id": "singleton_8d83a28a7ffd",
       "cluster_time": "2026-04-09T07:28:55+00:00",
       "category": "local",
-      "headline": "La météo de ce jeudi 9 avril",
-      "summary": "[Le Mauricien] Une matinée globalement ensoleillée est attendue, avec toutefois quelques ondées occasionnelles sur les versants au vent et le Plateau central. La température maximale variera entre 24 et 27 de...\n\n[ION News] Un vent léger à modéré souffle sur notre région. Il fera beau temps ce jeudi. Le vent soufflera du sud-est de 15 à 25 km/h. La mer sera forte au-delà des récifs avec des houles du sud-ouest de l’ordre de 2 mètres 50. Les sorties en haute mer, de même que dans les lagons de l’Ouest et du Sud sont déconseillées. La température maximale variera entre 24 et 27 degrés Celsius sur les terrains élevés et entre 29 et 32 degrés Celsius sur les régions côtières au cours de la journée. La température minim",
-      "cluster_size": 2,
-      "source_count": 2,
+      "headline": "Du beau temps ce jeudi",
+      "summary": "Un vent léger à modéré souffle sur notre région. Il fera beau temps ce jeudi. Le vent soufflera du sud-est de 15 à 25 km/h. La mer sera forte au-delà des récifs avec des houles du sud-ouest de l’ordre de 2 mètres 50. Les sorties en haute mer, de même que dans les lagons de l’Ouest et du Sud sont déconseillées. La température maximale variera entre 24 et 27 degrés Celsius sur les terrains élevés et entre 29 et 32 degrés Celsius sur les régions côtières au cours de la journée. La température minim",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "Le Mauricien",
         "ION News"
       ],
       "urls": [
-        "https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-jeudi-9-avril/704033/",
         "https://ionnews.mu/du-beau-temps-ce-jeudi-9/"
       ]
     },
@@ -2316,36 +2525,6 @@
       ]
     },
     {
-      "id": "singleton_72500ac1c2fc",
-      "cluster_time": "2026-04-09T07:00:00+04:00",
-      "category": "local",
-      "headline": "Électricité : Des restrictions promulguées pour les usages non-essentiels",
-      "summary": "La valeur d’une cargaison d’huile lourde de 33 500 métriques tonnes, livrée à Port-Louis la semaine dernière, a coûté Rs 499 millions supplémentaires, soit une augmentation de 68 % dans l...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/electricite-des-restrictions-promulguees-pour-les-usages-non-essentiels/704012/"
-      ]
-    },
-    {
-      "id": "singleton_bfc570861018",
-      "cluster_time": "2026-04-09T07:00:00+00:00",
-      "category": "local",
-      "headline": "Négligence médicale mortelle : la levée de suspension du Dr Nishan Moheeputh divise",
-      "summary": "Reconnu coupable de négligence médicale grave ayant entraîné le décès d’une patiente après une liposuccion, le Dr Nishan",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/negligence-medicale-mortelle-la-levee-de-suspension-du-dr-nishan-moheeputh-divise"
-      ]
-    },
-    {
       "id": "singleton_878bcb645b8c",
       "cluster_time": "2026-04-09T07:00:00+00:00",
       "category": "local",
@@ -2376,21 +2555,6 @@
       ]
     },
     {
-      "id": "singleton_42584da557e3",
-      "cluster_time": "2026-04-09T06:34:00+00:00",
-      "category": "local",
-      "headline": "Ras Natty Baby transféré d’urgence en Inde pour des soins spécialisés",
-      "summary": "Admis en soins intensifs à la suite de complications liées à une infection aiguë à la jambe droite causée par une cellul",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/ras-natty-baby-transfere-durgence-en-inde-pour-des-soins-specialises"
-      ]
-    },
-    {
       "id": "singleton_a61f70eaebbf",
       "cluster_time": "2026-04-09T06:30:58+00:00",
       "category": "local",
@@ -2403,21 +2567,6 @@
       ],
       "urls": [
         "https://newsmoris.com/bank-one-unveils-luxury-lounge-and-elite-metal-card-in-strategic-growth-push/"
-      ]
-    },
-    {
-      "id": "singleton_0c6921da922f",
-      "cluster_time": "2026-04-09T06:30:00+00:00",
-      "category": "local",
-      "headline": "Mise en liquidation - Silver Bank : les déposants face au risque de pertes",
-      "summary": "Après l’échec du redressement, la mise en liquidation de la Silver Bank laisse les gros déposants dans l’incertitude. Se",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/mise-en-liquidation-silver-bank-les-deposants-face-au-risque-de-pertes"
       ]
     },
     {
@@ -2466,36 +2615,6 @@
       ]
     },
     {
-      "id": "singleton_15419c804efd",
-      "cluster_time": "2026-04-09T06:05:00+00:00",
-      "category": "local",
-      "headline": "SOS Village de nouveau sous le feu des critiques : visite surprise d’Aneeta Ghoorah",
-      "summary": "L’Ombudsperson for Children, Aneeta Ghoorah, a effectué une visite surprise au sein du SOS Village, et les constats sont",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/sos-village-de-nouveau-sous-le-feu-des-critiques-visite-surprise-daneeta-ghoorah"
-      ]
-    },
-    {
-      "id": "singleton_26c7ae3f759e",
-      "cluster_time": "2026-04-09T06:00:00+00:00",
-      "category": "local",
-      "headline": "Air Mauritius | Allégations de gratification : Anba Manikham accusé d’avoir  vendu une voiture à sa compagne",
-      "summary": "Anba Manikham, ancien Senior Manager Ground Services Worldwide à Air Mauritius, a été arrêté par la Financial Crimes Commission (FCC) dans le cadre d’une enquête portant sur une...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/air-mauritius-allegations-de-gratification-anba-manikham-accuse-davoir-vendu-une-voiture-a-sa-compagne/704087/"
-      ]
-    },
-    {
       "id": "singleton_1f0670e7abc4",
       "cluster_time": "2026-04-09T05:57:18+00:00",
       "category": "global",
@@ -2538,66 +2657,6 @@
       ],
       "urls": [
         "https://newsmoris.com/3-major-economic-sectors-face-disruptions-as-business-mauritius-calls-for-urgent-action/"
-      ]
-    },
-    {
-      "id": "singleton_a7772051557c",
-      "cluster_time": "2026-04-09T01:59:34+00:00",
-      "category": "global",
-      "headline": "Trump criticises Nato as alliance chief describes meeting as 'very frank'",
-      "summary": "The US president says Nato \"wasn't there when we needed them\" during the Iran war.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c05d8j9r5ejo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_29c013c89441",
-      "cluster_time": "2026-04-08T22:46:58+00:00",
-      "category": "global",
-      "headline": "Prosecutors seek Tiger Woods' prescription drug records after Florida arrest",
-      "summary": "A legal order seeking the golfer's medications - including dosage and warnings about driving on pill bottles - will be issued later this month, court record shows.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c77mz26ed80o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_b718384eb44d",
-      "cluster_time": "2026-04-08T20:27:01+00:00",
-      "category": "regional",
-      "headline": "South Africa accepts US envoy's credentials amid moves to thaw ties",
-      "summary": "South African President Cyril Ramaphosa on Wednesday received the diplomatic credentials of the new US ambassador, as relations between the two countries languish at a low ebb",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/08/south-africa-accepts-us-envoys-credentials-amid-moves-to-thaw-ties/"
-      ]
-    },
-    {
-      "id": "singleton_dcc7d2ba46ca",
-      "cluster_time": "2026-04-08T20:25:49+00:00",
-      "category": "global",
-      "headline": "What we know about the two-week ceasefire between the US and Iran",
-      "summary": "The provisional truce comes more than a month after the US and Israel launched coordinated attacks on Iran.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/ce84z6y3ke4o?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
