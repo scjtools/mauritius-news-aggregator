@@ -22,19 +22,9 @@ rss_feeds:
     language: "en"
     category: "regional"
 
-  - name: "BBC Africa"
-    url: "https://bbc-feeds.danq.dev/africa-no-sports.xml"
-    language: "en"
-    category: "regional"
-
   # ── Global ───────────────────────────────────────────────────
   - name: "BBC News"
     url: "https://bbc-feeds.danq.dev/world-sports.xml"
-    language: "en"
-    category: "global"
-
-  - name: "BBC Technology"
-    url: "https://bbc-feeds.danq.dev/technology-no-sports.xml"
     language: "en"
     category: "global"
 
@@ -42,13 +32,6 @@ rss_feeds:
     url: "https://www.aljazeera.com/xml/rss/all.xml"
     language: "en"
     category: "global"
-
-  - name: "France 24"
-    url: "https://www.france24.com/en/rss"
-    language: "en"
-    category: "global"
-    summary_fallback_title: true
-
 
 scrapers:
 
