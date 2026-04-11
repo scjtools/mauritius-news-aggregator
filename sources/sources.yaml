@@ -23,13 +23,18 @@ rss_feeds:
     category: "regional"
 
   - name: "BBC Africa"
-    url: "https://bbc-feeds.danq.dev/africa-sports.xml"
+    url: "https://bbc-feeds.danq.dev/africa-no-sports.xml"
     language: "en"
     category: "regional"
 
   # ── Global ───────────────────────────────────────────────────
   - name: "BBC News"
     url: "https://bbc-feeds.danq.dev/world-sports.xml"
+    language: "en"
+    category: "global"
+
+  - name: "BBC Technology"
+    url: "https://bbc-feeds.danq.dev/technology-no-sports.xml"
     language: "en"
     category: "global"
 
@@ -77,23 +82,12 @@ scrapers:
       - "/actualites/economie/"
 
   # ── Utilities & data ─────────────────────────────────────────
-  - name: "Mauritius Met Services"
-    url: "https://metservice.intnet.mu/forecast-bulletin-english-mauritius.php"
-    language: "en"
-    category: "weather"
-    type: bulletin
 
   - name: "Stock Exchange of Mauritius"
     url: "https://www.stockexchangeofmauritius.com/products-market-data/indices"
     language: "en"
     category: "finance"
     type: semdex
-
-  - name: "CEB Power Outages"
-    url: "https://raw.githubusercontent.com/MrSunshyne/mauritius-dataset-electricity/main/data/power-outages.latest.json"
-    language: "en"
-    category: "utilities"
-    type: power_outages
 
   - name: "Mauritius Public Holidays"
     url: "data/public_holidays.yaml"
