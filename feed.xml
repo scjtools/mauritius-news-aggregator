@@ -4,54 +4,293 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Sat, 11 Apr 2026 18:07:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 12 Apr 2026 03:33:38 +0000</lastBuildDate>
     <item>
-      <title>Brent Crude Oil price – 11 April 2026</title>
+      <title>Brent Crude Oil price – 12 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
       <description>Brent Crude Oil: USD 95.20 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-11T18:03:49.557614+00:00</cluster_time>
+      <cluster_time>2026-04-12T03:30:07.290020+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 11 April 2026</title>
+      <title>Bitcoin price – 12 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 73,097.21 (▲ +3.82% from last)</description>
+      <description>Bitcoin (BTC): USD 71,685.74 (▲ +1.82% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-11T18:03:49.352782+00:00</cluster_time>
+      <cluster_time>2026-04-12T03:30:07.176164+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 11 April 2026</title>
+      <title>Gold price – 12 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
       <description>Gold (XAU): USD 4,749.20 (▲ +8.20% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-11T18:03:48.883861+00:00</cluster_time>
+      <cluster_time>2026-04-12T03:30:06.878801+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 11 April 2026</title>
+      <title>MUR exchange rates – 12 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
       <description>MUR/USD 46.56 | MUR/EUR 54.48 (▲ 0.07 from last) (▲ 0.79 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-11T18:03:48.545511+00:00</cluster_time>
+      <cluster_time>2026-04-12T03:30:06.445615+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 11 April 2026</title>
+      <title>SEMDEX – 12 April 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2243.42 (▲ 20.22 pts, +0.91% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-11T18:03:46.341874+00:00</cluster_time>
+      <cluster_time>2026-04-12T03:30:04.107751+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>9E CONFÉRENCE DE L’OCÉAN INDIEN – Ramgoolam : « Le cessez-le-feu au Moyen-Orient est fragile »</title>
+      <link>https://www.lemauricien.com/actualites/societe/9e-conference-de-locean-indien-ramgoolam-le-cessez-le-feu-au-moyen-orient-est-fragile/704328/</link>
+      <description>– « Nous devons travailler ensemble pour une résolution pacifique et permanente de la crise » Le Premier ministre, Navin Ramgoolam, a mis en garde contre la fragilité du cessez-le-feu en vigu...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-12T03:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Paul Bérenger : « Nous déciderons de ce que nous ferons lundi matin »</title>
+      <link>https://defimedia.info/paul-berenger-nous-deciderons-de-ce-que-nous-ferons-lundi-matin</link>
+      <description>Réagissant à l’issue de l’Assemblée des délégués, samedi, le leader du MMM conteste la légitimité de cette réunion. Il i</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-12T02:41:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Météo : l’anticyclone s’éloigne, temps mi-couvert ce dimanche</title>
+      <link>https://defimedia.info/meteo-lanticyclone-seloigne-temps-mi-couvert-ce-dimanche</link>
+      <description>Avec l’éloignement de l’anticyclone vers le sud-est, un vent léger souffle sur notre région. Des nuages en provenance de</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-12T02:23:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>« Cela m'est égal », dit Trump</title>
+      <link>https://defimedia.info/cela-mest-egal-dit-trump</link>
+      <description>&quot;Cela m'est égal&quot; si un accord est conclu ou non avec l'Iran, a affirmé samedi Donald Trump, au premier jour des pourpar</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-12T01:48:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>La météo de ce dimanche 12 avril</title>
+      <link>https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-dimanche-12-avril/704326/</link>
+      <description>Mi-couvert avec quelques averses ce matin surtout à l'est et sur le plateau central. Des développements nuageux temporaires sont attendus dans l'après-midi à l'ouest, au sud-ouest et sur le pla...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-12T01:30:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Why this disillusioned Trump voter spends hours searching Epstein files</title>
+      <link>https://www.bbc.com/news/articles/cx237vmr2lyo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Many who support the president have expressed frustration with how Trump's former attorney general Pam Bondi handled the Epstein files.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-12T00:30:44+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>India refuses to criminalise marital rape. This new series shines a light on it</title>
+      <link>https://www.bbc.com/news/articles/cgqkl2kqkxzo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Chiraiya, which has drawn an audience of millions, has prompted conversations on social media around consent and misogyny.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-12T00:16:41+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran war live: Vance says no deal reached, US has made ‘best, final offer’</title>
+      <link>https://www.aljazeera.com/news/liveblog/2026/4/12/iran-war-live-historic-face-to-face-talks-with-us-continue-in-islamabad?traffic_source=rss</link>
+      <description>Iran and US continue direct talks in Islamabad, with the Strait of Hormuz believed to be a key sticking point.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-12T00:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>[Info Soirée] : : « Li pa tro for lor avoy mesaz for »</title>
+      <link>https://defimedia.info/info-soiree-li-pa-tro-lor-avoy-mesaz</link>
+      <description>Au Sommaire de ce Samedi 11 Avril 2026 :Le MMM reste au gouvernement…Décision entérinée par l’Assemblée des délégués…à B</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-12T00:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Hungarians decide whether to end 16 years of Orbán rule and elect rival</title>
+      <link>https://www.bbc.com/news/articles/cdxdepjrv95o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Most polls favour Péter Magyar, who fronts a grassroots party, but PM Viktor Orbán has been in a defiant mood.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T23:25:42+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>The prophet and the mysterious death of Charmain Speirs</title>
+      <link>https://www.bbc.com/news/articles/cevk1jrg4g8o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>A BBC Disclosure investigation has uncovered significant questions about what happened at the hotel where Charmain died.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T23:14:11+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>We spoke to the man making viral Lego-style AI videos for Iran. Experts say it's powerful propaganda</title>
+      <link>https://www.bbc.com/news/articles/cjd8jrd1vnyo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>&quot;Slopaganda&quot; is too weak a term to capture how powerful this &quot;highly sophisticated&quot; content is, one expert says.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T23:13:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran war lands 'triple blow' to flood-ravaged Sri Lankans</title>
+      <link>https://www.bbc.com/news/articles/c4gvkpj0024o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The Iran war could not have come at a worse time for Sri Lanka, reeling from devastating floods and an economic crisis.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T23:06:49+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Prosecutor probes abuse claims against California governor candidate Swalwell</title>
+      <link>https://www.bbc.com/news/articles/c7vq0jnn0yro?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The high-profile Democrat, a leading contender in California's governor race, has firmly denied the accusations.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T22:57:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua</title>
+      <link>https://www.aljazeera.com/sports/2026/4/11/fury-beats-makhmudov-in-heavyweight-boxing-comeback-then-calls-out-joshua?traffic_source=rss</link>
+      <description>[Al Jazeera] Tyson Fury beats Arslanbek Makhmudov in a unanimous points decision as he makes his heavyweight comeback.
+
+[Al Jazeera] All the updates from the main card, as Fury beat Makhmudov in London.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T22:28:58+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>1</source_count>
+      <cluster_id>afc56086c01b</cluster_id>
+      <sources>Al Jazeera</sources>
+      <urls>https://www.aljazeera.com/sports/2026/4/11/fury-beats-makhmudov-in-heavyweight-boxing-comeback-then-calls-out-joshua?traffic_source=rss
+https://www.aljazeera.com/sports/liveblog/2026/4/11/live-tyson-fury-vs-arslanbek-makhmudov-heavyweight-boxing-match?traffic_source=rss</urls>
+      <titles>Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua
+Tyson Fury beats Makhmudov in heavyweight boxing comeback – as it happened</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Israeli strikes kill at least 18 people across southern Lebanon</title>
+      <link>https://www.aljazeera.com/news/2026/4/11/israeli-strikes-kill-at-least-18-people-across-southern-lebanon?traffic_source=rss</link>
+      <description>Lebanon's Health Ministry says more than 2,000 people have been killed in Israeli attacks since March 2.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T20:25:29+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Irish cabinet meeting to be held to discuss ongoing fuel protests</title>
+      <link>https://www.bbc.com/news/articles/c0e7rpjqw5po?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Hundreds of petrol stations in the Republic of Ireland have run out of fuel as the protests and blockades continued for a fifth day.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T20:12:22+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US says two naval ships ‘transited’ Strait of Hormuz for mine-clearing</title>
+      <link>https://www.aljazeera.com/news/2026/4/11/us-says-two-naval-ships-transited-strait-of-hormuz-for-mine-clearing?traffic_source=rss</link>
+      <description>Negotiations are ongoing between US-Iranian delegations in Islamabad, with control of the strait a key sticking point.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T19:38:03+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pakistan sends fighter jets to Saudi Arabia amid fragile US-Iran ceasefire</title>
+      <link>https://www.aljazeera.com/news/2026/4/11/pakistan-sends-fighter-jets-to-saudi-arabia-amid-fragile-us-iran-ceasefire?traffic_source=rss</link>
+      <description>Deployment under mutual defence pact comes as Islamabad hosts US-Iran ceasefire talks.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T19:35:54+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Barcelona move 9 clear of Real Madrid with derby win as La Liga title nears</title>
+      <link>https://www.aljazeera.com/sports/2026/4/11/barcelona-move-9-clear-of-real-madrid-with-derby-win-as-la-liga-title-nears?traffic_source=rss</link>
+      <description>Barcelona clinch derby with 4-1 win against cross-city rivals Espanyol to move 9 points clear of Real Madrid in La Liga.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T19:14:46+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US appeals court extends deadline to halt White House ballroom construction</title>
+      <link>https://www.aljazeera.com/news/2026/4/11/us-appeals-court-extends-deadline-to-halt-white-house-ballroom-construction?traffic_source=rss</link>
+      <description>Judges, however, raise questions about Trump arguments that completing the ballroom is necessary for national security.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T18:58:53+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Israeli settlers kill Palestinian during raid on occupied West Bank village</title>
+      <link>https://www.aljazeera.com/news/2026/4/11/israeli-settlers-kill-palestinian-during-raid-on-occupied-west-bank-village?traffic_source=rss</link>
+      <description>The raid comes just days after Israel approved 34 new illegal settlements in the West Bank.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T18:47:48+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Knifeman calling himself 'Lucifer' slashes three at NYC's Grand Central</title>
+      <link>https://www.bbc.com/news/articles/cz67yy0006jo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Police fatally shot the assailant after he ignored at least 20 demands to drop the weapon, said NYPD.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-11T18:08:46+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -76,16 +315,6 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Fuel tankers regain access to Irish oil refinery</title>
-      <link>https://www.bbc.com/news/articles/c0e7rpjqw5po?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Demonstrations due to high prices caused by the US-Israeli war against Iran are affecting traffic on several roads.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T17:09:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>La Brasserie : soupçons de meurtre après la découverte du corps d'un homme à son domicile</title>
       <link>https://defimedia.info/la-brasserie-soupcons-de-meurtre-apres-la-decouverte-du-corps-dun-homme-son-domicile</link>
       <description>[Defimedia] Soupçons de meurtre à La Brasserie ce samedi, après la découverte du corps d’un homme à son domicile.Âgée d’une trentain
@@ -105,32 +334,12 @@ Soupçons de meurtre à La Brasserie : Richard Bryan Alifoykooye retrouvé mort,
       <languages>fr</languages>
     </item>
     <item>
-      <title>Russia-Ukraine Orthodox Easter ceasefire begins</title>
-      <link>https://www.aljazeera.com/news/2026/4/11/russia-ukraine-orthodox-easter-ceasefire-begins?traffic_source=rss</link>
-      <description>Both sides have agreed to observe the temporary truce, as US-led diplomatic efforts to end the war continue to stall.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T16:09:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Meurtre de Jayce Donovan en 2022 : son père, Noël Clovis réclame les ossements pour organiser les funérailles</title>
       <link>https://defimedia.info/meurtre-de-jayce-donovan-en-2022-son-pere-noel-clovis-reclame-les-ossements-pour-organiser-les</link>
       <description>« Je veux dire adieu à mon fils ». C’est le cri d’un père qui souhaite offrir à Jayce Donovan des funérailles dignes de</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-11T16:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Machete-wielding man killed by police in New York’s Grand Central station</title>
-      <link>https://www.aljazeera.com/news/2026/4/11/machete-wielding-man-shot-by-police-in-new-york-city-grand-central-station?traffic_source=rss</link>
-      <description>Three elderly victims were wounded at the transit hub attack as authorities continue to investigate, police said.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T15:51:07+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -165,16 +374,6 @@ Soupçons de meurtre à La Brasserie : Richard Bryan Alifoykooye retrouvé mort,
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Peru holds presidential election amid a decade of political tumult</title>
-      <link>https://www.aljazeera.com/news/longform/2026/4/11/peru-holds-presidential-election-amid-a-decade-of-political-tumult?traffic_source=rss</link>
-      <description>In the span of a decade, Peru has seen nine presidents come and go. How has that affected this year's presidential race?</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T15:22:21+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Découverte macabre à La Brasserie : un homme retrouvé mort, une suspecte recherchée</title>
       <link>https://defimedia.info/decouverte-macabre-la-brasserie-un-homme-retrouve-mort-une-suspecte-recherchee</link>
       <description>Découverte macabre à Cité La Brasserie, samedi après-midi. Le corps de Jean Richard Bryan Alifoykooye, âgé de 35 ans, a</description>
@@ -191,26 +390,6 @@ Soupçons de meurtre à La Brasserie : Richard Bryan Alifoykooye retrouvé mort,
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-11T15:08:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Hungry Fury ‘light and lean’ for heavyweight comeback fight with Makhmudov</title>
-      <link>https://www.aljazeera.com/sports/2026/4/11/hungry-fury-light-and-lean-for-heavyweight-comeback-fight-with-makhmudov?traffic_source=rss</link>
-      <description>Tyson Fury returns lighter than his last ‌fight but still weighs in three pounds heavier than Arslanbek Makhmudov.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T15:04:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Hundreds arrested at UK protest against Palestine Action ban</title>
-      <link>https://www.aljazeera.com/news/2026/4/11/police-begin-arrests-at-uk-protest-against-palestine-action-ban?traffic_source=rss</link>
-      <description>Hundreds of people gather in Trafalgar Square for demonstration, as elderly woman with cane is escorted away by police.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T15:01:18+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -295,26 +474,6 @@ Vote à main levée : l’assemblée des délégués du MMM choisit de rester au
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Frontrunner for California governor denies sexual assault allegations</title>
-      <link>https://www.bbc.com/news/articles/c20qg3g9554o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The Democratic congressman, a leading candidate in the race, has strongly denied the accusations saying he will fight with &quot;facts&quot;.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T14:24:24+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Arsenal shocked by Bournemouth, offering Man City Premier League lifeline</title>
-      <link>https://www.aljazeera.com/sports/2026/4/11/arsenal-shocked-by-bournemouth-offering-man-city-premier-league-lifeline?traffic_source=rss</link>
-      <description>Arsenal lose 2-1 at home to Bournemouth as Premier League lead remains at 9 points but Man City have two games in hand.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T13:36:18+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Artistes et sportifs mauriciens : une reconversion dans l’entrepreneuriat</title>
       <link>https://defimedia.info/artistes-et-sportifs-mauriciens-une-reconversion-dans-lentrepreneuriat</link>
       <description>Ils font vibrer les scènes, briller les stades et inspirer toute une génération. Mais derrière leurs talents artistiques</description>
@@ -325,32 +484,12 @@ Vote à main levée : l’assemblée des délégués du MMM choisit de rester au
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US-Iran direct talks on ending war under way in Pakistan</title>
-      <link>https://www.aljazeera.com/news/2026/4/11/us-iran-talks-on-ending-war-begin-in-pakistan?traffic_source=rss</link>
-      <description>[Al Jazeera] Discussions between Iran and US delegations begin following separate bilateral meetings with Pakistani prime minister.
-
-[Africanews] US and Iranian officials held separate talks with Pakistan’s prime minister on Saturday amid a ceasefire made fragile by deep disagreements and unabated fighting in Lebanon. International media reported that the two countries had also started direct talks in the afternoon.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
+      <title>US, Iran hold separate talks with Pakistan's PM ahead of negotiations</title>
+      <link>http://www.africanews.com/2026/04/11/us-iran-hold-separate-talks-with-pakistans-pm-but-no-direct-talks-yet/</link>
+      <description>US and Iranian officials held separate talks with Pakistan’s prime minister on Saturday amid a ceasefire made fragile by deep disagreements and unabated fighting in Lebanon. International media reported that the two countries had also started direct talks in the afternoon.</description>
+      <source>Africanews</source>
+      <category>regional</category>
       <cluster_time>2026-04-11T13:27:15+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>6ccf38151191</cluster_id>
-      <sources>Al Jazeera
-Africanews</sources>
-      <urls>https://www.aljazeera.com/news/2026/4/11/us-iran-talks-on-ending-war-begin-in-pakistan?traffic_source=rss
-http://www.africanews.com/2026/04/11/us-iran-hold-separate-talks-with-pakistans-pm-but-no-direct-talks-yet/</urls>
-      <titles>US-Iran direct talks on ending war under way in Pakistan
-US, Iran hold separate talks with Pakistan's PM ahead of negotiations</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>Libya approves first unified budget in more than a decade</title>
-      <link>https://www.aljazeera.com/news/2026/4/11/libya-approves-first-unified-budget-in-more-than-a-decade?traffic_source=rss</link>
-      <description>Libya shows it is 'capable of overcoming its differences' with rare budget deal, central bank says.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T13:18:51+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -435,16 +574,6 @@ US, Iran hold separate talks with Pakistan's PM ahead of negotiations</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Makeshift Gaza university offers chance to resurrect academic studies</title>
-      <link>https://www.aljazeera.com/features/2026/4/11/makeshift-gaza-university-offers-chance-to-resurrect-academic-studies?traffic_source=rss</link>
-      <description>Solar-powered halls create academic lifelines for Gaza students battling war's aftermath and scarce resources.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T12:15:32+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Grand-Gaube : Sous la menace d’un sabre il se fait voler un téléphone</title>
       <link>https://ionnews.mu/grand-gaube-sous-la-menace-dun-sabre-il-se-fait-voler-un-telephone/</link>
       <description>Un commerçant de 30 ans, propriétaire d’un atelier de réparation de téléphones à Grand-Gaube, a été menacé par un individu armé d’un sabre. Selon la police, le vendredi 10 avril vers 13 h 45, le suspect s’est présenté comme client avant de menacer le commerçant, un habitant de Goodlands, et de s’emparer d’un téléphone portable posé sur une table. Il a ensuite pris la fuite. Le butin est estimé à Rs 8 000. La victime affirme être en mesure de reconnaître l’auteur des faits. Le magasin est doté de</description>
@@ -455,32 +584,8 @@ US, Iran hold separate talks with Pakistan's PM ahead of negotiations</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Final push for votes as challenger to Hungary's Orbán senses victory</title>
-      <link>https://www.bbc.com/news/articles/c0q9527y41lo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] As Péter Magyar's opposition movement leads in the polls, tens of thousands of anti-Orbán supporters fill Heroes' Square in Budapest.
-
-[BBC News] Since 2010, Orbán has transformed Hungary into what the European Parliament has denounced as a &quot;hybrid regime of electoral autocracy&quot;.
-
-[Al Jazeera] Hungarian prime minister and his Fidesz party ‌face first closely contested polls in Sunday's parliamentary election.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T12:04:15+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>c5af3d7ec338</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/c0q9527y41lo?at_medium=RSS&amp;at_campaign=rss
-https://www.bbc.com/news/articles/cd6l3ywpwg2o?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/4/11/hungarys-viktor-orban-struggling-for-political-survival-ahead-of-vote?traffic_source=rss</urls>
-      <titles>Final push for votes as challenger to Hungary's Orbán senses victory
-Who is Viktor Orbán, Hungarian PM fighting to stay in power after 16 years?
-Hungary’s Viktor Orban struggling for political survival ahead of vote</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>La viande bovine Rs 20 en plus sur le demi-kilo dès lundi</title>
-      <link>https://defimedia.info/index.php/la-viande-bovine-rs-20-en-plus-sur-le-demi-kilo-des-lundi</link>
+      <link>https://defimedia.info/la-viande-bovine-rs-20-en-plus-sur-le-demi-kilo-des-lundi</link>
       <description>Les bouchers paieront Rs 20 de plus par demi-kilo à partir du lundi 13 avril. Une augmentation qui sera bien évidemment</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -500,7 +605,7 @@ Hungary’s Viktor Orban struggling for political survival ahead of vote</titles
     </item>
     <item>
       <title>Résidences Sainte-Claire : l’Adsu cible Curtis Warren Ah Tone, son beau-père et son beau-frère</title>
-      <link>https://defimedia.info/index.php/residences-sainte-claire-ladsu-cible-curtis-warren-ah-tone-son-beau-pere-et-son-beau-frere</link>
+      <link>https://defimedia.info/residences-sainte-claire-ladsu-cible-curtis-warren-ah-tone-son-beau-pere-et-son-beau-frere</link>
       <description>Le trafic de stupéfiants serait une affaire de famille chez les Marie à Résidences Sainte-Claire, à Goodlands. Le jeudi</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -520,7 +625,7 @@ Hungary’s Viktor Orban struggling for political survival ahead of vote</titles
     </item>
     <item>
       <title>Chagos : « La décision de Keir Starmer ne surprend pas », réagit Gavin Glover</title>
-      <link>https://defimedia.info/index.php/chagos-la-decision-de-keir-starmer-ne-surprend-pas-reagit-gavin-glover</link>
+      <link>https://defimedia.info/chagos-la-decision-de-keir-starmer-ne-surprend-pas-reagit-gavin-glover</link>
       <description>« La suspension de l’accord sur les Chagos par Keir Starmer ne surprend pas » : c’est ce qu’a déclaré l'Attorney General</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -530,7 +635,7 @@ Hungary’s Viktor Orban struggling for political survival ahead of vote</titles
     </item>
     <item>
       <title>Acquisition d’une voiture - Anba Manikham : «La décision a été avalisée par le conseil d’administration»</title>
-      <link>https://defimedia.info/index.php/acquisition-dune-voiture-anba-manikham-la-decision-ete-avalisee-par-le-conseil-dadministration</link>
+      <link>https://defimedia.info/acquisition-dune-voiture-anba-manikham-la-decision-ete-avalisee-par-le-conseil-dadministration</link>
       <description>Arrêté par la Financial Crimes Commission, le mercredi 8 avril, pour « using office for gratification », l’ancien Senior</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -549,26 +654,6 @@ Hungary’s Viktor Orban struggling for political survival ahead of vote</titles
       <source_count>1</source_count>
     </item>
     <item>
-      <title>We need a regional agreement for the Strait of Hormuz</title>
-      <link>https://www.aljazeera.com/opinions/2026/4/11/we-need-a-regional-agreement-for-the-strait-of-hormuz?traffic_source=rss</link>
-      <description>A governing arrangement for the strait can and must be developed based on law and fact.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T10:56:33+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Israel in row with South Korean leader over Palestinian abuse concerns</title>
-      <link>https://www.aljazeera.com/news/2026/4/11/israel-in-row-with-south-korea-leader-over-palestinian-abuse-concerns?traffic_source=rss</link>
-      <description>South Korea's president says it’s disappointing Israel does not 'even once reflect on criticisms from around the world'.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T10:47:55+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>RENCONTRE : Pravind Jugnauth s’entretient avec Subrahmanyam Jaishankar</title>
       <link>https://www.lemauricien.com/actualites/societe/rencontre-pravind-jugnauth-sentretient-avec-subrahmanyam-jaishankar/704288/</link>
       <description>Le leader du Mouvement socialiste militant (MSM) a eu une rencontre, vendredi, avec le ministre indien des Affaires étrangères, le Dr Subrahmanyam Jaishankar. Qualifiant cette rencontre de très cor...</description>
@@ -580,7 +665,7 @@ Hungary’s Viktor Orban struggling for political survival ahead of vote</titles
     </item>
     <item>
       <title>Lutte contre le blanchiment : Keshwarsingh Nadan rattrapé par une affaire de bitcoins estimée à Rs 80 M</title>
-      <link>https://defimedia.info/index.php/lutte-contre-le-blanchiment-keshwarsingh-nadan-rattrape-par-une-affaire-de-bitcoins-estimee-rs-80-m</link>
+      <link>https://defimedia.info/lutte-contre-le-blanchiment-keshwarsingh-nadan-rattrape-par-une-affaire-de-bitcoins-estimee-rs-80-m</link>
       <description>Le Software Engineer libéré sous caution vendredi Soupçonné de transactions illégales en bitcoins s’élevant à Rs 80 mill</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -609,16 +694,6 @@ Hungary’s Viktor Orban struggling for political survival ahead of vote</titles
       <source_count>1</source_count>
     </item>
     <item>
-      <title>UK to hold off on deal ceding Chagos Islands amid US opposition</title>
-      <link>https://www.aljazeera.com/news/2026/4/11/uk-to-hold-off-on-deal-ceding-chagos-islands-amid-us-opposition?traffic_source=rss</link>
-      <description>A bill laying out plans to return the Indian Ocean archipelago, home to the US-UK Diego Garcia base, has been paused.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T10:06:53+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Coopération Inde–Maurice : Une réponse majeure à une crise rénale touchant 1 600 dialysés</title>
       <link>https://live.mega.mu/redirect/255374/</link>
       <description>[L'Express (via mega.mu)] La nouvelle unité de transplantation rénale de l’hôpital Jawaharlal Nehru de Rose-Belle a été inaugurée hier. La cérémonie s’est déroulée en présence du ministre indien des Affaires extérieures Subrahmanyam Jaishankar, du Premier ministre Navin Ramgoolam et du ministre de la Santé Anil Bachoo, parmi d’autres. L’événement intervient dans un contexte sanitaire préoccupant, avec environ 200 000 personnes concernées par des maladies rénales à Maurice et près de 1 600 ...
@@ -633,20 +708,10 @@ Hungary’s Viktor Orban struggling for political survival ahead of vote</titles
       <sources>L'Express (via mega.mu)
 Defimedia</sources>
       <urls>https://live.mega.mu/redirect/255374/
-https://defimedia.info/index.php/cooperation-indo-mauricienne-maurice-se-dote-dune-unite-de-transplantation-renale</urls>
+https://defimedia.info/cooperation-indo-mauricienne-maurice-se-dote-dune-unite-de-transplantation-renale</urls>
       <titles>Coopération Inde–Maurice : Une réponse majeure à une crise rénale touchant 1 600 dialysés
 Coopération indo-mauricienne : Maurice se dote d’une unité de transplantation rénale</titles>
       <languages>fr</languages>
-    </item>
-    <item>
-      <title>STORM GUIDANCE | Maurice face aux cybermenaces : Premier forum national visant à anticiper les crises et à renforcer la cyber-résilience</title>
-      <link>https://www.lemauricien.com/actualites/societe/storm-guidance-maurice-face-aux-cybermenaces-premier-forum-national-visant-a-anticiper-les-crises-et-a-renforcer-la-cyber-resilience/704217/</link>
-      <description>Dans un monde sous tension numérique, la résilience fait toute la différence. Tel est le message du premier Cyber Resilience Leadership Forum (CRLF) organisé par STORM Guidance, spécialisée da...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-11T10:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
     </item>
     <item>
       <title>PAILLES – Drogue saisie dans un véhicule de police : Perquisition chez deux policiers</title>
@@ -669,46 +734,32 @@ Coopération indo-mauricienne : Maurice se dote d’une unité de transplantatio
       <source_count>1</source_count>
     </item>
     <item>
-      <title>100 autobus électriques en service : La NTC change de cap avec une flotte électrique en pleine expansion</title>
-      <link>https://www.lemauricien.com/actualites/societe/100-autobus-electriques-en-service-la-ntc-change-de-cap-avec-une-flotte-electrique-en-pleine-expansion/704359/</link>
-      <description>[Le Mauricien] Maurice met le cap sur l’électrique pour alléger sa facture énergétique et verdir son transport public, avec la remise officielle de 90 autobus électriques à la National Transport Corporation ...
-
-[ION News] Maurice franchit une nouvelle étape vers un transport plus durable avec la remise officielle de 90 autobus électriques supplémentaires à la National Transport Corporation (NTC), complétant ainsi un don de 100 autobus accordé par l’Inde. La cérémonie s’est tenue le 10 avril à Rose Belle Market Fair, où le ministre indien des Affaires étrangères, Dr Subrahmanyam Jaishankar, a symboliquement remis une clé au Premier ministre, Navin Ramgoolam. Le ministre du Transport, Osman Mahomed, ainsi que plusi</description>
+      <title>STORM GUIDANCE | Maurice face aux cybermenaces : Premier forum national visant à anticiper les crises et à renforcer la cyber-résilience</title>
+      <link>https://www.lemauricien.com/actualites/societe/storm-guidance-maurice-face-aux-cybermenaces-premier-forum-national-visant-a-anticiper-les-crises-et-a-renforcer-la-cyber-resilience/704217/</link>
+      <description>Dans un monde sous tension numérique, la résilience fait toute la différence. Tel est le message du premier Cyber Resilience Leadership Forum (CRLF) organisé par STORM Guidance, spécialisée da...</description>
       <source>Le Mauricien</source>
       <category>local</category>
-      <cluster_time>2026-04-11T09:54:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>f3de79a15ffc</cluster_id>
-      <sources>Le Mauricien
-ION News</sources>
-      <urls>https://www.lemauricien.com/actualites/societe/100-autobus-electriques-en-service-la-ntc-change-de-cap-avec-une-flotte-electrique-en-pleine-expansion/704359/
-https://ionnews.mu/don-de-linde-90-autobus-electriques-remis-a-la-ntc/</urls>
-      <titles>100 autobus électriques en service : La NTC change de cap avec une flotte électrique en pleine expansion
-Don de l’Inde : 90 autobus électriques remis à la NTC</titles>
-      <languages>fr</languages>
+      <cluster_time>2026-04-11T10:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Djibouti's president wins unprecedented sixth term with 97.8% of vote</title>
       <link>https://www.bbc.com/news/articles/cgj0wg423n6o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>[BBC News] Ismail Omar Guelleh, 78, has extended his already 27-year rule in a poll boycotted by the main opposition candidates.
 
-[Africanews] Djibouti began counting votes Friday in a presidential election expected to hand a sixth term to 78-year-old Ismail Omar Guelleh, who faces just one little-known opponent in the small but highly strategic Horn of Africa nation
-
 [Africanews] Djibouti's veteran leader Ismail Omar Guelleh won the country's presidential election with 97.8 percent of the vote, according to official results on Saturday.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-11T09:42:39+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
+      <cluster_size>2</cluster_size>
       <source_count>2</source_count>
-      <cluster_id>b655fc66920a</cluster_id>
+      <cluster_id>2e9661876e40</cluster_id>
       <sources>BBC News
 Africanews</sources>
       <urls>https://www.bbc.com/news/articles/cgj0wg423n6o?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/04/10/djibouti-counts-votes-as-leader-seeks-sixth-term/
 http://www.africanews.com/2026/04/11/djibouti-a-landslide-victory-for-guelleh-according-to-official-results/</urls>
       <titles>Djibouti's president wins unprecedented sixth term with 97.8% of vote
-Djibouti counts votes as leader seeks sixth term
 Djibouti: A landslide victory for Guelleh according to official results</titles>
       <languages>en</languages>
     </item>
@@ -734,7 +785,7 @@ Artemis II space mission crew safely returns to Earth</titles>
     </item>
     <item>
       <title>Dr Avinaash Munohur : «La rupture est déjà actée au MMM»</title>
-      <link>https://defimedia.info/index.php/dr-avinaash-munohur-la-rupture-est-deja-actee-au-mmm</link>
+      <link>https://defimedia.info/dr-avinaash-munohur-la-rupture-est-deja-actee-au-mmm</link>
       <description>La crise interne au MMM prend une tournure décisive. Après le message sans détour de Paul Bérenger, les lignes semblent</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -764,31 +815,11 @@ Artemis II space mission crew safely returns to Earth</titles>
     </item>
     <item>
       <title>FCC : une perquisition de 23 heures au Royal Green Wellness Resort</title>
-      <link>https://defimedia.info/index.php/fcc-une-perquisition-de-23-heures-au-royal-green-wellness-resort</link>
+      <link>https://defimedia.info/fcc-une-perquisition-de-23-heures-au-royal-green-wellness-resort</link>
       <description>Les serveurs informatiques ciblés par un virusL’enquête de la Financial Crimes Commission (FCC) portant sur des transact</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-11T09:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>TWAHA ACADEMY  : Les plaintes s’accumulent contre Azhar Peerbocus</title>
-      <link>https://www.lemauricien.com/actualites/societe/twaha-academy-les-plaintes-saccumulent-contre-azhar-peerbocus/704311/</link>
-      <description>Une nouvelle plainte a été déposée contre le mufti Azhar Peerbocus, ex-Acting Principal de la Twaha Academy, mettant en cause ce dernier dans des actes de violence allégués sur des élèves mine...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-11T09:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Baseball statue broken as it is unveiled in Seattle</title>
-      <link>https://www.bbc.com/news/articles/c0rx4v5q701o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The mishap occurred as a tarp was pulled off a bronze figure immortalising Hall of Famer Ichiro Suzuki.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T08:38:17+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1047,7 +1078,7 @@ Artemis II space mission crew safely returns to Earth</titles>
       <sources>L'Express (via mega.mu)
 Defimedia</sources>
       <urls>https://live.mega.mu/redirect/255296/
-https://defimedia.info/index.php/le-royaume-uni-met-en-veille-laccord-sur-les-chagos-apres-lopposition-de-trump</urls>
+https://defimedia.info/le-royaume-uni-met-en-veille-laccord-sur-les-chagos-apres-lopposition-de-trump</urls>
       <titles>Chagos : Londres met l’accord en pause faute de feu vert américain
 Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de Trump</titles>
       <languages>fr</languages>
@@ -1064,7 +1095,7 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
     </item>
     <item>
       <title>Ritesh Ramful : «Maurice n’exclura aucune voie pour les Chagos»</title>
-      <link>https://defimedia.info/index.php/ritesh-ramful-maurice-nexclura-aucune-voie-pour-les-chagos</link>
+      <link>https://defimedia.info/ritesh-ramful-maurice-nexclura-aucune-voie-pour-les-chagos</link>
       <description>« Maurice n’exclura aucune voie, ni diplomatique ni juridique, pour compléter le processus de décolonisation des Chagos</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1094,7 +1125,7 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
     </item>
     <item>
       <title>Sécurité énergétique : hausse de 15 % du tarif le 1er mai</title>
-      <link>https://defimedia.info/index.php/securite-energetique-hausse-de-15-du-tarif-le-1er-mai</link>
+      <link>https://defimedia.info/securite-energetique-hausse-de-15-du-tarif-le-1er-mai</link>
       <description>Le gouvernement a tranché. Les tarifs de l’électricité augmenteront de 15 % à partir du 1er mai 2026, dans un contexte m</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1104,7 +1135,7 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
     </item>
     <item>
       <title>Carburants : vers une hausse des prix de l’essence et du diesel</title>
-      <link>https://defimedia.info/index.php/carburants-vers-une-hausse-des-prix-de-lessence-et-du-diesel</link>
+      <link>https://defimedia.info/carburants-vers-une-hausse-des-prix-de-lessence-et-du-diesel</link>
       <description>• Une nouvelle cargaison attendue ce jeudi.• Réserves stratégiques portées à plus de 40 jours.On se dirige vers une nouv</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1124,7 +1155,7 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
     </item>
     <item>
       <title>Claude Canabady, secrétaire de la CEA : «Une augmentation tout à fait raisonnable»</title>
-      <link>https://defimedia.info/index.php/claude-canabady-secretaire-de-la-cea-une-augmentation-tout-fait-raisonnable</link>
+      <link>https://defimedia.info/claude-canabady-secretaire-de-la-cea-une-augmentation-tout-fait-raisonnable</link>
       <description>Pour Claude Canabady, secrétaire de la Consumers’ Eye Association (CEA), cette augmentation apparaît globalement justifi</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1144,7 +1175,7 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
     </item>
     <item>
       <title>Nasser Moraby : «Un prix de Rs 4,50 pour un pain maison serait raisonnable»</title>
-      <link>https://defimedia.info/index.php/nasser-moraby-un-prix-de-rs-450-pour-un-pain-maison-serait-raisonnable</link>
+      <link>https://defimedia.info/nasser-moraby-un-prix-de-rs-450-pour-un-pain-maison-serait-raisonnable</link>
       <description>Le président de l’Association des propriétaires des boulangeries, Nasser Moraby, estime qu’un prix de Rs 4,50 pour le pa</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1154,7 +1185,7 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
     </item>
     <item>
       <title>Jayen Chellum : «Une hausse de 50 % sur le prix du pain est excessive»</title>
-      <link>https://defimedia.info/index.php/jayen-chellum-une-hausse-de-50-sur-le-prix-du-pain-est-excessive</link>
+      <link>https://defimedia.info/jayen-chellum-une-hausse-de-50-sur-le-prix-du-pain-est-excessive</link>
       <description>Le secrétaire général de l’Association des consommateurs de l’île Maurice (ACIM), Jayen Chellum, monte au créneau contre</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1164,7 +1195,7 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
     </item>
     <item>
       <title>Suttyhudeo Tengur, président de l’APEC : «Un prix du pain fixé à Rs 3, aurait été plus humaine»</title>
-      <link>https://defimedia.info/index.php/suttyhudeo-tengur-president-de-lapec-un-prix-du-pain-fixe-rs-3-aurait-ete-plus-humaine</link>
+      <link>https://defimedia.info/suttyhudeo-tengur-president-de-lapec-un-prix-du-pain-fixe-rs-3-aurait-ete-plus-humaine</link>
       <description>Suttyhudeo Tengur, président de l’Association pour la protection de l’environnement et des consommateurs (APEC), estime</description>
       <source>Defimedia</source>
       <category>local</category>
@@ -1179,6 +1210,16 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-11T05:50:35+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Don de l’Inde : 90 autobus électriques remis à la NTC</title>
+      <link>https://ionnews.mu/don-de-linde-90-autobus-electriques-remis-a-la-ntc/</link>
+      <description>Maurice franchit une nouvelle étape vers un transport plus durable avec la remise officielle de 90 autobus électriques supplémentaires à la National Transport Corporation (NTC), complétant ainsi un don de 100 autobus accordé par l’Inde. La cérémonie s’est tenue le 10 avril à Rose Belle Market Fair, où le ministre indien des Affaires étrangères, Dr Subrahmanyam Jaishankar, a symboliquement remis une clé au Premier ministre, Navin Ramgoolam. Le ministre du Transport, Osman Mahomed, ainsi que plusi</description>
+      <source>ION News</source>
+      <category>local</category>
+      <cluster_time>2026-04-11T05:47:57+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1259,126 +1300,6 @@ Le Royaume-Uni met en veille l’accord sur les Chagos après l’opposition de 
       <source>ION News</source>
       <category>local</category>
       <cluster_time>2026-04-11T04:51:03+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Melania Trump's speech propels Epstein crisis back to forefront</title>
-      <link>https://www.bbc.com/news/articles/cwy3w9y8gyjo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>She has now placed herself squarely into the Epstein story and at odds with the administration, which wants to end the investigation.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T03:25:04+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'Every drop of water counts': Fear for the future of Argentina's glaciers</title>
-      <link>https://www.bbc.com/news/articles/cj947487wzyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>A controversial law to remove protections for the country's glaciers has passed, opening the doors for mining.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T02:02:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Météo : Maurice sous l’influence d’un anticyclone</title>
-      <link>https://defimedia.info/index.php/meteo-maurice-sous-linfluence-dun-anticyclone-27</link>
-      <description>Un anticyclone au sud des Mascareignes génère des alizés modérés sur notre région. Des nuages associés à ces alizés trav</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-11T01:51:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>An inappropriate joke nearly ended his career. Now he's back with more humour</title>
-      <link>https://www.bbc.com/news/articles/czrekvml0p6o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>A misfired joke nearly derailed Samay Raina’s comedy career. Now he’s back, reclaiming his voice.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T01:45:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>This idyllic US town was full of police families - and a serial killer in their midst</title>
-      <link>https://www.bbc.com/news/articles/cpwjkqq910go?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>For years, rumours swirled about who could be behind the bodies being discovered on the shores of Gilgo Beach.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T01:19:55+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>JD Vance takes on a perilous mission - could it backfire?</title>
-      <link>https://www.bbc.com/news/articles/c1d9z1q2997o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>As the US vice-president leads peace talks with Iran, he must balance warring factions, a demanding boss and his own political future.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T00:54:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>[Info Soirée] : « Kouran p monte »</title>
-      <link>https://defimedia.info/index.php/info-soiree-kouran-p-monte</link>
-      <description>•Réuni ce 8 avril sous la présidence du Premier ministre, le comité de crise a tranché : les tarifs de l’électricité gri</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-11T00:40:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Artemis II mission was a triumph - now comes the hard part</title>
-      <link>https://www.bbc.com/news/articles/cj0v119zp19o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The mission was almost flawless but there are considerable obstacles ahead before a Moon landing.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T00:38:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Lyse Doucet: Historic US-Iran talks must bridge deep distrust</title>
-      <link>https://www.bbc.com/news/articles/cn9qzl12537o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Face-to-face talks would mark the highest-level engagement between Iran and the US since the 1979 Islamic Revolution.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-10T23:46:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Irish government prepares fuel support deal after blockade pressure</title>
-      <link>https://www.bbc.com/news/articles/cy814wypp5go?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Travel across parts of the Republic of Ireland was affected for the fourth day in a row as vehicles, including tractors, blocked roads.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-10T21:36:30+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Benin presidential election favourite Wadagni holds final rally</title>
-      <link>http://www.africanews.com/2026/04/10/benin-presidential-election-favourite-wadagni-holds-final-rally/</link>
-      <description>Benin Finance Minister Romuald Wadagni, who is the favourite in this weekend's presidential election, tells supporters he will do &quot;even better&quot; than the government already has done if elected</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-10T20:24:04+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>The five big sticking points in US-Iran talks</title>
-      <link>https://www.bbc.com/news/articles/cx2wyn8wdz0o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Peace talks between the US and Iran are due to begin in Pakistan on Saturday.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-10T18:13:25+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>

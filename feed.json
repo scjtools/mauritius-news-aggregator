@@ -1,12 +1,12 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 127,
+  "item_count": 122,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-11T18:03:49.557614+00:00",
+      "cluster_time": "2026-04-12T03:30:07.290020+00:00",
       "category": "finance",
-      "headline": "Brent Crude Oil price – 11 April 2026",
+      "headline": "Brent Crude Oil price – 12 April 2026",
       "summary": "Brent Crude Oil: USD 95.20 per barrel",
       "cluster_size": 1,
       "source_count": 1,
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-11T18:03:49.352782+00:00",
+      "cluster_time": "2026-04-12T03:30:07.176164+00:00",
       "category": "finance",
-      "headline": "Bitcoin price – 11 April 2026",
-      "summary": "Bitcoin (BTC): USD 73,097.21 (▲ +3.82% from last)",
+      "headline": "Bitcoin price – 12 April 2026",
+      "summary": "Bitcoin (BTC): USD 71,685.74 (▲ +1.82% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,9 +34,9 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-11T18:03:48.883861+00:00",
+      "cluster_time": "2026-04-12T03:30:06.878801+00:00",
       "category": "finance",
-      "headline": "Gold price – 11 April 2026",
+      "headline": "Gold price – 12 April 2026",
       "summary": "Gold (XAU): USD 4,749.20 (▲ +8.20% from last)",
       "cluster_size": 1,
       "source_count": 1,
@@ -49,9 +49,9 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-11T18:03:48.545511+00:00",
+      "cluster_time": "2026-04-12T03:30:06.445615+00:00",
       "category": "finance",
-      "headline": "MUR exchange rates – 11 April 2026",
+      "headline": "MUR exchange rates – 12 April 2026",
       "summary": "MUR/USD 46.56 | MUR/EUR 54.48 (▲ 0.07 from last) (▲ 0.79 from last)",
       "cluster_size": 1,
       "source_count": 1,
@@ -64,9 +64,9 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-11T18:03:46.341874+00:00",
+      "cluster_time": "2026-04-12T03:30:04.107751+00:00",
       "category": "finance",
-      "headline": "SEMDEX – 11 April 2026",
+      "headline": "SEMDEX – 12 April 2026",
       "summary": "SEMDEX closed at 2243.42 (▲ 20.22 pts, +0.91% from last close 2,223.20)",
       "cluster_size": 1,
       "source_count": 1,
@@ -75,6 +75,352 @@
       ],
       "urls": [
         "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+      ]
+    },
+    {
+      "id": "singleton_f51d6a1f3b01",
+      "cluster_time": "2026-04-12T03:00:00+00:00",
+      "category": "local",
+      "headline": "9E CONFÉRENCE DE L’OCÉAN INDIEN – Ramgoolam : « Le cessez-le-feu au Moyen-Orient est fragile »",
+      "summary": "– « Nous devons travailler ensemble pour une résolution pacifique et permanente de la crise » Le Premier ministre, Navin Ramgoolam, a mis en garde contre la fragilité du cessez-le-feu en vigu...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/societe/9e-conference-de-locean-indien-ramgoolam-le-cessez-le-feu-au-moyen-orient-est-fragile/704328/"
+      ]
+    },
+    {
+      "id": "singleton_09cb80e3dd1d",
+      "cluster_time": "2026-04-12T02:41:00+00:00",
+      "category": "local",
+      "headline": "Paul Bérenger : « Nous déciderons de ce que nous ferons lundi matin »",
+      "summary": "Réagissant à l’issue de l’Assemblée des délégués, samedi, le leader du MMM conteste la légitimité de cette réunion. Il i",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/paul-berenger-nous-deciderons-de-ce-que-nous-ferons-lundi-matin"
+      ]
+    },
+    {
+      "id": "singleton_637f402437d8",
+      "cluster_time": "2026-04-12T02:23:00+00:00",
+      "category": "local",
+      "headline": "Météo : l’anticyclone s’éloigne, temps mi-couvert ce dimanche",
+      "summary": "Avec l’éloignement de l’anticyclone vers le sud-est, un vent léger souffle sur notre région. Des nuages en provenance de",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/meteo-lanticyclone-seloigne-temps-mi-couvert-ce-dimanche"
+      ]
+    },
+    {
+      "id": "singleton_e6807cca3423",
+      "cluster_time": "2026-04-12T01:48:00+00:00",
+      "category": "local",
+      "headline": "« Cela m'est égal », dit Trump",
+      "summary": "\"Cela m'est égal\" si un accord est conclu ou non avec l'Iran, a affirmé samedi Donald Trump, au premier jour des pourpar",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/cela-mest-egal-dit-trump"
+      ]
+    },
+    {
+      "id": "singleton_2507a6c5df02",
+      "cluster_time": "2026-04-12T01:30:00+00:00",
+      "category": "local",
+      "headline": "La météo de ce dimanche 12 avril",
+      "summary": "Mi-couvert avec quelques averses ce matin surtout à l'est et sur le plateau central. Des développements nuageux temporaires sont attendus dans l'après-midi à l'ouest, au sud-ouest et sur le pla...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-dimanche-12-avril/704326/"
+      ]
+    },
+    {
+      "id": "singleton_98b9ab3fb4fe",
+      "cluster_time": "2026-04-12T00:30:44+00:00",
+      "category": "global",
+      "headline": "Why this disillusioned Trump voter spends hours searching Epstein files",
+      "summary": "Many who support the president have expressed frustration with how Trump's former attorney general Pam Bondi handled the Epstein files.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cx237vmr2lyo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_d13d7079bb6b",
+      "cluster_time": "2026-04-12T00:16:41+00:00",
+      "category": "global",
+      "headline": "India refuses to criminalise marital rape. This new series shines a light on it",
+      "summary": "Chiraiya, which has drawn an audience of millions, has prompted conversations on social media around consent and misogyny.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgqkl2kqkxzo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_d5d7814b1e23",
+      "cluster_time": "2026-04-12T00:00:00+00:00",
+      "category": "global",
+      "headline": "Iran war live: Vance says no deal reached, US has made ‘best, final offer’",
+      "summary": "Iran and US continue direct talks in Islamabad, with the Strait of Hormuz believed to be a key sticking point.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/4/12/iran-war-live-historic-face-to-face-talks-with-us-continue-in-islamabad?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_fce6fdbbe9df",
+      "cluster_time": "2026-04-12T00:00:00+00:00",
+      "category": "local",
+      "headline": "[Info Soirée] : : « Li pa tro for lor avoy mesaz for »",
+      "summary": "Au Sommaire de ce Samedi 11 Avril 2026 :Le MMM reste au gouvernement…Décision entérinée par l’Assemblée des délégués…à B",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/info-soiree-li-pa-tro-lor-avoy-mesaz"
+      ]
+    },
+    {
+      "id": "singleton_4f6c6fb7e0ff",
+      "cluster_time": "2026-04-11T23:25:42+00:00",
+      "category": "global",
+      "headline": "Hungarians decide whether to end 16 years of Orbán rule and elect rival",
+      "summary": "Most polls favour Péter Magyar, who fronts a grassroots party, but PM Viktor Orbán has been in a defiant mood.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cdxdepjrv95o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_cf5d4d0475e1",
+      "cluster_time": "2026-04-11T23:14:11+00:00",
+      "category": "global",
+      "headline": "The prophet and the mysterious death of Charmain Speirs",
+      "summary": "A BBC Disclosure investigation has uncovered significant questions about what happened at the hotel where Charmain died.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cevk1jrg4g8o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_dec767f52f5d",
+      "cluster_time": "2026-04-11T23:13:23+00:00",
+      "category": "global",
+      "headline": "We spoke to the man making viral Lego-style AI videos for Iran. Experts say it's powerful propaganda",
+      "summary": "\"Slopaganda\" is too weak a term to capture how powerful this \"highly sophisticated\" content is, one expert says.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cjd8jrd1vnyo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_aee4dc0c47f7",
+      "cluster_time": "2026-04-11T23:06:49+00:00",
+      "category": "global",
+      "headline": "Iran war lands 'triple blow' to flood-ravaged Sri Lankans",
+      "summary": "The Iran war could not have come at a worse time for Sri Lanka, reeling from devastating floods and an economic crisis.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c4gvkpj0024o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_5bbe8d205df2",
+      "cluster_time": "2026-04-11T22:57:28+00:00",
+      "category": "global",
+      "headline": "Prosecutor probes abuse claims against California governor candidate Swalwell",
+      "summary": "The high-profile Democrat, a leading contender in California's governor race, has firmly denied the accusations.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c7vq0jnn0yro?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "afc56086c01b",
+      "cluster_time": "2026-04-11T22:28:58+00:00",
+      "category": "global",
+      "headline": "Fury beats Makhmudov in heavyweight boxing comeback, then calls out Joshua",
+      "summary": "[Al Jazeera] Tyson Fury beats Arslanbek Makhmudov in a unanimous points decision as he makes his heavyweight comeback.\n\n[Al Jazeera] All the updates from the main card, as Fury beat Makhmudov in London.",
+      "cluster_size": 2,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/11/fury-beats-makhmudov-in-heavyweight-boxing-comeback-then-calls-out-joshua?traffic_source=rss",
+        "https://www.aljazeera.com/sports/liveblog/2026/4/11/live-tyson-fury-vs-arslanbek-makhmudov-heavyweight-boxing-match?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_479a430d1db2",
+      "cluster_time": "2026-04-11T20:25:29+00:00",
+      "category": "global",
+      "headline": "Israeli strikes kill at least 18 people across southern Lebanon",
+      "summary": "Lebanon's Health Ministry says more than 2,000 people have been killed in Israeli attacks since March 2.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/11/israeli-strikes-kill-at-least-18-people-across-southern-lebanon?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_6d1e16013cd3",
+      "cluster_time": "2026-04-11T20:12:22+00:00",
+      "category": "global",
+      "headline": "Irish cabinet meeting to be held to discuss ongoing fuel protests",
+      "summary": "Hundreds of petrol stations in the Republic of Ireland have run out of fuel as the protests and blockades continued for a fifth day.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c0e7rpjqw5po?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_e3d1ab2e9448",
+      "cluster_time": "2026-04-11T19:38:03+00:00",
+      "category": "global",
+      "headline": "US says two naval ships ‘transited’ Strait of Hormuz for mine-clearing",
+      "summary": "Negotiations are ongoing between US-Iranian delegations in Islamabad, with control of the strait a key sticking point.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/11/us-says-two-naval-ships-transited-strait-of-hormuz-for-mine-clearing?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_ea76d74a0afc",
+      "cluster_time": "2026-04-11T19:35:54+00:00",
+      "category": "global",
+      "headline": "Pakistan sends fighter jets to Saudi Arabia amid fragile US-Iran ceasefire",
+      "summary": "Deployment under mutual defence pact comes as Islamabad hosts US-Iran ceasefire talks.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/11/pakistan-sends-fighter-jets-to-saudi-arabia-amid-fragile-us-iran-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_2f66d2e3e6d5",
+      "cluster_time": "2026-04-11T19:14:46+00:00",
+      "category": "global",
+      "headline": "Barcelona move 9 clear of Real Madrid with derby win as La Liga title nears",
+      "summary": "Barcelona clinch derby with 4-1 win against cross-city rivals Espanyol to move 9 points clear of Real Madrid in La Liga.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/11/barcelona-move-9-clear-of-real-madrid-with-derby-win-as-la-liga-title-nears?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_221352557efd",
+      "cluster_time": "2026-04-11T18:58:53+00:00",
+      "category": "global",
+      "headline": "US appeals court extends deadline to halt White House ballroom construction",
+      "summary": "Judges, however, raise questions about Trump arguments that completing the ballroom is necessary for national security.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/11/us-appeals-court-extends-deadline-to-halt-white-house-ballroom-construction?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_8a05bf109322",
+      "cluster_time": "2026-04-11T18:47:48+00:00",
+      "category": "global",
+      "headline": "Israeli settlers kill Palestinian during raid on occupied West Bank village",
+      "summary": "The raid comes just days after Israel approved 34 new illegal settlements in the West Bank.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/11/israeli-settlers-kill-palestinian-during-raid-on-occupied-west-bank-village?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_34703ef7c90a",
+      "cluster_time": "2026-04-11T18:08:46+00:00",
+      "category": "global",
+      "headline": "Knifeman calling himself 'Lucifer' slashes three at NYC's Grand Central",
+      "summary": "Police fatally shot the assailant after he ignored at least 20 demands to drop the weapon, said NYPD.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cz67yy0006jo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -108,21 +454,6 @@
       ]
     },
     {
-      "id": "singleton_6d1e16013cd3",
-      "cluster_time": "2026-04-11T17:09:13+00:00",
-      "category": "global",
-      "headline": "Fuel tankers regain access to Irish oil refinery",
-      "summary": "Demonstrations due to high prices caused by the US-Israeli war against Iran are affecting traffic on several roads.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c0e7rpjqw5po?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
       "id": "55dfe054d0e4",
       "cluster_time": "2026-04-11T16:19:00+00:00",
       "category": "local",
@@ -139,21 +470,6 @@
       ]
     },
     {
-      "id": "singleton_559d956db40b",
-      "cluster_time": "2026-04-11T16:09:51+00:00",
-      "category": "global",
-      "headline": "Russia-Ukraine Orthodox Easter ceasefire begins",
-      "summary": "Both sides have agreed to observe the temporary truce, as US-led diplomatic efforts to end the war continue to stall.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/11/russia-ukraine-orthodox-easter-ceasefire-begins?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_e74f4bfcfb8b",
       "cluster_time": "2026-04-11T16:00:00+00:00",
       "category": "local",
@@ -166,21 +482,6 @@
       ],
       "urls": [
         "https://defimedia.info/meurtre-de-jayce-donovan-en-2022-son-pere-noel-clovis-reclame-les-ossements-pour-organiser-les"
-      ]
-    },
-    {
-      "id": "singleton_9f9753b695a0",
-      "cluster_time": "2026-04-11T15:51:07+00:00",
-      "category": "global",
-      "headline": "Machete-wielding man killed by police in New York’s Grand Central station",
-      "summary": "Three elderly victims were wounded at the transit hub attack as authorities continue to investigate, police said.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/11/machete-wielding-man-shot-by-police-in-new-york-city-grand-central-station?traffic_source=rss"
       ]
     },
     {
@@ -229,21 +530,6 @@
       ]
     },
     {
-      "id": "singleton_f330391e9746",
-      "cluster_time": "2026-04-11T15:22:21+00:00",
-      "category": "global",
-      "headline": "Peru holds presidential election amid a decade of political tumult",
-      "summary": "In the span of a decade, Peru has seen nine presidents come and go. How has that affected this year's presidential race?",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/longform/2026/4/11/peru-holds-presidential-election-amid-a-decade-of-political-tumult?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_8873e36b619a",
       "cluster_time": "2026-04-11T15:15:00+00:00",
       "category": "local",
@@ -271,36 +557,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/11/in-ethiopia-fuel-prices-overshadow-this-years-easter-celebrations/"
-      ]
-    },
-    {
-      "id": "singleton_24c6137a5ec2",
-      "cluster_time": "2026-04-11T15:04:46+00:00",
-      "category": "global",
-      "headline": "Hungry Fury ‘light and lean’ for heavyweight comeback fight with Makhmudov",
-      "summary": "Tyson Fury returns lighter than his last ‌fight but still weighs in three pounds heavier than Arslanbek Makhmudov.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/11/hungry-fury-light-and-lean-for-heavyweight-comeback-fight-with-makhmudov?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_248b0d0a1c3f",
-      "cluster_time": "2026-04-11T15:01:18+00:00",
-      "category": "global",
-      "headline": "Hundreds arrested at UK protest against Palestine Action ban",
-      "summary": "Hundreds of people gather in Trafalgar Square for demonstration, as elderly woman with cane is escorted away by police.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/11/police-begin-arrests-at-uk-protest-against-palestine-action-ban?traffic_source=rss"
       ]
     },
     {
@@ -398,36 +654,6 @@
       ]
     },
     {
-      "id": "singleton_2cbe0f34a91b",
-      "cluster_time": "2026-04-11T14:24:24+00:00",
-      "category": "global",
-      "headline": "Frontrunner for California governor denies sexual assault allegations",
-      "summary": "The Democratic congressman, a leading candidate in the race, has strongly denied the accusations saying he will fight with \"facts\".",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c20qg3g9554o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_394d5734645d",
-      "cluster_time": "2026-04-11T13:36:18+00:00",
-      "category": "global",
-      "headline": "Arsenal shocked by Bournemouth, offering Man City Premier League lifeline",
-      "summary": "Arsenal lose 2-1 at home to Bournemouth as Premier League lead remains at 9 points but Man City have two games in hand.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/11/arsenal-shocked-by-bournemouth-offering-man-city-premier-league-lifeline?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_c4ce743ba970",
       "cluster_time": "2026-04-11T13:30:00+00:00",
       "category": "local",
@@ -443,35 +669,18 @@
       ]
     },
     {
-      "id": "6ccf38151191",
+      "id": "singleton_8bff0d542bbc",
       "cluster_time": "2026-04-11T13:27:15+00:00",
-      "category": "global",
-      "headline": "US-Iran direct talks on ending war under way in Pakistan",
-      "summary": "[Al Jazeera] Discussions between Iran and US delegations begin following separate bilateral meetings with Pakistani prime minister.\n\n[Africanews] US and Iranian officials held separate talks with Pakistan’s prime minister on Saturday amid a ceasefire made fragile by deep disagreements and unabated fighting in Lebanon. International media reported that the two countries had also started direct talks in the afternoon.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/11/us-iran-talks-on-ending-war-begin-in-pakistan?traffic_source=rss",
-        "http://www.africanews.com/2026/04/11/us-iran-hold-separate-talks-with-pakistans-pm-but-no-direct-talks-yet/"
-      ]
-    },
-    {
-      "id": "singleton_e15e85607458",
-      "cluster_time": "2026-04-11T13:18:51+00:00",
-      "category": "global",
-      "headline": "Libya approves first unified budget in more than a decade",
-      "summary": "Libya shows it is 'capable of overcoming its differences' with rare budget deal, central bank says.",
+      "category": "regional",
+      "headline": "US, Iran hold separate talks with Pakistan's PM ahead of negotiations",
+      "summary": "US and Iranian officials held separate talks with Pakistan’s prime minister on Saturday amid a ceasefire made fragile by deep disagreements and unabated fighting in Lebanon. International media reported that the two countries had also started direct talks in the afternoon.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Al Jazeera"
+        "Africanews"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/11/libya-approves-first-unified-budget-in-more-than-a-decade?traffic_source=rss"
+        "http://www.africanews.com/2026/04/11/us-iran-hold-separate-talks-with-pakistans-pm-but-no-direct-talks-yet/"
       ]
     },
     {
@@ -595,21 +804,6 @@
       ]
     },
     {
-      "id": "singleton_2a3b6ac09ea8",
-      "cluster_time": "2026-04-11T12:15:32+00:00",
-      "category": "global",
-      "headline": "Makeshift Gaza university offers chance to resurrect academic studies",
-      "summary": "Solar-powered halls create academic lifelines for Gaza students battling war's aftermath and scarce resources.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/features/2026/4/11/makeshift-gaza-university-offers-chance-to-resurrect-academic-studies?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_7a6828555ced",
       "cluster_time": "2026-04-11T12:12:19+00:00",
       "category": "local",
@@ -625,25 +819,7 @@
       ]
     },
     {
-      "id": "c5af3d7ec338",
-      "cluster_time": "2026-04-11T12:04:15+00:00",
-      "category": "global",
-      "headline": "Final push for votes as challenger to Hungary's Orbán senses victory",
-      "summary": "[BBC News] As Péter Magyar's opposition movement leads in the polls, tens of thousands of anti-Orbán supporters fill Heroes' Square in Budapest.\n\n[BBC News] Since 2010, Orbán has transformed Hungary into what the European Parliament has denounced as a \"hybrid regime of electoral autocracy\".\n\n[Al Jazeera] Hungarian prime minister and his Fidesz party ‌face first closely contested polls in Sunday's parliamentary election.",
-      "cluster_size": 3,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c0q9527y41lo?at_medium=RSS&at_campaign=rss",
-        "https://www.bbc.com/news/articles/cd6l3ywpwg2o?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/11/hungarys-viktor-orban-struggling-for-political-survival-ahead-of-vote?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_696d4c318a86",
+      "id": "singleton_093598beb8c0",
       "cluster_time": "2026-04-11T12:00:00+00:00",
       "category": "local",
       "headline": "La viande bovine Rs 20 en plus sur le demi-kilo dès lundi",
@@ -654,7 +830,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/la-viande-bovine-rs-20-en-plus-sur-le-demi-kilo-des-lundi"
+        "https://defimedia.info/la-viande-bovine-rs-20-en-plus-sur-le-demi-kilo-des-lundi"
       ]
     },
     {
@@ -673,7 +849,7 @@
       ]
     },
     {
-      "id": "singleton_07b78522d633",
+      "id": "singleton_307b57299482",
       "cluster_time": "2026-04-11T11:30:00+00:00",
       "category": "local",
       "headline": "Résidences Sainte-Claire : l’Adsu cible Curtis Warren Ah Tone, son beau-père et son beau-frère",
@@ -684,7 +860,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/residences-sainte-claire-ladsu-cible-curtis-warren-ah-tone-son-beau-pere-et-son-beau-frere"
+        "https://defimedia.info/residences-sainte-claire-ladsu-cible-curtis-warren-ah-tone-son-beau-pere-et-son-beau-frere"
       ]
     },
     {
@@ -703,7 +879,7 @@
       ]
     },
     {
-      "id": "singleton_b3facb71aa01",
+      "id": "singleton_915a277bdf2e",
       "cluster_time": "2026-04-11T11:09:00+00:00",
       "category": "local",
       "headline": "Chagos : « La décision de Keir Starmer ne surprend pas », réagit Gavin Glover",
@@ -714,11 +890,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/chagos-la-decision-de-keir-starmer-ne-surprend-pas-reagit-gavin-glover"
+        "https://defimedia.info/chagos-la-decision-de-keir-starmer-ne-surprend-pas-reagit-gavin-glover"
       ]
     },
     {
-      "id": "singleton_d6b966b451a0",
+      "id": "singleton_04da23c2e33c",
       "cluster_time": "2026-04-11T11:00:00+00:00",
       "category": "local",
       "headline": "Acquisition d’une voiture - Anba Manikham : «La décision a été avalisée par le conseil d’administration»",
@@ -729,7 +905,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/acquisition-dune-voiture-anba-manikham-la-decision-ete-avalisee-par-le-conseil-dadministration"
+        "https://defimedia.info/acquisition-dune-voiture-anba-manikham-la-decision-ete-avalisee-par-le-conseil-dadministration"
       ]
     },
     {
@@ -748,36 +924,6 @@
       ]
     },
     {
-      "id": "singleton_5401b1cb7d24",
-      "cluster_time": "2026-04-11T10:56:33+00:00",
-      "category": "global",
-      "headline": "We need a regional agreement for the Strait of Hormuz",
-      "summary": "A governing arrangement for the strait can and must be developed based on law and fact.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/4/11/we-need-a-regional-agreement-for-the-strait-of-hormuz?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_220570311b63",
-      "cluster_time": "2026-04-11T10:47:55+00:00",
-      "category": "global",
-      "headline": "Israel in row with South Korean leader over Palestinian abuse concerns",
-      "summary": "South Korea's president says it’s disappointing Israel does not 'even once reflect on criticisms from around the world'.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/11/israel-in-row-with-south-korea-leader-over-palestinian-abuse-concerns?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_a88a4b55b855",
       "cluster_time": "2026-04-11T10:43:41+04:00",
       "category": "local",
@@ -793,7 +939,7 @@
       ]
     },
     {
-      "id": "singleton_624b2b8f08f7",
+      "id": "singleton_17a9d477b4d8",
       "cluster_time": "2026-04-11T10:30:00+00:00",
       "category": "local",
       "headline": "Lutte contre le blanchiment : Keshwarsingh Nadan rattrapé par une affaire de bitcoins estimée à Rs 80 M",
@@ -804,7 +950,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/lutte-contre-le-blanchiment-keshwarsingh-nadan-rattrape-par-une-affaire-de-bitcoins-estimee-rs-80-m"
+        "https://defimedia.info/lutte-contre-le-blanchiment-keshwarsingh-nadan-rattrape-par-une-affaire-de-bitcoins-estimee-rs-80-m"
       ]
     },
     {
@@ -838,21 +984,6 @@
       ]
     },
     {
-      "id": "singleton_38bedd3dba24",
-      "cluster_time": "2026-04-11T10:06:53+00:00",
-      "category": "global",
-      "headline": "UK to hold off on deal ceding Chagos Islands amid US opposition",
-      "summary": "A bill laying out plans to return the Indian Ocean archipelago, home to the US-UK Diego Garcia base, has been paused.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/11/uk-to-hold-off-on-deal-ceding-chagos-islands-amid-us-opposition?traffic_source=rss"
-      ]
-    },
-    {
       "id": "cf4f01a83c32",
       "cluster_time": "2026-04-11T10:00:00+00:00",
       "category": "local",
@@ -866,22 +997,7 @@
       ],
       "urls": [
         "https://live.mega.mu/redirect/255374/",
-        "https://defimedia.info/index.php/cooperation-indo-mauricienne-maurice-se-dote-dune-unite-de-transplantation-renale"
-      ]
-    },
-    {
-      "id": "singleton_570191066d48",
-      "cluster_time": "2026-04-11T10:00:00+00:00",
-      "category": "local",
-      "headline": "STORM GUIDANCE | Maurice face aux cybermenaces : Premier forum national visant à anticiper les crises et à renforcer la cyber-résilience",
-      "summary": "Dans un monde sous tension numérique, la résilience fait toute la différence. Tel est le message du premier Cyber Resilience Leadership Forum (CRLF) organisé par STORM Guidance, spécialisée da...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/storm-guidance-maurice-face-aux-cybermenaces-premier-forum-national-visant-a-anticiper-les-crises-et-a-renforcer-la-cyber-resilience/704217/"
+        "https://defimedia.info/cooperation-indo-mauricienne-maurice-se-dote-dune-unite-de-transplantation-renale"
       ]
     },
     {
@@ -915,29 +1031,27 @@
       ]
     },
     {
-      "id": "f3de79a15ffc",
-      "cluster_time": "2026-04-11T09:54:00+00:00",
+      "id": "singleton_570191066d48",
+      "cluster_time": "2026-04-11T10:00:00+00:00",
       "category": "local",
-      "headline": "100 autobus électriques en service : La NTC change de cap avec une flotte électrique en pleine expansion",
-      "summary": "[Le Mauricien] Maurice met le cap sur l’électrique pour alléger sa facture énergétique et verdir son transport public, avec la remise officielle de 90 autobus électriques à la National Transport Corporation ...\n\n[ION News] Maurice franchit une nouvelle étape vers un transport plus durable avec la remise officielle de 90 autobus électriques supplémentaires à la National Transport Corporation (NTC), complétant ainsi un don de 100 autobus accordé par l’Inde. La cérémonie s’est tenue le 10 avril à Rose Belle Market Fair, où le ministre indien des Affaires étrangères, Dr Subrahmanyam Jaishankar, a symboliquement remis une clé au Premier ministre, Navin Ramgoolam. Le ministre du Transport, Osman Mahomed, ainsi que plusi",
-      "cluster_size": 2,
-      "source_count": 2,
+      "headline": "STORM GUIDANCE | Maurice face aux cybermenaces : Premier forum national visant à anticiper les crises et à renforcer la cyber-résilience",
+      "summary": "Dans un monde sous tension numérique, la résilience fait toute la différence. Tel est le message du premier Cyber Resilience Leadership Forum (CRLF) organisé par STORM Guidance, spécialisée da...",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "Le Mauricien",
-        "ION News"
+        "Le Mauricien"
       ],
       "urls": [
-        "https://www.lemauricien.com/actualites/societe/100-autobus-electriques-en-service-la-ntc-change-de-cap-avec-une-flotte-electrique-en-pleine-expansion/704359/",
-        "https://ionnews.mu/don-de-linde-90-autobus-electriques-remis-a-la-ntc/"
+        "https://www.lemauricien.com/actualites/societe/storm-guidance-maurice-face-aux-cybermenaces-premier-forum-national-visant-a-anticiper-les-crises-et-a-renforcer-la-cyber-resilience/704217/"
       ]
     },
     {
-      "id": "b655fc66920a",
+      "id": "2e9661876e40",
       "cluster_time": "2026-04-11T09:42:39+00:00",
       "category": "global",
       "headline": "Djibouti's president wins unprecedented sixth term with 97.8% of vote",
-      "summary": "[BBC News] Ismail Omar Guelleh, 78, has extended his already 27-year rule in a poll boycotted by the main opposition candidates.\n\n[Africanews] Djibouti began counting votes Friday in a presidential election expected to hand a sixth term to 78-year-old Ismail Omar Guelleh, who faces just one little-known opponent in the small but highly strategic Horn of Africa nation\n\n[Africanews] Djibouti's veteran leader Ismail Omar Guelleh won the country's presidential election with 97.8 percent of the vote, according to official results on Saturday.",
-      "cluster_size": 3,
+      "summary": "[BBC News] Ismail Omar Guelleh, 78, has extended his already 27-year rule in a poll boycotted by the main opposition candidates.\n\n[Africanews] Djibouti's veteran leader Ismail Omar Guelleh won the country's presidential election with 97.8 percent of the vote, according to official results on Saturday.",
+      "cluster_size": 2,
       "source_count": 2,
       "sources": [
         "BBC News",
@@ -945,7 +1059,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cgj0wg423n6o?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/04/10/djibouti-counts-votes-as-leader-seeks-sixth-term/",
         "http://www.africanews.com/2026/04/11/djibouti-a-landslide-victory-for-guelleh-according-to-official-results/"
       ]
     },
@@ -967,7 +1080,7 @@
       ]
     },
     {
-      "id": "singleton_be8690a86cc5",
+      "id": "singleton_4d733a97269c",
       "cluster_time": "2026-04-11T09:30:00+00:00",
       "category": "local",
       "headline": "Dr Avinaash Munohur : «La rupture est déjà actée au MMM»",
@@ -978,7 +1091,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/dr-avinaash-munohur-la-rupture-est-deja-actee-au-mmm"
+        "https://defimedia.info/dr-avinaash-munohur-la-rupture-est-deja-actee-au-mmm"
       ]
     },
     {
@@ -1012,7 +1125,7 @@
       ]
     },
     {
-      "id": "singleton_6ea7992bea14",
+      "id": "singleton_0e5c5ec2d728",
       "cluster_time": "2026-04-11T09:00:00+00:00",
       "category": "local",
       "headline": "FCC : une perquisition de 23 heures au Royal Green Wellness Resort",
@@ -1023,37 +1136,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/fcc-une-perquisition-de-23-heures-au-royal-green-wellness-resort"
-      ]
-    },
-    {
-      "id": "singleton_bbb5562bded6",
-      "cluster_time": "2026-04-11T09:00:00+00:00",
-      "category": "local",
-      "headline": "TWAHA ACADEMY  : Les plaintes s’accumulent contre Azhar Peerbocus",
-      "summary": "Une nouvelle plainte a été déposée contre le mufti Azhar Peerbocus, ex-Acting Principal de la Twaha Academy, mettant en cause ce dernier dans des actes de violence allégués sur des élèves mine...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/societe/twaha-academy-les-plaintes-saccumulent-contre-azhar-peerbocus/704311/"
-      ]
-    },
-    {
-      "id": "singleton_491b42d5c730",
-      "cluster_time": "2026-04-11T08:38:17+00:00",
-      "category": "global",
-      "headline": "Baseball statue broken as it is unveiled in Seattle",
-      "summary": "The mishap occurred as a tarp was pulled off a bronze figure immortalising Hall of Famer Ichiro Suzuki.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c0rx4v5q701o?at_medium=RSS&at_campaign=rss"
+        "https://defimedia.info/fcc-une-perquisition-de-23-heures-au-royal-green-wellness-resort"
       ]
     },
     {
@@ -1430,7 +1513,7 @@
       ],
       "urls": [
         "https://live.mega.mu/redirect/255296/",
-        "https://defimedia.info/index.php/le-royaume-uni-met-en-veille-laccord-sur-les-chagos-apres-lopposition-de-trump"
+        "https://defimedia.info/le-royaume-uni-met-en-veille-laccord-sur-les-chagos-apres-lopposition-de-trump"
       ]
     },
     {
@@ -1449,7 +1532,7 @@
       ]
     },
     {
-      "id": "singleton_a604d83674a6",
+      "id": "singleton_c1105bbcc239",
       "cluster_time": "2026-04-11T07:57:00+00:00",
       "category": "local",
       "headline": "Ritesh Ramful : «Maurice n’exclura aucune voie pour les Chagos»",
@@ -1460,7 +1543,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/ritesh-ramful-maurice-nexclura-aucune-voie-pour-les-chagos"
+        "https://defimedia.info/ritesh-ramful-maurice-nexclura-aucune-voie-pour-les-chagos"
       ]
     },
     {
@@ -1494,7 +1577,7 @@
       ]
     },
     {
-      "id": "singleton_485aa89c64f6",
+      "id": "singleton_1f16bdb84016",
       "cluster_time": "2026-04-11T06:30:00+00:00",
       "category": "local",
       "headline": "Sécurité énergétique : hausse de 15 % du tarif le 1er mai",
@@ -1505,11 +1588,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/securite-energetique-hausse-de-15-du-tarif-le-1er-mai"
+        "https://defimedia.info/securite-energetique-hausse-de-15-du-tarif-le-1er-mai"
       ]
     },
     {
-      "id": "singleton_e1d2cd5ec013",
+      "id": "singleton_9dc32c78d39f",
       "cluster_time": "2026-04-11T06:12:00+00:00",
       "category": "local",
       "headline": "Carburants : vers une hausse des prix de l’essence et du diesel",
@@ -1520,7 +1603,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/carburants-vers-une-hausse-des-prix-de-lessence-et-du-diesel"
+        "https://defimedia.info/carburants-vers-une-hausse-des-prix-de-lessence-et-du-diesel"
       ]
     },
     {
@@ -1539,7 +1622,7 @@
       ]
     },
     {
-      "id": "singleton_d681c4beff10",
+      "id": "singleton_971159ea2212",
       "cluster_time": "2026-04-11T06:08:00+00:00",
       "category": "local",
       "headline": "Claude Canabady, secrétaire de la CEA : «Une augmentation tout à fait raisonnable»",
@@ -1550,7 +1633,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/claude-canabady-secretaire-de-la-cea-une-augmentation-tout-fait-raisonnable"
+        "https://defimedia.info/claude-canabady-secretaire-de-la-cea-une-augmentation-tout-fait-raisonnable"
       ]
     },
     {
@@ -1569,7 +1652,7 @@
       ]
     },
     {
-      "id": "singleton_9e21f92369d8",
+      "id": "singleton_cd985dfc101c",
       "cluster_time": "2026-04-11T06:05:00+00:00",
       "category": "local",
       "headline": "Nasser Moraby : «Un prix de Rs 4,50 pour un pain maison serait raisonnable»",
@@ -1580,11 +1663,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/nasser-moraby-un-prix-de-rs-450-pour-un-pain-maison-serait-raisonnable"
+        "https://defimedia.info/nasser-moraby-un-prix-de-rs-450-pour-un-pain-maison-serait-raisonnable"
       ]
     },
     {
-      "id": "singleton_054b6641dd28",
+      "id": "singleton_fd614af9eb38",
       "cluster_time": "2026-04-11T06:02:00+00:00",
       "category": "local",
       "headline": "Jayen Chellum : «Une hausse de 50 % sur le prix du pain est excessive»",
@@ -1595,11 +1678,11 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/jayen-chellum-une-hausse-de-50-sur-le-prix-du-pain-est-excessive"
+        "https://defimedia.info/jayen-chellum-une-hausse-de-50-sur-le-prix-du-pain-est-excessive"
       ]
     },
     {
-      "id": "singleton_a6db22169ca2",
+      "id": "singleton_60b493415c93",
       "cluster_time": "2026-04-11T05:59:00+00:00",
       "category": "local",
       "headline": "Suttyhudeo Tengur, président de l’APEC : «Un prix du pain fixé à Rs 3, aurait été plus humaine»",
@@ -1610,7 +1693,7 @@
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/index.php/suttyhudeo-tengur-president-de-lapec-un-prix-du-pain-fixe-rs-3-aurait-ete-plus-humaine"
+        "https://defimedia.info/suttyhudeo-tengur-president-de-lapec-un-prix-du-pain-fixe-rs-3-aurait-ete-plus-humaine"
       ]
     },
     {
@@ -1626,6 +1709,21 @@
       ],
       "urls": [
         "https://newsmoris.com/bread-price-hits-rs-3-90-as-government-slashes-subsidies/"
+      ]
+    },
+    {
+      "id": "singleton_c7a14db7bb01",
+      "cluster_time": "2026-04-11T05:47:57+00:00",
+      "category": "local",
+      "headline": "Don de l’Inde : 90 autobus électriques remis à la NTC",
+      "summary": "Maurice franchit une nouvelle étape vers un transport plus durable avec la remise officielle de 90 autobus électriques supplémentaires à la National Transport Corporation (NTC), complétant ainsi un don de 100 autobus accordé par l’Inde. La cérémonie s’est tenue le 10 avril à Rose Belle Market Fair, où le ministre indien des Affaires étrangères, Dr Subrahmanyam Jaishankar, a symboliquement remis une clé au Premier ministre, Navin Ramgoolam. Le ministre du Transport, Osman Mahomed, ainsi que plusi",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "ION News"
+      ],
+      "urls": [
+        "https://ionnews.mu/don-de-linde-90-autobus-electriques-remis-a-la-ntc/"
       ]
     },
     {
@@ -1746,186 +1844,6 @@
       ],
       "urls": [
         "https://ionnews.mu/liga-le-real-madrid-dit-presque-adieu-au-titre-apres-son-nul-contre-girona/"
-      ]
-    },
-    {
-      "id": "singleton_164cd0f1e26a",
-      "cluster_time": "2026-04-11T03:25:04+00:00",
-      "category": "global",
-      "headline": "Melania Trump's speech propels Epstein crisis back to forefront",
-      "summary": "She has now placed herself squarely into the Epstein story and at odds with the administration, which wants to end the investigation.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cwy3w9y8gyjo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_0629fa40d8b5",
-      "cluster_time": "2026-04-11T02:02:56+00:00",
-      "category": "global",
-      "headline": "'Every drop of water counts': Fear for the future of Argentina's glaciers",
-      "summary": "A controversial law to remove protections for the country's glaciers has passed, opening the doors for mining.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cj947487wzyo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_aa4ca0b3ccd8",
-      "cluster_time": "2026-04-11T01:51:00+00:00",
-      "category": "local",
-      "headline": "Météo : Maurice sous l’influence d’un anticyclone",
-      "summary": "Un anticyclone au sud des Mascareignes génère des alizés modérés sur notre région. Des nuages associés à ces alizés trav",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/index.php/meteo-maurice-sous-linfluence-dun-anticyclone-27"
-      ]
-    },
-    {
-      "id": "singleton_f114ea8ae891",
-      "cluster_time": "2026-04-11T01:45:41+00:00",
-      "category": "global",
-      "headline": "An inappropriate joke nearly ended his career. Now he's back with more humour",
-      "summary": "A misfired joke nearly derailed Samay Raina’s comedy career. Now he’s back, reclaiming his voice.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/czrekvml0p6o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_31aaaeba6215",
-      "cluster_time": "2026-04-11T01:19:55+00:00",
-      "category": "global",
-      "headline": "This idyllic US town was full of police families - and a serial killer in their midst",
-      "summary": "For years, rumours swirled about who could be behind the bodies being discovered on the shores of Gilgo Beach.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cpwjkqq910go?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_cbba25fd9763",
-      "cluster_time": "2026-04-11T00:54:23+00:00",
-      "category": "global",
-      "headline": "JD Vance takes on a perilous mission - could it backfire?",
-      "summary": "As the US vice-president leads peace talks with Iran, he must balance warring factions, a demanding boss and his own political future.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c1d9z1q2997o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_af3974a75e7a",
-      "cluster_time": "2026-04-11T00:40:00+00:00",
-      "category": "local",
-      "headline": "[Info Soirée] : « Kouran p monte »",
-      "summary": "•Réuni ce 8 avril sous la présidence du Premier ministre, le comité de crise a tranché : les tarifs de l’électricité gri",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/index.php/info-soiree-kouran-p-monte"
-      ]
-    },
-    {
-      "id": "singleton_a47031f371f8",
-      "cluster_time": "2026-04-11T00:38:44+00:00",
-      "category": "global",
-      "headline": "Artemis II mission was a triumph - now comes the hard part",
-      "summary": "The mission was almost flawless but there are considerable obstacles ahead before a Moon landing.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cj0v119zp19o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_1d440fdd097f",
-      "cluster_time": "2026-04-10T23:46:49+00:00",
-      "category": "global",
-      "headline": "Lyse Doucet: Historic US-Iran talks must bridge deep distrust",
-      "summary": "Face-to-face talks would mark the highest-level engagement between Iran and the US since the 1979 Islamic Revolution.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cn9qzl12537o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_caac920df3e8",
-      "cluster_time": "2026-04-10T21:36:30+00:00",
-      "category": "global",
-      "headline": "Irish government prepares fuel support deal after blockade pressure",
-      "summary": "Travel across parts of the Republic of Ireland was affected for the fourth day in a row as vehicles, including tractors, blocked roads.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cy814wypp5go?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_6f663a0a420a",
-      "cluster_time": "2026-04-10T20:24:04+00:00",
-      "category": "regional",
-      "headline": "Benin presidential election favourite Wadagni holds final rally",
-      "summary": "Benin Finance Minister Romuald Wadagni, who is the favourite in this weekend's presidential election, tells supporters he will do \"even better\" than the government already has done if elected",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/10/benin-presidential-election-favourite-wadagni-holds-final-rally/"
-      ]
-    },
-    {
-      "id": "singleton_c622fd6a1f9b",
-      "cluster_time": "2026-04-10T18:13:25+00:00",
-      "category": "global",
-      "headline": "The five big sticking points in US-Iran talks",
-      "summary": "Peace talks between the US and Iran are due to begin in Pakistan on Saturday.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cx2wyn8wdz0o?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
