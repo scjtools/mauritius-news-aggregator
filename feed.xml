@@ -4,64 +4,242 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Sun, 12 Apr 2026 19:32:59 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Apr 2026 03:21:41 +0000</lastBuildDate>
     <item>
-      <title>Brent Crude Oil price – 12 April 2026</title>
+      <title>Brent Crude Oil price – 13 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 95.20 per barrel</description>
+      <description>Brent Crude Oil: USD 102.16 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-12T19:29:53.865548+00:00</cluster_time>
+      <cluster_time>2026-04-13T03:18:31.979104+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 12 April 2026</title>
+      <title>Bitcoin price – 13 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 71,176.39 (▲ +1.09% from last)</description>
+      <description>Bitcoin (BTC): USD 71,054.97 (▲ +0.92% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-12T19:29:53.721594+00:00</cluster_time>
+      <cluster_time>2026-04-13T03:18:31.887319+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 12 April 2026</title>
+      <title>Gold price – 13 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,749.20 (▲ +8.20% from last)</description>
+      <description>Gold (XAU): USD 4,717.40 (▲ +7.48% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-12T19:29:53.236411+00:00</cluster_time>
+      <cluster_time>2026-04-13T03:18:31.568470+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 12 April 2026</title>
+      <title>MUR exchange rates – 13 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
       <description>MUR/USD 46.56 | MUR/EUR 54.48 (▲ 0.07 from last) (▲ 0.79 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-12T19:29:52.837545+00:00</cluster_time>
+      <cluster_time>2026-04-13T03:18:31.050606+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 12 April 2026</title>
+      <title>SEMDEX – 13 April 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2243.42 (▲ 20.22 pts, +0.91% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-12T19:29:50.534934+00:00</cluster_time>
+      <cluster_time>2026-04-13T03:18:28.723270+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Trump's Strait of Hormuz blockade threat raises risks and leaves predicaments unchanged</title>
+      <title>Assemblée nationale, mardi prochain : Assemblée nationale, mardi prochain – Une salve de 28 questions au leader of the House</title>
+      <link>https://www.lemauricien.com/actualites/politique/assemblee-nationale-mardi-prochain-assemblee-nationale-mardi-prochain-une-salve-de-28-questions-au-leader-of-the-house/704387/</link>
+      <description>...mais la PNQ devrait être plus ardue pour le PM La séance parlementaire de ce mardi 14 avril 2026 s’annonce particulièrement dense pour le Premier ministre, avec 28 questions inscrites à son ...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-13T03:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>La météo de ce lundi 13 avril</title>
+      <link>https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-lundi-13-avril/704444/</link>
+      <description>[Le Mauricien] Un vent léger souffle sur la région. Le temps sera mi-couvert à parfois nuageux ce matin avec quelques averses surtout sur les hauteurs. Des développements nuageux sont attendus dans l'après-midi...
+
+[Defimedia] Un vent léger souffle sur notre région et quelques nuages dans le flux de l’est traversent l’île ce matin. Le temps sera</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-13T02:35:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>238c9bcfb939</cluster_id>
+      <sources>Le Mauricien
+Defimedia</sources>
+      <urls>https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-lundi-13-avril/704444/
+https://defimedia.info/meteo-temps-mi-couvert-avec-averses-localisees-attendues-ce-lundi</urls>
+      <titles>La météo de ce lundi 13 avril
+Météo : temps mi-couvert avec averses localisées attendues ce lundi</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Rory McIlroy wins Masters to become fourth back-to-back champion</title>
+      <link>https://www.aljazeera.com/sports/2026/4/13/rory-mcilroy-wins-masters-to-become-fourth-back-to-back-champion?traffic_source=rss</link>
+      <description>The Northern Irishman becomes the first player to repeat at Augusta National since Tiger Woods back in 2001-2002.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T02:29:27+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Oil back above $100 as US to blockade Iranian ports after peace talks fail</title>
+      <link>https://www.bbc.com/news/articles/cn781z4lgg4o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The failure of negotiations at the weekend has raised concerns that the global energy crisis will deepen.
+
+[Al Jazeera] Asian stocks fall as naval blockade threat injects new turmoil into financial markets.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T01:30:59+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>3094ee449ac9</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/cn781z4lgg4o?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/economy/2026/4/13/oil-prices-surge-past-103-a-barrel-after-us-announces-blockade-of-iran?traffic_source=rss</urls>
+      <titles>Oil back above $100 as US to blockade Iranian ports after peace talks fail
+Oil prices surge past $103 a barrel after US announces blockade of Iran</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Congressman Eric Swalwell quits California governor race amid sexual misconduct claims</title>
+      <link>https://www.bbc.com/news/articles/c74vwdpj7kdo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Top Democratic allies intensified pressure on him to exit the gubernatorial race.
+
+[Al Jazeera] Democratic representative suspends campaign after media reports detailed alleged accounts of sexual assault.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T01:02:34+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>b291b768b368</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/c74vwdpj7kdo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/12/abuse-allegations-against-lead-democrat-shake-race-for-california-governor?traffic_source=rss</urls>
+      <titles>Congressman Eric Swalwell quits California governor race amid sexual misconduct claims
+Eric Swalwell exits California governor race after sex assault allegations</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Orbán era swept away by Péter Magyar's Hungary election landslide</title>
+      <link>https://www.bbc.com/news/articles/cd9vg782kx7o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Viktor Orbán's 16 years in power is over, defeated by a 45-year-old ex-party insider who convinced a majority of Hungarians to oust him.
+
+[Al Jazeera] Prime Minister Viktor Orban concedes defeat in election as results show Peter Magyar's Tisza party winning by landslide.
+
+[Al Jazeera] Centre-right Tisza party wins two-thirds majority in parliament that would allow it to amend constitution.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T00:32:46+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>b51707db40e4</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/cd9vg782kx7o?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/12/world-reacts-to-election-defeat-for-viktor-orban-hungarys-longtime-pm?traffic_source=rss
+https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz?traffic_source=rss</urls>
+      <titles>Orbán era swept away by Péter Magyar's Hungary election landslide
+World reacts to Peter Magyar defeating Viktor Orban, Hungary’s longtime PM
+Peter Magyar wins Hungary election, unseating Viktor Orban after 16 years</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>What is a naval blockade and how would it work in Strait of Hormuz?</title>
+      <link>https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Donald Trump says that the US is going to start blockading the Strait of Hormuz. What does this mean in practice?
+
+[Al Jazeera] Vessels will still be able to transit the Strait of Hormuz to and from non-Iranian ports, says US Central Command.
+
+[Al Jazeera] CENTCOM says the blockade will begin at 14:00 GMT, as Iran warns of even higher prices at the pump.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T00:32:03+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>bb84c0cbd0fb</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/13/us-military-threatens-to-blockade-all-iranian-ports-starting-on-monday?traffic_source=rss
+https://www.aljazeera.com/news/liveblog/2026/4/13/iran-war-live-us-military-to-block-iranian-port-traffic-in-hormuz-strait?traffic_source=rss</urls>
+      <titles>What is a naval blockade and how would it work in Strait of Hormuz?
+US military threatens to blockade all Iranian ports starting on Monday
+Iran war live: US military says it will block Iranian traffic in Hormuz</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Political turmoil in Indian border state as nine million lose voting rights</title>
+      <link>https://www.bbc.com/news/articles/cy51qg00dezo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Nine million voters have been dropped from rolls in West Bengal, raising concerns over exclusion and fairness.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-12T23:59:48+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pope prioritises world's fastest-growing Catholic region in major Africa tour</title>
+      <link>https://www.bbc.com/news/articles/cvg0jyx4qq7o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Leo XIV wants the world's attention on a continent vital to the Church's future, an aide says.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-12T23:08:40+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Frostbite is least of worries for Canada forces grappling with new Arctic reality</title>
+      <link>https://www.bbc.com/news/articles/cwyj8jjkl78o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Across 5,200 km of Canada's Arctic, some 1,300 members of Canada's military spent two winter months on a mission to meet the challenges of a changing north.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-12T23:07:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump's blockade threat raises risks and leaves predicaments unchanged</title>
       <link>https://www.bbc.com/news/articles/c8dl5mly2rzo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The conflict is now a test of wills - Iran’s capacity to absorb strikes versus Trump’s tolerance for the war's costs.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-04-12T18:48:57+00:00</cluster_time>
+      <cluster_time>2026-04-12T22:57:22+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>History of flotilla campaigns to end Israel’s siege of Gaza</title>
+      <link>https://www.aljazeera.com/news/2026/4/12/history-of-flotilla-campaigns-to-end-israels-siege-of-gaza?traffic_source=rss</link>
+      <description>A 70-boat flotilla sets sail from Spain, aiming to break Israel's naval blockade on Gaza amid history of interceptions.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-12T20:30:26+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Polls close in Benin with finance minister expected to win election</title>
+      <link>https://www.aljazeera.com/news/2026/4/12/polls-close-in-benin-with-finance-minister-expected-to-win-election?traffic_source=rss</link>
+      <description>Former President Patrice Talon has stepped down after two five-year terms.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-12T19:43:02+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -72,42 +250,37 @@
 
 [Al Jazeera] Amnesty International says more than 100 people killed in military attack on a market in Jilli village.
 
-[Africanews] Dozens of people died in airstrikes in Nigeria's northeastern Yobe state as military aircraft hunted Boko Haram jihadists, local residents and Amnesty International said on Sunday.</description>
+[Africanews] Dozens of people died in airstrikes in Nigeria's northeastern Yobe state as military aircraft hunted Boko Haram jihadists, local residents and Amnesty International said on Sunday.
+
+[Africanews] Dozens of injured victims were taken to a hospital in Geidam, where they are receiving treatment, a hospital worker said.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-04-12T18:25:50+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
+      <cluster_time>2026-04-12T19:30:21+00:00</cluster_time>
+      <cluster_size>4</cluster_size>
       <source_count>3</source_count>
-      <cluster_id>742f75e5a63a</cluster_id>
+      <cluster_id>452c9a5f941a</cluster_id>
       <sources>BBC News
 Al Jazeera
 Africanews</sources>
       <urls>https://www.bbc.com/news/articles/cgk021z3ejpo?at_medium=RSS&amp;at_campaign=rss
 https://www.aljazeera.com/news/2026/4/12/dozens-feared-dead-in-air-strike-on-village-in-northeastern-nigeria?traffic_source=rss
-http://www.africanews.com/2026/04/12/at-least-200-killed-in-airstrikes-in-northeast-nigeria/</urls>
+http://www.africanews.com/2026/04/12/at-least-200-killed-in-airstrikes-in-northeast-nigeria/
+http://www.africanews.com/2026/04/12/nigeria-over-100-civilians-killed-in-airstrike-described-as-mistake-by-rights-groups/</urls>
       <titles>Civilians feared killed after reports of air strike on Nigerian market
 Dozens feared dead in air strike on village in northeastern Nigeria
-At least 200 killed in airstrikes in northeast Nigeria</titles>
+At least 200 killed in airstrikes in northeast Nigeria
+Nigeria: Over 100 civilians killed in airstrike described as ‘mistake’ by rights groups</titles>
       <languages>en</languages>
     </item>
     <item>
-      <title>Chelsea vs Manchester City 0-3: Premier League – as it happened</title>
-      <link>https://www.aljazeera.com/sports/liveblog/2026/4/12/live-chelsea-vs-manchester-city-premier-league-football?traffic_source=rss</link>
-      <description>[Al Jazeera] All the updates as Man City ease to a 3-0 win over Chelsea at Stamford Bridge to reignite the title race with Arsenal.
-
-[Al Jazeera] City score three second-half goals to crush Chelsea at Stamford Bridge and move to within six points of Arsenal.</description>
+      <title>Man City rout Chelsea 3-0 to close gap on Premier League leaders Arsenal</title>
+      <link>https://www.aljazeera.com/sports/2026/4/12/man-city-rout-chelsea-3-0-to-close-gap-on-premier-league-leaders-arsenal?traffic_source=rss</link>
+      <description>City score three second-half goals to crush Chelsea at Stamford Bridge and move to within six points of Arsenal.</description>
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-04-12T18:00:26+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
+      <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-      <cluster_id>d29c784aa7e9</cluster_id>
-      <sources>Al Jazeera</sources>
-      <urls>https://www.aljazeera.com/sports/liveblog/2026/4/12/live-chelsea-vs-manchester-city-premier-league-football?traffic_source=rss
-https://www.aljazeera.com/sports/2026/4/12/man-city-rout-chelsea-3-0-to-close-gap-on-premier-league-leaders-arsenal?traffic_source=rss</urls>
-      <titles>Chelsea vs Manchester City 0-3: Premier League – as it happened
-Man City rout Chelsea 3-0 to close gap on Premier League leaders Arsenal</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Asha Bhosle: The sound of Bollywood dies aged 92</title>
@@ -170,36 +343,6 @@ Man City rout Chelsea 3-0 to close gap on Premier League leaders Arsenal</titles
       <source_count>1</source_count>
     </item>
     <item>
-      <title>‘Blown to hell’: Trump orders Hormuz blockade after US-Iran peace talks end</title>
-      <link>https://www.aljazeera.com/news/2026/4/12/trump-announces-strait-of-hormuz-blockade-after-us-iran-peace-talks-end?traffic_source=rss</link>
-      <description>US Navy to enforce blockade, Trump says after condemning Iran for blocking waterway, complaining of no deal in Pakistan.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T15:47:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Peru votes for ninth president in less than decade</title>
-      <link>https://www.aljazeera.com/news/2026/4/12/peru-votes-for-ninth-president-in-less-than-decade?traffic_source=rss</link>
-      <description>Voters to choose from 35 presidential candidates, including a comedian, a media baron and a political dynasty heiress.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T15:39:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>FIFA rejects Iran’s request to relocate World Cup games amid US-Israel war</title>
-      <link>https://www.aljazeera.com/sports/2026/4/12/fifa-rejects-irans-request-to-relocate-world-cup-games-amid-us-israel-war?traffic_source=rss</link>
-      <description>Mexican President Sheinbaum says FIFA will not relocate Iran's fixtures from US despite repeated requests.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T15:17:17+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Pope Leo XIV urges immediate ceasefire as Israel-Hezbollah clashes rage</title>
       <link>http://www.africanews.com/2026/04/12/pope-leo-xiv-urges-immediate-ceasefire-as-israel-hezbollah-clashes-rage/</link>
       <description>Pope Leo XIV called for an immediate ceasefire on Sunday as fighting between Israel and Hezbollah continues, urging all parties to respect international law and protect civilians.</description>
@@ -236,16 +379,6 @@ Man City rout Chelsea 3-0 to close gap on Premier League leaders Arsenal</titles
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-12T14:51:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>At least 30 dead in stampede at Haiti’s historic Citadelle Laferriere</title>
-      <link>https://www.aljazeera.com/news/2026/4/12/at-least-30-dead-in-stampede-at-haitis-historic-citadelle-laferriere?traffic_source=rss</link>
-      <description>The fortress was packed before the annual celebration at the UNESCO World Heritage Site, authorities say.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T14:36:54+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -354,32 +487,12 @@ La légende de la musique indienne Asha Bhosle s’éteint à l’âge de 92 ans
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Palestinians condemn storming of Al-Aqsa Mosque by Israel’s Ben-Gvir</title>
-      <link>https://www.aljazeera.com/news/2026/4/12/palestinians-condemn-storming-of-al-aqsa-mosque-by-israels-ben-gvir?traffic_source=rss</link>
-      <description>Israel’s far-right security minister storms mosque compound with protection, drawing condemnation from Palestinians.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T13:42:04+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Vieille prison de Port-Louis : quand le passé colonial dérange</title>
       <link>https://defimedia.info/vieille-prison-de-port-louis-quand-le-passe-colonial-derange</link>
       <description>Longtemps restée dans l’angle mort de la ville, l’ancienne prison civile sort de l’oubli. Entre murs de pierre et souven</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-12T13:30:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Lessons from the Iran war</title>
-      <link>https://www.aljazeera.com/opinions/2026/4/12/lessons-from-the-iran-war?traffic_source=rss</link>
-      <description>The past month and a half have shown that the nature of modern warfare is shifting.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T13:10:22+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -404,32 +517,12 @@ La légende de la musique indienne Asha Bhosle s’éteint à l’âge de 92 ans
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Ukraine and Russia accuse each other of breaching Easter ceasefire</title>
-      <link>https://www.aljazeera.com/news/2026/4/12/ukraine-and-russia-accuse-each-other-of-breaching-easter-ceasefire?traffic_source=rss</link>
-      <description>The warring sides trade barbs over truce as Kremlin says Russia will not extend it unless Kyiv agrees to its terms.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T12:56:59+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>After Iran talks falter, the big question is what happens next?</title>
       <link>https://www.bbc.com/news/articles/c5y943x2g8qo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Twenty-one hours was not enough to end 47 years of hostility between Iran and the US, writes the BBC's Lyse Doucet.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-12T12:48:01+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US-Iran ceasefire talks: What are the key sticking points?</title>
-      <link>https://www.aljazeera.com/news/2026/4/12/us-iran-ceasefire-talks-what-are-the-key-sticking-points?traffic_source=rss</link>
-      <description>Talks between Iran and the US expose deep divisions, prolonging uncertainty during a two-week ceasefire.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T12:47:21+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -514,26 +607,6 @@ La légende de la musique indienne Asha Bhosle s’éteint à l’âge de 92 ans
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Benin holds presidential election amid deteriorating security situation</title>
-      <link>https://www.aljazeera.com/news/2026/4/12/benin-holds-presidential-election-amid-deteriorating-security-situation?traffic_source=rss</link>
-      <description>[Al Jazeera] Benin is facing harsh economic conditions and security challenges that its new leader will have to address.
-
-[Africanews] Benin will vote for a new president on Sunday, with Finance Minister Romuald Wadagni a shoo-in after overseeing a decade of economic growth in the west African country despite jihadist attacks in the north.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T10:51:36+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>309e48e153d7</cluster_id>
-      <sources>Al Jazeera
-Africanews</sources>
-      <urls>https://www.aljazeera.com/news/2026/4/12/benin-holds-presidential-election-amid-deteriorating-security-situation?traffic_source=rss
-http://www.africanews.com/2026/04/12/polls-open-in-benin-presidential-election-finance-minister-a-favourite/</urls>
-      <titles>Benin holds presidential election amid deteriorating security situation
-Polls open in Benin presidential election, finance minister a favourite</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Enchères publiques - Crime organisé : l’État encaisse le pactole</title>
       <link>https://defimedia.info/encheres-publiques-crime-organise-letat-encaisse-le-pactole</link>
       <description>Maisons, bateaux et grosses cylindrées… : plus de Rs 75 M de biens en venteLa FCC s’apprête à mettre aux enchères une so</description>
@@ -550,26 +623,6 @@ Polls open in Benin presidential election, finance minister a favourite</titles>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-12T10:21:24+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Union Berlin’s Marie-Louise Eta becomes first female manager of men’s team</title>
-      <link>https://www.aljazeera.com/sports/2026/4/12/union-berlins-marie-louise-eta-becomes-first-woman-manager-of-mens-team?traffic_source=rss</link>
-      <description>Berlin's Eta becomes first female head coach of a top-tier European club after her appointment by the Bundesliga side.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T10:14:22+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Saudi Arabia says key oil pipeline back to full capacity after attacks</title>
-      <link>https://www.aljazeera.com/economy/2026/4/12/saudi-arabia-says-key-oil-pipeline-back-to-full-capacity-after-attacks?traffic_source=rss</link>
-      <description>The Ministry of Energy says the East-West pipeline is back to pumping about 7 million barrels per day.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T09:47:24+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -620,6 +673,16 @@ Polls open in Benin presidential election, finance minister a favourite</titles>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-04-12T09:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Polls open in Benin presidential election, finance minister a favourite</title>
+      <link>http://www.africanews.com/2026/04/12/polls-open-in-benin-presidential-election-finance-minister-a-favourite/</link>
+      <description>Benin will vote for a new president on Sunday, with Finance Minister Romuald Wadagni a shoo-in after overseeing a decade of economic growth in the west African country despite jihadist attacks in the north.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-12T08:55:27+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1054,7 +1117,7 @@ Hausse du coût de la vie : dans les foyers mauriciens, la colère et la résign
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Tensions au Moyen-Orient : La Parole aux Mauriciens</title>
+      <title>Tensions au Moyen-Orient : La Parole aux...</title>
       <link>https://www.lemauricien.com/actualites/societe/tensions-au-moyen-orient-la-parole-aux-mauriciens/704400/</link>
       <description>Plus de quarante jours après l’escalade militaire au Moyen-Orient, entre tensions persistantes et ajustement des prix, les premières répercussions se font déjà sentir sur le coût de la vie. Pr...</description>
       <source>Le Mauricien</source>
@@ -1280,86 +1343,6 @@ Hausse du coût de la vie : dans les foyers mauriciens, la colère et la résign
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-12T03:32:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Paul Bérenger : « Nous déciderons de ce que nous ferons lundi matin »</title>
-      <link>https://defimedia.info/paul-berenger-nous-deciderons-de-ce-que-nous-ferons-lundi-matin</link>
-      <description>Réagissant à l’issue de l’Assemblée des délégués, samedi, le leader du MMM conteste la légitimité de cette réunion. Il i</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-12T02:41:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Météo : l’anticyclone s’éloigne, temps mi-couvert ce dimanche</title>
-      <link>https://defimedia.info/meteo-lanticyclone-seloigne-temps-mi-couvert-ce-dimanche</link>
-      <description>Avec l’éloignement de l’anticyclone vers le sud-est, un vent léger souffle sur notre région. Des nuages en provenance de</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-12T02:23:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>« Cela m'est égal », dit Trump</title>
-      <link>https://defimedia.info/cela-mest-egal-dit-trump</link>
-      <description>&quot;Cela m'est égal&quot; si un accord est conclu ou non avec l'Iran, a affirmé samedi Donald Trump, au premier jour des pourpar</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-12T01:48:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Why this disillusioned Trump voter spends hours searching Epstein files</title>
-      <link>https://www.bbc.com/news/articles/cx237vmr2lyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Many who support the president have expressed frustration with how Trump's former attorney general Pam Bondi handled the Epstein files.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T00:30:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>India refuses to criminalise marital rape. This new series shines a light on it</title>
-      <link>https://www.bbc.com/news/articles/cgqkl2kqkxzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Chiraiya, which has drawn an audience of millions, has prompted conversations on social media around consent and misogyny.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T00:16:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>We spoke to the man making viral Lego-style AI videos for Iran. Experts say it's powerful propaganda</title>
-      <link>https://www.bbc.com/news/articles/cjd8jrd1vnyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>&quot;Slopaganda&quot; is too weak a term to capture how powerful this &quot;highly sophisticated&quot; content is, one expert says.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T23:13:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran war lands 'triple blow' to flood-ravaged Sri Lankans</title>
-      <link>https://www.bbc.com/news/articles/c4gvkpj0024o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The Iran war could not have come at a worse time for Sri Lanka, reeling from devastating floods and an economic crisis.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T23:06:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Irish cabinet meeting to be held to discuss ongoing fuel protests</title>
-      <link>https://www.bbc.com/news/articles/c0e7rpjqw5po?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Hundreds of petrol stations in the Republic of Ireland have run out of fuel as the protests and blockades continued for a fifth day.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-11T20:12:22+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>

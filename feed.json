@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 129,
+  "item_count": 123,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-12T19:29:53.865548+00:00",
+      "cluster_time": "2026-04-13T03:18:31.979104+00:00",
       "category": "finance",
-      "headline": "Brent Crude Oil price – 12 April 2026",
-      "summary": "Brent Crude Oil: USD 95.20 per barrel",
+      "headline": "Brent Crude Oil price – 13 April 2026",
+      "summary": "Brent Crude Oil: USD 102.16 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-12T19:29:53.721594+00:00",
+      "cluster_time": "2026-04-13T03:18:31.887319+00:00",
       "category": "finance",
-      "headline": "Bitcoin price – 12 April 2026",
-      "summary": "Bitcoin (BTC): USD 71,176.39 (▲ +1.09% from last)",
+      "headline": "Bitcoin price – 13 April 2026",
+      "summary": "Bitcoin (BTC): USD 71,054.97 (▲ +0.92% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-12T19:29:53.236411+00:00",
+      "cluster_time": "2026-04-13T03:18:31.568470+00:00",
       "category": "finance",
-      "headline": "Gold price – 12 April 2026",
-      "summary": "Gold (XAU): USD 4,749.20 (▲ +8.20% from last)",
+      "headline": "Gold price – 13 April 2026",
+      "summary": "Gold (XAU): USD 4,717.40 (▲ +7.48% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,9 +49,9 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-12T19:29:52.837545+00:00",
+      "cluster_time": "2026-04-13T03:18:31.050606+00:00",
       "category": "finance",
-      "headline": "MUR exchange rates – 12 April 2026",
+      "headline": "MUR exchange rates – 13 April 2026",
       "summary": "MUR/USD 46.56 | MUR/EUR 54.48 (▲ 0.07 from last) (▲ 0.79 from last)",
       "cluster_size": 1,
       "source_count": 1,
@@ -64,9 +64,9 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-12T19:29:50.534934+00:00",
+      "cluster_time": "2026-04-13T03:18:28.723270+00:00",
       "category": "finance",
-      "headline": "SEMDEX – 12 April 2026",
+      "headline": "SEMDEX – 13 April 2026",
       "summary": "SEMDEX closed at 2243.42 (▲ 20.22 pts, +0.91% from last close 2,223.20)",
       "cluster_size": 1,
       "source_count": 1,
@@ -78,10 +78,172 @@
       ]
     },
     {
-      "id": "singleton_bc063a0b9928",
-      "cluster_time": "2026-04-12T18:48:57+00:00",
+      "id": "singleton_d856d313fe30",
+      "cluster_time": "2026-04-13T03:00:00+00:00",
+      "category": "local",
+      "headline": "Assemblée nationale, mardi prochain : Assemblée nationale, mardi prochain – Une salve de 28 questions au leader of the House",
+      "summary": "...mais la PNQ devrait être plus ardue pour le PM La séance parlementaire de ce mardi 14 avril 2026 s’annonce particulièrement dense pour le Premier ministre, avec 28 questions inscrites à son ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/politique/assemblee-nationale-mardi-prochain-assemblee-nationale-mardi-prochain-une-salve-de-28-questions-au-leader-of-the-house/704387/"
+      ]
+    },
+    {
+      "id": "238c9bcfb939",
+      "cluster_time": "2026-04-13T02:35:00+00:00",
+      "category": "local",
+      "headline": "La météo de ce lundi 13 avril",
+      "summary": "[Le Mauricien] Un vent léger souffle sur la région. Le temps sera mi-couvert à parfois nuageux ce matin avec quelques averses surtout sur les hauteurs. Des développements nuageux sont attendus dans l'après-midi...\n\n[Defimedia] Un vent léger souffle sur notre région et quelques nuages dans le flux de l’est traversent l’île ce matin. Le temps sera",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "Le Mauricien",
+        "Defimedia"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/societe/la-meteo-de-ce-lundi-13-avril/704444/",
+        "https://defimedia.info/meteo-temps-mi-couvert-avec-averses-localisees-attendues-ce-lundi"
+      ]
+    },
+    {
+      "id": "singleton_1eeb56a7915b",
+      "cluster_time": "2026-04-13T02:29:27+00:00",
       "category": "global",
-      "headline": "Trump's Strait of Hormuz blockade threat raises risks and leaves predicaments unchanged",
+      "headline": "Rory McIlroy wins Masters to become fourth back-to-back champion",
+      "summary": "The Northern Irishman becomes the first player to repeat at Augusta National since Tiger Woods back in 2001-2002.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/13/rory-mcilroy-wins-masters-to-become-fourth-back-to-back-champion?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "3094ee449ac9",
+      "cluster_time": "2026-04-13T01:30:59+00:00",
+      "category": "global",
+      "headline": "Oil back above $100 as US to blockade Iranian ports after peace talks fail",
+      "summary": "[BBC News] The failure of negotiations at the weekend has raised concerns that the global energy crisis will deepen.\n\n[Al Jazeera] Asian stocks fall as naval blockade threat injects new turmoil into financial markets.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cn781z4lgg4o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/economy/2026/4/13/oil-prices-surge-past-103-a-barrel-after-us-announces-blockade-of-iran?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "b291b768b368",
+      "cluster_time": "2026-04-13T01:02:34+00:00",
+      "category": "global",
+      "headline": "Congressman Eric Swalwell quits California governor race amid sexual misconduct claims",
+      "summary": "[BBC News] Top Democratic allies intensified pressure on him to exit the gubernatorial race.\n\n[Al Jazeera] Democratic representative suspends campaign after media reports detailed alleged accounts of sexual assault.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c74vwdpj7kdo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/12/abuse-allegations-against-lead-democrat-shake-race-for-california-governor?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "b51707db40e4",
+      "cluster_time": "2026-04-13T00:32:46+00:00",
+      "category": "global",
+      "headline": "Orbán era swept away by Péter Magyar's Hungary election landslide",
+      "summary": "[BBC News] Viktor Orbán's 16 years in power is over, defeated by a 45-year-old ex-party insider who convinced a majority of Hungarians to oust him.\n\n[Al Jazeera] Prime Minister Viktor Orban concedes defeat in election as results show Peter Magyar's Tisza party winning by landslide.\n\n[Al Jazeera] Centre-right Tisza party wins two-thirds majority in parliament that would allow it to amend constitution.",
+      "cluster_size": 3,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cd9vg782kx7o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/12/world-reacts-to-election-defeat-for-viktor-orban-hungarys-longtime-pm?traffic_source=rss",
+        "https://www.aljazeera.com/news/2026/4/12/hungary-election-early-results-show-magyars-tisza-ahead-of-orbans-fidesz?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "bb84c0cbd0fb",
+      "cluster_time": "2026-04-13T00:32:03+00:00",
+      "category": "global",
+      "headline": "What is a naval blockade and how would it work in Strait of Hormuz?",
+      "summary": "[BBC News] Donald Trump says that the US is going to start blockading the Strait of Hormuz. What does this mean in practice?\n\n[Al Jazeera] Vessels will still be able to transit the Strait of Hormuz to and from non-Iranian ports, says US Central Command.\n\n[Al Jazeera] CENTCOM says the blockade will begin at 14:00 GMT, as Iran warns of even higher prices at the pump.",
+      "cluster_size": 3,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/13/us-military-threatens-to-blockade-all-iranian-ports-starting-on-monday?traffic_source=rss",
+        "https://www.aljazeera.com/news/liveblog/2026/4/13/iran-war-live-us-military-to-block-iranian-port-traffic-in-hormuz-strait?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_5a43919fcb2d",
+      "cluster_time": "2026-04-12T23:59:48+00:00",
+      "category": "global",
+      "headline": "Political turmoil in Indian border state as nine million lose voting rights",
+      "summary": "Nine million voters have been dropped from rolls in West Bengal, raising concerns over exclusion and fairness.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cy51qg00dezo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_cc8c554aa57f",
+      "cluster_time": "2026-04-12T23:08:40+00:00",
+      "category": "global",
+      "headline": "Pope prioritises world's fastest-growing Catholic region in major Africa tour",
+      "summary": "Leo XIV wants the world's attention on a continent vital to the Church's future, an aide says.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cvg0jyx4qq7o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_d635103eb0ff",
+      "cluster_time": "2026-04-12T23:07:23+00:00",
+      "category": "global",
+      "headline": "Frostbite is least of worries for Canada forces grappling with new Arctic reality",
+      "summary": "Across 5,200 km of Canada's Arctic, some 1,300 members of Canada's military spent two winter months on a mission to meet the challenges of a changing north.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cwyj8jjkl78o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_bc063a0b9928",
+      "cluster_time": "2026-04-12T22:57:22+00:00",
+      "category": "global",
+      "headline": "Trump's blockade threat raises risks and leaves predicaments unchanged",
       "summary": "The conflict is now a test of wills - Iran’s capacity to absorb strikes versus Trump’s tolerance for the war's costs.",
       "cluster_size": 1,
       "source_count": 1,
@@ -93,12 +255,42 @@
       ]
     },
     {
-      "id": "742f75e5a63a",
-      "cluster_time": "2026-04-12T18:25:50+00:00",
+      "id": "singleton_d3500b0d24a4",
+      "cluster_time": "2026-04-12T20:30:26+00:00",
+      "category": "global",
+      "headline": "History of flotilla campaigns to end Israel’s siege of Gaza",
+      "summary": "A 70-boat flotilla sets sail from Spain, aiming to break Israel's naval blockade on Gaza amid history of interceptions.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/12/history-of-flotilla-campaigns-to-end-israels-siege-of-gaza?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_a07594a2f9cd",
+      "cluster_time": "2026-04-12T19:43:02+00:00",
+      "category": "global",
+      "headline": "Polls close in Benin with finance minister expected to win election",
+      "summary": "Former President Patrice Talon has stepped down after two five-year terms.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/12/polls-close-in-benin-with-finance-minister-expected-to-win-election?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "452c9a5f941a",
+      "cluster_time": "2026-04-12T19:30:21+00:00",
       "category": "global",
       "headline": "Civilians feared killed after reports of air strike on Nigerian market",
-      "summary": "[BBC News] The Nigerian Air Force has not addressed reports it struck a village market while targeting militants.\n\n[Al Jazeera] Amnesty International says more than 100 people killed in military attack on a market in Jilli village.\n\n[Africanews] Dozens of people died in airstrikes in Nigeria's northeastern Yobe state as military aircraft hunted Boko Haram jihadists, local residents and Amnesty International said on Sunday.",
-      "cluster_size": 3,
+      "summary": "[BBC News] The Nigerian Air Force has not addressed reports it struck a village market while targeting militants.\n\n[Al Jazeera] Amnesty International says more than 100 people killed in military attack on a market in Jilli village.\n\n[Africanews] Dozens of people died in airstrikes in Nigeria's northeastern Yobe state as military aircraft hunted Boko Haram jihadists, local residents and Amnesty International said on Sunday.\n\n[Africanews] Dozens of injured victims were taken to a hospital in Geidam, where they are receiving treatment, a hospital worker said.",
+      "cluster_size": 4,
       "source_count": 3,
       "sources": [
         "BBC News",
@@ -108,22 +300,22 @@
       "urls": [
         "https://www.bbc.com/news/articles/cgk021z3ejpo?at_medium=RSS&at_campaign=rss",
         "https://www.aljazeera.com/news/2026/4/12/dozens-feared-dead-in-air-strike-on-village-in-northeastern-nigeria?traffic_source=rss",
-        "http://www.africanews.com/2026/04/12/at-least-200-killed-in-airstrikes-in-northeast-nigeria/"
+        "http://www.africanews.com/2026/04/12/at-least-200-killed-in-airstrikes-in-northeast-nigeria/",
+        "http://www.africanews.com/2026/04/12/nigeria-over-100-civilians-killed-in-airstrike-described-as-mistake-by-rights-groups/"
       ]
     },
     {
-      "id": "d29c784aa7e9",
+      "id": "singleton_a524110b4703",
       "cluster_time": "2026-04-12T18:00:26+00:00",
       "category": "global",
-      "headline": "Chelsea vs Manchester City 0-3: Premier League – as it happened",
-      "summary": "[Al Jazeera] All the updates as Man City ease to a 3-0 win over Chelsea at Stamford Bridge to reignite the title race with Arsenal.\n\n[Al Jazeera] City score three second-half goals to crush Chelsea at Stamford Bridge and move to within six points of Arsenal.",
-      "cluster_size": 2,
+      "headline": "Man City rout Chelsea 3-0 to close gap on Premier League leaders Arsenal",
+      "summary": "City score three second-half goals to crush Chelsea at Stamford Bridge and move to within six points of Arsenal.",
+      "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/sports/liveblog/2026/4/12/live-chelsea-vs-manchester-city-premier-league-football?traffic_source=rss",
         "https://www.aljazeera.com/sports/2026/4/12/man-city-rout-chelsea-3-0-to-close-gap-on-premier-league-leaders-arsenal?traffic_source=rss"
       ]
     },
@@ -218,51 +410,6 @@
       ]
     },
     {
-      "id": "singleton_219e12acd58e",
-      "cluster_time": "2026-04-12T15:47:23+00:00",
-      "category": "global",
-      "headline": "‘Blown to hell’: Trump orders Hormuz blockade after US-Iran peace talks end",
-      "summary": "US Navy to enforce blockade, Trump says after condemning Iran for blocking waterway, complaining of no deal in Pakistan.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/12/trump-announces-strait-of-hormuz-blockade-after-us-iran-peace-talks-end?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_1e277b4f18df",
-      "cluster_time": "2026-04-12T15:39:49+00:00",
-      "category": "global",
-      "headline": "Peru votes for ninth president in less than decade",
-      "summary": "Voters to choose from 35 presidential candidates, including a comedian, a media baron and a political dynasty heiress.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/12/peru-votes-for-ninth-president-in-less-than-decade?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_58339584d447",
-      "cluster_time": "2026-04-12T15:17:17+00:00",
-      "category": "global",
-      "headline": "FIFA rejects Iran’s request to relocate World Cup games amid US-Israel war",
-      "summary": "Mexican President Sheinbaum says FIFA will not relocate Iran's fixtures from US despite repeated requests.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/12/fifa-rejects-irans-request-to-relocate-world-cup-games-amid-us-israel-war?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_856ca7d049f8",
       "cluster_time": "2026-04-12T15:12:18+00:00",
       "category": "regional",
@@ -320,21 +467,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/12/atlantic-music-expo-cape-verde-celebrates-its-musical-heritage/"
-      ]
-    },
-    {
-      "id": "singleton_5873a0fbdfed",
-      "cluster_time": "2026-04-12T14:36:54+00:00",
-      "category": "global",
-      "headline": "At least 30 dead in stampede at Haiti’s historic Citadelle Laferriere",
-      "summary": "The fortress was packed before the annual celebration at the UNESCO World Heritage Site, authorities say.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/12/at-least-30-dead-in-stampede-at-haitis-historic-citadelle-laferriere?traffic_source=rss"
       ]
     },
     {
@@ -463,21 +595,6 @@
       ]
     },
     {
-      "id": "singleton_48400e6ecb84",
-      "cluster_time": "2026-04-12T13:42:04+00:00",
-      "category": "global",
-      "headline": "Palestinians condemn storming of Al-Aqsa Mosque by Israel’s Ben-Gvir",
-      "summary": "Israel’s far-right security minister storms mosque compound with protection, drawing condemnation from Palestinians.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/12/palestinians-condemn-storming-of-al-aqsa-mosque-by-israels-ben-gvir?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_bc1e1b2bce06",
       "cluster_time": "2026-04-12T13:30:00+00:00",
       "category": "local",
@@ -490,21 +607,6 @@
       ],
       "urls": [
         "https://defimedia.info/vieille-prison-de-port-louis-quand-le-passe-colonial-derange"
-      ]
-    },
-    {
-      "id": "singleton_b940e604af15",
-      "cluster_time": "2026-04-12T13:10:22+00:00",
-      "category": "global",
-      "headline": "Lessons from the Iran war",
-      "summary": "The past month and a half have shown that the nature of modern warfare is shifting.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/4/12/lessons-from-the-iran-war?traffic_source=rss"
       ]
     },
     {
@@ -538,21 +640,6 @@
       ]
     },
     {
-      "id": "singleton_8db445b14e46",
-      "cluster_time": "2026-04-12T12:56:59+00:00",
-      "category": "global",
-      "headline": "Ukraine and Russia accuse each other of breaching Easter ceasefire",
-      "summary": "The warring sides trade barbs over truce as Kremlin says Russia will not extend it unless Kyiv agrees to its terms.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/12/ukraine-and-russia-accuse-each-other-of-breaching-easter-ceasefire?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_487b29c2a503",
       "cluster_time": "2026-04-12T12:48:01+00:00",
       "category": "global",
@@ -565,21 +652,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c5y943x2g8qo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_7dcfe92a0309",
-      "cluster_time": "2026-04-12T12:47:21+00:00",
-      "category": "global",
-      "headline": "US-Iran ceasefire talks: What are the key sticking points?",
-      "summary": "Talks between Iran and the US expose deep divisions, prolonging uncertainty during a two-week ceasefire.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/12/us-iran-ceasefire-talks-what-are-the-key-sticking-points?traffic_source=rss"
       ]
     },
     {
@@ -703,23 +775,6 @@
       ]
     },
     {
-      "id": "309e48e153d7",
-      "cluster_time": "2026-04-12T10:51:36+00:00",
-      "category": "global",
-      "headline": "Benin holds presidential election amid deteriorating security situation",
-      "summary": "[Al Jazeera] Benin is facing harsh economic conditions and security challenges that its new leader will have to address.\n\n[Africanews] Benin will vote for a new president on Sunday, with Finance Minister Romuald Wadagni a shoo-in after overseeing a decade of economic growth in the west African country despite jihadist attacks in the north.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/12/benin-holds-presidential-election-amid-deteriorating-security-situation?traffic_source=rss",
-        "http://www.africanews.com/2026/04/12/polls-open-in-benin-presidential-election-finance-minister-a-favourite/"
-      ]
-    },
-    {
       "id": "singleton_24e6394f3317",
       "cluster_time": "2026-04-12T10:30:00+00:00",
       "category": "local",
@@ -747,36 +802,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/12/irans-new-supreme-leader-is-reportedly-recovering-from-severe-wounds/"
-      ]
-    },
-    {
-      "id": "singleton_63563e694099",
-      "cluster_time": "2026-04-12T10:14:22+00:00",
-      "category": "global",
-      "headline": "Union Berlin’s Marie-Louise Eta becomes first female manager of men’s team",
-      "summary": "Berlin's Eta becomes first female head coach of a top-tier European club after her appointment by the Bundesliga side.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/12/union-berlins-marie-louise-eta-becomes-first-woman-manager-of-mens-team?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_30ccc442fc31",
-      "cluster_time": "2026-04-12T09:47:24+00:00",
-      "category": "global",
-      "headline": "Saudi Arabia says key oil pipeline back to full capacity after attacks",
-      "summary": "The Ministry of Energy says the East-West pipeline is back to pumping about 7 million barrels per day.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/economy/2026/4/12/saudi-arabia-says-key-oil-pipeline-back-to-full-capacity-after-attacks?traffic_source=rss"
       ]
     },
     {
@@ -852,6 +877,21 @@
       ],
       "urls": [
         "https://www.lemauricien.com/actualites/societe/education-secteur-sen-lecole-trochetia-special-needs-fete-ses-15-ans/704339/"
+      ]
+    },
+    {
+      "id": "singleton_8668bc4c07bd",
+      "cluster_time": "2026-04-12T08:55:27+00:00",
+      "category": "regional",
+      "headline": "Polls open in Benin presidential election, finance minister a favourite",
+      "summary": "Benin will vote for a new president on Sunday, with Finance Minister Romuald Wadagni a shoo-in after overseeing a decade of economic growth in the west African country despite jihadist attacks in the north.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/12/polls-open-in-benin-presidential-election-finance-minister-a-favourite/"
       ]
     },
     {
@@ -1490,7 +1530,7 @@
       "id": "singleton_d51ba322c0c0",
       "cluster_time": "2026-04-12T07:34:00+00:00",
       "category": "local",
-      "headline": "Tensions au Moyen-Orient : La Parole aux Mauriciens",
+      "headline": "Tensions au Moyen-Orient : La Parole aux...",
       "summary": "Plus de quarante jours après l’escalade militaire au Moyen-Orient, entre tensions persistantes et ajustement des prix, les premières répercussions se font déjà sentir sur le coût de la vie. Pr...",
       "cluster_size": 1,
       "source_count": 1,
@@ -1829,126 +1869,6 @@
       ],
       "urls": [
         "https://defimedia.info/radio-plus-marque-ses-24-ans-avec-une-journee-dediee-la-sante-et-la-famille"
-      ]
-    },
-    {
-      "id": "singleton_09cb80e3dd1d",
-      "cluster_time": "2026-04-12T02:41:00+00:00",
-      "category": "local",
-      "headline": "Paul Bérenger : « Nous déciderons de ce que nous ferons lundi matin »",
-      "summary": "Réagissant à l’issue de l’Assemblée des délégués, samedi, le leader du MMM conteste la légitimité de cette réunion. Il i",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/paul-berenger-nous-deciderons-de-ce-que-nous-ferons-lundi-matin"
-      ]
-    },
-    {
-      "id": "singleton_637f402437d8",
-      "cluster_time": "2026-04-12T02:23:00+00:00",
-      "category": "local",
-      "headline": "Météo : l’anticyclone s’éloigne, temps mi-couvert ce dimanche",
-      "summary": "Avec l’éloignement de l’anticyclone vers le sud-est, un vent léger souffle sur notre région. Des nuages en provenance de",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/meteo-lanticyclone-seloigne-temps-mi-couvert-ce-dimanche"
-      ]
-    },
-    {
-      "id": "singleton_e6807cca3423",
-      "cluster_time": "2026-04-12T01:48:00+00:00",
-      "category": "local",
-      "headline": "« Cela m'est égal », dit Trump",
-      "summary": "\"Cela m'est égal\" si un accord est conclu ou non avec l'Iran, a affirmé samedi Donald Trump, au premier jour des pourpar",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/cela-mest-egal-dit-trump"
-      ]
-    },
-    {
-      "id": "singleton_98b9ab3fb4fe",
-      "cluster_time": "2026-04-12T00:30:44+00:00",
-      "category": "global",
-      "headline": "Why this disillusioned Trump voter spends hours searching Epstein files",
-      "summary": "Many who support the president have expressed frustration with how Trump's former attorney general Pam Bondi handled the Epstein files.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cx237vmr2lyo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_d13d7079bb6b",
-      "cluster_time": "2026-04-12T00:16:41+00:00",
-      "category": "global",
-      "headline": "India refuses to criminalise marital rape. This new series shines a light on it",
-      "summary": "Chiraiya, which has drawn an audience of millions, has prompted conversations on social media around consent and misogyny.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cgqkl2kqkxzo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_dec767f52f5d",
-      "cluster_time": "2026-04-11T23:13:23+00:00",
-      "category": "global",
-      "headline": "We spoke to the man making viral Lego-style AI videos for Iran. Experts say it's powerful propaganda",
-      "summary": "\"Slopaganda\" is too weak a term to capture how powerful this \"highly sophisticated\" content is, one expert says.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cjd8jrd1vnyo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_aee4dc0c47f7",
-      "cluster_time": "2026-04-11T23:06:49+00:00",
-      "category": "global",
-      "headline": "Iran war lands 'triple blow' to flood-ravaged Sri Lankans",
-      "summary": "The Iran war could not have come at a worse time for Sri Lanka, reeling from devastating floods and an economic crisis.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c4gvkpj0024o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_6d1e16013cd3",
-      "cluster_time": "2026-04-11T20:12:22+00:00",
-      "category": "global",
-      "headline": "Irish cabinet meeting to be held to discuss ongoing fuel protests",
-      "summary": "Hundreds of petrol stations in the Republic of Ireland have run out of fuel as the protests and blockades continued for a fifth day.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c0e7rpjqw5po?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
