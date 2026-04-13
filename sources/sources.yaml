@@ -6,10 +6,10 @@ rss_feeds:
     language: "en"
     category: "local"
 
-  - name: "ION News"
-    url: "https://ionnews.mu/feed/"
-    language: "fr"
-    category: "local"
+  #INACTIVE- name: "ION News"
+    #INACTIVEurl: "https://ionnews.mu/feed/"
+    #INACTIVElanguage: "fr"
+    #INACTIVEcategory: "local"
 
   - name: "Le Mauricien"
     url: "https://www.lemauricien.com/feed/"
@@ -24,7 +24,7 @@ rss_feeds:
 
   # ── Global ───────────────────────────────────────────────────
   - name: "BBC News"
-    url: "https://bbc-feeds.danq.dev/world-sports.xml"
+    url: "https://bbc-feeds.danq.dev/world-no-sports.xml"
     language: "en"
     category: "global"
 
