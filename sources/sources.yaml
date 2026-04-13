@@ -60,8 +60,6 @@ scrapers:
     type: lemauricien
     url_path_allowlist:
       - "/actualites/politique/"
-      - "/actualites/faits-divers/"
-      - "/actualites/societe/"
       - "/actualites/economie/"
 
   # ── Utilities & data ─────────────────────────────────────────
