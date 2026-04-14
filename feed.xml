@@ -4,54 +4,369 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Mon, 13 Apr 2026 20:18:45 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2026 03:12:26 +0000</lastBuildDate>
     <item>
-      <title>Brent Crude Oil price – 13 April 2026</title>
+      <title>Brent Crude Oil price – 14 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 98.35 per barrel</description>
+      <description>Brent Crude Oil: USD 98.10 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-13T20:16:19.015601+00:00</cluster_time>
+      <cluster_time>2026-04-14T03:09:54.638719+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 13 April 2026</title>
+      <title>Bitcoin price – 14 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 73,225.53 (▲ +4.00% from last)</description>
+      <description>Bitcoin (BTC): USD 74,343.87 (▲ +5.59% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-13T20:16:18.707200+00:00</cluster_time>
+      <cluster_time>2026-04-14T03:09:54.537951+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 13 April 2026</title>
+      <title>Gold price – 14 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,743.50 (▲ +8.07% from last)</description>
+      <description>Gold (XAU): USD 4,770.30 (▲ +8.68% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-13T20:16:18.600111+00:00</cluster_time>
+      <cluster_time>2026-04-14T03:09:54.205608+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 13 April 2026</title>
+      <title>MUR exchange rates – 14 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.53 | MUR/EUR 54.37 (▲ 0.04 from last) (▲ 0.68 from last)</description>
+      <description>MUR/USD 46.53 | MUR/EUR 54.41 (▲ 0.04 from last) (▲ 0.72 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-13T20:16:18.074847+00:00</cluster_time>
+      <cluster_time>2026-04-14T03:09:53.721656+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 13 April 2026</title>
+      <title>SEMDEX – 14 April 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2247.11 (▲ 23.91 pts, +1.08% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-13T20:16:15.598627+00:00</cluster_time>
+      <cluster_time>2026-04-14T03:09:51.519404+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Man charged with attempted murder after attack on OpenAI CEO Altman’s home</title>
+      <link>https://www.aljazeera.com/economy/2026/4/14/man-charged-with-attempted-murder-after-attack-on-openai-ceo-altmans-home?traffic_source=rss</link>
+      <description>A 20-year-old Texan faces potential life imprisonment after arson attack on Sam Altman's San Francisco residence.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T02:27:59+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Météo : des averses localisées attendues ce mardi</title>
+      <link>https://defimedia.info/meteo-des-averses-localisees-attendues-ce-mardi</link>
+      <description>Un courant d’air léger, chaud et humide circule sur la région.Le temps sera beau en général ce matin, devenant mi-couver</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-14T02:14:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Paul Bérenger quitte le MMM après plus de 50 ans d’engagement politique</title>
+      <link>https://www.lemauricien.com/actualites/politique/paul-berenger-claque-la-porte-du-mmm-apres-plus-de-50-ans-dengagement-politique/704500/</link>
+      <description>[Le Mauricien] C’est une page majeure de l’histoire politique mauricienne qui se tourne. L'ex-Premier ministre adjoint, Paul Bérenger a annoncé sa démission du Mouvement Militant Mauricien, formation qu’il ...
+
+[L'Express (via mega.mu)] Joanna Bérenger a annoncé son retrait du Mouvement militant mauricien dans un message publié sur Facebook, évoquant une décision *«profondément triste»* mais assumée. Elle affirme que ce choix découle de désaccords internes et de dérives qu’elle juge préoccupantes au sein du parti, notamment sur la gestion des engagements politiques et la décision de rester au gouvernement sans conditions claires. Elle revient également sur une assemblée des délégués qu’elle conteste, e ...
+
+[L'Express (via mega.mu)] L’avenir politique de Paul Bérenger devrait se préciser ce lundi, alors que le leader du Mouvement Militant Mauricien (MMM) s’apprête à lever le voile sur ses intentions. Il compte rencontrer ses partenaires Joanna Bérenger et Chetan Baboolall. Cette annonce intervient dans un contexte de fortes tensions internes au parti, à la suite de l’assemblée des délégués tenue le samedi 11 avril à Belle-Rose. Lors de cette réunion, les délégués du MMM ont voté à main levée pour ...
+
+[L'Express (via mega.mu)] Après sa démission officielle du Mouvement militant mauricien (MMM), Paul Bérenger s’est exprimé sur Facebook dans un message chargé d’émotion. Après plus de 50 ans d’engagement, il évoque un *«déchirement»* de quitter le parti qu’il a contribué à fonder en 1969, tout en revendiquant un choix fidèle à ses convictions. L’ancien leader des Mauves dénonce des dérives internes, un éloignement des engagements pris et critique le maintien du parti au sein du gouvernement ...
+
+[L'Express (via mega.mu)] Réagissant aux démissions de Paul Bérenger, Joanna Bérenger et Chetan Baboolall du Mouvement militant mauricien (MMM), le leader d’En Avant Moris, Patrick Belcourt, souligne qu’on ne peut dissocier un homme de son parti. Il estime également qu’après autant d’années d’engagement, une telle décision a dû être particulièrement difficile à prendre pour Paul Bérenger, pour qui il dit avoir beaucoup de respect. ...
+
+[L'Express (via mega.mu)] Trois membres du Mouvement militant mauricien (MMM) ont annoncé leur démission. Dans une lettre adressée au secrétaire général du parti, Paul Bérenger, Chetan Baboolall et Joanna Bérenger confirment qu’ils quittent officiellement le MMM. ![Screenshot 2026-04-13 124719.jpg]( ...
+
+[L'Express (via mega.mu)] S’exprimant à l’issue du Bureau politique tenu à la municipalité de Port-Louis, le président du Mouvement militant mauricien (MMM), Reza Uteem, affirme que l’histoire retiendra que Paul Bérenger n’a pas écouté ses militants, dénonçant des décisions prises seul, sans concertation interne. ...
+
+[L'Express (via mega.mu)] Le secrétaire général du Mouvement militant mauricien (MMM), Rajesh Bhagwan, confirme avoir reçu une lettre signée annonçant les démissions de Joanna Bérenger et Chetan Baboolall, aux côtés de Paul Bérenger. ...
+
+[Defimedia] Les réactions s’enchaînent après ce développement sur l’échiquier politique. Le leader du Muvman Liberater (ML), Ivan Co
+
+[Defimedia] Au sein du Mouvement militant mauricien (MMM), une page se tourne après plus de 50 ans. Paul Bérenger, sa fille Joanna B
+
+[Defimedia] C’est sur sa page Facebook que Paul Bérenger s’est exprimé sur sa démission du MMM. Ce départ, confie-t-il, est un « déc
+
+[Defimedia] Paul Bérenger, Joanna Bérenger et Chetan Baboolall ont soumis leur démission du Mouvement militant mauricien (MMM), ce l
+
+[Defimedia] Joanna Bérenger a réagi à sa démission du MMM. Elle parle d’un choix « difficile mais nécessaire ». Elle affirme quitter
+
+[Defimedia] Au Sommaire de ce Lundi 13 Avril 2026 : Paul Bérenger démissionne du MMM. Les députés Joanna Bérenger et Chetan Baboolal
+
+[Defimedia] Le Mouvement militant mauricien (MMM) fonctionnera avec un leadership collégial en attendant qu’une décision soit prise
+
+[Defimedia] Une rencontre est actuellement en cours à Floréal entre Paul Bérenger, Joanna Bérenger et Chetan Baboolall, au domicile
+
+[Defimedia] Dans une lettre adressée au secrétaire général du Mouvement militant mauricien (MMM), ce lundi 13 avril, Paul Bérenger,</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-14T01:30:00+00:00</cluster_time>
+      <cluster_size>17</cluster_size>
+      <source_count>3</source_count>
+      <cluster_id>aaacfbafda94</cluster_id>
+      <sources>Le Mauricien
+L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://www.lemauricien.com/actualites/politique/paul-berenger-claque-la-porte-du-mmm-apres-plus-de-50-ans-dengagement-politique/704500/
+https://live.mega.mu/redirect/255659/
+https://live.mega.mu/redirect/255560/
+https://live.mega.mu/redirect/255581/
+https://live.mega.mu/redirect/255644/
+https://live.mega.mu/redirect/255572/
+https://live.mega.mu/redirect/255662/
+https://live.mega.mu/redirect/255623/
+https://defimedia.info/ivan-collendavelloo-sur-la-demission-de-paul-berenger-du-mmm-au-moins-il-eu-le-militantisme-de
+https://defimedia.info/apres-leur-demission-du-mmm-paul-berenger-joanna-berenger-et-chetan-baboolall-siegeront-dans
+https://defimedia.info/apres-sa-demission-du-mmm-berenger-annonce-le-lancement-dun-nouveau-mouvement-politique
+https://defimedia.info/berenger-apres-sa-demission-du-mmm-ce-depart-est-un-dechirement
+https://defimedia.info/demission-du-mmm-joanna-berenger-evoque-un-choix-necessaire
+https://defimedia.info/info-soiree-dan-mmm-paz-la-finn-tourne
+https://defimedia.info/demission-de-paul-berenger-du-mmm-un-leadership-collegial-en-attendant-une-decision-des-instances
+https://defimedia.info/mmm-reunion-de-paul-berenger-sa-residence
+https://defimedia.info/paul-berenger-joanna-berenger-et-chetan-baboolall-demissionnent-du-mmm</urls>
+      <titles>Paul Bérenger quitte le MMM après plus de 50 ans d’engagement politique
+Démission au MMM : Joanna Bérenger annonce à son tour son départ du MMM
+Opposition : Paul Bérenger dévoile sa stratégie aujourd’hui
+Démission au MMM : Paul Bérenger annonce un nouveau départ politique
+Démissions au MMM : Patrick Belcourt: «C’est une page qui se tourne dans la politique de Maurice»
+Démissions au MMM : Paul Bérenger, Joanna Bérenger et Chetan Baboolall quittent le parti
+Démissions au MMM : Les critiques internes fusent après le départ de Paul Bérenger
+Démissions au MMM : La réaction officielle attendue
+Ivan Collendavelloo sur la démission de Paul Bérenger du MMM : « Au moins, il a eu le &quot;militantisme&quot; de quitter le parti »
+Après leur démission du MMM : Paul Bérenger, Joanna Bérenger et Chetan Baboolall siégeront dans l’opposition
+Après sa démission du MMM : Bérenger annonce le lancement d’un nouveau mouvement politique
+Bérenger après sa démission du MMM : «Ce départ est un déchirement»
+Démission du MMM : Joanna Bérenger évoque un choix « nécessaire »
+[Info Soirée] : : « DAN MMM, PAZ LA FINN TOURNE »
+Démission de Paul Bérenger du MMM : un leadership collégial en attendant une décision des instances
+MMM : réunion de Paul Bérenger à sa résidence
+Paul Bérenger, Joanna Bérenger et Chetan Baboolall démissionnent du MMM</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Harry and Meghan arrive in Australia for four-day tour</title>
+      <link>https://www.bbc.com/news/articles/cvgk3vpyzdqo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>It is the couple's first visit to Australia since 2018 when they were working royals.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T00:14:27+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran war live: Trump says Tehran wants deal as US blockade in Hormuz begins</title>
+      <link>https://www.aljazeera.com/news/liveblog/2026/4/14/iran-war-live-trump-claims-tehran-wants-a-deal-amid-us-blockade-of-hormuz?traffic_source=rss</link>
+      <description>Iran accuses US of committing piracy as thousands rally in Tehran against the blockade in the Strait of Hormuz.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T00:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Quantum computing: A tech race Europe could win?</title>
+      <link>https://www.bbc.com/news/articles/c20q4nv89yzo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>With some promising computing companies in the field, could Europe be a leader in quantum tech?</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T23:35:56+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Can this man broaden the appeal of a South African party seen by some as 'too white'?</title>
+      <link>https://www.bbc.com/news/articles/cj948p84jjxo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The Democratic Alliance's new leader, Geordin Hill-Lewis, admits the party's support is too narrow.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T23:31:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Hospital at centre of child HIV outbreak caught reusing syringes in undercover filming</title>
+      <link>https://www.bbc.com/news/articles/clyrd818gd2o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Footage shows staff injecting without gloves and reusing syringes, but the hospital boss refuses to acknowledge it is genuine.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T23:27:45+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Lebanon enters talks with Israel but with no cards to play</title>
+      <link>https://www.bbc.com/news/articles/cr51l794mlyo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The Lebanese government go into peace talks with limited influence over the group.
+
+[Al Jazeera] Naim Qassem says planned talks in Washington, DC, are a ploy to pressure Hezbollah into laying down its weapons.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T23:26:46+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>dbe056d56029</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/cr51l794mlyo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/13/hezbollah-leader-urges-lebanon-government-to-pull-out-of-israel-talks?traffic_source=rss</urls>
+      <titles>Lebanon enters talks with Israel but with no cards to play
+Hezbollah leader urges Lebanon’s government to pull out of Israel talks</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Democrats were already scrambling in California's governor race. Then Swalwell dropped out</title>
+      <link>https://www.bbc.com/news/articles/cje419peejxo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>California Democrats were already fretting about the race due to troubling polls and low name recognition</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T23:02:45+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Eric Swalwell to resign from Congress after sexual misconduct claims</title>
+      <link>https://www.bbc.com/news/articles/cwyd8rj1ylro?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Four women have accused the congressman and ex-candidate for California governor of misconduct ranging from sexual harassment to rape, which he has denied.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T22:53:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Energy prices rise despite Jones Act suspension by Trump</title>
+      <link>https://www.aljazeera.com/economy/2026/4/13/energy-prices-rise-despite-jones-act-suspension-by-trump?traffic_source=rss</link>
+      <description>Shipping costs have increased by more than 10 percent in the past month due to the US-Israel war on Iran.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T22:17:07+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>UN experts slam attacks on Gaza shelters, forced displacement in West Bank</title>
+      <link>https://www.aljazeera.com/news/2026/4/13/un-experts-slam-attacks-on-gaza-shelters-forced-displacement-in-west-bank?traffic_source=rss</link>
+      <description>Panel details incidents of violence by Israeli forces and settlers against displaced Palestinians in Gaza and West Bank.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T22:04:16+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>New White House report has plans to fix US housing shortage of 10 million</title>
+      <link>https://www.aljazeera.com/economy/2026/4/13/new-white-house-report-has-plans-to-fix-us-housing-shortage-of-10-million?traffic_source=rss</link>
+      <description>A new report lays out a blueprint for how more home construction would help the middle class and the overall economy.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T21:59:05+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Benin’s Wadagni wins presidential election with landslide 94% of votes</title>
+      <link>https://www.aljazeera.com/news/2026/4/13/government-candidate-wadagni-on-course-to-win-benin-presidential-vote?traffic_source=rss</link>
+      <description>[Al Jazeera] The incoming president faces serious security issues in the north of the country and challenges to living standards.
+
+[Africanews] Benin began counting ballots Sunday after a presidential election that could extend a decade of economic growth while testing the country’s democratic balance. Finance Minister Romuald Wadagni is the frontrunner to succeed outgoing president Patrice Talon, who is stepping down after two terms.
+
+[Africanews] Benin presidential election favourite Romuald Wadagni headed for victory Monday as his opponent conceded defeat even as votes were still being counted.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T21:34:24+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>22858e44fa53</cluster_id>
+      <sources>Al Jazeera
+Africanews</sources>
+      <urls>https://www.aljazeera.com/news/2026/4/13/government-candidate-wadagni-on-course-to-win-benin-presidential-vote?traffic_source=rss
+http://www.africanews.com/2026/04/13/benin-heads-to-a-pivotal-transition-as-votes-are-counted/
+http://www.africanews.com/2026/04/13/opposition-candidate-concedes-defeat-in-benin-presidential-election/</urls>
+      <titles>Benin’s Wadagni wins presidential election with landslide 94% of votes
+Benin heads to a pivotal transition as votes are counted
+Opposition candidate concedes defeat in Benin presidential election</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war</title>
+      <link>https://www.bbc.com/news/articles/cd6lzezp4zvo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Russia has offered &quot;pragmatic&quot; relations, but Péter Magyar says he will not call Vladimir Putin himself.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T21:28:14+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Spanish PM's wife charged with corruption after two-year probe</title>
+      <link>https://www.bbc.com/news/articles/c8ejg3wk81no?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Begoña Gómez is accused of using her relationship with Pedro Sánchez to advance her private career.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T21:09:15+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Philippines accuses Chinese fishermen of dumping cyanide in South China Sea</title>
+      <link>https://www.bbc.com/news/articles/cvgk331k44yo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Beijing rejects the allegation as a &quot;farce&quot;, while Manila claims the poison was used to kill fish and deprive troops stationed in the area of food.
+
+[Al Jazeera] Officials warn cyanide could harm marine life and weaken the reef supporting a grounded warship.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T21:05:33+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>5282eaacdb47</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/cvgk331k44yo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/13/philippines-accuses-china-of-using-cyanide-to-poison-south-china-sea-atoll?traffic_source=rss</urls>
+      <titles>Philippines accuses Chinese fishermen of dumping cyanide in South China Sea
+Philippines accuses China of using cyanide to poison South China Sea atoll</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Bernie Sanders vows to push resolution to block US weapons to Israel</title>
+      <link>https://www.aljazeera.com/news/2026/4/13/bernie-sanders-vows-to-push-resolution-to-block-us-weapons-to-israel?traffic_source=rss</link>
+      <description>Bill is unlikely to pass in Republican-controlled Senate, but it could test waning support for Israel among Democrats.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T20:28:48+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brazil’s fugitive ex-intel chief detained by US immigration authorities</title>
+      <link>https://www.aljazeera.com/news/2026/4/13/brazilian-ex-intelligence-chief-detained-by-us-immigration-authorities?traffic_source=rss</link>
+      <description>Brazilian media reports that Alexandre Ramagem fled the country after being convicted for involvement in coup plot.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T20:16:45+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Colombia to cull up to 80 hippos linked to drug lord Pablo Escobar</title>
+      <link>https://www.aljazeera.com/news/2026/4/13/colombia-to-cull-hippo-population-founded-by-drug-lord?traffic_source=rss</link>
+      <description>Introduced by Pablo Escobar in the 1980s, the hippos are a tourist attraction but a headache for authorities and locals.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T20:09:52+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -62,6 +377,16 @@
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-13T20:01:32+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump deletes image of himself as Jesus-like saviour after backlash</title>
+      <link>https://www.aljazeera.com/news/2026/4/13/trump-draws-backlash-over-posting-image-depicting-him-as-jesus-like-saviour?traffic_source=rss</link>
+      <description>Trump draws criticism from church leaders and conservatives over AI-Jesus image and pope remarks.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-13T19:58:06+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -98,16 +423,6 @@ Pope Leo pays his respects at Algeria-France war monument</titles>
       <languages>en</languages>
     </item>
     <item>
-      <title>Israelis war-weary but most oppose Iran ceasefire, poll suggests</title>
-      <link>https://www.bbc.com/news/articles/clyxgxyeqpgo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The vast majority did not believe Hezbollah or Iran had been severely weakened by weeks of Israeli and US attacks, according to the poll.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T19:20:08+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Germany marks 69th birthday of zoo’s oldest gorilla</title>
       <link>http://www.africanews.com/2026/04/13/germany-marks-69th-birthday-of-zoos-oldest-gorilla/</link>
       <description>Berlin Zoo celebrates Fatou, a 69‑year‑old western lowland gorilla, highlighting how specialised care in captivity can extend the lives of endangered species.</description>
@@ -128,43 +443,14 @@ Pope Leo pays his respects at Algeria-France war monument</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Opposition candidate concedes defeat in Benin presidential election</title>
-      <link>http://www.africanews.com/2026/04/13/opposition-candidate-concedes-defeat-in-benin-presidential-election/</link>
-      <description>Benin presidential election favourite Romuald Wadagni headed for victory Monday as his opponent conceded defeat even as votes were still being counted.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-13T19:08:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Orbán era swept away by Péter Magyar's Hungary election landslide</title>
-      <link>https://www.bbc.com/news/articles/cd9vg782kx7o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Viktor Orbán's 16-year rule is over, defeated by a 45-year-old ex-party insider who convinced a majority of Hungarians to oust him.
-
-[Al Jazeera] World watching to see which way Hungary will head once Viktor Orban's 'illiberal' regime ends its 16-year reign.
-
-[Al Jazeera] Viktor Orban’s stepping stone – the EU’s own illiberal tendencies and militarism - is still very much present.
-
-[Africanews] Hungary saw large crowds take to the streets on Sunday, 12 April 2026, after Prime Minister Viktor Orbán conceded defeat, ending 16 years in power.</description>
-      <source>BBC News</source>
+      <title>Orban was defeated in Hungary, but Orbanism lives on</title>
+      <link>https://www.aljazeera.com/opinions/2026/4/13/orban-was-defeated-in-hungary-but-orbanism-lives-on?traffic_source=rss</link>
+      <description>Viktor Orban’s stepping stone – the EU’s own illiberal tendencies and militarism - is still very much present.</description>
+      <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-04-13T18:56:31+00:00</cluster_time>
-      <cluster_size>4</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>e4f0bb740638</cluster_id>
-      <sources>BBC News
-Al Jazeera
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/cd9vg782kx7o?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/4/13/hungary-election?traffic_source=rss
-https://www.aljazeera.com/opinions/2026/4/13/orban-was-defeated-in-hungary-but-orbanism-lives-on?traffic_source=rss
-http://www.africanews.com/2026/04/13/hungary-jubilant-scenes-across-budapest-follow-magyars-victory/</urls>
-      <titles>Orbán era swept away by Péter Magyar's Hungary election landslide
-PM-in-waiting Peter Magyar lays out vision for Hungary after ousting Orban
-Orban was defeated in Hungary, but Orbanism lives on
-Hungary: jubilant scenes across Budapest follow Magyar’s victory</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>French court rules cement giant Lafarge guilty of funding Syria ‘terrorism’</title>
@@ -197,119 +483,12 @@ Lafarge Trial: Cement firm fined, former CEO jailed</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Paul Bérenger quitte le MMM après plus de 50 ans d’engagement politique</title>
-      <link>https://www.lemauricien.com/actualites/politique/paul-berenger-claque-la-porte-du-mmm-apres-plus-de-50-ans-dengagement-politique/704500/</link>
-      <description>[Le Mauricien] C’est une page majeure de l’histoire politique mauricienne qui se tourne. L'ex-Premier ministre adjoint, Paul Bérenger a annoncé sa démission du Mouvement Militant Mauricien, formation qu’il ...
-
-[L'Express (via mega.mu)] Joanna Bérenger a annoncé son retrait du Mouvement militant mauricien dans un message publié sur Facebook, évoquant une décision *«profondément triste»* mais assumée. Elle affirme que ce choix découle de désaccords internes et de dérives qu’elle juge préoccupantes au sein du parti, notamment sur la gestion des engagements politiques et la décision de rester au gouvernement sans conditions claires. Elle revient également sur une assemblée des délégués qu’elle conteste, e ...
-
-[L'Express (via mega.mu)] L’avenir politique de Paul Bérenger devrait se préciser ce lundi, alors que le leader du Mouvement Militant Mauricien (MMM) s’apprête à lever le voile sur ses intentions. Il compte rencontrer ses partenaires Joanna Bérenger et Chetan Baboolall. Cette annonce intervient dans un contexte de fortes tensions internes au parti, à la suite de l’assemblée des délégués tenue le samedi 11 avril à Belle-Rose. Lors de cette réunion, les délégués du MMM ont voté à main levée pour ...
-
-[L'Express (via mega.mu)] Après sa démission officielle du Mouvement militant mauricien (MMM), Paul Bérenger s’est exprimé sur Facebook dans un message chargé d’émotion. Après plus de 50 ans d’engagement, il évoque un *«déchirement»* de quitter le parti qu’il a contribué à fonder en 1969, tout en revendiquant un choix fidèle à ses convictions. L’ancien leader des Mauves dénonce des dérives internes, un éloignement des engagements pris et critique le maintien du parti au sein du gouvernement ...
-
-[L'Express (via mega.mu)] Réagissant aux démissions de Paul Bérenger, Joanna Bérenger et Chetan Baboolall du Mouvement militant mauricien (MMM), le leader d’En Avant Moris, Patrick Belcourt, souligne qu’on ne peut dissocier un homme de son parti. Il estime également qu’après autant d’années d’engagement, une telle décision a dû être particulièrement difficile à prendre pour Paul Bérenger, pour qui il dit avoir beaucoup de respect. ...
-
-[L'Express (via mega.mu)] Trois membres du Mouvement militant mauricien (MMM) ont annoncé leur démission. Dans une lettre adressée au secrétaire général du parti, Paul Bérenger, Chetan Baboolall et Joanna Bérenger confirment qu’ils quittent officiellement le MMM. ![Screenshot 2026-04-13 124719.jpg]( ...
-
-[L'Express (via mega.mu)] S’exprimant à l’issue du Bureau politique tenu à la municipalité de Port-Louis, le président du Mouvement militant mauricien (MMM), Reza Uteem, affirme que l’histoire retiendra que Paul Bérenger n’a pas écouté ses militants, dénonçant des décisions prises seul, sans concertation interne. ...
-
-[L'Express (via mega.mu)] Le secrétaire général du Mouvement militant mauricien (MMM), Rajesh Bhagwan, confirme avoir reçu une lettre signée annonçant les démissions de Joanna Bérenger et Chetan Baboolall, aux côtés de Paul Bérenger. ...
-
-[Defimedia] Les réactions s’enchaînent après ce développement sur l’échiquier politique. Le leader du Muvman Liberater (ML), Ivan Co
-
-[Defimedia] Au sein du Mouvement militant mauricien (MMM), une page se tourne après plus de 50 ans. Paul Bérenger, sa fille Joanna B
-
-[Defimedia] C’est sur sa page Facebook que Paul Bérenger s’est exprimé sur sa démission du MMM. Ce départ, confie-t-il, est un « déc
-
-[Defimedia] Paul Bérenger, Joanna Bérenger et Chetan Baboolall ont soumis leur démission du Mouvement militant mauricien (MMM), ce l
-
-[Defimedia] Joanna Bérenger a réagi à sa démission du MMM. Elle parle d’un choix « difficile mais nécessaire ». Elle affirme quitter
-
-[Defimedia] Le Mouvement militant mauricien (MMM) fonctionnera avec un leadership collégial en attendant qu’une décision soit prise
-
-[Defimedia] Une rencontre est actuellement en cours à Floréal entre Paul Bérenger, Joanna Bérenger et Chetan Baboolall, au domicile
-
-[Defimedia] Dans une lettre adressée au secrétaire général du Mouvement militant mauricien (MMM), ce lundi 13 avril, Paul Bérenger,</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-13T17:36:00+00:00</cluster_time>
-      <cluster_size>16</cluster_size>
-      <source_count>3</source_count>
-      <cluster_id>aaacfbafda94</cluster_id>
-      <sources>Le Mauricien
-L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://www.lemauricien.com/actualites/politique/paul-berenger-claque-la-porte-du-mmm-apres-plus-de-50-ans-dengagement-politique/704500/
-https://live.mega.mu/redirect/255659/
-https://live.mega.mu/redirect/255560/
-https://live.mega.mu/redirect/255581/
-https://live.mega.mu/redirect/255644/
-https://live.mega.mu/redirect/255572/
-https://live.mega.mu/redirect/255662/
-https://live.mega.mu/redirect/255623/
-https://defimedia.info/ivan-collendavelloo-sur-la-demission-de-paul-berenger-du-mmm-au-moins-il-eu-le-militantisme-de
-https://defimedia.info/apres-leur-demission-du-mmm-paul-berenger-joanna-berenger-et-chetan-baboolall-siegeront-dans
-https://defimedia.info/apres-sa-demission-du-mmm-berenger-annonce-le-lancement-dun-nouveau-mouvement-politique
-https://defimedia.info/berenger-apres-sa-demission-du-mmm-ce-depart-est-un-dechirement
-https://defimedia.info/demission-du-mmm-joanna-berenger-evoque-un-choix-necessaire
-https://defimedia.info/demission-de-paul-berenger-du-mmm-un-leadership-collegial-en-attendant-une-decision-des-instances
-https://defimedia.info/mmm-reunion-de-paul-berenger-sa-residence
-https://defimedia.info/paul-berenger-joanna-berenger-et-chetan-baboolall-demissionnent-du-mmm</urls>
-      <titles>Paul Bérenger quitte le MMM après plus de 50 ans d’engagement politique
-Démission au MMM : Joanna Bérenger annonce à son tour son départ du MMM
-Opposition : Paul Bérenger dévoile sa stratégie aujourd’hui
-Démission au MMM : Paul Bérenger annonce un nouveau départ politique
-Démissions au MMM : Patrick Belcourt: «C’est une page qui se tourne dans la politique de Maurice»
-Démissions au MMM : Paul Bérenger, Joanna Bérenger et Chetan Baboolall quittent le parti
-Démissions au MMM : Les critiques internes fusent après le départ de Paul Bérenger
-Démissions au MMM : La réaction officielle attendue
-Ivan Collendavelloo sur la démission de Paul Bérenger du MMM : « Au moins, il a eu le &quot;militantisme&quot; de quitter le parti »
-Après leur démission du MMM : Paul Bérenger, Joanna Bérenger et Chetan Baboolall siégeront dans l’opposition
-Après sa démission du MMM : Bérenger annonce le lancement d’un nouveau mouvement politique
-Bérenger après sa démission du MMM : «Ce départ est un déchirement»
-Démission du MMM : Joanna Bérenger évoque un choix « nécessaire »
-Démission de Paul Bérenger du MMM : un leadership collégial en attendant une décision des instances
-MMM : réunion de Paul Bérenger à sa résidence
-Paul Bérenger, Joanna Bérenger et Chetan Baboolall démissionnent du MMM</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
       <title>Italian PM condemns ally Trump over 'unacceptable' Pope criticism</title>
       <link>https://www.bbc.com/news/articles/cp841y07w5xo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Italy's prime minister and the US president are close allies, but Trump has refused to apologise to the &quot;very weak&quot; Pope Leo XIV.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-13T17:32:43+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Bahrain summons Iraqi envoy as pro-Iranian attacks persist in Gulf</title>
-      <link>https://www.aljazeera.com/news/2026/4/13/bahrain-summons-iraqi-envoy-as-pro-iranian-attacks-persist-in-gulf?traffic_source=rss</link>
-      <description>Move reflects regional alarm over attacks by pro-Iranian groups based in Iraq, which continue despite ceasefire.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T16:58:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran releases assets of women’s football captain in Australia asylum row</title>
-      <link>https://www.aljazeera.com/sports/2026/4/13/iran-releases-assets-of-womens-football-captain-in-australia-asylum-row?traffic_source=rss</link>
-      <description>Zahra Ghanbari, one of the six players who sought asylum in Australia, reversed her decision and returned to Iran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T16:23:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Atletico Madrid vs Barcelona: Champions League – team news, start, lineups</title>
-      <link>https://www.aljazeera.com/sports/2026/4/13/atletico-madrid-vs-barcelona-champions-league-team-news-start?traffic_source=rss</link>
-      <description>La Liga leaders Barcelona face Atletico Madrid, hoping to bounce back from their first-leg football defeat at home.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T16:13:34+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -398,16 +577,6 @@ Nigerian Air Forces launches investigation into deadly airstrike in Yobe state</
       <source_count>1</source_count>
     </item>
     <item>
-      <title>‘Drinking Arsenal tears’: How the Gunners’ stumble sparked a meme frenzy</title>
-      <link>https://www.aljazeera.com/sports/2026/4/13/drinking-arsenal-tears-how-the-gunners-stumble-sparked-a-meme-frenzy?traffic_source=rss</link>
-      <description>As a Man City fan's 'Arsenal bottle job' celebration goes viral, football fans take a dig at the London club's stumble.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T15:26:37+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Après la démission de Paul Bérenger du MMM : Reza Uteem affirme que « la page est tournée »</title>
       <link>https://defimedia.info/apres-la-demission-de-paul-berenger-du-mmm-reza-uteem-affirme-que-la-page-est-tournee</link>
       <description>Le président du Mouvement militant mauricien (MMM), Reza Uteem, indique que le Bureau politique (BP) a pris acte de la d</description>
@@ -418,42 +587,12 @@ Nigerian Air Forces launches investigation into deadly airstrike in Yobe state</
       <source_count>1</source_count>
     </item>
     <item>
-      <title>What do we know about sea mines in and around the Strait of Hormuz?</title>
-      <link>https://www.aljazeera.com/economy/2026/4/13/what-do-we-know-about-sea-mines-in-and-around-the-strait-of-hormuz?traffic_source=rss</link>
-      <description>The psychological terror that the presence of sea mines can generate could paralyse the Strait of Hormuz.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T15:12:25+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>France: Parliament debates bill to simplify return of stolen artworks</title>
       <link>http://www.africanews.com/2026/04/13/france-parliament-debates-bill-to-simplify-return-of-stolen-artworks/</link>
       <description>It still has tens of thousands of artworks and artefacts that it looted from its colonial empire. Now, France is debating a bill to simplify returning them to their countries of origin.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-13T14:58:02+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>US judge dismisses Trump’s $10bn lawsuit against WSJ over Epstein story</title>
-      <link>https://www.aljazeera.com/news/2026/4/13/us-judge-dismisses-trumps-10bn-lawsuit-against-wsj-over-epstein-story?traffic_source=rss</link>
-      <description>Dismissed lawsuit follows WSJ's report on letter allegedly signed by Donald Trump for Jeffrey Epstein’s 50th birthday.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T14:57:22+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Trump says Iranian ships to be ‘eliminated’ as US naval blockade begins</title>
-      <link>https://www.aljazeera.com/news/2026/4/13/trump-says-iranian-ships-will-be-eliminated-as-us-naval-blockade-begins?traffic_source=rss</link>
-      <description>Iran describes the siege against its ports as the US president's 'revenge of choice' against the global economy.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T14:36:46+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -478,42 +617,12 @@ Nigerian Air Forces launches investigation into deadly airstrike in Yobe state</
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Ghanaian footballer killed after armed attackers open fire at team bus</title>
-      <link>https://www.bbc.com/news/articles/czx97pkyy9po?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The team was returning from a match when they were attacked by &quot;masked men wielding guns&quot;, officials say.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T14:19:02+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Trump’s threat to blockade Hormuz: Why it’s the latest major escalation</title>
-      <link>https://www.aljazeera.com/news/2026/4/13/trumps-threat-to-blockade-hormuz-why-its-wars-latest-major-escalation?traffic_source=rss</link>
-      <description>Analysts warn Washington's blockade could harm the fragile ceasefire between the US and Iran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T14:14:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Global markets slide as Donald Trump orders Strait of Hormuz blockade</title>
       <link>http://www.africanews.com/2026/04/13/global-markets-slide-as-donald-trump-orders-strait-of-hormuz-blockade/</link>
       <description>Global markets have been rattled after Donald Trump announced a US naval blockade of the Strait of Hormuz, escalating tensions following failed peace talks with Iran.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-13T14:08:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Pakistan eyes narrow window to resuscitate US-Iran talks after breakdown</title>
-      <link>https://www.aljazeera.com/news/2026/4/13/pakistan-eyes-narrow-window-to-resuscitate-us-iran-talks-after-breakdown?traffic_source=rss</link>
-      <description>US and Iran end marathon Islamabad talks without agreement, leaving fragile ceasefire under growing strain.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T13:54:35+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -583,26 +692,6 @@ Haiti: at least 30 dead in stampede at UNESCO‑listed Citadelle Laferrière for
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-13T12:53:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Israeli forces kill three Palestinians in Gaza, arrest dozens in West Bank</title>
-      <link>https://www.aljazeera.com/news/2026/4/13/israeli-forces-kill-three-palestinians-in-gaza-arrest-dozens-in-west-bank?traffic_source=rss</link>
-      <description>Attacks come as Palestinian groups meet mediators from Egypt, Turkiye and Qatar in Cairo to discuss fragile 'ceasefire'.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T12:52:40+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>At least six killed in Israeli strikes in southern Lebanon</title>
-      <link>https://www.aljazeera.com/news/2026/4/13/at-least-six-killed-in-israeli-strikes-in-southern-lebanon?traffic_source=rss</link>
-      <description>Attacks come as Israel says it is close to taking over a major town in the south, and before peace talks in the US.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T12:39:20+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -777,16 +866,6 @@ Accident fatal à Petite-Julie</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Benin heads to a pivotal transition as votes are counted</title>
-      <link>http://www.africanews.com/2026/04/13/benin-heads-to-a-pivotal-transition-as-votes-are-counted/</link>
-      <description>Benin began counting ballots Sunday after a presidential election that could extend a decade of economic growth while testing the country’s democratic balance. Finance Minister Romuald Wadagni is the frontrunner to succeed outgoing president Patrice Talon, who is stepping down after two terms.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-13T09:31:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Djibouti: A landslide victory for Guelleh according to official results</title>
       <link>http://www.africanews.com/2026/04/11/djibouti-a-landslide-victory-for-guelleh-according-to-official-results/</link>
       <description>Djibouti's veteran leader Ismail Omar Guelleh won the country's presidential election with 97.8 percent of the vote, according to official results on Saturday.</description>
@@ -853,16 +932,6 @@ Accident fatal à Petite-Julie</titles>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-13T08:11:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Carney on verge of Liberal majority government as votes cast in three by-elections</title>
-      <link>https://www.bbc.com/news/articles/c62k3vvln5mo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>One more seat could solidify the Canadian PM's hold on power after several Conservatives defected.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T08:10:53+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1229,22 +1298,12 @@ Accident fatal à Petite-Julie</titles>
     <item>
       <title>Météo : Temps mi-couvert avec averses localisées</title>
       <link>https://live.mega.mu/redirect/255521/</link>
-      <description>[L'Express (via mega.mu)] Le bulletin émis à 04h30 ce lundi indique qu’un vent léger souffle sur la région, avec quelques nuages venant de l’est. La matinée sera mi-couverte avec des ondées occasionnelles à l’est, au nord et sur les hauteurs. Dans l’après-midi, des développements nuageux sont attendus à l’ouest et sur le plateau central, accompagnés d’averses localisées, parfois modérées. Les températures maximales varieront entre 26 et 28°C sur les terrains élevés et entre 30 et 33°C ...
-
-[Defimedia] Un vent léger souffle sur notre région et quelques nuages dans le flux de l’est traversent l’île ce matin. Le temps sera</description>
+      <description>Le bulletin émis à 04h30 ce lundi indique qu’un vent léger souffle sur la région, avec quelques nuages venant de l’est. La matinée sera mi-couverte avec des ondées occasionnelles à l’est, au nord et sur les hauteurs. Dans l’après-midi, des développements nuageux sont attendus à l’ouest et sur le plateau central, accompagnés d’averses localisées, parfois modérées. Les températures maximales varieront entre 26 et 28°C sur les terrains élevés et entre 30 et 33°C ...</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-13T08:00:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>bb42e9e90b07</cluster_id>
-      <sources>L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://live.mega.mu/redirect/255521/
-https://defimedia.info/meteo-temps-mi-couvert-avec-averses-localisees-attendues-ce-lundi</urls>
-      <titles>Météo : Temps mi-couvert avec averses localisées
-Météo : temps mi-couvert avec averses localisées attendues ce lundi</titles>
-      <languages>fr</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Shirin Aumeeruddy-Cziffra : «Ce n’est pas nécessaire que je sois décorée pendant mon mandat»</title>
@@ -1307,6 +1366,16 @@ Météo : temps mi-couvert avec averses localisées attendues ce lundi</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Hungary: jubilant scenes across Budapest follow Magyar’s victory</title>
+      <link>http://www.africanews.com/2026/04/13/hungary-jubilant-scenes-across-budapest-follow-magyars-victory/</link>
+      <description>Hungary saw large crowds take to the streets on Sunday, 12 April 2026, after Prime Minister Viktor Orbán conceded defeat, ending 16 years in power.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-13T06:32:59+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Radio Plus : 24 ans à l’ère du numérique, sans perdre sa voix</title>
       <link>https://defimedia.info/radio-plus-24-ans-lere-du-numerique-sans-perdre-sa-voix</link>
       <description>À l’occasion de ses 24 ans, ce lundi 13 avril, Radio Plus revient sur un parcours marqué par l’innovation et l’adaptatio</description>
@@ -1353,86 +1422,6 @@ Météo : temps mi-couvert avec averses localisées attendues ce lundi</titles>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-13T04:47:02+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Assemblée nationale, mardi prochain : Assemblée nationale, mardi prochain – Une salve de 28 questions au leader of the House</title>
-      <link>https://www.lemauricien.com/actualites/politique/assemblee-nationale-mardi-prochain-assemblee-nationale-mardi-prochain-une-salve-de-28-questions-au-leader-of-the-house/704387/</link>
-      <description>...mais la PNQ devrait être plus ardue pour le PM La séance parlementaire de ce mardi 14 avril 2026 s’annonce particulièrement dense pour le Premier ministre, avec 28 questions inscrites à son ...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-13T03:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Leading candidate quits California governor race amid sexual misconduct claims</title>
-      <link>https://www.bbc.com/news/articles/c74vwdpj7kdo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Top Democratic allies intensified pressure on him to exit the gubernatorial race.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T02:35:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Viktor Orbán's Hungarian experiment runs out of steam</title>
-      <link>https://www.bbc.com/news/articles/cy81lg4yzeyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Péter Magyar's historic win offers peace for a country exhausted by the tensions of Viktor Orbán's rule, Nick Thorpe reports from Budapest.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T01:58:32+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Eight to be awarded for bravery in Bondi Junction stabbing</title>
-      <link>https://www.bbc.com/news/articles/c1w4539z0y9o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Six people were killed and ten injured after a man went on a stabbing rampage in an Australian mall.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T01:35:54+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Political turmoil in Indian border state as nine million lose voting rights</title>
-      <link>https://www.bbc.com/news/articles/cy51qg00dezo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Nine million voters have been dropped from rolls in West Bengal, raising concerns over exclusion and fairness.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T23:59:48+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>The Dutch village at risk of being demolished</title>
-      <link>https://www.bbc.com/news/articles/cm2k8v027k0o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Moerdijk has been earmarked for removal, to make way for a vast electricity substation.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T23:20:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>On patrol with Canadian forces securing the Arctic as global threats grow</title>
-      <link>https://www.bbc.com/news/articles/cwyj8jjkl78o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Across 5,200 km of Canada's Arctic, its military spent two months on a mission to meet the challenges of a changing north.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T23:07:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Trump's threat raises risks and leaves predicaments unchanged</title>
-      <link>https://www.bbc.com/news/articles/c8dl5mly2rzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The conflict is now a test of wills - Iran’s capacity to absorb strikes versus Trump’s tolerance for the war's costs.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-12T22:57:22+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
