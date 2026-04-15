@@ -1,28 +1,15 @@
 rss_feeds:
 
-  # ── Local ───────────────────────────────────────────────────
   - name: "News Moris"
     url: "https://newsmoris.com/feed/"
     language: "en"
     category: "local"
-
-  #INACTIVE- name: "ION News"
-    #INACTIVEurl: "https://ionnews.mu/feed/"
-    #INACTIVElanguage: "fr"
-    #INACTIVEcategory: "local"
-
-  - name: "Le Mauricien"
-    url: "https://www.lemauricien.com/feed/"
-    language: "fr"
-    category: "local"
-
-  # ── Regional ────────────────────────────────────────────────
+    
   - name: "Africanews"
     url: "https://www.africanews.com/feed/rss"
     language: "en"
     category: "regional"
-
-  # ── Global ───────────────────────────────────────────────────
+    
   - name: "BBC News"
     url: "https://bbc-feeds.danq.dev/world-no-sports.xml"
     language: "en"
@@ -33,15 +20,27 @@ rss_feeds:
     language: "en"
     category: "global"
 
+  # Disabled (Reason: Low utilisation rate)
+  #- name: "ION News"
+  #  url: "https://ionnews.mu/feed/"
+  #  language: "fr"
+  #  category: "local"
+
+  # Disabled (Reason: Not regularly updated)
+  #- name: "Le Mauricien"
+  #  url: "https://www.lemauricien.com/feed/"
+  #  language: "fr"
+  #  category: "local"
+
+
 scrapers:
 
-  # ── Local ───────────────────────────────────────────────────
   - name: "L'Express (via mega.mu)"
     url: "https://live.mega.mu/"
     language: "fr"
     category: "local"
     type: megamu
-    max_pages: 5
+    max_pages: 3
 
   - name: "Defimedia"
     url: "https://defimedia.info"
@@ -62,19 +61,18 @@ scrapers:
       - "/actualites/politique/"
       - "/actualites/economie/"
 
-  # ── Utilities & data ─────────────────────────────────────────
-
   - name: "Stock Exchange of Mauritius"
     url: "https://www.stockexchangeofmauritius.com/products-market-data/indices"
     language: "en"
     category: "finance"
     type: semdex
 
-  - name: "Mauritius Public Holidays"
-    url: "data/public_holidays.yaml"
-    language: "en"
-    category: "government"
-    type: public_holidays
+  # Disabled (Reason: Out of scope)
+  #- name: "Mauritius Public Holidays"
+  #  url: "data/public_holidays.yaml"
+  #  language: "en"
+  #  category: "government"
+  #  type: public_holidays
 
 
 market_data:
