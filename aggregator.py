@@ -6,17 +6,16 @@ import hashlib
 import re
 import time
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone, timedelta, date
+from datetime import datetime, timezone, timedelta
 from bs4 import BeautifulSoup, XMLParsedAsHTMLWarning
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
 import os
 import warnings
-import logging
 
 warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
-from cluster import deduplicate_items, cluster_and_collapse, deduplicate_bulletin_text
+from cluster import deduplicate_items, cluster_and_collapse
 
 logging.basicConfig(level=logging.INFO, format="%(message)s")
 
@@ -564,48 +563,6 @@ def scrape_lemauricien(source):
     return items
 
 
-# ── Met Service bulletin scraper ─────────────────────────────────────────────
-
-def scrape_bulletin(source):
-    items = []
-    try:
-        r = requests.get(source["url"], headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
-
-        paragraphs = []
-        seen_para = set()
-        for p in soup.find_all("p"):
-            text = p.get_text(strip=True)
-            if len(text) > 40 and text not in seen_para:
-                paragraphs.append(text)
-                seen_para.add(text)
-
-        if paragraphs:
-            bulletin_text = " ".join(paragraphs)
-            bulletin_text = re.sub(r"^Welcome to Mauritius Meteorological Services\s*", "", bulletin_text).strip()
-            bulletin_text = re.sub(r"\s*About Us\|Publications\|.+$", "", bulletin_text, flags=re.DOTALL).strip()
-            bulletin_text = deduplicate_bulletin_text(bulletin_text)
-
-            now = datetime.now(timezone.utc)
-            items.append({
-                "id": item_id("Met bulletin", now.strftime("%Y-%m-%d")),
-                "title": f"Mauritius weather bulletin – {now.strftime('%d %B %Y')}",
-                "url": source["url"],
-                "summary": bulletin_text,
-                "source": source["name"],
-                "language": source["language"],
-                "category": source["category"],
-                "published": now.isoformat(),
-                "date_verified": True,
-            })
-
-        time.sleep(SCRAPE_SLEEP_SECONDS)
-    except Exception as e:
-        print(f"[BULLETIN ERROR] {source['name']}: {e}")
-    return items
-
-
 # ── SEMDEX scraper ───────────────────────────────────────────────────────────
 
 def scrape_semdex(source):
@@ -638,60 +595,6 @@ def scrape_semdex(source):
         time.sleep(SCRAPE_SLEEP_SECONDS)
     except Exception as e:
         print(f"[SEMDEX ERROR] {source['name']}: {e}")
-    return items
-
-
-# ── CEB Power Outages ────────────────────────────────────────────────────────
-
-def fetch_power_outages(source):
-    items = []
-    try:
-        r = requests.get(source["url"], headers=HEADERS, timeout=15)
-        r.raise_for_status()
-        data = r.json()
-
-        all_outages = data.get("today", []) + data.get("future", [])
-
-        for outage in all_outages:
-            locality = outage.get("locality", "").title()
-            streets = outage.get("streets", "")
-            district = outage.get("district", "").title()
-            from_str = outage.get("from", "")
-            to_str = outage.get("to", "")
-            outage_id = outage.get("id", "")
-
-            try:
-                from_dt = datetime.fromisoformat(from_str.replace("Z", "+00:00"))
-                to_dt = datetime.fromisoformat(to_str.replace("Z", "+00:00"))
-            except (ValueError, AttributeError):
-                continue
-
-            mu_offset = timedelta(hours=4)
-            from_mu = from_dt + mu_offset
-            to_mu = to_dt + mu_offset
-
-            date_display = from_mu.strftime("%d %B %Y")
-            time_display = f"{from_mu.strftime('%H:%M')} to {to_mu.strftime('%H:%M')}"
-
-            title = f"CEB power outage – {locality}, {district} on {date_display}"
-            summary = f"{locality} ({district}): {time_display}."
-            if streets:
-                summary += f" Areas affected: {streets[:300]}"
-
-            items.append({
-                "id": item_id("CEB outage", outage_id or f"{locality}{from_str}"),
-                "title": title,
-                "url": "https://github.com/MrSunshyne/mauritius-dataset-electricity",
-                "summary": summary[:MAX_SUMMARY_CHARS],
-                "source": source["name"],
-                "language": source["language"],
-                "category": source["category"],
-                "published": from_dt.isoformat(),
-                "date_verified": True,
-            })
-
-    except Exception as e:
-        print(f"[POWER OUTAGES ERROR] {source['name']}: {e}")
     return items
 
 
@@ -1257,12 +1160,8 @@ def main():
     print("Scraping pages...")
     for source in sources.get("scrapers", []):
         scrape_type = source.get("type")
-        if scrape_type == "bulletin":
-            items = scrape_bulletin(source)
         elif scrape_type == "semdex":
             items = scrape_semdex(source)
-        elif scrape_type == "power_outages":
-            items = fetch_power_outages(source)
         elif scrape_type == "megamu":
             items = scrape_megamu(source)
         elif scrape_type == "lemauricien":
