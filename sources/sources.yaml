@@ -19,19 +19,6 @@ rss_feeds:
     language: "en"
     category: "global"
 
-  # Disabled sources
-  # Reason: Low utilisation rate
-  # - name: "ION News"
-  #   url: "https://ionnews.mu/feed/"
-  #   language: "fr"
-  #   category: "local"
-
-  # Reason: Not regularly updated
-  # - name: "Le Mauricien"
-  #   url: "https://www.lemauricien.com/feed/"
-  #   language: "fr"
-  #   category: "local"
-
 scrapers:
   - name: "L'Express (via mega.mu)"
     url: "https://live.mega.mu/"
@@ -64,14 +51,6 @@ scrapers:
     language: "en"
     category: "finance"
     type: "semdex"
-
-  # Disabled sources
-  # Reason: Out of scope
-  # - name: "Mauritius Public Holidays"
-  #   url: "data/public_holidays.yaml"
-  #   language: "en"
-  #   category: "government"
-  #   type: "public_holidays"
 
 market_data:
   - name: "MUR Exchange Rates"
