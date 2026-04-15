@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 127,
+  "item_count": 133,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-15T09:44:21.930747+00:00",
+      "cluster_time": "2026-04-15T10:52:48.007628+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 15 April 2026",
-      "summary": "Brent Crude Oil: USD 95.98 per barrel",
+      "summary": "Brent Crude Oil: USD 96.47 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-15T09:44:21.750917+00:00",
+      "cluster_time": "2026-04-15T10:52:47.833449+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 15 April 2026",
-      "summary": "Bitcoin (BTC): USD 73,934.34 (▲ +5.01% from last)",
+      "summary": "Bitcoin (BTC): USD 74,103.25 (▲ +5.25% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-15T09:44:21.366090+00:00",
+      "cluster_time": "2026-04-15T10:52:47.563262+00:00",
       "category": "finance",
       "headline": "Gold price – 15 April 2026",
-      "summary": "Gold (XAU): USD 4,799.10 (▲ +9.34% from last)",
+      "summary": "Gold (XAU): USD 4,801.90 (▲ +9.40% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,10 +49,10 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-15T09:44:20.974841+00:00",
+      "cluster_time": "2026-04-15T10:52:47.080831+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 15 April 2026",
-      "summary": "MUR/USD 46.46 | MUR/EUR 54.79 (▼ 0.03 from last) (▲ 1.10 from last)",
+      "summary": "MUR/USD 46.25 | MUR/EUR 54.54 (▼ 0.24 from last) (▲ 0.85 from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-15T09:44:18.591361+00:00",
+      "cluster_time": "2026-04-15T10:52:44.743423+00:00",
       "category": "finance",
       "headline": "SEMDEX – 15 April 2026",
       "summary": "SEMDEX closed at 2256.09 (▲ 32.89 pts, +1.48% from last close 2,223.20)",
@@ -75,6 +75,128 @@
       ],
       "urls": [
         "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+      ]
+    },
+    {
+      "id": "singleton_84c175ba0e5d",
+      "cluster_time": "2026-04-15T10:43:00+00:00",
+      "category": "local",
+      "headline": "Shakeel Mohamed Premier ministre par intérim pour cinq jours : « J’ai demandé à Dieu de me donner le courage et la vision »",
+      "summary": "« Je prie pour être à la hauteur de la confiance placée en moi, afin que, durant les cinq prochains jours, nous puission",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/shakeel-mohamed-premier-ministre-par-interim-pour-cinq-jours-jai-demande-dieu-de-me-donner-le"
+      ]
+    },
+    {
+      "id": "singleton_e60277a61d97",
+      "cluster_time": "2026-04-15T10:40:00+00:00",
+      "category": "local",
+      "headline": "Prévisions de la Banque mondiale : une croissance limitée à 2,5 % et une dette de 90,6 % du PIB cette année",
+      "summary": "La Banque mondiale livre ses projections pour Maurice. La croissance ralentira à 2,5 % en 2026 tandis que la dette publi",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/previsions-de-la-banque-mondiale-une-croissance-limitee-25-et-une-dette-de-906-du-pib-cette-annee"
+      ]
+    },
+    {
+      "id": "singleton_0c31b52d2c70",
+      "cluster_time": "2026-04-15T10:20:00+00:00",
+      "category": "local",
+      "headline": "Taxes sur les produits : plus de Rs 110 milliards attendues en 2026",
+      "summary": "Les recettes fiscales sur les produits poursuivent leur envolée. Entre 2023 et 2026, elles devraient augmenter de plus d",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/taxes-sur-les-produits-plus-de-rs-110-milliards-attendues-en-2026"
+      ]
+    },
+    {
+      "id": "singleton_d414239a4baa",
+      "cluster_time": "2026-04-15T10:15:00+00:00",
+      "category": "local",
+      "headline": "Stratégie nationale en IA : pas de législation immédiate, priorité à l’adaptation",
+      "summary": "La table ronde consacrée à l’adoption de l’intelligence artificielle (IA) s’est tenue ce mercredi 15 avril à Labourdonna",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/strategie-nationale-en-ia-pas-de-legislation-immediate-priorite-ladaptation"
+      ]
+    },
+    {
+      "id": "singleton_b42a7203b6d9",
+      "cluster_time": "2026-04-15T10:07:09+00:00",
+      "category": "global",
+      "headline": "France’s Ekitike to miss World Cup after Liverpool Champions League injury",
+      "summary": "Liverpool striker Hugo Ekitike had to be stretchered off in the Champions League defeat by Paris Saint-Germain.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/15/frances-ekitike-to-miss-world-cup-after-liverpool-champions-league-injury?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_14c00ad16719",
+      "cluster_time": "2026-04-15T10:01:00+00:00",
+      "category": "local",
+      "headline": "Météo : un avis de veille de fortes pluies en vigueur jusqu’à 19 h ce mercredi 15 avril 2026",
+      "summary": "Un avis de veille de fortes pluies est en vigueur à Maurice jusqu’à 19 h ce mercredi 15 avril, selon un bulletin émis à",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/meteo-un-avis-de-veille-de-fortes-pluies-en-vigueur-jusqua-19-h-ce-mercredi-15-avril-2026"
+      ]
+    },
+    {
+      "id": "singleton_25353a85d886",
+      "cluster_time": "2026-04-15T10:00:41+00:00",
+      "category": "global",
+      "headline": "More than 200 Iranian sailors stranded after US torpedo attack return home",
+      "summary": "The survivors of the US attack on Iranian vessel Iris Dena, which claimed the lives of 104 people, were among those repatriated.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c9qdd318qd9o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "807b198ad73d",
+      "cluster_time": "2026-04-15T09:46:22+00:00",
+      "category": "global",
+      "headline": "South Africa names apartheid-era politician as new ambassador to the US",
+      "summary": "[BBC News] Roelf Meyer played a key role as a negotiator during talks to end white-minority rule in South Africa.\n\n[Al Jazeera] Roelf Meyer will replace the South African ambassador who was expelled from the US by President Donald Trump in 2025.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cwyjjjz8n8ko?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/15/south-africa-appoints-former-apartheid-era-negotiator-as-us-ambassador?traffic_source=rss"
       ]
     },
     {
@@ -120,6 +242,51 @@
       ],
       "urls": [
         "https://defimedia.info/trafic-de-stupefiants-le-proces-de-muzaffar-ali-lallmamode-renvoye-en-labsence-de-deux-temoins"
+      ]
+    },
+    {
+      "id": "singleton_e7f02b21d9f6",
+      "cluster_time": "2026-04-15T09:19:07+00:00",
+      "category": "global",
+      "headline": "Three years of messages at once - a chronicle of Sudan's war pours in as trapped reporter's phone turns on",
+      "summary": "As the conflict enters its fourth year, journalist Mohamed Suleiman shudders at what has been lost.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cy01d1g0rrjo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_8181dc079d5b",
+      "cluster_time": "2026-04-15T09:16:36+00:00",
+      "category": "global",
+      "headline": "Iran citizen held in France over pro-Palestine comments returns home",
+      "summary": "Release of Mahdieh Esfandiari comes a week after Iran released two French citizens held on espionage charges.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/15/iran-citizen-held-in-france-over-pro-palestine-comments-returns-state-tv?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_c27ccd3ee1cc",
+      "cluster_time": "2026-04-15T09:06:38+00:00",
+      "category": "global",
+      "headline": "Kenya fuel prices rise sharply despite reduction in tax due to Iran war",
+      "summary": "Diesel prices rise by a record margin despite a reduction in value added tax.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgrlll7qgdzo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -185,20 +352,18 @@
       ]
     },
     {
-      "id": "e61577077fcc",
+      "id": "08ae10a5230c",
       "cluster_time": "2026-04-15T08:38:07+00:00",
       "category": "global",
-      "headline": "Police officers among seven arrested over deadly Haiti stampede",
-      "summary": "[BBC News] An investigation is under way into what led to the deaths of 25 people at Laferrière Citadel on Saturday.\n\n[Al Jazeera] At least nine people have been arrested following the stampede, including police officers and ministry employees.\n\n[Africanews] Nine people have been arrested in connection with a deadly stampede in Haiti, including five police officers and two state officials responsible for overseeing the UNESCO listed citadel where the incident took place.",
-      "cluster_size": 3,
-      "source_count": 3,
+      "headline": "Haiti’s Culture Ministry fires workers over citadel stampede that killed 25",
+      "summary": "[Al Jazeera] At least nine people have been arrested following the stampede, including police officers and ministry employees.\n\n[Africanews] Nine people have been arrested in connection with a deadly stampede in Haiti, including five police officers and two state officials responsible for overseeing the UNESCO listed citadel where the incident took place.",
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
-        "BBC News",
         "Al Jazeera",
         "Africanews"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cy811062y5yo?at_medium=RSS&at_campaign=rss",
         "https://www.aljazeera.com/news/2026/4/15/haitis-culture-ministry-fires-workers-over-citadel-stampede-that-killed-25?traffic_source=rss",
         "http://www.africanews.com/2026/04/15/state-officials-among-9-people-arrested-over-deadly-stampede-at-haiti-citadel/"
       ]
@@ -231,23 +396,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/15/mystery-surrounds-us-influencers-death-in-zanzibar/"
-      ]
-    },
-    {
-      "id": "807b198ad73d",
-      "cluster_time": "2026-04-15T08:21:46+00:00",
-      "category": "global",
-      "headline": "South Africa names apartheid-era politician as new ambassador to the US",
-      "summary": "[BBC News] Roelf Meyer played a key role as a negotiator during talks to end white-minority rule in South Africa.\n\n[Al Jazeera] Roelf Meyer will replace the South African ambassador who was expelled from the US by President Donald Trump in 2025.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cwyjjjz8n8ko?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/15/south-africa-appoints-former-apartheid-era-negotiator-as-us-ambassador?traffic_source=rss"
       ]
     },
     {
@@ -324,6 +472,81 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/15/pakistan-hosts-thousands-of-sikh-pilgrims-for-2026-baisakhi-rites/"
+      ]
+    },
+    {
+      "id": "singleton_075cea8f41fc",
+      "cluster_time": "2026-04-15T08:00:00+00:00",
+      "category": "local",
+      "headline": "Éclairage : Double front pour Ramgoolam : la rue gronde, l’opposition s’aiguise",
+      "summary": "Personne, visiblement, ne souhaiterait aujourd’hui être à la place de Navin Ramgoolam. À moins de dix semaines de la présentation de son deuxième budget, le Premier ministre lui-même a reconnu qu’il s’agira d’un exercice particulièrement difficile. Et pour cause : rarement un chef de gouvernement aura dû composer simultanément avec une instabilité politique interne et une conjoncture économique aussi défavorable. Par rapport à l’an dernier, quand il avait pu s’appuye ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/255878/"
+      ]
+    },
+    {
+      "id": "singleton_a3f6944ef51c",
+      "cluster_time": "2026-04-15T08:00:00+00:00",
+      "category": "local",
+      "headline": "Disparition en mer à Mont-Choisy : Le corps du jeune Malgache retrouvé dans le lagon",
+      "summary": "Le corps de François Gabriel Fanomezantsoa, le jeune ressortissant malgache porté disparu en mer hier à la plage publique de Mont-Choisy, a été repêché ce matin, mercredi 15 avril, dans le lagon, mettant fin aux recherches entreprises depuis la veille. Une autopsie devrait être pratiquée bientôt afin de déterminer les causes exactes du décès. Pour rappel, une opération de recherche d’envergure avait été déclenchée hier après-midi, après la disparition du jeune homme en ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/255881/"
+      ]
+    },
+    {
+      "id": "singleton_0b71101719b8",
+      "cluster_time": "2026-04-15T08:00:00+00:00",
+      "category": "local",
+      "headline": "Relations diplomatiques Chine-Maurice : Cinquante-quatre ans de liens célébrés",
+      "summary": "L’ambassade de la République populaire de Chine à Maurice a commémoré ce matin, mercredi 15 avril, le 54e anniversaire de l’établissement des relations diplomatiques entre les deux pays. Dans un message publié sur les réseaux sociaux, l’ambassade a rappelé que ce partenariat, noué en 1972, repose sur *«une amitié sincère, une confiance mutuelle et une coopération gagnant-gagnant»*. L’institution a réaffirmé sa volonté de servir de pont entre les deux peuples et de hisse ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/255884/"
+      ]
+    },
+    {
+      "id": "singleton_0d4018bd9e37",
+      "cluster_time": "2026-04-15T08:00:00+00:00",
+      "category": "local",
+      "headline": "PNQ : Violences domestiques : dix femmes tuées et 6 478 cas recensés depuis 2025",
+      "summary": "La question de la protection des femmes face aux violences domestiques s’est imposée comme l’un des moments forts de la séance parlementaire d’hier, à travers une *Private Notice Question (PNQ)* du leader de l’opposition, Joe Lesjongard, à la ministre de l’Égalité des genres et du bien-être de la famille, Arianne Navarre-Marie. D’entrée de jeu, la ministre a souligné que la lutte contre les violences faites aux femmes constitue *«une priorité nationale»*, insistant sur l� ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/255887/"
+      ]
+    },
+    {
+      "id": "singleton_218e881f2c20",
+      "cluster_time": "2026-04-15T08:00:00+00:00",
+      "category": "local",
+      "headline": "Questions à... : Mᵉ Isabelle Schoenacker-Rossi: «Les minorités sexuelles à Maurice constituent un groupe social exposé à un risque élevé de persécutions»",
+      "summary": "**«Les minorités sexuelles à Maurice constituent un groupe social exposé à un risque élevé de persécutions»** Avocate et membre d'Avocats sans frontières France (ASFF), Mᵉ Isabelle Schoenacker-Rossi vient régulièrement à Maurice depuis 2020 pour documenter les violations des droits des minorités sexuelles. Dans cet entretien, elle revient sur les persécutions subies par les personnes LGBTQIA+ sur l'île, sur les contradictions entre les engagements internationaux de l'État m ...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/255890/"
       ]
     },
     {
@@ -464,20 +687,18 @@
       ]
     },
     {
-      "id": "f06c50328b9f",
+      "id": "singleton_197979db473f",
       "cluster_time": "2026-04-15T08:00:00+00:00",
       "category": "local",
       "headline": "Saisie à l’aéroport : Un Nigérian intercepté avec 61 boulettes de drogue",
-      "summary": "[L'Express (via mega.mu)] Un Nigérian a été intercepté par les officiers de la *Customs Anti-Narcotics Section* à l’aéroport, le 11 avril, dans le cadre d’une opération de contrôle. L’homme, identifié comme Ibeh Udoka Kenneth, âgé de 47 ans, voyageait à bord du vol KA 274. Lors de son interrogatoire, après avoir purgé les boulettes de drogue, il a déclaré en transporter 61. Selon ses propres aveux, celles-ci comprenaient 51 boulettes de cocaïne et dix boulettes de cannabis. Les autorités ont � ...\n\n[Defimedia] Un ressortissant nigérian a été arrêté vendredi dernier à sa descente d’avion à l’aéroport de Plaisance, alors qu’il ten",
-      "cluster_size": 2,
-      "source_count": 2,
+      "summary": "Un Nigérian a été intercepté par les officiers de la *Customs Anti-Narcotics Section* à l’aéroport, le 11 avril, dans le cadre d’une opération de contrôle. L’homme, identifié comme Ibeh Udoka Kenneth, âgé de 47 ans, voyageait à bord du vol KA 274. Lors de son interrogatoire, après avoir purgé les boulettes de drogue, il a déclaré en transporter 61. Selon ses propres aveux, celles-ci comprenaient 51 boulettes de cocaïne et dix boulettes de cannabis. Les autorités ont � ...",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "L'Express (via mega.mu)",
-        "Defimedia"
+        "L'Express (via mega.mu)"
       ],
       "urls": [
-        "https://live.mega.mu/redirect/255797/",
-        "https://defimedia.info/trafic-de-drogue-un-nigerian-intercepte-plaisance-avec-plus-de-rs-3-millions-de-cocaine"
+        "https://live.mega.mu/redirect/255797/"
       ]
     },
     {
@@ -674,21 +895,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/news/2026/4/15/iran-war-what-is-happening-on-day-47-of-the-us-iran-conflict?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_c27ccd3ee1cc",
-      "cluster_time": "2026-04-15T07:41:20+00:00",
-      "category": "global",
-      "headline": "Kenya fuel prices rise sharply despite reduction in tax due to Iran war",
-      "summary": "Diesel prices rise by a record margin despite a reduction in value added tax.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cgrlll7qgdzo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -1146,21 +1352,6 @@
       ]
     },
     {
-      "id": "singleton_0e801aa0ec79",
-      "cluster_time": "2026-04-14T23:47:20+00:00",
-      "category": "global",
-      "headline": "Delcy Rodriguez calls for a ‘Venezuela free of sanctions’ amid US detente",
-      "summary": "Venezuelan president says limited sanctions relief has not been enough to stabilise the country's turbulent economy.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/14/delcy-rodriguez-calls-for-a-venezuela-free-of-sanctions-amid-us-detente?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_e3aeba8e32d1",
       "cluster_time": "2026-04-14T23:13:34+00:00",
       "category": "global",
@@ -1173,53 +1364,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_e7f02b21d9f6",
-      "cluster_time": "2026-04-14T23:13:15+00:00",
-      "category": "global",
-      "headline": "Three years of messages at once - a chronicle of Sudan's war pours in as trapped reporter's phone turns on",
-      "summary": "As the conflict enters its fourth year, journalist Mohamed Suleiman shudders at what has been lost.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cy01d1g0rrjo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "7aba5a129c7e",
-      "cluster_time": "2026-04-14T23:08:43+00:00",
-      "category": "global",
-      "headline": "Israel and Lebanon hold first direct talks since 1993",
-      "summary": "[BBC News] A US statement said the two sides had agreed to launch direct negotiations, at a time and place to be determined.\n\n[Al Jazeera] The meeting marks the first direct talks between the two sides, though US officials say more time is needed.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cp8ddydl18vo?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/14/israel-and-lebanon-hold-rare-talks-in-washington-dc-amid-iran-war?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_6d190dc3c746",
-      "cluster_time": "2026-04-14T21:49:03+00:00",
-      "category": "global",
-      "headline": "Fifth woman accuses former US lawmaker Eric Swalwell of sexual misconduct",
-      "summary": "The Democratic representative has resigned his seat in Congress over multiple sexual misconduct allegations.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/14/fifth-woman-accuses-former-us-lawmaker-eric-swalwell-of-sexual-misconduct?traffic_source=rss"
       ]
     },
     {
@@ -1250,6 +1394,21 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cj37y8np54eo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_20a553aa4e12",
+      "cluster_time": "2026-04-14T20:42:48+00:00",
+      "category": "global",
+      "headline": "Israel and Lebanon hold first direct talks since 1993",
+      "summary": "A US statement said the two sides had agreed to launch direct negotiations, at a time and place to be determined.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cp8ddydl18vo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
@@ -1405,20 +1564,18 @@
       ]
     },
     {
-      "id": "d9d226986b5b",
+      "id": "singleton_7fb263714d65",
       "cluster_time": "2026-04-14T17:14:28+04:00",
       "category": "local",
       "headline": "Déplacement du PM : Shakeel Mohamed assure l’intérim du gouvernement pour cinq jours",
-      "summary": "[Le Mauricien] En déplacement officiel à l’étranger, le Premier ministre, le Dr Navin Ramgoolam, sera absent du pays durant cinq jours. L’intérim à la tête du gouvernement est assuré dès ce soir par Shak...\n\n[Defimedia] Shakeel Mohamed assurera la suppléance à la tête du gouvernement à partir de ce soir, pour une durée de cinq jours. Navi",
-      "cluster_size": 2,
-      "source_count": 2,
+      "summary": "En déplacement officiel à l’étranger, le Premier ministre, le Dr Navin Ramgoolam, sera absent du pays durant cinq jours. L’intérim à la tête du gouvernement est assuré dès ce soir par Shak...",
+      "cluster_size": 1,
+      "source_count": 1,
       "sources": [
-        "Le Mauricien",
-        "Defimedia"
+        "Le Mauricien"
       ],
       "urls": [
-        "https://www.lemauricien.com/actualites/politique/deplacement-du-pm-shakeel-mohamed-assure-linterim-du-gouvernement-pour-cinq-jours/704606/",
-        "https://defimedia.info/le-pm-en-mission-officielle-au-congo-shakeel-mohamed-assurera-linterim-pendant-cinq-jours"
+        "https://www.lemauricien.com/actualites/politique/deplacement-du-pm-shakeel-mohamed-assure-linterim-du-gouvernement-pour-cinq-jours/704606/"
       ]
     },
     {
@@ -1770,21 +1927,6 @@
       ]
     },
     {
-      "id": "singleton_0cfc2373ba82",
-      "cluster_time": "2026-04-14T12:57:00+00:00",
-      "category": "local",
-      "headline": "Navin Ramgoolam : « Pa oblize ena DPM »",
-      "summary": "« Pa oblize ena DPM », a déclaré le Premier ministre, Navin Ramgoolam. Il répondait à une question de Radio Plus à l’iss",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/navin-ramgoolam-pa-oblize-ena-dpm"
-      ]
-    },
-    {
       "id": "singleton_0a4bbf9c42a4",
       "cluster_time": "2026-04-14T12:30:00+00:00",
       "category": "local",
@@ -1845,21 +1987,6 @@
       ]
     },
     {
-      "id": "singleton_b388db9196f5",
-      "cluster_time": "2026-04-14T11:30:00+00:00",
-      "category": "local",
-      "headline": "Phoenix - Agressions impunies : une famille dénonce la hiérarchie policière",
-      "summary": "Une correspondance envoyée à la NHRC, l’IPCC et au PMO, entre autresMoshin Ally Dousoruth, 71 ans, un habitant de Highla",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/phoenix-agressions-impunies-une-famille-denonce-la-hierarchie-policiere"
-      ]
-    },
-    {
       "id": "singleton_ada4cae537ec",
       "cluster_time": "2026-04-14T11:26:58+00:00",
       "category": "regional",
@@ -1887,51 +2014,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/14/us-iran-tensions-persist-as-diplomacy-struggles-to-keep-pace/"
-      ]
-    },
-    {
-      "id": "singleton_5bf1bf0af4ce",
-      "cluster_time": "2026-04-14T10:25:33+00:00",
-      "category": "regional",
-      "headline": "War pushes poverty in Sudan to 70 percent, UN warns",
-      "summary": "Nearly 70 percent of people in Sudan are now living in poverty, almost double pre-war levels, as conflict continues to devastate the country’s economy and social fabric, a senior UN official has said.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/14/war-pushes-poverty-in-sudan-to-70-percent-un-warns/"
-      ]
-    },
-    {
-      "id": "singleton_af2a535c1d53",
-      "cluster_time": "2026-04-14T10:20:35+00:00",
-      "category": "regional",
-      "headline": "Ghana midfielder Thomas Partey pleads not guilty to new rape charges",
-      "summary": "Ghana footballer Thomas Partey has pleaded not guilty to two new allegations of rapes.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/14/ghana-midfielder-thomas-partey-pleads-not-guilty-to-new-rape-charges/"
-      ]
-    },
-    {
-      "id": "singleton_615217e4a6c6",
-      "cluster_time": "2026-04-14T09:54:43+00:00",
-      "category": "regional",
-      "headline": "Botswana, Oman sign energy and mining deals to deepen economic ties",
-      "summary": "Botswana has signed a series of energy, mining, and infrastructure agreements with Oman as it steps up efforts to diversify its economy beyond diamonds, amid a prolonged downturn in global demand for the precious stones.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/14/botswana-oman-sign-energy-and-mining-deals-to-deepen-economic-ties/"
       ]
     }
   ]
