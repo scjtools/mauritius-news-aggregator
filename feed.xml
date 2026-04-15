@@ -4,44 +4,44 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 15 Apr 2026 10:55:19 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 22:31:52 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 15 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 96.47 per barrel</description>
+      <description>Brent Crude Oil: USD 94.93 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T10:52:48.007628+00:00</cluster_time>
+      <cluster_time>2026-04-15T22:29:17.993382+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 15 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 74,103.25 (▲ +5.25% from last)</description>
+      <description>Bitcoin (BTC): USD 75,004.83 (▲ +6.53% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T10:52:47.833449+00:00</cluster_time>
+      <cluster_time>2026-04-15T22:29:17.908541+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Gold price – 15 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,801.90 (▲ +9.40% from last)</description>
+      <description>Gold (XAU): USD 4,800.90 (▲ +9.38% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T10:52:47.563262+00:00</cluster_time>
+      <cluster_time>2026-04-15T22:29:17.319514+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>MUR exchange rates – 15 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.25 | MUR/EUR 54.54 (▼ 0.24 from last) (▲ 0.85 from last)</description>
+      <description>MUR/USD 46.28 | MUR/EUR 54.56 (▼ 0.21 from last) (▲ 0.87 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T10:52:47.080831+00:00</cluster_time>
+      <cluster_time>2026-04-15T22:29:16.742596+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +51,771 @@
       <description>SEMDEX closed at 2256.09 (▲ 32.89 pts, +1.48% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T10:52:44.743423+00:00</cluster_time>
+      <cluster_time>2026-04-15T22:29:14.386475+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brazil’s police open a probe into presidential candidate Flavio Bolsonaro</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/brazils-police-open-a-probe-into-presidential-candidate-flavio-bolsonaro?traffic_source=rss</link>
+      <description>Investigation centres on whether Bolsonaro committed defamation by linking Lula to crimes like drug trafficking.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T21:45:31+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Bayern edge Real Madrid 4-3 in classic to reach Champions League semifinals</title>
+      <link>https://www.aljazeera.com/sports/2026/4/15/bayern-edge-real-madrid-4-3-in-classic-to-reach-champions-league-semifinals?traffic_source=rss</link>
+      <description>[Al Jazeera] Luis Diaz and Michael Olise score late goals in Munich to give Bayern a dramatic 6-4 aggregate win over Real Madrid.
+
+[Al Jazeera] All the updates as Bayern leave it late to beat Real Madrid and set up a semifinal against Paris Saint-Germain.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T21:31:04+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>1</source_count>
+      <cluster_id>1e5125ba3342</cluster_id>
+      <sources>Al Jazeera</sources>
+      <urls>https://www.aljazeera.com/sports/2026/4/15/bayern-edge-real-madrid-4-3-in-classic-to-reach-champions-league-semifinals?traffic_source=rss
+https://www.aljazeera.com/sports/liveblog/2026/4/15/live-bayern-munich-vs-real-madrid-champions-league-quarterfinal?traffic_source=rss</urls>
+      <titles>Bayern edge Real Madrid 4-3 in classic to reach Champions League semifinals
+Bayern vs Real Madrid 4-3 (6-4 agg): Champions League – as it happened</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Ticketmaster-owner Live Nation ran a monopoly and overcharged fans, jury finds</title>
+      <link>https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The lawsuit said the firm's practices had led to higher ticket prices and worse service for customers.
+
+[Al Jazeera] The verdict could cost Live Nation and Ticketmaster hundreds of millions of dollars.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T21:28:59+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>bee5e0e8477d</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/economy/2026/4/15/us-jury-finds-ticketmaster-and-live-nation-had-anticompetitive-monopoly?traffic_source=rss</urls>
+      <titles>Ticketmaster-owner Live Nation ran a monopoly and overcharged fans, jury finds
+US jury finds Ticketmaster and Live Nation had anticompetitive monopoly</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done</title>
+      <link>https://www.bbc.com/news/articles/c4g44gj7rgno?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The BBC's chief international correspondent reports from Iran as diplomatic efforts to avoid a return to war intensify.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T21:10:14+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Israel appoints first ambassador to Somaliland</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/israel-appoints-first-ambassador-to-somaliland?traffic_source=rss</link>
+      <description>The decision comes months after Israel became the first country to recognise the territory, in a widely condemned move.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T21:05:27+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pope urges Cameroon authorities to examine 'conscience'</title>
+      <link>http://www.africanews.com/2026/04/15/pope-urges-cameroon-authorities-to-examine-conscience/</link>
+      <description>Pope Leo XIV on Wednesday called on Cameroon's authorities to examine their &quot;conscience&quot; and break &quot;the chains of corruption&quot; on the first day of a visit to the country.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T20:23:59+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Nine killed in second Turkish school shooting in two days</title>
+      <link>https://www.bbc.com/news/articles/cn088n9e6e9o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Eight students and one teacher died in the attack, according to Interior Minister Mustafa Cifci.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T20:10:49+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Could the US oil blockade snuff out the Cuban cigar?</title>
+      <link>https://www.aljazeera.com/news/longform/2026/4/15/could-the-us-oil-blockade-snuff-out-the-cuban-cigar?traffic_source=rss</link>
+      <description>Since January, the Trump administration has blocked foreign oil to Cuba. Will the island's cigars survive the crisis?</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T20:08:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Magyar calls for fast handover of power in talks with Hungary's president</title>
+      <link>https://www.bbc.com/news/articles/cx2ddd0xyl5o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Péter Magyar, the man who ended Viktor Orbán's 16 years of continuous rule, wants the new parliament to convene in early May.
+
+[Al Jazeera] Incoming Prime Minister Peter Magyar says his government could be formed by mid-May.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T19:56:29+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>c5638205868f</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/cx2ddd0xyl5o?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/15/hungarys-magyar-urges-president-to-quit-vows-to-overhaul-state-media?traffic_source=rss</urls>
+      <titles>Magyar calls for fast handover of power in talks with Hungary's president
+Hungary’s Magyar urges president to quit, vows to overhaul state media</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>US Senate rejects another war powers resolution to limit Trump on Iran</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/us-senate-rejects-another-war-powers-resolution-to-limit-trump-on-iran?traffic_source=rss</link>
+      <description>Fourth Senate War Powers vote - first since Trump threatened to destroy Iranian civilisation - fails to gain traction.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T19:53:49+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pakistan army chief in Tehran to advance next round of US-Iran talks</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/pakistan-army-chief-in-tehran-to-advance-next-round-of-us-iran-talks?traffic_source=rss</link>
+      <description>Sources tell Al Jazeera that Pakistani mediators are hopeful about a breakthrough on Iran's nuclear programme.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T19:27:34+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pope Leo visits Cameroon with message of peace amid attacks from Trump</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/pope-leo-visits-cameroon-with-message-of-peace-amid-attacks-from-trump?traffic_source=rss</link>
+      <description>[Al Jazeera] US President Donald Trump has lashed out at pope over calls for peace and criticism of US war on Iran.
+
+[Africanews] The upcoming visit of Pope Leo XIV to Cameroon’s conflict-hit anglophone region is raising cautious hopes for peace, as residents and leaders call for an end to years of violence.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T18:57:57+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>bf085cf84686</cluster_id>
+      <sources>Al Jazeera
+Africanews</sources>
+      <urls>https://www.aljazeera.com/news/2026/4/15/pope-leo-visits-cameroon-with-message-of-peace-amid-attacks-from-trump?traffic_source=rss
+http://www.africanews.com/2026/04/15/popes-visit-raises-hopes-for-peace-in-cameroons-anglophone-region/</urls>
+      <titles>Pope Leo visits Cameroon with message of peace amid attacks from Trump
+Pope’s visit raises hopes for peace in cameroon’s anglophone region</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Israeli triple-tap strike kills three paramedics in Lebanon, officials say</title>
+      <link>https://www.bbc.com/news/articles/cgqkkxd09e2o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Lebanon's government condemns as a &quot;flagrant crime&quot; the killing of the paramedics, one of whom featured in a BBC report.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T18:48:34+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump threatens to fire Fed chair Powell if he doesn't leave in May</title>
+      <link>https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Donald Trump's threat marks the latest escalation in his ongoing spat with Jerome Powell.
+
+[Al Jazeera] In a Fox Business interview, Trump says he will fire Powell if he does not vacate his board seat when his term ends.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T18:29:50+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>fc557be56bfe</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/economy/2026/4/15/trump-escalates-threats-to-fire-us-federal-reserve-chair-powell?traffic_source=rss</urls>
+      <titles>Trump threatens to fire Fed chair Powell if he doesn't leave in May
+Trump threatens to fire Fed Chair Powell if he doesn’t step down by May 15</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>What is Trump-backed SAVE America Act and what could it mean for US vote?</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/what-is-trump-backed-save-america-act-and-what-could-it-mean-for-us-vote?traffic_source=rss</link>
+      <description>US Senate resumes debate on controversial bill requiring more proof of citizenship, which Trump calls top priority.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T18:29:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>&quot;The IMF’ mission is to help countries help themselves&quot; - Kristalina Georgieva</title>
+      <link>http://www.africanews.com/2026/04/15/the-imf-mission-is-to-help-countries-help-themselves-kristalina-georgieva/</link>
+      <description>Speaking at the Spring Meetings of the International Monetary Fund in Washington, Managing Director Kristalina Georgieva reaffirmed the institution’s role in supporting its member states.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T18:19:05+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Carburants : l’essence passe de Rs 58,45 à Rs 64,25 le litre, le diesel de Rs 64,80 à Rs 71,25</title>
+      <link>https://defimedia.info/carburants-lessence-passe-de-rs-5845-rs-6425-le-litre-le-diesel-de-rs-6480-rs-7125</link>
+      <description>[Defimedia] Le Petroleum Pricing Committee, qui s’est réuni ce soir, a recommandé que les prix de vente au détail de l’essence (Moga
+
+[Defimedia] Le Petroleum Pricing Committee (PPC) se réunit ce mercredi soir, soit un mois après le dernier ajustement du prix du die
+
+[Defimedia] Le Petroleum Pricing Committee (PPC) a annoncé une nouvelle augmentation des prix des carburants, effective à partir de</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T18:02:00+00:00</cluster_time>
+      <cluster_size>3</cluster_size>
+      <source_count>1</source_count>
+      <cluster_id>f3cd6f3a0708</cluster_id>
+      <sources>Defimedia</sources>
+      <urls>https://defimedia.info/carburants-lessence-passe-de-rs-5845-rs-6425-le-litre-le-diesel-de-rs-6480-rs-7125
+https://defimedia.info/carburants-le-petroleum-pricing-committee-se-reunit-ce-soir-une-nouvelle-hausse-envisagee
+https://defimedia.info/hausse-des-prix-des-carburants-les-explications-du-ministre-sik-yuen</urls>
+      <titles>Carburants : l’essence passe de Rs 58,45 à Rs 64,25 le litre, le diesel de Rs 64,80 à Rs 71,25
+Carburants : le Petroleum Pricing Committee se réunit ce soir, une nouvelle hausse envisagée
+Hausse des prix des carburants : les explications du ministre Sik Yuen</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Countries pledge $1.5bn for Sudan crisis as war enters fourth year</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/countries-pledge-1-5bn-for-sudan-crisis-as-war-enters-fourth-year?traffic_source=rss</link>
+      <description>UN chief calls for end to 'nightmare' war as Khartoum rejects international conference as 'colonial tutelage approach'.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T17:57:18+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SantaCon organiser charged with stealing $1m from charity pub crawl</title>
+      <link>https://www.bbc.com/news/articles/crl11g21ex8o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Prosecutors say Stefan Pildes spent hundreds of thousands of $2.7m raised for charity on personal expenses.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T17:56:47+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Shakeel Mohamed, PM par intérim : «Sa fin fer mwa admire le Premie minis ankor plis»</title>
+      <link>https://defimedia.info/shakeel-mohamed-pm-par-interim-sa-fin-fer-mwa-admire-le-premie-minis-ankor-plis</link>
+      <description>En l’absence de Navin Ramgoolam au pays, Shakeel Mohamed, le no 3 du gouvernement, assure depuis hier soir, mardi 14 avr</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T17:56:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Cameroon: President Biya signs decree to reinstate vice presidency</title>
+      <link>http://www.africanews.com/2026/04/15/cameroon-president-biya-signs-decree-to-reinstate-vice-presidency/</link>
+      <description>Cameroonian President Paul Biya signed a bill on Tuesday to restore the vice presidency to the country's government structure.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T17:54:11+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran warns US naval blockade threatens ceasefire</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/iran-warns-us-naval-blockade-threatens-ceasefire?traffic_source=rss</link>
+      <description>[Al Jazeera] Iran says it will halt all trade in the Gulf if the US continues blocking its vessels.
+
+[Africanews] Iranian state media reported Wednesday that the commander of Iran’s joint military command warned that Iran would completely block exports and imports across the Persian Gulf region, the Sea of Oman, and the Red Sea if the United States did not lift its blockade on Iranian ports.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T17:14:59+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>9c8d36fd2fab</cluster_id>
+      <sources>Al Jazeera
+Africanews</sources>
+      <urls>https://www.aljazeera.com/news/2026/4/15/iran-warns-us-naval-blockade-threatens-ceasefire?traffic_source=rss
+http://www.africanews.com/2026/04/15/iran-issues-warnings-as-trump-says-war-is-almost-over/</urls>
+      <titles>Iran warns US naval blockade threatens ceasefire
+Iran issues warnings as Trump says war 'is almost over'</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>UN experts urge member states to suspend Israel arms transfers</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/un-experts-urge-member-states-to-suspend-israel-arms-transfers?traffic_source=rss</link>
+      <description>The experts call Israel's bombardment of Lebanon on April 8 'a blatant violation of the UN Charter'.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T17:07:29+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>SA opposition leader Julius Malema awaits sentence on Thursday</title>
+      <link>http://www.africanews.com/2026/04/15/sa-opposition-leader-julius-malema-awaits-sentence-on-thursday/</link>
+      <description>The state is seeking the maximum 15-year jail term for Malema, who was found guilty in October of violating firearm laws by shooting a gun in the air at an EFF celebration near the city in 2018.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T17:03:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Loto et Loto Plus : pas de grand gagnant ce mercredi 15 avril</title>
+      <link>https://defimedia.info/loto-et-loto-plus-pas-de-grand-gagnant-ce-mercredi-15-avril</link>
+      <description>Aucun joueur n'a trouvé la combinaison gagnante du tirage du Loto et celle de Loto Plus, ce mercredi 15 avril. C'est ce</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T17:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pope Leo XIV arrives in Cameroon on second leg of African tour</title>
+      <link>http://www.africanews.com/2026/04/15/pope-leo-xiv-arrives-in-cameroon-on-second-leg-of-african-tour/</link>
+      <description>After two days in Algeria marred by two suicide attacks and a spat with US President Donald Trump, the pontiff's plane landed in the Cameroonian capital Yaounde shortly before 3:00 pm local time (1400 GMT), an AFP journalist travelling on the papal plane said.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T16:52:53+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>RIVEO Appoints New Chief Executive Officer Backed by Over 20 Years Global Experience</title>
+      <link>https://newsmoris.com/riveo-appoints-new-chief-executive-officer-backed-by-over-20-years-global-experience/</link>
+      <description>RIVEO Limited has announced the appointment of Gregory Coquet as its new Chief Executive Officer, effective from 1 October 2026. The appointment, which forms part of the group’s formal succession plan, will see Mr Coquet succeed François Eynaud. Mr Eynaud … The post RIVEO Appoints New Chief Executive Officer Backed by Over 20 Years Global Experience appeared first on News Moris.</description>
+      <source>News Moris</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T16:42:34+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Netanyahu sees Lebanon as his last chance for a ‘win’</title>
+      <link>https://www.aljazeera.com/opinions/2026/4/15/netanyahu-sees-lebanon-as-his-last-chance-for-a?traffic_source=rss</link>
+      <description>After the failure in Gaza and Iran, the Israeli prime minister hopes he can be triumphant in Lebanon.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T16:38:12+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Togo to ask UN members to adopt world maps that show true size of Africa</title>
+      <link>http://www.africanews.com/2026/04/15/togo-to-ask-un-members-to-adopt-world-maps-that-show-true-size-of-africa/</link>
+      <description>Togo has launched a campaign to adopt a world map that better represents the true size of Africa. Now Togo will ask UN member states to commit to ditching European centred maps in favour of more accurate representations.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T16:32:03+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Why has Italy’s Giorgia Meloni suspended a defence pact with Israel?</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/why-has-italys-giorgia-meloni-suspended-a-defence-pact-with-israel?traffic_source=rss</link>
+      <description>Italy’s decision has little immediate impact, but marks an unprecedented U-turn by one of Israel's staunchest allies.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T16:10:11+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Prominent Palestinian prisoner Marwan Barghouti assaulted three times in a month, family says</title>
+      <link>https://www.bbc.com/news/articles/czreedn4n7jo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The Israeli Prison Service says the allegation that Barghouti was subjected to physical violence by prison guards are &quot;false and baseless&quot;.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T15:59:24+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Au Cœur de l’Info - Paul Bérenger quitte le MMM : quel avenir pour le parti et son ex-leader ?</title>
+      <link>https://defimedia.info/au-coeur-de-linfo-paul-berenger-quitte-le-mmm-quel-avenir-pour-le-parti-et-son-ex-leader</link>
+      <description>Dans Au Cœur de l’Info cet après-midi, focus sur le départ de Paul Bérenger à la tête du MMM et les enjeux pour l'avenir</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T15:43:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Can Japan’s arms industry gain from Trump trust loss?</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/can-japans-arms-industry-gain-from-trump-trust-loss?traffic_source=rss</link>
+      <description>Japan's announcement comes at a time when the country is looking to rapidly expand its defence exports.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T15:42:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Chinese national given one year in prison for smuggling ants out of Kenya</title>
+      <link>https://www.bbc.com/news/articles/cz788z27j2jo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Zhang Kequn was arrested in March while trying to travel to China with more than 2,000 live ants.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T15:36:25+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Starmer says he's 'not going to yield' to pressure from Trump on Iran war</title>
+      <link>https://www.bbc.com/news/articles/cdxdd7ddzgdo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>It follows a warning from the US president that America's trade deal with the UK &quot;can always be changed&quot;.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T15:27:22+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brazil calls for stronger defence preparedness as LAAD expo opens in São Paulo</title>
+      <link>http://www.africanews.com/2026/04/15/brazil-calls-for-stronger-defence-preparedness-as-laad-expo-opens-in-sao-paulo/</link>
+      <description>As geopolitical tensions evolve globally, authorities say initiatives like LAAD Security reflect a growing push across the region to balance peace with preparedness.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T14:59:02+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Chagos : Maurice rejette toute revendication des Maldives</title>
+      <link>https://live.mega.mu/redirect/255974/</link>
+      <description>[L'Express (via mega.mu)] Le gouvernement mauricien a fermement rejeté toute prétention des Maldives sur l’archipel des Chagos, y compris Diego Garcia, dans un communiqué émis ce mercredi 15 avril par le Bureau de l’*Attorney General*. Cette réaction fait suite à une déclaration du ministère des Affaires étrangères des Maldives, datée du 13 avril, saluant la suspension du processus de rétrocession des Chagos à Maurice. Malé y évoquait un *«intérêt légitime»* concernant le futur statut de l’ar ...
+
+[Defimedia] Dans un communiqué émis ce mercredi, Maurice répond aux Maldives enaffirmant que la souveraineté de la République de Mau</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T14:39:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>3cb59351b3c5</cluster_id>
+      <sources>L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://live.mega.mu/redirect/255974/
+https://defimedia.info/chagos-maurice-repond-aux-maldives</urls>
+      <titles>Chagos : Maurice rejette toute revendication des Maldives
+Chagos : Maurice répond aux Maldives</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Russia repeats offer to take Iran's enriched uranium</title>
+      <link>http://www.africanews.com/2026/04/15/russia-repeats-offer-to-take-irans-enriched-uranium/</link>
+      <description>As the world waits for peace talks between the US and Iran to resume, Russia says it can help solve the problem of Iran's enriched uranium.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T14:27:48+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Commerce international : Maurice ouvre des discussions à Washington, DC, pour sécuriser l’après-AGOA</title>
+      <link>https://live.mega.mu/redirect/255917/</link>
+      <description>[L'Express (via mega.mu)] En mission aux États-Unis, le ministre Aadil Ameer Meea engage des discussions avec le *United States Trade Representative* (USTR) afin de garantir un accès durable au marché américain. Face à l’incertitude entourant l’avenir de l’*African Growth and Opportunity Act* (AGOA), Port-Louis explore la voie d’un accord bilatéral pour sécuriser ses exportations. Aadil Ameer Meea conduit cette semaine une délégation conjointe public-privé aux ÉtatsUnis pour engager des discussions ...
+
+[Defimedia] Maurice prépare l’après-AGOA. Des discussions bilatérales ont été engagées par Port-Louis avec Washington afin de sécuri</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T14:07:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>dd04ecd298fa</cluster_id>
+      <sources>L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://live.mega.mu/redirect/255917/
+https://defimedia.info/maurice-engage-des-discussions-avec-washington-pour-securiser-ses-exportations</urls>
+      <titles>Commerce international : Maurice ouvre des discussions à Washington, DC, pour sécuriser l’après-AGOA
+Maurice engage des discussions avec Washington pour sécuriser ses exportations</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Kenya fuel prices rise sharply despite reduction in tax due to Iran war</title>
+      <link>https://www.bbc.com/news/articles/cgrlll7qgdzo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Diesel prices rise by a record margin despite a reduction in value added tax.
+
+[Africanews] Kenya has announced a sharp rise in fuel prices, with diesel recording its biggest increase on record despite a recent tax cut.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T13:59:25+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>bceca37b0fda</cluster_id>
+      <sources>BBC News
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/cgrlll7qgdzo?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/04/15/kenya-fuel-prices-surge-amid-global-oil-crisis-and-domestic-controversy/</urls>
+      <titles>Kenya fuel prices rise sharply despite reduction in tax due to Iran war
+Kenya fuel prices surge amid global oil crisis and domestic controversy</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Belle-Rive : un terrain identifié pour la construction d’un hôpital vétérinaire</title>
+      <link>https://defimedia.info/belle-rive-un-terrain-identifie-pour-la-construction-dun-hopital-veterinaire</link>
+      <description>Trois lots de terrain, totalisant neuf arpents, ont été identifiés à Belle-Rive pour la mise en place d’un hôpital vétér</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T13:45:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>South Africa names apartheid-era politician as new ambassador to the US</title>
+      <link>https://www.bbc.com/news/articles/cwyjjjz8n8ko?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] Roelf Meyer played a key role as a negotiator during talks to end white-minority rule in South Africa.
+
+[Africanews] Meyer himself comes from the Afrikaans community, a factor analysts say could influence diplomatic engagement.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T13:37:12+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>4a6f32a5970e</cluster_id>
+      <sources>BBC News
+Africanews</sources>
+      <urls>https://www.bbc.com/news/articles/cwyjjjz8n8ko?at_medium=RSS&amp;at_campaign=rss
+http://www.africanews.com/2026/04/15/south-africa-appoints-roelf-meyer-as-us-ambassador-amid-strained-ties/</urls>
+      <titles>South Africa names apartheid-era politician as new ambassador to the US
+South Africa appoints Roelf Meyer as US ambassador amid strained ties</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Strikes hit Sloviansk and Sumy as Russia pounds Ukrainian cities</title>
+      <link>http://www.africanews.com/2026/04/15/strikes-hit-sloviansk-and-sumy-as-russia-pounds-ukrainian-cities/</link>
+      <description>Russia strikes Sloviansk with a FAB-1500 bomb, wrecking civilian buildings, while repeated drone attacks ignite major fires in Sumy’s industrial zone.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T13:04:32+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Accresco organise une masterclass inédite autour de la philosophie de Warren Buffett</title>
+      <link>https://www.lemauricien.com/actualites/economie/accresco-organise-une-masterclass-inedite-autour-de-la-philosophie-de-warren-buffett/704691/</link>
+      <description>[Le Mauricien] Accresco Investment Management annonce l’organisation d’une masterclass consacrée à la philosophie d’investissement du légendaire Warren Buffett, qui se tiendra le jeudi 28 mai 2026 au Hilton...
+
+[L'Express (via mega.mu)] Avec une masterclass consacrée à la philosophie d’investissement de Warren Buffett, animée par Robert P. Miles, l’un des spécialistes les plus reconnus du célèbre investisseur américain, la société de conseil Accresco Investment Management entend marquer les esprits. Investisseurs, professionnels de la finance et décideurs assisteront à cet évènement rare le 28 mai, au Hilton Mauritius Resort &amp; Spa. Intitulée *“The Genius of Warren Buffett: An In-Depth Study of the Invest ...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T12:54:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>ae193927811c</cluster_id>
+      <sources>Le Mauricien
+L'Express (via mega.mu)</sources>
+      <urls>https://www.lemauricien.com/actualites/economie/accresco-organise-une-masterclass-inedite-autour-de-la-philosophie-de-warren-buffett/704691/
+https://live.mega.mu/redirect/255920/</urls>
+      <titles>Accresco organise une masterclass inédite autour de la philosophie de Warren Buffett
+Formation : Une masterclass inédite sur Warren Buffett grâce à Accresco</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Burundian writer celebrates cultural heritage through children's tales</title>
+      <link>http://www.africanews.com/2026/04/15/burundian-writer-celebrates-cultural-heritage-through-childrens-tales/</link>
+      <description>Aïta Chancella Kanyange is a Burundian writer who celebrates her country’s traditions through her writing. The 33-year-old author writes stories for children aged 2 to 10.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T12:52:08+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Divulgation de l'identité d'une mineure dans les allégations visant Frédéric Pavaday : Me Goodary autorisé à partir après son interrogatoire</title>
+      <link>https://defimedia.info/divulgation-de-lidentite-dune-mineure-dans-les-allegations-visant-frederic-pavaday-me-goodary</link>
+      <description>L’avocat Anoup Goodary a été autorisé à quitter les locaux de la Central CID après environ deux heures d’interrogatoire.</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T12:51:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Agression mortelle à St-Félix : Un jeune homme de 22 ans tué</title>
+      <link>https://live.mega.mu/redirect/255794/</link>
+      <description>[L'Express (via mega.mu)] Un jeune homme de 22 ans a perdu la vie après avoir été violemment agressé à l’arme blanche, dans la nuit d’hier, mardi 14 avril, sur la plage publique de St-Félix. Les faits se sont produits peu après minuit. Grièvement blessée, la victime, originaire de Surinam, a été rapidement transportée à l’hôpital Jawaharlal Nehru, où elle a été admise en soins intensifs. Malgré les efforts du personnel soignant, la victime n’a pas survécu à ses blessures. Les circonstanc ...
+
+[L'Express (via mega.mu)] Dans la nuit du mardi 14 au mercredi 15 avril, une fête sur la plage publique de St-Félix a viré au drame. C’était une soirée organisée à l’occasion de Varusha Pirappu. Peu après la fête, une violente agression à l’arme blanche a eu lieu et a coûté la vie à un jeune mécanicien de 22 ans, Jaisen Sooreeah. Selon les premiers éléments de l’enquête, plusieurs personnes s’étaient rassemblées sur la plage pour célébrer le Nouvel An tamoul. Une équipe de vigiles étai ...
+
+[Defimedia] Fin tragique pour Jaisen Sooreea, âgé de 22 ans. Cet habitant de Surinam a été agressé à l’arme blanche hier, alors qu’i
+
+[Defimedia] Drame sur la plage de St-Félix mardi soir. Un habitant de Surinam, âgé de 22 ans, a été agressé à l’arme blanche.Grièvem
+
+[Defimedia] Un homme de 37 ans a été arrêté dans le cadre de l’enquête sur une agression mortelle à l’arme blanche survenue à la pla</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T12:31:00+00:00</cluster_time>
+      <cluster_size>5</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>fd7fcb8435a2</cluster_id>
+      <sources>L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://live.mega.mu/redirect/255794/
+https://live.mega.mu/redirect/255932/
+https://defimedia.info/agression-mortelle-de-jaisen-sooreea-st-felix-aster-laplaz-inn-vinn-danze-temoigne-un-proche
+https://defimedia.info/sur-la-plage-de-st-felix-un-jeune-de-22-ans-mortellement-agresse-larme-blanche
+https://defimedia.info/st-felix-jaisen-sooreea-22-ans-tue-sur-une-plage-publique</urls>
+      <titles>Agression mortelle à St-Félix : Un jeune homme de 22 ans tué
+St-Félix : Poignardé lors d’une fête, un mécanicien de 22 ans succombe à ses blessures
+Agression mortelle de Jaisen Sooreea à St-Félix : «Aster laplaz inn vinn danze», témoigne un proche
+Sur la plage de St-Félix : un jeune de 22 ans mortellement agressé à l’arme blanche
+St-Félix : Jaisen Sooreea, 22 ans, tué sur une plage publique</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Mauritian Rupee Falls 1.3% against US Dollar amid Geopolitical Strain</title>
+      <link>https://newsmoris.com/mauritian-rupee-falls-1-3-against-us-dollar-amid-geopolitical-strain/</link>
+      <description>The Mauritian rupee has depreciated by 1.3% against the US dollar in March, as escalating global uncertainties and Middle Eastern tensions begin to weigh on the local currency. Data for the first quarter of the year (January to March) confirms … The post Mauritian Rupee Falls 1.3% against US Dollar amid Geopolitical Strain appeared first on News Moris.</description>
+      <source>News Moris</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T12:11:50+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Disparition inquiétante à Tyack : une femme de 24 ans introuvable depuis le 11 avril</title>
+      <link>https://defimedia.info/disparition-inquietante-tyack-une-femme-de-24-ans-introuvable-depuis-le-11-avril</link>
+      <description>L’inquiétude grandit de jour en jour dans une famille de Tyack, dans le sud de l’île. Depuis le samedi 11 avril 2026, Se</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T12:04:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran details maritime losses from US, Israeli attacks in IMO report</title>
+      <link>http://www.africanews.com/2026/04/15/iran-details-maritime-losses-from-us-israeli-attacks-in-imo-report/</link>
+      <description>Iran has submitted a formal document to the International Maritime Organization’s Legal Committee, detailing what it calls severe maritime and civilian losses caused by US and Israeli military attacks.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T12:03:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Humanoid robots box and perform at Hong Kong AI and robotics fair</title>
+      <link>http://www.africanews.com/2026/04/15/humanoid-robots-box-and-perform-at-hong-kong-ai-and-robotics-fair/</link>
+      <description>Hong Kong’s InnoEX 2026 fair showcased boxing, musical and rescue robots, highlighting China’s push to integrate intelligent machines into daily life.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T11:43:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Pouvoir d’achat - Prix du pain et de l’électricité : économistes et syndicalistes alertent sur un impact significatif</title>
+      <link>https://defimedia.info/pouvoir-dachat-prix-du-pain-et-de-lelectricite-le-choc-de-trop-pour-les-menages</link>
+      <description>Entre dépréciation de la roupie et envolée des prix de l'énergie, le panier de la ménagère est sous pression. La hausse</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T11:38:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Un bateau de réfugiés rohingyas parti du Bangladesh chavire, 250 personnes portées disparues</title>
+      <link>https://defimedia.info/un-bateau-de-refugies-rohingyas-parti-du-bangladesh-chavire-250-personnes-portees-disparues</link>
+      <description>Quelque 250 personnes, dont des enfants, ont été portées disparues après le naufrage d'un bateau transportant des réfugi</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T11:33:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Shakeel Mohamed Assumes Role of Acting Prime Minister for 5-Day Term</title>
+      <link>https://newsmoris.com/shakeel-mohamed-assumes-role-of-acting-prime-minister-for-5-day-term/</link>
+      <description>Shakeel Mohamed has officially stepped into the role of Acting Prime Minister, pledging to lead the nation with “serenity and stability” over the next five days. The transition took effect Tuesday evening, 14 April, following the departure of Navin Ramgoolam, … The post Shakeel Mohamed Assumes Role of Acting Prime Minister for 5-Day Term appeared first on News Moris.</description>
+      <source>News Moris</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T11:28:49+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Abus sexuels sur mineurs : Il a fait au moins six victimes en dix ans</title>
+      <link>https://live.mega.mu/redirect/255818/</link>
+      <description>[L'Express (via mega.mu)] Percy Duval *(photo)*, un habitant de Tamarin, âgé de 57 ans et employé chez un concessionnaire automobile, a été arrêté lundi par la police de Rivière-Noire. Il fait face jusqu’ici à six accusations de *causing child to be sexually abused*. Provisoirement inculpé, il est détenu au poste de police de Rivière-Noire. Les plaintes ont été initialement déposées au Central Criminal Investigation Department, avant d’être transmises à la Brigade des mineurs. Selon les informations ...
+
+[Defimedia] Jean Richard Percy Duval a été arrêté depuis vendredi 10 avril par la police de Rivière-Noire, pour des délits présumés</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T11:28:00+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>97c22c665a9d</cluster_id>
+      <sources>L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://live.mega.mu/redirect/255818/
+https://defimedia.info/allegations-dabus-sexuels-sur-mineures-un-suspect-arrete</urls>
+      <titles>Abus sexuels sur mineurs : Il a fait au moins six victimes en dix ans
+Allégations d’abus sexuels sur mineures : un suspect arrêté</titles>
+      <languages>fr</languages>
+    </item>
+    <item>
+      <title>Trump's rift with Pope is playing out in public - it's costing him valuable support</title>
+      <link>https://www.bbc.com/news/articles/c070jxyjrmeo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Leading conservative Catholics tell the BBC why they back the American pontiff in his spat with Trump.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T11:25:09+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Deadly Israeli strikes hit Gaza’s Al‑Shati camp and Al‑Shifa Hospital</title>
+      <link>http://www.africanews.com/2026/04/15/deadly-israeli-strikes-hit-gazas-alshati-camp-and-alshifa-hospital/</link>
+      <description>Deadly Israeli strikes hit Gaza’s Al‑Shati camp and Al‑Shifa Hospital area despite a ceasefire, with at least 11 Palestinians killed in renewed violence.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T11:20:55+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>700 killed in Sudan drone strikes as humanitarian crisis deepens: UN</title>
+      <link>http://www.africanews.com/2026/04/15/700-killed-in-sudan-drone-strikes-as-humanitarian-crisis-deepens-un/</link>
+      <description>Nearly 700 civilians have been killed in drone strikes in Sudan since January, the United Nations said, underscoring the escalating toll of a civil war now entering its fourth year.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T11:05:46+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Taux de change : la Roupie perd 1,3 % face au Dollar</title>
+      <link>https://defimedia.info/taux-de-change-la-roupie-perd-13-face-au-dollar</link>
+      <description>Entre septembre 2025 et février 2026, le taux de change moyen de la roupie face au dollar a connu des fluctuations modér</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T11:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>After 3 years of conflict, gold is the driving force behind Sudan's civil war</title>
+      <link>http://www.africanews.com/2026/04/15/after-3-years-of-conflict-gold-is-the-driving-force-behind-sudans-civil-war/</link>
+      <description>On the third anniversary of the war in Sudan, Africanews spoke to journalist Roula Merhej about the economic factors driving the conflict.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T10:57:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>South Africa returns looted Zimbabwean remains and sacred artefact</title>
+      <link>http://www.africanews.com/2026/04/15/south-africa-returns-looted-zimbabwean-remains-and-sacred-artefact/</link>
+      <description>The handover ceremony took place Tuesday at a museum in Cape Town, where eight coffins draped in the Zimbabwean flag stood in solemn tribute. The remains, removed more than a century ago, were taken as so-called “scientific specimens” during colonial rule.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T10:50:10+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -96,12 +860,22 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>France’s Ekitike to miss World Cup after Liverpool Champions League injury</title>
-      <link>https://www.aljazeera.com/sports/2026/4/15/frances-ekitike-to-miss-world-cup-after-liverpool-champions-league-injury?traffic_source=rss</link>
-      <description>Liverpool striker Hugo Ekitike had to be stretchered off in the Champions League defeat by Paris Saint-Germain.</description>
-      <source>Al Jazeera</source>
+      <title>Haitian factory workers protest for higher wages as oil prices surge</title>
+      <link>http://www.africanews.com/2026/04/15/haitian-factory-workers-protest-for-higher-wages-as-oil-prices-surge/</link>
+      <description>Hundreds of factory workers protested Tuesday in Haiti’s capital, demanding a higher minimum wage as the conflict in Iran deepens and drives up oil prices across the globe.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T10:07:57+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Meghan to appear as guest judge on MasterChef Australia</title>
+      <link>https://www.bbc.com/news/articles/cx2eejdwpk5o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The Duke and Duchess of Sussex are on a four-day visit to Australia - their first since 2018.</description>
+      <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-04-15T10:07:09+00:00</cluster_time>
+      <cluster_time>2026-04-15T10:04:29+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -116,34 +890,14 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>More than 200 Iranian sailors stranded after US torpedo attack return home</title>
+      <title>Sri Lanka repatriates 238 Iranian sailors stranded after US torpedo attack</title>
       <link>https://www.bbc.com/news/articles/c9qdd318qd9o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The survivors of the US attack on Iranian vessel Iris Dena, which claimed the lives of 104 people, were among those repatriated.</description>
+      <description>The survivors of the US attack on Iranian vessel Iris Dena, which claimed the lives of 104 people, were among those sent home.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-15T10:00:41+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Africa names apartheid-era politician as new ambassador to the US</title>
-      <link>https://www.bbc.com/news/articles/cwyjjjz8n8ko?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Roelf Meyer played a key role as a negotiator during talks to end white-minority rule in South Africa.
-
-[Al Jazeera] Roelf Meyer will replace the South African ambassador who was expelled from the US by President Donald Trump in 2025.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T09:46:22+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>807b198ad73d</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/cwyjjjz8n8ko?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/news/2026/4/15/south-africa-appoints-former-apartheid-era-negotiator-as-us-ambassador?traffic_source=rss</urls>
-      <titles>South Africa names apartheid-era politician as new ambassador to the US
-South Africa appoints former apartheid-era negotiator as US ambassador</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Il sévissait à Rose-Hill et à Quatre-Bornes : un SDF, voleur de motos, coffré par la DCIU</title>
@@ -186,52 +940,12 @@ South Africa appoints former apartheid-era negotiator as US ambassador</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran citizen held in France over pro-Palestine comments returns home</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/iran-citizen-held-in-france-over-pro-palestine-comments-returns-state-tv?traffic_source=rss</link>
-      <description>Release of Mahdieh Esfandiari comes a week after Iran released two French citizens held on espionage charges.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T09:16:36+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Kenya fuel prices rise sharply despite reduction in tax due to Iran war</title>
-      <link>https://www.bbc.com/news/articles/cgrlll7qgdzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Diesel prices rise by a record margin despite a reduction in value added tax.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T09:06:38+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>North Korea boosting ability to manufacture nuclear arms, IAEA chief warns</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/north-korea-boosting-ability-to-make-nuclear-arms-iaea?traffic_source=rss</link>
-      <description>The nuclear watchdog's chief says there is a rapid increase in operations at North Korea's Yongbyon reactor.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T09:03:11+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Importation de drogue : Gro Derek et Bruno Casimir obtiennent le feu vert pour saisir le Conseil privé</title>
       <link>https://defimedia.info/importation-de-drogue-gro-derek-et-bruno-casimir-obtiennent-le-feu-vert-pour-saisir-le-conseil</link>
       <description>Condamnés pour trafic de drogue en 2022 puis déboutés en appel en 2024, Rudolf Dereck Jean Jacques dit « Gro Derek » et</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-15T09:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Palestinian leader Barghouti endures ‘violent’ assaults in Israeli prisons</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/palestinian-leader-barghouti-endures-violent-assaults-in-israeli-prisons?traffic_source=rss</link>
-      <description>Recent reports of prison brutality follow an attack last year that resulted in broken ribs and head injuries.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T08:42:11+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -256,24 +970,14 @@ https://live.mega.mu/redirect/255806/</urls>
       <languages>fr</languages>
     </item>
     <item>
-      <title>Haiti’s Culture Ministry fires workers over citadel stampede that killed 25</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/haitis-culture-ministry-fires-workers-over-citadel-stampede-that-killed-25?traffic_source=rss</link>
-      <description>[Al Jazeera] At least nine people have been arrested following the stampede, including police officers and ministry employees.
-
-[Africanews] Nine people have been arrested in connection with a deadly stampede in Haiti, including five police officers and two state officials responsible for overseeing the UNESCO listed citadel where the incident took place.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
+      <title>State officials among 9 people arrested over deadly stampede at Haiti citadel</title>
+      <link>http://www.africanews.com/2026/04/15/state-officials-among-9-people-arrested-over-deadly-stampede-at-haiti-citadel/</link>
+      <description>Nine people have been arrested in connection with a deadly stampede in Haiti, including five police officers and two state officials responsible for overseeing the UNESCO listed citadel where the incident took place.</description>
+      <source>Africanews</source>
+      <category>regional</category>
       <cluster_time>2026-04-15T08:38:07+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>08ae10a5230c</cluster_id>
-      <sources>Al Jazeera
-Africanews</sources>
-      <urls>https://www.aljazeera.com/news/2026/4/15/haitis-culture-ministry-fires-workers-over-citadel-stampede-that-killed-25?traffic_source=rss
-http://www.africanews.com/2026/04/15/state-officials-among-9-people-arrested-over-deadly-stampede-at-haiti-citadel/</urls>
-      <titles>Haiti’s Culture Ministry fires workers over citadel stampede that killed 25
-State officials among 9 people arrested over deadly stampede at Haiti citadel</titles>
-      <languages>en</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Kanye West postpones France gig following UK ban</title>
@@ -296,16 +1000,6 @@ State officials among 9 people arrested over deadly stampede at Haiti citadel</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>‘Food is unifying’: How Lebanon’s migrants are feeding the war-displaced</title>
-      <link>https://www.aljazeera.com/features/2026/4/15/food-is-unifying-how-lebanons-migrants-are-feeding-the-war-displaced?traffic_source=rss</link>
-      <description>Often overlooked in Lebanon's society, the migrant community is filling the gaps of the state by feeding their own.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T08:21:12+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Malgré le coup d’arrêt sur le deal avec les Britanniques - Chagos : Maurice garde l’espoir d’un accord</title>
       <link>https://defimedia.info/malgre-le-coup-darret-sur-le-deal-avec-les-britanniques-chagos-maurice-garde-lespoir-dun-accord</link>
       <description>Malgré un coup d’arrêt dans les négociations avec Londres sur les Chagos, le gouvernement mauricien maintient ses effort</description>
@@ -314,25 +1008,6 @@ State officials among 9 people arrested over deadly stampede at Haiti citadel</t
       <cluster_time>2026-04-15T08:20:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>JD Vance defends backing 'great guy' Orbán's campaign after landslide defeat</title>
-      <link>https://www.bbc.com/news/articles/c8dll93j7d5o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Hungary's leader was a &quot;great guy&quot; who did a &quot;very good job&quot;, the US vice-president said, but he was sure he could work with Péter Magyar.
-
-[BBC News] The man who ended Viktor Orbán's 16 years of continuous rule, Péter Magyar, is calling for a speedy transfer of power.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T08:05:57+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>96a8e48b2ecd</cluster_id>
-      <sources>BBC News</sources>
-      <urls>https://www.bbc.com/news/articles/c8dll93j7d5o?at_medium=RSS&amp;at_campaign=rss
-https://www.bbc.com/news/articles/cx2ddd0xyl5o?at_medium=RSS&amp;at_campaign=rss</urls>
-      <titles>JD Vance defends backing 'great guy' Orbán's campaign after landslide defeat
-Magyar meets Hungarian president as Trump says next PM 'a good man'</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Vol d’un butin estimé à Rs 1,3 million : le serveur ciblé par une enquête de la FCC toujours introuvable</title>
@@ -351,6 +1026,256 @@ Magyar meets Hungarian president as Trump says next PM 'a good man'</titles>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-15T08:01:27+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Vidéo virale : Un chanteur mauricien au cœur d’une vive polémique</title>
+      <link>https://live.mega.mu/redirect/255968/</link>
+      <description>Une vidéo choquante circule massivement sur les réseaux sociaux depuis ce mercredi 15 avril, suscitant une vague d’indignation et d’interrogations à travers le pays. Les images montrent un chanteur bien connu de la scène musicale mauricienne en train de distribuer à une foule ce qui semble être de la drogue, tout en recevant de l’argent en échange. Rapidement devenue virale, la séquence a provoqué de nombreuses réactions en ligne, oscillant entre colère, incompréhension et a ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Région : Grande-Rosalie : petite de taille, mais grande d’histoire et de nature</title>
+      <link>https://live.mega.mu/redirect/255971/</link>
+      <description>À quelques kilomètres de Port-Louis, le décor change progressivement. La ville laisse place à des routes plus étroites, bordées de verdure, jusqu’à atteindre Grande-Rosalie, nichée dans le district de Pamplemousses. Ici, le silence domine. Avec ses quelque 75 habitants, ce petit village offre un cadre de vie paisible, presque hors du temps, à seulement 4,7 km de Pamplemousses et à une douzaine de kilomètres de la capitale. En parcourant le village à pied, on découvre un enviro ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Affaire Pavaday : Anoup Goodary convoqué au CCID</title>
+      <link>https://live.mega.mu/redirect/255977/</link>
+      <description>L’avocat Anoup Goodary a été convoqué ce mercredi 15 avril au Central Criminal Investigation Department (CCID) de Port-Louis, *under warning*, dans le cadre de l’affaire Pavaday. Cette convocation fait suite à la publication, sur sa page Facebook, d’un document officiel contenant des informations personnelles relatives à une mineure, notamment son nom et son âge. Cette divulgation a suscité une vague d’indignation au sein de plusieurs organisations non gouvernementales, ainsi q ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Journée mondiale : Scrabble : un jeu amusant pour découvrir les mots</title>
+      <link>https://live.mega.mu/redirect/255980/</link>
+      <description>Le scrabble est une activité ludique, qui permet de jouer avec les lettres et de créer des mots. La journée qui lui est consacrée, chaque année, est le 13 avril. Accessible aux enfants comme aux adultes, il offre une manière agréable de développer ses connaissances, tout en passant un bon moment. Au début de la partie, chaque joueur reçoit plusieurs lettres tirées au hasard. À tour de rôle, chacun forme un mot et le place sur une grille composée de cases spéciales. Chaque lett ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Affaire Pack &amp; Blister : Nouvelle audition du Dr Joomaye, l’enquête de la FCC s’élargit</title>
+      <link>https://live.mega.mu/redirect/255983/</link>
+      <description>L’enquête menée par la Financial Crimes Commission (FCC) autour de l’acquisition controversée de respirateurs, dans le cadre du programme Pack &amp; Blister, continue de progresser avec une nouvelle phase d’auditions attendue dans les prochains jours. Au centre des investigations, l’ancien conseiller au Bureau de l’ex-Premier ministre, le Dr Zouberr Joomaye *(photo)*, sera de nouveau sollicité par les enquêteurs après une première audition tenue under warning qui a déjà duré plus ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Journée mondiale de l’art : Des talents cachés révélés au Château de Mon Plaisir</title>
+      <link>https://live.mega.mu/redirect/255956/</link>
+      <description>À l’occasion de la Journée mondiale de l’art, célébrée ce mercredi 15 avril, le Château de Mon Plaisir, au Jardin botanique Sir Seewoosagur Ramgoolam à Pamplemousses, s’est transformé en un véritable espace de création et de partage. Depuis 11 heures, un atelier de peinture en direct a réuni artistes internationaux et enfants issus de 12 écoles spécialisées (SEN). Malgré une météo capricieuse marquée par des averses, l’enthousiasme est resté intact. À l’abri, art ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Questions à… : Jean-Frédéric Bégué : «Ma mission est double : protéger les plus vulnérables et éduquer la nouvelle génération»</title>
+      <link>https://live.mega.mu/redirect/255959/</link>
+      <description>Jean-Frédéric Bégué a 20 ans et une ambition chevillée au corps : faire bouger les lignes à Rodrigues. Ancien élève du collège Ananias André (Le Chou) et lauréat d’une bourse d’études, il s’apprête à entamer des études de droit à l’université de Maurice en août prochain. Mais son parcours ne s’arrête pas aux bancs de l’école. Véritable pilier de Dis-Moi, il a porté la voix des jeunes des Seychelles jusqu’à La Réunion. Aujourd’hui, celui qui est devenu a ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>«Nou Lar Nou Lamizik» : Dans l’univers du LCPL Felicity Choir</title>
+      <link>https://live.mega.mu/redirect/255962/</link>
+      <description>Ce soir, *«Nou Lar Nou Lamizik»* reçoit la chorale du collège Lorette de Port-Louis, le LCPL Felicity Choir. Une immersion dans son fonctionnement, sa mise en place, les valeurs transmises aux élèves, ainsi que leur récente prestation lors du concert «Amen Mwa Pli Lwin» de Laurent Rivet. ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Développement international : ERVI, un nouveau dispositif pour soutenir l’export des entreprises locales</title>
+      <link>https://live.mega.mu/redirect/255965/</link>
+      <description>L’Économie mauricienne cherche à se projeter au-delà de ses frontières. Les entreprises explorent de nouveaux relais de croissance, notamment en Afrique. L’Association of Mauritian Manufacturers (AMM) lance dans cette optique «En Route Vers l’International» (ERVI). Une initiative menée en partenariat avec le MCB Group, EY-Parthenon et le groupe IBL Ltd, avec le soutien des autorités publiques. Selon Samuel Maujean, *Deputy Chief Operating Officer* de l’AMM, le programme vise ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Droits humains à Rodrigues : Une jeunesse engagée au cœur du changement</title>
+      <link>https://live.mega.mu/redirect/255944/</link>
+      <description>**Dis-Moi : nouveau souffle à Petit-Gabriel** D’un petit bureau partagé à Port-Mathurin vers un quartier général dédié à Petit-Gabriel, l’antenne rodriguaise de l’ONG Dis-Moi change de dimension. Entre visites en milieu carcéral et sensibilisation dans les collèges, l’organisation s’ancre plus que jamais dans la réalité sociale de l’île. C’est une page qui se tourne et une autre, bien plus vaste, qui s’écrit. Depuis sa création en 2017, Dis-Moi Rodrigues a fait ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Énergie : Après la bagasse, le pari du bambou</title>
+      <link>https://live.mega.mu/redirect/255947/</link>
+      <description>Sen Carooppunnen est un entrepreneur dans le secteur de l'énergie. Depuis 2013, il porte un projet de centrale biomasse à Maurice avec des partenaires indiens et une conviction inébranlable que la solution à la dépendance énergétique de l'île se trouve au-delà des panneaux solaires et des éoliennes, soit dans une plante cultivée en laboratoire, le Beema bambou. Avec Sen Carooppunnen, tout commence par un calcul : *«Une année compte 8 760 heures. Pour qu'un réseau électrique soi ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Secteur bancaire : ABC Banking joue global avec la carte UnionPay Diamond</title>
+      <link>https://live.mega.mu/redirect/255950/</link>
+      <description>Le secteur bancaire mauricien poursuit sa montée en sophistication. ABC Banking a officiellement lancé sa carte de débit UnionPay Diamond, un produit haut de gamme destiné à une clientèle internationale et mobile, lors d’un événement organisé à The Atrium à Telfair, Moka. Au-delà d’un simple lancement commercial, cette initiative s’inscrit dans une stratégie plus large de différenciation dans les segments du *private banking* et de l’*international banking*, où la conc ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>PQ : Ranjiv Woochit : «L’augmentation du recours aux caméras de surveillance est envisagée»</title>
+      <link>https://live.mega.mu/redirect/255953/</link>
+      <description>Rubna Daureeawo a interrogé le ministre des Collectivités locales, Ranjiv Woochit, sur les déversements illégaux dans les drains, rivières et canaux et leur contribution aux risques d’inondation. Le ministre a indiqué que 525 cas de déversements illégaux ont été recensés au cours des deux dernières années. Sur ce total, 14 ont donné lieu à des amendes, 96 à des mises en demeure et trois font encore l’objet d’enquêtes. Il a souligné que les poursuites restent difficiles ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Questions à… : Avnish Rogbeer : «Nous voulons aider le client à transformer un capital financier en stratégie patrimoniale de long terme»</title>
+      <link>https://live.mega.mu/redirect/255935/</link>
+      <description>Les tensions géopolitiques, la volatilité des marchés et les soubresauts sur l’énergie, les devises et les matières premières redessinent les règles du jeu pour les investisseurs. Avnish Rogbeer décrypte avec nous les arbitrages nécessaires. 🔴 **Les tensions géopolitiques mondiales bouleversent les marchés. Comment ajustez-vous concrètement les portefeuilles de vos clients dans ce climat d’instabilité et quels choix avez-vous faits récemment ?** Notre discipline reste ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>PQ : Jyoti Jeetun : «La route indienne n’est pas en train de mourir»</title>
+      <link>https://live.mega.mu/redirect/255938/</link>
+      <description>Khushal Lobine, député de la circonscription La Caverne–Phoenix (n° 15), a interrogé la ministre des Services financiers et du développement économique, Jyoti Jeetun, sur les répercussions de l’arrêt rendu le 15 janvier par la Cour suprême de l’Inde dans l’affaire *Tiger Global*, remettant en cause la protection du *grandfathering* accordée aux investissements réalisés avant le 1er avril 2017 dans le cadre de la convention de non-double imposition entre l’Inde et Maurice. ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Indicateurs : La croissance ralentit, l’investissement recule, l’inflation va gonfler</title>
+      <link>https://live.mega.mu/redirect/255941/</link>
+      <description>L’économie du pays a perdu de son élan au dernier trimestre de 2025, selon les analyses de CareEdge Ratings Africa, publiées le 9 avril. La croissance du Produit Intérieur Brut (PIB) s’est ralentie à 2,7 % en glissement annuel, contre 3,3 % au trimestre précédent, traduisant un essoufflement progressif de l’activité. Ce ralentissement, selon le rapport, s’explique principalement par une demande intérieure – consommation à l’intérieur du pays – plus faible, une baisse ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>PQ : Retard de l’ouverture au public de la Tour des Hollandais</title>
+      <link>https://live.mega.mu/redirect/255908/</link>
+      <description>Ashley Ramdass, député de la circonscription Vieux-Grand-Port–Rose-Belle, a interrogé Mahen Gondeea sur le retard de l’ouverture au public de la Tour des Hollandais, à Vieux-Grand-Port. Le ministre Gondeea a indiqué que ce bâtiment patrimonial, restauré en octobre 2020 par le *National Heritage Fund*, est demeuré fermé depuis en raison d’actes de vandalisme et d’une absence de gestion adéquate sous le précédent gouvernement. Des évaluations techniques récentes ont mis ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Télétravail : Écoénergétique, mais chronophage sans cadre adapté</title>
+      <link>https://live.mega.mu/redirect/255911/</link>
+      <description>Sur fond de tensions au Moyen-Orient, de pression sur l’énergie et de hausse des prix du carburant, le télétravail s’impose progressivement comme une option étudiée par les autorités. Déjà largement adopté depuis la pandémie, ce mode d’organisation est aujourd’hui mis en avant pour limiter la consommation d’électricité dans les bureaux. Mais cet objectif à la fois économique et environnemental pose question. Les économies réalisées par les entreprises ne finissent-elle ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>PQ : Reza Uteem : «Je ne comprends pas cette obsession à vouloir être fonctionnaire»</title>
+      <link>https://live.mega.mu/redirect/255914/</link>
+      <description>Répondant à Rubna Daureeawo, députée de la circonscription Rivière-des-Anguilles–Souillac (n° 13), sur les mesures ciblées visant à réduire un chômage plus élevé chez les jeunes femmes, le ministre du Travail et des relations industrielles, Reza Uteem, a reconnu que certains secteurs restent davantage orientés vers les hommes, malgré un nombre plus important de femmes qualifiées, comme en témoignent les résultats du *Higher School Certificate*, du *School Certificate* et du ni ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Questions à… : Bose Soonarane : «La transplantation rénale n’est plus un rêve inaccessible pour les Mauriciens»</title>
+      <link>https://live.mega.mu/redirect/255923/</link>
+      <description>Le 10 avril, Navin Ramgoolam a inauguré la nouvelle unité de transplantation rénale à l’hôpital Jawaharlal Nehru (JNH). S’il a insisté sur la notion de dignité humaine dans son discours, pour le secrétaire de la Renal Disease Patients’ Association, Bose Soonarane, cette infrastructure, longtemps attendue, représente un véritable tournant pour les patients dialysés, en quête d’une nouvelle vie. 🔵 **Avec l’inauguration de cette nouvelle unité de transplantation rénale ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Terre-Rouge : Deux gilets pare-balles disparaissent après une mission de la SMF</title>
+      <link>https://live.mega.mu/redirect/255893/</link>
+      <description>Une enquête a été ouverte par la police de Terre-Rouge après la disparition de deux gilets pare-balles à l’issue d’une mission de la Special Mobile Force (SMF), le dimanche 12 avril, lors d’un déplacement entre Balaclava et Vacoas. Selon les informations consignées dans une entrée du journal de bord (OB 1810/2026), un sergent de la SMF a signalé le 13 avril en soirée la disparition de deux gilets pare-balles noirs, possiblement égarés aux alentours de 21 heures, alors que l’ ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Dossier : Vie chère et revenus insuffisants : le stress permanent</title>
+      <link>https://live.mega.mu/redirect/255896/</link>
+      <description>Il y a les chiffres. Et puis il y a la vie. Les chiffres indiquent qu’en mars, l’inflation a légèrement augmenté. L’indice des prix à la consommation est passé de 109,5 à 109,6, soit une hausse de 0,1 %. Une variation minime, presque imperceptible dans les statistiques. Mais dans les cuisines, aux caisses des supermarchés, dans les bus du matin ou face aux factures empilées, personne ne raisonne en pourcentages. On parle de riz plus cher, d’huile qui augmente, de légumes qu’on ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Rivière-du-Rempart : Un certificat d’incendie suspect au cœur d’une enquête</title>
+      <link>https://live.mega.mu/redirect/255899/</link>
+      <description>Une affaire présumée d’utilisation de faux document a été signalée à la police de Rivière-du-Rempart, après la découverte d’irrégularités sur un certificat d’incendie émis au nom d’un établissement situé à Roche-Noires. À l’origine de cette affaire, un officier de la *Mauritius Fire and Rescue Service* (MFRS), âgé de 46 ans, contacté le 17 novembre 2025 par une responsable du ministère du Travail. Cette dernière souhaitait obtenir confirmation d’une éventuell ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Transport public et sécurité routière : Nouvelles mesures pour la ligne Piton–Rivière-du-Rempart</title>
+      <link>https://live.mega.mu/redirect/255902/</link>
+      <description>Le ministre des Transports terrestres, Osman Mahomed, a présidé une réunion à Port-Louis, lundi. Il était entouré des ministres de l’Enseignement supérieur et de la Fonction publique, Kaviraj Sukon et Raj Pentiah, ainsi que du député Sandeep Prayag. L’objectif était de trouver des solutions aux problèmes de sécurité routière et aux lacunes des transports publics dans la circonscription de Piton–Rivière-du-Rempart (n° 7). Des représentants du Traffic Management and Road Saf ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>PMQT : Audit 2024-2025 : le PM annonce des mesures correctives et un nouveau mécanisme de contrôle</title>
+      <link>https://live.mega.mu/redirect/255905/</link>
+      <description>Interpellé par le député Roshan Jhummun sur le rapport du directeur de l’Audit pour l’exercice financier 2024-2025, Navin Ramgoolam a affirmé que le gouvernement a rapidement enclenché une série d’actions pour corriger les dysfonctionnements relevés et renforcer la gestion des finances publiques. Dès la réception du rapport, le ministère des Finances a procédé à un examen approfondi des observations formulées. Dans cette optique, une circulaire émise le 20 mars a appelé les ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -415,6 +1340,16 @@ Magyar meets Hungarian president as Trump says next PM 'a good man'</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Michael Sik Yuen : &quot; le prix de l'essence peut augmenter à n'importe quel moment</title>
+      <link>https://live.mega.mu/redirect/255926/</link>
+      <description>Face aux tensions internationales, Maurice maintient ses prix des carburants grâce à un mécanisme de stabilisation encore excédentaire. Mais ce répit pourrait être de courte durée, avertit le ministre du Commerce, Michael Sik Yuen.</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Dossier Chagos : Londres reste confiant malgré le blocage parlementaire</title>
       <link>https://live.mega.mu/redirect/255866/</link>
       <description>La mise en pause du *Diego Garcia Military Base and British Indian Ocean Territory Bill* n’a pas changé la ligne du gouvernement britannique. Le lundi 13 avril, devant la *House of Commons*, le ministre d’État au *Foreign, Commonwealth and Development Office*, Stephen Doughty, a réaffirmé que le traité sur Diego Garcia demeure, selon Londres, *«le meilleur moyen»* de garantir à long terme les opérations de la base militaire. Face aux députés, Stephen Doughty a d’emblée reco ...</description>
@@ -428,6 +1363,16 @@ Magyar meets Hungarian president as Trump says next PM 'a good man'</titles>
       <title>PMQTs : Contrôle aux frontières : 259 saisies de drogue et trois policiers arrêtés</title>
       <link>https://live.mega.mu/redirect/255869/</link>
       <description>Au Parlement, hier, le député Farhad Aumeer a interpellé le Premier ministre (PM), Navin Ramgoolam, sur l’efficacité du contrôle aux frontières, notamment dans les ports et aéroports, ainsi que sur l’intégrité des officiers affectés à ces postes stratégiques. Dans sa réponse, le PM, s’appuyant sur les informations du commissaire de police, a indiqué que 108 saisies de drogue ont été effectuées au port et 151 à l’aéroport entre le 1er janvier 2023 et le 10 avril 202 ...</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Sainte-Croix : un policier agressé et dépouillé, un suspect issu des forces de l’ordre…</title>
+      <link>https://live.mega.mu/redirect/255929/</link>
+      <description>Un policier a été agressé et dépouillé dans une affaire impliquant notamment un autre membre des forces de l’ordre. Selon les informations recueillies, les faits remontent au dimanche 12 avril 2026, aux alentours de 08h08.</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -485,26 +1430,6 @@ Magyar meets Hungarian president as Trump says next PM 'a good man'</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Agression mortelle à St-Félix : Un jeune homme de 22 ans tué</title>
-      <link>https://live.mega.mu/redirect/255794/</link>
-      <description>[L'Express (via mega.mu)] Un jeune homme de 22 ans a perdu la vie après avoir été violemment agressé à l’arme blanche, dans la nuit d’hier, mardi 14 avril, sur la plage publique de St-Félix. Les faits se sont produits peu après minuit. Grièvement blessée, la victime, originaire de Surinam, a été rapidement transportée à l’hôpital Jawaharlal Nehru, où elle a été admise en soins intensifs. Malgré les efforts du personnel soignant, la victime n’a pas survécu à ses blessures. Les circonstanc ...
-
-[Defimedia] Drame sur la plage de St-Félix mardi soir. Un habitant de Surinam, âgé de 22 ans, a été agressé à l’arme blanche.Grièvem</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>fd29fbe05959</cluster_id>
-      <sources>L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://live.mega.mu/redirect/255794/
-https://defimedia.info/sur-la-plage-de-st-felix-un-jeune-de-22-ans-mortellement-agresse-larme-blanche</urls>
-      <titles>Agression mortelle à St-Félix : Un jeune homme de 22 ans tué
-Sur la plage de St-Félix : un jeune de 22 ans mortellement agressé à l’arme blanche</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
       <title>Saisie à l’aéroport : Un Nigérian intercepté avec 61 boulettes de drogue</title>
       <link>https://live.mega.mu/redirect/255797/</link>
       <description>Un Nigérian a été intercepté par les officiers de la *Customs Anti-Narcotics Section* à l’aéroport, le 11 avril, dans le cadre d’une opération de contrôle. L’homme, identifié comme Ibeh Udoka Kenneth, âgé de 47 ans, voyageait à bord du vol KA 274. Lors de son interrogatoire, après avoir purgé les boulettes de drogue, il a déclaré en transporter 61. Selon ses propres aveux, celles-ci comprenaient 51 boulettes de cocaïne et dix boulettes de cannabis. Les autorités ont � ...</description>
@@ -557,16 +1482,6 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
       <title>Ambiance au Parlement : Patrick Assirvaden : «Joe pou gagn so bann ti papie taler»</title>
       <link>https://live.mega.mu/redirect/255815/</link>
       <description>La présence de Paul Bérenger, Joanna Bérenger et Chetan Baboolall était particulièrement attendue, hier, à l’Assemblée nationale. Après leur démission du Mouvement militant mauricien (MMM), lundi, les trois élus siègent désormais comme membres de l’opposition, une situation qui suscitait curiosité et tension quant à l’accueil que leur réserveraient leurs anciens collègues. Dès 11 h 15, plusieurs ministres et députés avaient déjà pris place dans l’Hémicycle. L’ ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Abus sexuels sur mineurs : Il a fait au moins six victimes en dix ans</title>
-      <link>https://live.mega.mu/redirect/255818/</link>
-      <description>Percy Duval *(photo)*, un habitant de Tamarin, âgé de 57 ans et employé chez un concessionnaire automobile, a été arrêté lundi par la police de Rivière-Noire. Il fait face jusqu’ici à six accusations de *causing child to be sexually abused*. Provisoirement inculpé, il est détenu au poste de police de Rivière-Noire. Les plaintes ont été initialement déposées au Central Criminal Investigation Department, avant d’être transmises à la Brigade des mineurs. Selon les informations ...</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -644,32 +1559,12 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran war: What is happening on day 47 of the US-Iran conflict?</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/iran-war-what-is-happening-on-day-47-of-the-us-iran-conflict?traffic_source=rss</link>
-      <description>US President Donald Trump has signalled a possible second round of talks with Iran in the coming days.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T07:41:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Marise Figaro, 83 ans, meurt noyée : des retrouvailles familiales qui s’achèvent par une tragédie</title>
       <link>https://defimedia.info/marise-figaro-83-ans-meurt-noyee-des-retrouvailles-familiales-qui-sachevent-par-une-tragedie</link>
       <description>« Je voulais profiter de ma maman pour ces vacances », lâche Benny. L’insouciance des vacances a viré au drame à Tam</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-15T07:40:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Pope’s visit raises hopes for peace in cameroon’s anglophone region</title>
-      <link>http://www.africanews.com/2026/04/15/popes-visit-raises-hopes-for-peace-in-cameroons-anglophone-region/</link>
-      <description>The upcoming visit of Pope Leo XIV to Cameroon’s conflict-hit anglophone region is raising cautious hopes for peace, as residents and leaders call for an end to years of violence.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-15T07:38:14+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -724,26 +1619,6 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Trump turns on Meloni, saying she lacks ‘courage’ over US-Israel war on Iran</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/trump-turns-on-meloni-saying-she-lacks-courage-over-us-israel-war-on-iran?traffic_source=rss</link>
-      <description>The US president says he is 'shocked at her', delivering a blunt public rebuke to one of his closest European allies.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T07:05:19+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Uzbek chess grandmaster Sindarov sets up world title match with Gukesh</title>
-      <link>https://www.aljazeera.com/sports/2026/4/15/uzbek-chess-grandmaster-sindarov-sets-up-world-title-match-with-gukesh?traffic_source=rss</link>
-      <description>Javokhir Sindarov wins the Candidates Tournament with ⁠a round ⁠to spare and will face India's Gukesh next.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T07:04:44+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Ramgoolam : «Pena post DPM. Pa oblize ena»</title>
       <link>https://defimedia.info/ramgoolam-pena-post-dpm-pa-oblize-ena</link>
       <description>Depuis la démission de Paul Bérenger le 20 mars, le poste de Deputy Prime Minister est vacant, relançant un débat instit</description>
@@ -784,62 +1659,12 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
       <source_count>1</source_count>
     </item>
     <item>
-      <title>China’s Xi meets Russian FM Lavrov, calls relations with Moscow ‘precious’</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/chinas-xi-meets-russian-fm-lavrov-calls-relations-with-moscow-precious?traffic_source=rss</link>
-      <description>Russian Foreign Minister Sergey Lavrov met with top Chinese leadership to discuss the Iran war and other concerns.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T06:37:14+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran says $270bn war loss must be compensated, as fresh talks with US loom</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/iran-says-270bn-war-loss-must-be-compensated-as-fresh-talks-with-us-loom?traffic_source=rss</link>
-      <description>Iran demands compensation for war damages caused by US and Israeli attacks on critical infrastructure.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T06:28:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>England beat Spain 1-0 to lead Women’s World Cup 2027 qualifying group</title>
-      <link>https://www.aljazeera.com/sports/2026/4/15/england-beat-spain-1-0-to-lead-womens-world-cup-2027-qualifying-group?traffic_source=rss</link>
-      <description>Hemp scores to give the Euro champions a crucial win as Keira Walsh leads in the absence of recovering Leah Williamson.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T06:21:40+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Mauritius Weather Station Issues 5 Safety Rules with Thunderstorms to Approach</title>
       <link>https://newsmoris.com/mauritius-weather-station-issues-5-safety-rules-with-thunderstorms-to-approach/</link>
       <description>Stormy conditions and localized flooding could affect the Central Plateau and Western districts this Wednesday, 15 April, according to the latest bulletin from the Vacoas Meteorological Station. Forecasters have warned of cloud developments expected later on, bringing showers that may … The post Mauritius Weather Station Issues 5 Safety Rules with Thunderstorms to Approach appeared first on News Moris.</description>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-15T06:15:31+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Avdija scores 41 as Trail Blazers upset Suns in NBA West play-in</title>
-      <link>https://www.aljazeera.com/sports/2026/4/15/avdija-scores-41-as-trail-blazers-upset-suns-in-nba-west-play-in?traffic_source=rss</link>
-      <description>Deni Avdija sends Portland into the NBA playoffs after a shock road win against Phoenix in the 7th vs 8th play-in tie.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T05:56:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>700 killed in sudan drone strikes as humanitarian crisis deepens: UN</title>
-      <link>http://www.africanews.com/2026/04/15/700-killed-in-sudan-drone-strikes-as-humanitarian-crisis-deepens-un/</link>
-      <description>Nearly 700 civilians have been killed in drone strikes in Sudan since January, the United Nations said, underscoring the escalating toll of a civil war now entering its fourth year.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-15T05:53:23+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -854,55 +1679,24 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Mont-Choisy : le corps d’un Malgache repêché dans le lagon</title>
-      <link>https://defimedia.info/mont-choisy-le-corps-dun-malgache-repeche-dans-le-lagon</link>
-      <description>Porté manquant depuis hier soir à Mont-Choisy, un ressortissant malgache a été retrouvé mort ce matin. Son corps a été r</description>
-      <source>Defimedia</source>
+      <title>Dr Joomaye Faces FCC Warning Over Rs 77.9 Million Pack &amp; Blister Affair</title>
+      <link>https://newsmoris.com/dr-joomaye-faces-fcc-warning-over-rs-77-9-million-pack-blister-affair/</link>
+      <description>The Financial Crimes Commission (FCC) has intensified its investigation into the “Pack &amp; Blister” affair, summoning Dr Zouberr Joomaye for a lengthy interrogation “under warning” on Monday, 13 April. Dr Joomaye, a former advisor to the Prime Minister’s … The post Dr Joomaye Faces FCC Warning Over Rs 77.9 Million Pack &amp; Blister Affair appeared first on News Moris.</description>
+      <source>News Moris</source>
       <category>local</category>
-      <cluster_time>2026-04-15T05:24:00+00:00</cluster_time>
+      <cluster_time>2026-04-15T05:21:01+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Affaire Pack &amp; Blister : le Dr Zouberr Joomaye entendu « under warning » par la FCC</title>
-      <link>https://defimedia.info/affaire-pack-blister-le-dr-zouberr-joomaye-entendu-under-warning-par-la-fcc</link>
-      <description>[Defimedia] L’enquête de la Financial Crimes Commission (FCC) dans l’affaire Pack &amp; Blister a été relancée cette semaine. Le Dr Zoub
-
-[News Moris] The Financial Crimes Commission (FCC) has intensified its investigation into the “Pack &amp; Blister” affair, summoning Dr Zouberr Joomaye for a lengthy interrogation “under warning” on Monday, 13 April. Dr Joomaye, a former advisor to the Prime Minister’s … The post Dr Joomaye Faces FCC Warning Over Rs 77.9 Million Pack &amp; Blister Affair appeared first on News Moris.</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T05:21:01+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>107dd18a963d</cluster_id>
-      <sources>Defimedia
-News Moris</sources>
-      <urls>https://defimedia.info/affaire-pack-blister-le-dr-zouberr-joomaye-entendu-under-warning-par-la-fcc
-https://newsmoris.com/dr-joomaye-faces-fcc-warning-over-rs-77-9-million-pack-blister-affair/</urls>
-      <titles>Affaire Pack &amp; Blister : le Dr Zouberr Joomaye entendu « under warning » par la FCC
-Dr Joomaye Faces FCC Warning Over Rs 77.9 Million Pack &amp; Blister Affair</titles>
-      <languages>fr
-en</languages>
-    </item>
-    <item>
-      <title>US blockade of Iran ports irresponsible and dangerous, China says</title>
-      <link>https://www.bbc.com/news/articles/c78lleelxj4o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] China, the biggest buyer of Iranian oil, says the US naval blockade undermines an &quot;already fragile ceasefire&quot;.
-
-[Al Jazeera] US Central Command say more than 10,000 armed forces members, as well as warships and planes, are involved in blockade.</description>
+      <title>Australia's richest person must share part of her mining fortunes, court rules</title>
+      <link>https://www.bbc.com/news/articles/cq5990nqjg2o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>The long-running legal dispute is over a lucrative iron ore project in the top west corner of Australia.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-04-15T05:17:44+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>ba4ba6648122</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/c78lleelxj4o?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/economy/2026/4/15/us-military-says-blockade-of-iran-ports-completely-halts-economic-trade?traffic_source=rss</urls>
-      <titles>US blockade of Iran ports irresponsible and dangerous, China says
-US military says blockade of Iran ports ‘completely’ halts economic trade</titles>
-      <languages>en</languages>
+      <cluster_time>2026-04-15T04:40:30+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>South Korea jails American YouTuber for public nuisance</title>
@@ -915,531 +1709,12 @@ US military says blockade of Iran ports ‘completely’ halts economic trade</t
       <source_count>1</source_count>
     </item>
     <item>
-      <title>US forces kill 4 people in latest strike on vessels in eastern Pacific</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/us-forces-kill-4-people-in-latest-strike-on-vessels-in-eastern-pacific?traffic_source=rss</link>
-      <description>The killings mark the fourth US deadly strike in the past four days on vessels in the eastern Pacific Ocean.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T02:54:08+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Trafic d’êtres humains : comment mettre fin à ce crime silencieux aux lourdes conséquences?</title>
-      <link>https://defimedia.info/trafic-detres-humains-comment-mettre-fin-ce-crime-silencieux-aux-lourdes-consequences</link>
-      <description>La traite des êtres humains est un véritable fléau. Après les plaintes de deux Mauriciennes se disant victimes d’un rése</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T02:45:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Météo : des averses accompagnées d’orages isolés attendues ce mercredi</title>
-      <link>https://defimedia.info/meteo-des-averses-accompagnees-dorages-isoles-attendues-ce-mercredi</link>
-      <description>Des développements nuageux sont attendus dans l’après-midi à l’ouest et sur le plateau central, avec des averses localis</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T02:16:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Israeli attacks kill 11, including two children, in day of strikes on Gaza</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/israeli-attacks-kill-11-including-two-children-in-day-of-strikes-on-gaza?traffic_source=rss</link>
-      <description>A three-year-old and a 14-year-old were among those killed in Israel's latest strikes on northern Gaza.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T01:16:20+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>[Info Soirée] : « SI LI TI ANKOR MORIS, LI TI POU ANKOR LOR LILI »</title>
-      <link>https://defimedia.info/info-soiree-si-li-ti-ankor-moris-li-ti-pou-ankor-lor-lili</link>
-      <description>Au Sommaire de ce Mardi 14 Avril 2026 :Les services de santé de l’état pointé du doigt… Erreur de diagnostic ou négligen</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T00:20:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Iran war live: Trump says war ‘close to over’ as Hormuz blockade continues</title>
-      <link>https://www.aljazeera.com/news/liveblog/2026/4/15/iran-war-live-trump-hints-at-second-round-of-talks-israel-pounds-lebanon?traffic_source=rss</link>
-      <description>US president says second round of talks could be held in Pakistan as naval blockade of Iranian ports continues.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T00:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>New search engine reveals if ancestors were in Nazi party</title>
       <link>https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Christian Rainer told the BBC he found his grandfather within seconds using the online tool, which also helped clear other members of his family.</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-14T23:13:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Man wins €1m Picasso painting in €100 charity raffle</title>
-      <link>https://www.bbc.com/news/articles/cq8ww7d72wyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>&quot;How do I know this isn't a prank?&quot; the winner asked when he answered a video call from Christie's auction house in Paris.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T21:40:24+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Canada was once a dream destination for Indian students. Is that changing?</title>
-      <link>https://www.bbc.com/news/articles/cj37y8np54eo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Tighter rules, rising costs and visa risks are forcing Indian students to rethink studying in Canada.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T21:22:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Israel and Lebanon hold first direct talks since 1993</title>
-      <link>https://www.bbc.com/news/articles/cp8ddydl18vo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>A US statement said the two sides had agreed to launch direct negotiations, at a time and place to be determined.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T20:42:48+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Another woman accuses Swalwell of rape, saying he drugged her in 2018</title>
-      <link>https://www.bbc.com/news/articles/c78rr9r4e5po?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Lonna Drewes accused Swalwell of drugging her drink before assaulting her in a hotel room.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T20:30:57+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Clean-up, preparations underway in Angola ahead of Papal visit</title>
-      <link>http://www.africanews.com/2026/04/14/clean-up-preparations-underway-in-angola-ahead-of-papal-visit/</link>
-      <description>After two days in Algeria and then four in Cameroon, Pope Leo XIV will continue his African tour with a stop in Angola from April 18 to 20.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T20:26:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Burundi court partially acquits jailed journalist after two years</title>
-      <link>http://www.africanews.com/2026/04/14/burundi-court-partially-acquits-jailed-journalist-after-two-years/</link>
-      <description>A Burundian court partially acquitted journalist Sandra Muhoza on Monday after nearly two years behind bars.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T20:25:43+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>IMF Warns of Mounting Economic Pressures for Sub-Saharan Africa Amid Global Instability</title>
-      <link>http://www.africanews.com/2026/04/14/imf-warns-of-mounting-economic-pressures-for-sub-saharan-africa-amid-global-instability/</link>
-      <description>The latest World Economic Outlook from the International Monetary Fund paints a sobering picture for Sub-Saharan Africa, as escalating conflict in the Middle East threatens to derail an already fragile global recovery.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T20:17:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>'Bit of pain' worth long-term security from Iran, Bessent tells BBC</title>
-      <link>https://www.bbc.com/news/articles/c4g66p2q075o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>US Treasury Secretary said a &quot;small bit of economic pain&quot; was worth it to eliminate the threat of Iranian strikes on Western capitals.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T19:47:53+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Morocco: Court upholds sentences for Senegalese AFCON attendees</title>
-      <link>http://www.africanews.com/2026/04/14/morocco-court-upholds-sentences-for-senegalese-afcon-attendees/</link>
-      <description>A Moroccan court has upheld the prison sentences of 18 Senegalese football fans charged over a pitch invasion during the 2025 Africa Cup of Nations.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T19:13:43+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Twin suicide attacks rocked Algeria Monday during Pope's visit</title>
-      <link>http://www.africanews.com/2026/04/14/twin-suicide-attacks-rocked-algeria-monday-during-popes-visit/</link>
-      <description>Tensions are rising in Algeria after reports of a suspected double suicide attack shook the city of Blida, just southwest of the capital, Algiers.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T17:50:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Retrial over death of Argentina legend Maradona begins</title>
-      <link>https://www.bbc.com/news/articles/cj377mm7zzvo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] The first trial - which saw members of Maradona's medical team accused of poor care - collapsed after a judge let cameras into the court.
-
-[Africanews] The retrial of Diego Maradona's medical team opens in Buenos Aires on Tuesday, one year after a scandal involving a judge on the case caused the first trial to collapse.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T17:44:44+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>b6ed78ef1496</cluster_id>
-      <sources>BBC News
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/cj377mm7zzvo?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/04/14/retrial-over-maradonas-death-opens-in-buenos-aires/</urls>
-      <titles>Retrial over death of Argentina legend Maradona begins
-Retrial over Maradona's death opens in Buenos Aires</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>Dawood Rawat dénonce des publications frauduleuses utilisant son identité</title>
-      <link>https://defimedia.info/dawood-rawat-denonce-des-publications-frauduleuses-utilisant-son-identite</link>
-      <description>L’ancien Chairman Emeritus du groupe BAI appelle à la vigilance. Dawood Rawat dit avoir pris connaissance, avec vive pré</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T17:33:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Sudan War: UN officials sound alarm on humanitarian crisis</title>
-      <link>http://www.africanews.com/2026/04/14/sudan-war-un-officials-sound-alarm-on-humanitarian-crisis/</link>
-      <description>As the conflict in Sudan approaches the three year mark, the humanitarian conditions on the ground remain dire. United Nations officials are once again sounding the alarm, at a time when much of the world's attention is focused on the war in the Middle East.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T17:24:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Déplacement du PM : Shakeel Mohamed assure l’intérim du gouvernement pour cinq jours</title>
-      <link>https://www.lemauricien.com/actualites/politique/deplacement-du-pm-shakeel-mohamed-assure-linterim-du-gouvernement-pour-cinq-jours/704606/</link>
-      <description>En déplacement officiel à l’étranger, le Premier ministre, le Dr Navin Ramgoolam, sera absent du pays durant cinq jours. L’intérim à la tête du gouvernement est assuré dès ce soir par Shak...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T17:14:28+04:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Why and how is US blockading Iranian ports in Strait of Hormuz?</title>
-      <link>https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Donald Trump says that the US is blockading the Strait of Hormuz. What does this mean in practice?</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T17:10:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Cameroon separatists to pause fighting ahead of Pope visit</title>
-      <link>https://www.bbc.com/news/articles/c1d993116q6o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The separatists say their decison reflects responsibility, restraint and respect for human dignity.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T16:39:48+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Investiture du président Denis Sassou Nguesso : les détails de la visite officielle du Dr Ramgoolam en République du Congo</title>
-      <link>https://defimedia.info/investiture-du-president-denis-sassou-nguesso-les-details-de-la-visite-officielle-du-dr-ramgoolam</link>
-      <description>Le Premier ministre, le Dr Navin Ramgoolam, quitte le pays ce soir pour se rendre en République du Congo, où il particip</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T16:25:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Partner of US influencer who died in Zanzibar speaking to police as witness</title>
-      <link>https://www.bbc.com/news/articles/cx299rxk0ngo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The police said Ashly Robinson, known online as Ashlee Jenae, had died after attempting to take her own life.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T16:22:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Ghana names Carlos Queiroz as coach ahead of FIFA World Cup</title>
-      <link>http://www.africanews.com/2026/04/14/ghana-names-carlos-queiroz-as-coach-ahead-of-fifa-world-cup/</link>
-      <description>Ghana has appointed Carlos Queiroz as head coach of its men’s national football team, the Ghana Football Association (GFA) said on Monday (13 April).</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T16:16:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Tamarin : Marise Figaro, 83 ans, meurt noyée, son fils dénonce la lenteur des secours</title>
-      <link>https://defimedia.info/tamarin-marise-figaro-83-ans-meurt-noyee-son-fils-denonce-la-lenteur-des-secours</link>
-      <description>[Defimedia] Une sortie en famille qui vire au drame. Lundi, à Tamarin, Marise Figaro, 83 ans, a perdu la vie après s’être noyée dans
-
-[Defimedia] Fin tragique pour Marise Figaro. Cette habitante de Vacoas, âgée de 83 ans, s’est noyée dans le lagon de Tamarin lundi.S</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T15:33:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>7e0b427a9e37</cluster_id>
-      <sources>Defimedia</sources>
-      <urls>https://defimedia.info/tamarin-marise-figaro-83-ans-meurt-noyee-son-fils-denonce-la-lenteur-des-secours
-https://defimedia.info/drame-tamarin-marise-figaro-83-ans-meurt-noyee</urls>
-      <titles>Tamarin : Marise Figaro, 83 ans, meurt noyée, son fils dénonce la lenteur des secours
-Drame à Tamarin : Marise Figaro, 83 ans, meurt noyée</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
-      <title>Uganda kindergarten killings trial begins as defendant pleads not guilty</title>
-      <link>http://www.africanews.com/2026/04/14/uganda-kindergarten-killings-trial-begins-as-defendant-pleads-not-guilty/</link>
-      <description>A case that has shocked Uganda is now taking center stage in court. In Kampala, the trial of Christopher Okello Onyum has officially begun. He stands accused of killing four young children in a crime that has gripped the nation.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T15:08:15+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>DRC: Dozens gather for 'standing parliament' in Kinshasa</title>
-      <link>http://www.africanews.com/2026/04/14/drc-dozens-gather-for-standing-parliament-in-kinshasa/</link>
-      <description>In the capital of the Democratic Republic of Congo, dozens gathered at what is known as a 'standing parliament'. Some believe the country's president is using the gatherings to press for constitutional change to allow him a third term in the role.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T14:58:02+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Poste vacant de DPM : une nomination aurait dû intervenir « dans les heures suivant la démission », selon Parvez Dookhy</title>
-      <link>https://defimedia.info/poste-vacant-de-dpm-une-nomination-aurait-du-intervenir-dans-les-heures-suivant-la-demission-selon</link>
-      <description>Le poste de Premier ministre adjoint reste vacant depuis la démission de Paul Bérenger, le 20 mars. L’avocat et constitu</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T14:47:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>French woman, 86, held by ICE after moving to US to reunite with long-lost love</title>
-      <link>https://www.bbc.com/news/articles/cd0rre4d9k0o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The son of pensioner Marie-Thérèse says he worries for his mother's frail health, while she is detained in a Louisiana ICE centre.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T14:43:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Colombia approves culling plan as Escobar’s Hippos become environmental threat</title>
-      <link>http://www.africanews.com/2026/04/14/colombia-approves-culling-plan-as-escobars-hippos-become-environmental-threat/</link>
-      <description>In Colombia, authorities have approved a plan to cull dozens of hippos descended from animals once brought in by drug lord Pablo Escobar in the 1980s, as their rapidly growing population continues to threaten communities and native wildlife.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T14:24:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Wadagni claims landslide victory in Benin election amid calls for unity and reform</title>
-      <link>http://www.africanews.com/2026/04/14/wadagni-claims-landslide-victory-in-benin-election-amid-calls-for-unity-and-reform/</link>
-      <description>In Benin, presidential frontrunner Romuald Wadagni has swept to victory, securing 94 percent of the vote according to provisional results released by the electoral commission. The preliminary tally was published overnight, with final official results still pending.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T14:22:18+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Africa returns looted human remains and sacred carving to Zimbabwe</title>
-      <link>http://www.africanews.com/2026/04/14/south-africa-returns-looted-human-remains-and-sacred-carving-to-zimbabwe/</link>
-      <description>South Africa on Tuesday (14 April) handed back to Zimbabwe ancestral human remains and a centuries-old stone carving of its sacred national emblem, the Zimbabwe bird.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T14:17:09+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nigeria slashes import duties to fight rising cost of living</title>
-      <link>http://www.africanews.com/2026/04/14/nigeria-slashes-import-duties-to-fight-rising-cost-of-living/</link>
-      <description>Nigeria will cut import duties on a range of goods from July 1, in a move aimed at easing living costs and supporting businesses.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T14:15:36+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Impact socioéconomique de la réforme de la pension : «Aucune étude n’a été faite. C’est triste, car le Budget arrive», déplore Joanna Bérenger</title>
-      <link>https://defimedia.info/impact-socioeconomique-de-la-reforme-de-la-pension-aucune-etude-na-ete-faite-cest-triste-car-le</link>
-      <description>« Aucune étude n’a été faite. C’est triste, car le Budget arrive », déplore Joanna Bérenger. Dans une déclaration vocale</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T14:13:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Hamas rejects Gaza disarmament plan, Palestinian official says</title>
-      <link>https://www.bbc.com/news/articles/cn4vvxxg8lgo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The official tells the BBC that the armed group will not move forward with talks until Israel fully complies with its commitments.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T14:01:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>OPEC: Middle East oil production plummets due to Iran war</title>
-      <link>http://www.africanews.com/2026/04/14/opec-middle-east-oil-production-plummets-due-to-iran-war/</link>
-      <description>Oil production in the Middle East has plummeted since the start of the Iran war, according to a new OPEC report.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T13:36:35+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Cameroon's Catholics fear papal visit could pay political dividends for President Biya</title>
-      <link>http://www.africanews.com/2026/04/14/cameroons-catholics-fear-papal-visit-will-pay-political-dividends-for-president-biya/</link>
-      <description>As rumours emerged of a papal visit, some of Cameroon's Catholics voiced fears the trip would give longtime President Paul Biya a chance to polish his image six months on from deadly protests following his contested re-election.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T13:34:10+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Allégations de maltraitance à la Twaha Academy : nouvelle plainte contre Azhar Peerbocus</title>
-      <link>https://defimedia.info/allegations-de-maltraitance-la-twaha-academy-nouvelle-plainte-contre-azhar-peerbocus</link>
-      <description>Une nouvelle plainte pour maltraitance a été déposée contre l’ancien directeur de la Twaha Academy, le maulana Azhar Pee</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T13:24:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Sixteen injured after ex-student opens fire at high school in Turkey</title>
-      <link>https://www.bbc.com/news/articles/c2k33xk24nyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Students and teachers are among those who were injured in the attack in the country's south-east.
-
-[Africanews] Turkey was rocked by a school shooting on Tuesday 14 April 2026 when an 18 year old former student opened fire at Ahmet Koyuncu Vocational and Technical Anatolian High School in Siverek, in Şanlıurfa province.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T13:23:50+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>0f2163316c05</cluster_id>
-      <sources>BBC News
-Africanews</sources>
-      <urls>https://www.bbc.com/news/articles/c2k33xk24nyo?at_medium=RSS&amp;at_campaign=rss
-http://www.africanews.com/2026/04/14/sixteen-injured-in-rare-turkey-school-shooting-in-siverek-district/</urls>
-      <titles>Sixteen injured after ex-student opens fire at high school in Turkey
-Sixteen injured in rare Turkey school shooting in Siverek district</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>CCTV à la prison de Beau-Bassin : un contrat attribué à Contractplus Ltd sous le feu des critiques</title>
-      <link>https://defimedia.info/cctv-la-prison-de-beau-bassin-un-contrat-attribue-contractplus-ltd-sous-le-feu-des-critiques</link>
-      <description>Un contrat de Rs 13,3 millions pour l’installation de caméras CCTV à la prison de Beau-Bassin suscite des interrogations</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T13:20:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>CAF chief open to corruption probe as Senegal-Morocco row deepens</title>
-      <link>http://www.africanews.com/2026/04/14/caf-chief-open-to-corruption-probe-as-senegal-morocco-row-deepens/</link>
-      <description>Patrice Motsepe says he welcomes any independent inquiry into governance at the African football body, as tensions rise over the decision to strip Senegal of the 2025 Africa Cup of Nations and award it to Morocco.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T13:15:53+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Répercussions économiques de la guerre au Moyen-Orient : «Le pays passe avant tout», dit le PM</title>
-      <link>https://defimedia.info/repercussions-economiques-de-la-guerre-au-moyen-orient-le-pays-passe-avant-tout-dit-le-pm</link>
-      <description>« Tou zafer in vin pli cher. Li andeor nou kontrol. Nou konsian ki nou pei bizin pass avan tou ». C’est ce qu’a déclaré</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T13:13:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Verdict du Privy Council : un ex-cadre de la SBM recevra Rs 88 millions d’indemnités</title>
-      <link>https://defimedia.info/verdict-du-privy-council-un-ex-cadre-de-la-sbm-recevra-rs-88-millions-dindemnites</link>
-      <description>La SBM Bank (Mauritius) Ltd est déboutée au plus haut niveau. Ce lundi 13 avril 2026, le Judicial Committee du Privy Cou</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T12:30:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>India-Mauritius Partnership Delivers Advanced Hub for Kidney Transplants Surgery</title>
-      <link>https://newsmoris.com/india-mauritius-partnership-delivers-advanced-hub-for-kidney-transplants-surgery/</link>
-      <description>Prime Minister Navin Ramgoolam and Indian External Affairs Minister Subrahmanyan Jaishankar have officially inaugurated a new Renal Transplant Unit at the Jawaharlal Nehru Hospital, marking a significant leap in the nation’s healthcare modernisation. The Prime Minister declared the facility a … The post India-Mauritius Partnership Delivers Advanced Hub for Kidney Transplants Surgery appeared first on News Moris.</description>
-      <source>News Moris</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T12:11:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>BTI 2026 Country Report - Transformation économique : Maurice classé 21e sur 137 pays</title>
-      <link>https://defimedia.info/bti-2026-country-report-transformation-economique-maurice-classe-21e-sur-137-pays</link>
-      <description>Si la Bertelsmann Stiftung confirme, dans son rapport BTI 2026, la solidité relative de l’économie mauricienne, elle poi</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T12:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>No Risk of Gas Shortage as Mauritius Secures 51-Day Supply</title>
-      <link>https://newsmoris.com/no-risk-of-gas-shortage-as-mauritius-secures-51-day-supply/</link>
-      <description>The Minister of Commerce, Michael Sik Yuen, has moved to quell public anxiety over energy supplies, confirming that Mauritius currently holds a “comfortable” stock of 14,044 metric tonnes of liquefied petroleum gas (LPG). Speaking on Monday, 13 April, the Minister … The post No Risk of Gas Shortage as Mauritius Secures 51-Day Supply appeared first on News Moris.</description>
-      <source>News Moris</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T11:53:53+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Senegal issues first conviction under tougher homosexuality law</title>
-      <link>http://www.africanews.com/2026/04/14/senegal-issues-first-conviction-under-tougher-homosexuality-law/</link>
-      <description>Senegal has issued the first conviction under a new law increasing the punishment for homosexuality.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T11:26:58+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>U.S.-Iran tensions persist as diplomacy struggles to keep pace</title>
-      <link>http://www.africanews.com/2026/04/14/us-iran-tensions-persist-as-diplomacy-struggles-to-keep-pace/</link>
-      <description>Efforts to organize a second round of talks between the United States and Iran are underway, but escalating threats around the Strait of Hormuz continue to endanger a fragile ceasefire and rattle global markets.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T11:21:18+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
