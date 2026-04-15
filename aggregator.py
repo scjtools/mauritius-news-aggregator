@@ -17,8 +17,6 @@ warnings.filterwarnings("ignore", category=XMLParsedAsHTMLWarning)
 
 from cluster import deduplicate_items, cluster_and_collapse
 
-logging.basicConfig(level=logging.INFO, format="%(message)s")
-
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 }
@@ -1160,7 +1158,7 @@ def main():
     print("Scraping pages...")
     for source in sources.get("scrapers", []):
         scrape_type = source.get("type")
-        elif scrape_type == "semdex":
+        if scrape_type == "semdex":
             items = scrape_semdex(source)
         elif scrape_type == "megamu":
             items = scrape_megamu(source)
