@@ -4,64 +4,234 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Tue, 14 Apr 2026 20:19:30 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Apr 2026 02:51:48 +0000</lastBuildDate>
     <item>
-      <title>Brent Crude Oil price – 14 April 2026</title>
+      <title>Brent Crude Oil price – 15 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 95.24 per barrel</description>
+      <description>Brent Crude Oil: USD 94.53 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-14T20:17:05.192579+00:00</cluster_time>
+      <cluster_time>2026-04-15T02:48:51.820066+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 14 April 2026</title>
+      <title>Bitcoin price – 15 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 74,410.05 (▲ +5.69% from last)</description>
+      <description>Bitcoin (BTC): USD 74,283.64 (▲ +5.51% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-14T20:17:04.983929+00:00</cluster_time>
+      <cluster_time>2026-04-15T02:48:51.507101+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 14 April 2026</title>
+      <title>Gold price – 15 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,843.90 (▲ +10.36% from last)</description>
+      <description>Gold (XAU): USD 4,827.40 (▲ +9.98% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-14T20:17:04.882145+00:00</cluster_time>
+      <cluster_time>2026-04-15T02:48:50.637115+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 14 April 2026</title>
+      <title>MUR exchange rates – 15 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
-      <description>MUR/USD 46.46 | MUR/EUR 54.74 (▼ 0.03 from last) (▲ 1.05 from last)</description>
+      <description>MUR/USD 46.46 | MUR/EUR 54.76 (▼ 0.03 from last) (▲ 1.07 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-14T20:17:04.671096+00:00</cluster_time>
+      <cluster_time>2026-04-15T02:48:49.083927+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 14 April 2026</title>
+      <title>SEMDEX – 15 April 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2256.07 (▲ 32.87 pts, +1.48% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-14T20:17:02.380040+00:00</cluster_time>
+      <cluster_time>2026-04-15T02:48:46.656634+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Another woman accuses Swalwell of drugging and raping her in 2018</title>
+      <title>Trafic d’êtres humains : comment mettre fin à ce crime silencieux aux lourdes conséquences?</title>
+      <link>https://defimedia.info/trafic-detres-humains-comment-mettre-fin-ce-crime-silencieux-aux-lourdes-consequences</link>
+      <description>La traite des êtres humains est un véritable fléau. Après les plaintes de deux Mauriciennes se disant victimes d’un rése</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T02:45:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Météo : des averses accompagnées d’orages isolés attendues ce mercredi</title>
+      <link>https://defimedia.info/meteo-des-averses-accompagnees-dorages-isoles-attendues-ce-mercredi</link>
+      <description>Des développements nuageux sont attendus dans l’après-midi à l’ouest et sur le plateau central, avec des averses localis</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T02:16:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Israeli attacks kill 11, including two children, in day of strikes on Gaza</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/israeli-attacks-kill-11-including-two-children-in-day-of-strikes-on-gaza?traffic_source=rss</link>
+      <description>A three-year-old and a 14-year-old were among those killed in Israel's latest strikes on northern Gaza.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T01:16:20+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>[Info Soirée] : « SI LI TI ANKOR MORIS, LI TI POU ANKOR LOR LILI »</title>
+      <link>https://defimedia.info/info-soiree-si-li-ti-ankor-moris-li-ti-pou-ankor-lor-lili</link>
+      <description>Au Sommaire de ce Mardi 14 Avril 2026 :Les services de santé de l’état pointé du doigt… Erreur de diagnostic ou négligen</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T00:20:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Police officers among seven arrested over deadly Haiti stampede</title>
+      <link>https://www.bbc.com/news/articles/cy811062y5yo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] An investigation is under way into what led to the deaths of 25 people at Laferrière Citadel on Saturday.
+
+[Al Jazeera] At least nine people have been arrested following the stampede, including police officers and ministry employees.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T00:11:37+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>accbecd4d83f</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/cy811062y5yo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/news/2026/4/15/haitis-culture-ministry-fires-workers-over-citadel-stampede-that-killed-25?traffic_source=rss</urls>
+      <titles>Police officers among seven arrested over deadly Haiti stampede
+Haiti’s Culture Ministry fires workers over citadel stampede that killed 25</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Iran war live: Trump says war ‘close to over’, Israel pounds Lebanon</title>
+      <link>https://www.aljazeera.com/news/liveblog/2026/4/15/iran-war-live-trump-hints-at-second-round-of-talks-israel-pounds-lebanon?traffic_source=rss</link>
+      <description>US president says second round of talks could be held in Pakistan as blockade of Iranian ports continues.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T00:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Delcy Rodriguez calls for a ‘Venezuela free of sanctions’ amid US detente</title>
+      <link>https://www.aljazeera.com/news/2026/4/14/delcy-rodriguez-calls-for-a-venezuela-free-of-sanctions-amid-us-detente?traffic_source=rss</link>
+      <description>Venezuelan president says limited sanctions relief has not been enough to stabilise the country's turbulent economy.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T23:47:20+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Israel and Lebanon hold rare talks in Washington, DC, amid Iran war</title>
+      <link>https://www.aljazeera.com/news/2026/4/14/israel-and-lebanon-hold-rare-talks-in-washington-dc-amid-iran-war?traffic_source=rss</link>
+      <description>The meeting marks the first direct talks between the two sides, though US officials say more time is needed.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T23:08:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Fifth woman accuses former US lawmaker Eric Swalwell of sexual misconduct</title>
+      <link>https://www.aljazeera.com/news/2026/4/14/fifth-woman-accuses-former-us-lawmaker-eric-swalwell-of-sexual-misconduct?traffic_source=rss</link>
+      <description>The Democratic representative has resigned his seat in Congress over multiple sexual misconduct allegations.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T21:49:03+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Atletico edge Barcelona on aggregate to reach Champions League semifinal</title>
+      <link>https://www.aljazeera.com/sports/2026/4/14/atletico-edge-barcelona-on-aggregate-to-reach-champions-league-semifinal?traffic_source=rss</link>
+      <description>Atletico Madrid advance 3-2 on aggregate, despite a 2-1 home defeat by Barcelona, in a thrilling encounter.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T21:30:24+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Canada faces calls to rescind planned cuts to refugee healthcare scheme</title>
+      <link>https://www.aljazeera.com/news/2026/4/14/canada-faces-calls-to-rescind-planned-cuts-to-refugee-healthcare-scheme?traffic_source=rss</link>
+      <description>Health workers and rights advocates say co-payments, set to take effect on May 1, amount to 'de facto denial of care'.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T21:02:23+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Another woman accuses Swalwell of rape, saying he drugged her in 2018</title>
       <link>https://www.bbc.com/news/articles/c78rr9r4e5po?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Lonna Drewes accused Swalwell of drugging her drink before assaulting her in a hotel room.</description>
       <source>BBC News</source>
       <category>global</category>
-      <cluster_time>2026-04-14T19:54:52+00:00</cluster_time>
+      <cluster_time>2026-04-14T20:30:57+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Clean-up, preparations underway in Angola ahead of Papal visit</title>
+      <link>http://www.africanews.com/2026/04/14/clean-up-preparations-underway-in-angola-ahead-of-papal-visit/</link>
+      <description>After two days in Algeria and then four in Cameroon, Pope Leo XIV will continue his African tour with a stop in Angola from April 18 to 20.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-14T20:26:35+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Burundi court partially acquits jailed journalist after two years</title>
+      <link>http://www.africanews.com/2026/04/14/burundi-court-partially-acquits-jailed-journalist-after-two-years/</link>
+      <description>A Burundian court partially acquitted journalist Sandra Muhoza on Monday after nearly two years behind bars.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-14T20:25:43+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Hundreds missing after Rohingya boat capsizes in Andaman Sea: UN</title>
+      <link>https://www.aljazeera.com/news/2026/4/14/hundreds-missing-after-rohingya-boat-capsizes-in-andaman-sea-un?traffic_source=rss</link>
+      <description>About 250 people, including children, are feared missing, the United Nations said.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T20:24:45+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>US appeals court blocks contempt case over Trump deportation flights</title>
+      <link>https://www.aljazeera.com/news/2026/4/14/us-appeals-court-blocks-contempt-case-over-trump-deportation-flights?traffic_source=rss</link>
+      <description>The Trump administration had faced a contempt probe over its decision to proceed with two deportation flights in 2025.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-14T20:21:21+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>IMF Warns of Mounting Economic Pressures for Sub-Saharan Africa Amid Global Instability</title>
+      <link>http://www.africanews.com/2026/04/14/imf-warns-of-mounting-economic-pressures-for-sub-saharan-africa-amid-global-instability/</link>
+      <description>The latest World Economic Outlook from the International Monetary Fund paints a sobering picture for Sub-Saharan Africa, as escalating conflict in the Middle East threatens to derail an already fragile global recovery.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-14T20:17:46+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -82,16 +252,6 @@
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-04-14T19:31:20+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>IMF Warns of Mounting Economic Pressures for Sub-Saharan Africa Amid Global Instability</title>
-      <link>http://www.africanews.com/2026/04/14/imf-warns-of-mounting-economic-pressures-for-sub-saharan-africa-amid-global-instability/</link>
-      <description>The latest World Economic Outlook from the International Monetary Fund paints a sobering picture for Sub-Saharan Africa, as escalating conflict in the Middle East threatens to derail an already fragile global recovery.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T19:23:14+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -146,72 +306,12 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Aid groups bidding to boost relief shipments into Iran</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/aid-groups-bidding-to-boost-relief-shipments-into-iran?traffic_source=rss</link>
-      <description>Supply of humanitarian aid for people displaced by the conflict has been complicated by air and sea route closures.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T18:52:13+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Over-sold and under-delivered: Israel’s Netanyahu faces ceasefire backlash</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/over-sold-and-under-delivered-israels-netanyahu-faces-ceasefire-backlash?traffic_source=rss</link>
-      <description>Polls show Israeli public frustration over a showdown that did not fully defeat Iran.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T18:39:47+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Drones, Iran war escalating horror as Sudan war enters fourth year</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/drones-iran-war-escalating-horror-as-sudan-war-enters-fourth-year?traffic_source=rss</link>
-      <description>UN says hundreds killed by drone strikes over past three months, as medical charity reports two more deaths in Darfur.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T18:27:45+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Carney vows focus on affordability after winning Canada’s special election</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/carney-vows-focus-on-affordability-after-winning-canadas-special-election?traffic_source=rss</link>
-      <description>The Liberals now hold 174 seats in the 343-seat House of Commons of Canada after winning three key by-elections.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T18:16:07+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>No ships ‘make it past US blockade’ in Hormuz strait in first day: Pentagon</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/no-ships-make-it-past-us-blockade-in-hormuz-strait-in-first-day-pentagon?traffic_source=rss</link>
-      <description>CENTCOM contradicts reports on ships breaking blockade as Trump says US-Iran talks could resume in the next two days.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T17:53:14+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Twin suicide attacks rocked Algeria Monday during Pope's visit</title>
       <link>http://www.africanews.com/2026/04/14/twin-suicide-attacks-rocked-algeria-monday-during-popes-visit/</link>
       <description>Tensions are rising in Algeria after reports of a suspected double suicide attack shook the city of Blida, just southwest of the capital, Algiers.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-14T17:50:23+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Somalia reports hit on al-Shabab with ‘international support’</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/somalia-reports-hit-on-al-shabab-with-international-support?traffic_source=rss</link>
-      <description>Army killed the fighters with the help of an international partner that carried out air strikes.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T17:45:36+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -236,16 +336,6 @@ Retrial over Maradona's death opens in Buenos Aires</titles>
       <languages>en</languages>
     </item>
     <item>
-      <title>Clean-up, preparations underway in Angola ahead of Papal visit</title>
-      <link>http://www.africanews.com/2026/04/14/clean-up-preparations-underway-in-angola-ahead-of-papal-visit/</link>
-      <description>After two days in Algeria and then four in Cameroon, Pope Leo XIV will continue his African tour with a stop in Angola from April 18 to 20.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T17:44:15+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Dawood Rawat dénonce des publications frauduleuses utilisant son identité</title>
       <link>https://defimedia.info/dawood-rawat-denonce-des-publications-frauduleuses-utilisant-son-identite</link>
       <description>L’ancien Chairman Emeritus du groupe BAI appelle à la vigilance. Dawood Rawat dit avoir pris connaissance, avec vive pré</description>
@@ -266,42 +356,12 @@ Retrial over Maradona's death opens in Buenos Aires</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>It is time for a ceasefire in Sudan and a new way forward</title>
-      <link>https://www.aljazeera.com/opinions/2026/4/14/it-is-time-for-a-ceasefire-in-sudan-and-a-new-way-forward?traffic_source=rss</link>
-      <description>The SAF and the RSF cannot shape the future of Sudan alone. All political actors and the Sudanese people must join.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T17:16:03+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Why and how is US blockading Iranian ports in Strait of Hormuz?</title>
       <link>https://www.bbc.com/news/articles/c5yv6xr6me3o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Donald Trump says that the US is blockading the Strait of Hormuz. What does this mean in practice?</description>
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-14T17:10:52+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Lula asks US to send ex-intelligence chief to Brazil after ICE arrest</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/lula-asks-us-to-send-ex-intelligence-chief-to-brazil-after-ice-arrest?traffic_source=rss</link>
-      <description>Brazil's president says he expects Alexandre Ramagem to be returned to Brazil to serve prison sentence there.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T16:58:07+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>After three years of war, what is the situation like in Sudan?</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/after-three-years-of-war-what-is-the-situation-like-in-sudan?traffic_source=rss</link>
-      <description>Sudan’s war has displaced millions and caused thousands of deaths, with no clear end in sight to the ongoing violence.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T16:49:45+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -363,16 +423,6 @@ Diplomatie : Navin Ramgoolam en Mission officielle au Congo, flou autour de l’
       <languages>fr</languages>
     </item>
     <item>
-      <title>Ukraine strikes drone production, military support deal with Germany</title>
-      <link>https://www.aljazeera.com/news/2026/4/14/ukraine-strikes-drone-production-deal-with-germany?traffic_source=rss</link>
-      <description>Germany will get access to Ukraine's cutting-edge drone expertise in return for extra help in war against Russia.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T16:23:17+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Partner of US influencer who died in Zanzibar speaking to police as witness</title>
       <link>https://www.bbc.com/news/articles/cx299rxk0ngo?at_medium=RSS&amp;at_campaign=rss</link>
       <description>The police said Ashly Robinson, known online as Ashlee Jenae, had died after attempting to take her own life.</description>
@@ -389,16 +439,6 @@ Diplomatie : Navin Ramgoolam en Mission officielle au Congo, flou autour de l’
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-14T16:16:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Bayern Munich vs Real Madrid: UEFA Champions League – teams, start, lineups</title>
-      <link>https://www.aljazeera.com/sports/2026/4/14/bayern-munich-vs-real-madrid-uefa-champions-league-teams-start-lineups?traffic_source=rss</link>
-      <description>Real Madrid must overturn a 2-1 first-leg disadvantage when they travel to Munich for the UCL quarterfinal.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T16:04:07+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -424,16 +464,6 @@ https://defimedia.info/tamarin-une-dame-de-84-ans-meurt-noyee</urls>
 Drame à Tamarin : Marise Figaro, 83 ans, meurt noyée
 Tamarin : une dame de 84 ans meurt noyée</titles>
       <languages>fr</languages>
-    </item>
-    <item>
-      <title>L’Alliance du Changement répond-elle aux attentes des Mauriciens ?</title>
-      <link>https://defimedia.info/lalliance-du-changement-repond-elle-aux-attentes-des-mauriciens</link>
-      <description>Dans Au Cœur de l’Info cet après-midi, place à un exercice autour de l’action gouvernementale. Entre pression sur le coû</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T15:25:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
     </item>
     <item>
       <title>Uganda kindergarten killings trial begins as defendant pleads not guilty</title>
@@ -645,16 +675,6 @@ Sixteen injured in rare Turkey school shooting in Siverek district</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Burundi court partially acquits jailed journalist after two years</title>
-      <link>http://www.africanews.com/2026/04/14/burundi-court-partially-acquits-jailed-journalist-after-two-years/</link>
-      <description>A Burundian court partially acquitted journalist Sandra Muhoza on Monday after nearly two years behind bars.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-14T13:12:43+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Navin Ramgoolam : « Pa oblize ena DPM »</title>
       <link>https://defimedia.info/navin-ramgoolam-pa-oblize-ena-dpm</link>
       <description>« Pa oblize ena DPM », a déclaré le Premier ministre, Navin Ramgoolam. Il répondait à une question de Radio Plus à l’iss</description>
@@ -825,16 +845,6 @@ Sixteen injured in rare Turkey school shooting in Siverek district</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Police officers among seven arrested over deadly Haiti stampede</title>
-      <link>https://www.bbc.com/news/articles/cy811062y5yo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>An investigation is under way into what led to the deaths of 25 people at Laferrière Citadel on Saturday.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T09:49:45+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Private Notice Question : Le Domestic Abuse Bill sera finalisé dans un mois</title>
       <link>https://live.mega.mu/redirect/255710/</link>
       <description>[L'Express (via mega.mu)] Le Domestic Abuse Bill sera présenté à l’Assemblée nationale d’ici un mois. C’est l’annonce faite ce mardi 14 avril par la ministre de l’Égalité des genres et du Bien-être de la famille, Arianne Navarre Marie, en réponse à une question supplémentaire du leader de l’opposition, Joe Lesjongard, lors de la Private Notice Question consacrée à la violence domestique et aux féminicides. Cette déclaration intervient dans un contexte particulièrement alarmant. Depuis janvi ...
@@ -863,26 +873,6 @@ Arianne Navarre Marie : «Le Domestic Abuse Bill sera présenté à l’Assembl�
       <cluster_time>2026-04-14T09:36:28+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Assemblée nationale : trois ex-MMM reconfigurent les bancs de l’opposition</title>
-      <link>https://www.lemauricien.com/actualites/politique/assemblee-nationale-trois-ex-mmm-reconfigurent-les-bancs-de-lopposition/704571/</link>
-      <description>[Le Mauricien] À la suite de leur démission du MMM, Paul Bérenger, Chetan Baboolall et Joanna Bérenger changent de position au sein de l’hémicycle et siègent désormais comme un groupe de l’opposition. ...
-
-[Defimedia] Nouvelle configuration à l’Assemblée nationale ce mardi 14 avril, avec les trois démissionnaires du Mouvement militant m</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T09:32:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>f51a334ea630</cluster_id>
-      <sources>Le Mauricien
-Defimedia</sources>
-      <urls>https://www.lemauricien.com/actualites/politique/assemblee-nationale-trois-ex-mmm-reconfigurent-les-bancs-de-lopposition/704571/
-https://defimedia.info/parlement-changement-de-bancs-paul-berenger-joanna-berenger-et-chetan-baboolall-du-cote-de</urls>
-      <titles>Assemblée nationale : trois ex-MMM reconfigurent les bancs de l’opposition
-Parlement – Changement de bancs : Paul Bérenger, Joanna Bérenger et Chetan Baboolall du côté de l’opposition</titles>
-      <languages>fr</languages>
     </item>
     <item>
       <title>Dans les échoppes et snacks : les prix des pains fourrés revus à la hausse</title>
@@ -921,6 +911,16 @@ Parlement – Changement de bancs : Paul Bérenger, Joanna Bérenger et Chetan B
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-14T09:21:44+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Assemblée nationale : trois ex-MMM reconfigurent les bancs de l’opposition</title>
+      <link>https://www.lemauricien.com/actualites/politique/assemblee-nationale-trois-ex-mmm-reconfigurent-les-bancs-de-lopposition/704571/</link>
+      <description>À la suite de leur démission du MMM, Paul Bérenger, Chetan Baboolall et Joanna Bérenger changent de position au sein de l’hémicycle et siègent désormais comme un groupe de l’opposition. ...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-14T09:13:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1225,22 +1225,12 @@ Accident à Cascavelle: Un motocycliste de 19 ans grièvement blessé</titles>
     <item>
       <title>Politique : Démission des Bérenger et de Baboolall : Rupture actée au MMM</title>
       <link>https://live.mega.mu/redirect/255698/</link>
-      <description>[L'Express (via mega.mu)] C’est un véritable tournant de l’histoire politique. Paul Bérenger, Joanna Bérenger et Chetan Baboolall ont officiellement démissionné du Mouvement militant mauricien (MMM), hier. Leur décision a été actée à travers une lettre conjointe signée par les trois élus et envoyée par WhatsApp au secrétaire général du parti, Rajesh Bhagwan. Cette démission revêt une portée particulière puisqu’il s’agit du départ de Paul Bérenger, l’un des fondateurs du MMM en 1969 et ...
-
-[Defimedia] La démission de Paul Bérenger en tant que leader du MMM ouvre une période d’incertitude pour le parti. Cinq observateurs</description>
+      <description>C’est un véritable tournant de l’histoire politique. Paul Bérenger, Joanna Bérenger et Chetan Baboolall ont officiellement démissionné du Mouvement militant mauricien (MMM), hier. Leur décision a été actée à travers une lettre conjointe signée par les trois élus et envoyée par WhatsApp au secrétaire général du parti, Rajesh Bhagwan. Cette démission revêt une portée particulière puisqu’il s’agit du départ de Paul Bérenger, l’un des fondateurs du MMM en 1969 et ...</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-14T08:00:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>31171d5bc20a</cluster_id>
-      <sources>L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://live.mega.mu/redirect/255698/
-https://defimedia.info/demission-du-leader-paul-berenger-le-mmm-entre-survie-possible-et-crise-de-credibilite</urls>
-      <titles>Politique : Démission des Bérenger et de Baboolall : Rupture actée au MMM
-Démission du leader Paul Bérenger : le MMM entre survie possible et crise de crédibilité</titles>
-      <languages>fr</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>PNQ : Focus sur les violences conjugales et les mesures gouvernementales</title>
@@ -1322,16 +1312,6 @@ Live : Parlement : Suivez la séance en direct</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Au n˚19, le choc et l’amertume après le départ du leader</title>
-      <link>https://defimedia.info/au-n19-le-choc-et-lamertume-apres-le-depart-du-leader</link>
-      <description>L’annonce est tombée comme un couperet à la mi-journée. Paul Bérenger, figure de proue et leader historique du MMM, a dé</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-14T07:22:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Trump hosts Dutch royals at the White House for dinner and overnight stay</title>
       <link>http://www.africanews.com/2026/04/14/trump-hosts-dutch-royals-at-the-white-house-for-dinner-and-overnight-stay/</link>
       <description>King Willem-Alexander and Queen Máxima of the Netherlands were received by US President Donald Trump and First Lady Melania Trump at the White House on Monday, 13 April 2026, for a formal dinner and overnight stay as part of their three-day visit to the United States.</description>
@@ -1348,6 +1328,16 @@ Live : Parlement : Suivez la séance en direct</titles>
       <source>Le Mauricien</source>
       <category>local</category>
       <cluster_time>2026-04-14T07:14:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>L’accord sur les Chagos « impossible to agree at political level », affirme Stephen Doughty</title>
+      <link>https://defimedia.info/laccord-sur-les-chagos-impossible-agree-political-level-affirme-stephen-doughty</link>
+      <description>L’accord sur les Chagos est désormais « impossible à conclure au niveau politique », a déclaré Stephen Doughty, ministre</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-14T07:11:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1418,86 +1408,6 @@ Live : Parlement : Suivez la séance en direct</titles>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-14T04:41:12+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Quantum computing: A tech race Europe could win?</title>
-      <link>https://www.bbc.com/news/articles/c20q4nv89yzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>With some promising computing companies in the field, could Europe be a leader in quantum tech?</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T23:35:56+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Can this man broaden the appeal of a South African party seen by some as 'too white'?</title>
-      <link>https://www.bbc.com/news/articles/cj948p84jjxo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The Democratic Alliance's new leader, Geordin Hill-Lewis, admits the party's support is too narrow.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T23:31:43+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Hospital at centre of child HIV outbreak caught reusing syringes in undercover filming</title>
-      <link>https://www.bbc.com/news/articles/clyrd818gd2o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Footage shows staff in Pakistan injecting without gloves and reusing syringes, but the hospital boss refuses to acknowledge it is genuine.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T23:27:45+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Lebanon seeks peace, but Hezbollah needs to be convinced first</title>
-      <link>https://www.bbc.com/news/articles/cr51l794mlyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The Lebanese government go into peace talks with limited influence over the group.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T23:26:46+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Democrats were already scrambling in California's governor race. Then Swalwell dropped out</title>
-      <link>https://www.bbc.com/news/articles/cje419peejxo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>California Democrats were already fretting about the race due to troubling polls and low name recognition</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T23:02:45+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Eric Swalwell to resign from Congress after sexual misconduct claims</title>
-      <link>https://www.bbc.com/news/articles/cwyd8rj1ylro?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Four women have accused the congressman and ex-candidate for California governor of misconduct ranging from sexual harassment to rape, which he has denied.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T22:53:43+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Hungary's next PM would pick up if Putin calls and tell him to stop Ukraine war</title>
-      <link>https://www.bbc.com/news/articles/cd6lzezp4zvo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Russia has offered &quot;pragmatic&quot; relations, but Péter Magyar says he will not call Vladimir Putin himself.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T21:28:14+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Spanish PM's wife charged with corruption after two-year probe</title>
-      <link>https://www.bbc.com/news/articles/c8ejg3wk81no?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Begoña Gómez is accused of using her relationship with Pedro Sánchez to advance her private career.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-13T21:09:15+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
