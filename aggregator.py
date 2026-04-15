@@ -1254,6 +1254,49 @@ def load_injected_items(path="inject.yaml"):
         return []
 
 
+def apply_freshness_filter(items, max_age_hours=MAX_AGE_HOURS):
+    """
+    Filter items to keep only those within the past N hours.
+
+    Injected items (source == "Injected") bypass the age filter.
+    All other items are checked against their 'published' timestamp.
+
+    Returns: (filtered_items, count_removed)
+    """
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(hours=max_age_hours)
+
+    filtered = []
+    removed_count = 0
+
+    for item in items:
+        # Always keep injected items (editorial override)
+        if item.get("source") == "Injected":
+            filtered.append(item)
+            continue
+
+        # Check if published timestamp is within freshness window
+        try:
+            published_str = item.get("published")
+            if not published_str:
+                # No published timestamp, exclude it
+                removed_count += 1
+                continue
+
+            # Parse ISO 8601 timestamp
+            published_time = datetime.fromisoformat(published_str.replace("Z", "+00:00"))
+
+            if published_time >= cutoff:
+                filtered.append(item)
+            else:
+                removed_count += 1
+        except (ValueError, AttributeError) as e:
+            print(f"⚠  Could not parse published time '{item.get('published')}': {e}")
+            removed_count += 1
+
+    return filtered, removed_count
+
+
 # ── Main ─────────────────────────────────────────────────────────────────────
 
 def main():
@@ -1370,8 +1413,16 @@ def main():
         print(f"  Injected items: {len(injected)}")
         all_items.extend(injected)
 
+    # Apply 24-hour freshness filter (injected items bypass)
+    before_freshness = len(all_items)
+    all_items, removed_count = apply_freshness_filter(all_items)
+    if removed_count > 0:
+        print(f"\n24h freshness filter: removed {removed_count} stale item(s), kept {len(all_items)}/{before_freshness}")
+    else:
+        print(f"\n24h freshness filter: all {len(all_items)} items are fresh")
+
     all_items = deduplicate(all_items)
-    print(f"\nAfter hash dedup: {len(all_items)} items")
+    print(f"After hash dedup: {len(all_items)} items")
 
     print("Enriching unverified local articles...")
     all_items = enrich_articles(all_items)

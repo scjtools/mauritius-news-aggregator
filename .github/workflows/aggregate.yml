@@ -1,8 +1,6 @@
 name: Aggregate news feed
 
 on:
-  schedule:
-    - cron: "0 17 * * *"   # 21:00 Mauritius time (UTC+4)
   workflow_dispatch:
 
 permissions:
