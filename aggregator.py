@@ -695,61 +695,6 @@ def fetch_power_outages(source):
     return items
 
 
-# ── Public holidays ──────────────────────────────────────────────────────────
-
-def fetch_public_holidays(source):
-    items = []
-    try:
-        with open(source["url"]) as f:
-            raw = f.read()
-
-        all_holidays = []
-        for doc in yaml.safe_load_all(raw):
-            if doc and "holidays" in doc:
-                all_holidays.extend(doc["holidays"])
-
-        mu_tz = timezone(timedelta(hours=4))
-        today = datetime.now(mu_tz).date()
-        lookahead_days = 3
-        upcoming = []
-
-        for holiday in all_holidays:
-            try:
-                hdate = date.fromisoformat(holiday["date"])
-            except (ValueError, KeyError):
-                continue
-            days_away = (hdate - today).days
-            if 0 <= days_away <= lookahead_days:
-                upcoming.append((days_away, holiday["name"], holiday["date"]))
-
-        if upcoming:
-            now = datetime.now(timezone.utc)
-            parts = []
-            for days_away, name, hdate in sorted(upcoming):
-                if days_away == 0:
-                    parts.append(f"Today is {name}")
-                elif days_away == 1:
-                    parts.append(f"Tomorrow: {name}")
-                else:
-                    parts.append(f"In {days_away} days ({hdate}): {name}")
-
-            items.append({
-                "id": item_id("public holiday", today.isoformat()),
-                "title": f"Upcoming public holiday – {upcoming[0][1]}",
-                "url": "https://govmu.org",
-                "summary": " | ".join(parts),
-                "source": source["name"],
-                "language": source["language"],
-                "category": source["category"],
-                "published": now.isoformat(),
-                "date_verified": True,
-            })
-
-    except Exception as e:
-        print(f"[PUBLIC HOLIDAYS ERROR] {source['name']}: {e}")
-    return items
-
-
 # ── Deduplicate (hash-based) ────────────────────────────────────────────────
 
 def deduplicate(items):
@@ -1318,8 +1263,6 @@ def main():
             items = scrape_semdex(source)
         elif scrape_type == "power_outages":
             items = fetch_power_outages(source)
-        elif scrape_type == "public_holidays":
-            items = fetch_public_holidays(source)
         elif scrape_type == "megamu":
             items = scrape_megamu(source)
         elif scrape_type == "lemauricien":
