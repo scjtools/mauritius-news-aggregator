@@ -4,34 +4,80 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Thu, 16 Apr 2026 03:13:36 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 06:52:23 +0000</lastBuildDate>
+    <item>
+      <title>Agression à Grand-Gaube : Un quinquagénaire succombe après 20 jours</title>
+      <link>https://live.mega.mu/redirect/256025/</link>
+      <description>Un habitant de St-François, à Grand-Gaube, n’a pas survécu aux graves blessures subies lors d’une violente agression survenue à son domicile. Cet homme de 56 ans, éboueur de profession, est décédé dans la soirée d’hier à l’hôpital sir Anerood Jugnauth, Constance, où il était admis en soins intensifs. Les faits remontent au 26 mars. Selon les inform</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-16T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Décision du «Petroleum Pricing Committee» : Vive tension à la station Shell de Camp-Yoloff</title>
+      <link>https://live.mega.mu/redirect/255995/</link>
+      <description>[L'Express (via mega.mu)] Certaines stations-service ne servent plus d'essence ce soir du mercredi 15 avril et attendent minuit pour changer le prix. Cela, après la réunion d’aujourd’hui du «*Petroleum Pricing Committee*» qui a recommandé une hausse des prix des carburants. L’essence passe de Rs 58,45 à Rs 64,25 le litre, tandis que celui du diesel augmente de Rs 64,80 à Rs
+
+[L'Express (via mega.mu)] Les prix des carburants à la pompe ont été revus à la hausse à l’issue de la réunion du *Petroleum Pricing Committee* (PPC), tenue hier. Le litre de l’essence (Mogas) passe de Rs 58,45 à Rs 64,25, tandis que le diesel (Gas Oil) augmente de Rs 64,80 à Rs 71,25. Cette révision s’explique par la hausse des prix mondiaux du pétrole et par un déficit es
+
+[L'Express (via mega.mu)] Après l’annonce de l’augmentation des prix de l’essence et du diesel, de nombreux Mauriciens se sont précipités vers les stations-service pour faire le plein avant l’entrée en vigueur de la nouvelle tarification. ...
+
+[Defimedia] Le Petroleum Pricing Committee, qui s’est réuni ce soir, a recommandé que les prix de vente au détail de l’essence (Moga
+
+[Defimedia] Le Petroleum Pricing Committee (PPC) se réunit ce mercredi soir, soit un mois après le dernier ajustement du prix du die
+
+[Defimedia] Le Petroleum Pricing Committee (PPC) a annoncé une nouvelle augmentation des prix des carburants, effective à partir de</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-16T08:00:00+00:00</cluster_time>
+      <cluster_size>6</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>79e4f4f0c3d3</cluster_id>
+      <sources>L'Express (via mega.mu)
+Defimedia</sources>
+      <urls>https://live.mega.mu/redirect/255995/
+https://live.mega.mu/redirect/255989/
+https://live.mega.mu/redirect/256001/
+https://defimedia.info/carburants-lessence-passe-de-rs-5845-rs-6425-le-litre-le-diesel-de-rs-6480-rs-7125
+https://defimedia.info/carburants-le-petroleum-pricing-committee-se-reunit-ce-soir-une-nouvelle-hausse-envisagee
+https://defimedia.info/hausse-des-prix-des-carburants-les-explications-du-ministre-sik-yuen</urls>
+      <titles>Décision du «Petroleum Pricing Committee» : Vive tension à la station Shell de Camp-Yoloff
+Prix des carburants : L’essence passe à Rs 64,25, le diesel à Rs 71,25
+Hausse du carburant : Ruée vers les stations-service
+Carburants : l’essence passe de Rs 58,45 à Rs 64,25 le litre, le diesel de Rs 64,80 à Rs 71,25
+Carburants : le Petroleum Pricing Committee se réunit ce soir, une nouvelle hausse envisagée
+Hausse des prix des carburants : les explications du ministre Sik Yuen</titles>
+      <languages>fr</languages>
+    </item>
     <item>
       <title>Brent Crude Oil price – 16 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 95.06 per barrel</description>
+      <description>Brent Crude Oil: USD 94.94 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-16T03:10:59.540036+00:00</cluster_time>
+      <cluster_time>2026-04-16T06:49:53.121225+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 16 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 75,047.67 (▲ +6.59% from last)</description>
+      <description>Bitcoin (BTC): USD 74,936.64 (▲ +6.43% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-16T03:10:59.337783+00:00</cluster_time>
+      <cluster_time>2026-04-16T06:49:53.026539+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Gold price – 16 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,826.60 (▲ +9.97% from last)</description>
+      <description>Gold (XAU): USD 4,825.90 (▲ +9.95% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-16T03:10:58.946239+00:00</cluster_time>
+      <cluster_time>2026-04-16T06:49:52.502116+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -41,17 +87,107 @@
       <description>MUR/USD 46.28 | MUR/EUR 54.56 (▼ 0.21 from last) (▲ 0.87 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-16T03:10:58.625087+00:00</cluster_time>
+      <cluster_time>2026-04-16T06:49:51.938555+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>SEMDEX – 16 April 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
-      <description>SEMDEX closed at 2256.09 (▲ 32.89 pts, +1.48% from last close 2,223.20)</description>
+      <description>SEMDEX closed at 2254.57 (▲ 31.37 pts, +1.41% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-16T03:10:56.150754+00:00</cluster_time>
+      <cluster_time>2026-04-16T06:49:49.638208+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran war: What is happening on day 48 of the US-Iran conflict?</title>
+      <link>https://www.aljazeera.com/news/2026/4/16/iran-war-what-is-happening-on-day-48-of-the-us-iran-conflict?traffic_source=rss</link>
+      <description>US–Iran talks gain pace as Pakistan mediates, optimism for a new round of talks in Islamabad.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T06:13:28+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Affaire Menlo Park : seconde arrestation pour Deepshika Gowreesunkur</title>
+      <link>https://defimedia.info/affaire-menlo-park-seconde-arrestation-pour-deepshika-gowreesunkur</link>
+      <description>Deepshikha Gowreesunkur, ancienne Relationship Executive à la MCB, a été arrêtée mercredi 15 avril par l’Anti-Money Laun</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-16T06:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Warriors upset Clippers in NBA West play-in, extend playoff run</title>
+      <link>https://www.aljazeera.com/sports/2026/4/16/warriors-upset-clippers-in-nba-west-play-in-extend-playoff-run?traffic_source=rss</link>
+      <description>Golden State Warriors keep their NBA playoff hopes alive, eliminating the LA Clippers from the play-in tournament.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T05:59:57+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>The pope has shown the world how to stand up to Trump</title>
+      <link>https://www.aljazeera.com/opinions/2026/4/16/the-pope-has-shown-the-world-how-to-stand-up-to-trump?traffic_source=rss</link>
+      <description>Far too many world leaders have chosen to mollify the bullying US president. Pope Leo has shown there's another way.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T05:35:31+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Nigeria drops terrorism charges against ex-justice minister: lawyer</title>
+      <link>http://www.africanews.com/2026/04/16/nigeria-drops-terrorism-charges-against-ex-justice-minister-lawyer/</link>
+      <description>Nigerian authorities have withdrawn terrorism financing charges against former justice minister Abubakar Malami, his lawyer said on Wednesday</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-16T05:16:14+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Mauritius Enters High-Stakes Trade Talks with Washington to Shield Exports</title>
+      <link>https://newsmoris.com/mauritius-enters-high-stakes-trade-talks-with-washington-to-shield-exports/</link>
+      <description>The Mauritian government has launched urgent bilateral negotiations with the United States to safeguard the nation’s commercial interests ahead of the looming expiry of a critical trade pact. With the African Growth and Opportunity Act (AGOA) set to lapse in … The post Mauritius Enters High-Stakes Trade Talks with Washington to Shield Exports appea</description>
+      <source>News Moris</source>
+      <category>local</category>
+      <cluster_time>2026-04-16T05:05:03+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Petrol &amp; Diesel Costs Surge by Over Rs 5 Following Committee Price Review</title>
+      <link>https://newsmoris.com/petrol-diesel-costs-surge-by-over-rs-5-following-committee-price-review/</link>
+      <description>Motorists are facing a significant squeeze at the pumps following an immediate increase in fuel prices announced by the Petroleum Pricing Committee (PPC) on Wednesday evening, 15 April. In a meeting held, the committee recommended a substantial upward revision for … The post Petrol &amp; Diesel Costs Surge by Over Rs 5 Following Committee Price Review</description>
+      <source>News Moris</source>
+      <category>local</category>
+      <cluster_time>2026-04-16T04:50:31+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump says Israel and Lebanon’s leaders will speak on Thursday</title>
+      <link>https://www.aljazeera.com/news/2026/4/16/trump-says-israel-and-lebanons-leaders-will-speak-on-thursday?traffic_source=rss</link>
+      <description>US president says leaders of the two countries will speak for the first time in 34 years on Thursday.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T03:51:27+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Hopes grow for a breakthrough in US-Iran talks as Pakistan mediates</title>
+      <link>https://www.aljazeera.com/news/2026/4/16/hopes-grow-for-a-breakthrough-in-us-iran-talks-as-pakistan-mediates?traffic_source=rss</link>
+      <description>Pakistani sources say there has been a 'major breakthrough' over a deal on Iran’s nuclear programme.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T03:37:24+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -62,6 +198,16 @@
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-16T02:30:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Former US Marine pilot loses appeal against extradition from Australia</title>
+      <link>https://www.bbc.com/news/articles/c20q2n0l9vgo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Daniel Duggan was arrested in 2022 over claims he illegally trained the Chinese military in South Africa.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T02:17:38+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -86,9 +232,9 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Russian attack on Ukraine’s Kyiv kills 12-year-old child, wounds 10</title>
+      <title>Russian attacks on Ukraine kill three, including a 12-year-old child</title>
       <link>https://www.aljazeera.com/news/2026/4/16/russian-attack-on-ukraines-kyiv-kills-12-year-old-child-wounds-10?traffic_source=rss</link>
-      <description>Kyiv's mayor says the attacks hit Podilskyi and Obolonsky districts, causing fires and damage to residential buildings.</description>
+      <description>Kyiv's mayor says the attacks hit Podilskyi and Obolonskyi districts, causing fires and damage to residential buildings.</description>
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-04-16T01:06:01+00:00</cluster_time>
@@ -246,46 +392,6 @@ Hungary’s Magyar urges president to quit, vows to overhaul state media</titles
       <languages>en</languages>
     </item>
     <item>
-      <title>US Senate rejects another war powers resolution to limit Trump on Iran</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/us-senate-rejects-another-war-powers-resolution-to-limit-trump-on-iran?traffic_source=rss</link>
-      <description>Fourth Senate War Powers vote - first since Trump threatened to destroy Iranian civilisation - fails to gain traction.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T19:53:49+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Pakistan army chief in Tehran to advance next round of US-Iran talks</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/pakistan-army-chief-in-tehran-to-advance-next-round-of-us-iran-talks?traffic_source=rss</link>
-      <description>Sources tell Al Jazeera that Pakistani mediators are hopeful about a breakthrough on Iran's nuclear programme.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T19:27:34+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Pope Leo visits Cameroon with message of peace amid attacks from Trump</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/pope-leo-visits-cameroon-with-message-of-peace-amid-attacks-from-trump?traffic_source=rss</link>
-      <description>[Al Jazeera] US President Donald Trump has lashed out at pope over calls for peace and criticism of US war on Iran.
-
-[Africanews] The upcoming visit of Pope Leo XIV to Cameroon’s conflict-hit anglophone region is raising cautious hopes for peace, as residents and leaders call for an end to years of violence.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T18:57:57+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>bf085cf84686</cluster_id>
-      <sources>Al Jazeera
-Africanews</sources>
-      <urls>https://www.aljazeera.com/news/2026/4/15/pope-leo-visits-cameroon-with-message-of-peace-amid-attacks-from-trump?traffic_source=rss
-http://www.africanews.com/2026/04/15/popes-visit-raises-hopes-for-peace-in-cameroons-anglophone-region/</urls>
-      <titles>Pope Leo visits Cameroon with message of peace amid attacks from Trump
-Pope’s visit raises hopes for peace in cameroon’s anglophone region</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>Israeli triple-tap strike kills three paramedics in Lebanon, officials say</title>
       <link>https://www.bbc.com/news/articles/cgqkkxd09e2o?at_medium=RSS&amp;at_campaign=rss</link>
       <description>Lebanon's government condemns as a &quot;flagrant crime&quot; the killing of the paramedics, one of whom featured in a BBC report.</description>
@@ -296,55 +402,12 @@ Pope’s visit raises hopes for peace in cameroon’s anglophone region</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>What is Trump-backed SAVE America Act and what could it mean for US vote?</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/what-is-trump-backed-save-america-act-and-what-could-it-mean-for-us-vote?traffic_source=rss</link>
-      <description>US Senate resumes debate on controversial bill requiring more proof of citizenship, which Trump calls top priority.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T18:29:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>&quot;The IMF’ mission is to help countries help themselves&quot; - Kristalina Georgieva</title>
       <link>http://www.africanews.com/2026/04/15/the-imf-mission-is-to-help-countries-help-themselves-kristalina-georgieva/</link>
       <description>Speaking at the Spring Meetings of the International Monetary Fund in Washington, Managing Director Kristalina Georgieva reaffirmed the institution’s role in supporting its member states.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-15T18:19:05+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Carburants : l’essence passe de Rs 58,45 à Rs 64,25 le litre, le diesel de Rs 64,80 à Rs 71,25</title>
-      <link>https://defimedia.info/carburants-lessence-passe-de-rs-5845-rs-6425-le-litre-le-diesel-de-rs-6480-rs-7125</link>
-      <description>[Defimedia] Le Petroleum Pricing Committee, qui s’est réuni ce soir, a recommandé que les prix de vente au détail de l’essence (Moga
-
-[Defimedia] Le Petroleum Pricing Committee (PPC) se réunit ce mercredi soir, soit un mois après le dernier ajustement du prix du die
-
-[Defimedia] Le Petroleum Pricing Committee (PPC) a annoncé une nouvelle augmentation des prix des carburants, effective à partir de</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T18:02:00+00:00</cluster_time>
-      <cluster_size>3</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>f3cd6f3a0708</cluster_id>
-      <sources>Defimedia</sources>
-      <urls>https://defimedia.info/carburants-lessence-passe-de-rs-5845-rs-6425-le-litre-le-diesel-de-rs-6480-rs-7125
-https://defimedia.info/carburants-le-petroleum-pricing-committee-se-reunit-ce-soir-une-nouvelle-hausse-envisagee
-https://defimedia.info/hausse-des-prix-des-carburants-les-explications-du-ministre-sik-yuen</urls>
-      <titles>Carburants : l’essence passe de Rs 58,45 à Rs 64,25 le litre, le diesel de Rs 64,80 à Rs 71,25
-Carburants : le Petroleum Pricing Committee se réunit ce soir, une nouvelle hausse envisagée
-Hausse des prix des carburants : les explications du ministre Sik Yuen</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
-      <title>Countries pledge $1.5bn for Sudan crisis as war enters fourth year</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/countries-pledge-1-5bn-for-sudan-crisis-as-war-enters-fourth-year?traffic_source=rss</link>
-      <description>UN chief calls for end to 'nightmare' war as Khartoum rejects international conference as 'colonial tutelage approach'.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T17:57:18+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -409,6 +472,16 @@ Hausse des prix des carburants : les explications du ministre Sik Yuen</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Accresco organise une masterclass inédite autour de la philosophie de Warren Buffett</title>
+      <link>https://www.lemauricien.com/actualites/economie/accresco-organise-une-masterclass-inedite-autour-de-la-philosophie-de-warren-buffett/704691/</link>
+      <description>Accresco Investment Management annonce l’organisation d’une masterclass consacrée à la philosophie d’investissement du légendaire Warren Buffett, qui se tiendra le jeudi 28 mai 2026 au Hilton...</description>
+      <source>Le Mauricien</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T16:54:46+04:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Pope Leo XIV arrives in Cameroon on second leg of African tour</title>
       <link>http://www.africanews.com/2026/04/15/pope-leo-xiv-arrives-in-cameroon-on-second-leg-of-african-tour/</link>
       <description>After two days in Algeria marred by two suicide attacks and a spat with US President Donald Trump, the pontiff's plane landed in the Cameroonian capital Yaounde shortly before 3:00 pm local time (1400 GMT), an AFP journalist travelling on the papal plane said.</description>
@@ -421,7 +494,7 @@ Hausse des prix des carburants : les explications du ministre Sik Yuen</titles>
     <item>
       <title>RIVEO Appoints New Chief Executive Officer Backed by Over 20 Years Global Experience</title>
       <link>https://newsmoris.com/riveo-appoints-new-chief-executive-officer-backed-by-over-20-years-global-experience/</link>
-      <description>RIVEO Limited has announced the appointment of Gregory Coquet as its new Chief Executive Officer, effective from 1 October 2026. The appointment, which forms part of the group’s formal succession plan, will see Mr Coquet succeed François Eynaud. Mr Eynaud … The post RIVEO Appoints New Chief Executive Officer Backed by Over 20 Years Global Experience appeared first on News Moris.</description>
+      <description>RIVEO Limited has announced the appointment of Gregory Coquet as its new Chief Executive Officer, effective from 1 October 2026. The appointment, which forms part of the group’s formal succession plan, will see Mr Coquet succeed François Eynaud. Mr Eynaud … The post RIVEO Appoints New Chief Executive Officer Backed by Over 20 Years Global Experien</description>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-15T16:42:34+00:00</cluster_time>
@@ -491,7 +564,7 @@ Hausse des prix des carburants : les explications du ministre Sik Yuen</titles>
     <item>
       <title>Chagos : Maurice rejette toute revendication des Maldives</title>
       <link>https://live.mega.mu/redirect/255974/</link>
-      <description>[L'Express (via mega.mu)] Le gouvernement mauricien a fermement rejeté toute prétention des Maldives sur l’archipel des Chagos, y compris Diego Garcia, dans un communiqué émis ce mercredi 15 avril par le Bureau de l’*Attorney General*. Cette réaction fait suite à une déclaration du ministère des Affaires étrangères des Maldives, datée du 13 avril, saluant la suspension du processus de rétrocession des Chagos à Maurice. Malé y évoquait un *«intérêt légitime»* concernant le futur statut de l’ar ...
+      <description>[L'Express (via mega.mu)] Le gouvernement mauricien a fermement rejeté toute prétention des Maldives sur l’archipel des Chagos, y compris Diego Garcia, dans un communiqué émis ce mercredi 15 avril par le Bureau de l’*Attorney General*. Cette réaction fait suite à une déclaration du ministère des Affaires étrangères des Maldives, datée du 13 avril, saluant la suspension du p
 
 [Defimedia] Dans un communiqué émis ce mercredi, Maurice répond aux Maldives enaffirmant que la souveraineté de la République de Mau</description>
       <source>L'Express (via mega.mu)</source>
@@ -519,24 +592,14 @@ Chagos : Maurice répond aux Maldives</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Commerce international : Maurice ouvre des discussions à Washington, DC, pour sécuriser l’après-AGOA</title>
-      <link>https://live.mega.mu/redirect/255917/</link>
-      <description>[L'Express (via mega.mu)] En mission aux États-Unis, le ministre Aadil Ameer Meea engage des discussions avec le *United States Trade Representative* (USTR) afin de garantir un accès durable au marché américain. Face à l’incertitude entourant l’avenir de l’*African Growth and Opportunity Act* (AGOA), Port-Louis explore la voie d’un accord bilatéral pour sécuriser ses exportations. Aadil Ameer Meea conduit cette semaine une délégation conjointe public-privé aux ÉtatsUnis pour engager des discussions ...
-
-[Defimedia] Maurice prépare l’après-AGOA. Des discussions bilatérales ont été engagées par Port-Louis avec Washington afin de sécuri</description>
-      <source>L'Express (via mega.mu)</source>
+      <title>Maurice engage des discussions avec Washington pour sécuriser ses exportations</title>
+      <link>https://defimedia.info/maurice-engage-des-discussions-avec-washington-pour-securiser-ses-exportations</link>
+      <description>Maurice prépare l’après-AGOA. Des discussions bilatérales ont été engagées par Port-Louis avec Washington afin de sécuri</description>
+      <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-15T14:07:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>dd04ecd298fa</cluster_id>
-      <sources>L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://live.mega.mu/redirect/255917/
-https://defimedia.info/maurice-engage-des-discussions-avec-washington-pour-securiser-ses-exportations</urls>
-      <titles>Commerce international : Maurice ouvre des discussions à Washington, DC, pour sécuriser l’après-AGOA
-Maurice engage des discussions avec Washington pour sécuriser ses exportations</titles>
-      <languages>fr</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Kenya fuel prices rise sharply despite reduction in tax due to Iran war</title>
@@ -599,26 +662,6 @@ South Africa appoints Roelf Meyer as US ambassador amid strained ties</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Accresco organise une masterclass inédite autour de la philosophie de Warren Buffett</title>
-      <link>https://www.lemauricien.com/actualites/economie/accresco-organise-une-masterclass-inedite-autour-de-la-philosophie-de-warren-buffett/704691/</link>
-      <description>[Le Mauricien] Accresco Investment Management annonce l’organisation d’une masterclass consacrée à la philosophie d’investissement du légendaire Warren Buffett, qui se tiendra le jeudi 28 mai 2026 au Hilton...
-
-[L'Express (via mega.mu)] Avec une masterclass consacrée à la philosophie d’investissement de Warren Buffett, animée par Robert P. Miles, l’un des spécialistes les plus reconnus du célèbre investisseur américain, la société de conseil Accresco Investment Management entend marquer les esprits. Investisseurs, professionnels de la finance et décideurs assisteront à cet évènement rare le 28 mai, au Hilton Mauritius Resort &amp; Spa. Intitulée *“The Genius of Warren Buffett: An In-Depth Study of the Invest ...</description>
-      <source>Le Mauricien</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T12:54:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>ae193927811c</cluster_id>
-      <sources>Le Mauricien
-L'Express (via mega.mu)</sources>
-      <urls>https://www.lemauricien.com/actualites/economie/accresco-organise-une-masterclass-inedite-autour-de-la-philosophie-de-warren-buffett/704691/
-https://live.mega.mu/redirect/255920/</urls>
-      <titles>Accresco organise une masterclass inédite autour de la philosophie de Warren Buffett
-Formation : Une masterclass inédite sur Warren Buffett grâce à Accresco</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
       <title>Burundian writer celebrates cultural heritage through children's tales</title>
       <link>http://www.africanews.com/2026/04/15/burundian-writer-celebrates-cultural-heritage-through-childrens-tales/</link>
       <description>Aïta Chancella Kanyange is a Burundian writer who celebrates her country’s traditions through her writing. The 33-year-old author writes stories for children aged 2 to 10.</description>
@@ -639,41 +682,28 @@ Formation : Une masterclass inédite sur Warren Buffett grâce à Accresco</titl
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Agression mortelle à St-Félix : Un jeune homme de 22 ans tué</title>
-      <link>https://live.mega.mu/redirect/255794/</link>
-      <description>[L'Express (via mega.mu)] Un jeune homme de 22 ans a perdu la vie après avoir été violemment agressé à l’arme blanche, dans la nuit d’hier, mardi 14 avril, sur la plage publique de St-Félix. Les faits se sont produits peu après minuit. Grièvement blessée, la victime, originaire de Surinam, a été rapidement transportée à l’hôpital Jawaharlal Nehru, où elle a été admise en soins intensifs. Malgré les efforts du personnel soignant, la victime n’a pas survécu à ses blessures. Les circonstanc ...
-
-[L'Express (via mega.mu)] Dans la nuit du mardi 14 au mercredi 15 avril, une fête sur la plage publique de St-Félix a viré au drame. C’était une soirée organisée à l’occasion de Varusha Pirappu. Peu après la fête, une violente agression à l’arme blanche a eu lieu et a coûté la vie à un jeune mécanicien de 22 ans, Jaisen Sooreeah. Selon les premiers éléments de l’enquête, plusieurs personnes s’étaient rassemblées sur la plage pour célébrer le Nouvel An tamoul. Une équipe de vigiles étai ...
-
-[Defimedia] Fin tragique pour Jaisen Sooreea, âgé de 22 ans. Cet habitant de Surinam a été agressé à l’arme blanche hier, alors qu’i
-
-[Defimedia] Drame sur la plage de St-Félix mardi soir. Un habitant de Surinam, âgé de 22 ans, a été agressé à l’arme blanche.Grièvem
+      <title>Agression mortelle de Jaisen Sooreea à St-Félix : «Aster laplaz inn vinn danze», témoigne un proche</title>
+      <link>https://defimedia.info/agression-mortelle-de-jaisen-sooreea-st-felix-aster-laplaz-inn-vinn-danze-temoigne-un-proche</link>
+      <description>[Defimedia] Fin tragique pour Jaisen Sooreea, âgé de 22 ans. Cet habitant de Surinam a été agressé à l’arme blanche hier, alors qu’i
 
 [Defimedia] Un homme de 37 ans a été arrêté dans le cadre de l’enquête sur une agression mortelle à l’arme blanche survenue à la pla</description>
-      <source>L'Express (via mega.mu)</source>
+      <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-15T12:31:00+00:00</cluster_time>
-      <cluster_size>5</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>fd7fcb8435a2</cluster_id>
-      <sources>L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://live.mega.mu/redirect/255794/
-https://live.mega.mu/redirect/255932/
-https://defimedia.info/agression-mortelle-de-jaisen-sooreea-st-felix-aster-laplaz-inn-vinn-danze-temoigne-un-proche
-https://defimedia.info/sur-la-plage-de-st-felix-un-jeune-de-22-ans-mortellement-agresse-larme-blanche
+      <cluster_size>2</cluster_size>
+      <source_count>1</source_count>
+      <cluster_id>fc2b3beb4a80</cluster_id>
+      <sources>Defimedia</sources>
+      <urls>https://defimedia.info/agression-mortelle-de-jaisen-sooreea-st-felix-aster-laplaz-inn-vinn-danze-temoigne-un-proche
 https://defimedia.info/st-felix-jaisen-sooreea-22-ans-tue-sur-une-plage-publique</urls>
-      <titles>Agression mortelle à St-Félix : Un jeune homme de 22 ans tué
-St-Félix : Poignardé lors d’une fête, un mécanicien de 22 ans succombe à ses blessures
-Agression mortelle de Jaisen Sooreea à St-Félix : «Aster laplaz inn vinn danze», témoigne un proche
-Sur la plage de St-Félix : un jeune de 22 ans mortellement agressé à l’arme blanche
+      <titles>Agression mortelle de Jaisen Sooreea à St-Félix : «Aster laplaz inn vinn danze», témoigne un proche
 St-Félix : Jaisen Sooreea, 22 ans, tué sur une plage publique</titles>
       <languages>fr</languages>
     </item>
     <item>
       <title>Mauritian Rupee Falls 1.3% against US Dollar amid Geopolitical Strain</title>
       <link>https://newsmoris.com/mauritian-rupee-falls-1-3-against-us-dollar-amid-geopolitical-strain/</link>
-      <description>The Mauritian rupee has depreciated by 1.3% against the US dollar in March, as escalating global uncertainties and Middle Eastern tensions begin to weigh on the local currency. Data for the first quarter of the year (January to March) confirms … The post Mauritian Rupee Falls 1.3% against US Dollar amid Geopolitical Strain appeared first on News Moris.</description>
+      <description>The Mauritian rupee has depreciated by 1.3% against the US dollar in March, as escalating global uncertainties and Middle Eastern tensions begin to weigh on the local currency. Data for the first quarter of the year (January to March) confirms … The post Mauritian Rupee Falls 1.3% against US Dollar amid Geopolitical Strain appeared first on News Mo</description>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-15T12:11:50+00:00</cluster_time>
@@ -733,7 +763,7 @@ St-Félix : Jaisen Sooreea, 22 ans, tué sur une plage publique</titles>
     <item>
       <title>Shakeel Mohamed Assumes Role of Acting Prime Minister for 5-Day Term</title>
       <link>https://newsmoris.com/shakeel-mohamed-assumes-role-of-acting-prime-minister-for-5-day-term/</link>
-      <description>Shakeel Mohamed has officially stepped into the role of Acting Prime Minister, pledging to lead the nation with “serenity and stability” over the next five days. The transition took effect Tuesday evening, 14 April, following the departure of Navin Ramgoolam, … The post Shakeel Mohamed Assumes Role of Acting Prime Minister for 5-Day Term appeared first on News Moris.</description>
+      <description>Shakeel Mohamed has officially stepped into the role of Acting Prime Minister, pledging to lead the nation with “serenity and stability” over the next five days. The transition took effect Tuesday evening, 14 April, following the departure of Navin Ramgoolam, … The post Shakeel Mohamed Assumes Role of Acting Prime Minister for 5-Day Term appeared f</description>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-15T11:28:49+00:00</cluster_time>
@@ -741,24 +771,14 @@ St-Félix : Jaisen Sooreea, 22 ans, tué sur une plage publique</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Abus sexuels sur mineurs : Il a fait au moins six victimes en dix ans</title>
-      <link>https://live.mega.mu/redirect/255818/</link>
-      <description>[L'Express (via mega.mu)] Percy Duval *(photo)*, un habitant de Tamarin, âgé de 57 ans et employé chez un concessionnaire automobile, a été arrêté lundi par la police de Rivière-Noire. Il fait face jusqu’ici à six accusations de *causing child to be sexually abused*. Provisoirement inculpé, il est détenu au poste de police de Rivière-Noire. Les plaintes ont été initialement déposées au Central Criminal Investigation Department, avant d’être transmises à la Brigade des mineurs. Selon les informations ...
-
-[Defimedia] Jean Richard Percy Duval a été arrêté depuis vendredi 10 avril par la police de Rivière-Noire, pour des délits présumés</description>
-      <source>L'Express (via mega.mu)</source>
+      <title>Allégations d’abus sexuels sur mineures : un suspect arrêté</title>
+      <link>https://defimedia.info/allegations-dabus-sexuels-sur-mineures-un-suspect-arrete</link>
+      <description>Jean Richard Percy Duval a été arrêté depuis vendredi 10 avril par la police de Rivière-Noire, pour des délits présumés</description>
+      <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-15T11:28:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>97c22c665a9d</cluster_id>
-      <sources>L'Express (via mega.mu)
-Defimedia</sources>
-      <urls>https://live.mega.mu/redirect/255818/
-https://defimedia.info/allegations-dabus-sexuels-sur-mineures-un-suspect-arrete</urls>
-      <titles>Abus sexuels sur mineurs : Il a fait au moins six victimes en dix ans
-Allégations d’abus sexuels sur mineures : un suspect arrêté</titles>
-      <languages>fr</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>Trump's rift with Pope is playing out in public - it's costing him valuable support</title>
@@ -861,6 +881,16 @@ Allégations d’abus sexuels sur mineures : un suspect arrêté</titles>
       <source_count>1</source_count>
     </item>
     <item>
+      <title>Pope’s visit raises hopes for peace in cameroon’s anglophone region</title>
+      <link>http://www.africanews.com/2026/04/15/popes-visit-raises-hopes-for-peace-in-cameroons-anglophone-region/</link>
+      <description>The upcoming visit of Pope Leo XIV to Cameroon’s conflict-hit anglophone region is raising cautious hopes for peace, as residents and leaders call for an end to years of violence.</description>
+      <source>Africanews</source>
+      <category>regional</category>
+      <cluster_time>2026-04-15T10:10:22+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
       <title>Haitian factory workers protest for higher wages as oil prices surge</title>
       <link>http://www.africanews.com/2026/04/15/haitian-factory-workers-protest-for-higher-wages-as-oil-prices-surge/</link>
       <description>Hundreds of factory workers protested Tuesday in Haiti’s capital, demanding a higher minimum wage as the conflict in Iran deepens and drives up oil prices across the globe.</description>
@@ -913,7 +943,7 @@ Allégations d’abus sexuels sur mineures : un suspect arrêté</titles>
     <item>
       <title>Ramgoolam Claims Deputy PM Post is “Optional” Despite Constitutional Advice</title>
       <link>https://newsmoris.com/ramgoolam-claims-deputy-pm-post-is-optional-despite-constitutional-advice/</link>
-      <description>Prime Minister Navin Ramgoolam has sparked a constitutional row by suggesting the office of Deputy Prime Minister is not a mandatory requirement, despite explicit language in the nation’s founding documents. Speaking at the Tamil New Year celebrations at the Mahatma … The post Ramgoolam Claims Deputy PM Post is “Optional” Despite Constitutional Advice appeared first on News Moris.</description>
+      <description>Prime Minister Navin Ramgoolam has sparked a constitutional row by suggesting the office of Deputy Prime Minister is not a mandatory requirement, despite explicit language in the nation’s founding documents. Speaking at the Tamil New Year celebrations at the Mahatma … The post Ramgoolam Claims Deputy PM Post is “Optional” Despite Constitutional Adv</description>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-15T09:32:43+00:00</cluster_time>
@@ -953,22 +983,12 @@ Allégations d’abus sexuels sur mineures : un suspect arrêté</titles>
     <item>
       <title>Lutte anti-blanchiment : Ramgoolam annonce une réforme «radicale»</title>
       <link>https://defimedia.info/lutte-anti-blanchiment-ramgoolam-annonce-une-reforme-radicale</link>
-      <description>[Defimedia] Lors de la deuxième lecture de l’Anti-Money Laundering, Combatting the Financing of Terrorism and Countering Proliferati
-
-[L'Express (via mega.mu)] Le débat sur *l’Anti-Money Laundering, Combatting the Financing of Terrorism and Countering Proliferation Financing Bill* s’est poursuivi hier et a été adopté avec amendements. Lors des débats, le PM, Navin Ramgoolam, a expliqué que les amendements proposés sont nécessaires *«pour garantir que notre cadre de lutte contre le blanchiment d’argent, le financement du terrorisme et le financement de la prolifération soit pleinement aligné sur les normes actualisées de la Financial A ...</description>
+      <description>Lors de la deuxième lecture de l’Anti-Money Laundering, Combatting the Financing of Terrorism and Countering Proliferati</description>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:40:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>9405eb487efc</cluster_id>
-      <sources>Defimedia
-L'Express (via mega.mu)</sources>
-      <urls>https://defimedia.info/lutte-anti-blanchiment-ramgoolam-annonce-une-reforme-radicale
-https://live.mega.mu/redirect/255806/</urls>
-      <titles>Lutte anti-blanchiment : Ramgoolam annonce une réforme «radicale»
-«Anti-Money Laundering, Combatting the Financing of Terrorism and Countering Proliferation Financing Bill» : Navin Ramgoolam : «Engagé pour assurer une conformité totale aux normes de la FATF»</titles>
-      <languages>fr</languages>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
     </item>
     <item>
       <title>State officials among 9 people arrested over deadly stampede at Haiti citadel</title>
@@ -1031,9 +1051,9 @@ https://live.mega.mu/redirect/255806/</urls>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Vidéo virale : Un chanteur mauricien au cœur d’une vive polémique</title>
-      <link>https://live.mega.mu/redirect/255968/</link>
-      <description>Une vidéo choquante circule massivement sur les réseaux sociaux depuis ce mercredi 15 avril, suscitant une vague d’indignation et d’interrogations à travers le pays. Les images montrent un chanteur bien connu de la scène musicale mauricienne en train de distribuer à une foule ce qui semble être de la drogue, tout en recevant de l’argent en échange. Rapidement devenue virale, la séquence a provoqué de nombreuses réactions en ligne, oscillant entre colère, incompréhension et a ...</description>
+      <title>PM par intérim : Shakeel Mohamed : «Que tout le monde soit inclut dans le ‘nation building’»</title>
+      <link>https://live.mega.mu/redirect/255998/</link>
+      <description>Un thème qui fait débat : la réforme électorale et le Best Loser System. Autant de sujets abordés par Shakeel Mohamed, Premier ministre par intérim, ce mercredi 15 avril, lors du lancement du livre d’Assad Bhuglah, au Hennessy Park Hotel. Invité à préciser sa position, il met l’accent sur le «nation-building». ...</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -1041,9 +1061,59 @@ https://live.mega.mu/redirect/255806/</urls>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Région : Grande-Rosalie : petite de taille, mais grande d’histoire et de nature</title>
-      <link>https://live.mega.mu/redirect/255971/</link>
-      <description>À quelques kilomètres de Port-Louis, le décor change progressivement. La ville laisse place à des routes plus étroites, bordées de verdure, jusqu’à atteindre Grande-Rosalie, nichée dans le district de Pamplemousses. Ici, le silence domine. Avec ses quelque 75 habitants, ce petit village offre un cadre de vie paisible, presque hors du temps, à seulement 4,7 km de Pamplemousses et à une douzaine de kilomètres de la capitale. En parcourant le village à pied, on découvre un enviro ...</description>
+      <title>«Anti Money Laundering Unit» : Deepshika Gowreesunker pourrait-elle être inculpée à nouveau ?</title>
+      <link>https://live.mega.mu/redirect/256004/</link>
+      <description>Deepshika Gowreesunker, ancienne employée de la Mauritius Commercial Bank arrêtée en mai 2025 dans l’affaire Menlo Park, pourrait-elle être de nouveau inquiétée par la police ? Elle a été longuement interrogée par l’assistant surintendant de police Balmick Dussoye, au sein de l’*Anti Money Laundering Unit* (AMLU), avant d’être autorisée à partir au</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Journée internationale des monuments et des sites : Un week-end à la découverte du patrimoine local</title>
+      <link>https://live.mega.mu/redirect/256007/</link>
+      <description>La Journée internationale des monuments et des sites, célébrée le 18 avril, est un événement dédié à la sensibilisation à la préservation du patrimoine culturel mondial. Cette journée met en avant la diversité et la richesse des monuments et des sites historiques, en encourageant les initiatives de conservation et en favorisant la compréhension des</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>30 ans de l’atelier Mo’Zar : Festival «JazNet» : la fusion entre générations et cultures sur des notes de jazz</title>
+      <link>https://live.mega.mu/redirect/256013/</link>
+      <description>À l’occasion de ses 30 ans, Mo’Zar Espace Artistic voit grand. Du 23 avril au 2 mai, le festival *JazNet* s’annonce comme un rendez-vous majeur de la scène musicale mauricienne, mêlant concerts, transmission et engagement social. Une célébration où le jazz dépasse la musique pour devenir un véritable outil d’inclusion et de dialogue. **Programmatio</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Air Mauritius : Vols vers et depuis Rodrigues retardés après un incident technique</title>
+      <link>https://live.mega.mu/redirect/256016/</link>
+      <description>Air Mauritius a annoncé ce mercredi 15 avril des retards sur plusieurs vols à destination et en provenance de Rodrigues, à la suite de problèmes techniques affectant sa flotte ATR72 en début de journée. Les vols MK134 et MK140, initialement prévus dans l’après-midi, ont été réajustés et ont quitté Maurice avec retard. Plusieurs autres rotations ont</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Diplomatie : Maurice avance ses positions à Washington sur un accord commercial avec les États-Unis</title>
+      <link>https://live.mega.mu/redirect/256019/</link>
+      <description>Le ministre de l’Industrie, des PME et des coopératives, Aadil Ameer Meea, a rencontré à Washington deux ambassadeurs de l’*Office of the United States Trade Representative*, dans le cadre de négociations sur un accord commercial entre Maurice et les États-Unis. Ces discussions, menées dans un contexte d’incertitude autour du renouvellement de l’AG</description>
+      <source>L'Express (via mega.mu)</source>
+      <category>local</category>
+      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Vidéo virale : Un chanteur mauricien au cœur d’une vive polémique</title>
+      <link>https://live.mega.mu/redirect/255968/</link>
+      <description>Une vidéo choquante circule massivement sur les réseaux sociaux depuis ce mercredi 15 avril, suscitant une vague d’indignation et d’interrogations à travers le pays. Les images montrent un chanteur bien connu de la scène musicale mauricienne en train de distribuer à une foule ce qui semble être de la drogue, tout en recevant de l’argent en échange.</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -1053,17 +1123,7 @@ https://live.mega.mu/redirect/255806/</urls>
     <item>
       <title>Affaire Pavaday : Anoup Goodary convoqué au CCID</title>
       <link>https://live.mega.mu/redirect/255977/</link>
-      <description>L’avocat Anoup Goodary a été convoqué ce mercredi 15 avril au Central Criminal Investigation Department (CCID) de Port-Louis, *under warning*, dans le cadre de l’affaire Pavaday. Cette convocation fait suite à la publication, sur sa page Facebook, d’un document officiel contenant des informations personnelles relatives à une mineure, notamment son nom et son âge. Cette divulgation a suscité une vague d’indignation au sein de plusieurs organisations non gouvernementales, ainsi q ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Journée mondiale : Scrabble : un jeu amusant pour découvrir les mots</title>
-      <link>https://live.mega.mu/redirect/255980/</link>
-      <description>Le scrabble est une activité ludique, qui permet de jouer avec les lettres et de créer des mots. La journée qui lui est consacrée, chaque année, est le 13 avril. Accessible aux enfants comme aux adultes, il offre une manière agréable de développer ses connaissances, tout en passant un bon moment. Au début de la partie, chaque joueur reçoit plusieurs lettres tirées au hasard. À tour de rôle, chacun forme un mot et le place sur une grille composée de cases spéciales. Chaque lett ...</description>
+      <description>L’avocat Anoup Goodary a été convoqué ce mercredi 15 avril au Central Criminal Investigation Department (CCID) de Port-Louis, *under warning*, dans le cadre de l’affaire Pavaday. Cette convocation fait suite à la publication, sur sa page Facebook, d’un document officiel contenant des informations personnelles relatives à une mineure, notamment son</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -1073,27 +1133,7 @@ https://live.mega.mu/redirect/255806/</urls>
     <item>
       <title>Affaire Pack &amp; Blister : Nouvelle audition du Dr Joomaye, l’enquête de la FCC s’élargit</title>
       <link>https://live.mega.mu/redirect/255983/</link>
-      <description>L’enquête menée par la Financial Crimes Commission (FCC) autour de l’acquisition controversée de respirateurs, dans le cadre du programme Pack &amp; Blister, continue de progresser avec une nouvelle phase d’auditions attendue dans les prochains jours. Au centre des investigations, l’ancien conseiller au Bureau de l’ex-Premier ministre, le Dr Zouberr Joomaye *(photo)*, sera de nouveau sollicité par les enquêteurs après une première audition tenue under warning qui a déjà duré plus ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Journée mondiale de l’art : Des talents cachés révélés au Château de Mon Plaisir</title>
-      <link>https://live.mega.mu/redirect/255956/</link>
-      <description>À l’occasion de la Journée mondiale de l’art, célébrée ce mercredi 15 avril, le Château de Mon Plaisir, au Jardin botanique Sir Seewoosagur Ramgoolam à Pamplemousses, s’est transformé en un véritable espace de création et de partage. Depuis 11 heures, un atelier de peinture en direct a réuni artistes internationaux et enfants issus de 12 écoles spécialisées (SEN). Malgré une météo capricieuse marquée par des averses, l’enthousiasme est resté intact. À l’abri, art ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Questions à… : Jean-Frédéric Bégué : «Ma mission est double : protéger les plus vulnérables et éduquer la nouvelle génération»</title>
-      <link>https://live.mega.mu/redirect/255959/</link>
-      <description>Jean-Frédéric Bégué a 20 ans et une ambition chevillée au corps : faire bouger les lignes à Rodrigues. Ancien élève du collège Ananias André (Le Chou) et lauréat d’une bourse d’études, il s’apprête à entamer des études de droit à l’université de Maurice en août prochain. Mais son parcours ne s’arrête pas aux bancs de l’école. Véritable pilier de Dis-Moi, il a porté la voix des jeunes des Seychelles jusqu’à La Réunion. Aujourd’hui, celui qui est devenu a ...</description>
+      <description>L’enquête menée par la Financial Crimes Commission (FCC) autour de l’acquisition controversée de respirateurs, dans le cadre du programme Pack &amp; Blister, continue de progresser avec une nouvelle phase d’auditions attendue dans les prochains jours. Au centre des investigations, l’ancien conseiller au Bureau de l’ex-Premier ministre, le Dr Zouberr Jo</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -1113,7 +1153,7 @@ https://live.mega.mu/redirect/255806/</urls>
     <item>
       <title>Développement international : ERVI, un nouveau dispositif pour soutenir l’export des entreprises locales</title>
       <link>https://live.mega.mu/redirect/255965/</link>
-      <description>L’Économie mauricienne cherche à se projeter au-delà de ses frontières. Les entreprises explorent de nouveaux relais de croissance, notamment en Afrique. L’Association of Mauritian Manufacturers (AMM) lance dans cette optique «En Route Vers l’International» (ERVI). Une initiative menée en partenariat avec le MCB Group, EY-Parthenon et le groupe IBL Ltd, avec le soutien des autorités publiques. Selon Samuel Maujean, *Deputy Chief Operating Officer* de l’AMM, le programme vise ...</description>
+      <description>L’Économie mauricienne cherche à se projeter au-delà de ses frontières. Les entreprises explorent de nouveaux relais de croissance, notamment en Afrique. L’Association of Mauritian Manufacturers (AMM) lance dans cette optique «En Route Vers l’International» (ERVI). Une initiative menée en partenariat avec le MCB Group, EY-Parthenon et le groupe IBL</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -1123,7 +1163,7 @@ https://live.mega.mu/redirect/255806/</urls>
     <item>
       <title>Droits humains à Rodrigues : Une jeunesse engagée au cœur du changement</title>
       <link>https://live.mega.mu/redirect/255944/</link>
-      <description>**Dis-Moi : nouveau souffle à Petit-Gabriel** D’un petit bureau partagé à Port-Mathurin vers un quartier général dédié à Petit-Gabriel, l’antenne rodriguaise de l’ONG Dis-Moi change de dimension. Entre visites en milieu carcéral et sensibilisation dans les collèges, l’organisation s’ancre plus que jamais dans la réalité sociale de l’île. C’est une page qui se tourne et une autre, bien plus vaste, qui s’écrit. Depuis sa création en 2017, Dis-Moi Rodrigues a fait ...</description>
+      <description>**Dis-Moi : nouveau souffle à Petit-Gabriel** D’un petit bureau partagé à Port-Mathurin vers un quartier général dédié à Petit-Gabriel, l’antenne rodriguaise de l’ONG Dis-Moi change de dimension. Entre visites en milieu carcéral et sensibilisation dans les collèges, l’organisation s’ancre plus que jamais dans la réalité sociale de l’île. C’est une</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -1133,396 +1173,7 @@ https://live.mega.mu/redirect/255806/</urls>
     <item>
       <title>Énergie : Après la bagasse, le pari du bambou</title>
       <link>https://live.mega.mu/redirect/255947/</link>
-      <description>Sen Carooppunnen est un entrepreneur dans le secteur de l'énergie. Depuis 2013, il porte un projet de centrale biomasse à Maurice avec des partenaires indiens et une conviction inébranlable que la solution à la dépendance énergétique de l'île se trouve au-delà des panneaux solaires et des éoliennes, soit dans une plante cultivée en laboratoire, le Beema bambou. Avec Sen Carooppunnen, tout commence par un calcul : *«Une année compte 8 760 heures. Pour qu'un réseau électrique soi ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Secteur bancaire : ABC Banking joue global avec la carte UnionPay Diamond</title>
-      <link>https://live.mega.mu/redirect/255950/</link>
-      <description>Le secteur bancaire mauricien poursuit sa montée en sophistication. ABC Banking a officiellement lancé sa carte de débit UnionPay Diamond, un produit haut de gamme destiné à une clientèle internationale et mobile, lors d’un événement organisé à The Atrium à Telfair, Moka. Au-delà d’un simple lancement commercial, cette initiative s’inscrit dans une stratégie plus large de différenciation dans les segments du *private banking* et de l’*international banking*, où la conc ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PQ : Ranjiv Woochit : «L’augmentation du recours aux caméras de surveillance est envisagée»</title>
-      <link>https://live.mega.mu/redirect/255953/</link>
-      <description>Rubna Daureeawo a interrogé le ministre des Collectivités locales, Ranjiv Woochit, sur les déversements illégaux dans les drains, rivières et canaux et leur contribution aux risques d’inondation. Le ministre a indiqué que 525 cas de déversements illégaux ont été recensés au cours des deux dernières années. Sur ce total, 14 ont donné lieu à des amendes, 96 à des mises en demeure et trois font encore l’objet d’enquêtes. Il a souligné que les poursuites restent difficiles ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Questions à… : Avnish Rogbeer : «Nous voulons aider le client à transformer un capital financier en stratégie patrimoniale de long terme»</title>
-      <link>https://live.mega.mu/redirect/255935/</link>
-      <description>Les tensions géopolitiques, la volatilité des marchés et les soubresauts sur l’énergie, les devises et les matières premières redessinent les règles du jeu pour les investisseurs. Avnish Rogbeer décrypte avec nous les arbitrages nécessaires. 🔴 **Les tensions géopolitiques mondiales bouleversent les marchés. Comment ajustez-vous concrètement les portefeuilles de vos clients dans ce climat d’instabilité et quels choix avez-vous faits récemment ?** Notre discipline reste ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PQ : Jyoti Jeetun : «La route indienne n’est pas en train de mourir»</title>
-      <link>https://live.mega.mu/redirect/255938/</link>
-      <description>Khushal Lobine, député de la circonscription La Caverne–Phoenix (n° 15), a interrogé la ministre des Services financiers et du développement économique, Jyoti Jeetun, sur les répercussions de l’arrêt rendu le 15 janvier par la Cour suprême de l’Inde dans l’affaire *Tiger Global*, remettant en cause la protection du *grandfathering* accordée aux investissements réalisés avant le 1er avril 2017 dans le cadre de la convention de non-double imposition entre l’Inde et Maurice. ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Indicateurs : La croissance ralentit, l’investissement recule, l’inflation va gonfler</title>
-      <link>https://live.mega.mu/redirect/255941/</link>
-      <description>L’économie du pays a perdu de son élan au dernier trimestre de 2025, selon les analyses de CareEdge Ratings Africa, publiées le 9 avril. La croissance du Produit Intérieur Brut (PIB) s’est ralentie à 2,7 % en glissement annuel, contre 3,3 % au trimestre précédent, traduisant un essoufflement progressif de l’activité. Ce ralentissement, selon le rapport, s’explique principalement par une demande intérieure – consommation à l’intérieur du pays – plus faible, une baisse ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PQ : Retard de l’ouverture au public de la Tour des Hollandais</title>
-      <link>https://live.mega.mu/redirect/255908/</link>
-      <description>Ashley Ramdass, député de la circonscription Vieux-Grand-Port–Rose-Belle, a interrogé Mahen Gondeea sur le retard de l’ouverture au public de la Tour des Hollandais, à Vieux-Grand-Port. Le ministre Gondeea a indiqué que ce bâtiment patrimonial, restauré en octobre 2020 par le *National Heritage Fund*, est demeuré fermé depuis en raison d’actes de vandalisme et d’une absence de gestion adéquate sous le précédent gouvernement. Des évaluations techniques récentes ont mis ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Télétravail : Écoénergétique, mais chronophage sans cadre adapté</title>
-      <link>https://live.mega.mu/redirect/255911/</link>
-      <description>Sur fond de tensions au Moyen-Orient, de pression sur l’énergie et de hausse des prix du carburant, le télétravail s’impose progressivement comme une option étudiée par les autorités. Déjà largement adopté depuis la pandémie, ce mode d’organisation est aujourd’hui mis en avant pour limiter la consommation d’électricité dans les bureaux. Mais cet objectif à la fois économique et environnemental pose question. Les économies réalisées par les entreprises ne finissent-elle ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PQ : Reza Uteem : «Je ne comprends pas cette obsession à vouloir être fonctionnaire»</title>
-      <link>https://live.mega.mu/redirect/255914/</link>
-      <description>Répondant à Rubna Daureeawo, députée de la circonscription Rivière-des-Anguilles–Souillac (n° 13), sur les mesures ciblées visant à réduire un chômage plus élevé chez les jeunes femmes, le ministre du Travail et des relations industrielles, Reza Uteem, a reconnu que certains secteurs restent davantage orientés vers les hommes, malgré un nombre plus important de femmes qualifiées, comme en témoignent les résultats du *Higher School Certificate*, du *School Certificate* et du ni ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Questions à… : Bose Soonarane : «La transplantation rénale n’est plus un rêve inaccessible pour les Mauriciens»</title>
-      <link>https://live.mega.mu/redirect/255923/</link>
-      <description>Le 10 avril, Navin Ramgoolam a inauguré la nouvelle unité de transplantation rénale à l’hôpital Jawaharlal Nehru (JNH). S’il a insisté sur la notion de dignité humaine dans son discours, pour le secrétaire de la Renal Disease Patients’ Association, Bose Soonarane, cette infrastructure, longtemps attendue, représente un véritable tournant pour les patients dialysés, en quête d’une nouvelle vie. 🔵 **Avec l’inauguration de cette nouvelle unité de transplantation rénale ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Terre-Rouge : Deux gilets pare-balles disparaissent après une mission de la SMF</title>
-      <link>https://live.mega.mu/redirect/255893/</link>
-      <description>Une enquête a été ouverte par la police de Terre-Rouge après la disparition de deux gilets pare-balles à l’issue d’une mission de la Special Mobile Force (SMF), le dimanche 12 avril, lors d’un déplacement entre Balaclava et Vacoas. Selon les informations consignées dans une entrée du journal de bord (OB 1810/2026), un sergent de la SMF a signalé le 13 avril en soirée la disparition de deux gilets pare-balles noirs, possiblement égarés aux alentours de 21 heures, alors que l’ ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Dossier : Vie chère et revenus insuffisants : le stress permanent</title>
-      <link>https://live.mega.mu/redirect/255896/</link>
-      <description>Il y a les chiffres. Et puis il y a la vie. Les chiffres indiquent qu’en mars, l’inflation a légèrement augmenté. L’indice des prix à la consommation est passé de 109,5 à 109,6, soit une hausse de 0,1 %. Une variation minime, presque imperceptible dans les statistiques. Mais dans les cuisines, aux caisses des supermarchés, dans les bus du matin ou face aux factures empilées, personne ne raisonne en pourcentages. On parle de riz plus cher, d’huile qui augmente, de légumes qu’on ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Rivière-du-Rempart : Un certificat d’incendie suspect au cœur d’une enquête</title>
-      <link>https://live.mega.mu/redirect/255899/</link>
-      <description>Une affaire présumée d’utilisation de faux document a été signalée à la police de Rivière-du-Rempart, après la découverte d’irrégularités sur un certificat d’incendie émis au nom d’un établissement situé à Roche-Noires. À l’origine de cette affaire, un officier de la *Mauritius Fire and Rescue Service* (MFRS), âgé de 46 ans, contacté le 17 novembre 2025 par une responsable du ministère du Travail. Cette dernière souhaitait obtenir confirmation d’une éventuell ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Transport public et sécurité routière : Nouvelles mesures pour la ligne Piton–Rivière-du-Rempart</title>
-      <link>https://live.mega.mu/redirect/255902/</link>
-      <description>Le ministre des Transports terrestres, Osman Mahomed, a présidé une réunion à Port-Louis, lundi. Il était entouré des ministres de l’Enseignement supérieur et de la Fonction publique, Kaviraj Sukon et Raj Pentiah, ainsi que du député Sandeep Prayag. L’objectif était de trouver des solutions aux problèmes de sécurité routière et aux lacunes des transports publics dans la circonscription de Piton–Rivière-du-Rempart (n° 7). Des représentants du Traffic Management and Road Saf ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PMQT : Audit 2024-2025 : le PM annonce des mesures correctives et un nouveau mécanisme de contrôle</title>
-      <link>https://live.mega.mu/redirect/255905/</link>
-      <description>Interpellé par le député Roshan Jhummun sur le rapport du directeur de l’Audit pour l’exercice financier 2024-2025, Navin Ramgoolam a affirmé que le gouvernement a rapidement enclenché une série d’actions pour corriger les dysfonctionnements relevés et renforcer la gestion des finances publiques. Dès la réception du rapport, le ministère des Finances a procédé à un examen approfondi des observations formulées. Dans cette optique, une circulaire émise le 20 mars a appelé les ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Éclairage : Double front pour Ramgoolam : la rue gronde, l’opposition s’aiguise</title>
-      <link>https://live.mega.mu/redirect/255878/</link>
-      <description>Personne, visiblement, ne souhaiterait aujourd’hui être à la place de Navin Ramgoolam. À moins de dix semaines de la présentation de son deuxième budget, le Premier ministre lui-même a reconnu qu’il s’agira d’un exercice particulièrement difficile. Et pour cause : rarement un chef de gouvernement aura dû composer simultanément avec une instabilité politique interne et une conjoncture économique aussi défavorable. Par rapport à l’an dernier, quand il avait pu s’appuye ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Disparition en mer à Mont-Choisy : Le corps du jeune Malgache retrouvé dans le lagon</title>
-      <link>https://live.mega.mu/redirect/255881/</link>
-      <description>Le corps de François Gabriel Fanomezantsoa, le jeune ressortissant malgache porté disparu en mer hier à la plage publique de Mont-Choisy, a été repêché ce matin, mercredi 15 avril, dans le lagon, mettant fin aux recherches entreprises depuis la veille. Une autopsie devrait être pratiquée bientôt afin de déterminer les causes exactes du décès. Pour rappel, une opération de recherche d’envergure avait été déclenchée hier après-midi, après la disparition du jeune homme en ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Relations diplomatiques Chine-Maurice : Cinquante-quatre ans de liens célébrés</title>
-      <link>https://live.mega.mu/redirect/255884/</link>
-      <description>L’ambassade de la République populaire de Chine à Maurice a commémoré ce matin, mercredi 15 avril, le 54e anniversaire de l’établissement des relations diplomatiques entre les deux pays. Dans un message publié sur les réseaux sociaux, l’ambassade a rappelé que ce partenariat, noué en 1972, repose sur *«une amitié sincère, une confiance mutuelle et une coopération gagnant-gagnant»*. L’institution a réaffirmé sa volonté de servir de pont entre les deux peuples et de hisse ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PNQ : Violences domestiques : dix femmes tuées et 6 478 cas recensés depuis 2025</title>
-      <link>https://live.mega.mu/redirect/255887/</link>
-      <description>La question de la protection des femmes face aux violences domestiques s’est imposée comme l’un des moments forts de la séance parlementaire d’hier, à travers une *Private Notice Question (PNQ)* du leader de l’opposition, Joe Lesjongard, à la ministre de l’Égalité des genres et du bien-être de la famille, Arianne Navarre-Marie. D’entrée de jeu, la ministre a souligné que la lutte contre les violences faites aux femmes constitue *«une priorité nationale»*, insistant sur l� ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Questions à... : Mᵉ Isabelle Schoenacker-Rossi: «Les minorités sexuelles à Maurice constituent un groupe social exposé à un risque élevé de persécutions»</title>
-      <link>https://live.mega.mu/redirect/255890/</link>
-      <description>**«Les minorités sexuelles à Maurice constituent un groupe social exposé à un risque élevé de persécutions»** Avocate et membre d'Avocats sans frontières France (ASFF), Mᵉ Isabelle Schoenacker-Rossi vient régulièrement à Maurice depuis 2020 pour documenter les violations des droits des minorités sexuelles. Dans cet entretien, elle revient sur les persécutions subies par les personnes LGBTQIA+ sur l'île, sur les contradictions entre les engagements internationaux de l'État m ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PQ : Nage avec les dauphins et cachalots : à quel prix pour la nature ?</title>
-      <link>https://live.mega.mu/redirect/255875/</link>
-      <description>La question de la protection des mammifères marins dans les eaux mauriciennes s’est posée à travers une interpellation de la députée de l’opposition, Joanna Bérenger, au ministre du Tourisme, Richard Duval, au sujet de l’introduction d’amendements à la *Tourism Act* et la régulation des activités d’observation et de nage avec les dauphins et les baleines. Selon le ministre, environ 100 embarcations opèrent régulièrement sur la côte sud-ouest, sur un total de 278 déten ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Michael Sik Yuen : &quot; le prix de l'essence peut augmenter à n'importe quel moment</title>
-      <link>https://live.mega.mu/redirect/255926/</link>
-      <description>Face aux tensions internationales, Maurice maintient ses prix des carburants grâce à un mécanisme de stabilisation encore excédentaire. Mais ce répit pourrait être de courte durée, avertit le ministre du Commerce, Michael Sik Yuen.</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Dossier Chagos : Londres reste confiant malgré le blocage parlementaire</title>
-      <link>https://live.mega.mu/redirect/255866/</link>
-      <description>La mise en pause du *Diego Garcia Military Base and British Indian Ocean Territory Bill* n’a pas changé la ligne du gouvernement britannique. Le lundi 13 avril, devant la *House of Commons*, le ministre d’État au *Foreign, Commonwealth and Development Office*, Stephen Doughty, a réaffirmé que le traité sur Diego Garcia demeure, selon Londres, *«le meilleur moyen»* de garantir à long terme les opérations de la base militaire. Face aux députés, Stephen Doughty a d’emblée reco ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PMQTs : Contrôle aux frontières : 259 saisies de drogue et trois policiers arrêtés</title>
-      <link>https://live.mega.mu/redirect/255869/</link>
-      <description>Au Parlement, hier, le député Farhad Aumeer a interpellé le Premier ministre (PM), Navin Ramgoolam, sur l’efficacité du contrôle aux frontières, notamment dans les ports et aéroports, ainsi que sur l’intégrité des officiers affectés à ces postes stratégiques. Dans sa réponse, le PM, s’appuyant sur les informations du commissaire de police, a indiqué que 108 saisies de drogue ont été effectuées au port et 151 à l’aéroport entre le 1er janvier 2023 et le 10 avril 202 ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Sainte-Croix : un policier agressé et dépouillé, un suspect issu des forces de l’ordre…</title>
-      <link>https://live.mega.mu/redirect/255929/</link>
-      <description>Un policier a été agressé et dépouillé dans une affaire impliquant notamment un autre membre des forces de l’ordre. Selon les informations recueillies, les faits remontent au dimanche 12 avril 2026, aux alentours de 08h08.</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Météo : Fortes pluies possibles cet après-midi</title>
-      <link>https://live.mega.mu/redirect/255872/</link>
-      <description>Un *«Heavy Rain Watch»* est en vigueur à Maurice ce mercredi 15 avril jusqu’à 19h00. Des conditions atmosphériques instables pourraient entraîner des averses modérées à localement fortes, accompagnées d’orages, principalement au Nord-Ouest, à l’Ouest et sur le plateau central, avant de s’étendre à d’autres régions. Des accumulations d’eau sont possibles dans les zones à risque, tandis que la visibilité sera réduite en raison du brouillard et des fortes pluies. ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Cour suprême : Chavansingh Dabeedin débouté dans son litige avec le CEB</title>
-      <link>https://live.mega.mu/redirect/255860/</link>
-      <description>La Cour suprême a rejeté l’appel de Chavansingh Dabeedin contre le Central Electricity Board (CEB), mettant fin à sa tentative de réintégration à la tête du département *Transmission &amp; Distribution (T&amp;D)*, un poste clé au sein de l’organisme. Ingénieur recruté en 1992, Dabeedin soutenait qu’il avait été confirmé à ce poste le 1er juin 2020 après avoir été initialement affecté aux fonctions de *T&amp;D Manager* dès 2015, avec des responsabilités accrues et une allocation me ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PMQTs : Basic Retirement Pension : «Le coût peut grimper à Rs et 100 milliards d’ici 2035 sans réforme»</title>
-      <link>https://live.mega.mu/redirect/255863/</link>
-      <description>La députée de l’opposition Joanna Bérenger a interpellé le Premier ministre, Navin Ramgoolam, sur les conséquences sociales de l’augmentation progressive de l’âge d’éligibilité à la *Basic Retirement Pension (BRP)*. Elle a notamment voulu savoir si, dans le cadre de la préparation du prochain Budget, une étude ou une évaluation de l’impact socio-économique de cette réforme avait été réalisée, en particulier sur les groupes vulnérables et les travailleurs à faibles r ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Bébé Ezekiel : Autorisé à quitter l’hôpital en Inde, l’enfant poursuit son parcours vers la guérison</title>
-      <link>https://live.mega.mu/redirect/255851/</link>
-      <description>C’est une nouvelle qui soulage : le petit Ezekiel Aaron Cleo a quitté l’hôpital en Inde le 11 avril, une étape majeure dans son long parcours médical. Après plusieurs semaines d’hospitalisation, cette sortie représente une avancée significative vers une possible guérison. L’histoire du nourrisson avait profondément ému à Maurice. Né avec des malformations cardiaques et atteint de trisomie 21, Ezekiel avait besoin d’une intervention urgente à l’étranger. Une mobilisa ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>PMQTs : Kreol Morisien : au Parlement un «Select Committee» pour avancer</title>
-      <link>https://live.mega.mu/redirect/255857/</link>
-      <description>Pour sa toute première intervention en tant que députée de l’opposition, Joanna Bérenger a interpellé le Premier ministre (PM) sur l’état d’avancement du projet d’introduction du Kreol Morisien à l’Assemblée nationale. Dans sa réponse, Navin Ramgoolam a rappelé le cadre constitutionnel actuel. L’article 49 de la Constitution stipule que la langue officielle de l’Assemblée est l’anglais, tout en permettant aux parlementaires de s’exprimer en français. De plus, le *St ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Saisie à l’aéroport : Un Nigérian intercepté avec 61 boulettes de drogue</title>
-      <link>https://live.mega.mu/redirect/255797/</link>
-      <description>Un Nigérian a été intercepté par les officiers de la *Customs Anti-Narcotics Section* à l’aéroport, le 11 avril, dans le cadre d’une opération de contrôle. L’homme, identifié comme Ibeh Udoka Kenneth, âgé de 47 ans, voyageait à bord du vol KA 274. Lors de son interrogatoire, après avoir purgé les boulettes de drogue, il a déclaré en transporter 61. Selon ses propres aveux, celles-ci comprenaient 51 boulettes de cocaïne et dix boulettes de cannabis. Les autorités ont � ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>L’Inde et Maurice au cœur d’un modèle de développement Sud-Sud</title>
-      <link>https://live.mega.mu/redirect/255800/</link>
-      <description>De par son positionnement stratégique, l’océan Indien est convoité par les grandes puissances pour des motifs économiques, commerciaux et sécuritaires. Petit caillou au milieu de ce vaste espace marin de 70 millions de kilomètres carrés, Maurice se retrouve depuis des décennies au centre de guerres d’influence. N’ayant jamais fait de concession sur sa souveraineté, Maurice est toujours resté maître de son destin, tout en gardant une relation diplomatique saine et pérenne ave ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Conflit au Moyen-Orient : Obligations d’État : les grands perdants de la guerre</title>
-      <link>https://live.mega.mu/redirect/255812/</link>
-      <description>[L'Express (via mega.mu)] Les marchés boursiers mondiaux avaient salué avec enthousiasme l’annonce d’un cessez-le-feu entre les États-Unis et l’Iran mercredi dernier. Mais cet optimisme aura été de courte durée. Les négociations menées au Pakistan n’ont débouché sur aucun accord ; et le président américain, Donald Trump, a rapidement durci le ton en annonçant un blocus du détroit d’Ormuz pour les navires transportant du pétrole iranien. Résultat immédiat : les prix du pétrole sont repartis ...
-
-[L'Express (via mega.mu)] Lorsque les États-Unis et Israël ont frappé l’Iran le 28 février, les premières pertes ont été comptées en vies humaines et en pétroliers. En quelques jours, le détroit d’Ormuz, par lequel transite environ 20 % du pétrole mondial acheminé par voie maritime, s’est retrouvé fermé. Le Brent a dépassé les 126 dollars le baril. L’Agence internationale de l’énergie a qualifié cette perturbation de la plus grave de l’histoire des marchés pétroliers. L’onde de choc n’ ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>1</source_count>
-      <cluster_id>f400ebdc068a</cluster_id>
-      <sources>L'Express (via mega.mu)</sources>
-      <urls>https://live.mega.mu/redirect/255812/
-https://live.mega.mu/redirect/255803/</urls>
-      <titles>Conflit au Moyen-Orient : Obligations d’État : les grands perdants de la guerre
-Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</titles>
-      <languages>fr</languages>
-    </item>
-    <item>
-      <title>Nouvel an tamoul au MGI : Navin Ramgoolam sur la crise au Moyen-Orient : «Pou ena bann mezir bien dir me li pou tanporer»</title>
-      <link>https://live.mega.mu/redirect/255809/</link>
-      <description>C’est dans une ambiance à la fois solennelle et festive que le Nouvel An tamoul a été célébré, hier, à l’auditorium du Mahatma Gandhi Institute, à Moka. L’événement, organisé par la Mauritius Tamil Temples Federation, s’est déroulé en présence du Premier ministre, Navin Ramgoolam, des ministres Rajesh Bhagwan et Deven Nagalingum, ainsi que du vice-président de la République, Robert Hungley. Prenant la parole, le Premier ministre a largement axé son discours sur les r ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Ambiance au Parlement : Patrick Assirvaden : «Joe pou gagn so bann ti papie taler»</title>
-      <link>https://live.mega.mu/redirect/255815/</link>
-      <description>La présence de Paul Bérenger, Joanna Bérenger et Chetan Baboolall était particulièrement attendue, hier, à l’Assemblée nationale. Après leur démission du Mouvement militant mauricien (MMM), lundi, les trois élus siègent désormais comme membres de l’opposition, une situation qui suscitait curiosité et tension quant à l’accueil que leur réserveraient leurs anciens collègues. Dès 11 h 15, plusieurs ministres et députés avaient déjà pris place dans l’Hémicycle. L’ ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Affaire Molnupiravir : Aumeer dénonce une «attitude défensive», Bachoo rétorque que «c’est la vérité»</title>
-      <link>https://live.mega.mu/redirect/255821/</link>
-      <description>Le ministre de la Santé et du bien-être, Anil Bachoo, a dû défendre, sous le feu d’une question parlementaire, la décision de son ministère de réintégrer deux pharmaciens impliqués dans l’affaire Molnupiravir. Le Dr Farhad Aumeer, député de la circonscription n°2 (Port-Louis Sud–Port-Louis Central), a demandé au ministre si son ministère avait sollicité des informations de la Financial Crimes Commission concernant deux personnes interrogées dans le cadre de cette affaire et ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>En couverture : 🔔 Les grands titres de l'express de ce mercredi 15 avril 2026 📰</title>
-      <link>https://live.mega.mu/redirect/255824/</link>
-      <description>En une de *l'express*: Commerce international : Maurice ouvre des discussions à Washington, DC, pour sécuriser l’après-AGOA ; Autre titre ; Économie sous pression : Double front pour Ramgoolam ; Abus sexuels sur mineurs : Il a fait au moins six victimes en dix ans ; Chagos : Londres reste confiant malgré le blocage parlementaire ; Violences domestiques : 6 478 cas recensés en 15 mois. **Commerce international : Maurice ouvre des discussions à Washington, DC, pour sécuriser l’aprè ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>En couverture de Business Magazine ce mercredi 15 avril 2026 🗞️📊 : Bhavik Desai et Oliver Müller : «Accresco adhère aux principes d’investissement défendus par Warren Buffett»</title>
-      <link>https://live.mega.mu/redirect/255827/</link>
-      <description>Si l’analyse des données est essentielle pour les gérants de portefeuilles, elle ne suffit toutefois pas à garantir le succès d’une stratégie d’investissement. Car c’est avant tout un art que d’interpréter les données empiriques pour en tirer des idées d’investissement pertinentes et cohérentes, insistent Bhavik Desai et Oliver Müller, General Manager et Chief Investment Officer d’Accresco Investment Management. En vue de mieux éduquer les investisseurs sur les technique ...</description>
-      <source>L'Express (via mega.mu)</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Uber à Maurice : Succès immédiat, contestation frontale</title>
-      <link>https://live.mega.mu/redirect/255845/</link>
-      <description>Un engouement rapide qui confirme une attente réelle du public pour une mobilité plus simple et transparente…</description>
+      <description>Sen Carooppunnen est un entrepreneur dans le secteur de l'énergie. Depuis 2013, il porte un projet de centrale biomasse à Maurice avec des partenaires indiens et une conviction inébranlable que la solution à la dépendance énergétique de l'île se trouve au-delà des panneaux solaires et des éoliennes, soit dans une plante cultivée en laboratoire, le</description>
       <source>L'Express (via mega.mu)</source>
       <category>local</category>
       <cluster_time>2026-04-15T08:00:00+00:00</cluster_time>
@@ -1612,7 +1263,7 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
     <item>
       <title>Man Arrested After 6 Victims Identified in Decade-Long Abuse Case</title>
       <link>https://newsmoris.com/man-arrested-after-6-victims-identified-in-decade-long-abuse-case/</link>
-      <description>A 57-year-old car dealership employee has been remanded in custody following his arrest on Monday in connection with the alleged sexual abuse of at least six children over a ten-year period. Percy Duval, a resident of Tamarin, faces six provisional … The post Man Arrested After 6 Victims Identified in Decade-Long Abuse Case appeared first on News Moris.</description>
+      <description>A 57-year-old car dealership employee has been remanded in custody following his arrest on Monday in connection with the alleged sexual abuse of at least six children over a ten-year period. Percy Duval, a resident of Tamarin, faces six provisional … The post Man Arrested After 6 Victims Identified in Decade-Long Abuse Case appeared first on News M</description>
       <source>News Moris</source>
       <category>local</category>
       <cluster_time>2026-04-15T07:23:42+00:00</cluster_time>
@@ -1626,66 +1277,6 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-15T07:03:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>In Annaba, Pope Leo XIV hails Algeria’s small Catholic flock and Saint Augustine</title>
-      <link>http://www.africanews.com/2026/04/15/in-annaba-pope-leo-xiv-hails-algerias-small-catholic-flock-and-saint-augustine/</link>
-      <description>Pope Leo XIV celebrates Mass at Annaba’s Basilica of Saint Augustine, highlighting Algeria’s small Catholic community during his symbolic visit.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-15T06:40:31+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Mauritius Weather Station Issues 5 Safety Rules with Thunderstorms to Approach</title>
-      <link>https://newsmoris.com/mauritius-weather-station-issues-5-safety-rules-with-thunderstorms-to-approach/</link>
-      <description>Stormy conditions and localized flooding could affect the Central Plateau and Western districts this Wednesday, 15 April, according to the latest bulletin from the Vacoas Meteorological Station. Forecasters have warned of cloud developments expected later on, bringing showers that may … The post Mauritius Weather Station Issues 5 Safety Rules with Thunderstorms to Approach appeared first on News Moris.</description>
-      <source>News Moris</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T06:15:31+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Nigerian National Arrested at SSR Airport after Swallowing 61 Pellets of Illegal Drugs</title>
-      <link>https://newsmoris.com/nigerian-national-arrested-at-ssr-airport-after-swallowing-61-pellets-of-illegal-drugs/</link>
-      <description>A 47-year-old Nigerian man is in police custody after being intercepted at the airport with dozens of drug pellets concealed internally. Ibeh Udoka Kenneth was apprehended by officers from the Customs Anti-Narcotics Section on 11 April during a routine control … The post Nigerian National Arrested at SSR Airport after Swallowing 61 Pellets of Illegal Drugs appeared first on News Moris.</description>
-      <source>News Moris</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T05:46:41+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Dr Joomaye Faces FCC Warning Over Rs 77.9 Million Pack &amp; Blister Affair</title>
-      <link>https://newsmoris.com/dr-joomaye-faces-fcc-warning-over-rs-77-9-million-pack-blister-affair/</link>
-      <description>The Financial Crimes Commission (FCC) has intensified its investigation into the “Pack &amp; Blister” affair, summoning Dr Zouberr Joomaye for a lengthy interrogation “under warning” on Monday, 13 April. Dr Joomaye, a former advisor to the Prime Minister’s … The post Dr Joomaye Faces FCC Warning Over Rs 77.9 Million Pack &amp; Blister Affair appeared first on News Moris.</description>
-      <source>News Moris</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T05:21:01+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Australia's richest person must share part of her mining fortunes, court rules</title>
-      <link>https://www.bbc.com/news/articles/cq5990nqjg2o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The long-running legal dispute is over a lucrative iron ore project in the top west corner of Australia.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T04:40:30+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>South Korea jails American YouTuber for public nuisance</title>
-      <link>https://www.bbc.com/news/articles/cj400lje9vxo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Johnny Somali sparked outrage after kissing a statue representing World War Two sex slaves.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T04:21:51+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
