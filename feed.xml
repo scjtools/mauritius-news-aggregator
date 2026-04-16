@@ -4,56 +4,156 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Wed, 15 Apr 2026 22:31:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 16 Apr 2026 03:13:36 +0000</lastBuildDate>
     <item>
-      <title>Brent Crude Oil price – 15 April 2026</title>
+      <title>Brent Crude Oil price – 16 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 94.93 per barrel</description>
+      <description>Brent Crude Oil: USD 95.06 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T22:29:17.993382+00:00</cluster_time>
+      <cluster_time>2026-04-16T03:10:59.540036+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bitcoin price – 15 April 2026</title>
+      <title>Bitcoin price – 16 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 75,004.83 (▲ +6.53% from last)</description>
+      <description>Bitcoin (BTC): USD 75,047.67 (▲ +6.59% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T22:29:17.908541+00:00</cluster_time>
+      <cluster_time>2026-04-16T03:10:59.337783+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Gold price – 15 April 2026</title>
+      <title>Gold price – 16 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,800.90 (▲ +9.38% from last)</description>
+      <description>Gold (XAU): USD 4,826.60 (▲ +9.97% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T22:29:17.319514+00:00</cluster_time>
+      <cluster_time>2026-04-16T03:10:58.946239+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>MUR exchange rates – 15 April 2026</title>
+      <title>MUR exchange rates – 16 April 2026</title>
       <link>https://www.floatrates.com/daily/mur.xml</link>
       <description>MUR/USD 46.28 | MUR/EUR 54.56 (▼ 0.21 from last) (▲ 0.87 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T22:29:16.742596+00:00</cluster_time>
+      <cluster_time>2026-04-16T03:10:58.625087+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>SEMDEX – 15 April 2026</title>
+      <title>SEMDEX – 16 April 2026</title>
       <link>https://www.stockexchangeofmauritius.com/products-market-data/indices</link>
       <description>SEMDEX closed at 2256.09 (▲ 32.89 pts, +1.48% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-15T22:29:14.386475+00:00</cluster_time>
+      <cluster_time>2026-04-16T03:10:56.150754+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Météo : beau temps ce matin, averses et risques d’orages dans l’après-midi</title>
+      <link>https://defimedia.info/meteo-beau-temps-ce-matin-averses-et-risques-dorages-dans-lapres-midi</link>
+      <description>Un courant d’air léger, chaud et humide circule actuellement sur notre région. Le temps sera beau ce matin.Des développe</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-16T02:30:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Trump threatens to fire Fed chair Powell if he doesn't leave in May</title>
+      <link>https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Donald Trump's threat marks the latest escalation in his ongoing spat with Jerome Powell.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T01:55:12+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Brazil’s fugitive ex-spy chief freed in the US after ICE detention</title>
+      <link>https://www.aljazeera.com/news/2026/4/16/brazils-fugitive-ex-spy-chief-freed-in-the-us-after-ice-detention?traffic_source=rss</link>
+      <description>Alexandre Ramagem, who fled Brazil following his conviction for plotting a coup, was held by ICE in Florida on Monday.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T01:18:06+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Russian attack on Ukraine’s Kyiv kills 12-year-old child, wounds 10</title>
+      <link>https://www.aljazeera.com/news/2026/4/16/russian-attack-on-ukraines-kyiv-kills-12-year-old-child-wounds-10?traffic_source=rss</link>
+      <description>Kyiv's mayor says the attacks hit Podilskyi and Obolonsky districts, causing fires and damage to residential buildings.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T01:06:01+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Iran war live: Pakistan in push for new round of US-Iran peace negotiations</title>
+      <link>https://www.aljazeera.com/news/liveblog/2026/4/16/iran-war-live-pakistan-in-push-for-new-round-of-us-iran-peace-negotiations?traffic_source=rss</link>
+      <description>At least 2,167 people have been killed and more than 7,000 injured in Israeli attacks on Lebanon since March 2.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-16T00:00:00+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>El Salvador publishes law allowing life sentences for minors as young as 12</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/el-salvador-publishes-law-allowing-life-sentences-for-minors-as-young-as-12?traffic_source=rss</link>
+      <description>The new sentencing measure comes as President Nayib Bukele oversees a four-year-long state of emergency against crime.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T23:45:44+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Peru’s ballot count drags on amid frustration with presidential election</title>
+      <link>https://www.aljazeera.com/news/2026/4/15/perus-ballot-count-drags-on-amid-frustration-with-presidential-election?traffic_source=rss</link>
+      <description>[Al Jazeera] The turbulent election has prompted fraud claims by candidates and frustration with the country's chaotic politics.
+
+[Africanews] Peru saw hundreds of protesters gather outside the Electoral Tribunal in Lima on Tuesday 15 April 2026, demanding a rerun of the presidential election after voting disruptions delayed the process.</description>
+      <source>Al Jazeera</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T23:06:31+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>e1f76bd2195a</cluster_id>
+      <sources>Al Jazeera
+Africanews</sources>
+      <urls>https://www.aljazeera.com/news/2026/4/15/perus-ballot-count-drags-on-amid-frustration-with-presidential-election?traffic_source=rss
+http://www.africanews.com/2026/04/15/peru-election-dispute-deepens-amid-slow-ballot-count/</urls>
+      <titles>Peru’s ballot count drags on amid frustration with presidential election
+Peru election dispute deepens amid slow ballot count</titles>
+      <languages>en</languages>
+    </item>
+    <item>
+      <title>Ticketmaster-owner Live Nation ran a monopoly and overcharged fans, jury finds</title>
+      <link>https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>[BBC News] The lawsuit said the firm's practices had led to higher ticket prices and worse service for customers.
+
+[Al Jazeera] The verdict could cost Live Nation and Ticketmaster hundreds of millions of dollars.</description>
+      <source>BBC News</source>
+      <category>global</category>
+      <cluster_time>2026-04-15T22:56:29+00:00</cluster_time>
+      <cluster_size>2</cluster_size>
+      <source_count>2</source_count>
+      <cluster_id>bee5e0e8477d</cluster_id>
+      <sources>BBC News
+Al Jazeera</sources>
+      <urls>https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&amp;at_campaign=rss
+https://www.aljazeera.com/economy/2026/4/15/us-jury-finds-ticketmaster-and-live-nation-had-anticompetitive-monopoly?traffic_source=rss</urls>
+      <titles>Ticketmaster-owner Live Nation ran a monopoly and overcharged fans, jury finds
+US jury finds Ticketmaster and Live Nation had anticompetitive monopoly</titles>
+      <languages>en</languages>
     </item>
     <item>
       <title>Brazil’s police open a probe into presidential candidate Flavio Bolsonaro</title>
@@ -66,43 +166,14 @@
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Bayern edge Real Madrid 4-3 in classic to reach Champions League semifinals</title>
+      <title>Bayern knock Real Madrid out of Champions League in quarterfinal classic</title>
       <link>https://www.aljazeera.com/sports/2026/4/15/bayern-edge-real-madrid-4-3-in-classic-to-reach-champions-league-semifinals?traffic_source=rss</link>
-      <description>[Al Jazeera] Luis Diaz and Michael Olise score late goals in Munich to give Bayern a dramatic 6-4 aggregate win over Real Madrid.
-
-[Al Jazeera] All the updates as Bayern leave it late to beat Real Madrid and set up a semifinal against Paris Saint-Germain.</description>
+      <description>Luis Diaz and Michael Olise score late goals in Munich to give Bayern a dramatic 6-4 aggregate win over Real Madrid.</description>
       <source>Al Jazeera</source>
       <category>global</category>
       <cluster_time>2026-04-15T21:31:04+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
+      <cluster_size>1</cluster_size>
       <source_count>1</source_count>
-      <cluster_id>1e5125ba3342</cluster_id>
-      <sources>Al Jazeera</sources>
-      <urls>https://www.aljazeera.com/sports/2026/4/15/bayern-edge-real-madrid-4-3-in-classic-to-reach-champions-league-semifinals?traffic_source=rss
-https://www.aljazeera.com/sports/liveblog/2026/4/15/live-bayern-munich-vs-real-madrid-champions-league-quarterfinal?traffic_source=rss</urls>
-      <titles>Bayern edge Real Madrid 4-3 in classic to reach Champions League semifinals
-Bayern vs Real Madrid 4-3 (6-4 agg): Champions League – as it happened</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>Ticketmaster-owner Live Nation ran a monopoly and overcharged fans, jury finds</title>
-      <link>https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] The lawsuit said the firm's practices had led to higher ticket prices and worse service for customers.
-
-[Al Jazeera] The verdict could cost Live Nation and Ticketmaster hundreds of millions of dollars.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T21:28:59+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>bee5e0e8477d</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/economy/2026/4/15/us-jury-finds-ticketmaster-and-live-nation-had-anticompetitive-monopoly?traffic_source=rss</urls>
-      <titles>Ticketmaster-owner Live Nation ran a monopoly and overcharged fans, jury finds
-US jury finds Ticketmaster and Live Nation had anticompetitive monopoly</titles>
-      <languages>en</languages>
     </item>
     <item>
       <title>Lyse Doucet: Under fragile ceasefire, Iranians wonder if US deal can be done</title>
@@ -225,26 +296,6 @@ Pope’s visit raises hopes for peace in cameroon’s anglophone region</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Trump threatens to fire Fed chair Powell if he doesn't leave in May</title>
-      <link>https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>[BBC News] Donald Trump's threat marks the latest escalation in his ongoing spat with Jerome Powell.
-
-[Al Jazeera] In a Fox Business interview, Trump says he will fire Powell if he does not vacate his board seat when his term ends.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T18:29:50+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>fc557be56bfe</cluster_id>
-      <sources>BBC News
-Al Jazeera</sources>
-      <urls>https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&amp;at_campaign=rss
-https://www.aljazeera.com/economy/2026/4/15/trump-escalates-threats-to-fire-us-federal-reserve-chair-powell?traffic_source=rss</urls>
-      <titles>Trump threatens to fire Fed chair Powell if he doesn't leave in May
-Trump threatens to fire Fed Chair Powell if he doesn’t step down by May 15</titles>
-      <languages>en</languages>
-    </item>
-    <item>
       <title>What is Trump-backed SAVE America Act and what could it mean for US vote?</title>
       <link>https://www.aljazeera.com/news/2026/4/15/what-is-trump-backed-save-america-act-and-what-could-it-mean-for-us-vote?traffic_source=rss</link>
       <description>US Senate resumes debate on controversial bill requiring more proof of citizenship, which Trump calls top priority.</description>
@@ -328,32 +379,12 @@ Hausse des prix des carburants : les explications du ministre Sik Yuen</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Iran warns US naval blockade threatens ceasefire</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/iran-warns-us-naval-blockade-threatens-ceasefire?traffic_source=rss</link>
-      <description>[Al Jazeera] Iran says it will halt all trade in the Gulf if the US continues blocking its vessels.
-
-[Africanews] Iranian state media reported Wednesday that the commander of Iran’s joint military command warned that Iran would completely block exports and imports across the Persian Gulf region, the Sea of Oman, and the Red Sea if the United States did not lift its blockade on Iranian ports.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
+      <title>Iran issues warnings as Trump says war 'is almost over'</title>
+      <link>http://www.africanews.com/2026/04/15/iran-issues-warnings-as-trump-says-war-is-almost-over/</link>
+      <description>Iranian state media reported Wednesday that the commander of Iran’s joint military command warned that Iran would completely block exports and imports across the Persian Gulf region, the Sea of Oman, and the Red Sea if the United States did not lift its blockade on Iranian ports.</description>
+      <source>Africanews</source>
+      <category>regional</category>
       <cluster_time>2026-04-15T17:14:59+00:00</cluster_time>
-      <cluster_size>2</cluster_size>
-      <source_count>2</source_count>
-      <cluster_id>9c8d36fd2fab</cluster_id>
-      <sources>Al Jazeera
-Africanews</sources>
-      <urls>https://www.aljazeera.com/news/2026/4/15/iran-warns-us-naval-blockade-threatens-ceasefire?traffic_source=rss
-http://www.africanews.com/2026/04/15/iran-issues-warnings-as-trump-says-war-is-almost-over/</urls>
-      <titles>Iran warns US naval blockade threatens ceasefire
-Iran issues warnings as Trump says war 'is almost over'</titles>
-      <languages>en</languages>
-    </item>
-    <item>
-      <title>UN experts urge member states to suspend Israel arms transfers</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/un-experts-urge-member-states-to-suspend-israel-arms-transfers?traffic_source=rss</link>
-      <description>The experts call Israel's bombardment of Lebanon on April 8 'a blatant violation of the UN Charter'.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T17:07:29+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -398,32 +429,12 @@ Iran issues warnings as Trump says war 'is almost over'</titles>
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Netanyahu sees Lebanon as his last chance for a ‘win’</title>
-      <link>https://www.aljazeera.com/opinions/2026/4/15/netanyahu-sees-lebanon-as-his-last-chance-for-a?traffic_source=rss</link>
-      <description>After the failure in Gaza and Iran, the Israeli prime minister hopes he can be triumphant in Lebanon.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T16:38:12+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>Togo to ask UN members to adopt world maps that show true size of Africa</title>
       <link>http://www.africanews.com/2026/04/15/togo-to-ask-un-members-to-adopt-world-maps-that-show-true-size-of-africa/</link>
       <description>Togo has launched a campaign to adopt a world map that better represents the true size of Africa. Now Togo will ask UN member states to commit to ditching European centred maps in favour of more accurate representations.</description>
       <source>Africanews</source>
       <category>regional</category>
       <cluster_time>2026-04-15T16:32:03+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Why has Italy’s Giorgia Meloni suspended a defence pact with Israel?</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/why-has-italys-giorgia-meloni-suspended-a-defence-pact-with-israel?traffic_source=rss</link>
-      <description>Italy’s decision has little immediate impact, but marks an unprecedented U-turn by one of Israel's staunchest allies.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T16:10:11+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -444,16 +455,6 @@ Iran issues warnings as Trump says war 'is almost over'</titles>
       <source>Defimedia</source>
       <category>local</category>
       <cluster_time>2026-04-15T15:43:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>Can Japan’s arms industry gain from Trump trust loss?</title>
-      <link>https://www.aljazeera.com/news/2026/4/15/can-japans-arms-industry-gain-from-trump-trust-loss?traffic_source=rss</link>
-      <description>Japan's announcement comes at a time when the country is looking to rapidly expand its defence exports.</description>
-      <source>Al Jazeera</source>
-      <category>global</category>
-      <cluster_time>2026-04-15T15:42:23+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -1629,26 +1630,6 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
       <source_count>1</source_count>
     </item>
     <item>
-      <title>Peru election dispute deepens amid slow ballot count</title>
-      <link>http://www.africanews.com/2026/04/15/peru-election-dispute-deepens-amid-slow-ballot-count/</link>
-      <description>Peru saw hundreds of protesters gather outside the Electoral Tribunal in Lima on Tuesday 15 April 2026, demanding a rerun of the presidential election after voting disruptions delayed the process.</description>
-      <source>Africanews</source>
-      <category>regional</category>
-      <cluster_time>2026-04-15T07:00:04+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>L’Alliance du Changement face aux attentes des Mauriciens</title>
-      <link>https://defimedia.info/lalliance-du-changement-face-aux-attentes-des-mauriciens</link>
-      <description>Dans l’émission Au cœur de l’info, animée par Prem Sewpaul, le leader des Nouveaux démocrates, Khushal Lobine, et le dép</description>
-      <source>Defimedia</source>
-      <category>local</category>
-      <cluster_time>2026-04-15T06:58:00+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
       <title>In Annaba, Pope Leo XIV hails Algeria’s small Catholic flock and Saint Augustine</title>
       <link>http://www.africanews.com/2026/04/15/in-annaba-pope-leo-xiv-hails-algerias-small-catholic-flock-and-saint-augustine/</link>
       <description>Pope Leo XIV celebrates Mass at Annaba’s Basilica of Saint Augustine, highlighting Algeria’s small Catholic community during his symbolic visit.</description>
@@ -1705,16 +1686,6 @@ Géopolitique et climat : Anatomie d’un choc que nous n’avons pas choisi</ti
       <source>BBC News</source>
       <category>global</category>
       <cluster_time>2026-04-15T04:21:51+00:00</cluster_time>
-      <cluster_size>1</cluster_size>
-      <source_count>1</source_count>
-    </item>
-    <item>
-      <title>New search engine reveals if ancestors were in Nazi party</title>
-      <link>https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Christian Rainer told the BBC he found his grandfather within seconds using the online tool, which also helped clear other members of his family.</description>
-      <source>BBC News</source>
-      <category>global</category>
-      <cluster_time>2026-04-14T23:13:34+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>

@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 154,
+  "item_count": 153,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-15T22:29:17.993382+00:00",
+      "cluster_time": "2026-04-16T03:10:59.540036+00:00",
       "category": "finance",
-      "headline": "Brent Crude Oil price – 15 April 2026",
-      "summary": "Brent Crude Oil: USD 94.93 per barrel",
+      "headline": "Brent Crude Oil price – 16 April 2026",
+      "summary": "Brent Crude Oil: USD 95.06 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-15T22:29:17.908541+00:00",
+      "cluster_time": "2026-04-16T03:10:59.337783+00:00",
       "category": "finance",
-      "headline": "Bitcoin price – 15 April 2026",
-      "summary": "Bitcoin (BTC): USD 75,004.83 (▲ +6.53% from last)",
+      "headline": "Bitcoin price – 16 April 2026",
+      "summary": "Bitcoin (BTC): USD 75,047.67 (▲ +6.59% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-15T22:29:17.319514+00:00",
+      "cluster_time": "2026-04-16T03:10:58.946239+00:00",
       "category": "finance",
-      "headline": "Gold price – 15 April 2026",
-      "summary": "Gold (XAU): USD 4,800.90 (▲ +9.38% from last)",
+      "headline": "Gold price – 16 April 2026",
+      "summary": "Gold (XAU): USD 4,826.60 (▲ +9.97% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,9 +49,9 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-15T22:29:16.742596+00:00",
+      "cluster_time": "2026-04-16T03:10:58.625087+00:00",
       "category": "finance",
-      "headline": "MUR exchange rates – 15 April 2026",
+      "headline": "MUR exchange rates – 16 April 2026",
       "summary": "MUR/USD 46.28 | MUR/EUR 54.56 (▼ 0.21 from last) (▲ 0.87 from last)",
       "cluster_size": 1,
       "source_count": 1,
@@ -64,9 +64,9 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-15T22:29:14.386475+00:00",
+      "cluster_time": "2026-04-16T03:10:56.150754+00:00",
       "category": "finance",
-      "headline": "SEMDEX – 15 April 2026",
+      "headline": "SEMDEX – 16 April 2026",
       "summary": "SEMDEX closed at 2256.09 (▲ 32.89 pts, +1.48% from last close 2,223.20)",
       "cluster_size": 1,
       "source_count": 1,
@@ -75,6 +75,130 @@
       ],
       "urls": [
         "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+      ]
+    },
+    {
+      "id": "singleton_c593b8c568aa",
+      "cluster_time": "2026-04-16T02:30:00+00:00",
+      "category": "local",
+      "headline": "Météo : beau temps ce matin, averses et risques d’orages dans l’après-midi",
+      "summary": "Un courant d’air léger, chaud et humide circule actuellement sur notre région. Le temps sera beau ce matin.Des développe",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/meteo-beau-temps-ce-matin-averses-et-risques-dorages-dans-lapres-midi"
+      ]
+    },
+    {
+      "id": "singleton_d4179622f6c9",
+      "cluster_time": "2026-04-16T01:55:12+00:00",
+      "category": "global",
+      "headline": "Trump threatens to fire Fed chair Powell if he doesn't leave in May",
+      "summary": "Donald Trump's threat marks the latest escalation in his ongoing spat with Jerome Powell.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_46aa6bd2dc41",
+      "cluster_time": "2026-04-16T01:18:06+00:00",
+      "category": "global",
+      "headline": "Brazil’s fugitive ex-spy chief freed in the US after ICE detention",
+      "summary": "Alexandre Ramagem, who fled Brazil following his conviction for plotting a coup, was held by ICE in Florida on Monday.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/16/brazils-fugitive-ex-spy-chief-freed-in-the-us-after-ice-detention?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_d0880fcc3ef5",
+      "cluster_time": "2026-04-16T01:06:01+00:00",
+      "category": "global",
+      "headline": "Russian attack on Ukraine’s Kyiv kills 12-year-old child, wounds 10",
+      "summary": "Kyiv's mayor says the attacks hit Podilskyi and Obolonsky districts, causing fires and damage to residential buildings.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/16/russian-attack-on-ukraines-kyiv-kills-12-year-old-child-wounds-10?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_7c1d37d530c4",
+      "cluster_time": "2026-04-16T00:00:00+00:00",
+      "category": "global",
+      "headline": "Iran war live: Pakistan in push for new round of US-Iran peace negotiations",
+      "summary": "At least 2,167 people have been killed and more than 7,000 injured in Israeli attacks on Lebanon since March 2.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/4/16/iran-war-live-pakistan-in-push-for-new-round-of-us-iran-peace-negotiations?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_96f5a95b8330",
+      "cluster_time": "2026-04-15T23:45:44+00:00",
+      "category": "global",
+      "headline": "El Salvador publishes law allowing life sentences for minors as young as 12",
+      "summary": "The new sentencing measure comes as President Nayib Bukele oversees a four-year-long state of emergency against crime.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/15/el-salvador-publishes-law-allowing-life-sentences-for-minors-as-young-as-12?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "e1f76bd2195a",
+      "cluster_time": "2026-04-15T23:06:31+00:00",
+      "category": "global",
+      "headline": "Peru’s ballot count drags on amid frustration with presidential election",
+      "summary": "[Al Jazeera] The turbulent election has prompted fraud claims by candidates and frustration with the country's chaotic politics.\n\n[Africanews] Peru saw hundreds of protesters gather outside the Electoral Tribunal in Lima on Tuesday 15 April 2026, demanding a rerun of the presidential election after voting disruptions delayed the process.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/15/perus-ballot-count-drags-on-amid-frustration-with-presidential-election?traffic_source=rss",
+        "http://www.africanews.com/2026/04/15/peru-election-dispute-deepens-amid-slow-ballot-count/"
+      ]
+    },
+    {
+      "id": "bee5e0e8477d",
+      "cluster_time": "2026-04-15T22:56:29+00:00",
+      "category": "global",
+      "headline": "Ticketmaster-owner Live Nation ran a monopoly and overcharged fans, jury finds",
+      "summary": "[BBC News] The lawsuit said the firm's practices had led to higher ticket prices and worse service for customers.\n\n[Al Jazeera] The verdict could cost Live Nation and Ticketmaster hundreds of millions of dollars.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/economy/2026/4/15/us-jury-finds-ticketmaster-and-live-nation-had-anticompetitive-monopoly?traffic_source=rss"
       ]
     },
     {
@@ -93,36 +217,18 @@
       ]
     },
     {
-      "id": "1e5125ba3342",
+      "id": "singleton_6a250b2dbbca",
       "cluster_time": "2026-04-15T21:31:04+00:00",
       "category": "global",
-      "headline": "Bayern edge Real Madrid 4-3 in classic to reach Champions League semifinals",
-      "summary": "[Al Jazeera] Luis Diaz and Michael Olise score late goals in Munich to give Bayern a dramatic 6-4 aggregate win over Real Madrid.\n\n[Al Jazeera] All the updates as Bayern leave it late to beat Real Madrid and set up a semifinal against Paris Saint-Germain.",
-      "cluster_size": 2,
+      "headline": "Bayern knock Real Madrid out of Champions League in quarterfinal classic",
+      "summary": "Luis Diaz and Michael Olise score late goals in Munich to give Bayern a dramatic 6-4 aggregate win over Real Madrid.",
+      "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/sports/2026/4/15/bayern-edge-real-madrid-4-3-in-classic-to-reach-champions-league-semifinals?traffic_source=rss",
-        "https://www.aljazeera.com/sports/liveblog/2026/4/15/live-bayern-munich-vs-real-madrid-champions-league-quarterfinal?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "bee5e0e8477d",
-      "cluster_time": "2026-04-15T21:28:59+00:00",
-      "category": "global",
-      "headline": "Ticketmaster-owner Live Nation ran a monopoly and overcharged fans, jury finds",
-      "summary": "[BBC News] The lawsuit said the firm's practices had led to higher ticket prices and worse service for customers.\n\n[Al Jazeera] The verdict could cost Live Nation and Ticketmaster hundreds of millions of dollars.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/clyddyp19yyo?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/economy/2026/4/15/us-jury-finds-ticketmaster-and-live-nation-had-anticompetitive-monopoly?traffic_source=rss"
+        "https://www.aljazeera.com/sports/2026/4/15/bayern-edge-real-madrid-4-3-in-classic-to-reach-champions-league-semifinals?traffic_source=rss"
       ]
     },
     {
@@ -280,23 +386,6 @@
       ]
     },
     {
-      "id": "fc557be56bfe",
-      "cluster_time": "2026-04-15T18:29:50+00:00",
-      "category": "global",
-      "headline": "Trump threatens to fire Fed chair Powell if he doesn't leave in May",
-      "summary": "[BBC News] Donald Trump's threat marks the latest escalation in his ongoing spat with Jerome Powell.\n\n[Al Jazeera] In a Fox Business interview, Trump says he will fire Powell if he does not vacate his board seat when his term ends.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c9qddrdd8w2o?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/economy/2026/4/15/trump-escalates-threats-to-fire-us-federal-reserve-chair-powell?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_ac2877b165da",
       "cluster_time": "2026-04-15T18:29:00+00:00",
       "category": "global",
@@ -404,35 +493,18 @@
       ]
     },
     {
-      "id": "9c8d36fd2fab",
+      "id": "singleton_56b2f6f03ec8",
       "cluster_time": "2026-04-15T17:14:59+00:00",
-      "category": "global",
-      "headline": "Iran warns US naval blockade threatens ceasefire",
-      "summary": "[Al Jazeera] Iran says it will halt all trade in the Gulf if the US continues blocking its vessels.\n\n[Africanews] Iranian state media reported Wednesday that the commander of Iran’s joint military command warned that Iran would completely block exports and imports across the Persian Gulf region, the Sea of Oman, and the Red Sea if the United States did not lift its blockade on Iranian ports.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "Al Jazeera",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/15/iran-warns-us-naval-blockade-threatens-ceasefire?traffic_source=rss",
-        "http://www.africanews.com/2026/04/15/iran-issues-warnings-as-trump-says-war-is-almost-over/"
-      ]
-    },
-    {
-      "id": "singleton_60cb6ab706ee",
-      "cluster_time": "2026-04-15T17:07:29+00:00",
-      "category": "global",
-      "headline": "UN experts urge member states to suspend Israel arms transfers",
-      "summary": "The experts call Israel's bombardment of Lebanon on April 8 'a blatant violation of the UN Charter'.",
+      "category": "regional",
+      "headline": "Iran issues warnings as Trump says war 'is almost over'",
+      "summary": "Iranian state media reported Wednesday that the commander of Iran’s joint military command warned that Iran would completely block exports and imports across the Persian Gulf region, the Sea of Oman, and the Red Sea if the United States did not lift its blockade on Iranian ports.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Al Jazeera"
+        "Africanews"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/15/un-experts-urge-member-states-to-suspend-israel-arms-transfers?traffic_source=rss"
+        "http://www.africanews.com/2026/04/15/iran-issues-warnings-as-trump-says-war-is-almost-over/"
       ]
     },
     {
@@ -496,21 +568,6 @@
       ]
     },
     {
-      "id": "singleton_f82d96a1e28d",
-      "cluster_time": "2026-04-15T16:38:12+00:00",
-      "category": "global",
-      "headline": "Netanyahu sees Lebanon as his last chance for a ‘win’",
-      "summary": "After the failure in Gaza and Iran, the Israeli prime minister hopes he can be triumphant in Lebanon.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/opinions/2026/4/15/netanyahu-sees-lebanon-as-his-last-chance-for-a?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_b8adb95dd18f",
       "cluster_time": "2026-04-15T16:32:03+00:00",
       "category": "regional",
@@ -523,21 +580,6 @@
       ],
       "urls": [
         "http://www.africanews.com/2026/04/15/togo-to-ask-un-members-to-adopt-world-maps-that-show-true-size-of-africa/"
-      ]
-    },
-    {
-      "id": "singleton_23f91318a745",
-      "cluster_time": "2026-04-15T16:10:11+00:00",
-      "category": "global",
-      "headline": "Why has Italy’s Giorgia Meloni suspended a defence pact with Israel?",
-      "summary": "Italy’s decision has little immediate impact, but marks an unprecedented U-turn by one of Israel's staunchest allies.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/15/why-has-italys-giorgia-meloni-suspended-a-defence-pact-with-israel?traffic_source=rss"
       ]
     },
     {
@@ -568,21 +610,6 @@
       ],
       "urls": [
         "https://defimedia.info/au-coeur-de-linfo-paul-berenger-quitte-le-mmm-quel-avenir-pour-le-parti-et-son-ex-leader"
-      ]
-    },
-    {
-      "id": "singleton_941adbcd91ef",
-      "cluster_time": "2026-04-15T15:42:23+00:00",
-      "category": "global",
-      "headline": "Can Japan’s arms industry gain from Trump trust loss?",
-      "summary": "Japan's announcement comes at a time when the country is looking to rapidly expand its defence exports.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/15/can-japans-arms-industry-gain-from-trump-trust-loss?traffic_source=rss"
       ]
     },
     {
@@ -2211,36 +2238,6 @@
       ]
     },
     {
-      "id": "singleton_6841ed4792f0",
-      "cluster_time": "2026-04-15T07:00:04+00:00",
-      "category": "regional",
-      "headline": "Peru election dispute deepens amid slow ballot count",
-      "summary": "Peru saw hundreds of protesters gather outside the Electoral Tribunal in Lima on Tuesday 15 April 2026, demanding a rerun of the presidential election after voting disruptions delayed the process.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/15/peru-election-dispute-deepens-amid-slow-ballot-count/"
-      ]
-    },
-    {
-      "id": "singleton_c2b4cdb6e036",
-      "cluster_time": "2026-04-15T06:58:00+00:00",
-      "category": "local",
-      "headline": "L’Alliance du Changement face aux attentes des Mauriciens",
-      "summary": "Dans l’émission Au cœur de l’info, animée par Prem Sewpaul, le leader des Nouveaux démocrates, Khushal Lobine, et le dép",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/lalliance-du-changement-face-aux-attentes-des-mauriciens"
-      ]
-    },
-    {
       "id": "singleton_48bbe7a7c0f2",
       "cluster_time": "2026-04-15T06:40:31+00:00",
       "category": "regional",
@@ -2328,21 +2325,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/cj400lje9vxo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_e3aeba8e32d1",
-      "cluster_time": "2026-04-14T23:13:34+00:00",
-      "category": "global",
-      "headline": "New search engine reveals if ancestors were in Nazi party",
-      "summary": "Christian Rainer told the BBC he found his grandfather within seconds using the online tool, which also helped clear other members of his family.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cr411ndee7yo?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
