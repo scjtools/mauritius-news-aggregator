@@ -21,7 +21,7 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36"
 }
 MAX_AGE_HOURS = 24
-MAX_SUMMARY_CHARS = 500
+MAX_SUMMARY_CHARS = 350
 SCRAPE_SLEEP_SECONDS = 2
 
 # Universal editorial-noise filters.
@@ -51,6 +51,24 @@ UNIVERSAL_EXCLUDE_SUMMARY_PATTERNS = [
     r"(?i)\bopinion\b",
     r"(?i)\banalysis\b",
     r"(?i)\bcommentary\b",
+]
+
+# L'Express / mega.mu low-value format prefixes.
+# These are parliamentary question summaries, interview features, event roundups,
+# and editorial columns — none carry standalone hard-news value.
+MEGAMU_EXCLUDE_TITLE_PREFIXES = [
+    "pq :",
+    "pnq :",
+    "pmqts :",
+    "pmqt :",
+    "questions à",
+    "au cœur de l'info",
+    "en couverture",
+    "journée mondiale",
+    "dossier :",
+    "éclairage :",
+    "region :",
+    "région :",
 ]
 
 
@@ -146,6 +164,11 @@ def should_drop_item(source, title, url, summary=""):
         return True
     if _matches_any_regex(summary, exclude_summary_patterns):
         return True
+
+    # mega.mu / L'Express-specific low-value format filter
+    if source.get("type") == "megamu":
+        if any(title_lower.startswith(pfx) for pfx in MEGAMU_EXCLUDE_TITLE_PREFIXES):
+            return True
 
     # Universal filters
     if any(pat in url_lower for pat in UNIVERSAL_EXCLUDE_URL_PATTERNS):
@@ -351,7 +374,8 @@ def scrape_homepage(source):
 
 def scrape_megamu(source):
     items = []
-    max_pages = source.get("max_pages", 5)
+    max_pages = source.get("max_pages", 2)
+    max_items = source.get("max_items", 20)
     seen = set()
 
     EN_MONTHS = {
@@ -371,6 +395,9 @@ def scrape_megamu(source):
 
     try:
         for page in range(1, max_pages + 1):
+            if len(items) >= max_items:
+                break
+
             url = source["url"] if page == 1 else f"{source['url']}?page={page}"
             r = requests.get(url, headers=HEADERS, timeout=15)
             r.raise_for_status()
@@ -381,6 +408,9 @@ def scrape_megamu(source):
             page_went_stale = False
 
             for h3 in articles:
+                if len(items) >= max_items:
+                    break
+
                 a_tag = h3.find("a", href=True)
                 if not a_tag:
                     continue
@@ -976,6 +1006,7 @@ def enrich_articles(items: list) -> list:
         if not item.get("date_verified", True)
         and item.get("category") in ("local", "regional")
         and item.get("url", "").startswith("http")
+        and "mega.mu" not in item.get("url", "")
     ]
 
     summary_targets = [
@@ -984,6 +1015,7 @@ def enrich_articles(items: list) -> list:
         and not item.get("summary", "").strip()
         and item.get("category") in ("local", "regional")
         and item.get("url", "").startswith("http")
+        and "mega.mu" not in item.get("url", "")
         and i not in set(date_targets)
     ]
 
