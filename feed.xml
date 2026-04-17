@@ -4,34 +4,34 @@
     <title>Mauritius News Aggregator</title>
     <link>https://github.com/scjtools/mauritius-news-aggregator/blob/main/feed.xml</link>
     <description>Aggregated Mauritius news – last 24 hours</description>
-    <lastBuildDate>Fri, 17 Apr 2026 02:42:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 17 Apr 2026 03:17:44 +0000</lastBuildDate>
     <item>
       <title>Brent Crude Oil price – 17 April 2026</title>
       <link>https://www.oilpriceapi.com</link>
-      <description>Brent Crude Oil: USD 98.38 per barrel</description>
+      <description>Brent Crude Oil: USD 98.23 per barrel</description>
       <source>Brent Crude Oil</source>
       <category>finance</category>
-      <cluster_time>2026-04-17T02:40:08.378279+00:00</cluster_time>
+      <cluster_time>2026-04-17T03:15:22.286890+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Bitcoin price – 17 April 2026</title>
       <link>https://api.gold-api.com/price/BTC</link>
-      <description>Bitcoin (BTC): USD 74,677.62 (▲ +6.07% from last)</description>
+      <description>Bitcoin (BTC): USD 74,676.07 (▲ +6.06% from last)</description>
       <source>Bitcoin Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-17T02:40:08.185212+00:00</cluster_time>
+      <cluster_time>2026-04-17T03:15:22.099573+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
     <item>
       <title>Gold price – 17 April 2026</title>
       <link>https://api.gold-api.com/price/XAU</link>
-      <description>Gold (XAU): USD 4,794.80 (▲ +9.24% from last)</description>
+      <description>Gold (XAU): USD 4,794.60 (▲ +9.24% from last)</description>
       <source>Gold Price</source>
       <category>finance</category>
-      <cluster_time>2026-04-17T02:40:07.907986+00:00</cluster_time>
+      <cluster_time>2026-04-17T03:15:21.768895+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -41,7 +41,7 @@
       <description>MUR/USD 46.24 | MUR/EUR 54.50 (▼ 0.25 from last) (▲ 0.81 from last)</description>
       <source>MUR Exchange Rates</source>
       <category>finance</category>
-      <cluster_time>2026-04-17T02:40:07.544252+00:00</cluster_time>
+      <cluster_time>2026-04-17T03:15:21.383414+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>
@@ -51,7 +51,17 @@
       <description>SEMDEX closed at 2254.57 (▲ 31.37 pts, +1.41% from last close 2,223.20)</description>
       <source>Stock Exchange of Mauritius</source>
       <category>finance</category>
-      <cluster_time>2026-04-17T02:40:05.347411+00:00</cluster_time>
+      <cluster_time>2026-04-17T03:15:19.002500+00:00</cluster_time>
+      <cluster_size>1</cluster_size>
+      <source_count>1</source_count>
+    </item>
+    <item>
+      <title>Météo : des averses accompagnées d'orages isolés attendues ce vendredi</title>
+      <link>https://defimedia.info/meteo-des-averses-accompagnees-dorages-isoles-attendues-ce-vendredi</link>
+      <description>Des nuages associés à une zone d’instabilité s’approchant par le nord-est influenceront graduellement le temps local. Le</description>
+      <source>Defimedia</source>
+      <category>local</category>
+      <cluster_time>2026-04-17T02:40:00+00:00</cluster_time>
       <cluster_size>1</cluster_size>
       <source_count>1</source_count>
     </item>

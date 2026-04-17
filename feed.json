@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 104,
+  "item_count": 105,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-17T02:40:08.378279+00:00",
+      "cluster_time": "2026-04-17T03:15:22.286890+00:00",
       "category": "finance",
       "headline": "Brent Crude Oil price – 17 April 2026",
-      "summary": "Brent Crude Oil: USD 98.38 per barrel",
+      "summary": "Brent Crude Oil: USD 98.23 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-17T02:40:08.185212+00:00",
+      "cluster_time": "2026-04-17T03:15:22.099573+00:00",
       "category": "finance",
       "headline": "Bitcoin price – 17 April 2026",
-      "summary": "Bitcoin (BTC): USD 74,677.62 (▲ +6.07% from last)",
+      "summary": "Bitcoin (BTC): USD 74,676.07 (▲ +6.06% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-17T02:40:07.907986+00:00",
+      "cluster_time": "2026-04-17T03:15:21.768895+00:00",
       "category": "finance",
       "headline": "Gold price – 17 April 2026",
-      "summary": "Gold (XAU): USD 4,794.80 (▲ +9.24% from last)",
+      "summary": "Gold (XAU): USD 4,794.60 (▲ +9.24% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,7 +49,7 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-17T02:40:07.544252+00:00",
+      "cluster_time": "2026-04-17T03:15:21.383414+00:00",
       "category": "finance",
       "headline": "MUR exchange rates – 17 April 2026",
       "summary": "MUR/USD 46.24 | MUR/EUR 54.50 (▼ 0.25 from last) (▲ 0.81 from last)",
@@ -64,7 +64,7 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-17T02:40:05.347411+00:00",
+      "cluster_time": "2026-04-17T03:15:19.002500+00:00",
       "category": "finance",
       "headline": "SEMDEX – 17 April 2026",
       "summary": "SEMDEX closed at 2254.57 (▲ 31.37 pts, +1.41% from last close 2,223.20)",
@@ -75,6 +75,21 @@
       ],
       "urls": [
         "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+      ]
+    },
+    {
+      "id": "singleton_b6f83076c4a5",
+      "cluster_time": "2026-04-17T02:40:00+00:00",
+      "category": "local",
+      "headline": "Météo : des averses accompagnées d'orages isolés attendues ce vendredi",
+      "summary": "Des nuages associés à une zone d’instabilité s’approchant par le nord-est influenceront graduellement le temps local. Le",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/meteo-des-averses-accompagnees-dorages-isoles-attendues-ce-vendredi"
       ]
     },
     {
