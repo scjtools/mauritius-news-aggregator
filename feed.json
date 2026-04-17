@@ -1,28 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 106,
+  "item_count": 104,
   "items": [
     {
-      "id": "singleton_7403c664d816",
-      "cluster_time": "2026-04-16T22:10:02.151071+00:00",
-      "category": "global",
-      "headline": "AI Is Finding Bugs That Hackers Can Exploit. Get Ready for Bugmageddon.",
-      "summary": "White House and industry leaders race to fix vulnerabilities, which AI models can discover with frightening speed",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Injected"
-      ],
-      "urls": [
-        "https://www.wsj.com/tech/ai/ai-is-finding-bugs-that-hackers-can-exploit-get-ready-for-bugmageddon-baaff236"
-      ]
-    },
-    {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-16T22:10:02.148903+00:00",
+      "cluster_time": "2026-04-17T02:40:08.378279+00:00",
       "category": "finance",
-      "headline": "Brent Crude Oil price – 16 April 2026",
-      "summary": "Brent Crude Oil: USD 98.28 per barrel",
+      "headline": "Brent Crude Oil price – 17 April 2026",
+      "summary": "Brent Crude Oil: USD 98.38 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-16T22:10:02.046336+00:00",
+      "cluster_time": "2026-04-17T02:40:08.185212+00:00",
       "category": "finance",
-      "headline": "Bitcoin price – 16 April 2026",
-      "summary": "Bitcoin (BTC): USD 75,064.83 (▲ +6.62% from last)",
+      "headline": "Bitcoin price – 17 April 2026",
+      "summary": "Bitcoin (BTC): USD 74,677.62 (▲ +6.07% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-16T22:10:01.511675+00:00",
+      "cluster_time": "2026-04-17T02:40:07.907986+00:00",
       "category": "finance",
-      "headline": "Gold price – 16 April 2026",
-      "summary": "Gold (XAU): USD 4,797.20 (▲ +9.30% from last)",
+      "headline": "Gold price – 17 April 2026",
+      "summary": "Gold (XAU): USD 4,794.80 (▲ +9.24% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -64,9 +49,9 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-16T22:10:00.911090+00:00",
+      "cluster_time": "2026-04-17T02:40:07.544252+00:00",
       "category": "finance",
-      "headline": "MUR exchange rates – 16 April 2026",
+      "headline": "MUR exchange rates – 17 April 2026",
       "summary": "MUR/USD 46.24 | MUR/EUR 54.50 (▼ 0.25 from last) (▲ 0.81 from last)",
       "cluster_size": 1,
       "source_count": 1,
@@ -79,9 +64,9 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-16T22:09:58.578938+00:00",
+      "cluster_time": "2026-04-17T02:40:05.347411+00:00",
       "category": "finance",
-      "headline": "SEMDEX – 16 April 2026",
+      "headline": "SEMDEX – 17 April 2026",
       "summary": "SEMDEX closed at 2254.57 (▲ 31.37 pts, +1.41% from last close 2,223.20)",
       "cluster_size": 1,
       "source_count": 1,
@@ -90,6 +75,113 @@
       ],
       "urls": [
         "https://www.stockexchangeofmauritius.com/products-market-data/indices"
+      ]
+    },
+    {
+      "id": "singleton_2ee8f679e970",
+      "cluster_time": "2026-04-17T01:43:12+00:00",
+      "category": "global",
+      "headline": "Singer D4vd arrested in connection with death of missing teen girl",
+      "summary": "The remains of 14-year-old Celeste Rivas Hernandez were found in the singer's car last year.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c20d22ev21wo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_69e937ea37be",
+      "cluster_time": "2026-04-17T00:53:03+00:00",
+      "category": "global",
+      "headline": "South Korea's runaway wolf finally captured after nine-day search",
+      "summary": "The search has been marked by twists and turns, gripping South Korea and even inspiring a meme coin.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cn08p8nzejko?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "c52ef8556ba1",
+      "cluster_time": "2026-04-17T00:00:00+00:00",
+      "category": "global",
+      "headline": "Iran war live: Ceasefire starts in Lebanon as Trump says Tehran deal close",
+      "summary": "[Al Jazeera] Death toll from Israeli attacks on Lebanon reached 2,196 on Thursday as 10-day ceasefire announced.\n\n[Africanews] US President Donald Trump announced Thursday that Israel and Lebanon had agreed to a 10-day ceasefire, a truce that could boost attempts to extend the ceasefire between Iran, the United States and Israel after weeks of devastating war.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/liveblog/2026/4/17/iran-war-live-ceasefire-starts-in-lebanon-as-trump-says-tehran-deal-close?traffic_source=rss",
+        "http://www.africanews.com/2026/04/16/trump-says-israel-and-lebanon-have-agreed-to-a-10-day-ceasefire/"
+      ]
+    },
+    {
+      "id": "singleton_2e88cfb0b543",
+      "cluster_time": "2026-04-17T00:00:00+00:00",
+      "category": "local",
+      "headline": "[Info Soirée] : « Gran possibilite ki prix lessence monte enkor »",
+      "summary": "Au Sommaire de ce Jeudi 16 Avril 2026 :• Une nouvelle hausse des prix des carburants, pas exclue. Le ministre du Comm",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/info-soiree-gran-possibilite-ki-prix-lessence-monte-enkor"
+      ]
+    },
+    {
+      "id": "singleton_4c5ac3a3f748",
+      "cluster_time": "2026-04-16T22:44:30+00:00",
+      "category": "global",
+      "headline": "US panel approves Trump’s design for massive arch in Washington, DC",
+      "summary": "The proposed 76-metre arch would tower over other iconic landmarks in Washington, DC, and has attracted scrutiny.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/16/us-panel-approves-trumps-design-for-massive-arch-in-washington-dc?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_822261af724b",
+      "cluster_time": "2026-04-16T22:04:10+00:00",
+      "category": "global",
+      "headline": "Displaced Lebanese wary as ceasefire between Israel and Hezbollah begins",
+      "summary": "Tensions linger as evacuees await clarity on the ceasefire’s terms before risking a return to war-torn villages.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/16/displaced-lebanese-wary-as-ceasefire-between-israel-and-hezbollah-begins?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_d82ac2deabe6",
+      "cluster_time": "2026-04-16T21:54:52+00:00",
+      "category": "global",
+      "headline": "US State Department restricts visas for those who ‘support adversaries’",
+      "summary": "Trump administration says it has taken action against 26 people 'across our hemisphere' who allegedly undermined US.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/16/us-state-department-restricts-visas-for-those-who-support-adversaries?traffic_source=rss"
       ]
     },
     {
@@ -120,23 +212,6 @@
       ],
       "urls": [
         "https://www.aljazeera.com/news/2026/4/16/us-house-votes-to-extend-temporary-protections-for-haitians-in-trump-rebuke?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "d87a5635db46",
-      "cluster_time": "2026-04-16T21:18:31+00:00",
-      "category": "global",
-      "headline": "Israel and Lebanon agree 10-day ceasefire, Trump says",
-      "summary": "[BBC News] The US president invites the two countries' leaders to Washington as Israel's prime minister insists troops will not leave southern Lebanon.\n\n[Africanews] US President Donald Trump announced Thursday that Israel and Lebanon had agreed to a 10-day ceasefire, a truce that could boost attempts to extend the ceasefire between Iran, the United States and Israel after weeks of devastating war.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c8x7w1w9gd2o?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/04/16/trump-says-israel-and-lebanon-have-agreed-to-a-10-day-ceasefire/"
       ]
     },
     {
@@ -305,51 +380,6 @@
       ]
     },
     {
-      "id": "singleton_1c1baa6b7a14",
-      "cluster_time": "2026-04-16T19:19:03+00:00",
-      "category": "global",
-      "headline": "Lionel Messi buys Barcelona-based Spanish football club Cornella",
-      "summary": "The Argentina and Inter Miami forward has bought Cornella, who play in the same city as his former club Barcelona.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/16/lionel-messi-buys-barcelona-based-spanish-club-cornella?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_b00e1360d16f",
-      "cluster_time": "2026-04-16T19:19:00+00:00",
-      "category": "global",
-      "headline": "World Cup 2026: Football fans outraged by United States transit prices",
-      "summary": "FIFA received backlash from high-profile US politicians, who feel the governing body should subsidise domestic transit.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/16/world-cup-2026-football-fans-outraged-by-united-states-transit-prices?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_b2bbaf19b91a",
-      "cluster_time": "2026-04-16T18:51:17+00:00",
-      "category": "global",
-      "headline": "US House votes down latest effort to curtail Trump’s power to wage Iran war",
-      "summary": "Nearly all Democrats voted in favour, a day after a similar resolution failed in the US Senate along party lines.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/us-house-votes-down-latest-effort-to-curtail-trumps-power-to-wage-iran-war?traffic_source=rss"
-      ]
-    },
-    {
       "id": "singleton_4545cbaf925c",
       "cluster_time": "2026-04-16T18:40:45+00:00",
       "category": "global",
@@ -377,36 +407,6 @@
       ],
       "urls": [
         "https://www.bbc.com/news/articles/c2082pljyk1o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_f3eb17c95266",
-      "cluster_time": "2026-04-16T18:18:38+00:00",
-      "category": "global",
-      "headline": "Ex-Arsenal and Liverpool keeper Manninger killed in car crash with train",
-      "summary": "Alex Manninger played for Arsenal, Liverpool and Juventus at peak of his career while winning 33 Austria caps.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/16/former-arsenal-and-juventus-keeper-killed-in-austria-car-crash-with-train?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_5e6263825ad3",
-      "cluster_time": "2026-04-16T18:08:56+00:00",
-      "category": "global",
-      "headline": "Barcelona appeal to UEFA over Laws of Game failure in Champions League exit",
-      "summary": "European football's governing body has already rejected one appeal by Barca about their quarterfinals against Atletico.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/16/barcelona-appeal-to-uefa-over-laws-of-game-failure-in-champions-league-exit?traffic_source=rss"
       ]
     },
     {
@@ -1575,36 +1575,6 @@
       ],
       "urls": [
         "https://newsmoris.com/petrol-diesel-costs-surge-by-over-rs-5-following-committee-price-review/"
-      ]
-    },
-    {
-      "id": "singleton_c593b8c568aa",
-      "cluster_time": "2026-04-16T02:30:00+00:00",
-      "category": "local",
-      "headline": "Météo : beau temps ce matin, averses et risques d’orages dans l’après-midi",
-      "summary": "Un courant d’air léger, chaud et humide circule actuellement sur notre région. Le temps sera beau ce matin.Des développe",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/meteo-beau-temps-ce-matin-averses-et-risques-dorages-dans-lapres-midi"
-      ]
-    },
-    {
-      "id": "singleton_9dc8d70d472c",
-      "cluster_time": "2026-04-15T23:06:43+00:00",
-      "category": "global",
-      "headline": "Back to books - Sweden's schools cutting back on digital learning",
-      "summary": "Swedish classrooms swap laptops for books, pens and paper, raising concerns from the tech sector.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cly0vk77vdko?at_medium=RSS&at_campaign=rss"
       ]
     }
   ]
