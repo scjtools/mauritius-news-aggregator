@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 105,
+  "item_count": 113,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-17T03:15:22.286890+00:00",
+      "cluster_time": "2026-04-18T04:39:10.175249+00:00",
       "category": "finance",
-      "headline": "Brent Crude Oil price – 17 April 2026",
-      "summary": "Brent Crude Oil: USD 98.23 per barrel",
+      "headline": "Brent Crude Oil price – 18 April 2026",
+      "summary": "Brent Crude Oil: USD 90.38 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-17T03:15:22.099573+00:00",
+      "cluster_time": "2026-04-18T04:39:09.795206+00:00",
       "category": "finance",
-      "headline": "Bitcoin price – 17 April 2026",
-      "summary": "Bitcoin (BTC): USD 74,676.07 (▲ +6.06% from last)",
+      "headline": "Bitcoin price – 18 April 2026",
+      "summary": "Bitcoin (BTC): USD 76,966.25 (▲ +9.32% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-17T03:15:21.768895+00:00",
+      "cluster_time": "2026-04-18T04:39:09.540445+00:00",
       "category": "finance",
-      "headline": "Gold price – 17 April 2026",
-      "summary": "Gold (XAU): USD 4,794.60 (▲ +9.24% from last)",
+      "headline": "Gold price – 18 April 2026",
+      "summary": "Gold (XAU): USD 4,831.40 (▲ +10.07% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,10 +49,10 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-17T03:15:21.383414+00:00",
+      "cluster_time": "2026-04-18T04:39:09.284726+00:00",
       "category": "finance",
-      "headline": "MUR exchange rates – 17 April 2026",
-      "summary": "MUR/USD 46.24 | MUR/EUR 54.50 (▼ 0.25 from last) (▲ 0.81 from last)",
+      "headline": "MUR exchange rates – 18 April 2026",
+      "summary": "MUR/USD 46.25 | MUR/EUR 54.55 (▼ 0.24 from last) (▲ 0.86 from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -64,10 +64,10 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-17T03:15:19.002500+00:00",
+      "cluster_time": "2026-04-18T04:39:07.057489+00:00",
       "category": "finance",
-      "headline": "SEMDEX – 17 April 2026",
-      "summary": "SEMDEX closed at 2254.57 (▲ 31.37 pts, +1.41% from last close 2,223.20)",
+      "headline": "SEMDEX – 18 April 2026",
+      "summary": "SEMDEX closed at 2254.41 (▲ 31.21 pts, +1.40% from last close 2,223.20)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -78,25 +78,60 @@
       ]
     },
     {
-      "id": "singleton_b6f83076c4a5",
-      "cluster_time": "2026-04-17T02:40:00+00:00",
+      "id": "49f4bd7ed757",
+      "cluster_time": "2026-04-18T00:00:00+00:00",
+      "category": "global",
+      "headline": "World reacts to Strait of Hormuz reopening amid US-Iran conflict",
+      "summary": "[Al Jazeera] Politicians and industry welcome reopening of the vital waterway after throttling of traffic caused oil prices to spike.\n\n[Al Jazeera] Tens of thousands of people forcibly displaced by Israeli attacks on Lebanon use first day of ceasefire to return home.\n\n[Africanews] US President Donald Trump thanked Tehran but said the naval blockade on Iran would stay in place until a peace deal is signed.",
+      "cluster_size": 3,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/world-reacts-to-the-opening-of-the-strait-of-hormuz-amid-us-iran-conflict?traffic_source=rss",
+        "https://www.aljazeera.com/news/liveblog/2026/4/18/iran-war-live-tehran-says-president-trump-made-false-claims-amid-talks?traffic_source=rss",
+        "http://www.africanews.com/2026/04/17/irans-foreign-minister-reopens-strait-of-hormuz-during-ceasefire/"
+      ]
+    },
+    {
+      "id": "bee8ff808b02",
+      "cluster_time": "2026-04-18T00:00:00+00:00",
       "category": "local",
-      "headline": "Météo : des averses accompagnées d'orages isolés attendues ce vendredi",
-      "summary": "Des nuages associés à une zone d’instabilité s’approchant par le nord-est influenceront graduellement le temps local. Le",
-      "cluster_size": 1,
+      "headline": "Fraude de Rs 80 millions au préjudice de la Bramer Bank : voici les peines infligées aux quatre accusés",
+      "summary": "[Defimedia] La Financial Crimes Division de la Cour intermédiaire a rendu son verdict ce vendredi dans l’affaire de fraude à la défu\n\n[Defimedia] Le verdict est tombé devant la Financial Crimes Division de la Cour intermédiaire dans l’affaire de fraude à la Bramer B\n\n[Defimedia] Au Sommaire de ce Vendredi 17 Avril 2026 :• Fraude à la Bramer Bank en 2011 : Chandra Prakash Dip écope d’UN virgule",
+      "cluster_size": 3,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/meteo-des-averses-accompagnees-dorages-isoles-attendues-ce-vendredi"
+        "https://defimedia.info/fraude-de-rs-80-millions-au-prejudice-de-la-bramer-bank-voici-les-peines-infligees-aux-quatre",
+        "https://defimedia.info/fraude-la-bramer-bank-chandra-prakash-dip-ecope-de-rs-1-330-000-damendes",
+        "https://defimedia.info/info-soiree-chandra-prakash-dip-pu-bizin-paye-13-million-roupies"
+      ]
+    },
+    {
+      "id": "singleton_756cf59f3459",
+      "cluster_time": "2026-04-17T22:47:21+00:00",
+      "category": "global",
+      "headline": "Pressure mounts on Peru’s election authorities amid presidential race delay",
+      "summary": "The vote count continues to determine who will join conservative Keiko Fujimori in Peru's presidential run-off in June.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/pressure-mounts-on-perus-election-authorities-amid-presidential-race-delay?traffic_source=rss"
       ]
     },
     {
       "id": "singleton_2ee8f679e970",
-      "cluster_time": "2026-04-17T01:43:12+00:00",
+      "cluster_time": "2026-04-17T22:46:44+00:00",
       "category": "global",
-      "headline": "Singer D4vd arrested in connection with death of missing teen girl",
+      "headline": "Singer D4vd arrested on suspicion of murdering teenage girl",
       "summary": "The remains of 14-year-old Celeste Rivas Hernandez were found in the singer's car last year.",
       "cluster_size": 1,
       "source_count": 1,
@@ -108,26 +143,176 @@
       ]
     },
     {
-      "id": "singleton_69e937ea37be",
-      "cluster_time": "2026-04-17T00:53:03+00:00",
+      "id": "singleton_87274f1be3e9",
+      "cluster_time": "2026-04-17T22:07:16+00:00",
       "category": "global",
-      "headline": "South Korea's runaway wolf finally captured after nine-day search",
-      "summary": "The search has been marked by twists and turns, gripping South Korea and even inspiring a meme coin.",
+      "headline": "US judge blocks Justice Department bid to seize voter data in Rhode Island",
+      "summary": "Ruling is latest loss for Trump administration, which has sought access to state voter data ahead of the US midterms.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/us-judge-blocks-justice-department-bid-to-seize-voter-data-in-rhode-island?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_ae01a159f694",
+      "cluster_time": "2026-04-17T21:56:47+00:00",
+      "category": "global",
+      "headline": "Trump seeks ‘resolution’ of his $10bn lawsuit against IRS, spurring concern",
+      "summary": "Critics warn that Trump could arrange his own settlement by negotiating with a US Justice Department under his control.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/trump-seeks-resolution-of-his-10bn-lawsuit-against-irs-spurring-concern?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_c6f00808a699",
+      "cluster_time": "2026-04-17T21:41:01+00:00",
+      "category": "global",
+      "headline": "Oil prices plunge as Iran says Strait 'open'",
+      "summary": "Brent crude sinks by a tenth after Iran says the key waterway is open for commercial ships for the rest of the ceasefire.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cn08p8nzejko?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.com/news/articles/ckg045z73z1o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
-      "id": "c52ef8556ba1",
-      "cluster_time": "2026-04-17T00:00:00+00:00",
+      "id": "singleton_28831b3c1256",
+      "cluster_time": "2026-04-17T20:45:58+00:00",
       "category": "global",
-      "headline": "Iran war live: Ceasefire starts in Lebanon as Trump says Tehran deal close",
-      "summary": "[Al Jazeera] Death toll from Israeli attacks on Lebanon reached 2,196 on Thursday as 10-day ceasefire announced.\n\n[Africanews] US President Donald Trump announced Thursday that Israel and Lebanon had agreed to a 10-day ceasefire, a truce that could boost attempts to extend the ceasefire between Iran, the United States and Israel after weeks of devastating war.",
+      "headline": "Lebanon president says country is no longer a pawn amid Israel ceasefire",
+      "summary": "President Joseph Aoun promised to work to preserve Lebanon's sovereignty and freedom.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/lebanon-president-says-country-is-no-longer-a-pawn-amid-israel-ceasefire?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_6bfd3bd77862",
+      "cluster_time": "2026-04-17T20:44:59+00:00",
+      "category": "global",
+      "headline": "Starmer rejects calls to quit as pressure mounts over Mandelson vetting",
+      "summary": "Top Foreign Office official takes fall for fiasco and resigns; Starmer promises to deliver 'relevant facts' on Monday.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/starmer-rejects-calls-to-quit-as-pressure-mounts-over-mandelson-vetting?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_e2aa378dcacb",
+      "cluster_time": "2026-04-17T20:10:32+00:00",
+      "category": "global",
+      "headline": "World Cup 2026: FIFA chief Infantino defends pricing and tickets in US",
+      "summary": "Gianni Infantino responds to criticism for pricing of 2026 edition highlighting 'very special' US market as factor.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/17/world-cup-2026-fifa-chief-infantino-defends-pricing-and-tickets-in-us?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_b11c48661042",
+      "cluster_time": "2026-04-17T20:10:13+00:00",
+      "category": "global",
+      "headline": "Why Marie-Louise Eta’s appointment should be the norm, not the exception",
+      "summary": "As the German coach makes history, experts believe her appointment should not be an exception in men’s football.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/17/why-marie-louise-etas-appointment-should-be-the-norm-not-the-exception?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_8ca44064f60c",
+      "cluster_time": "2026-04-17T20:05:04+00:00",
+      "category": "regional",
+      "headline": "World Athletics panel rejects athlete transfers to Turkey",
+      "summary": "A World Athletics panel has refused 11 athlete transfer requests to Turkey, over what it referred to as a ‘coordinated recruitment strategy’ from the country’s government.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/world-athletics-panel-rejects-athlete-transfers-to-turkey/"
+      ]
+    },
+    {
+      "id": "singleton_ba6a909845fd",
+      "cluster_time": "2026-04-17T19:59:26+00:00",
+      "category": "global",
+      "headline": "UN warns South Sudan at risk of ‘full-scale famine’ as fighting intensifies",
+      "summary": "UN aid chief Tom Fletcher says hunger is tightening its grip amid rising humanitarian needs and intensifying fighting.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/un-warns-south-sudan-at-risk-of-full-scale-famine-as-fighting-intensifies?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_9e54cc9d0731",
+      "cluster_time": "2026-04-17T19:49:46+00:00",
+      "category": "regional",
+      "headline": "ICJ 80th Anniversary: Antonio Guterres calls for law to be respected",
+      "summary": "During a speech celebrating the 80th year anniversary of the International Court of Justice in The Hague, Antonio Guterres warned that international law was falling apart before the world’s eyes.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/icj-80th-anniversary-antonio-guterres-calls-for-law-to-be-respected/"
+      ]
+    },
+    {
+      "id": "singleton_7d61af136c8a",
+      "cluster_time": "2026-04-17T19:40:31+00:00",
+      "category": "regional",
+      "headline": "Iran War: Energy shock drives Africa, Asia to nuclear power",
+      "summary": "The Iran war and resulting global energy shock are driving some countries in Africa and Asia to ramp up nuclear power generation.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/iran-war-energy-shock-drives-africa-asia-to-nuclear-power/"
+      ]
+    },
+    {
+      "id": "6656e43404ef",
+      "cluster_time": "2026-04-17T19:33:14+00:00",
+      "category": "global",
+      "headline": "Fifteen South American people deported from the US arrive in DR Congo",
+      "summary": "[Al Jazeera] The deportees from South America are the first to be sent to the DRC in a deal agreed between Washington and Kinshasa\n\n[Africanews] After being deported from the U.S., around 15 people touched down in Kinshasa early Friday, under agreement between the Congolese government and the Trump administration.",
       "cluster_size": 2,
       "source_count": 2,
       "sources": [
@@ -135,574 +320,412 @@
         "Africanews"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/17/iran-war-live-ceasefire-starts-in-lebanon-as-trump-says-tehran-deal-close?traffic_source=rss",
-        "http://www.africanews.com/2026/04/16/trump-says-israel-and-lebanon-have-agreed-to-a-10-day-ceasefire/"
+        "https://www.aljazeera.com/news/2026/4/17/fifteen-south-american-people-deported-from-the-us-arrive-in-dr-congo?traffic_source=rss",
+        "http://www.africanews.com/2026/04/17/deportees-arrive-in-kinshasa-from-us-under-trump-agreement/"
       ]
     },
     {
-      "id": "singleton_2e88cfb0b543",
-      "cluster_time": "2026-04-17T00:00:00+00:00",
+      "id": "singleton_cc856f5a2e20",
+      "cluster_time": "2026-04-17T19:32:14+00:00",
+      "category": "regional",
+      "headline": "Guinea: Restrictions on social media platforms lifted",
+      "summary": "Restrictions on several social media platforms that were noticed earlier in the week have now been lifted. Among the platforms were TikTok, Facebook and YouTube.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/guinea-restrictions-on-social-media-platforms-lifted/"
+      ]
+    },
+    {
+      "id": "singleton_3de16a0d0f0c",
+      "cluster_time": "2026-04-17T19:20:08+00:00",
+      "category": "global",
+      "headline": "US Congress extends controversial surveillance power under FISA for 10 days",
+      "summary": "The measure has long been criticised for allowing US intelligence agencies to collect citizen data without a warrant.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/us-congress-temporarily-extends-controversial-surveillance-power-under-fisa?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_d65fe5c4163f",
+      "cluster_time": "2026-04-17T19:10:23+00:00",
+      "category": "global",
+      "headline": "US confirms transit fare spike to $150 for World Cup fans in New Jersey",
+      "summary": "Fares confirmed at nearly 12-time hike to get from Manhattan’s Penn Station to the Metlife Stadium in East Rutherford.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/17/us-confirms-transit-fare-spike-to-150-for-world-cup-fans-in-new-jersey?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_da2f925795e7",
+      "cluster_time": "2026-04-17T18:50:36+00:00",
+      "category": "global",
+      "headline": "Scholar Rumeysa Ozturk returns to Turkiye following Trump deportation push",
+      "summary": "Ozturk says she made the decision to avoid 'losing more time to the state-imposed violence and hostility' under Trump.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/scholar-rumeysa-ozturk-returns-to-turkiye-following-trump-deportation-push?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_1683b5787071",
+      "cluster_time": "2026-04-17T18:35:10+00:00",
+      "category": "global",
+      "headline": "Shipping firms seek clarifications before crossing Hormuz",
+      "summary": "Shipping companies said several things had to be clarified, including the presence of mines, Iranian conditions.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/economy/2026/4/17/shipping-firms-seek-clarifications-before-crossing-hormuz?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_ebbbbc3f5f67",
+      "cluster_time": "2026-04-17T18:24:13+00:00",
+      "category": "global",
+      "headline": "What has Trump said before possible US-Iran talks and what could it mean?",
+      "summary": "In rapid-fire posts, Trump says Iran will give up nuclear material and 'never close' Hormuz, but questions remain.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/17/what-has-trump-said-ahead-of-possible-us-iran-talks-and-what-could-it-mean?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_e5d2b13ae195",
+      "cluster_time": "2026-04-17T18:19:43+00:00",
+      "category": "global",
+      "headline": "Japan reveals new name for 40C-and-hotter days after blistering summer",
+      "summary": "The term - kokushobi - translates to \"cruelly hot\", \"brutally hot\" or \"severely hot\", and comes after Japan's hottest summer on record.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/crr185nx0n9o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_6551f656cc91",
+      "cluster_time": "2026-04-17T18:19:10+00:00",
+      "category": "global",
+      "headline": "Kanye West concert in Poland cancelled over antisemitic comments",
+      "summary": "The UK government blocked the rapper from entering the country over his history of making pro-Nazi and racist statements.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/czx95rl4ek5o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_f5951aff39aa",
+      "cluster_time": "2026-04-17T17:48:13+00:00",
+      "category": "global",
+      "headline": "Irish fugitive and suspected crime boss Daniel Kinahan arrested in Dubai",
+      "summary": "Kinahan, in his 40s, was arrested in Dubai on foot of an arrest warrant issued by the Irish courts.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c4g4yl5dd4do?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_30fce1f56c93",
+      "cluster_time": "2026-04-17T17:14:21+00:00",
+      "category": "global",
+      "headline": "'Mum is finally free!' Pensioner detained by ICE in US returns to France",
+      "summary": "Marie-Thérèse had moved to the US after reuniting with her long-lost love, an American man who died in January.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/ce84j0j6622o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_7bb0705da4a2",
+      "cluster_time": "2026-04-17T17:12:00+00:00",
       "category": "local",
-      "headline": "[Info Soirée] : « Gran possibilite ki prix lessence monte enkor »",
-      "summary": "Au Sommaire de ce Jeudi 16 Avril 2026 :• Une nouvelle hausse des prix des carburants, pas exclue. Le ministre du Comm",
+      "headline": "Nandanee Soornack : « Mon parcours ne dépend pas du regard des autres… Je viendrai lorsque le moment sera venu »",
+      "summary": "« Je ne pardonne ni n’oublie : je passe simplement à autre chose. »La femme d’affaires, installée en Italie après les él",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/info-soiree-gran-possibilite-ki-prix-lessence-monte-enkor"
+        "https://defimedia.info/nandanee-soornack-mon-parcours-ne-depend-pas-du-regard-des-autres-je-viendrai-lorsque-le-moment"
       ]
     },
     {
-      "id": "singleton_4c5ac3a3f748",
-      "cluster_time": "2026-04-16T22:44:30+00:00",
-      "category": "global",
-      "headline": "US panel approves Trump’s design for massive arch in Washington, DC",
-      "summary": "The proposed 76-metre arch would tower over other iconic landmarks in Washington, DC, and has attracted scrutiny.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/us-panel-approves-trumps-design-for-massive-arch-in-washington-dc?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_822261af724b",
-      "cluster_time": "2026-04-16T22:04:10+00:00",
-      "category": "global",
-      "headline": "Displaced Lebanese wary as ceasefire between Israel and Hezbollah begins",
-      "summary": "Tensions linger as evacuees await clarity on the ceasefire’s terms before risking a return to war-torn villages.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/displaced-lebanese-wary-as-ceasefire-between-israel-and-hezbollah-begins?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_d82ac2deabe6",
-      "cluster_time": "2026-04-16T21:54:52+00:00",
-      "category": "global",
-      "headline": "US State Department restricts visas for those who ‘support adversaries’",
-      "summary": "Trump administration says it has taken action against 26 people 'across our hemisphere' who allegedly undermined US.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/us-state-department-restricts-visas-for-those-who-support-adversaries?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_e03c7a49184a",
-      "cluster_time": "2026-04-16T21:34:39+00:00",
-      "category": "global",
-      "headline": "Netflix cofounder Hastings to step down after it lost Warner Bros deal",
-      "summary": "The company's stock plunged about 8 percent on the news of Hastings's departure.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/economy/2026/4/16/netflix-cofounder-hastings-to-step-down-after-it-lost-warner-bros-deal?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_995d1a43fa10",
-      "cluster_time": "2026-04-16T21:22:19+00:00",
-      "category": "global",
-      "headline": "US House votes to extend temporary protections for Haitians in Trump rebuke",
-      "summary": "Ten Republicans join Democrats to extend Temporary Protected Status for nearly 350,000 Haitians in the United States.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/us-house-votes-to-extend-temporary-protections-for-haitians-in-trump-rebuke?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_745e22cc85b3",
-      "cluster_time": "2026-04-16T21:10:57+00:00",
-      "category": "global",
-      "headline": "What is tailgating, and has FIFA banned it at World Cup stadiums in the US?",
-      "summary": "Football fans in the US have criticised FIFA and local organisers over a move to ban tailgating at World Cup matches.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/16/what-is-tailgating-and-has-fifa-banned-it-at-world-cup-stadiums-in-the-us?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_c2c7adcc2979",
-      "cluster_time": "2026-04-16T20:55:48+00:00",
-      "category": "global",
-      "headline": "Ex-NBA player Damon Jones to be first to plead guilty in US gambling case",
-      "summary": "Betting scandal that swept basketball set tp see ex-NBA player Damon Jones become first person to plead guilty in case.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/16/ex-nba-player-damon-jones-to-be-first-to-plead-guilty-in-us-gambling-case?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_8dccc86f035c",
-      "cluster_time": "2026-04-16T20:44:48+00:00",
-      "category": "regional",
-      "headline": "Europe has 'maybe 6 weeks of jet fuel left,' energy agency head reveals",
-      "summary": "The consequences are already being felt through rising energy costs, with Birol warning of “two big problems”: soaring prices and dwindling availability of key petroleum products.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/fuel-shortages-loom-as-strait-of-hormuz-crisis-threatens-global-economy/"
-      ]
-    },
-    {
-      "id": "singleton_25282e81b3f6",
-      "cluster_time": "2026-04-16T20:42:17+00:00",
-      "category": "regional",
-      "headline": "Centuries-old Gabonese animist tradition to protect the coastline",
-      "summary": "Worshippers presented offerings to the spirits of the sea off the coast of Pointe-Denis on Sunday.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/centuries-old-gabonese-animist-tradition-to-protect-the-coastline/"
-      ]
-    },
-    {
-      "id": "singleton_dd067fefa341",
-      "cluster_time": "2026-04-16T20:40:05+00:00",
-      "category": "global",
-      "headline": "AOC, Boebert join calls for sexual misconduct accountability in Congress",
-      "summary": "Lawmakers who represent leftward and rightward flanks of their parties call for reform after Congress members resign.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/aoc-boebert-join-calls-for-sexual-misconduct-accountability-in-congress?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_e5ea00222416",
-      "cluster_time": "2026-04-16T20:23:04+00:00",
-      "category": "regional",
-      "headline": "\"Sub-Saharan Africa resilient, despite mounting global shocks\" - Abebe Selassie",
-      "summary": "Sub-Saharan African economies have demonstrated remarkable resilience in the face of repeated global shocks, according to Abebe Aemro Selassie, Director of the African Department at the IMF.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/sub-saharan-africa-resilient-despite-mounting-global-shocks-abebe-selassie/"
-      ]
-    },
-    {
-      "id": "singleton_b66710da6eb2",
-      "cluster_time": "2026-04-16T20:22:38+00:00",
-      "category": "global",
-      "headline": "UK’s Starmer under fire over report Mandelson failed security vetting",
-      "summary": "Gov's spokesperson says Starmer had no knowledge of the Foreign Office overriding the security recommendation.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/uks-starmer-under-fire-over-report-mandelson-failed-security-vetting?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_cb2bb6f9da0a",
-      "cluster_time": "2026-04-16T20:08:25+00:00",
-      "category": "global",
-      "headline": "Sectarian fears increase as a Beirut area says no to displacement centre",
-      "summary": "Tensions rise in Karantina as civil war-era sectarian fears resurface over a cancelled displacement centre project.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/sectarian-fears-increase-as-a-beirut-area-says-no-to-displacement-centre?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_4260dcabe610",
-      "cluster_time": "2026-04-16T20:03:08+00:00",
-      "category": "global",
-      "headline": "Senate vote on arms sale shows ‘massive cracks’ in US support for Israel",
-      "summary": "Rights advocates hail 'historic' shift as 40 out of 47 Democratic senators vote to block military bulldozers to Israel.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/senate-vote-on-arms-sale-shows-massive-cracks-in-us-support-for-israel?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_f2bcfdbdc14b",
-      "cluster_time": "2026-04-16T19:49:36+00:00",
-      "category": "regional",
-      "headline": "Nigerian airlines plan shutdown over soaring fuel costs",
-      "summary": "Nigerian airlines plan shutdown over soaring fuel costs",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/nigerian-airlines-plan-shutdown-over-soaring-fuel-costs/"
-      ]
-    },
-    {
-      "id": "singleton_821f563205ed",
-      "cluster_time": "2026-04-16T19:42:15+00:00",
-      "category": "global",
-      "headline": "Cuban president defiant amid US pressure and energy blockade threats",
-      "summary": "Miguel Diaz-Canel marks anniversary of socialist revolutionary declaration under threat of US attacks.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/16/cuban-president-defiant-amid-us-pressure-and-energy-blockade-threats?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_4545cbaf925c",
-      "cluster_time": "2026-04-16T18:40:45+00:00",
-      "category": "global",
-      "headline": "Pope criticises 'tyrants' who spend billions on wars after Trump spat",
-      "summary": "The comments follow a high-profile spat with US President Donald Trump, who called the Pope weak on crime.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cvg0z3n5e5jo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_9900f795f241",
-      "cluster_time": "2026-04-16T18:30:08+00:00",
-      "category": "global",
-      "headline": "Rescuers to use air cushions in latest effort to save stranded whale",
-      "summary": "\"Timmy\" has been stranded in the Baltic Sea for weeks despite several attempts to free the ailing animal.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c2082pljyk1o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_b62f8bafdffc",
-      "cluster_time": "2026-04-16T17:55:15+00:00",
-      "category": "global",
-      "headline": "Lawmakers clash with RFK Jr as he shifts focus away from vaccines",
-      "summary": "During a three-hour hearing, the US health secretary tried to focus on chronic disease while being pressed on vaccines.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c30r2v68lg8o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_704b7848d3ed",
-      "cluster_time": "2026-04-16T17:30:00+00:00",
+      "id": "singleton_34dcceaca132",
+      "cluster_time": "2026-04-17T17:05:00+00:00",
       "category": "local",
-      "headline": "Hippisme – Saison 2026 : L’émission Turf Plus reprend ce vendredi",
-      "summary": "Rendez-vous pour la première émission de Turf Plus de la saison hippique 2026 qui sera diffusée en direct sur Radio Plus",
+      "headline": "Deux experts internationaux réunis à Maurice pour une conférence",
+      "summary": "Dans un contexte où les pathologies complexes gagnent du terrain à Maurice, une initiative d’envergure vient placer l’îl",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/hippisme-saison-2026-lemission-turf-plus-reprend-ce-vendredi"
+        "https://defimedia.info/deux-experts-internationaux-reunis-maurice-pour-une-conference"
       ]
     },
     {
-      "id": "singleton_6af75ae86105",
-      "cluster_time": "2026-04-16T17:24:46+00:00",
+      "id": "singleton_8570f9a505bd",
+      "cluster_time": "2026-04-17T16:53:17+00:00",
       "category": "global",
-      "headline": "Naples bank robbers hold 25 people hostage then vanish through tunnel",
-      "summary": "The armed men reportedly evaded capture by escaping through the city's sewer system.",
+      "headline": "What next for South African opposition firebrand Malema after his five-year prison sentence?",
+      "summary": "The sentence raises huge questions marks over the political future of one of South Africa's most controversial politicians.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/c05d216rj85o?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.com/news/articles/cdxkd6rvk0do?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
-      "id": "69166d9e9111",
-      "cluster_time": "2026-04-16T17:20:41+00:00",
+      "id": "singleton_e28a33514431",
+      "cluster_time": "2026-04-17T16:36:00+00:00",
+      "category": "local",
+      "headline": "« Au Cœur de l'Info » :- Zoom sur la flambée des prix",
+      "summary": "L’émission Au Cœur de l’Info, cet après-midi, sera consacrée à la flambée des prix.Le ministre du Commerce, Michael Sik",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/au-coeur-de-linfo-zoom-sur-la-flambee-des-prix"
+      ]
+    },
+    {
+      "id": "0270249c6409",
+      "cluster_time": "2026-04-17T16:22:06+00:00",
       "category": "global",
-      "headline": "South African opposition figure Malema sentenced to five years in prison for firing a gun",
-      "summary": "[BBC News] Malema is appealing against the decision, which means he is not going to prison immediately.\n\n[Africanews] South African opposition party leader Julius Malema was sentenced to five years in prison on Thursday after he was convicted of breaking firearm laws by firing a rifle at a political rally in 2018.\n\n[Africanews] Julius Malema was convicted in October last year unlawful possession of an assault rifle and firing it in the air at a 2018 rally.",
-      "cluster_size": 3,
+      "headline": "What we know about the Israel-Lebanon ceasefire",
+      "summary": "[BBC News] A 10-day truce between the two countries is now in effect, with Iran-backed Hezbollah voicing support, as negotiations continue between the US and Iran.\n\n[BBC News] The halt to weeks of fighting is being celebrated in Lebanon, but it will be difficult to ensure it lasts.\n\n[Africanews] Lebanon and Israel entered a 10-day truce early Friday, as the army reopened a single lane on the damaged Qasmiyeh Bridge in the south after Israeli strikes hit the key crossing linking Tyre to the wider region.\n\n[Africanews] A ceasefire in Lebanon has brought a pause in fighting after weeks of war. Residents are returning to damaged homes as questions remain over how long the truce will hold.",
+      "cluster_size": 4,
       "source_count": 2,
       "sources": [
         "BBC News",
         "Africanews"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/c9wqeggd27yo?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/04/16/south-african-opposition-leader-sentenced-to-five-years-in-jail-for-firing-gun/",
-        "http://www.africanews.com/2026/04/16/south-african-opposition-politician-gets-jail-term-for-gun-offence/"
+        "https://www.bbc.com/news/articles/cwy32277e58o?at_medium=RSS&at_campaign=rss",
+        "https://www.bbc.com/news/articles/crm10w4ynj1o?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/04/17/lebanon-truce-takes-effect-as-damaged-qasmiyeh-bridge-reopens/",
+        "http://www.africanews.com/2026/04/17/israel-hezbollah-ceasefire-residents-return-to-devastated-southern-towns/"
       ]
     },
     {
-      "id": "singleton_3a60d572ed38",
-      "cluster_time": "2026-04-16T16:59:38+00:00",
-      "category": "global",
-      "headline": "Pope lashes out at foreigners who exploit Africa",
-      "summary": "The pontiff has been unusually forthright during his visit to conflict-hit Cameroon.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c5yj796plqmo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_8f7d21ee826e",
-      "cluster_time": "2026-04-16T16:31:19+00:00",
+      "id": "singleton_aec492ed87e8",
+      "cluster_time": "2026-04-17T16:21:56+00:00",
       "category": "regional",
-      "headline": "Burkina Faso junta dissolves dozens of civil society groups",
-      "summary": "Territorial Administration Minister Emile Zerbo said the latest dissolutions are part of efforts to enforce that law. He urged affected groups to comply with the regulations, warning that “any offender faces the penalties provided for under current regulations.”",
+      "headline": "Oil prices plunge as markets rally after Strait of Hormuz reopens",
+      "summary": "In Europe, stocks surged in response to the news, with major indexes in France and Germany rising more than 2%. However, Asian markets, which closed before the announcement, ended the day lower.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Africanews"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/burkina-faso-junta-dissolves-dozens-of-civil-society-groups/"
+        "http://www.africanews.com/2026/04/17/oil-prices-plunge-as-markets-rally-after-strait-of-hormuz-reopens/"
       ]
     },
     {
-      "id": "singleton_edc5003c14cc",
-      "cluster_time": "2026-04-16T16:28:00+00:00",
-      "category": "local",
-      "headline": "Carburants : aucune baisse des taxes en vue, une nouvelle hausse des prix reste probable, annonce le ministre Michael Sik Yuen",
-      "summary": "Le ministre du Commerce, Michael Sik Yuen n’écarte pas une nouvelle hausse du prix du carburant. « Ena enn gran posibilite ki wi, pri lesans ogmante parski laguer pa kone kan li pou fini », a-t-i...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/economie/carburants-aucune-baisse-des-taxes-en-vue-une-nouvelle-hausse-des-prix-reste-probable-annonce-le-ministre-michael-sik-yuen/704810/"
-      ]
-    },
-    {
-      "id": "singleton_9118d1b273b7",
-      "cluster_time": "2026-04-16T16:01:00+00:00",
-      "category": "local",
-      "headline": "Ministère des Sports : le chairperson du TFES, Nagaissen Valaydum, révoqué",
-      "summary": "Le ministère de la Jeunesse et des Sports a révoqué, avec effet immédiat, le chairperson du Trust Fund for Excellence in",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/ministere-des-sports-le-chairperson-du-tfes-nagaissen-valaydum-revoque"
-      ]
-    },
-    {
-      "id": "singleton_49fe48f702c3",
-      "cluster_time": "2026-04-16T15:42:00+00:00",
-      "category": "local",
-      "headline": "Nouvelle carte de pension de vieillesse : voici le calendrier de distribution",
-      "summary": "Selon un communiqué émanant du ministère de l’Intégration sociale, de la Sécurité sociale et de la Solidarité nationale,",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/nouvelle-carte-de-pension-de-vieillesse-voici-le-calendrier-de-distribution"
-      ]
-    },
-    {
-      "id": "singleton_10fb06e4e637",
-      "cluster_time": "2026-04-16T15:41:33+00:00",
+      "id": "singleton_8fd3cbd8db26",
+      "cluster_time": "2026-04-17T16:20:02+00:00",
       "category": "global",
-      "headline": "Ex-Virginia deputy governor kills wife and himself in murder-suicide, police say",
-      "summary": "Investigators say Justin Fairfax shot his wife, Cerina, multiple times before turning the gun on himself.",
+      "headline": "Arsenal to embrace ‘privilege’ not pressure of Man City Premier League tilt",
+      "summary": "Arsenal travel to Manchester City knowing their Premier League could be eradicated by next Wednesday.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "BBC News"
+        "Al Jazeera"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cy0124xel35o?at_medium=RSS&at_campaign=rss"
+        "https://www.aljazeera.com/sports/2026/4/17/arsenal-to-embrace-privilege-not-pressure-of-man-city-premier-league-tilt?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_fb84b750f110",
-      "cluster_time": "2026-04-16T15:39:41+00:00",
-      "category": "regional",
-      "headline": "Iran says talks with US remain inconclusive, denies truce extension",
-      "summary": "Iran on Wednesday dismissed reports of an agreement with the United States to extend the temporary ceasefire between the two countries, with Foreign Ministry spokesperson Esmail Baghaei stressing that negotiations remain unresolved.",
-      "cluster_size": 1,
-      "source_count": 1,
+      "id": "d212e2960201",
+      "cluster_time": "2026-04-17T16:17:54+00:00",
+      "category": "global",
+      "headline": "Mugabe's son pleads guilty to pointing a gun in South Africa",
+      "summary": "[BBC News] Bellarmine Mugabe was arrested in February following the shooting of a 23-year-old man at his home in Johannesburg.\n\n[Africanews] Bellarmine Chatunga Mugabe, 29, admitted in a Johannesburg court to illegally being in the country and pointing a firearm—but denied shooting and seriously injuring his gardener during an altercation in the upscale Hyde Park suburb.",
+      "cluster_size": 2,
+      "source_count": 2,
       "sources": [
+        "BBC News",
         "Africanews"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/iran-says-talks-with-us-remain-inconclusive-denies-truce-extension/"
+        "https://www.bbc.com/news/articles/cqxlp5pvr3wo?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/04/17/mugabes-son-pleads-guilty-to-lesser-charges-in-johannesburg-shooting-case/"
       ]
     },
     {
-      "id": "singleton_b7ac9e3489c5",
-      "cluster_time": "2026-04-16T15:23:23+00:00",
-      "category": "global",
-      "headline": "Turkish police detain 162 people over online posts about school shootings",
-      "summary": "At least 16 people were injured in a shooting at a high school on Tuesday, before another nine were killed in a separate school shooting on Wednesday.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cz9025d7jqzo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_f4b35cbd18d5",
-      "cluster_time": "2026-04-16T15:20:59+00:00",
-      "category": "global",
-      "headline": "Russia launches deadliest aerial attack in months, killing 18 in Ukraine",
-      "summary": "A Ukrainian drone attack killed two people in Russia, Moscow says, after an Orthodox Easter truce.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cm29plylqnvo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_9746ce5b15fb",
-      "cluster_time": "2026-04-16T15:11:00+00:00",
+      "id": "singleton_897970dab52a",
+      "cluster_time": "2026-04-17T15:53:00+00:00",
       "category": "local",
-      "headline": "Football : l’ancien gardien d’Arsenal Alex Manninger meurt dans un accident",
-      "summary": "L’ancien gardien d’Arsenal, Alex Manninger, est décédé à l’âge de 48 ans après que sa voiture a été percutée par un trai",
+      "headline": "Protection de l'air : de nouvelles normes environnementales plus strictes",
+      "summary": "Le Conseil des ministres a donné son accord pour la promulgation des Environment (Standards for Ambient Air Quality and",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/football-lancien-gardien-darsenal-alex-manninger-meurt-dans-un-accident"
+        "https://defimedia.info/protection-de-lair-de-nouvelles-normes-environnementales-plus-strictes"
       ]
     },
     {
-      "id": "singleton_96f5ce32c2db",
-      "cluster_time": "2026-04-16T14:26:17+00:00",
+      "id": "singleton_878f134f0a12",
+      "cluster_time": "2026-04-17T15:51:00+00:00",
+      "category": "local",
+      "headline": "Transactions électroniques : un projet de loi pour moderniser et élargir le cadre juridique bientôt au Parlement",
+      "summary": "L’Electronic Transactions (Amendment) Bill sera introduit à l’Assemblée nationale. L’objet de ce projet de loi est de mo",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/transactions-electroniques-un-projet-de-loi-pour-moderniser-et-elargir-le-cadre-juridique-bientot"
+      ]
+    },
+    {
+      "id": "singleton_a06849b02557",
+      "cluster_time": "2026-04-17T15:26:00+00:00",
+      "category": "local",
+      "headline": "Culture « indoor » : saisie de Rs 1,1 million de cannabis",
+      "summary": "Une culture de cannabis en intérieur a été démantelée par l’ADSU de Port-Louis, dirigée par le sergent Mohun, ce vendred",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/culture-indoor-saisie-de-rs-11-million-de-cannabis"
+      ]
+    },
+    {
+      "id": "singleton_d7a79c17fa3d",
+      "cluster_time": "2026-04-17T15:03:00+00:00",
+      "category": "local",
+      "headline": "Culture de cannabis à Pointe-aux-Sables : un « contracteur » arrêté",
+      "summary": "Quarante et un plants de cannabis, pesant 21 kilos, ainsi que des feuilles séchées de cannabis, d’un poids d’un kilo, on",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/culture-de-cannabis-pointe-aux-sables-un-contracteur-arrete"
+      ]
+    },
+    {
+      "id": "singleton_39af0070dd77",
+      "cluster_time": "2026-04-17T14:39:00+00:00",
+      "category": "local",
+      "headline": "FCC : plus de 600 véhicules saisis depuis novembre 2024",
+      "summary": "608 véhicules, estimés à 444,4 millions de roupies, ont été saisis par la Financial Crimes Commission depuis novembre 20",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/fcc-plus-de-600-vehicules-saisis-depuis-novembre-2024"
+      ]
+    },
+    {
+      "id": "singleton_826ffcce7d2e",
+      "cluster_time": "2026-04-17T14:21:00+00:00",
+      "category": "local",
+      "headline": "Carburants : l’Acim demande au GM de revoir temporairement la formule de calcul des prix",
+      "summary": "L’Association des Consommateurs de l’île Maurice (Acim) a appelé le gouvernement à revoir temporairement la formule de c",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/carburants-lacim-demande-au-gm-de-revoir-temporairement-la-formule-de-calcul-des-prix"
+      ]
+    },
+    {
+      "id": "singleton_4886606af7c5",
+      "cluster_time": "2026-04-17T14:18:18+00:00",
       "category": "global",
-      "headline": "India pushes for women's quota bill as row over parliamentary seats intensifies",
-      "summary": "Southern Indian leaders urge mass mobilisation over concerns about redrawing electoral boundaries.",
+      "headline": "Three charged with arson on Persian media offices in London",
+      "summary": "Two teenagers and a 21-year-old man appear in court charged with arson with intent to endanger life.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/ckgeel8g27po?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.com/news/articles/cwyv24lx1r8o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
-      "id": "singleton_12d273756a78",
-      "cluster_time": "2026-04-16T13:57:28+00:00",
-      "category": "regional",
-      "headline": "Pope condemns 'endless cycle' of death in Cameroon separatist region",
-      "summary": "Pope Leo XIV condemned an \"endless cycle of destabilisation and death\" as he visited Cameroon's English-speaking northwest on Thursday.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/pope-condemns-endless-cycle-of-death-in-cameroon-separatist-region/"
-      ]
-    },
-    {
-      "id": "singleton_ad6d087517a0",
-      "cluster_time": "2026-04-16T13:28:00+00:00",
+      "id": "singleton_b9af0bdb258b",
+      "cluster_time": "2026-04-17T13:52:00+00:00",
       "category": "local",
-      "headline": "Cinq officiers promus au grade d’Assistant Superintendent of Prisons après 33 ans de service",
-      "summary": "Cinq Principal Prison Officers ont été promus ce jeudi 16 avril au grade d’Assistant Superintendent of Prisons après 33",
+      "headline": "Incendie au Victoria Urban Terminal : Les commerçants toujours sans soutien, Hyder Raman interpelle le GM",
+      "summary": "Plus de deux semaines après l’incendie qui a détruit plusieurs étals au Victoria Urban Terminal, les commerçants concern",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/cinq-officiers-promus-au-grade-dassistant-superintendent-prisons-apres-33-ans-de-service"
+        "https://defimedia.info/incendie-au-victoria-urban-terminal-les-commercants-toujours-sans-soutien-hyder-raman-interpelle-le"
       ]
     },
     {
-      "id": "singleton_dc17c0684e80",
-      "cluster_time": "2026-04-16T13:27:00+00:00",
+      "id": "ab010bb87e42",
+      "cluster_time": "2026-04-17T13:44:00+00:00",
       "category": "local",
-      "headline": "Après l’Arya Sabha, la MSDTF dit non au Kreol Morisien au Parlement",
-      "summary": "La Mauritius Sanatan Dharma Temples Federation (MSDTF), dans un communiqué émis ce jeudi, s’oppose à l’introduction du K",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/apres-larya-sabha-la-msdtf-dit-non-au-kreol-morisien-au-parlement"
-      ]
-    },
-    {
-      "id": "9658d469fe7c",
-      "cluster_time": "2026-04-16T13:13:00+00:00",
-      "category": "local",
-      "headline": "Affaire Pack & Blister : Nouvelle audition du Dr Zouberr Joomaye à la FCC",
-      "summary": "[L'Express (via mega.mu)] L’enquête de la Financial Crimes Commission (FCC) dans l’affaire des respirateurs défectueux de Pack & Blister se poursuit avec une nouvelle audition du Dr Zouberr Joomaye, intervenue dans la matinée de ce jeudi 16 avril. L’ancien conseiller au Bureau du Premier ministre du précédent régime a quitté les locaux de la commission à la mi-journée, aprè\n\n[Defimedia] Le Dr Zouberr Joomaye, ancien conseiller au bureau du Premier ministre, sous l'ancien régime, a été autorisé à partir ap\n\n[Defimedia] Le Dr Zouberr Joomaye, ancien conseiller au bureau du Premier ministre, sous l'ancien régime, est de nouveau entendu par",
+      "headline": "Mare-Chicose : 15 camions bloquent l’accès au site d’enfouissement de déchets",
+      "summary": "[L'Express (via mega.mu)] Les opérations au site d’enfouissement des déchets de Mare-Chicose sont perturbées depuis ce vendredi matin, 17 avril. En cause : un litige opposant l’opérateur Sotravic/Strata à des camionneurs travaillant sous contrat pour l’acheminement du lixiviat vers les centres de traitement. Ils dénoncent notamment des arriérés de paiement de 7 mois, pour c\n\n[Defimedia] La situation s’est débloquée à Mare-Chicose après des perturbations enregistrées ce vendredi matin, où des camionneurs a\n\n[Defimedia] Les camionneurs contractuels mobilisés ce vendredi devant le site d’enfouissement de Mare-Chicose affirment avoir cessé",
       "cluster_size": 3,
       "source_count": 2,
       "sources": [
@@ -710,104 +733,164 @@
         "Defimedia"
       ],
       "urls": [
-        "https://live.mega.mu/redirect/256121/",
-        "https://defimedia.info/affaire-pack-blister-zouberr-joomaye-autorise-partir-apres-son-audition-la-fcc",
-        "https://defimedia.info/affaire-pack-blister-zouberr-joomaye-de-nouveau-entendu-par-la-fcc-ce-jeudi"
+        "https://live.mega.mu/redirect/256208/",
+        "https://defimedia.info/mare-chicose-un-accord-trouve-apres-la-greve-des-camionneurs",
+        "https://defimedia.info/des-camionneurs-bloquent-lacces-mare-chicose-temoignage-de-lun-dentre-eux"
       ]
     },
     {
-      "id": "singleton_c9ebe224fb0a",
-      "cluster_time": "2026-04-16T13:11:00+00:00",
+      "id": "singleton_fb9bbfe4f263",
+      "cluster_time": "2026-04-17T13:29:00+00:00",
       "category": "local",
-      "headline": "Carburants : les Rs 2 prélevées pendant la Covid n’ont pas financé les vaccins, dit Shakeel Mohamed",
-      "summary": "« Les deux roupies prélevées sur chaque litre d’essence durant la période de la Covid-19 n’auraient pas servi à financer",
+      "headline": "Énergie : lancement du « CEB Solar Photovoltaic Scheme » pour les foyers",
+      "summary": "Coup d’envoi du « CEB Solar Photovoltaic Scheme » destiné aux foyers mauriciens. Le Central Electricity Board (CEB) enre",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/carburants-les-rs-2-prelevees-pendant-la-covid-nont-pas-finance-les-vaccins-dit-shakeel-mohamed"
+        "https://defimedia.info/energie-lancement-du-ceb-solar-photovoltaic-scheme-pour-les-foyersj"
       ]
     },
     {
-      "id": "singleton_fcb726710177",
-      "cluster_time": "2026-04-16T13:10:00+00:00",
-      "category": "local",
-      "headline": "Enquête Menlo Park : Deepshikha Gowreesunker saisit la Cour suprême",
-      "summary": "Deepshikha Gowreesunker, ancienne Relationship Manager à la Mauritius Commercial Bank, a saisi la Cour suprême ce jeudi",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/enquete-menlo-park-deepshikha-gowreesunker-saisit-la-cour-supreme"
-      ]
-    },
-    {
-      "id": "singleton_6f20f0331317",
-      "cluster_time": "2026-04-16T13:05:00+00:00",
-      "category": "local",
-      "headline": "Michael Sik Yuen : «Une forte possibilité que les prix des carburants augmentent encore»",
-      "summary": "Une forte possibilité que les prix des carburants augmentent encore en raison de la guerre au Moyen-Orient. C’est ce qu’",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/michael-sik-yuen-une-forte-possibilite-que-les-prix-des-carburants-augmentent-encore"
-      ]
-    },
-    {
-      "id": "singleton_87fab25fec81",
-      "cluster_time": "2026-04-16T13:04:00+00:00",
-      "category": "local",
-      "headline": "Henrietta : début de la remise des unités de logement du NSLD",
-      "summary": "Le Premier ministre par intérim, Shakeel Mohamed, a indiqué sur sa page Facebook ce jeudi que la remise des unités de lo",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/henrietta-debut-de-la-remise-des-unites-de-logement-du-nsld"
-      ]
-    },
-    {
-      "id": "singleton_5d5263f3a771",
-      "cluster_time": "2026-04-16T12:53:34+00:00",
+      "id": "singleton_8cfcaad40f15",
+      "cluster_time": "2026-04-17T13:06:37+00:00",
       "category": "regional",
-      "headline": "Zimbabwe play challenges proposed constitutional changes",
-      "summary": "Bodo is a one-man performance that draws on Ngano, a traditional Shona storytelling method, blending it with modern visual and audio elements to create an immersive experience. Through this fusion of tradition and contemporary theatre, Guzha seeks not only to entertain but to provoke reflection",
+      "headline": "Pope urges young Cameroonians to resist temptation of corruption",
+      "summary": "At Mass in Doula he also told young people to reject every form of abuse or violence, and to always show hospitality and care for one another.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Africanews"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/zimbabwe-play-challenges-proposed-constitutional-changes/"
+        "http://www.africanews.com/2026/04/17/pope-urges-young-cameroonians-to-resist-temptation-of-corruption/"
       ]
     },
     {
-      "id": "singleton_324da02704f0",
-      "cluster_time": "2026-04-16T12:35:00+00:00",
+      "id": "singleton_380fbc0e8106",
+      "cluster_time": "2026-04-17T13:06:00+00:00",
       "category": "local",
-      "headline": "Prix des carburants : Maurice reste plus compétitif que plusieurs pays de la région, dit Shakeel Mohamed",
-      "summary": "En déplacement dans la circonscription no 14 (Savanne/Rivière-Noire) cet après-midi, Shakeel Mohamed, Premier ministre",
+      "headline": "Mare-Chicose – Joanna Bérenger : « J’espère que le ministre va sanctionner au lieu de tolérer »",
+      "summary": "Une grève a eu lieu ce vendredi matin à Mare-Chicose perturbant les opérations au site d’enfouissement. À l’origine de c",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/prix-des-carburants-maurice-reste-plus-competitif-que-plusieurs-pays-de-la-region-dit-shakeel"
+        "https://defimedia.info/mare-chicose-joanna-berenger-jespere-que-le-ministre-va-sanctionner-au-lieu-de-tolerer"
+      ]
+    },
+    {
+      "id": "singleton_505562f004d2",
+      "cluster_time": "2026-04-17T12:55:54+00:00",
+      "category": "local",
+      "headline": "Lorry Blockade at Mare-Chicose Landfill Triggers Police Probe and Urgent Talks",
+      "summary": "Urgent negotiations are underway today to resolve a blockade at the Mare-Chicose landfill site after contract lorry drivers halted operations over a deepening financial dispute. The Ministry of Environment, Solid Waste Management and Climate Change confirmed on Friday, 17 April, … The post Lorry Blockade at Mare-Chicose Landfill Triggers Police Pro",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "News Moris"
+      ],
+      "urls": [
+        "https://newsmoris.com/lorry-blockade-at-mare-chicose-landfill-triggers-police-probe-and-urgent-talks/"
+      ]
+    },
+    {
+      "id": "singleton_1490f2538862",
+      "cluster_time": "2026-04-17T12:53:10+00:00",
+      "category": "regional",
+      "headline": "Italy: 25 hostages freed as Naples bank gang vanishes underground",
+      "summary": "A group of three masked robbers held 25 people hostage during a bank heist in Naples on Thursday 16 April 2026 before escaping through a tunnel connected to the city’s sewer network, authorities said.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/italy-25-hostages-freed-as-naples-bank-gang-vanishes-underground/"
+      ]
+    },
+    {
+      "id": "singleton_058083afaef4",
+      "cluster_time": "2026-04-17T12:53:00+00:00",
+      "category": "local",
+      "headline": "Leptospirose : un nouveau cas enregistré à Maurice",
+      "summary": "Un nouveau cas de leptospirose a été enregistré à Maurice. Le patient, un habitant de Flacq, a été hospitalisé et son ét",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/leptospirose-un-nouveau-cas-enregistre-maurice"
+      ]
+    },
+    {
+      "id": "singleton_16d2ea10c2e6",
+      "cluster_time": "2026-04-17T12:46:00+00:00",
+      "category": "local",
+      "headline": "Météo : la veille de fortes pluies à Maurice prolongée jusqu’à 4 h samedi matin",
+      "summary": "Une veille de fortes pluies est en vigueur à Maurice jusqu’à 04 h 00, samedi 18 avril, selon le bulletin émis par la sta",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/meteo-la-veille-de-fortes-pluies-maurice-prolongee-jusqua-4-h-samedi-matin"
+      ]
+    },
+    {
+      "id": "singleton_a90c9d52a6d7",
+      "cluster_time": "2026-04-17T12:42:06+00:00",
+      "category": "global",
+      "headline": "Palestinians hand over suspect in 1982 attack on Jewish restaurant in Paris",
+      "summary": "Hicham Harb is suspected of directing the attack in the Rue des Rosiers and acting as one of the gunmen who shot at diners.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cj94pkyr9mpo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_b8fca2392ce7",
+      "cluster_time": "2026-04-17T12:29:00+00:00",
+      "category": "local",
+      "headline": "Chandra Dip Fined Rs 1,330,000 following his Fraudulent Transaction at Bramer Bank",
+      "summary": "The Financial Crimes Division of the Intermediate Court has delivered its verdict on the 2011 Bramer Bank fraud case, handing down significant fines and prison sentences to four defendants, including Chandra Prakash Dip. Chandra Prakash Dip, the son of … The post Chandra Dip Fined Rs 1,330,000 following his Fraudulent Transaction at Bramer Bank app",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "News Moris"
+      ],
+      "urls": [
+        "https://newsmoris.com/chandra-dip-fined-rs-1330000-following-his-fraudulent-transaction-at-bramer-bank/"
+      ]
+    },
+    {
+      "id": "singleton_490c963aae93",
+      "cluster_time": "2026-04-17T12:20:00+00:00",
+      "category": "local",
+      "headline": "Enquête dans l’affaire Menlo Park : Deepshikha Gowreesunker de nouveau convoquée par l’Anti Money Laundering Unit",
+      "summary": "L’ancienne relationship manager à la Mauritius Commercial Bank (MCB), Deepshikha Gowreesunker, a été de nouveau convoqué",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/enquete-dans-laffaire-menlo-park-deepshikha-gowreesunker-de-nouveau-convoquee-par-lanti-money"
       ]
     },
     {
       "id": "singleton_fe8f506c22b6",
-      "cluster_time": "2026-04-16T12:31:34+00:00",
+      "cluster_time": "2026-04-17T12:03:39+00:00",
       "category": "regional",
       "headline": "Middle East crisis tests African economies [Business Africa]",
       "summary": "After a strong 2025, African economies are facing a new threat: the war in the Middle East. The IMF now expects regional growth to slow to 4.3% this year. What’s different this time is that planners have tool kits to better absorb the shock",
@@ -821,192 +904,204 @@
       ]
     },
     {
-      "id": "singleton_16fd8e08d7c7",
-      "cluster_time": "2026-04-16T12:16:21+00:00",
-      "category": "local",
-      "headline": "Mauritius Plans New Subsidies on 5 Essential Product Groups to Protect Households",
-      "summary": "The Mauritian government has greenlit an expansion of its Price Stabilisation Fund in a strategic move to shield households from volatile global markets and the economic fallout of the Middle East conflict. Commerce Minister Michael Sik Yuen confirmed that a … The post Mauritius Plans New Subsidies on 5 Essential Product Groups to Protect Household",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "News Moris"
-      ],
-      "urls": [
-        "https://newsmoris.com/mauritius-plans-new-subsidies-on-5-essential-product-groups-to-protect-households/"
-      ]
-    },
-    {
-      "id": "singleton_985f578a1193",
-      "cluster_time": "2026-04-16T12:08:18+00:00",
+      "id": "singleton_4225929dd15d",
+      "cluster_time": "2026-04-17T10:53:54+00:00",
       "category": "regional",
-      "headline": "Gabon opposition leader and former PM Alain-Claude Bilie-By-Nze arrested",
-      "summary": "Gabon authorities have arrested main opposition leader and vocal government critic Alain-Claude Bilie-By-Nze, his political party said Thursday.",
+      "headline": "Kenya's societal changes see rise of professional mourners",
+      "summary": "How do you guarantee a good turn out at a funeral? In Kenya, some families are hiring professional mourners to give their loved ones the ultimate send-off.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Africanews"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/gabon-opposition-leader-and-former-pm-alain-claude-bilie-by-nze-arrested/"
+        "http://www.africanews.com/2026/04/17/kenyas-societal-changes-see-rise-of-professional-mourners/"
       ]
     },
     {
-      "id": "d8509da89170",
-      "cluster_time": "2026-04-16T12:02:00+00:00",
-      "category": "local",
-      "headline": "St-François, Grand-Gaube : trois hommes et deux femmes arrêtés pour l’agression mortelle d’un homme de 66 ans",
-      "summary": "[Defimedia] Un habitant de St-François, à Grand-Gaube, âgé de 66 ans, Vijay Ramdass, a succombé à ses blessures ce mercredi. Le 26 m\n\n[Defimedia] Un habitant de St-François, à Grand-Gaube, âgé de 56 ans, a succombé à ses blessures ce mercredi, après avoir été victim\n\n[Defimedia] Vijay Ramrad, 56 ans, est décédé 22 jours après avoir été agressé à son domicile à Grand-Gaube. L’homme avait été violem",
-      "cluster_size": 3,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/st-francois-grand-gaube-trois-hommes-et-deux-femmes-arretes-pour-lagression-mortelle-dun-homme-de",
-        "https://defimedia.info/agression-grand-gaube-vijay-ramrad-succombe-ses-blessures-cinq-suspects-arretes",
-        "https://defimedia.info/agression-mortelle-grand-gaube-la-fille-de-la-victime-temoigne"
-      ]
-    },
-    {
-      "id": "singleton_2e49daf8257a",
-      "cluster_time": "2026-04-16T11:48:38+00:00",
-      "category": "local",
-      "headline": "Mauritius Cites 3 Legal Rulings to Reject Maldivian Claims over Chagos Islands",
-      "summary": "The Mauritian government has issued a defiant rejection of sovereignty claims made by the Maldives over the Chagos Archipelago, declaring its own authority over the islands “incontestable” under international law. In a formal statement released by Attorney General Gavin Glover, … The post Mauritius Cites 3 Legal Rulings to Reject Maldivian Claims o",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "News Moris"
-      ],
-      "urls": [
-        "https://newsmoris.com/mauritius-cites-3-legal-rulings-to-reject-maldivian-claims-over-chagos-islands/"
-      ]
-    },
-    {
-      "id": "9d3333269354",
-      "cluster_time": "2026-04-16T11:10:17+00:00",
-      "category": "global",
-      "headline": "Wanted activist arrested in South Africa over support for Benin coup plot",
-      "summary": "[BBC News] Keba Seba is known for opposing French influence in Africa and backing West Africa's military leaders.\n\n[Africanews] Seba, who is wanted by Cotonou for 'inciting rebellion', has been remanded in custody as extradition processes get underway.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cm29p64z77go?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/04/16/beninese-pan-african-activist-kemi-seba-arrested-in-south-africa/"
-      ]
-    },
-    {
-      "id": "singleton_1e52b940aa78",
-      "cluster_time": "2026-04-16T11:06:04+00:00",
+      "id": "singleton_5aa91c6dbf28",
+      "cluster_time": "2026-04-17T10:52:25+00:00",
       "category": "regional",
-      "headline": "UN warns tensions between DR Congo, Rwanda, and Burundi remain acute",
-      "summary": "It said the humanitarian and security situations in the Great Lakes region has worsened to a “worrisome level\", despite intensified diplomatic initiatives.",
+      "headline": "Germany’s Affordable Art Fair draws crowds with artworks under €500",
+      "summary": "Germany is hosting the Affordable Art Fair Berlin from 16 to 19 April 2026. The event brings together dozens of galleries and focuses on artworks priced under €500, aiming to broaden access to contemporary art.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Africanews"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/un-warns-tensions-between-dr-congo-rwanda-and-burundi-remain-acute/"
+        "http://www.africanews.com/2026/04/17/germanys-affordable-art-fair-draws-crowds-with-artworks-under-500/"
       ]
     },
     {
-      "id": "singleton_1bfc4df60a55",
-      "cluster_time": "2026-04-16T11:00:22+00:00",
+      "id": "singleton_25bfbc1aaa61",
+      "cluster_time": "2026-04-17T10:47:06+00:00",
+      "category": "regional",
+      "headline": "South African opposition politician gets jail term for gun offence",
+      "summary": "Julius Malema was convicted in October last year unlawful possession of an assault rifle and firing it in the air at a 2018 rally.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/16/south-african-opposition-politician-gets-jail-term-for-gun-offence/"
+      ]
+    },
+    {
+      "id": "singleton_9388e84fdf19",
+      "cluster_time": "2026-04-17T10:44:19+00:00",
+      "category": "regional",
+      "headline": "Gabon's former prime minister in pre-trial detention following arrest",
+      "summary": "Alain-Claude Bilie-By-Nze is under investigation over allegations of fraud and breach of trust linked to a 2008 cultural festival for which he was one of the organisers.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/gabons-former-prime-minister-in-pre-trial-detention-following-arrest/"
+      ]
+    },
+    {
+      "id": "singleton_25282e81b3f6",
+      "cluster_time": "2026-04-17T10:43:54+00:00",
+      "category": "regional",
+      "headline": "Centuries-old Gabonese animist tradition to protect the coastline",
+      "summary": "Worshippers presented offerings to the spirits of the sea off the coast of Pointe-Denis on Sunday.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/16/centuries-old-gabonese-animist-tradition-to-protect-the-coastline/"
+      ]
+    },
+    {
+      "id": "singleton_0bf4dda28e99",
+      "cluster_time": "2026-04-17T10:41:49+00:00",
+      "category": "regional",
+      "headline": "Preparations underway in Equatorial Guinea for arrival of Pope Leo XIV",
+      "summary": "Some 80 per cent of the country's inhabitants are Catholic, but Leo is the first church leader to visit since Pope Jean-Paul II almost half a century ago.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/preparations-underway-in-equatorial-guinea-for-arrival-of-pope-leo-xiv/"
+      ]
+    },
+    {
+      "id": "singleton_d9dca08218da",
+      "cluster_time": "2026-04-17T10:22:46+00:00",
       "category": "global",
-      "headline": "Brazil's former spy chief released from ICE detention",
-      "summary": "Bolsonaro ally Alexandre Ramagem was stopped by immigration agents in Orlando, Florida on Monday.",
+      "headline": "Finance ministers and top bankers raise serious concerns about Mythos AI model",
+      "summary": "Experts say Mythos potentially has an unprecedented ability to identify and exploit cyber-security weaknesses.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cvglz72rjl2o?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.com/news/articles/c2ev24yx4rmo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
-      "id": "singleton_34e5a33b1b0f",
-      "cluster_time": "2026-04-16T10:58:50+00:00",
-      "category": "regional",
-      "headline": "Sudan’s ‘abandoned crisis’ enters fourth year as calls for peace grow louder",
-      "summary": "Back in Sudan, only 63% of health facilities remain operational, according to the World Health Organization, as disease outbreaks such as cholera spread rapidly. Attacks on healthcare workers and infrastructure have further crippled the system.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/sudans-abandoned-crisis-enters-fourth-year-as-calls-for-peace-grow-louder/"
-      ]
-    },
-    {
-      "id": "singleton_fdc373598ae6",
-      "cluster_time": "2026-04-16T10:53:24+00:00",
-      "category": "regional",
-      "headline": "Haiti: High fuel, food prices pile new pressure on families",
-      "summary": "On April 2, Haiti’s government announced a 37% increase in the cost of diesel and a 29% increase in the cost of gasoline. With higher oil prices came a hike in the prices of essential food products",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/haiti-high-fuel-food-prices-pile-new-pressure-on-families/"
-      ]
-    },
-    {
-      "id": "singleton_73b26b2ca1e3",
-      "cluster_time": "2026-04-16T10:35:00+00:00",
+      "id": "singleton_e28517ef8ceb",
+      "cluster_time": "2026-04-17T10:18:00+00:00",
       "category": "local",
-      "headline": "Perquisition à la Twaha Academy : clé USB et bâton de serpillière saisis dans la chambre du Mufti",
-      "summary": "La CID de Bel-Air/Rivière-Sèche a perquisitionné mardi la Twaha Academy, saisissant plusieurs objets dans la chambre du",
+      "headline": "Blocage au Mare-Chicose : des négociations en cours entre Sotravic/Strata et les camionneurs",
+      "summary": "Le ministère de l’Environnement, de la Gestion des déchets solides a réagi au litige opposant actuellement l’opérateur S",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/perquisition-la-twaha-academy-cle-usb-et-baton-de-serpilliere-saisis-dans-la-chambre-du-mufti"
+        "https://defimedia.info/blocage-au-mare-chicose-des-negociations-en-cours-entre-sotravicstrata-et-les-camionneurs"
       ]
     },
     {
-      "id": "singleton_23b00b8a899b",
-      "cluster_time": "2026-04-16T10:22:01+00:00",
-      "category": "regional",
-      "headline": "Ukraine: Russian strikes hit Kyiv’s Podilsky district",
-      "summary": "Russian strikes hit Kyiv’s Podilsky district, injuring dozens and damaging homes, as part of a wider wave of deadly attacks across Ukraine.",
+      "id": "singleton_e0812836c7e4",
+      "cluster_time": "2026-04-17T10:14:39+00:00",
+      "category": "local",
+      "headline": "Mauritius Eyes Rodrigues Desalination Success to Solve Water Crisis",
+      "summary": "MAURITIUS is looking to adopt desalination technology from Rodrigues to combat persistent water shortages on the mainland, following a successful official visit by the Minister of Energy and Public Utilities. Minister Patrick Assirvaden, visiting the island from 14 to 16 … The post Mauritius Eyes Rodrigues Desalination Success to Solve Water Crisis",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Africanews"
+        "News Moris"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/ukriane-russian-strikes-hit-kyivs-podilsky-district/"
+        "https://newsmoris.com/mauritius-eyes-rodrigues-desalination-success-to-solve-water-crisis/"
       ]
     },
     {
-      "id": "singleton_53e668b6df58",
-      "cluster_time": "2026-04-16T10:00:00+00:00",
+      "id": "88a044e50601",
+      "cluster_time": "2026-04-17T10:13:00+00:00",
       "category": "local",
-      "headline": "Fourniture d’huile lourde pour le CEB : ce que révèle l’accord STC – Sahara Energy Resource Limited",
-      "summary": "Mardi 14 avril 2026 en soirée, le ministre du Commerce Michael Sik Yuen a déposé à l’Assemblée nationale l’accord comple",
+      "headline": "Maltraitances alléguées à la Twaha Academy : l’enregistreur vidéo saisi, deux témoins entendus",
+      "summary": "[Defimedia] Dans le cadre de l’enquête sur des allégations de maltraitance visant le mufti Azhar Peerbocus, ancien directeur de la T\n\n[Defimedia] Le maulana Hussein Luckheea, responsable de la Twaha Academy, s’est présenté au Central Criminal Investigation Departmen",
+      "cluster_size": 2,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/maltraitances-alleguees-la-twaha-academy-lenregistreur-video-saisi-deux-temoins-entendus",
+        "https://defimedia.info/maltraitances-alleguees-la-twaha-academy-le-maulana-hussein-luckheea-entendu-au-ccid"
+      ]
+    },
+    {
+      "id": "singleton_8d584954a17d",
+      "cluster_time": "2026-04-17T09:00:00+00:00",
+      "category": "local",
+      "headline": "Dessalement : Maurice s’inspire de l’expertise rodriguaise",
+      "summary": "En visite officielle à Rodrigues de 14 au 16 avril, le ministre de l’Énergie et des Services publics, Patrick Assirvaden",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/fourniture-dhuile-lourde-pour-le-ceb-ce-que-revele-laccord-stc-sahara-energy-resource-limited"
+        "https://defimedia.info/dessalement-maurice-sinspire-de-lexpertise-rodriguaise"
+      ]
+    },
+    {
+      "id": "singleton_0641414f0171",
+      "cluster_time": "2026-04-17T08:59:42+00:00",
+      "category": "regional",
+      "headline": "Immigrants race to gather paperwork as amnesty applications open",
+      "summary": "Immigrants in Spain hoping to apply for the government’s amnesty are facing long lines as they race to gather their paperwork.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/immigrants-race-to-gather-paperwork-as-amnesty-applications-open/"
+      ]
+    },
+    {
+      "id": "singleton_3b4a9e410580",
+      "cluster_time": "2026-04-17T08:40:50+00:00",
+      "category": "regional",
+      "headline": "Beninese pan-African activist Kemi Seba arrested in South Africa",
+      "summary": "Seba, who is wanted by Cotonou for 'inciting rebellion', has been remanded in custody as extradition processes get underway.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/16/beninese-pan-african-activist-kemi-seba-arrested-in-south-africa/"
       ]
     },
     {
       "id": "singleton_ae0ad94f342e",
-      "cluster_time": "2026-04-16T09:44:15+00:00",
+      "cluster_time": "2026-04-17T08:36:15+00:00",
       "category": "regional",
       "headline": "\"The IMF’ mission is to help countries help themselves\" - Kristalina Georgieva",
       "summary": "Speaking at the Spring Meetings of the International Monetary Fund in Washington, Managing Director Kristalina Georgieva reaffirmed the institution’s role in supporting its member states.",
@@ -1020,576 +1115,605 @@
       ]
     },
     {
-      "id": "singleton_68aee02d3dbf",
-      "cluster_time": "2026-04-16T09:41:00+00:00",
-      "category": "local",
-      "headline": "Navin Ramgoolam est arrivé à Brazzaville",
-      "summary": "Le Premier ministre, le Dr Navin Ramgoolam, est arrivé hier soir à Brazzaville, où il a été accueilli avec les honneurs",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/navin-ramgoolam-est-arrive-brazzaville"
-      ]
-    },
-    {
-      "id": "singleton_c67c95ceeb68",
-      "cluster_time": "2026-04-16T09:40:00+00:00",
-      "category": "local",
-      "headline": "Misley Mandarin souhaite des tests ADN pour recenser les «vrais» Chagossiens",
-      "summary": "Installé depuis février sur l’atoll de Peros Banhos dans l’archipel des Chagos, Misley Mandarin, qui se présente comme l",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/misley-mandarin-souhaite-des-tests-adn-pour-recenser-les-vrais-chagossiens"
-      ]
-    },
-    {
-      "id": "singleton_2f1d8e3a09cc",
-      "cluster_time": "2026-04-16T09:09:22+00:00",
+      "id": "singleton_1e52b940aa78",
+      "cluster_time": "2026-04-17T08:33:47+00:00",
       "category": "regional",
-      "headline": "Nigerian army buries soldiers killed in militant attacks",
-      "summary": "The army on Wednesday buried officers and soldiers killed in attacks killed in recent Islamist militant attacks in the north east",
+      "headline": "UN warns tensions between DR Congo, Rwanda, and Burundi remain acute",
+      "summary": "It said the humanitarian and security situations in the Great Lakes region has worsened to a “worrisome level\", despite intensified diplomatic initiatives.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Africanews"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/nigerian-army-buries-soldiers-killed-in-militant-attacks/"
+        "http://www.africanews.com/2026/04/16/un-warns-tensions-between-dr-congo-rwanda-and-burundi-remain-acute/"
       ]
     },
     {
-      "id": "singleton_35da289648c1",
-      "cluster_time": "2026-04-16T09:05:32+00:00",
-      "category": "local",
-      "headline": "Police Arrest Former MCB Executive Over Rs 45 Million Menlo Park Laundering Scandal",
-      "summary": "A former relationship executive at the Mauritius Commercial Bank (MCB) has been arrested for a second time as part of a high-profile investigation into the “Menlo Park affair.” Deepshikha Gowreesunkur was taken into custody on Wednesday, 15 April, … The post Police Arrest Former MCB Executive Over Rs 45 Million Menlo Park Laundering Scandal appeare",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "News Moris"
-      ],
-      "urls": [
-        "https://newsmoris.com/police-arrest-former-mcb-executive-over-rs-45-million-menlo-park-laundering-scandal/"
-      ]
-    },
-    {
-      "id": "singleton_3a8619a4234d",
-      "cluster_time": "2026-04-16T09:00:00+00:00",
-      "category": "local",
-      "headline": "Bras de fer - Chagos : face aux Maldives, Maurice affirme une souveraineté «incontestable»",
-      "summary": "Port-Louis oppose une fin de non-recevoir aux Maldives, réaffirmant avec fermeté que la souveraineté de Maurice sur l’ar",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/bras-de-fer-chagos-face-aux-maldives-maurice-affirme-une-souverainete-incontestable"
-      ]
-    },
-    {
-      "id": "singleton_3f2cbfd51db2",
-      "cluster_time": "2026-04-16T09:00:00+00:00",
-      "category": "local",
-      "headline": "Prix des carburants : Haniff Peerun parle d’une hausse «injustifiée»",
-      "summary": "Le président du Mauritius Labour Congress (MLC), Haniff Peerun, critique la récente hausse des prix des carburants, qu’i",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/prix-des-carburants-haniff-peerun-parle-dune-hausse-injustifiee"
-      ]
-    },
-    {
-      "id": "singleton_0d65ebca7b81",
-      "cluster_time": "2026-04-16T08:30:00+00:00",
-      "category": "local",
-      "headline": "Extension du Price Stabilisation Fund : Riz, farine et gaz parmi les priorités",
-      "summary": "L’annonce de l’extension du Price Stabilisation Fund devrait apporter un certain soulagement. Riz, farine, grains secs,",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/extension-du-price-stabilisation-fund-riz-farine-et-gaz-parmi-les-priorites"
-      ]
-    },
-    {
-      "id": "singleton_a406fc07b9cb",
-      "cluster_time": "2026-04-16T08:22:29+00:00",
-      "category": "regional",
-      "headline": "Ukraine: Deadly Russian strikes on Kyiv, Odesa and Dnipro leave 12 dead",
-      "summary": "Russian strikes on Kyiv, Odesa and Dnipro killed at least 12 people, including a child, as fighting and failed ceasefire efforts drag on in mid-April.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/ukraine-deadly-russian-strikes-on-kyiv-odesa-and-dnipro-leave-12-dead/"
-      ]
-    },
-    {
-      "id": "singleton_062bdd76d37e",
-      "cluster_time": "2026-04-16T08:22:00+00:00",
-      "category": "local",
-      "headline": "Aéroport de Plaisance : 61 boulettes de cocaïne découvertes dans l’estomac d’un passeur nigérian",
-      "summary": "Un passeur nigérian a été épinglé à l’aéroport de Plaisance avec 61 boulettes de cocaïne. La valeur de la drogue est est",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/aeroport-de-plaisance-61-boulettes-de-cocaine-decouvertes-dans-lestomac-dun-passeur-nigerian"
-      ]
-    },
-    {
-      "id": "singleton_eddd8b53462d",
-      "cluster_time": "2026-04-16T08:07:00+00:00",
-      "category": "local",
-      "headline": "Téléphone portable à l’école : la mise en œuvre d’une utilisation encadrée prévue d’ici quatre à cinq semaines",
-      "summary": "D’ici quatre à cinq semaines, l’utilisation du téléphone portable à l’école sera encadrée. Dans une déclaration au Défi",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/telephone-portable-lecole-la-mise-en-oeuvre-dune-utilisation-encadree-prevue-dici-quatre-cinq"
-      ]
-    },
-    {
-      "id": "singleton_777a64179e3a",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Partenariat Nautil-Sunlife : Un dodo sculpté de près de 250 kg dévoilé à Paris",
-      "summary": "En mai 2025, les 90 collaborateurs du groupe Nautil sont venus à Maurice à l’occasion d’un voyage de cohésion rassemblant désormais trois marques expertes et complémentaires : Mauritius Travel, OOVATU et Tropicalement Vôtre. Accueillis par Sunlife dans les hôtels *La Pirogue et Sugar Beach*, ils ont vécu une expérience collective forte, pensée pour",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256115/"
-      ]
-    },
-    {
-      "id": "singleton_87e670a9e3f9",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Dans l’univers de… Marie Ythier, violoncelliste : «Il ne faut pas avoir peur des langages contemporains»",
-      "summary": "Des compositeurs contemporains ont créé des pièces spécifiquement pour la violoncelliste Marie Ythier. Elle partage sa passion pour la création, l’enseignement et le pays de son arrière-grand-père, qui était Mauricien. Avant le jeudi 9 avril, Marie Ythier n’avait jamais donné de récital de violoncelle à Maurice. L’île que son arrière-grand-père, Ed",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256118/"
-      ]
-    },
-    {
-      "id": "singleton_0574df275367",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "«AML/CFT Bill» : Ashok Subron : «Les lois fondamentales sont le produit de luttes sociales»",
-      "summary": "De son côté, le ministre de l’Intégration sociale, de la sécurité sociale et de la solidarité nationale, Ashok Subron, a tenu à répondre aux critiques de l’opposition par rapport à ce projet de loi. Il a rappelé les interrogations sur l’introduction du délit d’écocide dans le projet de loi, estimant que cette disposition est pleinement liée aux enj",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256127/"
-      ]
-    },
-    {
-      "id": "singleton_c89ddb53b779",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Rodrigues : Mobilisation de l’État après les inondations, aides élargies aux sinistrés",
-      "summary": "Un mois après les inondations du 15 mars, le gouvernement intensifie son soutien aux familles sinistrées de Rodrigues. Le ministre de l’Intégration sociale, de la sécurité sociale et de la solidarité nationale, Ashok Subron, s’est rendu dans l’île, le lundi 14 avril, dans le cadre d’une visite officielle placée sous le signe de la solidarité. Dès s",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256103/"
-      ]
-    },
-    {
-      "id": "singleton_f217e3b582e7",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Banque mondiale : Un ralentissement de la croissance attendu cette année",
-      "summary": "La croissance du produit intérieur brut (PIB) devrait ralentir à 2,5 % en 2026, selon le *Macro Poverty Outlook* de la Banque mondiale publié ce mois-ci. Cette tendance à la baisse s’expliquerait principalement par un environnement international moins favorable et par les incertitudes liées au conflit au Moyen-Orient. Dans ce contexte de ralentisse",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256106/"
-      ]
-    },
-    {
-      "id": "singleton_831ff6f03fd4",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "«AML/CFT Bill» : Arvin Boolell : «La méthodologie révisée du FATF met un accent plus fort sur l’efficacité mesurable»",
-      "summary": "Arvin Boolell, ministre de l’Agro-industrie, de la pêche et de l’économie bleue, a insisté sur la nécessité pour Maurice de se positionner comme une juridiction de substance afin de maintenir sa compétitivité internationale. Ainsi, ce texte législatif est présenté comme un véritable *«gatekeeper»* de la juridiction, destiné à protéger l’intégrité d",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256109/"
-      ]
-    },
-    {
-      "id": "2e6247506e25",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "«AML/CFT Bill» : Sécurité nationale et crédibilité au cœur du plaidoyer de Jyoti Jeetun",
-      "summary": "[L'Express (via mega.mu)] L’*Anti-Money Laundering, Combating the Financing of Terrorism and Countering Proliferation Financing (Miscellaneous Provisions) Bill* a été voté avec amendements à l’issue des débats parlementaires, mardi soir. Lors du summing up, la ministre des Services financiers, Jyoti Jeetun, a défendu un texte *«structurant et transformationnel»*, qu’elle a\n\n[L'Express (via mega.mu)] Mardi à l’Assemblée nationale, avant le vote avec amendements de l’*Anti-Money Laundering, Combating the Financing of Terrorism and Countering Proliferation Financing (Miscellaneous Provisions) Bill*, le ministre de l’Environnement, Rajesh Bhagwan, a présenté ce projet de loi comme *«une nécessité absolue»* pour restaurer la crédibilité financière",
-      "cluster_size": 2,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256088/",
-        "https://live.mega.mu/redirect/256091/"
-      ]
-    },
-    {
-      "id": "singleton_7850b86e6a60",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Coopération États-Unis-Maurice : Don d’équipements HAZMAT de Rs 6,3 millions",
-      "summary": "Le gouvernement des États-Unis, par l’intermédiaire de l’*«U.S. Defense Threat Reduction Agency»* (DTRA) et en coordination avec l’ambassade des États-Unis à Port-Louis, a fait un don d’équipements destinés à la gestion des matières dangereuses (HAZMAT) d’une valeur de Rs 6,3 millions de roupies. Cette contribution vise à soutenir le gouvernement d",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256076/"
-      ]
-    },
-    {
-      "id": "singleton_552a754d1f6b",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "«Les mains qui parlent» : Sarah-Amélie Goder met la langue des signes à la portée de tous",
-      "summary": "Faire tomber les barrières, un geste à la fois. C’est avec cette volonté que Sarah-Amélie Goder lance *Les mains qui parlent*, une série d’ateliers d’initiation à la langue des signes destinée aux restaurateurs, aux serveurs, mais aussi au grand public. À travers cette démarche, celle que l’on décrit aussi comme une plume engagée souhaite poser une",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256079/"
-      ]
-    },
-    {
-      "id": "singleton_dd73f5f593de",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Voyage de Navin Ramgoolam : Dharam Gokhool reçoit Shakeel Mohamed ce jeudi",
-      "summary": "Le président de la République, Dharam Gokhool, a accueilli le Premier ministre par intérim, Shakeel Mohamed, à la State House ce jeudi 16 avril. Cela, dans le cadre de la réunion hebdomadaire entre le chef du gouvernement et celui de l’État. Alors que le Premier ministre, Navin Ramgoolam, est en voyage en République du Congo, c’est Shakeel Mohamed",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256082/"
-      ]
-    },
-    {
-      "id": "singleton_25b3b48c62e4",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "«AML/CFT Bill» : Shakeel Mohamed dénonce un régulateur immobilier «sans dents»",
-      "summary": "Intervenant lors des débats, le ministre des Terres et du logement, Shakeel Mohamed, a vivement critiqué l’ancienne gestion du secteur immobilier, pointant du doigt une mise en œuvre incomplète et, selon lui, volontairement affaiblie de la *Real Estate Agency Authority Act* de 2020. S’attardant sur les dispositions restées inappliquées, il s’est in",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256085/"
-      ]
-    },
-    {
-      "id": "singleton_d98095d30ca8",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Commande de pièces BMW : un habitant de Quatre-Bornes piégé sur TikTok, Rs 11 900 envolées",
-      "summary": "Un habitant de Quatre-Bornes, âgé de 37 ans, affirme avoir été victime d’une escroquerie en ligne après une transaction effectuée via TikTok.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256130/"
-      ]
-    },
-    {
-      "id": "singleton_8d66b442a9f7",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Griefs contre leurs employeurs : Des travailleurs indiens veulent rentrer chez eux",
-      "summary": "Depuis hier matin, peu après 8 heures, une centaine de travailleurs étrangers indiens se sont massés devant le bureau du ministère du Travail, à Port-Louis, pour faire entendre leur détresse. Assis, debout ou réfugiés à l’ombre comme ils le peuvent, tous disent n’avoir plus d’autre choix que de réclamer justice. Leur principale revendication est cl",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256064/"
-      ]
-    },
-    {
-      "id": "singleton_a8c799357c49",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Hippisme : L'écurie Gujadhur aux 'barrier trials' demain",
-      "summary": "La troisième matinée consacrée aux barrier trials est au programme de la séance d'entraînement de demain. Parmi, les premiers coursiers de l'écurie Gujadhur, mais aussi ceux des Mahadia et R.Gujadhur. Ci-dessous la liste complète. À noter que quatre grass gallops sont également au programme. Ils sont comme suit: 6h: Quasiforsure – Captain Marsala 6",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256067/"
-      ]
-    },
-    {
-      "id": "singleton_dfa6291193ab",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "République du Congo : Navin Ramgoolam assiste aujourd’hui à la cérémonie d’investiture du président Denis Sassou Nguesso",
-      "summary": "Le Premier ministre, Navin Ramgoolam, est arrivé hier soir à Brazzaville, République du Congo, où il a été accueilli avec tous les honneurs à l’aéroport par son homologue congolais, Anatole Collinet Makosso. Le chef du gouvernement doit assister aujourd’hui à la cérémonie d’investiture du président Denis Sassou Nguesso, récemment réélu pour un nouv",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256070/"
-      ]
-    },
-    {
-      "id": "singleton_dcff76602fb4",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "[Vidéo] Côte ouest : Le «bypass» de Tamarin, une nécessité qui se heurte à la réalité du terrain",
-      "summary": "Ils réclamaient une solution depuis un bon moment. Ce jeudi 16 avril, les députés de la côte ouest ont obtenu que le Premier ministre par intérim et ministre du Logement, Shakeel Mohammed, se rende lui-même sur place, à Yemen, Tamarin, pour évaluer la faisabilité d'une route de contournement de 8 kilomètres. Une infrastructure qui pourrait changer",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256073/"
-      ]
-    },
-    {
-      "id": "singleton_efd5afabc164",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Natation : «MSF Winter Championships 2026», Côte-d’Or : Ça commence cet après-midi !",
-      "summary": "Le coup d’envoi des MSF Winter Championships 2026 est donné ce jeudi 16 avril à la piscine de Côte d’Or. Le niveau s’annonce particulièrement relevé cette année avec un système de sélection restreint : seuls les nageurs classés dans le Top 10 de leur épreuve sont autorisés à s’engager. L’organisation impose une discipline rigoureuse. En chambre d’a",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256055/"
-      ]
-    },
-    {
-      "id": "singleton_de183804f932",
-      "cluster_time": "2026-04-16T08:00:00+00:00",
-      "category": "local",
-      "headline": "Après la démission du MMM : Paul Bérenger privilégie un mouvement politique plutôt qu’un parti",
-      "summary": "À peine sa démission actée du Mouvement militant mauricien (MMM), Paul Bérenger se tourne déjà vers une nouvelle orientation politique. Contacté hier, l’ancien leader mauve a apporté des précisions. *«Nous avons eu une rencontre avec notre petit comité. Nous allons dans la direction d’un mouvement politique.»* Interrogé à propos du nom de ce nouvea",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256058/"
-      ]
-    },
-    {
-      "id": "singleton_1fadfeffaae9",
-      "cluster_time": "2026-04-16T07:41:00+00:00",
-      "category": "local",
-      "headline": "Au Cœur de l’Info - Flambée des prix du carburant : jusqu’où ira la crise ?",
-      "summary": "Dans Au cœur de l’Info cet après-midi : nouveau choc pour les consommateurs. Depuis minuit, l’essence et le diesel grimp",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/au-coeur-de-linfo-flambee-des-prix-du-carburant-jusquou-ira-la-crise"
-      ]
-    },
-    {
-      "id": "singleton_6046a9ad348a",
-      "cluster_time": "2026-04-16T07:17:17+00:00",
-      "category": "regional",
-      "headline": "Pope Leo XIV visits Cameroon as Biya faces unrest and separatist war",
-      "summary": "Arriving in Yaoundé on Wednesday, Pope Leo XIV pressed Cameroon’s leaders to address corruption, setting the tone for a high-stakes visit.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/16/pope-leo-xiv-visits-cameroon-as-biya-faces-unrest-and-separatist-war/"
-      ]
-    },
-    {
-      "id": "singleton_fae3dd8de072",
-      "cluster_time": "2026-04-16T07:14:00+00:00",
-      "category": "local",
-      "headline": "Bras de fer avec le CEB : la Cour suprême rejette l’appel de Chavansingh Dabeedin",
-      "summary": "Saisie en appel, la Cour suprême a confirmé, le vendredi 10 avril 2026, une décision rendue dans le litige opposant Chav",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/bras-de-fer-avec-le-ceb-la-cour-supreme-rejette-lappel-de-chavansingh-dabeedin"
-      ]
-    },
-    {
-      "id": "singleton_d38ce24bea18",
-      "cluster_time": "2026-04-16T07:03:00+00:00",
-      "category": "local",
-      "headline": "«Il agonisait sous nos yeux» : Jaisen Sooreea tué d’un coup de couteau",
-      "summary": "Trois autres jeunes blessés lors de l’attaqueAnandasamy Ponnan inculpé pour meurtre ce jeudiUne sortie entre amis a viré",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/il-agonisait-sous-nos-yeux-jaisen-sooreea-tue-dun-coup-de-couteau"
-      ]
-    },
-    {
-      "id": "a7be1701a88b",
-      "cluster_time": "2026-04-16T06:51:09+00:00",
+      "id": "singleton_3fb475431b1d",
+      "cluster_time": "2026-04-17T08:30:34+00:00",
       "category": "global",
-      "headline": "'Unprecedented' fire at Australian oil refinery to affect nation's petrol supplies",
-      "summary": "[BBC News] The fire has deepened fears over the nation's petrol supplies amid a global crunch.\n\n[Africanews] Fire at Viva Energy's Geelong refinery, which supplies 10% of Australia’s fuel, sparks supply fears as Iran war keeps global prices elevated.",
+      "headline": "Avengers reassemble and Top Gun flies back - Hollywood studios preview their new movies",
+      "summary": "Some of the most hotly anticipated new films of the next couple of years are previewed at CinemaCon.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cwyk2xrkvnzo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_e8bd9b1b370f",
+      "cluster_time": "2026-04-17T08:30:00+00:00",
+      "category": "local",
+      "headline": "Éducation : le Blueprint final bientôt soumis au conseil des ministres bientôt",
+      "summary": "La version finale du Blueprint sur la réforme du secteur éducatif sera présentée très prochainement au cabinet. Cette an",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/education-le-blueprint-final-bientot-soumis-au-conseil-des-ministres-bientot"
+      ]
+    },
+    {
+      "id": "singleton_022d1a250468",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Abus sexuels allégués sur mineures : Une troisième plainte contre Percy Duval",
+      "summary": "Jeudi, une troisième mineure, accompagnée de sa mère qui vit à l’étranger, a donné une déposition à la police de Rose-Hill contre Percy Duval, 57 ans. Cet employé d’un concessionnaire automobile a été arrêté lundi après que la police a enregistré deux plaintes de mineures contre lui. Il a été traduit en cour de Bambous sous une accusation provisoir",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256226/"
+      ]
+    },
+    {
+      "id": "singleton_d2599bcfc83b",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Services financiers : Comment tirer son épingle du jeu dans le contexte mondial actuel",
+      "summary": "Lors d’un atelier intitulé *Navigating Global Shifts : Emerging Opportunities for the Financial Services*, qui s’est tenu à l’Atal Biharee Vajpayee Institute of Public Service and Innovation, à Côte-d’Or, hier, la ministre des Services financiers, Jyoti Jeetun, a abordé les défis posés par les conflits internationaux, notamment la guerre au Moyen-O",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256220/"
+      ]
+    },
+    {
+      "id": "singleton_a30176cb340d",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Rencontre : Govindaraj Srinivasan : «Nous voulons collaborer aux soins gériatriques à Maurice»",
+      "summary": "Govindaraj Srinivasan, fondateur et *Chief Executive Officer (CEO)* d’Athulya Senior Care, fournisseur de services gériatriques reconnus pour la qualité de leurs soins, était récemment à Maurice. Sa visite s’inscrit dans une démarche de collaboration avec des partenaires locaux pour la prise en charge des personnes âgées. Lors de notre rencontre, l",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256217/"
+      ]
+    },
+    {
+      "id": "singleton_7c1eb24bc205",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Agro-Industrie : Formation pour une gestion durable des terres",
+      "summary": "Face aux enjeux liés à la dégradation des terres et à la préservation des services écosystémiques, un atelier s’est tenu le 2 avril à Port-Louis dans le cadre du projet *Mainstreaming Sustainable Land Management and Biodiversity Conservation in the Republic of Mauritius*. Mis en œuvre par le ministère de l’Agro-industrie, de la sécurité alimentaire",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256211/"
+      ]
+    },
+    {
+      "id": "singleton_3111e1539277",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Automobilistes : «On met juste ce qu’il faut pour quelques jours»",
+      "summary": "À Rs 64,25 le litre d’essence et Rs 71,25, pour le diesel désormais, les automobilistes ajustent leurs comportements. Le plein devient partiel et calculé au plus juste. *«On met juste ce qu’il faut pour quelques jours»*, confie Sylvio Gérard, habitant d’Ambrose. La voiture est désormais gérée comme une dépense contrainte plutôt qu’un simple moyen d",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256214/"
+      ]
+    },
+    {
+      "id": "singleton_988dca3f3e09",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Tamarin : Un projet de by-pass pour désengorger la côte Ouest",
+      "summary": "Hier, le Premier ministre (PM) par intérim et ministre des Terres et du logement, Shakeel Mohamed, s’est rendu à Yemen, à Tamarin, pour une visite de terrain consacrée au projet d’une route de contournement sur la côte Ouest. Le région ne dispose que d’un seul axe routier principal reliant Rivière-Noire, Tamarin et Cascavelle. En cas d’accident, no",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256202/"
+      ]
+    },
+    {
+      "id": "singleton_af523f9ea4ed",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Éducation : Résultats du «SC French O Level» : La colère gronde chez les enseignants",
+      "summary": "La publication récente des résultats du *SC French O Level* suscite une onde de choc au sein de la communauté éducative. Après plusieurs semaines de concertation, de nombreux enseignants de français ont décidé de briser le silence pour exprimer leurs profondes préoccupations face à ce qu’ils qualifient, pour certains, de contre-performances *«alarm",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256205/"
+      ]
+    },
+    {
+      "id": "8175b7b06e1d",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Meurtre à Saint-Félix : Le suspect avoue : Le coup de couteau n’était pas destiné à Jaisen Sooreeah",
+      "summary": "[L'Express (via mega.mu)] L’enquête sur le meurtre de Jaisen Sooreeah, 22 ans, *(photo)* a connu un tournant majeur avec les aveux du principal suspect, arrêté par les enquêteurs de la *Divisional Crime Intelligence Unit (DCIU)* Sud. Le drame, survenu dans la nuit du 14 au 15 avril sur la plage publique de Saint-Félix après la fête organisée à l’occasion de Varusha Pirrapu,\n\n[Defimedia] L’enquête sur le meurtre de Jaisen Sooreea, 22 ans, aussi connu sous le prénom de Jenise, progresse. Le jeune homme avai",
       "cluster_size": 2,
       "source_count": 2,
       "sources": [
-        "BBC News",
-        "Africanews"
+        "L'Express (via mega.mu)",
+        "Defimedia"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/cj40pdw79z9o?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/04/16/australia-refinery-fire-raises-fuel-supply-concerns-amid-iran-war/"
+        "https://live.mega.mu/redirect/256196/",
+        "https://defimedia.info/meurtre-de-jaisen-sooreea-st-felix-le-suspect-ponnan-admet-avoir-agi-en-reponse-une-provocation"
       ]
     },
     {
-      "id": "singleton_9ed6921136e6",
-      "cluster_time": "2026-04-16T06:48:13+00:00",
-      "category": "regional",
-      "headline": "Kenya hikes fuel prices as supply tightens",
-      "summary": "The Energy and Petroleum Regulatory Authority (EPRA) blamed a surge in imported fuel costs for the hikes",
+      "id": "singleton_1ce5646896a1",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Cap sur le Mondial 2026 : «Rode Boule La» : le jeu qui fait monter la pression avant le coup d’envoi 🎯",
+      "summary": "À 50 jours du coup d’envoi de la Coupe du Monde de football 2026, l’excitation monte déjà d’un cran. Du 11 juin au 19 juillet, la planète football vibrera au rythme du plus grand événement sportif au monde. Et pour faire monter la pression dès maintenant, un jeu-concours inédit vient pimenter l’attente : «*Rode Boule La*». Dès le mercredi 22 avril",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Africanews"
+        "L'Express (via mega.mu)"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/kenya-hikes-fuel-prices-as-supply-tightens/"
+        "https://live.mega.mu/redirect/256199/"
       ]
     },
     {
-      "id": "singleton_8d75acf2cb84",
-      "cluster_time": "2026-04-16T06:00:00+00:00",
+      "id": "singleton_2e4006f6adee",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
       "category": "local",
-      "headline": "Affaire Menlo Park : seconde arrestation pour Deepshika Gowreesunkur",
-      "summary": "Deepshikha Gowreesunkur, ancienne Relationship Executive à la MCB, a été arrêtée mercredi 15 avril par l’Anti-Money Laun",
+      "headline": "Hausse des prix des carburants : Le coût d’un système à bout de souffle",
+      "summary": "La décision du *Petroleum Pricing Committee (PPC)*, entérinée le 15 avril 2026, d’augmenter les prix de l’essence et du diesel de 10 %, n’a surpris personne. Cette majoration était attendue. Présentée par la State Trading Corporation (STC) comme une application rigoureuse des mécanismes réglementaires, elle révèle pourtant bien plus qu’un simple aj",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256190/"
+      ]
+    },
+    {
+      "id": "singleton_e792297fe6af",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Drogue : Camp-de-Masque : un trentenaire arrêté avec du «simik», qu’il consomme et vend",
+      "summary": "Un habitant de Mare-aux-Goyaves, âgé de 29 ans, a été arrêté dans la soirée du 14 avril à Camp-de-Masque, en possession de substances suspectées d'être des cannabinoïdes synthétiques, destinées à la vente. Trahi par un comportement suspect, il a été interpellé en début de soirée par des policiers, du poste de Camp-de-Masque. Il semblait dissimuler",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256193/"
+      ]
+    },
+    {
+      "id": "singleton_26f1bd9f0b86",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Tournoi inter-presse : Football : Le MJS garde la coupe à la maison",
+      "summary": "Il aura suffi d’un éclair pour triompher. L’équipe du MJS A s’est offert le scalp de l’express en finale du tournoi inter-presse qu’il organisait, 1-0, samedi dernier, au stade de Côte d’Or. Hemman Emrith a été plus vif que tout le monde pour placer une reprise imparable sur Gregory Somah juste après le kick-off. ![WhatsApp Image 2026-04-17 at 10.4",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256181/"
+      ]
+    },
+    {
+      "id": "singleton_0d0656a164bb",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Hausse des prix des carburants : Réactions des syndicats : «Fire, fire in the country»",
+      "summary": "🟦 **Narendranath Gopee, de la FCSOU : «Il pourrait y avoir une répercussion générale»** «Fire, fire in the country», lance le président et négociateur de la Federation of Civil Service and Other Unions (FCSOU). Pour lui, le carburant constitue la base de presque toute l’activité économique. Dès que son prix augmente, explique-t-il, les entreprises",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256184/"
+      ]
+    },
+    {
+      "id": "singleton_9a8ae9e01e0a",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "KFC Ultimate Road Race : Mont Choisy accueille une première édition ambitieuse",
+      "summary": "La première édition du KFC Ultimate Road Race s’annonce déjà comme un événement majeur du calendrier sportif local. Prévue ce dimanche 19 avril à Mont Choisy, la compétition réunira un plateau international composé de neuf athlètes venus élever le niveau de cette nouvelle course. À travers cette initiative, les organisateurs entendent proposer bien",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256187/"
+      ]
+    },
+    {
+      "id": "singleton_dfd8a62482a7",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Reprendre ses études en 2026 : Pourquoi les meilleurs professionnels choisissent un MBA International Paris (MBAIP) à Maurice ?",
+      "summary": "À Maurice, de plus en plus de professionnels choisissent aujourd’hui de renforcer leurs compétences pour accélérer leur évolution de carrière. Dans un environnement économique en constante transformation, la montée en responsabilité exige à la fois vision stratégique, expertise managériale et ouverture internationale. C’est précisément l’ambition d",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256175/"
+      ]
+    },
+    {
+      "id": "singleton_bb7238ccfbbc",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Hausse des prix des carburants : Michael Sik Yuen : «Nou pa kone si pri lesans pou monte ankor. Nou priye ki sa lager-la fini au pli vit»",
+      "summary": "Le ministre du Commerce, Michael Sik Yuen, a tenu hier une conférence de presse dense et sans détour, abordant à la fois la récente hausse des prix des carburants, les perspectives économiques et les mesures de protection des consommateurs. Pendant près de deux heures, il a multiplié explications techniques, mises en garde et annonces, tout en répo",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256178/"
+      ]
+    },
+    {
+      "id": "singleton_f27e4b89b879",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Éducation : Mahend Gungapersad : «L’interdiction des portables entrera en vigueur d’ici cinq semaines»",
+      "summary": "Le ministre de l’Éducation, Mahend Gungapersad *(photo)*, a lancé, hier, un atelier de travail intitulé *Capacity Building Programme for School Superintendents*, à l’Atal Bihari Vajpayee Institute of Public Service and Innovation, à Réduit. Cette initiative vise à renforcer les compétences des responsables d’établissements scolaires, dans un contex",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256163/"
+      ]
+    },
+    {
+      "id": "singleton_1a66ec194c5d",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Météo : Une veille de fortes pluies est en vigueur à Maurice",
+      "summary": "Des nuages associés à une zone d'instabilité s'approchant par le nord-est influenceront graduellement le temps local au cours de la journée. 🌩️ **Situation météorologique** Des **averses localisées modérées avec orages** sont prévues principalement : 🔵 Au **sud-ouest** de l'île 🔵 À l **'ouest** de l'île 🔵 Sur le **plateau central** 📅 Émis le vendre",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256166/"
+      ]
+    },
+    {
+      "id": "singleton_76839d6210da",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Hausse des prix des carburants : Pas d’augmentation immédiate du ticket de bus",
+      "summary": "Quid du transport public avec la nouvelle hausse des prix des carburants ? Le ministre des Transports, Osman Mahomed, assure qu’aucune augmentation du ticket de bus n’est prévue. L’État continue de subventionner l’écart au-delà du tarif de base de Rs 40, via un mécanisme piloté avec la National Land Transport Authority et le ministère des Finances,",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256169/"
+      ]
+    },
+    {
+      "id": "singleton_10f0549ec32d",
+      "cluster_time": "2026-04-17T08:00:00+00:00",
+      "category": "local",
+      "headline": "Manisha Dookhony, économiste : «Vers une hausse de l’inflation et un ralentissement de la croissance»",
+      "summary": "Dans quelle mesure la hausse des prix du carburant peut-elle alimenter l’inflation ?La hausse du carburant, du gaz et du",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/affaire-menlo-park-seconde-arrestation-pour-deepshika-gowreesunkur"
+        "https://defimedia.info/manisha-dookhony-economiste-vers-une-hausse-de-linflation-et-un-ralentissement-de-la-croissance"
       ]
     },
     {
-      "id": "singleton_3e49b31377f8",
-      "cluster_time": "2026-04-16T05:16:14+00:00",
+      "id": "singleton_ab299bcc8774",
+      "cluster_time": "2026-04-17T07:55:27+00:00",
       "category": "regional",
-      "headline": "Nigeria drops terrorism charges against ex-justice minister: lawyer",
-      "summary": "Nigerian authorities have withdrawn terrorism financing charges against former justice minister Abubakar Malami, his lawyer said on Wednesday",
+      "headline": "Netherlands Keukenhof draws global visitors for spring display",
+      "summary": "Netherlands opened its Keukenhof garden in Lisse for the 2026 spring season, welcoming visitors to an eight-week display featuring around seven million flowers.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Africanews"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/16/nigeria-drops-terrorism-charges-against-ex-justice-minister-lawyer/"
+        "http://www.africanews.com/2026/04/17/netherlands-keukenhof-draws-global-visitors-for-spring-display/"
       ]
     },
     {
-      "id": "singleton_6ffa1a946d16",
-      "cluster_time": "2026-04-16T05:05:03+00:00",
+      "id": "singleton_89e543db1ad7",
+      "cluster_time": "2026-04-17T07:51:30+00:00",
       "category": "local",
-      "headline": "Mauritius Enters High-Stakes Trade Talks with Washington to Shield Exports",
-      "summary": "The Mauritian government has launched urgent bilateral negotiations with the United States to safeguard the nation’s commercial interests ahead of the looming expiry of a critical trade pact. With the African Growth and Opportunity Act (AGOA) set to lapse in … The post Mauritius Enters High-Stakes Trade Talks with Washington to Shield Exports appea",
+      "headline": "5 Veteran Prison Officers Promoted to Assistant Superintendent after 33 Years’ Service",
+      "summary": "Five long-serving prison officials have been promoted to the rank of Assistant Superintendent of Prisons following 33 years of dedicated service. The promotions, announced this Thursday, 16 April, follow the successful completion of mandatory examinations required for the superior grade. … The post 5 Veteran Prison Officers Promoted to Assistant Su",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "News Moris"
       ],
       "urls": [
-        "https://newsmoris.com/mauritius-enters-high-stakes-trade-talks-with-washington-to-shield-exports/"
+        "https://newsmoris.com/5-veteran-prison-officers-promoted-to-assistant-superintendent-after-33-years-service/"
       ]
     },
     {
-      "id": "singleton_e7984fda4354",
-      "cluster_time": "2026-04-16T04:50:31+00:00",
+      "id": "singleton_2a1749f80e03",
+      "cluster_time": "2026-04-17T07:44:00+00:00",
       "category": "local",
-      "headline": "Petrol & Diesel Costs Surge by Over Rs 5 Following Committee Price Review",
-      "summary": "Motorists are facing a significant squeeze at the pumps following an immediate increase in fuel prices announced by the Petroleum Pricing Committee (PPC) on Wednesday evening, 15 April. In a meeting held, the committee recommended a substantial upward revision for … The post Petrol & Diesel Costs Surge by Over Rs 5 Following Committee Price Review",
+      "headline": "Michael Sik Yuen : «On ne peut pas enlever les taxes qui contribuent aux subsides»",
+      "summary": "À Ébène, jeudi, le ministre du Commerce, Michael Sik Yuen, a replacé la situation économique dans un contexte internatio",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/michael-sik-yuen-ne-peut-pas-enlever-les-taxes-qui-contribuent-aux-subsides"
+      ]
+    },
+    {
+      "id": "singleton_a52546b5b2ff",
+      "cluster_time": "2026-04-17T07:42:52+00:00",
+      "category": "regional",
+      "headline": "Cameroon sees mass turnout for Pope Leo XIV visit as he calls for peace",
+      "summary": "Cameroon saw thousands of faithful gather on Wednesday 16 April at Bamenda’s airfield, where Pope Leo XIV celebrated an open‑air Mass and called for a “decisive change of course” towards peace.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/cameroon-sees-mass-turnout-for-pope-leo-xiv-visit-as-he-calls-for-peace/"
+      ]
+    },
+    {
+      "id": "singleton_0e77206af717",
+      "cluster_time": "2026-04-17T07:30:00+00:00",
+      "category": "local",
+      "headline": "Industrie du transport : les opérateurs d’autobus réclament une hausse du ticket",
+      "summary": "La nouvelle hausse du diesel, désormais fixé à Rs 71,25 le litre, inquiète les opérateurs d’autobus. Pour eux, la situat",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/industrie-du-transport-les-operateurs-dautobus-reclament-une-hausse-du-ticket"
+      ]
+    },
+    {
+      "id": "singleton_1729591ec14c",
+      "cluster_time": "2026-04-17T07:23:02+00:00",
+      "category": "regional",
+      "headline": "Congo's Sassou-N'Guesso sworn in to fifth presidential term",
+      "summary": "Denis Sassou-N’Guesso was sworn in on Thursday to a fifth term as president of the Republic of the Congo.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/congos-sassou-nguesso-sworn-in-to-fifth-presidential-term/"
+      ]
+    },
+    {
+      "id": "singleton_3795b4576699",
+      "cluster_time": "2026-04-17T07:05:00+00:00",
+      "category": "local",
+      "headline": "Congo-Brazzaville : Navin Ramgoolam assiste à la prestation de serment de Sassou Nguesso",
+      "summary": "En déplacement à Brazzaville, le Premier ministre Navin Ramgoolam a assisté à la prestation de serment de Denis Sassou N",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/congo-brazzaville-navin-ramgoolam-assiste-la-prestation-de-serment-de-sassou-nguesso"
+      ]
+    },
+    {
+      "id": "singleton_ab53e7dc9f62",
+      "cluster_time": "2026-04-17T07:04:38+00:00",
+      "category": "local",
+      "headline": "Ministerial Warning Issued over High Probability of Fuel Prices Rising for 2nd Time",
+      "summary": "Consumers face the “strong possibility” of further hikes in fuel prices due to ongoing instability in the Middle East, the Minister of Commerce has warned. Speaking at a press conference on Thursday, 16 April, Michael Sik Yuen confirmed that the … The post Ministerial Warning Issued over High Probability of Fuel Prices Rising for 2nd Time appeared",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "News Moris"
       ],
       "urls": [
-        "https://newsmoris.com/petrol-diesel-costs-surge-by-over-rs-5-following-committee-price-review/"
+        "https://newsmoris.com/ministerial-warning-issued-over-high-probability-of-fuel-prices-rising-for-2nd-time/"
+      ]
+    },
+    {
+      "id": "singleton_ed8f4e8659d1",
+      "cluster_time": "2026-04-17T07:00:00+00:00",
+      "category": "local",
+      "headline": "Consommateurs : vers une hausse généralisée des prix",
+      "summary": "De 20 % à 50 % de plus sur certains produits La hausse des coûts à différents niveaux de la chaîne d’approvisionnement,",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/consommateurs-vers-une-hausse-generalisee-des-prix"
+      ]
+    },
+    {
+      "id": "singleton_ecbdb5b3287c",
+      "cluster_time": "2026-04-17T06:52:00+00:00",
+      "category": "local",
+      "headline": "Beau-Bassin/Rose-Hill : Patrick Belcourt dénonce «un manque de cohésion et de vision»",
+      "summary": "Un an après les élections municipales, le constat de Patrick Belcourt est sans appel. Lors d’une conférence de presse te",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/beau-bassinrose-hill-patrick-belcourt-denonce-un-manque-de-cohesion-et-de-vision"
+      ]
+    },
+    {
+      "id": "singleton_45ae1cd24bb7",
+      "cluster_time": "2026-04-17T06:40:00+00:00",
+      "category": "local",
+      "headline": "Carburant plus cher : vers un effet domino",
+      "summary": "La nouvelle hausse de l’essence et du diesel déclenche un véritable effet en chaîne. Des automobilistes aux entreprises,",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/carburant-plus-cher-vers-un-effet-domino"
+      ]
+    },
+    {
+      "id": "singleton_ab17918e0772",
+      "cluster_time": "2026-04-17T06:25:00+00:00",
+      "category": "local",
+      "headline": "Enquête dans l’affaire Menlo Park : Deepshikha Gowreesunker conteste «l’impartialité» de l’AML Unit",
+      "summary": "Devant la Cour suprême, Deepshikha Gowreesunker conteste le déroulement de l’enquête ouverte à son encontre dans l’affai",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/enquete-dans-laffaire-menlo-park-deepshikha-gowreesunker-conteste-limpartialite-de-laml-unit"
+      ]
+    },
+    {
+      "id": "singleton_eff7e5ebb0b0",
+      "cluster_time": "2026-04-17T06:06:49+00:00",
+      "category": "regional",
+      "headline": "1,100 Kenyan workers face lay off as Meta ends contract with Sama",
+      "summary": "After years of criticism and lawsuits, Meta is ending a major contract with the Kenyan outsourcing company Sama. The move will see more than 1,100 people lose their jobs, Sama said in a statement.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/17/1100-kenyan-workers-face-lay-off-as-meta-ends-contract-with-sama/"
+      ]
+    },
+    {
+      "id": "singleton_7f0cd9c381b0",
+      "cluster_time": "2026-04-17T05:54:00+00:00",
+      "category": "local",
+      "headline": "Drame à Grand-Gaube : les cinq suspects inculpés pour agression avec préméditation",
+      "summary": "Les cinq suspects arrêtés dans l’enquête sur l’agression de Vijay Ramrad seront inculpés provisoirement pour agression a",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/drame-grand-gaube-les-cinq-suspects-inculpes-pour-agression-avec-premeditation"
+      ]
+    },
+    {
+      "id": "singleton_cae9f20653b2",
+      "cluster_time": "2026-04-17T05:35:00+00:00",
+      "category": "local",
+      "headline": "Sports Ministry Dismisses Top Official Over Claims of Serious Management Failures",
+      "summary": "Nagaissen Valaydum has been removed from his position as Chairperson of the Trust Fund for Excellence in Sports (TFES) following allegations of mismanagement and friction with board objectives. The Ministry of Youth and Sports confirmed the dismissal in a letter … The post Sports Ministry Dismisses Top Official Over Claims of Serious Management Fai",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "News Moris"
+      ],
+      "urls": [
+        "https://newsmoris.com/sports-ministry-dismisses-top-official-over-claims-of-serious-management-failures/"
+      ]
+    },
+    {
+      "id": "singleton_e5ea00222416",
+      "cluster_time": "2026-04-17T05:14:52+00:00",
+      "category": "regional",
+      "headline": "\"Sub-Saharan Africa resilient, despite mounting global shocks\" - Abebe Selassie",
+      "summary": "Sub-Saharan African economies have demonstrated remarkable resilience in the face of repeated global shocks, according to Abebe Aemro Selassie, Director of the African Department at the IMF.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/16/sub-saharan-africa-resilient-despite-mounting-global-shocks-abebe-selassie/"
+      ]
+    },
+    {
+      "id": "singleton_23bdc598cf92",
+      "cluster_time": "2026-04-17T04:53:54+00:00",
+      "category": "local",
+      "headline": "Storm Alert: 3 Regions Facing Severe Floods and Thunderstorms until 8 PM",
+      "summary": "Heavy rain and thunderstorms are set to sweep across Mauritius today, with a formal weather watch in effect until 8:00 pm this Friday. Experts warned that a zone of instability approaching from the north-east is moving into the area, with … The post Storm Alert: 3 Regions Facing Severe Floods and Thunderstorms until 8 PM appeared first on News Mori",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "News Moris"
+      ],
+      "urls": [
+        "https://newsmoris.com/storm-alert-3-regions-facing-severe-floods-and-thunderstorms-until-8-pm/"
       ]
     }
   ]
