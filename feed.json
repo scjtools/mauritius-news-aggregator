@@ -1,13 +1,13 @@
 {
   "generated_from": "feed.xml",
-  "item_count": 121,
+  "item_count": 125,
   "items": [
     {
       "id": "singleton_075c9e6b0d6f",
-      "cluster_time": "2026-04-23T03:15:07.171675+00:00",
+      "cluster_time": "2026-04-24T03:23:56.749007+00:00",
       "category": "finance",
-      "headline": "Brent Crude Oil price – 23 April 2026",
-      "summary": "Brent Crude Oil: USD 103.18 per barrel",
+      "headline": "Brent Crude Oil price – 24 April 2026",
+      "summary": "Brent Crude Oil: USD 105.83 per barrel",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -19,10 +19,10 @@
     },
     {
       "id": "singleton_df75dc1edb63",
-      "cluster_time": "2026-04-23T03:15:06.995127+00:00",
+      "cluster_time": "2026-04-24T03:23:56.563287+00:00",
       "category": "finance",
-      "headline": "Bitcoin price – 23 April 2026",
-      "summary": "Bitcoin (BTC): USD 77,857.19 (▲ +10.58% from last)",
+      "headline": "Bitcoin price – 24 April 2026",
+      "summary": "Bitcoin (BTC): USD 78,086.01 (▲ +10.91% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -34,10 +34,10 @@
     },
     {
       "id": "singleton_ec58bd454756",
-      "cluster_time": "2026-04-23T03:15:06.607078+00:00",
+      "cluster_time": "2026-04-24T03:23:56.238424+00:00",
       "category": "finance",
-      "headline": "Gold price – 23 April 2026",
-      "summary": "Gold (XAU): USD 4,701.60 (▲ +7.12% from last)",
+      "headline": "Gold price – 24 April 2026",
+      "summary": "Gold (XAU): USD 4,677.40 (▲ +6.57% from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -49,10 +49,10 @@
     },
     {
       "id": "singleton_f2d774f99b43",
-      "cluster_time": "2026-04-23T03:15:06.152235+00:00",
+      "cluster_time": "2026-04-24T03:23:55.808754+00:00",
       "category": "finance",
-      "headline": "MUR exchange rates – 23 April 2026",
-      "summary": "MUR/USD 46.44 | MUR/EUR 54.52 (▼ 0.05 from last) (▲ 0.83 from last)",
+      "headline": "MUR exchange rates – 24 April 2026",
+      "summary": "MUR/USD 46.60 | MUR/EUR 54.52 (▲ 0.11 from last) (▲ 0.83 from last)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -64,10 +64,10 @@
     },
     {
       "id": "singleton_551ef72028ec",
-      "cluster_time": "2026-04-23T03:15:03.883951+00:00",
+      "cluster_time": "2026-04-24T03:23:53.488899+00:00",
       "category": "finance",
-      "headline": "SEMDEX – 23 April 2026",
-      "summary": "SEMDEX closed at 2264.06 (▲ 40.86 pts, +1.84% from last close 2,223.20)",
+      "headline": "SEMDEX – 24 April 2026",
+      "summary": "SEMDEX closed at 2271.52 (▲ 48.32 pts, +2.17% from last close 2,223.20)",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
@@ -78,163 +78,347 @@
       ]
     },
     {
-      "id": "singleton_398f229b6b79",
-      "cluster_time": "2026-04-23T02:14:00+00:00",
-      "category": "local",
-      "headline": "Météo : pluies et risques d’orages ce jeudi",
-      "summary": "Les conditions atmosphériques demeurent humides et instables sur la région. Des nuages actifs venant du secteur est infl",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/meteo-pluies-et-risques-dorages-ce-jeudi"
-      ]
-    },
-    {
-      "id": "singleton_7d34554cb372",
-      "cluster_time": "2026-04-23T01:45:00+00:00",
-      "category": "local",
-      "headline": "[Info Soirée] : « MPOX : L’ÉPIDÉMIE TOUCHE L’ÎLE »",
-      "summary": "[Info Soirée] : « MPOX : L’ÉPIDÉMIE TOUCHE L’ÎLE »* Deux cas de Mpox à Maurice, importés depuis Madagascar. Les deux pat",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/info-soiree-mpox-lepidemie-touche-lile"
-      ]
-    },
-    {
-      "id": "5fee9e5fd177",
-      "cluster_time": "2026-04-23T00:00:00+00:00",
+      "id": "singleton_a5e300d7ba95",
+      "cluster_time": "2026-04-24T02:50:04+00:00",
       "category": "global",
-      "headline": "Iran war live: Israel kills Lebanese journalist; Tehran-US talks stalled",
-      "summary": "[Al Jazeera] Israeli attacks on Lebanon killed at least five people on Wednesday, including Lebanese journalist Amal Khalil.\n\n[Al Jazeera] Journalist Amal Khalil killed in Israeli attack in at-Tiri, Lebanon's Al Akhbar reports.",
+      "headline": "Oil rises above $106 per barrel as US, Iran deadlocked in Strait of Hormuz",
+      "summary": "Jump in prices comes as Donald Trump says vessels will need permission of US Navy to transit key waterway.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/economy/2026/4/24/oil-rises-above-106-per-barrel-as-us-iran-deadlocked-in-strait-of-hormuz?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "f2e5df60def3",
+      "cluster_time": "2026-04-24T02:34:00+00:00",
+      "category": "local",
+      "headline": "Météo : une veille de fortes pluies reste en vigueur jusqu’à 16h, des averses orageuses attendues",
+      "summary": "[Defimedia] Une veille de fortes pluies est en vigueur à Maurice jusqu’à 16 heures ce vendredi 24 avril.Les conditions atmosphérique\n\n[Defimedia] La station météo de Vacoas a émis un avis de veille de fortes pluies pour Maurice et Rodrigues à 16h ce jeudi 23 avril.",
       "cluster_size": 2,
       "source_count": 1,
       "sources": [
-        "Al Jazeera"
+        "Defimedia"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/liveblog/2026/4/23/iran-war-live-israel-kills-lebanese-journalist-tehran-us-talks-stalled?traffic_source=rss",
-        "https://www.aljazeera.com/news/2026/4/22/at-least-four-killed-in-israeli-strikes-on-lebanon-journalists-wounded?traffic_source=rss"
+        "https://defimedia.info/meteo-une-veille-de-fortes-pluies-reste-en-vigueur-jusqua-16h-des-averses-orageuses-attendues",
+        "https://defimedia.info/meteo-un-avis-de-veille-de-fortes-pluies-emis-pour-maurice-et-rodrigues"
       ]
     },
     {
-      "id": "singleton_c915f36bb973",
-      "cluster_time": "2026-04-22T23:19:02+00:00",
+      "id": "singleton_8d8d35e7841a",
+      "cluster_time": "2026-04-24T00:58:58+00:00",
       "category": "global",
-      "headline": "South American migrants deported to DRC say facing pressure to return home",
-      "summary": "Rights advocates have accused Trump administration of using third-country deportations to intimidate asylum seekers.",
+      "headline": "White House memo claims mass AI theft by Chinese firms",
+      "summary": "A memo from Michael Kratsios says firms, mainly in China, are wrongfully distilling US AI models.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cpqxgxx9nrqo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_1aa363a99b12",
+      "cluster_time": "2026-04-24T00:34:04+00:00",
+      "category": "global",
+      "headline": "Headscarf with a beret: Muslim designers showcase floral dresses and boxy streetwear in Paris",
+      "summary": "Some young attendees say the event demonstrated a more inclusive French culture taking shape.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cx23zmxd2z3o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "c78dfbd2a775",
+      "cluster_time": "2026-04-24T00:21:32+00:00",
+      "category": "global",
+      "headline": "US soldier charged after winning $400,000 betting on removal of Maduro",
+      "summary": "[BBC News] Gannon Ken Van Dyke allegedly made trades on Polymarket on the basis of classified information, the justice department says.\n\n[Al Jazeera] The suspect, 38-year-old Gannon Ken Van Dyke, allegedly made $400,000 from insider knowledge of the Venezuela attack.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c20832yg5p2o?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/economy/2026/4/23/us-soldier-charged-with-using-polymarket-to-bet-on-nicolas-maduro-abduction?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_07477e312d26",
+      "cluster_time": "2026-04-24T00:15:00+00:00",
+      "category": "local",
+      "headline": "[Info Soirée] : « MO FRER SO LAVI PA VO SANMIL RUPI »",
+      "summary": "Au Sommaire de ce Jeudi 23 Avril 2026 :• Après cinq jours de lutte à l’hôpital, Muzaffar Paquet succombe à ses blessures",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/info-soiree-mo-frer-so-lavi-pa-vo-sanmil-rupi"
+      ]
+    },
+    {
+      "id": "singleton_373a5cb7ec7a",
+      "cluster_time": "2026-04-24T00:00:00+00:00",
+      "category": "global",
+      "headline": "Iran war live: Lebanon truce extended; Trump says time not on Tehran’s side",
+      "summary": "Death toll from Israel's ongoing genocidal war on Gaza has reached 72,568 with 172,338 injured: Gaza's Health Ministry.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/south-american-migrants-deported-to-drc-say-facing-pressure-to-return-home?traffic_source=rss"
+        "https://www.aljazeera.com/news/liveblog/2026/4/24/iran-war-live-lebanon-truce-extended-trump-says-time-not-on-tehrans-side?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_611ba94f79e5",
-      "cluster_time": "2026-04-22T22:44:28+00:00",
+      "id": "singleton_bd99d1e38cc1",
+      "cluster_time": "2026-04-23T23:30:52+00:00",
       "category": "global",
-      "headline": "Top ministers quit after Peru’s president postpones F-16 fighter jet deal",
-      "summary": "The Trump administration has warned against Peru pulling out of the deal, saying it reflects 'bad faith' negotiations.",
+      "headline": "A rumour, a lynching in India and a long wait for justice",
+      "summary": "A court has convicted 20 people for the 2018 mob lynching of two men falsely accused of kidnapping children.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cly07kk2pm2o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_473db0eed79b",
+      "cluster_time": "2026-04-23T23:20:52+00:00",
+      "category": "global",
+      "headline": "US professors sue university over arrest during pro-Palestine protest",
+      "summary": "Philosophy professor Noelle McAfee says university failed to protect students and staff in crackdown on protests.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/top-ministers-quit-after-perus-president-postpones-f-16-fighter-jet-deal?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/23/us-professors-sue-university-over-arrest-during-pro-palestine-protest?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_7c030d82c4e4",
-      "cluster_time": "2026-04-22T22:26:23+00:00",
+      "id": "singleton_ac96d54ae01a",
+      "cluster_time": "2026-04-23T23:05:11+00:00",
       "category": "global",
-      "headline": "US Treasury Secretary Bessent says Gulf, Asian allies request swap lines",
-      "summary": "Bessent pushed back on allegations that Trump family's financial ties with UAE are driving decision to offer swap line.",
+      "headline": "Ringo Starr: 'I made all my mistakes on stage'",
+      "summary": "Beatles star reveals all about his new country album, being a Sir and coming up with the phrase A Hard Day's Night.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cp8645d9lvyo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_565d81dd9dfd",
+      "cluster_time": "2026-04-23T22:56:00+00:00",
+      "category": "global",
+      "headline": "Meta says it will cut 8,000 jobs as AI spending soars",
+      "summary": "The cuts, which employees had been expecting for weeks, will be Meta's largest layoff since 2023.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/crm1y89vek8o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_6ea27cf30126",
+      "cluster_time": "2026-04-23T22:37:08+00:00",
+      "category": "global",
+      "headline": "Singer D4vd had 'significant amount' of child sex abuse images when arrested, prosecutors say",
+      "summary": "The Tiktok star's attorneys have maintained his innocence and vowed to \"vigorously defend\" him.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cn53vg3y574o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_aa4ae457ec47",
+      "cluster_time": "2026-04-23T22:11:29+00:00",
+      "category": "global",
+      "headline": "Meta lines up layoffs while Microsoft offers buyouts",
+      "summary": "Meta will lay off 8,000 workers while Microsoft is offering buyouts to 8,750 people, a first for the Windows maker.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/economy/2026/4/22/us-treasury-secretary-bessent-says-gulf-asian-allies-request-swap-lines?traffic_source=rss"
+        "https://www.aljazeera.com/economy/2026/4/23/meta-lines-up-layoffs-while-microsoft-offers-buyouts?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_419153a38eef",
-      "cluster_time": "2026-04-22T22:03:13+00:00",
+      "id": "singleton_dfb51e6634f9",
+      "cluster_time": "2026-04-23T22:06:04+00:00",
+      "category": "regional",
+      "headline": "DRC: first eurobond draws massive demand [Business Africa]",
+      "summary": "The Democratic Republic of Congo has made a remarkable entry into international financial markets. The country raised $1.25 billion in its first Eurobond issuance, with investor demand nearly four times greater than the amount sought.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/24/drc-first-eurobond-draws-massive-demand-business-africa/"
+      ]
+    },
+    {
+      "id": "singleton_9eb961c239fc",
+      "cluster_time": "2026-04-23T21:58:16+00:00",
       "category": "global",
-      "headline": "Prediction market Kalshi docks three US candidates for betting on own races",
-      "summary": "Penalties come amid calls for greater oversight; company pledges to proactively police 'insider trading' on platforms.",
+      "headline": "Milei administration in Argentina blocks journalist access to Casa Rosada",
+      "summary": "Press advocates have warned of hostile rhetoric towards journalists and increasingly restrictive policies under Milei.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/prediction-market-kalshi-docks-three-us-candidates-for-betting-on-own-races?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/23/milei-administration-in-argentina-blocks-journalist-access-to-casa-rosada?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_eb514551af09",
-      "cluster_time": "2026-04-22T21:52:02+00:00",
+      "id": "singleton_a6df7c948a56",
+      "cluster_time": "2026-04-23T21:03:10+00:00",
       "category": "global",
-      "headline": "Yamal scores but injured as Barcelona beat Celta to restore La Liga lead",
-      "summary": "Barcelona edge closer to sealing their La Liga title defence with win against Champions League-chasing Celta Vigo.",
+      "headline": "EU formally approves 90bn euro Ukraine loan and new sanctions on Russia",
+      "summary": "Ukrainian President Zelenskyy welcomes the development, urging that the first tranche be disbursed by May or June.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/sports/2026/4/22/yamal-scores-then-limps-off-as-barcelona-beat-celta-to-restore-la-liga-lead?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/23/eu-formally-approves-90bn-euro-ukraine-loan-and-new-sanctions-on-russia?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_8e9319a637db",
-      "cluster_time": "2026-04-22T21:27:44+00:00",
+      "id": "singleton_5a2b44b974e5",
+      "cluster_time": "2026-04-23T21:01:50+00:00",
       "category": "global",
-      "headline": "Man City topple Arsenal at Premier League summit with nervy win at Burnley",
-      "summary": "Manchester City relegate Burnley with 1-0 win to also take top spot from Arsenal in the Premier League title race.",
+      "headline": "Pope decries migrants and refugees being treated ‘worse than house pets’",
+      "summary": "Pope Leo has previously criticised Donald Trump's US immigration policies, calling for better treatment of refugees.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/sports/2026/4/22/man-city-topple-arsenal-at-premier-league-summit-with-win-at-burnley?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/23/pope-decries-migrants-and-refugees-being-treated-worse-than-house-pets?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_c68fda9c2fc8",
-      "cluster_time": "2026-04-22T21:09:14+00:00",
+      "id": "singleton_b82a7294aa53",
+      "cluster_time": "2026-04-23T21:00:40+00:00",
       "category": "global",
-      "headline": "Turkiye making efforts to revive Russia-Ukraine talks, says Erdogan",
-      "summary": "Turkish president meets NATO chief as Kyiv asks Ankara to host a leaders' level meeting with Russia.",
+      "headline": "War-driven demand boosts profits for weapons and aircraft manufacturers",
+      "summary": "Boeing sees reduced first-quarter loss as defence earnings rise amid $2.3bn US Pentagon contract.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/turkiye-making-efforts-to-revive-russia-ukraine-talks-says-erdogan?traffic_source=rss"
+        "https://www.aljazeera.com/economy/2026/4/23/war-driven-demand-boosts-profits-for-weapons-and-aircraft-manufacturers?traffic_source=rss"
       ]
     },
     {
-      "id": "c3f36c83f387",
-      "cluster_time": "2026-04-22T20:38:14+00:00",
+      "id": "singleton_80f42069a0e2",
+      "cluster_time": "2026-04-23T20:52:48+00:00",
       "category": "global",
-      "headline": "Pope Leo criticises Equatorial Guinea prisons as he winds up Africa tour",
-      "summary": "[BBC News] The Pope gives a frank and passionate speech, the likes of which have characterised his tour of Africa.\n\n[Al Jazeera] Equatorial Guinea's prison conditions face scrutiny as Pope Leo pushes for humane treatment and reforms during his visit.\n\n[Africanews] Pope Leo XIV on Tuesday called on Equatorial Guinea to place itself “in the service of law and justice,” as he began a sensitive visit to one of Africa’s most tightly controlled states.\n\n[Africanews] Pope Leo touched down in Equatorial Guinea on Tuesday, and was greeted by the president, scores of fans, and a red carpet welcome. It follows a three day visit to Angola.",
-      "cluster_size": 4,
+      "headline": "US sanctions Cambodian senator over purported scam network links",
+      "summary": "US Treasury Department accuses Kok An and associates of using political influence to protect network of fraud centres.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/23/us-sanctions-cambodian-senator-over-purported-scam-network-links?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_f2d5e7cd1d49",
+      "cluster_time": "2026-04-23T20:45:51+00:00",
+      "category": "global",
+      "headline": "US boards ship carrying Iran oil as Trump threatens mine-laying vessels",
+      "summary": "Central Command said it has intercepted 33 vessels since imposing a blockade on ships coming to and from Iran.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgldw5ekrjpo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "6b65d7789de4",
+      "cluster_time": "2026-04-23T20:40:19+00:00",
+      "category": "global",
+      "headline": "US government watchdog to investigate Epstein files release",
+      "summary": "[BBC News] The justice department's inspector general will review the withholding and overdue release of secret files.\n\n[Al Jazeera] Lawmakers have accused the Trump administration of using heavy redactions to protect powerful figures tied to Epstein.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cvg0rkvjlvvo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/23/us-department-of-justice-watchdog-to-probe-release-of-epstein-files?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_23d2604d763b",
+      "cluster_time": "2026-04-23T20:26:13+00:00",
+      "category": "global",
+      "headline": "Iran dismisses Trump’s claim of leadership rift, says nation is ‘one soul’",
+      "summary": "Several Iranian officials share same message, emphasising what they call the 'iron unity of the nation and government'.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/news/2026/4/23/iran-dismisses-trumps-claim-of-leadership-rift-says-nation-is-one-soul?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "b44fe6f4cd82",
+      "cluster_time": "2026-04-23T19:56:33+00:00",
+      "category": "global",
+      "headline": "South African police chief suspended over $20m health contract",
+      "summary": "[BBC News] Cyril Ramaphosa said the suspension was because of the critical role Fannie Masemola plays in fighting crime.\n\n[Al Jazeera] Police chief Fannie Masemola suspended as President Cyril Ramaphosa faces pressure to tackle corruption ahead of polls.\n\n[Africanews] South African President Cyril Ramaphosa on Thursday suspended the national police chief implicated in a $20 million health tender scandal that has rocked the country and drawn in other officers.",
+      "cluster_size": 3,
       "source_count": 3,
       "sources": [
         "BBC News",
@@ -242,90 +426,721 @@
         "Africanews"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/c80m4822m1no?at_medium=RSS&at_campaign=rss",
-        "https://www.aljazeera.com/news/2026/4/22/pope-leo-urges-justice-reform-in-equatorial-guineas-prisons?traffic_source=rss",
-        "http://www.africanews.com/2026/04/22/pope-leo-xiv-urges-justice-on-visit-to-equatorial-guinea/",
-        "http://www.africanews.com/2026/04/21/pope-leo-xiv-touches-down-in-equatorial-guinea/"
+        "https://www.bbc.com/news/articles/cvglxkjwr5lo?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/23/south-africa-president-suspends-police-chief-over-21m-contract?traffic_source=rss",
+        "http://www.africanews.com/2026/04/23/south-africa-suspends-police-chief-over-corruption-case/"
       ]
     },
     {
-      "id": "singleton_fe8980659de1",
-      "cluster_time": "2026-04-22T20:25:50+00:00",
+      "id": "singleton_9b8406b18029",
+      "cluster_time": "2026-04-23T19:54:14+00:00",
+      "category": "regional",
+      "headline": "Benin confirms Wadagni's presidential vote win",
+      "summary": "Benin's finance minister Romuald Wadagni was officially confirmed to have won the west African country's presidential election, according to final results on Thursday.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/benin-confirms-wadagnis-presidential-vote-win/"
+      ]
+    },
+    {
+      "id": "singleton_4cc652e3b910",
+      "cluster_time": "2026-04-23T19:20:30+00:00",
       "category": "global",
-      "headline": "Trump calls for Republicans to unify around budget reconciliation push",
-      "summary": "Budget reconciliation would allow conservative lawmakers to bypass Democratic opposition in Senate with simple majority.",
+      "headline": "Real Betis vs Real Madrid: La Liga – teams, start time, lineup",
+      "summary": "Real Madrid could close gap on La Liga leaders Barcelona to six points on Friday, three weeks shy of a Clasico meeting.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/trump-calls-for-republicans-to-unify-around-budget-reconciliation-push?traffic_source=rss"
+        "https://www.aljazeera.com/sports/2026/4/23/real-betis-vs-real-madrid-la-liga-teams-start-lineup?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_63218598f0c8",
-      "cluster_time": "2026-04-22T20:23:40+00:00",
+      "id": "singleton_5df7c1d0a2d7",
+      "cluster_time": "2026-04-23T19:16:48+00:00",
+      "category": "regional",
+      "headline": "New mega-bridge in Lesotho to double water exports to South Africa",
+      "summary": "Every time someone in Johannesburg drinks a glass of water, there is a 60% chance it comes from neighbouring Lesotho. Now, a newly built bridge will help the tiny mountain kingdom nearly double those exports.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/new-mega-bridge-in-lesotho-to-double-water-exports-to-south-africa/"
+      ]
+    },
+    {
+      "id": "singleton_cd1cc647c7ec",
+      "cluster_time": "2026-04-23T18:55:10+00:00",
       "category": "global",
-      "headline": "US suspect accused of stealing Kristi Noem’s purse sentenced to three years",
-      "summary": "President Trump has used incidents of crime to justify ongoing National Guard deployment to the capital, Washington, DC.",
+      "headline": "US Senate passes ICE funding resolution after ‘vote-a-rama’: What’s next?",
+      "summary": "Republicans take first step, but long road remains to break impasse over funding Donald Trump's immigration enforcement.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/us-suspect-accused-of-stealing-kristi-noems-purse-sentenced-to-three-years?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/23/us-senate-passes-ice-funding-resolution-after-vote-a-rama-whats-next?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_a261fff71476",
-      "cluster_time": "2026-04-22T20:09:16+00:00",
+      "id": "singleton_ff70239ac040",
+      "cluster_time": "2026-04-23T18:16:19+00:00",
       "category": "global",
-      "headline": "Trump calls Virginia election ‘rigged’ after redistricting referendum",
-      "summary": "Trump’s comments came after the Virginia measure passed by a slim margy of 51.4 in favour and 48.5 against.",
+      "headline": "Woman killed by bear in Polish forest, son and local government say",
+      "summary": "In an extremely rare fatal encounter, the 58-year-old was killed as she was walking in a mountainous area, her son told rescuers.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c20qrg4dyr3o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_d6d3b5f2fde8",
+      "cluster_time": "2026-04-23T18:09:39+00:00",
+      "category": "global",
+      "headline": "Mixed views in Lebanon ahead of controversial talks with Israel",
+      "summary": "Lebanon remains divided over the best way to end the conflict with Israel, with some backing Hezbollah's armed response.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/trump-calls-virginia-election-rigged-after-redistricting-referendum?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/23/mixed-views-in-lebanon-ahead-of-controversial-talks-with-israel?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_7aab5dbc2980",
-      "cluster_time": "2026-04-22T19:59:22+00:00",
+      "id": "singleton_b94d20b27934",
+      "cluster_time": "2026-04-23T18:09:27+00:00",
+      "category": "regional",
+      "headline": "Pope Leo departs Equatorial Guinea after wrapping up his 11-day trip to Africa",
+      "summary": "Pope Leo XIV on Thursday held an open-air mass in Equatorial Guinea in front of tens of thousands of followers, wrapping up his first major international tour that began with harsh criticism of his stance on Iran from US President Donald Trump.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/pope-leo-departs-equatorial-guinea-after-wrapping-up-his-11-day-trip-to-africa/"
+      ]
+    },
+    {
+      "id": "singleton_69b9cfa41b3f",
+      "cluster_time": "2026-04-23T17:45:35+00:00",
       "category": "global",
-      "headline": "Sexual violence in the West Bank emerges as tool to intimidate Palestinians",
-      "summary": "Systematic sexual violence and harassment by Israeli soldiers, settlers displacing Palestinians in occupied West Bank.",
+      "headline": "More than 6 million Somalis face hunger amid climate shocks and conflict",
+      "summary": "Drought, failed rains, and conflict drive 6.5 million Somalis into hunger; children face acute malnutrition risks.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/features/2026/4/22/sexual-violence-in-the-west-bank-emerges-as-tool-to-intimidate-palestinians?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/23/more-than-6-million-somalis-face-hunger-amid-climate-shocks-and-conflict?traffic_source=rss"
       ]
     },
     {
-      "id": "singleton_65dadd2e1d67",
-      "cluster_time": "2026-04-22T19:53:08+00:00",
+      "id": "singleton_361a25942a28",
+      "cluster_time": "2026-04-23T17:45:02+00:00",
       "category": "global",
-      "headline": "Warner Bros and Paramount merger could reshape US media landscape",
-      "summary": "The deal faces regulatory scrutiny both for influence on media landscape, but also for foreign investments to fund it.",
+      "headline": "Israeli forces kill Palestinian teenager in occupied West Bank raid",
+      "summary": "Teenager dies in hospital after Israeli forces shot him with live ammunition in the shoulder, Palestinian media reports.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Al Jazeera"
       ],
       "urls": [
-        "https://www.aljazeera.com/economy/2026/4/22/warner-bros-and-paramount-merger-could-reshape-us-media-landscape?traffic_source=rss"
+        "https://www.aljazeera.com/news/2026/4/23/israeli-forces-kill-palestinian-teenager-in-occupied-west-bank-raid?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "d71ac6b3da40",
+      "cluster_time": "2026-04-23T17:40:22+00:00",
+      "category": "global",
+      "headline": "South African court orders Zambia to return former president's body",
+      "summary": "[BBC News] Zambia authorities and Edgar Lungu's family are in a dispute over where the former leader's remains should be buried.\n\n[Africanews] A South African court has blocked the repatriation of the remains of former Zambian president Edgar Lungu, halting fresh plans for a state funeral and deepening a dispute that has dragged on for nearly 10 months.\n\n[Africanews] Lusaka has been in a months-long dispute with Lungu's family over where the former president should be buried. Lungu died in South Africa last year.",
+      "cluster_size": 3,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cdj7vgwwzgdo?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/04/23/south-africa-court-halts-return-of-ex-zambian-presidents-remains-again/",
+        "http://www.africanews.com/2026/04/23/zambian-government-takes-possession-of-ex-president-lungus-remains/"
+      ]
+    },
+    {
+      "id": "singleton_ff89b9fbd7bc",
+      "cluster_time": "2026-04-23T17:36:11+00:00",
+      "category": "global",
+      "headline": "Trump tells BBC that King's visit could 'absolutely' help repair relations with UK",
+      "summary": "In a phone interview with the BBC's North America editor, the president discussed next week's visit and his relationship with the UK PM.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cx2wdegnzzjo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "ce75029d5d1e",
+      "cluster_time": "2026-04-23T17:36:09+00:00",
+      "category": "global",
+      "headline": "Trump administration reclassifies cannabis as less dangerous",
+      "summary": "[BBC News] Medical marijuana was moved into a lower category of drugs in order to increase research and access.\n\n[Al Jazeera] Step is latest example of shift away from heavy penalisation that has given way to widespread legalisation efforts.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cdxd0xxp0jko?at_medium=RSS&at_campaign=rss",
+        "https://www.aljazeera.com/news/2026/4/23/us-reclassifies-some-marijuana-products-as-less-dangerous-drug?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "singleton_b4efe9911f1f",
+      "cluster_time": "2026-04-23T17:35:10+00:00",
+      "category": "global",
+      "headline": "Decapitating cartels? Mexico leans into ‘kingpin strategy’ but at a cost",
+      "summary": "Under pressure from the US, President Claudia Sheinbaum has authorised military operations to arrest cartel leaders.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Al Jazeera"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/features/longform/2026/4/23/decapitating-cartels-mexico-leans-into-kingpin-strategy-but-at-a-cost?traffic_source=rss"
+      ]
+    },
+    {
+      "id": "5dbfc29542ef",
+      "cluster_time": "2026-04-23T17:34:13+00:00",
+      "category": "global",
+      "headline": "Italy slams Trump envoy proposal of taking Iran’s place in World Cup 2026",
+      "summary": "[Al Jazeera] Italy officials slam suggestion that national football team should replace Iran at World Cup; fans also underwhelmed.\n\n[Africanews] An envoy to United States President Donald Trump world football's governing body FIFA to replace Iran with Italy at the upcoming World Cup, the Financial Times reported on Wednesday.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "Al Jazeera",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.aljazeera.com/sports/2026/4/23/italy-officials-say-replacing-iran-at-world-cup-2026-would-be-shameful?traffic_source=rss",
+        "http://www.africanews.com/2026/04/23/trump-envoy-asks-fifa-to-replace-iran-with-italy-at-world-cup/"
+      ]
+    },
+    {
+      "id": "singleton_f68887b84d65",
+      "cluster_time": "2026-04-23T17:20:42+00:00",
+      "category": "regional",
+      "headline": "Abidjan’s young people wage war on trash",
+      "summary": "In a working-class neighbourhood of Abidjan, a small group of young volunteers armed with shovels and rakes is scrubbing rubbish-clogged drains. Their message: “Our streets are not rubbish bins.”",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/abidjans-young-people-wage-war-on-trash/"
+      ]
+    },
+    {
+      "id": "singleton_e8b0a5ce7c63",
+      "cluster_time": "2026-04-23T16:52:44+00:00",
+      "category": "global",
+      "headline": "Huge chunk of glacier blocks Everest route in peak climbing season",
+      "summary": "Sherpas cannot prepare the route to the world's highest peak because a huge block of ice is in the way.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cy81lrnv5peo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_0faaca6df1c6",
+      "cluster_time": "2026-04-23T16:49:00+00:00",
+      "category": "local",
+      "headline": "Chagos : Maurice dit qu’il attendra jusqu’à fin juillet pour un accord avec le Royaume-Uni",
+      "summary": "Maurice a indiqué qu’il attendrait jusqu’à la fin juillet que le Royaume-Uni finalise un accord sur la rétrocession des",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/chagos-maurice-dit-quil-attendra-jusqua-fin-juillet-pour-un-accord-avec-le-royaume-uni"
+      ]
+    },
+    {
+      "id": "singleton_5547bb0ec695",
+      "cluster_time": "2026-04-23T16:40:53+00:00",
+      "category": "regional",
+      "headline": "Finance body says Africa faces an 86 million tonne fuel shortfall by 2040",
+      "summary": "The Africa Finance Corporation says this highlights the continent's vulnerability to global shipping chokepoints.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/finance-body-says-africa-faces-an-86-million-tonne-fuel-shortfall-by-2040/"
+      ]
+    },
+    {
+      "id": "singleton_1cce3e813d8f",
+      "cluster_time": "2026-04-23T16:15:45+00:00",
+      "category": "global",
+      "headline": "Warner Bros shareholders approve Paramount's $111bn takeover",
+      "summary": "The approval came as Donald Trump is to attend a dinner with billionaire Paramount backers the Ellisons.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgj09ny0dq6o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "0c857cb9fd2c",
+      "cluster_time": "2026-04-23T15:33:36+00:00",
+      "category": "global",
+      "headline": "More than 500 people killed in Tanzania election violence, inquiry finds",
+      "summary": "[BBC News] Opposition parties accused security forces but the official report does not say who was responsible.\n\n[Africanews] Violence around Tanzania’s October general election left 518 people dead, a government-appointed commission said Thursday — a figure far below opposition estimates of thousands killed.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "BBC News",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgld775knzyo?at_medium=RSS&at_campaign=rss",
+        "http://www.africanews.com/2026/04/23/tanzania-poll-violence-claimed-518-lives-government-enquiry/"
+      ]
+    },
+    {
+      "id": "singleton_8302e3cbb59c",
+      "cluster_time": "2026-04-23T15:25:00+00:00",
+      "category": "local",
+      "headline": "Ashok Subron, l'invité de l'émission Au cœur de l’Info ce jeudi",
+      "summary": "Dans Au Cœur de l’Info cet après-midi, Prem Sewpaul reçoit Ashok Subron, ministre de l’Intégration sociale, de la Sécuri",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/ashok-subron-linvite-de-lemission-au-coeur-de-linfo-ce-jeudi-0"
+      ]
+    },
+    {
+      "id": "singleton_5f9cd97a284b",
+      "cluster_time": "2026-04-23T15:23:24+00:00",
+      "category": "regional",
+      "headline": "Women speak of violence experienced during childbirth in DR Congo",
+      "summary": "a recent viral video showing a young woman being hit by a doctor shortly after giving birth in a Kinshasa hospital has shocked the nation.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/women-speak-of-violence-experienced-during-childbirth-in-dr-congo/"
+      ]
+    },
+    {
+      "id": "singleton_fde9c70849d8",
+      "cluster_time": "2026-04-23T15:11:03+00:00",
+      "category": "global",
+      "headline": "US-Kuwaiti journalist held in Kuwait over social media posts acquitted, lawyers say",
+      "summary": "Ahmed Shihab-Eldin reportedly faced charges, including spreading false information, after he re-posted images related to the Iran war.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cy81ljrd445o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_7beb9ec61ba8",
+      "cluster_time": "2026-04-23T15:07:00+00:00",
+      "category": "local",
+      "headline": "Développements politiques : Arianne Navarre-Marie se dit prête à assumer toute responsabilité",
+      "summary": "Interrogée sur les développements politiques, notamment sur l'éventualité d'être attribué le poste de vice-Premier ministre, Arianne Navarre-Marie a déclaré ce jeudi 23 avril : « Nimport ki...",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Le Mauricien"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/politique/developpements-politiques-arianne-navarre-marie-se-dit-prete-a-assumer-toute-responsabilite/705411/"
+      ]
+    },
+    {
+      "id": "singleton_7be2d770127c",
+      "cluster_time": "2026-04-23T14:46:18+00:00",
+      "category": "regional",
+      "headline": "South Africa coal phase-out delay could cause 32,000 deaths: report",
+      "summary": "Delaying the closure of South Africa’s coal-fired power plants could lead to up to 32,000 preventable deaths between 2026 and 2050, climate rights groups warned on Wednesday.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/south-africa-coal-phase-out-delay-could-cause-32000-deaths-report/"
+      ]
+    },
+    {
+      "id": "singleton_69e9bee8590c",
+      "cluster_time": "2026-04-23T14:04:00+00:00",
+      "category": "local",
+      "headline": "Prison de GRNO : chocolats, bonbons, batteries et drogue saisis",
+      "summary": "Deux colis contenant du chocolat, des médicaments, des piles (batteries), des « ti papiers » ainsi que de la drogue ont",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/prison-de-grno-chocolats-bonbons-batteries-et-drogue-saisis"
+      ]
+    },
+    {
+      "id": "ee3a5ef43532",
+      "cluster_time": "2026-04-23T13:56:00+00:00",
+      "category": "local",
+      "headline": "Meurtre de Bryan Alifoykooye : sa compagne, Laura Travady, rapatriée à Maurice, où elle sera inculpée",
+      "summary": "[Defimedia] Laura Beatrice Travady est arrivée à Maurice cet après-midi, sous escorte policière. Elle avait été arrêtée le 11 avril\n\n[Defimedia] Laura Beatrice Travady, âgée de 29 ans, est attendue au pays ce jeudi 23 avril. Elle a été arrêtée le samedi 11 avril à",
+      "cluster_size": 2,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/meurtre-de-bryan-alifoykooye-sa-compagne-laura-travady-rapatriee-maurice-ou-elle-sera-inculpee",
+        "https://defimedia.info/meurtre-de-bryan-alifoykooye-la-suspecte-attendue-maurice-ce-jeudi-apres-midi"
+      ]
+    },
+    {
+      "id": "singleton_e2e07d4713be",
+      "cluster_time": "2026-04-23T13:54:16+00:00",
+      "category": "global",
+      "headline": "Two trains collide head-on in Denmark, leaving five critically hurt",
+      "summary": "The accident happened early on Thursday at a level crossing north of Copenhagen.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cgqkw3qk0dlo?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_ca1af7f8a111",
+      "cluster_time": "2026-04-23T13:44:35+00:00",
+      "category": "regional",
+      "headline": "UN warns Libya at 'critical' crossroads amid deepening divisions",
+      "summary": "The United Nations says Libya is at a “critical” crossroads, facing deep political fragmentation, a distorted economy, and delayed elections that threaten the country’s stability.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/un-warns-libya-at-critical-crossroads-amid-deepening-divisions/"
+      ]
+    },
+    {
+      "id": "singleton_76dc316b8aff",
+      "cluster_time": "2026-04-23T13:35:05+00:00",
+      "category": "regional",
+      "headline": "Nigel Clarke: “Preserving fiscal sustainability must be Africa’s priority” [Interview]",
+      "summary": "Caught between imported inflation, dependence on international markets, and structural fragilities, African economies find themselves on the front line of a crisis they did not cause.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/nigel-clarke-preserving-fiscal-sustainability-must-be-africas-priority-interview/"
+      ]
+    },
+    {
+      "id": "singleton_0d8b99a1763d",
+      "cluster_time": "2026-04-23T13:32:05+00:00",
+      "category": "global",
+      "headline": "MrBeast's company sued by ex-employee over sexual harassment claim",
+      "summary": "Beast Industries has strongly denied claims of sexual harassment and workplace gender bias.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c937z1nxze8o?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_83a3401796cd",
+      "cluster_time": "2026-04-23T13:16:00+00:00",
+      "category": "local",
+      "headline": "Paul Bérenger : «Mo pa krwar ki le MMM pou al lwin ; zot pou fonn !»",
+      "summary": "Le Mouvement militant mauricien (MMM) ne tiendra pas longtemps ; d’ici trois à six mois, le parti pourrait disparaître.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/paul-berenger-mo-pa-krwar-ki-le-mmm-pou-al-lwin-zot-pou-fonn"
+      ]
+    },
+    {
+      "id": "singleton_111a93179ed0",
+      "cluster_time": "2026-04-23T13:10:00+00:00",
+      "category": "local",
+      "headline": "Hausse du coût du fret maritime : Rs 15 000 de plus pour un conteneur de 20 pieds",
+      "summary": "Affréter un conteneur de 20 pieds coûte en moyenne 15 000 roupies de plus. C’est la conséquence directe du conflit au Mo",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/hausse-du-cout-du-fret-maritime-rs-15-000-de-plus-pour-un-conteneur-de-20-pieds"
+      ]
+    },
+    {
+      "id": "e07dd1eb9d11",
+      "cluster_time": "2026-04-23T12:58:00+00:00",
+      "category": "local",
+      "headline": "Mont-Choisy : Yohan Allyjan, 18 ans, meurt noyé",
+      "summary": "[L'Express (via mega.mu)] Un drame s’est produit ce jeudi matin 23 avril à Mont-Choisy. Un jeune homme âgé de 18 ans a perdu la vie après s’être noyé dans le lagon. La victime a été identifiée comme Yohan Allyjan, un habitant de Ste-Croix. Selon les premières informations recueillies, le jeune homme travaillait sur un chantier situé à proximité de la plage de Mont-Choisy. L\n\n[Defimedia] Le corps de Yohan Allyjan, âgé de 18 ans, a été repêché dans le lagon de Mont-Choisy ce jeudi 23 avril. Sa disparition a\n\n[Defimedia] Drame à Mont-Choisy, ce jeudi matin 23 avril. Un homme âgé de 18 ans est mort noyé dans le lagon. Les circonstances de c",
+      "cluster_size": 3,
+      "source_count": 2,
+      "sources": [
+        "L'Express (via mega.mu)",
+        "Defimedia"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257009/",
+        "https://defimedia.info/mont-choisy-un-jeune-de-18-ans-retrouve-sans-vie-dans-le-lagon",
+        "https://defimedia.info/mont-choisy-un-homme-de-21-ans-meurt-noye-dans-le-lagon"
+      ]
+    },
+    {
+      "id": "singleton_bb1afcb178cf",
+      "cluster_time": "2026-04-23T12:55:00+00:00",
+      "category": "local",
+      "headline": "Agression mortelle à St-Pierre : « On nous a dit que lui et sa compagne se disputaient souvent », confient les fils de la victime",
+      "summary": "« On nous a dit qu’ils se disputaient souvent, mais nous ne savons pas pour quelles raisons », confient Evans et Elvin A",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/agression-mortelle-st-pierre-nous-dit-que-lui-et-sa-compagne-se-disputaient-souvent-confient-les"
+      ]
+    },
+    {
+      "id": "924382cf3c88",
+      "cluster_time": "2026-04-23T12:25:00+00:00",
+      "category": "local",
+      "headline": "Dans la région – Les Seychelles accélèrent leur coopération avec la Russie : Vladimir Putin reçoit le Président Patrick Herminie",
+      "summary": "[Le Mauricien] Les Seychelles renforcent leur relation économique avec la Russie. Et pour marquer la coorpération étroite entre Mahé et Moscou, le Président seychellois, Patrick Herminie a invité un contingent...\n\n[Africanews] Russian President Vladimir Putin met Seychelles President Patrick Herminie at the Kremlin on Wednesday for talks focused on bilateral ties and international issues.",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "Le Mauricien",
+        "Africanews"
+      ],
+      "urls": [
+        "https://www.lemauricien.com/actualites/politique/dans-la-region-les-seychelles-accelerent-leur-cooperation-avec-la-russie-vladimir-putin-recoit-le-president-patrick-herminie/705396/",
+        "http://www.africanews.com/2026/04/22/russias-vladimir-putin-hosts-seychelles-president-patrick-herminie-at-kremlin/"
+      ]
+    },
+    {
+      "id": "singleton_22e34354ed85",
+      "cluster_time": "2026-04-23T11:42:44+00:00",
+      "category": "global",
+      "headline": "Pope Leo criticises Equatorial Guinea prisons as he winds up Africa tour",
+      "summary": "The Pope gives a frank and passionate speech, the likes of which have characterised his tour of Africa.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/c80m4822m1no?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_08f7d21ace5e",
+      "cluster_time": "2026-04-23T11:30:53+00:00",
+      "category": "local",
+      "headline": "Structural Gaps and 15 % Energy Hikes Threaten Mauritius Tech Sector Viability",
+      "summary": "The newly re-elected President of the Outsourcing and Telecommunications Association of Mauritius (OTAM), Jenny Chan, has warned that the nation is falling behind technologically due to a critical lack of infrastructure suited for innovation. Speaking following the association’s Annual General … The post Structural Gaps and 15 % Energy Hikes Thre",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "News Moris"
+      ],
+      "urls": [
+        "https://newsmoris.com/structural-gaps-and-15-energy-hikes-threaten-mauritius-tech-sector-viability/"
+      ]
+    },
+    {
+      "id": "singleton_11de64596387",
+      "cluster_time": "2026-04-23T11:26:01+00:00",
+      "category": "global",
+      "headline": "In Tehran, money is short and a return to war looms over daily life",
+      "summary": "The BBC's Lyse Doucet reports from Iran, where the buzz of busy shopping streets masks deep uncertainty over the country's future.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "BBC News"
+      ],
+      "urls": [
+        "https://www.bbc.com/news/articles/cdrm8k7lzmko?at_medium=RSS&at_campaign=rss"
+      ]
+    },
+    {
+      "id": "singleton_35d791f5fb0c",
+      "cluster_time": "2026-04-23T10:51:21+00:00",
+      "category": "regional",
+      "headline": "Iran war shipping disruption impacts medicine availability in Sudan",
+      "summary": "Aid groups warn that the conflict has upended their ability to get food and medicine to millions of people in need around the world.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/iran-war-shipping-disruption-impacts-medicine-availability-in-sudan/"
+      ]
+    },
+    {
+      "id": "singleton_b594b4b4a709",
+      "cluster_time": "2026-04-23T10:45:21+00:00",
+      "category": "local",
+      "headline": "Material Prices Surge 20% Forcing Mauritian Construction Sites to a Sudden Halt",
+      "summary": "The Mauritian construction industry is under severe strain as geopolitical instability in the Middle East triggers a “systemic impact” on the national economy, leading to stalled projects and a spike in material costs. Ravi Gutty, President of the Building & … The post Material Prices Surge 20% Forcing Mauritian Construction Sites to a Sudden Hal",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "News Moris"
+      ],
+      "urls": [
+        "https://newsmoris.com/material-prices-surge-20-forcing-mauritian-construction-sites-to-a-sudden-halt/"
+      ]
+    },
+    {
+      "id": "singleton_899358b0065e",
+      "cluster_time": "2026-04-23T10:35:22+00:00",
+      "category": "regional",
+      "headline": "Migrants deported from US stranded, 'scared' in DR Congo",
+      "summary": "The first batch of deportees arrived in the DRC last Friday under a controversial US migration scheme to pack off undocumented foreign nationals to third countries.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/migrants-deported-from-us-stranded-scared-in-dr-congo/"
+      ]
+    },
+    {
+      "id": "6351dbe535a0",
+      "cluster_time": "2026-04-23T10:23:00+00:00",
+      "category": "local",
+      "headline": "Tragédie à Solitude : Le jockey Rye Joorawon comparaîtra ce vendredi devant la cour de Pamplemousses",
+      "summary": "[L'Express (via mega.mu)] Initialement inculpé de coups et blessures par imprudence lors de sa première comparution lundi, le jockey Rye Joorawon répond désormais au chef d'accusation requalifié en homicide involontaire, après le décès de sa victime, mercredi soir. Muzzafar Pacquet, 27 ans, domicilié à Terre-Rouge, avait été admis en soins intensifs le 18 avril, après s’êtr\n\n[Defimedia] Le jockey Rye Joorawon sera présenté devant la cour de Pamplemousses demain, vendredi 24 avril, sous une accusation prov",
+      "cluster_size": 2,
+      "source_count": 2,
+      "sources": [
+        "L'Express (via mega.mu)",
+        "Defimedia"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257024/",
+        "https://defimedia.info/accident-fatal-solitude-le-jockey-rye-joorawon-sera-traduit-devant-la-justice-vendredi"
+      ]
+    },
+    {
+      "id": "singleton_f2851afba1b4",
+      "cluster_time": "2026-04-23T10:04:23+00:00",
+      "category": "regional",
+      "headline": "Pix of the Day, 23 April 2026",
+      "summary": "Pix of the Day, 23 April 2026",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/pix-of-the-day-23-april-2026/"
+      ]
+    },
+    {
+      "id": "singleton_f18119cc7bfe",
+      "cluster_time": "2026-04-23T09:57:28+00:00",
+      "category": "regional",
+      "headline": "'You are not alone': Pope Leo delivers message of hope to Equatorial Guinea prisoners",
+      "summary": "Pope Leo XIV told inmates at one of Equatorial Guinea’s notorious prisons that they are not alone, as he drew attention Wednesday to prison conditions, human rights abuses and injustices that campaigners have denounced for years.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/you-are-not-alone-pope-leo-delivers-message-of-hope-to-equatorial-guinea-prisoners/"
+      ]
+    },
+    {
+      "id": "singleton_7aaf27ee9f56",
+      "cluster_time": "2026-04-23T09:40:51+00:00",
+      "category": "regional",
+      "headline": "In Algerian desert, Sahrawi refugees still dream of independent homeland",
+      "summary": "Sahrawi refugees go about daily life in the Aousserd camp near Tindouf in southern Algeria as residents say decades in exile have not weakened their demand for independence in Western Sahara: \"Our demands are simple -- independence, and nothing else.\"",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Africanews"
+      ],
+      "urls": [
+        "http://www.africanews.com/2026/04/23/in-algerian-desert-sahrawi-refugees-still-dream-of-independent-homeland/"
       ]
     },
     {
       "id": "singleton_a6391c2a4c61",
-      "cluster_time": "2026-04-22T19:41:19+00:00",
+      "cluster_time": "2026-04-23T09:30:16+00:00",
       "category": "regional",
       "headline": "South Africa inflation ticks higher as education and housing costs rise",
       "summary": "South Africa’s inflation rate edged slightly higher in March but remains relatively subdued overall.",
@@ -339,23 +1154,38 @@
       ]
     },
     {
-      "id": "singleton_d05e8380a29f",
-      "cluster_time": "2026-04-22T19:25:38+00:00",
-      "category": "global",
-      "headline": "Iran blames Trump’s blockade for diplomatic impasse as fragile truce holds",
-      "summary": "Iranian Parliament Speaker Mohammad Bagher Ghalibaf says US and Israel will not achieve their goals 'through bullying'.",
+      "id": "singleton_e4e9b34a33bb",
+      "cluster_time": "2026-04-23T09:27:00+00:00",
+      "category": "local",
+      "headline": "PMQT – Equal Opportunities Commission : des amendements annoncés bientôt",
+      "summary": "Annabelle Savabaddy a interpellé, hier, le Premier ministre, Navin Ramgoolam, sur le recrutement dans la fonction publique. Elle a voulu savoir si des mesures transparentes, non-discriminat...",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Al Jazeera"
+        "Le Mauricien"
       ],
       "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/iran-blames-trumps-blockade-for-diplomatic-impasse-as-fragile-truce-holds?traffic_source=rss"
+        "https://www.lemauricien.com/actualites/politique/pmqt-equal-opportunities-commission-des-amendements-annonces-bientot/705377/"
+      ]
+    },
+    {
+      "id": "singleton_364b359c9a47",
+      "cluster_time": "2026-04-23T09:23:00+00:00",
+      "category": "local",
+      "headline": "Fête du Travail : un rassemblement prévu à Rose-Hill par le Collectif 1er Mai",
+      "summary": "À l’occasion de la Fête du Travail, le 1er mai prochain, le Collectif 1er Mai organise un rassemblement à la Plaza, à Ro",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/fete-du-travail-un-rassemblement-prevu-rose-hill-par-le-collectif-1er-mai"
       ]
     },
     {
       "id": "singleton_49342063d160",
-      "cluster_time": "2026-04-22T18:40:12+00:00",
+      "cluster_time": "2026-04-23T09:21:41+00:00",
       "category": "regional",
       "headline": "Sierra Leone signs offshore exploration deal with Shell",
       "summary": "Sierra Leone is taking a new step toward unlocking its offshore energy potential with a fresh agreement involving oil giant Shell.",
@@ -370,7 +1200,7 @@
     },
     {
       "id": "singleton_6668a8d848c9",
-      "cluster_time": "2026-04-22T18:26:06+00:00",
+      "cluster_time": "2026-04-23T09:15:57+00:00",
       "category": "regional",
       "headline": "Morocco’s Mohammed VI Tower rises over Rabat-Salé skyline",
       "summary": "The Mohammed VI Tower, now the tallest building in Morocco, is reshaping the skyline of the Rabat-Salé region after its inauguration earlier in April 2026.",
@@ -384,98 +1214,38 @@
       ]
     },
     {
-      "id": "singleton_1df7c286ec8e",
-      "cluster_time": "2026-04-22T18:22:26+00:00",
-      "category": "global",
-      "headline": "Bad optics? Israel jails soldiers who smashed Jesus statue in Lebanon",
-      "summary": "Critics say Israeli attacks on Christian sites challenge claims of a Judeo-Christian shared heritage and mutual respect.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/features/2026/4/22/bad-optics-israel-jails-soldiers-who-smashed-jesus-statue-in-lebanon?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_85a6e2710e80",
-      "cluster_time": "2026-04-22T18:12:08+00:00",
-      "category": "global",
-      "headline": "Suspect in slaying of Colombian presidential hopeful arrested in Argentina",
-      "summary": "Authorities say a Colombian suspected of helping to organise the killing of Miguel Uribe was captured in Buenos Aires.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/news/2026/4/22/suspect-in-slaying-of-colombian-presidential-hopeful-arrested-in-argentina?traffic_source=rss"
-      ]
-    },
-    {
-      "id": "singleton_69bd2ae7b730",
-      "cluster_time": "2026-04-22T18:10:42+00:00",
-      "category": "global",
-      "headline": "Billionaire backer sues Trump family's crypto firm over alleged extortion",
-      "summary": "Billionaire investor Justin Sun is suing the family's World Liberty crypto venture after spending $45m on its tokens.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c8x7kxjgq9xo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_4e42cf376d34",
-      "cluster_time": "2026-04-22T18:04:00+00:00",
+      "id": "singleton_bda37587bf43",
+      "cluster_time": "2026-04-23T08:54:49+00:00",
       "category": "local",
-      "headline": "Jean-Maurice Jean-Pierre met fin à sa grève de la faim après une rencontre avec Shakeel Mohamed",
-      "summary": "Il pourra célébrer son 68e anniversaire ce jeudi. Jean-Maurice Jean-Pierre en était, mercredi, à son cinquième jour de g",
+      "headline": "Police Launch Fatal Accident Inquiry after Motorcyclist Succumbs to Injuries",
+      "summary": "A 28-year-old motorcyclist has died in hospital four days after a violent collision involving a vehicle driven by well-known jockey Rai Joorawon. The victim, a resident of Terre-Rouge, succumbed to his injuries on Wednesday evening, 22 April. He had been … The post Police Launch Fatal Accident Inquiry after Motorcyclist Succumbs to Injuries appear",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Defimedia"
+        "News Moris"
       ],
       "urls": [
-        "https://defimedia.info/jean-maurice-jean-pierre-met-fin-sa-greve-de-la-faim-apres-une-rencontre-avec-shakeel-mohamed"
+        "https://newsmoris.com/police-launch-fatal-accident-inquiry-after-motorcyclist-succumbs-to-injuries/"
       ]
     },
     {
-      "id": "singleton_1a6f7d59fc26",
-      "cluster_time": "2026-04-22T17:56:00+00:00",
-      "category": "local",
-      "headline": "«Le PM tre reseptif a tou seki le BP fin diskite», dit Gunness sur l’éventuelle nomination d’Arianne Navarre-Marie au poste de DPM",
-      "summary": "« Tou seki nou diskite dan BP (Ndlr : bureau politique), li res intern », a déclaré Ajay Gunness en réponse à une questi",
+      "id": "singleton_90fce40d9c2d",
+      "cluster_time": "2026-04-23T08:54:05+00:00",
+      "category": "regional",
+      "headline": "Senegal's ex-president Macky Sall urges peace and diplomacy at UN audition",
+      "summary": "Senegal’s former president Macky Sall called for peace and diplomacy on Wednesday as he auditioned to lead the United Nations.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Defimedia"
+        "Africanews"
       ],
       "urls": [
-        "https://defimedia.info/le-pm-tre-reseptif-tou-seki-le-bp-fin-diskite-dit-gunness-sur-leventuelle-nomination-darianne-0"
-      ]
-    },
-    {
-      "id": "singleton_65e96e8a619c",
-      "cluster_time": "2026-04-22T17:48:44+00:00",
-      "category": "global",
-      "headline": "EU approves €90bn loan for Ukraine as pipeline is turned on ending deadlock",
-      "summary": "Ukraine says it has reopened the Druzhba pipeline, after months of stalemate over stalled oil supplies to neighbouring Hungary.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cnv8l99r3yyo?at_medium=RSS&at_campaign=rss"
+        "http://www.africanews.com/2026/04/23/senegals-ex-president-macky-sall-urges-peace-and-diplomacy-at-un-audition/"
       ]
     },
     {
       "id": "singleton_3f927a4957c1",
-      "cluster_time": "2026-04-22T17:40:02+00:00",
+      "cluster_time": "2026-04-23T08:40:33+00:00",
       "category": "regional",
       "headline": "Defendants plead not guilty over 2025 Nigeria coup plot",
       "summary": "Six men pleaded not guilty to treason and terrorism charges over a botched coup plot, Nigeria media reported Wednesday, as the first prosecutions for the alleged 2025 putsch attempt get under way.",
@@ -489,113 +1259,38 @@
       ]
     },
     {
-      "id": "singleton_c816dca89cc0",
-      "cluster_time": "2026-04-22T17:39:39+00:00",
-      "category": "regional",
-      "headline": "Putin hosts Seychelles president at Kremlin",
-      "summary": "Russian President Vladimir Putin met Seychelles President Patrick Herminie at the Kremlin on Wednesday for talks focused on bilateral ties and international issues.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/putin-hosts-seychelles-president-at-kremlin/"
-      ]
-    },
-    {
-      "id": "singleton_b51792ea4a84",
-      "cluster_time": "2026-04-22T17:37:00+00:00",
+      "id": "singleton_b3f7032ecffd",
+      "cluster_time": "2026-04-23T08:40:00+00:00",
       "category": "local",
-      "headline": "Agression à Saint-Pierre : un homme meurt, une femme de 60 ans arrêtée",
-      "summary": "Une violente agression s’est produite dans la nuit du 2 avril à Circonstance, à Saint-Pierre. Vers 2 heures du matin, un",
+      "headline": "Marché des changes : les ventes de devises chutent à 310,4 millions de dollars en mars",
+      "summary": "Le marché des changes marque un ralentissement. En mars 2026, les flux de devises reculent tant du côté des achats que d",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/agression-saint-pierre-un-homme-meurt-une-femme-de-60-ans-arretee"
+        "https://defimedia.info/marche-des-changes-les-ventes-de-devises-chutent-3104-millions-de-dollars-en-mars"
       ]
     },
     {
-      "id": "singleton_fdcc628f3b12",
-      "cluster_time": "2026-04-22T17:33:30+00:00",
+      "id": "singleton_1c8640aea8da",
+      "cluster_time": "2026-04-23T08:37:14+00:00",
       "category": "global",
-      "headline": "Nigeria's suspected coup plotters deny treason charges",
-      "summary": "Allegations of a coup plot first surfaced last year when an Independence Day parade was cancelled.",
+      "headline": "US Navy chief leaving post 'effective immediately', Pentagon says",
+      "summary": "Reports say Phelan, whose role was largely administrative, left amid tension over US shipbuilding.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/c0krlxg384eo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_7ddfc4536628",
-      "cluster_time": "2026-04-22T17:17:00+00:00",
-      "category": "local",
-      "headline": "Triolet : le jockey Rai Joorawon impliqué dans un accident fatal",
-      "summary": "Un drame de la route s’est produit à Triolet. Un motocycliste de 28 ans, impliqué dans un accident survenu samedi dernie",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/triolet-le-jockey-rai-joorawon-implique-dans-un-accident-fatal"
-      ]
-    },
-    {
-      "id": "singleton_31662d70aaa1",
-      "cluster_time": "2026-04-22T17:03:00+00:00",
-      "category": "local",
-      "headline": "Vente aux enchères de la FCC : véhicules, bateaux et biens saisis mis en vente fin avril",
-      "summary": "La Financial Crimes Commission (FCC) organisera une vente aux enchères au plus offrant les lundi 27, mardi 28, mercredi",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/vente-aux-encheres-de-la-fcc-vehicules-bateaux-et-biens-saisis-mis-en-vente-fin-avril"
-      ]
-    },
-    {
-      "id": "singleton_71444a8684aa",
-      "cluster_time": "2026-04-22T16:53:00+00:00",
-      "category": "local",
-      "headline": "Loto Plus : un joueur remporte Rs 11,4 millions",
-      "summary": "Un joueur a remporté Rs 11,4 millions au Loto Plus ce mercredi 22 avril. Le ticket a été vendu par Loyeung Store de Mahé",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/loto-plus-un-joueur-remporte-rs-114-millions"
-      ]
-    },
-    {
-      "id": "singleton_118615a462f6",
-      "cluster_time": "2026-04-22T16:45:17+00:00",
-      "category": "global",
-      "headline": "Chelsea sack Rosenior after only three months at Premier League club",
-      "summary": "Chelsea only appointed Liam Rosenior in January, but the FIFA Club World Cup holders have lost their last five games.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Al Jazeera"
-      ],
-      "urls": [
-        "https://www.aljazeera.com/sports/2026/4/22/chelsea-sack-rosenior-after-only-3-months-at-premier-league-club?traffic_source=rss"
+        "https://www.bbc.com/news/articles/ce9ml02g5k7o?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
       "id": "singleton_9c78350640a9",
-      "cluster_time": "2026-04-22T16:34:59+00:00",
+      "cluster_time": "2026-04-23T08:31:58+00:00",
       "category": "regional",
       "headline": "Mali and Niger accuse neighbours of backing terrorism in Sahel rift",
       "summary": "A widening diplomatic rift is emerging in West Africa as Niger and Mali level new accusations against neighbouring states over terrorism in the Sahel.",
@@ -609,8 +1304,23 @@
       ]
     },
     {
+      "id": "singleton_733db5903b25",
+      "cluster_time": "2026-04-23T08:28:12+00:00",
+      "category": "local",
+      "headline": "Rs1 Billion Bypass Proposed to Revolutionise Access to Mauritius’ West Coast",
+      "summary": "A major infrastructure project aimed at decongesting the route to the western coast of Mauritius has taken a significant step forward following the submission of a formal environmental impact assessment. The Road Development Authority (RDA) has filed plans for a … The post Rs1 Billion Bypass Proposed to Revolutionise Access to Mauritius’ West Coast",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "News Moris"
+      ],
+      "urls": [
+        "https://newsmoris.com/rs1-billion-bypass-proposed-to-revolutionise-access-to-mauritius-west-coast/"
+      ]
+    },
+    {
       "id": "singleton_e4e6b2cbb4b8",
-      "cluster_time": "2026-04-22T16:32:58+00:00",
+      "cluster_time": "2026-04-23T08:25:22+00:00",
       "category": "regional",
       "headline": "South Africa could see first winter without power cuts in years",
       "summary": "In South Africa, the state-owned electricity company Eskom announced on Wednesday that it does not expect power outages during the winter months in the Southern Hemisphere, from April to August. This will be the first winter without power cuts since the company has been facing difficulties.",
@@ -624,83 +1334,38 @@
       ]
     },
     {
-      "id": "singleton_405d0d130bcf",
-      "cluster_time": "2026-04-22T16:28:00+00:00",
+      "id": "singleton_c315f652fe8d",
+      "cluster_time": "2026-04-23T08:20:00+00:00",
       "category": "local",
-      "headline": "Négociations sur les Chagos : une délégation britannique reçue par le Premier ministre",
-      "summary": "Une délégation du Royaume-Uni, en mission à Maurice dans le cadre des négociations relatives à l’archipel des Chagos, ac",
+      "headline": "Possession d’héroïne et de drogue de synthèse : un policier et deux autres individus écroués",
+      "summary": "Coup de filet de la brigade antidrogue (Adsu) de Rose Belle. Un policier en service ainsi que deux autres individus ont",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/negociations-sur-les-chagos-une-delegation-britannique-recue-par-le-premier-ministre"
+        "https://defimedia.info/possession-dheroine-et-de-drogue-de-synthese-un-policier-et-deux-autres-individus-ecroues"
       ]
     },
     {
-      "id": "singleton_0e92c06797b4",
-      "cluster_time": "2026-04-22T16:19:36+00:00",
-      "category": "global",
-      "headline": "US and Iran in blockade standoff as Pakistan pushes for talks",
-      "summary": "The mood in the Strait of Hormuz remains combustible despite Trump's ceasefire extension.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c0q9xq7knq2o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_040046bb17f3",
-      "cluster_time": "2026-04-22T15:56:14+00:00",
-      "category": "local",
-      "headline": "2 Imported Mpox Cases Confirmed in Mauritius after Recent Travel from Madagascar",
-      "summary": "Mauritius has confirmed two imported cases of Mpox involving a Mauritian and a Comorian national, both of whom recently arrived in the country from Madagascar. Health authorities launched an immediate contact tracing exercise following the diagnosis of the two men, … The post 2 Imported Mpox Cases Confirmed in Mauritius after Recent Travel from Ma",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "News Moris"
-      ],
-      "urls": [
-        "https://newsmoris.com/2-imported-mpox-cases-confirmed-in-mauritius-after-recent-travel-from-madagascar/"
-      ]
-    },
-    {
-      "id": "singleton_4347d3996c8f",
-      "cluster_time": "2026-04-22T15:52:38+00:00",
+      "id": "singleton_932b20acf30d",
+      "cluster_time": "2026-04-23T08:17:13+00:00",
       "category": "regional",
-      "headline": "Djibouti President Ismaïl Omar Guelleh reelected for a sixth term, official results show",
-      "summary": "Ismail Omar Guelleh has won a sixth term as President of Djibouti, the country's constitutional council has confirmed. Guelleh won 97.8 percent of the vote, the council said on Tuesday.",
+      "headline": "Djibouti's Guelleh reelected for sixth presidential term: official results",
+      "summary": "Ismail Omar Guelleh has won a sixth term as President of Djibouti, the country's constitutional council has confirmed. Guelleh won 97.01% of the vote, the council said on Tuesday.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Africanews"
       ],
       "urls": [
-        "http://www.africanews.com/2026/04/22/djibouti-president-ismail-omar-guelleh-reelected-for-a-sixth-term-official-results-show/"
-      ]
-    },
-    {
-      "id": "singleton_2d836fdc61ac",
-      "cluster_time": "2026-04-22T15:31:00+00:00",
-      "category": "local",
-      "headline": "Au Cœur de l’Info- Pouvoir d’achat : quels soutiens face à la crise liée au Moyen-Orient ?",
-      "summary": "Quels sont les mécanismes de soutien pour compenser la perte de pouvoir d’achat des Mauriciens affectés par la guerre au",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/au-coeur-de-linfo-pouvoir-dachat-quels-soutiens-face-la-crise-liee-au-moyen-orient"
+        "http://www.africanews.com/2026/04/22/djiboutis-guelleh-reelected-for-sixth-presidential-term-official-results/"
       ]
     },
     {
       "id": "singleton_c4768d2305d5",
-      "cluster_time": "2026-04-22T15:28:51+00:00",
+      "cluster_time": "2026-04-23T08:06:58+00:00",
       "category": "regional",
       "headline": "Niger junta says it suspended nearly 3,000 NGOs in 2025",
       "summary": "Niger's military government suspended the activities of 2,900 of the 4,700 registered local and foreign non-governmental organisations and development agencies, the interior minister said.",
@@ -714,23 +1379,293 @@
       ]
     },
     {
-      "id": "singleton_23a6d7b1ff9a",
-      "cluster_time": "2026-04-22T15:24:54+00:00",
+      "id": "singleton_93753443a4ba",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
       "category": "local",
-      "headline": "DPP Appeals ‘Lenient’ Sentences in Rs 80 Million Theft from Bramer Bank",
-      "summary": "The Office of the Director of Public Prosecutions (DPP) has launched a formal appeal against the sentencing of four men involved in a massive Rs 80 million fraud case, branding the punishments “manifestly inadequate and unduly lenient.” In a notice … The post DPP Appeals ‘Lenient’ Sentences in Rs 80 Million Theft from Bramer Bank appeared first on",
+      "headline": "Championnat Débutant Senior : Muay Thai : Des compétiteurs déjà en confiance",
+      "summary": "Le Renaissance Hall de Sainte-Croix a été le théâtre, au cours de la journée de dimanche, d’un événement important pour le muay thai mauricien : la toute première édition du Championnat Débutant Senior. Sous l’égide de la Fédération mauricienne de muay thai (FMM), cette compétition visait à offrir aux nakmuays novices une première expérience du rin",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "News Moris"
+        "L'Express (via mega.mu)"
       ],
       "urls": [
-        "https://newsmoris.com/dpp-appeals-lenient-sentences-in-rs-80-million-theft-from-bramer-bank/"
+        "https://live.mega.mu/redirect/257051/"
+      ]
+    },
+    {
+      "id": "singleton_2bc309d5a4b0",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Deux cas de Mpox à Maurice : «Contact tracing» et recherche d’un patient infecté",
+      "summary": "Deux cas de Mpox (variole du singe), sont confirmés à Maurice. Les deux patients, âgés de 46 ans et 31 ans, ont récemment voyagé à Madagascar, où 485 cas ont été rapportés. L’un est un Mauricien, l’autre est un ressortissant comorien. Le patient de 31 ans s’était initialement présenté à l’hôpital Victoria avec des symptômes de fièvre après son voya",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257054/"
+      ]
+    },
+    {
+      "id": "singleton_f6c7b87d0996",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Pharmacie : À la place d’un médicament pour l’hypertension artérielle pulmonaire, un patient reçoit du Cytotec",
+      "summary": "Un comprimé, une ordonnance et un doute. À l’hôpital Victoria, Candos, un patient d’une cinquantaine d’années suivi pour des problèmes cardiaques affirme avoir reçu un médicament différent de celui prescrit lors de son passage à la pharmacie hospitalière la semaine dernière. Selon son témoignage, l’ordonnance prescrivait du sildénafil de 50 mg (com",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257039/"
+      ]
+    },
+    {
+      "id": "singleton_02ebb3588fa1",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Relations Maurice-Russie : MAURUSS commémore le 156ᵉ anniversaire de Lénine",
+      "summary": "À l’occasion du 156ᵉ anniversaire de la naissance de Vladimir Ilitch Lénine, la Mauritian Russian Friendship and Cultural Organisation (MAURUSS) a organisé une cérémonie de dépôt de gerbes à la statue de Lénine aux Salines, hier, en présence de Sergey Kuznetsov, *Deputy Head of Mission*, et de Ravinduth Sunjhoreea, secrétaire de la MAURUSS. Sergey",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257018/"
+      ]
+    },
+    {
+      "id": "singleton_723e5fde25e7",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Taxis à Cassis : Olivier Bancoult déplore leur absence après 16 heures",
+      "summary": "Habitant Cassis, Olivier Bancoult a sollicité l’intervention du ministère des Transports terrestres et de la National Land Transport Authority (NLTA) pour que les taxis dont la base d’opération est ce faubourg de la capitale continuent d’opérer après 16 heures. Selon le leader du Groupe Réfugiés Chagos, il y aurait 39 opérateurs de taxis qui n’habi",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257021/"
+      ]
+    },
+    {
+      "id": "singleton_784b550eac30",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Osman Mahomed : « Pas de station de taxis à Goodlands, un nouveau site recherché »",
+      "summary": "Au Parlement, le 21 avril, le ministre des Transports, Osman Mahomed, a indiqué qu’il n’y a actuellement aucune station de taxis à Goodlands.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257063/"
+      ]
+    },
+    {
+      "id": "singleton_6d5f0771c437",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Réservoirs : Le taux de remplissage global est à 64,3%",
+      "summary": "Le taux de remplissage total des réservoirs s’établit à 64,3 %, contre 57,4 % à la même période l’an dernier, selon les données publiées le mardi 21 avril, par la *Water Resources Commission*. La situation varie selon les réservoirs. Mare-aux-Vacoas affiche un taux de remplissage de 50,7%, contre 41,5% à la même période l’an dernier. La Nicolière e",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257012/"
+      ]
+    },
+    {
+      "id": "singleton_d81d9852819e",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Danemark : Au moins 11 blessés dont cinq dans un état critique lors d'une collision de trains",
+      "summary": "Deux trains sont entrés en collision au Danemark à 06 h 29 (heure locale) ce jeudi, laissant cinq personnes dans un état critique et 12 autres légèrement blessées, ont indiqué les autorités médicales. L'incident s'est produit au nord de Copenhague, sur une ligne ferroviaire reliant les villes de Hillerød et Kagerup, avec un total de 38 personnes à",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256994/"
+      ]
+    },
+    {
+      "id": "singleton_9760aa3c3f03",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "«Project Glasswing» : Surpasser la quasi-totalité des experts humains",
+      "summary": "Le 7 avril, l’entreprise américaine Anthropic lançait *Project Glasswing*, marquant un tournant dans la sécurité informatique mondiale. Son nouveau modèle d’intelligence artificielle, présenté comme le plus performant jamais développé en matière de code, vient de repérer des milliers de vulnérabilités critiques, dont certaines dormaient depuis des",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256997/"
+      ]
+    },
+    {
+      "id": "singleton_673085c1290e",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Parlement : Korek : 406 000 utilisateurs à Maurice, 3 058 à Rodrigues",
+      "summary": "À Rodrigues, ils sont 3 058 à avoir téléchargé l’application Korek. À Maurice, 406 000 personnes l’ont fait. Le fossé numérique entre les deux îles de la République se lit aussi dans ces chiffres alors que le ministre Avinash Ramtohul annonce une visite imminente dans l’île afin d’accélérer le déploiement de l’application gouvernementale. Lancée le",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257000/"
+      ]
+    },
+    {
+      "id": "singleton_9fdd3efa0af4",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Parlement : Certificat de moralité : un projet de loi pour alléger le poids des infractions mineures",
+      "summary": "Le projet de loi portant sur l’abrogation et le remplacement de la *Certificate of Character Act 2012* a été présenté en deuxième lecture par l’*Attorney General*, Gavin Glover, lors de la même séance. Le texte, de près de 29 pages, vise à réduire les obstacles à l’emploi et à la réinsertion sociale des personnes condamnées pour des infractions min",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257006/"
+      ]
+    },
+    {
+      "id": "singleton_aa707203c9d8",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Situation sanitaire : Vigilance accrue face à plusieurs maladies en circulation",
+      "summary": "La situation sanitaire actuelle dans l’île appelle à la vigilance, sans pour autant susciter une inquiétude excessive. Plusieurs maladies en circulation, dont le Mpox (variole du singe), la leptospirose et le chikungunya, font actuellement l’objet d’un suivi rigoureux par les autorités de santé. Derrière les chiffres, ce sont aussi des vies, des fa",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256991/"
+      ]
+    },
+    {
+      "id": "singleton_decf5eb24457",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Accidents mortels : 44 victimes recensées à ce jour",
+      "summary": "44 personnes ont perdu la vie sur nos routes depuis le début de l’année contre 41 à cette même période l’année dernière.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257045/"
+      ]
+    },
+    {
+      "id": "singleton_982fcf5f1ebd",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Roches-Noires: Un directeur sous l’influence de l’alcool percute un piéton",
+      "summary": "Kurti Ramji Patel (71 ans), directeur de Laxmanbhai Company Ltd, a été testé positif à l’alcotest dans le sillage d’un grave accident survenu sur la route côtière de Roches-Noires, lundi soir.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257027/"
+      ]
+    },
+    {
+      "id": "singleton_2b0db09920ba",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Nouveau Mouvement politique de Paul Bérenger : Le logo et le nom dévoilés ce samedi : «Vremem enn vag pe pran-la»",
+      "summary": "Une nouvelle page s’ouvre dans la vie politique. L’ancien leader du Mouvement militant mauricien (MMM), Paul Bérenger, a annoncé, hier, le lancement imminent de sa nouvelle formation politique. Dans une lettre publiée sur sa page Facebook, il invite les Mauriciens à le rejoindre dans ce qu’il présente comme la continuité d’un combat militant entamé",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256982/"
+      ]
+    },
+    {
+      "id": "singleton_b39c5dc0aa96",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Autoroute M4: un projet ambitieux pour le développement régional",
+      "summary": "La construction des première et deuxième phases de la nouvelle autoroute M4, qui s’étendra sur 30 km et reliera Forbach à Bel-Air, débutera dans environ trois mois.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257030/"
+      ]
+    },
+    {
+      "id": "singleton_bd71a8a158de",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "Délit de fuite : Un motocycliste admis en soins intensifs",
+      "summary": "Une habitante de New-Grove est recherchée par la police après que sa voiture ait été impliquée dans un délit de fuite, hier matin, à Montagne-Ory.",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/257033/"
+      ]
+    },
+    {
+      "id": "singleton_ece23567954d",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "St Pierre : Un quinquagénaire rend l'âme après une agression",
+      "summary": "Agressé à son domicile à St-Pierre le 2 avril, un homme de 52 ans, admis en soins intensifs à l’hôpital Dr A. G. Jeetoo, à Port-Louis, est décédé le mercredi 22 avril, vers 13 heures. L’autopsie pratiquée le soir même a attribué la cause du décès à une septicémie. Il présentait une grave blessure à la tête après une violente altercation survenue au",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "L'Express (via mega.mu)"
+      ],
+      "urls": [
+        "https://live.mega.mu/redirect/256985/"
+      ]
+    },
+    {
+      "id": "singleton_66106cab64bd",
+      "cluster_time": "2026-04-23T08:00:00+00:00",
+      "category": "local",
+      "headline": "La nomination d’un DPM alimente les conversations politiques",
+      "summary": "Un mois après la démission de Paul Bérenger en tant que Deputy Prime Minister, la question de son remplacement continue",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/la-nomination-dun-dpm-alimente-les-conversations-politiques"
       ]
     },
     {
       "id": "singleton_1e8b216f98f2",
-      "cluster_time": "2026-04-22T15:06:20+00:00",
+      "cluster_time": "2026-04-23T07:56:05+00:00",
       "category": "regional",
       "headline": "As millions return to Sudan, UN calls for investment in essential services",
       "summary": "Three years into the devastating conflict in Sudan, nearly four million displaced people have returned to their places of origin across the country, only to face “another struggle for survival”, the UN International Organization for Migration (IOM) said on Tuesday.",
@@ -744,1087 +1679,228 @@
       ]
     },
     {
-      "id": "singleton_8fe8a68aee28",
-      "cluster_time": "2026-04-22T15:03:39+00:00",
-      "category": "regional",
-      "headline": "US considers sending 1,100 Afghans to DR Congo amid resettlement halt",
-      "summary": "The Trump administration is considering a controversial new plan, to send more than 1,000 Afghans who supported US forces, not to America, but to central Africa.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/us-considers-sending-afghan-allies-to-dr-congo-amid-resettlement-halt/"
-      ]
-    },
-    {
-      "id": "singleton_df404a5b87a7",
-      "cluster_time": "2026-04-22T15:00:40+00:00",
-      "category": "global",
-      "headline": "Lufthansa cuts 20,000 summer flights as fuel prices surge",
-      "summary": "The airline is the latest to cut flights as the US-Israel war with Iran sends jet fuel prices soaring.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cre1r4n5j5wo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_74d6f5d9e01d",
-      "cluster_time": "2026-04-22T14:50:52+00:00",
-      "category": "global",
-      "headline": "No cartels involved - but Mexico's pyramid attack prompts new concerns",
-      "summary": "The deadly shooting at a popular tourist site weeks before the World Cup has rocked Mexico.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cre1r5gdq04o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_f66ea55e5bfd",
-      "cluster_time": "2026-04-22T14:28:00+00:00",
+      "id": "singleton_9455d7b1f2fd",
+      "cluster_time": "2026-04-23T07:56:00+00:00",
       "category": "local",
-      "headline": "Accident fatal à Grand Bel-Air : «Si mo pa enn papa solid, mo tomb sek», confie le père des jumeaux rescapés",
-      "summary": "« Si mo pa enn papa solid, mo tomb sek », confie Jean Shirley Mava, le père des jumeaux (une sœur et un frère) âgés de 1",
+      "headline": "«Quelle que soit la responsabilité que le PM me confiera, je pense pouvoir être à la hauteur», déclare Arianne Navarre-Marie",
+      "summary": "« Je suis une femme de devoir, voire une patriote. Nimport ki responsabilite ki le Premie minis, le gouvernman ou la pop",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/accident-fatal-grand-bel-air-si-mo-pa-enn-papa-solid-mo-tomb-sek-confie-le-pere-des-jumeaux"
+        "https://defimedia.info/quelle-que-soit-la-responsabilite-que-le-pm-me-confiera-je-pense-pouvoir-etre-la-hauteur-declare"
       ]
     },
     {
-      "id": "singleton_21f7dc284809",
-      "cluster_time": "2026-04-22T14:25:00+00:00",
-      "category": "regional",
-      "headline": "Two hostages captured in Niger freed by Russia's Africa Corps in Mali",
-      "summary": "Two men held hostage in Mali have been freed after almost two years in captivity, the Russian army said on Tuesday. Russian national Oleg Greta and Ukrainian Yuri Yurov were rescued by a \"special operation\" carried out by Russia's Africa Corps unit, Moscow said in a statement.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/two-hostages-captured-in-niger-freed-by-russias-africa-corps-in-mali/"
-      ]
-    },
-    {
-      "id": "singleton_3e954f4528e9",
-      "cluster_time": "2026-04-22T14:22:59+00:00",
-      "category": "global",
-      "headline": "Los Angeles becomes first major US school district to limit classroom screen time",
-      "summary": "The school district, which serves about half a million students, is looking to reduce its reliance on devices after the pandemic.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c15d888ww39o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_f2ac4f0ba310",
-      "cluster_time": "2026-04-22T14:14:35+00:00",
-      "category": "regional",
-      "headline": "Iran targets three ships in Strait of Hormuz escalation",
-      "summary": "A global shipping route is once again under threat as Iranian forces move against commercial vessels in the Strait of Hormuz.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/iran-targets-three-ships-in-strait-of-hormuz-escalation/"
-      ]
-    },
-    {
-      "id": "singleton_6e9f83b158b2",
-      "cluster_time": "2026-04-22T14:14:00+00:00",
+      "id": "singleton_4fd8f54d26bb",
+      "cluster_time": "2026-04-23T07:40:00+00:00",
       "category": "local",
-      "headline": "Bérenger invite tous ceux et celles qui veulent continuer le « combat militant » à se joindre à un nouveau mouvement politique",
-      "summary": "Dans un message publié sur sa page Facebook, ce mercredi, 22 avril, Paul Bérenger affirme que « le combat continue » et",
+      "headline": "Kugan Parapen : «Nous n’allons pas vers une crise économique, mais vers des moments difficiles»",
+      "summary": "Face aux critiques et aux inquiétudes exprimées sur le plateau, le Junior Minister Kugan Parapen s’attache à replacer la",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/berenger-invite-tous-ceux-et-celles-qui-veulent-continuer-le-combat-militant-se-joindre-un-nouveau"
+        "https://defimedia.info/kugan-parapen-nous-nallons-pas-vers-une-crise-economique-mais-vers-des-moments-difficiles"
       ]
     },
     {
-      "id": "singleton_f5c872105513",
-      "cluster_time": "2026-04-22T14:09:28+00:00",
-      "category": "regional",
-      "headline": "Earth Day: Extreme weather a growing threat to democray, report says",
-      "summary": "Extreme climate events are increasingly threatening democracy, with at least 94 elections and referendums in 52 countries disrupted by natural hazards over the past two decades, a report published Wednesday said.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/earth-day-extreme-weather-a-growing-threat-to-democray-report-says/"
-      ]
-    },
-    {
-      "id": "singleton_15e09c88c1bb",
-      "cluster_time": "2026-04-22T13:49:15+00:00",
-      "category": "global",
-      "headline": "Virginia approves redistricting measure, boosting Democrats' hopes for midterms",
-      "summary": "The new maps approved by the state's voters could allow Democrats to flip as many as four House seats.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/c895j8zgqe4o?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_97b91590dcff",
-      "cluster_time": "2026-04-22T13:43:00+00:00",
+      "id": "singleton_0d3514235ffc",
+      "cluster_time": "2026-04-23T07:20:00+00:00",
       "category": "local",
-      "headline": "Cinquième jour de grève de la faim : Jean-Maurice Jean-Pierre réclame une loi sur la restitution des terres",
-      "summary": "Jean-Maurice Jean-Pierre en est à son cinquième jour de grève de la faim, entamée samedi sur le parvis de la cathédrale",
+      "headline": "Pouvoir d’achat sous pression : quelles réponses face à une crise importée ?",
+      "summary": "Dans Au cœur de l’info, Jane Lutchmaya a réuni responsables politiques et acteurs de la société civile pour débattre de",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/cinquieme-jour-de-greve-de-la-faim-jean-maurice-jean-pierre-reclame-une-loi-sur-la-restitution-des"
+        "https://defimedia.info/pouvoir-dachat-sous-pression-quelles-reponses-face-une-crise-importee"
       ]
     },
     {
-      "id": "singleton_2a18c03bfc64",
-      "cluster_time": "2026-04-22T13:36:00+00:00",
+      "id": "singleton_c3a987feb7dd",
+      "cluster_time": "2026-04-23T07:10:00+00:00",
       "category": "local",
-      "headline": "Mpox : deux hommes testés positifs après un voyage à Madagascar",
-      "summary": "Maurice enregistre deux cas importés de Mpox. Il s’agit de deux hommes : un Mauricien de 46 ans et un ressortissant como",
+      "headline": "Secteur Bancaire : les transactions par Internet s’élève à Rs 769 millions en février 2026",
+      "summary": "Les transactions bancaires en ligne ont atteint Rs 769 millions en février 2026, contre Rs 740 millions en janvier, soit",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/mpox-deux-hommes-testes-positifs-apres-un-voyage-madagascar"
+        "https://defimedia.info/secteur-bancaire-les-transactions-par-internet-seleve-rs-769-millions-en-fevrier-2026"
       ]
     },
     {
-      "id": "singleton_73c22a9aa45e",
-      "cluster_time": "2026-04-22T13:09:39+00:00",
-      "category": "regional",
-      "headline": "Nigeria's Tinubu sacks finance minister in surprise cabinet reshuffle",
-      "summary": "Nigeria's President Bola Tinubu has sacked his finance minister Wale Edun as part of a minor cabinet reshuffle. Stepping into the role is former Minister of State for Finance Taiwo Oyedele. He played a central role in the administration's tax overhaul which took effect at the start of this year.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/nigerias-tinubu-sacks-finance-minister-in-surprise-cabinet-reshuffle/"
-      ]
-    },
-    {
-      "id": "singleton_8da9f68bb174",
-      "cluster_time": "2026-04-22T12:52:06+00:00",
-      "category": "regional",
-      "headline": "Nearly 8,000 migrants dead or missing in 2025",
-      "summary": "Nearly 8,000 people died or disappeared on migration routes in 2025, according to the United Nations, a stark reminder that for many, the journey in search of safety or opportunity remains deadly.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/nearly-8000-migrants-dead-or-missing-in-2025/"
-      ]
-    },
-    {
-      "id": "singleton_9346f1005187",
-      "cluster_time": "2026-04-22T12:34:49+00:00",
-      "category": "regional",
-      "headline": "Russia and Libya vow to strengthen bilateral cooperation",
-      "summary": "Russia is ready to assist Libya in “restoring unity and national reconciliation,” Russian Foreign Minister Sergey Lavrov said on Tuesday after holding talks with Libya’s acting foreign minister, Taher Al-Baour, in Moscow.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/russia-and-libya-vow-to-strengthen-bilateral-cooperation/"
-      ]
-    },
-    {
-      "id": "singleton_08e32f21ee60",
-      "cluster_time": "2026-04-22T12:17:41+00:00",
+      "id": "singleton_5437d3c89495",
+      "cluster_time": "2026-04-23T07:06:00+00:00",
       "category": "local",
-      "headline": "Government Prepares Water Supply Restrictions as Major Reservoir Reaches 51% Capacity",
-      "summary": "Mauritius is facing an imminent water crisis as the government prepares to enforce strict distribution cuts following a severe lack of rainfall. Patrick Assirvaden, the Minister of Energy and Public Utilities, has ordered the Water Resources Commission and the Central … The post Government Prepares Water Supply Restrictions as Major Reservoir Reach",
+      "headline": "Assemblée Générale Annuelle : Rubina Toorawa devient la nouvelle présidente de Mauritius Finance",
+      "summary": "Mauritius Finance, qui représente l’ensemble des acteurs du secteur des services financiers à Maurice, a tenu sa cinquiè",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/assemblee-generale-annuelle-rubina-toorawa-devient-la-nouvelle-presidente-de-mauritius-finance"
+      ]
+    },
+    {
+      "id": "singleton_eb3f4017cdf3",
+      "cluster_time": "2026-04-23T07:00:00+00:00",
+      "category": "local",
+      "headline": "Triolet Mediclinic se dote d’un centre dédié au diabète et à la santé vasculaire",
+      "summary": "Après l’ouverture, en janvier, d’un premier Diabetes and Vascular Health Centre à l’hôpital Dr A. G. Jeetoo, à Port-Loui",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/triolet-mediclinic-se-dote-dun-centre-dedie-au-diabete-et-la-sante-vasculaire"
+      ]
+    },
+    {
+      "id": "singleton_80dc488d1a06",
+      "cluster_time": "2026-04-23T06:45:00+00:00",
+      "category": "local",
+      "headline": "Vaccination antigrippe : une deuxième campagne commence dans les hôpitaux et les centres de santé",
+      "summary": "Alors que la campagne de vaccination antigrippe du ministère de l’Intégration sociale se poursuit jusqu’au 13 mai pour l",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/vaccination-antigrippe-une-deuxieme-campagne-commence-dans-les-hopitaux-et-les-centres-de-sante"
+      ]
+    },
+    {
+      "id": "singleton_c9fdc60953e4",
+      "cluster_time": "2026-04-23T06:32:00+00:00",
+      "category": "local",
+      "headline": "Enquête Menlo Park : Deepshikha Gowreesunker se heurte à des objections",
+      "summary": "La demande formulée par Deepshikha Gowreesunker, ancienne Relationship Manager à la Mauritius Commercial Bank, a fait l’",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/enquete-menlo-park-deepshikha-gowreesunker-se-heurte-des-objections"
+      ]
+    },
+    {
+      "id": "singleton_67eebca81315",
+      "cluster_time": "2026-04-23T06:29:00+00:00",
+      "category": "local",
+      "headline": "Dhaneshwar Damry : « Le secteur financier doit évoluer vite pour capter de nouvelles opportunités d’investissement »",
+      "summary": "Il est essentiel que le secteur financier évolue rapidement et soit en mesure de proposer des produits concrets, notamme",
+      "cluster_size": 1,
+      "source_count": 1,
+      "sources": [
+        "Defimedia"
+      ],
+      "urls": [
+        "https://defimedia.info/dhaneshwar-damry-le-secteur-financier-doit-evoluer-vite-pour-capter-de-nouvelles-opportunites"
+      ]
+    },
+    {
+      "id": "singleton_7ee400a1f5b1",
+      "cluster_time": "2026-04-23T05:34:38+00:00",
+      "category": "local",
+      "headline": "Quatre-Bornes Becomes Chikungunya Epicentre as 59 New Cases Recorded In 24 Hours",
+      "summary": "Health authorities have issued an urgent plea for public responsibility as the town of Quatre-Bornes emerges as the new epicentre of a persistent chikungunya outbreak, with many infected patients reportedly flouting mandatory isolation orders. The situation reached a fresh peak … The post Quatre-Bornes Becomes Chikungunya Epicentre as 59 New Cases",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "News Moris"
       ],
       "urls": [
-        "https://newsmoris.com/government-prepares-water-supply-restrictions-as-major-reservoir-reaches-51-capacity/"
+        "https://newsmoris.com/quatre-bornes-becomes-chikungunya-epicentre-as-59-new-cases-recorded-in-24-hours/"
       ]
     },
     {
-      "id": "singleton_5af65e610dd3",
-      "cluster_time": "2026-04-22T12:16:44+00:00",
+      "id": "singleton_9556f48223a5",
+      "cluster_time": "2026-04-23T05:10:17+00:00",
       "category": "local",
-      "headline": "4th Leptospirosis Death Confirmed in Mauritius Amid Rising Cases",
-      "summary": "A fourth person has died from leptospirosis in Mauritius, health officials confirmed on Wednesday, as the number of active cases in the country climbs to 15. The latest fatality occurred on Tuesday, 21 April, at the Dr A.G. Jeetoo Hospital … The post 4th Leptospirosis Death Confirmed in Mauritius Amid Rising Cases appeared first on News Moris.",
+      "headline": "Bank of Mauritius Income Plunges by Rs 13 Billion in March 2026 Report",
+      "summary": "A sharp decline in total comprehensive income has hit national accounts, falling by approximately Rs 13 billion within a single month, according to the latest financial figures from the central bank. The BoM’s income dropped to Rs 39 billion in … The post Bank of Mauritius Income Plunges by Rs 13 Billion in March 2026 Report appeared first on News",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "News Moris"
       ],
       "urls": [
-        "https://newsmoris.com/4th-leptospirosis-death-confirmed-in-mauritius-amid-rising-cases/"
+        "https://newsmoris.com/bank-of-mauritius-income-plunges-by-rs-13-billion-in-march-2026-report/"
       ]
     },
     {
-      "id": "singleton_403d158eecd2",
-      "cluster_time": "2026-04-22T12:12:00+00:00",
+      "id": "singleton_75ee36db905b",
+      "cluster_time": "2026-04-23T04:52:00+00:00",
       "category": "local",
-      "headline": "Mpox : deux cas confirmés à Maurice",
-      "summary": "Deux cas de Mpox confirmés à Maurice.Les patients, un Mauricien et un Comorien, sont rentrés au pays en provenance de Ma",
+      "headline": "Au Victoria Urban Terminal : Un homme agresse un collégien",
+      "summary": "Un adolescent de 15 ans a vécu une expérience traumatisante dans l’après-midi du mardi 21 avril au Victoria Urban Termin",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "Defimedia"
       ],
       "urls": [
-        "https://defimedia.info/mpox-deux-cas-confirmes-maurice"
+        "https://defimedia.info/au-victoria-urban-terminal-un-homme-agresse-un-collegien"
       ]
     },
     {
-      "id": "singleton_f23da00b7d9d",
-      "cluster_time": "2026-04-22T11:59:14+00:00",
+      "id": "singleton_52d3674889af",
+      "cluster_time": "2026-04-23T04:34:23+00:00",
       "category": "local",
-      "headline": "Mauritian Banks Well Positioned to Support Economy over 5 Year Medium Term",
-      "summary": "The Mauritian banking sector is well-positioned to drive economic activity over the medium term, underpinned by robust balance sheets, resilient funding, and a rapid digital evolution, according to a new report by CareEdge Ratings. While the industry maintains a … The post Mauritian Banks Well Positioned to Support Economy over 5 Year Medium Term a",
+      "headline": "Mauritius Cash in Circulation Surpasses Rs 71 Billion Milestone",
+      "summary": "The total value of currency circulating within the economy has officially crossed the Rs 71 billion mark, representing a significant year-on-year increase in liquidity. According to latest figures, money in circulation rose from Rs 67.27 billion in March 2025 to … The post Mauritius Cash in Circulation Surpasses Rs 71 Billion Milestone appeared fir",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "News Moris"
       ],
       "urls": [
-        "https://newsmoris.com/mauritian-banks-well-positioned-to-support-economy-over-5-year-medium-term/"
+        "https://newsmoris.com/mauritius-cash-in-circulation-surpasses-rs-71-billion-milestone/"
       ]
     },
     {
-      "id": "singleton_0e93b3323f37",
-      "cluster_time": "2026-04-22T11:59:00+00:00",
-      "category": "local",
-      "headline": "Allégations de maltraitance : deux nouvelles plaintes contre Azhar Peerboccus",
-      "summary": "Deux nouvelles plaintes pour maltraitance ont été enregistrées contre le mufti Azhar Peerboccus au poste de police de Be",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/allegations-de-maltraitance-deux-nouvelles-plaintes-contre-azhar-peerboccus"
-      ]
-    },
-    {
-      "id": "c519dc040dee",
-      "cluster_time": "2026-04-22T11:55:00+00:00",
-      "category": "local",
-      "headline": "Violence en milieu carcéral : Une gardienne de prison agressée lors d’une fouille à Beau-Bassin",
-      "summary": "[L'Express (via mega.mu)] Une opération de fouille de routine a dégénéré en incident violent, mardi matin, à la prison des femmes de Beau-Bassin. Une gardienne de prison a été blessée et contrainte de recevoir des soins tandis qu’une détenue a été identifiée comme l’auteure de l’agression. Une intervention de routine a viré à l’agression, mardi, le 21 avril, au sein de la p\n\n[Defimedia] Un incident violent s’est produit à la prison des femmes de Beau-Bassin, le mardi 21 avril. Une Woman Lead Prison Office",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "L'Express (via mega.mu)",
-        "Defimedia"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256850/",
-        "https://defimedia.info/incident-la-prison-de-beau-bassin-une-woman-lead-prison-officer-agressee"
-      ]
-    },
-    {
-      "id": "singleton_a257723227e3",
-      "cluster_time": "2026-04-22T11:54:00+00:00",
-      "category": "local",
-      "headline": "Shamshir Mukoon, General Manager du CEB : « Ce n’est pas une crise énergétique, mais une crise du prix de l’énergie »",
-      "summary": "Une nouvelle étape est franchie dans la coopération entre Maurice et la France avec la signature d’un accord stratégique",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/shamsheer-mookun-general-manager-du-ceb-ce-nest-pas-une-crise-energetique-mais-une-crise-du-prix-de"
-      ]
-    },
-    {
-      "id": "singleton_c08cdd037eb9",
-      "cluster_time": "2026-04-22T11:47:00+00:00",
-      "category": "local",
-      "headline": "Théodose Fleurié nommé Chief Hospitality Officer du groupe Attitude",
-      "summary": "Le groupe Attitude a annoncé la nomination de Théodose Fleurié au poste de Chief Hospitality Officer. Il rejoint la dire",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/theodose-fleurie-nomme-chief-hospitality-officer-du-groupe-attitude"
-      ]
-    },
-    {
-      "id": "singleton_3a28434cbd2c",
-      "cluster_time": "2026-04-22T11:46:00+00:00",
-      "category": "local",
-      "headline": "Poste de Deputy Prime Minister : l’impatience monte au sein du MMM",
-      "summary": "Les mauves s’impatientent. C’est ce qui ressort des dernières tractations sur la scène politique, au sein même de la maj",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/poste-de-deputy-prime-minister-limpatience-monte-au-sein-du-mmm"
-      ]
-    },
-    {
-      "id": "singleton_f3aa5145f5fe",
-      "cluster_time": "2026-04-22T11:23:00+00:00",
-      "category": "local",
-      "headline": "Fraude de Rs 80 M : le DPP fait appel et reproche à la Cour un « poids excessif » accordé au remboursement de Dip",
-      "summary": "Le bureau du Directeur des poursuites publiques (DPP) a officiellement déposé, ce mercredi 22 avril 2026, un avis d’appe",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/fraude-de-rs-80-m-le-dpp-fait-appel-et-reproche-la-cour-un-poids-excessif-accorde-au-remboursement"
-      ]
-    },
-    {
-      "id": "singleton_77f4768b8e44",
-      "cluster_time": "2026-04-22T11:20:00+00:00",
-      "category": "local",
-      "headline": "Banque de Maurice : le revenu global recule d’environ Rs 13 milliards",
-      "summary": "La Banque de Maurice a enregistré un total comprehensive income de Rs 39 milliards en mars 2026, contre Rs 52 milliards",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/banque-de-maurice-le-revenu-global-recule-denviron-rs-13-milliards"
-      ]
-    },
-    {
-      "id": "singleton_77dfb1c2b1c5",
-      "cluster_time": "2026-04-22T11:15:38+00:00",
-      "category": "regional",
-      "headline": "Pix of the Day, 22 April 2026",
-      "summary": "Pix of the Day, 22 April 2026",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/pix-of-the-day-22-april-2026/"
-      ]
-    },
-    {
-      "id": "singleton_e9ec273c0654",
-      "cluster_time": "2026-04-22T11:02:41+00:00",
-      "category": "regional",
-      "headline": "Death sentences soar in DR Congo after moratorium lifted, report warns",
-      "summary": "The number of death sentences handed down in the Democratic Republic of Congo has skyrocketed since the government lifted a de facto moratorium on executions in 2024, a campaign group warned Tuesday.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/death-sentences-soar-in-dr-congo-after-moratorium-lifted-report-warns/"
-      ]
-    },
-    {
-      "id": "19d0f80460af",
-      "cluster_time": "2026-04-22T10:50:35+00:00",
+      "id": "singleton_8738895ebceb",
+      "cluster_time": "2026-04-23T04:25:30+00:00",
       "category": "global",
-      "headline": "UAE-backed Colombian mercenaries provided support to Sudan paramilitary, report says",
-      "summary": "[BBC News] The Conflict Insights Group (CIG) says its research also shows the extent of UAE involvement.\n\n[Africanews] Newly released reports say Colombian mercenaries helped the paramilitary Rapid Support Forces fight the Sudanese army, as the civil war gripping the country is entering its fourth year.",
-      "cluster_size": 2,
-      "source_count": 2,
-      "sources": [
-        "BBC News",
-        "Africanews"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cn4vk13wgwwo?at_medium=RSS&at_campaign=rss",
-        "http://www.africanews.com/2026/04/22/libya-uae-fuelled-sudan-war-with-colombian-mercenaries-reports-find/"
-      ]
-    },
-    {
-      "id": "singleton_1e92c09a73dd",
-      "cluster_time": "2026-04-22T10:30:00+00:00",
-      "category": "local",
-      "headline": "Consommation - Légumes : les prix reculent à l’approche de l’hiver",
-      "summary": "Les prix des légumes amorcent une tendance globale à la baisse avec l’arrivée prochaine de l’hiver. La pomme d’amour, pa",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/consommation-legumes-les-prix-reculent-lapproche-de-lhiver"
-      ]
-    },
-    {
-      "id": "singleton_428bbf8bd445",
-      "cluster_time": "2026-04-22T10:00:00+00:00",
-      "category": "local",
-      "headline": "Selon CareEdge Ratings : le secteur bancaire bien positionné pour soutenir l’économie à moyen terme",
-      "summary": "Porté par des bilans robustes, des financements résilients et l’essor de la digitalisation, le secteur bancaire mauricie",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/selon-careedge-ratings-le-secteur-bancaire-bien-positionne-pour-soutenir-leconomie-moyen-terme"
-      ]
-    },
-    {
-      "id": "singleton_c9414ee0756c",
-      "cluster_time": "2026-04-22T09:49:18+00:00",
-      "category": "regional",
-      "headline": "Khartoum slowly comes back to life, one year after recapture by military",
-      "summary": "Three years into the war and a year after Khartoum was taken over by the Sudanese army, the battered heart of the capital city remains quiet.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/khartoum-slowly-comes-back-to-life-one-year-after-recapture-by-military/"
-      ]
-    },
-    {
-      "id": "singleton_9c03728079f9",
-      "cluster_time": "2026-04-22T09:44:00+00:00",
-      "category": "local",
-      "headline": "Paul Bérenger lance un appel à rejoindre un nouveau mouvement politique en gestation",
-      "summary": "Dans une lettre adressée à la population, Paul Bérenger invite explicitement les Mauriciennes et Mauriciens à se joindre à un nouveau mouvement politique en cours de formation, présenté comme l...",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Le Mauricien"
-      ],
-      "urls": [
-        "https://www.lemauricien.com/actualites/politique/paul-berenger-lance-un-appel-a-rejoindre-un-nouveau-mouvement-politique-en-gestation/705270/"
-      ]
-    },
-    {
-      "id": "singleton_86b4d450bac1",
-      "cluster_time": "2026-04-22T09:30:00+00:00",
-      "category": "local",
-      "headline": "Argent en circulation : le seuil des Rs 71 milliards franchi",
-      "summary": "La monnaie en circulation dans le pays dépasse les Rs 71 milliards, soit une progression de 5,6 % sur un an. Les billets",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/argent-en-circulation-le-seuil-des-rs-71-milliards-franchi"
-      ]
-    },
-    {
-      "id": "singleton_dc92969ab291",
-      "cluster_time": "2026-04-22T09:09:50+00:00",
-      "category": "global",
-      "headline": "US charges anti-extremism organisation over payments to informants in hate groups",
-      "summary": "The Southern Poverty Law Center said it would \"vigorously defend ourselves, our staff, and our work\".",
+      "headline": "Lebanon accuses Israel of targeting journalist killed in air strike",
+      "summary": "Lebanon's prime minister accused Israel of war crimes after IDF attacks on Red Cross vehicles also stopped rescuers from reaching the site.",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
         "BBC News"
       ],
       "urls": [
-        "https://www.bbc.com/news/articles/clyrkd022ejo?at_medium=RSS&at_campaign=rss"
+        "https://www.bbc.com/news/articles/c5yvn036evlo?at_medium=RSS&at_campaign=rss"
       ]
     },
     {
-      "id": "singleton_6a18c24cd931",
-      "cluster_time": "2026-04-22T09:00:00+00:00",
+      "id": "singleton_c1415b8729df",
+      "cluster_time": "2026-04-23T04:00:52+00:00",
       "category": "local",
-      "headline": "Impliqué dans le cambriolage chez le Dr Modun - Hans Kissoon : de l’arnaque à la violence, une décennie de récidive",
-      "summary": "Connu de la police depuis 2017, Hans Kissoon, 34 ans, est impliqué dans une série de vols avec violence commis à travers",
+      "headline": "Unstable Weather May Trigger Heavy Rain, Thunderstorms and 3 Metre Swells",
+      "summary": "Moist and unstable conditions are expected to sweep in from the east this Thursday, 23 April, prompting authorities to advise the public to seek shelter and avoid the sea. Residents should prepare for a day of overcast skies and frequent … The post Unstable Weather May Trigger Heavy Rain, Thunderstorms and 3 Metre Swells appeared first on News Mori",
       "cluster_size": 1,
       "source_count": 1,
       "sources": [
-        "Defimedia"
+        "News Moris"
       ],
       "urls": [
-        "https://defimedia.info/implique-dans-le-cambriolage-chez-le-dr-modun-hans-kissoon-de-larnaque-la-violence-une-decennie-de"
-      ]
-    },
-    {
-      "id": "singleton_d070c5285bdd",
-      "cluster_time": "2026-04-22T08:59:00+00:00",
-      "category": "local",
-      "headline": "Earth Day : Rajesh Bhagwan lance un appel à la responsabilité collective",
-      "summary": "À l’occasion de l’Earth Day, le ministre de l’Environnement, Rajesh Bhagwan, lance un appel à la responsabilité collecti",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/earth-day-rajesh-bhagwan-lance-un-appel-la-responsabilite-collective"
-      ]
-    },
-    {
-      "id": "singleton_88a3a04be067",
-      "cluster_time": "2026-04-22T08:46:00+00:00",
-      "category": "local",
-      "headline": "Leptospirose : un quatrième décès enregistré à Maurice",
-      "summary": "Un décès lié à la leptospirose a été enregistré mardi 21 avril. Le patient était admis à l’hôpital Dr A.G. Jeetoo, à Por",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/leptospirose-un-quatrieme-deces-enregistre-maurice"
-      ]
-    },
-    {
-      "id": "singleton_6f69afb24f5c",
-      "cluster_time": "2026-04-22T08:41:43+00:00",
-      "category": "regional",
-      "headline": "Egypt's President el-Sissi hosts Finnish leader Stubb for talks in Cairo",
-      "summary": "Egypt's President Abdel Fattah el-Sissi welcomed his Finnish counterpart on Tuesday for wide-ranging talks on the rapidly changing global order.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/egypts-president-el-sissi-hosts-finnish-leader-stubb-for-talks-in-cairo/"
-      ]
-    },
-    {
-      "id": "singleton_0dc706394967",
-      "cluster_time": "2026-04-22T08:30:42+00:00",
-      "category": "regional",
-      "headline": "Trump extends Iran ceasefire, yet blockade enforcement persists",
-      "summary": "President Donald Trump has announced the extension of a fragile ceasefire with Iran, citing a request from Pakistan and saying he is awaiting what he called a “unified proposal” from Tehran.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/trump-extends-iran-ceasefire-yet-blockade-enforcement-ersists/"
-      ]
-    },
-    {
-      "id": "singleton_f35825eb97d1",
-      "cluster_time": "2026-04-22T08:30:00+00:00",
-      "category": "local",
-      "headline": "PSAC 2025 : de la théorie à la pratique, le défi du raisonnement",
-      "summary": "Entre hausse des résultats en mathématiques et fragilités persistantes en rédaction, le rapport du MES dévoile les clés",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/psac-2025-de-la-theorie-la-pratique-le-defi-du-raisonnement"
-      ]
-    },
-    {
-      "id": "singleton_abd0e39d361b",
-      "cluster_time": "2026-04-22T08:22:20+00:00",
-      "category": "regional",
-      "headline": "French ambassador says South Africa should attend all G20 summits",
-      "summary": "After the US president barred South Africa from attending the G20 summit at his Miami area club later this year, the French ambassador to South Africa insisted that the country should attend all G20 meetings.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/22/french-ambassador-says-south-africa-should-attend-all-g20-summits/"
-      ]
-    },
-    {
-      "id": "singleton_82cb80737a46",
-      "cluster_time": "2026-04-22T08:12:16+00:00",
-      "category": "regional",
-      "headline": "South Sudan to hold elections in December as fighting rages on",
-      "summary": "After years of delays, South Sudan is expected to hold elections in December, despite the nation being on the brink of civil war.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/21/south-sudan-to-hold-elections-in-december-as-fighting-rages-on/"
-      ]
-    },
-    {
-      "id": "singleton_03ef8e897f23",
-      "cluster_time": "2026-04-22T08:04:00+00:00",
-      "category": "regional",
-      "headline": "China pledges deeper cooperation with Mozambique",
-      "summary": "Chinese President Xi Jinping and Mozambican President Daniel Chapo have agreed to elevate ties between their countries, following talks in Beijing on Tuesday.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/21/china-pledges-deeper-cooperation-with-mozambique/"
-      ]
-    },
-    {
-      "id": "singleton_eb0321ab54ce",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Statistiques 2024-25 : Violences basées sur le genre: Moins de cas, toujours autant de failles",
-      "summary": "Le Conseil des ministres a pris acte, le 17 avril, des principaux éléments et conclusions du rapport *Statistics in Mauritius – A Gender Approach* 2024-25, préparé conjointement par le ministère de l’Égalité des genres et du bien-être familial et Statistics Mauritius. Ce rapport annuel offre un aperçu complet des indicateurs liés au genre à Maurice",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256889/"
-      ]
-    },
-    {
-      "id": "singleton_4f2c36fb0ff2",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Théâtre : «Avan Ler»: Quand la scène brise les silences",
-      "summary": "Il est 19 heures passées, ce 8 avril, lorsque les lumières s’éteignent dans la salle du Caudan Arts Centre. Dans un silence suspendu, les premières notes résonnent. Sur scène, une jeunesse prend la parole. *Avan Ler* commence – et avec elle – une plongée sans détour dans les réalités souvent tues de l’adolescence. Portée par la troupe Kõnnflor et i",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256892/"
-      ]
-    },
-    {
-      "id": "singleton_8aa85bb5157c",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Junior : Earth Day 2026: Comprendre notre planète et agir",
-      "summary": "Chaque année, le 22 avril, des millions de personnes à travers le monde célèbrent l’*«Earth Day»*, une journée spéciale dédiée à la protection de notre planète. En 2026, le thème choisi est *Our Power, Our Planet*, ce qui veut dire que chacun de nous, même les enfants, a un rôle à jouer pour prendre soin de la Terre. Cet événement n’est pas seuleme",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256886/"
-      ]
-    },
-    {
-      "id": "singleton_a02c909b3b84",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Nou Lar Nou Lamizik : PepCity 2026: Blakkayo en tête d'affiche du grand concert",
-      "summary": "Ce soir, Nou Lar Nou Lamizik accueille Vincent Chowrimootoo, *«Head of Customer Experience»* chez Quality Beverages Limited. Il nous parle de la nouvelle édition de PepCity, avec notamment l'événement qui se tiendra les 2 et 3 mai à Riche Terre Mall, mais aussi de la genèse de ce festival et surtout du grand concert de Blakkayo le 23 mai au Swami V",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256883/"
-      ]
-    },
-    {
-      "id": "singleton_e54a1664242b",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Environnement : Pollution plastique: Maurice se dote d’une feuille de route sur dix ans",
-      "summary": "Le Conseil des ministres a approuvé vendredi le *National Strategy Plan Roadmap for a Plastic Pollution-Free Mauritius*. Ce plan stratégique, validé par l’ensemble des parties prenantes, fixe 60 actions à déployer sur dix ans, avec un objectif chiffré : collecter 80 % du plastique produit à Maurice d’ici 2035. Le ministre de l’Environnement, de la",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256874/"
-      ]
-    },
-    {
-      "id": "singleton_225af09a975a",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Infrastructures : Autoroute M4: un projet ambitieux pour le développement régional",
-      "summary": "La construction des première et deuxième phases de la nouvelle autoroute M4, qui s’étendra sur 30 km et reliera Forbach à Bel-Air, débutera dans environ trois mois. Ce projet, doté d’un budget global de Rs 10,8 milliards financé par le gouvernement indien dans le cadre du *Special Economic Package*, vise à réduire les embouteillages de 40 % et à st",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256877/"
-      ]
-    },
-    {
-      "id": "singleton_baf1093e799b",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Parlement : Réformes à Rodrigues: 15 amendements sur la table, un comité de haut niveau annoncé",
-      "summary": "Le Premier ministre Navin Ramgoolam a fait le point sur les amendements envisagés à la *Rodrigues Regional Assembly Act*, en réponse à une question du député rodriguais Francisco François. Il a indiqué que, le 27 février 2026, le *Chief Executive* de l’Assemblée régionale de Rodrigues (ARR), après aval du Conseil exécutif, a soumis un paquet de 15",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256862/"
-      ]
-    },
-    {
-      "id": "singleton_ad36f3f64755",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Réduire la dépendance au diesel : Agaléga se tourne vers l’énergie photovoltaïque",
-      "summary": "Un nouveau pas vers la transition énergétique se dessine pour Agaléga. Les autorités entendent concrétiser un projet ambitieux : la mise en place de trois systèmes hybrides photovoltaïques couplés à des batteries de stockage. Selon l’appel d’offres lancé par l’Outer Islands Development Corporation (OIDC), ce projet englobe la conception, la fabrica",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256865/"
-      ]
-    },
-    {
-      "id": "singleton_c41d7049607e",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Grande-Bretagne : Le métro londonien perturbé par une grève de plusieurs jours",
-      "summary": "La grève *“impacte l’ensemble du réseau”*, indique Transport for London (TfL) sur son site internet. Aucun métro n’est attendu sur les lignes Piccadilly et Circle, tandis que certaines stations sur d’autres lignes restent également non desservies. Les arrêts de travail ont débuté mardi après-midi et se sont poursuivis mercredi matin. Ils doivent ég",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256868/"
-      ]
-    },
-    {
-      "id": "singleton_163e3ebe801d",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Accident de Solitude: Rye Joorawon libéré sous caution de Rs 25 000, la victime se bat pour sa vie",
-      "summary": "Trois jours après l'accident survenu à l'intersection de Solitude, le jockey Gulshan Rye Joorawon, 46 ans, a comparu ce mardi 21 avril devant la cour de Pamplemousses pour sa demande de liberté conditionnelle.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256895/"
-      ]
-    },
-    {
-      "id": "singleton_82ee64903e13",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Coût de la vie : Du salaire minimum au sommet de l’État: Le grand écart des fins de mois",
-      "summary": "À revenus différents, réalités différentes. Une fois les dépenses essentielles réglées, comme le logement, l’alimentation, le transport et les factures, combien reste-t-il réellement pour vivre ? À travers plusieurs profils types, du salaire minimum aux plus hauts niveaux de l’État, cette infographie montre les écarts de *«reste à vivre»*. Certains",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256844/"
-      ]
-    },
-    {
-      "id": "singleton_28845780b07b",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Transport : Taxis «marron» : Les «patentés» en ont ras le bol",
-      "summary": "La présence des taxis dits *marron* continue de susciter des tensions. Ces véhicules, opérant en dehors du cadre légal, sont accusés de perturber l’activité des chauffeurs de taxi détenteurs de patentes et de déséquilibrer le marché. Selon plusieurs opérateurs, cette situation fragilise leur activité et les oblige à quitter leur zone habituelle afi",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256847/"
-      ]
-    },
-    {
-      "id": "singleton_5d81681b5221",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Pension de vieillesse : Distribution des nouvelles cartes dans les bureaux de poste",
-      "summary": "Depuis le 17 avril, les bénéficiaires de la pension de vieillesse sont progressivement appelés dans les bureaux de poste à travers l’île pour le renouvellement de leur carte. L’opération, qui se poursuivra jusqu’au lundi 27 avril, concerne uniquement ceux qui perçoivent leur pension via ce mode de paiement. Sur place, les bénéficiaires doivent se p",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256853/"
-      ]
-    },
-    {
-      "id": "singleton_58c313b08e65",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "À Roches-Noires : Un piéton renversé par un chef-d’entreprise alcoolisé",
-      "summary": "Avish Augnoo, 26 ans, est hospitalisé dans un état critique depuis hier soir. Il a été victime d’un accident sur la route côtière de Roches-Noires.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256898/"
-      ]
-    },
-    {
-      "id": "singleton_c1a0d2f9be39",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Accident mortel à Grand-Bel-Air: Les deux adultes à l’avant périssent dans le véhicule en feu",
-      "summary": "Un grave accident de la route a coûté la vie à deux personnes et fait trois blessés, dont des jumeaux, une fille et un garçon de 14 ans, hier matin à Grand-Bel-Air, sur la route allant à Riche-en-Eau.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256901/"
-      ]
-    },
-    {
-      "id": "singleton_eb4a20b2cb95",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Diplomatie : Voyage du président taïwanais annulé: Pékin salue la décision de plusieurs pays africains, dont Maurice",
-      "summary": "La Chine a salué ce mercredi 22 avril l’attitude de plusieurs pays africains, dont Maurice, les Seychelles et Madagascar, après le retrait des permis de survol ayant contraint le président taïwanais, Lai Ching-te, à reporter son déplacement en Eswatini. Selon des sources proches du dossier, ces autorisations auraient été révoquées sans préavis à la",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256856/"
-      ]
-    },
-    {
-      "id": "singleton_89b8413ddf5f",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Energy Access Investment Forum 2026 : Le COMESA et la Banque mondiale lancent un fonds de 25 millions de dollars pour accélérer la transition énergétique",
-      "summary": "Le *Common Market for Eastern and Southern Africa* (COMESA) et la Banque mondiale ont lancé, le 21 avril à Nairobi, l'*Accelerating Sustainable and Clean Energy Access Transformation (ASCENT) Project Preparation Facility* (PPF), une initiative dotée de 25 millions de dollars destinée à accélérer la transition vers les énergies renouvelables dans la",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256859/"
-      ]
-    },
-    {
-      "id": "singleton_33ab7e72b10e",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Plaine-des-Roches : Une culture de cannabis découverte en pleine nature",
-      "summary": "Une opération menée par la police de Rivière-du-Rempart, le mardi 21 avril, a permis la découverte d’une culture de cannabis dissimulée dans une zone isolée de Plaine-des-Roches. Vers 8 h 45, les policiers, agissant sur la base d’informations jugées crédibles, se sont rendus sur un terrain broussailleux situé à une vingtaine de minutes de marche de",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256838/"
-      ]
-    },
-    {
-      "id": "singleton_7ed79072a28b",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Parlement : Police : La section finance face à un effectif réduit",
-      "summary": "Le député Ludovic Caserne a interpellé le Premier ministre sur les effectifs de la *Finance and Revenue Section* de la Mauritius Police Force. Dans sa réponse, le chef du gouvernement, citant le commissaire de police, a souligné que cette section devrait compter 62 officiers issus du *Finance Cadre*. Or, elle ne fonctionne qu’avec 48 agents. Dans l",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "L'Express (via mega.mu)"
-      ],
-      "urls": [
-        "https://live.mega.mu/redirect/256841/"
-      ]
-    },
-    {
-      "id": "singleton_6b0b0646b4b2",
-      "cluster_time": "2026-04-22T08:00:00+00:00",
-      "category": "local",
-      "headline": "Réserves en baisse - Eau : le pays sous pression",
-      "summary": "Le réservoir de Mare-aux-Vacoas n’est rempli qu’à 51 %, contre 85 % habituellement à cette période. Des restrictions de",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/reserves-en-baisse-eau-le-pays-sous-pression"
-      ]
-    },
-    {
-      "id": "singleton_c0819ea3ee07",
-      "cluster_time": "2026-04-22T07:42:13+00:00",
-      "category": "regional",
-      "headline": "Cost of war: Gaza development set back by 77 years, new report finds",
-      "summary": "Gaza will need close to eight decades and tens of billions of dollars to recover from more than two years of war waged by Israel, a new report finds.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Africanews"
-      ],
-      "urls": [
-        "http://www.africanews.com/2026/04/21/cost-of-war-gaza-development-set-back-by-77-years-new-report-finds/"
-      ]
-    },
-    {
-      "id": "singleton_620505e6e710",
-      "cluster_time": "2026-04-22T07:30:00+00:00",
-      "category": "local",
-      "headline": "Santé publique - Chikungunya : Quatre-Bornes au cœur de l’épidémie",
-      "summary": "L’épidémie de chikungunya ne faiblit pas à Maurice. Avec 59 nouveaux cas enregistrés en 24 heures et une moyenne quotidi",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/sante-publique-chikungunya-quatre-bornes-au-coeur-de-lepidemie"
-      ]
-    },
-    {
-      "id": "singleton_70fb974907c0",
-      "cluster_time": "2026-04-22T07:10:00+00:00",
-      "category": "local",
-      "headline": "Bypass de Flic-en-Flac : un projet routier de 4,8 km pour environ Rs 1 milliard à l’étude",
-      "summary": "Un projet de bypass de 4,8 km entre Xavier et Pierrefonds, estimé à environ Rs 1 milliard, a été soumis à une étude d’im",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/bypass-de-flic-en-flac-un-projet-routier-de-48-km-pour-environ-rs-1-milliard-letude"
-      ]
-    },
-    {
-      "id": "singleton_46e0bef63d30",
-      "cluster_time": "2026-04-22T06:50:00+00:00",
-      "category": "local",
-      "headline": "Détournement farine subventionnée : Baboo Gowreesunkar rattrapé par les procédures d’exportation",
-      "summary": "Le directeur de Ryder Xpress Co. Ltd inculpé pour complot mardiAprès l’arrestation d’Abdoulhakim Moindze, la Financial C",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/detournement-farine-subventionnee-baboo-gowreesunkar-rattrape-par-les-procedures-dexportation"
-      ]
-    },
-    {
-      "id": "singleton_b462a1d630fa",
-      "cluster_time": "2026-04-22T06:30:00+00:00",
-      "category": "local",
-      "headline": "Chagos : Maurice souveraine sur le papier, impuissante sur l’archipel",
-      "summary": "L’accord avec Londres reste suspendu aux arbitrages entre Washington et Londres autour de Diego Garcia. Deux lectures s’",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/chagos-maurice-souveraine-sur-le-papier-impuissante-sur-larchipel"
-      ]
-    },
-    {
-      "id": "singleton_8dc9cc3efc8d",
-      "cluster_time": "2026-04-22T06:25:15+00:00",
-      "category": "global",
-      "headline": "Taiwan president cancels trip after African countries revoke flight permits",
-      "summary": "Taiwan has accused Beijing of putting pressure on African countries to close their airspace to Lai's plane.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/crl16p72x7xo?at_medium=RSS&at_campaign=rss"
-      ]
-    },
-    {
-      "id": "singleton_7f952c18714d",
-      "cluster_time": "2026-04-22T06:20:00+00:00",
-      "category": "local",
-      "headline": "Khushal Lobine propose un « Sovereign Solidarity and Resilience Fund » face à la crise",
-      "summary": "Le député Khushal Lobine propose la création d’un « Sovereign Solidarity and Resilience Fund », un fonds temporaire insp",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "Defimedia"
-      ],
-      "urls": [
-        "https://defimedia.info/khushal-lobine-propose-un-sovereign-solidarity-and-resilience-fund-face-la-crise"
-      ]
-    },
-    {
-      "id": "singleton_9b15830926a7",
-      "cluster_time": "2026-04-22T05:55:18+00:00",
-      "category": "global",
-      "headline": "Thirteen killed in second India fireworks blast in three days",
-      "summary": "Earlier this week, an explosion at a firecracker factory in neighbouring state Tamil Nadu left at least 25 dead.",
-      "cluster_size": 1,
-      "source_count": 1,
-      "sources": [
-        "BBC News"
-      ],
-      "urls": [
-        "https://www.bbc.com/news/articles/cwydzddp4j9o?at_medium=RSS&at_campaign=rss"
+        "https://newsmoris.com/unstable-weather-may-trigger-heavy-rain-thunderstorms-and-3-metre-swells/"
       ]
     }
   ]
